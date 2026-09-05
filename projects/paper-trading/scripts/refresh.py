@@ -6,7 +6,7 @@ Run any weekday. It:
   1. marks every cohort in cohorts.json to market (latest available close per holding),
   2. appends / refreshes today's snapshot in daily_history.json (one per date, latest write wins),
   3. scores the concentrated-cohort candidate universe on a 2-factor composite
-     (valuepickr-screen's master_score + a weekly/monthly technical blend),
+     (valuepickr-open-screen's master_score + a weekly/monthly technical blend),
   4. writes dashboard_data.json, dashboard.html and RETURNS_TRACKER.md.
 
 It does NOT create new cohorts -- that stays a Monday-only step done from the SKILL,
@@ -256,7 +256,7 @@ def gap(slug):
     return float(CFG["gap_not_assessed_score"]), "absent (neutral)"
 
 def master_score(slug):
-    """master_score (valuepickr-screen/scripts/MASTER_SCORE_METHODOLOGY.md) -- already
+    """master_score (valuepickr-open-screen/scripts/MASTER_SCORE_METHODOLOGY.md) -- already
     a renormalized blend of conviction/quality/gap/consistency/asymmetry. Falls back to
     a neutral score, same convention as gap()'s not-assessed handling, for a name the
     registry hasn't scored yet (shouldn't happen for anything with a conviction_score,
@@ -581,10 +581,10 @@ def write_tracker(data, cohorts_doc):
     a("- **standard** — mirrors the recommendation's current allocation as-is (~10 diversified positions).")
     a("- **concentrated** — top-5 of the candidate universe by a **2-factor composite** "
       "(`master_score` 75% + technical 25%, technical itself weekly EMA 60% / monthly EMA 40%), "
-      "sized 25/20/20/17/13. `master_score` (valuepickr-screen, built from studying real "
+      "sized 25/20/20/17/13. `master_score` (valuepickr-open-screen, built from studying real "
       "high-return investors' documented methods) is itself a renormalized blend of "
       "conviction + quality + expectation-gap + consistency + asymmetry — see "
-      "`valuepickr-screen/scripts/MASTER_SCORE_METHODOLOGY.md`. Before 2026-09-05 this was a "
+      "`valuepickr-open-screen/scripts/MASTER_SCORE_METHODOLOGY.md`. Before 2026-09-05 this was a "
       "4-factor composite (conviction 30% + gap 30% + fundamental screen-tier 25% + weekly "
       "technical 15%); before 2026-09-01 it ranked on conviction score alone. Conviction/gap/"
       "fundamental-tier are still shown per-name for context, just no longer weighted "
@@ -1228,7 +1228,7 @@ lineChart();
   document.getElementById('model-methods').innerHTML = `
     <h3 style="font-family:'IBM Plex Sans',sans-serif;font-size:14px;margin-bottom:8px">How the composite is built</h3>
     <p><b>composite</b> = ${W.master}·master_score + ${W.technical}·technical &nbsp;(each factor 0–100).</p>
-    <p><b>Master score</b> — <code>master_score</code> from the ValuePickr screen (<code>valuepickr-screen/scripts/MASTER_SCORE_METHODOLOGY.md</code>): a renormalized blend of <code>conviction_score</code> (.25), <code>quality_score</code> (.25), <code>expectation_gap_score</code> (.20), <code>consistency_score</code> (.15, Mukherjea's Coffee Can persistence check) and <code>asymmetry_score</code> (.15, Pabrai's "heads I win, tails I don't lose much"), built from studying real high-return investors' documented methods. Conviction/Gap columns below are shown for context only — they already feed into Master upstream, so weighting them again here would double-count them.</p>
+    <p><b>Master score</b> — <code>master_score</code> from the ValuePickr screen (<code>valuepickr-open-screen/scripts/MASTER_SCORE_METHODOLOGY.md</code>): a renormalized blend of <code>conviction_score</code> (.25), <code>quality_score</code> (.25), <code>expectation_gap_score</code> (.20), <code>consistency_score</code> (.15, Mukherjea's Coffee Can persistence check) and <code>asymmetry_score</code> (.15, Pabrai's "heads I win, tails I don't lose much"), built from studying real high-return investors' documented methods. Conviction/Gap columns below are shown for context only — they already feed into Master upstream, so weighting them again here would double-count them.</p>
     <p><b>Technical</b> — now two timeframes, not one: <b>weekly</b> (60% of the technical weight) is the original discipline — last completed weekly close vs the 30-week EMA, full marks inside an 8% cushion, decays with extension, +12 for a fresh bullish cross, −20 past +45% extended, and a close below the EMA still drops the name from the pool entirely (this hard gate is unchanged). <b>Monthly</b> (40%) is new — last completed monthly close vs a 10-month EMA, a slower regime filter (Faber/GTAA-style) with wider thresholds (15% cushion, 70% overextended) that only ever shifts the score, never disqualifies — a weekly pullback inside a longer monthly uptrend is normal and shouldn't zero out the name.</p>
     <p style="margin-top:10px"><b>Next concentrated cohort</b> — Monday, top ${D.concentrated_next.length} sized ${slots}:<br>${picks}</p>
     <p class="sub" style="margin-top:10px">Weights live in <code>paper-trading/config.json</code>; <code>master_score</code> and the underlying conviction/quality/gap data are refreshed by other scheduled tasks and re-read here every run.</p>`;

@@ -1,6 +1,6 @@
 {
-  "_readme": "Config for paper-trading/scripts/refresh.py (the daily engine). Edit the composite_universe / weights / tier maps here rather than in code. Keep symbols/slugs in sync with docs/FINAL_PORTFOLIO_RECOMMENDATION.md when the recommendation adds a name.",
-  "_composite_v2_note": "2026-09-05: replaced the 4-factor (gap/conviction/fundamental/technical) composite with a 2-factor one (master/technical). master_score (valuepickr-screen/scripts/MASTER_SCORE_METHODOLOGY.md) already IS conviction+quality+gap+consistency+asymmetry renormalized -- keeping gap/conviction/fundamental as separate weighted composite inputs alongside it would double-count them. They're still computed and shown in the dashboard for context, just no longer weighted into `composite`. Technical is now itself weekly+monthly (technical_weights below).",
+  "_readme": "Config for paper-trading/scripts/refresh.py (the daily engine). Edit the composite_universe / weights / tier maps here rather than in code. Keep symbols/slugs in sync with portfolio/FINAL_PORTFOLIO_RECOMMENDATION.md when the recommendation adds a name. (2026-09-05 folder reorg: this project now lives at projects/paper-trading/, siblings at projects/valuepickr-open-screen/ and projects/legacy-108-screen/; the cross-project merged docs moved from docs/ to a top-level portfolio/.)",
+  "_composite_v2_note": "2026-09-05: replaced the 4-factor (gap/conviction/fundamental/technical) composite with a 2-factor one (master/technical). master_score (valuepickr-open-screen/scripts/MASTER_SCORE_METHODOLOGY.md) already IS conviction+quality+gap+consistency+asymmetry renormalized -- keeping gap/conviction/fundamental as separate weighted composite inputs alongside it would double-count them. They're still computed and shown in the dashboard for context, just no longer weighted into `composite`. Technical is now itself weekly+monthly (technical_weights below).",
   "capital": 100000,
   "ema_weeks": 30,
   "ema_months": 10,
@@ -42,10 +42,10 @@
   "_technical_monthly_note": "Softer, wider thresholds than weekly on purpose -- a 10-month EMA is a slower regime filter (Faber/GTAA-style), not a trade trigger. Never disqualifies from the pool the way a weekly EMA break does; only shifts the blended technical score. base_floor here is a genuine minimum score, not a gate.",
   "technical_monthly": { "ext_cushion_knee_pct": 15, "ext_decay_per_pct": 1.0, "fresh_cross_lookback_months": 3, "fresh_cross_bonus": 10, "overextended_pct": 70, "overextended_penalty": 15, "base_floor": 15 },
   "data_files": {
-    "conviction": "valuepickr-screen/data/conviction-scores.json",
-    "expectation_gap": "valuepickr-screen/data/expectation-gap-scores.json",
-    "master": "valuepickr-screen/data/master-scores.json",
-    "vp_open_screen_ranking": "valuepickr-screen/data/screen-ranking.json",
-    "curated_108_ranking": "research/scripts/data/final-ranking.json"
+    "conviction": "valuepickr-open-screen/data/conviction-scores.json",
+    "expectation_gap": "valuepickr-open-screen/data/expectation-gap-scores.json",
+    "master": "valuepickr-open-screen/data/master-scores.json",
+    "vp_open_screen_ranking": "valuepickr-open-screen/data/screen-ranking.json",
+    "curated_108_ranking": "legacy-108-screen/scripts/data/final-ranking.json"
   }
 }

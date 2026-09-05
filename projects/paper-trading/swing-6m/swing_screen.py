@@ -3,8 +3,8 @@
 Reuses paper-trading/scripts/refresh.py fetch/EMA helpers."""
 import sys, os, datetime, importlib.util
 
-ROOT = "/Users/amiyavidit/Documents/Work/Stock Market"
-spec = importlib.util.spec_from_file_location("refresh", os.path.join(ROOT, "paper-trading/scripts/refresh.py"))
+PAPER_TRADING_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+spec = importlib.util.spec_from_file_location("refresh", os.path.join(PAPER_TRADING_DIR, "scripts/refresh.py"))
 rf = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(rf)
 
