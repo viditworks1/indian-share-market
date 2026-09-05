@@ -1,0 +1,46 @@
+{
+  "name": "Metropolitan Stock Exchange of India Ltd (MSEI)",
+  "tagline": "India's third recognized stock exchange, structurally stuck below 0.1% market share against the NSE-BSE duopoly, showing an early turnover uptick off a near-zero base",
+  "business_overview": "MSEI (formerly MCX-SX) is one of only three SEBI-recognized national stock exchanges in India alongside NSE and BSE, licensed for equity, equity derivatives, currency derivatives, debt, and SME platforms. It remains unlisted, trading only in the OTC/pre-IPO market. Historically a minor currency-derivatives player, it captures well under 0.1% of total exchange-based trading volumes across segments.",
+  "fundamentals_table": [
+    ["Market Cap", "Unlisted — no listed market cap; OTC price ~Rs 5.5/share (Aug 2026), 52-wk range ~Rs 2.0-6.0"],
+    ["ROE / ROCE", "Negative (vs NSE/BSE at 36-53%)"],
+    ["Revenue", "~Rs 3.4 Cr FY26 — negligible"],
+    ["Debt", "Negligible debt, but weak operations, not a balance-sheet strength story"],
+    ["Turnover catalyst", "Market Maker programme activated Apr 2026; Day-1 turnover ~Rs 30 Cr vs a near-zero prior base; X lead cites ~534x turnover growth since Jan 2026"]
+  ],
+  "fundamentals_narrative": "MSEI has negative ROE/ROCE and revenue of only ~Rs 3.4 Cr — a structurally moribund exchange business. The 2026 Market Maker programme has produced a large percentage jump in daily turnover off a near-zero base (the X lead's '534x' framing), but this is early-stage liquidity-deepening activity, not evidence of a durable shift in market share against NSE/BSE, which still account for >99% of exchange volumes.",
+  "technical_read": "Not applicable — unlisted, trades OTC/pre-IPO with illiquid, dealer-quoted pricing (~Rs 5.5, off a 52-wk low of Rs 2.0). No exchange-traded chart to read.",
+  "sentiment_summary": "No dedicated ValuePickr thread found for MSEI as a standalone company (forum search turned up only passing mentions inside broader market-structure/NSE-IPO threads, not a dedicated MSEI discussion) — filtered out before a forum deep-read (Step 3), per rule.",
+  "community_signal": "None from ValuePickr. Original lead was an untrusted X post (@manojgupta1979) flagging the turnover surge as a momentum signal, with no stated fundamental thesis.",
+  "bse_notes": "Not applicable (unlisted).",
+  "bull_case": [
+    "One of only three SEBI-recognized national exchanges — a scarce, licensed asset in a business with structural entry barriers",
+    "2026 Market Maker programme is a genuine, recent operational catalyst producing a real (if low-base) jump in daily turnover",
+    "Negligible debt means no balance-sheet distress risk while the turnaround is attempted"
+  ],
+  "bear_case": [
+    "Negative ROE/ROCE and ~Rs 3.4 Cr revenue reflect a business that has failed to gain traction for over a decade against an entrenched NSE-BSE duopoly with strong network effects (liquidity begets liquidity)",
+    "<0.1% market share is a structural, not cyclical, problem — turnover is fungible and traders have no natural reason to route to the smaller book unless price/liquidity materially improves for a sustained period",
+    "Unlisted/OTC — no exchange-traded price discovery, wide bid-ask, and no path described to a public listing; the '534x' framing is off a near-zero base and says little about durability",
+    "No independent forum community has tracked this as an investable thesis, unlike every other candidate in this pipeline"
+  ],
+  "market_cap_tier": "Unlisted/pre-IPO — not directly investable via listed markets",
+  "thesis_fit": "neither",
+  "verdict_headline": "A structurally sub-scale exchange with a fresh but unproven liquidity initiative — not an investable thesis at this stage",
+  "verdict_reasoning": [
+    "No live-theme match (capital-markets financialisation theme covers depositories/RTAs/brokers/AMCs, not exchanges themselves) — recency/external-lead discovery, not a theme hit",
+    "Four-box score of 0.5 (tailwind weak, tam/moat/valuation no) is well below the neither threshold — the Market Maker turnover jump is real but insufficient evidence of a durable share shift against a duopoly with strong network effects",
+    "Unlisted status alone (no clean public price discovery) is a separate reason this doesn't fit the screen's normal thesis structure even before the fundamentals are considered"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "no",
+    "moat": "no",
+    "valuation": "no",
+    "score": 0.5,
+    "note": "Market Maker programme is a real but early, low-base catalyst (weak, not yes) — durability unproven. TAM is no: exchange trading is a winner-take-most business and MSEI holds <0.1% share against an entrenched NSE-BSE duopoly. Moat is no: no network-effect advantage, the structural disadvantage IS the problem. Valuation is no/unassessable: unlisted OTC pricing with no clean public multiple to anchor on."
+  }
+}

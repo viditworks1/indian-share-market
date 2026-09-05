@@ -1,0 +1,85 @@
+{
+  "name": "Computer Age Management Services Ltd (CAMS)",
+  "tagline": "High-quality MF-RTA duopoly and financialisation proxy — but a large-cap growing mid-teens, already re-rated, so it fails this screen's 10x/100x return bar",
+  "business_overview": "CAMS is the larger of India's two mutual-fund registrar & transfer agents (RTA), processing a majority of industry MF assets, plus a diversifying non-MF stack: CAMSPay, account aggregator, KRA/KYC, insurance repository (CAMSREP, incl. a new LIC tie-up), AIF & alternatives servicing. Revenue tracks MF AUM growth minus contractual yield compression ('inverted pyramid' pricing).",
+  "fundamentals_table": [
+    [
+      "Market Cap",
+      "~Rs 18,900 Cr (roughly flat over 1 year)"
+    ],
+    [
+      "ROCE",
+      "~44.9%"
+    ],
+    [
+      "ROE",
+      "~39.9% (3-yr)"
+    ],
+    [
+      "Debt",
+      "Almost debt-free; ~68% dividend payout"
+    ],
+    [
+      "Revenue growth",
+      "~13% guided FY27 (16% EBITDA); Q3 FY25 was ~28% before a slowdown"
+    ],
+    [
+      "52-week range",
+      "Rs 611.4 - 844.9 (CMP ~735)"
+    ]
+  ],
+  "fundamentals_narrative": "Exceptional business quality — ROCE ~45%, ROE ~40%, debt-free, ~30%+ net margin, a genuine duopoly moat with high switching costs (AMCs migrate TO CAMS, not away). But the growth math is the constraint: topline compounds only in the mid-teens because per-rupee RTA yields compress as fund AUM scales, and non-MF diversification (the real growth lever) has been slow to move the needle. Results bottomed in Q2 FY26 and are recovering. No red flags.",
+  "technical_read": "Not checked — size and growth rate are decisive regardless of chart. CAMS trades as a high-beta leveraged bet on the index (community observation).",
+  "sentiment_summary": "The dedicated thread 'CAMS - Indirect Bet on Financialization?' (topic 43609, 337 posts) is active and high-quality. Consensus: superb franchise, but total-return expectations are modest — one long-time holder pegged forward returns at ~10-12% CAGR from current valuations unless bought in a market panic. Debate centres on whether CAMS can diversify into non-MF revenue as effectively as KFin (international fund admin, issuer solutions). Q2 FY26 seen as the earnings trough; Q3 FY26 growth re-accelerated. KRA acquisition from NSE (Rs 7 Cr) and LIC insurance-repository tie-up viewed as small-now, optionality-later.",
+  "community_signal": "No multibagger call. Elevated-tier contributor Chandragupta (measured, widely upvoted) frames it as index-correlated with limited near-term upside but a durable compounder; gsapte explicitly says expect ~10-12% CAGR from here. Informational only — no floor-active trusted signal.",
+  "trusted_signals": [
+    {
+      "user": "Chandragupta",
+      "trust_tier": "elevated",
+      "date": "2026-04-09",
+      "note": "Results bottomed Q2 FY26; operating margin steady ~45%; absolute operating profit and revenue still growing; Q4 FY26 / Q1 FY27 should improve on a low base. Constructive but not a high-conviction multibagger call.",
+      "superseded": false
+    }
+  ],
+  "bse_notes": "Not checked.",
+  "value_chain": {
+    "theme": "Capital-markets financialisation",
+    "position": "MF registrar & transfer agent (RTA) — toll-booth on mutual-fund AUM; #1 of a 2-player market",
+    "bottleneck_node": "MF-RTA mandates (near-impossible to dislodge an incumbent RTA once embedded)",
+    "supply_side_status": "consolidating",
+    "adjacent_peers": [
+      "KFin Technologies",
+      "CDSL",
+      "BSE",
+      "Nippon Life AMC"
+    ],
+    "note": "Supply side is a fixed duopoly (CAMS + KFin); AMCs migrate toward CAMS, never away. But the toll rate falls as AUM grows (inverted-pyramid pricing), capping revenue growth at mid-teens even in a financialisation super-cycle."
+  },
+  "bull_case": [
+    "Duopoly moat, ~45% ROCE, debt-free, structural MF financialisation tailwind (SIP book, AUM CAGR ~15-20%)",
+    "Non-MF optionality (account aggregator, KRA consolidation 5->4 players, insurance repository / LIC, AIF servicing) could re-accelerate growth if any scales"
+  ],
+  "bear_case": [
+    "Large-cap (~Rs 18,900 Cr) growing only ~13% — a 10x-in-2-3-years or 100x-in-10-years outcome is arithmetically implausible",
+    "Yield compression structurally caps topline below AUM growth; non-MF diversification has underdelivered for years",
+    "High-beta proxy for the index — de-rates hard in market corrections"
+  ],
+  "market_cap_tier": "Large-cap (~Rs 18,900 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Best-in-class financialisation toll-booth, but a mid-teens grower at large-cap scale — a compounder, not a multibagger for this screen",
+  "verdict_reasoning": [
+    "External-lead (capital-markets financialisation theme). Business quality is A-grade but the return math fails: ~Rs 18,900 Cr market cap + ~13% revenue growth + structural yield compression cannot produce 10x/100x in the stated windows.",
+    "Community view (elevated-tier, no floor active) is explicitly ~10-12% CAGR expectations, not a high-conviction multibagger — consistent with 'neither'.",
+    "Watch item, not a buy-thesis: whether non-MF revenue (KRA consolidation, insurance repository, AIF servicing) ever scales enough to break the mid-teens ceiling."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "yes",
+    "tam": "no",
+    "moat": "yes",
+    "valuation": "weak",
+    "score": 2.5,
+    "note": "value_chain explicit: 'MF-RTA mandates (near-impossible to dislodge an incumbent RTA once embedded)' (moat=yes) in a real financialisation super-cycle (tailwind=yes); but 'the toll rate falls as AUM grows... capping revenue growth at mid-teens even in a super-cycle' (tam=no)."
+  }
+}

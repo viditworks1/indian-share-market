@@ -1,0 +1,60 @@
+{
+  "name": "Faze Three Ltd",
+  "tagline": "Record-revenue home-textiles exporter whose profit fell 24% YoY on an input-cost shock -- weak returns and a rich multiple with no clear inflection",
+  "business_overview": "Faze Three is a vertically integrated manufacturer and exporter of home textiles and technical textiles (yarn to finished product), focused almost entirely on export markets.",
+  "fundamentals_table": [
+    [
+      "Market Cap",
+      "Rs 1,313 Cr"
+    ],
+    [
+      "ROCE",
+      "8.25% (weak)"
+    ],
+    [
+      "ROE",
+      "6.52% (weak, 3yr avg 8.81%)"
+    ],
+    [
+      "Stock P/E",
+      "46.8 (rich for the return profile)"
+    ],
+    [
+      "Q1 FY27 (Jun 2026)",
+      "Revenue Rs 235 Cr, up 8.9% YoY (highest-ever June quarter); PAT Rs 9.64 Cr, down 24.5% YoY"
+    ]
+  ],
+  "fundamentals_narrative": "Q1 FY27 revenue was the company's highest-ever for a June quarter, but that top-line record didn't translate to earnings: EBITDA fell 5% YoY and PAT dropped 24.5% YoY, as cotton, polyester, chemicals, fuel, packaging and logistics costs rose 25-35% from pre-war levels amid the West Asia crisis, only partially offset by better USD/INR realisation. Trailing ROCE (8.25%) and ROE (6.52%) were already weak before this margin hit, and the stock trades at a rich ~47x P/E for that return profile. Cash flow from operations was a genuine bright spot (Rs 48.2 Cr, aided by working-capital release), funding capex and a modest debt reduction.",
+  "technical_read": "Not pulled this pass -- filtered out before technicals escalation.",
+  "sentiment_summary": "Existing company thread on ValuePickr (topic 82007) was not read this pass given the clear fundamentals-driven filter decision.",
+  "community_signal": "harsh.beria93 (trusted, elevated-tier) disclosed buying and increasing a position in Faze Three, per existing state.json sourcing -- an informational data point only, not treated as a conviction floor since trusted_conviction_floor_active is false for this entry.",
+  "bse_notes": "Not checked this pass.",
+  "bull_case": [
+    "Record June-quarter revenue shows real demand/order-book strength despite the cost environment",
+    "Strong operating cash flow (Rs 48.2 Cr) funded capex and reduced net borrowings in the same quarter",
+    "A trusted user holds a position, though the mention predates this quarter's margin pressure"
+  ],
+  "bear_case": [
+    "PAT fell 24.5% YoY even as revenue hit a record -- a genuine, current margin problem, not a one-off base effect",
+    "Trailing ROCE (8.25%) and ROE (6.52%) were already weak before this quarter's cost shock",
+    "A ~47x P/E is hard to justify against high-single-digit ROE with margins actively under pressure from an unresolved geopolitical cost shock"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 1,313 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Record revenue, but profit is moving the wrong way and the multiple doesn't fit the return profile",
+  "verdict_reasoning": [
+    "Both the trailing return profile (ROCE 8.25%, ROE 6.52%) and the most recent quarter (PAT -24.5% YoY) are weak -- this is the opposite of the recent-quarter-inflection pattern the screen looks for",
+    "The cost shock driving the margin miss (West Asia-linked input inflation) is an ongoing, unresolved headwind rather than a one-off already absorbed",
+    "No red flag, but no catalyst either -- filtered out on fundamentals per the standard rule"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "no",
+    "tam": "weak",
+    "moat": "weak",
+    "valuation": "weak",
+    "score": 1.5,
+    "note": "Verdict explicit: 'both the trailing return profile (ROCE 8.25%, ROE 6.52%) and the most recent quarter (PAT -24.5% YoY) are weak' (tailwind=no); the West Asia-linked input-cost shock is 'an ongoing, unresolved headwind rather than a one-off already absorbed'."
+  }
+}

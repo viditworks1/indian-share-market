@@ -1,0 +1,86 @@
+{
+  "_doc": "State for the x-trusted-cluster scheduled task. Mirrors trusted_threads.json in spirit. handles[]: X accounts watched. 'tier' = 'primary' (user-named-trusted: @ishmohit1 — signals get trusted_conviction_strength, but NOT a conviction floor; floor stays core-tier/phreakv6 only) or 'cluster' (people @ishmohit1 consistently engages with — informational only, like an 'elevated' VP user). last_tweet_id_seen: highest tweet id already processed for that handle (string; null = never run, first run reads the trailing 30 days only, never older — respects the 1-year backfill cap). Method + rationale: playbook/ishmohit-soic-style.md.",
+  "actor": "kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest",
+  "first_run_lookback_days": 30,
+  "last_run_date": "2026-09-05",
+  "handles": [
+    {
+      "handle": "ishmohit1",
+      "tier": "primary",
+      "last_tweet_id_seen": "2095805210602217730",
+      "note": "Ishmohit Arora — SOIC founder; user-named trusted 2026-08-30"
+    },
+    {
+      "handle": "unseenvalue",
+      "tier": "cluster",
+      "last_tweet_id_seen": "2095831721992159301",
+      "note": "early on CDMO; @ishmohit1 references often"
+    },
+    {
+      "handle": "itsTarH",
+      "tier": "cluster",
+      "last_tweet_id_seen": "2095559667661545819",
+      "note": "Tar — co-presents at conclaves with @ishmohit1"
+    },
+    {
+      "handle": "persistencecap",
+      "tier": "cluster",
+      "last_tweet_id_seen": "2095418924699734151",
+      "note": "Persistence Capital — 'Signal & Noise' deck; @ishmohit1 rates their work"
+    },
+    {
+      "handle": "LearningEleven",
+      "tier": "cluster",
+      "last_tweet_id_seen": "2095867482737349118",
+      "note": "Sekhar — Investing Eleven; frequent @ishmohit1 interaction"
+    },
+    {
+      "handle": "suru27",
+      "tier": "cluster",
+      "last_tweet_id_seen": "2096059863277416682",
+      "note": "Kumar Saurabh — Scientific Investing"
+    },
+    {
+      "handle": "srisiv1",
+      "tier": "cluster",
+      "last_tweet_id_seen": "2091052221249224889",
+      "note": "Sridhar Sivaram / Enam — @ishmohit1: 'prescient, never miss an interview'"
+    },
+    {
+      "handle": "dhruvbajaj184",
+      "tier": "cluster",
+      "last_tweet_id_seen": "2095064570083840484",
+      "note": "special-situations; hosted by SOIC"
+    },
+    {
+      "handle": "prabhakarkudva",
+      "tier": "cluster",
+      "last_tweet_id_seen": "2089354610154881490",
+      "note": "PEAD / earnings-surprise commentary @ishmohit1 endorses"
+    },
+    {
+      "handle": "Anand_shah07",
+      "tier": "cluster",
+      "last_tweet_id_seen": "2095795106469335151",
+      "note": "@ishmohit1 quote-amplifies on psychology + themes"
+    },
+    {
+      "handle": "saket1974",
+      "tier": "cluster",
+      "last_tweet_id_seen": "2095539903631335795",
+      "note": "pipe industry; named in playbook/ishmohit-soic-style.md section 5. Low posting volume. Added 2026-08-31 (user-directed x-cluster expansion)."
+    },
+    {
+      "handle": "Finstor85",
+      "tier": "cluster",
+      "last_tweet_id_seen": "2095123978008371652",
+      "note": "Ameya; named in playbook section 5. Very low posting volume. Added 2026-08-31 (user-directed x-cluster expansion)."
+    },
+    {
+      "handle": "a_basumallick",
+      "tier": "cluster",
+      "last_tweet_id_seen": "2095874806168129636",
+      "note": "Abhishek Basumallick (Shree Rama PMS / Intelligent Investor advisory / CURIOSITY newsletter). Named in playbook section 5. High-volume concall-snippet + macro/theme posting. Added 2026-08-31 (user-directed x-cluster expansion)."
+    }
+  ]
+}

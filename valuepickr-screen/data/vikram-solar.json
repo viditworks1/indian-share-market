@@ -1,0 +1,67 @@
+{
+  "name": "Vikram Solar Ltd",
+  "tagline": "Recently-listed solar module maker with real growth and heavy capex ahead, contested community debate over hidden debt and moat",
+  "business_overview": "Vikram Solar is one of India's oldest solar module manufacturers, recently IPO'd, expanding into cell manufacturing and DCR modules with heavy capex plans over the next 1.5-2 years.",
+  "fundamentals_table": [
+    [
+      "Market Cap",
+      "Rs 6,231 Cr"
+    ],
+    [
+      "ROCE",
+      "30.6%"
+    ],
+    [
+      "ROE",
+      "21.4%"
+    ],
+    [
+      "Revenue CAGR",
+      "17.42% (vs industry median 3.03%)"
+    ],
+    [
+      "FY26 Revenue/EBITDA",
+      "Rs 4,800 Cr / Rs 917 Cr"
+    ],
+    [
+      "52-week range",
+      "Rs 155 - 408"
+    ]
+  ],
+  "fundamentals_narrative": "Headline returns and growth look strong, but this is a recent IPO in a heavy-capex phase, and the community thread raised specific concerns about debt visibility that the screener-level numbers don't capture.",
+  "technical_read": "Not checked this pass.",
+  "sentiment_summary": "Read all 30 posts (thread is new, no escalation needed beyond the single batch). Thread is young (started 2026) and already features a real debt/leverage debate among several posters within weeks of listing.",
+  "community_signal": "No trusted-roster users posted in this thread. Ns1 flagged that debt levels 'look ok on face' but are substantially hidden in acceptances within other current liabilities -- a specific, concrete accounting caution rather than vague skepticism. murali603 separately projected gross debt could reach ~Rs 7,700 Cr by FY27-end against a management-stated Rs 6,200 Cr total capex plan (Rs 1,500 Cr IPO + Rs 1,200 Cr internal accruals + Rs 3,500 Cr debt), implying EBITDA could double in 2 years but PAT stays muted from interest/depreciation drag. Profp and others debated whether the sector lacks real entry barriers (commodity/'me too' competition) versus the scope for a vertically integrated player to build defensible positioning.",
+  "trusted_signals": [],
+  "bse_notes": "Not checked.",
+  "bull_case": [
+    "Strong current ROCE/ROE (30.6%/21.4%) and revenue CAGR well above the industry median",
+    "Heavy capex into cell manufacturing could unlock DCR module margins (~30% per one comparison to a peer), with EBITDA potentially doubling over 2 years per community modeling",
+    "One of the oldest, most established module manufacturers in India, now vertically integrating"
+  ],
+  "bear_case": [
+    "A specific, credible community concern that real debt levels are understated on the balance sheet, hidden within acceptances/other current liabilities rather than reported as conventional debt",
+    "Even optimistic community projections show PAT staying muted for the next 1-2 years due to rising interest and depreciation from the capex cycle, despite EBITDA growth",
+    "Commodity-like module manufacturing with limited entry barriers -- community itself flagged the sector risk of new entrants and price competition",
+    "Recently listed with a short public trading and thread history -- limited data to judge execution track record yet"
+  ],
+  "market_cap_tier": "Mid-cap (~Rs 6,231 Cr)",
+  "thesis_fit": "10x-in-2-3-years",
+  "verdict_headline": "Real capex-driven growth story, but a specific hidden-debt concern from the community needs resolution before conviction can rise",
+  "verdict_reasoning": [
+    "Strong current returns and above-industry growth support the thesis, and the capex-into-cell/DCR-module transition is a genuine, sizable catalyst",
+    "But a specific, well-reasoned community flag about understated debt (via acceptances) is exactly the kind of red flag this screen should weight seriously, not dismiss as noise, especially combined with independent modeling showing muted PAT through the capex cycle",
+    "Kept to low-medium conviction pending clearer balance-sheet visibility as more quarters of public reporting accumulate"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "conviction": "Low-Medium",
+  "four_box": {
+    "tailwind": "yes",
+    "tam": "weak",
+    "moat": "no",
+    "valuation": "weak",
+    "score": 2.0,
+    "note": "DCR-module/cell-manufacturing policy push is a real structural tailwind; capex-driven EBITDA-doubling potential supports some tam but PAT stays muted 1-2yrs on rising interest/depreciation — weak; community explicitly flags commodity-like module manufacturing with limited entry barriers — moat no; no valuation data, and a credible concern that real debt is understated (hidden in acceptances) is a separate red flag."
+  }
+}

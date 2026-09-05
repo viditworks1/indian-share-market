@@ -1,0 +1,61 @@
+{
+  "name": "Megatherm Induction Ltd",
+  "tagline": "NSE SME maker of induction melting furnaces and turnkey steel-melt-shop equipment, diversifying into transformers for growth headroom - cheap on paper (~16.5x P/E, ~400 Cr mkt cap) but the VP thread has gone quiet for over a year with an unresolved community debate on whether the core furnace market is already saturated",
+  "business_overview": "Incorporated 2010, Megatherm designs, engineers, supplies, erects and commissions induction melting furnaces, induction heating equipment, and turnkey steel-melt-shop solutions (transformers, ladle refining furnaces, continuous casting machines, fume extraction, electric arc furnaces) for secondary/primary steel producers, auto ancillaries, ordnance factories, railways and DI-pipe manufacturers. 1700+ customers, 3000+ installations, 44+ countries. Since 2024 has diversified into renewable/industrial transformers (targeting 500 Cr revenue by 2030, from a ~280 Cr base) to escape a debated small core-TAM. Ashish Kacholia took a stake at listing (Feb 2024). (Source: external-lead, @ankitbahuguna84, untrusted X triage, first_seen 2026-09-04.)",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 400 Cr (Screener; other sources Rs 386-595 Cr depending on date)"],
+    ["52-week range", "~Rs 195 - Rs 490 (wide dispersion across sources; SME thin trading)"],
+    ["ROCE / ROE", "18.1% / 15.8%"],
+    ["Revenue growth", "~7.6%/yr average (multi-year) - modest vs the story's framing"],
+    ["Stock P/E", "~16.5x"],
+    ["Working capital", "Debtor/WC days historically low (12/32 days) - genuine payment-terms strength"]
+  ],
+  "fundamentals_narrative": "Clean, low-leverage SME with genuinely strong working-capital discipline (low debtor days) and a real brand-name anchor investor (Kacholia). But headline multi-year revenue growth (~7.6%/yr) is modest, and the thread's central, unresolved debate - is the addressable induction-furnace market (~Rs 700 Cr in India, of which Megatherm already holds ~160 Cr and Electrotherm ~200 Cr) simply too small for a 10x re-rating - was never settled by fresh data. The transformer diversification (targeting Rs 500 Cr revenue by 2030) is the real growth lever but the forum has had zero updates on its progress since mid-2025.",
+  "technical_read": "Not pulled - thread staleness and unresolved TAM debate argued against escalating to technicals for a name this uncertain.",
+  "sentiment_summary": "44-post thread, all activity from Feb 2024 to Jul 2025 - no post in the last 14 months. Early enthusiasm (Kacholia entry, management channel checks, positive site-visit report) gave way to a sustained bull/bear TAM debate (Ansh_Jain vs Mohit_baid) that was never resolved with hard numbers, followed by the transformer-diversification pivot (H1FY25 update: 393 Cr new transformer order book) and then silence.",
+  "community_signal": "Prabhat_Mohanty (trusted) was explicitly bearish at IPO-adjacent prices in Mar 2024, calling it 'a lottery of huge risk' given SME illiquidity and no room for averaging - a caution that has aged reasonably given the subsequent 14-month silence and unresolved TAM question. Mohit_baid (untracked, thread OP) remained constructively bullish throughout, citing steel-decarbonisation tailwinds and the transformer pivot.",
+  "trusted_signals": [
+    {
+      "date": "2024-03-30",
+      "username": "Prabhat_Mohanty",
+      "thread": "Megatherm - Mega Opportunity",
+      "note": "Bearish/cautious at ~Rs 250 (vs Rs 108 IPO price): 'no rationale in investment... rather a lottery of huge risk' given SME illiquidity, no averaging room, and execution risk. Not a directional 10x call - a caution flag.",
+      "superseded": false
+    }
+  ],
+  "bse_notes": "No SEBI or fraud action found. Promoters held 72.71% post-IPO. No recent (2026) corporate disclosures surfaced in the fetched thread window.",
+  "bull_case": [
+    "Clean balance sheet, strong working-capital metrics (12/32 day debtor/WC cycle), low debt",
+    "Ashish Kacholia entered at listing - a credible anchor investor signal",
+    "Steel-decarbonisation and EAF/IF-route capex tailwinds are real, multi-year themes",
+    "Transformer diversification targets Rs 500 Cr revenue by 2030 (from ~280 Cr) - real TAM expansion if executed",
+    "Cheap on paper: ~16.5x P/E, ~Rs 400 Cr market cap"
+  ],
+  "bear_case": [
+    "Core induction-furnace TAM is small and contested by the community (~Rs 700 Cr domestic market, already ~50% held by Megatherm+Electrotherm) - limited organic runway",
+    "Multi-year revenue growth of only ~7.6%/yr - modest, not the growth profile a 10x thesis needs",
+    "Forum has gone completely quiet for 14+ months - no evidence the transformer pivot is actually delivering",
+    "Trusted-user caution (Prabhat_Mohanty) on SME illiquidity and execution risk stands unrebutted",
+    "Promoter Corporate Group entities operate in the same line of business with no non-compete agreement (RHP-disclosed risk)"
+  ],
+  "market_cap_tier": "Micro-cap (~Rs 400 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Clean, cheap SME with a real transformer-diversification growth lever, but the four-box valuation exception isn't enough to overcome 14 months of forum silence and an unresolved core-TAM debate - thesis_fit neither, conviction Low-Medium pending a fresh update.",
+  "verdict_reasoning": [
+    "four_box: tailwind weak (real but modest steel-capex tailwind, contested core TAM), tam weak (community-debated small addressable market for the core furnace business), moat weak (Inductotherm dominant, Electrotherm a direct competitor, no clear differentiation established), valuation yes (~16.5x P/E, Rs 400 Cr mkt cap is statistically cheap) -> score 2.0",
+    "Score sits in the 2.0-2.5 exception band and valuation=yes would technically permit invoking the exception, but exercising judgment here: 14 months without a single forum update, an unresolved TAM debate from trusted/untracked users, and no confirmation the transformer pivot's 500 Cr-by-2030 target is on track argue against stretching for a return-magnitude label -> thesis_fit 'neither'",
+    "No live theme match in active_themes.json (steel/EAF equipment doesn't hit grid-transmission or forging/casting keyword sets cleanly) - no value_chain block written",
+    "No red flag. Source is untrusted external-lead (X triage, chart described as 'waking up') - no conviction floor applies",
+    "Re-check trigger: any fresh forum post or filing confirming FY26/FY27 transformer-segment revenue traction; revisit_after_30d left false given the staleness"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "weak",
+    "valuation": "yes",
+    "score": 2.0,
+    "note": "Cheap valuation is real, but core-furnace TAM is small and community-contested, moat vs Electrotherm/Inductotherm unclear, and forum has gone quiet for 14 months on the transformer-pivot growth lever"
+  }
+}

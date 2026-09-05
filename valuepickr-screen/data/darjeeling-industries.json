@@ -1,0 +1,48 @@
+{
+  "name": "Darjeeling Industries Ltd",
+  "tagline": "EXCLUDED - a live SEBI ex-parte order (June 2026) bars the MD and nine others for alleged circular funding and stock manipulation, and SEBI questions whether the company even exists operationally",
+  "business_overview": "Darjeeling Industries is a BSE-listed entity nominally in agricultural trading. Following the appointment of a new MD in October 2024 it reported a sharp jump in revenue and profit.",
+  "fundamentals_table": [
+    [
+      "Regulatory status",
+      "Active SEBI ex-parte interim order dated 30 June 2026"
+    ],
+    [
+      "Action",
+      "MD (Ashok Dilipkumar Jain) and 9 others barred from trading in the scrip"
+    ],
+    [
+      "Allegations",
+      "circular funding, misuse of preferential-issue proceeds, suspected stock-price manipulation"
+    ],
+    [
+      "Operational status",
+      "SEBI could not find any operational presence at either declared registered-office address"
+    ]
+  ],
+  "fundamentals_narrative": "Fundamentals are not the relevant question. A SEBI order of 30 June 2026 bars the MD and nine associated entities from the securities market over an alleged scheme involving circular funding, diversion of preferential-issue money to unrelated parties (including ~Rs 3.09 Cr to a baby-care LLP), and stock-price manipulation - and the regulator explicitly questioned the very existence of the listed company, having found no operations at its registered addresses. Any historical price appreciation is itself potentially a product of the alleged manipulation.",
+  "technical_read": "Not applicable - excluded on regulatory grounds.",
+  "sentiment_summary": "No deep ValuePickr thread read - the stock is filtered out at the preliminary stage on a confirmed active SEBI enforcement action, per the project's EXCLUDE rule.",
+  "community_signal": "Not applicable.",
+  "bse_notes": "Active SEBI ex-parte interim order (30 June 2026): MD and 9 others barred; allegations of circular funding, preferential-allotment misuse and manipulation; company allegedly not traceable at its registered offices.",
+  "bull_case": [
+    "None applicable - the name is excluded on regulatory grounds"
+  ],
+  "bear_case": [
+    "Live SEBI enforcement action alleging fraud, circular funding and stock manipulation, with named individuals barred",
+    "Regulator cannot confirm the company has real operations at its registered addresses",
+    "Reported post-Oct-2024 revenue/profit surge is exactly what SEBI is investigating as potentially fabricated",
+    "Any past 'multi-bagger' price move may be manipulation, not value creation"
+  ],
+  "market_cap_tier": "Not applicable - excluded on governance / fraud grounds",
+  "thesis_fit": "neither",
+  "verdict_headline": "EXCLUDED - confirmed active SEBI fraud / manipulation enforcement action; do not consider",
+  "verdict_reasoning": [
+    "Legacy-108-screen seed (old bucket AVOID, 'confirmed active SEBI ex-parte interim order', frozen 2026-08-15) - re-verified: the 30 June 2026 order is real and still the operative regulatory status; the old EXCLUDE call is confirmed, not changed",
+    "This is a live regulatory enforcement action, not a soft risk factor - it overrides any fundamental or technical consideration",
+    "Thesis fit 'neither'; red-flag tier EXCLUDE; no deep thread read"
+  ],
+  "red_flag_tier": "EXCLUDE",
+  "red_flag_reason": "Active SEBI ex-parte interim order dated 30 June 2026 barring the MD and 9 others for alleged circular funding, preferential-allotment misuse and stock-price manipulation; SEBI could not confirm the company's operational existence.",
+  "trusted_signals": []
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Osel Devices Ltd",
+  "tagline": "LED display / hearing-aid / Philips-branded feature-phone SME with a genuine LED-outdoor moat, but flagged HIGH CAUTION: two trusted users independently caught the company misclassifying short-term borrowings as operating cash flow (inflating FY26 OCF from an actual -Rs 40 Cr to a reported +Rs 10 Cr), plus unverified promoter-background concerns tied to its IPO manager",
+  "business_overview": "Established 2006, Osel Devices began as a trading company, moved to manufacturing in 2019. Produces LED display systems (outdoor advertising/billboards/command centres, ~36% of FY24 revenue) and hearing aids (imported white-labelled devices, government-tender B2G business, ~64% of FY24 revenue), and since 2025 has diversified further into Philips-branded feature phones and smartphones, plus an infrastructure venture at JNPT. Facility in Greater Noida. (Source: external-lead, @ankitbahuguna84, untrusted X triage, first_seen 2026-09-04.)",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 798 Cr (up 35.9% in 1yr per one source; community post cites ~Rs 900 Cr)"],
+    ["52-week range", "Rs 196.75 - Rs 835"],
+    ["ROCE / ROE", "31.01% / 30.09%"],
+    ["Revenue growth", "~45.6%/yr average; FY24 revenue Rs 132.25 Cr, PAT margin rose 6.14% -> 9.19%"],
+    ["Debt/Equity", "0.46"],
+    ["Reported vs actual FY26 OCF", "Reported +Rs 10 Cr; actual per community recalculation -Rs 40 Cr (short-term borrowings of Rs 50 Cr misclassified under Operating rather than Financing activities)"],
+    ["Reported vs actual FY25 OCF", "Reported -Rs 38.22 Cr; actual per community recalculation -Rs 68.65 Cr"]
+  ],
+  "fundamentals_narrative": "Headline growth and returns look strong (45.6%/yr revenue growth, 30%+ ROCE/ROE), and the LED-display segment appears to have a genuine niche moat per community discussion. But this is overshadowed by a serious, independently-corroborated accounting-integrity issue: the company classified a Rs 50 Cr increase in short-term borrowings under Cash Flow from Operating Activities instead of Financing Activities, which inflated reported FY26 OCF from an actual -Rs 40 Cr to a reported +Rs 10 Cr (and a similar restatement applies to FY25: -Rs 68.65 Cr actual vs -Rs 38.22 Cr reported). This was caught independently by two trusted ValuePickr users and is not a one-off - it recurs across two fiscal years.",
+  "technical_read": "Not pulled - HIGH CAUTION accounting concern took priority over technical escalation.",
+  "sentiment_summary": "22-post thread (2024-2026). Early enthusiasm around growth and a Philips brand-licensing deal gave way, from Dec 2025 onward, to a serious accounting-integrity discussion after the cash-flow misclassification was caught, followed by unverified promoter-background concerns (via the company's IPO manager, Horizon Management, alleged connection to a prior distressed venture, Jagdamba Liquified Steels/Neetu Yoshi).",
+  "community_signal": "Chandragupta (trusted) first caught the FY26 CFO misclassification (8 likes - most-liked post in the thread) with a specific balance-sheet citation. rajpanda (trusted) independently corroborated it and extended the finding to FY25. Abhishek_Somani flagged the same issue publicly on X, explicitly calling it an integrity concern ('90% of the time this type of manipulation ends up in a very bad situation for shareholders'). Prabhat_Mohanty (trusted, 30+ years investing experience per his own post) responded to the separate promoter-background thread with generalized caution about SME promoter quality ('there are only few companies with credible management... choose among lesser evils') without specifically validating or refuting the Neetu Yoshi allegation.",
+  "trusted_signals": [
+    {
+      "date": "2025-12-18",
+      "username": "Chandragupta",
+      "thread": "Osel Devices Ltd",
+      "note": "Caught the company classifying a Rs 50 Cr increase in short-term borrowings under Operating Activities instead of Financing Activities, inflating reported FY26 CFO from an actual -Rs 40 Cr to a reported +Rs 10 Cr. A specific, sourced accounting-integrity red flag, not a directional call.",
+      "superseded": false
+    },
+    {
+      "date": "2025-12-18",
+      "username": "rajpanda",
+      "thread": "Osel Devices Ltd",
+      "note": "Independently corroborated Chandragupta's finding and extended it: FY25 OCF should have been -Rs 68.65 Cr, not the reported -Rs 38.22 Cr. Confirms the misclassification recurs across two fiscal years.",
+      "superseded": false
+    }
+  ],
+  "bse_notes": "No SEBI or fraud action found (as of this read). The cash-flow-statement misclassification is a community-identified accounting-quality concern, not (yet) a regulatory action - hence HIGH CAUTION rather than EXCLUDE. Unverified allegations (via a forum post, not an official source) link the company's IPO manager to a promoter with a prior distressed-company history (Jagdamba Liquified Steels / Neetu Yoshi) - flagged but not independently confirmed here.",
+  "bull_case": [
+    "Genuine LED-outdoor-display niche with a real moat per community assessment",
+    "Strong headline growth (45.6%/yr) and returns (ROCE/ROE 30%+)",
+    "Philips brand-licensing deal (feature phones, smartphones) is a real, if unproven, new revenue vector",
+    "Reasonable leverage (D/E 0.46)"
+  ],
+  "bear_case": [
+    "Recurring (2 consecutive fiscal years) cash-flow-statement misclassification independently caught by two trusted users - a genuine accounting-integrity red flag, not a one-off error",
+    "Hearing-aid segment is a low-differentiation, imported-and-assembled B2G business, not the moat the LED segment has",
+    "Unverified but concerning promoter-background allegations tied to the IPO manager",
+    "Rapid, seemingly unfocused diversification (LED -> hearing aids -> Philips phones -> JNPT infrastructure) reads as story-stock behaviour",
+    "Non-transparent stake sale to a promoter-linked entity shortly after incorporating a new subsidiary, with unclear investor disclosure"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 798 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "HIGH CAUTION: a recurring, independently-corroborated cash-flow-statement misclassification across two fiscal years, plus unfocused diversification and unverified promoter-background concerns, overwhelm the genuine LED-segment moat - four-box score 1.5, hard neither, conviction capped Low-Medium.",
+  "verdict_reasoning": [
+    "HIGH CAUTION (not AVOID/EXCLUDE - no confirmed negative net worth, going-concern issue, or active SEBI/fraud order, but a recurring accounting-integrity concern independently caught by two trusted users is analogous in severity to a promoter-holding-collapse or auditor-resignation flag): keep researching, conviction capped Low-Medium, concern named explicitly",
+    "four_box: tailwind weak (LED-display demand real but modest; hearing-aid/phone diversification unproven), tam weak, moat weak (genuine LED-segment moat per Nabendu's assessment, but hearing-aid/phone segments are low-differentiation assembly), valuation no (accounting-integrity concerns mean no valuation comfort can be assumed regardless of headline multiple) -> score 1.5",
+    "Score <=1.5 -> thesis_fit 'neither', hard, no exception available regardless of headline growth",
+    "No live theme match in active_themes.json - no value_chain block written",
+    "Source is untrusted external-lead (X triage) - no conviction floor applies (and would not override the HIGH CAUTION cap regardless)",
+    "Re-check trigger: company response to the CFO-misclassification finding (a restatement or credible explanation would materially change the read), and any resolution of the promoter-background questions"
+  ],
+  "red_flag_tier": "HIGH CAUTION",
+  "red_flag_reason": "Recurring (FY25 and FY26) cash-flow-statement misclassification - short-term borrowings shown under Operating Activities instead of Financing Activities - independently caught by two trusted ValuePickr users (Chandragupta, rajpanda) and corroborated on X (Abhishek_Somani). Inflated reported OCF materially in both years. Additional unverified promoter-background concerns via the company's IPO manager (Horizon Management / Neetu Yoshi lineage).",
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "weak",
+    "valuation": "no",
+    "score": 1.5,
+    "note": "Genuine LED-segment moat offset by a recurring, independently-corroborated cash-flow misclassification across two fiscal years - no valuation comfort possible given the accounting-integrity concern"
+  }
+}

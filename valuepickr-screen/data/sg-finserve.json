@@ -1,0 +1,74 @@
+{
+  "name": "SG Finserve Ltd",
+  "tagline": "APL Apollo-group anchor-led supply-chain / invoice-financing NBFC — cheap cost of funds and zero reported NPAs, but a walked-back growth guidance, a CEO+CFO exit, and a genuine TAM ceiling that management itself is trying to diversify around",
+  "business_overview": "SG Finserve is a supply-chain-finance NBFC promoted by the sons of Sanjay Gupta (promoter of APL Apollo Tubes). It provides short-tenor (typically 1-3 month) working-capital finance to the suppliers and dealers of large 'anchor' corporates (Adani, JSW, Tata, Havells and ~45+ others), using the GST stack and AI-based monitoring of 6,000+ MSMEs. Cost of funds ~8.5% (among the lowest in the NBFC peer set, helped by an irrevocable corporate guarantee from S Gupta Holding to lenders), yield on assets ~12.5%, NIM ~4-4.5%. ~60%+ of AUM is to listed entities.",
+  "fundamentals_table": [
+    ["Market Cap", "~Rs 4,460 Cr (small-cap); ~3x book"],
+    ["AUM / loan book", "~Rs 2,900 Cr; loan book roughly doubled YoY in Q3 FY26"],
+    ["FY26", "PAT ~Rs 100 Cr; ROE ~9% (3-yr avg ~10%)"],
+    ["Q1 FY27", "PAT ~Rs 54 Cr; revenue ~Rs 136 Cr; annualised ROE ~14%"],
+    ["Asset quality", "Zero reported NPA (a ~Rs 5 Cr bad loan was fully provided in-quarter, not shown as NPA)"],
+    ["Guidance", "Original FY27 AUM guide of Rs 6,000 Cr walked back in Jan 2026 to Rs 7,500 Cr by FY30 + '20% CAGR from here'"],
+    ["Capital", "1 Cr promoter warrants at Rs 450 (premium to market at issue); promoter buying Feb 2026"],
+    ["Governance", "CEO (Sorabh Dhawan, moved to Veefin) and CFO both resigned Oct 2025; both had been selling in the open market for several quarters"]
+  ],
+  "fundamentals_narrative": "The reported numbers look strong in isolation — loan book doubling, zero NPAs, PAT compounding, a cost of funds most NBFCs would envy on the back of APL Apollo parentage. But the FY26/27 story is really about credibility and headroom: management materially cut its own AUM guidance in Jan 2026 (Rs 6,000 Cr FY27 -> Rs 4,200-4,500 Cr) while simultaneously floating AIF, insurance-broking (a wholly-owned subsidiary was incorporated) and last-mile-retail initiatives that investors opposed on the concall. ROE is still only low-double-digits because the book is small and the model is capital-hungry.",
+  "technical_read": "Not pulled. 52-week range ~Rs 323-650; stock de-rated through H2 FY26 on the guidance reset, recovered somewhat on the strong Q4/Q1 prints.",
+  "sentiment_summary": "Thread of ~122 posts, most recent ~50 read. The engaged elevated-tier users are split. Chandan_Sharma (elevated) has repeatedly posted the loan-book-doubling / order-book updates in a positive frame. hnk_so (elevated) reads the premium-priced promoter warrant conversion and zero NPAs as a confidence signal ('good days ahead for investors'). sumitjain0014 (elevated) did the most rigorous work — a detailed ROE/ROA build and a side-by-side with UGro Capital's failed supply-chain-finance vertical, concluding SG's anchor-centric underwriting and lower cost of funds are genuine differentiators but the segment economics are hard. The bear voices (Investsafe, rahulshares, Harish_H, Maheshcm — none trusted) are pointed: the addressable market is only the thin middle tier of vendors (top vendors get cheap bank credit, bottom tier is too risky — exactly why UGro exited), the 1-3 month book has to be fully replenished every ~6 weeks (untested at larger scale), the company listed almost as soon as it was incorporated, and executives rather than the promoters run operations.",
+  "community_signal": "Mixed trusted signal: Chandan_Sharma and hnk_so lean positive on execution and promoter alignment; sumitjain0014 is balanced-to-cautious on the TAM. No elevated user has made an outright 10x call, and none has turned negative.",
+  "trusted_signals": [
+    {
+      "date": "2026-03-29",
+      "username": "hnk_so",
+      "thread": "SG Finserve Ltd - Does it has a scalable business?",
+      "note": "POSITIVE lean -- promoters converting warrants at a premium price + zero NPAs read as a sign of promoter confidence; 'good days ahead for investors'",
+      "superseded": false
+    },
+    {
+      "date": "2026-01-01",
+      "username": "Chandan_Sharma",
+      "thread": "SG Finserve Ltd - Does it has a scalable business?",
+      "note": "POSITIVE framing -- posted the Q3 FY26 loan-book-doubling update; recurring tracker of order-book / guidance data points",
+      "superseded": false
+    },
+    {
+      "date": "2025-12-10",
+      "username": "sumitjain0014",
+      "thread": "SG Finserve Ltd - Does it has a scalable business?",
+      "note": "BALANCED/CAUTIOUS -- detailed comparison with UGro's failed SCF vertical: SG's anchor-centric underwriting + 8.5% cost of funds are real edges, but the middle-tier-vendor TAM is the open question",
+      "superseded": false
+    }
+  ],
+  "bse_notes": "No SEBI/fraud order. Governance watch-items (do NOT rise to red_flag_tier): CEO and CFO both resigned in Oct 2025 after quarters of open-market selling; repeated guidance revisions; management pushing into competitive adjacencies (AIF, insurance broking) against stated investor preference. Zero-NPA optics are partly a function of aggressive in-quarter provisioning rather than a clean book.",
+  "bull_case": [
+    "APL Apollo-group parentage gives a structurally low ~8.5% cost of funds and access to blue-chip anchors (Adani, JSW, Tata, Havells)",
+    "Anchor-centric underwriting + GST-stack monitoring of 6,000+ MSMEs; 60%+ AUM to listed entities; zero reported NPAs so far",
+    "Loan book doubling YoY off a small base; promoters converting warrants at a premium and buying in the open market",
+    "Strong Q4 FY26 and Q1 FY27 prints after the market 'grinding' on the Q3 concall"
+  ],
+  "bear_case": [
+    "Management cut its own AUM guidance sharply (Rs 6,000 Cr FY27 -> ~Rs 4,200-4,500 Cr) — guidance credibility hit",
+    "CEO + CFO both exited Oct 2025; the promoters do not run day-to-day operations and the company is very young",
+    "TAM ceiling: top-tier vendors get cheaper bank finance, bottom-tier is too risky (UGro exited SCF for exactly this) — the profitable middle band may be small; management is already diversifying to compensate",
+    "Ultra-short-tenor book (replenished every ~6 weeks) is untested at larger scale; competitive intensity from banks and larger NBFCs",
+    "~3x book / ~45x trailing for a sub-scale ~10-14% ROE NBFC is a full price; external lead is from an untrusted X handle"
+  ],
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "weak",
+    "valuation": "weak",
+    "score": 2.0,
+    "note": "tailwind weak (MSME supply-chain-finance formalisation is real but crowded and banks compete directly). tam weak (thin middle-tier-vendor band; management itself diversifying around a ceiling). moat weak (low cost of funds via parentage + anchor relationships, but UGro shows it is not durable). valuation weak (~3x book / ~45x trailing for ~10-14% ROE). Score 2.0, no written exception -> neither."
+  },
+  "market_cap_tier": "Small-cap (~Rs 4,460 Cr)",
+  "thesis_fit": "neither",
+  "verdict_reasoning": [
+    "External-lead (tier 4.5) from untrusted X handle @AnirbanManna10 ('new mgmt walking the talk, 2x in a bear market, 50-60 Cr PAT run-rate'). four_box score 2.0 with all four boxes weak and no written exception available (valuation is not 'yes'; growth is not un-ignorable given management's own guidance cut; not a large-cap inflection) -> thesis_fit 'neither'.",
+    "Conviction Low-Medium: the franchise and the APL Apollo cost-of-funds edge are real, and elevated users Chandan_Sharma / hnk_so lean positive, but the combination of a walked-back guidance, a CEO+CFO exit, a genuine TAM question that management is visibly trying to diversify around, and a ~3x-book price caps it. No red_flag_tier (the leadership exits are a governance watch-item, not an enumerated HIGH CAUTION trigger), but they weigh on conviction.",
+    "No live-theme match (supply-chain-finance NBFC does not fit the capital-markets-financialisation keyword set). No revisit flag (thesis_fit neither). Re-check if the new leadership restores a credible multi-year AUM guide and ROE moves durably above the mid-teens."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "disclaimer": "This is independent research for informational purposes only, not investment advice."
+}

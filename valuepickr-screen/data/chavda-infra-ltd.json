@@ -1,0 +1,38 @@
+{
+  "name": "Chavda Infra Ltd",
+  "tagline": "Small Gujarat construction-group company with decent returns but a sharp recent drop in promoter holding -- a real governance caution",
+  "business_overview": "Chavda Infra is part of the Chavda group (alongside Chavda RMC and Chavda Developers), providing construction and ready-mix concrete services in Ahmedabad, Gandhinagar, and Rajkot.",
+  "fundamentals_table": [
+    ["Market Cap", "Rs 410 Cr (small-cap)"],
+    ["ROCE", "13.5% (11.83% per another source)"],
+    ["ROE", "10.2% (7.71% per another source)"],
+    ["Stock P/E", "24.2"],
+    ["Promoter holding", "Decreased -17.9% last quarter"],
+    ["Dividend", "None, despite repeated profits"]
+  ],
+  "fundamentals_narrative": "Returns (ROCE 13.5%, ROE 10.2%) are reasonable for a small construction company, though a second source reports meaningfully lower figures, suggesting the numbers may be volatile quarter to quarter. The standout item is a sharp -17.9% quarter-on-quarter drop in promoter holding, which per the thesis's own quality gate is exactly the kind of signal that should trigger HIGH CAUTION regardless of otherwise-reasonable fundamentals. No dividend despite consistent profitability compounds the governance question -- cash is being retained without a clear explanation surfaced in this pass.",
+  "technical_read": "Not independently pulled this pass.",
+  "sentiment_summary": "No dedicated ValuePickr company thread found for Chavda Infra via forum search -- it surfaces only inside harsh.beria93's own portfolio-tracking thread.",
+  "community_signal": "harsh.beria93 (trusted, elevated-tier) disclosed buying and increasing a position, per existing state.json sourcing. No independent company thread exists to cross-check that call against the recent promoter-holding drop.",
+  "bse_notes": "Not checked this pass, but the promoter-holding decline itself is the material red-flag signal from available data.",
+  "bull_case": [
+    "Reasonable ROCE/ROE for a small regional construction group, with a diversified base across construction, RMC, and real estate development",
+    "A trusted user holds a position",
+    "Consistent quarterly profitability"
+  ],
+  "bear_case": [
+    "Promoter holding fell -17.9% in a single quarter -- a real, material governance signal that the thesis explicitly flags as HIGH CAUTION territory",
+    "No dividend despite repeated profits, with no clear explanation found for where retained cash is being deployed",
+    "No independent ValuePickr thread exists to cross-check the trusted mention against wider community diligence on the promoter-holding drop"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 410 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "A sharp promoter-holding decline overrides otherwise-reasonable small-cap construction fundamentals",
+  "verdict_reasoning": [
+    "A -17.9% single-quarter drop in promoter holding is a real, unexplained governance signal that this screen treats as HIGH CAUTION regardless of ROCE/ROE looking acceptable",
+    "No dividend despite profitability adds to (rather than resolves) the governance question",
+    "With no independent company thread to check whether the community has flagged or explained the holding drop, this stays out of the portfolio pending clarity"
+  ],
+  "red_flag_tier": "HIGH CAUTION",
+  "red_flag_reason": "Promoter holding declined -17.9% in a single quarter with no clear explanation found; combined with no dividend despite consistent profits, this is treated as a promoter-holding-collapse-style governance caution per the thesis's quality gate."
+}

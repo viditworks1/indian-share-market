@@ -1,0 +1,75 @@
+{
+  "name": "Zelio E-Mobility Ltd",
+  "tagline": "BSE-SME low-speed electric 2W and e-3W maker growing ~80% a year - genuine volume ramp, but already carrying a ~60x earnings multiple on a low-moat assembly business",
+  "business_overview": "Zelio E-Mobility (BSE SME: 544563) manufactures, assembles and supplies electric two-wheelers under the Zelio brand - largely low-speed e-scooters that fall outside registration/licence requirements - and electric three-wheelers under the Tanga brand. It sold ~70,000 units in FY26 and is targeting >125,000 units in FY27.",
+  "fundamentals_table": [
+    [
+      "Market Cap",
+      "~Rs 1,792 Cr (BSE SME)"
+    ],
+    [
+      "FY26 revenue",
+      "~Rs 313.7 Cr, up ~82% YoY (from ~Rs 172 Cr); ~121% revenue CAGR over 4 years off a tiny base"
+    ],
+    [
+      "FY26 PAT / EBITDA",
+      "PAT ~Rs 28.4 Cr (+75% YoY); EBITDA ~Rs 38 Cr, margin ~12.2%"
+    ],
+    [
+      "Valuation",
+      "~60-63x trailing P/E; ~5.7x FY26 sales"
+    ],
+    [
+      "Units",
+      "~70,000 sold FY26; FY27 target >125,000"
+    ]
+  ],
+  "fundamentals_narrative": "The operating story is real: units and revenue have compounded at extreme rates off a small base, FY26 revenue grew ~82% and PAT ~75%, and the FY27 volume target (>125,000 units) implies another ~80% unit step-up. But two things hold it back for this screen. First, valuation - at ~60x earnings and ~5.7x sales the market has already priced in years of rapid growth, so a further 10x needs both sustained ~100%+ PAT growth AND multiple retention. Second, business quality - low-speed EV 2W assembly is a low-barrier segment: imported/assembled kits, thin ~12% EBITDA margins, intense competition from dozens of unlisted players, and a regulatory dependency (the low-speed licence exemption) that could change. EBITDA margin at ~12% shows scale is not yet delivering meaningful operating leverage.",
+  "technical_read": "Not pulled - BSE-SME, no ValuePickr thread.",
+  "sentiment_summary": "No ValuePickr thread for Zelio E-Mobility (forum search returned only the unrelated Ola Electric thread). Step 3.05: no match; topic_slug null. Research is web/filings-based only.",
+  "community_signal": "None - external lead only.",
+  "bse_notes": "FY26 results (revenue ~Rs 313.7 Cr, PAT ~Rs 28.4 Cr) and an FY27 guidance of >125,000 units disclosed via BSE / company channels (mid-2026).",
+  "value_chain": {
+    "theme": "EV ecosystem (low-speed 2W + e-3W OEM)",
+    "position": "Downstream OEM/assembler - sources cells/motors/controllers, assembles and brands finished low-speed e-scooters and e-rickshaws",
+    "bottleneck_node": "Brand/distribution and battery cost; little component IP in-house",
+    "supply_side_status": "adding",
+    "adjacent_peers": [
+      "Ola Electric",
+      "Ather Energy",
+      "Kinetic Green (unlisted)",
+      "numerous unlisted low-speed EV assemblers"
+    ],
+    "note": "2W EV is on an S-curve (priority-2 theme), but the low-speed sub-segment is the most commoditised and regulation-sensitive part of it; margins accrue to whoever has brand + dealer network + battery scale, not to a small assembler adding capacity into a crowded field."
+  },
+  "bull_case": [
+    "Genuine, large volume ramp - ~70k units FY26 to a >125k FY27 target - in a structurally growing EV 2W/3W market (priority-2 theme)",
+    "Near-pure-play single-segment EV exposure, the reason @Aditya_joshi12 flagged it as an EV proxy",
+    "Consistent profitability while scaling (PAT +75% FY26), unlike several cash-burning EV peers"
+  ],
+  "bear_case": [
+    "~60x earnings / ~5.7x sales already - the valuation prices in years of hyper-growth, leaving little margin of safety for a further 10x",
+    "Low-speed EV 2W assembly is a low-moat, low-margin (~12% EBITDA), intensely competitive segment with a regulatory dependency (licence-exemption for low-speed vehicles)",
+    "BSE-SME: thin liquidity, limited disclosure, no institutional or trusted-community coverage",
+    "Untrusted-X quiz mention only - a categorisation as an 'EV proxy', not a conviction call"
+  ],
+  "market_cap_tier": "Small-cap SME (~Rs 1,792 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Real growth, wrong price - a low-moat low-speed-EV assembler already at ~60x earnings does not offer the risk/reward for a 10x/100x thesis",
+  "verdict_reasoning": [
+    "External-lead (tier 4.5) from an untrusted X source (@Aditya_joshi12 teaching quiz, 2025-11-28) categorising it as a single-segment EV proxy - no conviction call, no floor",
+    "The small-cap live-inflection rule is meant for weak-history names that are cheap on a recent turn; Zelio is the opposite - the recent turn is already in the price at ~60x P/E, and the business (low-speed EV assembly, ~12% EBITDA, regulation-sensitive) has no moat to justify multiple retention through a 10x",
+    "Live-theme match: EV ecosystem, priority-2. Value-chain read: assembler 'adding' capacity at a low-pricing-power, commoditised node. thesis_fit neither, conviction Low. Revisit only on a large valuation reset or evidence of durable margin expansion"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "trusted_signals": [],
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "no",
+    "valuation": "no",
+    "score": 1.0,
+    "note": "Verdict explicit: 'the business... has no moat to justify multiple retention through a 10x' (moat=no); low-speed EV is 'the most commoditised and regulation-sensitive part' of the EV S-curve (tailwind weak); 'the recent turn is already in the price at ~60x P/E' (valuation=no)."
+  }
+}

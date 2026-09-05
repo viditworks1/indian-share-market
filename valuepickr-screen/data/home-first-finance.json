@@ -1,0 +1,48 @@
+{
+  "name": "Home First Finance Company India Ltd",
+  "tagline": "High-quality affordable-housing financier — 25.7% AUM growth, 4.2% ROA, stable asset quality, PE promoters gradually exiting into strength — but a well-covered Rs 12,400 Cr mid-cap in a crowded space, not an under-the-radar multibagger",
+  "business_overview": "Affordable-housing NBFC-HFC lending to first-time home buyers in the informal/self-employed segment, largely tier-2/3 markets, using a tech-driven underwriting/collections model. Competes with Aavas Financiers, Aptus Value Housing, Aadhar Housing and traditional HFCs/banks.",
+  "fundamentals_table": [
+    ["Market Cap", "~Rs 12,391 Cr (mid-cap)"],
+    ["AUM", "Rs 16,938 Cr, +25.7% YoY (Q1 FY27); disbursements +31% YoY"],
+    ["ROA / ROE", "~4.2% / ~14.5% (Q1 FY27)"],
+    ["NIM", "~6.0%; long-term spread target 5.0-5.25%"],
+    ["Asset quality", "1+ DPD 4.7%, 30+ DPD 3.2%, Gross Stage 3 1.8% — stable"],
+    ["PAT", "Rs 160 Cr, +34.5% YoY (Q1 FY27)"],
+    ["Valuation", "P/B compressed to ~2.84x (per a Mar-2026 community post) vs. a stated peer median ~4.1x"]
+  ],
+  "fundamentals_narrative": "A genuinely well-run affordable-housing lender: consistent 25%+ AUM growth, improving ROA, and stable delinquencies through a period when some HFC/NBFC peers have seen pockets of stress. Nothing here contradicts the quality story. The question is not quality but scale and crowd — at Rs 12,400 Cr market cap in a segment with several well-covered listed comparables, this reads as a steady compounder rather than an overlooked opportunity.",
+  "technical_read": "Not independently pulled.",
+  "sentiment_summary": "VP thread (topic 63826, 44-47 posts, last active May 2026) shows sustained, unremarkable-in-a-good-way engagement: a mid-2024 update noting AUM crossing Rs 10,000 Cr with 34.8% YoY growth and management guiding 30%+ growth to continue; a Nov 2024 post flagging a promoter (True North/Aether) + Orange Capital block-deal sale of 14.7% at a modest discount to CMP, explicitly framed by the poster as reducing overhang risk, not distress; a Jan 2025 QIP (Rs 1,250 Cr) to fund growth; and a Mar 2026 post noting further True North/Aether stake reduction with current P/B (2.84x) called out as significantly below the peer median (4.1x). No red-flag-type posts (fraud, auditor resignation, promoter pledge) found anywhere in the thread history.",
+  "community_signal": "Consistently constructive; the recurring theme is gradual, orderly private-equity promoter exit (True North, Aether — original VC/PE backers from the pre-IPO cap table) rather than any operational concern, alongside a live 'cheap vs. peers on P/B' argument as of early 2026.",
+  "trusted_signals": [],
+  "bse_notes": "No SEBI/fraud order; no going-concern issue. Promoter-group stake reduction (True North, Aether) is a planned PE-investor exit, not a distress signal — flagged by the community as reducing overhang, not creating risk. No red_flag_tier.",
+  "bull_case": [
+    "Sustained 25%+ AUM growth with improving ROA (4.2%) and stable asset quality through Q1 FY27",
+    "P/B (~2.84x) below the community's cited peer median (~4.1x) as of the most recent thread update — a real relative-value argument",
+    "PE-promoter (True North/Aether) stake reduction is orderly/gradual, removing a future overhang rather than signalling distress"
+  ],
+  "bear_case": [
+    "Rs 12,400 Cr mid-cap in a well-covered, competitive affordable-HFC space (Aavas, Aptus, Aadhar Housing) — no evident under-the-radar edge",
+    "Growth (25-30% AUM) is genuinely good but not exceptional enough on its own to justify a 10x-in-2-3-years re-rating case at this scale",
+    "No unique moat beyond execution quality — underwriting/collections tech is replicable and several peers run similar playbooks"
+  ],
+  "four_box": {
+    "tailwind": "yes",
+    "tam": "weak",
+    "moat": "weak",
+    "valuation": "weak",
+    "score": 2.5,
+    "note": "tailwind yes (structural affordable-housing/first-time-buyer credit penetration in tier-2/3 India, a genuine multi-year theme). tam weak (Rs 12,400 Cr mid-cap already; a 10x would require becoming one of India's largest HFCs, a stretch given competitive intensity). moat weak (good execution, no structural pricing power/switching cost). valuation weak (cheap vs. peers per the community, but not cheap in absolute terms at ~2.84x P/B for a 14.5% ROE lender). Score 2.5 -> 'neither' per the decision table (relative-value argument alone isn't the written 'valuation: yes' exception, since it's a relative not absolute cheapness case)."
+  },
+  "market_cap_tier": "Mid-cap (~Rs 12,391 Cr)",
+  "thesis_fit": "neither",
+  "verdict_reasoning": [
+    "External-lead (tier 4.5, @StocksAndStoics). No live-theme match in active_themes.json (affordable housing finance is not a listed theme). four_box score 2.5, no written exception taken (the peer-relative cheapness argument doesn't rise to a clean 'valuation: yes'), so thesis_fit stays 'neither'.",
+    "Conviction Medium: this is a genuinely high-quality, well-run lender with clean community sentiment and no governance flags — the size and crowded-space math, not business quality, is what caps the thesis at 'neither'.",
+    "No red_flag_tier, no revisit flag. A legitimate 'buy the quality compounder' name outside the scope of this open-mcap-multibagger screen's mandate."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "disclaimer": "This is independent research for informational purposes only, not investment advice."
+}

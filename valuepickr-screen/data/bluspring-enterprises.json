@@ -1,0 +1,69 @@
+{
+  "name": "Bluspring Enterprises Ltd",
+  "tagline": "Integrated facilities-management / business-services rollup demerged from Quess Corp - revenue grows but razor-thin margins, negative ROE and a ~126x multiple rule out the screen thesis",
+  "business_overview": "Bluspring (listed June 2025 on demerger from Quess Corp) bundles security, housekeeping, canteen, and facility maintenance services, plus operating-asset management, into an integrated 'facilities and asset management' offering. It was built inside Quess over ~Rs 900 Cr of acquisitions/investment. Addressable market is cited at ~Rs 1.7 lakh Cr, largely unorganised. The STEAG acquisition adds thermal-power O&M, a segment management says carries roughly 2x Bluspring's current margins.",
+  "fundamentals_table": [
+    [
+      "Market Cap",
+      "~Rs 1,908 Cr"
+    ],
+    [
+      "ROCE / ROE",
+      "~5.2% / ~-0.5% (near breakeven / negative)"
+    ],
+    [
+      "Revenue (FY25)",
+      "Rs 2,969 Cr, +15% YoY; FY26 target >Rs 3,400 Cr (20%+ growth)"
+    ],
+    [
+      "EBITDA margin",
+      "Low single digit; management targets only ~6% by 2030"
+    ],
+    [
+      "Debt",
+      "Borrowings ~Rs 136 Cr (Sep-2025); targeting debt-free in 2-3 years"
+    ],
+    [
+      "Valuation",
+      "P/E ~126; Book value ~Rs 44.8"
+    ]
+  ],
+  "fundamentals_narrative": "This is a labour-arbitrage services rollup: revenue scales with contract wins but margins are structurally thin (a ~6% EBITDA target a full five years out implies ~3-4% today) and the business is currently around breakeven on net profit, so ROE is negative. At ~126x earnings the market is already paying up for the demerger-optionality and STEAG accretion. No red flag in the strict sense (low debt, going-concern intact, transition-year losses), but the economics do not support a multi-bagger thesis.",
+  "technical_read": "Not pulled - not a Tier-A candidate.",
+  "sentiment_summary": "First-time, light read: the VP thread (topic 199662, category 1) has effectively no discussion - one thin OP (Jun-2025) plus a moderator note asking for proper homework before starting a stock thread. Nothing to synthesise. Source is a trusted-x-watch snippet (@a_basumallick concall note, 2026-08-17) on STEAG TAM/margins - not a stated position.",
+  "community_signal": "None. No roster-user participation, no conviction call, no trusted_signals logged.",
+  "bse_notes": "Not independently checked. From sources: demerged from Quess Corp, listed 11-Jun-2025; STEAG acquisition (thermal O&M); borrowings ~Rs 136 Cr as of Sep-2025.",
+  "bull_case": [
+    "Large, mostly unorganised TAM (~Rs 1.7 lakh Cr) with formalisation tailwind; 15-20% revenue growth achievable",
+    "STEAG adds a higher-margin (~2x segment) O&M line and cross-sell into thermal capacity",
+    "Low debt, stated path to debt-free in 2-3 years",
+    "Integrated single-vendor pitch (security + housekeeping + canteen + maintenance) can lift wallet share"
+  ],
+  "bear_case": [
+    "Structurally low-margin labour-arbitrage services - a ~6% EBITDA target for 2030 caps the earnings-power ceiling",
+    "Currently around breakeven; ROE negative - no demonstrated profitable-scale model yet",
+    "~126x P/E already discounts the demerger and STEAG story",
+    "Revenue growth without margin is not a 10x/100x driver; peers (Quess, SIS, Updater) trade as low-multiple, low-margin compounders",
+    "Brand-new listing, no VP scrutiny, integration/execution risk on acquired businesses"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 1,908 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Growing but structurally thin-margin services rollup at ~126x earnings - fails the quality gate and the thesis math",
+  "verdict_reasoning": [
+    "Source is a trusted-x-watch snippet mention (@a_basumallick, 2026-08-17): 'On the STEAG acquisition - TAM in thermal capacity, and margins for that segment ~2x the company's current margins.' Stated plainly: a snippet, not a conviction call; no conviction floor.",
+    "No live-theme match. Facilities / business-services is not an active_themes.json theme.",
+    "Fails the quality gate on its own terms: ~5% ROCE, negative ROE, sub-6% EBITDA-margin ambition for 2030, ~126x P/E. Revenue growth of 15-20% off a thin-margin base does not produce a 10x-in-2-3-years or 100x-in-10-years outcome.",
+    "No red flag (low debt, going concern intact, losses are transition-year) - conviction Low, not a HIGH CAUTION.",
+    "Exits with a last_analyzed_date. revisit_after_30d = false."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "no",
+    "valuation": "no",
+    "score": 1.0,
+    "note": "Verdict explicit: 'fails the quality gate on its own terms: ~5% ROCE, negative ROE, sub-6% EBITDA-margin ambition for 2030' (moat=no); '~126x P/E' (valuation=no); STEAG-acquisition TAM claim is an unconfirmed snippet (tailwind/tam weak)."
+  }
+}

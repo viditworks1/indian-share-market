@@ -1,0 +1,63 @@
+{
+  "_readme": "Append-only log of weekly forward-test cohorts. Each cohort is an independent Rs 1,00,000 paper portfolio, decided once and priced off the prior Friday's close. NEVER edit an existing cohort's holdings/entry_price/shares/entry_date after creation -- that would destroy the forward-test (no-hindsight) integrity this file exists to guarantee. New cohorts are appended by the paper-trading-weekly scheduled task every Monday. Mark-to-market values live in RETURNS_TRACKER.md (regenerated), not here.",
+  "cohorts": [
+    {
+      "week_id": "2026-W35-inaugural",
+      "series": "standard",
+      "note": "Started off-cycle on a Tuesday to begin tracking immediately, rather than waiting for the next Monday (2026-08-31). All subsequent cohorts start strictly on Monday per the scheduled task.",
+      "decided_date": "2026-08-25",
+      "entry_price_date": "2026-08-21",
+      "capital": 100000,
+      "source": "docs/FINAL_PORTFOLIO_RECOMMENDATION.md v1 (2026-08-25) allocation, re-priced at the prior Friday's close",
+      "holdings": [
+        {"name": "Dynamic Cables", "symbol": "DYNAMIC.NS", "weight_pct": 12, "entry_price": 141.20, "shares": 84, "invested": 11860.80},
+        {"name": "Venus Remedies", "symbol": "VENUSREM.NS", "weight_pct": 12, "entry_price": 1738.10, "shares": 6, "invested": 10428.60},
+        {"name": "Macpower CNC Machines", "symbol": "MACPOWER.NS", "weight_pct": 11, "entry_price": 1874.80, "shares": 5, "invested": 9374.00},
+        {"name": "Novartis India", "symbol": "NOVARTIND.NS", "weight_pct": 11, "entry_price": 1418.90, "shares": 7, "invested": 9932.30},
+        {"name": "Asahi Songwon Colors", "symbol": "ASAHISONG.NS", "weight_pct": 10, "entry_price": 368.00, "shares": 27, "invested": 9936.00},
+        {"name": "Yash Highvoltage", "symbol": "YASHHV.BO", "weight_pct": 9, "entry_price": 912.20, "shares": 9, "invested": 8209.80},
+        {"name": "GPT Healthcare", "symbol": "GPTHEALTH.NS", "weight_pct": 8, "entry_price": 150.64, "shares": 53, "invested": 7983.92},
+        {"name": "Bansal Roofing Products", "symbol": "BRPL.BO", "weight_pct": 6, "entry_price": 136.55, "shares": 43, "invested": 5871.65},
+        {"name": "Haldyn Glass", "symbol": "HALDYNGL.BO", "weight_pct": 6, "entry_price": 132.25, "shares": 45, "invested": 5951.25},
+        {"name": "RNIT AI Solutions", "symbol": "RNITAI.BO", "weight_pct": 5, "entry_price": 87.65, "shares": 57, "invested": 4996.05}
+      ],
+      "cash": 15455.63
+    },
+    {
+      "week_id": "2026-W36",
+      "series": "standard",
+      "decided_date": "2026-08-31",
+      "entry_price_date": "2026-08-28",
+      "capital": 100000,
+      "source": "docs/FINAL_PORTFOLIO_RECOMMENDATION.md v6 (Compiled 2026-08-31, current) Section 3 allocation, priced at Fri 2026-08-28 close. Weight column primary %; RNIT excluded (0%). Macpower headline weight 8% (doc holds it at 3 sh/~6% per Section 8B bar-on-adding; floor(8% of 100k / 2007.10) independently also yields 3 sh).",
+      "holdings": [
+        {"name": "Venus Remedies", "symbol": "VENUSREM.NS", "weight_pct": 12, "entry_price": 1626.70, "shares": 7, "invested": 11386.90},
+        {"name": "Novartis India", "symbol": "NOVARTIND.NS", "weight_pct": 11, "entry_price": 1486.30, "shares": 7, "invested": 10404.10},
+        {"name": "Asahi Songwon Colors", "symbol": "ASAHISONG.NS", "weight_pct": 10, "entry_price": 366.70, "shares": 27, "invested": 9900.90},
+        {"name": "GPT Healthcare", "symbol": "GPTHEALTH.NS", "weight_pct": 9, "entry_price": 151.72, "shares": 59, "invested": 8951.48},
+        {"name": "Yash Highvoltage", "symbol": "YASHHV.BO", "weight_pct": 9, "entry_price": 986.10, "shares": 9, "invested": 8874.90},
+        {"name": "Macpower CNC Machines", "symbol": "MACPOWER.NS", "weight_pct": 8, "entry_price": 2007.10, "shares": 3, "invested": 6021.30},
+        {"name": "Dynamic Cables", "symbol": "DYNAMIC.NS", "weight_pct": 6, "entry_price": 138.00, "shares": 43, "invested": 5934.00},
+        {"name": "Haldyn Glass", "symbol": "HALDYNGL.BO", "weight_pct": 6, "entry_price": 138.85, "shares": 43, "invested": 5970.55},
+        {"name": "Bansal Roofing Products", "symbol": "BRPL.BO", "weight_pct": 4, "entry_price": 156.50, "shares": 25, "invested": 3912.50}
+      ],
+      "cash": 28643.37
+    },
+    {
+      "week_id": "2026-W36",
+      "series": "concentrated",
+      "decided_date": "2026-08-31",
+      "entry_price_date": "2026-08-28",
+      "capital": 100000,
+      "source": "Top-5 conviction-ranked EMA-qualified names from docs/FINAL_PORTFOLIO_RECOMMENDATION.md v6 (Compiled 2026-08-31) holdings + watchlist (Dynamic Cables excluded: below 30W EMA; HBL excluded: below EMA; E2E/RNIT off-book). Conviction from valuepickr-screen/data/conviction-scores.json numeric conviction_score for all 5 (source=numeric each): Venus Remedies 80.0, Aeroflex Industries 72.0, L. T. Elevators 61.0, Macpower CNC Machines 60.0, Entero Healthcare Solutions 58.32. Rank weights 25/20/20/17/13. Priced at Fri 2026-08-28 close.",
+      "holdings": [
+        {"name": "Venus Remedies", "symbol": "VENUSREM.NS", "weight_pct": 25, "conviction_score": 80.0, "conviction_source": "numeric", "entry_price": 1626.70, "shares": 15, "invested": 24400.50},
+        {"name": "Aeroflex Industries", "symbol": "AEROFLEX.NS", "weight_pct": 20, "conviction_score": 72.0, "conviction_source": "numeric", "entry_price": 542.10, "shares": 36, "invested": 19515.60},
+        {"name": "L. T. Elevators", "symbol": "LTELEVATOR.BO", "weight_pct": 20, "conviction_score": 61.0, "conviction_source": "numeric", "entry_price": 328.10, "shares": 60, "invested": 19686.00},
+        {"name": "Macpower CNC Machines", "symbol": "MACPOWER.NS", "weight_pct": 17, "conviction_score": 60.0, "conviction_source": "numeric", "entry_price": 2007.10, "shares": 8, "invested": 16056.80},
+        {"name": "Entero Healthcare Solutions", "symbol": "ENTERO.NS", "weight_pct": 13, "conviction_score": 58.32, "conviction_source": "numeric", "entry_price": 1808.60, "shares": 7, "invested": 12660.20}
+      ],
+      "cash": 7680.90
+    }
+  ]
+}

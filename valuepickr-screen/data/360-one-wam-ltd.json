@@ -1,0 +1,64 @@
+{
+  "name": "360 ONE WAM Ltd (formerly IIFL Wealth)",
+  "tagline": "Large private wealth manager already at Rs 47,836 Cr market cap, with ROE trending down and profit growth reported slowing",
+  "business_overview": "360 ONE WAM (formerly IIFL Wealth Management) is one of India's largest private wealth management firms, providing financial products distribution, advisory, and portfolio management services primarily to high-net-worth individuals.",
+  "fundamentals_table": [
+    [
+      "Market Cap",
+      "Rs 47,836 Cr"
+    ],
+    [
+      "ROCE",
+      "9.43-22.4% (varies significantly by source/period)"
+    ],
+    [
+      "ROE",
+      "12.05-14.4% currently, down from 24.2% in FY24"
+    ],
+    [
+      "Revenue",
+      "Rs 4,621 Cr; Profit Rs 1,262 Cr"
+    ],
+    [
+      "Stock P/E",
+      "~38x; trades at 4.84x book value"
+    ],
+    [
+      "Promoter holding",
+      "6.20% (structurally low, typical for a professionally-run wealth manager, not a red flag by itself)"
+    ]
+  ],
+  "fundamentals_narrative": "ROE has declined meaningfully from 24.2% (FY24) to a current 12.05-14.4%, reflecting a large expansion in shareholder funds (to ~Rs 7,065 Cr from ~Rs 3,450 Cr) that hasn't yet been matched by proportionate profit growth -- a capital-efficiency dilution, not a business-quality collapse. A market analysis piece (Q4 FY26) explicitly described \"profit growth slows amid revenue dip, valuation concerns persist.\" At Rs 47,836 Cr market cap and ~38x P/E, this is already a large, richly-valued company.",
+  "technical_read": "Not pulled this pass -- filtered out on size and trend.",
+  "sentiment_summary": "Not checked -- 360 ONE WAM is mentioned only within joinjp2003's own portfolio thread, and the size plus declining-ROE trend made a deep dive unnecessary.",
+  "community_signal": "joinjp2003 (trusted, elevated-tier) made a repeat mention with an apparent buildup in position, per existing state.json sourcing -- an informational data point only, not treated as a conviction floor since trusted_conviction_floor_active is false for this entry.",
+  "bse_notes": "Not checked this pass. Low promoter holding (6.2%) is structurally normal for a professionally-run wealth manager rather than a governance concern.",
+  "bull_case": [
+    "One of India's largest and most established private wealth managers, with a large and growing asset base",
+    "A trusted user holds a real, building position",
+    "Wealth management is a structurally growing category in India as HNI wealth expands"
+  ],
+  "bear_case": [
+    "ROE has more than halved from FY24 (24.2%) to the current level (12.05-14.4%) as shareholder equity has expanded faster than profit",
+    "A market analysis explicitly flagged slowing profit growth alongside a revenue dip in the most recent quarter reported",
+    "At Rs 47,836 Cr market cap and ~38x P/E / 4.84x book, this is already a large, richly-valued company -- a poor starting point for a 10x-in-2-3-years thesis"
+  ],
+  "market_cap_tier": "Large-cap (~Rs 47,836 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "A quality franchise, but already large, richly valued, and with a clearly declining ROE trend -- filtered out on size and trajectory",
+  "verdict_reasoning": [
+    "The size (Rs 47,836 Cr) alone makes a 10x-in-2-3-years outcome unrealistic, and the trend (declining ROE, slowing profit growth per a recent market analysis) is moving the wrong direction rather than inflecting positively",
+    "No red flag, but no catalyst either -- filtered out per the standard rule for a name that is both large and trending weaker",
+    "The trusted mention is treated as informational only given no conviction floor applies and the current trend doesn't support proceeding to a deeper read"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "no",
+    "tam": "no",
+    "moat": "weak",
+    "valuation": "weak",
+    "score": 1.0,
+    "note": "Verdict explicit: 'the trend (declining ROE, slowing profit growth per a recent market analysis) is moving the wrong direction rather than inflecting positively' (tailwind=no); 'the size (Rs47,836 Cr) alone makes a 10x-in-2-3-years outcome unrealistic' (tam=no)."
+  }
+}

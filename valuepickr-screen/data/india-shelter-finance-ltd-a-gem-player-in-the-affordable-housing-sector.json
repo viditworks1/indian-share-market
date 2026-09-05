@@ -1,0 +1,85 @@
+{
+  "name": "India Shelter Finance Corporation Ltd",
+  "tagline": "Affordable-housing NBFC with solid fundamentals, but asset quality has started to soften in the most recent quarters",
+  "business_overview": "India Shelter Finance is a housing-finance NBFC focused on affordable home loans and loans-against-property for self-employed, low/middle-income borrowers with no formal income proof, operating ~260 branches across 15 states with a Tier 2/3-city emphasis.",
+  "fundamentals_table": [
+    [
+      "Market Cap",
+      "~Rs 7,299 Cr"
+    ],
+    [
+      "ROE",
+      "17.0%"
+    ],
+    [
+      "ROCE",
+      "12.8%"
+    ],
+    [
+      "Stock P/E",
+      "14.4"
+    ],
+    [
+      "Revenue growth (5yr CAGR)",
+      "37.60%"
+    ],
+    [
+      "Debt/Equity",
+      "1.85 (normal for a housing NBFC)"
+    ],
+    [
+      "52-week range",
+      "Rs 640 - 969"
+    ]
+  ],
+  "fundamentals_narrative": "Historically strong growth NBFC (37.6% 5yr revenue CAGR, 17% ROE) at a reasonable 14.4x P/E, but the most recent data point (Q1FY27, reported today) shows AUM growth slowing to sub-25% with rising gross/net stage-3 (NPA) figures — a genuine recent-quarter softening rather than an improvement, the opposite of the project's usual 'hidden inflection' pattern.",
+  "technical_read": "Not independently pulled this pass.",
+  "sentiment_summary": "Read the full thread (9 posts, Aug 2025-Aug 2026, single batch — thread is small). A detailed initiating fundamental-analysis post from a trusted user (cdas3317) in Aug 2025 was followed by muted activity until Aug 2026, when two posts flagged a real deterioration: 30+ days-past-due at the highest level since listing (5.2%), rising GNPA/NNPA, AUM growth slowing to sub-25%, and a one-time accounting change (recognizing disbursements on cheque realization rather than handover) that shifted some disbursement recognition across quarters.",
+  "community_signal": "Trusted user cdas3317 (elevated tier) opened the thread with a detailed fundamentals/moat writeup and a management-guidance tracker, and separately flagged as 'risky and worrying' the ~97% promoter-share-pledge figure cited from Screener — though a later poster (Agni, not trusted) said they checked NSE/Tijori directly and found no pledge on record, an unresolved discrepancy.",
+  "trusted_signals": [
+    {
+      "date": "2025-09-03",
+      "username": "cdas3317",
+      "thread": "India Shelter Finance",
+      "note": "Flagged a ~97% promoter share-pledge figure sourced from Screener as risky/worrying, the highest among affordable-housing-finance peers — though a later, non-trusted poster disputed finding any pledge on NSE/Tijori records.",
+      "superseded": false
+    },
+    {
+      "date": "2025-09-03",
+      "username": "cdas3317",
+      "thread": "India Shelter Finance",
+      "note": "Published a management-guidance tracker showing spreads and credit costs roughly on track through Q1FY26, a constructive but measured (not high-conviction) initiating view.",
+      "superseded": false
+    }
+  ],
+  "bse_notes": "Not independently checked this pass.",
+  "bull_case": [
+    "Strong historical growth (37.6% 5yr revenue CAGR) in an underserved affordable-housing-finance niche with reasonable valuation (14.4x P/E)",
+    "Detailed underwriting processes (field visits, digital income-assessment tech) for a no-formal-income-proof borrower base, per the trusted initiating writeup",
+    "Credit cost guidance (~40-50 bps) was being met as of Q1FY26 per the community tracker"
+  ],
+  "bear_case": [
+    "Most recent quarter (Q1FY27, just reported) shows real asset-quality softening: 30+DPD at a post-listing high of 5.2%, rising gross/net stage-3, and AUM growth slowing to sub-25%",
+    "A one-time change in disbursement-recognition methodology (cheque realization vs. handover) makes recent quarterly comparisons noisier and warrants a clean quarter or two before trusting the trend",
+    "Disputed and unresolved promoter-pledge figure (97% per one source, zero per another) — a data-quality flag on its own even before judging materiality",
+    "This is a mature, already-listed NBFC growing AUM in the 20-25% range, not an early-stage compounder — a 10x/100x thesis is a stretch versus 'a solid quality holding'"
+  ],
+  "market_cap_tier": "Mid-cap (~Rs 7,299 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Solid, reasonably-valued affordable-housing NBFC, but recent-quarter asset quality is moving the wrong way and growth has already decelerated to a mature-company pace",
+  "verdict_reasoning": [
+    "Unlike the project's usual 'hidden inflection' pattern, here the recent-quarter data is weaker than the trailing average (rising DPD/NPA, slowing AUM growth), which argues against escalating conviction",
+    "At 20-25% AUM growth and 17% ROE, this reads as a good-quality NBFC holding rather than a 10x-in-2-3-years or 100x-in-10-years candidate",
+    "The unresolved promoter-pledge discrepancy is a data-integrity question worth someone verifying directly against the exchange filing before it affects conviction either way"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "yes",
+    "tam": "no",
+    "moat": "yes",
+    "valuation": "yes",
+    "score": 3.0,
+    "note": "Underserved affordable-housing-finance niche with detailed underwriting (field visits, digital income-assessment) for no-formal-income-proof borrowers is a real structural tailwind and moat; but the most recent quarter (Q1FY27) shows AUM growth slowing to sub-25% with rising gross/net stage-3 — tam no, the opposite of a hidden-inflection pattern; 14.4x P/E is reasonable — valuation yes. Disputed promoter-pledge figure (97% vs zero across sources) is a separate data-integrity flag."
+  }
+}

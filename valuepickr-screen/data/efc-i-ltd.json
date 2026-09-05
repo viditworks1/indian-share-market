@@ -1,0 +1,67 @@
+{
+  "name": "EFC (I) Ltd",
+  "tagline": "Coworking/flex-office platform trading at an optically cheap P/E that the community argues is inflated by non-cash Ind AS 116 lease accounting",
+  "business_overview": "Leases and acquires commercial office space, converting it into flexible serviced workspaces (coworking) for corporates, SMEs, MSMEs and startups; expanded via multiple new-vertical subsidiaries (Whitehills Interior, Synthiko, TCC) later folded back via merger.",
+  "fundamentals_table": [
+    [
+      "Market Cap",
+      "Rs 2,841 Cr"
+    ],
+    [
+      "Price vs 52-week range",
+      "Rs 192 current, near the Rs 171 low (range Rs 171-337)"
+    ],
+    [
+      "ROCE",
+      "19.8%"
+    ],
+    [
+      "ROE",
+      "34.3%"
+    ],
+    [
+      "Stock P/E",
+      "11.1 (optically cheap - see red flag)"
+    ],
+    [
+      "Revenue growth",
+      "Q1FY27 revenue Rs 282.88 Cr, PAT +58.91% YoY"
+    ]
+  ],
+  "fundamentals_narrative": "Headline ROE/growth numbers look excellent and the 11.1x P/E looks cheap, but the community's accounting-quality critique below argues normalized PAT is materially lower than reported.",
+  "technical_read": "Not independently pulled this pass.",
+  "sentiment_summary": "Read most recent 50 of 255 posts (Dec 2025 to June 2026), spanning a controversial related-entity merger, a dilutive QIP announced near 52-week lows, and a detailed accounting-quality critique of the company's lease treatment.",
+  "community_signal": "A Moneylife article (relayed by yogeshkhadse) reports proxy advisor SES publicly questioned the logic of EFC's merger with its own recently-incorporated subsidiary Whitehills Interior Ltd (WIL) despite shareholder approval. Shivam_Mahana and sanju.inlv flagged a QIP announced at/near 52-week lows as dilutive, with Aloysius_De_Sa (trusted) explicitly calling it 'nonsensical.' Most significantly, rkochatterjee (2 detailed posts, June 2026) laid out that under Ind AS 116, EFC recognizes the full present value of long-term lease contracts as revenue upfront (a non-cash 'Lease receivable recognition' item of Rs 182.81 Cr flowing through operating cash flow), and that normalized PAT once this is stripped out could be as low as ~Rs 100 Cr against a reported Rs 235 Cr FY26 PAT - implying a real P/E closer to 26x, not the optically cheap 11x. hnk_so (trusted) corroborated this read.",
+  "bse_notes": "Not checked.",
+  "bull_case": [
+    "Reported ROE of 34.3% and Q1FY27 PAT growth of 58.91% YoY are genuinely strong if taken at face value",
+    "GCC/managed-office demand tailwind is real and independently corroborated by peer companies' concalls and a Deloitte forecast of 5,000 new GCCs",
+    "Promoter has historically been aggressive on growth/expansion into adjacent verticals (BESS, data centers via Synthiko)"
+  ],
+  "bear_case": [
+    "Community-documented accounting-quality concern: Ind AS 116 finance-lease treatment may inflate reported PAT by more than 2x versus a cash-adjusted normalized figure, which would make the stock materially more expensive than its headline P/E suggests",
+    "A related-entity merger (Whitehills Interior) was publicly challenged by an independent proxy advisor as lacking clear strategic logic, alongside a pattern of spinning out new promoter-heavy subsidiaries",
+    "QIP announced near 52-week lows dilutes existing shareholders at an inopportune price, with even a trusted community member calling the timing 'nonsensical'",
+    "Occupancy/seat-addition targets have already been walked back once (92k seats FY26 target cut to ~78-80k)"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 2,841 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Optically cheap on reported numbers, but a specific and detailed community accounting-quality critique plus a proxy-advisor-challenged merger and dilutive QIP warrant real caution",
+  "verdict_reasoning": [
+    "A specific, quantified community critique (not vague suspicion) argues normalized PAT is roughly half of reported PAT, which would more than double the real P/E",
+    "Independent corroboration from a second trusted user, plus a proxy advisor publicly challenging a related-entity merger, raises this above a single-poster concern",
+    "Dilutive capital raising near 52-week lows compounds rather than offsets the governance/accounting caution"
+  ],
+  "red_flag_tier": "HIGH CAUTION",
+  "red_flag_reason": "Community-documented accounting-quality concern (Ind AS 116 lease revenue recognition potentially overstating PAT by 2x+), a proxy-advisor-challenged related-entity merger (Whitehills Interior), and a dilutive QIP announced near 52-week lows - a cluster of governance/transparency signals, not a single isolated concern.",
+  "conviction": "Low",
+  "trusted_signals": [
+    {
+      "date": "2026-02-15",
+      "username": "vikasbargale",
+      "thread": "EFC - Entrepreneurial Facilitation Centre",
+      "note": "\"Invested and Biased with 2% allocation\" (post #214) while sharing quarterly results.",
+      "superseded": false
+    }
+  ]
+}

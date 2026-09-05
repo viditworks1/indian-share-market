@@ -1,0 +1,75 @@
+{
+  "name": "Maxvolt Energy Industries Ltd",
+  "tagline": "Fast-growing NSE-Emerge lithium-ion battery-pack assembler for EVs/ESS - triple-digit revenue and PAT growth, but negative operating cash flow, ballooning working capital and an 11x debt jump undercut the earnings quality",
+  "business_overview": "Maxvolt Energy (NSE Emerge: MAXVOLT, listed Feb-2025; incorporated 2019) manufactures lithium-ion battery packs for electric 2W/3W (e-scooters, e-rickshaws, e-cycles), stationary energy storage and consumer electronics, plus custom packs, graphene packs and chargers under the MaxVolt brand. It is a pack assembler - cells are sourced, not made in-house.",
+  "fundamentals_table": [
+    [
+      "Market Cap",
+      "~Rs 368 Cr (NSE Emerge)"
+    ],
+    [
+      "FY26 revenue",
+      "~Rs 297 Cr, up ~176% YoY (from ~Rs 107.5 Cr)"
+    ],
+    [
+      "FY26 EBITDA / PAT",
+      "EBITDA ~Rs 35.6 Cr (+155%); PAT ~Rs 24.4 Cr (+141%)"
+    ],
+    [
+      "Margins",
+      "EBITDA margin ~12.0% (down from 13.0%); PAT margin ~8.2% (down from 9.4%)"
+    ],
+    [
+      "Cash flow / debt",
+      "FY26 operating cash flow NEGATIVE ~Rs 29 Cr; inventory tripled to ~Rs 62 Cr; debtor days ~58 -> ~105; current borrowings up ~11x to ~Rs 73 Cr, net financing inflow ~Rs 84 Cr"
+    ]
+  ],
+  "fundamentals_narrative": "Headline growth is spectacular - FY26 revenue +176%, PAT +141% - and on a ~Rs 368 Cr market cap at ~15x earnings that looks like exactly the small-base inflection this screen hunts for. The problem is the quality of that growth. Operating cash flow was deeply negative (~-Rs 29 Cr) even as reported PAT rose; inventory tripled, receivable days nearly doubled to ~105, and short-term borrowings jumped roughly 11x to fund the working-capital build and capex. Both EBITDA and PAT margins actually compressed year-on-year. Li-ion pack assembly is a low-barrier activity (imported cells + BMS + enclosure) exposed to cell-price swings and intense competition. The combination of margin compression, no cash conversion and a sharp leverage step-up is the profile the screen's quality gate is meant to filter out, not a manageable-debt real-growth compounder.",
+  "technical_read": "Not pulled - NSE-Emerge micro/small-cap, no ValuePickr thread.",
+  "sentiment_summary": "No ValuePickr thread for Maxvolt Energy (forum search returned nothing). Step 3.05: no match; topic_slug null. Research is web/filings-based only (H2FY26 investor presentation and earnings-call materials on NSE).",
+  "community_signal": "None - external lead only.",
+  "bse_notes": "H2FY26 / FY26 results and earnings-call transcript filed on NSE (May-2026). Disclosures show the working-capital and borrowing build described above alongside the revenue ramp.",
+  "value_chain": {
+    "theme": "EV ecosystem / battery (2W/3W pack assembly)",
+    "position": "Downstream pack assembler - buys cells, adds BMS/enclosure/integration, sells packs to EV OEMs and ESS buyers",
+    "bottleneck_node": "Cell supply (imported) and OEM qualification; assembler holds little pricing power",
+    "supply_side_status": "adding",
+    "adjacent_peers": [
+      "Amara Raja Energy & Mobility",
+      "Exide Industries",
+      "Eon Electric",
+      "Inverted Energy (unlisted)"
+    ],
+    "note": "2W EV is on an S-curve (ishmohit playbook, priority-2 theme), but the value in the chain accrues to cell makers and to OEMs with scale/brand; independent pack assemblers face margin compression as the segment commoditises and as OEMs in-source packs. Maxvolt's 'adding' capex into a crowded node is late-cycle-risky."
+  },
+  "bull_case": [
+    "FY26 revenue +176% and PAT +141% off a small base - if sustained, a ~Rs 368 Cr market cap has room to compound",
+    "Direct exposure to the 2W/3W EV S-curve (priority-2 theme) as a near-pure-play pack supplier - the reason @Aditya_joshi12 cited it as a 'single-segment EV proxy'",
+    "Adding capacity ahead of demand if the EV adoption curve steepens on further policy support"
+  ],
+  "bear_case": [
+    "FY26 operating cash flow negative ~Rs 29 Cr despite rising reported PAT - earnings are not converting to cash",
+    "Working capital deteriorating fast (inventory 3x, debtor days ~58 -> ~105) and short-term debt up ~11x to fund it",
+    "Both EBITDA and PAT margins compressed YoY - scale is not bringing operating leverage; pack assembly is a low-moat, cell-price-exposed activity",
+    "Untrusted-X quiz mention only, no conviction call; NSE-Emerge liquidity/disclosure limits; no community or trusted coverage"
+  ],
+  "market_cap_tier": "Small-cap SME (~Rs 368 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Triple-digit reported growth, but negative operating cash flow, a working-capital blowout and an 11x debt jump in a low-moat assembly business fail the quality gate",
+  "verdict_reasoning": [
+    "External-lead (tier 4.5) from an untrusted X source (@Aditya_joshi12 teaching quiz, 2025-11-28) describing it as a single-segment EV proxy - a categorisation, not a conviction call; no floor applies",
+    "The small-cap live-inflection rule would normally push a name growing this fast to 10x-in-2-3-years at Low, but that rule is explicitly gated on real growth and manageable debt. Here operating cash flow is negative while PAT rises, receivables and inventory are ballooning, leverage jumped ~11x, and margins compressed - so the growth is not (yet) value-creating and thesis_fit is neither",
+    "Live-theme match: EV ecosystem / battery, priority-2. Value-chain read: independent pack assembler at a low-pricing-power node that is 'adding' capacity into a crowded segment. Conviction Low. Revisit only if FY27 shows OCF turning clearly positive and working-capital ratios normalising"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "trusted_signals": [],
+  "four_box": {
+    "tailwind": "yes",
+    "tam": "weak",
+    "moat": "no",
+    "valuation": "weak",
+    "score": 2.0,
+    "note": "value_chain: EV 2W/3W pack assembly 'is on an S-curve' (tailwind=yes) but 'the assembler holds little pricing power' (moat=no); operating cash flow negative while PAT rises, receivables/inventory ballooning and leverage jumped ~11x mean 'the growth is not (yet) value-creating'."
+  }
+}

@@ -1,0 +1,700 @@
+{
+  "_doc": "Config for the global-proxy-scan scheduled task (2x/week, Tue + Fri). Restructured 2026-08-31 (v2) into THEMES, each with its bellwether global concalls + the Indian listed proxy(ies) it points to + a lifecycle status. The task runs 4 stages: (A) global signal scan - rotating reads of the bellwether universe + open-tape search for NEW themes; (B) Indian-proxy mapping for new / re-accelerating themes only; (C) India-signal verification - for a proxy already researched under an accelerating tailwind (await_india_check=true), check the Indian company's OWN latest order book / capacity / guidance / pricing for the SAME signal the bellwether showed; (D) portfolio hand-off - write the alignment verdict to valuepickr-screen/global-signal-alignment.md, which portfolio-rs1l-revision consumes. Method + rationale: playbook/ishmohit-soic-style.md section 6. Edit this file to add/retire themes or bellwethers without touching the task prompt. New themes found by Stage A's discovery search are appended here by the task itself.",
+  "version": 2,
+  "last_run_date": "2026-09-04",
+  "run_config": {
+    "cadence": "2x/week (Tue + Fri)",
+    "bellwether_staleness_days": 12,
+    "rotating_sample_per_run": 3,
+    "new_theme_discovery_searches_per_run": 5,
+    "proxy_writeback_cap_per_run": 6,
+    "stage_c_names_cap_per_run": 5,
+    "stage_c_recheck_days": 30,
+    "decelerating_runs_to_dormant": 2
+  },
+  "_status_enum": {
+    "active": "tailwind live; read on cadence, seed/verify proxies normally",
+    "dormant": "read decelerating 2 runs running (decel_streak >= decelerating_runs_to_dormant), OR manually parked; no proxy seeding, active_themes.json priority -> 3, re-read only monthly (coverage_cadence_days bumped to 30). Auto-reactivates if a monthly read comes back accelerating.",
+    "harvested": "proxy already researched at Medium-High+ AND held in docs/FINAL_PORTFOLIO_RECOMMENDATION.md AND tailwind only steady (not accelerating); the trade is on, nothing to add. Monthly read only. Reverts to active if tailwind re-accelerates."
+  },
+  "_proxy_action_state_enum": {
+    "none": "no Indian proxy identified yet",
+    "hypothesis": "candidate proxy name(s) named here but not yet pushed to state.json",
+    "seeded": "written into valuepickr-screen/state.json as status=candidate, source=global-proxy for vpscreen-scan to research",
+    "researched": "vpscreen-scan has researched it; if theme tailwind is accelerating/steady-tight, await_india_check is set true so Stage C picks it up",
+    "signal_confirmed": "Stage C found the same signal in the Indian company's own numbers (order book / capacity / guidance / pricing)",
+    "signal_partial": "Stage C found some but not full alignment",
+    "signal_not_yet": "global tailwind real but not yet visible in the Indian name - keep re-checking on stage_c_recheck_days",
+    "signal_diverging": "Indian company's own numbers contradict the global tailwind - a caution / trim signal"
+  },
+  "themes": [
+    {
+      "theme_id": "semi-capex-litho",
+      "label": "AI/semiconductor capex - fab equipment / EUV litho",
+      "status": "active",
+      "rate_of_change": "accelerating",
+      "decel_streak": 0,
+      "last_read_date": "2026-08-31",
+      "coverage_cadence_days": 12,
+      "bottleneck": "EUV / leading-edge litho capacity; DRAM litho-intensity rising",
+      "one_line": "Q2-26 sales EUR9.3bn above guide, FY26 raised to EUR43-45bn; Low-NA EUV ~fully booked for 2027, +30% capacity 2027 & investigating another +30% 2028; backlog still growing.",
+      "active_themes_json_key": "AI / data-centre semiconductor capex (litho, foundry, advanced packaging)",
+      "bellwethers": [
+        {
+          "name": "ASML",
+          "ticker": "ASML",
+          "what_to_read": "latest quarterly results + bookings/backlog + 2026/2027/2028 Low-NA & High-NA EUV demand and China",
+          "bottleneck_hint": "EUV/leading-edge litho capacity; long-lead subsystems",
+          "last_read_date": "2026-08-31"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "Sansera Engineering",
+          "slug": "sansera-engineering",
+          "exposure": "ADS (Aerospace & Defence + semicon) segment - machined precision parts into wafer-fab & semicap equipment supply chains",
+          "proxy_action_state": "signal_confirmed",
+          "signal_alignment": "confirmed",
+          "await_india_check": true,
+          "next_check_date": "2026-10-01",
+          "last_alignment_note": "2026-09-01: Q1FY27 ADS backlog ~Rs5,750cr, ADS sales >3x YoY, new Rs1,250cr/5-yr order from an existing semiconductor-equipment customer, Rs3,500cr capacity plan; semicon revenue ramps CY2027, peaks CY2029."
+        }
+      ]
+    },
+    {
+      "theme_id": "foundry-packaging",
+      "label": "AI/foundry demand + advanced packaging (CoWoS)",
+      "status": "active",
+      "rate_of_change": "accelerating",
+      "decel_streak": 0,
+      "last_read_date": "2026-08-31",
+      "coverage_cadence_days": 12,
+      "bottleneck": "CoWoS advanced packaging; 2nm advanced-node capacity",
+      "one_line": "2026 capex raised to $60-64bn; CoWoS ~90k wpm now, target 125-130k by YE still short of demand; FY26 revenue growth raised to >40%; CoWoS remains the industry's most critical bottleneck; N2 ramping.",
+      "active_themes_json_key": "AI / data-centre semiconductor capex (litho, foundry, advanced packaging)",
+      "bellwethers": [
+        {
+          "name": "TSMC",
+          "ticker": "TSM",
+          "what_to_read": "latest quarterly results, capex guidance revision, HPC/AI revenue mix, CoWoS / advanced-packaging capacity, N2 ramp",
+          "bottleneck_hint": "advanced-node capacity, CoWoS/advanced packaging",
+          "last_read_date": "2026-09-04"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "Kaynes Technology / CG Power (semicon/OSAT units)",
+          "slug": "kaynes-technology-india",
+          "exposure": "OSAT / ATMP build-out in India (Kaynes Sanand; CG Power-Renesas JV) - advanced-packaging adjacency, early-stage",
+          "proxy_action_state": "researched",
+          "signal_alignment": null,
+          "await_india_check": false,
+          "next_check_date": "2026-09-15",
+          "last_alignment_note": "2026-08-30: no distinct NEW listed name for CoWoS adjacency; kaynes/cg-power already researched. await_india_check left false until an India OSAT actually reports packaging capacity ramp."
+        }
+      ]
+    },
+    {
+      "theme_id": "memory-hbm",
+      "label": "Memory super-cycle (DRAM / HBM / NAND)",
+      "status": "active",
+      "rate_of_change": "accelerating",
+      "decel_streak": 0,
+      "last_read_date": "2026-08-31",
+      "coverage_cadence_days": 12,
+      "bottleneck": "HBM wafer capacity; DRAM bit supply (fixed near-term, cannot expand)",
+      "one_line": "Micron: HBM demand > supply across 3E/4, tight beyond CY2027, HBM TAM to cross $100bn in CY2027, ~68%+ GM. SK Hynix: Q2-26 rev +257% YoY, 76% op margin, HBM4 mass shipments began Q2.",
+      "active_themes_json_key": "Memory shortage (DRAM / HBM / NAND) — distributors & refurb",
+      "bellwethers": [
+        {
+          "name": "Micron",
+          "ticker": "MU",
+          "what_to_read": "latest quarterly results, DRAM/HBM pricing, FY guidance, capex, 'tight into 20XX' language, start-up cost drag",
+          "bottleneck_hint": "HBM capacity vs demand; DRAM bit supply",
+          "last_read_date": "2026-08-31"
+        },
+        {
+          "name": "SK Hynix",
+          "ticker": "000660.KS",
+          "what_to_read": "latest quarterly results + CEO commentary on cycle length + HBM4/HBM4E capacity",
+          "bottleneck_hint": "HBM wafer capacity",
+          "last_read_date": "2026-08-31"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "Rashi Peripherals",
+          "slug": "rashi-peripherals",
+          "exposure": "IT-hardware / memory-module distribution - Ishmohit's 'optically higher growth for distributors' during a memory shortage",
+          "proxy_action_state": "signal_partial",
+          "signal_alignment": "partial",
+          "await_india_check": true,
+          "next_check_date": "2026-10-02",
+          "last_alignment_note": "2026-09-02: Q1FY27 rev +61.9% YoY to Rs5,100cr but mgmt: 30-35% of growth = PRICE pass-through (memory/chip), only 20-25% volume; EBITDA margin CONTRACTED 24bps to 3.04%; 'orange alert' on chip/memory shortage capping future volume. Optically-higher-growth thesis visible in revenue, but zero margin benefit + shortage is a volume headwind."
+        }
+      ]
+    },
+    {
+      "theme_id": "dc-power-cooling",
+      "label": "Data-centre power distribution & thermal (liquid cooling)",
+      "status": "active",
+      "rate_of_change": "accelerating",
+      "decel_streak": 0,
+      "last_read_date": "2026-08-31",
+      "coverage_cadence_days": 12,
+      "bottleneck": "liquid cooling + power distribution for AI data centres",
+      "one_line": "Vertiv FY26 guide raised to $13.8-14.2bn (30-32% organic growth), backlog >$15bn, record orders; bolt-ons in direct-to-chip cooling.",
+      "active_themes_json_key": "Data-centre power & cooling (liquid cooling, power distribution, prefab modules)",
+      "bellwethers": [
+        {
+          "name": "Vertiv",
+          "ticker": "VRT",
+          "what_to_read": "latest quarterly results, orders/book-to-bill, backlog, liquid-cooling commentary, 2026 guidance",
+          "bottleneck_hint": "liquid cooling, power distribution, prefabricated DC modules",
+          "last_read_date": "2026-08-31"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "Aeroflex Industries",
+          "slug": "aeroflex-industries",
+          "exposure": "stainless-steel flexible flow-lines / hoses - used in liquid-cooling and process piping; DC-cooling adjacency",
+          "proxy_action_state": "signal_confirmed",
+          "signal_alignment": "confirmed",
+          "await_india_check": true,
+          "next_check_date": "2026-10-02",
+          "last_alignment_note": "2026-09-02: Q1FY27 consol rev Rs146cr (+73% YoY); liquid-cooling SFN skid rev Rs32.4cr = 22.2% of revenue (Rs18.9cr in Q4FY26), 1,040 units; skid capacity +50% to 9,000 units/yr from Jul-1; multi-year LTA signed with a ~US$141bn-mcap US corporation for DC liquid-cooling flow-control components; FY27 growth guide 30-35% 'led by data centers'."
+        }
+      ]
+    },
+    {
+      "theme_id": "onsite-prime-power",
+      "label": "Behind-the-meter / on-site DC power (gas gensets, fuel cells)",
+      "status": "active",
+      "rate_of_change": "accelerating",
+      "decel_streak": 0,
+      "last_read_date": "2026-09-01",
+      "coverage_cadence_days": 12,
+      "bottleneck": "on-site prime power (grid-surplus exhaustion); SOFC / gas gensets",
+      "one_line": "Bloom Q2-26 rev +165% YoY ($1.07bn), FY26 guide $3.9-4.2bn, ~$20bn backlog. ERock (new bellwether, IPO Jun-26): contracted backlog +~10x YoY to $1.7bn on a 470 MW Anthropic gas-genset deal; production sold out through 2027 into 2028. On-site DC prime power tightening at every node.",
+      "active_themes_json_key": "On-site prime power / gas gensets / fuel cells for DCs",
+      "bellwethers": [
+        {
+          "name": "Bloom Energy",
+          "ticker": "BE",
+          "what_to_read": "latest quarterly results, GW of DC capacity commentary, greenfield sizing, orders, install lead-time",
+          "bottleneck_hint": "grid-surplus exhaustion; on-site prime power; gas gensets",
+          "last_read_date": "2026-08-31"
+        },
+        {
+          "name": "ERock",
+          "ticker": "EROC",
+          "what_to_read": "latest quarterly results, contracted backlog, MW of DC gas-genset awards, speed-to-power / install lead time, O&M annuity mix",
+          "bottleneck_hint": "behind-the-meter gas gensets; grid-interconnection delay; speed-to-power",
+          "last_read_date": "2026-09-01"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "Cummins India",
+          "slug": "cummins-india",
+          "exposure": "HHP gensets / power-gen engines for data centres; also GE Vernova + Caterpillar read-through",
+          "proxy_action_state": "signal_confirmed",
+          "signal_alignment": "confirmed",
+          "await_india_check": true,
+          "next_check_date": "2026-10-01",
+          "last_alignment_note": "2026-09-01: Q1FY27 data centres = 40% of powergen revenue (from 23% YoY); customers preponing deliveries; mgmt: 'for data centers, lead times and supply reliability are more critical than price'."
+        },
+        {
+          "name": "Kirloskar Oil Engines",
+          "slug": "kirloskar-oil-engines",
+          "exposure": "gensets / engines; DC + data-centre prime-power exposure",
+          "proxy_action_state": "signal_partial",
+          "signal_alignment": "partial",
+          "await_india_check": true,
+          "next_check_date": "2026-10-01",
+          "last_alignment_note": "2026-09-01: Q1FY27 named 192MW HyperNext DC genset order (96x2,500kVA) + 5-6yr O&M, PowerGen rev +18%; BUT consolidated PAT -20% YoY on margin pressure - demand confirmed, pricing-power leg diverging."
+        }
+      ]
+    },
+    {
+      "theme_id": "grid-transmission",
+      "label": "Grid + transmission equipment (transformers, HV switchgear, HVDC)",
+      "status": "active",
+      "rate_of_change": "accelerating",
+      "decel_streak": 0,
+      "last_read_date": "2026-08-31",
+      "coverage_cadence_days": 12,
+      "bottleneck": "large power transformers, HV switchgear, HVDC, gas-turbine slots",
+      "one_line": "GEV Q2-26 Power orders +134% organic, gas backlog 100->116 GW (target 125 by YE), Electrification equipment backlog $40.6bn (+69% YoY, incl. $5bn Prolec). Siemens Energy Q3 FY26 orders $20.6bn, total backlog $186bn; transformer lead times 3+ years; transformer capacity +50% by 2030.",
+      "active_themes_json_key": "Grid / transmission equipment (transformers, HV switchgear, HVDC, CRGO, insulators)",
+      "bellwethers": [
+        {
+          "name": "GE Vernova",
+          "ticker": "GEV",
+          "what_to_read": "latest quarterly results, gas-power orders/slots, grid-equipment backlog, Electrification BtB, pricing",
+          "bottleneck_hint": "large power transformers, HV switchgear, CRGO, gas-turbine slots",
+          "last_read_date": "2026-09-04"
+        },
+        {
+          "name": "Siemens Energy",
+          "ticker": "ENR.DE",
+          "what_to_read": "latest quarterly results, Grid Technologies orders/backlog, book-to-bill, pricing power",
+          "bottleneck_hint": "HVDC, transformers, grid transmission equipment",
+          "last_read_date": "2026-09-04"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "Transformers & Rectifiers India",
+          "slug": "transformer-rectifier-india",
+          "exposure": "power & HVDC converter transformers - direct exporter into the same global grid capex wave",
+          "proxy_action_state": "signal_confirmed",
+          "signal_alignment": "confirmed",
+          "await_india_check": true,
+          "next_check_date": "2026-10-01",
+          "last_alignment_note": "2026-09-01: Q1FY27 order inflows +218% YoY to Rs2,114cr, record book Rs6,630cr (+26% YoY), ~Rs23,000cr enquiry pipeline; revenue +8% only because Changodar plant is under expansion - capacity is the constraint."
+        },
+        {
+          "name": "Quality Power Electrical Equipments",
+          "slug": "quality-power-electrical-equipments",
+          "exposure": "HVDC / grid-stabilisation equipment (reactors, converter-station gear) - direct HVDC bottleneck exposure",
+          "proxy_action_state": "signal_confirmed",
+          "signal_alignment": "confirmed",
+          "await_india_check": true,
+          "next_check_date": "2026-10-01",
+          "last_alignment_note": "2026-09-01: Q1FY27 rev +32%, PAT +47%, 28.3% EBITDA margin; order book Rs1,945cr (1.9x FY26 rev); won HV reactor orders for US hyperscale data centres + FACTS Japan + Abu Dhabi."
+        }
+      ]
+    },
+    {
+      "theme_id": "enterprise-saas",
+      "label": "US + Indian enterprise software / SaaS re-acceleration",
+      "status": "active",
+      "rate_of_change": "accelerating",
+      "decel_streak": 0,
+      "last_read_date": "2026-08-31",
+      "coverage_cadence_days": 12,
+      "bottleneck": "n/a - demand signal (enterprise SaaS re-acceleration), not a supply bottleneck",
+      "one_line": "Salesforce Q2 FY27 rev $11.35bn (+11%), cRPO $33.5bn +14% cc and accelerating QoQ; FY27 guide raised to $46.1-46.4bn; Agentforce ARR >$1.5bn (+240% YoY).",
+      "active_themes_json_key": "US + Indian software / product-SaaS turn",
+      "bellwethers": [
+        {
+          "name": "Salesforce",
+          "ticker": "CRM",
+          "what_to_read": "latest quarterly results, cRPO/RPO growth, guidance revision, Agentforce contribution, margin trajectory",
+          "bottleneck_hint": "n/a (demand signal, not a supply bottleneck)",
+          "last_read_date": "2026-08-31"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "Indian product-SaaS (Intellect Design / Aurionpro / Zaggle - deferred)",
+          "slug": null,
+          "exposure": "Indian listed product-SaaS with above-IT-index growth; demand-signal read only, no supply bottleneck",
+          "proxy_action_state": "hypothesis",
+          "signal_alignment": null,
+          "await_india_check": false,
+          "next_check_date": "2026-09-15",
+          "last_alignment_note": "2026-08-30: deferred - no single clean listed proxy; demand signal, human owns the priority (active_themes.json entry stays priority 2)."
+        }
+      ]
+    },
+    {
+      "theme_id": "heavy-industry-reshoring",
+      "label": "Heavy industry / forgings / castings - US reshoring, Europe deindustrialisation",
+      "status": "active",
+      "rate_of_change": "accelerating",
+      "decel_streak": 0,
+      "last_read_date": "2026-08-31",
+      "coverage_cadence_days": 12,
+      "bottleneck": "large forgings/castings, engine components, gensets & turbines for DCs",
+      "one_line": "Caterpillar Q2-26 record $20.5bn sales, adj EPS $8.17 vs $6.19 est; backlog record $72bn (+92% YoY), some Power&Energy orders out to 2030; power-gen sales-to-users +72%; FY guide raised.",
+      "active_themes_json_key": "Forgings / castings / fasteners / cap-good exporters to US (reshoring, Europe deindustrialisation)",
+      "bellwethers": [
+        {
+          "name": "Caterpillar",
+          "ticker": "CAT",
+          "what_to_read": "latest quarterly results, Energy & Transportation (gensets for DCs), dealer inventory, backlog, order commentary out-years",
+          "bottleneck_hint": "large forgings, castings, engine components; European forging capacity shutting on power costs",
+          "last_read_date": "2026-08-31"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "Ramkrishna Forgings",
+          "slug": "ramkrishna-forgings-ias2026",
+          "exposure": "forgings exporter to US/Europe; direct reshoring + Europe-plant-closure beneficiary",
+          "proxy_action_state": "signal_partial",
+          "signal_alignment": "partial",
+          "await_india_check": true,
+          "next_check_date": "2026-10-02",
+          "last_alignment_note": "2026-09-02: Q1FY27 consol rev Rs1,217cr (+19.8% YoY), PAT Rs46.9cr (+298%), EBITDA margin 17.96%; exports GUIDED to ~35% of revenue by FY27 (NA Class-8 trucks + Europe recovery) but Q1 new-order wins only Rs293cr, 82% domestic PV/2W; capacity util 68%. Profit surge is margin/diversification-led; the CAT-style multi-year US/Europe reshoring backlog is NOT in RKForge's own Q1 order intake."
+        }
+      ]
+    },
+    {
+      "theme_id": "ai-networking-optics",
+      "label": "AI back-end networking + optical interconnect",
+      "status": "active",
+      "rate_of_change": "accelerating",
+      "decel_streak": 0,
+      "last_read_date": "2026-09-01",
+      "coverage_cadence_days": 12,
+      "bottleneck": "800G/1.6T optics + AI-fabric switch silicon; EML/CW-laser & optical-alignment component supply",
+      "one_line": "Arista Q2 FY26 first $3bn quarter (+37.7% YoY), FY26 guide raised to $12.6bn (~40% growth), AI Fabrics >=$3.5bn; mgmt: AI networking demand materially above available supply; 800G volume ramping, 1.6T qualification underway, liquid-cooled fabric platforms launched.",
+      "active_themes_json_key": "AI networking / optical interconnect",
+      "bellwethers": [
+        {
+          "name": "Arista Networks",
+          "ticker": "ANET",
+          "what_to_read": "latest quarterly results, AI back-end networking revenue, 800G ramp, cloud-titan capex commentary, guidance",
+          "bottleneck_hint": "AI cluster fabric: 800G/1.6T switches & optics, co-packaged optics",
+          "last_read_date": "2026-09-01"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "HFCL / Sterlite Technologies",
+          "slug": null,
+          "exposure": "optical fibre & cable, connectivity products; indirect - India telco/DC fibre build rather than AI-cluster optics directly",
+          "proxy_action_state": "hypothesis",
+          "signal_alignment": null,
+          "await_india_check": false,
+          "next_check_date": null,
+          "last_alignment_note": "2026-09-01: exposure too indirect - India fibre/cable (HFCL, Sterlite Tech) is telco/DC fibre, not AI-cluster 800G/1.6T optics; the real bottleneck nodes (EML, CW laser, optical alignment) have no India listed pure-play. Stays hypothesis / log-only."
+        }
+      ]
+    },
+    {
+      "theme_id": "power-semiconductors",
+      "label": "Power semiconductors (the 'next demand-supply mismatch' - Ishmohit playbook s3)",
+      "status": "active",
+      "rate_of_change": "accelerating",
+      "decel_streak": 0,
+      "last_read_date": "2026-09-01",
+      "coverage_cadence_days": 12,
+      "bottleneck": "AI-datacentre power-delivery semis + SiC/GaN wafer capacity; IGBT modules",
+      "one_line": "Infineon Q3 FY26 record rev EUR4.17bn (+13% YoY, +9.4% QoQ), FY26 guide raised to EUR16.3bn, Q4 guide EUR4.7bn ~23% segment margin; flagged a material upward revision to 2027 AI revenue next update; auto improving on structural content growth + restocking.",
+      "active_themes_json_key": "Power semiconductors (SiC / GaN / IGBT)",
+      "bellwethers": [
+        {
+          "name": "Infineon",
+          "ticker": "IFX.DE",
+          "what_to_read": "latest quarterly results, auto + green-industrial power segments, SiC ramp, book-to-bill, inventory correction status, guidance",
+          "bottleneck_hint": "SiC/GaN wafer capacity; IGBT modules",
+          "last_read_date": "2026-09-01"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "Kaynes Technology / CDIL / EMS names",
+          "slug": null,
+          "exposure": "no listed India pure-play power-semi maker; power-module assembly / EMS with power-electronics content is the nearest adjacency",
+          "proxy_action_state": "hypothesis",
+          "signal_alignment": null,
+          "await_india_check": false,
+          "next_check_date": null,
+          "last_alignment_note": "2026-09-01: no India-listed SiC/GaN/IGBT pure-play; nearest is Kaynes (power-module assembly, already researched Low). India exposure thin - log-only."
+        }
+      ]
+    },
+    {
+      "theme_id": "glp1-obesity-supply",
+      "label": "GLP-1 / obesity drugs - supply side (peptide API, fill-finish, devices)",
+      "status": "active",
+      "rate_of_change": "steady",
+      "decel_streak": 0,
+      "last_read_date": "2026-09-01",
+      "coverage_cadence_days": 12,
+      "bottleneck": "peptide API + sterile fill-finish capacity (bottleneck easing as Lilly insources); injector devices",
+      "one_line": "Lilly Q2-26 rev +48% to $23bn, Mounjaro+Zepbound $14.9bn, FY26 guide raised to $85-87bn; demand still ahead of supply but $21bn+ Indiana/Lebanon capacity buildout is closing the gap and realised prices are FALLING (NRDL, cash-pay cuts) - pricing power at the bottleneck deteriorating.",
+      "active_themes_json_key": "GLP-1 / peptide supply chain",
+      "bellwethers": [
+        {
+          "name": "Eli Lilly",
+          "ticker": "LLY",
+          "what_to_read": "latest quarterly results, incretin (Mounjaro/Zepbound) demand vs supply, capacity build, oral GLP-1 progress, LOE timelines, guidance",
+          "bottleneck_hint": "peptide API + sterile fill-finish capacity; injector devices",
+          "last_read_date": "2026-09-01"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "Divi's Labs / Neuland Labs / Shilpa Medicare (peptides)",
+          "slug": null,
+          "exposure": "peptide-building-block / custom-synthesis capacity for GLP-1 supply chains; also semaglutide LOE generics wave from 2026",
+          "proxy_action_state": "hypothesis",
+          "signal_alignment": null,
+          "await_india_check": false,
+          "next_check_date": null,
+          "last_alignment_note": "2026-09-01: theme reads STEADY (demand +48% but realised prices falling on NRDL/cash-pay cuts, Lilly insourcing capacity) - not steady-tight, so no Stage B search. Supply-side peptide-API angle only; Ishmohit commoditisation view holds. hypothesis retained."
+        }
+      ]
+    },
+    {
+      "theme_id": "life-sciences-tools-bioprocessing",
+      "label": "Life-sciences tools / bioprocessing recovery + CDMO 2.0",
+      "status": "active",
+      "rate_of_change": "accelerating",
+      "decel_streak": 0,
+      "last_read_date": "2026-09-01",
+      "coverage_cadence_days": 12,
+      "bottleneck": "bioprocessing consumables + chromatography resin capacity; peptide/oligo CDMO capacity",
+      "one_line": "Danaher Q2-26 bioprocessing ORDERS +mid-teens YoY (consumables + equipment), underlying demand 'very healthy'; revenue still lags (core +low-single-digit), ~$100m resin revenue pushed to 2027; FY26 EPS guide nudged up - the bioprocessing equipment cycle has turned on the leading indicator.",
+      "active_themes_json_key": "CDMO / specialty & aroma chemicals — peptides + oligonucleotides margin vector",
+      "bellwethers": [
+        {
+          "name": "Danaher",
+          "ticker": "DHR",
+          "what_to_read": "latest quarterly results, bioprocessing / Cytiva orders & book-to-bill, China commentary, pharma-customer destocking end, guidance",
+          "bottleneck_hint": "bioprocessing consumables; genomics; peptide/oligo capacity",
+          "last_read_date": "2026-09-01"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "Sai Life Sciences (primary) / Syngene / Cohance",
+          "slug": "sai-life-sciences",
+          "exposure": "Indian CRDMO/CDMO capacity riding the same bioprocessing + peptide/oligo demand recovery Danaher/Cytiva flagged; small-molecule + biologics",
+          "proxy_action_state": "signal_not_yet",
+          "signal_alignment": "not-yet-visible",
+          "await_india_check": true,
+          "next_check_date": "2026-10-02",
+          "last_alignment_note": "2026-09-02: Q1FY27 rev +12% YoY to Rs554cr, PAT +22% to Rs73cr; growth driven by CRO (+24% YoY); CDMO (~60% of rev) grew only ~6% YoY; 33 active commercial molecules + 14 late-phase; no order-book inflection disclosed; <=20% long-term growth guide reaffirmed. Danaher's bioprocessing-orders inflection not yet reflected in Sai's CDMO line."
+        }
+      ]
+    },
+    {
+      "theme_id": "defense-munitions",
+      "label": "Defence industrial complex - munitions, missiles, precision parts",
+      "status": "active",
+      "rate_of_change": "accelerating",
+      "decel_streak": 0,
+      "last_read_date": "2026-09-01",
+      "coverage_cadence_days": 12,
+      "bottleneck": "propellant / RDX / explosives capacity, medium-calibre, solid rocket motors, forgings",
+      "one_line": "Rheinmetall Q2-26 sales +69% YoY, order intake +476% to EUR11.4bn, backlog EUR80.4bn (+44% YoY, 70% firm), >EUR100bn expected by YE, ~EUR50bn sales target 2030; building artillery/propellant/RDX/rocket-motor plants across Europe; FY sales guide trimmed slightly on timing, ~19% margin held.",
+      "active_themes_json_key": "Defence / aerospace manufacturing bottlenecks (missiles, interceptors, precision parts)",
+      "bellwethers": [
+        {
+          "name": "Rheinmetall",
+          "ticker": "RHM.DE",
+          "what_to_read": "latest quarterly results, order backlog / book-to-bill, ammunition capacity expansion, Europe rearmament budgets, guidance to 2030",
+          "bottleneck_hint": "artillery ammunition, propellant, medium-calibre, air defence",
+          "last_read_date": "2026-09-01"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "Premier Explosives + Solar Industries India (seeded) / Data Patterns, Zen, MTAR (researched)",
+          "slug": "premier-explosives",
+          "exposure": "explosives, RDX/HMX, composite propellants, rocket motors, defence electronics - direct beneficiaries of the same munitions-capacity crunch + India indigenisation + exports",
+          "proxy_action_state": "seeded",
+          "signal_alignment": null,
+          "await_india_check": false,
+          "next_check_date": null,
+          "last_alignment_note": "2026-09-01: SEEDED premier-explosives (RDX/HMX/composite propellants for Pinaka/Akash/Brahmos; Rs 73cr + Rs 105cr defence export orders late-2025) and solar-industries-india (defence explosives/propellants/ammunition expansion). data-patterns / zen-technologies / mtar-technologies already researched -> Stage C candidates on a later run."
+        }
+      ]
+    },
+    {
+      "theme_id": "commercial-aerospace-aftermarket",
+      "label": "Commercial aerospace - narrowbody ramp + aftermarket",
+      "status": "active",
+      "rate_of_change": "accelerating",
+      "decel_streak": 0,
+      "last_read_date": "2026-09-01",
+      "coverage_cadence_days": 12,
+      "bottleneck": "engine hot-section castings/forgings, LEAP ramp, shop-visit/MRO capacity, supplier output",
+      "one_line": "GE Aerospace Q2-26 rev +27%, spare-parts orders +34% H1, LEAP units +24% (deliveries +41% H1), FY26 guide raised (commercial services low-20s); >95% of Q3 spare-parts revenue already in backlog, part delinquencies +20% = demand outrunning supply.",
+      "active_themes_json_key": "Defence / aerospace manufacturing bottlenecks (missiles, interceptors, precision parts)",
+      "bellwethers": [
+        {
+          "name": "GE Aerospace",
+          "ticker": "GE",
+          "what_to_read": "latest quarterly results, LEAP output & spare-parts (aftermarket) growth, departures trend, supply-chain constraint commentary, guidance",
+          "bottleneck_hint": "engine hot-section castings/forgings, LEAP ramp, shop-visit capacity",
+          "last_read_date": "2026-09-01"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "PTC Industries / Aerolloy (seeded) / Azad, Unimech, MTAR (researched)",
+          "slug": "ptc-industries",
+          "exposure": "titanium/superalloy aero-engine castings & forgings into GE/Safran supply chains (Aerolloy arm) - direct hot-section constraint-node exposure",
+          "proxy_action_state": "seeded",
+          "signal_alignment": null,
+          "await_india_check": false,
+          "next_check_date": null,
+          "last_alignment_note": "2026-09-01: SEEDED ptc-industries (Aerolloy: first India source of Ti cast components for Safran Aircraft Engines; superalloy aero-engine castings/forgings). azad-engineering / unimech-aerospace / mtar-technologies already researched -> Stage C candidates on a later run."
+        }
+      ]
+    },
+    {
+      "theme_id": "auto-ev-supply-chain",
+      "label": "Global auto cycle + EV/ICE drivetrain supply chain",
+      "status": "active",
+      "rate_of_change": "decelerating",
+      "decel_streak": 1,
+      "last_read_date": "2026-09-01",
+      "coverage_cadence_days": 12,
+      "bottleneck": "n/a - demand signal (global light-vehicle build rate); content-per-vehicle shift",
+      "one_line": "BorgWarner FY26 organic sales guide down 1.5-3.5%, weighted light-vehicle markets down ~3% to flat, Battery Energy Systems declining; EPS raised on buybacks/margin not volume; notable: entered the DC market with a turbine-generator system award.",
+      "active_themes_json_key": "Auto ancillaries (lesser-discussed, gaining strength)",
+      "bellwethers": [
+        {
+          "name": "BorgWarner",
+          "ticker": "BWA",
+          "what_to_read": "latest quarterly results, global light-vehicle production outlook, eProduct vs foundational mix, book-to-bill on new awards, margin, guidance",
+          "bottleneck_hint": "drivetrain content per vehicle; EV award pace vs ICE resilience",
+          "last_read_date": "2026-09-01"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "Uno Minda / Sona BLW / Sansera / Divgi TorqTransfer",
+          "slug": null,
+          "exposure": "Indian auto ancillaries with export + content-gain stories; EV + ICE",
+          "proxy_action_state": "hypothesis",
+          "signal_alignment": null,
+          "await_india_check": false,
+          "next_check_date": null,
+          "last_alignment_note": "new theme added v2; many already in state.json - demand-signal theme, likely priority 2."
+        }
+      ]
+    },
+    {
+      "theme_id": "copper-electrification-metals",
+      "label": "Copper + electrification metals (grid + DC + EV pull)",
+      "status": "active",
+      "rate_of_change": "accelerating",
+      "decel_streak": 0,
+      "last_read_date": "2026-09-01",
+      "coverage_cadence_days": 12,
+      "bottleneck": "mined copper supply vs electrification demand; long project lead times; wire & cable capacity",
+      "one_line": "Freeport Q2-26 realised copper $6.17/lb (+41.5% YoY), rev $7.03bn beat; guiding significantly higher copper/gold volumes H2-26 into 2027; AI/grid/EV demand + constrained mine supply driving the bull market.",
+      "active_themes_json_key": "Copper & electrification metals",
+      "bellwethers": [
+        {
+          "name": "Freeport-McMoRan",
+          "ticker": "FCX",
+          "what_to_read": "latest quarterly results, copper price realisation, mine supply commentary, demand from grid/DC/EV, project pipeline, guidance",
+          "bottleneck_hint": "mined copper supply; long project lead times",
+          "last_read_date": "2026-09-01"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "Diamond Power Infrastructure (primary) / RR Kabel, Polycab, Hindustan Copper (researched)",
+          "slug": "diamond-power-infrastructure",
+          "exposure": "copper wire & cable capacity for data centres / power plants / heavy industry - rides the copper + DC-capex pull Freeport cited",
+          "proxy_action_state": "signal_confirmed",
+          "signal_alignment": "confirmed",
+          "await_india_check": true,
+          "next_check_date": "2026-10-02",
+          "last_alignment_note": "2026-09-02: Q1FY27 consol rev Rs690cr (+128.6% YoY), PAT Rs58.4cr (+256%), EBITDA +172% to Rs85cr; commissioned 1,500 MT/month copper wire-drawing & cable capacity (low capex); DC order book >Rs575cr incl. a Rs52.86cr hyperscale-DC LOI (Hyderabad, via Aurionpro); aggregate order book Rs3,688cr (~2x FY26 revenue) as of 11-Aug-2026."
+        }
+      ]
+    },
+    {
+      "theme_id": "uranium-nuclear",
+      "label": "Uranium / nuclear fuel cycle (AI-power + SMR narrative)",
+      "status": "active",
+      "rate_of_change": "accelerating",
+      "decel_streak": 0,
+      "last_read_date": "2026-09-01",
+      "coverage_cadence_days": 12,
+      "bottleneck": "mined uranium + conversion/enrichment capacity; long-dated utility contracting",
+      "one_line": "Cameco Q2-26 EPS missed on unplanned mine disruptions (Key Lake/McArthur/Cigar Lake) but production guide unchanged (19.5-21.5m lb); long-term uranium price mid-$90s heading toward triple digits, market contract floors high-$70s / ceilings ~$160 escalated; AI-power demand driving utility term contracting.",
+      "active_themes_json_key": "Uranium / nuclear fuel cycle",
+      "bellwethers": [
+        {
+          "name": "Cameco",
+          "ticker": "CCJ",
+          "what_to_read": "latest quarterly results, term-contract volume & price, production guidance, Westinghouse commentary, utility demand from DC/AI, SMR pipeline",
+          "bottleneck_hint": "mined uranium + conversion/enrichment capacity",
+          "last_read_date": "2026-09-01"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "L&T / Walchandnagar Industries / TRIL (nuclear cap-goods)",
+          "slug": null,
+          "exposure": "nuclear island cap-goods, forgings, control systems - India's expansion + global SMR component supply; thin listed pure-play",
+          "proxy_action_state": "hypothesis",
+          "signal_alignment": null,
+          "await_india_check": false,
+          "next_check_date": null,
+          "last_alignment_note": "2026-09-01: India nuclear equity exposure thin; AMIC Forging / Patels Airtemp / Walchandnagar noted but their exposure is the India DOMESTIC SMR programme, not the Cameco mined-uranium / conversion-enrichment bottleneck. Log-only."
+        }
+      ]
+    },
+    {
+      "theme_id": "factory-automation-reshoring",
+      "label": "Factory automation / discrete electrification (reshoring capex)",
+      "status": "active",
+      "rate_of_change": "steady",
+      "decel_streak": 0,
+      "last_read_date": "2026-09-01",
+      "coverage_cadence_days": 12,
+      "bottleneck": "n/a - demand signal (US/EU factory-buildout capex); automation content per project",
+      "one_line": "Rockwell Q3 FY26 organic sales +10%, Software & Control +19%, FY guide raised to ~8.5% organic midpoint; Lifecycle Services book-to-bill 0.97 ('measured pace of capital deployment'); $2bn US capacity commitment - improving off the trough, not yet an order boom.",
+      "active_themes_json_key": "Factory automation / discrete electrification",
+      "bellwethers": [
+        {
+          "name": "Rockwell Automation",
+          "ticker": "ROK",
+          "what_to_read": "latest quarterly results, orders / book-to-bill, reshoring & mega-project capex commentary, sequential order recovery, guidance",
+          "bottleneck_hint": "reshoring factory buildout capex; automation content",
+          "last_read_date": "2026-09-01"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "ABB India / Honeywell Automation India / Siemens India (MNC subs) - or smaller automation names",
+          "slug": null,
+          "exposure": "India factory-automation capex; mostly MNC subsidiaries (a human owns those calls), so likely log-only unless a genuine mid-cap surfaces",
+          "proxy_action_state": "hypothesis",
+          "signal_alignment": null,
+          "await_india_check": false,
+          "next_check_date": null,
+          "last_alignment_note": "new theme added v2; low likelihood of a clean new listed proxy - expect log-only."
+        }
+      ]
+    },
+    {
+      "theme_id": "defense-electronics-sensors",
+      "label": "Defence electronics / sensors - radar, EW, C4ISR (European rearmament + India indigenisation)",
+      "status": "active",
+      "rate_of_change": "accelerating",
+      "decel_streak": 0,
+      "last_read_date": null,
+      "coverage_cadence_days": 12,
+      "bottleneck": "qualified radar/EW subsystem & sensor-electronics capacity (PCB throughput, GaN T/R modules, seeker & mission-computer electronics)",
+      "one_line": "Hensoldt H1-26 order intake EUR2.81bn (doubled YoY), order backlog EUR10.36bn (first time >EUR10bn), BtB 2.4x; rev +24% to EUR1.1bn, adj EBITDA +29%; PCB output ~3x since Jan; FY26 guide confirmed (rev ~EUR2.75bn, BtB 1.5-2.0x, ~19% margin). Radar/EW demand broadening across NATO air defence, Eurofighter ECRS Mk1, naval, space, counter-drone.",
+      "active_themes_json_key": "Defence electronics / sensors (radar, EW, C4ISR)",
+      "bellwethers": [
+        {
+          "name": "Hensoldt",
+          "ticker": "HAG.DE",
+          "what_to_read": "H1/quarterly results, order intake & backlog, radar/optronics/EW segment growth, European defence-budget commentary, guidance to 2030",
+          "bottleneck_hint": "radar/EW subsystems, GaN T/R modules, qualified sensor-electronics capacity",
+          "last_read_date": "2026-09-04"
+        }
+      ],
+      "india_proxies": [
+        {
+          "name": "Data Patterns (primary) / Astra Microwave / Apollo Micro Systems (researched); Paras Defence (not in registry)",
+          "slug": "data-patterns",
+          "exposure": "India-listed defence-electronics pure-plays - radars, avionics, EW, RF/microwave subsystems, mission computers; ride the same radar/EW demand wave (European rearmament read-through + India indigenisation + exports)",
+          "proxy_action_state": "signal_partial",
+          "signal_alignment": "partial",
+          "await_india_check": true,
+          "next_check_date": "2026-10-04",
+          "last_alignment_note": "2026-09-04: order books at records (Data Patterns book Rs2,654cr incl. negotiated; Astra record book w/ Rs2,205cr Uttam radar from HAL = largest ever) + FY27 guides lifted, but Q1FY27 P&L soft (DP rev +16.8%, PAT -13.5% on margin compression; Astra 'moderate profitability on temporary delays') - no Hensoldt-magnitude order-intake acceleration in the Indian names' own quarter yet."
+        }
+      ]
+    }
+  ]
+}

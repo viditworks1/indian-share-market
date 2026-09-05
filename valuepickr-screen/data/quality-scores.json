@@ -1,0 +1,4276 @@
+{
+  "method": "the user's stated screening framework (2026-09-04): growth + margins + ROCE + debt + capex + free cash flow + competitive advantage + management quality. This score covers the four legs (ROCE, debt, FCF, capex) that had no numeric home before. Formula in this script's docstring and scripts/QUALITY_SCORE_METHODOLOGY.md.",
+  "scored_count": 24,
+  "not_assessed_count": 601,
+  "ranked": [
+    {
+      "slug": "venus-remedies",
+      "name": "Venus Remedies",
+      "quality_score": 96.0,
+      "conviction_score": 80.0,
+      "red_flag_tier": null,
+      "roce_pct": 20.2,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -1.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 85,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 21,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 25,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 96,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "macpower-cnc-machines-manufacturing-a-strong-growth",
+      "name": "Macpower CNC Machines: Manufacturing a Strong Growth?",
+      "quality_score": 89.0,
+      "conviction_score": 66.0,
+      "red_flag_tier": null,
+      "roce_pct": 29.1,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 48,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 25,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 14,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 89,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "vinati-organics",
+      "name": "Vinati Organics Ltd",
+      "quality_score": 76.0,
+      "conviction_score": 56.32,
+      "red_flag_tier": null,
+      "roce_pct": 21.4,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -2.6,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 65,
+      "margin_trend": "contracting",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [
+        "margin-contracting"
+      ],
+      "score_breakdown": {
+        "roce_component": 21,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 20,
+        "margin_component": 0,
+        "capex_component": 15,
+        "raw": 76,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "hbl-engineering-booting",
+      "name": "HBL Engineering: Booting-up for the Race of the Century",
+      "quality_score": 69.0,
+      "conviction_score": 58.32,
+      "red_flag_tier": null,
+      "roce_pct": 58.4,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 0.06,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 66,
+      "margin_trend": "contracting",
+      "capex_efficiency": "productive",
+      "assessment": "neutral",
+      "flags": [
+        "margin-contracting"
+      ],
+      "score_breakdown": {
+        "roce_component": 18,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 20,
+        "margin_component": 0,
+        "capex_component": 15,
+        "raw": 69,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "dynamic-cables",
+      "name": "Dynamic Cables",
+      "quality_score": 67.0,
+      "conviction_score": 52.0,
+      "red_flag_tier": null,
+      "roce_pct": 26.2,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 0.68,
+      "interest_coverage": 11.3,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 21,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 67,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "aeroflex-industries",
+      "name": "Aeroflex Industries Ltd",
+      "quality_score": 63.0,
+      "conviction_score": 80.0,
+      "red_flag_tier": null,
+      "roce_pct": 18.9,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.1,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -5,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 63,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "adf-food-ltd",
+      "name": "ADF FOOD LTD",
+      "quality_score": 63.0,
+      "conviction_score": 48.8,
+      "red_flag_tier": null,
+      "roce_pct": 22,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": -0.17,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 8,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 2,
+        "margin_component": 9,
+        "capex_component": 15,
+        "raw": 63,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "yash-highvoltage",
+      "name": "Yash Highvoltage Ltd",
+      "quality_score": 50.0,
+      "conviction_score": 54.0,
+      "red_flag_tier": null,
+      "roce_pct": 29.0,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": 0.63,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -82,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 18,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 9,
+        "capex_component": 7,
+        "raw": 50,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "entero-healthcare-solutions",
+      "name": "Entero Healthcare Solutions Ltd",
+      "quality_score": 45.0,
+      "conviction_score": 58.32,
+      "red_flag_tier": null,
+      "roce_pct": 10.0,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 2.5,
+      "interest_coverage": 18.0,
+      "fcf_conversion_pct": 36,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 12,
+        "debt_component": 4,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 7,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 45,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "l-t-elevators-can-they-lift-investors",
+      "name": "L. T. Elevators: Can they lift investors",
+      "quality_score": 43.0,
+      "conviction_score": 47.0,
+      "red_flag_tier": null,
+      "roce_pct": 30.4,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": 0.74,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -53,
+      "margin_trend": "stable",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 18,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 9,
+        "capex_component": 0,
+        "raw": 43,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "wise-travel-india-wti-cabs",
+      "name": "Wise Travel India Ltd (WTICabs)",
+      "quality_score": 42.0,
+      "conviction_score": 46.0,
+      "red_flag_tier": null,
+      "roce_pct": 16,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 1.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -16,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 0,
+        "raw": 42,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "wockhardt-ltd",
+      "name": "Wockhardt Ltd",
+      "quality_score": 41.0,
+      "conviction_score": 61.32,
+      "red_flag_tier": null,
+      "roce_pct": 7.55,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 2.7,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -15,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "neutral",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 7,
+        "debt_component": 4,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 41,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "alufluoride",
+      "name": "Alufluoride Limited-conversion of waste into wealth",
+      "quality_score": 37.0,
+      "conviction_score": 35.0,
+      "red_flag_tier": null,
+      "roce_pct": 24,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": -0.2,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -85,
+      "margin_trend": "contracting",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral",
+      "flags": [
+        "weak-fcf",
+        "margin-contracting"
+      ],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 37,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "data-patterns",
+      "name": "Data Patterns (India) Limited",
+      "quality_score": 34.0,
+      "conviction_score": 37.8,
+      "red_flag_tier": null,
+      "roce_pct": 19.05,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 10,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 9,
+        "capex_component": 15,
+        "raw": 34,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "deep-industries",
+      "name": "Deep Industries (DIL)",
+      "quality_score": 31.0,
+      "conviction_score": 40.8,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "neutral",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 7,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 9,
+        "capex_component": 15,
+        "raw": 31,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "gpt-healthcare-ltd",
+      "name": "GPT Healthcare Ltd",
+      "quality_score": 29.0,
+      "conviction_score": 8.0,
+      "red_flag_tier": null,
+      "roce_pct": 23.1,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unclear",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 14,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 15,
+        "raw": 29,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "bansal-roofing-products-ltd",
+      "name": "Bansal Roofing Products Ltd",
+      "quality_score": 18.0,
+      "conviction_score": 30.0,
+      "red_flag_tier": null,
+      "roce_pct": 34.4,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unclear",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 18,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 18,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "virtual-galaxy-infotech",
+      "name": "Virtual Galaxy Infotech Ltd",
+      "quality_score": 16.0,
+      "conviction_score": 55.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "stable",
+      "capex_efficiency": "unclear",
+      "assessment": "positive",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 7,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 9,
+        "capex_component": 0,
+        "raw": 16,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "e2e-networks",
+      "name": "E2E Networks Ltd",
+      "quality_score": 11.0,
+      "conviction_score": 9.8,
+      "red_flag_tier": "HIGH CAUTION",
+      "roce_pct": null,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": 3.6,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "flags": [
+        "high-caution",
+        "no-roce-data",
+        "high-leverage"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 22,
+        "red_flag_multiplier": 0.5
+      }
+    },
+    {
+      "slug": "bhagyanagar-india",
+      "name": "Bhagyanagar India Ltd",
+      "quality_score": 9.0,
+      "conviction_score": 22.8,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "stable",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 9,
+        "capex_component": 0,
+        "raw": 9,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "rnit-ai-solutions-ltd",
+      "name": "RNIT AI Solutions Ltd",
+      "quality_score": 5.0,
+      "conviction_score": 38.0,
+      "red_flag_tier": null,
+      "roce_pct": 12.2,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unclear",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 5,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 5,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "haldyn-glass-ltd",
+      "name": "Haldyn Glass Ltd",
+      "quality_score": 5.0,
+      "conviction_score": 8.0,
+      "red_flag_tier": null,
+      "roce_pct": 11.5,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "contracting",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "flags": [
+        "margin-contracting"
+      ],
+      "score_breakdown": {
+        "roce_component": 5,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 5,
+        "red_flag_multiplier": 1.0
+      }
+    }
+  ],
+  "weak": [
+    {
+      "slug": "novartis-india-ltd",
+      "name": "Novartis India Ltd",
+      "quality_score": 0,
+      "conviction_score": 24.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unclear",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "asahi-songwon-colors-ltd",
+      "name": "Asahi Songwon Colors Ltd",
+      "quality_score": 3.0,
+      "conviction_score": 8.0,
+      "red_flag_tier": null,
+      "roce_pct": 8.5,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unclear",
+      "capex_efficiency": "value-destructive",
+      "assessment": "concern",
+      "flags": [
+        "value-destructive-capex"
+      ],
+      "score_breakdown": {
+        "roce_component": 3,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 3,
+        "red_flag_multiplier": 1.0
+      }
+    }
+  ],
+  "not_assessed": [
+    {
+      "slug": "sai-life-sciences",
+      "name": "Sai Life Sciences Ltd",
+      "conviction_score": 68.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "td-power-systems",
+      "name": "TD Power Systems",
+      "conviction_score": 60.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "mtar-technologies",
+      "name": "MTAR Technologies Ltd",
+      "conviction_score": 60.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "thyrocare-debt-free-asset-light-healthcare-play",
+      "name": "Thyrocare : Debt free Asset Light Healthcare Play",
+      "conviction_score": 60.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "raymond-realty",
+      "name": "Raymond Realty Ltd",
+      "conviction_score": 55.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sambhv-steel-tubes",
+      "name": "Sambhv Steel Tubes",
+      "conviction_score": 54.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "northern-arc",
+      "name": "Northern Arc",
+      "conviction_score": 54.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "vivid-electromech",
+      "name": "Vivid Electromech Ltd",
+      "conviction_score": 54.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kalyani-cast",
+      "name": "Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing",
+      "conviction_score": 50.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "afcom-holdings",
+      "name": "Afcom Holdings",
+      "conviction_score": 50.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "stylam-decent-fundamentals-with-cheap-valuation",
+      "name": "Stylam Industries Ltd",
+      "conviction_score": 50.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kmc-speciality-hospital",
+      "name": "KMC Speciality hospital",
+      "conviction_score": 47.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "influx-healthtech-b2b-cdmo-for-nutraceuticals-cosmetics-ayurvedic-products-veterinary-feed-supplements",
+      "name": "Influx HealthTech ( SME ) B2B CDMO For nutraceuticals, cosmetics, ayurvedic products, veterinary feed supplements",
+      "conviction_score": 46.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "p-e-analytics",
+      "name": "P.E. Analytics Ltd (PROPEQUITY)",
+      "conviction_score": 46.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "jeena-sikho-lifecare",
+      "name": "Jeena Sikho Lifecare",
+      "conviction_score": 46.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "gng-electronics",
+      "name": "GNG Electronics Ltd",
+      "conviction_score": 46.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ajanta-pharma",
+      "name": "Ajanta Pharma Ltd",
+      "conviction_score": 44.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "nesco-ltd",
+      "name": "Nesco Ltd",
+      "conviction_score": 44.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "3b-blackbio-dx",
+      "name": "3B Blackbio DX Ltd",
+      "conviction_score": 44.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "tube-investments-ltd-diversified-engineering-company",
+      "name": "Tube Investments Ltd ~ Diversified Engineering Company",
+      "conviction_score": 44.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "motherson",
+      "name": "Samvardhana Motherson International",
+      "conviction_score": 44.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "time-technoplast",
+      "name": "Time Technoplast",
+      "conviction_score": 42.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "surya-roshni-ltd",
+      "name": "Surya roshni ltd",
+      "conviction_score": 42.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "electronics-mart-india",
+      "name": "Electronics Mart India Limited- EMIL",
+      "conviction_score": 42.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sml-isuzu",
+      "name": "SML Isuzu Ltd",
+      "conviction_score": 42.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ngl-fine-chem-ltd",
+      "name": "NGL Fine-Chem Ltd",
+      "conviction_score": 42.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "punjab-chemicals-crop-protection-ltd",
+      "name": "Punjab Chemicals & Crop Protection Ltd",
+      "conviction_score": 42.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "indegene-ltd",
+      "name": "Indegene Ltd",
+      "conviction_score": 42.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "vimta-labs-ltd",
+      "name": "Vimta Labs Ltd",
+      "conviction_score": 42.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "privi-speciality-chemicals-ltd",
+      "name": "Privi Speciality Chemicals Ltd",
+      "conviction_score": 42.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "freshara-agro-exports",
+      "name": "Freshara Agro Exports Ltd",
+      "conviction_score": 42.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "alembic-pharma-oral-solids-injectables-onco-derma-opthalmic",
+      "name": "Alembic Pharmaceuticals Ltd",
+      "conviction_score": 42.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "apcotex-industries-monopoly-in-synthetic-rubber",
+      "name": "Apcotex Industries Ltd",
+      "conviction_score": 42.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "csb-bank-ltd",
+      "name": "CSB Bank Ltd",
+      "conviction_score": 42.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sandhar-technologies-ltd",
+      "name": "Sandhar Technologies Ltd",
+      "conviction_score": 42.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "yatharth-hospital-trauma-care-services",
+      "name": "Yatharth Hospital & Trauma Care Services Limited",
+      "conviction_score": 42.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "deepak-fertilizers-and-petrochemicals",
+      "name": "Deepak Fertilizers and Petrochemicals",
+      "conviction_score": 40.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "krishna-defence-allied-industries",
+      "name": "Krishna Defence & Allied Industries Ltd",
+      "conviction_score": 40.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "samhi-hotels",
+      "name": "Samhi Hotels",
+      "conviction_score": 40.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "neetu-yoshi",
+      "name": "Neetu Yoshi Ltd",
+      "conviction_score": 40.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "inox-india-a-story-worth-looking",
+      "name": "Inox India, a story worth looking?",
+      "conviction_score": 40.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "grand-continent-hotels",
+      "name": "Grand Continent Hotels",
+      "conviction_score": 39.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "see-the-bright-sun-aditya-vision",
+      "name": "See the bright Sun: Aditya Vision",
+      "conviction_score": 38.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "suprajit-engineering-ltd",
+      "name": "Suprajit Engineering Ltd",
+      "conviction_score": 38.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "frontier-springs",
+      "name": "Frontier Springs",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "south-west-pinnacle-exploration",
+      "name": "South West Pinnacle Exploration",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "goodluck-india",
+      "name": "Goodluck India Ltd",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "apollo-micro-systems",
+      "name": "Apollo Micro Systems Limited",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "goldiam-international-a-rare-shareholder-friendly-and-debt-free-jewelry-company",
+      "name": "Goldiam International : A rare shareholder friendly and debt free Jewelry company",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "alpex-solar",
+      "name": "Alpex Solar Ltd",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kernex-tcas-led-multi-year-growth-story",
+      "name": "Kernex: TCAS led multi year growth story",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "rain-industries",
+      "name": "Rain Industries",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ddev-plastiks-industries",
+      "name": "DDev Plastiks Industries Ltd",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "fredun-pharmaceuticals",
+      "name": "Fredun Pharmaceuticals",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sika-interplant-systems",
+      "name": "Sika Interplant Systems Ltd",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "matrimony-com",
+      "name": "Matrimony.com Ltd",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ugro-capital",
+      "name": "Ugro Capital",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "hind-rectifiers",
+      "name": "Hind Rectifiers Ltd (HIRECT)",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "asm-technologies",
+      "name": "ASM Technologies",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "harshdeep-hortico",
+      "name": "Harshdeep Hortico Ltd (SME)",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "quality-power-electrical-equipments",
+      "name": "Quality Power Electrical Equipments Ltd (QPOWER)",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "20-microns-micronized-to-nano",
+      "name": "20 Microns : micronized to nano-sized minerals",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "marine-electricals-riding-the-waves-of-expansion",
+      "name": "Marine Electricals: Riding the Waves of Expansion",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ujjivan-small-finance-bank",
+      "name": "Ujjivan Small Finance Bank",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "arman-financial-services",
+      "name": "Arman Financial Services Ltd",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "orchid-pharma-ltd",
+      "name": "Orchid Pharma Ltd",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "vaibhav-global-vertically-integrated-value-e",
+      "name": "Vaibhav Global ~ Vertically integrated value e-tailer of Jewellery and Lifestyle Products",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "senores-pharma",
+      "name": "Senores Pharma- Hidden in plain sight",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "indotech",
+      "name": "Indotech",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "repono-ltd",
+      "name": "Repono Ltd",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "obsc-perfection",
+      "name": "OBSC Perfection Ltd",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "venky-india",
+      "name": "Venky India",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "jubilant-agri-and-consumer-products-ltd-a-hidden-gem-from-the-jubilant-group",
+      "name": "Jubilant Agri and Consumer Products Ltd (JACPL) \u2014 A Hidden Gem from the Jubilant Group?",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "capri-global-capital",
+      "name": "Capri Global Capital Ltd",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "esds-software",
+      "name": "ESDS Software Solution Ltd",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "cff-fluid-control",
+      "name": "CFF Fluid Control Ltd",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "jasch-industries",
+      "name": "Jasch Industries Ltd",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "jayaswal-neco",
+      "name": "Jayaswal Neco- Integrated Steel Player",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "aries-agro",
+      "name": "Aries Agro Ltd",
+      "conviction_score": 38.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "emerald-finance",
+      "name": "Emerald Finance",
+      "conviction_score": 37.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "garden-reach-shipbuilders-engineers",
+      "name": "Garden Reach Shipbuilders & Engineers Ltd (GRSE)",
+      "conviction_score": 36.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "crompton-greaves-consumer-product-brand-revival",
+      "name": "Crompton Greaves Consumer Product: Brand Revival",
+      "conviction_score": 36.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kovai-medical-center-and-hospital",
+      "name": "Kovai Medical Center and Hospital",
+      "conviction_score": 36.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "force-motors",
+      "name": "Force Motors Ltd",
+      "conviction_score": 36.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "nuvama-wealth-management",
+      "name": "Nuvama Wealth Management Ltd",
+      "conviction_score": 36.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "acutaas-chemicals",
+      "name": "Acutaas Chemicals Ltd (Erst. Ami Organics Ltd)",
+      "conviction_score": 36.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "manorama-industries-creating-wealth-from-waste",
+      "name": "Manorama Industries: Creating Wealth from Waste",
+      "conviction_score": 35.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "transrail-lighting",
+      "name": "Transrail Lighting Ltd",
+      "conviction_score": 34.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sky-gold-ltd",
+      "name": "Sky Gold Ltd",
+      "conviction_score": 34.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "arvind-smartspaces-ltd",
+      "name": "Arvind SmartSpaces Ltd",
+      "conviction_score": 34.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ksh-international-ltd",
+      "name": "KSH International Ltd",
+      "conviction_score": 34.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "wonderla-holidays",
+      "name": "Wonderla Holidays",
+      "conviction_score": 34.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "cantabil-india",
+      "name": "Cantabil India",
+      "conviction_score": 34.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "shilpa-medicare-ias2026",
+      "name": "Shilpa Medicare",
+      "conviction_score": 33.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kaveri-seeds-company-limited",
+      "name": "Kaveri seeds company limited -- kscl",
+      "conviction_score": 32.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ather-energy-pioneering-india-s-ev-revolution",
+      "name": "Ather Energy: Pioneering India's EV Revolution",
+      "conviction_score": 32.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sona-blw-precision-forgings",
+      "name": "Sona BLW Precision Forgings Ltd",
+      "conviction_score": 32.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bajaj-consumer-care",
+      "name": "Bajaj Consumer Care Ltd",
+      "conviction_score": 32.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "cummins-india",
+      "name": "Cummins India Ltd",
+      "conviction_score": 32.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "steelcast",
+      "name": "Steelcast Ltd",
+      "conviction_score": 32.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kirloskar-pneumatic",
+      "name": "Kirloskar Pneumatic Co Ltd (KPCL)",
+      "conviction_score": 31.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sg-finserve",
+      "name": "SG Finserve Ltd",
+      "conviction_score": 31.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "v2-retail",
+      "name": "V2 Retail",
+      "conviction_score": 30.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "capacit-e-infraprojects",
+      "name": "Capacit'e Infraprojects",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "concord-control-systems",
+      "name": "Concord Control Systems",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "trualt-bioenergy",
+      "name": "TruAlt Bioenergy",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "morepen-labs",
+      "name": "Morepen Labs",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kpi-green-energy",
+      "name": "KPI Green Energy Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ratnaveer-precision-a-newly-headed-steel-company",
+      "name": "Ratnaveer precision a newly headed steel company",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kwality-pharmaceuticals",
+      "name": "Kwality Pharmaceuticals",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "mitsu-chem-plast",
+      "name": "Mitsu Chem Plast Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "gufic-biosciences",
+      "name": "Gufic BioSciences Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "accent-microcell",
+      "name": "Accent Microcell Limited",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kiri-industries-loan-reduction-and-demand-surge",
+      "name": "Kiri Industries: Loan reduction and demand surge",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "walchandnagar-industries",
+      "name": "Walchandnagar Industries | Return of a Golden Era",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "prevest-denpro",
+      "name": "Prevest Denpro Limited",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "satin-creditcare-network",
+      "name": "Satin Creditcare Network Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "muthoot-microfin-limited-is-it-next-jp-morgan",
+      "name": "Muthoot Microfin Limited is it next JP Morgan?",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "cosmic-crf-limited",
+      "name": "COSMIC CRF LIMITED",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "axiscades-engineering",
+      "name": "Axiscades Engineering",
+      "conviction_score": 30.0,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "swastika-castal",
+      "name": "Swastika Castal Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "vikram-solar",
+      "name": "Vikram Solar- One of the oldest Solar module manufacturer",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "borosil-renewables",
+      "name": "Borosil Renewables",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "technocraft-industries-ias2026",
+      "name": "Technocraft Industries",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "csl-finance",
+      "name": "CSL Finance Limited",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "gujarat-themis-biosyn",
+      "name": "Gujarat Themis Biosyn Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kusumgar",
+      "name": "Kusumgar Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "shree-refrigerations",
+      "name": "Shree Refrigerations",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "permanent-magnets",
+      "name": "Permanent Magnets",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bliss-gvs-pharma",
+      "name": "Bliss GVS Pharma Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "chamunda-electricals",
+      "name": "Chamunda Electricals Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bondada-engineering",
+      "name": "Bondada Engineering Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kp-green-engineering",
+      "name": "KP Green Engineering Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "krm-ayurveda",
+      "name": "KRM Ayurveda Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "desco-infratech",
+      "name": "Desco Infratech Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bhadora-industries",
+      "name": "Bhadora Industries Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "earkart",
+      "name": "Earkart Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "rbz-jewellers",
+      "name": "RBZ Jewellers Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "solex-energy",
+      "name": "Solex Energy Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "modison-ltd",
+      "name": "Modison Ltd",
+      "conviction_score": 29.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "vikram-thermo",
+      "name": "Vikram Thermo",
+      "conviction_score": 28.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "aarti-pharmalabs",
+      "name": "Aarti Pharmalabs Ltd",
+      "conviction_score": 28.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "gokul-agro-resources-ltd",
+      "name": "Gokul Agro Resources Ltd",
+      "conviction_score": 28.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "unimech-aerospace-and-manufacturing-ltd",
+      "name": "Unimech Aerospace and Manufacturing Ltd",
+      "conviction_score": 28.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "cera-sanitaryware-ltd",
+      "name": "Cera Sanitaryware Ltd",
+      "conviction_score": 28.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "aegis-logistics",
+      "name": "Aegis Logistics Ltd",
+      "conviction_score": 28.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "inventurus-knowledge-solutions",
+      "name": "Inventurus Knowledge Solutions",
+      "conviction_score": 28.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "tips-industries",
+      "name": "Tips Industries Limited",
+      "conviction_score": 28.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "heritage-foods-ltd",
+      "name": "Heritage Foods Ltd",
+      "conviction_score": 28.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "amara-raja-energy-mobility-limited-powering-ahead",
+      "name": "Amara Raja Energy & Mobility Ltd",
+      "conviction_score": 28.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "chaman-lal-setia-exports-ltd-clse",
+      "name": "Chaman Lal Setia Exports Ltd",
+      "conviction_score": 28.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "avanti-feeds",
+      "name": "Avanti Feeds Ltd",
+      "conviction_score": 28.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "cartrade-tech-ltd",
+      "name": "CarTrade Tech Ltd",
+      "conviction_score": 28.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "stallion-india-fluorochemicals-aggressive-capex",
+      "name": "Stallion India Fluorochemicals : Aggressive Capex",
+      "conviction_score": 28.0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "piccadily-agro-industries",
+      "name": "Piccadily Agro Industries Ltd",
+      "conviction_score": 28.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "modern-insulators-ltd-a-porcelain-insulator-opportunity-insulating-the-power-cycle-while-riding-india-s-transmission-boom",
+      "name": "Modern Insulators Ltd: A Porcelain Insulator Opportunity Insulating the Power Cycle while Riding India\u2019s Transmission Boom",
+      "conviction_score": 27.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "zaggle-a-platform-to-address-pain-points-for-enterprises",
+      "name": "Zaggle_A platform to address pain points for enterprises",
+      "conviction_score": 26.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "unicommerce-esolutions",
+      "name": "Unicommerce Esolutions",
+      "conviction_score": 26.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "fairchem-organics",
+      "name": "Fairchem Organics",
+      "conviction_score": 26.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "zen-technologies",
+      "name": "Zen technologies",
+      "conviction_score": 26.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "p-n-gadgil-jewellers",
+      "name": "P N Gadgil Jewellers Ltd",
+      "conviction_score": 26.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "eldeco-housing-ltd",
+      "name": "Eldeco Housing Ltd",
+      "conviction_score": 26.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ultramarine-pigments-ltd",
+      "name": "Ultramarine & Pigments Ltd",
+      "conviction_score": 26.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "garware-hi-tech-films-ltd",
+      "name": "Garware Hi-Tech Films Ltd",
+      "conviction_score": 26.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "jg-chemicals-ltd",
+      "name": "J.G. Chemicals Ltd",
+      "conviction_score": 26.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sjs-enterprises",
+      "name": "SJS Enterprises Ltd",
+      "conviction_score": 26.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "agi-infra",
+      "name": "AGI Infra Ltd",
+      "conviction_score": 26.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "valiant-communications",
+      "name": "Valiant Communications Limited",
+      "conviction_score": 26.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "zinka-logistics-blackbuck",
+      "name": "Zinka Logistics Solutions Ltd (BlackBuck)",
+      "conviction_score": 26.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "eureka-forbes-a-high-margin-consumer-durable-company",
+      "name": "Eureka Forbes Ltd",
+      "conviction_score": 26.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "rkec-projects-ltd",
+      "name": "RKEC Projects Ltd",
+      "conviction_score": 26.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ethos-ltd",
+      "name": "Ethos Ltd",
+      "conviction_score": 26.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "knowledge-marine",
+      "name": "Knowledge Marine",
+      "conviction_score": 25.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "genus-power",
+      "name": "Genus Power",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "himadri-speciality-chemical",
+      "name": "Himadri Speciality Chemical Ltd (HSCL)",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "control-print",
+      "name": "Control Print",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "milky-mist-dairy-food",
+      "name": "Milky Mist Dairy Food Ltd- Taste meets Valuations?",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "shanthi-gears-shanti-gears",
+      "name": "Shanthi Gears/Shanti Gears",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "til",
+      "name": "TIL",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "triveni-turbines",
+      "name": "Triveni Turbines Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "aimtron-electronics",
+      "name": "Aimtron Electronics Ltd (EMS China+1 Global Play)",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "maharashtra-seamless",
+      "name": "Maharashtra seamless-a value plus cyclical play",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "tgv-sraac-erstwhile-sree-rayalseema-alkali",
+      "name": "TGV SRAAC erstwhile Sree Rayalseema Alkali",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "manappuram-finance",
+      "name": "Manappuram Finance",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "gravita-india-success-story",
+      "name": "Gravita India success story",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "natco-pharma-focusing-on-complex-products",
+      "name": "Natco Pharma: Focusing On Complex Products",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sedemac-mechatronics",
+      "name": "Sedemac Mechatronics Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "india-shelter-finance-ltd-a-gem-player-in-the-affordable-housing-sector",
+      "name": "India Shelter Finance Ltd: A Gem player in the affordable housing sector",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "venus-pipes-tubes",
+      "name": "Venus Pipes & Tubes Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "shivalik-bimetal-controls",
+      "name": "Shivalik Bimetal Controls Ltd (SBCL)",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "globus-spirits",
+      "name": "Globus Spirits",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "the-anup-engineering",
+      "name": "The Anup Engineering Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "savita-oil-technologies-ltd-undervalued-midcap-in-a-competitive-space",
+      "name": "Savita Oil Technologies Ltd: Undervalued midcap in a competitive space?",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "avalon-technologies",
+      "name": "Avalon Technologies Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "elantas-beck-india",
+      "name": "Elantas Beck India Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bharat-bijlee",
+      "name": "Bharat bijlee Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "waaree-renewable-technologies",
+      "name": "Waaree Renewable Technologies Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sanghvi-movers",
+      "name": "Sanghvi Movers",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "syrma-sgs-an-export-substitution-opportunity-in-ems-sector",
+      "name": "Syrma SGS an Export Substitution opportunity in EMS sector",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "thangmayil-jewellers-ltd",
+      "name": "Thangmayil jewellers ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "balu-forge",
+      "name": "Balu Forge | Forging Ahead with Defense and Aerospace Ambitions Amid Capital Efficiency Concerns |",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ixigo-le-travenues-technology",
+      "name": "Le Travenues Technology Ltd (ixigo)",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ksolves-india",
+      "name": "Ksolves India Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "godawari-power-ispat",
+      "name": "Godawari Power & Ispat Ltd (GPIL)",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sarda-energy-minerals",
+      "name": "Sarda Energy & Minerals Ltd (SEML)",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "gabriel-india",
+      "name": "Gabriel India Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kpit-technologies",
+      "name": "KPIT Technologies Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "firstsource-solutions",
+      "name": "Firstsource Solutions Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "action-construction-equipment",
+      "name": "Action Construction Equipment (ACE)",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "rpg-life-sciences",
+      "name": "RPG Life Sciences Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "edelweiss-financial-services-ias2026",
+      "name": "Edelweiss Financial Services",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "hero-motor",
+      "name": "Hero Motor",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "waaree-energies",
+      "name": "Waaree Energies Ltd.",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sudeep-pharma",
+      "name": "Sudeep Pharma Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "nephrocare-health",
+      "name": "Nephrocare Health Services Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sansera-engineering",
+      "name": "Sansera Engineering Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kirloskar-oil-engines",
+      "name": "Kirloskar Oil Engines Ltd (KOEL)",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "dr-agarwal-s-eye-hospital",
+      "name": "Dr Agarwal's Eye Hospital Ltd (DAEHL)",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "artemis-medicare-services",
+      "name": "Artemis Medicare Services Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kama-holdings",
+      "name": "Kama Holdings Limited",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "solar-industries-india",
+      "name": "Solar Industries India Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ptc-industries",
+      "name": "PTC Industries Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ceigall-india",
+      "name": "Ceigall India Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "travel-food-services",
+      "name": "Travel Food Services Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bhel",
+      "name": "Bharat Heavy Electricals Ltd (BHEL)",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sterlite-technologies",
+      "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kei-industries",
+      "name": "KEI Industries Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "poly-medicure",
+      "name": "Poly Medicure Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "emmvee-photovoltaic-power",
+      "name": "Emmvee Photovoltaic Power Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "dhabriya-polywood",
+      "name": "Dhabriya Polywood Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "epl-limited",
+      "name": "EPL Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "home-first-finance",
+      "name": "Home First Finance Company India Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "mayur-uniquoters",
+      "name": "Mayur Uniquoters Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "moil",
+      "name": "MOIL Ltd",
+      "conviction_score": 23.92,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "timex-group",
+      "name": "Timex Group (TGIL)",
+      "conviction_score": 22.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "pngs-gargi-fashion-jewellery",
+      "name": "PNGS Gargi Fashion Jewellery Ltd",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "graphite-electrode-graphite-india-heg",
+      "name": "Graphite Electrode : Graphite India/HEG",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "rapicut-carbides",
+      "name": "Rapicut Carbides Ltd.",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "shalimar-paints",
+      "name": "Shalimar Paints Ltd. -- Worth a Serious Look -- Significant Rerating Triggers Inplace",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "krishca-ltd-a-sme-offering-steel-strapping-solution",
+      "name": "Krishca Ltd : A SME offering steel strapping Solution",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kamat-hotels",
+      "name": "Kamat Hotels (India) Ltd- A Possible Turnaround Story!",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "pennar-industries",
+      "name": "Pennar Industries Limited",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "laxmi-dental",
+      "name": "Laxmi Dental Ltd",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "i-g-petrochemicals",
+      "name": "I G Petrochemicals Ltd",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "borana-weaves",
+      "name": "Borana Weaves",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "anlon-technology-solutions",
+      "name": "Anlon Technology Solutions Ltd",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ideaforge-technologies",
+      "name": "Ideaforge technologies",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "positron-energy",
+      "name": "Positron Energy",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "izmo",
+      "name": "IZMO- bet on new technologies in Auto retail & defence",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ramco-system",
+      "name": "Ramco system",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "gmm-pfaudler-ias2026",
+      "name": "GMM Pfaudler",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "unihealth-hospitals-ltd",
+      "name": "Unihealth Hospitals Ltd",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "devson-catalyst-ltd",
+      "name": "Devson Catalyst Ltd",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "aarti-surfactants-ltd",
+      "name": "Aarti Surfactants Ltd",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "mv-electrosystems-ltd",
+      "name": "MV Electrosystems Ltd",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "glen-industries-ltd",
+      "name": "Glen Industries Ltd",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "exicom-tele",
+      "name": "Exicom Tele-Services: A Key Player in the Booming EV Sector",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "divgi-torqtransfer-systems",
+      "name": "Divgi TorqTransfer Systems Ltd",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "west-coast-paper-mills-ltd",
+      "name": "West coast paper mills ltd",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "john-cockerill-india-a-case-study-on-decarbonisation-of-steel",
+      "name": "John Cockerill India: A Case Study on Decarbonisation of Steel",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "solarium-green-energy",
+      "name": "Solarium Green Energy Ltd",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sonu-infratech",
+      "name": "Sonu Infratech Ltd",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ghcl-textiles",
+      "name": "GHCL Textiles Ltd",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "hdfc-bank",
+      "name": "HDFC Bank Ltd",
+      "conviction_score": 20.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "medplus-health-service-second-largest-pharmacy-retailer",
+      "name": "Medplus Health Service second largest pharmacy retailer",
+      "conviction_score": 20.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "aurionpro-solutions",
+      "name": "Aurionpro Solutions Ltd",
+      "conviction_score": 20.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "saregama-india-ltd",
+      "name": "Saregama India Ltd",
+      "conviction_score": 20.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "strides-pharma-science-ltd",
+      "name": "Strides Pharma Science Ltd",
+      "conviction_score": 20.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "latent-view-analytics-ltd",
+      "name": "Latent View Analytics Ltd",
+      "conviction_score": 20.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "pix-transmissions-ltd",
+      "name": "Pix Transmissions Ltd",
+      "conviction_score": 20.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "mankind-pharma",
+      "name": "Mankind Pharma",
+      "conviction_score": 20.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "uno-minda",
+      "name": "Uno Minda Ltd",
+      "conviction_score": 20.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "godfrey-phillips-india",
+      "name": "Godfrey Phillips India Ltd",
+      "conviction_score": 20.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "goodyear-india",
+      "name": "Goodyear India Ltd",
+      "conviction_score": 20.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "ion-exchange-india-limited",
+      "name": "Ion Exchange (India) Ltd",
+      "conviction_score": 20.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "kp-energy",
+      "name": "KP Energy Ltd",
+      "conviction_score": 18.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "india-pesticides-ltd",
+      "name": "India Pesticides Ltd",
+      "conviction_score": 17.8,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "international-gemmological-institute-india-ltd",
+      "name": "International Gemmological Institute (India) Ltd",
+      "conviction_score": 17.8,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "indian-energy-exchange",
+      "name": "Indian Energy Exchange Ltd (IEX)",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "laurus-labs",
+      "name": "Laurus Labs",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bombay-stock-exchange-bet-on-financialization",
+      "name": "Bombay Stock Exchange (BSE Ltd): Bet on Financialization?",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "all-e-technologies-making-businesses-ready-for-ai",
+      "name": "All E Technologies, making businesses ready for AI",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "mstc-ltd-growth-through-to-e",
+      "name": "MSTC Ltd.: Growth through to E-Commerce",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "jnk-india-ltd",
+      "name": "JNK India ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "finolex-cables",
+      "name": "Finolex Cables",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "caplin-point-laboratories",
+      "name": "Caplin Point Laboratories",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "navin-fluorine-international",
+      "name": "Navin Fluorine International Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "srf",
+      "name": "SRF Limited",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "midwest",
+      "name": "Midwest Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "jupiter-wagons",
+      "name": "Jupiter Wagons Ltd (previously CEBBCO)",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "v",
+      "name": "V-guard",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "transformer-rectifier-india",
+      "name": "Transformer & Rectifier India Limited",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sunteck-realty",
+      "name": "Sunteck Realty",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "dhanuka-agritech",
+      "name": "Dhanuka Agritech Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "hindustan-copper",
+      "name": "Hindustan Copper Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "can-fin-homes",
+      "name": "Can Fin Homes Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "exide-industries",
+      "name": "Exide Industries Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "pi-industries",
+      "name": "PI Industries Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "epigral",
+      "name": "Epigral Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kitex-garments",
+      "name": "Kitex Garments Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "repco-home-finance-ias2026",
+      "name": "Repco Home Finance",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "vst-tillers-and-tractors-limited",
+      "name": "VST Tillers and Tractors limited",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sasken-technologies",
+      "name": "Sasken Technologies Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "beml",
+      "name": "BEML Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ge-vernova-t-d-india",
+      "name": "GE Vernova T&D India Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "krishival-foods",
+      "name": "Krishival Foods Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "itc-will-gold-flake-assist-ashirwad-to-win-bingo",
+      "name": "ITC: \"Will\"(s) \"Gold Flake\" assist \"Ashirwad\" to win \"Bingo!\"?",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "astra-micro-huge-growth-ahead-in-offset-space",
+      "name": "Astra Micro Huge Growth Ahead in Offset Space",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "premier-explosives",
+      "name": "Premier Explosives Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "safe-enterprises-retail-fixtures",
+      "name": "Safe Enterprises Retail Fixtures Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kaka-industries",
+      "name": "Kaka Industries Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "vinyas-innovative-technologies",
+      "name": "Vinyas Innovative Technologies Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "atmastco",
+      "name": "Atmastco Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "shanti-gold-international",
+      "name": "Shanti Gold International Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kse",
+      "name": "KSE Limited --- Interesting Business",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "greenlam-industries",
+      "name": "Greenlam Industries Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "skf-india",
+      "name": "SKF India",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "united-drilling-tools",
+      "name": "United Drilling Tools Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "mahanagar-gas",
+      "name": "Mahanagar Gas Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "racl-geartech",
+      "name": "RACL Geartech",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "satia-industries",
+      "name": "Satia Industries",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "raymond",
+      "name": "Raymond",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "msafe-equipments",
+      "name": "Msafe Equipments Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "tata-capital",
+      "name": "Tata Capital Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "workmates-core2cloud",
+      "name": "Workmates Core2Cloud Solution Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "shree-pushkar-chemicals",
+      "name": "Shree Pushkar Chemicals Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "premier-polyfilm",
+      "name": "Premier Polyfilm Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bhagwati-autocast",
+      "name": "Bhagwati Autocast Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "keltech-energies",
+      "name": "Keltech Energies Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "silicon-rental-solutions",
+      "name": "Silicon Rental Solutions Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "angel-one",
+      "name": "Angel One Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "megatherm-induction",
+      "name": "Megatherm Induction Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "danlaw-technologies",
+      "name": "Danlaw Technologies India Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "pace-digitek",
+      "name": "Pace Digitek Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "nitin-spinners",
+      "name": "Nitin Spinners Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "vardhman-textiles",
+      "name": "Vardhman Textiles Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "shivalik-rasayan",
+      "name": "Shivalik Rasayan (SRL)",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "aequs",
+      "name": "Aequs",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "krsnaa-diagnostics",
+      "name": "Krsnaa Diagnostics",
+      "conviction_score": 13.0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "vintage-coffee-brewing-profits",
+      "name": "Vintage Coffee: Brewing Profits",
+      "conviction_score": 13.0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "zomato",
+      "name": "Zomato",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "interarch-building-products",
+      "name": "Interarch Building Products Ltd",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "nsdl",
+      "name": "NSDL (National Securities Depository Ltd)",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "anthem-biosciences",
+      "name": "Anthem Biosciences Ltd",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "varun-beverages",
+      "name": "Varun Beverages Ltd",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "rr-kabel",
+      "name": "RR Kabel Ltd",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "eih-ltd",
+      "name": "EIH Ltd (Oberoi Group)",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sharda-cropchem-ltd",
+      "name": "Sharda Cropchem Ltd",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sharat-industries-ltd",
+      "name": "Sharat Industries Ltd",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "updater-services-ltd",
+      "name": "Updater Services Ltd",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "lt-foods-ltd",
+      "name": "LT Foods Ltd",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "amber-enterprises-india-ltd",
+      "name": "Amber Enterprises India Ltd",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "vasa-denticity-ltd",
+      "name": "Vasa Denticity Ltd",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kotak-mahindra-bank-ltd",
+      "name": "Kotak Mahindra Bank Ltd",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "icici-bank-ltd",
+      "name": "ICICI Bank Ltd",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bajaj-finserv-ltd",
+      "name": "Bajaj Finserv Ltd",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "hcl-technologies-ltd",
+      "name": "HCL Technologies Ltd",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "relaxo-footwear-a-wannabe-brand-play",
+      "name": "Relaxo Footwear: a wannabe brand play",
+      "conviction_score": 12.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "dhp-india-ltd",
+      "name": "DHP India Ltd",
+      "conviction_score": 12.32,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "netweb-technologies",
+      "name": "Netweb Technologies India Ltd",
+      "conviction_score": 11.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "hindustan-zinc-galvanize-capital-of-investors",
+      "name": "Hindustan Zinc Ltd",
+      "conviction_score": 9.92,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "hindalco-industries-attempting-to-reduce-cyclicality-of-the-business",
+      "name": "Hindalco Industries Ltd",
+      "conviction_score": 9.92,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "nalco-lowest-cost-producer-of-alumina-and-bauxite",
+      "name": "National Aluminium Company Ltd (NALCO)",
+      "conviction_score": 9.92,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "abs-marine-services",
+      "name": "ABS Marine Services Ltd",
+      "conviction_score": 9.8,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "smartlink",
+      "name": "Smartlink --- Cash for free",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "urban-company",
+      "name": "Urban Company",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "groww",
+      "name": "Groww",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "apsis-aerocom",
+      "name": "Apsis Aerocom Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "highness-microelectronics-ltd-a-smile",
+      "name": "Highness Microelectronics Ltd: a SMILE-type opportunity in electronics manufacturing?",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "modi-naturals",
+      "name": "Modi Naturals",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sg-mart",
+      "name": "SG Mart- Can it successfully create a marketplace?",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "affordable-robotic-automation",
+      "name": "Affordable Robotic & Automation (ARAL)",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "parag-milk-foods",
+      "name": "Parag Milk Foods",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ceinsys-tech",
+      "name": "Ceinsys Tech-Engineering, Geospatial & IT solutions Company",
+      "conviction_score": 8.0,
+      "red_flag_tier": ""
+    },
+    {
+      "slug": "phillips-carbon-black",
+      "name": "Phillips Carbon Black",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "polyplex-corporation-are-good-days-ahead",
+      "name": "\u201cPolyplex Corporation \u201c Are Good Days Ahead?",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "idfc-first-bank",
+      "name": "IDFC First Bank Limited",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "viyash-scientific",
+      "name": "Viyash Scientific (old name Sequent Scientific )",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "eris-lifesciences",
+      "name": "Eris Lifesciences",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "veefin-solutions",
+      "name": "Veefin Solutions",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "nitco-ltd",
+      "name": "Nitco ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "smc",
+      "name": "SMC -Global Securities Ltd. -- Moneywise Long Term",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "concord-biotech",
+      "name": "Concord Biotech",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "shree-ganesh-remedies",
+      "name": "Shree Ganesh Remedies Limited (SGRL)",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "anant-raj",
+      "name": "Anant Raj Limited",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "apollo-hospital-the-one-stop-healthcare-service",
+      "name": "Apollo Hospital : The one stop healthcare service",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "gujarat-energy-improving-outlook-on-volumes",
+      "name": "Gujarat Energy ( Formerly Gujarat gas) Improving outlook on volumes",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "akums",
+      "name": "Akums",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "mas-financial-services",
+      "name": "MAS Financial Services",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "advent-hotels-international",
+      "name": "Advent Hotels International Limited",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "pvr",
+      "name": "PVR Ltd.- Play on increasing disposable income",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "larsen-toubro",
+      "name": "Larsen & Toubro Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bharti-airtel",
+      "name": "Bharti Airtel",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "macfos",
+      "name": "Macfos Limited- A niche E-commerce Company",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "leap-india",
+      "name": "Leap India Ltd- Leap of faith for long-term value?",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "aaron-industries",
+      "name": "Aaron Industries Ltd- The Elevator Play",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "va-tech-wabag",
+      "name": "Va Tech Wabag",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "uniparts-india",
+      "name": "Uniparts India Limited",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "nrb-bearings",
+      "name": "NRB Bearings",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kpr-mills",
+      "name": "KPR mills",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sumeet-industries",
+      "name": "Sumeet Industries",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "procter-gamble-hygiene-and-health-care",
+      "name": "Procter & Gamble Hygiene and Health Care Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "five-star-business-finance",
+      "name": "Five Star Business Finance",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "indus-towers",
+      "name": "Indus Towers Limited",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "cesc-ltd-demerger",
+      "name": "CESC LTD Demerger",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "lumax-auto-technologies",
+      "name": "Lumax Auto Technologies",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "crizac",
+      "name": "Crizac",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "rashi-peripherals",
+      "name": "Rashi Peripherals Ltd (RPTECH)",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "azad-engineering",
+      "name": "Azad Engineering",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "dlink-small-company-with-a-big-brand",
+      "name": "DLINK: Small Company with a Big Brand",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "nmdc",
+      "name": "NMDC-Value or Cyclical?",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kennametal-india",
+      "name": "Kennametal india",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bosch-home-comfort",
+      "name": "Bosch Home comfort ( older name",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "religare-enterprises",
+      "name": "Religare Enterprises",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "apollo-pipes-ltd-from-the-house-of-apl-apollo",
+      "name": "Apollo Pipes Ltd. ~ From the house of APL Apollo (Erstwhile Amulya Leasing & Finance)",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "moldtek-technologies",
+      "name": "Moldtek Technologies",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "shadowfax-valuation-model",
+      "name": "ShadowFax Valuation Model",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "burger-king-whopper-of-an-opportunity",
+      "name": "Burger King ~ Whopper of an Opportunity",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "deccan-gold",
+      "name": "Deccan Gold- A Global Gold Miner in Making?",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "blue-dart-express",
+      "name": "Blue Dart Express",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "epack-prefab-technologies",
+      "name": "EPACK PREFAB TECHNOLOGIES (A Rising Star)",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "muthoot-finance",
+      "name": "Muthoot Finance",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bajaj-auto",
+      "name": "Bajaj Auto",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "central-depository-services",
+      "name": "Central Depository Services (India) Ltd (CDSL)",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "united-food-brands",
+      "name": "United food brands ( Barbeque nation ) Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "priti-international",
+      "name": "Priti International Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "aatmaj-healthcare",
+      "name": "Aatmaj Healthcare",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "prataap-snacks",
+      "name": "Prataap Snacks Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "diamond-power-infrastructure",
+      "name": "Diamond Power Infrastructure Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "advanced-enzyme-technologies",
+      "name": "Advanced Enzyme Technologies Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "dodla-dairy",
+      "name": "Dodla Dairy",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "aptus-value-housing-is-valuation-justified-or-just-another-hfc",
+      "name": "Aptus Value Housing : Is valuation justified or just another HFC?",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "fermenta-biotech",
+      "name": "Fermenta Biotech Limited (Old Name DIL",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "globalspace-technologies",
+      "name": "Globalspace Technologies",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ambika-cotton-mills",
+      "name": "Ambika Cotton Mills",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "mirc-electronics-onida",
+      "name": "MIRC Electronics Ltd (Onida Electronics)",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "jk-paper",
+      "name": "JK Paper Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "aartech-solonics",
+      "name": "Aartech Solonics",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "aarti-industries",
+      "name": "Aarti Industries Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "clean-science-and-technology",
+      "name": "Clean Science and Technology Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "asian-petroproducts-and-exports",
+      "name": "Asian Petroproducts & Exports Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "neogen-chemicals-ias2026",
+      "name": "Neogen Chemicals",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "amrutanjan-healthcare-ias2026",
+      "name": "Amrutanjan Healthcare",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "lakshmi-machine-works",
+      "name": "Lakshmi Machine Works --- Textile Machinery Space",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "tata-power",
+      "name": "Tata Power Limited",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "rategain",
+      "name": "Rategain",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "protean-egov-technologies",
+      "name": "Protean EGov Technologies Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "tatva-chintan-pharma-chem-ltd",
+      "name": "Tatva Chintan Pharma Chem Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "tpl-plastech-ltd",
+      "name": "TPL Plastech Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "vistar-amar-ltd",
+      "name": "Vistar Amar Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bajaj-steel-industries-ltd",
+      "name": "Bajaj Steel Industries Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "fluidomat-ltd",
+      "name": "Fluidomat Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "capital-small-finance-bank-ltd",
+      "name": "Capital Small Finance Bank Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "trejhara-solutions-ltd",
+      "name": "Trejhara Solutions Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "pyramid-technoplast-ltd",
+      "name": "Pyramid Technoplast Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "gujarat-containers-ltd",
+      "name": "Gujarat Containers Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "go-fashion-ltd",
+      "name": "Go Fashion (India) Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "hi-tech-gears-ltd",
+      "name": "Hi-Tech Gears Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "accel-ltd",
+      "name": "Accel Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "samkrg-pistons-rings-ltd",
+      "name": "Samkrg Pistons & Rings Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "high-energy-batteries-ltd",
+      "name": "High Energy Batteries (India) Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sis-ltd",
+      "name": "SIS Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kirloskar-brothers",
+      "name": "Kirloskar Brothers Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "syngene-international",
+      "name": "Syngene International Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "olectra-greentech",
+      "name": "Olectra Greentech Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "wendt-india",
+      "name": "Wendt (India) Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "empire-industries",
+      "name": "Empire Industries",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "repro-india-limited",
+      "name": "Repro india limited",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "hcc",
+      "name": "HCC",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "dhoot-transmission-high-share-higher-content",
+      "name": "Dhoot Transmission: High Share, Higher Content",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "computer-age-management-services",
+      "name": "Computer Age Management Services Ltd (CAMS)",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kfin-technologies",
+      "name": "KFin Technologies Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "mazagon-dock-shipbuilders",
+      "name": "Mazagon Dock Shipbuilders Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "cochin-shipyard",
+      "name": "Cochin Shipyard Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "cyient",
+      "name": "Cyient Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "dixon-technologies",
+      "name": "Dixon Technologies (India) Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "zydus-lifesciences",
+      "name": "Zydus Lifesciences Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ksb-ltd",
+      "name": "KSB Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bluspring-enterprises",
+      "name": "Bluspring Enterprises Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "gee-ltd",
+      "name": "GEE Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sathlokhar-synergys-ec-global",
+      "name": "Sathlokhar Synergys E&C Global Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "servotech-renewable-power",
+      "name": "Servotech Renewable Power Ltd (erst. Servotech Power Systems)",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "exhicon-events-media-solutions",
+      "name": "Exhicon Events Media Solutions Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "insolation-energy",
+      "name": "Insolation Energy Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sat-kartar-life",
+      "name": "Sat Kartar Life Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "winsol-engineers",
+      "name": "Winsol Engineers Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "arham-technologies",
+      "name": "Arham Technologies Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "hi-tech-pipes",
+      "name": "Hi-Tech Pipes Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "maxvolt-energy-industries",
+      "name": "Maxvolt Energy Industries Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "zelio-e-mobility",
+      "name": "Zelio E-Mobility Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "avg-logistics",
+      "name": "AVG Logistics Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "premco-global",
+      "name": "Premco Global --- Narrow Fabric (A critical component for inner wear)",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bhageria-industries",
+      "name": "Bhageria Industries",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "shriram-amc",
+      "name": "Shriram AMC",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "satkartar-life-d2c-ayurveda-pivoting-to-specialized-asset",
+      "name": "Satkartar Life: D2C Ayurveda Pivoting to Specialized Asset-Light Hospitals",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "chennai-petroleum-corporation",
+      "name": "Chennai Petroleum Corporation Ltd (CPCL)",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sastasundar-ventures",
+      "name": "Sastasundar Ventures Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "s-p-apparels",
+      "name": "S P Apparels Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "prizor-viztech",
+      "name": "Prizor Viztech Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ajc-jewel-manufacturers",
+      "name": "AJC Jewel Manufacturers Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sportking-india",
+      "name": "Sportking India Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "nahar-spinning",
+      "name": "Nahar Spinning Mills Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "dcm-nouvelle",
+      "name": "DCM Nouvelle Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "shiva-mills",
+      "name": "Shiva Mills Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kimbal",
+      "name": "Kimbal Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "metropolitan-stock-exchange",
+      "name": "Metropolitan Stock Exchange of India Ltd (MSEI)",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kilburn-engineering",
+      "name": "Kilburn Engineering Ltd",
+      "conviction_score": 6.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "multi-commodity-exchange-of-india",
+      "name": "Multi Commodity Exchange of India Ltd",
+      "conviction_score": 4.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "abbott-india-mnc-pharma-play-on-increased-consumer-spending",
+      "name": "Abbott India: MNC pharma play on increased consumer spending",
+      "conviction_score": 4.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "affle-3i",
+      "name": "Affle 3i Ltd",
+      "conviction_score": 4.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "deepak-nitrite",
+      "name": "Deepak Nitrite",
+      "conviction_score": 4.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "nikhil-adhesives-ltd",
+      "name": "Nikhil Adhesives Ltd",
+      "conviction_score": 4.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "venkys-india-ltd",
+      "name": "Venkys India Ltd",
+      "conviction_score": 4.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ashiana-housing-ltd",
+      "name": "Ashiana Housing Ltd",
+      "conviction_score": 4.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "kse-ltd",
+      "name": "KSE Ltd",
+      "conviction_score": 4.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "credit-access-grameen-ltd",
+      "name": "Credit Access Grameen Ltd",
+      "conviction_score": 4.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bodal-chemicals-ltd",
+      "name": "Bodal Chemicals Ltd",
+      "conviction_score": 4.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "faze-three-ltd-a-textile-co-rising-from-ashes-to-glory",
+      "name": "Faze Three Ltd",
+      "conviction_score": 4.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bharat-rasayan-ltd",
+      "name": "Bharat Rasayan Ltd",
+      "conviction_score": 4.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "pb-fintech-ltd",
+      "name": "PB Fintech Ltd",
+      "conviction_score": 4.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "fino-payments-bank-ltd",
+      "name": "Fino Payments Bank Ltd",
+      "conviction_score": 4.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "360-one-wam-ltd",
+      "name": "360 ONE WAM Ltd",
+      "conviction_score": 4.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "cg-power-and-industrial-solutions-ltd",
+      "name": "CG Power and Industrial Solutions Ltd",
+      "conviction_score": 4.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "welspun-corp",
+      "name": "Welspun Corp",
+      "conviction_score": 1.92,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "banco-products",
+      "name": "Banco Products",
+      "conviction_score": 1.8,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "kronox-lab-sciences",
+      "name": "Kronox Lab Sciences",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "reliance-industries-ltd-is-the-reliance-on-jio-justified",
+      "name": "Reliance Industries Ltd: Is the 'Reliance\" on 'Jio' Justified?",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "the-leela-palaces-new-promoter-legacy-hotels-new-playbook",
+      "name": "The Leela Palaces \u2014 New Promoter, Legacy Hotels, New Playbook",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "annapurna-swadisht",
+      "name": "Annapurna Swadisht Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "intellect-design-arena",
+      "name": "Intellect Design Arena",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "bls-international",
+      "name": "BLS International",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "rainbow-children-s-medicare",
+      "name": "Rainbow Children's Medicare",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "envirotech-systems",
+      "name": "Envirotech Systems Limited- Acoustics",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ptc-india-ltd",
+      "name": "Ptc india ltd",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "jubilant-ingrevia",
+      "name": "Jubilant Ingrevia",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "valiant-organics",
+      "name": "Valiant Organics",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "nazara-technologies",
+      "name": "Nazara Technologies",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "bcl-industries",
+      "name": "BCL Industries",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "windlas-biotech",
+      "name": "Windlas Biotech Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "jindal-drilling",
+      "name": "Jindal Drilling",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "genesys-international",
+      "name": "Genesys International",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "raymond-lifestyle",
+      "name": "Raymond Lifestyle",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "hikal",
+      "name": "Hikal",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "tcpl-packaging",
+      "name": "TCPL Packaging Ltd. -- Statistical Facts & Figures -- Views Invited",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "biocon",
+      "name": "Biocon",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bombay-burmah-way-to-britannia",
+      "name": "Bombay Burmah way to Britannia",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "nmdc-steel",
+      "name": "NMDC Steel ( NSL )",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "glenmark",
+      "name": "Glenmark",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "eveready",
+      "name": "Eveready",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "jyoti-resins-adhesives",
+      "name": "Jyoti Resins & Adhesives Limited (with bloated reserves)",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "aksharchem",
+      "name": "AksharChem (India)",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "dishman-carbogen-amcis",
+      "name": "Dishman Carbogen Amcis Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "shriram-pistons-rings",
+      "name": "Shriram Pistons & Rings Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "oriana-power",
+      "name": "Oriana Power",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "websol-energy-system-ltd",
+      "name": "Websol energy system ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "supriya-lifescience",
+      "name": "Supriya Lifescience Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "gsm-foils-secular-growth-play",
+      "name": "Gsm Foils:Secular growth play",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "kaynes-technology-india",
+      "name": "Kaynes Technology India Limited",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "man-industries",
+      "name": "Man Industries (India) Limited",
+      "conviction_score": 0,
+      "red_flag_tier": "EXCLUDE"
+    },
+    {
+      "slug": "paramount-communication",
+      "name": "Paramount Communication",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "research-on-ind-swift-laboratories",
+      "name": "Research on Ind Swift Laboratories Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "spicejet-ltd-from-turbulence-to-triumph",
+      "name": "SpiceJet Ltd: From Turbulence to Triumph!",
+      "conviction_score": 0,
+      "red_flag_tier": "AVOID"
+    },
+    {
+      "slug": "praveg-ltd-play-on-indian-tourism-industry",
+      "name": "Praveg Ltd: Play on Indian Tourism Industry!",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "digikore-studios",
+      "name": "Digikore Studios Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "c2c-advanced-systems-specialized-defence-play",
+      "name": "C2C Advanced Systems: Specialized Defence Play",
+      "conviction_score": 0,
+      "red_flag_tier": "AVOID"
+    },
+    {
+      "slug": "ola-electric",
+      "name": "Ola Electric",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "lactose-india",
+      "name": "Lactose India",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "cupid-ltd",
+      "name": "Cupid Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "v-marc-india",
+      "name": "V-Marc India Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "EXCLUDE"
+    },
+    {
+      "slug": "chavda-infra-ltd",
+      "name": "Chavda Infra Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "shri-jagdamba-polymers-ltd",
+      "name": "Shri Jagdamba Polymers Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "lincoln-pharma-ltd",
+      "name": "Lincoln Pharma Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "aimco-pesticides-ltd",
+      "name": "Aimco Pesticides Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "medi-assist-healthcare-services-ltd",
+      "name": "Medi Assist Healthcare Services Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "efc-i-ltd",
+      "name": "EFC (I) Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "kddl-ltd",
+      "name": "KDDL Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "pds-limited",
+      "name": "PDS Limited",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "ramkrishna-forgings-ias2026",
+      "name": "Ramkrishna Forgings",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "sigachi-industries",
+      "name": "Sigachi Industries Limited",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "cohance-life-science-demerged-crams-arm-of-suven-life-sciences",
+      "name": "Cohance life science ( older name Suven Pharma ) ~ Demerged CRAMS Arm of Suven Life Sciences",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "jindal-stainless",
+      "name": "Jindal Stainless (Hisar)",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "avenue-supermarts-ltd-a-slow-compounding-machine",
+      "name": "Avenue Supermarts Ltd (DMart): A Slow Compounding Machine?",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "mahindra-mahindra",
+      "name": "Mahindra & Mahindra Ltd.",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "usha-martin",
+      "name": "Usha Martin",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "polycab-india-connection-zindagi-ka",
+      "name": "Polycab India ~ Connection Zindagi Ka",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sula-vineyards",
+      "name": "Sula vineyards",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "darjeeling-industries",
+      "name": "Darjeeling Industries",
+      "conviction_score": 0,
+      "red_flag_tier": "EXCLUDE"
+    },
+    {
+      "slug": "kerala-ayurveda-ltd",
+      "name": "Kerala Ayurveda Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "AVOID"
+    },
+    {
+      "slug": "galaxy-supermarket-ltd",
+      "name": "Galaxy Supermarket Ltd (Galaxy Cloud Kitchens)",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "jitf-infra-logistics-ltd",
+      "name": "JITF Infra Logistics Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "AVOID"
+    },
+    {
+      "slug": "avi-polymers-ltd",
+      "name": "AVI Polymers Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "technvision-ventures-ltd",
+      "name": "TechNVision Ventures Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "alan-scott-enterprises-ltd",
+      "name": "Alan Scott Enterprises Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "AVOID"
+    },
+    {
+      "slug": "vaxfab-enterprises-ltd",
+      "name": "Vaxfab Enterprises Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "AVOID"
+    },
+    {
+      "slug": "embassy-developments",
+      "name": "Embassy Developments Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "eco-recycling",
+      "name": "Eco Recycling Ltd (Ecoreco)",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "viviana-power-tech",
+      "name": "Viviana Power Tech Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "himatsingka-seide",
+      "name": "Himatsingka Seide Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "osel-devices",
+      "name": "Osel Devices Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "jyoti-cnc-automation",
+      "name": "Jyoti CNC Automation Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "purple-style-labs",
+      "name": "Purple Style Labs",
+      "conviction_score": 0,
+      "red_flag_tier": "AVOID"
+    }
+  ]
+}

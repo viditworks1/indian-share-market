@@ -1,0 +1,185 @@
+{
+  "project": "Microcap/Midcap 10x-in-2-3-years research pipeline",
+  "kickoff_date_ist": "2026-08-09",
+  "hard_deadline_ist": "2026-08-16T23:59:00+05:30",
+  "deadline_note": "The entire project (every stock terminal + 00_FINAL_RANKING.docx) must be complete by hard_deadline_ist regardless of how many nightly runs actually fired (laptop/app availability is not guaranteed). Each run must self-pace against this deadline - see the scheduled task prompt's Step 0.",
+  "source_sheet": "https://docs.google.com/spreadsheets/d/1j3sUPLk0q6fahFzbNJyTUr51BK68fhXe96u2DpKOXPk/edit?gid=0#gid=0",
+  "raw_csv": "/Users/amiyavidit/Documents/Work/Stock Market/Stock Market - Sheet1.csv",
+  "output_docs_dir": "/Users/amiyavidit/Documents/Work/Stock Market/docs",
+  "ta_framework": "CM_Ult_MacD_MTF not available for unattended automation (requires user's own TradingView account/layout). Using standard MACD + Bollinger Bands on Weekly and Monthly charts as the fallback, per user instruction, read from public TradingView charts (no login needed).",
+  "research_sources_per_stock": ["ValuePickr forum (search + relevant thread if any)", "X/Twitter search", "BSE website (bseindia.com) - company page, corp announcements, shareholding", "Screener.in - financials, ratios, peer comparison, concalls/annual report links", "TradingView - Weekly & Monthly MACD + Bollinger Bands", "Any other credible tool/source found useful (broker reports, Tijori Finance, Trendlyne, etc.)"],
+  "deliverable_per_stock": "One .docx in output_docs_dir named '<StockName>.docx' containing: business overview, source/conviction notes from the sheet, fundamental analysis (growth, margins, ROCE/ROE, balance sheet, valuation), technical read (weekly/monthly MACD+BB posture), ValuePickr/X sentiment summary, BSE corp actions/red flags, bull case, bear case/risks, 10x-in-2-3-years plausibility verdict with reasoning, and explicit 'not personalized financial advice' disclaimer.",
+  "final_deliverable": "One consolidated ranking .docx ('00_FINAL_RANKING.docx') ranking all researched names by 10x-in-2-3-years plausibility using a stated scoring framework (fundamentals momentum, valuation runway, technical posture, catalyst clarity, red-flag/quality screen, liquidity/float), produced after all batches complete.",
+  "batches": [
+    {
+      "night": 1,
+      "status": "done",
+      "stocks": [
+        {"name": "Rapicut Carbide Ltd", "notes_from_sheet": "Listed alongside 'Anand' as source/curator context.", "status": "done", "doc": "docs/Rapicut Carbides.docx"},
+        {"name": "Aarti Surfactants Ltd", "notes_from_sheet": "Highest engagement among recent VP posts; strong results + valuation discussion.", "status": "done", "doc": "docs/Aarti Surfactants.docx"},
+        {"name": "Apar Industries Ltd", "notes_from_sheet": "Solid engagement on results post; positive EPS growth emphasis.", "status": "excluded", "reason": "Large-cap (Rs 66,830 Cr) - structurally cannot 10x in 2-3 years", "doc": "docs/Apar Industries (EXCLUDED - large-cap).docx"},
+        {"name": "Unihealth Hospitals Ltd", "notes_from_sheet": "Good engagement on price-move/profit-booking post.", "status": "done", "doc": "docs/Unihealth Hospitals.docx"},
+        {"name": "Oracle Financial Services Software Ltd", "notes_from_sheet": "Solid likes on results update.", "status": "excluded", "reason": "Large-cap (Rs 1,02,793 Cr) - confirmed, structurally cannot 10x in 2-3 years", "doc": "docs/Oracle Financial Services Software (EXCLUDED - large-cap).docx"},
+        {"name": "Asahi Songwon Colors Ltd", "notes_from_sheet": "Grouped with Gujarat Containers; solid engagement on positive results.", "status": "done", "doc": "docs/Asahi Songwon Colors.docx"},
+        {"name": "Gujarat Containers Ltd", "notes_from_sheet": "Grouped with Asahi Songwon Colors; solid engagement on positive results.", "status": "done", "doc": "docs/Gujarat Containers.docx"},
+        {"name": "Novartis India Ltd", "notes_from_sheet": "Decent engagement on follow-up performance discussion.", "status": "done", "doc": "docs/Novartis India.docx"},
+        {"name": "High Energy Batteries (India) Ltd", "notes_from_sheet": "Notable discussion with Fluidomat; some questioning of growth.", "status": "done", "doc": "docs/High Energy Batteries.docx"},
+        {"name": "Fluidomat Ltd", "notes_from_sheet": "Mentioned alongside High Energy Batteries in same VP discussion.", "status": "done", "doc": "docs/Fluidomat.docx"},
+        {"name": "Trejhara Solutions Ltd", "notes_from_sheet": "Recent positive results mention, lower engagement so far.", "status": "done", "doc": "docs/Trejhara Solutions.docx"},
+        {"name": "BlackBerry Ltd", "notes_from_sheet": "Mentions with some engagement, less India small/mid-cap style.", "status": "excluded", "flag": "Foreign (Canada-listed) mega-cap - out of scope for India microcap/midcap 10x thesis", "doc": "docs/BlackBerry (EXCLUDED - foreign).docx"},
+        {"name": "Nokia Corp", "notes_from_sheet": "Mentions with some engagement, less India small/mid-cap style.", "status": "excluded", "flag": "Foreign (Finland-listed) mega-cap - out of scope", "doc": "docs/Nokia (EXCLUDED - foreign).docx"}
+      ]
+    },
+    {
+      "night": 2,
+      "status": "done",
+      "stocks": [
+        {"name": "Alan Scott Ltd", "notes_from_sheet": "~8X noted as 2023 management-change bet.", "status": "done", "doc": "docs/Alan Scott Enterprises.docx"},
+        {"name": "Accel Ltd", "notes_from_sheet": "Lower relative emphasis/more critical-neutral tone.", "status": "done", "doc": "docs/Accel.docx"},
+        {"name": "Hitech Gear Ltd", "notes_from_sheet": "Passing reference, lower emphasis.", "status": "done", "doc": "docs/Hi-Tech Gears.docx"},
+        {"name": "Samkrg Pistons & Rings Ltd", "notes_from_sheet": "Passing reference, lower emphasis.", "status": "done", "doc": "docs/Samkrg Pistons.docx"},
+        {"name": "Waaree Renewable Technologies Ltd", "notes_from_sheet": "~158X referenced (also linked to Waaree Energies).", "status": "done", "doc": "docs/Waaree Renewable.docx"},
+        {"name": "Stylam Industries Ltd", "notes_from_sheet": "~52X.", "status": "done", "doc": "docs/Stylam Industries.docx"},
+        {"name": "Ritco Logistics Ltd", "notes_from_sheet": "~15X, near 52-week high, ~16X from 2021 entry.", "status": "done", "doc": "docs/Ritco Logistics.docx"},
+        {"name": "Bajaj Steel Industries Ltd", "notes_from_sheet": "~9.5X.", "status": "done", "doc": "docs/Bajaj Steel.docx"},
+        {"name": "JITF Infra Logistics Ltd", "notes_from_sheet": "~7.8X.", "status": "done", "doc": "docs/JITF Infra Logistics.docx", "flag_result": "AVOID - negative net worth, going-concern auditor warnings, extreme leverage"},
+        {"name": "BCL Industries Ltd", "notes_from_sheet": "~3.4X.", "status": "done", "doc": "docs/BCL Industries.docx"},
+        {"name": "Beardsell Ltd", "notes_from_sheet": "~2.7X.", "status": "done", "doc": "docs/Beardsell.docx"},
+        {"name": "Darjeeling Industries", "notes_from_sheet": "~2.7X; also discussed re: SEBI order/manipulation comments.", "status": "excluded", "reason": "CONFIRMED - active SEBI ex-parte interim order (30 Jun 2026) barring MD + 9 others for circular funding/stock manipulation allegations", "doc": "docs/Darjeeling Industries (EXCLUDED - SEBI action).docx"},
+        {"name": "Transpek Industry Ltd", "notes_from_sheet": "Price charts/updates showing strong moves.", "status": "done", "doc": "docs/Transpek Industry.docx"}
+      ]
+    },
+    {
+      "night": 3,
+      "status": "done",
+      "stocks": [
+        {"name": "Bansal Roofing Products Ltd", "notes_from_sheet": "Order/award updates.", "status": "done", "doc": "docs/Bansal Roofing.docx"},
+        {"name": "NDL Ventures Ltd", "notes_from_sheet": "Shareholder/merger updates involving Hinduja Leyland Finance/HLFL.", "status": "excluded", "reason": "Reverse-merger/backdoor-listing of large NBFC (HLF, ~Rs 72,000 Cr AUM) - not a microcap growth thesis, different analysis framework needed", "doc": "docs/NDL Ventures (EXCLUDED - reverse merger).docx"},
+        {"name": "Ather Energy Ltd", "notes_from_sheet": "Posed as comparison question vs Waaree Renewable.", "status": "excluded", "reason": "Large-cap (Rs 60,219 Cr), confirmed - structurally cannot 10x in 2-3 years", "doc": "docs/Ather Energy (EXCLUDED - large-cap).docx"},
+        {"name": "Vaxfab Enterprises Ltd", "notes_from_sheet": "Financial results shared.", "status": "done", "doc": "docs/Vaxfab Enterprises.docx"},
+        {"name": "AVI Polymers Ltd", "notes_from_sheet": "Detailed commentary on bonus/split announcement, results, risks.", "status": "done", "doc": "docs/AVI Polymers (HIGH CAUTION).docx", "flag_result": "HIGH CAUTION - promoter holding collapsed 25%->1.1% in one quarter alongside near-shell revenue explosion"},
+        {"name": "Sai Life Sciences Ltd", "notes_from_sheet": "Tier 1 CRAMS/CDMO, grouped with high-potential names.", "status": "excluded", "reason": "Large-cap (Rs 25,700-30,600 Cr) - structurally cannot 10x in 2-3 years", "doc": "docs/Sai Life Sciences (EXCLUDED - large-cap).docx"},
+        {"name": "Anthem Biosciences Ltd", "notes_from_sheet": "Tier 1 list; cited as present-day example of earlier winners' pattern.", "status": "excluded", "reason": "Large-cap (Rs 49,276 Cr) - structurally cannot 10x in 2-3 years", "doc": "docs/Anthem Biosciences (EXCLUDED - large-cap).docx"},
+        {"name": "Unimech Aerospace and Manufacturing Ltd", "notes_from_sheet": "Multiple dedicated posts + Substack link on capability-to-capital transition, CNC utilization, Q1 FY27 commentary. Also separately noted: price moved ~₹850 to ~₹1,400 in ~4 months, recent ~₹1,330-1,370, new 52-week highs.", "status": "done", "doc": "docs/Unimech Aerospace.docx"},
+        {"name": "Intellect Design Arena Ltd", "notes_from_sheet": "Grouped list of names.", "status": "excluded", "reason": "Upper-midcap (Rs 9,800-10,450 Cr), currently down-trending - structurally cannot 10x in 2-3 years", "doc": "docs/Intellect Design Arena (EXCLUDED - large-cap).docx"},
+        {"name": "Eureka Forbes Ltd", "notes_from_sheet": "Grouped list of names.", "status": "excluded", "reason": "Upper-midcap (Rs 8,571 Cr), currently down-trending - structurally cannot 10x in 2-3 years", "doc": "docs/Eureka Forbes (EXCLUDED - large-cap).docx"},
+        {"name": "Timken India Ltd", "notes_from_sheet": "Grouped list of names.", "status": "excluded", "reason": "Large-cap (Rs 24,684-26,573 Cr), confirmed - structurally cannot 10x in 2-3 years", "doc": "docs/Timken India (EXCLUDED - large-cap).docx"},
+        {"name": "Sansera Engineering Ltd", "notes_from_sheet": "Grouped list of names.", "status": "excluded", "reason": "Large-cap (Rs 20,523-24,289 Cr) - structurally cannot 10x in 2-3 years", "doc": "docs/Sansera Engineering (EXCLUDED - large-cap).docx"},
+        {"name": "Praj Industries Ltd", "notes_from_sheet": "Grouped list of names.", "status": "excluded", "reason": "Upper-midcap (Rs 5,909 Cr), thin margins, -19.9% 1yr - structurally weak candidacy", "doc": "docs/Praj Industries (EXCLUDED - large-cap).docx"}
+      ]
+    },
+    {
+      "night": 4,
+      "status": "done",
+      "stocks": [
+        {"name": "Cohance Lifesciences Ltd", "notes_from_sheet": "Grouped list of names.", "status": "excluded", "reason": "Large-cap (Rs 16,988 Cr) with deteriorating fundamentals (loss-making quarter)", "doc": "docs/Cohance Lifesciences (EXCLUDED - large-cap).docx"},
+        {"name": "Viyash Life Sciences", "notes_from_sheet": "Grouped list of names.", "status": "excluded", "reason": "Resolved to Viyash Scientific Ltd (NSE: VIYASH) - large-cap (Rs 11,955-12,160 Cr), too large for 10x thesis", "doc": "docs/Viyash Scientific (EXCLUDED - large-cap).docx"},
+        {"name": "Tatva Chintan Pharma Chem Ltd", "notes_from_sheet": "Also separately: 'Ghoomega + Machayega + earnings reversal' setup, recent price strength and improving results (Saurabh curator).", "status": "done", "doc": "docs/Tatva Chintan.docx"},
+        {"name": "Sona BLW Precision Forgings Ltd (Sona Comstar)", "notes_from_sheet": "Also separately: 'differentiated company', 'clear blue ocean move', constructive on JVs/perception-stack/robotics angle (IAS2026 curator).", "status": "excluded", "reason": "Large-cap (Rs 49,482 Cr), confirmed - structurally cannot 10x in 2-3 years", "doc": "docs/Sona BLW Comstar (EXCLUDED - large-cap).docx"},
+        {"name": "Cemindia Projects Ltd (formerly ITD Cementation India; CEMPRO, BSE 509496)", "notes_from_sheet": "Detailed Aug 2026 analysis: P/E ~38x vs sector ~35x, market cap ~₹22,800-23,500 Cr, order book ~₹31,300 Cr, TTM EPS growth ~47%, Adani parentage. Risks: valuation, EPC execution delays, margin normalization, working capital.", "status": "excluded", "reason": "Large-cap (Rs 20,500-20,754 Cr), confirmed - structurally cannot 10x in 2-3 years", "doc": "docs/Cemindia Projects (EXCLUDED - large-cap).docx"},
+        {"name": "MTAR Technologies Ltd", "notes_from_sheet": "Recovery, back-to-back upper circuits after correction. Historical: bought ~₹1,800, sold ~₹1,500, later crossed ₹8,700; recent ~₹6,000-6,300. Precision engineering for nuclear/space/defence. High P/E.", "status": "excluded", "reason": "Large-cap (Rs 21,839 Cr), confirmed - structurally cannot 10x in 2-3 years", "doc": "docs/MTAR Technologies (EXCLUDED - large-cap).docx"},
+        {"name": "Devson Catalyst Ltd", "notes_from_sheet": "BSE SME 544823. Import substitution, capacity expansion, specialty catalyst/adsorbent/ceramic mfg. Risks: customer concentration. SME IPO July 2026, price band ~₹112-118, post-listing ~₹200-230.", "status": "done", "doc": "docs/Devson Catalyst.docx"},
+        {"name": "Jupiter Wagons Ltd", "notes_from_sheet": "Past multi-bagger example: bought ~₹123 (2023), sold ~₹650, peaked ~₹748, later ~₹260. Rail/wagons capex tailwind.", "status": "excluded", "reason": "Large-cap (Rs 12,426 Cr), confirmed; also cited by source only as a historical timing example, not a forward pick", "doc": "docs/Jupiter Wagons (EXCLUDED - large-cap).docx"},
+        {"name": "Yasho Industries Ltd", "notes_from_sheet": "Already turned multi-bagger; performance chemicals for rubber/food/lubricants.", "status": "excluded", "reason": "Upper-midcap (Rs 5,083 Cr) with stretched valuation (P/E 97x vs ROE <8%)", "doc": "docs/Yasho Industries (EXCLUDED - large-cap).docx"},
+        {"name": "Haldyn Glass Ltd", "notes_from_sheet": "Strong Q1 results discussion, upper-circuit moves (Aug 4), technical momentum shift bullish, MarketsMojo coverage/upgrades. Micro-cap packaging focus.", "status": "done", "doc": "docs/Haldyn Glass.docx"},
+        {"name": "Balaji Amines Ltd", "notes_from_sheet": "Strong Q1 FY27 profit growth (~doubling YoY in some reports), margin expansion, DME plant commissioning (India's first commercial-scale), large YTD gains.", "status": "excluded", "reason": "Upper-midcap (Rs 6,772 Cr) - too large for 10x-in-2-3-years despite a genuine catalyst", "doc": "docs/Balaji Amines (EXCLUDED - large-cap).docx"},
+        {"name": "ADF Foods Ltd", "notes_from_sheet": "Q1 revenue growth ~26% YoY, stable margins despite headwinds, new Surat plant, tariff refund notes. Sequential profit decline drew reaction.", "status": "done", "doc": "docs/ADF Foods.docx"},
+        {"name": "Tips Music Ltd (Tips Industries)", "notes_from_sheet": "Q1 revenue growth, higher content spend impacting profits, buyback considerations, multi-bagger history.", "status": "excluded", "reason": "Upper-midcap (Rs 8,590 Cr) - structurally cannot 10x in 2-3 years despite excellent ROE", "doc": "docs/Tips Music (EXCLUDED - large-cap).docx"}
+      ]
+    },
+    {
+      "night": 5,
+      "status": "done",
+      "stocks": [
+        {"name": "Saregama India Ltd", "notes_from_sheet": "Media-sector context (piracy crackdowns, catalog strength, Tips/Nifty Media theme). Also separately: content/IP monetization, resilient model (Saurabh curator), lighter discussion depth.", "status": "excluded", "reason": "Large-cap (Rs 10,202 Cr) - structurally cannot 10x in 2-3 years", "doc": "docs/Saregama (EXCLUDED - large-cap).docx"},
+        {"name": "TPL Plastech Ltd", "notes_from_sheet": "Related to Time Technoplast holding. Consistent revenue growth, Bhuj facility expansion, solar plans. Niche micro-cap packaging, mixed margin notes.", "status": "done", "doc": "docs/TPL Plastech.docx"},
+        {"name": "Laurus Labs Ltd", "notes_from_sheet": "Highest multi-year conviction (Jeevan Patwa curator). Long-standing thesis since Nov 2022, mcap ~₹3,000cr toward ₹3 lakh cr target, ~₹1 lakh cr by Aug 2026. Strong July 2026 results: 62.7% gross margin, 31.8% EBITDA, 44% CDMO contribution, revenue >₹2,000cr, PAT ₹362cr. Explicit 'We are invested.'", "status": "excluded", "reason": "Large-cap (Rs 98,958 Cr), confirmed - structurally cannot 10x in 2-3 years despite being the strongest conviction pick in the source data", "doc": "docs/Laurus Labs (EXCLUDED - large-cap).docx"},
+        {"name": "Azad Engineering Ltd", "notes_from_sheet": "Very high conviction (Jeevan Patwa). July 2026: delivered India's first indigenous expendable turbo-jet engine to DRDO. March 2026: 8-year single-source Mitsubishi contract for hot-section nozzle vanes. Explicit 'We are invested.'", "status": "excluded", "reason": "Large-cap (Rs 17,573 Cr) - structurally cannot 10x in 2-3 years despite excellent catalysts", "doc": "docs/Azad Engineering (EXCLUDED - large-cap).docx"},
+        {"name": "Axiscades Technologies Ltd", "notes_from_sheet": "Repeated detailed conviction (Jeevan Patwa) on business transformation - avionics hardware order (LCA Mk1A), capex (Aeroland/DAC/MAC), acquisitions in aerospace/ESAI. Weak recent results (deferrals, one-time charges) framed as temporary. Explicit 'We are invested.'", "status": "excluded", "reason": "Upper-midcap (Rs 6,537 Cr) plus self-acknowledged weak recent results - too large and unproven for 10x-in-2-3-years", "doc": "docs/Axiscades (EXCLUDED - large-cap).docx"},
+        {"name": "Sedemac Mechatronics Ltd", "notes_from_sheet": "Deep-tech focus (Jeevan Patwa). Poor IPO response (undersubscribed HNI/retail ~₹1,350) followed by sharp post-listing gains; global brokerage target ₹3,700. Sensor-less ISG technology.", "status": "excluded", "reason": "Large-cap (Rs 13,492 Cr) even at IPO; own cited price target implies <3x not 10x", "doc": "docs/Sedemac (EXCLUDED - large-cap).docx"},
+        {"name": "Manorama Industries Ltd", "notes_from_sheet": "Clear long-term growth (Jeevan Patwa), personal holding disclosed. Sales CAGR ~37%, PAT CAGR ~57%. Expects ~₹5,000cr sales/₹1,000cr PAT in 5 years. Explicit 'I'm invested.'", "status": "excluded", "reason": "Large-cap (Rs 11,160 Cr); own 5yr target implies ~3.4x not 10x", "doc": "docs/Manorama Industries (EXCLUDED - large-cap).docx"},
+        {"name": "RNIT AI Ltd", "notes_from_sheet": "Micro-cap AI-related (Jeevan Patwa). Positive FY26 results: revenue +60%, EBITDA +102%, PBT +127%, margin expansion to 40%. Explicit 'I'm invested.'", "status": "done", "doc": "docs/RNIT AI Solutions.docx"},
+        {"name": "Pricol Ltd", "notes_from_sheet": "Highest short-term likelihood (Naveen curator). Strong results/concall, demerger potential catalyst (electronics/EV split from core), price momentum near all-time highs (~730 CMP referenced).", "status": "excluded", "reason": "Large-cap (Rs 9,325 Cr) - structurally cannot 10x in 2-3 years despite a real demerger catalyst", "doc": "docs/Pricol (EXCLUDED - large-cap).docx"},
+        {"name": "GPT Healthcare Ltd", "notes_from_sheet": "Strong contender (Naveen). Q results: income +~18% YoY, PAT +66% YoY. Positive on occupancy, case mix, ARPOB, Raipur ramp. Framed as under-discovered hospitals 'dark horse', WB/Eastern India regional potential.", "status": "done", "doc": "docs/GPT Healthcare.docx"},
+        {"name": "Dynamic Cables Ltd", "notes_from_sheet": "Strong short-term setup (Naveen): revenue +33% YoY, net profit +37% YoY, sharp EBITDA swing, ~10% stock reaction. Smaller cables/wires player.", "status": "done", "doc": "docs/Dynamic Cables.docx"},
+        {"name": "Schloss Bangalore Ltd (The Leela)", "notes_from_sheet": "Positive on 'brilliant results' (Naveen), high ADR (~₹20,000 corporate level), scarcity/luxury positioning, post-Brookfield/IPO institutional backing, expansion.", "status": "excluded", "reason": "Large-cap (Rs 16,970 Cr), confirmed - structurally cannot 10x in 2-3 years", "doc": "docs/Schloss Bangalore The Leela (EXCLUDED - large-cap).docx"}
+      ]
+    },
+    {
+      "night": 6,
+      "status": "done",
+      "stocks": [
+        {"name": "Ramkrishna Forgings Ltd", "notes_from_sheet": "Recovery narrative (Naveen): balance sheet improvement, sequential growth, Mexico/castings ramp, debt reduction. Also separately: 'interesting concall' (Saurabh) and presented at IAS2026 summit Day 2.", "status": "excluded", "reason": "Large-cap (Rs 13,500 Cr) with weak current ROCE/ROE - recovery phase, not compounding", "doc": "docs/Ramkrishna Forgings (EXCLUDED - large-cap).docx"},
+        {"name": "Shriram Pistons & Rings Ltd", "notes_from_sheet": "Consistent long-term compounder (Naveen): ~80% returns over a prior year noted, market leadership, diversification (CNG/hybrids/exports/EV motors).", "status": "excluded", "reason": "Large-cap (Rs 19,485-19,845 Cr), confirmed - structurally cannot 10x in 2-3 years", "doc": "docs/Shriram Pistons (EXCLUDED - large-cap).docx"},
+        {"name": "TVS Holdings Ltd", "notes_from_sheet": "Holdco with large embedded stake in TVS Motor (Naveen); discount-narrowing narrative.", "status": "excluded", "reason": "Large-cap (Rs 29,401 Cr), confirmed - structurally cannot 10x in 2-3 years despite real holdco discount", "doc": "docs/TVS Holdings (EXCLUDED - large-cap).docx"},
+        {"name": "Adani Ports and Special Economic Zone Ltd (APSEZ)", "notes_from_sheet": "Structural 'tollbooth' thesis on India trade/manufacturing (Naveen).", "status": "excluded", "reason": "Mega-cap (Rs 3.8-4.2 lakh Cr), confirmed", "doc": "docs/Adani Ports (EXCLUDED - mega-cap).docx"},
+        {"name": "JSW Infrastructure Ltd", "notes_from_sheet": "Structural 'tollbooth' thesis alongside APSEZ (Naveen).", "status": "excluded", "reason": "Large-cap (Rs 56,584-66,559 Cr), confirmed", "doc": "docs/JSW Infrastructure (EXCLUDED - large-cap).docx"},
+        {"name": "RR Kabel Ltd", "notes_from_sheet": "Strongest detailed thesis (Saurabh): domestic brand-driven wire margins, export cable pricing power, domestic margin expansion with scale. Robust volume/revenue/profit growth, market-share gains.", "status": "excluded", "reason": "Large-cap (Rs 31,552 Cr) - too large despite being top-tier quality business", "doc": "docs/RR Kabel (EXCLUDED - large-cap).docx"},
+        {"name": "Macpower CNC Machines Ltd", "notes_from_sheet": "Data-driven 4-5yr conviction (Saurabh) despite mixed external feedback. High ROCE, near-zero debt, premium machine mix upgrade, solid order book.", "status": "done", "doc": "docs/Macpower CNC.docx"},
+        {"name": "Selan Exploration Technology Ltd", "notes_from_sheet": "Turnaround/execution story (Saurabh, referred to as 'Antelopus Selan Energy'): strong YoY/QoQ sales/PBT growth, production ramp.", "status": "done", "doc": "docs/Antelopus Selan Energy.docx"},
+        {"name": "Pyramid Technoplast Ltd", "notes_from_sheet": "Ultra-smallcap (Saurabh): sharp move after concall engagement, capacity expansion benefits emerging. Higher volatility/risk, more speculative.", "status": "done", "doc": "docs/Pyramid Technoplast.docx"},
+        {"name": "Shilpa Medicare Ltd", "notes_from_sheet": "'Very highly recommended' (standalone note); also presented at IAS2026 summit Day 2.", "status": "excluded", "reason": "Large (Rs 15,743 Cr absolute size) with weak ROE (4-9%) - fundamentals don't match the endorsement", "doc": "docs/Shilpa Medicare (EXCLUDED - weak-fundamentals).docx"},
+        {"name": "Entero Healthcare Solutions Ltd", "notes_from_sheet": "Studied for months, business model admired (Fredun-curator context). Expects easy 20%+ growth for years, improves with scale. Disclosed: curator not holding a position.", "status": "excluded", "reason": "Upper-midcap (Rs 6,210 Cr) - consistent with curator's own disclosed size preference", "doc": "docs/Entero Healthcare (EXCLUDED - large-cap).docx"},
+        {"name": "Kerala Ayurveda Ltd", "notes_from_sheet": "Listed in 'close watchlist for study purposes only' (Fredun-curator context).", "status": "done", "doc": "docs/Kerala Ayurveda (AVOID - distress).docx", "flag_result": "AVOID - severe financial distress: negative ROE/ROIC, 0.07x interest coverage, extreme leverage"}
+      ]
+    },
+    {
+      "night": 7,
+      "status": "done",
+      "stocks": [
+        {"name": "Fredun Pharmaceuticals Ltd", "notes_from_sheet": "Curator's biggest wealth creator over 5 years (~90% of portfolio with Technvision). Founder Fredun Medhora praised for ROI/unit economics/scaling (~₹50cr to ~₹1,000cr ARR over ~10 years).", "status": "done", "doc": "docs/Fredun Pharmaceuticals.docx"},
+        {"name": "Technvision Ventures Ltd", "notes_from_sheet": "Pure-play Enterprise AI/data infra bet from India, valued under $1B at time of post (curator's other major holding alongside Fredun).", "status": "done", "doc": "docs/TechNVision Ventures (HIGH CAUTION).docx", "flag_result": "HIGH CAUTION - P/E 1,161x, ROE 1.9%, down >50% from 52wk high"},
+        {"name": "Vistar Amar", "notes_from_sheet": "Listed by curator alongside Fredun/Technvision as a holding; also in 'close watchlist for study purposes only'.", "status": "done", "doc": "docs/Vistar Amar.docx"},
+        {"name": "Repono", "notes_from_sheet": "'Close watchlist for study purposes only' (Fredun-curator context).", "status": "done", "doc": "docs/Repono.docx"},
+        {"name": "Glen Industries", "notes_from_sheet": "'Close watchlist for study purposes only' (Fredun-curator context).", "status": "done", "doc": "docs/Glen Industries.docx"},
+        {"name": "Galaxy Supermarket", "notes_from_sheet": "'Close watchlist for study purposes only' (Fredun-curator context).", "status": "done", "doc": "docs/Galaxy Supermarket (AVOID - distress).docx", "flag_result": "AVOID - negative book value, -11.75%/-25.99% 3yr/5yr CAGR, repeated independent distress warnings"},
+        {"name": "PDS Limited", "notes_from_sheet": "Presented at IAS2026 summit Day 1 (formerly Pearl Global Industries).", "status": "excluded", "reason": "Upper-midcap (Rs 5,248 Cr) - too large; also note PDS Ltd is a distinct entity from Pearl Global Industries, not a rename", "doc": "docs/PDS Limited (EXCLUDED - large-cap).docx"},
+        {"name": "Sambhv Steel Tubes Ltd", "notes_from_sheet": "Presented at IAS2026 summit Day 1.", "status": "excluded", "reason": "Borderline-large (Rs 3,474-3,818 Cr) - solid fundamentals but too large for consistent 10x thesis treatment", "doc": "docs/Sambhv Steel Tubes (EXCLUDED - borderline size).docx"},
+        {"name": "Gravita India Ltd", "notes_from_sheet": "Presented at IAS2026 summit Day 1.", "status": "excluded", "reason": "Large-cap (Rs 13,380-13,438 Cr) - structurally cannot 10x in 2-3 years", "doc": "docs/Gravita India (EXCLUDED - large-cap).docx"},
+        {"name": "Concord Biotech Ltd", "notes_from_sheet": "Presented at IAS2026 summit Day 1; explicitly part of the curator's portfolio (niche manufacturing session) - clearest high-conviction/ownership signal.", "status": "excluded", "reason": "Large-cap (Rs 15,114 Cr) - structurally cannot 10x in 2-3 years despite genuine curator ownership", "doc": "docs/Concord Biotech (EXCLUDED - large-cap).docx"},
+        {"name": "Quality Power Electrical Equipments Ltd", "notes_from_sheet": "Niche manufacturing example alongside NRB Bearings/Shivalik Bimetal, IAS2026 summit.", "status": "excluded", "reason": "Upper-midcap (Rs 9,806-10,531 Cr) - structurally cannot 10x in 2-3 years", "doc": "docs/Quality Power (EXCLUDED - large-cap).docx"},
+        {"name": "NRB Bearings Ltd", "notes_from_sheet": "Niche manufacturing example ('Mahant Tool Room' context), IAS2026 summit.", "status": "excluded", "reason": "Upper-midcap (Rs 4,474-4,509 Cr) - structurally cannot 10x; note a distinct smaller entity 'NRB Industrial Bearings' also exists", "doc": "docs/NRB Bearings (EXCLUDED - large-cap).docx"},
+        {"name": "Shivalik Bimetal Controls Ltd", "notes_from_sheet": "Niche manufacturing example, also a separate deeper session at IAS2026 summit.", "status": "excluded", "reason": "Upper-midcap (Rs 5,995 Cr) - structurally cannot 10x despite excellent quality/momentum", "doc": "docs/Shivalik Bimetal (EXCLUDED - large-cap).docx"}
+      ]
+    },
+    {
+      "night": "8-overflow",
+      "status": "done",
+      "note": "Remaining names from IAS2026 summit + misc; added as overflow batch since original grouping ran to ~103 names across categories - will be folded into nights 1-7 by the nightly job based on actual pacing, or run as a catch-up night if behind schedule.",
+      "stocks": [
+        {"name": "Capital Small Finance Bank Ltd", "notes_from_sheet": "Banking case study, IAS2026 summit Day 1.", "status": "done", "doc": "docs/Capital Small Finance Bank.docx"},
+        {"name": "Gufic Biosciences Ltd", "notes_from_sheet": "IAS2026 summit Day 1.", "status": "excluded", "reason": "Lower-midcap (Rs 4,308 Cr) with only moderate returns", "doc": "docs/Gufic Biosciences (EXCLUDED - large-cap).docx"},
+        {"name": "Repco Home Finance Ltd", "notes_from_sheet": "IAS2026 summit Day 1.", "status": "done", "doc": "docs/Repco Home Finance.docx"},
+        {"name": "Edelweiss Financial Services Ltd", "notes_from_sheet": "IAS2026 summit Day 1.", "status": "excluded", "reason": "Large-cap (Rs 11,228-11,406 Cr), confirmed - structurally cannot 10x in 2-3 years", "doc": "docs/Edelweiss Financial Services (EXCLUDED - large-cap).docx"},
+        {"name": "Neogen Chemicals Ltd", "notes_from_sheet": "IAS2026 summit Day 2.", "status": "excluded", "reason": "Upper-midcap (Rs 5,648-5,856 Cr) with thin margins", "doc": "docs/Neogen Chemicals (EXCLUDED - large-cap).docx"},
+        {"name": "Orchid Pharma Ltd", "notes_from_sheet": "IAS2026 summit Day 2.", "status": "excluded", "reason": "Large-cap (Rs 10,257 Cr), confirmed", "doc": "docs/Orchid Pharma (EXCLUDED - large-cap).docx"},
+        {"name": "Go Fashion (India) Ltd", "notes_from_sheet": "IAS2026 summit Day 2.", "status": "done", "doc": "docs/Go Fashion.docx", "flag_result": "Sustained multi-quarter decline (-52% 1yr), margin compression - wait for confirmed stabilisation"},
+        {"name": "Raymond Lifestyle Ltd", "notes_from_sheet": "IAS2026 summit Day 2.", "status": "excluded", "reason": "Lower-midcap (Rs 4,323-4,795 Cr), confirmed", "doc": "docs/Raymond Lifestyle (EXCLUDED - large-cap).docx"},
+        {"name": "Jeena Sikho Lifecare Ltd", "notes_from_sheet": "IAS2026 summit Day 2.", "status": "excluded", "reason": "Upper-midcap (Rs 6,565-7,347 Cr), confirmed", "doc": "docs/Jeena Sikho Lifecare (EXCLUDED - large-cap).docx"},
+        {"name": "Technocraft Industries (India) Ltd", "notes_from_sheet": "Case study under 'Saptanga' framework, IAS2026 summit Day 2.", "status": "excluded", "reason": "Upper-midcap (Rs 6,538-7,254 Cr), confirmed", "doc": "docs/Technocraft Industries (EXCLUDED - large-cap).docx"},
+        {"name": "Thermax Ltd", "notes_from_sheet": "IAS2026 summit Day 2.", "status": "excluded", "reason": "Large-cap (Rs 47,710 Cr), confirmed", "doc": "docs/Thermax (EXCLUDED - large-cap).docx"},
+        {"name": "GMM Pfaudler Ltd", "notes_from_sheet": "IAS2026 summit Day 2.", "status": "excluded", "reason": "Lower-midcap (Rs 4,512-4,554 Cr), -20.5% 1yr, thin margins", "doc": "docs/GMM Pfaudler (EXCLUDED - large-cap).docx"},
+        {"name": "MV Electrosystems Ltd (MVEL)", "notes_from_sheet": "IAS2026 summit Day 2.", "status": "done", "doc": "docs/MV Electrosystems.docx", "flag_result": "High-risk early-stage order-book bet - currently loss-making despite Rs 921Cr order book"},
+        {"name": "Amrutanjan Health Care Ltd", "notes_from_sheet": "Final presentation of Day 2, IAS2026 summit.", "status": "done", "doc": "docs/Amrutanjan.docx"},
+        {"name": "Standard Glass Lining Technology Ltd", "notes_from_sheet": "Curator has invested (originally pharma-angle thesis), data-center exposure an unexpected positive (IAS2026 curator).", "status": "excluded", "reason": "Borderline size (Rs 3,709-4,121 Cr) - excluded for consistency; genuine curator conviction worth a second look if cutoff revisited", "doc": "docs/Standard Glass Lining (EXCLUDED - borderline size).docx"},
+        {"name": "Aether Industries Ltd", "notes_from_sheet": "Mentioned alongside Concord Biotech in recent reply context (IAS2026 curator).", "status": "excluded", "reason": "Large-cap (Rs 21,559 Cr), confirmed", "doc": "docs/Aether Industries (EXCLUDED - large-cap).docx"},
+        {"name": "Triveni (entity unclear - Triveni Engineering & Industries or Triveni Turbine)", "notes_from_sheet": "Pattern observation, demerger/value-unlock theme noted (IAS2026 curator).", "status": "done", "doc": "docs/Triveni (disambiguated - watch TPTL spinoff).docx", "flag_result": "Disambiguated - both existing entities too large; real opportunity is NEW spin-off Triveni Power Transmission Ltd, not yet independently listed"},
+        {"name": "India Glycols Ltd", "notes_from_sheet": "Pattern observation, demerger/value-unlock theme noted (IAS2026 curator).", "status": "excluded", "reason": "Upper-midcap (Rs 6,665-7,245 Cr), weak ROE", "doc": "docs/India Glycols (EXCLUDED - large-cap).docx"},
+        {"name": "Piccadily Agro Industries Ltd", "notes_from_sheet": "Pattern observation, demerger/value-unlock theme noted (IAS2026 curator).", "status": "excluded", "reason": "Upper-midcap (Rs 7,671 Cr) - too large despite excellent growth momentum", "doc": "docs/Piccadily Agro (EXCLUDED - large-cap).docx"}
+      ]
+    }
+  ],
+  "scoring_framework_draft": {
+    "note": "To be finalized and applied consistently in the final ranking doc after all batches complete.",
+    "dimensions": [
+      "Fundamental momentum (revenue/PAT/EPS growth trajectory, margin trend, ROCE/ROE)",
+      "Valuation runway (current P/E, P/B, EV/EBITDA vs history and sector; room for re-rating without heroic assumptions)",
+      "Market cap headroom (must be genuinely micro/small-cap today - a stock already at large-cap size structurally cannot 10x in 2-3 years without an implausible re-rating)",
+      "Technical posture (Weekly/Monthly MACD + Bollinger Band trend, momentum, and position within bands)",
+      "Catalyst clarity (specific, verifiable near-term triggers: capacity expansion, new contracts, demerger, margin inflection, regulatory approval)",
+      "Quality/governance screen (promoter holding trend, red flags, SEBI/regulatory issues, auditor changes, related-party concerns)",
+      "Liquidity/float (avoid illiquid SME-platform or thinly-traded names where a real position can't be built/exited)",
+      "Conviction/sentiment signal from sources (explicit 'invested' statements, engagement level, but weighted lower than hard fundamentals - forum enthusiasm is not proof)"
+    ]
+  }
+}

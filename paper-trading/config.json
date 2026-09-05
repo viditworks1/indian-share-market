@@ -1,0 +1,51 @@
+{
+  "_readme": "Config for paper-trading/scripts/refresh.py (the daily engine). Edit the composite_universe / weights / tier maps here rather than in code. Keep symbols/slugs in sync with docs/FINAL_PORTFOLIO_RECOMMENDATION.md when the recommendation adds a name.",
+  "_composite_v2_note": "2026-09-05: replaced the 4-factor (gap/conviction/fundamental/technical) composite with a 2-factor one (master/technical). master_score (valuepickr-screen/scripts/MASTER_SCORE_METHODOLOGY.md) already IS conviction+quality+gap+consistency+asymmetry renormalized -- keeping gap/conviction/fundamental as separate weighted composite inputs alongside it would double-count them. They're still computed and shown in the dashboard for context, just no longer weighted into `composite`. Technical is now itself weekly+monthly (technical_weights below).",
+  "capital": 100000,
+  "ema_weeks": 30,
+  "ema_months": 10,
+  "composite_weights": { "master": 0.75, "technical": 0.25 },
+  "technical_weights": { "weekly": 0.6, "monthly": 0.4 },
+  "concentrated_rank_weights_by_slot": [25, 20, 20, 17, 13],
+  "gap_not_assessed_score": 45,
+  "master_not_assessed_score": 50,
+  "names": {
+    "Venus Remedies":              { "symbol": "VENUSREM.NS",  "slug": "venus-remedies" },
+    "Novartis India":              { "symbol": "NOVARTIND.NS", "slug": "novartis-india-ltd" },
+    "Asahi Songwon Colors":        { "symbol": "ASAHISONG.NS", "slug": "asahi-songwon-colors-ltd" },
+    "GPT Healthcare":              { "symbol": "GPTHEALTH.NS", "slug": "gpt-healthcare-ltd" },
+    "Yash Highvoltage":            { "symbol": "YASHHV.BO",    "slug": "yash-highvoltage" },
+    "Macpower CNC Machines":       { "symbol": "MACPOWER.NS",  "slug": "macpower-cnc-machines-manufacturing-a-strong-growth" },
+    "Dynamic Cables":              { "symbol": "DYNAMIC.NS",   "slug": "dynamic-cables" },
+    "Haldyn Glass":                { "symbol": "HALDYNGL.BO",  "slug": "haldyn-glass-ltd" },
+    "Bansal Roofing Products":     { "symbol": "BRPL.BO",      "slug": "bansal-roofing-products-ltd" },
+    "Aeroflex Industries":         { "symbol": "AEROFLEX.NS",  "slug": "aeroflex-industries" },
+    "Entero Healthcare Solutions": { "symbol": "ENTERO.NS",    "slug": "entero-healthcare-solutions" },
+    "L. T. Elevators":             { "symbol": "LTELEVATOR.BO","slug": "l-t-elevators-can-they-lift-investors" },
+    "RNIT AI Solutions":           { "symbol": "RNITAI.BO",    "slug": "rnit-ai-solutions-ltd" },
+    "HBL Engineering":             { "symbol": "HBLENGINE.NS", "slug": "hbl-engineering-booting" },
+    "E2E Networks":                { "symbol": "E2E.NS",       "slug": "e2e-networks" }
+  },
+  "composite_universe": [
+    "Venus Remedies", "Novartis India", "Asahi Songwon Colors", "GPT Healthcare",
+    "Yash Highvoltage", "Macpower CNC Machines", "Dynamic Cables", "Haldyn Glass",
+    "Bansal Roofing Products", "Aeroflex Industries", "Entero Healthcare Solutions", "L. T. Elevators"
+  ],
+  "hard_excluded": ["RNIT AI Solutions", "E2E Networks", "HBL Engineering"],
+  "fundamental_tier_scores": {
+    "vp_open_screen": { "tierA": 90, "tierB": 70, "tierC": 52, "highCaution": 22, "avoid": 0, "exclude": 0 },
+    "curated_108_screen": { "tierA": 88, "tierB": 66, "tierC": 48, "avoid": 0 },
+    "unlisted": 55
+  },
+  "red_flag_penalty": { "HIGH": 45, "HIGH CAUTION": 45, "MODERATE": 20, "MEDIUM": 20 },
+  "technical": { "ext_cushion_knee_pct": 8, "ext_decay_per_pct": 1.8, "fresh_cross_lookback_weeks": 8, "fresh_cross_bonus": 12, "overextended_pct": 45, "overextended_penalty": 20, "base_floor": 8 },
+  "_technical_monthly_note": "Softer, wider thresholds than weekly on purpose -- a 10-month EMA is a slower regime filter (Faber/GTAA-style), not a trade trigger. Never disqualifies from the pool the way a weekly EMA break does; only shifts the blended technical score. base_floor here is a genuine minimum score, not a gate.",
+  "technical_monthly": { "ext_cushion_knee_pct": 15, "ext_decay_per_pct": 1.0, "fresh_cross_lookback_months": 3, "fresh_cross_bonus": 10, "overextended_pct": 70, "overextended_penalty": 15, "base_floor": 15 },
+  "data_files": {
+    "conviction": "valuepickr-screen/data/conviction-scores.json",
+    "expectation_gap": "valuepickr-screen/data/expectation-gap-scores.json",
+    "master": "valuepickr-screen/data/master-scores.json",
+    "vp_open_screen_ranking": "valuepickr-screen/data/screen-ranking.json",
+    "curated_108_ranking": "research/scripts/data/final-ranking.json"
+  }
+}

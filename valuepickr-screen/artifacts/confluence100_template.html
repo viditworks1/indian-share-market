@@ -1,0 +1,366 @@
+<title>Confluence 100</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ink:#141B2E;
+  --ink-soft:#3D4658;
+  --paper:#F1F3F1;
+  --surface:#FFFFFF;
+  --line:#D9DDD8;
+  --accent:#0F6B5C;
+  --accent-soft:#DCEBE6;
+  --brass:#9C7A22;
+  --brass-soft:#F1E7CB;
+  --risk:#A3402F;
+  --risk-soft:#F3DFD9;
+  --muted:#7C8494;
+  --muted-soft:#E7E9E5;
+  --shadow: 0 1px 2px rgba(20,27,46,.06), 0 8px 24px -12px rgba(20,27,46,.18);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ink:#E7E9EC;
+    --ink-soft:#AEB6C4;
+    --paper:#12161F;
+    --surface:#181D28;
+    --line:#2B3140;
+    --accent:#3FBFA6;
+    --accent-soft:#173B34;
+    --brass:#D9B75B;
+    --brass-soft:#332A12;
+    --risk:#E2837A;
+    --risk-soft:#3A211D;
+    --muted:#8A93A3;
+    --muted-soft:#232838;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.5);
+  }
+}
+:root[data-theme="dark"]{
+  --ink:#E7E9EC;
+  --ink-soft:#AEB6C4;
+  --paper:#12161F;
+  --surface:#181D28;
+  --line:#2B3140;
+  --accent:#3FBFA6;
+  --accent-soft:#173B34;
+  --brass:#D9B75B;
+  --brass-soft:#332A12;
+  --risk:#E2837A;
+  --risk-soft:#3A211D;
+  --muted:#8A93A3;
+  --muted-soft:#232838;
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.5);
+}
+*{box-sizing:border-box;}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"IBM Plex Sans",system-ui,sans-serif;
+  font-size:14px; line-height:1.5;
+}
+.wrap{max-width:1180px;margin:0 auto;padding:40px 24px 80px;}
+.masthead{display:flex;flex-direction:column;gap:10px;margin-bottom:28px;}
+.eyebrow{
+  font-family:"IBM Plex Mono",monospace; font-size:11.5px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--accent); font-weight:500;
+}
+h1{
+  font-family:"Newsreader",Georgia,serif; font-weight:600; font-style:italic;
+  font-size:clamp(32px,4.5vw,46px); line-height:1.05; margin:0; text-wrap:balance;
+  letter-spacing:-0.01em;
+}
+.dek{
+  max-width:66ch; color:var(--ink-soft); font-size:15px; line-height:1.6; margin:2px 0 0;
+}
+.dek b{color:var(--ink); font-weight:600;}
+
+.stats{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:1px; background:var(--line); border:1px solid var(--line); border-radius:10px;
+  overflow:hidden; margin:26px 0 22px; box-shadow:var(--shadow);
+}
+.stat{background:var(--surface); padding:16px 18px;}
+.stat .n{
+  font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
+  font-size:26px; font-weight:600; color:var(--ink);
+}
+.stat .l{font-size:11.5px; color:var(--muted); margin-top:3px; letter-spacing:.02em;}
+
+details.method{
+  background:var(--surface); border:1px solid var(--line); border-radius:10px;
+  margin-bottom:22px; box-shadow:var(--shadow);
+}
+details.method summary{
+  padding:13px 18px; cursor:pointer; font-weight:500; font-size:13.5px;
+  list-style:none; display:flex; align-items:center; gap:8px; color:var(--ink);
+}
+details.method summary::-webkit-details-marker{display:none;}
+details.method summary::before{
+  content:"▸"; color:var(--accent); font-size:11px; transition:transform .15s;
+}
+details.method[open] summary::before{transform:rotate(90deg);}
+.method-body{padding:0 18px 18px; color:var(--ink-soft); font-size:13px; line-height:1.7;}
+.method-body p{margin:0 0 10px;}
+.method-body code{
+  font-family:"IBM Plex Mono",monospace; background:var(--muted-soft); padding:1px 5px;
+  border-radius:4px; font-size:12px; color:var(--ink);
+}
+.method-body .warn{color:var(--risk); font-weight:500;}
+
+.controls{
+  display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-bottom:16px;
+}
+#search{
+  flex:1 1 220px; padding:9px 13px; border:1px solid var(--line); border-radius:8px;
+  background:var(--surface); color:var(--ink); font-family:inherit; font-size:13.5px;
+}
+#search:focus{outline:2px solid var(--accent); outline-offset:1px;}
+.chip{
+  padding:7px 13px; border:1px solid var(--line); border-radius:999px; background:var(--surface);
+  color:var(--ink-soft); font-size:12.5px; cursor:pointer; font-weight:500; white-space:nowrap;
+  transition:background .12s,color .12s,border-color .12s;
+}
+.chip:hover{border-color:var(--accent);}
+.chip.active{background:var(--ink); color:var(--paper); border-color:var(--ink);}
+.chip .dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:6px;position:relative;top:-1px;}
+
+.tablewrap{
+  overflow-x:auto; border:1px solid var(--line); border-radius:10px; background:var(--surface);
+  box-shadow:var(--shadow);
+}
+table{width:100%; border-collapse:collapse; min-width:920px;}
+thead th{
+  position:sticky; top:0; background:var(--surface); z-index:2;
+  text-align:left; font-size:11px; letter-spacing:.06em; text-transform:uppercase;
+  color:var(--muted); font-weight:600; padding:11px 12px; border-bottom:1px solid var(--line);
+  cursor:pointer; user-select:none; white-space:nowrap;
+}
+thead th:hover{color:var(--ink);}
+thead th.num{text-align:right;}
+thead th .arrow{opacity:.4; font-size:10px; margin-left:3px;}
+tbody tr{border-bottom:1px solid var(--line); cursor:pointer;}
+tbody tr:hover{background:var(--muted-soft);}
+tbody tr.expanded{background:var(--accent-soft);}
+td{padding:10px 12px; vertical-align:middle;}
+td.num{text-align:right; font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; font-size:13px;}
+.rank{
+  font-family:"IBM Plex Mono",monospace; color:var(--muted); font-size:12.5px; width:34px;
+}
+.namecell{display:flex; align-items:center; gap:8px; min-width:180px;}
+.nm{font-weight:500; color:var(--ink);}
+.badge-hold{
+  font-family:"IBM Plex Mono",monospace; font-size:9.5px; letter-spacing:.03em;
+  background:var(--brass-soft); color:var(--brass); border:1px solid var(--brass);
+  padding:1px 5px; border-radius:4px; white-space:nowrap;
+}
+.conf-pill{
+  display:inline-flex; align-items:center; gap:6px; font-family:"IBM Plex Mono",monospace;
+  font-weight:600; font-size:13px; padding:3px 9px; border-radius:999px; white-space:nowrap;
+}
+.conf-hi{background:var(--accent-soft); color:var(--accent);}
+.conf-mid{background:var(--brass-soft); color:var(--brass);}
+.conf-lo{background:var(--muted-soft); color:var(--muted);}
+.tech-pill{
+  display:inline-flex; align-items:center; gap:5px; font-size:12px; padding:3px 8px;
+  border-radius:6px; white-space:nowrap; font-family:"IBM Plex Mono",monospace;
+}
+.tech-up{background:var(--accent-soft); color:var(--accent);}
+.tech-down{background:var(--risk-soft); color:var(--risk);}
+.tech-na{background:var(--muted-soft); color:var(--muted);}
+.cov{display:inline-flex; gap:2px; vertical-align:middle;}
+.cov i{width:5px;height:5px;border-radius:50%;background:var(--line);display:inline-block;}
+.cov i.on{background:var(--accent);}
+.detail-row td{padding:0; border-bottom:1px solid var(--line);}
+.detail-inner{
+  padding:16px 18px 20px 46px; background:var(--paper); display:grid;
+  grid-template-columns:1.6fr 1fr; gap:20px 28px;
+}
+.detail-inner .tagline{
+  grid-column:1/-1; font-family:"Newsreader",serif; font-style:italic; font-size:15px;
+  color:var(--ink); line-height:1.55; margin:0 0 4px;
+}
+.scoregrid{display:grid; grid-template-columns:repeat(auto-fill,minmax(96px,1fr)); gap:10px;}
+.scoregrid div{background:var(--surface); border:1px solid var(--line); border-radius:7px; padding:7px 9px;}
+.scoregrid .v{font-family:"IBM Plex Mono",monospace; font-weight:600; font-size:15px;}
+.scoregrid .k{font-size:10px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; margin-top:1px;}
+.meta{font-size:12.5px; color:var(--ink-soft); line-height:1.8;}
+.meta b{color:var(--ink); font-weight:500;}
+
+.count-note{font-size:12px; color:var(--muted); margin:10px 2px 0;}
+footer{margin-top:34px; padding-top:18px; border-top:1px solid var(--line); font-size:12px; color:var(--muted); line-height:1.7;}
+footer a{color:var(--accent);}
+::selection{background:var(--accent-soft);}
+</style>
+
+<div class="wrap">
+  <div class="masthead">
+    <div class="eyebrow">ValuePickr open screen · portfolio-rs1l-revision universe · __ASOF_DATE__</div>
+    <h1>Confluence 100</h1>
+    <p class="dek">Every stock the ValuePickr-forum research pipeline has actually deepdived, ranked by where fundamentals and price agree. <b>Confidence %</b> blends the <b>master score</b> (conviction · quality · expectation-gap · asymmetry) with a live 30-week EMA read, then discounts for how many of those five components a given stock actually has.</p>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <details class="method">
+    <summary>How the ranking and confidence % are built</summary>
+    <div class="method-body">
+      <p><b style="color:var(--ink)">Universe.</b> <span id="m-total">616</span> stocks have been deepdived by the ValuePickr open-screen pipeline. <span id="m-eligible">164</span> clear the bar this list draws from: <code>thesis_fit</code> is <code>10x-in-2-3-years</code> or <code>100x-in-10-years</code>, and <code>red_flag_tier</code> is clear (HIGH CAUTION / AVOID / EXCLUDE names are hard-dropped, not sized down). This is a <em>different, larger</em> universe than the live Rs&nbsp;1L portfolio — only a handful of names overlap (marked <span class="badge-hold">HOLD</span>).</p>
+      <p><b style="color:var(--ink)">Master score</b> is this pipeline's own composite — <code>0.25×conviction + 0.25×quality + 0.20×expectation-gap + 0.15×consistency + 0.15×asymmetry</code>, renormalized over whichever components exist for that stock (see <code>MASTER_SCORE_METHODOLOGY.md</code>). <span class="warn">Coverage is thin almost everywhere</span>: only <span id="m-fullcov">12</span> of the eligible names have 4-5 of those components computed — the rest are still mostly riding on <code>conviction_score</code> alone, with the deepdive's own qualitative <code>four_box</code> read (tailwind / TAM / moat / valuation, scored 0-5) blended in to partly compensate, weighted more heavily the thinner the coverage.</p>
+      <p><b style="color:var(--ink)">Technical overlay.</b> For each of the top candidates a live weekly chart was pulled (Yahoo Finance, 3-year history) and a 30-week EMA computed — the same discipline the live portfolio runs on. Sitting tight above the line (≤15%) or crossing it in the last 3 weeks adds to confidence; sitting below it cuts hard (a stock can be fundamentally excellent and still fail the entry-timing filter); very extended (&gt;45% above) is discounted too, since that's poor risk-reward to buy into, not a red flag on the business. Names that couldn't be ticker-matched automatically carry a small penalty for that data gap rather than a real technical read.</p>
+      <p><b style="color:var(--ink)">Confidence % is a model output, not a probability of return.</b> Treat ≥70 as "worth a full-position look," 50-69 as "real but thin, verify before sizing," and &lt;50 as "on the radar, not yet actionable." No stock here was sourced by open-ended web search — every name already existed in the ValuePickr deepdive database. Refreshed weekly as a side job of <code>vpscreen-rerank</code>.</p>
+    </div>
+  </details>
+
+  <div class="controls">
+    <input id="search" type="text" placeholder="Search by name or sector…">
+    <button class="chip active" data-filter="all"><span class="dot" style="background:var(--ink-soft)"></span>All 100</button>
+    <button class="chip" data-filter="hi"><span class="dot" style="background:var(--accent)"></span>High ≥70</button>
+    <button class="chip" data-filter="mid"><span class="dot" style="background:var(--brass)"></span>Moderate 50–69</button>
+    <button class="chip" data-filter="lo"><span class="dot" style="background:var(--muted)"></span>Speculative &lt;50</button>
+    <button class="chip" data-filter="hold"><span class="dot" style="background:var(--brass)"></span>In current portfolio</button>
+  </div>
+
+  <div class="tablewrap">
+    <table>
+      <thead>
+        <tr>
+          <th class="num" data-sort="rank">#</th>
+          <th data-sort="name">Stock</th>
+          <th class="num" data-sort="confidence">Confidence<span class="arrow">▾</span></th>
+          <th class="num" data-sort="master_score">Master</th>
+          <th>Technical (30W EMA)</th>
+          <th>Coverage</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+  <p class="count-note" id="countnote"></p>
+
+  <footer>
+    Sources: <code>valuepickr-screen/data/master-scores.json</code> (composite, refreshed weekly) cross-checked against <code>quality-scores.json</code>, <code>expectation-gap-scores.json</code>, <code>screen-ranking.json</code>, and each stock's own deepdive record for tagline / four-box / market-cap tier; live 30-week EMA computed from Yahoo Finance weekly closes at compile time. Not investment advice — a research model, re-verify before acting. Click any row for the full score breakdown.
+  </footer>
+</div>
+
+<script id="rows-data" type="application/json">__ROWS_JSON__</script>
+<script id="stats-data" type="application/json">__STATS_JSON__</script>
+<script>
+const ROWS = JSON.parse(document.getElementById('rows-data').textContent);
+const STATS = JSON.parse(document.getElementById('stats-data').textContent);
+
+function confClass(c){ return c>=70?'conf-hi':c>=50?'conf-mid':'conf-lo'; }
+function techInfo(t){
+  if(t.startsWith('Above')) return {cls:'tech-up', label:t.replace('Above 30W-EMA','↑')};
+  if(t.startsWith('Below')) return {cls:'tech-down', label:t.replace('Below 30W-EMA','↓')};
+  return {cls:'tech-na', label:'not resolved'};
+}
+function covDots(r){
+  const present = [r.conviction_score, r.quality_score, r.expectation_gap_score, r.asymmetry_score].map(v=>v!==null && v!==undefined);
+  return present.map(p=>`<i class="${p?'on':''}"></i>`).join('');
+}
+function fmt(v, d=1){ return (v===null||v===undefined) ? '—' : Number(v).toFixed(d); }
+
+let sortKey='rank', sortDir=1, filter='all', query='';
+
+function apply(){
+  let rows = ROWS.filter(r=>{
+    if(filter==='hi' && r.confidence<70) return false;
+    if(filter==='mid' && !(r.confidence>=50 && r.confidence<70)) return false;
+    if(filter==='lo' && r.confidence>=50) return false;
+    if(filter==='hold' && !r.in_current_portfolio) return false;
+    if(query){
+      const hay = (r.name+' '+r.tagline).toLowerCase();
+      if(!hay.includes(query)) return false;
+    }
+    return true;
+  });
+  rows.sort((a,b)=> (a[sortKey]<b[sortKey]?-1:a[sortKey]>b[sortKey]?1:0) * sortDir);
+  render(rows);
+}
+
+function render(rows){
+  const tb = document.getElementById('tbody');
+  tb.innerHTML='';
+  document.getElementById('countnote').textContent = `Showing ${rows.length} of ${ROWS.length}.`;
+  rows.forEach(r=>{
+    const tr = document.createElement('tr');
+    const ti = techInfo(r.technical);
+    tr.innerHTML = `
+      <td class="rank">${r.rank}</td>
+      <td><div class="namecell"><span class="nm">${r.name}</span>${r.in_current_portfolio?'<span class="badge-hold">HOLD</span>':''}</div></td>
+      <td class="num"><span class="conf-pill ${confClass(r.confidence)}">${r.confidence}%</span></td>
+      <td class="num">${fmt(r.master_score)}</td>
+      <td><span class="tech-pill ${ti.cls}">${ti.label}</span></td>
+      <td><span class="cov">${covDots(r)}</span></td>
+      <td style="color:var(--muted);font-size:11px;">▾</td>
+    `;
+    tr.addEventListener('click', ()=>{
+      const next = tr.nextElementSibling;
+      if(next && next.classList.contains('detail-row')){ next.remove(); tr.classList.remove('expanded'); return; }
+      document.querySelectorAll('tr.expanded').forEach(e=>{e.classList.remove('expanded'); if(e.nextElementSibling && e.nextElementSibling.classList.contains('detail-row')) e.nextElementSibling.remove();});
+      tr.classList.add('expanded');
+      const dr = document.createElement('tr');
+      dr.className='detail-row';
+      dr.innerHTML = `<td colspan="7"><div class="detail-inner">
+        <p class="tagline">${r.tagline}${r.tagline.length>=155?'…':''}</p>
+        <div class="scoregrid">
+          <div><div class="v">${fmt(r.conviction_score,0)}</div><div class="k">Conviction</div></div>
+          <div><div class="v">${fmt(r.quality_score,0)}</div><div class="k">Quality</div></div>
+          <div><div class="v">${fmt(r.expectation_gap_score,0)}</div><div class="k">Exp-gap</div></div>
+          <div><div class="v">${fmt(r.asymmetry_score,0)}</div><div class="k">Asymmetry</div></div>
+          <div><div class="v">${fmt(r.four_box_score,1)}/5</div><div class="k">Four-box</div></div>
+        </div>
+        <div class="meta">
+          <div><b>Conviction tier:</b> ${r.conviction_label}</div>
+          <div><b>Market cap:</b> ${r.market_cap_tier||'—'}</div>
+          <div><b>Data coverage:</b> ${Math.round(r.weight_coverage*100)}% of composite components present</div>
+          <div><b>Technical:</b> ${r.technical}</div>
+        </div>
+      </div></td>`;
+      tr.after(dr);
+    });
+    tb.appendChild(tr);
+  });
+}
+
+document.querySelectorAll('thead th[data-sort]').forEach(th=>{
+  th.addEventListener('click', ()=>{
+    const key = th.dataset.sort;
+    if(sortKey===key) sortDir*=-1; else {sortKey=key; sortDir = key==='name'?1:-1;}
+    apply();
+  });
+});
+document.querySelectorAll('.chip').forEach(c=>{
+  c.addEventListener('click', ()=>{
+    document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));
+    c.classList.add('active');
+    filter = c.dataset.filter;
+    apply();
+  });
+});
+document.getElementById('search').addEventListener('input', e=>{
+  query = e.target.value.trim().toLowerCase();
+  apply();
+});
+
+function renderStats(){
+  const hi = ROWS.filter(r=>r.confidence>=70).length;
+  const mid = ROWS.filter(r=>r.confidence>=50 && r.confidence<70).length;
+  const lo = ROWS.filter(r=>r.confidence<50).length;
+  document.getElementById('m-total').textContent = STATS.total_deepdived;
+  document.getElementById('m-eligible').textContent = STATS.eligible_count;
+  document.getElementById('m-fullcov').textContent = STATS.full_coverage_count;
+  const stats = [
+    [String(STATS.total_deepdived),'stocks deepdived'],
+    [String(STATS.eligible_count),'clear thesis-fit + no red flag'],
+    [String(STATS.full_coverage_count),'fully cross-scored (4-5 factors)'],
+    [String(hi),'high-confidence (≥70%)'],
+    [String(mid),'moderate (50–69%)'],
+    [String(lo),'speculative (<50%)'],
+  ];
+  document.getElementById('stats').innerHTML = stats.map(([n,l])=>`<div class="stat"><div class="n">${n}</div><div class="l">${l}</div></div>`).join('');
+}
+
+renderStats();
+apply();
+</script>

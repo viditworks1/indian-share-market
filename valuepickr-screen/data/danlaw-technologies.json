@@ -1,0 +1,53 @@
+{
+  "name": "Danlaw Technologies India Ltd",
+  "tagline": "Hyderabad-based automotive embedded software/telematics subsidiary of US-based Danlaw Inc, showing strong recent numbers (revenue +20.75%, PAT +112.95% YoY) but a near-silent VP thread flags real opacity: no clear articulation of the parent-subsidiary relationship, no proactive investor communication, and an unclear TAM beyond FASTags",
+  "business_overview": "Incorporated 1992, Danlaw Technologies India provides engineering and software development consulting services and industrial electronics to the automotive and aerospace industries - connected-car/telematics, embedded/V2X testing software. ISO 9001:2015 and IATF 16949 certified. Subsidiary of Danlaw Inc. (US, founded 1984). Manufacturing facility in Goa, HQ Hyderabad. (Source: external-lead, @ankitbahuguna84, untrusted X triage, first_seen 2026-09-04 - flagged for a strong price run.)",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 712 Cr"],
+    ["52-week range", "Rs 428 - Rs 1,500"],
+    ["ROCE / ROE", "27.2% / 26.1%"],
+    ["Stock P/E", "~28.0x"],
+    ["Revenue (TTM)", "~Rs 244 Cr; 9M-FY26 net sales Rs 207.18 Cr (+20.75% YoY)"],
+    ["Profit growth", "Operating profit +54.81% YoY; net profit +112.95% YoY"],
+    ["Debt", "Debt/EBITDA ~0.76x - manageable"]
+  ],
+  "fundamentals_narrative": "Genuinely strong recent numbers - revenue +20.75%, operating profit +54.81%, net profit +112.95% YoY - on a clean-ish balance sheet (Debt/EBITDA 0.76x). But the community's only substantive thread (4 posts total, all Dec 2024) raised real, unaddressed governance-transparency questions: an 'ordinary and almost non-communicative' annual report for a supposedly modern-tech company, unclear structural/commercial relationship to the US parent Danlaw Inc (related-party/transfer-pricing risk by implication), and an unresolved TAM question beyond FASTag products given large in-house competitors (Tata group entities) serve similar OEM needs.",
+  "technical_read": "Not pulled - thin community coverage argued against escalating to technicals.",
+  "sentiment_summary": "Only 4 posts total, all from Dec 2024, no activity since. A thread starter's business overview drew two substantive replies raising opacity concerns, then went silent.",
+  "community_signal": "Vishal_Vijay (untracked, long-time tracker) explicitly named the concerns holding him back from 'full heartedly committing': non-communicative AR, unclear Danlaw Inc relationship, uncertain TAM beyond FASTags given large-company competition. manish962 (trusted) flagged 'detailed risk analysis is missing' - no directional call from any trusted user, only caution.",
+  "trusted_signals": [],
+  "bse_notes": "No SEBI or fraud action found. No promoter-holding or auditor-resignation flags surfaced in the (thin) available record.",
+  "bull_case": [
+    "Strong recent quarter: revenue +20.75%, net profit +112.95% YoY",
+    "Manageable leverage (Debt/EBITDA 0.76x), solid ROCE/ROE (27.2%/26.1%)",
+    "Automotive V2X/connected-car testing is a genuine multi-year global tailwind",
+    "IATF 16949 certification signals real automotive-industry credibility"
+  ],
+  "bear_case": [
+    "Community-flagged opacity: non-communicative annual report, no proactive investor engagement",
+    "Unclear commercial/structural relationship to US parent Danlaw Inc - related-party risk by implication, never addressed on the thread",
+    "TAM beyond FASTag products is contested; large in-house competitors (Tata group entities) serve similar OEM segments",
+    "Already ~28x P/E - not cheap for the opacity risk carried",
+    "Thread has only 4 posts, none since Dec 2024 - essentially no community scrutiny"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 712 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Strong recent numbers on a subsidiary structure that raises real, unresolved transparency questions - four-box score of 2.0 with no clean exception (valuation isn't cheap, and the opacity concern argues against stretching for the growth carve-out) -> thesis_fit neither, conviction Low-Medium.",
+  "verdict_reasoning": [
+    "four_box: tailwind weak (real V2X/connected-car theme but not articulated by the company itself), tam weak (unclear scope beyond FASTag, contested by a long-time tracker), moat weak (unclear differentiation vs Tata-group in-house automotive-software capability, and subsidiary-of-US-parent structure raises RPT/transfer-pricing ambiguity rather than a moat), valuation weak (~28x P/E is not cheap given the opacity) -> score 2.0",
+    "Score in the 2.0-2.5 band would allow an exception only with valuation=yes or un-ignorable growth or a large-cap-inflection - none cleanly met given the unresolved governance-transparency concern sits squarely against stretching the case -> thesis_fit 'neither'",
+    "No live theme match in active_themes.json - 'US + Indian software/product-SaaS turn' theme is enterprise-SaaS/ARR-shaped, not automotive-embedded-services; no value_chain block written",
+    "No red flag (nothing meets AVOID/EXCLUDE/HIGH CAUTION bar), but the parent-subsidiary opacity is a named concern worth tracking",
+    "No community-thread cross-check possible beyond 4 posts. Source is untrusted external-lead (X triage) - no conviction floor applies. Re-check trigger: any AR/investor-presentation clarity on the Danlaw Inc relationship and non-FASTag TAM"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "weak",
+    "valuation": "weak",
+    "score": 2.0,
+    "note": "Strong recent numbers, but unclear subsidiary relationship to US parent and unresolved TAM-beyond-FASTag question keep every box at weak; ~28x P/E isn't cheap enough to offset the opacity"
+  }
+}

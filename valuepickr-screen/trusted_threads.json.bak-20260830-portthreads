@@ -1,0 +1,386 @@
+{
+  "note": "Registry of ValuePickr portfolio/journal threads - individual investors' running threads (not single-company threads) where the same small group of engaged posters discuss multiple stocks with real conviction over time. Tracked separately from the main company-thread pipeline because these are read incrementally (many new posts per visit, not one) and because a 'user-trusted' author's high-conviction call is weighted more heavily than an anonymous forum post. trust_level: 'user-trusted' = explicitly named by the user as heavily trusted; 'auto-discovered' = found via title-pattern search and gated on the author already having visible community reputation, lighter weight until proven.",
+  "threads": {
+    "yogeshs-blue-chip-10-portfolio": {
+      "topic_id": 7142,
+      "title": "Yogesh's blue chip 10 Portfolio",
+      "primary_author": "Yogesh_s",
+      "trust_level": "auto-discovered",
+      "added_date": "2026-08-25",
+      "added_reason": "Title-pattern search ('my portfolio thoughts'): like_count=2208, posts_count=408, participant_count=24 -> 5.41 likes/post >=3.0, participants>=15, posts>=20 - PASSES rate-based gate.",
+      "last_post_number_seen": 427,
+      "last_checked_date": "2026-08-26",
+      "backfill_complete": true,
+      "backfill_progress_post_number": null,
+      "backfill_note": "Not yet backfilled. Note: topic last_posted_at=2022-09-09 (already >365 days old at add-time), so the first backfill batch is expected to hit the 1-year depth cutoff immediately with little/no processing, similar to Chins'/Malhar's threads. | 2026-08-26: confirmed via topic JSON (408 in stream) + fetched most-recent 100 posts (post #324-427, dated 2018-11-21 to 2022-09-09) — entirely older than the 365-day cutoff (newest post in thread is 1447 days old). Nothing processed; backfill_progress_post_number left null. Marked complete per the 1-year-cutoff criterion — whole thread is stale, not missed."
+    },
+    "phreaks-thoughts-ideas-and-opinions": {
+      "topic_id": 180929,
+      "title": "Phreak's Thoughts, Ideas and Opinions",
+      "primary_author": "phreakv6",
+      "trust_level": "user-trusted",
+      "added_date": "2026-08-22",
+      "added_reason": "User explicitly named this thread and author as heavily trusted",
+      "last_post_number_seen": 329,
+      "last_checked_date": "2026-08-29",
+      "backfill_complete": true,
+      "backfill_note": "Full thread backfilled 2026-08-22 (298 of 324 posts, 26 deleted/whispers) - all of phreakv6's own posts read and cross-referenced against state.json. Historical positions (Ceinsys, Shaily, Wockhardt, Axiscades, Genesys, Garware, Sharda Motors, Shilchar, Apar, Hind Zinc/Silver/Gold, Ujjivan/Suryoday/CSL/Repco/AU/Capital SFB) noted as exited/reduced, not re-flagged as current conviction.",
+      "forward_check_note": "2026-08-29: 1 new visible post (#329) by Heavy_Luck (untracked) — a peer-comparison question to @phreakv6 asking whether Gufic is a better like-for-like comp than Sakar/Orchid for Venus Remedies. Not a conviction call, poster not trusted; reputation-only (love=0). No signals, no candidates."
+    },
+    "hitesh-portfolio": {
+      "topic_id": 658,
+      "title": "Hitesh portfolio",
+      "primary_author": "hitesh2710",
+      "trust_level": "user-trusted",
+      "added_date": "2026-08-22",
+      "added_reason": "Title-pattern search ('investment journey portfolio'): like_count=44077, participant_count=1305, reply_count=7631 - well above threshold (>=500 likes, >=20 participants) | Upgraded to user-trusted 2026-08-22: author hitesh2710 individually cleared reputation bar (178 love/5 posts)",
+      "last_post_number_seen": 8123,
+      "last_checked_date": "2026-08-29",
+      "backfill_complete": true,
+      "backfill_progress_post_number": 7661,
+      "backfill_note": " | 2026-08-24: backfill stopped here per new 1-year depth cutoff (user instruction) — post #7661 is dated 2024-03-10 (897 days old, well past the 365-day mark). Older posts in this thread deliberately left unread; not missed."
+    },
+    "vivek-gautam-portfolio": {
+      "topic_id": 675,
+      "title": "Vivek Gautam Portfolio",
+      "primary_author": "Vivek_6954",
+      "trust_level": "user-trusted",
+      "added_date": "2026-08-22",
+      "added_reason": "Title-pattern search ('investment journey portfolio'): like_count=2562, participant_count=261, reply_count=1186 - above threshold (>=500 likes, >=20 participants) | Upgraded to user-trusted 2026-08-22: author Vivek_6954 individually cleared reputation bar (22 love/11 posts)",
+      "last_post_number_seen": 1244,
+      "last_checked_date": "2026-08-26",
+      "backfill_complete": true,
+      "backfill_progress_post_number": 1034,
+      "backfill_note": "2026-08-25: batch posts #931-1033 fetched (all dated 2020-12-23 to 2021-08-17, 1810-2081 days old) — entirely older than the 365-day cutoff, none processed. Backfill marked complete; older history (pre-#1034) intentionally left unread, not missed."
+    },
+    "notes-on-investing-portfolio": {
+      "topic_id": 703,
+      "title": "Notes on investing & portfolio",
+      "primary_author": "rajpanda",
+      "trust_level": "user-trusted",
+      "added_date": "2026-08-22",
+      "added_reason": "Found via Step 3 own-thread search after rajpanda was auto-promoted to trusted_users.json (61 love/12 posts). Topic created-by rajpanda, 68 replies (>=20 threshold).",
+      "last_post_number_seen": 69,
+      "last_checked_date": "2026-08-29",
+      "backfill_complete": true,
+      "backfill_progress_post_number": 1,
+      "backfill_note": "Full thread backfilled 2026-08-22 (posts #1-#68, of 69 total). Thread dormant since 2015-07-02 (last_posted_at). rajpanda's stock mentions (CanFin Homes, Repco, GRUH, HDFC Bank, Kaveri, Astral, ITC, Page, Asian Paints, Lupin, Sun Pharma, Accelya, Atul Auto, Hawkins) logged to users.json high_conviction_calls as historical record only — no state.json candidates created or conviction bumps applied given 11+yr staleness and (for most names) out-of-project-scope mega-cap status, consistent with the immediately preceding run's treatment of this same thread's posts #55-69 as non-actionable general discussion."
+    },
+    "dinesh-sairams-portfolio-requesting-feedback": {
+      "topic_id": 15294,
+      "title": "Dinesh Sairam's Portfolio: Requesting Feedback",
+      "primary_author": "dineshssairam",
+      "trust_level": "user-trusted",
+      "added_date": "2026-08-22",
+      "added_reason": "Title-pattern search ('thoughts ideas opinions'): like_count=1699, participant_count=172 - above threshold (>=500 likes, >=20 participants)",
+      "last_post_number_seen": 685,
+      "last_checked_date": "2026-08-26",
+      "trust_level_note": "Upgraded from auto-discovered: dineshssairam independently cleared the trusted-user reputation bar (see trusted_users.json) as of 2026-08-22.",
+      "backfill_complete": true,
+      "backfill_progress_post_number": 568,
+      "backfill_note": "First backfill batch 2026-08-22: read posts #568-#670 (100 posts via stream, of 670 total in stream; topic last_posted_at 2022-03-14). Found dineshssairam's explicit repeated 'Portfolio (Ex-Cash)' disclosure (posts #635 and #655): Cupid, DHP India, Goodyear India, Heritage Foods, Kovai Medicals, Ion Exchange — all tagged very-high, 5 new candidates created + Kovai Medical Center and Hospital (existing untagged candidate) retagged. | 2026-08-25: batch posts #464-567 fetched (all dated 2020-04-27 to 2020-08-01, 2216-2312 days old) — entirely older than the 365-day cutoff, none processed. Backfill marked complete; older history (pre-#568) intentionally left unread, not missed."
+    },
+    "omkars-portfolio-analysis-and-discussion": {
+      "topic_id": 53748,
+      "title": "Omkar's Portfolio Analysis and Discussion",
+      "primary_author": "OmkarT",
+      "trust_level": "user-trusted",
+      "added_date": "2026-08-22",
+      "added_reason": "Title-pattern search ('thoughts ideas opinions'): like_count=869, participant_count=30 - above threshold (>=500 likes, >=20 participants)",
+      "last_post_number_seen": 464,
+      "last_checked_date": "2026-08-26",
+      "backfill_complete": true,
+      "backfill_progress_post_number": 364,
+      "trust_level_note": "Upgraded from auto-discovered: OmkarT independently cleared the trusted-user reputation bar (see trusted_users.json) as of 2026-08-22.",
+      "backfill_note": "Backfill batch 1 (2026-08-22): read posts #364-#464 (100 posts via stream, of 452 in stream; reached last_post_number_seen=464, i.e. thread top). Long-form multi-year investment-framework thread; extracted OmkarT (trusted, primary author) portfolio: 3 very-high (Suprajit Engineering >=20% stated weight; Ajanta Pharma 15-18.5% sustained 2nd-largest, already tagged elsewhere; Vinati Organics sustained buildup 2%->6% across 5 posts) and 8 high-tier (Kotak/ICICI/Bajaj Finserv/HDFC Bank as an explicitly non-differentiated equal-weight bank basket, HCL Tech explicitly low-conviction, Abbott India explicitly capped at 3-4%, Cera and Nesco explicit tracking positions). Non-trusted commenters (Mudit.Kushalvardhan, hardik_shah1 etc.) reputation-only, no candidates created from their mentions (Astral, Deepak Nitrite, Alkyl Amines, P.I. Industries, SRF are THEIR holdings, not OmkarT's). | 2026-08-25 (4th run today): fetched posts #261-363 (next 100 via stream) to continue from progress=364 — all dated 2022-05-28 to 2023-05-31 (452-1185 days old), entirely past the 365-day cutoff. Nothing processed; backfill_progress_post_number left at 364 (nothing lower actually read). Marked complete — older history (pre-#364) intentionally left unread, not missed."
+    },
+    "ranvirs-portfolio": {
+      "topic_id": 1237,
+      "title": "Ranvir's Portfolio",
+      "primary_author": "ranvir",
+      "trust_level": "user-trusted",
+      "added_date": "2026-08-22",
+      "added_reason": "Title-pattern search ('my portfolio thoughts'): like_count=4192, participant_count=177 - above threshold (>=500 likes, >=20 participants). Author ranvir already a trusted_users.json member (50 love/9 posts) - added directly as user-trusted, own thread not previously tracked.",
+      "last_post_number_seen": 1885,
+      "last_checked_date": "2026-08-29",
+      "backfill_complete": true,
+      "backfill_progress_post_number": 1580,
+      "backfill_note": "Backfill stopped 2026-08-24 per new 1-year depth cutoff (user instruction) — post #1580 is dated 2025-07-31 (389 days old, past the 365-day mark). Older posts in this thread deliberately left unread; not missed. Posts #1581 onward in this final batch (up to 2025-11-08, within the 1-year window) were still read/processed normally.",
+      "forward_check_note": "2026-08-25: 4 new posts (#1882-1885). ranvir posted concall-notes updates on Mahindra & Mahindra and Insecticides India (data-only, no primacy language, not qualifying); Prdnt_investor (trusted, elevated) gave a bullish opinion on Entero Healthcare (already-researched candidate) but without stated position/weight, so reputation-only, no signal logged; Chetanpinto (untracked) posted a thank-you, reputation-only. No new candidates or conviction bumps from this batch."
+    },
+    "the-anti-portfolio": {
+      "topic_id": 28464,
+      "title": "The Anti-Portfolio",
+      "primary_author": "vikas_sinha",
+      "trust_level": "user-trusted",
+      "added_date": "2026-08-22",
+      "added_reason": "Title-pattern search ('my portfolio thoughts'): like_count=2899, participant_count=181 - above threshold (>=500 likes, >=20 participants). Author vikas_sinha already a trusted_users.json member - added directly as user-trusted.",
+      "last_post_number_seen": 834,
+      "last_checked_date": "2026-08-26",
+      "backfill_complete": true,
+      "backfill_progress_post_number": 725,
+      "backfill_note": "Backfill batch 2026-08-25: fetched posts #674-#830 (150 ids from stream) to continue from prior progress=725. All posts at and below #725 are already >365 days old as of today (post #725 itself dated 2024-12-11; post #724 dated 2024-12-10) — the 1-year cutoff has caught up with this progress point purely due to elapsed time since it was set. No new posts processed (all fell outside the recency window); backfill_progress_post_number left at 725, marked complete since nothing below it can ever re-enter the window.",
+      "forward_check_note": "2026-08-26: 4 new posts (#831-834). mzambare (untracked) asked a risk question re: Welspun Corp; Rohan_Mishra (untracked, new user) questioned valuation then thanked for the reply — reputation-only, no signals. vikas_sinha (trusted, elevated) replied (post #833) explicitly framing Welspun Corp as a \"limited conviction trade\" with capped expectations — does not clear the qualifying-mention bar (no primacy/weight language) and Welspun Corp is already an excluded/N-A candidate (large-cap, thesis-fit neither) per analysis.md 2026-08-25, so no state change. No new candidates or conviction bumps from this batch."
+    },
+    "my-portfolio-homemaker": {
+      "topic_id": 20677,
+      "title": "My Portfolio_Homemaker",
+      "primary_author": null,
+      "trust_level": "auto-discovered",
+      "added_date": "2026-08-22",
+      "added_reason": "Title-pattern search ('portfolio review journey'): like_count=695, participant_count=101, reply_count=267 - above threshold (>=500 likes, >=20 participants)",
+      "last_post_number_seen": 398,
+      "last_checked_date": "2026-08-29",
+      "backfill_complete": true,
+      "backfill_progress_post_number": null,
+      "backfill_note": "2026-08-29: confirmed via topic JSON — thread last_posted_at is 2023-09-30 (~1064 days old), so every post in the thread is already older than the 365-day depth cutoff. Nothing fetched beyond the topic JSON, nothing processed; backfill_progress_post_number left null. Marked complete per the 1-year-cutoff criterion — the whole thread is stale, not missed."
+    },
+    "my-portfolio-updates-and-investment-journey": {
+      "topic_id": 109683,
+      "title": "My portfolio updates and investment journey",
+      "primary_author": "joinjp2003",
+      "trust_level": "user-trusted",
+      "added_date": "2026-08-22",
+      "added_reason": "Title-pattern search ('portfolio review journey'): like_count=995, participant_count=72, reply_count=165 - above threshold (>=500 likes, >=20 participants)",
+      "last_post_number_seen": 277,
+      "last_checked_date": "2026-08-26",
+      "backfill_complete": true,
+      "backfill_progress_post_number": 175,
+      "trust_level_note": "Upgraded from auto-discovered: joinjp2003 independently cleared the trusted-user reputation bar (see trusted_users.json) as of 2026-08-22.",
+      "backfill_note": "Backfill batch 1 (2026-08-22): read posts #175-#276 (100 posts via stream, of 268 in stream; last_post_number_seen 276). Full portfolio-update posts (#188, #207, #231, #243, #254, #274) yielded a large single-source signal set: 17 very-high (explicit \"real conviction bets\"/\"conviction bets\"/\"largest holding\"/\"largest positions\" language or repeat qualifying mentions) and ~30 high-tier stock mentions, incl. a full year-end 2024 portfolio table (~40 rows w/ %) in post #243. Star Health and Heritage Foods flagged very-high/high but subsequently confirmed exited within the same batch (posts #219-220) - logged to users.json history only, no state.json candidates touched for those two. | 2026-08-26: fetched posts #73-176 (100 via stream) to continue from progress=175. All dated 2024-01-16 to 2024-05-18 (830-953 days old), entirely past the 365-day cutoff. Nothing processed; backfill_progress_post_number left at 175. Marked complete - older history (pre-#175) intentionally left unread, not missed."
+    },
+    "vijaykiran-vk-long-term-portfolio-mistakes-learnings": {
+      "topic_id": 32422,
+      "title": "VijayKiran (VK) Long Term Portfolio Mistakes & Learnings",
+      "primary_author": "Vijay_Kiran",
+      "trust_level": "user-trusted",
+      "added_date": "2026-08-22",
+      "added_reason": "Found via Step 4 own-thread search after Vijay_Kiran was auto-promoted to trusted_users.json (15 love/6 posts). Topic reply_count=53 (>=20 threshold).",
+      "last_post_number_seen": 83,
+      "last_checked_date": "2026-08-26",
+      "backfill_complete": true,
+      "backfill_progress_post_number": 1,
+      "backfill_note": "Full thread backfilled 2026-08-22 in a single batch (83 of 83 posts — small thread, entire stream fetched at once). Vijay_Kiran's Top-20-Holdings disclosures (posts #4, #19, #71) mostly mega/large-cap (HDFC group, Reliance, ITC, TCS, Infosys, Asian Paints, Avenue Supermarts, Petronet LNG, Divi's Labs, Bajaj Finance, Nestle, Pidilite) plus 3 already-researched large-caps ruled thesis-fit=neither (PI Industries, Natco Pharma, Laurus Labs) — logged to users.json only, no candidates/bumps. Actionable smaller/mid-cap names: Relaxo Footwears (retagged very-high), Deepak Nitrite (retagged high), Uno Minda (upgraded high->very-high via corroboration), Amara Raja Batteries/Ajanta Pharma/Alembic Pharma (new candidates), Nikhil Adhesives (new candidate, no VP thread found). Butterfly Gandhimathi (post #73) skipped — delisted/merged into Crompton Greaves ~2018, predates this Dec-2022 mention."
+    },
+    "the-harsh-portfolio": {
+      "topic_id": 28522,
+      "title": "The harsh portfolio!",
+      "primary_author": "harsh.beria93",
+      "trust_level": "user-trusted",
+      "added_date": "2026-08-22",
+      "added_reason": "Title-pattern search ('thoughts ideas opinions'): like_count=4009, participant_count=216 - above threshold (>=500 likes, >=20 participants). Author harsh.beria93 already a trusted_users.json member (134 love/12 posts) - added directly as user-trusted, own thread not previously tracked.",
+      "last_post_number_seen": 639,
+      "last_checked_date": "2026-08-26",
+      "backfill_complete": true,
+      "backfill_progress_post_number": 535,
+      "backfill_note": "First backfill batch 2026-08-22: read posts #535-#639 (100 posts via stream, of 612 in stream/639 highest). Very rich haul from harsh.beria93's structured Bought/Sold/increasing-weight disclosures (posts #559, #570, #578, #580, #589, #599, #604, #625) plus general Q&A. 11 new very-high candidates, 15 new high candidates, 3 existing candidates retagged (AGI Infra, Fairchem Organics, Vikram Thermo), Godfrey Phillips upgraded high->very-high (2nd independent trusted holder), Kaveri Seeds and Vinati Organics (both already-researched, non-mega-cap) conviction-floored Low-Medium->Medium-High. Ambika Cotton, Nesco, ITC noted as exits (no candidate/bump, per ground rules). | 2026-08-25 (4th run today): fetched posts #427-534 (next 100 via stream) to continue from progress=535 — all dated 2023-08-04 to 2024-01-29 (573-751 days old), entirely past the 365-day cutoff. Nothing processed; backfill_progress_post_number left at 535 (nothing lower actually read). Marked complete — older history (pre-#535) intentionally left unread, not missed."
+    },
+    "investment-journey-of-a-late-starter": {
+      "topic_id": 87419,
+      "title": "Investment journey of a late starter",
+      "primary_author": "Ghonarbochon",
+      "trust_level": "user-trusted",
+      "added_date": "2026-08-22",
+      "added_reason": "Title-pattern search ('investment journey portfolio'): like_count=746, participant_count=40, reply_count=141 - above threshold (>=500 likes, >=20 participants)",
+      "last_post_number_seen": 199,
+      "last_checked_date": "2026-08-29",
+      "backfill_complete": true,
+      "backfill_progress_post_number": 95,
+      "trust_level_note": "Upgraded from auto-discovered: Ghonarbochon independently cleared the trusted-user reputation bar (see trusted_users.json) as of 2026-08-22.",
+      "backfill_note": "Backfill batch 1 (2026-08-22): thread never fetched before (last_post_number_seen was 0). Fetched full topic JSON to establish top (post #198, 186 posts in stream), then read posts #95-198 (100 via stream). Ghonarbochon (trusted, primary author) portfolio-journal thread: extracted 8 distinct stock candidates from qualifying conviction language - Piccadily Agro (existing researched, Medium->Medium-High bump), Axiscades Engineering, Apollo Micro Systems (SUPERSEDED - explicit no-conviction exit post #185, 2025-12-17), Wockhardt Ltd (upgraded high->very-high), Ceinsys Tech, HBL Engineering (existing researched, Medium-High->High bump), Valiant Communications, Intellect Design Arena (historical highest-conviction bet fully exited same post, superseded, no bump). All qualifying signals 218-966 days old (none within 180-day floor window) so trusted_conviction_floor_active=false throughout despite several reaching very-high strength via repeat mentions; Ghonarbochon is elevated-tier (auto-promoted) not core-tier regardless. depth=100<300 cap, not at post #1 -> backfill_complete remains false. | 2026-08-26: fetched posts #1-102 (94 ids via stream) to continue from progress=95, reaching post #1 (thread top). All dated 2022-07-06 to 2024-01-14 (955-1512 days old), entirely past the 365-day cutoff. Nothing processed; backfill_progress_post_number left at 95 (nothing lower actually read). Marked complete — hit post #1 and older history intentionally left unread, not missed.",
+      "forward_check_note": "2026-08-29: 1 new post (#199, love=11) by Ghonarbochon (trusted, elevated, primary author) — a portfolio-rebalance update. SUPERSEDE EVENTS: explicit exits from Ceinsys Tech (\"management has broken too many words\") and Axiscades Engineering (\"whats left after its restructuring is unproven\") — flipped both users.json high_conviction_calls (2 entries each) to superseded, added supersede-event markers, cleared the trusted_conviction trio on state.json ceinsys-tech + axiscades-engineering (both stay conviction=Low, were never floored — elevated/stale), marked the Ghonarbochon trusted_signal in data/ceinsys-tech.json superseded, regenerated both .docx. Also exited Genesys International (\"months ago when it broke 300\") — no prior Ghonarbochon conviction call to supersede, state has no trusted_conviction there, so noted only. Piccadily/Wockhardt/HBL/Valiant/Bhagyanagar/Apollo downgraded by him to ~20% 'Muft ka Laddu' free-carry remnants (capital withdrawn) but NOT full exits — earlier calls left standing (will date-decay). HRHR bucket names (IZMO, Spark, Balu his own ideas; rest borrowed) are in an image, no per-name primacy/weight language — no qualifying new mentions. 2 playbook entries added."
+    },
+    "mudits-portfolio-stage-analysis-price-momentum": {
+      "topic_id": 90802,
+      "title": "Mudit's Portfolio (Stage Analysis + Price Momentum)",
+      "primary_author": "Mudit.Kushalvardhan",
+      "trust_level": "user-trusted",
+      "added_date": "2026-08-22",
+      "added_reason": "Own-thread search after Mudit.Kushalvardhan auto-promoted to trusted_users.json (15 love/14 posts, threshold cleared). Topic created-by Mudit.Kushalvardhan, 274 replies (>=20 threshold).",
+      "last_post_number_seen": 372,
+      "last_checked_date": "2026-08-26",
+      "backfill_complete": true,
+      "backfill_progress_post_number": 273,
+      "backfill_note": "Backfill batch 1 (2026-08-22): thread never fetched before (last_post_number_seen was 0). Fetched full topic JSON to establish top (post #372, 370 posts in stream), read posts #273-372 (100 via stream). Mudit.Kushalvardhan's own posts in this batch are almost entirely momentum-strategy methodology discussion (screener criteria, stage analysis, position sizing rules, book notes, backtest philosophy) - no individual stock named with qualifying conviction language (core holding/highest conviction/primary holding/X% of portfolio/added significantly). Closest candidates (Sky Gold post #358 'my position is also new'; Muthoot Finance/Persistent Systems post #356, framed as doubt not conviction; Polycab/KEI '30% weightage' cited only secondhand by another user post #322, never confirmed in Mudit's own words) did not meet the qualifying bar - no candidates created, no high_conviction_calls logged this batch. depth=100<300 cap, not at post #1 -> backfill_complete remains false. | 2026-08-26: fetched posts #175-274 (100 via stream) to continue from progress=273. All dated 2024-03-04 to 2024-09-22 (704-905 days old), entirely past the 365-day cutoff. Nothing processed; backfill_progress_post_number left at 273. Marked complete - older history (pre-#273) intentionally left unread, not missed."
+    },
+    "malhars-investing-thoughts": {
+      "topic_id": 69516,
+      "title": "Malhar's Investing Thoughts",
+      "primary_author": "Malhar_Manek",
+      "trust_level": "user-trusted",
+      "added_date": "2026-08-22",
+      "added_reason": "Title-pattern search ('thoughts ideas opinions'): rate-based gate = 137 likes / 36 posts = 3.81 likes/post (>=3.0), participant_count=19 (>=15), posts_count=36 (>=20). Author Malhar_Manek not yet in trusted_users.json - auto-discovered, lighter weight until proven.",
+      "last_post_number_seen": 46,
+      "last_checked_date": "2026-08-26",
+      "backfill_complete": true,
+      "backfill_progress_post_number": 46,
+      "backfill_note": "2026-08-25: backfill attempted, hit 1-year cutoff immediately — thread's newest post (#46) is dated 2025-08-02 (388 days old, already past the 365-day mark). Entire thread (all 36 posts, #1-#46) is stale from the start; nothing processed. Not missed, deliberately unread per Step 1.4.",
+      "trust_level_note": "Upgraded from auto-discovered: Malhar_Manek independently cleared the trusted-user reputation bar (see trusted_users.json) as of 2026-08-24."
+    },
+    "gurjot-portfolio": {
+      "topic_id": 710,
+      "title": "Gurjot Portfolio",
+      "primary_author": "gurjota",
+      "trust_level": "user-trusted",
+      "added_date": "2026-08-23",
+      "added_reason": "Title-pattern search ('my portfolio thoughts'): rate-based gate 755 likes / 185 posts = 4.08 likes/post (>=3.0), participant_count=54 (>=15), posts_count=185 (>=20) - PASSES",
+      "last_post_number_seen": 197,
+      "last_checked_date": "2026-08-26",
+      "backfill_complete": true,
+      "backfill_progress_post_number": 196,
+      "backfill_note": "2026-08-25: backfill batch fetched posts #96-#197 (stream-mapped, 100 ids). Post #197 (2026-04-19, suns) already covered by prior forward-check run per log. Every other post in the batch (#96-#196) is 2021-2023 dated, i.e. already past the 365-day mark (#196 itself is 2023-12-16, ~618 days old) — cutoff hit immediately on the newest un-forward-checked post, nothing processed. Older history (#1-#95) is deliberately left unread as it can only be older still. Marked complete per 1-year-cutoff rule."
+    },
+    "chins-portfolio": {
+      "topic_id": 50965,
+      "title": "Chins' Portfolio",
+      "primary_author": "Chins",
+      "trust_level": "user-trusted",
+      "added_date": "2026-08-24",
+      "added_reason": "Title-pattern search (\"thoughts ideas opinions\"): rate-based gate: 1448 likes / 214 posts = 6.77 likes/post >=3.0, participant_count=61 >=15, posts_count=214 >=20 - PASSES",
+      "last_post_number_seen": 222,
+      "last_checked_date": "2026-08-26",
+      "backfill_complete": true,
+      "backfill_progress_post_number": null,
+      "forward_check_note": "2026-08-25: first forward-check, 15 most-recent posts read (#208-#222, all dated 2023-07 to 2025-06, i.e. already >365 days old). Primary author Chins and all other posters (thakurvi, Ravi_Narsingani, prav.br, Mahendra_Raju, subash_franklin, asarun, AlokMoghe, satyajitpatra2005, TradingWithMind, kaushalsheth2001) not yet in trusted_users.json - reputation-only per Step 3, no candidates/signals created.",
+      "trust_level_note": "Upgraded from auto-discovered: Chins independently cleared the trusted-user reputation bar (see trusted_users.json) as of 2026-08-25.",
+      "backfill_note": " | 2026-08-25: backfill closed without further reads — topic.json shows last_posted_at=2025-06-23 (>365 days old as of today), and the prior forward-check already confirmed even the newest posts (#208-#222) are past the 1-year cutoff. No unread portion of this thread can be within the recency window, so nothing further to backfill."
+    },
+    "dream-fire-portfolio": {
+      "topic_id": 70966,
+      "title": "Dream FIRE Portfolio",
+      "primary_author": "curious",
+      "trust_level": "user-trusted",
+      "added_date": "2026-08-26",
+      "added_reason": "Title-pattern search ('investment journey portfolio'): like_count=243, posts_count=80, participant_count=24 -> 3.0375 likes/post >=3.0 (marginal pass), participants>=15, posts>=20 - PASSES rate-based gate.",
+      "last_post_number_seen": 80,
+      "last_checked_date": "2026-08-29",
+      "backfill_complete": true,
+      "backfill_progress_post_number": 75,
+      "backfill_note": "Backfill batch 1 (2026-08-29): thread never fetched before (last_post_number_seen was 0). Fetched full topic JSON (80 posts in stream) + bulk-fetched all 80. Only posts #75-80 fall within the 365-day window (post #74 is 2025-03-23, older than the cutoff). Processed #75-80 (curious's 2025 year-end review + Q&A). Primary author 'curious' is NOT in trusted_users.json, so per Step 3 these are reputation-only: no candidates created, no conviction signals logged. curious's India-listed mentions (Bajaj Finance, Zomato/Eternal, Ethos, HDFC AMC, Granules India, APL Apollo, Titan, Trent, Asian Paints) noted here for the record only — most are mega/large-cap and the post is largely a US-market + retrospective piece. backfill_progress_post_number set to 75 (lowest processed); marked complete via the 1-year cutoff — older history (pre-#75) intentionally left unread, not missed.",
+      "trust_level_note": "Upgraded from auto-discovered: curious independently cleared the trusted-user reputation bar (see trusted_users.json) as of 2026-08-29."
+    },
+    "suvi-investing-journey": {
+      "topic_id": 7507,
+      "title": "Suvi Investing Journey",
+      "primary_author": "The_Confused_Consult",
+      "trust_level": "auto-discovered",
+      "added_date": "2026-08-29",
+      "added_reason": "Title-pattern search ('thoughts ideas opinions'): like_count=419, posts_count=76, participant_count=20 -> 5.51 likes/post >=3.0, participants>=15, posts>=20 - PASSES rate-based gate. Author The_Confused_Consult not in trusted_users.json.",
+      "last_post_number_seen": 0,
+      "last_checked_date": "2026-08-29",
+      "backfill_complete": false,
+      "backfill_progress_post_number": null,
+      "backfill_note": "Not yet backfilled. Thread last_posted_at=2020-01-01 (>6 years old) - entire thread is already past the 365-day depth cutoff, so the first backfill batch is expected to close out immediately with nothing processed (same pattern as Yogesh's/Chins'/Malhar's)."
+    }
+  },
+  "rejected": [
+    {
+      "topic_id": 138747,
+      "title": "Dhruv's Portfolio: Comments Appriciated",
+      "rejected_date": "2026-08-22",
+      "reason": "Rate-based gate failed: 30 likes / 39 posts = 0.77 likes/post (<3.0 threshold), participant_count=11 (<15 threshold)."
+    },
+    {
+      "topic_id": 122584,
+      "title": "Rahul Kumar's Portfolio Review: Stock Market Investment Journey",
+      "rejected_date": "2026-08-23",
+      "reason": "Rate-based gate failed: 16 likes / 23 posts = 0.70 likes/post (<3.0 threshold), participant_count=6 (<15 threshold)."
+    },
+    {
+      "topic_id": 9068,
+      "title": "Rohit Ojha: Investment journey/Philosophy",
+      "rejected_date": "2026-08-23",
+      "reason": "Rate-based gate failed: 35 likes / 16 posts = 2.19 likes/post (<3.0 threshold), participant_count=10 (<15 threshold), posts_count=16 (<20 floor)."
+    },
+    {
+      "topic_id": 144443,
+      "title": "Mayank portfolio",
+      "rejected_date": "2026-08-23",
+      "reason": "Rate-based gate failed: 82 likes / 90 posts = 0.91 likes/post (<3.0 threshold), participant_count=13 (<15 threshold)."
+    },
+    {
+      "topic_id": 23577,
+      "title": "Masanobu Portfolio : Track,Learn,Review",
+      "rejected_date": "2026-08-23",
+      "reason": "Rate-based gate failed: 22 likes / 15 posts = 1.47 likes/post (<3.0 threshold), participant_count=6 (<15 threshold), posts_count=15 (<20 floor)."
+    },
+    {
+      "topic_id": 49123,
+      "title": "Faiz’s Portfolio – A Common Man’s Portfolio",
+      "rejected_date": "2026-08-23",
+      "reason": "Rate-based gate failed: 6 likes / 5 posts = 1.2 likes/post (<3.0 threshold), participant_count=5 (<15 threshold), posts_count=5 (<20 floor)."
+    },
+    {
+      "topic_id": 53030,
+      "title": "Kalpesh's Portfolio",
+      "rejected_date": "2026-08-24",
+      "reason": "Rate-based gate failed: 788 likes / 345 posts = 2.28 likes/post (<3.0 threshold); participant_count=76 (>=15), posts_count=345 (>=20) both otherwise pass."
+    },
+    {
+      "topic_id": 219542,
+      "title": "Building on my mistakes- Jornaling my Investing journey",
+      "rejected_date": "2026-08-25",
+      "reason": "Rate-based gate failed: 19 likes / 38 posts = 0.5 likes/post (<3.0 threshold), participant_count=5 (<15 threshold)."
+    },
+    {
+      "topic_id": 29976,
+      "title": "Common stocks uncommon profits - My investing journey/journal",
+      "rejected_date": "2026-08-25",
+      "reason": "Rate-based gate failed: 31 likes / 22 posts = 1.41 likes/post (<3.0 threshold), participant_count=7 (<15 threshold)."
+    },
+    {
+      "topic_id": 30336,
+      "title": "Caution Investor Portfolio - please review",
+      "rejected_date": "2026-08-25",
+      "reason": "Rate-based gate failed: 192 likes / 80 posts = 2.40 likes/post (<3.0 threshold), participant_count=22 (passes 15 floor)."
+    },
+    {
+      "topic_id": 6389,
+      "title": "Review request for my Portfolio",
+      "rejected_date": "2026-08-25",
+      "reason": "Rate-based gate failed: 153 likes / 70 posts = 2.19 likes/post (<3.0 threshold), participant_count=23 (passes 15 floor)."
+    },
+    {
+      "topic_id": 30203,
+      "title": "NM's- Portfolio",
+      "rejected_date": "2026-08-25",
+      "reason": "Rate-based gate failed: 43 likes / 40 posts = 1.075 likes/post (<3.0 threshold), participant_count=9 (<15 threshold)."
+    },
+    {
+      "topic_id": 35337,
+      "title": "New entrant: Portfolio suggestions: Valuable opinions",
+      "rejected_date": "2026-08-25",
+      "reason": "Rate-based gate failed: 22 likes / 24 posts = 0.92 likes/post (<3.0 threshold), participant_count=11 (<15 threshold)."
+    },
+    {
+      "topic_id": 116911,
+      "title": "Journey and Portfolio of a goal-based NEEV investor",
+      "rejected_date": "2026-08-25",
+      "reason": "Rate-based gate failed: 203 likes / 68 posts = 2.985 likes/post (<3.0 threshold, marginal), participant_count=14 (<15 threshold, marginal)."
+    },
+    {
+      "topic_id": 23480,
+      "title": "Akshada's portfolio: Views are welcome",
+      "rejected_date": "2026-08-26",
+      "reason": "Rate-based gate failed: 125 likes / 84 posts = 1.49 likes/post (<3.0 threshold), participant_count=22 (passes 15 floor)."
+    },
+    {
+      "topic_id": 32563,
+      "title": "Portfolio review - Raj",
+      "rejected_date": "2026-08-26",
+      "reason": "Rate-based gate failed: 19 likes / 20 posts = 0.95 likes/post (<3.0 threshold), participant_count=9 (<15 threshold)."
+    },
+    {
+      "topic_id": 147110,
+      "title": "Mutual Fund Portfolio Review- Suggestions",
+      "rejected_date": "2026-08-26",
+      "reason": "Rate-based gate failed: 38 likes / 26 posts = 1.46 likes/post (<3.0 threshold), participant_count=12 (<15 threshold)."
+    },
+    {
+      "topic_id": 138747,
+      "title": "Dhruv's Portfolio: Comments Appriciated",
+      "rejected_date": "2026-08-29",
+      "reason": "Rate-based gate failed: 30 likes / 39 posts = 0.77 likes/post (<3.0 threshold), participant_count=11 (<15 threshold)."
+    }
+  ]
+}

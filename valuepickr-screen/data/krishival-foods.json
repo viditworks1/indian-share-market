@@ -1,0 +1,82 @@
+{
+  "name": "Krishival Foods Ltd",
+  "tagline": "Fast-growing branded nuts + ice-cream micro-cap off a tiny base, but rich valuation, low promoter skin and unseasoned SME governance cap conviction",
+  "business_overview": "Krishival Foods (incorporated 2014 as Empyrean Cashews, renamed 2023) processes raw cashew and other nuts into flavoured kernels and dried-fruit packs sold under the 'Krishival Nuts' brand through a distributor network across tier-2/3 cities. It has extended into ice cream via a wholly owned subsidiary, Melt & Mellow Foods. SME-IPO in FY25 raised ~Rs 19 Cr (mostly working capital); a December rights issue at Rs 300 funds a new facility. Promoter Sujit Bangar is a former IRS officer and founder of tax-filing platform TaxBuddy.",
+  "fundamentals_table": [
+    [
+      "Market Cap",
+      "Rs 1,035 Cr"
+    ],
+    [
+      "ROCE / ROE",
+      "16.2% / 13.1%"
+    ],
+    [
+      "Revenue CAGR (5yr)",
+      "~61% (off a very small base)"
+    ],
+    [
+      "PAT CAGR (5yr)",
+      "~47.7%"
+    ],
+    [
+      "Debt/Equity",
+      "0.19"
+    ],
+    [
+      "Valuation",
+      "P/E ~48; Book value ~Rs 75"
+    ]
+  ],
+  "fundamentals_narrative": "The growth record is genuine but comes off a micro base and is flattered by that base effect. Returns are respectable (16% ROCE) for a food processor and leverage is low. Against that, the stock already trades at ~48x earnings, and the category (nuts/dry fruit) is commodity-input-heavy with cashew price volatility flowing straight to gross margin; ice cream is capital-intensive and crowded. Two equity raises within roughly a year (SME IPO + rights) signal a still-capital-hungry model and ongoing dilution.",
+  "technical_read": "Not pulled - not a Tier-A candidate.",
+  "sentiment_summary": "First-time read: the VP thread was created 2026-08-31 and contains a single post - a neutral factual write-up by Chandan_Sharma (elevated roster) explicitly labelled 'not a buy/sell recommendation'. No community discussion, no conviction signal, nothing to synthesise a sentiment trend from yet.",
+  "community_signal": "None. The lone post is descriptive: company history, the B2B/B2C nuts base moving into ice cream, TAM claims (global dry-fruit market ~8.5-9% CAGR, ice cream ~16% CAGR per management), and a shareholding note. It flags that the promoter group holds only 37.23% and that the MD is 'Aparna Sujit Bangar (also recorded as Aparna Arun Morale)' - a name-record discrepancy worth watching. No trusted_signals logged.",
+  "bse_notes": "From the OP: SME IPO FY25 (~Rs 19 Cr, working capital); rights issue December at Rs 300 for a new facility; promoter group 37.23% (MD ~34.85%, CEO and CFO ~1.19% each). Related-party/group-entity list per a 13-Mar-2026 filing.",
+  "bull_case": [
+    "Real 47-61% historical revenue/PAT CAGR with 16% ROCE and low debt - a credible small branded-FMCG execution record",
+    "Large, structurally growing end-markets (branded dry fruits, ice cream) and a still-tiny ~Rs 1,000 Cr base leave a long runway if the brand travels",
+    "Founder with a consumer/finance brand-building background (TaxBuddy)"
+  ],
+  "bear_case": [
+    "P/E ~48 already prices sustained hyper-growth; a 10x price in 2-3 years would need ~10x earnings with the multiple held - roughly 115% EPS CAGR, well above even the historical rate",
+    "Low promoter holding (37%) - limited skin in the game for a founder-led micro-cap",
+    "Promoter/MD name-record discrepancy flagged in the OP - a governance hygiene question",
+    "Two dilutive equity raises inside ~12 months; model still working-capital-hungry",
+    "Commodity cashew input (margin volatility) and a capital-intensive, competitive ice-cream foray",
+    "Fresh SME-graduated name with no VP community scrutiny and unseasoned public-market governance"
+  ],
+  "value_chain": {
+    "theme": "branded packaged foods (no live-theme match)",
+    "position": "raw cashew/nut procurement -> flavouring & packing -> branded distributor-led retail (tier-2/3) + ice-cream via subsidiary",
+    "bottleneck_node": "brand pull + distribution reach; raw-cashew sourcing is the cost-volatility node",
+    "supply_side_status": "unclear",
+    "adjacent_peers": [
+      "Gopal Snacks",
+      "Bikaji Foods",
+      "DFM Foods",
+      "Prataap Snacks"
+    ],
+    "note": "Value-add is packaging/branding on a commodity kernel; pricing power depends entirely on brand traction, which is unproven at scale."
+  },
+  "market_cap_tier": "Small-cap (~Rs 1,035 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Genuine small branded-FMCG compounder, but valuation blocks the 2-3yr case and category economics plus governance gaps block the 10yr case",
+  "verdict_reasoning": [
+    "No live-theme match - recency discovery (thread created 2026-08-31, surfaced via discover.py). Branded packaged foods is not an active_themes.json theme.",
+    "Trailing average is strong, not weak, so the trailing-vs-inflection carve-out does not apply - the blocker is a ~48x multiple that already discounts years of hyper-growth.",
+    "100x-in-10-years would need ~58% CAGR sustained for a decade in a commodity-input, competitive category with only 37% promoter holding - not credible; 10x-in-2-3-years needs ~115%/yr - not credible.",
+    "Conviction Low-Medium: real growth and returns, but rich price, thin promoter skin, a name-record discrepancy, back-to-back dilution and zero community validation.",
+    "revisit_after_30d = false (thesis_fit neither)."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "no",
+    "moat": "no",
+    "valuation": "no",
+    "score": 0.5,
+    "note": "value_chain explicit: branded-food pricing power is 'unproven at scale' on a 'commodity kernel' (moat=no); verdict: '~48x multiple already discounts years of hyper-growth' (valuation=no); trailing average is strong not weak, so the inflection carve-out doesn't apply (tam=no)."
+  }
+}
