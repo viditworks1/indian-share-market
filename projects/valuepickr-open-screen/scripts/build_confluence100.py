@@ -5,11 +5,11 @@ confidence-adjusted blend of master_score (conviction/quality/expectation-gap/
 asymmetry) and a live 30-week EMA technical read.
 
 Run as a weekly side job of vpscreen-rerank (see that task's SKILL.md Step 7).
-Writes valuepickr-screen/artifacts/confluence100.artifact.html — the scheduled
-task then publishes that file with the Artifact tool using the fixed URL
-recorded in vpscreen-rerank/SKILL.md.
+Writes projects/valuepickr-open-screen/artifacts/confluence100.artifact.html —
+the scheduled task then publishes that file with the Artifact tool using the
+fixed URL recorded in vpscreen-rerank/SKILL.md.
 
-Usage: python3 valuepickr-screen/scripts/build_confluence100.py  (from project root)
+Usage: python3 projects/valuepickr-open-screen/scripts/build_confluence100.py  (from Stock Market root)
 """
 import json
 import os
@@ -20,8 +20,8 @@ import urllib.request
 import urllib.parse
 import datetime
 
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-VP = os.path.join(ROOT, "valuepickr-screen")
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+VP = os.path.join(ROOT, "projects", "valuepickr-open-screen")
 BASE = VP
 DATA_DIR = os.path.join(VP, "data")
 ARTIFACTS_DIR = os.path.join(VP, "artifacts")
@@ -187,10 +187,10 @@ def tech_str(t):
 
 
 def current_holdings():
-    """Best-effort parse of docs/FINAL_PORTFOLIO_RECOMMENDATION.md Section 3
+    """Best-effort parse of portfolio/FINAL_PORTFOLIO_RECOMMENDATION.md Section 3
     allocation table for the HOLD badge. Falls back to an empty set on any
     parse failure rather than erroring the whole build."""
-    path = os.path.join(ROOT, "docs", "FINAL_PORTFOLIO_RECOMMENDATION.md")
+    path = os.path.join(ROOT, "portfolio", "FINAL_PORTFOLIO_RECOMMENDATION.md")
     try:
         text = open(path).read()
     except OSError:

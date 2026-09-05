@@ -19,7 +19,7 @@ import os
 import re
 
 SETTINGS_PATH = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
+    os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))),
     ".claude", "settings.local.json",
 )
 

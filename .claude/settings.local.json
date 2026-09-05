@@ -139,7 +139,7 @@
       "Bash(python3 -c \"import json; d=json.load\\(open\\('valuepickr-screen/x-handles/x_handle_registry.json'\\)\\); print\\(json.dumps\\(d.get\\('triage',{}\\),indent=2\\)\\)\")",
       "Bash(cd \"/Users/amiyavidit/Documents/Work/Stock Market\" && printf '\\\\n## 2026-09-02 \\(same-day no-op\\)\\\\n- Duplicate same-day fire: x_cluster.json.last_run_date already 2026-09-02 \\(full scan completed earlier today via browser path\\). Per SKILL same-day guard, no second scan. STOP.\\\\n' >> valuepickr-screen/x-cluster-log.md && tail -4 valuepickr-screen/x-cluster-log.md)",
       "mcp__claude-in-chrome__list_connected_browsers",
-      "Bash(awk '/## 5|### 5|§5|global_signal_check/{f=1} f' valuepickr-screen/scripts/ISHMOHIT_SIGNALS_SCHEMA.md)",
+      "Bash(awk '/## 5|### 5|\u00a75|global_signal_check/{f=1} f' valuepickr-screen/scripts/ISHMOHIT_SIGNALS_SCHEMA.md)",
       "Bash(python3 -c \"import json;json.load\\(open\\('valuepickr-screen/x-handles/x_handle_registry.json'\\)\\);print\\('OK'\\)\")",
       "Bash(python3 -c \"import json; d=json.load\\(open\\('data/expectation-gap-scores.json'\\)\\); print\\('ranked:',len\\(d.get\\('ranked',[]\\)\\)\\); print\\('no_edge:',len\\(d.get\\('no_edge',[]\\)\\)\\); print\\('not_assessed:',len\\(d.get\\('not_assessed',[]\\)\\)\\); [print\\(' ',x['name'],x.get\\('expectation_gap_score'\\),x.get\\('flags'\\)\\) for x in d.get\\('ranked',[]\\)[:15]]\")",
       "Bash(python3 -c \"import datetime; t=datetime.date\\(2026,9,3\\); print\\('today',t.isoformat\\(\\)\\); print\\('since',\\(t-datetime.timedelta\\(days=183\\)\\).isoformat\\(\\)\\)\")",
@@ -150,7 +150,7 @@
       "WebFetch(domain:sg.finance.yahoo.com)",
       "WebFetch(domain:www.icicidirect.com)",
       "mcp__claude-in-chrome__tabs_context_mcp",
-      "Bash(awk '/### 5|## 5|§5|global_signal_check/{f=1} f{print} /^### 6|^## 6/{f=0}' valuepickr-screen/scripts/ISHMOHIT_SIGNALS_SCHEMA.md)",
+      "Bash(awk '/### 5|## 5|\u00a75|global_signal_check/{f=1} f{print} /^### 6|^## 6/{f=0}' valuepickr-screen/scripts/ISHMOHIT_SIGNALS_SCHEMA.md)",
       "Bash(python3 /private/tmp/claude-501/-Users-amiyavidit-Documents-Work-Stock-Market/ca5fe5bc-1fcd-473b-8bee-307ab4730a93/scratchpad/patch_bw.py)",
       "Bash(python3 -c \"import json;d=json.load\\(open\\('valuepickr-screen/global_bellwethers.json'\\)\\);print\\('themes',len\\(d['themes']\\)\\);t=[x for x in d['themes'] if x['theme_id']=='defense-electronics-sensors'][0];print\\(t['rate_of_change']\\);print\\(json.dumps\\(t['india_proxies'][0],indent=1,ensure_ascii=False\\)\\)\")",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('\\\\n'.join\\(sorted\\(d.keys\\(\\)\\)\\)\\)\")",
@@ -162,8 +162,6 @@
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(len\\(d\\)\\)\")",
       "Bash(mkdir -p \"/Users/amiyavidit/Documents/Work/Stock Market/valuepickr-screen/x-handles/dossiers\")",
       "WebFetch(domain:tradebrains.in)",
-      "Bash(python3 valuepickr-screen/scripts/get_stock.py --status candidate --fields source,trusted_conviction_strength,trusted_conviction_floor_active,x_conviction_strength,first_seen_date)",
-      "Bash(python3 valuepickr-screen/scripts/get_stock.py --index)",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('phreak highest_post_number:', d.get\\('highest_post_number'\\), 'posts_count:', d.get\\('posts_count'\\)\\)\")"
     ]
   }

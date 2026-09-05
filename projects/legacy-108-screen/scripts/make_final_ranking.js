@@ -135,4 +135,4 @@ children.push(new Paragraph({
 }));
 
 const doc = new Document({ sections: [{ properties: { page: { size: { width: 12240, height: 15840 } } }, children }] });
-Packer.toBuffer(doc).then(buf => { fs.writeFileSync(__dirname + "/../../docs/00_FINAL_RANKING.docx", buf); console.log("Wrote final ranking"); });
+Packer.toBuffer(doc).then(buf => { fs.writeFileSync(__dirname + "/../../../portfolio/00_FINAL_RANKING.docx", buf); console.log("Wrote final ranking"); });
