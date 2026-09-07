@@ -6,7 +6,7 @@ const path = require("path");
 const {
   Document, Packer, Paragraph, TextRun, HeadingLevel,
   Table, TableRow, TableCell, WidthType, ShadingType, BorderStyle
-} = require(path.join(__dirname, "..", "..", "research", "scripts", "node_modules", "docx"));
+} = require(path.join(__dirname, "..", "..", "legacy-108-screen", "scripts", "node_modules", "docx"));
 
 const data = JSON.parse(fs.readFileSync(__dirname + "/../data/portfolio.json", "utf8"));
 const COLORS = { accent: "1F4E5F", muted: "666666", high: "1E7A34", medhigh: "3D7A1E", med: "8A6D00" };

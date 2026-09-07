@@ -6,7 +6,7 @@ const path = require("path");
 const {
   Document, Packer, Paragraph, TextRun, HeadingLevel,
   Table, TableRow, TableCell, WidthType, ShadingType, BorderStyle
-} = require(path.join(__dirname, "..", "..", "research", "scripts", "node_modules", "docx"));
+} = require(path.join(__dirname, "..", "..", "legacy-108-screen", "scripts", "node_modules", "docx"));
 
 const data = JSON.parse(fs.readFileSync(__dirname + "/../data/expectation-gap-scores.json", "utf8"));
 const COLORS = { accent: "1F4E5F", muted: "666666", hi: "1E7A34", mid: "8A6D00", lo: "999999", flag: "A32020" };

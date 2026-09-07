@@ -2592,27 +2592,6 @@
     }
   },
   {
-    "slug": "ather-energy-pioneering-india-s-ev-revolution",
-    "name": "Ather Energy: Pioneering India's EV Revolution",
-    "conviction_score": 32.0,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "market_cap_tier": "Large-cap (~Rs 57,152-60,219 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "base_anchor": 24,
-      "thesis_bonus": 0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trust_component": 0.0,
-      "corroboration_bonus": 8,
-      "distinct_trusted_users": 2,
-      "management_component": 0.0,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "sona-blw-precision-forgings",
     "name": "Sona BLW Precision Forgings Ltd",
     "conviction_score": 32.0,
@@ -4861,6 +4840,27 @@
       "trust_component": 0.0,
       "corroboration_bonus": 0,
       "distinct_trusted_users": 0,
+      "management_component": 0.0,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "ather-energy-pioneering-india-s-ev-revolution",
+    "name": "Ather Energy: Pioneering India's EV Revolution",
+    "conviction_score": 24.0,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "market_cap_tier": "Large-cap (~Rs 57,152-60,219 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "base_anchor": 24,
+      "thesis_bonus": 0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trust_component": 0.0,
+      "corroboration_bonus": 0,
+      "distinct_trusted_users": 1,
       "management_component": 0.0,
       "management_quality": null
     }

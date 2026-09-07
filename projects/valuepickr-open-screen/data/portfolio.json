@@ -1,12 +1,47 @@
 {
-  "date_compiled": "2026-09-05",
+  "date_compiled": "2026-09-07",
   "philosophy": "Illustrative Rs 1,00,000 allocation drawn purely from this project's Tier-A bucket (conviction_score >= 60, thesis_fit = 10x-in-2-3-years, no red flag) - the first run where Tier A reached the 5-name threshold. No market-cap ceiling; sizing follows conviction_score and thesis-return-magnitude rather than index weight, with a deliberate haircut on names whose valuation already prices in most of the near-term catalyst (Aeroflex's ~107x P/E, Wockhardt's expectation-gap 'over-optimistic/no-edge' flag). Two of the five (Venus Remedies, Wockhardt) sit in specialty pharma but on distinct sub-theses (cash-backed peer-valuation-gap turnaround vs a binary global-licensing catalyst on an already-approved NCE), so the book still spans four effectively independent business drivers. A 10% cash buffer is held back given how much of this batch has already re-rated.",
   "allocation": [
-    { "name": "Venus Remedies", "weight": 25, "amount": 24850, "price": 1775, "shares": 14, "conviction": "High" },
-    { "name": "Macpower CNC Machines", "weight": 20, "amount": 20070, "price": 2007, "shares": 10, "conviction": "High" },
-    { "name": "Thyrocare Technologies", "weight": 20, "amount": 19840, "price": 640, "shares": 31, "conviction": "High" },
-    { "name": "Aeroflex Industries Ltd", "weight": 15, "amount": 15176, "price": 542, "shares": 28, "conviction": "High" },
-    { "name": "Wockhardt Ltd", "weight": 10, "amount": 10435, "price": 2087, "shares": 5, "conviction": "Medium" }
+    {
+      "name": "Venus Remedies",
+      "weight": 25,
+      "amount": 24850,
+      "price": 1775,
+      "shares": 14,
+      "conviction": "High"
+    },
+    {
+      "name": "Macpower CNC Machines",
+      "weight": 20,
+      "amount": 20070,
+      "price": 2007,
+      "shares": 10,
+      "conviction": "High"
+    },
+    {
+      "name": "Thyrocare Technologies",
+      "weight": 20,
+      "amount": 19840,
+      "price": 640,
+      "shares": 31,
+      "conviction": "High"
+    },
+    {
+      "name": "Aeroflex Industries Ltd",
+      "weight": 15,
+      "amount": 15176,
+      "price": 542,
+      "shares": 28,
+      "conviction": "High"
+    },
+    {
+      "name": "Wockhardt Ltd",
+      "weight": 10,
+      "amount": 10435,
+      "price": 2087,
+      "shares": 5,
+      "conviction": "Medium"
+    }
   ],
   "allocation_note": "~90% deployed, ~10% (Rs 10,229) held as cash buffer. Sizing rule: conviction_score sets the base weight, then a valuation/expectation-gap haircut trims names where the catalyst looks largely priced in (Aeroflex's ~107x trailing P/E despite score 80; Wockhardt's expectation-gap score of 0 with an explicit 'over-optimistic/no-edge' flag caps it at the smallest position despite clearing the Tier-A bar on conviction_score alone). Thyrocare's price (~Rs 640) is an estimate anchored to its 52-week high of Rs 662 given accelerating PAT and a compressing multiple - not independently re-pulled this pass; verify live price before acting, as the doc disclaimer notes.",
   "stocks": [
@@ -47,6 +82,7 @@
     }
   ],
   "risk_management": [
+    "2026-09-07 cycle: Tier-A membership and conviction_scores re-confirmed unchanged (Venus 80, Aeroflex 72, Macpower/Thyrocare 60, Wockhardt 61.3) - no rebalance; allocation, prices and sizing carried forward from 2026-09-05. Verify live prices before acting.",
     "This is the first Tier-A batch to reach the 5-name portfolio threshold (moved from 4 to 5 this run when Wockhardt's conviction_score crossed 60) - treat sizing as provisional until at least one more ranking cycle confirms the tier is stable, not a momentary crossing.",
     "Two names (Venus Remedies, Wockhardt) are both specialty pharma exporters - correlated to sector-wide regulatory/pricing risk (US FDA action, government drug-pricing policy) even though their individual theses are distinct.",
     "Three of five names (Macpower, Aeroflex, Wockhardt) are trading at stretched multiples (~52x, ~107x, ~85x respectively) relative to their own history - a broad market drawdown would likely hit this book's re-rated names hardest first.",

@@ -1,6 +1,6 @@
 {
-  "date_compiled": "2026-09-05",
-  "total_researched": 564,
+  "date_compiled": "2026-09-07",
+  "total_researched": 583,
   "methodology_intro": "Every candidate is sourced from ValuePickr threads active in the last 30 days (across Stock Opportunities, Stock Analysis & Valuation, and Stock Screening categories), scored on fundamentals (ROCE/ROE, real revenue/profit growth, manageable debt), technicals (weekly/monthly MACD + Bollinger Bands, or RSI/CCI/Williams %R as a documented proxy when BB isn't available), red-flag screening, and ValuePickr community conviction (including whether a high-reputation contributor made a specific high-conviction call) as a qualitative signal, never the sole basis.",
   "scoring_dimensions": [
     "Fundamental momentum: the RECENT-QUARTER trend and any specific catalyst, not just the trailing 3-5yr average - a trailing average is structurally blind to an inflection in progress by definition, since it's diluted by the pre-inflection period. A stock with a weak 3yr average ROE but a real, catalyst-linked recent-quarter improvement is NOT automatically screened out on the average alone (see 2026-08-22 methodology fix note below)",
@@ -4922,6 +4922,150 @@
         "governance": "watch"
       },
       "primary_screen_reason": "no_thread"
+    },
+    {
+      "name": "ADF FOOD LTD",
+      "reason": "Moved out of Tier B this cycle: deep-dive reclassified thesis_fit 10x-in-2-3-years -> \"neither\" by analyst override (linear, capacity/distribution-driven growth, not asymmetric optionality) - and per the mechanical rule \"neither\" always means screenedOut regardless of conviction_score (48.8). The business itself is genuinely accelerating: FY26 PAT +29.84% on revenue +15.88%, TTM profit growth ~2x sales growth, Surat frozen-foods plant ramping, valuation still ~30x - and it still ranks near the top of the separate expectation-gap doc (gap score 73.7, underestimated). Revisit-eligible. [conviction_score 48.8]",
+      "dimensions": {
+        "thesis": "neither",
+        "recent_fundamentals": "strong",
+        "long_term_fundamentals": "strong",
+        "technicals": "unknown",
+        "governance": "clean"
+      },
+      "primary_screen_reason": "thesis"
+    },
+    {
+      "name": "Bhagyanagar India Ltd",
+      "reason": "Moved out of Tier B this cycle: deep-dive set four_box 1.5 and thesis_fit \"neither\", correcting a prior inconsistency -> screenedOut per the mechanical rule. Management's own Q1 FY27 concall framed the standout ~Rs72,000/tonne EBITDA quarter as one-off, normalizing toward ~5% EBITDA margin (consistent with FY26's ~4.5% full-year print). FY25 OCF was ~-Rs143cr despite reported profit growth (Rs179cr WC drain); D/E ~1.14x. Entire copper business is mid 1:1 demerger into a separately-listed Tieramet Ltd (NCLT-approved Jan-2026); ROCE/ROE data conflicts sharply across sources. [conviction_score 22.8]",
+      "dimensions": {
+        "thesis": "neither",
+        "recent_fundamentals": "weak",
+        "long_term_fundamentals": "weak",
+        "technicals": "unknown",
+        "governance": "watch"
+      },
+      "primary_screen_reason": "recent_fundamentals"
+    },
+    {
+      "name": "Data Patterns (India) Limited",
+      "reason": "Moved out of Tier B this cycle: deep-dive reclassified thesis_fit 10x-in-2-3-years -> \"neither\" by explicit judgment (a literal 10x at ~Rs25,800cr market cap isn't a realistic framing; consistent with the Mayur/Nesco/Vinati precedent) -> screenedOut per the mechanical rule. High-quality defence electronics (60% ROE, debt-free); FY26 order inflow Rs1,121cr (+216% YoY) and a Rs585.76cr BEL radar order (21-Aug-2026) answered the old flat-order-book concern, but Q1FY27 was soft (PAT -13.5% YoY, margin 27% vs 32%) and valuation is now evidenced as genuinely rich (~94.4x P/E, ~14.9x P/B). Su-30MKI AESA radar programme remains a real but unconverted catalyst. [conviction_score 37.8]",
+      "dimensions": {
+        "thesis": "neither",
+        "recent_fundamentals": "adequate",
+        "long_term_fundamentals": "strong",
+        "technicals": "unknown",
+        "governance": "clean"
+      },
+      "primary_screen_reason": "size"
+    },
+    {
+      "name": "Metropolitan Stock Exchange of India Ltd (MSEI)",
+      "reason": "Unlisted third national exchange; negative ROE/ROCE, <0.1% market share against the NSE-BSE duopoly. The 2026 Market Maker programme produced a real but low-base turnover jump (the X lead's '534x' framing) - not durable evidence of share gain. No VP thread. four_box 0.5. thesis_fit neither. [conviction_score 8.0, external-lead]",
+      "dimensions": {
+        "thesis": "neither",
+        "recent_fundamentals": "weak",
+        "long_term_fundamentals": "weak",
+        "technicals": "unknown",
+        "governance": "unknown"
+      },
+      "primary_screen_reason": "long_term_fundamentals"
+    },
+    {
+      "name": "Aequs Ltd",
+      "reason": "Dec-2025 IPO; only Indian vertically-integrated single-SEZ aerospace precision-component manufacturer. Aerospace segment already beating its own margin target (33% EBITDA vs 20%+ guided) and fits the priority-1 defence/aerospace theme, but the consolidated entity is lossmaking (Rs113.3cr FY26) on a lossmaking consumer segment, with 82.5% top-10 customer concentration. No VP thread; exception declined given zero forum validation. thesis_fit neither, conviction Low-Medium. Flagged for re-verification if a VP thread opens or consumer-segment losses narrow. [conviction_score 16.0, external-lead]",
+      "dimensions": {
+        "thesis": "neither",
+        "recent_fundamentals": "weak",
+        "long_term_fundamentals": "unknown",
+        "technicals": "unknown",
+        "governance": "unknown"
+      },
+      "primary_screen_reason": "recent_fundamentals"
+    },
+    {
+      "name": "Shivalik Rasayan Ltd",
+      "reason": "Agrochemical-intermediates-to-pharma-API pivot; Q1FY27 swung to profit (Rs14.97cr vs a Rs2.84cr loss YoY) but the community itself (RaghuK, not trusted) disputed durability ('only visible improvement is on API revenue... consolidated revenue is misleading') and flagged total management non-responsiveness (unanswered emails/calls for months, no concalls) - an unresolved governance-transparency gap analogous to the Danlaw precedent. four_box 2.0, exception declined. thesis_fit neither, conviction Low-Medium. [conviction_score 16.0]",
+      "dimensions": {
+        "thesis": "neither",
+        "recent_fundamentals": "weak",
+        "long_term_fundamentals": "weak",
+        "technicals": "unknown",
+        "governance": "watch"
+      },
+      "primary_screen_reason": "governance"
+    },
+    {
+      "name": "Nitin Spinners Ltd",
+      "reason": "Well-executed capex / debt-paydown history, shifting toward higher-margin fabric, but the industry is explicitly characterised as commoditised by the community's own trusted users across a decade. four_box 2.0, no exception invoked. thesis_fit neither, conviction Low-Medium. Cotton/yarn theme (FY27 bumper on weak base + FTAs, priority 2). [conviction_score 16.0, external-lead]",
+      "dimensions": {
+        "thesis": "neither",
+        "recent_fundamentals": "unknown",
+        "long_term_fundamentals": "adequate",
+        "technicals": "unknown",
+        "governance": "unknown"
+      },
+      "primary_screen_reason": "thesis"
+    },
+    {
+      "name": "Vardhman Textiles Ltd",
+      "reason": "Genuine quality large-cap (low leverage, market leader) but low ROE (7.55%) and poor 5yr growth; large-cap default to neither applied with no named inflection to except it. Thread stale since 2023. four_box 2.5. thesis_fit neither, conviction Low-Medium. [conviction_score 16.0, external-lead]",
+      "dimensions": {
+        "thesis": "neither",
+        "recent_fundamentals": "weak",
+        "long_term_fundamentals": "weak",
+        "technicals": "unknown",
+        "governance": "clean"
+      },
+      "primary_screen_reason": "size"
+    },
+    {
+      "name": "Sportking India Ltd",
+      "reason": "Revenue is flat-to-down (FY26 -1.1% YoY), directly contradicting the originating tip's 'strong Q1' claim. Near-empty, moderator-flagged thread (3 posts). four_box 1.5. thesis_fit neither, conviction Low. [conviction_score 8.0, external-lead]",
+      "dimensions": {
+        "thesis": "neither",
+        "recent_fundamentals": "weak",
+        "long_term_fundamentals": "weak",
+        "technicals": "unknown",
+        "governance": "unknown"
+      },
+      "primary_screen_reason": "recent_fundamentals"
+    },
+    {
+      "name": "Nahar Spinning Mills Ltd",
+      "reason": "Filtered at screening: negative-to-negligible ROCE/ROE, no catalyst. No forum work performed. thesis_fit neither, conviction Low. [conviction_score 8.0, external-lead]",
+      "dimensions": {
+        "thesis": "neither",
+        "recent_fundamentals": "weak",
+        "long_term_fundamentals": "weak",
+        "technicals": "unknown",
+        "governance": "unknown"
+      },
+      "primary_screen_reason": "long_term_fundamentals"
+    },
+    {
+      "name": "DCM Nouvelle Ltd",
+      "reason": "Web-only pass (no confident VP thread match). Weak ROE (~1-2%), modest +27% YoY growth (not un-ignorable next to GHCL Textiles' +52%). four_box 1.5. thesis_fit neither, conviction Low. [conviction_score 8.0, external-lead]",
+      "dimensions": {
+        "thesis": "neither",
+        "recent_fundamentals": "weak",
+        "long_term_fundamentals": "weak",
+        "technicals": "unknown",
+        "governance": "unknown"
+      },
+      "primary_screen_reason": "long_term_fundamentals"
+    },
+    {
+      "name": "Shiva Mills Ltd",
+      "reason": "Filtered at screening: negative-to-negligible ROCE/ROE, no catalyst. No forum work performed. thesis_fit neither, conviction Low. [conviction_score 8.0, external-lead]",
+      "dimensions": {
+        "thesis": "neither",
+        "recent_fundamentals": "weak",
+        "long_term_fundamentals": "weak",
+        "technicals": "unknown",
+        "governance": "unknown"
+      },
+      "primary_screen_reason": "long_term_fundamentals"
     }
   ],
   "tierA_intro": "Names combining real (not narrative-only) fundamental momentum, a specific catalyst, and a credible path to the thesis return, with no material red flags found.",
@@ -5013,21 +5157,6 @@
       "name": "Electronics Mart India",
       "tagline": "Q1 FY27 'BLOCKBUSTER' (PAT +458%) after 2 years of margin compression, partly an easy...",
       "rationale": "Q1 FY27 'BLOCKBUSTER' (PAT +458%) after 2 years of margin compression, partly an easy prior-year comp. One-quarter confirmation. [conviction_score 42.8]"
-    },
-    {
-      "name": "ADF FOOD LTD",
-      "tagline": "Debt-free export compounder now showing genuine operating leverage; Surat plant ramping",
-      "rationale": "FY26 PAT +29.84% YoY on revenue +15.88%; TTM profit growth (38%) running ~2x TTM sales growth (19%), both well ahead of 5-yr averages - genuine operating leverage the 'steady compounder' framing missed. Surat Greenfield frozen-foods plant commissioned (Mar-2026, +10,000MT) with up to Rs250cr incremental revenue potential over 2-3 years, only ~30% utilised in FY27. US subsidiary got a USD2.1mn tariff refund. Valuation essentially unchanged (~30x trailing P/E) despite the acceleration - expectation-gap scoring flags this underestimated (gap score 73.7, strong evidence) since market hasn't re-rated yet. FCF negative 2 years funding the plant (real nuance vs 'cash-rich' framing) and FY27 guide is conditional on Middle East/freight stabilisation. [conviction_score 48.8]"
-    },
-    {
-      "name": "Bhagyanagar India Ltd",
-      "tagline": "RocketMan's detailed per-tonne EBITDA leadership bull case directly contradicted by...",
-      "rationale": "RocketMan's detailed per-tonne EBITDA leadership bull case directly contradicted by management's own guidance that Q1 margin is one-time, normalizing to ~5%. Rising competitive entry from 3 funded peers. [conviction_score 42.8]"
-    },
-    {
-      "name": "Data Patterns (India) Limited",
-      "tagline": "High-quality defence electronics (60% ROE, debt-free)",
-      "rationale": "High-quality defence electronics (60% ROE, debt-free) but order book flagged flat for several quarters; Su-30 radar-upgrade opportunity is a live but unconfirmed catalyst. [conviction_score 42.8]"
     },
     {
       "name": "SML Isuzu Ltd",
@@ -5348,6 +5477,36 @@
       "name": "Jasch Industries Ltd",
       "tagline": "New Kia OEM contract driving a real small-cap inflection, but already re-rated +56%/month",
       "rationale": "5yr sales growth only 11.2%/yr but Q4FY25 delivered +26% revenue/+232% profit on a new, community-quantified Kia OEM supply contract (est. Rs80-100cr incremental vs Rs170cr prior-year base) - gaining domestic share from Mayur Uniquoters per detailed community math, independently confirmed as fundamentally (not artificially) driven by a trusted user. Stock already re-rated +44%/2 days, +56%/month; no company con-calls (information-scarcity risk). thesis_fit 10x-in-2-3-years, conviction capped Medium given the run-up and info scarcity. [conviction_score 38.0, external-lead]"
+    },
+    {
+      "name": "Wise Travel India Ltd (WTICabs)",
+      "tagline": "Corporate-mobility / GCC-formalisation story, trusted user invested - but FY27 growth guided down and leverage rising",
+      "rationale": "FY26 consolidated revenue +51% to Rs826cr, EBITDA +67% (margin 10.7%->11.9%); PAT +26% only, held back by depreciation/finance cost from a strategic pivot to owning the fleet (795 net vehicle additions). Trusted user Prathamesh_Adhikari invested and building a bottoms-up ~40% FY26 segment-growth case; 2 distinct trusted users engaged (+8 corroboration). Caveats: management guided FY27 revenue growth DOWN to 32-35%; borrowings surged 444% YoY (Rs27cr->Rs147cr) to fund the fleet, D/E 0.61->0.73, FCF turned negative (~-Rs31cr); Fleet Pro (the fastest-growing segment) is EBITDA-negative; expectation-gap score only 16 (growth-decelerating / partially-priced) - watchlist, not a fresh buy. thesis_fit 10x-in-2-3-years, conviction Medium. [conviction_score 46.0, external-lead]"
+    },
+    {
+      "name": "Tube Investments of India Ltd",
+      "tagline": "Murugappa incubator with CG Power turnaround pedigree and a funded EV push - but de-rated ~36% and richly valued",
+      "rationale": "Murugappa Group holding/incubator engine with a demonstrated turnaround record (CG Power) and a real, funded EV push (TI Clean Mobility / Montra Electric, Rs3,000cr raised, Rs412cr FY26 PBIT loss on a well-funded runway). Large-cap inflection exception invoked (+20 thesis). Caveats: substantive (non-trusted) community pushback on unrelated CDMO / medical-device diversification as capital-allocation indiscipline; stock de-rated ~36% since a trusted user's 2024 SOTP bull case, negative 1yr returns, ~86x P/E; no trusted corroboration this pass. thesis_fit 100x-in-10-years, conviction Medium. [conviction_score 44.0]"
+    },
+    {
+      "name": "Samvardhana Motherson International Ltd",
+      "tagline": "Auto-ancillary core quietly re-platforming into a capital allocator - aerospace + consumer-electronics optionality",
+      "rationale": "Large-cap (Rs1,69,293cr) auto-ancillary core is healthy (17% ROE, net debt-free) and re-platforming into a capital allocator/incubator: aerospace (>$1bn order book, Tier-1 Airbus) plus consumer electronics (Rs7,500cr capex, 3 greenfield plants, 75% QoQ growth). Large-cap inflection exception invoked for a named capital-allocation regime change (+20 thesis). Caveats: electronics segment still lossmaking; management has a documented history of missing multi-year guidance; sourced from a non-trusted snippet mention (@a_basumallick) with no stated conviction. thesis_fit 100x-in-10-years, conviction Medium. [conviction_score 44.0, trusted-x-watch]"
+    },
+    {
+      "name": "Jubilant Agri & Consumer Products Ltd",
+      "tagline": "High-ROCE Jubilant-group niche-polymer business at a peer-relative discount, mid-demerger",
+      "rationale": "High-ROCE (32-37%) Jubilant-group niche-polymer business (India's largest VP-latex, global top-2 SPVA), ~26x P/E for 31% ROE vs Pidilite's ~75x for 23%. Mid NCLT demerger (creditors' meeting 5-Sep-2026) separating the subsidy-dependent fertilizer drag. Caveats: two independent community SOTP analyses (Folok, kinvestor04, neither trusted) both put demerger-arb upside at only ~17-20% - a quality/valuation thesis, not an outsized special situation; adhesive-segment margin quality (9% vs 20%+ peers while gaining share) unresolved; no trusted corroboration. thesis_fit 10x-in-2-3-years, conviction Medium. [conviction_score 38.0]"
+    },
+    {
+      "name": "Jayaswal Neco Industries Ltd",
+      "tagline": "Integrated steel/pig-iron/casting group swung to profit as an iron-ore mine EC expansion was approved",
+      "rationale": "Integrated Nagpur/Chhattisgarh steel-pig iron-casting group; Q1FY26 swung from a Rs31.68cr loss to a Rs93.02cr profit YoY, coinciding with a freshly-approved iron-ore mine EC expansion (2.95->6 MnTPA) the thread correctly anticipated. richbandit (trusted) flagged an unresolved rolling-mill-utilisation execution question. Reputational overhang (not a formal red flag): sister company Neco Defence Munitions - not JNIL itself - is at the centre of a ~EUR70m Estonian ammunition dispute that triggered a minister's resignation. four_box 3.0 via the trailing-weak / live-inflection rule. thesis_fit 10x-in-2-3-years, conviction Medium. [conviction_score 38.0]"
+    },
+    {
+      "name": "Aries Agro Ltd",
+      "tagline": "50-year micronutrient leader with a margin-mix inflection and a China import-substitution catalyst",
+      "rationale": "50-year-old micronutrient/chelation-tech leader; FY26 shows a genuine margin-mix inflection (19.6% value growth vs 1% volume growth) plus a specific catalyst (China halted fertilizer exports to India). vikasbargale (trusted) independently verified decade-long cash-positive operation with improving working capital, but flagged regulatory price-control and Chinese-dumping risk; a distributor's in-thread critique ('no brand pull', ~100 similar sellers) is unresolved and undercuts the moat. Already lived through one hype-driven boom-bust cycle (2018-19 Vijay Kedia effect, >50% crash). four_box 3.0 via the trailing-weak / live-inflection rule. thesis_fit 10x-in-2-3-years, conviction Medium. [conviction_score 38.0]"
     }
   ],
   "tierC_intro": "Speculative or low-conviction - worth tracking, not yet actionable. Several of these are unconfirmed INFLECTION stories: a real, recent-quarter change plausibly explains why trailing multi-year averages don't reflect the current picture - flagged for visibility and monitoring, not treated as confirmed.",
@@ -6495,6 +6654,19 @@
         "governance": "watch"
       },
       "primary_screen_reason": "recent_fundamentals"
+    },
+    {
+      "name": "GHCL Textiles Ltd",
+      "tagline": "Weak trailing ROCE but a genuine Q1FY27 +52% YoY - no forum cross-check possible",
+      "rationale": "Demerged textiles arm; weak trailing ROCE (2.3%) but genuine Q1FY27 revenue +52% YoY. ~98% utilisation caps near-term volume durability. Un-ignorable-growth exception invoked to permit thesis_fit 10x-in-2-3-years, but conviction Low - unconfirmed, no confident VP thread match (forum search only surfaced the unrelated parent GHCL Ltd soda-ash thread) so no community cross-check possible. Sits in the FY27 textile-export-on-weak-base + FTA theme (priority 2). [conviction_score 22.0, external-lead]",
+      "dimensions": {
+        "thesis": "borderline",
+        "recent_fundamentals": "strong",
+        "long_term_fundamentals": "weak",
+        "technicals": "unknown",
+        "governance": "unknown"
+      },
+      "primary_screen_reason": "long_term_fundamentals"
     }
   ],
   "highCaution": [
@@ -7097,6 +7269,18 @@
         "governance": "red"
       },
       "primary_screen_reason": "governance"
+    },
+    {
+      "name": "Jyoti CNC Automation Ltd",
+      "reason": "HIGH CAUTION. Strong headline fundamentals (ROCE 21%, ROE 18%) but the originating X tip's cited catalyst is backwards: French subsidiary Huron Graffenstaden SAS is under active investigation by the French National Anti-Terrorism Prosecutor (PNAT) for fraudulent dual-use CNC exports to Russia via India (2022+, embargo violations); some export licences have been CANCELLED (not 'unlocked'), the CEO was replaced, and the stock took a ~15% single-day correction in Apr-2026. red_flag_tier HIGH CAUTION overrides a would-be four_box 3.0 -> thesis_fit neither, conviction forced to 0 (base 16 - red-flag penalty 25). [conviction_score 0, external-lead]",
+      "dimensions": {
+        "thesis": "neither",
+        "recent_fundamentals": "strong",
+        "long_term_fundamentals": "strong",
+        "technicals": "unknown",
+        "governance": "red"
+      },
+      "primary_screen_reason": "governance"
     }
   ],
   "avoid": [
@@ -7171,6 +7355,18 @@
         "governance": "red"
       },
       "primary_screen_reason": "governance"
+    },
+    {
+      "name": "Purple Style Labs Ltd",
+      "reason": "AVOID. Negative net worth (-Rs52.28cr FY26); losses widened ~6x FY24-26 (Rs47.71cr->Rs285.40cr) on revenue growth of only ~11%; borrowings up 3.3x. No VP thread; web-only. [conviction_score 0, red-flag forced zero, external-lead]",
+      "dimensions": {
+        "thesis": "neither",
+        "recent_fundamentals": "weak",
+        "long_term_fundamentals": "weak",
+        "technicals": "unknown",
+        "governance": "red"
+      },
+      "primary_screen_reason": "recent_fundamentals"
     }
   ],
   "exclude": [
@@ -7185,6 +7381,10 @@
     {
       "name": "Darjeeling Industries",
       "reason": "Active SEBI ex-parte interim order dated 30 June 2026 — the MD (Ashok Dilipkumar Jain) and 9 others barred for alleged circular funding, misuse of preferential-issue proceeds and stock-price manipulation; SEBI could not find any operational presence at either registered-office address; ~Rs 3.09 Cr diverted to an unrelated baby-care LLP. Re-verified via web this pass — the order is real and operative. Live enforcement action overrides all fundamental / technical considerations."
+    },
+    {
+      "name": "Kimbal Ltd",
+      "reason": "EXCLUDED on investability: confirmed to be an unlisted private company (Niveshaay / GEF-backed, no NSE/BSE ticker). The originating X tip (@arvind_kothari) itself describes a private-round story. Not a fundamentals screen-out. [conviction_score 8.0, external-lead]"
     }
   ]
 }
