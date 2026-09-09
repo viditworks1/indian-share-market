@@ -1,6 +1,6 @@
 {
   "_doc": "Live theme list used by vpscreen-scan to PRIORITISE which forum-discovery candidates get researched first when the Step 0.5 trusted/elevated priority queue is drained. A discovery thread whose title/slug/excerpt matches a theme's keywords is researched ahead of a non-matching ('random') discovery candidate; priority-1 themes ahead of priority-2; within a bucket, most-recent first (the existing recency rule). This does NOT change the discovery MECHANISM (still discover.py, recency-sorted, not reply-count) — it re-ranks the shortlist by theme relevance. Method: playbook/ishmohit-soic-style.md. | priority 1 = accelerating global tailwind (research first), 2 = steady / human-set / secondary, 3 = dormant (cooling; global-proxy-scan sets this after 2 decelerating reads — deprioritise but do not drop).",
-  "as_of": "2026-09-04",
+  "as_of": "2026-09-09",
   "maintained_by": "seeded 2026-08-30 from global_bellwethers.json (accelerating tailwinds) + playbook/ishmohit-soic-style.md section 3; global-proxy-scan light-refreshes priority/as_of on themes it re-reads; a human can add/retire entries here directly; 2026-08-31 two themes (capital-markets financialisation, shipbuilding & maritime) added by user-directed x-cluster expansion.",
   "match_rule": "case-insensitive substring match of any keyword against the discovery thread's title + slug + excerpt (and the candidate company name). A hit on ANY keyword = a match for that theme.",
   "themes": [
@@ -592,6 +592,39 @@
       "source": "global-bellwether (Hensoldt — new theme 2026-09-02)",
       "as_of": "2026-09-04",
       "notes": "Stage A4 discovery 2026-09-02 (Hensoldt/Elbit/IAI record backlogs). India pure-plays (Data Patterns, Astra Microwave, Apollo Micro, Paras Defence) already researched; theme's formal bellwether read + Stage B/C mapping happens next global-proxy-scan run. | 2026-09-04: first formal bellwether read (Hensoldt H1-26 order intake doubled to EUR2.81bn, backlog EUR10.36bn first >EUR10bn, BtB 2.4x) = ACCELERATING -> promoted to priority 1. Stage C on Data Patterns / Astra Microwave = partial (record order books + lifted guides, but Q1FY27 P&L not yet inflecting)."
+    },
+    {
+      "theme": "Oilfield services / drilling & exploration capex (upstream E&P activity uptick)",
+      "keywords": [
+        "oilfield",
+        "oil field",
+        "oilfield services",
+        "drilling",
+        "drill pipe",
+        "drilling tools",
+        "rig",
+        "offshore rig",
+        "workover",
+        "well completion",
+        "seismic",
+        "E&P",
+        "exploration and production",
+        "upstream",
+        "ONGC",
+        "Oil India",
+        "crude",
+        "oil on boil",
+        "ATBS",
+        "well services",
+        "mud chemicals",
+        "oil country tubular",
+        "OCTG",
+        "coiled tubing"
+      ],
+      "priority": 2,
+      "source": "x-cluster @a_basumallick (repeat signal 2026-09-08/09) — pending global-proxy-scan bellwether read",
+      "as_of": "2026-09-09",
+      "notes": "Added from x-trusted-cluster review 2026-09-09: @a_basumallick tied 'oil on boil -> drilling & exploration activity should pick up' to a live #VINATIORGA concall (ATBS in oil-drilling polymers) + his intelsense 'stock story' proxy pick United Drilling Tools; repeat theme across recent posts. No active_themes entry existed for upstream E&P/oilfield-services demand. Registry already carries names in this space (Jindal Drilling, Asian Oilfields, United Drilling Tools [trusted-x-watch], Antelopus Selan [candidate], Selan Exploration) so this is a re-ranking theme only, NOT a new-candidate mint (no-self-discovery policy). Priority 2 pending a formal Stage A4 bellwether read (SLB / Halliburton / Baker Hughes global upstream-capex guidance) + sanctioned Stage B proxy mapping on the next global-proxy-scan run."
     }
   ]
 }

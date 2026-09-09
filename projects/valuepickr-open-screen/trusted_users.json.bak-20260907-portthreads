@@ -1,0 +1,2238 @@
+{
+  "note": "Users promoted to trusted status based on objective community reputation (total_love + posts_seen from users.json), auto-computed by scripts/promote_trusted_users.py. A trusted user's high-conviction calls carry the same weight WHEREVER they post - their own journal thread, a company thread, anywhere - not just a specific named thread. This generalizes the original 'Phreak's thread only' design once real repeat-sighting data exists for other posters. Every entry also carries a trust_tier: 'core' (source: user-named) is reserved for users the human operator of this project has explicitly named as heavily trusted - currently only phreakv6 - and must NEVER be auto-assigned by promote_trusted_users.py; only a human manually editing this file (setting source: 'user-named') should ever create a 'core' entry. 'elevated' (source: auto-promoted) is the default tier for everyone who clears the mechanical reputation bar. The distinction matters downstream: rules like the 'very-high trusted conviction floor' in scripts/audit_state.py require 'core' tier, not just 'elevated', before a trusted signal can force a conviction floor - see trusted_conviction_floor_active in state.json entries.",
+  "promotion_criteria": {
+    "min_total_love": 15,
+    "min_posts_seen": 3
+  },
+  "users": {
+    "phreakv6": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Explicitly named by the user as heavily trusted",
+      "source": "user-named",
+      "own_thread_topic_id": 180929,
+      "trust_tier": "core"
+    },
+    "ranvir": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 50 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": 1237,
+      "trust_tier": "elevated"
+    },
+    "karanshah137": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 19 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Satishwe": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 36 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Marathondreams": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 21 total love across 14 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "vikasbargale": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 38 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Chandragupta": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 33 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Worldlywiseinvestors": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 420 total love across 20 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Rafi_Syed": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 36 total love across 8 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "T11": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 40 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "calm": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 19 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "harsh.beria93": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 115 total love across 10 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "GautamBafna": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 33 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Sid_Mathew": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 20 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Mohit_Jariwala": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 23 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "drjpatwa": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 29 total love across 8 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Simrat": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 29 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Hemant_Kumar2": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 20 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "newrb": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 76 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "hnk_so": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 24 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "manthansoni1991": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 27 total love across 14 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "vikas_sinha": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 35 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "shyamutty": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 15 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Vivek_6954": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 22 total love across 11 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": 675,
+      "trust_tier": "elevated"
+    },
+    "Midhunjoe": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 15 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Tushar_Gupta1": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 32 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Niraj_Punjkaran": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 44 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "rajpanda": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 61 total love across 12 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": 703,
+      "trust_tier": "elevated"
+    },
+    "Naman_Gupta1": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 16 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "idikasony": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 17 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "r8b8": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 125 total love across 10 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "RAJ_THARUN": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 18 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Serendip": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 25 total love across 10 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "RocketMan": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 17 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "hitesh2710": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 178 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": 658,
+      "trust_tier": "elevated"
+    },
+    "rajguleria": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 17 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Lajja_Shah": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 21 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Gautam_Chopra": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 16 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "james_kerala": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 31 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "dineshssairam": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 41 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Prdnt_investor": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 43 total love across 11 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "tbhavesh": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 20 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "BuyRightSitTight": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 70 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "basumallick": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 52 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Jitendrapd94": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 18 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "dd1474": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 15 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "murali603": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 27 total love across 11 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "ankiur.jain83": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 15 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Prabhat_Mohanty": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 15 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Nikunj_Todi": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 18 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Samarth_Nagpal": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 25 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "utsav08": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 27 total love across 11 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "kdjolly": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 32 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Donald": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 15 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Malvino": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 19 total love across 8 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "kautuk": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 69 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "akash8844": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 66 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Vansh_Dhelia": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 94 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Praveen_Tiwari": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 19 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Aloysius_De_Sa": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 23 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated",
+      "own_thread_searched": "2026-09-01"
+    },
+    "richbandit": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 73 total love across 12 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Nirav8": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 19 total love across 8 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "manitmittal": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 98 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Hemanpower": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 23 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "gauravpersonal": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 31 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "DarshanG": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 19 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "sumit680": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 41 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "insiderTrader": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 35 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Bhashit_Parikh": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 22 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Investor_No_1": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 18 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "sougataG": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 21 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Shripad": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 24 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "OmkarT": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 50 total love across 15 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Vijay_Kiran": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 15 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "cdas3317": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 31 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Amnesiac": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 41 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Cshar": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 67 total love across 10 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "pranavpallod12": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 131 total love across 12 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "nav_1996": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 23 total love across 12 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "bhaskarbora67": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 21 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "VALUE2017": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 22 total love across 18 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "sujay85": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 20 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "UrsRafeek": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 23 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "aditya.archi": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 22 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "sgkfinance": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 22 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "kartik_bhat": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 42 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "gaurav": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 22 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "sameernics": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 20 total love across 10 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Rahul_Behera": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 15 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "meekinvestor": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 24 total love across 10 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "abhicnr": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 33 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "PRATEEK_CHANDRA": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 24 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Debojit_Kangsa_Banik": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 99 total love across 21 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "dark_hunter": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 30 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "vivek_lakhani": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 17 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "fabregas": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 98 total love across 8 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Ghonarbochon": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 22 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "LarryWink": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 17 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Rajesh_Yadav": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 77 total love across 28 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "harmeet_kumar": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 19 total love across 15 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Lavanya_Tomar": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 17 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "antson_m": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 36 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "ashutosh37": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 28 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "NeelaC": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 22 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Akashdeep": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 15 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated",
+      "own_thread_searched": "2026-09-01",
+      "own_thread_search_note": "found 97899 Akashdeep Portfolio but reply_count 8 < 20, does not qualify"
+    },
+    "dpk1994": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 31 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "rupaniamit": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 71 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "bharat19": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 17 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "suru27": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 29 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Sudarsan93": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 24 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Manik_Gupta": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 19 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "ChaitanyaC": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 21 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Mukul_Jain": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 27 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Rajesh_Bajaj": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 22 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "joinjp2003": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 86 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Mudit.Kushalvardhan": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 15 total love across 14 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "own_thread_topic_id": null,
+      "trust_tier": "elevated"
+    },
+    "Raghul_Kuduva": {
+      "promoted_date": "2026-08-22",
+      "promotion_reason": "Auto-promoted: 19 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Sudhakar_Subramanian": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 18 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "saurabhgupta": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 17 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Karthi_Keyan1": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 17 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Surender": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 48 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "aceinvestor_75": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 21 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "rahil_sayta": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 15 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "gsapte": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 16 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Omkar_4720": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 31 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Jadewade": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 31 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Varsh": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 21 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "StonePitbull": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 24 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Deven": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 18 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Krishna_Kumar": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 27 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Swadesh9819": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 15 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "raj1968": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 17 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "radhakishandamani": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 30 total love across 11 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Aman_Jain3": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 25 total love across 12 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Kamat7": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 88 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "HighCAGR": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 15 total love across 8 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Zaki_Ahmad": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 75 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Pujan_Shah": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 36 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "vnktshb": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 22 total love across 15 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "ripzc09": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 26 total love across 14 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "manoopatil": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 77 total love across 17 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "sujaypawar": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 46 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "MomentumStocks": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 19 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Vineetjain111": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 20 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Lakeview_Resort": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 24 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Buvaneswaran_C": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 26 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Akshil_Mehta": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 20 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "happynadh": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 15 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Mayank_d": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 50 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Harsh_Rathod": {
+      "promoted_date": "2026-08-23",
+      "promotion_reason": "Auto-promoted: 21 total love across 11 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Rj_Arora": {
+      "promoted_date": "2026-08-24",
+      "promotion_reason": "Auto-promoted: 15 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Maheshcm": {
+      "promoted_date": "2026-08-24",
+      "promotion_reason": "Auto-promoted: 26 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "manish962": {
+      "promoted_date": "2026-08-24",
+      "promotion_reason": "Auto-promoted: 17 total love across 10 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "omsingla": {
+      "promoted_date": "2026-08-24",
+      "promotion_reason": "Auto-promoted: 16 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Malhar_Manek": {
+      "promoted_date": "2026-08-24",
+      "promotion_reason": "Auto-promoted: 47 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "gurjota": {
+      "promoted_date": "2026-08-24",
+      "promotion_reason": "Auto-promoted: 93 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "asarun": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 16 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Chins": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 181 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "vir259": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 21 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Tar": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 17 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Chumantar": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 16 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "gurjeev": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 23 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Ravi_Hundal": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 25 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "siddybee": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 26 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Mohit_baid": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 16 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "manpritaurora": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 75 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Ashar_Mann": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 15 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "avneesh": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 15 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Shail1234": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 20 total love across 21 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "RajeevJ": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 31 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "ORION": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 46 total love across 14 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "niraj": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 46 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Markmaker": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 20 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "nirvana_laha": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 89 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "YashSodha": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 15 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "PratikSurana": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 16 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Ravi.0104": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 27 total love across 10 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "ashishk": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 44 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "GourabPaul": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 36 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "yashchandak": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 20 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "faltooinvestor": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 43 total love across 8 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "HarshalL": {
+      "promoted_date": "2026-08-25",
+      "promotion_reason": "Auto-promoted: 18 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Jose": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 23 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "paragbharambe": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 44 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Snowman": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 17 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Arka": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 27 total love across 12 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Rahul_Bhardwaj": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 49 total love across 12 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "ankit_tripathi": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 17 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "vibhor_vaish": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 16 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Girish_Kolari": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 31 total love across 14 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "abhay.jain": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 47 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "somil.bhandari": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 33 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Neophyte": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 15 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Aarti": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 33 total love across 35 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "vivek_17": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 16 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "randomquarks": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 34 total love across 12 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "nithin_Shenoy": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 16 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Divyansh_Thakur": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 19 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Learner_Raja": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 16 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Md_Uzair": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 16 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Prathamesh_Adhikari": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 23 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Pranshinv": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 25 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Pheonix": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 23 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "lohiyaakshay08": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 17 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "thakurvi": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 19 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Souresh_Pal": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 17 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Fvs": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 24 total love across 8 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Kuldeepjadeja": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 16 total love across 12 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Farhan_Shaikh": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 19 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "astha.arora23": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 43 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "V_Nagender_Rao_Gunda": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 24 total love across 17 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "himanshu.dugar": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 17 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Ravi1": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 21 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "awwwwnuj": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 17 total love across 8 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Dhruv_Galada": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 19 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Faiz_ahmed": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 24 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Ascendant": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 19 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Manav": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 19 total love across 11 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "37-Vansh_Saini-A": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 21 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "abhishek_singh11": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 15 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Pratham_Kankariya": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 29 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "varunm2112": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 17 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Pragnesh": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 17 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "yogeshkhadse": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 16 total love across 10 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Mahigiri21": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 18 total love across 16 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "rk1771": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 91 total love across 28 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "shivam2k6": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 15 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Manoos": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 44 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Divyanshu_Parganiha": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 19 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Shanki_Bansal": {
+      "promoted_date": "2026-08-27",
+      "promotion_reason": "Auto-promoted: 126 total love across 22 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Ashfak2b": {
+      "promoted_date": "2026-08-28",
+      "promotion_reason": "Auto-promoted: 16 total love across 9 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Kasfur_Dhuniyan": {
+      "promoted_date": "2026-08-28",
+      "promotion_reason": "Auto-promoted: 21 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "aditya14920251": {
+      "promoted_date": "2026-08-28",
+      "promotion_reason": "Auto-promoted: 18 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Agni": {
+      "promoted_date": "2026-08-28",
+      "promotion_reason": "Auto-promoted: 17 total love across 12 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Jay_vaghasia": {
+      "promoted_date": "2026-08-28",
+      "promotion_reason": "Auto-promoted: 24 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Santosh_Kadam": {
+      "promoted_date": "2026-08-28",
+      "promotion_reason": "Auto-promoted: 15 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Naman_Bhansali": {
+      "promoted_date": "2026-08-28",
+      "promotion_reason": "Auto-promoted: 47 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Danish_kataria": {
+      "promoted_date": "2026-08-28",
+      "promotion_reason": "Auto-promoted: 16 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "sbkv": {
+      "promoted_date": "2026-08-28",
+      "promotion_reason": "Auto-promoted: 16 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "darwin_ate_my_dcf": {
+      "promoted_date": "2026-08-28",
+      "promotion_reason": "Auto-promoted: 26 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Ketan_Chheda": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 15 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Dhiren_Barvadiya": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 17 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Mayank_Bajpai": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 15 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "AMANDEEPSINHA": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 17 total love across 19 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "sivaprakashh": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 20 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "hardik_shah1": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 16 total love across 13 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Shikhar": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 26 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "sumitjain0014": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 21 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "firefueled": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 27 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Pravin_Ranjan": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 15 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Amit2saxena": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 19 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "MANU_JINDAL": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 17 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Chirayu_Shah": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 17 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "prchou83": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 25 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Rajandeep_Singh": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 17 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Vinay_Garg": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 22 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "saurabhsadhu": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 16 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "njain1983": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 59 total love across 8 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "hardik_sumariya": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 18 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Aakash_Javeri": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 17 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "chiragp": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 32 total love across 17 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "vinaytandasi": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 26 total love across 13 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Anitha_Govindaraj": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 16 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Manivannan": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 19 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "rishikeshs": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 17 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "curious": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 61 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Charanjeev_Kohli": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 20 total love across 10 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "vikashkota": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 16 total love across 15 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "hamir_asher": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 29 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "GurpreetSingh": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 17 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "rcinvestor999": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 20 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "rankamoksh": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 20 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "MHS": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 16 total love across 8 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "fundoo": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 29 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Sidharth_Chandraseka": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 23 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "rks00": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 21 total love across 8 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "S_Sankar": {
+      "promoted_date": "2026-08-29",
+      "promotion_reason": "Auto-promoted: 15 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Suhail_Ansari": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 26 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Shreyash_Jaiswal": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 20 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "shanid": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 39 total love across 11 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "novice2014": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 20 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "ankit_george": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 95 total love across 12 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Chandan_Sharma": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 16 total love across 14 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "arjunbadola": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 36 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Khanemc2": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 19 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "arnabdeb83": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 17 total love across 7 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Nabendu": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 64 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Priyatham": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 15 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Lynch": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 38 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "sagararya": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 21 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Nishant_Sampat": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 18 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "vikas_chandrawat": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 20 total love across 13 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Kailasa_Tiwari": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 15 total love across 11 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Neel_Shah": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 22 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "bozo_investor": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 21 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "DeepVal": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 45 total love across 10 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Researcher": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 20 total love across 11 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Ishan_Kapoor": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 16 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Take_The_Walk": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 20 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "First_Principles": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 43 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Karthick_S": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 19 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Stocks_To_Win": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 61 total love across 18 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Sumit_Agarwal": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 16 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "ha_the_meow": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 26 total love across 13 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Dhruv_Meisheri": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 18 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "HarshVijay": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 34 total love across 26 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Abhay_Srivastava": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 17 total love across 4 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "harshitgoel": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 28 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "AnkitGadia": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 17 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "shyamdsundar": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 15 total love across 8 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Rohan_Selson": {
+      "promoted_date": "2026-08-30",
+      "promotion_reason": "Auto-promoted: 16 total love across 6 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Ankit_Mishra": {
+      "promoted_date": "2026-08-31",
+      "promotion_reason": "Auto-promoted: 17 total love across 12 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "1957": {
+      "promoted_date": "2026-08-31",
+      "promotion_reason": "Auto-promoted: 61 total love across 25 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Prashantnegi76": {
+      "promoted_date": "2026-08-31",
+      "promotion_reason": "Auto-promoted: 25 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "suhagpatel": {
+      "promoted_date": "2026-08-31",
+      "promotion_reason": "Auto-promoted: 15 total love across 5 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "devarshi84": {
+      "promoted_date": "2026-08-31",
+      "promotion_reason": "Auto-promoted: 20 total love across 12 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "HBORA1012": {
+      "promoted_date": "2026-08-31",
+      "promotion_reason": "Auto-promoted: 57 total love across 3 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    },
+    "Aditya_Pahilwani": {
+      "promoted_date": "2026-08-31",
+      "promotion_reason": "Auto-promoted: 21 total love across 10 sighted posts (threshold: 15/3)",
+      "source": "auto-promoted",
+      "trust_tier": "elevated",
+      "own_thread_topic_id": null
+    }
+  }
+}

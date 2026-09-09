@@ -22,7 +22,7 @@
     ],
     [
       "Valuation",
-      "Stock P/E ~75-80x"
+      "Stock P/E ~90x (screener, Sep-2026); mcap ~Rs 5,850 Cr"
     ],
     [
       "Order book",
@@ -50,8 +50,167 @@
   },
   "growth_trajectory": {
     "yoy_trend": "accelerating",
-    "last_quarters_note": "FY26 revenue +14% YoY full-year; Q4FY26 revenue +10.7%; Q1FY27 standalone revenue +59% YoY, PAT +53% - a clear step-up as the order book converts",
-    "reverse_pe_note": "~75-80x trailing needs ~40%+ sustained EPS CAGR even at a generous ~30x exit; the order book (book-to-bill >1.4x, ~Rs 1,100 Cr FY27 inflow in 4 months) supports high growth near-term but the multiple leaves little room for execution slips"
+    "last_quarters_note": "Annual revenue YoY oldest->newest: FY22 +50%, FY23 +18%, FY24 +40%, FY25 +23%, FY26 +14%; then Q1FY27 consol revenue +53% YoY and PAT +51% - a clear re-acceleration as the doubled order book converts",
+    "reverse_pe_note": "~90x trailing (screener, Sep-2026) needs ~45%+ sustained EPS CAGR even at a generous ~30x exit; the order book (book-to-bill >1.4x, ~Rs 572 Cr inflow in Q1FY27 alone) supports high near-term growth but the multiple leaves no room for execution slips"
+  },
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-08",
+    "sources_reviewed": [
+      "screener.in consolidated (5yr P&L, ROCE/ROE, borrowings, cash flow, shareholding)",
+      "Q1FY27 results coverage (tradebrains, sahi.com, indmoney) - consol rev +53% YoY, PAT +51%, EBITDA margin 10.47%",
+      "FY26 results / order-book disclosure (order book Rs 525 Cr -> Rs 1,254 Cr; PAT +54%)",
+      "6-mo BSE/NSE order announcements (STT Global DC + Deepak Chem Tech Rs 76.4 Cr; Siemens/Titagarh/Princeton Rs 376 Cr; Princeton Digital Rs 141.74 Cr; Rs 284 Cr power-distribution batch)",
+      "existing ValuePickr thread 199411 (8 posts, order-flow tracking only)"
+    ],
+    "annual_report_findings": [
+      "5yr revenue CAGR ~28% (Rs 251 Cr FY21 -> Rs 877 Cr FY26); PAT CAGR ~36% (Rs 14 Cr -> Rs 59 Cr) - a genuine multi-year growth record, not a one-year pop",
+      "ROCE improved every year: 12% FY22 -> 14 -> 15 -> 16 -> 18% FY26; ROE stuck in a 12-14% band (project business, working-capital and equity-dilution drag)",
+      "Borrowings modest and range-bound: Rs 37 Cr FY22 -> Rs 89 Cr FY26; net debt/EBITDA well under 1x - balance sheet is not the risk",
+      "Capex-heavy mid-ramp: FY25 capex ~Rs 95 Cr vs CFO ~Rs 55 Cr; FY24 CFO was negative - free cash flow has been negative through the expansion, funded by internal accruals + modest debt",
+      "Promoter holding 68.2%, down ~6.3pp over 3 years (dilution/sell-down, not pledge); no pledged shares",
+      "OPM band 8-11% (FY26 11%) - typical systems-integration / turnkey margins, sensitive to project mix and execution"
+    ],
+    "quarterly_trend": [
+      "Q1FY27 (consol): revenue Rs 263 Cr (+53% YoY), EBITDA Rs 24.5 Cr (margin 10.47%, +63bps), PAT Rs 17.5 Cr (+51% YoY)",
+      "Q1FY27 standalone: revenue Rs 234 Cr (+59% YoY), PAT Rs 16.7 Cr (+53% YoY)",
+      "FY26 full year (consol): revenue Rs 877 Cr (+14% YoY), PAT Rs 58.6 Cr (+54% YoY)",
+      "Industry segment (data-centre / factory / building power systems) outgrew the traditional Marine segment in Q1FY27 - the DC diversification is showing in the mix"
+    ],
+    "recent_announcements": [
+      "2026-06-17: Rs 76.4 Cr orders from STT Global Data Centres India + Deepak Chem Tech (power distribution, 12-18 month execution)",
+      "2026-07-26: Rs 376 Cr cumulative orders (Siemens / Titagarh / Princeton Group)",
+      "2026-07-28: Rs 141.74 Cr work order from Princeton Digital Group for power distribution system",
+      "Rs 284.39 Cr power-distribution order batch across data-centre and marine projects",
+      "Board approved direct listing of the shares on the BSE Main Board; final dividend Rs 0.30/share FY26"
+    ],
+    "key_new_facts": [
+      "P/E has richened further to ~90x (from ~75-80x at seed) even as the thesis played out - the re-rate is not done cooling",
+      "Order book Rs 1,254 Cr (Mar-26) is ~1.4x FY26 revenue; Q1FY27 alone added ~Rs 572 Cr of inflow - revenue visibility for FY27-28 is concrete",
+      "Growth record is longer and cleaner than the seed implied: 5yr rev CAGR ~28%, ROCE rising 12%->18%",
+      "FCF has been persistently negative through the capex ramp - a real watch-item at this multiple"
+    ],
+    "open_questions": [
+      "Can OPM hold/expand above 11% as the DC power-distribution mix scales, or does competition with ABB/Siemens/CG Power on large packages cap it?",
+      "When does the capex ramp turn FCF positive - FY27 or FY28?",
+      "Why has promoter holding fallen ~6pp in 3 years, and does the BSE direct-listing plan precede further sell-down?",
+      "No public FY27 revenue/margin guidance found - management gives order-book updates but not a P&L target"
+    ],
+    "conviction_update": "Medium -> Medium. The order-book-backed inflection is real, verifiable and now visible in the quarterly mix, and the multi-year record (28% rev CAGR, ROCE 12->18%) is better than the seed implied; but the multiple has richened to ~90x, FCF is still negative, and no trusted-roster user has engaged - so no upgrade."
+  },
+  "commitments": [
+    {
+      "area": "orders",
+      "text": "Convert the Rs 1,254 Cr order book over 12-18 months",
+      "specifics": "Rs 1,254 Cr book Mar-26 (~1.4x FY26 revenue); Rs 572 Cr fresh inflow Q1FY27",
+      "timeline_bucket": "FY27",
+      "quality_stage": "commercial",
+      "source": "FY26 results release + Q1FY27 order announcements",
+      "dependency": "customer site readiness / project execution schedules",
+      "single_point_of_failure": "execution and working-capital cycle on large turnkey packages",
+      "thesis_critical": true
+    },
+    {
+      "area": "new_business",
+      "text": "Scale data-centre power distribution as a second growth leg",
+      "specifics": "STT Global, Princeton Digital, Deepak Chem Tech orders; Industry segment > Marine segment in Q1FY27",
+      "timeline_bucket": "FY27",
+      "quality_stage": "commercial",
+      "source": "Q1FY27 results commentary",
+      "dependency": "India data-centre buildout pace; approved-vendor status with hyperscalers",
+      "single_point_of_failure": "loss of share to larger electrical majors on big packages",
+      "thesis_critical": true
+    },
+    {
+      "area": "strategy",
+      "text": "Direct listing of shares on BSE Main Board",
+      "specifics": "board-approved",
+      "timeline_bucket": "12M",
+      "quality_stage": "action",
+      "source": "Q1FY27 board meeting",
+      "dependency": "regulatory approvals",
+      "single_point_of_failure": "",
+      "thesis_critical": false
+    }
+  ],
+  "earnings_chain": {
+    "chain": [
+      "order inflow (Rs 1,254 Cr book + DC pipeline)",
+      "execution / revenue conversion over 12-18 months",
+      "operating leverage on fixed overhead + new capacity",
+      "EBITDA margin toward/above 11%",
+      "PAT",
+      "FCF (still negative through capex ramp)"
+    ],
+    "bottleneck_link": "execution / revenue conversion over 12-18 months",
+    "operating_leverage": "unclear - margin ticked up 63bps in Q1FY27 but OPM has been stuck in an 8-11% band for five years; mix shift to DC could help or competition could cap it",
+    "evidenced_links": [
+      "order inflow (Rs 1,254 Cr book + DC pipeline)",
+      "execution / revenue conversion over 12-18 months"
+    ],
+    "assumed_links": [
+      "operating leverage on fixed overhead + new capacity",
+      "EBITDA margin toward/above 11%",
+      "FCF (still negative through capex ramp)"
+    ]
+  },
+  "market_expectation": {
+    "as_of": "2026-09-08",
+    "price": 418,
+    "current_pe": 90,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~90x trailing implies ~45% EPS CAGR FY26-28 to be fair against a generous ~30x franchise exit; even the strong order book makes that a stretch beyond FY27",
+    "our_fy27_estimate": "revenue +35-45% (order-book conversion), PAT +40-50%, OPM ~11%",
+    "our_fy28_estimate": "growth decelerates toward 20-25% as the FY26 order base normalises unless DC inflow keeps compounding",
+    "gap_direction": "priced-in",
+    "gap_type": "duration",
+    "gap_magnitude_pct": null,
+    "gap_basis": "the near-term acceleration is real and largely in consensus expectations; at ~90x the market is paying for growth to persist well beyond the visible order book",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "catalyst": {
+    "event": "Q2/Q3 FY27 prints showing order-book conversion at >35% revenue growth with OPM holding above 11%, plus continued DC order inflow",
+    "expected_window_months": 6,
+    "window_start": "2026-09-08",
+    "evidence_quality": "med",
+    "is_dated": false,
+    "status": "pending"
+  },
+  "earnings_quality": {
+    "margin_driver": "mixed",
+    "drivers": [
+      "project/turnkey mix (marine vs industry vs DC)",
+      "operating leverage on overhead as revenue scales",
+      "input-cost pass-through on fixed-price contracts"
+    ],
+    "peak_margin_risk": false,
+    "normalised_note": "OPM 11% in FY26 is the top of a five-year 8-11% band, not a spike above a defensible level; through-cycle ~9-10% is reasonable. Margin risk is failure to expand, not mean-reversion from a peak."
+  },
+  "management_quality": {
+    "capital_allocation": "Reinvested aggressively (FY25 capex ~Rs 95 Cr) into capacity for the DC/industry pivot; incremental ROCE rising (12%->18% over 5yr) suggests the reinvestment is earning back, though FCF is still negative. No unrelated diversification - all inside electricals/automation.",
+    "capital_allocation_track_record": "neutral",
+    "rpt_trend": "unclear",
+    "guidance_credibility": "no-track-record",
+    "shareholder_returns": "erratic",
+    "capability_ladder_note": "Moving up from marine electricals into higher-value data-centre power distribution and BMS packages - an explicit adjacency climb",
+    "assessment": "neutral"
+  },
+  "quality_metrics": {
+    "roce_pct": 18,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 0.8,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -60,
+    "margin_trend": "expanding",
+    "capex_efficiency": "productive",
+    "assessment": "neutral"
+  },
+  "track_record": {
+    "years_checked": 5,
+    "years_cleared": 3,
+    "note": "FY22-FY26: revenue growth >=10% every year, but ROCE cleared 15% only in FY24 (15%), FY25 (16%), FY26 (18%); FY22 (12%) and FY23 (14%) missed. Improving trajectory - all three clears are the most recent three years."
   },
   "bull_case": [
     "Order book more than doubled YoY to Rs 1,254 Cr and FY27 inflows ~Rs 1,100 Cr in four months - a concrete, disclosure-backed growth runway, not just a story",
@@ -65,9 +224,10 @@
     "Thin ValuePickr thread (8 posts), zero trusted-roster engagement - low community-conviction base",
     "Competes for the largest DC and shipyard packages against much bigger electrical majors (ABB, Siemens, CG Power)"
   ],
-  "market_cap_tier": "Small-cap (~Rs 5,365 Cr)",
+  "market_cap_tier": "Small-cap (~Rs 5,850 Cr)",
   "thesis_fit": "10x-in-2-3-years",
-  "verdict_headline": "Genuine order-book-backed inflection on two live tailwinds - scored 10x-in-2-3-years at Medium, but 'unconfirmed' given a ~75x multiple and no trusted validation",
+  "conviction": "Medium",
+  "verdict_headline": "Genuine order-book-backed inflection on two live tailwinds, confirmed by a 5yr 28% rev CAGR and ROCE rising 12%->18% - scored 10x-in-2-3-years at Medium, still 'unconfirmed' given a ~90x multiple, negative FCF and no trusted validation",
   "verdict_reasoning": [
     "Sovrenn-news seed (tier 4.65). The Sovrenn datapoint (Rs 76.4 Cr STT Global DC + Deepak Chem Tech order) holds up and is one of several - the FY27 order inflow is ~Rs 1,100 Cr in four months against ~Rs 877 Cr FY26 revenue, so the acceleration is real and verifiable from filings",
     "Per the trailing-average-vs-live-inflection rule: weak-ish trailing (3yr ROE ~12%) but a strong specific recent quarter (Q1FY27 revenue +59%, PAT +53%) plus a concrete catalyst (order-book conversion over 12-18 months) and dual live-theme exposure (DC power distribution priority-1; shipbuilding priority-2) -> 10x-in-2-3-years at Medium with an explicit 'unconfirmed' caveat, not neither",
@@ -82,6 +242,6 @@
     "moat": "weak",
     "valuation": "no",
     "score": 2.5,
-    "note": "Dual data-centre-power + naval/shipbuilding-electricals tailwind is real and order-book-evidenced (Rs1,254cr, >1.4x FY26 revenue); approved-vendor-pool moat is real but company competes against much larger majors (ABB/Siemens/CG Power) for biggest packages — weak; ~75-80x P/E after a 144% 1-yr re-rate already prices most near-term growth — valuation no."
+    "note": "Dual data-centre-power + naval/shipbuilding-electricals tailwind is real and order-book-evidenced (Rs1,254cr, >1.4x FY26 revenue); approved-vendor-pool moat is real but company competes against much larger majors (ABB/Siemens/CG Power) for biggest packages — weak; ~90x P/E now (richened further) already prices near-term growth and then some — valuation no. Score 2.5 -> 'neither' by default, but the written exception in verdict_reasoning (un-ignorable growth + live small-cap inflection, now corroborated by a 5yr 28% rev CAGR and rising ROCE) keeps 10x-in-2-3-years at Medium with an 'unconfirmed' caveat."
   }
 }

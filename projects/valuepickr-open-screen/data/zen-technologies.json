@@ -50,7 +50,7 @@
     "The bull thesis relies on a Nov-2025 order-flow snapshot that is now nearly a year stale relative to the more skeptical recent commentary"
   ],
   "market_cap_tier": "Mid-cap (~Rs 17,393 Cr)",
-  "thesis_fit": "10x-in-2-3-years",
+  "thesis_fit": "neither",
   "verdict_headline": "An exceptional historical track record now facing a real, recent order-flow stall and an unresolved governance allegation",
   "verdict_reasoning": [
     "The gap between the historical 128% profit CAGR and the current 10.78% TTM ROE is the kind of disconnect this screen should flag as a caution, not just note in passing",
@@ -66,6 +66,6 @@
     "moat": "weak",
     "valuation": "no",
     "score": 1.5,
-    "note": "India defense-indigenization is a real structural sector tailwind; most recent (Aug-2026) community read flags no major order wins in the past year despite product launches — tam no; high-margin (29.3% net margin) simulation-training niche is a real but currently-unconfirmed edge (TTM ROE fell to 10.78%) — weak; 9.21x book built on a historical growth rate current metrics no longer support — valuation no. Unrebutted governance allegation re: 2024 capital raise/promoter stake sale is a separate concern."
+    "note": "India defense-indigenization is a real structural sector tailwind; most recent (Aug-2026) community read flags no major order wins in the past year despite product launches — tam no; high-margin (29.3% net margin) simulation-training niche is a real but currently-unconfirmed edge (TTM ROE fell to 10.78%) — weak; 9.21x book built on a historical growth rate current metrics no longer support — valuation no. Unrebutted governance allegation re: 2024 capital raise/promoter stake sale is a separate concern. [audit 2026-09-07: thesis_fit set to 'neither' to satisfy the four_box <=1.5 hard gate (DEEPDIVE_QUICKREF decision table); prior label was a 10x return label. vpscreen-rerank may revisit if boxes improve.]"
   }
 }

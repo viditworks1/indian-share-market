@@ -57,7 +57,7 @@
     "Revenue growth has already decelerated from its 3-year CAGR (28.26%) to 17.6% in FY25, with margin compression noted in the most recent quarter"
   ],
   "market_cap_tier": "Mid-cap (~Rs 10,337 Cr)",
-  "thesis_fit": "10x-in-2-3-years",
+  "thesis_fit": "neither",
   "verdict_headline": "Credible global grid-tailwind story, but valuation has already run past the thread's own trusted fair-value anchor",
   "verdict_reasoning": [
     "The underlying HVDC/BESS/grid-interconnection tailwind is real and well-argued by the project's most heavily trusted community member, supporting the thesis category",
@@ -82,6 +82,6 @@
     "moat": "weak",
     "valuation": "no",
     "score": 1.5,
-    "note": "HVDC/BESS/grid-interconnection tailwind real and well-argued, but growth already decelerated (28.26%->17.6% CAGR) — tam no; acquisition-led capability building is a partial differentiator, not an established moat; reverse-DCF (Aug-2026) says current price needs near-impossible ~50% CAGR for 5yrs — valuation no; trusted source's own fair-value (~Rs6,000cr) sits below current mcap (~Rs10,337cr)."
+    "note": "HVDC/BESS/grid-interconnection tailwind real and well-argued, but growth already decelerated (28.26%->17.6% CAGR) — tam no; acquisition-led capability building is a partial differentiator, not an established moat; reverse-DCF (Aug-2026) says current price needs near-impossible ~50% CAGR for 5yrs — valuation no; trusted source's own fair-value (~Rs6,000cr) sits below current mcap (~Rs10,337cr). [audit 2026-09-07: thesis_fit set to 'neither' to satisfy the four_box <=1.5 hard gate (DEEPDIVE_QUICKREF decision table); prior label was a 10x return label. vpscreen-rerank may revisit if boxes improve.]"
   }
 }

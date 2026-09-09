@@ -43,7 +43,7 @@
     "No trusted-user validation, and the catalyst is not yet confirmed in either company's own quarterly results"
   ],
   "market_cap_tier": "Mid-cap (~Rs 13,954-14,217 Cr)",
-  "thesis_fit": "10x-in-2-3-years",
+  "thesis_fit": "neither",
   "verdict_headline": "A real, fresh cyclical-turn signal after a genuinely weak multi-year average -- unconfirmed and untested by trusted users",
   "verdict_reasoning": [
     "Per this screen's rule on weak trailing averages with a specific, credible recent catalyst for a mid-cap: proceeds at Low conviction with an explicit unconfirmed caveat",
@@ -59,6 +59,6 @@
     "moat": "no",
     "valuation": "weak",
     "score": 1.5,
-    "note": "Verdict explicit: 'commodity-cycle call, not a company-specific moat story' (moat=no); catalyst and size both flagged unconfirmed pending 1-2 quarters."
+    "note": "Verdict explicit: 'commodity-cycle call, not a company-specific moat story' (moat=no); catalyst and size both flagged unconfirmed pending 1-2 quarters. [audit 2026-09-07: thesis_fit set to 'neither' to satisfy the four_box <=1.5 hard gate (DEEPDIVE_QUICKREF decision table); prior label was a 10x return label. vpscreen-rerank may revisit if boxes improve.]"
   }
 }

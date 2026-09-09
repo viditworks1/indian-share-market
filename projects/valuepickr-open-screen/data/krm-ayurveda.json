@@ -43,6 +43,7 @@
   ],
   "bear_case": [
     "27.6% Q1 FY27 PAT margin is far above normal hospital-chain economics - looks product/marketing-boosted, durability unproven",
+    "FY26 operating cash flow was only ~Rs 1 Cr against Rs 20 Cr reported PAT - profit is not converting to cash; the biggest earnings-quality flag this pass",
     "Aggressive bed/clinic expansion (2x beds + 30 clinics + telemedicine in 1-1.5 years) - execution and funding risk despite the debt-free start",
     "NSE Emerge SME - thin liquidity, short listed history, no track record on guidance",
     "Sovrenn triggers (an accreditation, a 23-bed unit) are soft, not earnings catalysts",
@@ -60,6 +61,169 @@
   ],
   "red_flag_tier": null,
   "red_flag_reason": null,
+  "conviction": "Low-Medium",
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-08",
+    "sources_reviewed": [
+      "screener.in (KRM Ayurveda) - price Rs 290, mcap Rs 616 Cr, P/E 24.5, BV Rs 54; FY24 rev Rs 67 Cr / PAT Rs 3 Cr, FY25 rev Rs 77 Cr / PAT Rs 12 Cr, FY26 rev Rs 102 Cr / PAT Rs 20 Cr; ROCE 35.3%, ROE 29.0%; FY26 borrowings Rs 0 (from Rs 31 Cr FY25); FY26 CFO ~Rs 1 Cr; FY26 investing/capex ~Rs 30 Cr; promoter 69.15%, no pledge; zero dividend",
+      "KRM Ayurveda FY26 results / press release 02-May-2026 (company IR PDF + Tribune / Loktej) - revenue Rs 101.69 Cr (+32.84%), EBITDA Rs 31.12 Cr (30.60% margin), PAT Rs 20.12 Cr (19.79% margin, +79.4%); H2 FY26 EBITDA +~102% YoY, PAT +~149% YoY; services 63.21% of sales vs 6.59% in FY23",
+      "Q1 FY27 results (indmoney / screener) - revenue ~Rs 32.3-32.9 Cr (+32.4% YoY), PAT Rs 9.08 Cr (+124% YoY), PAT margin 27.6%, operating margin 37.2%; revenue only +1.45% QoQ (flat sequentially)",
+      "scanx.trade announcements - MSS Hospital New Delhi (23 beds), NABH accreditation for the JP Nagar Bengaluru Panchakarma day-care centre, board approval for a new Gurugram hospital (60-100 beds)",
+      "FY26 concall / investor presentation - guidance: >=50% revenue growth, beds ~235 -> ~500, ~30 new super-specialty clinics, 500-seat telemedicine centre, over ~1-1.5 years"
+    ],
+    "annual_report_findings": [
+      "Model shift is real: services 63.21% of FY26 revenue vs 6.59% in FY23 - a genuine product-to-services transition",
+      "FY26 revenue Rs 101.69 Cr (+32.84%), PAT Rs 20.12 Cr (+79.4%); FY25 rev Rs 77 Cr / PAT Rs 12 Cr; FY24 rev Rs 67 Cr / PAT Rs 3 Cr - fast growth off a small base",
+      "Debt-free after the ~Rs 77 Cr NSE Emerge IPO (borrowings Rs 31 Cr FY25 -> Rs 0 FY26)",
+      "CASH-FLOW QUALITY GAP: FY26 operating cash flow only ~Rs 1 Cr against Rs 20 Cr reported PAT - profit is not converting to cash; likely receivables/working-capital build on the product and new-hospital ramp, but a material earnings-quality flag for an SME with 20-28% PAT margins",
+      "FY26 capex ~Rs 30 Cr (investing outflow) funding the bed/clinic expansion; no dividend",
+      "Promoter holding 69.15%, no pledge; small FII (3.86%) and DII (3.34%) presence post-listing"
+    ],
+    "quarterly_trend": [
+      "H2 FY26 EBITDA +~102% YoY, PAT +~149% YoY - the visible services-led inflection",
+      "Q1 FY27: revenue ~Rs 32.5 Cr (+32.4% YoY) but only +1.45% QoQ; PAT Rs 9.08 Cr (+124% YoY, +16% QoQ); PAT margin 27.6%, operating margin 37.2%",
+      "So the most recent quarter's profit jump is margin-led, not volume-led - sequential revenue is essentially flat",
+      "No longer-run quarterly series (recent NSE Emerge listing)"
+    ],
+    "recent_announcements": [
+      "Board approval for a new Gurugram hospital (60-100 beds) - the freshest expansion datapoint",
+      "MSS Hospital, Pitampura New Delhi - new 23-bed Ayurvedic hospital",
+      "NABH accreditation for the JP Nagar (Bengaluru) Panchakarma day-care centre",
+      "FY26 results and investor presentation (02-May-2026); Q1 FY27 results",
+      "Nothing adverse - no SEBI action, no auditor/KMP exit found"
+    ],
+    "key_new_facts": [
+      "FY26 full-year PAT margin is 19.8% (Q1 FY27: 27.6%) - extraordinarily high for a hospital chain and the durability is unproven",
+      "FY26 CFO ~Rs 1 Cr vs Rs 20 Cr PAT - the single biggest concern this pass",
+      "Q1 FY27 growth was margin-led; sequential revenue was flat (+1.45% QoQ)",
+      "Expansion plan is being actioned (Gurugram board approval, MSS Delhi opened) but beds are still ~223-235 vs the ~500 target"
+    ],
+    "open_questions": [
+      "Why is FY26 operating cash flow only ~Rs 1 Cr against Rs 20 Cr PAT - one-off working-capital build, or a structural receivables problem on the product side?",
+      "Is the ~20-28% PAT margin durable hospital-chain economics, or a product-mix / marketing-spend artefact that normalises as services scale?",
+      "Does the >=50% revenue growth guide land, and can beds actually reach ~500 in 1-1.5 years from ~223 today?",
+      "How is the aggressive expansion (Gurugram + 30 clinics + telemedicine) funded once the ~Rs 77 Cr IPO cash is deployed, if CFO stays near zero?"
+    ],
+    "conviction_update": "Low-Medium -> Low-Medium. A genuine product-to-services inflection (services 6.6% -> 63% of sales, H2 FY26 PAT +149%) at a ~Rs 100 Cr base with a debt-free balance sheet and a dated 2x-beds plan - but FY26 CFO of ~Rs 1 Cr against Rs 20 Cr PAT, an unproven ~20-28% PAT margin, flat sequential Q1 FY27 revenue, NSE Emerge illiquidity and no listed track record keep it capped at Low-Medium."
+  },
+  "commitments": [
+    {
+      "area": "capacity",
+      "text": "Roughly double beds and add ~30 super-specialty clinics",
+      "specifics": "beds ~235 -> ~500; ~30 clinics; 500-seat telemedicine centre; new Gurugram hospital (60-100 beds), MSS Delhi (23 beds)",
+      "timeline_bucket": "FY28",
+      "quality_stage": "action",
+      "source": "FY26 concall + board approvals (Gurugram, MSS Delhi)",
+      "dependency": "clinical talent, accreditation, funding once IPO cash is deployed",
+      "single_point_of_failure": "execution pace + funding if CFO stays near zero",
+      "thesis_critical": true
+    },
+    {
+      "area": "growth",
+      "text": "At least 50% revenue growth",
+      "specifics": "off the Rs 101.69 Cr FY26 base",
+      "timeline_bucket": "FY27",
+      "quality_stage": "expectation",
+      "source": "FY26 concall / investor presentation",
+      "dependency": "bed additions going live and filling",
+      "single_point_of_failure": "ramp of new hospitals; Q1 FY27 revenue was flat QoQ",
+      "thesis_critical": true
+    },
+    {
+      "area": "margin",
+      "text": "Sustain ~30% EBITDA / ~20%+ PAT margin as the network scales",
+      "specifics": "FY26 EBITDA margin 30.6%, PAT margin 19.8%; Q1 FY27 PAT margin 27.6%",
+      "timeline_bucket": "FY27",
+      "quality_stage": "financial",
+      "source": "reported FY26 / Q1 FY27",
+      "dependency": "product/services mix; marketing spend; occupancy on new beds",
+      "single_point_of_failure": "margin normalisation toward hospital-chain norms as services mix rises",
+      "thesis_critical": true
+    }
+  ],
+  "earnings_chain": {
+    "chain": [
+      "product-to-services model shift",
+      "new hospitals / clinics live and filling",
+      "revenue growth (>=50% guided)",
+      "occupancy-driven operating leverage",
+      "EBITDA ~30% / PAT ~20%+",
+      "PAT",
+      "operating cash flow (currently the broken link)"
+    ],
+    "bottleneck_link": "new hospitals / clinics live and filling",
+    "operating_leverage": "unclear - reported margins are already very high and Q1 FY27 revenue was flat QoQ; the leverage story needs bed additions to actually go live and fill",
+    "evidenced_links": [
+      "product-to-services model shift",
+      "revenue growth (>=50% guided)",
+      "EBITDA ~30% / PAT ~20%+"
+    ],
+    "assumed_links": [
+      "new hospitals / clinics live and filling",
+      "occupancy-driven operating leverage",
+      "operating cash flow (currently the broken link)"
+    ]
+  },
+  "market_expectation": {
+    "as_of": "2026-09-08",
+    "price": 290,
+    "current_pe": 24.5,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~24x trailing (and ~17-20x on an annualised Q1 FY27 run-rate) only looks reasonable if the ~27% PAT margin holds; normalise the margin toward 12-15% and the real forward multiple is ~30-40x, so the multiple is effectively capitalising a peak margin plus the >=50% growth guide",
+    "our_fy27_estimate": "revenue Rs 130-150 Cr if bed additions go live on schedule; PAT Rs 25-35 Cr with margin drifting down from the Q1 peak",
+    "our_fy28_estimate": "revenue Rs 180-220 Cr with Gurugram + clinics contributing; PAT highly sensitive to whether the ~20%+ PAT margin survives the services scale-up",
+    "gap_direction": "over-optimistic",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "the price appears to capitalise the Q1 FY27 ~27% PAT margin as durable; hospital-chain economics and the FY26 CFO/PAT gap suggest it normalises lower, so our PAT path sits below what the multiple needs unless volume growth more than offsets margin mean-reversion",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "catalyst": {
+    "event": "2-3 quarters showing the ~20-28% PAT margin holds through the bed expansion, plus new hospitals (Gurugram, MSS Delhi) going live and lifting sequential revenue",
+    "expected_window_months": 12,
+    "window_start": "2026-09-08",
+    "evidence_quality": "low",
+    "is_dated": false,
+    "status": "pending"
+  },
+  "earnings_quality": {
+    "margin_driver": "mixed",
+    "drivers": [
+      "high-margin Ayurvedic product sales in the mix (product/marketing-boosted)",
+      "small base with low fixed-cost absorption on owned hospitals",
+      "services-led shift lifting realisation per patient"
+    ],
+    "peak_margin_risk": true,
+    "normalised_note": "FY26 PAT margin 19.8% and Q1 FY27 27.6% are far above listed hospital-chain norms (~8-15% PAT). The FY26 CFO/PAT gap (Rs 1 Cr vs Rs 20 Cr) reinforces that reported profitability is not fully cash-backed. A through-cycle PAT margin of ~12-15% is a more defensible base; treat current margins as a peak."
+  },
+  "management_quality": {
+    "capital_allocation": "Used the ~Rs 77 Cr IPO to clear Rs 31 Cr of debt and fund ~Rs 30 Cr FY26 capex into beds/clinics; no unrelated diversification. Reinvestment is on-strategy but incremental returns and cash conversion are unproven - FY26 CFO ~Rs 1 Cr.",
+    "capital_allocation_track_record": "unclear",
+    "rpt_trend": "unclear",
+    "guidance_credibility": "no-track-record",
+    "shareholder_returns": "none",
+    "capability_ladder_note": "Explicit shift from a product company to an integrated Ayurvedic hospital + super-specialty-clinic network",
+    "assessment": "neutral"
+  },
+  "quality_metrics": {
+    "roce_pct": 35.3,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": -1,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -95,
+    "margin_trend": "expanding",
+    "capex_efficiency": "unclear",
+    "assessment": "concern"
+  },
+  "track_record": {
+    "years_checked": 3,
+    "years_cleared": 2,
+    "note": "FY24-FY26 verifiable from screener. FY25 (revenue +~15%, ROE ~29%) and FY26 (revenue +32.8%, ROCE 35.3%) clear both revenue growth >=10% and ROCE >=15%. FY24 (PAT Rs 3 Cr on Rs 67 Cr revenue, ~4.5% margin) did not. Caveat: reported ROCE clears comfortably but FY26 operating cash flow (~Rs 1 Cr vs Rs 20 Cr PAT) does not back the reported returns, so the consistency signal here is weaker than the raw count implies.",
+    "cash_flow_caveat": true
+  },
   "value_chain": {
     "theme": "single-speciality Ayurvedic hospitals & clinics (asset-light healthcare services)",
     "position": "integrated Ayurvedic hospital + clinic chain (223 beds), services ~63% of revenue, expanding toward ~500 beds",
@@ -75,15 +239,15 @@
   },
   "growth_trajectory": {
     "yoy_trend": "accelerating",
-    "last_quarters_note": "FY26 revenue +33% YoY; H2 FY26 EBITDA ~+100% YoY and PAT ~+149% YoY; Q1 FY27 PAT margin ~27.6% (up ~69% YoY)",
-    "reverse_pe_note": "Forward P/E ~20x needs ~25% growth; management guides >=50% - the swing factor is whether the ~27-30% margin is sustainable rather than a product-mix spike."
+    "last_quarters_note": "Revenue YoY: FY24->FY25 +~15%, FY25->FY26 +32.8%, Q1 FY27 +32.4% - steady-to-accelerating. But H2 FY26 PAT +149% YoY and Q1 FY27 PAT +124% YoY were margin-led: Q1 FY27 revenue was only +1.45% QoQ (essentially flat sequentially).",
+    "reverse_pe_note": "~24x trailing (~17-20x on the Q1 FY27 run-rate) needs ~25%+ growth AND the margin to hold; management guides >=50% revenue growth, but the swing factor is whether the ~27% PAT margin is durable or a product-mix/marketing spike that mean-reverts."
   },
   "four_box": {
     "tailwind": "weak",
     "tam": "yes",
     "moat": "no",
-    "valuation": "yes",
-    "score": 2.5,
-    "note": "Product-to-services shift in Ayurvedic hospital chain is company-specific execution more than a broad structural tailwind — weak; aggressive bed/clinic-expansion plan (beds ~235->500, ~30 clinics) at a ~Rs100cr base supports tam; no moat described, and clinical/regulatory/quality-consistency risk grows with scale — no; forward P/E ~20x called 'cheap-ish' — valuation yes. 27.6% Q1 PAT margin durability (product/marketing-boosted vs real hospital economics) is the key unresolved risk."
+    "valuation": "weak",
+    "score": 2.0,
+    "note": "Product-to-services shift in an Ayurvedic hospital chain is company-specific execution more than a broad structural tailwind - weak; aggressive bed/clinic-expansion plan (beds ~235->500, ~30 clinics) at a ~Rs 100cr base supports tam - yes; no moat beyond NABH accreditation + brand, and clinical/regulatory/quality-consistency risk grows with scale - no; ~24x trailing on a likely-peak ~20-28% PAT margin, with FY26 CFO of only ~Rs 1cr vs Rs 20cr PAT - valuation weak (downgraded from 'yes' this pass). Score 2.0 -> thesis_fit neither UNLESS a written exception; the un-ignorable services-led earnings inflection (services 6.6%->63% of sales, H2 FY26 PAT +149%) at a tiny base qualifies (phreak carve-out), so 10x-in-2-3-years is allowed with conviction capped at Medium (unconfirmed); it sits at Low-Medium given the cash-conversion gap, unproven margin and SME illiquidity."
   }
 }

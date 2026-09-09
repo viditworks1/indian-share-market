@@ -30,8 +30,8 @@ import json
 import os
 import sys
 
-ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-VP = os.path.join(ROOT, "valuepickr-screen")
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
+VP = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 STATE = os.path.join(VP, "state.json")
 QUEUE = os.path.join(VP, "data", "guidance-backfill-queue.json")
 DATA_DIR = os.path.join(VP, "data")

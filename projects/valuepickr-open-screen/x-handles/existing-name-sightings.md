@@ -26,3 +26,5 @@ Format: `<date> · <slug> · @<handle> · <=15-word view> · [current: <status>/
 
 ## 2026-09-05 (x-handle-triage run)
 - 2026-09-05 · lakshmi-machine-works · @soicfinance · TMD order-book recovery, MTD push, new ATC facility -- one of 3 named growth-catalyst names · [current: excluded/Low/2026-08-24]
+## 2026-09-09 (x-handle-triage run)
+- 2026-09-09 · mazagon-dock-shipbuilders · @BeatTheStreet10 · "regional shipbuilder -> globally integrated naval+commercial powerhouse" (Project 75I) · [current: researched/Low/2026-08-31]

@@ -2,11 +2,13 @@
 
 Names a trusted X-cluster handle (see `x_cluster.json`) *mentioned* in a concall digest, news snippet, quote compilation or weekly business writeup — WITHOUT a conviction-bearing view. Distinct from `source: "trusted-x"` (an actual stated position/thesis → Step 0.5 tier 4.55). This list is `vpscreen-scan` Step 0.5 **tier 4.8**: worked AFTER every vetted tier (1–4.7) and BEFORE any Step 1 web/forum discovery, **capped 2/run**, oldest `first_seen_date` first, the rest carry over. Researched normally (Step 3 preliminary filter applies, no override, no conviction floor). Regenerated mechanically from `state.json` — do not hand-edit.
 
-Generated: 2026-09-05
+Generated: 2026-09-09
 
 ## Pending research (queue, oldest first)
 
-_(none pending)_
+| Stock | First seen | Trusted user(s) | Snippet / why tracked |
+|---|---|---|---|
+| IIFL Finance | 2026-09-08 | a_basumallick | @a_basumallick relayed CNBC-TV18 snippet: Blackstone likely to buy up to 20% of IIFL Finance / Fairfax exit; neutral PE-activity framing, no conviction call. |
 
 ## Already researched (exited the queue)
 
@@ -24,4 +26,4 @@ _(none pending)_
 | Poly Medicure Ltd | 2026-09-04 | neither | Medium | unseenvalue |
 | Steelcast Ltd | 2026-09-04 | neither | Medium-High | LearningEleven |
 | United Drilling Tools Ltd | 2026-09-04 | neither | Low-Medium | a_basumallick |
-| Samvardhana Motherson International | 2026-09-05 | 100x-in-10-years | Medium | a_basumallick |
+| Samvardhana Motherson International | 2026-09-05 | neither | Medium | a_basumallick |

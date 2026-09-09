@@ -5,27 +5,23 @@
   "fundamentals_table": [
     [
       "Market Cap",
-      "Rs 16,346 Cr"
+      "~Rs 15,900 Cr (price ~Rs 808, Sep 2026); P/E ~21x"
     ],
     [
       "52-week range",
       "Rs 635.80 - Rs 1,002.00"
     ],
     [
-      "ROE (3-yr)",
-      "12.7% (low)"
+      "ROCE / ROE (FY26)",
+      "ROCE ~13% (3-yr ~13%) / ROE ~13.4% - flat and below the >=15% bar"
     ],
     [
-      "ROCE",
-      "14.66%"
+      "Growth (5-yr CAGR)",
+      "Sales ~6%; profit ~-9% (poor)"
     ],
     [
-      "Sales growth (5-yr)",
-      "6.37% (poor)"
-    ],
-    [
-      "TTM Revenue",
-      "Rs 6,267 Cr"
+      "FY26 / debt",
+      "FY26 revenue Rs 7,345 Cr (+10%), PAT Rs 671 Cr; gross borrowings Rs 1,430 Cr (up from Rs 1,258 Cr); FY26 CFO Rs 783 Cr; dividend payout ~35%"
     ],
     [
       "Q1 FY27 (Jun 2026)",
@@ -58,23 +54,203 @@
     "Rising gross borrowings to fund ongoing capex, alongside management's own earlier admission of 'no meaningful visible large launches' in the US despite heavy R&D spend",
     "The original trusted queueing signal was a real but modest (1.00%) position, not a high-conviction concentrated bet"
   ],
-  "market_cap_tier": "mid-cap",
-  "thesis_fit": "10x-in-2-3-years",
-  "verdict_headline": "Weak trailing average, but a real and specific Q1 FY27 inflection in the exact segment the trusted user had flagged as weak — unconfirmed, worth tracking",
+  "market_cap_tier": "mid-cap (~Rs 15,900 Cr)",
+  "thesis_fit": "neither",
+  "conviction": "Medium",
+  "verdict_headline": "A real Q1 FY27 US inflection (formulations +49%, guidance raised) on top of a genuinely secular non-US franchise - but a ~Rs 16,000 Cr mid-cap growing mid-teens with 13% ROCE is a 'neither' on size math; conviction Medium",
   "verdict_reasoning": [
-    "RE-VERIFICATION (2026-08-23): the prior Medium-High conviction and 'neither' thesis_fit were set under the old logic that auto-applied a conviction floor to any 'very-high' trusted signal — harsh.beria93's trust_tier is 'elevated', not 'core', so trusted_conviction_floor_active is false and that floor no longer applies. Conviction has been re-derived from scratch.",
-    "Trailing quality metrics remain moderate (ROE 12.7%, ROCE 14.66%, 5-yr sales growth 6.37%), and the trusted user's own multi-year synthesis (through FY25) explicitly described the flagship US business as cyclical/stagnant.",
-    "However, Q1 FY27 (quarter ended June 2026, sourced independently via screener/results, not yet reflected in the forum thread) shows a real, specific, credible catalyst directly in that same segment: US Formulations +49% YoY to Rs 778 Cr, consolidated revenue +25.66%, and an FY27 guidance upgrade to mid-teens growth. Per this project's methodology, a weak trailing average plus a strong, specific recent-quarter improvement at a mid-cap should be classified '10x-in-2-3-years' at low/medium conviction with an unconfirmed caveat, not 'neither'.",
-    "Conviction is set to Medium — below the old floor-derived Medium-High, reflecting that this is one quarter of data overriding years of a genuinely weaker trend, and mid-teens revenue growth alone is not obviously multibagger-pace. Revisit next quarter to see if the US inflection persists before raising conviction further."
+    "RE-VERIFICATION (2026-08-23, refreshed 2026-09-08): the prior Medium-High conviction / 'neither' were set under the old auto-floor logic; harsh.beria93 is 'elevated' not 'core' so no floor applies. Conviction re-derived from scratch.",
+    "Trailing quality is moderate: FY26 ROCE ~13%, ROE ~13.4%, 5-yr sales CAGR ~6%, 5-yr profit CAGR ~-9%; the trusted tracker's own multi-year synthesis frames the flagship US business as cyclical/stagnant and non-US as the real secular driver.",
+    "Q1 FY27 is a real, specific inflection: consolidated revenue +26% to Rs 2,150 Cr, US formulations +49% YoY to Rs 778 Cr on 7 launches (incl. limited-competition bosutinib), and management raised FY27 US-generics guidance from low-teens to mid-to-high teens and company growth to ~mid-teens - but PAT rose only 12% (R&D + launch costs), and it is one quarter partly boosted by a limited-competition product.",
+    "four_box re-derived to 1.5 (tailwind weak / tam no / moat weak / valuation weak). tam = no: at ~Rs 15,900 Cr, a 10x needs ~Rs 1.6 lakh Cr and mid-teens growth cannot get there in 2-3 years - the genuine-mid/large-cap size-math 'neither' applies, and the small-cap live-inflection carve-out does not. Score <= 1.5 -> thesis_fit 'neither', hard.",
+    "Conviction Medium (unchanged from pre): the Q1 US inflection, a genuinely diversified non-US franchise (domestic branded, ~24% CAGR animal health), consistent dividends (35% payout) and multi-year trusted diligence support it; the cyclical US flagship, sub-bar ROCE, -9% 5-yr profit CAGR, rising gross debt (Rs 1,430 Cr) and one-quarter data cap it there. Revisit after Q2 FY27 to see if the US inflection persists."
   ],
   "red_flag_tier": "",
   "red_flag_reason": "",
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-08",
+    "sources_reviewed": [
+      "screener.in/company/APLLTD/consolidated - mcap Rs 15,891 Cr, price Rs 808, P/E 21.3; FY24 rev Rs 6,229 Cr / PAT Rs 616 Cr, FY25 Rs 6,672 Cr / Rs 582 Cr, FY26 Rs 7,345 Cr / Rs 671 Cr; ROCE 13% (3yr 13%), ROE 13.4% (3yr 12.7%); 5yr sales CAGR 6%, profit CAGR -9%; borrowings Rs 1,258 Cr FY25 -> Rs 1,430 Cr FY26; FY26 CFO Rs 783 Cr vs EBITDA ~Rs 1,121 Cr; promoter 69.87%, no pledge; dividend yield 1.48%, payout 35%",
+      "Alembic Q1 FY27 results / investor slides (investing.com, indianpharmapost, Business Standard, sahi.com) - consol revenue Rs 2,150 Cr (+26% YoY), PAT Rs 173 Cr (+12%), US formulations Rs 778 Cr (+49%) on 7 launches incl. bosutinib (limited-competition onco); gross debt ~Rs 1,600 Cr at 30-Jun-2026",
+      "Q1 FY27 concall / analyst notes (Informist, Whalesbook, Yahoo) - FY27 US generics guidance raised low-teens -> mid-to-high teens; company growth outlook low-double-digit -> ~mid-teens; 15+ US launches targeted in FY27",
+      "prior VP-thread synthesis - harsh.beria93 (elevated) multi-year facility/concall notes; his decade summary: 'US has seen bouts of good growth followed by stagnation; non-US the most secular growth driver'; ranvir, Rafi_Syed realistic quarterly updates; Vijay_Kiran's queueing signal a modest ~1.0% portfolio weight",
+      "FY26 quarterly series (screener): Q1 1,770/157, Q2 1,910/184, Q3 1,876/132, Q4 1,848/202 (Rs Cr rev/PAT)"
+    ],
+    "annual_report_findings": [
+      "FY26 revenue Rs 7,345 Cr (+10%), PAT Rs 671 Cr (+15% off a weak FY25) - a modest recovery year; 5-yr profit CAGR is still -9%",
+      "Returns structurally sub-bar: ROCE ~13%, ROE ~13.4%, roughly flat over 3 years - below peers like Ajanta in the same batch",
+      "Gross borrowings rising (Rs 1,258 Cr -> Rs 1,430 Cr; ~Rs 1,600 Cr at 30-Jun-2026) to fund capex - new Pithampur facility and a peptide-manufacturing API block",
+      "FY26 operating cash flow Rs 783 Cr against ~Rs 1,121 Cr EBITDA (~70% conversion) - acceptable, not strong; capex is absorbing it",
+      "Consistent shareholder returns: FY26 dividend payout ~35%, yield ~1.5%",
+      "Promoter holding 69.87%, no pledge; no SEBI/regulatory action; a past Q1 FY25 API decline was an external customer issue, not Alembic-specific"
+    ],
+    "quarterly_trend": [
+      "FY26 quarters were choppy (PAT Rs 157 -> 184 -> 132 -> 202 Cr) on US pricing and R&D phasing",
+      "Q1 FY27: revenue Rs 2,150 Cr (+26% YoY), PAT Rs 173 Cr (+12%), US formulations Rs 778 Cr (+49%) on 7 launches incl. limited-competition bosutinib",
+      "PAT growth (+12%) lagged revenue (+26%) - R&D and US launch costs; margin did not expand",
+      "One quarter of inflection; the trusted multi-year read says US growth comes in bouts followed by stagnation"
+    ],
+    "recent_announcements": [
+      "Q1 FY27 results (04-Aug-2026) and investor presentation",
+      "FY27 guidance raised: US generics low-teens -> mid-to-high teens; company growth -> ~mid-teens; 15+ US launches planned",
+      "Ongoing capex - Pithampur facility, peptide API block",
+      "Nothing material on pledge, auditor or KMP"
+    ],
+    "key_new_facts": [
+      "US formulations +49% YoY in Q1 FY27 - a real inflection in the exact segment the trusted tracker had flagged as weak - but partly on a limited-competition product (bosutinib) and one quarter only",
+      "Management raised FY27 guidance twice-over (US and company-level)",
+      "Trailing quality unchanged and sub-bar: ROCE ~13%, 5-yr profit CAGR -9%",
+      "Gross debt rising to fund capex; FY26 cash conversion ~70% of EBITDA"
+    ],
+    "open_questions": [
+      "Does the US inflection persist into Q2/H2 FY27, or is it a bosutinib + launch-timing bounce that fades (the historical pattern)?",
+      "Do the 15+ planned US launches include enough limited-competition products to hold the mid-to-high-teens guide?",
+      "When does ROCE move above the low-teens - does the Pithampur / peptide capex earn its cost of capital?",
+      "How much of Q1 FY27's US strength is price vs volume vs one-off limited-competition windows?"
+    ],
+    "conviction_update": "Medium -> Medium. A real, specific Q1 FY27 US inflection (formulations +49%, guidance raised) on top of a genuinely secular non-US franchise and consistent dividends - but a mid-cap growing mid-teens at ~13% ROCE with a -9% 5-yr profit CAGR and a historically cyclical US flagship is not a 10x candidate (thesis_fit re-derived to 'neither' on size math); conviction held at Medium pending Q2 FY27 confirmation."
+  },
+  "commitments": [
+    {
+      "area": "growth",
+      "text": "FY27 company growth ~mid-teens; US generics mid-to-high teens",
+      "specifics": "raised from low-double-digit / low-teens after Q1 FY27",
+      "timeline_bucket": "FY27",
+      "quality_stage": "expectation",
+      "source": "Q1 FY27 concall",
+      "dependency": "US launch cadence + limited-competition windows",
+      "single_point_of_failure": "US pricing / launch timing (the historical stagnation pattern)",
+      "thesis_critical": true
+    },
+    {
+      "area": "new_business",
+      "text": "Launch 15+ new US products in FY27",
+      "specifics": "7 launched in Q1 FY27; pipeline across OSD, injectables, onco, derma, ophthalmic",
+      "timeline_bucket": "FY27",
+      "quality_stage": "commercial",
+      "source": "Q1 FY27 concall / slides",
+      "dependency": "USFDA approvals; site compliance",
+      "single_point_of_failure": "approval timing; competitive erosion on launch",
+      "thesis_critical": true
+    },
+    {
+      "area": "capex",
+      "text": "Ramp new capacity - Pithampur facility, peptide API block",
+      "specifics": "funded partly by rising gross debt (Rs 1,430 Cr FY26)",
+      "timeline_bucket": "FY28",
+      "quality_stage": "action",
+      "source": "FY26 disclosures / concall",
+      "dependency": "demand pull-through; approvals",
+      "single_point_of_failure": "returns on capex given ~13% ROCE history",
+      "thesis_critical": false
+    }
+  ],
+  "earnings_chain": {
+    "chain": [
+      "US ANDA approvals + launches (7 in Q1 FY27, 15+ guided)",
+      "limited-competition windows (e.g. bosutinib) + volume in base products",
+      "US formulations revenue growth (+49% Q1 FY27)",
+      "non-US branded + animal health steady growth",
+      "consolidated revenue mid-teens",
+      "operating leverage net of R&D + launch costs",
+      "PAT"
+    ],
+    "bottleneck_link": "US ANDA approvals + launches (7 in Q1 FY27, 15+ guided)",
+    "operating_leverage": "unclear - Q1 FY27 PAT (+12%) lagged revenue (+26%) as R&D and launch costs rose; leverage only shows if the US step-up holds and spend normalises",
+    "evidenced_links": [
+      "US ANDA approvals + launches (7 in Q1 FY27, 15+ guided)",
+      "US formulations revenue growth (+49% Q1 FY27)",
+      "non-US branded + animal health steady growth",
+      "consolidated revenue mid-teens"
+    ],
+    "assumed_links": [
+      "limited-competition windows (e.g. bosutinib) + volume in base products",
+      "operating leverage net of R&D + launch costs"
+    ]
+  },
+  "market_expectation": {
+    "as_of": "2026-09-08",
+    "price": 808,
+    "current_pe": 21.3,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~21x trailing on ~13% ROCE needs ~12-15% EPS CAGR to justify a ~20x steady exit; that is roughly the raised FY27 guide, so the multiple already reflects a mid-teens grower - it does not obviously price a sustained US re-rating, but nor is there a large discount",
+    "our_fy27_estimate": "revenue ~Rs 8,300-8,600 Cr (+13-17%); PAT ~Rs 750-850 Cr if US strength holds and R&D spend plateaus",
+    "our_fy28_estimate": "revenue ~Rs 9,300-9,800 Cr; PAT ~Rs 900-1,050 Cr - contingent on the US business not reverting to the historical stagnation phase",
+    "gap_direction": "priced-in",
+    "gap_type": "duration",
+    "gap_magnitude_pct": null,
+    "gap_basis": "the market pays ~21x for a company that has just guided mid-teens; the open question is duration (does the US inflection last more than a few quarters), not a mispriced level - historically these bouts fade",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "catalyst": {
+    "event": "Q2 FY27 (and H2) results showing the US formulations inflection persisting beyond one quarter, with PAT growth catching up to revenue",
+    "expected_window_months": 6,
+    "window_start": "2026-09-08",
+    "evidence_quality": "med",
+    "is_dated": true,
+    "status": "pending"
+  },
+  "value_chain": {
+    "theme": "US generics + India branded generics + animal healthcare",
+    "position": "vertically integrated (API + formulations) generics maker across OSD, general + oncology injectables, derma, ophthalmic; growing domestic branded franchise and a fast-growing animal-health arm",
+    "bottleneck_node": "USFDA approvals + site compliance; limited-competition product windows",
+    "supply_side_status": "balanced",
+    "adjacent_peers": [
+      "Ajanta Pharma",
+      "Torrent Pharmaceuticals",
+      "Alkem Laboratories",
+      "Eris Lifesciences"
+    ],
+    "note": "US generics is a structurally price-eroding, capacity-balanced pool where returns depend on a launch cadence and occasional limited-competition windows - not a pricing-power moat. The non-US branded + animal-health legs are the more durable value; the trusted tracker's multi-year read agrees."
+  },
+  "earnings_quality": {
+    "margin_driver": "cyclical",
+    "drivers": [
+      "US limited-competition launch windows (bosutinib in Q1 FY27)",
+      "US base-business pricing (chronic erosion)",
+      "non-US branded + animal-health mix (the steadier component)"
+    ],
+    "peak_margin_risk": false,
+    "normalised_note": "Consolidated margin is not elevated - Q1 FY27 PAT margin ~8% and PAT grew only 12% on 26% revenue as R&D/launch costs rose. The risk is the opposite of peak margin: the US contribution is bout-driven and a limited-competition product (bosutinib) flattered Q1, so the run-rate may not hold."
+  },
+  "growth_trajectory": {
+    "yoy_trend": "lumpy",
+    "last_quarters_note": "FY24 rev +?, FY25 +7%, FY26 +10%, Q1 FY27 +26% - the FY27 jump is off choppy FY26 quarters (PAT Rs 157/184/132/202 Cr). US formulations specifically: multi-year 'bouts of good growth followed by stagnation' per the trusted tracker; +49% in Q1 FY27 is the latest bout.",
+    "reverse_pe_note": "~21x trailing needs ~12-15% EPS CAGR; the raised mid-teens guide matches that, so the recent acceleration is roughly priced - upside depends on the US bout lasting, which history says is uncertain."
+  },
+  "management_quality": {
+    "capital_allocation": "Reinvesting into US pipeline (R&D ~13-14% of formulations sales) and capex (Pithampur, peptide API) funded partly by rising gross debt; incremental ROCE has stayed ~13% for years, so the reinvestment has held returns flat rather than compounded them. No unrelated diversification. Consistent dividends (35% payout).",
+    "capital_allocation_track_record": "neutral",
+    "rpt_trend": "clean",
+    "guidance_credibility": "mixed",
+    "shareholder_returns": "consistent",
+    "capability_ladder_note": "Moving up into injectables, oncology and peptide manufacturing from a plain-OSD base - a genuine complexity ladder, though it has not yet lifted returns",
+    "assessment": "neutral"
+  },
+  "quality_metrics": {
+    "roce_pct": 13,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": 1.3,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 40,
+    "margin_trend": "stable",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral"
+  },
+  "track_record": {
+    "years_checked": 3,
+    "years_cleared": 0,
+    "note": "FY24-FY26 verifiable. None clear both revenue growth >=10% and ROCE >=15% in the same year: FY24 revenue growth was low-single-digit, FY25 revenue +7% and PAT actually fell, FY26 revenue +10% but ROCE ~13% (below 15%). Long-listed large company, so the zero is an informative multi-year record of sub-bar returns, not a young-company artefact. Q1 FY27 hints FY27 revenue growth could clear the 10% leg, but the ROCE leg still looks short of 15%."
+  },
   "four_box": {
     "tailwind": "weak",
-    "tam": "weak",
+    "tam": "no",
     "moat": "weak",
     "valuation": "weak",
-    "score": 2.0,
-    "note": "US Formulations +49% YoY is a real recent-quarter inflection but trailing US business described as 'cyclical/stagnant' by the trusted source; trailing ROE 12.7%/ROCE 14.66% don't evidence strong moat; no TAM/valuation data"
+    "score": 1.5,
+    "note": "US generics is structurally price-eroding, not a tailwind; non-US branded + animal health is a modest one - tailwind weak. tam no: at ~Rs 15,900 Cr a 10x needs ~Rs 1.6 lakh Cr, unreachable for a mid-teens grower - the mid/large-cap size-math 'neither' applies. Moat weak: FY26 ROCE ~13% and a -9% 5-yr profit CAGR show the integrated-generics position is not translating to returns. Valuation weak: ~21x P/E already prices the raised mid-teens guide. Score 1.5 -> thesis_fit 'neither', hard (no exception). Conviction Medium reflects the real Q1 FY27 US inflection, the diversified non-US franchise and consistent dividends."
   }
 }

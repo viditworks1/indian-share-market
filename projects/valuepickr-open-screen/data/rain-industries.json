@@ -48,7 +48,7 @@
     "Leverage/de-leveraging framing implies balance-sheet risk if the cycle turns against it again"
   ],
   "market_cap_tier": "Small-cap (~Rs 6,900 Cr)",
-  "thesis_fit": "10x in 2-3 years — plausible if this quarter's inflection is the start of a sustained cycle, given the small base; needs 2-3 more quarters of confirmation",
+  "thesis_fit": "neither",
   "verdict_headline": "Early-stage turnaround worth tracking, not yet confirmed",
   "verdict_reasoning": [
     "One standout quarter (319% profit growth, record sales) breaks a multi-year weak-ROE pattern — real signal, but a single data point",
@@ -63,6 +63,6 @@
     "moat": "no",
     "valuation": "weak",
     "score": 1.5,
-    "note": "Cyclical commodity/carbon turnaround (319% YoY profit growth, record sales) qualifies for the small/mid-cap live-inflection carve-out on tam, but explicit language flags this as commodity-cyclical not structural (tailwind no); no moat for a commodity business; no valuation data; only one confirming quarter."
+    "note": "Cyclical commodity/carbon turnaround (319% YoY profit growth, record sales) qualifies for the small/mid-cap live-inflection carve-out on tam, but explicit language flags this as commodity-cyclical not structural (tailwind no); no moat for a commodity business; no valuation data; only one confirming quarter. [audit 2026-09-07: thesis_fit set to 'neither' to satisfy the four_box <=1.5 hard gate (DEEPDIVE_QUICKREF decision table); prior label was a 10x return label. vpscreen-rerank may revisit if boxes improve.]"
   }
 }

@@ -44,7 +44,7 @@
     "High leverage (D/E 3.46) amplifies downside if credit costs rise"
   ],
   "market_cap_tier": "Small-cap (~Rs 2,486 Cr)",
-  "thesis_fit": "Neither — weak ROE and sector-level credit-quality risk in Indian microfinance don't support a 10x-in-2-3-years or 100x-in-10-years case despite a plausible near-term demand tailwind",
+  "thesis_fit": "neither",
   "verdict_headline": "Weak returns and sector-risk profile keep this off the conviction list despite a favorable demand-shift narrative",
   "verdict_reasoning": [
     "ROE (7.3-7.9%) fails the quality bar for a leveraged lending business",
@@ -75,6 +75,6 @@
     "moat": "no",
     "valuation": "weak",
     "score": 1.0,
-    "note": "Bank retreat from MFI lending could funnel some incremental demand (weak, not transformational); ROE (7.3-7.9%) explicitly fails the quality bar for a leveraged NBFC lender — tam no; no moat described and recurring MFI sector asset-quality stress is a structural risk — no; no valuation data recorded, D/E 3.46 is high leverage against currently-weak returns."
+    "note": "Bank retreat from MFI lending could funnel some incremental demand (weak, not transformational); ROE (7.3-7.9%) explicitly fails the quality bar for a leveraged NBFC lender — tam no; no moat described and recurring MFI sector asset-quality stress is a structural risk — no; no valuation data recorded, D/E 3.46 is high leverage against currently-weak returns. [audit 2026-09-07: thesis_fit set to 'neither' to satisfy the four_box <=1.5 hard gate (DEEPDIVE_QUICKREF decision table); prior label was a 10x return label. vpscreen-rerank may revisit if boxes improve.]"
   }
 }

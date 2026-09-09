@@ -1,0 +1,52 @@
+{
+  "name": "Galaxy Bearings Ltd",
+  "tagline": "Tiny Gujarat export-oriented maker of commodity auto/agri bearings (75%+ exports) with a 4.5x capacity expansion (2.1M -> 9.6M bearings/yr) that has been stuck in CWIP for 2+ years and an auditor Key Audit Matter flag - flat revenue, weak returns, and a residue of US OFAC sanctions history",
+  "business_overview": "Bhavnagar-based manufacturer of anti-friction ball and taper bearings for wheel/axle assemblies, ~75-80% exported (Germany, Italy, USA, Turkey, UAE), end-markets auto ~60% / agri ~15% / industrial ~15%, sold mostly to Tier-1/2 suppliers and aftermarket private-label distributors. Founder Vinod Kangsara died 2019; promoters are his wife and daughters (~54%). A capacity expansion from ~2.1M to ~9.6M bearings/year (originally ~Rs 35 Cr, targeted mid-2024) remains incomplete - CWIP now exceeds gross fixed assets and the FY25 auditor flagged the CWIP delay as a Key Audit Matter. In Nov-2024 Galaxy was named on a US OFAC list for supporting Russia's military-industrial base, which impaired forex access for its export-heavy operations; sanctions were subsequently lifted. (Source: forum discovery, first_seen 2026-09-07; nominal keyword match to the bearings/robotics theme.)",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 220 Cr (Screener; wide source dispersion, thin BSE microcap)"],
+    ["52-week range", "~Rs 426 - Rs 1,800 (illiquid, dispersion across sources)"],
+    ["ROCE / ROE", "~7.7% / ~12% (3-yr) - low"],
+    ["Revenue growth", "~1.5% over 5 years - effectively flat; TTM revenue ~Rs 124 Cr"],
+    ["Working capital", "Debtor days ~206 - very stretched"],
+    ["Debt", "Company has reduced debt; D/E ~0.15"]
+  ],
+  "fundamentals_narrative": "Historically respectable gross margins (50-55%) and EBITDA margins (15-20%) for a bearings microcap, but the last five years show ~1.5% revenue growth, a ~7.7% ROCE, ~206 debtor days, and a capex programme that has slipped for over two years with the auditor now flagging it. The 4.5x capacity story is the entire bull case, and there is no visibility on when it goes live or how fast it fills - management does not disclose order books (bearings are build-then-fill, not order-book businesses). The OFAC episode, though resolved, showed real counterparty/forex fragility for a company that exports 75%+ of output.",
+  "technical_read": "Not pulled - weak fundamentals and execution uncertainty did not warrant escalation.",
+  "sentiment_summary": "42-post thread; the most substantive recent contributor (saket105) has been chasing the company for capex updates and, in the latest posts (Jul-Sep 2026), notes CWIP is still piling up, the auditor's Key Audit Matter, the post-sanctions forex relief, and a governance question - a person interviewed at trade shows as 'CEO' (Nitin Kumar Sontaki) who does not appear as a KMP/SMP in the annual report. Earlier posts (2023-24) were cautiously interested on peer-relative financials and the expansion optionality; a red-sea freight-cost risk was flagged given the export mix.",
+  "community_signal": "No trusted-user activity. Ashar_Mann (untracked) did informal channel checks in early 2024 describing the promoters as 'as clean as they can be'. Overall tenor has drifted from cautious-interest to frustration at the stalled capex.",
+  "trusted_signals": [],
+  "bse_notes": "Nov-2024: named on a US OFAC list (support to Russia's military-industrial base) - impaired forex access; sanctions later lifted. FY25 annual report: auditor Key Audit Matter on the delayed capital work-in-progress. Governance question raised on an undisclosed CEO designate. No SEBI action. Promoter holding rose to ~54%.",
+  "bull_case": [
+    "4.5x capacity expansion (2.1M -> 9.6M bearings/yr) - if it goes live and fills, revenue could move from ~Rs 124 Cr toward Rs 400 Cr+",
+    "Historically decent margins vs peers (gross 50-55%, EBITDA 15-20%), 30+ OEM relationships, debt reduced",
+    "Indian bearings market projected ~13.5% CAGR; OFAC sanctions now lifted, removing the forex overhang"
+  ],
+  "bear_case": [
+    "~1.5% revenue growth over 5 years, ~7.7% ROCE, ~206 debtor days - no demonstrated ability to capture the sector tailwind",
+    "Capacity expansion stuck in CWIP for 2+ years; auditor flagged it as a Key Audit Matter with no live-date guidance",
+    "OFAC sanctions history shows real counterparty/forex fragility for a 75%+ exporter",
+    "Governance concerns: undisclosed CEO designate; promoters do not disclose order books",
+    "Commodity product, raw-material-driven margins, no pricing power; tiny and illiquid"
+  ],
+  "market_cap_tier": "Micro-cap (~Rs 220 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Flat revenue, weak returns, a 2+ year stalled capex with an auditor flag, and OFAC-sanctions history - the capacity optionality is not enough. thesis_fit 'neither', conviction Low.",
+  "verdict_reasoning": [
+    "four_box: tailwind weak (13.5% sector CAGR exists but Galaxy has been flat through it), tam weak (4.5x capacity could lift revenue materially but execution is unproven and 2+ years late), moat weak (commodity CV/agri bearings, raw-material-pass-through margins, no pricing power), valuation weak (~Rs 220 Cr on ~Rs 124 Cr revenue and depressed earnings, no obvious cheapness, only capex optionality) -> score 2.0",
+    "Score 2.0 sits in the exception band but no exception applies - valuation box is not 'yes', growth is not un-ignorable (it is negative-to-flat), and there is no large-cap named inflection -> thesis_fit 'neither', hard",
+    "Conviction Low (not Low-Medium): the stalled capex + auditor Key Audit Matter + OFAC-sanctions history + undisclosed-CEO governance question compound into an execution-and-trust discount",
+    "No live-theme substantive match - the discovery hit was a nominal keyword match on 'bearing', but Galaxy makes commodity auto/agri bearings, not the precision-engineering / robotics-joint content the 'Humanoids / robotics - bearings' theme targets; no value_chain block written",
+    "No red flag tier set (auditor gave a Key Audit Matter, not an adverse opinion or resignation; sanctions lifted) but the concerns are named above and weigh on conviction",
+    "Re-check trigger: CWIP actually capitalised and the new capacity commissioned with a utilisation ramp; clarification on the CEO designate"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "weak",
+    "valuation": "weak",
+    "score": 2.0,
+    "note": "Sector tailwind exists but the company has been flat through it; 4.5x capacity is the only lever and it is 2+ years late with an auditor flag; commodity product, no pricing power, no valuation cushion"
+  }
+}

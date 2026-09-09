@@ -1,0 +1,53 @@
+{
+  "name": "Asian Energy Services Ltd (formerly Asian Oilfield Services)",
+  "tagline": "Turnaround upstream energy-services company (seismic -> O&M / integrated field development / coal-handling infra) with an 8x-revenue order book and FY26 revenue +70%, but the recent growth was acquisition-led not organic, an Oilmax merger brings equity dilution and valuation subjectivity, and management missed its own 'exceptional growth' guidance",
+  "business_overview": "Services the upstream energy and minerals value chain: seismic data acquisition (legacy), building oil & gas production facilities, and multi-year operation & maintenance (O&M) of production facilities (now ~75% of the order book), plus a newer Coal Handling Plant business riding a government mandate that mines >2mn MT mechanise handling within 5 years. Controlled since 2017 by Oilmax/Samara after a troubled prior-promoter era (SEBI had fined the old promoter entity for disclosure failures). A proposed merger with promoter Oilmax (an oil & gas producer) would take promoter holding to ~47% and fold in producing/near-producing fields. Recent numbers were boosted by the Kuiper group acquisition. (Source: forum discovery, first_seen 2026-08-21; no live-theme match.)",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 2,517 Cr"],
+    ["52-week range", "~Rs 230 - Rs 538 (CMP ~Rs 517, near the high)"],
+    ["ROCE / ROE", "~16.5% / ~12.9%"],
+    ["Revenue growth", "FY26 revenue +70% YoY to ~Rs 791 Cr (largely Kuiper acquisition; standalone barely grew)"],
+    ["Debt", "Net cash / negligible debt"],
+    ["Order book", "~Rs 950 Cr disclosed vs FY23 sales ~Rs 110 Cr; includes a Rs 772 Cr / 57-month Vedanta contract"]
+  ],
+  "fundamentals_narrative": "A real turnaround: from a distressed seismic pure-play to a diversified, net-cash services company with an order book many times revenue and ~16% ROCE. But three things hold it back for this screen: (1) the FY26 +70% was acquisition-led - standalone revenue has been roughly flat for several quarters; (2) management explicitly guided for 'exceptional growth' and missed it (May-26 forum note); (3) the pending Oilmax merger dilutes equity, lifts promoter holding to ~47%, and its swap ratio depends on the valuation of fields not yet in production - the merged-entity equity capital is still unclear to forum trackers. At CMP near the 52-week high on ~32-38x earnings, the risk/reward is not compelling.",
+  "technical_read": "Not pulled - near 52-week high is known; the assessment turns on the acquisition-led growth mix and merger dilution.",
+  "sentiment_summary": "36-post thread. Constructive on the turnaround and order book (Rahul_Saradhi's business overview, rupaniamit on the coal-handling optionality, AnkitAgrawal on the margin/cash-flow accretion from Oilmax's negative-working-capital model), but with clear reservations: equity dilution from the merger (Prabhat_Mohanty, Rahul_Saradhi both 'uncomfortable' at ~47% promoter holding), the guidance miss (Nikunj_Bhanushali, May-26), and unanswered questions on current production (boepd). Latest posts (Jul-Sep 2026) are data-seeking, not conviction.",
+  "community_signal": "No trusted-user activity. Net tenor: 'genuine turnaround, watch the merger terms and whether standalone growth resumes.'",
+  "trusted_signals": [],
+  "bse_notes": "Historical SEBI fine on the PRE-2017 promoter entity for disclosure failures - resolved via the 2017 management change to Oilmax/Samara; no current SEBI/fraud action found. Pending Oilmax merger (equity dilution, promoter holding to ~47%, swap-ratio valuation subjectivity flagged in concall). Pref allotments to HNI investors (Madhu Kela group, promoter) in 2023 at Rs 127.",
+  "bull_case": [
+    "Order book ~8x revenue including a Rs 772 Cr multi-year Vedanta contract; O&M now ~75% of the book = recurring, visible revenue",
+    "Coal-handling-plant business riding a government mechanisation mandate (Coal India alone has 120+ eligible mines)",
+    "Net cash, ~16% ROCE, turnaround executed by a credible new promoter since 2017",
+    "Oilmax merger adds producing/near-producing fields and a negative-working-capital model that should lift ROE/ROCE and cash flow"
+  ],
+  "bear_case": [
+    "FY26 +70% was acquisition-led; standalone business roughly flat - organic growth unproven",
+    "Management missed its own 'exceptional growth' guidance",
+    "Oilmax merger dilutes equity, raises promoter holding to ~47%, and rests on subjective valuation of fields not yet in production",
+    "EPC / O&M services are competitive and low-differentiation; oil-services demand is cyclical",
+    "CMP near 52-week high on ~32-38x earnings - no valuation cushion"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 2,500 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "A real, net-cash turnaround with a large order book, but acquisition-led growth, a guidance miss, and a dilutive Oilmax merger on subjective terms - priced near its high. thesis_fit 'neither', conviction Low-Medium.",
+  "verdict_reasoning": [
+    "four_box: tailwind weak (India upstream E&P capex + coal-handling mandate are real but not an accelerating structural growth engine; oil services is cyclical), tam weak (order book 8x revenue and coal-handling optionality give runway, but a ~Rs 2,500 Cr services company's multi-bagger path is limited and merger-dependent), moat weak (EPC/O&M is competitive; the Oilmax captive relationship helps but is also the source of the dilution), valuation no (near 52-week high, ~32-38x earnings, pending dilution) -> score 1.5",
+    "Score <= 1.5 -> thesis_fit 'neither', hard",
+    "Conviction Low-Medium: the turnaround and order book are genuine, but the growth mix (acquisition not organic), the guidance miss, and the merger uncertainty keep it below Medium",
+    "No live-theme match in active_themes.json (oilfield / energy services does not hit the theme keyword sets); no value_chain block written",
+    "No red flag tier (the SEBI matter was the old promoter, pre-2017, resolved); named concerns above weigh on conviction",
+    "Re-check trigger: Oilmax merger final swap ratio and merged-entity equity capital; whether standalone revenue growth resumes; disclosed production (boepd) from the Oilmax fields"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "weak",
+    "valuation": "no",
+    "score": 1.5,
+    "note": "Genuine turnaround and large order book, but growth is acquisition-led, a guidance miss and a dilutive merger on subjective terms overhang, and the stock is near its 52-week high with no valuation cushion"
+  }
+}

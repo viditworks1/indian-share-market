@@ -8,20 +8,20 @@
       "~Rs 47 Cr (SME micro-cap)"
     ],
     [
-      "Revenue / PAT (latest FY)",
-      "Revenue ~Rs 31.6 Cr; PAT ~Rs 5.1 Cr"
+      "Revenue / PAT (FY26, screener)",
+      "Revenue ~Rs 32.0 Cr; PAT ~Rs 3.5 Cr; H1 FY26 PAT +332% YoY on a mix shift to high-value testing/commissioning"
     ],
     [
-      "ROE",
-      "~27% (3-year average)"
+      "ROCE / ROE (FY26)",
+      "ROCE ~15.2% / ROE ~13.1% (screener FY26 - below the ~27% the seed cited; that was a peak/stale read)"
     ],
     [
       "Debt",
-      "Almost debt-free"
+      "Near debt-free (~Rs 2.7 Cr); CWIP ~Rs 4.7 Cr; FY26 CFO ~nil, FCF ~-Rs 3.3 Cr (CFO/EBIT ~24%)"
     ],
     [
       "Valuation",
-      "~9x trailing P/E"
+      "~13x trailing P/E; ~1.6x book (BV ~Rs 26)"
     ],
     [
       "Key catalyst",
@@ -47,9 +47,9 @@
     "note": "Grid/transmission is a priority-1 theme (record global and Indian grid capex). Chamunda's exposure is genuine but indirect and low-margin: more substations built means more O&M and testing tenders, but the value in the chain accrues to transformer/switchgear makers and T&D EPC contractors, not to a small O&M services vendor. The GETCO annuity is the concrete evidence of demand pull-through."
   },
   "growth_trajectory": {
-    "yoy_trend": "unclear",
-    "last_quarters_note": "Quarter-by-quarter history not reliably available for this SME; the step-change to watch is GETCO contract revenue phasing in from FY27",
-    "reverse_pe_note": "~9x trailing with ~27% ROE and a contract worth ~66% of current revenue is undemanding if the GETCO award converts to billed revenue on schedule"
+    "yoy_trend": "accelerating",
+    "last_quarters_note": "Half-yearly data only: FY25 -> FY26 revenue ~Rs 25 Cr -> ~Rs 32 Cr (~+28%); H1 FY26 PAT +332% YoY on a mix shift to high-value testing & commissioning. Quarter-level series not disclosed. The step-change to watch is GETCO Rs 63 Cr O&M revenue phasing in from FY27.",
+    "reverse_pe_note": "~13x trailing with ROCE ~15% and a 3-year O&M award worth ~2x annual revenue is undemanding IF the award converts to billed revenue and cash on schedule - the open risk is FY26's near-nil CFO."
   },
   "bull_case": [
     "Clean balance sheet for an SME: debt-free, ~27% ROE, ~73% promoter holding, ~9x earnings",
@@ -73,13 +73,162 @@
   ],
   "red_flag_tier": null,
   "red_flag_reason": null,
+  "conviction": "Low-Medium",
   "trusted_signals": [],
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-08",
+    "sources_reviewed": [
+      "screener.in/company/CHAMUNDA - FY26 revenue Rs 32.04 Cr, PAT Rs 3.52 Cr, ROCE 15.2%, ROE 13.1%, debt Rs 2.72 Cr, promoter 73.55%, P/E ~13.3, mcap ~Rs 46.8 Cr, BV Rs 26, CWIP Rs 4.66 Cr, FY26 CFO ~Rs 0.02 Cr / FCF -Rs 3.25 Cr, zero dividend",
+      "Chamunda Electrical H1 FY26 results PR (14-Nov-2025) via Gwalior Buzz / ANI / Tribune - PAT +332% YoY, driven by a mix shift toward high-value testing & commissioning; PR carried no absolute revenue/order-book figure",
+      "tradebrains.in - GETCO Letter of Award (02-Apr-2026): Rs 63.47 Cr, O&M of 88 units of 66 KV substations, 36-month term (~Rs 21 Cr/yr)",
+      "Chittorgarh / Samco IPO notes - NSE Emerge SME IPO listed ~40% premium, highly subscribed; no SEBI/fraud action found"
+    ],
+    "annual_report_findings": [
+      "FY26 revenue ~Rs 32.0 Cr, PAT ~Rs 3.5 Cr; ROCE ~15.2%, ROE ~13.1% (screener) - solid for the size but below the ~27% ROE the Sovrenn seed implied; treat the seed number as a peak/stale read",
+      "Balance sheet clean: total debt ~Rs 2.7 Cr, promoter holding 73.55%, no disclosed pledge",
+      "FY26 cash conversion weak: CFO ~nil against reported PAT ~Rs 3.5 Cr, free cash flow ~-Rs 3.3 Cr, CWIP ~Rs 4.7 Cr - working-capital build plus ongoing capex for a services SME scaling into new O&M contracts",
+      "No dividend history; short listed record (NSE Emerge SME, listed FY25)",
+      "Revenue and profit concentrated on GETCO / Gujarat state-transmission work - a single utility in a single state"
+    ],
+    "quarterly_trend": [
+      "Half-yearly disclosure only (SME). H1 FY26 (Sep-2025): PAT +332% YoY per company PR; mix shift toward higher-margin testing & commissioning cited as the driver",
+      "FY25 -> FY26 revenue roughly Rs 25 Cr -> Rs 32 Cr (~+28%); PAT roughly Rs 2-3 Cr -> Rs 3.5 Cr",
+      "No quarter-level order-book or margin series is publicly available for this SME"
+    ],
+    "recent_announcements": [
+      "GETCO Letter of Award Rs 63.47 Cr, 3-year O&M of 88 x 66 KV substations (02-Apr-2026) - the size-transforming datapoint, ~2x the current annual revenue over its term",
+      "H1 FY26 unaudited results, PAT +332% YoY (14-Nov-2025)",
+      "Nothing material on pledge, auditor, KMP or litigation in what was reviewed"
+    ],
+    "key_new_facts": [
+      "GETCO O&M award is confirmed at Rs 63.47 Cr / 36 months (~Rs 21 Cr/yr) - annuity-style and large vs a ~Rs 32 Cr revenue base",
+      "Trailing quality is good-not-exceptional (ROCE ~15%, ROE ~13%), lower than the seed's ~27%",
+      "FY26 free cash flow is negative and CFO barely positive - profit is not yet converting to cash",
+      "Still zero community / institutional coverage; no VP thread"
+    ],
+    "open_questions": [
+      "Does the GETCO Rs 63 Cr award actually phase into billed revenue on schedule from FY27, and at what margin?",
+      "Why is FY26 CFO near nil against Rs 3.5 Cr PAT - one-off working-capital build or a structural receivables issue with a state utility?",
+      "Track record: only FY25-FY26 are reliably verifiable as a listed company - not enough years to score Coffee-Can consistency (block omitted)",
+      "Customer/geography concentration - any revenue outside GETCO / Gujarat?"
+    ],
+    "conviction_update": "Low-Medium -> Low-Medium. The GETCO Rs 63.47 Cr 3-year O&M award and a +332% H1 FY26 PAT jump are real and size-relevant, and the balance sheet is clean (debt-free, 73.55% promoter) - but trailing ROCE/ROE (~15%/~13%) are lower than the seed implied, FY26 cash conversion is poor (CFO ~nil, FCF negative), and it remains an unproven micro-cap SME with single-utility/single-state concentration and no external coverage."
+  },
+  "commitments": [
+    {
+      "area": "orders",
+      "text": "Execute the GETCO 3-year O&M award (88 x 66 KV substations)",
+      "specifics": "Rs 63.47 Cr total, 36 months, ~Rs 21 Cr/yr (~66% of FY26 revenue)",
+      "timeline_bucket": "FY27",
+      "quality_stage": "commercial",
+      "source": "GETCO Letter of Award, 02-Apr-2026",
+      "dependency": "mobilisation, manpower ramp, timely GETCO payments",
+      "single_point_of_failure": "GETCO contract phasing / renewal at end of term",
+      "thesis_critical": true
+    },
+    {
+      "area": "growth",
+      "text": "Scale high-value testing & commissioning mix",
+      "specifics": "cited as the driver of H1 FY26 PAT +332%; not quantified forward",
+      "timeline_bucket": "FY27",
+      "quality_stage": "operational",
+      "source": "H1 FY26 results PR (14-Nov-2025)",
+      "dependency": "tender wins beyond GETCO O&M",
+      "single_point_of_failure": "tender-driven, recompete pressure on margins",
+      "thesis_critical": true
+    },
+    {
+      "area": "capex",
+      "text": "Ongoing capital work in progress",
+      "specifics": "CWIP ~Rs 4.7 Cr at Mar-26; purpose not disclosed in detail",
+      "timeline_bucket": "12M",
+      "quality_stage": "action",
+      "source": "screener.in FY26 balance sheet",
+      "dependency": "",
+      "single_point_of_failure": "",
+      "thesis_critical": false
+    }
+  ],
+  "earnings_chain": {
+    "chain": [
+      "GETCO O&M + testing/commissioning tenders won",
+      "manpower mobilisation on substations",
+      "annuity O&M revenue + higher-margin T&C mix",
+      "EBITDA margin / operating leverage on a fixed supervisory base",
+      "PAT",
+      "cash conversion (currently the weak link)"
+    ],
+    "bottleneck_link": "GETCO O&M revenue phasing + receivable collection from a state utility",
+    "operating_leverage": "unclear - small fixed supervisory base could give leverage, but O&M is labour-and-tender-driven and FY26 cash conversion was poor",
+    "evidenced_links": [
+      "GETCO O&M + testing/commissioning tenders won",
+      "annuity O&M revenue + higher-margin T&C mix"
+    ],
+    "assumed_links": [
+      "EBITDA margin / operating leverage on a fixed supervisory base",
+      "cash conversion (currently the weak link)"
+    ]
+  },
+  "market_expectation": {
+    "as_of": "2026-09-08",
+    "price": 42.5,
+    "current_pe": 13.3,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~13x trailing P/E on a ~Rs 3.5 Cr PAT prices in only modest growth; a ~12-15x exit is fair for a concentrated services SME, so the multiple needs ~10-15% EPS CAGR - well below what full GETCO-award conversion would deliver",
+    "our_fy27_estimate": "revenue Rs 45-55 Cr if the GETCO O&M phases in through FY27; PAT Rs 5-7 Cr at a stable/expanding T&C mix, subject to cash-conversion risk",
+    "our_fy28_estimate": "revenue Rs 55-65 Cr on a full year of GETCO O&M plus incremental tenders; PAT Rs 7-9 Cr",
+    "gap_direction": "underestimated",
+    "gap_type": "new_business",
+    "gap_magnitude_pct": null,
+    "gap_basis": "the Rs 63.47 Cr GETCO award (~2x annual revenue over its term) is not obviously in a ~13x trailing multiple; offset by micro-cap illiquidity, single-customer concentration and weak FY26 cash conversion that cap how much the market will pay",
+    "evidence_quality": "monitor",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "catalyst": {
+    "event": "FY27 quarterly/half-yearly revenue showing the GETCO Rs 63 Cr O&M award phasing into billed sales, with cash flow following",
+    "expected_window_months": 12,
+    "window_start": "2026-09-08",
+    "evidence_quality": "med",
+    "is_dated": false,
+    "status": "pending"
+  },
+  "earnings_quality": {
+    "margin_driver": "mixed",
+    "drivers": [
+      "shift toward higher-value testing & commissioning work (H1 FY26)",
+      "operating leverage on a small fixed supervisory base",
+      "low capital intensity of O&M services"
+    ],
+    "peak_margin_risk": false,
+    "normalised_note": "PAT margin ~11% on FY26 is plausible for an asset-light T&C/O&M services SME and not obviously above a through-cycle level; the risk is recompete pressure on tender-driven O&M rates, not a cyclical spike. Cash conversion, not margin, is the quality concern (FY26 CFO ~nil vs PAT Rs 3.5 Cr)."
+  },
+  "management_quality": {
+    "capital_allocation": "Keeps the business near debt-free with 73.55% promoter holding; reinvesting into working capital and CWIP (~Rs 4.7 Cr) to service larger O&M contracts. Incremental ROCE hard to judge on two years of listed history; no unrelated diversification (small 1.5 MW solar park is legacy).",
+    "capital_allocation_track_record": "unclear",
+    "rpt_trend": "unclear",
+    "guidance_credibility": "no-track-record",
+    "shareholder_returns": "none",
+    "capability_ladder_note": "PR frames a move up-value from plain substation O&M toward EHV testing & commissioning up to 220 KV",
+    "assessment": "neutral"
+  },
+  "quality_metrics": {
+    "roce_pct": 15.2,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 0,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -40,
+    "margin_trend": "expanding",
+    "capex_efficiency": "unclear",
+    "assessment": "neutral"
+  },
   "four_box": {
     "tailwind": "weak",
     "tam": "yes",
     "moat": "no",
     "valuation": "yes",
     "score": 2.5,
-    "note": "value_chain explicitly notes exposure is 'genuine but indirect and low-margin' — value accrues to equipment makers/EPC contractors not this O&M vendor — tailwind weak; GETCO 3yr Rs63cr O&M award vs Rs31.6cr revenue base is a real size-transforming catalyst — tam yes; substation O&M is explicitly 'low-value-add, labour-and-tender-driven' with recompete risk — moat no; ~9x earnings/~27% ROE is undemanding if the award converts on schedule — valuation yes. No independent verification of FY26 numbers beyond a Sovrenn lead is a separate caveat."
+    "note": "value_chain explicitly notes exposure is 'genuine but indirect and low-margin' - value accrues to equipment makers/EPC contractors not this O&M vendor - tailwind weak; GETCO 3yr Rs 63.47cr O&M award (~2x annual revenue over its term) vs a ~Rs 32cr FY26 base is a real size-transforming catalyst - tam yes; substation O&M is explicitly 'low-value-add, labour-and-tender-driven' with recompete risk - moat no; ~13x earnings / ROCE ~15% is undemanding if the award converts to billed revenue and cash on schedule - valuation yes. Score 2.5 -> written exception (valuation box = yes) permits the 10x-in-2-3-years label with conviction capped at Low-Medium (unconfirmed). FY26 numbers now cross-checked on screener (revenue Rs 32.0 Cr, PAT Rs 3.5 Cr, ROCE 15.2%); FY26 CFO near nil / FCF negative is the standing caveat."
   }
 }

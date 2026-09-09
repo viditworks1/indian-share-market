@@ -1,7 +1,7 @@
 {
   "method": "the user's stated screening framework (2026-09-04): growth + margins + ROCE + debt + capex + free cash flow + competitive advantage + management quality. This score covers the four legs (ROCE, debt, FCF, capex) that had no numeric home before. Formula in this script's docstring and scripts/QUALITY_SCORE_METHODOLOGY.md.",
-  "scored_count": 24,
-  "not_assessed_count": 601,
+  "scored_count": 100,
+  "not_assessed_count": 538,
   "ranked": [
     {
       "slug": "venus-remedies",
@@ -30,6 +30,32 @@
       }
     },
     {
+      "slug": "vaibhav-global-vertically-integrated-value-e",
+      "name": "Vaibhav Global ~ Vertically integrated value e-tailer of Jewellery and Lifestyle Products",
+      "quality_score": 91.0,
+      "conviction_score": 36.0,
+      "red_flag_tier": null,
+      "roce_pct": 24.0,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.7,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 65.0,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 21,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 20,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 91,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "macpower-cnc-machines-manufacturing-a-strong-growth",
       "name": "Macpower CNC Machines: Manufacturing a Strong Growth?",
       "quality_score": 89.0,
@@ -52,6 +78,162 @@
         "margin_component": 15,
         "capex_component": 15,
         "raw": 89,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "valiant-communications",
+      "name": "Valiant Communications Limited",
+      "quality_score": 89.0,
+      "conviction_score": 47.32,
+      "red_flag_tier": null,
+      "roce_pct": 39.7,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 45,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 25,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 14,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 89,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "matrimony-com",
+      "name": "Matrimony.com Ltd",
+      "quality_score": 87.0,
+      "conviction_score": 50.0,
+      "red_flag_tier": null,
+      "roce_pct": 17.4,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -3.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 70,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 20,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 87,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "sjs-enterprises",
+      "name": "SJS Enterprises Ltd",
+      "quality_score": 81.0,
+      "conviction_score": 46.32,
+      "red_flag_tier": null,
+      "roce_pct": 21.89,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": -0.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 55,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 14,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 81,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "punjab-chemicals-crop-protection-ltd",
+      "name": "Punjab Chemicals & Crop Protection Ltd",
+      "quality_score": 81.0,
+      "conviction_score": 44.8,
+      "red_flag_tier": null,
+      "roce_pct": 31.0,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 0.5,
+      "interest_coverage": 12.0,
+      "fcf_conversion_pct": 45,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 21,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 14,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 81,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "ddev-plastiks-industries",
+      "name": "DDev Plastiks Industries Ltd",
+      "quality_score": 79.0,
+      "conviction_score": 44.0,
+      "red_flag_tier": null,
+      "roce_pct": 30.3,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 40,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 21,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 14,
+        "margin_component": 9,
+        "capex_component": 15,
+        "raw": 79,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "jubilant-agri-and-consumer-products-ltd-a-hidden-gem-from-the-jubilant-group",
+      "name": "Jubilant Agri and Consumer Products Ltd (JACPL) \u2014 A Hidden Gem from the Jubilant Group?",
+      "quality_score": 79.0,
+      "conviction_score": 27.0,
+      "red_flag_tier": null,
+      "roce_pct": 32.0,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 55,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 25,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 14,
+        "margin_component": 9,
+        "capex_component": 15,
+        "raw": 79,
         "red_flag_multiplier": 1.0
       }
     },
@@ -84,6 +266,164 @@
       }
     },
     {
+      "slug": "aries-agro",
+      "name": "Aries Agro Ltd",
+      "quality_score": 74.0,
+      "conviction_score": 41.0,
+      "red_flag_tier": null,
+      "roce_pct": 21.2,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.8,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 35,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 21,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 7,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 74,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "apcotex-industries-monopoly-in-synthetic-rubber",
+      "name": "Apcotex Industries Ltd",
+      "quality_score": 73.0,
+      "conviction_score": 27.32,
+      "red_flag_tier": null,
+      "roce_pct": 16.0,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.1,
+      "interest_coverage": 15.0,
+      "fcf_conversion_pct": 45.0,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 14,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 73,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "indegene-ltd",
+      "name": "Indegene Ltd",
+      "quality_score": 73.0,
+      "conviction_score": 40.8,
+      "red_flag_tier": null,
+      "roce_pct": 18.0,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": -1.0,
+      "interest_coverage": 25.0,
+      "fcf_conversion_pct": 90,
+      "margin_trend": "contracting",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [
+        "margin-contracting"
+      ],
+      "score_breakdown": {
+        "roce_component": 13,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 25,
+        "margin_component": 0,
+        "capex_component": 15,
+        "raw": 73,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "bliss-gvs-pharma",
+      "name": "Bliss GVS Pharma Ltd",
+      "quality_score": 73.0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": 16.9,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -1.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 55,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 14,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 73,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "time-technoplast",
+      "name": "Time Technoplast",
+      "quality_score": 71.0,
+      "conviction_score": 62.8,
+      "red_flag_tier": null,
+      "roce_pct": 18.9,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 45,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 14,
+        "margin_component": 9,
+        "capex_component": 15,
+        "raw": 71,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "ksh-international-ltd",
+      "name": "KSH International Ltd",
+      "quality_score": 71.0,
+      "conviction_score": 43.32,
+      "red_flag_tier": null,
+      "roce_pct": 21.4,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.2,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 21,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 71,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "hbl-engineering-booting",
       "name": "HBL Engineering: Booting-up for the Race of the Century",
       "quality_score": 69.0,
@@ -112,6 +452,84 @@
       }
     },
     {
+      "slug": "ultramarine-pigments-ltd",
+      "name": "Ultramarine & Pigments Ltd",
+      "quality_score": 68.0,
+      "conviction_score": 38.8,
+      "red_flag_tier": null,
+      "roce_pct": 11,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -2,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 45,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 12,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 14,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 68,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "vimta-labs-ltd",
+      "name": "Vimta Labs Ltd",
+      "quality_score": 68.0,
+      "conviction_score": 39.8,
+      "red_flag_tier": null,
+      "roce_pct": 24.24,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": -0.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 35,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 7,
+        "margin_component": 9,
+        "capex_component": 15,
+        "raw": 68,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "privi-speciality-chemicals-ltd",
+      "name": "Privi Speciality Chemicals Ltd",
+      "quality_score": 68.0,
+      "conviction_score": 40.8,
+      "red_flag_tier": null,
+      "roce_pct": 21.6,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": -0.2,
+      "interest_coverage": 20.0,
+      "fcf_conversion_pct": 35,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 7,
+        "margin_component": 9,
+        "capex_component": 15,
+        "raw": 68,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "dynamic-cables",
       "name": "Dynamic Cables",
       "quality_score": 67.0,
@@ -134,6 +552,88 @@
         "margin_component": 15,
         "capex_component": 15,
         "raw": 67,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "bansal-roofing-products-ltd",
+      "name": "Bansal Roofing Products Ltd",
+      "quality_score": 67.0,
+      "conviction_score": 48.0,
+      "red_flag_tier": null,
+      "roce_pct": 34.4,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 20,
+      "margin_trend": "contracting",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [
+        "margin-contracting"
+      ],
+      "score_breakdown": {
+        "roce_component": 25,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 7,
+        "margin_component": 0,
+        "capex_component": 15,
+        "raw": 67,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "cff-fluid-control",
+      "name": "CFF Fluid Control Ltd",
+      "quality_score": 67.0,
+      "conviction_score": 39.0,
+      "red_flag_tier": null,
+      "roce_pct": 23.5,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -35,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "neutral",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 67,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "arvind-smartspaces-ltd",
+      "name": "Arvind SmartSpaces Ltd",
+      "quality_score": 65.0,
+      "conviction_score": 53.8,
+      "red_flag_tier": null,
+      "roce_pct": 18.0,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 1.1,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 40,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 14,
+        "margin_component": 9,
+        "capex_component": 15,
+        "raw": 65,
         "red_flag_multiplier": 1.0
       }
     },
@@ -194,6 +694,504 @@
       }
     },
     {
+      "slug": "marine-electricals-riding-the-waves-of-expansion",
+      "name": "Marine Electricals: Riding the Waves of Expansion",
+      "quality_score": 63.0,
+      "conviction_score": 35.0,
+      "red_flag_tier": null,
+      "roce_pct": 18,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.8,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -60,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "neutral",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 63,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "ngl-fine-chem-ltd",
+      "name": "NGL Fine-Chem Ltd",
+      "quality_score": 62.0,
+      "conviction_score": 54.8,
+      "red_flag_tier": null,
+      "roce_pct": 16.7,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.6,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 25,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 7,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 62,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "krm-ayurveda",
+      "name": "KRM Ayurveda Ltd",
+      "quality_score": 60.0,
+      "conviction_score": 30.0,
+      "red_flag_tier": null,
+      "roce_pct": 35.3,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -1,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -95,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 25,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 0,
+        "raw": 60,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "ramco-system",
+      "name": "Ramco system",
+      "quality_score": 59.0,
+      "conviction_score": 9.0,
+      "red_flag_tier": null,
+      "roce_pct": 20.0,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.2,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 21,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 59,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "eureka-forbes-a-high-margin-consumer-durable-company",
+      "name": "Eureka Forbes Ltd",
+      "quality_score": 57.0,
+      "conviction_score": 12.32,
+      "red_flag_tier": null,
+      "roce_pct": 5.5,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 45,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 7,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 14,
+        "margin_component": 9,
+        "capex_component": 7,
+        "raw": 57,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "neuland-laboratories",
+      "name": "Neuland Laboratories Limited",
+      "quality_score": 57.0,
+      "conviction_score": 44.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 7,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 57,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "asm-technologies",
+      "name": "ASM Technologies",
+      "quality_score": 56.0,
+      "conviction_score": 32.0,
+      "red_flag_tier": null,
+      "roce_pct": 27.0,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.8,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -50.0,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 25,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 0,
+        "raw": 56,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "accent-microcell",
+      "name": "Accent Microcell Limited",
+      "quality_score": 55.0,
+      "conviction_score": 18.0,
+      "red_flag_tier": null,
+      "roce_pct": 24.9,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": -0.2,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 10,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 2,
+        "margin_component": 9,
+        "capex_component": 7,
+        "raw": 55,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "hind-rectifiers",
+      "name": "Hind Rectifiers Ltd (HIRECT)",
+      "quality_score": 55.0,
+      "conviction_score": 30.0,
+      "red_flag_tier": null,
+      "roce_pct": 24.2,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.6,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 15,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 21,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 2,
+        "margin_component": 9,
+        "capex_component": 7,
+        "raw": 55,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "jg-chemicals-ltd",
+      "name": "J.G. Chemicals Ltd",
+      "quality_score": 55.0,
+      "conviction_score": 13.8,
+      "red_flag_tier": null,
+      "roce_pct": 18.1,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 15,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 2,
+        "margin_component": 9,
+        "capex_component": 7,
+        "raw": 55,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "gufic-biosciences",
+      "name": "Gufic BioSciences Ltd",
+      "quality_score": 54.0,
+      "conviction_score": 47.0,
+      "red_flag_tier": null,
+      "roce_pct": 12.2,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 2.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 15,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "neutral",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 12,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 2,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 54,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "ethos-ltd",
+      "name": "Ethos Ltd",
+      "quality_score": 54.0,
+      "conviction_score": 12.32,
+      "red_flag_tier": null,
+      "roce_pct": 12.3,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -35,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 12,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 54,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "p-n-gadgil-jewellers",
+      "name": "P N Gadgil Jewellers Ltd",
+      "quality_score": 53.0,
+      "conviction_score": 16.8,
+      "red_flag_tier": null,
+      "roce_pct": 20.9,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 2.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -130.0,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 21,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 53,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "sky-gold-ltd",
+      "name": "Sky Gold Ltd",
+      "quality_score": 53.0,
+      "conviction_score": 42.8,
+      "red_flag_tier": null,
+      "roce_pct": 27.0,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 1.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -25,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 21,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 53,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "obsc-perfection",
+      "name": "OBSC Perfection Ltd",
+      "quality_score": 53.0,
+      "conviction_score": 38.0,
+      "red_flag_tier": null,
+      "roce_pct": 19.5,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 1.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -120,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "neutral",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 13,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 9,
+        "capex_component": 15,
+        "raw": 53,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "sml-isuzu",
+      "name": "SML Isuzu Ltd",
+      "quality_score": 52.0,
+      "conviction_score": 20.8,
+      "red_flag_tier": null,
+      "roce_pct": 30.9,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "contracting",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [
+        "margin-contracting"
+      ],
+      "score_breakdown": {
+        "roce_component": 25,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 7,
+        "raw": 52,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "chamunda-electricals",
+      "name": "Chamunda Electricals Ltd",
+      "quality_score": 52.0,
+      "conviction_score": 30.0,
+      "red_flag_tier": null,
+      "roce_pct": 15.2,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -40,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 0,
+        "raw": 52,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "borosil-renewables",
+      "name": "Borosil Renewables",
+      "quality_score": 50.0,
+      "conviction_score": 39.0,
+      "red_flag_tier": null,
+      "roce_pct": 14,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -20,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 12,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 50,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "yash-highvoltage",
       "name": "Yash Highvoltage Ltd",
       "quality_score": 50.0,
@@ -218,6 +1216,192 @@
         "margin_component": 9,
         "capex_component": 7,
         "raw": 50,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "kamat-hotels",
+      "name": "Kamat Hotels (India) Ltd- A Possible Turnaround Story!",
+      "quality_score": 49.0,
+      "conviction_score": 13.0,
+      "red_flag_tier": null,
+      "roce_pct": 15.8,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 2.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 49,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "technocraft-industries-ias2026",
+      "name": "Technocraft Industries",
+      "quality_score": 49.0,
+      "conviction_score": 50.0,
+      "red_flag_tier": null,
+      "roce_pct": 16.0,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 1.3,
+      "interest_coverage": 7.0,
+      "fcf_conversion_pct": 16.0,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 13,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 2,
+        "margin_component": 9,
+        "capex_component": 15,
+        "raw": 49,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "kusumgar",
+      "name": "Kusumgar Ltd",
+      "quality_score": 49.0,
+      "conviction_score": 30.0,
+      "red_flag_tier": null,
+      "roce_pct": 18.8,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": 1.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 30,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 10,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 7,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 49,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "harshdeep-hortico",
+      "name": "Harshdeep Hortico Ltd (SME)",
+      "quality_score": 48.0,
+      "conviction_score": 39.0,
+      "red_flag_tier": null,
+      "roce_pct": 24.0,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 0.2,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -60.0,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 0,
+        "raw": 48,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "alembic-pharma-oral-solids-injectables-onco-derma-opthalmic",
+      "name": "Alembic Pharmaceuticals Ltd",
+      "quality_score": 48.0,
+      "conviction_score": 32.32,
+      "red_flag_tier": null,
+      "roce_pct": 13,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 1.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 40,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 8,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 14,
+        "margin_component": 9,
+        "capex_component": 7,
+        "raw": 48,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "izmo",
+      "name": "IZMO- bet on new technologies in Auto retail & defence",
+      "quality_score": 47.0,
+      "conviction_score": 12.0,
+      "red_flag_tier": null,
+      "roce_pct": 13.0,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 12,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 0,
+        "raw": 47,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "capri-global-capital",
+      "name": "Capri Global Capital Ltd",
+      "quality_score": 47.0,
+      "conviction_score": 51.0,
+      "red_flag_tier": null,
+      "roce_pct": 19.1,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 47,
         "red_flag_multiplier": 1.0
       }
     },
@@ -248,6 +1432,88 @@
       }
     },
     {
+      "slug": "20-microns-micronized-to-nano",
+      "name": "20 Microns : micronized to nano-sized minerals",
+      "quality_score": 45.0,
+      "conviction_score": 29.0,
+      "red_flag_tier": null,
+      "roce_pct": 17.3,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 1.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -10,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 13,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 45,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "motherson",
+      "name": "Samvardhana Motherson International",
+      "quality_score": 44.0,
+      "conviction_score": 27.0,
+      "red_flag_tier": null,
+      "roce_pct": 13.35,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 1.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 12,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 44,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "goodluck-india",
+      "name": "Goodluck India Ltd",
+      "quality_score": 43.0,
+      "conviction_score": 40.0,
+      "red_flag_tier": null,
+      "roce_pct": 15.3,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 2.4,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -20,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 4,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 43,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "l-t-elevators-can-they-lift-investors",
       "name": "L. T. Elevators: Can they lift investors",
       "quality_score": 43.0,
@@ -272,6 +1538,117 @@
         "margin_component": 9,
         "capex_component": 0,
         "raw": 43,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "pennar-industries",
+      "name": "Pennar Industries Limited",
+      "quality_score": 43.0,
+      "conviction_score": 16.0,
+      "red_flag_tier": null,
+      "roce_pct": 15.3,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 2.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -2,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 4,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 43,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "jayaswal-neco",
+      "name": "Jayaswal Neco- Integrated Steel Player",
+      "quality_score": 43.0,
+      "conviction_score": 38.0,
+      "red_flag_tier": null,
+      "roce_pct": 15,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 3.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 4,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 43,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "rbz-jewellers",
+      "name": "RBZ Jewellers Ltd",
+      "quality_score": 42.0,
+      "conviction_score": 31.0,
+      "red_flag_tier": null,
+      "roce_pct": 29,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 1.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -25,
+      "margin_trend": "contracting",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf",
+        "margin-contracting"
+      ],
+      "score_breakdown": {
+        "roce_component": 25,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 7,
+        "raw": 42,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "jasch-industries",
+      "name": "Jasch Industries Ltd",
+      "quality_score": 42.0,
+      "conviction_score": 38.0,
+      "red_flag_tier": null,
+      "roce_pct": 19.2,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 1.1,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -35.0,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 0,
+        "raw": 42,
         "red_flag_multiplier": 1.0
       }
     },
@@ -332,6 +1709,88 @@
       }
     },
     {
+      "slug": "apollo-micro-systems",
+      "name": "Apollo Micro Systems Limited",
+      "quality_score": 40.0,
+      "conviction_score": 18.0,
+      "red_flag_tier": null,
+      "roce_pct": 14.5,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 1.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -70.0,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 8,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 9,
+        "capex_component": 7,
+        "raw": 40,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "kernex-tcas-led-multi-year-growth-story",
+      "name": "Kernex: TCAS led multi year growth story",
+      "quality_score": 40.0,
+      "conviction_score": 38.0,
+      "red_flag_tier": null,
+      "roce_pct": 47.8,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 25,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 0,
+        "raw": 40,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "senores-pharma",
+      "name": "Senores Pharma- Hidden in plain sight",
+      "quality_score": 38.0,
+      "conviction_score": 40.0,
+      "red_flag_tier": null,
+      "roce_pct": 15.1,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 1.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -110,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 13,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 0,
+        "raw": 38,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "alufluoride",
       "name": "Alufluoride Limited-conversion of waste into wealth",
       "quality_score": 37.0,
@@ -361,6 +1820,90 @@
       }
     },
     {
+      "slug": "tube-investments-ltd-diversified-engineering-company",
+      "name": "Tube Investments Ltd ~ Diversified Engineering Company",
+      "quality_score": 37.0,
+      "conviction_score": 27.0,
+      "red_flag_tier": null,
+      "roce_pct": 17.1,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": -0.2,
+      "interest_coverage": 22.35,
+      "fcf_conversion_pct": null,
+      "margin_trend": "contracting",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [
+        "margin-contracting"
+      ],
+      "score_breakdown": {
+        "roce_component": 10,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 7,
+        "raw": 37,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "repono-ltd",
+      "name": "Repono Ltd",
+      "quality_score": 35.0,
+      "conviction_score": 38.0,
+      "red_flag_tier": null,
+      "roce_pct": 17,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 0.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -260,
+      "margin_trend": "stable",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 10,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 9,
+        "capex_component": 0,
+        "raw": 35,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "esds-software",
+      "name": "ESDS Software Solution Ltd",
+      "quality_score": 35.0,
+      "conviction_score": 30.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": 0,
+      "interest_coverage": 20,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 0,
+        "raw": 35,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "data-patterns",
       "name": "Data Patterns (India) Limited",
       "quality_score": 34.0,
@@ -383,6 +1926,144 @@
         "margin_component": 9,
         "capex_component": 15,
         "raw": 34,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "arman-financial-services",
+      "name": "Arman Financial Services Ltd",
+      "quality_score": 34.0,
+      "conviction_score": 46.0,
+      "red_flag_tier": null,
+      "roce_pct": 11.7,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 12,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 34,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "indotech",
+      "name": "Indotech",
+      "quality_score": 34.0,
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION",
+      "roce_pct": 40.4,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 30.0,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "flags": [
+        "high-caution"
+      ],
+      "score_breakdown": {
+        "roce_component": 25,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 7,
+        "margin_component": 9,
+        "capex_component": 7,
+        "raw": 68,
+        "red_flag_multiplier": 0.5
+      }
+    },
+    {
+      "slug": "zaggle-a-platform-to-address-pain-points-for-enterprises",
+      "name": "Zaggle_A platform to address pain points for enterprises",
+      "quality_score": 32.0,
+      "conviction_score": 26.8,
+      "red_flag_tier": null,
+      "roce_pct": 14.0,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -10,
+      "margin_trend": "contracting",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf",
+        "margin-contracting"
+      ],
+      "score_breakdown": {
+        "roce_component": 5,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 7,
+        "raw": 32,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "alpex-solar",
+      "name": "Alpex Solar Ltd",
+      "quality_score": 31.0,
+      "conviction_score": 40.0,
+      "red_flag_tier": null,
+      "roce_pct": 43.5,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 1.6,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -60,
+      "margin_trend": "contracting",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf",
+        "margin-contracting"
+      ],
+      "score_breakdown": {
+        "roce_component": 21,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 31,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "mitsu-chem-plast",
+      "name": "Mitsu Chem Plast Ltd",
+      "quality_score": 31.0,
+      "conviction_score": 31.0,
+      "red_flag_tier": null,
+      "roce_pct": 10.8,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 2.9,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 12,
+        "debt_component": 4,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 0,
+        "raw": 31,
         "red_flag_multiplier": 1.0
       }
     },
@@ -441,28 +2122,199 @@
       }
     },
     {
-      "slug": "bansal-roofing-products-ltd",
-      "name": "Bansal Roofing Products Ltd",
-      "quality_score": 18.0,
+      "slug": "axiscades-engineering",
+      "name": "Axiscades Engineering",
+      "quality_score": 28.0,
       "conviction_score": 30.0,
       "red_flag_tier": null,
-      "roce_pct": 34.4,
-      "roce_trend": "unclear",
-      "net_debt_to_ebitda": null,
+      "roce_pct": 13.8,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": -3.0,
       "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unclear",
+      "fcf_conversion_pct": -20,
+      "margin_trend": "contracting",
       "capex_efficiency": "unclear",
-      "assessment": "neutral",
-      "flags": [],
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf",
+        "margin-contracting"
+      ],
       "score_breakdown": {
-        "roce_component": 18,
-        "debt_component": 0,
-        "debt_component_source": null,
+        "roce_component": 8,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
         "fcf_component": 0,
         "margin_component": 0,
         "capex_component": 0,
-        "raw": 18,
+        "raw": 28,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "cosmic-crf-limited",
+      "name": "COSMIC CRF LIMITED",
+      "quality_score": 27.0,
+      "conviction_score": 24.0,
+      "red_flag_tier": null,
+      "roce_pct": 13.6,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 1.8,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -175,
+      "margin_trend": "stable",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 8,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 9,
+        "capex_component": 0,
+        "raw": 27,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "freshara-agro-exports",
+      "name": "Freshara Agro Exports Ltd",
+      "quality_score": 25.0,
+      "conviction_score": 34.32,
+      "red_flag_tier": null,
+      "roce_pct": 20.9,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 2.6,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -50,
+      "margin_trend": "contracting",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf",
+        "margin-contracting"
+      ],
+      "score_breakdown": {
+        "roce_component": 14,
+        "debt_component": 4,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 7,
+        "raw": 25,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "john-cockerill-india-a-case-study-on-decarbonisation-of-steel",
+      "name": "John Cockerill India: A Case Study on Decarbonisation of Steel",
+      "quality_score": 25.0,
+      "conviction_score": 20.0,
+      "red_flag_tier": null,
+      "roce_pct": 12.2,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": -1.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "contracting",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "flags": [
+        "margin-contracting"
+      ],
+      "score_breakdown": {
+        "roce_component": 5,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 25,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "ratnaveer-precision-a-newly-headed-steel-company",
+      "name": "Ratnaveer precision a newly headed steel company",
+      "quality_score": 24.0,
+      "conviction_score": 30.0,
+      "red_flag_tier": null,
+      "roce_pct": 12.3,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 2.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -120,
+      "margin_trend": "stable",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 5,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 9,
+        "capex_component": 0,
+        "raw": 24,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "csl-finance",
+      "name": "CSL Finance Limited",
+      "quality_score": 24.0,
+      "conviction_score": 33.0,
+      "red_flag_tier": null,
+      "roce_pct": 14.5,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 8,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 9,
+        "capex_component": 7,
+        "raw": 24,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "electronics-mart-india",
+      "name": "Electronics Mart India Limited- EMIL",
+      "quality_score": 21.0,
+      "conviction_score": 34.8,
+      "red_flag_tier": null,
+      "roce_pct": 7.5,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 3.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 45,
+      "margin_trend": "contracting",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "flags": [
+        "high-leverage",
+        "margin-contracting"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 14,
+        "margin_component": 0,
+        "capex_component": 7,
+        "raw": 21,
         "red_flag_multiplier": 1.0
       }
     },
@@ -491,6 +2343,63 @@
         "margin_component": 9,
         "capex_component": 0,
         "raw": 16,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "ujjivan-small-finance-bank",
+      "name": "Ujjivan Small Finance Bank",
+      "quality_score": 15.0,
+      "conviction_score": 34.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 0,
+        "raw": 15,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "permanent-magnets",
+      "name": "Permanent Magnets",
+      "quality_score": 15.0,
+      "conviction_score": 18.0,
+      "red_flag_tier": null,
+      "roce_pct": 13.8,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 2.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -30,
+      "margin_trend": "contracting",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf",
+        "margin-contracting"
+      ],
+      "score_breakdown": {
+        "roce_component": 5,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 15,
         "red_flag_multiplier": 1.0
       }
     },
@@ -609,6 +2518,35 @@
   ],
   "weak": [
     {
+      "slug": "walchandnagar-industries",
+      "name": "Walchandnagar Industries | Return of a Golden Era",
+      "quality_score": 22.0,
+      "conviction_score": 26.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "value-destructive",
+      "assessment": "concern",
+      "flags": [
+        "no-roce-data",
+        "value-destructive-capex"
+      ],
+      "score_breakdown": {
+        "roce_component": 7,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 0,
+        "raw": 22,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "novartis-india-ltd",
       "name": "Novartis India Ltd",
       "quality_score": 0,
@@ -637,6 +2575,94 @@
       }
     },
     {
+      "slug": "control-print",
+      "name": "Control Print",
+      "quality_score": 44.0,
+      "conviction_score": 18.0,
+      "red_flag_tier": null,
+      "roce_pct": 16.4,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": -1.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 45,
+      "margin_trend": "contracting",
+      "capex_efficiency": "value-destructive",
+      "assessment": "concern",
+      "flags": [
+        "margin-contracting",
+        "value-destructive-capex"
+      ],
+      "score_breakdown": {
+        "roce_component": 10,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 14,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 44,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "orchid-pharma-ltd",
+      "name": "Orchid Pharma Ltd",
+      "quality_score": 4.0,
+      "conviction_score": 14.0,
+      "red_flag_tier": null,
+      "roce_pct": 2,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 2.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -30,
+      "margin_trend": "contracting",
+      "capex_efficiency": "value-destructive",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf",
+        "margin-contracting",
+        "value-destructive-capex"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 4,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 4,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "gmm-pfaudler-ias2026",
+      "name": "GMM Pfaudler",
+      "quality_score": 9.0,
+      "conviction_score": 11.0,
+      "red_flag_tier": null,
+      "roce_pct": 13.6,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 2.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "contracting",
+      "capex_efficiency": "value-destructive",
+      "assessment": "concern",
+      "flags": [
+        "margin-contracting",
+        "value-destructive-capex"
+      ],
+      "score_breakdown": {
+        "roce_component": 5,
+        "debt_component": 4,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 9,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "asahi-songwon-colors-ltd",
       "name": "Asahi Songwon Colors Ltd",
       "quality_score": 3.0,
@@ -661,6 +2687,63 @@
         "margin_component": 0,
         "capex_component": 0,
         "raw": 3,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "gujarat-themis-biosyn",
+      "name": "Gujarat Themis Biosyn Ltd",
+      "quality_score": 23.0,
+      "conviction_score": 7.0,
+      "red_flag_tier": null,
+      "roce_pct": 17.9,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 2.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -25,
+      "margin_trend": "stable",
+      "capex_efficiency": "value-destructive",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf",
+        "value-destructive-capex"
+      ],
+      "score_breakdown": {
+        "roce_component": 10,
+        "debt_component": 4,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 9,
+        "capex_component": 0,
+        "raw": 23,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "exicom-tele",
+      "name": "Exicom Tele-Services: A Key Player in the Booming EV Sector",
+      "quality_score": 0,
+      "conviction_score": 2.0,
+      "red_flag_tier": null,
+      "roce_pct": -14.7,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "improving",
+      "capex_efficiency": "value-destructive",
+      "assessment": "concern",
+      "flags": [
+        "value-destructive-capex"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
         "red_flag_multiplier": 1.0
       }
     }
@@ -721,18 +2804,6 @@
       "red_flag_tier": null
     },
     {
-      "slug": "afcom-holdings",
-      "name": "Afcom Holdings",
-      "conviction_score": 50.8,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "stylam-decent-fundamentals-with-cheap-valuation",
-      "name": "Stylam Industries Ltd",
-      "conviction_score": 50.8,
-      "red_flag_tier": null
-    },
-    {
       "slug": "kmc-speciality-hospital",
       "name": "KMC Speciality hospital",
       "conviction_score": 47.0,
@@ -781,98 +2852,8 @@
       "red_flag_tier": null
     },
     {
-      "slug": "tube-investments-ltd-diversified-engineering-company",
-      "name": "Tube Investments Ltd ~ Diversified Engineering Company",
-      "conviction_score": 44.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "motherson",
-      "name": "Samvardhana Motherson International",
-      "conviction_score": 44.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "time-technoplast",
-      "name": "Time Technoplast",
-      "conviction_score": 42.8,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "surya-roshni-ltd",
-      "name": "Surya roshni ltd",
-      "conviction_score": 42.8,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "electronics-mart-india",
-      "name": "Electronics Mart India Limited- EMIL",
-      "conviction_score": 42.8,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "sml-isuzu",
-      "name": "SML Isuzu Ltd",
-      "conviction_score": 42.8,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "ngl-fine-chem-ltd",
-      "name": "NGL Fine-Chem Ltd",
-      "conviction_score": 42.8,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "punjab-chemicals-crop-protection-ltd",
-      "name": "Punjab Chemicals & Crop Protection Ltd",
-      "conviction_score": 42.8,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "indegene-ltd",
-      "name": "Indegene Ltd",
-      "conviction_score": 42.8,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "vimta-labs-ltd",
-      "name": "Vimta Labs Ltd",
-      "conviction_score": 42.8,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "privi-speciality-chemicals-ltd",
-      "name": "Privi Speciality Chemicals Ltd",
-      "conviction_score": 42.8,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "freshara-agro-exports",
-      "name": "Freshara Agro Exports Ltd",
-      "conviction_score": 42.32,
-      "red_flag_tier": ""
-    },
-    {
-      "slug": "alembic-pharma-oral-solids-injectables-onco-derma-opthalmic",
-      "name": "Alembic Pharmaceuticals Ltd",
-      "conviction_score": 42.32,
-      "red_flag_tier": ""
-    },
-    {
-      "slug": "apcotex-industries-monopoly-in-synthetic-rubber",
-      "name": "Apcotex Industries Ltd",
-      "conviction_score": 42.32,
-      "red_flag_tier": null
-    },
-    {
       "slug": "csb-bank-ltd",
       "name": "CSB Bank Ltd",
-      "conviction_score": 42.32,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "sandhar-technologies-ltd",
-      "name": "Sandhar Technologies Ltd",
       "conviction_score": 42.32,
       "red_flag_tier": null
     },
@@ -943,62 +2924,8 @@
       "red_flag_tier": null
     },
     {
-      "slug": "goodluck-india",
-      "name": "Goodluck India Ltd",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "apollo-micro-systems",
-      "name": "Apollo Micro Systems Limited",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "goldiam-international-a-rare-shareholder-friendly-and-debt-free-jewelry-company",
-      "name": "Goldiam International : A rare shareholder friendly and debt free Jewelry company",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "alpex-solar",
-      "name": "Alpex Solar Ltd",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "kernex-tcas-led-multi-year-growth-story",
-      "name": "Kernex: TCAS led multi year growth story",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "rain-industries",
-      "name": "Rain Industries",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "ddev-plastiks-industries",
-      "name": "DDev Plastiks Industries Ltd",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "fredun-pharmaceuticals",
-      "name": "Fredun Pharmaceuticals",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
       "slug": "sika-interplant-systems",
       "name": "Sika Interplant Systems Ltd",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "matrimony-com",
-      "name": "Matrimony.com Ltd",
       "conviction_score": 38.0,
       "red_flag_tier": null
     },
@@ -1009,141 +2936,15 @@
       "red_flag_tier": null
     },
     {
-      "slug": "hind-rectifiers",
-      "name": "Hind Rectifiers Ltd (HIRECT)",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "asm-technologies",
-      "name": "ASM Technologies",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "harshdeep-hortico",
-      "name": "Harshdeep Hortico Ltd (SME)",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "quality-power-electrical-equipments",
-      "name": "Quality Power Electrical Equipments Ltd (QPOWER)",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "20-microns-micronized-to-nano",
-      "name": "20 Microns : micronized to nano-sized minerals",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "marine-electricals-riding-the-waves-of-expansion",
-      "name": "Marine Electricals: Riding the Waves of Expansion",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "ujjivan-small-finance-bank",
-      "name": "Ujjivan Small Finance Bank",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "arman-financial-services",
-      "name": "Arman Financial Services Ltd",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "orchid-pharma-ltd",
-      "name": "Orchid Pharma Ltd",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "vaibhav-global-vertically-integrated-value-e",
-      "name": "Vaibhav Global ~ Vertically integrated value e-tailer of Jewellery and Lifestyle Products",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "senores-pharma",
-      "name": "Senores Pharma- Hidden in plain sight",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "indotech",
-      "name": "Indotech",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "repono-ltd",
-      "name": "Repono Ltd",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "obsc-perfection",
-      "name": "OBSC Perfection Ltd",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "venky-india",
-      "name": "Venky India",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "jubilant-agri-and-consumer-products-ltd-a-hidden-gem-from-the-jubilant-group",
-      "name": "Jubilant Agri and Consumer Products Ltd (JACPL) \u2014 A Hidden Gem from the Jubilant Group?",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "capri-global-capital",
-      "name": "Capri Global Capital Ltd",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "esds-software",
-      "name": "ESDS Software Solution Ltd",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "cff-fluid-control",
-      "name": "CFF Fluid Control Ltd",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "jasch-industries",
-      "name": "Jasch Industries Ltd",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "jayaswal-neco",
-      "name": "Jayaswal Neco- Integrated Steel Player",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "aries-agro",
-      "name": "Aries Agro Ltd",
-      "conviction_score": 38.0,
-      "red_flag_tier": null
-    },
-    {
       "slug": "emerald-finance",
       "name": "Emerald Finance",
       "conviction_score": 37.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "afcom-holdings",
+      "name": "Afcom Holdings",
+      "conviction_score": 36.8,
       "red_flag_tier": null
     },
     {
@@ -1155,6 +2956,12 @@
     {
       "slug": "crompton-greaves-consumer-product-brand-revival",
       "name": "Crompton Greaves Consumer Product: Brand Revival",
+      "conviction_score": 36.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "stylam-decent-fundamentals-with-cheap-valuation",
+      "name": "Stylam Industries Ltd",
       "conviction_score": 36.8,
       "red_flag_tier": null
     },
@@ -1192,24 +2999,6 @@
       "slug": "transrail-lighting",
       "name": "Transrail Lighting Ltd",
       "conviction_score": 34.8,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "sky-gold-ltd",
-      "name": "Sky Gold Ltd",
-      "conviction_score": 34.8,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "arvind-smartspaces-ltd",
-      "name": "Arvind SmartSpaces Ltd",
-      "conviction_score": 34.8,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "ksh-international-ltd",
-      "name": "KSH International Ltd",
-      "conviction_score": 34.32,
       "red_flag_tier": null
     },
     {
@@ -1309,32 +3098,8 @@
       "red_flag_tier": null
     },
     {
-      "slug": "ratnaveer-precision-a-newly-headed-steel-company",
-      "name": "Ratnaveer precision a newly headed steel company",
-      "conviction_score": 30.0,
-      "red_flag_tier": null
-    },
-    {
       "slug": "kwality-pharmaceuticals",
       "name": "Kwality Pharmaceuticals",
-      "conviction_score": 30.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "mitsu-chem-plast",
-      "name": "Mitsu Chem Plast Ltd",
-      "conviction_score": 30.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "gufic-biosciences",
-      "name": "Gufic BioSciences Ltd",
-      "conviction_score": 30.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "accent-microcell",
-      "name": "Accent Microcell Limited",
       "conviction_score": 30.0,
       "red_flag_tier": null
     },
@@ -1345,20 +3110,8 @@
       "red_flag_tier": null
     },
     {
-      "slug": "walchandnagar-industries",
-      "name": "Walchandnagar Industries | Return of a Golden Era",
-      "conviction_score": 30.0,
-      "red_flag_tier": null
-    },
-    {
       "slug": "prevest-denpro",
       "name": "Prevest Denpro Limited",
-      "conviction_score": 30.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "satin-creditcare-network",
-      "name": "Satin Creditcare Network Ltd",
       "conviction_score": 30.0,
       "red_flag_tier": null
     },
@@ -1367,18 +3120,6 @@
       "name": "Muthoot Microfin Limited is it next JP Morgan?",
       "conviction_score": 30.0,
       "red_flag_tier": null
-    },
-    {
-      "slug": "cosmic-crf-limited",
-      "name": "COSMIC CRF LIMITED",
-      "conviction_score": 30.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "axiscades-engineering",
-      "name": "Axiscades Engineering",
-      "conviction_score": 30.0,
-      "red_flag_tier": ""
     },
     {
       "slug": "swastika-castal",
@@ -1393,56 +3134,8 @@
       "red_flag_tier": null
     },
     {
-      "slug": "borosil-renewables",
-      "name": "Borosil Renewables",
-      "conviction_score": 30.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "technocraft-industries-ias2026",
-      "name": "Technocraft Industries",
-      "conviction_score": 30.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "csl-finance",
-      "name": "CSL Finance Limited",
-      "conviction_score": 30.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "gujarat-themis-biosyn",
-      "name": "Gujarat Themis Biosyn Ltd",
-      "conviction_score": 30.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "kusumgar",
-      "name": "Kusumgar Ltd",
-      "conviction_score": 30.0,
-      "red_flag_tier": null
-    },
-    {
       "slug": "shree-refrigerations",
       "name": "Shree Refrigerations",
-      "conviction_score": 30.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "permanent-magnets",
-      "name": "Permanent Magnets",
-      "conviction_score": 30.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "bliss-gvs-pharma",
-      "name": "Bliss GVS Pharma Ltd",
-      "conviction_score": 30.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "chamunda-electricals",
-      "name": "Chamunda Electricals Ltd",
       "conviction_score": 30.0,
       "red_flag_tier": null
     },
@@ -1455,12 +3148,6 @@
     {
       "slug": "kp-green-engineering",
       "name": "KP Green Engineering Ltd",
-      "conviction_score": 30.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "krm-ayurveda",
-      "name": "KRM Ayurveda Ltd",
       "conviction_score": 30.0,
       "red_flag_tier": null
     },
@@ -1483,12 +3170,6 @@
       "red_flag_tier": null
     },
     {
-      "slug": "rbz-jewellers",
-      "name": "RBZ Jewellers Ltd",
-      "conviction_score": 30.0,
-      "red_flag_tier": null
-    },
-    {
       "slug": "solex-energy",
       "name": "Solex Energy Ltd",
       "conviction_score": 30.0,
@@ -1498,6 +3179,12 @@
       "slug": "modison-ltd",
       "name": "Modison Ltd",
       "conviction_score": 29.32,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "surya-roshni-ltd",
+      "name": "Surya roshni ltd",
+      "conviction_score": 28.8,
       "red_flag_tier": null
     },
     {
@@ -1579,6 +3266,12 @@
       "red_flag_tier": null
     },
     {
+      "slug": "sandhar-technologies-ltd",
+      "name": "Sandhar Technologies Ltd",
+      "conviction_score": 28.32,
+      "red_flag_tier": null
+    },
+    {
       "slug": "stallion-india-fluorochemicals-aggressive-capex",
       "name": "Stallion India Fluorochemicals : Aggressive Capex",
       "conviction_score": 28.0,
@@ -1597,32 +3290,8 @@
       "red_flag_tier": null
     },
     {
-      "slug": "zaggle-a-platform-to-address-pain-points-for-enterprises",
-      "name": "Zaggle_A platform to address pain points for enterprises",
-      "conviction_score": 26.8,
-      "red_flag_tier": null
-    },
-    {
       "slug": "unicommerce-esolutions",
       "name": "Unicommerce Esolutions",
-      "conviction_score": 26.8,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "fairchem-organics",
-      "name": "Fairchem Organics",
-      "conviction_score": 26.8,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "zen-technologies",
-      "name": "Zen technologies",
-      "conviction_score": 26.8,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "p-n-gadgil-jewellers",
-      "name": "P N Gadgil Jewellers Ltd",
       "conviction_score": 26.8,
       "red_flag_tier": null
     },
@@ -1633,28 +3302,10 @@
       "red_flag_tier": null
     },
     {
-      "slug": "ultramarine-pigments-ltd",
-      "name": "Ultramarine & Pigments Ltd",
-      "conviction_score": 26.8,
-      "red_flag_tier": null
-    },
-    {
       "slug": "garware-hi-tech-films-ltd",
       "name": "Garware Hi-Tech Films Ltd",
       "conviction_score": 26.8,
       "red_flag_tier": null
-    },
-    {
-      "slug": "jg-chemicals-ltd",
-      "name": "J.G. Chemicals Ltd",
-      "conviction_score": 26.8,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "sjs-enterprises",
-      "name": "SJS Enterprises Ltd",
-      "conviction_score": 26.32,
-      "red_flag_tier": ""
     },
     {
       "slug": "agi-infra",
@@ -1663,32 +3314,14 @@
       "red_flag_tier": null
     },
     {
-      "slug": "valiant-communications",
-      "name": "Valiant Communications Limited",
-      "conviction_score": 26.32,
-      "red_flag_tier": ""
-    },
-    {
       "slug": "zinka-logistics-blackbuck",
       "name": "Zinka Logistics Solutions Ltd (BlackBuck)",
       "conviction_score": 26.32,
       "red_flag_tier": ""
     },
     {
-      "slug": "eureka-forbes-a-high-margin-consumer-durable-company",
-      "name": "Eureka Forbes Ltd",
-      "conviction_score": 26.32,
-      "red_flag_tier": ""
-    },
-    {
       "slug": "rkec-projects-ltd",
       "name": "RKEC Projects Ltd",
-      "conviction_score": 26.32,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "ethos-ltd",
-      "name": "Ethos Ltd",
       "conviction_score": 26.32,
       "red_flag_tier": null
     },
@@ -1707,12 +3340,6 @@
     {
       "slug": "himadri-speciality-chemical",
       "name": "Himadri Speciality Chemical Ltd (HSCL)",
-      "conviction_score": 24.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "control-print",
-      "name": "Control Print",
       "conviction_score": 24.0,
       "red_flag_tier": null
     },
@@ -1747,8 +3374,20 @@
       "red_flag_tier": null
     },
     {
+      "slug": "goldiam-international-a-rare-shareholder-friendly-and-debt-free-jewelry-company",
+      "name": "Goldiam International : A rare shareholder friendly and debt free Jewelry company",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
       "slug": "maharashtra-seamless",
       "name": "Maharashtra seamless-a value plus cyclical play",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "rain-industries",
+      "name": "Rain Industries",
       "conviction_score": 24.0,
       "red_flag_tier": null
     },
@@ -1761,6 +3400,12 @@
     {
       "slug": "manappuram-finance",
       "name": "Manappuram Finance",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "fredun-pharmaceuticals",
+      "name": "Fredun Pharmaceuticals",
       "conviction_score": 24.0,
       "red_flag_tier": null
     },
@@ -1863,6 +3508,12 @@
     {
       "slug": "thangmayil-jewellers-ltd",
       "name": "Thangmayil jewellers ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "quality-power-electrical-equipments",
+      "name": "Quality Power Electrical Equipments Ltd (QPOWER)",
       "conviction_score": 24.0,
       "red_flag_tier": null
     },
@@ -1981,6 +3632,12 @@
       "red_flag_tier": null
     },
     {
+      "slug": "venky-india",
+      "name": "Venky India",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
       "slug": "kama-holdings",
       "name": "Kama Holdings Limited",
       "conviction_score": 24.0,
@@ -2065,6 +3722,24 @@
       "red_flag_tier": null
     },
     {
+      "slug": "shaily-engineering",
+      "name": "Shaily Engineering Plastics Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "pitti-engineering",
+      "name": "Pitti Engineering Ltd",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "chatha-foods",
+      "name": "Chatha Foods",
+      "conviction_score": 24.0,
+      "red_flag_tier": null
+    },
+    {
       "slug": "moil",
       "name": "MOIL Ltd",
       "conviction_score": 23.92,
@@ -2079,12 +3754,6 @@
     {
       "slug": "pngs-gargi-fashion-jewellery",
       "name": "PNGS Gargi Fashion Jewellery Ltd",
-      "conviction_score": 22.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "graphite-electrode-graphite-india-heg",
-      "name": "Graphite Electrode : Graphite India/HEG",
       "conviction_score": 22.0,
       "red_flag_tier": null
     },
@@ -2107,18 +3776,6 @@
       "red_flag_tier": null
     },
     {
-      "slug": "kamat-hotels",
-      "name": "Kamat Hotels (India) Ltd- A Possible Turnaround Story!",
-      "conviction_score": 22.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "pennar-industries",
-      "name": "Pennar Industries Limited",
-      "conviction_score": 22.0,
-      "red_flag_tier": null
-    },
-    {
       "slug": "laxmi-dental",
       "name": "Laxmi Dental Ltd",
       "conviction_score": 22.0,
@@ -2137,38 +3794,8 @@
       "red_flag_tier": null
     },
     {
-      "slug": "anlon-technology-solutions",
-      "name": "Anlon Technology Solutions Ltd",
-      "conviction_score": 22.0,
-      "red_flag_tier": null
-    },
-    {
       "slug": "ideaforge-technologies",
       "name": "Ideaforge technologies",
-      "conviction_score": 22.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "positron-energy",
-      "name": "Positron Energy",
-      "conviction_score": 22.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "izmo",
-      "name": "IZMO- bet on new technologies in Auto retail & defence",
-      "conviction_score": 22.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "ramco-system",
-      "name": "Ramco system",
-      "conviction_score": 22.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "gmm-pfaudler-ias2026",
-      "name": "GMM Pfaudler",
       "conviction_score": 22.0,
       "red_flag_tier": null
     },
@@ -2203,26 +3830,8 @@
       "red_flag_tier": null
     },
     {
-      "slug": "exicom-tele",
-      "name": "Exicom Tele-Services: A Key Player in the Booming EV Sector",
-      "conviction_score": 22.0,
-      "red_flag_tier": null
-    },
-    {
       "slug": "divgi-torqtransfer-systems",
       "name": "Divgi TorqTransfer Systems Ltd",
-      "conviction_score": 22.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "west-coast-paper-mills-ltd",
-      "name": "West coast paper mills ltd",
-      "conviction_score": 22.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "john-cockerill-india-a-case-study-on-decarbonisation-of-steel",
-      "name": "John Cockerill India: A Case Study on Decarbonisation of Steel",
       "conviction_score": 22.0,
       "red_flag_tier": null
     },
@@ -2383,6 +3992,12 @@
       "red_flag_tier": null
     },
     {
+      "slug": "satin-creditcare-network",
+      "name": "Satin Creditcare Network Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
       "slug": "navin-fluorine-international",
       "name": "Navin Fluorine International Ltd",
       "conviction_score": 16.0,
@@ -2415,6 +4030,12 @@
     {
       "slug": "transformer-rectifier-india",
       "name": "Transformer & Rectifier India Limited",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "asian-oilfields",
+      "name": "Asian oilfields",
       "conviction_score": 16.0,
       "red_flag_tier": null
     },
@@ -2695,6 +4316,36 @@
       "red_flag_tier": null
     },
     {
+      "slug": "beezaasan-explotech",
+      "name": "Beezaasan Explotech",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "jindal-saw",
+      "name": "Jindal Saw",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "andhra-sugar",
+      "name": "Andhra Sugar- A sweet chemical story",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "inox-wind",
+      "name": "INOX Wind",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "irctc-a-necessity-a-monopoly",
+      "name": "IRCTC: a necessity, a monopoly",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
       "slug": "krsnaa-diagnostics",
       "name": "Krsnaa Diagnostics",
       "conviction_score": 13.0,
@@ -2705,6 +4356,18 @@
       "name": "Vintage Coffee: Brewing Profits",
       "conviction_score": 13.0,
       "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "fairchem-organics",
+      "name": "Fairchem Organics",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "zen-technologies",
+      "name": "Zen technologies",
+      "conviction_score": 12.8,
+      "red_flag_tier": null
     },
     {
       "slug": "zomato",
@@ -2893,6 +4556,12 @@
       "red_flag_tier": null
     },
     {
+      "slug": "graphite-electrode-graphite-india-heg",
+      "name": "Graphite Electrode : Graphite India/HEG",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
       "slug": "affordable-robotic-automation",
       "name": "Affordable Robotic & Automation (ARAL)",
       "conviction_score": 8.0,
@@ -3067,6 +4736,12 @@
       "red_flag_tier": null
     },
     {
+      "slug": "anlon-technology-solutions",
+      "name": "Anlon Technology Solutions Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
       "slug": "sumeet-industries",
       "name": "Sumeet Industries",
       "conviction_score": 8.0,
@@ -3141,6 +4816,12 @@
     {
       "slug": "bosch-home-comfort",
       "name": "Bosch Home comfort ( older name",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "positron-energy",
+      "name": "Positron Energy",
       "conviction_score": 8.0,
       "red_flag_tier": null
     },
@@ -3481,6 +5162,12 @@
       "red_flag_tier": null
     },
     {
+      "slug": "west-coast-paper-mills-ltd",
+      "name": "West coast paper mills ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
       "slug": "dhoot-transmission-high-share-higher-content",
       "name": "Dhoot Transmission: High Share, Higher Content",
       "conviction_score": 8.0,
@@ -3699,6 +5386,12 @@
     {
       "slug": "metropolitan-stock-exchange",
       "name": "Metropolitan Stock Exchange of India Ltd (MSEI)",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "galaxy-bearings",
+      "name": "Galaxy Bearings",
       "conviction_score": 8.0,
       "red_flag_tier": null
     },
@@ -4271,6 +5964,18 @@
       "name": "Purple Style Labs",
       "conviction_score": 0,
       "red_flag_tier": "AVOID"
+    },
+    {
+      "slug": "pc-jewellers",
+      "name": "PC Jewellers",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "hi",
+      "name": "Hi-Green Carbon Ltd",
+      "conviction_score": 0,
+      "red_flag_tier": "HIGH CAUTION"
     }
   ]
 }

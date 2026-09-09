@@ -6594,3 +6594,632 @@ Tiers 1-4 and re-verification backlog empty. Tier 4.5 (external-lead) had 3 cand
 **jubilant-agri-and-consumer-products-ltd-a-hidden-gem-from-the-jubilant-group** (discovery, no theme match) — genuinely high-ROCE (32-37%) Jubilant-group niche-polymer business (India's largest VP-latex, global top-2 SPVA) trading at a real peer-relative discount (26x P/E for 31% ROE vs Pidilite's 75x for 23%), mid-active NCLT demerger (creditors' meeting scheduled 5-Sep-2026 — the day of this run) separating the subsidy-dependent fertilizer drag. Two independent, careful community SOTP analyses (Folok, kinvestor04, neither trusted) both concluded the demerger-arb upside is modest (~17-20%), tempering the thread-title's "hidden gem" framing to a quality/valuation thesis rather than an outsized special situation; adhesive-segment margin quality (9% vs 20%+ peers while gaining share) remains unresolved. value_chain added (deep-read-clear chain position, no live theme match). four_box 3.5. thesis_fit "10x-in-2-3-years", conviction Medium.
 
 Self-check: all 9 last_analyzed_date 2026-09-05, status researched (8) / excluded (1, purple-style-labs). thesis_fit — 4 "10x-in-2-3-years" (jayaswal-neco, aries-agro, jubilant-agri, all Medium; motherson/tube-investments are "100x-in-10-years" via the large-cap exception, also Medium), 4 "neither" (metropolitan-stock-exchange, aequs, purple-style-labs, shivalik-rasayan). red_flag_tier — purple-style-labs AVOID, rest null. No re-verification stocks in batch, none had conviction_needs_reverification set. last_post_number_analyzed set for all six threads read (144/8/120/77/77/5) and left null for the three web-only (metropolitan-stock-exchange, aequs, purple-style-labs). revisit_after_30d: initially set true for the 5 non-"neither"/non-red-flag stocks, but audit_state.py correctly auto-fixed all 5 to false since the rule requires Medium-High/High conviction (all 5 are capped at Medium) — false for all 9. four_box present on all 9 data JSONs. No writes outside valuepickr-screen/. refresh_derived.py --all run clean; audit_state.py run post-hoc, its auto-fixes (revisit_after_30d x5, last_post_number_analyzed explicit null x3) applied.
+
+## Harshdeep Hortico Ltd — deep-dive pass 1 [2026-09-07]
+- FY26: revenue Rs 68.7 Cr (+22% YoY), PAT Rs 12.5 Cr (+29%), PBT +41%, EBITDA Rs 19.8 Cr (~29% margin, +32%), net worth Rs 59.9 Cr (+44%), ROE 23.3%.
+- Cash-flow concern now evidenced: FY26 operating cash flow was NEGATIVE Rs 8.4 Cr *before* capex of Rs 8.5 Cr; company drew ~Rs 3.8 Cr new secured loans to bridge. FCF deeply negative.
+- Growth decelerated through the year: H1 revenue ~+31-35% / PAT +35% -> H2 revenue +15% / PAT +25%.
+- Capacity expanded: total moulding 1,440 t/yr, shade-net line 3.5 lakh kg/yr, Agri Shield +200 t; new categories — India-first rotomoulded decorative fountains (Apr 2026), Muebles furniture. Airport contracts (Mumbai, Mangalore). Second dividend (Rs 0.25/sh).
+- Valuation genuinely cheap: ~10x FY26 P/E, ~6.5x EV/EBITDA, ~2.2x P/B — prices in near-zero growth. four_box 3.5 (moat downgraded to weak; valuation upgraded to yes).
+- conviction Medium -> Medium (cheap multiple + real growth offset by evidenced negative CFO and H2 deceleration).
+
+## Jasch Industries Ltd — deep-dive pass 1 [2026-09-07]
+- Live inflection now CONFIRMED over 4+ quarters, not a one-off: Q4 FY25 rev +26% / PAT +232%; FY26 revenue Rs 228.8 Cr (+24% YoY), PAT Rs 13.25 Cr (+77%); Q1 FY27 revenue Rs 75.26 Cr (+54% YoY), PAT Rs 3.81 Cr (+73%).
+- Driver confirmed: Hyundai/Kia car-interior coated-fabric supply started 2025; PU capacity-expansion approval received (~Rs 28 Cr capex).
+- Quality caveats now quantified: EBITDA margin only ~7.6% (price-taker, no pricing power); net debt rose Rs 4.5 Cr (Mar-24) -> Rs 18.7 Cr (Mar-25) to fund capex; Q1 FY27 revenue -3.5% QoQ (sequential ramp paused); company holds NO earnings calls.
+- Valuation ~15x FY26 / ~13x forward after a +83% six-month re-rate; mcap ~Rs 197 Cr; promoters 57.6%, no FII/DII, no pledge.
+- four_box 3.5 (tailwind/tam/valuation yes, moat weak). conviction Medium -> Medium (multi-quarter confirmation offset by thin margins, rising debt, no concall visibility, price already run).
+
+## Vaibhav Global Ltd — deep-dive pass 1 [2026-09-07]
+- Operating-leverage thesis CONFIRMED structural (answers Simrat's "easy comp" pushback): FY26 revenue Rs 3,692 Cr (+9.2%), EBITDA Rs 399 Cr (+26%, margin 10.8% / +140bps), PAT Rs 266 Cr (+73.8%); Q1 FY27 EBITDA +37%, PAT +50%, digital +21% / TV +9%.
+- Structural drivers: in-house brands ~57% of B2C (target 60%+), digital ~45% (target 50% end-FY27), lab-grown diamonds ~13% of retail, Shopify enterprise migration done (lower platform cost). July 2025 ITAT ruling cleared ~Rs 150 Cr tax overhang. Net cash Rs 296 Cr, ROCE 24%.
+- BUT: ~9-11% revenue grower (FY27 guidance), margin runway from 10.8% toward historical 12-14% is finite. The +12.7% Q1 print is guidance-consistent, partly currency/tariff noise — NOT a growth inflection. Prior pass over-applied the inflection rule.
+- four_box 3.5 -> 2.5 (tam downgraded to "no" — no return-magnitude headroom at ~9% growth; tailwind weak). thesis_fit corrected 10x-in-2-3-years -> **neither**. track_record 1/3 years cleared (revenue mostly <10%).
+- conviction Medium -> Medium (business-quality confirmation offsets the thesis_fit downgrade); remains a quality-value / re-rating idea at ~11x forward, net cash.
+
+## vpscreen-scan batch [2026-09-07] — tier 4.5 (external-lead) + tier 4.55 (trusted-x) + Step-1 discovery, 10 stocks
+
+Tiers 1-4 and the re-verification backlog empty. Priority queue: tier 4.5 external-lead had 2 (beezaasan-explotech @Rahul_Invest, jindal-saw @nareshbahrain/ValuationMantra — both untrusted X triage, first_seen 2026-09-07); tier 4.55 trusted-x had 2 (shaily-engineering @unseenvalue high, pitti-engineering @suru27 high — no conviction floor, core/phreakv6 only). Combined tier-1-4.65 backlog = 4, well under the cap of 10, so Step-1 discovery filled the remaining 6 slots from discover.py's "actionable now" list (10 topics; 4 were the priority-queue entries): galaxy-bearings, asian-oilfields, andhra-sugar, chatha-foods, pc-jewellers, inox-wind. Theme-rank: only galaxy-bearings hit a keyword ("bearing" -> Humanoids/robotics-bearings P1) but the match is nominal (commodity CV/agri bearings, not precision/robotics content) — the rest theme_rank 2, taken in recency order. No generic/non-company threads to mark_not_a_stock. Step 3.05 topic resolution: shaily -> 938, pitti -> 48970, jindal-saw -> 103864; beezaasan has NO VP thread (topic_slug set null, web-only pass). Cross-check: none of the 10 appear in legacy-108-screen final-ranking tiers/avoid.
+
+Outcome: **all 10 -> thesis_fit "neither"** this run. Notable individual reads:
+
+**shaily-engineering** (tier 4.55, @unseenvalue high) — genuinely excellent business: GLP-1 pen-injector picks-and-shovels, 23-24 pharma device partners for the 2026+ semaglutide patent cliff, trailing ROCE ~29% (spot 42%), ROE ~27-33%, revenue +27-34% for several quarters, EBITDA margin +~1,000bps YoY. UBS Buy Rs 4,000, Capital Group buying. But ~Rs 14,000 Cr mid-cap trading rich near its 52-week high, a real oral-GLP-1 (Wegovy pill) cannibalisation debate on the thread, promoter selling, and Q3FY26 the first QoQ wobble. four_box 3.5 (valuation weak) — score permits a return label, judgment declines it on size/valuation math. thesis_fit "neither", conviction Medium. value_chain block added (GLP-1 device layer). Better suited to a quality-compounder bucket than the max-returns screen.
+
+**pitti-engineering** (tier 4.55, @suru27 high) — organised electrical-steel lamination market leader (~8% share, target 10-12%) executing a deliberate value-chain-up shift to 15%+ stator/rotor assemblies; ~24% revenue CAGR, ~19% ROCE/ROE, post-merger (Pitti Castings + Bagadia Chaitra + Dakshin Foundry) integration, railway/renewable/power tailwinds, deleveraging. VP thread stale (last post Apr-2026). But management itself states no pricing power (fixed EBITDA/tonne, RM pass-through), the organised TAM (~500k tonne) is finite, and promoters are selling ~Rs 1,400+. four_box 3.0 — label declined on unit economics. thesis_fit "neither", conviction Medium. value_chain block added.
+
+**chatha-foods** (discovery, no theme match — QSR-consumption proxy) — small-cap (~Rs 250 Cr) B2B frozen-food supplier to Jubilant/Domino's, Subway, Burger King; ~20% QSR-industry proxy, a 3x capacity expansion (to ~16,000 MTPA) just physically completed = large latent operating leverage for FY27-28, unusually transparent/honest promoter (publishes closed analyst-call transcripts), Marathondreams (elevated tier) accumulating for ~1 year. But the operating leverage is anticipated, not yet demonstrated in the numbers; the new veg capacity has no disclosed committed clients; a surprise B2C/D2C "Unifayre" pivot contradicts prior B2B-only discipline and receivables have doubled YoY. Management's own guidance implies ~3x, not 10x. four_box 3.0 — return-magnitude label deferred pending FY27 numbers per the trailing-avg/live-inflection rule (catalyst in place, inflection not shown). thesis_fit "neither", conviction Medium. value_chain block added. trusted_signal logged for Marathondreams (sustained accumulate, not a core-tier 10x call).
+
+**pc-jewellers** (discovery) — **HIGH CAUTION red flag.** Operational turnaround is visible (QoQ improvement 3-4 quarters, debt cleared, showrooms reopening) but the governance record is egregious: alleged ~Rs 1,500 Cr prior-promoter siphoning, historical SEBI insider-trading action, and an auditor emphasis of matter (Q3FY25) on ~Rs 1,514 Cr of export proceeds delayed beyond FEMA timelines (since regularised via condonation + ~Rs 7 Cr penalty). Debt was eliminated by equity dilution, not cash flow; multi-year revenue is declining; experienced VP members (The_Seeker, MHS, Cshar) explicitly call it a fraud/value trap. four_box 0.5 -> thesis_fit "neither" hard, conviction Low, red_flag_tier "HIGH CAUTION".
+
+**galaxy-bearings** (discovery, nominal theme keyword hit) — tiny export-oriented commodity auto/agri bearing maker; ~1.5% revenue growth over 5 years, ~7.7% ROCE, ~206 debtor days. The 4.5x capacity expansion (2.1M -> 9.6M bearings/yr) has been stuck in CWIP for 2+ years with the FY25 auditor flagging it as a Key Audit Matter; Nov-2024 US OFAC sanctions (since lifted) showed forex fragility for a 75%+ exporter; a governance question is open on an undisclosed CEO designate. four_box 2.0 -> "neither" hard, conviction Low. No value_chain block (nominal keyword match only).
+
+**asian-oilfields / Asian Energy Services** (discovery) — turnaround upstream energy-services (seismic -> O&M / integrated field development / coal-handling infra); order book ~8x revenue, FY26 revenue +70% — but acquisition-led (Kuiper), standalone roughly flat, and management missed its own "exceptional growth" guide. The pending Oilmax merger dilutes equity (promoter to ~47%) on subjective valuation of fields not yet in production. Near the 52-week high at ~32-38x. four_box 1.5 -> "neither" hard, conviction Low-Medium.
+
+**andhra-sugar** (discovery, no theme match) — well-managed, near-debt-free integrated chlor-alkali chemicals company (sugar <10% of revenue) at a cyclical earnings trough (3-yr ROE ~4.5%). Mild catalysts: a possible caustic-soda cycle turn (latest quarter +13%) and an aspirin US-business restart by end-2026 (~900 MT/annum). No structural growth engine, minimal disclosure (no concalls), and the stock is already up ~50% off its low. four_box 2.0 -> "neither", conviction Low-Medium. A value/dividend hold, not a screen candidate.
+
+**inox-wind** (discovery, no theme match — wind equipment is not an active_themes.json entry) — wind-turbine OEM turned profitable after the 2016-22 downturn; 3.3-3.5 GW order book, broadened IPP base, deleveraged, CRISIL outlook "Positive". But ~5.7% ROE on a ~31x P/E, a long record of destroying long-term shareholder value (the thread's own holders are asking for "red flags"), a management strategy flip-flop (anti-solar then into solar), the ISTS-charge waiver ending, and a post-Gensol sector de-rating; down ~49% over a year. four_box 2.0 -> "neither", conviction Low-Medium. karanshah137 (elevated) Q3FY26 post logged as informational, not a call.
+
+**jindal-saw** (tier 4.5 external-lead, untrusted @nareshbahrain retrospective "I called it" post) — large-cap SAW/DI/seamless pipe maker, statistically cheap (~Rs 1,500 Cr PAT, low-teens P/E, ~Rs 11,400 Cr reserves, low LT debt, ~Rs 13,500 Cr order book). But management acknowledges the top line has plateaued, expansions are 2-3 years out, near-term water-scheme spending has slowed, and it has visibly lagged peer Welspun Corp on execution; a DI-pipe CCI antitrust probe was referenced. Large-cap default-to-neither applies (no specific named management/structural inflection — the GCC/brownfield capex is ordinary). four_box 1.5 -> "neither" hard, conviction Low-Medium.
+
+**beezaasan-explotech** (tier 4.5 external-lead, untrusted @Rahul_Invest, no VP thread — web-only pass) — newly-listed high-return commercial-explosives microcap (ROCE ~23%, ROE ~21%, D/E 0.24; cement/mining/defence/BRO/PSU), the profile of an early-stage compounder in the same licensed, structurally-growing industry that produced Solar Industries. But the lead is an untrusted X tip with a multibagger framing, the stock has already run ~85% to an all-time high at ~40x earnings, it is newly listed with limited disclosure, and no primary documents (RHP/annual report/concalls) could be read this pass. four_box 2.0 — un-ignorable-growth exception could be argued but declined without primary-doc verification. thesis_fit "neither", conviction Low-Medium — **explicitly flagged for promotion to a full primary-doc deep-dive** (not a dismissal).
+
+Self-check: all 10 last_analyzed_date 2026-09-07, status "researched". thesis_fit "neither" for all 10; four_box present on all 10 data JSONs with score = enum sum (shaily 3.5, pitti 3.0, chatha 3.0, andhra-sugar 2.0, galaxy-bearings 2.0, inox-wind 2.0, beezaasan 2.0, asian-oilfields 1.5, jindal-saw 1.5, pc-jewellers 0.5) — every score >= 2.0 case that could permit a return label has its exception-declined reasoning in verdict_reasoning; all <= 1.5 are "neither" hard. red_flag_tier: pc-jewellers "HIGH CAUTION", other 9 null. No floor-active very-high stocks in batch. No re-verification stocks (none had conviction_needs_reverification). last_post_number_analyzed set for all: shaily 277, pitti 65, galaxy-bearings 43, asian-oilfields 36, andhra-sugar 100, chatha-foods 34, pc-jewellers 790, inox-wind 346, jindal-saw 87, beezaasan-explotech 0 (no thread). revisit_after_30d false for all (all thesis_fit "neither"). value_chain blocks added: shaily-engineering, pitti-engineering, chatha-foods. No writes outside projects/valuepickr-open-screen/.
+
+## Accent Microcell Ltd — deep-dive pass 1 [2026-09-07]
+- FY26: total income Rs 355.8 Cr (+31%), PAT Rs 43.9 Cr (+33%), EPS Rs 18.65; ROCE ~24.9%, near debt-free. H2 FY26 sharply accelerated (rev ~Rs 210 Cr +51% YoY, PAT ~Rs 26 Cr) — partly the one-off Sigachi plant-outage demand shift.
+- Governance stack deepened: another formal Unit-III commissioning delay (May-2026 disclosure — 4th+ revision, capex now guided to ~Nov-2026), independent director Chintan Bhatt (NRC Chairman) resigned Jun-2026, promoter holding fell 55.47% -> 53.02% (Mar->Jun 2026). Pre-existing promoter-group two-way RPTs (Jainishk, Maccent), refusal to explain the Sigachi margin gap and CRISIL non-cooperation all still stand.
+- Management guided H1 FY27 "muted" (existing capacity maxed; Phase-1 only from Q3 FY27); specialty grades (CCS/SSG/MCC Spheres) guided to lift blended margin ~2-3pp but not yet visible in reported OPM (~16-17%).
+- four_box: valuation box cut yes->no at ~34x P/E (thesis largely priced, muted near-term, serial slippage); score 3.5 -> 3.0, 10x-in-2-3-years still permitted.
+- Rs 40 Cr rights issue (Jul-2025) used for a Rs 60 Cr project despite Rs 44 Cr FY26 PAT — internal accruals did not fully fund the build; FCF conversion weak.
+- conviction Low -> Low (financials strong but governance overhang heavier, not lighter).
+
+## Freshara Agro Exports Ltd — deep-dive pass 1 [2026-09-07]
+- Growth confirmed: revenue Rs 71 -> 251 -> 314 Cr (FY24-FY26), PAT Rs 10 -> 29 -> 36 Cr; 3-yr sales CAGR ~36%, profit CAGR ~59%; Q1 FY27 standalone revenue +34.7% YoY, consolidated +147% (Aceitunas Sarasa / Spain now consolidating). ROCE 20.9%, ROE 24%.
+- Balance sheet more stretched than prior write-up: operating cash flow negative throughout the scale-up (FY24 -Rs 21 Cr; FCF -Rs 23 to -Rs 43 Cr), cash-conversion cycle ~230 days, borrowings ~Rs 128 Cr with bank facilities enhanced to Rs 175 Cr (Jul-2026), net debt/EBITDA ~2.6x, CRISIL BBB/Stable.
+- The FY27 fund raise gaurav (trusted, elevated) flagged is now concrete: ~Rs 45.6 Cr preferential fully-convertible-warrant issue, board Dec-2025, shareholder approval Jan-2026, NSE in-principle Feb-2026 — dilutive but modest.
+- FY26 OPM ~15% missed management's own 18% guide; margin has compressed from ~17% (FY24). Management frames FY27 numbers (~Rs 575 Cr revenue) as conservative "ambition, not guidance".
+- four_box unchanged at 3.0 (tailwind/tam yes, moat/valuation weak); 10x-in-2-3-years still permitted.
+- conviction Medium -> Low-Medium: real growth and returns, but leverage-up + dilution + negative OCF + missed margin guide into a self-described make-or-break FY27, with only an elevated-tier (not core) trusted user tracking it cautiously — no conviction floor applies.
+
+## J.G. Chemicals Ltd — deep-dive pass 1 [2026-09-07]
+- Deep financials reveal a low-return commodity converter, not a compounder: ROE just 13% (3-yr 13%), OPM 7-11% and volatile, revenue Rs 782 -> 666 (FY24 decline on zinc trough) -> 847 -> 973 Cr (3-yr sales CAGR ~8%), FY25 operating cash flow negative. Unhedged LME zinc drives the lumpiness.
+- Dahej greenfield is real and funded: +40,000 MTPA, Rs 100 Cr from internal accruals, ~Rs 900 Cr topline potential, commissioning confirmed Nov-2026. Q1 FY27 strong (revenue +44.8%, PAT +59% to Rs 26 Cr, EBITDA margin 11.5%) but volume-led with margin still in-band.
+- Margin uplift thesis (core EBITDA 13-14% in 2-3 yrs, non-rubber mix 15% -> 30%) is management aspiration with no post-IPO delivery track record.
+- New: material subsidiary BDJ Oxides bought 16.74 acres at Tirupati (AP) for Rs 18.41 Cr (Aug-2026) — longer-dated recycling/zinc-products platform. Independent director Ashok Bhandari passed away Aug-2026 (board vacancy, not a governance flag).
+- four_box 3.5 -> 1.5: tailwind weak, tam NO (small ZnO market, JG already ~30% share — no size headroom for a 10x), moat weak (13% ROE pass-through converter), valuation weak (~30x already prices Dahej). Score <=1.5 forces thesis_fit "neither", hard.
+- thesis_fit 10x-in-2-3-years -> neither; conviction Low -> Low. Dahej roughly doubles the business over 3-4 years — a 2-3x story, not 10x.
+
+## 20 Microns — deep-dive pass 1 [2026-09-08]
+- FY26: consol revenue ~Rs 954 Cr (reported +18%, flattered by consolidation), PAT Rs 66.7 Cr (+6.7% YoY), EBITDA margin ~12.9%; FY26 dividend Rs 1.25 re-initiates payouts.
+- Q1 FY27: net sales Rs 244.7 Cr, **-1% YoY / -6% QoQ** — growth has stalled across the whole book, not just paints; PAT +5.5% YoY, op margin 13.24% vs 12.17% QoQ (margin inflection intact).
+- Cash flow weak: FY25 FCF ~ -Rs 45 Cr, CFO down ~49% FY23→FY25, inventory days ~88.
+- Malaysian limestone mine (11 MT, ~Rs 27 Cr) in mining-prep, operational early FY27; Sievert construction-chem JV plant inaugurated; Rs 100 Cr / 24-mo capex underway (40% Malaysia, largely equity-funded).
+- Governance drags persist: Rs 50 Cr related-party loan agreement executed Mar-2026 (with a subsidiary), family remuneration ~12% of PAT +25% YoY, FDs from promoter relatives, two IDs retired.
+- four_box 3.0 (tailwind/tam weak, moat/valuation yes) → 10x-in-2-3-years retained; conviction Medium -> Low-Medium ('unconfirmed' — re-rating needs 15%+ growth that has moved further away).
+
+## vpscreen-scan batch [2026-09-08]
+
+Priority queue (Step 0.5 tiers 1-4.8) empty — no source-tagged candidates in state.json. Batch filled from Step-1 discovery (3 actionable threads). Theme-rank: Neuland (rank 0, CDMO + GLP-1 priority themes via slug "niche APIs"); Hi-Green + IRCTC (rank 2, no live-theme match — recency discovery).
+
+### Neuland Laboratories Ltd — first-time deep read [2026-09-08]
+- Q1FY27 hard inflection: net sales +119% YoY to ~Rs 642 Cr, consolidated PAT ~Rs 148 Cr (+962%), EBITDA margin 35.5%, WC days 137 -> 84 — commercial CMS ramp (Unit 3 new blocks commissioned Aug-2025). FY25/FY26 were deliberate flat "consolidation" years (FY24 CMS milestone did not repeat).
+- Structural story: "Neuland 2.0" peptide-CDMO. New CEO/MD Saharsh Davuluri (Apr-2026) driving a committed four-phase commercial-peptide build (0.5 KL -> 6.37 KL+); peptide economics quoted Rs 250-350 Cr revenue/KL. Sole-supplier Xanomeline (BMS/Cobenfy); dedicated Esperion Bempedoic Acid block (now ESC/EAS Level 1a; Esperion being acquired by Otsuka). Sep-2026: Rs 126 Cr Kakinada land buy (up to ~200 acres) = large future capex leg. Minimal debt, net cash, CRISIL A+ stable.
+- Forum: 100/647 posts (Dec-2024 to Sep-2026), broadly bullish with a rigorous CMS-margin debate. Core user phreakv6 heavily engaged analytically (posts #593/165 loves, #586/50 loves) but NO explicit buy call — not logged as a high_conviction_call. No trusted-roster conviction call in window.
+- four_box 3.5 (tailwind/tam/moat yes, valuation weak). thesis_fit = **neither** — absolute size (~Rs 25,000 Cr mcap) independently caps return below the 10x-2-3yr / 100x-10yr bar even with the genuine named-management inflection; a 3-5x-over-5-7yr quality compounder, noted for the max-returns ranking as quality but not a magnitude candidate. conviction **Medium-High** (business quality/inflection/governance; capped below High by rich valuation + recurring CMS-margin questions). value_chain block seeded. revisit_after_30d = false.
+
+### Hi-Green Carbon Ltd — first-time deep read [2026-09-08]
+- Waste-tyre continuous-pyrolysis -> rCB / TPO / steel wire / syngas. ~100 TPD modular plants at ~Chinese capex cost (Rs 40-50 Cr vs Rs 180-200 Cr global). ~40% revenue growth on plant adds; mainboard migration announced Sep-2026.
+- RED FLAG (HIGH CAUTION): CARE **"D" (default) / ISSUER NOT COOPERATING** on long-term bank facilities (2 Sep 2025, still "D" Feb-2026), down from CARE B+ Stable — CARE cites "delays in debt servicing", stretched liquidity, near-full limit utilisation. Plus FY24 procedural filing lapses (MGT-14/MSME not filed), unprovided Rs 4.11 Cr FY14 tax demand, Oct-2025 plant fire, a local pollution news allegation near the Bhilwara plant (company not named).
+- Unit economics deteriorating: material cost 64% -> 78% of sales, depreciation doubled, LT debt rising; rCB priced off virgin carbon black/crude — no pricing power, no long-term contracts, top-10 customers ~64%, ~80% domestic revenue from Rajasthan. ROCE ~10% at ~66x P/E.
+- Forum: 50/102 posts (Apr-2024 to Sep-2026). Strongly bullish in 2024 (DEBASHISH, sammy11 each >1% holders — NOT trusted roster; posts pre-date the CARE D downgrade, no re-affirmation seen). Turned cautious 2025-26 as the credit event + margin compression surfaced. No high_conviction_calls.
+- four_box 1.5 (tailwind/tam/moat weak, valuation no) -> thesis_fit **neither**, hard. conviction **Low** (below the HIGH-CAUTION Low-Medium cap — weak four_box + credit default). red_flag_tier HIGH CAUTION. revisit_after_30d = false.
+
+### IRCTC — filtered out at Step 3 [2026-09-08]
+- Government-granted monopoly (e-ticketing convenience fee, Rail Neer, catering, rail tourism). ROE ~37%, ~debt-free, ~49% payout. FY26 revenue ~Rs 5,215 Cr (+~11%, record).
+- Genuine large-cap ~Rs 38,000 Cr growing low-teens; key economics (convenience-fee rate, fee-sharing risk) are regulator-set. Large-cap inflection exception considered and rejected — "good monopoly", no specific named management/structural inflection (fee-sharing risk cuts against).
+- No red flag. Filtered out, no forum deep read. four_box 1.5 (moat yes; tailwind weak, tam no, valuation no) -> thesis_fit **neither**. conviction not set beyond the filter (Low-Medium equivalent). revisit_after_30d = false.
+
+## Goodluck India Ltd — deep-dive pass 1 [2026-09-08]
+- FY26 consol: revenue Rs 4,121 Cr (+4.1%), EBITDA Rs 418.5 Cr (+20.9%, margin 8.75→10.16%), PAT (owners) Rs 182.6 Cr (+10.2%); borrowings +22%, finance costs +32%.
+- Q1 FY27: revenue Rs 1,287 Cr (+31% YoY), EBITDA +46%, PAT +67% — defence mix inflection now flows through consolidated P&L; exports 53% of revenue.
+- Defence subsidiary: Q1 FY27 ~Rs 84 Cr at 38% EBITDA margin; FY27 guide Rs 300-350 Cr at 30-35%; order book Rs 255 Cr (155mm) + Rs 52 Cr (M107); first overseas dispatch done.
+- **Capacity expansion (150k→400k shells) slipped 6-9 months** — commissioning Q4 FY27, commercialisation Q4 FY28.
+- **Governance overhang live:** subsidiary raised Rs 285 Cr from non-promoter investors at Rs 375/share → parent stake 100%→~81.5%; Rs 275 Cr parent corporate guarantee; management vague on restructuring/listing plan; promoter holding ~56.4%→~54.0% YoY.
+- four_box 3.0 (tailwind/tam yes, moat/valuation weak) → 10x-in-2-3-years retained; conviction Medium -> Medium (capacity slip + unresolved parent value capture cap it).
+
+## Hind Rectifiers Ltd (HIRECT) — deep-dive pass 1 [2026-09-08]
+- FY26 standalone strong: revenue ~Rs 949 Cr (+44.8%), EBITDA ~Rs 103 Cr (10.8%), PAT ~Rs 58 Cr (+54.7%), ROCE ~24.2%, OCF +154%.
+- FY26 consolidated: revenue Rs 999 Cr (+52.5%) but EBITDA only +19.6% and PAT (after minority) ~Rs 45 Cr — Elventive France dilutive.
+- **Q1 FY27: standalone revenue +10% YoY only** (vs 30% guide, +45% FY26 base) — sharp deceleration; consolidated PAT just Rs 6.5 Cr (France loss ~Rs 6.5 Cr/qtr, 18-24 months to breakeven).
+- Order book at all-time high ~Rs 1,099 Cr; first propulsion orders in hand (Rs 60 Cr MEMU + Rs 60 Cr Vande Metro dev); full propulsion-vendor approval targeted **end-FY27** (currently ~20% eligibility).
+- Rs 100 Cr preferential issue to Tata Mutual Fund; debtor days ~70→~87; promoter ~43.9%.
+- Valuation extreme: P/E ~65x consol / ~76x standalone, EV/EBITDA ~46x — prices sustained 35%+ growth.
+- four_box 3.0 (tailwind/tam/moat yes, valuation no) → 10x-in-2-3-years retained; conviction Medium -> Low-Medium ('unconfirmed' — near-term numbers and price not aligned with the story).
+
+## Repono Ltd — deep-dive pass 1 [2026-09-08]
+- Reliance relationship upgraded from an unverified "agreement" to a SIGNED 20-year multi-crore EPC + O&M contract (announced 16 Jun 2026) for a greenfield rail-fed POL terminal in western UP, via dedicated SPV Repono Mathura Terminal Pvt Ltd; revenue impact still ~FY29.
+- FY26: revenue ~Rs 65.3 Cr (+29%), EBITDA ~Rs 10 Cr, PAT Rs 6.58 Cr, EPS Rs 6.4. BUT operating cash flow NEGATIVE ~Rs 15 Cr, capex ~Rs 11 Cr, FCF ~ -Rs 26 Cr — working-capital + terminal build ran ahead of revenue.
+- ROE compressed to ~15% (from ~27% historical); total debt up to ~Rs 9 Cr from near-zero; promoters ~72.5%, no pledge, no dividend.
+- New since last write-up: 51% Saudi JV (Golden Wing Trading Company); CS/compliance officer resigned 3 Jun 2026 (FY26 audit opinion unmodified); GST dispute disclosed.
+- four_box 3.5 (tailwind now yes on the signed contract). thesis_fit 10x-in-2-3-years retained. conviction Medium -> Medium (contract de-risks credibility but adds no near-term revenue; negative OCF + SME liquidity cap it).
+- No track_record block built — <3 years of verifiable public financials (listed Aug 2025).
+
+## Pennar Industries Ltd — deep-dive pass 1 [2026-09-08]
+- FY26 FINALLY delivered the long-guided margin expansion: OPM 11.37% (highest in >=7 quarters), EBITDA Rs 439 Cr (+15.5%) on revenue +12.35%, PAT Rs 139 Cr (+16.2%). The "always misses margin guidance" bear point is now only partly true.
+- US PEB (Ascent Buildings, Tennessee) backlog confirmed inflecting: $51m (Q2 FY26) -> $61m (Q3) -> >$100m (Q1 FY27), strong double-digit revenue + profit growth, higher margin than India.
+- BUT: consolidated topline decelerated to +3.58% in Q1 FY27; D/E up to ~1.0 (from 0.78), borrowings ~Rs 1,160 Cr, interest ~Rs 145 Cr/yr, ROE stuck ~12.8%; 3-yr cumulative FCF ~zero (OCF Rs 683 Cr vs capex Rs 709 Cr); no dividend; promoter warrants + ~2.35% pledge persist.
+- four_box 3.0 with analyst_override -> thesis_fit "neither" (Rs 2,450 Cr base + capital intensity cap realistic upside at ~2-4x re-rating, not 10x — company's own framing). Valuation box downgraded yes->weak (re-rated to ~17x from legacy ~10-12x).
+- conviction Low -> Low-Medium (FY26 delivery + US traction lift it off Low; leverage/FCF/soft-Q1 keep it there).
+- track_record 1/3 years cleared (only FY26 passed both bars) — a lumpy engineering house, not a compounder.
+
+## Vimta Labs Ltd — deep-dive pass 1 [2026-09-08]
+- Cleanest fundamentals in the batch: FY26 total income Rs 416 Cr (+19.5%), EBITDA margin 35.8%, PAT margin 18.6%, ROCE 24.24%, ROE 17.82%, D/E 0.01, 5-yr profit CAGR ~30%, consistent Rs 2/share dividend.
+- Real NDCT tailwind (Sept 2025 amendments cut trial-approval timelines 90->45 days); clinical research was soft in FY26, now "early signs of recovery". New CRAD biologics facility operational Q1 FY27 with first order — but material revenue only FY29+.
+- BUT Q1 FY27 growth decelerated to ~12-14% (revenue +11.85%, total income +13.7%), well below the 20-25% / ~Rs 500 Cr FY27 target; slight sequential margin pressure.
+- Valuation rich: ~36x P/E, ~6.2x P/B, ~18-19x EV-EBITDA. Expectation gap = "over-optimistic" (our mid-teens path below the ~25-30% CAGR the multiple needs; gap ~ -15%).
+- four_box 3.0 (tam upgraded weak->yes on fresh reading) with analyst_override -> thesis_fit 10x-in-2-3-years -> "neither" (Nesco logic: a ~15-20% debt-free compounder from Rs 2,814 Cr at 36x fits neither return bucket). conviction Medium -> Medium.
+- track_record 3/3 (FY24-FY26 all cleared both bars). Ranbaxy-era stain unchanged: old, disclosed, not HIGH CAUTION.
+
+## Axiscades Engineering — deep-dive pass 1 [2026-09-08]
+- Defence pivot now executing, not just announced: both Akkodis divestitures closed (Engineering Services $30.63M May, Aerospace Services $206M Jun; ~Rs 2,256cr combined), proceeds received — earlier "how do they fund Rs 2,250cr capex" question materially resolved (plus Rs 200cr NCDs approved Sep 5).
+- Q1 FY27 reality check: headline revenue +42.2% YoY includes discontinued ops; continuing-ops defence Rs 125cr (+111%) is the real signal, but the quarter was loss-making (net loss Rs 14.8cr) with normalised EBITDA margin compressed to 11.8% vs FY26's 15.3%.
+- Order visibility quantified: Assured Forecast Visibility Rs 4,557cr (FY27-FY30) inside a >Rs 24,000cr pipeline; 4 post-balance-sheet sole-source design wins (anti-tank missile on-board computers, missile PCM encoder, Uttam-radar beam control, marine-helicopter processor).
+- Infra build-out started: Devanahalli AeroLand commissioned; Devanahalli Atmanirbhar Complex Phase 1 under construction; Hyderabad Missile Complex land acquired.
+- four_box 3.0 -> 2.5 (valuation weak -> no at ~80x normalised trailing with a loss quarter); 10x label retained via written phreak growth carve-out (+111% defence), conviction caps Medium.
+- conviction Low -> Low: pivot de-risked on funding/visibility but margins, leverage, valuation and governance overhang argue against a raise until 2-3 more quarters of the continuing entity.
+
+## Bliss GVS Pharma Ltd — deep-dive pass 1 [2026-09-08]
+- Change of control: Anupam Rasayan India acquiring 43.30% (up to 48.2%) at Rs 299/share (~Rs 1,369cr) + mandatory 26% open offer at Rs 299; draft LoO with SEBI; becomes new promoter, integrates Bliss into its KSM-to-FDF pharma value chain. Directly resolves the governance-opacity concern that was the binding constraint.
+- Governance professionalisation underway: CEO/MD roles split (professional CEO Rahul Adakmol from 15-Jul-2026, Kamath stays MD); experienced non-exec director Santosh Parab added.
+- Ops inflecting hard: FY26 total income Rs 1,000.6cr (+18.25%), PAT Rs 134.7cr (+49.3%); Q1 FY27 revenue +37.6%, EBITDA margin 26.75% vs 19.92% YoY (but full-year FY26 was ~19% — one-quarter step-up, peak_margin_risk=true).
+- Valuation caps it: stock ~Rs 671 = >2x the Rs 299 the incoming strategic promoter is paying and the open-offer price; ~53x trailing FY26 EPS.
+- four_box 3.0 -> 2.0 (tam weak: 10x from Rs 7,100cr mcap not credible; valuation no). thesis_fit 10x-in-2-3-years -> neither per decision table.
+- conviction Low-Medium -> Medium: governance gate being resolved + operating inflection justify +1 notch; valuation prevents more, and no longer a 10x-magnitude bet.
+
+## Gufic BioSciences Ltd — deep-dive pass 1 [2026-09-08]
+- European-GMP overhang (the stated conviction gate) materially de-risked: Navsari already holds EU-GMP/WHO-GMP/Health Canada; Indore completed its EU-GMP inspection Dec 2025, certification expected Q1 FY27.
+- Big capex cycle complete — capex now maintenance-only (~Rs 20cr/yr). Indore plant (commissioned Oct 2024) at only ~30% utilisation; ~Rs 675-700cr revenue potential at 75%+ on a Rs 940cr base.
+- Margin inflection: EBITDA margin ~18% in both Q4 FY26 (18.22%) and Q1 FY27 (18.09%) vs a 13-15% prior run-rate; Q1 FY27 PAT +~85% YoY on operating leverage (revenue only +15%). Guidance 15-20% growth + ~18% margin FY27, 20% by FY30.
+- New growth vectors: GLP-1 CMO with Hetero (approvals May 2026, ramp Q2/Q3 FY27), 8-country approvals, North America CMO+licensing deal, first Australia orders, in-licensed Canadian dermal-filler launch Dec/Jan.
+- Valuation still rich (~62-65x trailing, ROE ~10%, ROCE ~12%); Indore ramp targeted at just 40-45% by FY27-end — execution-dependent.
+- four_box 3.0 -> 3.5 (tailwind weak->yes). conviction Low-Medium -> Medium; thesis_fit 10x-in-2-3-years retained.
+
+## Gujarat Themis Biosyn Ltd — deep-dive pass 1 [2026-09-08]
+- Legacy base de-rated: FY23-26 revenue Rs 148->170->151->166 Cr, PAT Rs 58->47 Cr; ROCE 27%->17.9%; gross block Rs 62->435 Cr into flat demand
+- Transformational M&A: 100% MicroBiopharm Japan ~JPY21.5bn (~Rs1,300cr, close Q2 FY27) + Sanofi anti-TB/anti-infective 13 brands ~EUR62m sales
+- Funding: EGM 22-Aug-26 for up to Rs1,000cr QIP + up to Rs1,500cr NCDs/debt; debt already Rs192cr (from Rs3cr FY24)
+- Q1 FY27 strong standalone quarter (rev +22%, EBITDA +49%, margin 47.5%) but stands alone vs flat FY26
+- four_box: tailwind yes / tam weak / moat yes / valuation no = 2.5 -> thesis_fit neither; conviction Low-Medium -> Low-Medium
+- No AVOID/EXCLUDE red flag (debt board-approved/prospective) but a leveraged special situation, not a compounder
+
+## Kusumgar Ltd — deep-dive pass 1 [2026-09-08]
+- Q1 FY27 consol revenue Rs 247.2 Cr +102% YoY, PAT Rs 42.6 Cr +882% YoY, EBITDA margin 31.1% vs ~22% YoY on finished-parachute ramp
+- Lumpy: FY24 +51%, FY25 +70%, FY26 -16%, Q1 FY27 +102% YoY but -21% QoQ (Q4 FY26 flattered by one-off post-tariff export surge)
+- Utilisation only 55-60% on fully-built capacity, no major capex FY27-28 -> genuine operating-leverage runway
+- Management explicitly declined FY27/FY30 guidance AND executable order-book disclosure on the Q1 call -- transparency limitation
+- 100% OFS IPO (Rs 650 Cr, listed 15-Jul-2026), zero fresh capital to company, promoter at 75% floor
+- four_box 3.0 (tailwind+moat yes, tam+valuation weak); conviction Low-Medium -> Low-Medium, unconfirmed
+
+## Ratnaveer precision a newly headed steel company — deep-dive pass 1 [2026-09-08]
+- CCL (copper clad laminate) plant Rs 472 Cr, ~60% complete, commercial start targeted Nov 2026, ECMS-backed - dated catalyst
+- Core SS-products base grew ~24% CAGR FY23-26 to Rs 1,069 Cr but ROCE fell ~16% -> 12.3%, FY26 FCF ~Rs -155 Cr, balance sheet from net-cash to ~Rs 335 Cr debt
+- Funding serially dilutive: Rs 185 Cr QIP done + Rs 330 Cr rights approved; promoter holding 55.5% -> 45.5% (QIP, no pledge/sale)
+- ~37x P/E already prices CCL success; market_expectation gap_direction over-optimistic, evidence_quality weak
+- conviction Low-Medium -> Low-Medium; thesis_fit 10x-in-2-3-years held under small-cap dated-catalyst rule
+
+## Technocraft Industries — deep-dive pass 1 [2026-09-08]
+- Q1 FY27: revenue Rs 805 Cr +27% YoY, EBITDA margin 22.1% (from 17.7%), PAT Rs 138 Cr +67%; annualised ROCE ~32%
+- peak_margin_risk TRUE: drum closures at record 43% EBIT vs ~30% sustainable, INR-aided on ~100% export book - FY28 likely flatlines as FX tailwind fades
+- Structural tailwind intact/stronger: ~50% US tariff on Chinese scaffolding vs 25% on Indian steel; scaffolding at 95% utilisation, extrusion at 100%
+- Quality confirmed: FCF Rs 6/75/133 Cr FY24-26, D/E ~0.41, interest cover ~7x, serial buybacks (last Rs 4,500), promoter 74.74% no pledge; loss-making fabric shut and monetised
+- four_box 3.0 keeps 10x label mechanically permitted but it is really a mid-teens compounder at ~Rs 7,100 Cr; conviction Low-Medium -> Medium
+
+## Apcotex Industries Ltd — deep-dive pass 1 [2026-09-08]
+- Q1 FY27: revenue Rs 526 Cr +40%, EBITDA margin 22.3% vs 10.3%, PAT Rs 79 Cr +311% - but ~2% of EBITDA one-off inventory gains and price-led (domestic vol +10%, export vol -10-12%)
+- Management: 22.3% margin 'not normalized', target 15-16%; peak_margin_risk TRUE
+- Anti-dumping: DGTR affirmative final findings Sep 2025 (5-yr duty recommended) but Finance Ministry notification still pending in 2026; new Rs 220 Cr NBR/latex capacity (on stream Q1 FY28) carries no ADD protection
+- Through-cycle weak: PAT Rs 108 -> 54 -> 54 -> 101 Cr FY23-26, FY24-25 ROCE ~9-10%; net cash, ~52% payout, disciplined mgmt deferred Stage 2 on Malaysia/China overcapacity
+- four_box 2.5 -> 2.0; thesis_fit 10x-in-2-3-years -> neither; conviction Medium -> Low-Medium
+
+## P N Gadgil Jewellers Ltd — deep-dive pass 1 [2026-09-08]
+- Q1 FY27: revenue Rs 2,413 Cr +41%, retail SSSG 46%, EBITDA margin 8%, PAT Rs 105 Cr +52% - but ex-hedging PAT margin guided flat 4.1-4.25%
+- Earnings quality: ~Rs 80-90 Cr of FY26 PAT (~20%) from unhedged gold-price gains; hedging 70%+ now vs '100% hedged' claimed in FY25 calls; peak_margin_risk TRUE
+- New concern: operating cash flow -Rs 675 Cr FY25, -Rs 717 Cr FY26 - store rollout funded by debt + gold metal loans (~Rs 1,500-1,550 Cr) + Rs 700 Cr QIP (closed Aug 2026 at ~5% discount)
+- Store plan 78 -> 177 by Mar 2029, FOCO-heavy (~2.5% margin) new mix; Lifestyle format higher-margin optionality; no dividend
+- four_box held 3.0 (tailwind+tam yes, moat+valuation weak); thesis_fit 10x held; conviction Low -> Low pending clean disclosure + better cash conversion
+
+## Ethos Ltd — deep-dive pass 1 [2026-09-08]
+- Q1 FY27: revenue Rs 461.7 Cr +33.3% YoY, EBITDA +44%, EBITDA margin 15.7% vs 14.8%, PAT +48%; boutiques 94->103
+- India-EFTA FTA duty step-down (22%->0% over 7 yrs) confirmed active -- structural gross-margin accretion each year
+- Returns still sub-quality: ROE <10%, ROCE ~12-13%; growth cash-consumptive with structurally negative FCF from luxury-watch inventory build
+- Valuation ~40x FY27E P/E, ~5x book -- FTA + premiumisation story substantially priced; mgmt guidance only ~25% revenue CAGR
+- four_box 2.5 (tam=no on TAM/return-magnitude math) -> thesis_fit 'neither'; promoter-credibility / Favre Leuba-Silvercity concern unresolved
+- conviction Low -> Low-Medium
+
+## Valiant Communications Limited — deep-dive pass 1 [2026-09-08]
+- FY26: revenue Rs 85 Cr +67%, PAT Rs 24 Cr +152%, OPM ~36%; ROCE 39.7% / ROE 30.6%
+- Cash conversion inflected: FY26 operating cash flow Rs 32 Cr > PAT, debtor days 81 (was 103), CCC ~172 days (was ~400 per community)
+- Q1 FY27 rev Rs 25.4 Cr +39% YoY, PBT +81% YoY -- growth accelerating
+- Catalyst: 05-Aug-2026 Power Grid order Rs 10.71 Cr for data-storage servers + NavIC time-sync, completion Mar-2027, first data-centre entry; NSC 'Trusted Source' status
+- Watch-items: ~57x trailing P/E / ~15.6x book (thesis substantially priced), promoter holding only 39.65% and declining ~1%/qtr, order lumpiness on Rs 85 Cr base; peak_margin_risk true
+- conviction Low -> Medium
+
+## Alpex Solar Ltd — deep-dive pass 1 [2026-09-08]
+- FY26 revenue Rs 2,223 Cr, PAT Rs 202 Cr (record), ROE 52% / ROCE 43.5%, 3yr sales CAGR ~125%; ~12x trailing P/E
+- Q1 FY27: revenue +32.4% YoY but PAT -5.7% YoY, net margin 7.9% vs 11.1%; finance costs +350% YoY to Rs 15 Cr
+- FY26 operating cash flow -Rs 116 Cr; borrowings Rs 537 Cr (D/E ~0.87x); Rs 2,000 Cr further borrowing authorisation sought Jul-2026
+- 2.2GW TOPCon cell plant slipped Aug->Sep 2026 (imported-machine issues + 21-Jul minor insured fire); ALMM List-II applied; EC-capacity dispute (1.6 vs 2.2GW) unresolved
+- Positives vs prior pass: promoters declared no pledge/encumbrance FY26; debtor days improved to 42 from 63
+- four_box 2.5 -> label kept via written un-ignorable-growth exception; peak_margin_risk true, yoy_trend decelerating; conviction Medium -> Medium (held)
+
+## Apollo Micro Systems Limited — deep-dive pass 1 [2026-09-08]
+- Q1 FY27: consol revenue Rs 251 Cr +88% YoY, EBITDA margin ~21.5%, PAT Rs 25 Cr +43%; order backlog Rs 1,704 Cr + Rs 2,500-3,000 Cr expected by FY27-end (MIGM/QRSAM)
+- Valuation extreme: ~128x earnings, ~11x book - valuation four_box moves to 'no', score 2.5 -> 2.0
+- Premier Explosives: 41.33% stake Rs 1,550 Cr all-cash (signed 9 Jul 2026) + 25% open offer at Rs 698; target posted -28% Q1 revenue, lower-margin, integration risk
+- Quality concerns: ROCE stuck ~14.5%, operating cash flow -Rs 76/-130 Cr FY24/FY26, promoter 49.98% with 30.5% pledged
+- thesis_fit 10x-in-2-3-years -> neither; conviction Medium -> Low-Medium; no red-flag tier
+
+## ASM Technologies — deep-dive pass 1 [2026-09-08]
+- Q1 FY27: consol revenue Rs 199 Cr +62% YoY, EBITDA margin 23.2%, PAT Rs 27 Cr +72%; DLM now 73.6% of revenue; operating cash flow turned positive (Rs 68 Cr FY26)
+- Valuation extreme and still rising: ~127x earnings, ~30x book, mcap Rs 6,739 -> 9,256 Cr since prior pass; valuation four_box box = 'no', score 2.5
+- Catalyst intact: ASM-HHV 50:50 JV for semiconductor/solar equipment now formal; ECMS Capital-Goods grantee, ~Rs 565 Cr capex plan; new Dabaspet/Sriperumbudur plants operational
+- New negatives: new-ERP + overseas-subsidiary operational problems flagged; free cash flow negative on capex; new-plant asset turns unproven; MD's-sons remuneration flag persists (one ~Rs 2.97 Cr FY26 > MD)
+- thesis_fit 10x-in-2-3-years held via written un-ignorable-growth exception (unconfirmed); conviction Medium -> Medium; no red-flag tier
+
+## Indotech — deep-dive pass 1 [2026-09-08]
+- Q1 FY27: revenue ~Rs 228 Cr +39% YoY but EBITDA margin 13.95% down ~70bps YoY - FY26's 17% OPM looks like a cycle peak (peak_margin_risk TRUE)
+- HIGH CAUTION: promoter Shirdi Sai Electricals pledged 61,52,236 shares = ~57.93% of total equity (~80% of its 72.18% holding) to Catalyst Trusteeship for Rs 750cr+Rs 75cr parent NCDs; sold 3 lakh shares Jun 2026; still zero concalls; Apr-2025 CEO exit called 'fishy'
+- Business genuinely excellent: debt-free (borrowings ~Rs 5cr), ROCE 40.4%, revenue Rs 371 -> 782 Cr FY23-26, 3/3 track_record years cleared
+- Growth levers real: Rs 360cr capex to 50,000 MVA, NTPC 400kV BESS qualification, AP TRANSCO Rs 166cr + Waaree Rs 55cr orders
+- four_box 2.5 -> 2.0 (valuation 'no' at ~40x P/E / ~10x book); thesis_fit 10x-in-2-3-years -> neither; conviction Medium -> Low-Medium (HIGH CAUTION cap)
+
+## Marine Electricals — deep-dive pass 1 [2026-09-08]
+- Order book Rs 525 Cr -> Rs 1,254 Cr YoY (~1.4x FY26 rev); Q1FY27 added ~Rs 572 Cr inflow; DC power-distribution now the biggest segment
+- 5yr revenue CAGR ~28%, PAT CAGR ~36%, ROCE rose every year 12%->18%; ROE stuck 12-14%
+- FCF persistently negative through the capex ramp (FY25 capex ~Rs 95 Cr vs CFO ~Rs 55 Cr); balance sheet fine (net debt/EBITDA <1x)
+- Valuation ~90x P/E now (up from ~75-80x at seed); four_box score 2.5, 10x label held only via written growth-inflection exception, conviction capped Medium
+- track_record 3/5 years cleared (ROCE>=15% only FY24-26); promoter holding down ~6pp/3yr, no pledge
+- conviction Medium -> Medium
+
+## OBSC Perfection Ltd — deep-dive pass 1 [2026-09-08]
+- Revenue Rs 56 Cr FY22 -> Rs 220 Cr FY26 (~41% CAGR); Q1FY27 rev Rs 78.7 Cr (+85% YoY), PAT +88%; OPM held ~18% FY24-Q1FY27
+- ROCE ~19.5% / ROE ~20%; order book Rs 1,200 Cr+ (~5.5x FY26 rev), skewing defence/marine
+- FCF deeply negative two years running (FY25 -Rs 24 Cr, FY26 -Rs 79 Cr) - growth entirely capex/WC-funded; integrated facility capex still ahead
+- Valuation ~69x P/E / ~10x sales; four_box 2.5, 10x label held only via written live-inflection exception, conviction capped Medium
+- Unresolved: employee cost structurally below Sansera/RACL - in-house machining vs outsourced job-work; thin disclosure (1 concall/yr); no trusted-roster engagement
+- conviction Medium -> Medium
+
+## Orchid Pharma Ltd — deep-dive pass 1 [2026-09-08]
+- FY26 PAT collapsed Rs 100 Cr -> Rs 10 Cr, OPM 13% -> 2.7%, three consecutive loss quarters; ROCE has never cleared single digits since the 2020 restructuring (years_cleared 0/5)
+- Q1FY27 early recovery: revenue Rs 304 Cr (+16%), EBITDA ~2x, PAT back to positive ~Rs 11.9 Cr - one quarter, low base
+- EXBLIFEP (self-invented US/EU-approved NCE, 100% owned): Europe vial volumes ramping, 10-yr Russia Pharmasyntez deal up to $178m - genuine moat, still small vs ~Rs 5,750 Cr mcap
+- Borrowings doubled to Rs 363 Cr FY26; Dhanuka Laboratories promoter-entity amalgamated in, Arjun Dhanuka WTD - rpt_trend rising, management_quality concern
+- four_box 2.5 (moat yes; tailwind/tam/valuation weak); thesis 10x-in-2-3-years held only via written live-inflection exception; conviction Medium -> Low
+
+## Arvind SmartSpaces Ltd — deep-dive pass 1 [2026-09-08]
+- Q1FY27: bookings Rs 432 Cr (+147% YoY), collections Rs 336 Cr (+76%), revenue +212%, PAT Rs 97 Cr (+708% off low base), net op cash flow +Rs 81 Cr
+- FY27 guidance specific: 35-40% bookings growth, Rs 4,000-5,000 Cr new GDV (Rs ~2,600 Cr added in Q1), 22-25% EBITDA margin on new sales
+- India Ratings upgraded credit to AA/stable; ROCE recovered to ~18% FY26 after FY25 recognition trough
+- Offsets: gross borrowings up ~5x in 2yrs to Rs 583 Cr, net debt Rs 79->167 Cr in one quarter; reported P/E ~15.8x but RERA-lumpy; forum thread 16 months stale
+- four_box 3.0 (tailwind+tam yes, moat+valuation weak) -> 10x-in-2-3-years; conviction Low-Medium -> Medium
+
+## Sky Gold Ltd — deep-dive pass 1 [2026-09-08]
+- Q1FY27: revenue Rs 2,013 Cr (+78% YoY), PAT Rs 104.9 Cr (+141%), EBITDA margin ~7.8%, gross margin ~9.3%
+- Operating cash flow turned POSITIVE for first time (+Rs 30 Cr) vs FY25 OCF -Rs 273 Cr; debtor days down to 30-32 targeting 25-26
+- FY27 guidance ~Rs 8,100 Cr revenue at 4.5-5.25% PAT margin; capacity only ~60% utilised, sufficient to 2028; net-debt-free targeted by FY30
+- Offsets: one quarter of positive OCF, thin EBITDA margin, ~Rs 540 Cr gross debt, ~36x P/E, no trusted position-size disclosure
+- four_box 2.5; 10x-in-2-3-years retained under phreak un-ignorable-growth carve-out; conviction Low-Medium -> Medium
+
+## John Cockerill India — deep-dive pass 1 [2026-09-08]
+- Q2 CY26: standalone revenue Rs 149 Cr (+82%), consolidated Rs 299 Cr (+18%); no EBITDA/PAT disclosed, 'affected by project mix, early-stage execution, upfront org + one-time consolidation costs'
+- Consolidated order book ~Rs 4,500 Cr / standalone ~Rs 2,200 Cr; Q2 intake ~Rs 1,200 Cr; JCIL share of JSW CRNO order ~Rs 550 Cr; execution up to 3 yrs
+- Prior quarter was a net loss Rs 4.6 Cr on +83% revenue - margin problem unresolved; ~110x P/E prices a big recovery
+- Belgium John Cockerill Metals International acquisition (EUR 50m deferred) economics still unexplained; new CFO from 24-Aug-2026; promoter 75%->70.4%, guided back above 72% via CPS
+- four_box 3.0 (tailwind/tam/moat yes, valuation no); conviction stays Low pending an actual margin print (H2 CY26 guided)
+
+## Bansal Roofing Products Ltd — deep-dive pass 1 [2026-09-08]
+- FY26 revenue +59.6% to Rs 154.4 Cr, PAT +90.4% to Rs 10.5 Cr, EBITDA margin ~10.3%, borrowings down to ~Rs 3 Cr - the ramp that was 'unconfirmed' a year ago has delivered
+- Capacity to ~1,200 MT/month by Aug 2026 (Phase 5 & 6); new solar module mounting structure line commissioned Q1 FY27
+- Quarterly PAT margin compressed ~9% (Q3 FY26) -> ~6% (Q1 FY27); Q1 FY27 revenue growth cooled to +27% YoY - weak PEB pricing power confirmed in the numbers
+- four_box 2.0 (tailwind yes, tam/valuation weak, moat no); 10x label retained under un-ignorable-growth exception, stock re-rated to ~18x / ~Rs 200 Cr mcap
+- conviction Low-Medium -> Medium
+
+## Electronics Mart India Limited- EMIL — deep-dive pass 1 [2026-09-08]
+- FY26 PAT Rs 107 Cr, -33% YoY (Rs 184->160->107 over FY24-26); revenue +7%/yr, EBITDA flat - genuine two-year margin compression
+- Q1 FY27: revenue Rs 2,419 Cr +39%, EBITDA Rs 239 Cr +118% (9.9% margin), PAT Rs 121 Cr +458%, SSSG 34.2% - but off a near-breakeven Q1 FY26 (warehouse fire + weak summer)
+- Management guides FY27 EBITDA margin back to 7-8% (Q1's 9.9% not the run-rate) and 18-20% revenue growth; West Bengal entry 10-12 stores by FY27-end
+- ROCE structurally ~8% (never cleared 15% in FY23-26), D/E ~5x, promoter holding down ~13pts to 65%, stock near all-time highs at ~36x trailing
+- four_box 2.0; 10x label kept as UNCONFIRMED via small-cap live-inflection exception; conviction Medium -> Low-Medium
+
+## Indegene Ltd — deep-dive pass 1 [2026-09-08]
+- FY26 revenue Rs 3,510 Cr (+23.6%) but PAT Rs 401 Cr (-1.5%); Q1FY27 revenue Rs 1,063 Cr (+39.7%, ~25-28% organic + BioPharm) with PAT Rs 116 Cr flat YoY
+- Operating margin drifted ~20% (FY24) -> ~18% (FY26); management guides 19-20% EBITDA exiting Q4 FY27 - recovery guided not delivered
+- Net cash after Rs 876 Cr BioPharm bolt-on; FY26 CFO Rs 651 Cr / FCF Rs 606 Cr; maiden dividend Rs 2.25; all top-20 biopharma clients, 105 $250k+ clients (+50% YoY)
+- four_box 2.5 (tailwind yes, tam/moat/valuation weak); thesis_fit 'neither' as a quality-not-magnitude Nesco-style call - size math blocks a 2-3yr 10x, not a red flag
+- conviction Medium -> Medium (unchanged)
+
+## NGL Fine-Chem Ltd — deep-dive pass 1 [2026-09-08]
+- FY26 consol revenue Rs 501 Cr (+36%), PAT Rs 48.1 Cr (+128%) - trough over; Q1FY27 revenue Rs 139 Cr (+34%), EBITDA margin 16.7% (vs 10.5% YoY), PAT Rs 18.4 Cr (+99%)
+- Mgmt caveat: part of Q1 lift = inventory gains on price hikes; steady-state EBITDA margin guided 15-18%; regulated (US/EU) markets +3-5% premium from FY28
+- Capex: Tarapur greenfield Rs 210 Cr (~Rs 183 Cr spent), Phase I operational, Phase II commercial production slipped to H2FY27; Macrotech brownfield commissioned
+- Conservative promoter, D/E ~17.6%, nil share encumbrance FY26; deepest high-quality VP thread in batch but no fresh trusted post on the turn
+- four_box 2.0 (all weak); 10x-in-2-3-years retained via written 2.0-2.5 exception (un-ignorable inflection + dated catalyst); conviction Medium -> Medium
+
+## Privi Speciality Chemicals Ltd — deep-dive pass 1 [2026-09-08]
+- Q1FY27: total income Rs 681 Cr (+20% YoY), EBITDA Rs 167 Cr (margin 24.6%), PAT Rs 84.2 Cr (+36%), EPS Rs 21.56
+- Gross margin 44.2% vs 51% YoY - RM normalised, low-cost inventory ran off; PAT growth decel from +76% (Q3FY26) to +36%; peak_margin_risk set true
+- Capacity 48k->54k->66k MT by Sept 2027; Rs 830-900 Cr capex over 3yrs, internal accruals; subsidiary merger (housekeeping); Rs 10 dividend
+- Real moat (>20% global share in 10 products, backward-integrated pinene, captive Givaudan 51:49 JV) but aroma-chem TAM ~$5-6bn caps a 10x from Rs 13.6k Cr
+- four_box 2.5 (tailwind+moat yes, tam weak, valuation no); thesis_fit 10x-in-2-3-years -> neither (size-blocked, Nesco logic); conviction Medium -> Medium
+
+## Punjab Chemicals & Crop Protection Ltd — deep-dive pass 1 [2026-09-08]
+- Q1FY27: revenue Rs 347 Cr (+8.7% YoY, all from exports +27%), EBITDA Rs 40.8 Cr (+18.8%, margin 11.75%), PAT Rs 22.1 Cr (+7%), gross margin +350bps to 36.6%
+- FY26 revenue Rs 1,030 Cr, PAT Rs 64 Cr, 30% dividend; ROCE ~31% held right through the FY23-25 downcycle
+- Catalyst: 3 exclusive MOUs (2 supplying commercial test lots), 15-18% of FY27 revenue target, volume from Q4FY27; ~Rs 100 Cr capex for 2 blocks, Rs 120-150 Cr revenue potential
+- FY27 guidance 15-20% growth H2-weighted, but Rs 1,500 Cr target has slipped repeatedly; top-2 customers ~55% of sales
+- four_box 2.5 (valuation=yes at ~15x forward, others weak); 10x-in-2-3-years retained via valuation-box exception, conviction capped Medium; Medium -> Medium
+
+## SML Isuzu Ltd — deep-dive pass 1 [2026-09-08]
+- FY26 revenue Rs 2,838 Cr (+18%), PAT Rs 160 Cr (+31%), volumes +17% vs CV industry +13%; dividend Rs 23.50/sh
+- Q1 FY27: revenue +13% YoY but PAT -5% YoY, EBITDA -4.7% YoY, EBITDA margin 10.5% vs 12.4% - decelerating
+- Trades ~50x trailing P/E and ~3.4x the Rs 1,554.60 M&M open-offer price - re-rating largely complete
+- FY31 target Rs 12,500 Cr revenue / 10-12% share is aspirational, capex-heavy, no delivery track record under M&M
+- four_box score 1.5 (tailwind/tam/moat weak, valuation no) -> thesis_fit neither; conviction Medium -> Low-Medium
+
+## Time Technoplast — deep-dive pass 1 [2026-09-08]
+- Q1 FY27: revenue Rs 1,694 Cr (+25% YoY), PAT Rs 116 Cr (+22%), composite +29.3%; ~5 consecutive quarters of ~20-25% PAT growth
+- FY26 net debt cut Rs 409 Cr; net-debt-free targeted 12-18 months; interest drag falling away
+- ROCE 18.9% FY26 -> 20% target -> 23%+ FY28 guide as VAP mix rises 27% -> 35%
+- Valuation undemanding at ~18.8x trailing P/E for ~20% PAT growth + deleveraging
+- four_box 2.0 -> 3.0 (tailwind yes, valuation yes); conviction Medium -> Medium-High; thesis_fit stays 10x-in-2-3-years
+
+## Borosil Renewables — deep-dive pass 1 [2026-09-08]
+- Four consecutive quarters EBITDA margin >33% and swing from Rs203cr loss to Rs87cr profit - a real multi-quarter inflection, not a one-off
+- Import-protection stack (ADD to 2029 + Malaysia CVD + ALMM List-II) plus a domestic supply gap through Mar-27 drives pricing power; ASP rose three reads running
+- 60% capacity expansion (SG-4/SG-5, Rs950cr, largely warrant-funded) dated Q4 FY27 - the key catalyst; FCF negative through the ramp
+- peak_margin_risk true: 35% EBITDA is well above through-cycle (hist ROE ~12%), industry adding toward 7,700 TPD, ADD cliff 2029
+- four_box 2.5 (tailwind yes / tam-moat-valuation weak); un-ignorable-growth carve-out permits 10x label, conviction capped Medium (unconfirmed)
+- conviction Low-Medium -> Medium
+
+## Chamunda Electricals Ltd — deep-dive pass 1 [2026-09-08]
+- GETCO Letter of Award (02-Apr-2026): Rs 63.47cr, O&M of 88 x 66KV substations, 36 months (~Rs 21cr/yr, ~2x annual revenue over its term) - the size-transforming catalyst, still unconverted
+- FY26 (screener): revenue ~Rs 32.0cr, PAT ~Rs 3.5cr, ROCE ~15.2%, ROE ~13.1%, near debt-free, promoter 73.55% - solid but below the ~27% ROE the Sovrenn seed implied
+- FY26 cash conversion poor: CFO ~nil vs PAT Rs 3.5cr, FCF ~-Rs 3.3cr, CWIP Rs 4.7cr - profit not yet turning to cash
+- H1 FY26 PAT +332% YoY on a mix shift to higher-value 220KV testing & commissioning
+- Risks unchanged: micro-cap illiquidity, single-utility/single-state (GETCO/Gujarat) concentration, zero community/institutional coverage, no dividend, short listed history (track_record block omitted, <3 yrs)
+- four_box 2.5 (valuation box = yes -> written exception permits the 10x label); conviction Low-Medium -> Low-Medium
+
+## COSMIC CRF LIMITED — deep-dive pass 1 [2026-09-08]
+- Supreme Court (14-May-2026) upheld Section 29A eligibility, set aside NCLAT orders, reinstated Cosmic as H1 bidder for the Amzen integrated-wagon plant (restart Mar-May 2027) - biggest overhang gone
+- FY26 revenue ~Rs 717-723cr (+~78-80%), PAT ~Rs 51cr (+74%), OPM flat ~11%, ROCE ~13.6% / ROE ~11.9% (still sub-bar); order book Rs 760cr, capacity +94%
+- FY26 CFO turned positive (+Rs 24cr vs -Rs 73cr) but FCF -Rs 109cr on Rs 145cr capex; borrowings Rs 78cr -> Rs 133cr, +Rs 200cr loan planned - two years of negative FCF
+- Forward margin story is RDSO-licence-dependent (FY26 springs line: Rs 67cr rev at Rs 1.5cr margin); mgmt floats 10% then 15-18% PAT, unproven
+- Governance flag: unresolved forgery/fraud allegation against MD Aditya Vikram Birla over a forged SH-4 in the Raft Cosmic EV JV; no regulator finding - red_flag_tier kept null
+- four_box 2.5, un-ignorable-growth written exception keeps the 10x label; track_record omitted (<3 verifiable yrs, ROCE <15%); conviction Low-Medium -> Low-Medium
+
+## KRM Ayurveda Ltd — deep-dive pass 1 [2026-09-08]
+- FY26 revenue Rs 101.7cr (+32.8%), EBITDA Rs 31.1cr (30.6% margin), PAT Rs 20.1cr (19.8% margin, +79%); services now 63% of sales vs 6.6% in FY23 - a real model shift
+- FY26 operating cash flow ~Rs 1cr against Rs 20cr PAT - profit not cash-backed; the key new negative. FY26 capex ~Rs 30cr; debt-free after the ~Rs 77cr IPO (borrowings Rs 31cr->0)
+- Q1 FY27 PAT Rs 9.08cr (+124% YoY, PAT margin 27.6%) was margin-led - revenue only +1.45% QoQ; ~27% PAT margin is far above hospital-chain norms and treated as a peak (peak_margin_risk true)
+- Expansion being actioned: board approval for a Gurugram hospital (60-100 beds), MSS Delhi (23 beds) opened, NABH accreditation - but beds still ~223 vs the ~500 target
+- four_box downgraded 2.5 -> 2.0 (valuation yes -> weak on peak-margin + CFO gap); un-ignorable-inflection written exception keeps the 10x label, conviction capped Medium, held at Low-Medium
+- track_record 3 checked / 2 cleared (FY25, FY26) with a cash-flow caveat; conviction Low-Medium -> Low-Medium
+
+## Permanent Magnets — deep-dive pass 1 [2026-09-08]
+- Q1 FY27: standalone rev Rs 63.2 Cr +19% YoY (Alloys-led) but EBITDA margin ~18.5% vs 21%, standalone PAT Rs 6.25 Cr -14% YoY, consol PAT Rs 3.80 Cr
+- PAT down 3 straight years (Rs 20->16->15 Cr FY24-26); ROCE 15%->14%, ROE 10.5%; borrowings ~Rs 88 Cr rising; equity dilution part of Rs 80-100 Cr capex funding
+- Rare-earth/NdFeB line zero revenue FY26; REPM scheme bid pending (5 of 20 picked); Quantum Magnetics got ECMS approval Aug 2026 (small, pre-revenue)
+- Relays ramp slipped to H2 FY27, Quantum Phase-2 to Q3 FY27; ~57.7x trailing P/E fully prices the optionality
+- four_box 2.0 (tailwind yes, tam weak, moat weak, valuation no) -> thesis_fit neither; conviction Low -> Low
+
+## RBZ Jewellers Ltd — deep-dive pass 1 [2026-09-08]
+- Q1 FY27 revenue Rs 120.8 Cr +60% YoY (retail Rs 78 Cr +70%, wholesale Rs 42 Cr +47%), PAT Rs 9.09 Cr +28%, EBITDA margin 14.9% vs 16.5% (store pre-opening cost)
+- FY26 revenue ~Rs 636 Cr +20%, PAT ~Rs 54.8 Cr +41%, ROCE ~29%; but ROCE was 16.5% FY24 (PAT -3.4%) vs 33% FY23 - cyclical, short listed history
+- Operating cash flow NEGATIVE 3 years running (-Rs 11/-48/-14 Cr FY23-25) - reported PAT not converting to cash; Rs 300 Cr GML facility at 3-3.5% is the fix
+- Valuation undemanding ~14x trailing (was ~10.6x on 1-Sep); four_box 3.0 (tailwind yes, valuation yes, tam/moat weak)
+- 4 own-stores planned FY27 (Surat/Rajkot/Maninagar/Gandhinagar), 50:50 B2B:B2C target; conviction Low-Medium -> Low-Medium
+
+## Walchandnagar Industries | Return of a Golden Era — deep-dive pass 1 [2026-09-08]
+- FY26: revenue Rs 296.3cr (~flat), EBITDA turned positive Rs 35.49cr (from -Rs 35.61cr), net loss narrowed to Rs 14.68cr (from Rs 86.03cr)
+- Q1 FY27: revenue Rs 97.80cr (+81% YoY), net profit Rs 1.2cr (vs -Rs 10.4cr), EBITDA 6.6x YoY - third consecutive profitable quarter
+- Order book Rs 871.77cr (~3x FY26 revenue), FY27 revenue guide ~Rs 600cr; recent Rs 30.53cr ISRO/VSSC Gaganyaan HS200 + aerospace orders; DNA (defence/nuclear/aerospace) focus
+- Promoter holding diluted to 31.59%, ~49% of it reported pledged per Trendlyne (a conflicting 'no encumbrance FY26' company filing exists) - main balance-sheet/governance risk; red_flag_tier kept null
+- Still a full-year net loss, ~4x book on losses, nuclear revenue 12-18 months out, trusted forum members (Marathondreams, Prabhat_Mohanty) remain sceptical after a decade of missed guidance
+- four_box 2.5, un-ignorable-growth written exception keeps the 10x label; track_record 3 checked / 0 cleared (informative for a 100-yr-old co); conviction Low -> Low-Medium
+
+## Alembic Pharmaceuticals Ltd — deep-dive pass 1 [2026-09-08]
+- Q1 FY27: consol revenue Rs 2,150cr (+26%), PAT Rs 173cr (+12%), US formulations Rs 778cr (+49%) on 7 launches incl. limited-competition bosutinib; FY27 guidance raised (US generics to mid-to-high teens, company to ~mid-teens), 15+ US launches planned
+- Trailing quality sub-bar and unchanged: FY26 ROCE ~13%, ROE ~13.4%, 5-yr sales CAGR ~6%, 5-yr profit CAGR ~-9%; gross debt rising to Rs 1,430cr for Pithampur + peptide API capex; FY26 CFO Rs 783cr (~70% of EBITDA)
+- US flagship is structurally bout-driven ('good growth followed by stagnation' per trusted tracker harsh.beria93); Q1 partly flattered by bosutinib - PAT (+12%) lagged revenue (+26%)
+- four_box re-derived 2.0 -> 1.5 (tam weak -> no: 10x needs ~Rs 1.6 lakh cr, size-math 'neither' applies to a mid/large-cap); thesis_fit 10x-in-2-3-years -> neither, hard
+- Consistent dividends (35% payout), clean RPTs, no pledge, no red flag; trusted queueing signal was a modest ~1% portfolio weight (elevated, not core - no floor)
+- conviction Medium -> Medium (held); revisit after Q2 FY27 to see if the US inflection persists
+
+## Ultramarine & Pigments Ltd — deep-dive pass 1 [2026-09-08]
+- Q1 FY27 consolidated PAT Rs 31.6cr (+~56% YoY) on the completed Naidupeta pigment expansion; FY26 consol revenue Rs 774.77cr (+12%), PAT Rs 80.77cr; TTM revenue Rs 830cr
+- Fortress balance sheet: borrowings Rs 86cr vs investments Rs 376cr (~30% of mcap, net cash); FY26 CFO Rs 128cr / FCF Rs 62cr; consistent dividend (Rs 6/sh); trades ~13.6x P/E, ~1.4x book
+- Structural profitability weak: ROCE ~11% (3yr ~10.8%), ROE ~9% - large idle investment book is part of the cause; new Rs 250cr Tamil Nadu greenfield (2,500 MT, FY27-29) will pressure ROCE near-term
+- Sudarshan Chemicals' Heubach acquisition remains a specific, unresolved competitive threat to pigment realisations
+- four_box 2.5 (valuation box re-rated to yes on the cheap net-cash multiple); written exception permits the 10x label, conviction capped Medium; track_record 3 checked / 0 cleared (chronic sub-15% ROCE)
+- conviction Low -> Low-Medium (small-cap live-inflection rule: Q1 FY27 +56% PAT + trusted capex confirmation + cheap valuation)
+
+## Zaggle_A platform to address pain points for enterprises — deep-dive pass 1 [2026-09-08]
+- Q1 FY27 revenue +28% YoY vs 40-45% prior; program-fee line grew only ~10% - growth engine stalling
+- PAT -33% YoY, adj EBITDA margin 8.2% (3rd consecutive quarter of compression); management blames one-time Dice costs
+- Trade receivables Rs 40cr -> 129cr YoY; operating cash conversion still the central unresolved concern; no dividend despite profits
+- P/E de-rated to ~18.7x TTM - thesis no longer priced in; four_box 3.0 on valuation-box=yes carve-out
+- Kedia Securities bulk-deal entry + reaffirmed ~40% FY27 guidance are mild positives but guidance is expectation-only
+- conviction Low -> Low
+
+## SJS Enterprises Ltd — deep-dive pass 1 [2026-09-08]
+- Q1 FY27: revenue Rs 261 Cr +24.5% YoY, EBITDA Rs 80 Cr +36.2%, 30.0% margin (+239bps), normalised PAT Rs 50.25 Cr +45%; PV +45%, exports +83%
+- FY26 consol revenue Rs 955 Cr +25.6%, PAT Rs 171.8 Cr +44.6%; 27 straight quarters beating auto industry
+- Cover-glass/display moved from 'planned' to 'under construction': dedicated WOS approved, Hosur facility, BOE Varitronix license, first revenue targeted FY27
+- Valuation ran past the file's record: price ~Rs 2,487 vs earlier 52wk high Rs 1,930, P/E ~35.5x, near ATH
+- four_box 2.5 (valuation=no); credible-catalyst small-cap exception keeps 10x label, conviction capped Medium
+- conviction Low -> Low-Medium
+
+## Arman Financial Services Ltd — deep-dive pass 1 [2026-09-08]
+- Q1 FY27: consol AUM Rs 2,925 Cr +35.7% YoY, disbursements Rs 686 Cr +76%, PAT Rs 45.2 Cr vs Rs 14.6 Cr loss; Namra PAT Rs 30 Cr vs Rs 28 Cr loss
+- GNPA down from 3.8% peak to 2.59%; management guides credit cost to ~3-3.5%
+- Trailing P/E ~48x on trough FY26 EPS but ~11-15x on Q1 FY27 annualised run-rate
+- four_box 2.5 (no valuation 'yes'); small-cap live-inflection exception invoked -> thesis_fit neither -> 10x-in-2-3-years, capped Medium unconfirmed
+- Held at Medium: one clean quarter, D/E 1.43 amplifies relapse risk, MFI politically sensitive, 10x from Rs 2,071 Cr NBFC is hard
+- conviction Medium -> Medium
+
+## Capri Global Capital Ltd — deep-dive pass 1 [2026-09-08]
+- Q1 FY27: AUM Rs 40,112 Cr +62% YoY, PAT Rs 353 Cr +102%, ROAE 19.1%, gold loans +111%, cost-to-income 44.2%
+- FY28 AUM target RAISED to Rs 65,000 Cr, ROE 19-21%, ROA 4.2-4.7%
+- Valuation ~24x TTM / ~18x forward - not pricing the current ~100% growth as durable
+- peak_margin_risk=true: ROAA ~4.1% partly gold-price-cyclical, through-cycle likely 3-3.5%
+- Unresolved (unconfirmed) founder-identity governance question - verify promoter bio before sizing; no red_flag_tier
+- conviction Medium -> Medium-High
+
+## CFF Fluid Control Ltd — deep-dive pass 1 [2026-09-08]
+- FY26 revenue Rs 209cr +43%, PAT Rs 39cr +64%, op margin ~28%; revenue nearly doubled FY24->FY26
+- Order book Rs 551cr (>90% defence PSUs, ~2.6x revenue) + fresh Rs 78.74cr Navy order to Apr-2027; P75I pipeline is the FY28 swing factor
+- Operating cash flow negative every year but modest (FY26 -Rs 26cr, NOT -Rs 260cr as prior read stated) - transcription error corrected
+- Mainboard migration shareholder-approved at Aug-2026 AGM; FPO Jul-2026 raised ~Rs 88cr; CFO steady open-market buying since Dec-2025
+- ~53x trailing P/E / ~7.8x book - rich; management runs no concalls, SME half-yearly reporting only
+- four_box 2.0 (valuation=no); conviction Medium -> Medium via un-ignorable-growth carve-out
+
+## DDev Plastiks Industries Ltd — deep-dive pass 1 [2026-09-08]
+- Q1 FY27 revenue Rs 989cr +28.6% YoY, PAT Rs 63.8cr +22.3% YoY - Bhiwadi (Rajasthan) plant ramp + EBITDA/ton recovery (Rs 15,304->19,177)
+- FY26 was soft: revenue +13%, PAT +9%, volumes +6% vs 12-15% guided; FY27 company guidance only +13% revenue
+- BESS Phase 1 (5GWh, Rs 150-200cr, internally funded, assembly-led) relocated to Kolkata, commissioning slipped to FY27 - execution risk on the key catalyst
+- KKalpana Industries related-party royalty cut from 9% to ~2.4% of PAT per trusted invested user; FY27 RPT limits ~Rs 82cr, mostly trade
+- Valuation ~15x P/E / ~3x book for 30%+ ROCE net-cash business - four_box to 3.0 (valuation=yes)
+- conviction Medium -> Medium
+
+## ESDS Software Solution Ltd — deep-dive pass 1 [2026-09-08]
+- Listed 2026-09-04 at Rs 757 (+76%); now ~Rs 1,308, mcap ~Rs 12,777 Cr on multiple consecutive upper circuits
+- FY26 (RHP): revenue Rs 472cr +28%, PAT Rs 121cr +117%, operating margin ~35%->~50%; PAT growth is margin- and interest-cost-aided, not pure volume
+- No public quarterly disclosure yet; first listed-company result (Q2 FY27) is the first verifiable data point; track_record block omitted (no public FY history)
+- Valuation ~106x trailing PAT / ~27x sales - four_box valuation=no, score 2.0; 10x label kept only via un-ignorable-growth carve-out
+- ~50% operating margin durability untested vs GPUaaS price competition + hyperscalers; top-10 customers ~45% of revenue
+- conviction Medium -> Low-Medium (valuation blown post-listing)
+
+## Kernex — deep-dive pass 1 [2026-09-08]
+- Q1 FY27: revenue Rs 503.6 Cr (vs Rs 60 Cr YoY), EBITDA Rs 163 Cr / 32.3%, PAT Rs 109.85 Cr -- one quarter > all of FY26
+- Order book Rs 3,487 Cr, ~Rs 2,100 Cr guided executable FY27 vs Rs 2,914 Cr mcap; P/E ~15x trailing, ~7x forward
+- Earnings-quality offsets: ~268 debtor days, open 'supplied vs commissioned' rev-rec question, no dividend, promoter ~28.7% and declining, 5-yr avg ROCE negative
+- four_box 3.0 (tailwind yes / tam yes on live-inflection rule / moat weak / valuation weak) -> 10x label permitted
+- conviction Medium -> Medium: execution de-risked but cash conversion + promoter stake drift prevent a raise
+
+## Matrimony.com Ltd — deep-dive pass 1 [2026-09-08]
+- Q1 FY27: billings +7.8% YoY (Rs 136 Cr), matchmaking revenue +13.6%, enterprise EBITDA Rs 26.3 Cr / 20.1% margin (vs 11.0%), PAT Rs 19.1 Cr +127.5%; paid subs +3.7% YoY / +15.9% QoQ
+- Management guides Q2 FY27 to another triple-digit PAT quarter + double-digit billing/revenue growth - inflection is now a two-quarter trend, not one print
+- EV ex-cash ~Rs 500 Cr on guided ~Rs 80 Cr+ FY27 PAT (~6-7x); 24x trailing, ~13-14x forward; promoter ~58.4% and rising; 3rd buyback in 4 years completed
+- Offsets: FY26 leaned on ~Rs 23.9 Cr other income; 5-yr revenue CAGR only ~4%; paid-subscriber stagnation structural; unquantified startup-investing allocation
+- four_box 3.0 (tailwind weak / tam yes / moat yes / valuation weak); conviction Medium -> Medium
+
+## Senores Pharma- Hidden in plain sight — deep-dive pass 1 [2026-09-08]
+- Revenue Rs 215->398->633cr FY24-FY26; PAT Rs 33->58->122cr; OPM 19%->27%; management has beaten aggressive self-set guidance multiple quarters
+- Q1 FY27: revenue Rs 180cr +36% YoY (~flat QoQ), PAT Rs 30.7cr +56% YoY; Emerging Market EBITDA margin dipped 20%->14% QoQ; 7 ANDA approvals (58 total, 23 commercialised)
+- FY26 free cash flow ~-Rs 203cr - capex + working capital (debtor days ~187) consumed all profit; borrowings Rs 342cr rising; no dividend
+- ROCE ~15% / ROE ~13% lags the topline; P/E ~55x trailing near 52wk high after ~130% 1yr re-rating
+- four_box 2.5 (moat weak, valuation no); 10x-in-2-3-years retained via un-ignorable-growth exception, conviction capped Medium
+- conviction Medium -> Medium (unchanged)
+
+## Ujjivan Small Finance Bank — deep-dive pass 1 [2026-09-08]
+- Q1 FY27: NII Rs 1,186cr +38.6% YoY, PAT Rs 317cr +206.7% YoY, RoA 2.2%, RoE 18.2%, NIM 8.5%; GNPA/NNPA 2.17%/0.34%, PCR 85%
+- FY26: PAT Rs 693cr, gross book Rs 40,655cr +27%, secured share up to 49.4%; FY27 guidance raised (RoA 1.8-2.0%, credit cost 0.9-1.0%, advances +25%)
+- RBI RETURNED the universal-bank-licence application (Sep 2026) asking for more book diversification - biggest re-rating catalyst deferred; Rs 2,000cr QIP announced (near-term BVPS dilution)
+- Valuation ~1.85x book / ~14x P/E for ~18% RoE - cheap, but stock near 52wk high after +64% 1yr; PAT growth base-effect-amplified, NIM/RoA cycle-high
+- four_box 1.5 (tailwind weak, tam weak, moat no, valuation weak) -> thesis_fit neither, hard; conviction Medium on the business not the label
+- conviction Medium -> Medium; thesis 10x-in-2-3-years -> neither
+
+## Jubilant Agri and Consumer Products Ltd (JACPL) — A Hidden Gem from the Jubilant — deep-dive pass 1 [2026-09-08]
+- Q1 FY27: revenue Rs 523cr +18% YoY, EBITDA Rs 68cr +7% (margin 13.0% vs 14.1%), PAT Rs 46cr +5%; Performance Polymers & Chemicals +27%, Agri soft on weak monsoon, adhesives +16%
+- Demerger on the NCLT-directed timeline: First Motion allowed 8-Jul-2026, shareholders'/creditors' meeting held 5-Sep-2026, 1 Jubilant Agri Solutions share per JACPL share, retained entity renamed Jubilant Industries Ltd
+- Genuine quality: ROCE ~32-37%, ROE ~28%, D/E ~0.11 (Debt/EBITDA 5.5x FY19 -> <1x); VP-latex #1 India + SPVA global top-2 are real technical moats
+- Valuation ~26x P/E / ~7.3x book - cheap vs Pidilite ~75x / SRF ~68x but full for single-digit EBITDA/PAT growth; two independent community SOTPs both ~17-20% unlock
+- four_box 3.5 mechanically but analyst_override=true (no 10x-in-2-3-years mechanism from a mid-teens compounder at 26x); thesis 10x-in-2-3-years -> neither
+- conviction Medium -> Medium
+
+## Exicom Tele-Services — deep-dive pass 1 [2026-09-08]
+- FY26 consolidated PAT loss ~Rs 274 Cr, ~2.5x wider YoY (12 vs 7 months Tritium); ROCE -14.7%, ROE -40.8%
+- Q1 FY27 consolidated revenue +61% but EBITDA still a ~Rs 22 Cr loss; only standalone (EBITDA ~Rs 21 Cr, 8.8%) is profitable
+- Critical Power +80% YoY on 5G/BharatNet Phase 3 (>60% wallet share) is the real cash engine; order book ~Rs 1,400 Cr
+- Tritium EBITDA breakeven guided for Q4 FY27 - a target, not delivered; CARE BBB/A3 Negative still stands
+- four_box 2.0 (tailwind yes, tam no, moat/valuation weak); thesis_fit 10x-in-2-3-years -> neither; conviction Low -> Low
+
+## GMM Pfaudler — deep-dive pass 1 [2026-09-08]
+- FY23 PAT Rs 214 Cr collapsed to ~Rs 50 Cr FY25/FY26 with a loss-making Q3 FY26 - structural margin impairment, not a one-off
+- Q1 FY27 revenue +16% YoY and record backlog +20%, but EBITDA -7% YoY and margin ~10% vs a 15% aspiration - 'inflection' is only a low-base PAT optic
+- Valuation ~45x P/E / ~4.8x P/B prices a full recovery; debt Rs 1,041 Cr (D/E ~0.86) + ~30% tax rate for 18-24 months
+- four_box score 1.5 (moat yes; tailwind weak; tam no; valuation no) -> thesis_fit neither, hard
+- conviction Low -> Low
+
+## IZMO- bet on new technologies in Auto retail & defence — deep-dive pass 1 [2026-09-08]
+- izmo Microsystems shipping 40 GHz RF defence package; Rs 40 Cr order book, Rs 100 Cr pipeline, Rs 45-50 Cr FY27 guidance; national Silicon Photonics Mission packaging partner
+- Core auto-software inflected: Q1 FY27 revenue +15.7% YoY, operating EBITDA margin 25.1% (+796 bps), PAT +103% YoY; near debt-free
+- Governance unchanged: 2017-18 SEBI misleading-disclosure finding, MD's bail revoked in duty-evasion case (Dec 2025), US books unaudited, WC cycle ~142 days
+- four_box 3.0 (tailwind yes / tam yes / moat weak / valuation weak) -> thesis_fit 10x-in-2-3-years retained
+- conviction Low -> Low (governance + dilution + segment still ~Rs 9 Cr/qtr)
+
+## Kamat Hotels (India) Ltd- A Possible Turnaround Story! — deep-dive pass 1 [2026-09-08]
+- Deleveraging real but unfinished: borrowings ~Rs 233 Cr (Mar 2026) vs ~Rs 495 Cr (2019), pledges cleared; not near-net-cash
+- Operating leverage now demonstrated: Q1 FY27 same-store +17%, EBITDA +36% on +10% revenue, PAT +158%, >75% flow-through
+- four_box 2.5 with valuation=yes (EV/EBITDA ~9-10 vs peers ~18-22x) permits 10x label; conviction capped Low on management-quality gate
+- Management still refuses FY27 guidance; Dehradun/Nashik openings slipped since prior pass; minority-unfriendly merger history
+- conviction Low -> Low; thesis_fit 10x-in-2-3-years retained
+
+## Ramco system — deep-dive pass 1 [2026-09-08]
+- FY26 real cost reset: first full-year profit, EBITDA margin 24% (from 14%), D/E ~0.12, recurring 57% of mix +15% YoY
+- Q1 FY27 consolidated PAT collapsed to Rs 0.56 Cr (standalone Rs 8.69 Cr) on ~flat revenue + front-loaded AI/S&M spend; seasonal-vs-air-pocket unresolved
+- Structural doubt intact: 5-yr revenue CAGR ~2%, recurring ARR ~USD 48M roughly flat for years, sub-scale vs SAP/Oracle/Workday
+- Valuation re-rated to ~36x P/E / ~6.5x P/B; genuine MRO wins (Safran, ST Engineering, Tata) + USD 152M order book but conversion to a growth rate unproven; CFO succession orderly (Dec 2026)
+- four_box 2.5 (moat yes, rest weak), no decision-table exception + weak recent quarter -> thesis_fit 10x-in-2-3-years -> neither; conviction Low -> Low
+
+## KSH International Ltd — deep-dive pass 1 [2026-09-08]
+- FY26 revenue Rs 3,107 Cr (+61%), PAT Rs 110 Cr (+62%); Q1 FY27 revenue Rs 1,164 Cr (~+100%), PAT Rs 42 Cr (+86%), debt-free, ROCE ~21%
+- EBITDA/ton surged to Rs 93,000 in Q1 FY27 vs TTM ~Rs 74,000 / FY25 Rs 52,536 on specialised+CTC+export mix - peak_margin_risk flagged as it may partly normalise
+- Hitachi Energy Global 5-year supply framework (Q1 FY27) validates the T&D/HVDC export thesis; capacity 43,445 -> 59,045 MT by end-FY27
+- Constraints: ~57x P/E near 52-wk high, listed only Dec 2025, no VP company thread, thin-margin copper-spread base; only signal is joinjp2003 trusted portfolio-thread mention, trusted_floor false
+- four_box 2.0 (tailwind yes, tam/moat weak, valuation no); 10x label via un-ignorable-growth exception; conviction Low-Medium -> Low-Medium, unconfirmed
+
+## CSL Finance Limited — deep-dive pass 1 [2026-09-08]
+- FY26 AUM Rs 1,448 Cr (+21%), PAT Rs 86.11 Cr (+19.4%), ROA 6.30%, ROE 14.81%; Q1 FY27 PAT Rs 22.1 Cr only +3.76% YoY - sharp deceleration
+- GNPA rose from 0.46% to 1.1% over FY26 (0.95% Q1 FY27); SME-retail segment contracting in share, book tilting to lumpier wholesale/real-estate finance
+- Genuinely cheap: P/B ~0.89x (below book Rs 273), P/E ~6.3x, CAR ~44% (under-leveraged, caps ROE); promoter 48.16%, no pledge
+- four_box 2.5 with valuation=yes exception -> 10x-in-2-3-years label permitted, conviction capped; set Low-Medium, unconfirmed (re-rating math ~2-4x)
+- conviction Low-Medium -> Low-Medium; no trusted floor; re-check Q2/Q3 FY27 on PAT re-acceleration + GNPA + SME-retail share
+
+## Mitsu Chem Plast Ltd — deep-dive pass 1 [2026-09-08]
+- FY26 revenue Rs350cr (+5.4%), PAT Rs15.6cr (+115%), EPS 11.50; Q1 FY27 PAT Rs8.74cr (+566%), EBITDA margin 16.3% vs 5.9%
+- Management guided sustainable EBITDA margin only 10-12% -> peak_margin_risk true; growth_trajectory lumpy
+- Long-term debt cut to Rs11.4cr from Rs24.7cr; promoter subscribed ~80% of Rs151 warrant issue; IBC vertical re-launched
+- four_box 2.0 (all weak); small-cap live-inflection written exception keeps 10x-in-2-3-years, conviction capped Medium, held Low unconfirmed
+- conviction Low -> Low
+
+## Neuland Laboratories Limited — deep-dive pass 1 [2026-09-08]
+- Q1 FY27: revenue Rs641.6cr (+119%), PAT Rs147.7cr (+962%), EBITDA margin 35.5% vs 14%; WC days 137->84
+- Management guides lumpy growth 2-3 yrs, clearer over 10-12 quarters, ~1 commercialisation in FY27; Rs1,460cr capex over 13 quarters, Rs870cr spent; new Gland Pharma sterile-API CDMO tie-up
+- earnings_quality peak_margin_risk true (35.5% well above ~14-22% historical band); growth_trajectory lumpy; management_quality positive/disciplined
+- four_box 3.5 permits a magnitude label but absolute mcap ~Rs25,000cr independently caps return -> thesis_fit neither; trailing P/E ~65x
+- conviction Medium-High -> Medium-High
+
+## Samvardhana Motherson International — deep-dive pass 1 [2026-09-08]
+- Q1 FY27 record revenue Rs 35,244 Cr (+16.65% YoY), PAT Rs 1,076 Cr (+55% normalised); wiring harness +31%, aerospace +20%, consumer electronics scaling off a small base and still loss-making
+- Genuine capital-allocation pivot: aerospace order book >$1bn (+17% since FY26 end, Tier-1 Airbus), consumer electronics Rs ~7,500 Cr across 3 greenfield plants (3rd commissioning Q3 FY27)
+- four_box 2.0: tailwind yes, tam no (genuine-large-cap size-math - 10x/100x not credible off ~Rs 1.7 lakh Cr), moat/valuation weak (P/E ~39x trailing, fresh 52-wk high)
+- Consolidated ROIC ~9%, ROE ~10-17% by basis, D/E 0.44; management's prior 5-yr revenue guidance missed ~50%, so the $108bn-by-FY30 target is directional
+- thesis_fit -> neither (size math); conviction Medium -> Medium; no trusted-conviction floor (X lead made no call)
+
+## Tube Investments Ltd ~ Diversified Engineering Company — deep-dive pass 1 [2026-09-08]
+- Sum-of-parts strengthened since 2024: TII de-rated ~Rs 81k Cr -> ~Rs 51k Cr while its 58% CG Power stake rose to ~Rs 66,500 Cr, now above TII's entire market cap
+- Core is excellent (standalone ROCE ~38%, net debt-free, interest coverage ~22x) but consolidated ROE only ~10% and 3-yr consolidated profit growth is -11%
+- TI Clean Mobility (Montra): FY26 EV revenue +76.6% to ~Rs 239 Cr but PBIT loss ~Rs 412 Cr; ~Rs 750 Cr+ sunk, another Rs 500-750 Cr approved, breakeven delayed; Q1 FY27 owner PAT -43%
+- Diversification widening (EV + CDMO + medical devices + biofuels + semiconductor platform) - unresolved community de-worsification criticism; headline consolidated P/E ~81x
+- four_box 3.0 with analyst_override=true (tailwind/moat/valuation yes, tam no); thesis 100x-in-10-years -> neither; conviction Medium -> Medium; no trusted floor
+
+## Eureka Forbes Ltd — deep-dive pass 1 [2026-09-08]
+- FY26 revenue Rs 2,710 Cr (~10% YoY), PAT Rs 162 Cr; Q1 FY27 rev +15.3% but adj EBITDA margin -46bps YoY and PAT flattered by ~Rs 19.5 Cr exceptional
+- ROE ~4% / ROCE ~5-6% have not inflected; valuation ~50x trailing / ~30x EV-EBITDA
+- Aug 2026: promoters (Advent) pledged ~62.55% of shares (essentially entire stake) for USD 92m refinancing; no dividend
+- FY30 aspiration (double rev/triple EBITDA vs FY25) is aspiration not commitment; Q1 margin went the wrong way
+- four_box 2.0 (tailwind yes, moat yes, tam no, valuation no) -> thesis_fit neither; conviction Low -> Low
+
+## Aries Agro Ltd — deep-dive pass 1 [2026-09-08]
+- FY26 consol revenue Rs 956.9 Cr (+18.9%), PAT Rs 42.4 Cr (+26.5%), EBITDA margin 8.98->9.29%, dividend Rs 2.50; Q1 FY27 revenue +16.3%, PAT +48.7%
+- Working-capital cycle cut 89->64 days, debtor days ~53->35, D/E ~15%, 0% promoter pledge - interest reduction is the engine of PAT-over-revenue outperformance
+- Valuation cheap: ~13x earnings / ~1.9x book vs ROCE 21.2%; management ~15% FY27 PAT guide looks conservative vs Q1 run-rate; UAE (Mirabelle) turnaround still to come
+- Unrebutted bear: industry-insider 'no brand pull', ~100 similar competitors on credit terms; plus 2018-19 Kedia boom-bust and live price-control/Chinese-dumping risks
+- four_box held 3.0 (tailwind yes, valuation yes, tam weak, moat weak) -> 10x label permitted at capped conviction; conviction Medium -> Medium
+
+## Jayaswal Neco- Integrated Steel Player — deep-dive pass 1 [2026-09-08]
+- FY26: revenue Rs7,132cr (+19%), EBITDA Rs1,341cr (+41%), PAT Rs463cr (+311% vs Rs113cr); Q4 FY26 PAT Rs191cr; Q1 FY27 PAT Rs194cr (+108% YoY on +28% revenue) - turnaround sustained 4 quarters
+- Tata Capital Rs2,300cr refinance completed Dec-2025 at 12.5% vs ~17.5%; guided interest ~Rs400cr FY26 -> ~Rs288cr FY27, a steel-price-independent PAT lift of ~Rs110cr
+- Secured debt cut 22% to Rs2,118cr in FY26; total borrowings ~Rs4,100cr; FY27 repayments Rs383cr coverable from cash flow
+- '0% promoter pledge' framing outdated: Dec-2025 release immediately followed by fresh pledge on ~55% of equity to Vistra ITCL as NCD debenture trustee (structural, repayment-linked release)
+- 1.5 MnTPA / Rs720cr pellet plant approved (24-mo build) + 6 MnTPA iron-ore EC; part-funded by Rs200cr promoter warrant issue at Rs89.13 (holding 55%->56%)
+- Valuation undemanding: ~15x TTM PAT (~Rs560cr), ~12-13x plausible FY27; four_box 3.0 (tailwind/valuation yes, tam/moat weak). Conviction Medium -> Medium
+
+## Control Print — deep-dive pass 1 [2026-09-08]
+- Q1 FY27 (Jun-26): consol revenue Rs115.6cr (+3.8% YoY, down from ~10% trend), consol PAT Rs3.92cr vs Rs8.56cr (-54%); standalone PAT Rs12.4cr vs Rs21.3cr - deceleration now in the core too
+- Packaging verticals (CP Italy/V-Shapes largest) still loss-making after ~2yr and ~Rs55-60cr cumulative losses on ~Rs55-60cr invested; FY27 breakeven is mgmt's own target but flagged 'uncertain', losses widened Q3 FY26
+- FY26 consol PAT Rs44cr (~24-25x TTM); FY25 consol Rs100cr looks like an acquisition one-off; durable run-rate closer to standalone ~Rs80cr (~11-12x). 'Cheap' only holds on standalone core
+- Institutions have exited: DII ~1%+ -> 0.16%, FII 9.9% -> 3.1%; unresolved related-party independent-director flag; CRISIL->ICRA rating switch (routine)
+- Floor intact: debt-free/net-cash, promoter ~53% stable no pledge, consistent Rs6 dividend, genuine 8-yr razor/razorblade moat - keeps it a Low-Medium quality-at-fair-price watch, not a deeper cut
+- four_box recut 3.5->2.5 (moat yes; tailwind/tam/valuation weak); 2.0-2.5 band, no exception -> thesis_fit 'neither', analyst_override removed. Conviction Medium -> Low-Medium

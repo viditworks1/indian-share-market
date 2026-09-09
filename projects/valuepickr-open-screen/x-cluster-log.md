@@ -172,3 +172,55 @@ cyient, dixon-technologies, zydus-lifesciences, beml, ksb-ltd, bluspring-enterpr
   - @a_basumallick: 5 new; Motherson (above) is the only named-company post with business substance — rest are macro/theme hashtag posts (semiconductors, hybrid-car growth, defence manufacturing, US Fed) or newsletter-TOC/link posts with no single-name view.
   - No posts returned: itsTarH, persistencecap, srisiv1 (empty), dhruvbajaj184, prabhakarkudva (empty), saket1974, Finstor85 — all had a top result at or below their existing last_tweet_id_seen (i.e. nothing since 2026-09-04's run), consistent with a quiet day for those accounts.
 - refresh_derived.py --lists run after write-backs.
+
+## 2026-09-07
+- Scan (browser): 13 handles queried, 9 returned posts, ~30 new tweets total (window since 2026-09-04, last run 2026-09-05). Per-handle new (>last_seen): ishmohit1 8, unseenvalue 2, itsTarH 3, persistencecap 0 (empty), LearningEleven ~6, suru27 2, srisiv1 0 (empty), dhruvbajaj184 0 (empty), prabhakarkudva ~10, Anand_shah07 ~8, saket1974 0 (empty), Finstor85 2, a_basumallick ~6.
+- New candidates (source:trusted-x): shaily-engineering (Shaily Engineering Plastics) — @unseenvalue own Substack single-stock analytical piece "Is This Specific Knowledge or a Patent?", non-negative tone; pitti-engineering (Pitti Engineering) — @suru27 own single-stock business writeup on value-chain shift (loose laminations ~8-10% EBITDA -> high-value assemblies 15%+), non-negative tone. Both `x_conviction_strength: high` (implicit conviction), no floor. [Reclassified from trusted-x-watch to trusted-x per user feedback this run: these handles rarely disclose positions outright, so a handle's own non-negative dedicated single-stock writeup on a genuinely-new name = conviction bucket, not watch list. SKILL.md Step 1/3 updated accordingly.]
+- Refreshed candidates: none
+- New watch-list names (source:trusted-x-watch): none
+- trusted_signals appended (already-researched): none.
+- Overflow / skipped: none (2 conviction names, well under caps).
+- Notes: mechanism = claude-in-chrome browser (1 browser connected), no Apify needed. One permalink dive (@LearningEleven "Timepass talk on Sunday" thread) to confirm it is a multi-part concall digest.
+  - Already-researched names touched by directionless snippets — logged only, NO trusted_signals per SKILL 4B: (1) Strides Pharma Science — @itsTarH noted promoter Arun Kumar bought Rs200cr of Strides at Rs990/share last week (first buy since 2022), framing promoters as good at timing entries/exits; insider-trade note w/ mild positive lean, already researched (source trusted-thread). (2) Supriya Lifescience — @LearningEleven "Timepass talk on Sunday" concall digest (point 1): mgmt guidance Rs1,000cr FY27 revenue, 33-35% normalized EBITDA margin, H2-back-ended recovery, customs issue said contained; neutral summary, already researched (HIGH CAUTION). (3) Artemis Medicare — @suru27 business writeup on international-patient / Mauritius hospital strategy (80-bed since FY24, 110-bed announced FY27); descriptive, already researched (source trusted-x).
+  - @ishmohit1: 8 new — all thematic (deep-tech/defence/space growth frontier, "manufactured luck" mental model, conglomerate ROCE-disruption economics, "three As" Ambani/Adani/Birla market-top joke, "post paints it's cables & wires' turn to be disrupted / PE derates" sector commentary) + football banter + Teachers' Day replies. No named company with a view.
+  - @suru27: also posted pump-and-dump social-media commentary (no name) and a SIMBA/RRG tool promo; GMM Pfaudler price-narrative post seen but its id is below last_seen (processed 2026-09-05).
+  - @LearningEleven: rest of new posts = impersonator warning, vague trend reply, "would you be happy if it fell 10%" checklist, BlackRock overweight-India macro, ESDS "locked in UC" banter (no business content), cables & wires "one Ultra plant disrupted the thesis" sector musing, subscription-refund reply. No fresh single-name view beyond Supriya (above).
+  - @prabhakarkudva: ~10 new, all on portfolio construction / regime awareness / stock-selection capability layers — zero named stocks.
+  - @Anand_shah07: ~8 new, all emoji replies + behavioural reflections (corpus not moving despite multibaggers, the "race changes you"). No stock.
+  - @a_basumallick: ~6 new — data-center construction-cost macro, defence-manufacturing CAGR, sovereign-wealth-fund scale, semiconductor macro, CURIOSITY newsletter TOC link; #MOTHERSON capex post is at last_seen (processed 2026-09-05). No new named-stock view.
+  - @unseenvalue: aside from Shaily, 2 book/reading-habit posts + thank-you replies.
+  - @itsTarH: aside from Strides, a TheWrap #167 weekly-digest link (no single name in text) + a BSE-filings-tool reply.
+  - @Finstor85: 2 new, both one-line replies (data-center electrical technicians; "wisdom at its best") — no stock.
+  - No posts returned: persistencecap, srisiv1, dhruvbajaj184, saket1974 — quiet since the 2026-09-05 run.
+- refresh_derived.py --lists run after write-backs.
+
+## 2026-09-07 (same-day no-op)
+- Duplicate same-day fire: x_cluster.json.last_run_date already 2026-09-07 (full scan completed earlier today). No scrape performed, no write-backs. Per SKILL Step 1 same-day guard.
+
+## 2026-09-08
+- Scan (apify-fallback WXbpW5mlcQBpK1jT8): 13 handles queried, 6 returned posts (78 items fetched, window since 2026-09-05), 6 new tweets total (>last_seen). Per-handle new: ishmohit1 2, suru27 2, a_basumallick 2; unseenvalue/itsTarH/LearningEleven/prabhakarkudva/Anand_shah07/Finstor85 returned only already-seen posts; persistencecap/srisiv1/dhruvbajaj184/saket1974 returned nothing (quiet).
+- New candidates (source:trusted-x): none
+- Refreshed candidates: none
+- New watch-list names (source:trusted-x-watch): iifl-finance (IIFL Finance) — @a_basumallick relayed CNBC-TV18 snippet (Blackstone likely to buy up to 20% stake / Fairfax exit), neutral PE-activity framing, no conviction call → watch bucket.
+- trusted_signals appended (already-researched): none
+- Overflow / skipped: none
+- Notes: Browser unavailable (list_connected_browsers returned []) → Apify path. Actor SUCCEEDED, 78 items, one run.
+  - @ishmohit1: 2 new — both macro/theme (small/mid-cap relative-strength "reverse of 2018" QT of self; AI/DC capex QT of @KobeissiLetter US data-center construction spend). No Indian-listed name with a view.
+  - @suru27: 2 new — banter reply; "Excellent work Manojeet... Been in 3 of these names" QT of @Manojeet_Das accumulation-screen compilation — named stocks only in the attached image (not in scrape text), no extractable company.
+  - @a_basumallick: 2 new — newsletter link post (no name); IIFL Finance news-snippet relay (above).
+
+## 2026-09-09
+- Scan (browser): 13 handles queried, 8 returned posts, ~30 new tweets total. Per-handle new (id > last_tweet_id_seen): ishmohit1 6, unseenvalue 5, LearningEleven 7, suru27 10, Anand_shah07 1, Finstor85 11, a_basumallick 5. itsTarH/prabhakarkudva returned only already-seen ids (no advance). persistencecap/srisiv1/dhruvbajaj184/saket1974 empty (low-volume, normal).
+- New candidates (source:trusted-x): none
+- Refreshed candidates: none
+- New watch-list names (source:trusted-x-watch): none
+- trusted_signals appended (already-researched): none
+- Overflow / skipped: none
+- Notes: No genuinely new stock signal this run. New posts were dominated by macro/theme (gold/multipolar, copper, nuclear, AI-infra rally, China), process/portfolio-construction philosophy (prabhakarkudva, LearningEleven, unseenvalue, Anand_shah07), and product-teaser threads. Stock names that did appear were all already `researched` at watch-grade mention level only → log-only per Step 4B:
+  - ACE / action-construction-equipment (researched, web-discovery): @suru27 numbered teaser thread ("Kya ACE Ghoomega?", RS improvement, results turnaround, concall signals — all via their SIMBA product) + "ACE being ACE" on strong Aug construction sales. Bullish lean, promotional. No write-back (already researched).
+  - gmm-pfaudler-ias2026 (researched, external-lead): @suru27 cryptic one-liner "Phorgotten Pfaudler, No More Phorgotten" quote-amplifying a third-party writeup. Thin, no own analysis. No write-back.
+  - vinati-organics (researched, trusted-thread): @a_basumallick relayed #VINATIORGA concall snippet (ATBS application in oil-drilling polymers). Directionless snippet → no trusted_signals append per Step 4B. Log only.
+  - beml (researched, trusted-x-watch @a_basumallick): @a_basumallick "Excellent thread on #BEML" amplifying a third-party HMV-story thread. Mild positive, amplification not authored view. No write-back.
+  - united-drilling-tools (researched, trusted-x-watch @a_basumallick): @a_basumallick re-shared the same intelsense "STOCK STORY" writeup (tied to the Vinati oil-drilling tailwind). Already captured in existing x_watch_note. No write-back.
+  - @Finstor85 reply thread praised an unnamed "power & communication infra protection" small-cap ("180cr mcap to 3800cr+ since 2020") — company not named in any captured text; not actionable, no permalink dive (reply thread, name only in parent). Noted, no entry.
+- Mechanism: mcp__claude-in-chrome browser path, one javascript_tool extractor per handle, 3 batches. No walls/errors. Apify not used.

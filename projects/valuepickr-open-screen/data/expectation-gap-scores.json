@@ -1,8 +1,8 @@
 {
-  "date_compiled": "2026-09-07",
+  "date_compiled": "2026-09-09",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
-  "scored_count": 64,
-  "not_assessed_count": 561,
+  "scored_count": 141,
+  "not_assessed_count": 497,
   "ranked": [
     {
       "slug": "deepak-fertilizers-and-petrochemicals",
@@ -105,6 +105,72 @@
       }
     },
     {
+      "slug": "vaibhav-global-vertically-integrated-value-e",
+      "name": "Vaibhav Global ~ Vertically integrated value e-tailer of Jewellery and Lifestyle Products",
+      "expectation_gap_score": 69.95,
+      "conviction_score": 36.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 3,750 Cr)",
+      "gap_direction": "underestimated",
+      "gap_type": "margin",
+      "gap_magnitude_pct": 30,
+      "evidence_quality": "moderate",
+      "catalyst_event": "H2 FY27 prints (Nov 2026 / Feb 2027) showing EBITDA margin sustaining toward 12%+ and digital mix crossing 50% of B2C",
+      "catalyst_window_months": 5,
+      "catalyst_window_start": "2026-09-07",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "digital customer-acquisition cost"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 40,
+        "gap_frac": 1.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.699
+      }
+    },
+    {
+      "slug": "aries-agro",
+      "name": "Aries Agro Ltd",
+      "expectation_gap_score": 64.95,
+      "conviction_score": 41.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 627 Cr)",
+      "gap_direction": "underestimated",
+      "gap_type": "margin",
+      "gap_magnitude_pct": 30,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Two more quarters sustaining the margin-mix + working-capital gains, plus a visible UAE (Mirabelle) contribution once the facility relocation completes",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "trade-margin competition compressing the value-added mix"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 40,
+        "gap_frac": 1.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.8,
+        "quality": 0.649
+      }
+    },
+    {
       "slug": "dynamic-cables",
       "name": "Dynamic Cables",
       "expectation_gap_score": 64.57,
@@ -135,6 +201,41 @@
         "timing_q": 0.75,
         "risk_q": 0.8,
         "quality": 0.727
+      }
+    },
+    {
+      "slug": "rbz-jewellers",
+      "name": "RBZ Jewellers Ltd",
+      "expectation_gap_score": 63.75,
+      "conviction_score": 31.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 803 Cr)",
+      "gap_direction": "underestimated",
+      "gap_type": "new_business",
+      "gap_magnitude_pct": 35,
+      "evidence_quality": "moderate",
+      "catalyst_event": "First FY27 own-stores (Surat, Rajkot) opening + a quarterly print showing retail ramp and operating cash flow turning positive under the GML strategy",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "b2c format execution / store-level economics",
+        "client concentration",
+        "whether it actually turns operating cash flow positive"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 40,
+        "gap_frac": 1.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.65,
+        "timing_q": 0.75,
+        "risk_q": 0.2,
+        "quality": 0.637
       }
     },
     {
@@ -206,6 +307,40 @@
       }
     },
     {
+      "slug": "matrimony-com",
+      "name": "Matrimony.com Ltd",
+      "expectation_gap_score": 57.57,
+      "conviction_score": 50.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 1,078 Cr)",
+      "gap_direction": "underestimated",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2 FY27 print delivering the guided triple-digit PAT growth + double-digit billing growth, ideally with a visible absolute drop in ad spend",
+      "catalyst_window_months": 3,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "ad spend re-inflating",
+        "jeevansathi (info edge) re-accelerating marketing spend"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 28.0,
+        "gap_frac": 0.7,
+        "evidence_q": 0.75,
+        "catalyst_q": 1.0,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.823
+      }
+    },
+    {
       "slug": "thyrocare-debt-free-asset-light-healthcare-play",
       "name": "Thyrocare : Debt free Asset Light Healthcare Play",
       "expectation_gap_score": 55.09,
@@ -236,6 +371,39 @@
         "timing_q": 1.0,
         "risk_q": 0.8,
         "quality": 0.787
+      }
+    },
+    {
+      "slug": "time-technoplast",
+      "name": "Time Technoplast",
+      "expectation_gap_score": 51.59,
+      "conviction_score": 62.8,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 9,233 Cr)",
+      "gap_direction": "underestimated",
+      "gap_type": "mix",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "strong",
+      "catalyst_event": "Net-debt-free milestone plus a quarter showing blended EBITDA-margin expansion from VAP mix; PESO-approved hydrogen / Type-IV cylinder order ramp",
+      "catalyst_window_months": 12,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "peso approvals for pressure-vessel vap"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 28.0,
+        "gap_frac": 0.7,
+        "evidence_q": 1.0,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.8,
+        "quality": 0.737
       }
     },
     {
@@ -270,6 +438,109 @@
         "timing_q": 1.0,
         "risk_q": 0.4,
         "quality": 0.727
+      }
+    },
+    {
+      "slug": "ddev-plastiks-industries",
+      "name": "DDev Plastiks Industries Ltd",
+      "expectation_gap_score": 49.88,
+      "conviction_score": 44.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 3,024 Cr)",
+      "gap_direction": "underestimated",
+      "gap_type": "volume",
+      "gap_magnitude_pct": 15,
+      "evidence_quality": "monitor",
+      "catalyst_event": "Two more quarters of Bhiwadi-led double-digit volume growth + BESS Phase-1 commissioning with a first order announcement",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "commissioning execution + securing anchor bess orders"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 35.5,
+        "gap_frac": 0.887,
+        "evidence_q": 0.5,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.8,
+        "quality": 0.562
+      }
+    },
+    {
+      "slug": "jasch-industries",
+      "name": "Jasch Industries Ltd",
+      "expectation_gap_score": 47.96,
+      "conviction_score": 38.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Micro-cap",
+      "gap_direction": "partially-priced",
+      "gap_type": "volume",
+      "gap_magnitude_pct": 30,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2 FY27 result (~Nov 2026) showing the Hyundai/Kia volume ramp resuming sequentially after the flat Q1 FY27, and EBITDA margin above ~8%",
+      "catalyst_window_months": 3,
+      "catalyst_window_start": "2026-09-07",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "single oem group concentration (hyundai/kia)",
+        "utilisation of the new pu capacity"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 30,
+        "gap_frac": 0.75,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.639
+      }
+    },
+    {
+      "slug": "jayaswal-neco",
+      "name": "Jayaswal Neco- Integrated Steel Player",
+      "expectation_gap_score": 47.39,
+      "conviction_score": 38.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 8,700 Cr)",
+      "gap_direction": "underestimated",
+      "gap_type": "margin",
+      "gap_magnitude_pct": 25,
+      "evidence_quality": "strong",
+      "catalyst_event": "A FY27 quarter or two showing the lower interest run-rate flowing through to PAT + a further step-down in secured debt / pledge release",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "cyclical ebitda downturn",
+        "steel-price collapse cutting operating cash flow"
+      ],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 40,
+        "gap_frac": 1.0,
+        "evidence_q": 1.0,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.677
       }
     },
     {
@@ -339,6 +610,110 @@
         "timing_q": 1.0,
         "risk_q": 0.4,
         "quality": 0.639
+      }
+    },
+    {
+      "slug": "harshdeep-hortico",
+      "name": "Harshdeep Hortico Ltd (SME)",
+      "expectation_gap_score": 42.66,
+      "conviction_score": 39.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Micro-cap / SME (~Rs 130 Cr)",
+      "gap_direction": "underestimated",
+      "gap_type": "duration",
+      "gap_magnitude_pct": 55,
+      "evidence_quality": "moderate",
+      "catalyst_event": "H1 FY27 print (~Nov 2026) showing operating cash flow turning positive and revenue growth holding at 20%+ after the H2 FY26 slowdown",
+      "catalyst_window_months": 3,
+      "catalyst_window_start": "2026-09-07",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "ramp/utilisation of the new lines",
+        "spreading execution across too many verticals at once",
+        "working-capital intensity of institutional/infra project demand"
+      ],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 40,
+        "gap_frac": 1.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.2,
+        "quality": 0.609
+      }
+    },
+    {
+      "slug": "tube-investments-ltd-diversified-engineering-company",
+      "name": "Tube Investments Ltd ~ Diversified Engineering Company",
+      "expectation_gap_score": 41.68,
+      "conviction_score": 27.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Large-cap (~Rs 51,067 Cr)",
+      "gap_direction": "underestimated",
+      "gap_type": "new_business",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "TI Clean Mobility approaching operational breakeven + a quarter where consolidated owner-PAT growth turns positive + any holdco-discount-narrowing trigger",
+      "catalyst_window_months": 12,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "3w / scv volume ramp"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 28.0,
+        "gap_frac": 0.7,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.21,
+        "timing_q": 0.75,
+        "risk_q": 0.8,
+        "quality": 0.595
+      }
+    },
+    {
+      "slug": "ultramarine-pigments-ltd",
+      "name": "Ultramarine & Pigments Ltd",
+      "expectation_gap_score": 41.26,
+      "conviction_score": 38.8,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 1,230 Cr)",
+      "gap_direction": "underestimated",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2/H2 FY27 results showing the Q1 FY27 margin/PAT step-up is sustained rather than commissioning-timing, and greenfield-plant progress",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "returns on a large capex given a ~11% roce history",
+        "sudarshan/heubach-driven price competition"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 28.0,
+        "gap_frac": 0.7,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.589
       }
     },
     {
@@ -479,12 +854,46 @@
       }
     },
     {
+      "slug": "chamunda-electricals",
+      "name": "Chamunda Electricals Ltd",
+      "expectation_gap_score": 35.14,
+      "conviction_score": 30.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Micro-cap SME (~Rs 47 Cr)",
+      "gap_direction": "underestimated",
+      "gap_type": "new_business",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "monitor",
+      "catalyst_event": "FY27 quarterly/half-yearly revenue showing the GETCO Rs 63 Cr O&M award phasing into billed sales, with cash flow following",
+      "catalyst_window_months": 12,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "getco contract phasing / renewal at end of term",
+        "tender-driven, recompete pressure on margins"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 28.0,
+        "gap_frac": 0.7,
+        "evidence_q": 0.5,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.502
+      }
+    },
+    {
       "slug": "stylam-decent-fundamentals-with-cheap-valuation",
       "name": "Stylam Industries Ltd",
       "expectation_gap_score": 33.35,
-      "conviction_score": 50.8,
+      "conviction_score": 36.8,
       "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
+      "thesis_fit": "neither",
       "red_flag_tier": null,
       "market_cap_tier": "Mid-cap (~Rs 5,945 Cr)",
       "gap_direction": "partially-priced",
@@ -544,6 +953,147 @@
         "timing_q": 1.0,
         "risk_q": 0.4,
         "quality": 0.727
+      }
+    },
+    {
+      "slug": "goodluck-india",
+      "name": "Goodluck India Ltd",
+      "expectation_gap_score": 32.62,
+      "conviction_score": 40.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 4,600-5,000 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "mix",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "strong",
+      "catalyst_event": "Defence capacity expansion commissioning (Q4 FY27 target) + concrete disclosure on the defence-subsidiary capital structure / listing plan",
+      "catalyst_window_months": 12,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "commissioning timeline (already slipped 6-9 months)",
+        "single facility ramp",
+        "value capture for parent shareholders"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 1.0,
+        "catalyst_q": 0.65,
+        "timing_q": 0.75,
+        "risk_q": 0.2,
+        "quality": 0.725
+      }
+    },
+    {
+      "slug": "csl-finance",
+      "name": "CSL Finance Limited",
+      "expectation_gap_score": 31.36,
+      "conviction_score": 33.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 551 Cr)",
+      "gap_direction": "underestimated",
+      "gap_type": "duration",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "monitor",
+      "catalyst_event": "2-3 quarters of PAT growth re-accelerating above ~15% with GNPA held around/below ~1% and SME-retail share stabilising",
+      "catalyst_window_months": 12,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "lumpy wholesale exposures",
+        "wholesale-book concentration if sme stays weak"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 28.0,
+        "gap_frac": 0.7,
+        "evidence_q": 0.5,
+        "catalyst_q": 0.21,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.448
+      }
+    },
+    {
+      "slug": "kernex-tcas-led-multi-year-growth-story",
+      "name": "Kernex: TCAS led multi year growth story",
+      "expectation_gap_score": 31.34,
+      "conviction_score": 38.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 2,914 Cr)",
+      "gap_direction": "underestimated",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "A Q2/Q3 FY27 print showing sustained execution WITH visible receivables collection / positive operating cash flow (plus continued Kavach award cadence)",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "field testing / commissioning bottleneck",
+        "indian railways as sole customer; commissioning-schedule slippage"
+      ],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 28.0,
+        "gap_frac": 0.7,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.639
+      }
+    },
+    {
+      "slug": "freshara-agro-exports",
+      "name": "Freshara Agro Exports Ltd",
+      "expectation_gap_score": 30.94,
+      "conviction_score": 34.32,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "micro-cap",
+      "gap_direction": "partially-priced",
+      "gap_type": "new_business",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "H1 FY27 consolidated results - Aceitunas Sarasa PAT accretion, OPM vs the 18% guide, and operating cash flow direction",
+      "catalyst_window_months": 3,
+      "catalyst_window_start": "2026-09-07",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 4,
+      "risk_open_spofs": [
+        "agri crop + export demand",
+        "execution in a new geography (spain) and new channel (retail)",
+        "integration execution",
+        "retail brand traction"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.65,
+        "timing_q": 1.0,
+        "risk_q": 0.2,
+        "quality": 0.688
       }
     },
     {
@@ -615,6 +1165,107 @@
       }
     },
     {
+      "slug": "ngl-fine-chem-ltd",
+      "name": "NGL Fine-Chem Ltd",
+      "expectation_gap_score": 30.04,
+      "conviction_score": 54.8,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 1,861 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "capacity",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Tarapur Phase II commercial production (H2FY27) plus 2-3 quarterly prints confirming steady-state EBITDA margin holds >=16%",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "further commissioning delay",
+        "renewed price competition in veterinary intermediates"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.65,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.667
+      }
+    },
+    {
+      "slug": "punjab-chemicals-crop-protection-ltd",
+      "name": "Punjab Chemicals & Crop Protection Ltd",
+      "expectation_gap_score": 30.04,
+      "conviction_score": 44.8,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 1,358 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "new_business",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q3-Q4 FY27 prints showing 15%+ revenue growth with MOU/new-product volumes actually landing and domestic demand turning",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "a customer not converting a test lot to volume",
+        "top-2 customer order patterns"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.65,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.667
+      }
+    },
+    {
+      "slug": "kamat-hotels",
+      "name": "Kamat Hotels (India) Ltd- A Possible Turnaround Story!",
+      "expectation_gap_score": 29.48,
+      "conviction_score": 13.0,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 678 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "duration",
+      "gap_magnitude_pct": 15,
+      "evidence_quality": "weak",
+      "catalyst_event": "Dwarka + Gwalior opening by end-2026 and a Q2/Q3 FY27 print showing occupancy held through the monsoon with margin toward 28-30%",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "third-party owner execution (dehradun, nashik already slipped)"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 25.5,
+        "gap_frac": 0.637,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.35,
+        "timing_q": 0.75,
+        "risk_q": 0.8,
+        "quality": 0.463
+      }
+    },
+    {
       "slug": "suprajit-engineering-ltd",
       "name": "Suprajit Engineering Ltd",
       "expectation_gap_score": 29.12,
@@ -650,6 +1301,41 @@
       }
     },
     {
+      "slug": "gufic-biosciences",
+      "name": "Gufic BioSciences Ltd",
+      "expectation_gap_score": 27.43,
+      "conviction_score": 47.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 4,000-4,300 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "capacity",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "EU-GMP certificate issuance for Indore + a Q2/Q3 FY27 print showing GLP-1/Hetero CMO revenue + Indore utilisation reaching 40-45%",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "regulatory decision",
+        "single customer (hetero) for this vector",
+        "utilisation ramp speed"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.2,
+        "quality": 0.609
+      }
+    },
+    {
       "slug": "aarti-pharmalabs",
       "name": "Aarti Pharmalabs Ltd",
       "expectation_gap_score": 25.18,
@@ -672,6 +1358,41 @@
         "capex debt-funded (borrowings rs 413 -> 754 cr) with negative fcf",
         "h2-skew execution + client project timing",
         "xanthine cyclicality / chinese pricing"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.2,
+        "quality": 0.559
+      }
+    },
+    {
+      "slug": "arvind-smartspaces-ltd",
+      "name": "Arvind SmartSpaces Ltd",
+      "expectation_gap_score": 25.18,
+      "conviction_score": 53.8,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 2,985 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "FY27 quarterly bookings prints holding the 35-40% growth band, plus a reported-revenue quarter showing the recognition catch-up",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "a demand slowdown that stalls collections mid-ramp",
+        "deal flow and land pricing discipline",
+        "timing of large launches"
       ],
       "flags": [],
       "score_breakdown": {
@@ -752,6 +1473,42 @@
       }
     },
     {
+      "slug": "izmo",
+      "name": "IZMO- bet on new technologies in Auto retail & defence",
+      "expectation_gap_score": 24.6,
+      "conviction_score": 12.0,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 1,360 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "new_business",
+      "gap_magnitude_pct": 20,
+      "evidence_quality": "monitor",
+      "catalyst_event": "izmo Microsystems quarterly revenue tracking to the Rs 45-50 Cr FY27 guide + terms of the capacity-expansion fund-raise",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "capital raise on acceptable terms",
+        "conversion of pipeline to firm orders"
+      ],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 28.0,
+        "gap_frac": 0.7,
+        "evidence_q": 0.5,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.502
+      }
+    },
+    {
       "slug": "neetu-yoshi",
       "name": "Neetu Yoshi Ltd",
       "expectation_gap_score": 24.49,
@@ -821,6 +1578,42 @@
       }
     },
     {
+      "slug": "ksh-international-ltd",
+      "name": "KSH International Ltd",
+      "expectation_gap_score": 23.78,
+      "conviction_score": 43.32,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-mid-cap (~Rs 7,504 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "capacity",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "strong",
+      "catalyst_event": "Q2/Q3 FY27 prints sustaining EBITDA/ton near Rs 90k + Supa Phase II commissioning + first Hitachi framework offtake",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "capacity ramp + utilisation",
+        "customer concentration within the framework"
+      ],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 1.0,
+        "catalyst_q": 0.65,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.755
+      }
+    },
+    {
       "slug": "sambhv-steel-tubes",
       "name": "Sambhv Steel Tubes",
       "expectation_gap_score": 23.34,
@@ -856,12 +1649,190 @@
       }
     },
     {
+      "slug": "arman-financial-services",
+      "name": "Arman Financial Services Ltd",
+      "expectation_gap_score": 22.59,
+      "conviction_score": 46.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 2,071 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "duration",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "monitor",
+      "catalyst_event": "Two-to-three consecutive quarters of credit cost at/below 3.5% with AUM growth sustained - confirming the turnaround is structural not a one-quarter bounce",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "asset-quality relapse",
+        "rural stress event"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.5,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.502
+      }
+    },
+    {
+      "slug": "capri-global-capital",
+      "name": "Capri Global Capital Ltd",
+      "expectation_gap_score": 21.33,
+      "conviction_score": 51.0,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid/large-cap (~Rs 26,074 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "duration",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "strong",
+      "catalyst_event": "Two more quarters holding ROAE ~19-21% with AUM growth >45% and construction-finance GNPA stabilising - confirming the ROE inflection is structural, not a gold-price spike",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "gold-loan demand cycle",
+        "gold-price correction compressing gold-loan spreads/volume"
+      ],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 1.0,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.677
+      }
+    },
+    {
+      "slug": "valiant-communications",
+      "name": "Valiant Communications Limited",
+      "expectation_gap_score": 21.03,
+      "conviction_score": 47.32,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "small-cap (~Rs 1,549 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "new_business",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Delivery/commissioning of the Power Grid data-centre order plus a follow-on NavIC/data-centre or OT-cyber order confirming a repeatable line",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "delivery/commissioning timeline",
+        "repeat-order conversion"
+      ],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.65,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.667
+      }
+    },
+    {
+      "slug": "sjs-enterprises",
+      "name": "SJS Enterprises Ltd",
+      "expectation_gap_score": 20.46,
+      "conviction_score": 46.32,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "small-cap",
+      "gap_direction": "partially-priced",
+      "gap_type": "new_business",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "First cover-glass revenue from the Hosur facility + a Q2/Q3 FY27 print holding ~30% EBITDA margin with standalone growth visible",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "hosur plant ramp + boe programme"
+      ],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.8,
+        "quality": 0.649
+      }
+    },
+    {
+      "slug": "borosil-renewables",
+      "name": "Borosil Renewables",
+      "expectation_gap_score": 20.08,
+      "conviction_score": 39.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-mid-cap (~Rs 7,352 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "SG-4/SG-5 (600 TPD) commissioning in Q4 FY27 and the first full quarter of the 60% volume step-up with a visible post-expansion margin",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "add expiry 2029 / faster-than-expected domestic capacity adds",
+        "asp normalisation as domestic capacity floods in",
+        "commissioning timeline slip"
+      ],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.65,
+        "timing_q": 0.75,
+        "risk_q": 0.2,
+        "quality": 0.637
+      }
+    },
+    {
       "slug": "fredun-pharmaceuticals",
       "name": "Fredun Pharmaceuticals",
       "expectation_gap_score": 20.02,
-      "conviction_score": 38.0,
+      "conviction_score": 24.0,
       "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
+      "thesis_fit": "neither",
       "red_flag_tier": null,
       "market_cap_tier": "Small/Mid-cap (~Rs 2,490 Cr)",
       "gap_direction": "partially-priced",
@@ -890,6 +1861,152 @@
         "timing_q": 1.0,
         "risk_q": 0.2,
         "quality": 0.497
+      }
+    },
+    {
+      "slug": "ujjivan-small-finance-bank",
+      "name": "Ujjivan Small Finance Bank",
+      "expectation_gap_score": 18.57,
+      "conviction_score": 34.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 12,630 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "duration",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Two-three more quarters holding ~2% RoA through-cycle, secured mix past ~55%, and a fresh universal-bank-licence application accepted for RBI review",
+      "catalyst_window_months": 12,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "a fresh microfinance-segment asset-quality shock",
+        "credit cost re-spiking"
+      ],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.589
+      }
+    },
+    {
+      "slug": "neuland-laboratories",
+      "name": "Neuland Laboratories Limited",
+      "expectation_gap_score": 18.57,
+      "conviction_score": 44.0,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Large (~Rs 25,000 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "duration",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2/Q3 FY27 prints showing whether the CMS ramp sustains (vs an FY26-style lumpy reset) + first commercial peptide-CDMO revenue",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "commercial peptide-cdmo order conversion",
+        "pipeline commercialisation timing"
+      ],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.589
+      }
+    },
+    {
+      "slug": "kusumgar",
+      "name": "Kusumgar Ltd",
+      "expectation_gap_score": 17.62,
+      "conviction_score": 30.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 5,925 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "timing",
+      "gap_magnitude_pct": 0,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Two-to-three consecutive quarters confirming the parachute-solutions revenue run-rate and a 26-30% EBITDA margin, plus execution of the deferred FY26 defence contract",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "approval cycle speed",
+        "defence-procurement timing",
+        "government tender outcomes"
+      ],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.2,
+        "quality": 0.559
+      }
+    },
+    {
+      "slug": "pennar-industries",
+      "name": "Pennar Industries Limited",
+      "expectation_gap_score": 17.47,
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 2,450 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "strong",
+      "catalyst_event": "A Q2/Q3 FY27 print showing US-mix-led blended PBT-margin step-up + working-capital days falling toward 60",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "receivables quality (~rs 97 cr credit-impaired)",
+        "steel-price swings + india volume recovery",
+        "us construction demand + single tennessee facility"
+      ],
+      "flags": [
+        "growth-decelerating"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 1.0,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.2,
+        "quality": 0.647
       }
     },
     {
@@ -926,6 +2043,40 @@
         "timing_q": 1.0,
         "risk_q": 0.4,
         "quality": 0.552
+      }
+    },
+    {
+      "slug": "repono-ltd",
+      "name": "Repono Ltd",
+      "expectation_gap_score": 16.22,
+      "conviction_score": 38.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Microcap SME-platform (~Rs 81 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "new_business",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "Mathura terminal financial close / commissioning schedule, operating cash flow turning positive, or a second anchor-contract win",
+      "catalyst_window_months": 12,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "cash flow / balance-sheet capacity on an sme base",
+        "single anchor customer (reliance) + greenfield execution + capex funding"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.21,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.36
       }
     },
     {
@@ -1001,12 +2152,194 @@
       }
     },
     {
+      "slug": "20-microns-micronized-to-nano",
+      "name": "20 Microns : micronized to nano-sized minerals",
+      "expectation_gap_score": 15.17,
+      "conviction_score": 29.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 800-850 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "monitor",
+      "catalyst_event": "Malaysian mine commissioning + a FY27 quarter showing revenue growth resuming alongside a ~13.5%+ EBITDA margin",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "mine permitting / ramp speed"
+      ],
+      "flags": [
+        "growth-decelerating"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.5,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.8,
+        "quality": 0.562
+      }
+    },
+    {
+      "slug": "cff-fluid-control",
+      "name": "CFF Fluid Control Ltd",
+      "expectation_gap_score": 14.87,
+      "conviction_score": 39.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 2,080 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "duration",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "monitor",
+      "catalyst_event": "P75I contract award clarity + CFF's contracted content, and an H1 FY27 result showing operating cash flow turning positive",
+      "catalyst_window_months": 12,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "milestone payment cycles from psu customers",
+        "p75i award itself and cff's selection within the supply chain",
+        "programme milestone timing at the psu shipyards"
+      ],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.5,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.2,
+        "quality": 0.472
+      }
+    },
+    {
+      "slug": "zaggle-a-platform-to-address-pain-points-for-enterprises",
+      "name": "Zaggle_A platform to address pain points for enterprises",
+      "expectation_gap_score": 10.27,
+      "conviction_score": 26.8,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 2,420 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "A Q2/Q3 FY27 print showing program-fee growth re-accelerating and adj EBITDA margin back toward 10% with receivables flat-to-down",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "enterprise customers' payment cycles",
+        "program-fee / volume growth re-accelerating from ~10%",
+        "whether the compression is truly one-off"
+      ],
+      "flags": [
+        "growth-decelerating"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.21,
+        "timing_q": 1.0,
+        "risk_q": 0.2,
+        "quality": 0.381
+      }
+    },
+    {
+      "slug": "orchid-pharma-ltd",
+      "name": "Orchid Pharma Ltd",
+      "expectation_gap_score": 9.73,
+      "conviction_score": 14.0,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 5,750 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "Two or three consecutive quarters of cephalosporin margin recovery (OPM back above 10%) plus a step-up in EXBLIFEP licensing income",
+      "catalyst_window_months": 12,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "slow uptake of a new premium antibiotic in cost-sensitive markets",
+        "structural api price erosion"
+      ],
+      "flags": [
+        "growth-decelerating"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.21,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.36
+      }
+    },
+    {
+      "slug": "alpex-solar",
+      "name": "Alpex Solar Ltd",
+      "expectation_gap_score": 9.31,
+      "conviction_score": 40.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 2,396 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "2.2GW cell plant commissioning + ALMM List-II inclusion, then a quarter showing blended-margin uplift from captive cells",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "cell-plant yield / ramp",
+        "single-site cell plant commissioning + almm approval"
+      ],
+      "flags": [
+        "peak-margin-risk",
+        "growth-decelerating"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.65,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.492
+      }
+    },
+    {
       "slug": "afcom-holdings",
       "name": "Afcom Holdings",
       "expectation_gap_score": 8.92,
-      "conviction_score": 50.8,
+      "conviction_score": 36.8,
       "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
+      "thesis_fit": "neither",
       "red_flag_tier": null,
       "market_cap_tier": "Small/mid-cap (~Rs 4,483 Cr)",
       "gap_direction": "partially-priced",
@@ -1075,6 +2408,41 @@
       }
     },
     {
+      "slug": "jubilant-agri-and-consumer-products-ltd-a-hidden-gem-from-the-jubilant-group",
+      "name": "Jubilant Agri and Consumer Products Ltd (JACPL) \u2014 A Hidden Gem from the Jubilant Group?",
+      "expectation_gap_score": 7.78,
+      "conviction_score": 27.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 3,377 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "duration",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "NCLT Second Motion sanction, record date and separate listing of Jubilant Agri Solutions Ltd; first standalone disclosures for the retained polymers/adhesives entity",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "nclt sanction timing"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.65,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.777
+      }
+    },
+    {
       "slug": "td-power-systems",
       "name": "TD Power Systems",
       "expectation_gap_score": 7.37,
@@ -1107,6 +2475,112 @@
         "timing_q": 0.75,
         "risk_q": 0.8,
         "quality": 0.737
+      }
+    },
+    {
+      "slug": "motherson",
+      "name": "Samvardhana Motherson International",
+      "expectation_gap_score": 7.27,
+      "conviction_score": 27.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Large-cap (~Rs 1,69,610 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "new_business",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "3rd consumer-electronics plant commissioning (Q3 FY27) + first quarter of segment-level profitability in aerospace or electronics",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "ramp + winning volume in an unrelated low-margin business"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.65,
+        "timing_q": 0.75,
+        "risk_q": 0.8,
+        "quality": 0.727
+      }
+    },
+    {
+      "slug": "alembic-pharma-oral-solids-injectables-onco-derma-opthalmic",
+      "name": "Alembic Pharmaceuticals Ltd",
+      "expectation_gap_score": 7.18,
+      "conviction_score": 32.32,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "mid-cap (~Rs 15,900 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "duration",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2 FY27 (and H2) results showing the US formulations inflection persisting beyond one quarter, with PAT growth catching up to revenue",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "approval timing; competitive erosion on launch",
+        "us pricing / launch timing (the historical stagnation pattern)"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.65,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.718
+      }
+    },
+    {
+      "slug": "technocraft-industries-ias2026",
+      "name": "Technocraft Industries",
+      "expectation_gap_score": 7.0,
+      "conviction_score": 50.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 7,139 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2/Q3 FY27 prints showing whether the elevated (~22%) consolidated margin holds as drum-closure EBIT normalises off 43%, plus defense repeat orders and any Phase 2 capex announcement",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "us demand cycle"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.699
       }
     },
     {
@@ -1182,6 +2656,42 @@
       }
     },
     {
+      "slug": "electronics-mart-india",
+      "name": "Electronics Mart India Limited- EMIL",
+      "expectation_gap_score": 6.39,
+      "conviction_score": 34.8,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 7,000 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "margin",
+      "gap_magnitude_pct": 0,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2-Q3 FY27 (festive) prints showing EBITDA margin sustained above the ~7% historical level, plus West Bengal store openings on schedule",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "discretionary demand cycle",
+        "new-store opex absorption"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.639
+      }
+    },
+    {
       "slug": "data-patterns",
       "name": "Data Patterns (India) Limited",
       "expectation_gap_score": 6.39,
@@ -1203,6 +2713,42 @@
       "risk_open_spofs": [
         "mod/drdo contract-award cadence",
         "winning the competitive radar selection vs the virupaksha radar"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.639
+      }
+    },
+    {
+      "slug": "marine-electricals-riding-the-waves-of-expansion",
+      "name": "Marine Electricals: Riding the Waves of Expansion",
+      "expectation_gap_score": 6.39,
+      "conviction_score": 35.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 5,850 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "duration",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2/Q3 FY27 prints showing order-book conversion at >35% revenue growth with OPM holding above 11%, plus continued DC order inflow",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "execution and working-capital cycle on large turnkey packages",
+        "loss of share to larger electrical majors on big packages"
       ],
       "flags": [
         "priced-in"
@@ -1288,6 +2834,42 @@
         "timing_q": 0.75,
         "risk_q": 0.2,
         "quality": 0.637
+      }
+    },
+    {
+      "slug": "jg-chemicals-ltd",
+      "name": "J.G. Chemicals Ltd",
+      "expectation_gap_score": 6.3,
+      "conviction_score": 13.8,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 2,280 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "monitor",
+      "catalyst_event": "Dahej commissioning (Nov-2026) + first 1-2 quarters of ramp showing whether core EBITDA margin moves toward 13-14% and non-rubber share climbs",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-07",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "utilisation ramp of a new greenfield site",
+        "value-added product qualification and demand; lme zinc swings"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.5,
+        "catalyst_q": 0.65,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.63
       }
     },
     {
@@ -1399,6 +2981,114 @@
       }
     },
     {
+      "slug": "sky-gold-ltd",
+      "name": "Sky Gold Ltd",
+      "expectation_gap_score": 5.89,
+      "conviction_score": 42.8,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 12,114 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "A second and third consecutive quarter of positive operating cash flow with falling debt and advance-gold mix at/above 20%",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "a demand air-pocket at key retail customers",
+        "advance-gold adoption stalling, forcing skygold to fund inventory again"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.589
+      }
+    },
+    {
+      "slug": "ethos-ltd",
+      "name": "Ethos Ltd",
+      "expectation_gap_score": 5.89,
+      "conviction_score": 12.32,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 7,520 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "A Q2/Q3 FY27 margin print sustaining ~15-16% EBITDA margin plus visible working-capital / FCF improvement",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "discretionary luxury demand cycle",
+        "pricing discipline as duty falls"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.589
+      }
+    },
+    {
+      "slug": "indegene-ltd",
+      "name": "Indegene Ltd",
+      "expectation_gap_score": 5.89,
+      "conviction_score": 40.8,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 14,000 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "margin",
+      "gap_magnitude_pct": 0,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q3-Q4 FY27 prints showing EBITDA margin recovering toward 19-20% with organic growth held above 20%",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "ai-content pricing deflation vs mix shift up the value curve",
+        "top-client budget cycles"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.589
+      }
+    },
+    {
       "slug": "cantabil-india",
       "name": "Cantabil India",
       "expectation_gap_score": 5.89,
@@ -1435,6 +3125,151 @@
       }
     },
     {
+      "slug": "senores-pharma",
+      "name": "Senores Pharma- Hidden in plain sight",
+      "expectation_gap_score": 5.89,
+      "conviction_score": 40.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 6,925 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "duration",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Two consecutive quarters delivering the guided PAT growth with free cash flow turning positive and the Emerging Market EBITDA margin recovering toward 18-20%",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "sustained mix shift to lower-margin tenders",
+        "us generics pricing / competitive filings against key molecules"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.589
+      }
+    },
+    {
+      "slug": "bansal-roofing-products-ltd",
+      "name": "Bansal Roofing Products Ltd",
+      "expectation_gap_score": 5.89,
+      "conviction_score": 48.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Micro-cap (~Rs 200 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "margin",
+      "gap_magnitude_pct": 0,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Phase 5 & 6 commissioning confirmation + a Q2/Q3 FY27 print showing margin recovery and solar-structure revenue",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "ability to win solar-epc customers vs incumbents",
+        "phase 5/6 commissioning schedule"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.589
+      }
+    },
+    {
+      "slug": "cosmic-crf-limited",
+      "name": "COSMIC CRF LIMITED",
+      "expectation_gap_score": 5.5,
+      "conviction_score": 24.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 1,130 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "monitor",
+      "catalyst_event": "RDSO licences for springs + first Amzen wagon-plant milestone (restart Mar-May 2027), with a quarter showing blended margin lifting toward 10%",
+      "catalyst_window_months": 12,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "amzen integration + funding",
+        "licence timing; competitive pricing vs titagarh/jupiter",
+        "rdso licence timing"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.5,
+        "catalyst_q": 0.65,
+        "timing_q": 0.75,
+        "risk_q": 0.2,
+        "quality": 0.55
+      }
+    },
+    {
+      "slug": "walchandnagar-industries",
+      "name": "Walchandnagar Industries | Return of a Golden Era",
+      "expectation_gap_score": 5.02,
+      "conviction_score": 26.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 1,493 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "monitor",
+      "catalyst_event": "First full-year net profit (FY27) plus a large defence/nuclear order-book item visibly converting to revenue; clarification / reduction of the promoter pledge",
+      "catalyst_window_months": 12,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "customer programme timing; execution capacity",
+        "historical pattern of order-to-revenue slippage"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.5,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.502
+      }
+    },
+    {
       "slug": "nesco-ltd",
       "name": "Nesco Ltd",
       "expectation_gap_score": 4.67,
@@ -1468,6 +3303,42 @@
         "timing_q": 1.0,
         "risk_q": 0.8,
         "quality": 0.777
+      }
+    },
+    {
+      "slug": "p-n-gadgil-jewellers",
+      "name": "P N Gadgil Jewellers Ltd",
+      "expectation_gap_score": 4.48,
+      "conviction_score": 16.8,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 9,230 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "monitor",
+      "catalyst_event": "2-3 quarters of consistent, transparent hedging disclosure at 80%+ with ex-hedging PAT margin holding ~4.1-4.25%, plus operating cash flow turning less negative as the store base matures",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "gold-inventory funding as store count scales",
+        "working-capital drag"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.5,
+        "catalyst_q": 0.21,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.448
       }
     },
     {
@@ -1546,6 +3417,42 @@
       }
     },
     {
+      "slug": "accent-microcell",
+      "name": "Accent Microcell Limited",
+      "expectation_gap_score": 3.6,
+      "conviction_score": 18.0,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 1,500 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "Unit-III Phase-1 actual commercial production + a reported half-year showing the specialty-mix margin step-up",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-07",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "commissioning / regulatory-approval timeline (repeatedly slipped)",
+        "dmf qualification cycle at customers"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.21,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.36
+      }
+    },
+    {
       "slug": "3b-blackbio-dx",
       "name": "3B Blackbio DX Ltd",
       "expectation_gap_score": 3.54,
@@ -1567,6 +3474,43 @@
       "risk_open_spofs": [
         "hat-order timing / coris seasonal recovery",
         "organic mdx growth rate"
+      ],
+      "flags": [
+        "priced-in",
+        "growth-decelerating"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.589
+      }
+    },
+    {
+      "slug": "privi-speciality-chemicals-ltd",
+      "name": "Privi Speciality Chemicals Ltd",
+      "expectation_gap_score": 3.54,
+      "conviction_score": 40.8,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 13,602 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "margin",
+      "gap_magnitude_pct": 0,
+      "evidence_quality": "moderate",
+      "catalyst_event": "54k MT capacity live plus 2-3 quarterly prints showing EBITDA margin holding >=24% now that the gross-margin tailwind has reversed",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "aroma-chemical pricing / margin stability",
+        "commissioning slippage"
       ],
       "flags": [
         "priced-in",
@@ -1617,6 +3561,43 @@
         "timing_q": 0.75,
         "risk_q": 0.4,
         "quality": 0.589
+      }
+    },
+    {
+      "slug": "obsc-perfection",
+      "name": "OBSC Perfection Ltd",
+      "expectation_gap_score": 3.31,
+      "conviction_score": 38.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 2,180 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "FY27 annual concall + H2 FY27 prints: Sanand commissioning on schedule, OPM holding ~18%, and disclosure that clarifies in-house machining content vs job-work",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "capex slippage / cost overrun",
+        "defence approval timelines",
+        "shop-floor machining capacity vs outsourced job-work; working-capital funding"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.21,
+        "timing_q": 0.75,
+        "risk_q": 0.2,
+        "quality": 0.331
       }
     }
   ],
@@ -1842,6 +3823,42 @@
       }
     },
     {
+      "slug": "vimta-labs-ltd",
+      "name": "Vimta Labs Ltd",
+      "expectation_gap_score": 0,
+      "conviction_score": 39.8,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 2,814 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "timing",
+      "gap_magnitude_pct": -15,
+      "evidence_quality": "moderate",
+      "catalyst_event": "A FY27 quarter showing clinical-research revenue growth reaccelerating toward the 20-25% target (NDCT throughput visible in the numbers)",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "clinical-research demand recovery",
+        "long revenue-recognition lag"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.589
+      }
+    },
+    {
       "slug": "see-the-bright-sun-aditya-vision",
       "name": "See the bright Sun: Aditya Vision",
       "expectation_gap_score": 0,
@@ -1913,6 +3930,77 @@
       }
     },
     {
+      "slug": "asm-technologies",
+      "name": "ASM Technologies",
+      "expectation_gap_score": 0,
+      "conviction_score": 32.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 9,256 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "duration",
+      "gap_magnitude_pct": -35,
+      "evidence_quality": "moderate",
+      "catalyst_event": "2-3 quarters showing new-plant utilisation and a growing DLM/semiconductor order book that validates the re-rating, plus first meaningful ASM-HHV JV revenue",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "customer qualification",
+        "new-plant asset turns"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.589
+      }
+    },
+    {
+      "slug": "mitsu-chem-plast",
+      "name": "Mitsu Chem Plast Ltd",
+      "expectation_gap_score": 0,
+      "conviction_score": 31.0,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Micro-cap (~Rs 236 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "Q2/Q3 FY27 prints showing whether double-digit EBITDA margin holds and a disclosed Furnastra/IBC segment split",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "value-added volume ramp"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.21,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.471
+      }
+    },
+    {
       "slug": "concord-control-systems",
       "name": "Concord Control Systems",
       "expectation_gap_score": 0,
@@ -1948,6 +4036,189 @@
         "timing_q": 0.75,
         "risk_q": 0.2,
         "quality": 0.505
+      }
+    },
+    {
+      "slug": "ratnaveer-precision-a-newly-headed-steel-company",
+      "name": "Ratnaveer precision a newly headed steel company",
+      "expectation_gap_score": 0,
+      "conviction_score": 30.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 2,501 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "new_business",
+      "gap_magnitude_pct": -30,
+      "evidence_quality": "weak",
+      "catalyst_event": "CCL plant commercial production start (targeted Nov 2026) + the first 1-2 quarters of CCL output showing volume and margin",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "ccl commissioning + customer qualification",
+        "ccl execution"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.65,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.492
+      }
+    },
+    {
+      "slug": "hind-rectifiers",
+      "name": "Hind Rectifiers Ltd (HIRECT)",
+      "expectation_gap_score": 0,
+      "conviction_score": 30.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 4,425 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Full-service propulsion-vendor approval (targeted end-FY27) + a standalone quarter re-accelerating toward the 30% guide",
+      "catalyst_window_months": 12,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "approval timeline",
+        "indian railways tender timing"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.65,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.667
+      }
+    },
+    {
+      "slug": "axiscades-engineering",
+      "name": "Axiscades Engineering",
+      "expectation_gap_score": 0,
+      "conviction_score": 30.0,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "mid-cap",
+      "gap_direction": "over-optimistic",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2/Q3 FY27 prints from the pure-play continuing entity showing defence revenue +75% and margin recovering off 11.8%, plus Devanahalli Atmanirbhar Complex Phase 1 commissioning",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 4,
+      "risk_open_spofs": [
+        "commissioning timeline slippage",
+        "manufacturing margin proof",
+        "manufacturing ramp speed",
+        "pace of drdo/dpsu order flow"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.2,
+        "quality": 0.609
+      }
+    },
+    {
+      "slug": "krm-ayurveda",
+      "name": "KRM Ayurveda Ltd",
+      "expectation_gap_score": 0,
+      "conviction_score": 30.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 616 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "2-3 quarters showing the ~20-28% PAT margin holds through the bed expansion, plus new hospitals (Gurugram, MSS Delhi) going live and lifting sequential revenue",
+      "catalyst_window_months": 12,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "execution pace + funding if cfo stays near zero",
+        "margin normalisation toward hospital-chain norms as services mix rises",
+        "ramp of new hospitals; q1 fy27 revenue was flat qoq"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.21,
+        "timing_q": 0.75,
+        "risk_q": 0.2,
+        "quality": 0.331
+      }
+    },
+    {
+      "slug": "esds-software",
+      "name": "ESDS Software Solution Ltd",
+      "expectation_gap_score": 0,
+      "conviction_score": 30.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 12,777 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "duration",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "First post-listing quarterly result (Q2 FY27) and emergence of independent/VP coverage",
+      "catalyst_window_months": 3,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "margin durability vs competition",
+        "utilisation of the new capacity at target economics"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.35,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.453
       }
     },
     {
@@ -2055,6 +4326,41 @@
         "timing_q": 1.0,
         "risk_q": 0.2,
         "quality": 0.434
+      }
+    },
+    {
+      "slug": "apcotex-industries-monopoly-in-synthetic-rubber",
+      "name": "Apcotex Industries Ltd",
+      "expectation_gap_score": 0,
+      "conviction_score": 27.32,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 3,175 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": -20,
+      "evidence_quality": "weak",
+      "catalyst_event": "Q2/Q3 FY27 prints showing whether EBITDA margin holds above 15-16% with inventory gains rolled off and exports weak; Finance Ministry notification of the DGTR-recommended NBR anti-dumping duty; NBR/latex capacity commissioning (Apr-Jun 2027)",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "nbr/latex spread environment at commissioning"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.8,
+        "quality": 0.475
       }
     },
     {
@@ -2167,6 +4473,43 @@
       }
     },
     {
+      "slug": "bliss-gvs-pharma",
+      "name": "Bliss GVS Pharma Ltd",
+      "expectation_gap_score": 0,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 7,100 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "duration",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Completion of the Anupam Rasayan open offer / change of control, plus a Q2-Q3 FY27 print confirming the ~26% EBITDA margin is sustained",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "deal completion / regulatory clearance",
+        "regulatory clearance / warning-letter risk",
+        "tender-pricing cyclicality"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.2,
+        "quality": 0.609
+      }
+    },
+    {
       "slug": "bhagyanagar-india",
       "name": "Bhagyanagar India Ltd",
       "expectation_gap_score": 0,
@@ -2199,6 +4542,190 @@
         "timing_q": 1.0,
         "risk_q": 0.8,
         "quality": 0.675
+      }
+    },
+    {
+      "slug": "sml-isuzu",
+      "name": "SML Isuzu Ltd",
+      "expectation_gap_score": 0,
+      "conviction_score": 20.8,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 8,300 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "A quarter showing EBITDA margin recovery above 12% plus tangible M&M product / distribution synergies",
+      "catalyst_window_months": 12,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "demand vs capacity timing",
+        "new-product execution",
+        "product competitiveness"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.21,
+        "timing_q": 0.75,
+        "risk_q": 0.2,
+        "quality": 0.331
+      }
+    },
+    {
+      "slug": "john-cockerill-india-a-case-study-on-decarbonisation-of-steel",
+      "name": "John Cockerill India: A Case Study on Decarbonisation of Steel",
+      "expectation_gap_score": 0,
+      "conviction_score": 20.0,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 3,050 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "H2 CY26 quarterly print showing an actual EBITDA-margin step-up (management's own guided window)",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "acquired subsidiaries being lower-margin / loss-making",
+        "concentration in a few very large jsw tickets",
+        "the order mix itself being structurally low-margin"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.35,
+        "timing_q": 1.0,
+        "risk_q": 0.2,
+        "quality": 0.422
+      }
+    },
+    {
+      "slug": "control-print",
+      "name": "Control Print",
+      "expectation_gap_score": 0,
+      "conviction_score": 18.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Micro-cap (~Rs 910 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "new_business",
+      "gap_magnitude_pct": -25,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "packaging demand + execution on new models"
+      ],
+      "flags": [
+        "no-edge",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 0.8,
+        "quality": 0.333
+      }
+    },
+    {
+      "slug": "apollo-micro-systems",
+      "name": "Apollo Micro Systems Limited",
+      "expectation_gap_score": 0,
+      "conviction_score": 18.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 15,531 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "duration",
+      "gap_magnitude_pct": -35,
+      "evidence_quality": "moderate",
+      "catalyst_event": "MIGM (~Rs 3,500 Cr, ~70% Apollo share) and QRSAM purchase orders expected by end-FY27, plus the first consolidated quarter showing Premier Explosives integration",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "large-programme po slippage",
+        "premier turnaround + synergy realisation"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.65,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.667
+      }
+    },
+    {
+      "slug": "permanent-magnets",
+      "name": "Permanent Magnets",
+      "expectation_gap_score": 0,
+      "conviction_score": 18.0,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 761 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "new_business",
+      "gap_magnitude_pct": -50,
+      "evidence_quality": "weak",
+      "catalyst_event": "REPM-scheme bid outcome (5 of 20 applicants selected) and/or Quantum Magnetics Phase-2 commissioning on the revised Q3 FY27 schedule",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 4,
+      "risk_open_spofs": [
+        "converting approval into qualified, revenue-generating capacity",
+        "execution + funding; timeline already slipped to q3 fy27",
+        "further slippage",
+        "winning one of 5 slots \u2014 binary"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.65,
+        "timing_q": 1.0,
+        "risk_q": 0.2,
+        "quality": 0.512
       }
     },
     {
@@ -2274,6 +4801,222 @@
         "risk_q": 0.4,
         "quality": 0.639
       }
+    },
+    {
+      "slug": "eureka-forbes-a-high-margin-consumer-durable-company",
+      "name": "Eureka Forbes Ltd",
+      "expectation_gap_score": 0,
+      "conviction_score": 12.32,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "mid-cap",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": -25,
+      "evidence_quality": "weak",
+      "catalyst_event": "Two or more quarters showing EBITDA margin actually expanding toward the FY30 path, and/or resolution/unwind of the promoter pledge",
+      "catalyst_window_months": 12,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "commodity inflation + growth investment spend",
+        "margin expansion that has not yet begun"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.21,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.36
+      }
+    },
+    {
+      "slug": "gmm-pfaudler-ias2026",
+      "name": "GMM Pfaudler",
+      "expectation_gap_score": 0,
+      "conviction_score": 11.0,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 5,731 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": -25,
+      "evidence_quality": "weak",
+      "catalyst_event": "Two consecutive quarters showing consolidated EBITDA margin toward 13-15% and PAT growth off a normalised base",
+      "catalyst_window_months": 12,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "restructuring delivering structural cost-out"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.21,
+        "timing_q": 0.75,
+        "risk_q": 0.8,
+        "quality": 0.42
+      }
+    },
+    {
+      "slug": "ramco-system",
+      "name": "Ramco system",
+      "expectation_gap_score": 0,
+      "conviction_score": 9.0,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/mid-cap (~Rs 2,294 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "duration",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "H2 FY27 prints against LarryWink's three tests: OPM back above ~20%, absolute recurring revenue rising, services revenue stabilising",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "discretionary 'other expenses'",
+        "sub-scale sales engine vs sap/oracle/workday"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.21,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.535
+      }
+    },
+    {
+      "slug": "gujarat-themis-biosyn",
+      "name": "Gujarat Themis Biosyn Ltd",
+      "expectation_gap_score": 0,
+      "conviction_score": 7.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 5,905 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "new_business",
+      "gap_magnitude_pct": -35,
+      "evidence_quality": "weak",
+      "catalyst_event": "MBJ acquisition close (targeted Q2 FY27) + QIP pricing + first combined-entity quarter showing pro-forma revenue, margin and net debt",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "carve-out execution",
+        "deal close + financing",
+        "financing terms + dilution"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.65,
+        "timing_q": 0.75,
+        "risk_q": 0.2,
+        "quality": 0.463
+      }
+    },
+    {
+      "slug": "exicom-tele",
+      "name": "Exicom Tele-Services: A Key Player in the Booming EV Sector",
+      "expectation_gap_score": 0,
+      "conviction_score": 2.0,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 2,532 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "A quarter of positive consolidated EBITDA plus Tritium visibly approaching its Q4 FY27 breakeven target",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "tritium volume ramp speed"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.35,
+        "timing_q": 0.75,
+        "risk_q": 0.8,
+        "quality": 0.637
+      }
+    },
+    {
+      "slug": "indotech",
+      "name": "Indotech",
+      "expectation_gap_score": 0,
+      "conviction_score": 0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": "HIGH CAUTION",
+      "market_cap_tier": "Mid-cap (~Rs 3,934 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": -20,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Conversion of the 400kV/BESS (NTPC) qualification and recent order wins into a disclosed order book, a Q2/Q3 FY27 margin print showing the ~14% EBITDA margin stabilising, and a material reduction of the promoter pledge",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "capex funding + asset turns",
+        "order conversion"
+      ],
+      "flags": [
+        "high-caution",
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.589
+      }
     }
   ],
   "not_assessed": [
@@ -2306,113 +5049,8 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "tube-investments-ltd-diversified-engineering-company",
-      "name": "Tube Investments Ltd ~ Diversified Engineering Company",
-      "conviction_score": 44.0,
-      "conviction": "Medium",
-      "thesis_fit": "100x-in-10-years"
-    },
-    {
-      "slug": "motherson",
-      "name": "Samvardhana Motherson International",
-      "conviction_score": 44.0,
-      "conviction": "Medium",
-      "thesis_fit": "100x-in-10-years"
-    },
-    {
-      "slug": "time-technoplast",
-      "name": "Time Technoplast",
-      "conviction_score": 42.8,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "surya-roshni-ltd",
-      "name": "Surya roshni ltd",
-      "conviction_score": 42.8,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "electronics-mart-india",
-      "name": "Electronics Mart India Limited- EMIL",
-      "conviction_score": 42.8,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "sml-isuzu",
-      "name": "SML Isuzu Ltd",
-      "conviction_score": 42.8,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "ngl-fine-chem-ltd",
-      "name": "NGL Fine-Chem Ltd",
-      "conviction_score": 42.8,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "punjab-chemicals-crop-protection-ltd",
-      "name": "Punjab Chemicals & Crop Protection Ltd",
-      "conviction_score": 42.8,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "indegene-ltd",
-      "name": "Indegene Ltd",
-      "conviction_score": 42.8,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "vimta-labs-ltd",
-      "name": "Vimta Labs Ltd",
-      "conviction_score": 42.8,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "privi-speciality-chemicals-ltd",
-      "name": "Privi Speciality Chemicals Ltd",
-      "conviction_score": 42.8,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "freshara-agro-exports",
-      "name": "Freshara Agro Exports Ltd",
-      "conviction_score": 42.32,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "alembic-pharma-oral-solids-injectables-onco-derma-opthalmic",
-      "name": "Alembic Pharmaceuticals Ltd",
-      "conviction_score": 42.32,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "apcotex-industries-monopoly-in-synthetic-rubber",
-      "name": "Apcotex Industries Ltd",
-      "conviction_score": 42.32,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
       "slug": "csb-bank-ltd",
       "name": "CSB Bank Ltd",
-      "conviction_score": 42.32,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "sandhar-technologies-ltd",
-      "name": "Sandhar Technologies Ltd",
       "conviction_score": 42.32,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years"
@@ -2425,62 +5063,6 @@
       "thesis_fit": "10x-in-2-3-years"
     },
     {
-      "slug": "goodluck-india",
-      "name": "Goodluck India Ltd",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "apollo-micro-systems",
-      "name": "Apollo Micro Systems Limited",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "goldiam-international-a-rare-shareholder-friendly-and-debt-free-jewelry-company",
-      "name": "Goldiam International : A rare shareholder friendly and debt free Jewelry company",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "alpex-solar",
-      "name": "Alpex Solar Ltd",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "kernex-tcas-led-multi-year-growth-story",
-      "name": "Kernex: TCAS led multi year growth story",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "rain-industries",
-      "name": "Rain Industries",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "ddev-plastiks-industries",
-      "name": "DDev Plastiks Industries Ltd",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "matrimony-com",
-      "name": "Matrimony.com Ltd",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
       "slug": "ugro-capital",
       "name": "Ugro Capital",
       "conviction_score": 38.0,
@@ -2488,162 +5070,8 @@
       "thesis_fit": "10x-in-2-3-years"
     },
     {
-      "slug": "hind-rectifiers",
-      "name": "Hind Rectifiers Ltd (HIRECT)",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "asm-technologies",
-      "name": "ASM Technologies",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "harshdeep-hortico",
-      "name": "Harshdeep Hortico Ltd (SME)",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "quality-power-electrical-equipments",
-      "name": "Quality Power Electrical Equipments Ltd (QPOWER)",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "20-microns-micronized-to-nano",
-      "name": "20 Microns : micronized to nano-sized minerals",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "marine-electricals-riding-the-waves-of-expansion",
-      "name": "Marine Electricals: Riding the Waves of Expansion",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "ujjivan-small-finance-bank",
-      "name": "Ujjivan Small Finance Bank",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "arman-financial-services",
-      "name": "Arman Financial Services Ltd",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "orchid-pharma-ltd",
-      "name": "Orchid Pharma Ltd",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "vaibhav-global-vertically-integrated-value-e",
-      "name": "Vaibhav Global ~ Vertically integrated value e-tailer of Jewellery and Lifestyle Products",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "senores-pharma",
-      "name": "Senores Pharma- Hidden in plain sight",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "indotech",
-      "name": "Indotech",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
       "slug": "rnit-ai-solutions-ltd",
       "name": "RNIT AI Solutions Ltd",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "repono-ltd",
-      "name": "Repono Ltd",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "obsc-perfection",
-      "name": "OBSC Perfection Ltd",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "venky-india",
-      "name": "Venky India",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "jubilant-agri-and-consumer-products-ltd-a-hidden-gem-from-the-jubilant-group",
-      "name": "Jubilant Agri and Consumer Products Ltd (JACPL) \u2014 A Hidden Gem from the Jubilant Group?",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "capri-global-capital",
-      "name": "Capri Global Capital Ltd",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "esds-software",
-      "name": "ESDS Software Solution Ltd",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "cff-fluid-control",
-      "name": "CFF Fluid Control Ltd",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "jasch-industries",
-      "name": "Jasch Industries Ltd",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "jayaswal-neco",
-      "name": "Jayaswal Neco- Integrated Steel Player",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "aries-agro",
-      "name": "Aries Agro Ltd",
       "conviction_score": 38.0,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years"
@@ -2701,27 +5129,6 @@
       "slug": "transrail-lighting",
       "name": "Transrail Lighting Ltd",
       "conviction_score": 34.8,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "sky-gold-ltd",
-      "name": "Sky Gold Ltd",
-      "conviction_score": 34.8,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "arvind-smartspaces-ltd",
-      "name": "Arvind SmartSpaces Ltd",
-      "conviction_score": 34.8,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "ksh-international-ltd",
-      "name": "KSH International Ltd",
-      "conviction_score": 34.32,
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years"
     },
@@ -2803,38 +5210,10 @@
       "thesis_fit": "10x-in-2-3-years"
     },
     {
-      "slug": "ratnaveer-precision-a-newly-headed-steel-company",
-      "name": "Ratnaveer precision a newly headed steel company",
-      "conviction_score": 30.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
       "slug": "kwality-pharmaceuticals",
       "name": "Kwality Pharmaceuticals",
       "conviction_score": 30.0,
       "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "mitsu-chem-plast",
-      "name": "Mitsu Chem Plast Ltd",
-      "conviction_score": 30.0,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "gufic-biosciences",
-      "name": "Gufic BioSciences Ltd",
-      "conviction_score": 30.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "accent-microcell",
-      "name": "Accent Microcell Limited",
-      "conviction_score": 30.0,
-      "conviction": "Low",
       "thesis_fit": "10x-in-2-3-years"
     },
     {
@@ -2845,38 +5224,10 @@
       "thesis_fit": "10x-in-2-3-years"
     },
     {
-      "slug": "walchandnagar-industries",
-      "name": "Walchandnagar Industries | Return of a Golden Era",
-      "conviction_score": 30.0,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
       "slug": "prevest-denpro",
       "name": "Prevest Denpro Limited",
       "conviction_score": 30.0,
       "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "satin-creditcare-network",
-      "name": "Satin Creditcare Network Ltd",
-      "conviction_score": 30.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "cosmic-crf-limited",
-      "name": "COSMIC CRF LIMITED",
-      "conviction_score": 30.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "axiscades-engineering",
-      "name": "Axiscades Engineering",
-      "conviction_score": 30.0,
-      "conviction": "Low",
       "thesis_fit": "10x-in-2-3-years"
     },
     {
@@ -2894,73 +5245,10 @@
       "thesis_fit": "10x-in-2-3-years"
     },
     {
-      "slug": "borosil-renewables",
-      "name": "Borosil Renewables",
-      "conviction_score": 30.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "technocraft-industries-ias2026",
-      "name": "Technocraft Industries",
-      "conviction_score": 30.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "csl-finance",
-      "name": "CSL Finance Limited",
-      "conviction_score": 30.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "gujarat-themis-biosyn",
-      "name": "Gujarat Themis Biosyn Ltd",
-      "conviction_score": 30.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "kusumgar",
-      "name": "Kusumgar Ltd",
-      "conviction_score": 30.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
       "slug": "shree-refrigerations",
       "name": "Shree Refrigerations",
       "conviction_score": 30.0,
       "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "permanent-magnets",
-      "name": "Permanent Magnets",
-      "conviction_score": 30.0,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "bansal-roofing-products-ltd",
-      "name": "Bansal Roofing Products Ltd",
-      "conviction_score": 30.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "bliss-gvs-pharma",
-      "name": "Bliss GVS Pharma Ltd",
-      "conviction_score": 30.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "chamunda-electricals",
-      "name": "Chamunda Electricals Ltd",
-      "conviction_score": 30.0,
-      "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years"
     },
     {
@@ -2973,13 +5261,6 @@
     {
       "slug": "kp-green-engineering",
       "name": "KP Green Engineering Ltd",
-      "conviction_score": 30.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "krm-ayurveda",
-      "name": "KRM Ayurveda Ltd",
       "conviction_score": 30.0,
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years"
@@ -3006,18 +5287,18 @@
       "thesis_fit": "10x-in-2-3-years"
     },
     {
-      "slug": "rbz-jewellers",
-      "name": "RBZ Jewellers Ltd",
-      "conviction_score": 30.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
       "slug": "solex-energy",
       "name": "Solex Energy Ltd",
       "conviction_score": 30.0,
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years"
+    },
+    {
+      "slug": "surya-roshni-ltd",
+      "name": "Surya roshni ltd",
+      "conviction_score": 28.8,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
     },
     {
       "slug": "gokul-agro-resources-ltd",
@@ -3090,6 +5371,13 @@
       "thesis_fit": "neither"
     },
     {
+      "slug": "sandhar-technologies-ltd",
+      "name": "Sandhar Technologies Ltd",
+      "conviction_score": 28.32,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
       "slug": "stallion-india-fluorochemicals-aggressive-capex",
       "name": "Stallion India Fluorochemicals : Aggressive Capex",
       "conviction_score": 28.0,
@@ -3097,36 +5385,8 @@
       "thesis_fit": "10x-in-2-3-years"
     },
     {
-      "slug": "zaggle-a-platform-to-address-pain-points-for-enterprises",
-      "name": "Zaggle_A platform to address pain points for enterprises",
-      "conviction_score": 26.8,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
       "slug": "unicommerce-esolutions",
       "name": "Unicommerce Esolutions",
-      "conviction_score": 26.8,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "fairchem-organics",
-      "name": "Fairchem Organics",
-      "conviction_score": 26.8,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "zen-technologies",
-      "name": "Zen technologies",
-      "conviction_score": 26.8,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "p-n-gadgil-jewellers",
-      "name": "P N Gadgil Jewellers Ltd",
       "conviction_score": 26.8,
       "conviction": "Low",
       "thesis_fit": "10x-in-2-3-years"
@@ -3139,34 +5399,6 @@
       "thesis_fit": "10x-in-2-3-years"
     },
     {
-      "slug": "ultramarine-pigments-ltd",
-      "name": "Ultramarine & Pigments Ltd",
-      "conviction_score": 26.8,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "jg-chemicals-ltd",
-      "name": "J.G. Chemicals Ltd",
-      "conviction_score": 26.8,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "sjs-enterprises",
-      "name": "SJS Enterprises Ltd",
-      "conviction_score": 26.32,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "valiant-communications",
-      "name": "Valiant Communications Limited",
-      "conviction_score": 26.32,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
       "slug": "zinka-logistics-blackbuck",
       "name": "Zinka Logistics Solutions Ltd (BlackBuck)",
       "conviction_score": 26.32,
@@ -3174,22 +5406,8 @@
       "thesis_fit": "10x-in-2-3-years"
     },
     {
-      "slug": "eureka-forbes-a-high-margin-consumer-durable-company",
-      "name": "Eureka Forbes Ltd",
-      "conviction_score": 26.32,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
       "slug": "rkec-projects-ltd",
       "name": "RKEC Projects Ltd",
-      "conviction_score": 26.32,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "ethos-ltd",
-      "name": "Ethos Ltd",
       "conviction_score": 26.32,
       "conviction": "Low",
       "thesis_fit": "10x-in-2-3-years"
@@ -3204,13 +5422,6 @@
     {
       "slug": "himadri-speciality-chemical",
       "name": "Himadri Speciality Chemical Ltd (HSCL)",
-      "conviction_score": 24.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "control-print",
-      "name": "Control Print",
       "conviction_score": 24.0,
       "conviction": "Medium",
       "thesis_fit": "neither"
@@ -3244,8 +5455,22 @@
       "thesis_fit": "neither"
     },
     {
+      "slug": "goldiam-international-a-rare-shareholder-friendly-and-debt-free-jewelry-company",
+      "name": "Goldiam International : A rare shareholder friendly and debt free Jewelry company",
+      "conviction_score": 24.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
       "slug": "maharashtra-seamless",
       "name": "Maharashtra seamless-a value plus cyclical play",
+      "conviction_score": 24.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "rain-industries",
+      "name": "Rain Industries",
       "conviction_score": 24.0,
       "conviction": "Medium",
       "thesis_fit": "neither"
@@ -3379,6 +5604,13 @@
     {
       "slug": "thangmayil-jewellers-ltd",
       "name": "Thangmayil jewellers ltd",
+      "conviction_score": 24.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "quality-power-electrical-equipments",
+      "name": "Quality Power Electrical Equipments Ltd (QPOWER)",
       "conviction_score": 24.0,
       "conviction": "Medium",
       "thesis_fit": "neither"
@@ -3524,6 +5756,13 @@
       "thesis_fit": "neither"
     },
     {
+      "slug": "venky-india",
+      "name": "Venky India",
+      "conviction_score": 24.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
       "slug": "kama-holdings",
       "name": "Kama Holdings Limited",
       "conviction_score": 24.0,
@@ -3622,6 +5861,27 @@
       "thesis_fit": "neither"
     },
     {
+      "slug": "shaily-engineering",
+      "name": "Shaily Engineering Plastics Ltd",
+      "conviction_score": 24.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "pitti-engineering",
+      "name": "Pitti Engineering Ltd",
+      "conviction_score": 24.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "chatha-foods",
+      "name": "Chatha Foods",
+      "conviction_score": 24.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
       "slug": "moil",
       "name": "MOIL Ltd",
       "conviction_score": 23.92,
@@ -3631,13 +5891,6 @@
     {
       "slug": "pngs-gargi-fashion-jewellery",
       "name": "PNGS Gargi Fashion Jewellery Ltd",
-      "conviction_score": 22.0,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "graphite-electrode-graphite-india-heg",
-      "name": "Graphite Electrode : Graphite India/HEG",
       "conviction_score": 22.0,
       "conviction": "Low",
       "thesis_fit": "10x-in-2-3-years"
@@ -3664,20 +5917,6 @@
       "thesis_fit": "10x-in-2-3-years"
     },
     {
-      "slug": "kamat-hotels",
-      "name": "Kamat Hotels (India) Ltd- A Possible Turnaround Story!",
-      "conviction_score": 22.0,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "pennar-industries",
-      "name": "Pennar Industries Limited",
-      "conviction_score": 22.0,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
       "slug": "laxmi-dental",
       "name": "Laxmi Dental Ltd",
       "conviction_score": 22.0,
@@ -3699,43 +5938,8 @@
       "thesis_fit": "10x-in-2-3-years"
     },
     {
-      "slug": "anlon-technology-solutions",
-      "name": "Anlon Technology Solutions Ltd",
-      "conviction_score": 22.0,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
       "slug": "ideaforge-technologies",
       "name": "Ideaforge technologies",
-      "conviction_score": 22.0,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "positron-energy",
-      "name": "Positron Energy",
-      "conviction_score": 22.0,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "izmo",
-      "name": "IZMO- bet on new technologies in Auto retail & defence",
-      "conviction_score": 22.0,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "ramco-system",
-      "name": "Ramco system",
-      "conviction_score": 22.0,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "gmm-pfaudler-ias2026",
-      "name": "GMM Pfaudler",
       "conviction_score": 22.0,
       "conviction": "Low",
       "thesis_fit": "10x-in-2-3-years"
@@ -3776,29 +5980,8 @@
       "thesis_fit": "10x-in-2-3-years"
     },
     {
-      "slug": "exicom-tele",
-      "name": "Exicom Tele-Services: A Key Player in the Booming EV Sector",
-      "conviction_score": 22.0,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
       "slug": "divgi-torqtransfer-systems",
       "name": "Divgi TorqTransfer Systems Ltd",
-      "conviction_score": 22.0,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "west-coast-paper-mills-ltd",
-      "name": "West coast paper mills ltd",
-      "conviction_score": 22.0,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "john-cockerill-india-a-case-study-on-decarbonisation-of-steel",
-      "name": "John Cockerill India: A Case Study on Decarbonisation of Steel",
       "conviction_score": 22.0,
       "conviction": "Low",
       "thesis_fit": "10x-in-2-3-years"
@@ -3979,6 +6162,13 @@
       "thesis_fit": "neither"
     },
     {
+      "slug": "satin-creditcare-network",
+      "name": "Satin Creditcare Network Ltd",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
       "slug": "navin-fluorine-international",
       "name": "Navin Fluorine International Ltd",
       "conviction_score": 16.0,
@@ -4016,6 +6206,13 @@
     {
       "slug": "transformer-rectifier-india",
       "name": "Transformer & Rectifier India Limited",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "asian-oilfields",
+      "name": "Asian oilfields",
       "conviction_score": 16.0,
       "conviction": "Low-Medium",
       "thesis_fit": "neither"
@@ -4336,6 +6533,41 @@
       "thesis_fit": "neither"
     },
     {
+      "slug": "beezaasan-explotech",
+      "name": "Beezaasan Explotech",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "jindal-saw",
+      "name": "Jindal Saw",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "andhra-sugar",
+      "name": "Andhra Sugar- A sweet chemical story",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "inox-wind",
+      "name": "INOX Wind",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "irctc-a-necessity-a-monopoly",
+      "name": "IRCTC: a necessity, a monopoly",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
       "slug": "krsnaa-diagnostics",
       "name": "Krsnaa Diagnostics",
       "conviction_score": 13.0,
@@ -4348,6 +6580,20 @@
       "conviction_score": 13.0,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years"
+    },
+    {
+      "slug": "fairchem-organics",
+      "name": "Fairchem Organics",
+      "conviction_score": 12.8,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "zen-technologies",
+      "name": "Zen technologies",
+      "conviction_score": 12.8,
+      "conviction": "Low",
+      "thesis_fit": "neither"
     },
     {
       "slug": "zomato",
@@ -4574,6 +6820,13 @@
       "thesis_fit": "neither"
     },
     {
+      "slug": "graphite-electrode-graphite-india-heg",
+      "name": "Graphite Electrode : Graphite India/HEG",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
       "slug": "affordable-robotic-automation",
       "name": "Affordable Robotic & Automation (ARAL)",
       "conviction_score": 8.0,
@@ -4777,6 +7030,13 @@
       "thesis_fit": "neither"
     },
     {
+      "slug": "anlon-technology-solutions",
+      "name": "Anlon Technology Solutions Ltd",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
       "slug": "sumeet-industries",
       "name": "Sumeet Industries",
       "conviction_score": 8.0,
@@ -4863,6 +7123,13 @@
     {
       "slug": "bosch-home-comfort",
       "name": "Bosch Home comfort ( older name",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "positron-energy",
+      "name": "Positron Energy",
       "conviction_score": 8.0,
       "conviction": "Low",
       "thesis_fit": "neither"
@@ -5281,6 +7548,13 @@
       "thesis_fit": "neither"
     },
     {
+      "slug": "west-coast-paper-mills-ltd",
+      "name": "West coast paper mills ltd",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
       "slug": "dhoot-transmission-high-share-higher-content",
       "name": "Dhoot Transmission: High Share, Higher Content",
       "conviction_score": 8.0,
@@ -5535,6 +7809,13 @@
     {
       "slug": "metropolitan-stock-exchange",
       "name": "Metropolitan Stock Exchange of India Ltd (MSEI)",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "galaxy-bearings",
+      "name": "Galaxy Bearings",
       "conviction_score": 8.0,
       "conviction": "Low",
       "thesis_fit": "neither"
@@ -6203,6 +8484,20 @@
       "conviction_score": 0,
       "conviction": "Low",
       "thesis_fit": "neither"
+    },
+    {
+      "slug": "pc-jewellers",
+      "name": "PC Jewellers",
+      "conviction_score": 0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "hi",
+      "name": "Hi-Green Carbon Ltd",
+      "conviction_score": 0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
     }
   ],
   "catalyst_calendar": [
@@ -6248,7 +8543,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 20.02,
-      "conviction_score": 38.0
+      "conviction_score": 24.0
     },
     {
       "slug": "alufluoride",
@@ -6260,6 +8555,61 @@
       "status_effective": "pending",
       "expectation_gap_score": 15.81,
       "conviction_score": 35.0
+    },
+    {
+      "slug": "jasch-industries",
+      "name": "Jasch Industries Ltd",
+      "event": "Q2 FY27 result (~Nov 2026) showing the Hyundai/Kia volume ramp resuming sequentially after the flat Q1 FY27, and EBITDA margin above ~8%",
+      "target_date": "2026-12-07",
+      "window_months": 3,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 47.96,
+      "conviction_score": 38.0
+    },
+    {
+      "slug": "harshdeep-hortico",
+      "name": "Harshdeep Hortico Ltd (SME)",
+      "event": "H1 FY27 print (~Nov 2026) showing operating cash flow turning positive and revenue growth holding at 20%+ after the H2 FY26 slowdown",
+      "target_date": "2026-12-07",
+      "window_months": 3,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 42.66,
+      "conviction_score": 39.0
+    },
+    {
+      "slug": "freshara-agro-exports",
+      "name": "Freshara Agro Exports Ltd",
+      "event": "H1 FY27 consolidated results - Aceitunas Sarasa PAT accretion, OPM vs the 18% guide, and operating cash flow direction",
+      "target_date": "2026-12-07",
+      "window_months": 3,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 30.94,
+      "conviction_score": 34.32
+    },
+    {
+      "slug": "matrimony-com",
+      "name": "Matrimony.com Ltd",
+      "event": "Q2 FY27 print delivering the guided triple-digit PAT growth + double-digit billing growth, ideally with a visible absolute drop in ad spend",
+      "target_date": "2026-12-08",
+      "window_months": 3,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 57.57,
+      "conviction_score": 50.0
+    },
+    {
+      "slug": "esds-software",
+      "name": "ESDS Software Solution Ltd",
+      "event": "First post-listing quarterly result (Q2 FY27) and emergence of independent/VP coverage",
+      "target_date": "2026-12-08",
+      "window_months": 3,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 30.0
     },
     {
       "slug": "thyrocare-debt-free-asset-light-healthcare-play",
@@ -6293,6 +8643,17 @@
       "status_effective": "pending",
       "expectation_gap_score": 35.66,
       "conviction_score": 54.0
+    },
+    {
+      "slug": "vaibhav-global-vertically-integrated-value-e",
+      "name": "Vaibhav Global ~ Vertically integrated value e-tailer of Jewellery and Lifestyle Products",
+      "event": "H2 FY27 prints (Nov 2026 / Feb 2027) showing EBITDA margin sustaining toward 12%+ and digital mix crossing 50% of B2C",
+      "target_date": "2027-02-06",
+      "window_months": 5,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 69.95,
+      "conviction_score": 36.0
     },
     {
       "slug": "yash-highvoltage",
@@ -6515,6 +8876,160 @@
       "conviction_score": 22.8
     },
     {
+      "slug": "jg-chemicals-ltd",
+      "name": "J.G. Chemicals Ltd",
+      "event": "Dahej commissioning (Nov-2026) + first 1-2 quarters of ramp showing whether core EBITDA margin moves toward 13-14% and non-rubber share climbs",
+      "target_date": "2027-03-09",
+      "window_months": 6,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 6.3,
+      "conviction_score": 13.8
+    },
+    {
+      "slug": "kernex-tcas-led-multi-year-growth-story",
+      "name": "Kernex: TCAS led multi year growth story",
+      "event": "A Q2/Q3 FY27 print showing sustained execution WITH visible receivables collection / positive operating cash flow (plus continued Kavach award cadence)",
+      "target_date": "2027-03-10",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 31.34,
+      "conviction_score": 38.0
+    },
+    {
+      "slug": "gufic-biosciences",
+      "name": "Gufic BioSciences Ltd",
+      "event": "EU-GMP certificate issuance for Indore + a Q2/Q3 FY27 print showing GLP-1/Hetero CMO revenue + Indore utilisation reaching 40-45%",
+      "target_date": "2027-03-10",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 27.43,
+      "conviction_score": 47.0
+    },
+    {
+      "slug": "zaggle-a-platform-to-address-pain-points-for-enterprises",
+      "name": "Zaggle_A platform to address pain points for enterprises",
+      "event": "A Q2/Q3 FY27 print showing program-fee growth re-accelerating and adj EBITDA margin back toward 10% with receivables flat-to-down",
+      "target_date": "2027-03-10",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 10.27,
+      "conviction_score": 26.8
+    },
+    {
+      "slug": "jubilant-agri-and-consumer-products-ltd-a-hidden-gem-from-the-jubilant-group",
+      "name": "Jubilant Agri and Consumer Products Ltd (JACPL) \u2014 A Hidden Gem from the Jubilant Group?",
+      "event": "NCLT Second Motion sanction, record date and separate listing of Jubilant Agri Solutions Ltd; first standalone disclosures for the retained polymers/adhesives entity",
+      "target_date": "2027-03-10",
+      "window_months": 6,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 7.78,
+      "conviction_score": 27.0
+    },
+    {
+      "slug": "alembic-pharma-oral-solids-injectables-onco-derma-opthalmic",
+      "name": "Alembic Pharmaceuticals Ltd",
+      "event": "Q2 FY27 (and H2) results showing the US formulations inflection persisting beyond one quarter, with PAT growth catching up to revenue",
+      "target_date": "2027-03-10",
+      "window_months": 6,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 7.18,
+      "conviction_score": 32.32
+    },
+    {
+      "slug": "technocraft-industries-ias2026",
+      "name": "Technocraft Industries",
+      "event": "Q2/Q3 FY27 prints showing whether the elevated (~22%) consolidated margin holds as drum-closure EBIT normalises off 43%, plus defense repeat orders and any Phase 2 capex announcement",
+      "target_date": "2027-03-10",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 7.0,
+      "conviction_score": 50.0
+    },
+    {
+      "slug": "electronics-mart-india",
+      "name": "Electronics Mart India Limited- EMIL",
+      "event": "Q2-Q3 FY27 (festive) prints showing EBITDA margin sustained above the ~7% historical level, plus West Bengal store openings on schedule",
+      "target_date": "2027-03-10",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 6.39,
+      "conviction_score": 34.8
+    },
+    {
+      "slug": "marine-electricals-riding-the-waves-of-expansion",
+      "name": "Marine Electricals: Riding the Waves of Expansion",
+      "event": "Q2/Q3 FY27 prints showing order-book conversion at >35% revenue growth with OPM holding above 11%, plus continued DC order inflow",
+      "target_date": "2027-03-10",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 6.39,
+      "conviction_score": 35.0
+    },
+    {
+      "slug": "mitsu-chem-plast",
+      "name": "Mitsu Chem Plast Ltd",
+      "event": "Q2/Q3 FY27 prints showing whether double-digit EBITDA margin holds and a disclosed Furnastra/IBC segment split",
+      "target_date": "2027-03-10",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 31.0
+    },
+    {
+      "slug": "axiscades-engineering",
+      "name": "Axiscades Engineering",
+      "event": "Q2/Q3 FY27 prints from the pure-play continuing entity showing defence revenue +75% and margin recovering off 11.8%, plus Devanahalli Atmanirbhar Complex Phase 1 commissioning",
+      "target_date": "2027-03-10",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 30.0
+    },
+    {
+      "slug": "bliss-gvs-pharma",
+      "name": "Bliss GVS Pharma Ltd",
+      "event": "Completion of the Anupam Rasayan open offer / change of control, plus a Q2-Q3 FY27 print confirming the ~26% EBITDA margin is sustained",
+      "target_date": "2027-03-10",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 25.0
+    },
+    {
+      "slug": "john-cockerill-india-a-case-study-on-decarbonisation-of-steel",
+      "name": "John Cockerill India: A Case Study on Decarbonisation of Steel",
+      "event": "H2 CY26 quarterly print showing an actual EBITDA-margin step-up (management's own guided window)",
+      "target_date": "2027-03-10",
+      "window_months": 6,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 20.0
+    },
+    {
+      "slug": "permanent-magnets",
+      "name": "Permanent Magnets",
+      "event": "REPM-scheme bid outcome (5 of 20 applicants selected) and/or Quantum Magnetics Phase-2 commissioning on the revised Q3 FY27 schedule",
+      "target_date": "2027-03-10",
+      "window_months": 6,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 18.0
+    },
+    {
       "slug": "unimech-aerospace-and-manufacturing-ltd",
       "name": "Unimech Aerospace and Manufacturing Ltd",
       "event": "First nuclear-order execution prints in H2FY27 + full-quarter Hobel contribution from Q2 + QIP completion / MPS sell-down clearing the overhang",
@@ -6567,7 +9082,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 33.35,
-      "conviction_score": 50.8
+      "conviction_score": 36.8
     },
     {
       "slug": "timex-group",
@@ -6644,7 +9159,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 8.92,
-      "conviction_score": 50.8
+      "conviction_score": 36.8
     },
     {
       "slug": "shilpa-medicare-ias2026",
@@ -6766,6 +9281,446 @@
       "status_effective": "pending",
       "expectation_gap_score": 15.92,
       "conviction_score": 46.0
+    },
+    {
+      "slug": "accent-microcell",
+      "name": "Accent Microcell Limited",
+      "event": "Unit-III Phase-1 actual commercial production + a reported half-year showing the specialty-mix margin step-up",
+      "target_date": "2027-06-08",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 3.6,
+      "conviction_score": 18.0
+    },
+    {
+      "slug": "aries-agro",
+      "name": "Aries Agro Ltd",
+      "event": "Two more quarters sustaining the margin-mix + working-capital gains, plus a visible UAE (Mirabelle) contribution once the facility relocation completes",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 64.95,
+      "conviction_score": 41.0
+    },
+    {
+      "slug": "rbz-jewellers",
+      "name": "RBZ Jewellers Ltd",
+      "event": "First FY27 own-stores (Surat, Rajkot) opening + a quarterly print showing retail ramp and operating cash flow turning positive under the GML strategy",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 63.75,
+      "conviction_score": 31.0
+    },
+    {
+      "slug": "ddev-plastiks-industries",
+      "name": "DDev Plastiks Industries Ltd",
+      "event": "Two more quarters of Bhiwadi-led double-digit volume growth + BESS Phase-1 commissioning with a first order announcement",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 49.88,
+      "conviction_score": 44.0
+    },
+    {
+      "slug": "jayaswal-neco",
+      "name": "Jayaswal Neco- Integrated Steel Player",
+      "event": "A FY27 quarter or two showing the lower interest run-rate flowing through to PAT + a further step-down in secured debt / pledge release",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 47.39,
+      "conviction_score": 38.0
+    },
+    {
+      "slug": "ultramarine-pigments-ltd",
+      "name": "Ultramarine & Pigments Ltd",
+      "event": "Q2/H2 FY27 results showing the Q1 FY27 margin/PAT step-up is sustained rather than commissioning-timing, and greenfield-plant progress",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 41.26,
+      "conviction_score": 38.8
+    },
+    {
+      "slug": "ngl-fine-chem-ltd",
+      "name": "NGL Fine-Chem Ltd",
+      "event": "Tarapur Phase II commercial production (H2FY27) plus 2-3 quarterly prints confirming steady-state EBITDA margin holds >=16%",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 30.04,
+      "conviction_score": 54.8
+    },
+    {
+      "slug": "punjab-chemicals-crop-protection-ltd",
+      "name": "Punjab Chemicals & Crop Protection Ltd",
+      "event": "Q3-Q4 FY27 prints showing 15%+ revenue growth with MOU/new-product volumes actually landing and domestic demand turning",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 30.04,
+      "conviction_score": 44.8
+    },
+    {
+      "slug": "kamat-hotels",
+      "name": "Kamat Hotels (India) Ltd- A Possible Turnaround Story!",
+      "event": "Dwarka + Gwalior opening by end-2026 and a Q2/Q3 FY27 print showing occupancy held through the monsoon with margin toward 28-30%",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 29.48,
+      "conviction_score": 13.0
+    },
+    {
+      "slug": "arvind-smartspaces-ltd",
+      "name": "Arvind SmartSpaces Ltd",
+      "event": "FY27 quarterly bookings prints holding the 35-40% growth band, plus a reported-revenue quarter showing the recognition catch-up",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 25.18,
+      "conviction_score": 53.8
+    },
+    {
+      "slug": "izmo",
+      "name": "IZMO- bet on new technologies in Auto retail & defence",
+      "event": "izmo Microsystems quarterly revenue tracking to the Rs 45-50 Cr FY27 guide + terms of the capacity-expansion fund-raise",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 24.6,
+      "conviction_score": 12.0
+    },
+    {
+      "slug": "ksh-international-ltd",
+      "name": "KSH International Ltd",
+      "event": "Q2/Q3 FY27 prints sustaining EBITDA/ton near Rs 90k + Supa Phase II commissioning + first Hitachi framework offtake",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 23.78,
+      "conviction_score": 43.32
+    },
+    {
+      "slug": "arman-financial-services",
+      "name": "Arman Financial Services Ltd",
+      "event": "Two-to-three consecutive quarters of credit cost at/below 3.5% with AUM growth sustained - confirming the turnaround is structural not a one-quarter bounce",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 22.59,
+      "conviction_score": 46.0
+    },
+    {
+      "slug": "capri-global-capital",
+      "name": "Capri Global Capital Ltd",
+      "event": "Two more quarters holding ROAE ~19-21% with AUM growth >45% and construction-finance GNPA stabilising - confirming the ROE inflection is structural, not a gold-price spike",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 21.33,
+      "conviction_score": 51.0
+    },
+    {
+      "slug": "valiant-communications",
+      "name": "Valiant Communications Limited",
+      "event": "Delivery/commissioning of the Power Grid data-centre order plus a follow-on NavIC/data-centre or OT-cyber order confirming a repeatable line",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 21.03,
+      "conviction_score": 47.32
+    },
+    {
+      "slug": "sjs-enterprises",
+      "name": "SJS Enterprises Ltd",
+      "event": "First cover-glass revenue from the Hosur facility + a Q2/Q3 FY27 print holding ~30% EBITDA margin with standalone growth visible",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 20.46,
+      "conviction_score": 46.32
+    },
+    {
+      "slug": "borosil-renewables",
+      "name": "Borosil Renewables",
+      "event": "SG-4/SG-5 (600 TPD) commissioning in Q4 FY27 and the first full quarter of the 60% volume step-up with a visible post-expansion margin",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 20.08,
+      "conviction_score": 39.0
+    },
+    {
+      "slug": "neuland-laboratories",
+      "name": "Neuland Laboratories Limited",
+      "event": "Q2/Q3 FY27 prints showing whether the CMS ramp sustains (vs an FY26-style lumpy reset) + first commercial peptide-CDMO revenue",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 18.57,
+      "conviction_score": 44.0
+    },
+    {
+      "slug": "kusumgar",
+      "name": "Kusumgar Ltd",
+      "event": "Two-to-three consecutive quarters confirming the parachute-solutions revenue run-rate and a 26-30% EBITDA margin, plus execution of the deferred FY26 defence contract",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 17.62,
+      "conviction_score": 30.0
+    },
+    {
+      "slug": "pennar-industries",
+      "name": "Pennar Industries Limited",
+      "event": "A Q2/Q3 FY27 print showing US-mix-led blended PBT-margin step-up + working-capital days falling toward 60",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 17.47,
+      "conviction_score": 16.0
+    },
+    {
+      "slug": "20-microns-micronized-to-nano",
+      "name": "20 Microns : micronized to nano-sized minerals",
+      "event": "Malaysian mine commissioning + a FY27 quarter showing revenue growth resuming alongside a ~13.5%+ EBITDA margin",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 15.17,
+      "conviction_score": 29.0
+    },
+    {
+      "slug": "alpex-solar",
+      "name": "Alpex Solar Ltd",
+      "event": "2.2GW cell plant commissioning + ALMM List-II inclusion, then a quarter showing blended-margin uplift from captive cells",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 9.31,
+      "conviction_score": 40.0
+    },
+    {
+      "slug": "motherson",
+      "name": "Samvardhana Motherson International",
+      "event": "3rd consumer-electronics plant commissioning (Q3 FY27) + first quarter of segment-level profitability in aerospace or electronics",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 7.27,
+      "conviction_score": 27.0
+    },
+    {
+      "slug": "sky-gold-ltd",
+      "name": "Sky Gold Ltd",
+      "event": "A second and third consecutive quarter of positive operating cash flow with falling debt and advance-gold mix at/above 20%",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 5.89,
+      "conviction_score": 42.8
+    },
+    {
+      "slug": "ethos-ltd",
+      "name": "Ethos Ltd",
+      "event": "A Q2/Q3 FY27 margin print sustaining ~15-16% EBITDA margin plus visible working-capital / FCF improvement",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 5.89,
+      "conviction_score": 12.32
+    },
+    {
+      "slug": "indegene-ltd",
+      "name": "Indegene Ltd",
+      "event": "Q3-Q4 FY27 prints showing EBITDA margin recovering toward 19-20% with organic growth held above 20%",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 5.89,
+      "conviction_score": 40.8
+    },
+    {
+      "slug": "senores-pharma",
+      "name": "Senores Pharma- Hidden in plain sight",
+      "event": "Two consecutive quarters delivering the guided PAT growth with free cash flow turning positive and the Emerging Market EBITDA margin recovering toward 18-20%",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 5.89,
+      "conviction_score": 40.0
+    },
+    {
+      "slug": "bansal-roofing-products-ltd",
+      "name": "Bansal Roofing Products Ltd",
+      "event": "Phase 5 & 6 commissioning confirmation + a Q2/Q3 FY27 print showing margin recovery and solar-structure revenue",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 5.89,
+      "conviction_score": 48.0
+    },
+    {
+      "slug": "p-n-gadgil-jewellers",
+      "name": "P N Gadgil Jewellers Ltd",
+      "event": "2-3 quarters of consistent, transparent hedging disclosure at 80%+ with ex-hedging PAT margin holding ~4.1-4.25%, plus operating cash flow turning less negative as the store base matures",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 4.48,
+      "conviction_score": 16.8
+    },
+    {
+      "slug": "privi-speciality-chemicals-ltd",
+      "name": "Privi Speciality Chemicals Ltd",
+      "event": "54k MT capacity live plus 2-3 quarterly prints showing EBITDA margin holding >=24% now that the gross-margin tailwind has reversed",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 3.54,
+      "conviction_score": 40.8
+    },
+    {
+      "slug": "obsc-perfection",
+      "name": "OBSC Perfection Ltd",
+      "event": "FY27 annual concall + H2 FY27 prints: Sanand commissioning on schedule, OPM holding ~18%, and disclosure that clarifies in-house machining content vs job-work",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 3.31,
+      "conviction_score": 38.0
+    },
+    {
+      "slug": "vimta-labs-ltd",
+      "name": "Vimta Labs Ltd",
+      "event": "A FY27 quarter showing clinical-research revenue growth reaccelerating toward the 20-25% target (NDCT throughput visible in the numbers)",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 39.8
+    },
+    {
+      "slug": "asm-technologies",
+      "name": "ASM Technologies",
+      "event": "2-3 quarters showing new-plant utilisation and a growing DLM/semiconductor order book that validates the re-rating, plus first meaningful ASM-HHV JV revenue",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 32.0
+    },
+    {
+      "slug": "ratnaveer-precision-a-newly-headed-steel-company",
+      "name": "Ratnaveer precision a newly headed steel company",
+      "event": "CCL plant commercial production start (targeted Nov 2026) + the first 1-2 quarters of CCL output showing volume and margin",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 30.0
+    },
+    {
+      "slug": "apcotex-industries-monopoly-in-synthetic-rubber",
+      "name": "Apcotex Industries Ltd",
+      "event": "Q2/Q3 FY27 prints showing whether EBITDA margin holds above 15-16% with inventory gains rolled off and exports weak; Finance Ministry notification of the DGTR-recommended NBR anti-dumping duty; NBR/latex capacity commissioning (Apr-Jun 2027)",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 27.32
+    },
+    {
+      "slug": "apollo-micro-systems",
+      "name": "Apollo Micro Systems Limited",
+      "event": "MIGM (~Rs 3,500 Cr, ~70% Apollo share) and QRSAM purchase orders expected by end-FY27, plus the first consolidated quarter showing Premier Explosives integration",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 18.0
+    },
+    {
+      "slug": "ramco-system",
+      "name": "Ramco system",
+      "event": "H2 FY27 prints against LarryWink's three tests: OPM back above ~20%, absolute recurring revenue rising, services revenue stabilising",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 9.0
+    },
+    {
+      "slug": "gujarat-themis-biosyn",
+      "name": "Gujarat Themis Biosyn Ltd",
+      "event": "MBJ acquisition close (targeted Q2 FY27) + QIP pricing + first combined-entity quarter showing pro-forma revenue, margin and net debt",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 7.0
+    },
+    {
+      "slug": "exicom-tele",
+      "name": "Exicom Tele-Services: A Key Player in the Booming EV Sector",
+      "event": "A quarter of positive consolidated EBITDA plus Tritium visibly approaching its Q4 FY27 breakeven target",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 2.0
+    },
+    {
+      "slug": "indotech",
+      "name": "Indotech",
+      "event": "Conversion of the 400kV/BESS (NTPC) qualification and recent order wins into a disclosed order book, a Q2/Q3 FY27 margin print showing the ~14% EBITDA margin stabilising, and a material reduction of the promoter pledge",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 0
     },
     {
       "slug": "wonderla-holidays",
@@ -6898,6 +9853,182 @@
       "status_effective": "pending",
       "expectation_gap_score": 6.77,
       "conviction_score": 38.0
+    },
+    {
+      "slug": "time-technoplast",
+      "name": "Time Technoplast",
+      "event": "Net-debt-free milestone plus a quarter showing blended EBITDA-margin expansion from VAP mix; PESO-approved hydrogen / Type-IV cylinder order ramp",
+      "target_date": "2027-09-08",
+      "window_months": 12,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 51.59,
+      "conviction_score": 62.8
+    },
+    {
+      "slug": "tube-investments-ltd-diversified-engineering-company",
+      "name": "Tube Investments Ltd ~ Diversified Engineering Company",
+      "event": "TI Clean Mobility approaching operational breakeven + a quarter where consolidated owner-PAT growth turns positive + any holdco-discount-narrowing trigger",
+      "target_date": "2027-09-08",
+      "window_months": 12,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 41.68,
+      "conviction_score": 27.0
+    },
+    {
+      "slug": "chamunda-electricals",
+      "name": "Chamunda Electricals Ltd",
+      "event": "FY27 quarterly/half-yearly revenue showing the GETCO Rs 63 Cr O&M award phasing into billed sales, with cash flow following",
+      "target_date": "2027-09-08",
+      "window_months": 12,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 35.14,
+      "conviction_score": 30.0
+    },
+    {
+      "slug": "goodluck-india",
+      "name": "Goodluck India Ltd",
+      "event": "Defence capacity expansion commissioning (Q4 FY27 target) + concrete disclosure on the defence-subsidiary capital structure / listing plan",
+      "target_date": "2027-09-08",
+      "window_months": 12,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 32.62,
+      "conviction_score": 40.0
+    },
+    {
+      "slug": "csl-finance",
+      "name": "CSL Finance Limited",
+      "event": "2-3 quarters of PAT growth re-accelerating above ~15% with GNPA held around/below ~1% and SME-retail share stabilising",
+      "target_date": "2027-09-08",
+      "window_months": 12,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 31.36,
+      "conviction_score": 33.0
+    },
+    {
+      "slug": "ujjivan-small-finance-bank",
+      "name": "Ujjivan Small Finance Bank",
+      "event": "Two-three more quarters holding ~2% RoA through-cycle, secured mix past ~55%, and a fresh universal-bank-licence application accepted for RBI review",
+      "target_date": "2027-09-08",
+      "window_months": 12,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 18.57,
+      "conviction_score": 34.0
+    },
+    {
+      "slug": "repono-ltd",
+      "name": "Repono Ltd",
+      "event": "Mathura terminal financial close / commissioning schedule, operating cash flow turning positive, or a second anchor-contract win",
+      "target_date": "2027-09-08",
+      "window_months": 12,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 16.22,
+      "conviction_score": 38.0
+    },
+    {
+      "slug": "cff-fluid-control",
+      "name": "CFF Fluid Control Ltd",
+      "event": "P75I contract award clarity + CFF's contracted content, and an H1 FY27 result showing operating cash flow turning positive",
+      "target_date": "2027-09-08",
+      "window_months": 12,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 14.87,
+      "conviction_score": 39.0
+    },
+    {
+      "slug": "orchid-pharma-ltd",
+      "name": "Orchid Pharma Ltd",
+      "event": "Two or three consecutive quarters of cephalosporin margin recovery (OPM back above 10%) plus a step-up in EXBLIFEP licensing income",
+      "target_date": "2027-09-08",
+      "window_months": 12,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 9.73,
+      "conviction_score": 14.0
+    },
+    {
+      "slug": "cosmic-crf-limited",
+      "name": "COSMIC CRF LIMITED",
+      "event": "RDSO licences for springs + first Amzen wagon-plant milestone (restart Mar-May 2027), with a quarter showing blended margin lifting toward 10%",
+      "target_date": "2027-09-08",
+      "window_months": 12,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 5.5,
+      "conviction_score": 24.0
+    },
+    {
+      "slug": "walchandnagar-industries",
+      "name": "Walchandnagar Industries | Return of a Golden Era",
+      "event": "First full-year net profit (FY27) plus a large defence/nuclear order-book item visibly converting to revenue; clarification / reduction of the promoter pledge",
+      "target_date": "2027-09-08",
+      "window_months": 12,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 5.02,
+      "conviction_score": 26.0
+    },
+    {
+      "slug": "hind-rectifiers",
+      "name": "Hind Rectifiers Ltd (HIRECT)",
+      "event": "Full-service propulsion-vendor approval (targeted end-FY27) + a standalone quarter re-accelerating toward the 30% guide",
+      "target_date": "2027-09-08",
+      "window_months": 12,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 30.0
+    },
+    {
+      "slug": "krm-ayurveda",
+      "name": "KRM Ayurveda Ltd",
+      "event": "2-3 quarters showing the ~20-28% PAT margin holds through the bed expansion, plus new hospitals (Gurugram, MSS Delhi) going live and lifting sequential revenue",
+      "target_date": "2027-09-08",
+      "window_months": 12,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 30.0
+    },
+    {
+      "slug": "sml-isuzu",
+      "name": "SML Isuzu Ltd",
+      "event": "A quarter showing EBITDA margin recovery above 12% plus tangible M&M product / distribution synergies",
+      "target_date": "2027-09-08",
+      "window_months": 12,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 20.8
+    },
+    {
+      "slug": "eureka-forbes-a-high-margin-consumer-durable-company",
+      "name": "Eureka Forbes Ltd",
+      "event": "Two or more quarters showing EBITDA margin actually expanding toward the FY30 path, and/or resolution/unwind of the promoter pledge",
+      "target_date": "2027-09-08",
+      "window_months": 12,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 12.32
+    },
+    {
+      "slug": "gmm-pfaudler-ias2026",
+      "name": "GMM Pfaudler",
+      "event": "Two consecutive quarters showing consolidated EBITDA margin toward 13-15% and PAT growth off a normalised base",
+      "target_date": "2027-09-08",
+      "window_months": 12,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 11.0
     },
     {
       "slug": "sambhv-steel-tubes",

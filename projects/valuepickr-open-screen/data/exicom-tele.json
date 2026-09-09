@@ -1,34 +1,38 @@
 {
   "name": "Exicom Tele-Systems Ltd",
-  "tagline": "Loss-making EV-charger + telecom-power maker with a possible Q4 FY26 EBITDA-breakeven inflection and speculative AI-datacentre rectifier optionality; still unprofitable, CARE-downgraded and 55% below its listing-era high",
+  "tagline": "Loss-making EV-charger (Tritium) + telecom/data-centre DC-power maker; FY26 consolidated losses actually WIDENED (PAT loss ~Rs 274 Cr vs ~Rs 110 Cr) and Q1 FY27 consolidated EBITDA is still negative (~Rs 22 Cr loss); standalone has turned profitable and the order book is ~Rs 1,400 Cr, but the consolidated inflection is a Q4 FY27 target, not delivered",
   "business_overview": "Exicom Tele-Systems (incorporated 1994, listed Mar 2024) has two segments: Critical Power (DC power systems / rectifiers / Li-ion for telecom towers and data centres) and EV Smart Charging (AC/DC chargers in India plus the acquired Australian brand Tritium). It funded the Tritium acquisition largely with debt (~84%). The EV thesis is a call option: Tritium is a globally recognised fast-charger brand that was previously badly executed.",
   "fundamentals_table": [
     [
       "Market Cap",
-      "~Rs 2,336 Cr"
+      "~Rs 2,532 Cr (price ~Rs 182, Sep 2026)"
     ],
     [
-      "ROCE / ROE (FY25)",
-      "7.27% / 3.26% (5-yr medians 21.7% / 17.0%)"
+      "ROCE / ROE (FY26)",
+      "-14.7% / -40.8% (screener; 5-yr pre-Tritium medians 21.7% / 17.0%)"
     ],
     [
       "Revenue",
-      "~Rs 1,277 Cr, +53.7% YoY; Q1 FY27 net sales +57% YoY to ~Rs 237 Cr"
+      "FY26 consolidated ~Rs 1,152 Cr (+33% YoY); Q1 FY27 consolidated Rs 331 Cr (+61% YoY); standalone Rs 237 Cr (+57%)"
     ],
     [
       "Profitability",
-      "Consolidated losses through 9M FY25 and into FY26; standalone Q4 FY26 EBITDA +148%, consolidated EBITDA breakeven for the first time"
+      "FY26 consolidated EBITDA loss ~Rs 103 Cr, PAT loss ~Rs 274 Cr (losses ~2.5x wider YoY on 12 vs 7 months of Tritium); Q4 FY26 consolidated EBITDA breakeven for one quarter; Q1 FY27 consolidated EBITDA loss narrowed to ~Rs 22 Cr, standalone EBITDA ~Rs 21 Cr (8.8% margin) and standalone PAT positive again"
     ],
     [
       "Debt",
-      "D/E ~0.71; low interest coverage"
+      "D/E ~0.7 (Tritium funded ~84% debt); CARE BBB/A3, Negative outlook (since early 2025); EBITDA-negative so interest coverage not meaningful"
     ],
     [
-      "52-week range",
-      "~Rs 97 - 217 (currently ~55% below the 52-wk high)"
+      "Order book",
+      "~Rs 1,400 Cr consolidated (EV ~Rs 1,016 Cr at FY26 end); Critical Power >60% BharatNet Phase 3 wallet share"
+    ],
+    [
+      "Valuation / 52-wk",
+      "P/B ~3.9x (book value ~Rs 46.8); no P/E (loss-making); 52-wk ~Rs 75.6 - 189"
     ]
   ],
-  "fundamentals_narrative": "Top-line growth is strong (FY25 revenue +54%, Q1 FY27 +57% YoY) but the business is still loss-making at the consolidated level. CARE downgraded the bank facilities to CARE BBB/A3 with a Negative outlook in early 2025, citing significant deterioration in 9M FY25 operating and financial performance and the debt-heavy Tritium acquisition funding. The bull data point is Q4 FY26: standalone EBITDA +148%, standalone gross margin ~27%, and consolidated EBITDA breakeven for the first time, with Tritium revenue +157% QoQ, an order book of ~Rs 1,000 Cr and an FY28 data-centre / hyperscaler product pipeline. Whether that is a genuine inflection or one good quarter is unproven.",
+  "fundamentals_narrative": "Revenue growth is strong and accelerating (FY26 consolidated +33%, Q1 FY27 +61% YoY) but the company is still loss-making at the consolidated level and FY26 losses WIDENED, not narrowed: consolidated EBITDA loss ~Rs 103 Cr and PAT loss ~Rs 274 Cr vs a ~Rs 110 Cr PAT loss in FY25, which management attributes to a full 12 months of Tritium vs seven in FY25. FY26 ROCE -14.7% / ROE -40.8%. The bull data points: Q4 FY26 consolidated EBITDA hit breakeven for the first time; Q1 FY27 standalone is profitable again (EBITDA ~Rs 21 Cr, 8.8% margin) on Critical Power strength (+80% YoY on 5G and BharatNet Phase 3, >60% wallet share); the consolidated order book is ~Rs 1,400 Cr; Tritium order intake doubled to USD 20.8 Mn and management guides Tritium to EBITDA breakeven by Q4 FY27. But Q1 FY27 consolidated is still an EBITDA loss (~Rs 22 Cr) - the consolidated inflection is guided, not delivered, and CARE's Negative outlook still stands.",
   "technical_read": "Not independently pulled. Stock is ~55% below its 52-week high near Rs 217 and has spent 2025-26 in a long drawdown typical of a recently-listed, loss-making turnaround.",
   "sentiment_summary": "Small 11-post thread (since Feb 2025). Early posters framed Exicom as a binary 'call option' on EV charging (Aloysius_De_Sa, invested at ~250, 'invest money you are ready to lose'). Two 2026 threads of interest: sumit680 flagged the Q4 FY26 EBITDA-breakeven inflection, and RocketMan (elevated-tier) wrote a well-received note (7 loves) arguing Exicom's telecom-tower rectifier competency could extend to AC-DC rectifier / power-conversion units for NVIDIA's 800V DC AI-datacentre architecture - explicitly 'no position, recently started tracking'. Bears in-thread: CARE downgrade, new state-backed competition (BHEL indigenous fast chargers), and a 5G radiation-limit change that lets telcos cover more area with fewer towers (negative for Critical Power).",
   "community_signal": "RocketMan (elevated) - the AI-datacentre rectifier optionality is a credible adjacency (same core competency as telecom rectifiers), but he holds no position and is only tracking; treat as an interesting thesis seed, not a conviction call.",
@@ -47,24 +51,196 @@
     "FY25 ROCE 7.3% / ROE 3.3%, far below 5-year medians - capital efficiency has collapsed during the Tritium integration",
     "Tritium's own history is one of poor execution; the turnaround is unproven"
   ],
-  "market_cap_tier": "Small-cap (~Rs 2,336 Cr)",
-  "thesis_fit": "10x-in-2-3-years - small market cap plus a genuine EV-charging tailwind and speculative AI-datacentre rectifier optionality keep it in the frame, but the company is still loss-making and the classification is unconfirmed pending two or three more quarters of consolidated profitability",
-  "verdict_headline": "A binary EV-charging / AI-datacentre call option showing a first quarter of consolidated EBITDA breakeven - interesting but speculative; conviction Low, unconfirmed",
+  "market_cap_tier": "Small-cap (~Rs 2,532 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "First-pass deep read downgrades the 'inflection' story: FY26 consolidated losses widened and Q1 FY27 consolidated EBITDA is still negative. A standalone turn plus a Rs 1,400 Cr order book keep it a watch, but thesis_fit -> neither, conviction Low",
   "verdict_reasoning": [
-    "First-time coverage. Fundamentals are weak on a trailing basis (FY25 ROCE 7.3% / ROE 3.3%, consolidated losses, CARE BBB/A3 Negative) but the recent-quarter trend is a genuine positive: Q4 FY26 standalone EBITDA +148% and first-ever consolidated EBITDA breakeven, with Tritium +157% QoQ and a ~Rs 1,000 Cr order book.",
-    "Per the small/mid-cap recent-inflection rule, a weak multi-year record plus a specific, credible recent improvement and a real catalyst (EV charging + AI-datacentre rectifier adjacency) supports thesis_fit 10x-in-2-3-years at Low conviction with an explicit 'unconfirmed' caveat.",
-    "RocketMan (elevated) supplied the AI-datacentre optionality thesis but holds no position; no conviction floor applies (no core-tier signal, floor not active).",
-    "No red-flag tier (no negative net worth, no promoter-holding collapse, no active SEBI action); CARE downgrade is a caution, not a disqualifier.",
-    "Key watch items: does consolidated profitability persist for 2-3 quarters, does the FY28 data-centre pipeline convert to orders, and does BHEL / the 5G tower change materially dent the two segments. Not flagged for 30-day revisit given Low conviction; revisit on the next results."
+    "FY26 consolidated losses WIDENED to a ~Rs 274 Cr PAT loss (vs ~Rs 110 Cr FY25) and Q1 FY27 consolidated EBITDA is still a ~Rs 22 Cr loss - the consolidated breakeven is a guided Q4 FY27 target, not a delivered inflection. The small/mid-cap live-inflection carve-out does not apply because there is no proven positive-margin quarter at the consolidated level.",
+    "Genuine positives that keep it a live watch: Q1 FY27 standalone is profitable again (EBITDA ~Rs 21 Cr, 8.8% margin), Critical Power revenue +80% YoY on 5G / BharatNet Phase 3 (>60% wallet share), consolidated order book ~Rs 1,400 Cr, Tritium order intake doubled to USD 20.8 Mn.",
+    "four_box re-scored to 2.0 (tailwind yes; tam no - still loss-making, no proven unit economics, aggressive EV-charger supply incl. state-backed BHEL; moat weak; valuation weak - P/B ~3.9x on losses, CARE Negative). 2.0 with no valuation=yes exception -> thesis_fit neither.",
+    "Red-flag check: none. Book value is positive (~Rs 46.8/sh), no going-concern note, no promoter-holding collapse, no auditor resignation, no SEBI action. CARE BBB/A3 Negative is a caution, not a disqualifier - red_flag_tier stays null.",
+    "Conviction stays Low (no trusted-conviction floor; RocketMan's AI-datacentre optionality thesis is 'tracking, no position'). Re-check on Q2/Q3 FY27: consolidated EBITDA sign, Tritium progress toward its Q4 FY27 breakeven, and any BharatNet-share erosion."
   ],
   "red_flag_tier": null,
   "red_flag_reason": null,
   "four_box": {
     "tailwind": "yes",
-    "tam": "weak",
+    "tam": "no",
     "moat": "weak",
     "valuation": "weak",
-    "score": 2.5,
-    "note": "EV-charging tailwind + AI-datacentre rectifier adjacency explicitly 'genuine' but optionality labeled speculative (tam weak); still loss-making, no moat/valuation detail."
-  }
+    "score": 2.0,
+    "note": "Tailwind yes (EV charging + 5G/BharatNet >60% share + speculative AI-datacentre DC-power adjacency). TAM no: still consolidated loss-making with no proven unit economics, and EV-charger supply is being added aggressively including state-backed BHEL. Moat weak; valuation weak (P/B ~3.9x on losses, CARE Negative outlook). Score 2.0, no valuation=yes exception -> thesis_fit neither."
+  },
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-08",
+    "sources_reviewed": [
+      "screener.in consolidated (market cap, P/B, ROCE/ROE, FY26 & FY25 sales/PAT, 3-yr growth)",
+      "Exicom Q1 FY27 press release + earnings-call coverage (Aug 2026) via TradingView / Yahoo Finance / ScanX / Business Standard",
+      "FY26 results coverage via PRNewswire / DSIJ / MarketsMojo (Q3 & Q4 FY26)"
+    ],
+    "annual_report_findings": [
+      "FY26 consolidated revenue ~Rs 1,152 Cr (+33% YoY); consolidated EBITDA loss ~Rs 103 Cr and PAT loss ~Rs 274 Cr - roughly 2.5x wider than the FY25 PAT loss of ~Rs 110 Cr, driven by a full 12 months of Tritium vs 7 months in FY25.",
+      "FY26 ROCE -14.7%, ROE -40.8% (screener); book value ~Rs 46.8/sh, P/B ~3.9x - capital efficiency deeply negative through the Tritium integration vs 5-yr pre-deal medians of ~21.7% / ~17.0%.",
+      "Tritium acquisition funded ~84% debt; D/E ~0.7; CARE BBB / CARE A3 with a Negative outlook carried since early 2025, not upgraded.",
+      "EV Smart Charging order book ~Rs 1,016 Cr at FY26 end; company claims India's No.1 position in EV charger manufacturing.",
+      "Q4 FY26 was the single bright spot: consolidated EBITDA breakeven for the first time (from a ~Rs 32 Cr Q3 loss), standalone EBITDA +148% YoY."
+    ],
+    "quarterly_trend": [
+      "Q3 FY26: consolidated EBITDA loss ~Rs 32 Cr - mounting losses.",
+      "Q4 FY26: consolidated revenue +46% YoY; consolidated EBITDA breakeven for the first time.",
+      "Q1 FY27: consolidated revenue Rs 331 Cr (+61% YoY); consolidated EBITDA loss narrowed to ~Rs 22 Cr (from ~Rs 39 Cr); standalone revenue Rs 237 Cr (+57%), standalone EBITDA ~Rs 21 Cr (8.8% margin), standalone PAT positive again.",
+      "Q1 FY27 segments: Critical Power revenue +80% YoY (5G site expansion + BharatNet Phase 3, >60% wallet share); Tritium revenue USD 10.3 Mn, 508 chargers, order intake doubled to USD 20.8 Mn."
+    ],
+    "recent_announcements": [
+      "Q1 FY27 (Aug 2026): order wins across both businesses; consolidated order book ~Rs 1,400 Cr.",
+      "BESS (battery energy storage) portfolio added 14 customers and ~Rs 20 Cr of bookings in Q1 FY27.",
+      "Management guided Tritium to EBITDA breakeven in Q4 FY27; meaningful Tritium scale expected from Q2 FY27.",
+      "No new equity raise or rating upgrade surfaced; CARE BBB/A3 Negative outlook still in place."
+    ],
+    "key_new_facts": [
+      "FY26 full-year losses WIDENED (PAT loss Rs 274 Cr vs Rs 110 Cr) - not the clean inflection the prior tagline implied.",
+      "Q1 FY27 consolidated is still EBITDA-negative (~Rs 22 Cr loss); only the standalone entity is profitable.",
+      "Consolidated breakeven now hinges on Tritium reaching EBITDA breakeven by Q4 FY27 - a guided target, not delivered.",
+      "Order book grew to ~Rs 1,400 Cr; Critical Power (5G / BharatNet, >60% share) is the real cash engine, not EV charging."
+    ],
+    "open_questions": [
+      "Does consolidated EBITDA turn positive and hold for 2-3 quarters, or was Q4 FY26 a one-off?",
+      "Does Tritium hit its Q4 FY27 EBITDA-breakeven target, or slip again given its poor execution history?",
+      "Does the 5G radiation-limit change / state-backed BHEL competition erode Critical Power's BharatNet share?",
+      "Can the balance sheet absorb continued consolidated losses without another raise, with CARE on Negative outlook?",
+      "No 3+ years of clean listed history (IPO Mar 2024) and recent fiscal years all fail a rev>=10% + ROCE>=15% test - track_record omitted."
+    ],
+    "conviction_update": "Low -> Low. FY26 confirmed consolidated losses widened, not narrowed, and Q1 FY27 consolidated is still EBITDA-negative; the standalone turn and Rs 1,400 Cr order book are real but the consolidated inflection is a Q4 FY27 target, not delivered. thesis_fit moves 10x-in-2-3-years -> neither - no proven unit economics yet."
+  },
+  "commitments": [
+    {
+      "area": "margin",
+      "text": "Tritium to reach EBITDA breakeven by Q4 FY27",
+      "specifics": "EV segment; Q1 FY27 order intake doubled to USD 20.8 Mn; scale expected from Q2 FY27",
+      "timeline_bucket": "FY27",
+      "quality_stage": "expectation",
+      "source": "Q1 FY27 concall",
+      "dependency": "Tritium order-book conversion + volume ramp",
+      "single_point_of_failure": "Tritium volume ramp speed",
+      "thesis_critical": true
+    },
+    {
+      "area": "orders",
+      "text": "Execute the ~Rs 1,400 Cr consolidated order book",
+      "specifics": "Critical Power (5G + BharatNet Phase 3, >60% wallet share) + Tritium",
+      "timeline_bucket": "12M",
+      "quality_stage": "commercial",
+      "source": "Q1 FY27 press release",
+      "dependency": "telco capex + BharatNet rollout pace",
+      "single_point_of_failure": "",
+      "thesis_critical": true
+    },
+    {
+      "area": "new_business",
+      "text": "Data-centre / hyperscaler rectifier product pipeline",
+      "specifics": "FY28 pipeline flagged; AI 800V DC power-conversion adjacency to telecom rectifiers",
+      "timeline_bucket": "FY28",
+      "quality_stage": "expectation",
+      "source": "management commentary / VP thread",
+      "dependency": "product development + customer qualification",
+      "single_point_of_failure": "unproven in data-centre power",
+      "thesis_critical": false
+    }
+  ],
+  "earnings_chain": {
+    "chain": [
+      "Critical Power orders (5G / BharatNet)",
+      "revenue growth",
+      "Tritium volume ramp from Q2 FY27",
+      "Tritium EBITDA breakeven Q4 FY27",
+      "consolidated EBITDA positive",
+      "PAT breakeven"
+    ],
+    "bottleneck_link": "Tritium EBITDA breakeven Q4 FY27",
+    "operating_leverage": "unclear - standalone shows leverage (EBITDA margin 8.8% Q1 FY27) but consolidated is still loss-making on the Tritium drag",
+    "evidenced_links": [
+      "Critical Power orders (5G / BharatNet)",
+      "revenue growth"
+    ],
+    "assumed_links": [
+      "Tritium volume ramp from Q2 FY27",
+      "Tritium EBITDA breakeven Q4 FY27",
+      "consolidated EBITDA positive",
+      "PAT breakeven"
+    ]
+  },
+  "market_expectation": {
+    "as_of": "2026-09-08",
+    "price": 182,
+    "current_pe": null,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/B",
+    "implied_growth_cagr": "loss-making so no P/E; at P/B ~3.9x the market is paying for a turn to profit - it needs consolidated EBITDA margin to reach the high single digits (standalone is already there) and Tritium to stop bleeding within ~4-6 quarters to justify the multiple",
+    "our_fy27_estimate": "consolidated revenue Rs 1,500-1,700 Cr (+30-45%); consolidated EBITDA near breakeven to slightly positive only if Tritium ramps as guided; PAT still a loss",
+    "our_fy28_estimate": "first full year of consolidated EBITDA profit only if Tritium breakeven holds and the data-centre pipeline converts; otherwise a sub-scale power-electronics maker on a rich P/B",
+    "gap_direction": "over-optimistic",
+    "gap_type": "timing",
+    "gap_magnitude_pct": null,
+    "gap_basis": "market prices a near-term turn to profitability; our path has consolidated losses persisting through FY27 with breakeven a Q4 FY27 target that has not been delivered",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "catalyst": {
+    "event": "A quarter of positive consolidated EBITDA plus Tritium visibly approaching its Q4 FY27 breakeven target",
+    "expected_window_months": 9,
+    "window_start": "2026-09-08",
+    "evidence_quality": "low",
+    "is_dated": true,
+    "status": "pending"
+  },
+  "value_chain": {
+    "theme": "EV fast-charging + telecom / data-centre DC power",
+    "position": "India telecom-rectifier leader and owner of the global fast-charger brand Tritium; sub-scale versus global power-electronics majors",
+    "bottleneck_node": "high-power DC rectifier / power-conversion engineering and certification",
+    "supply_side_status": "adding",
+    "adjacent_peers": [
+      "ABB / Delta Electronics",
+      "Servotech Power Systems",
+      "HPL Electric",
+      "BHEL (state-backed fast chargers)"
+    ],
+    "note": "EV-charger supply is being added aggressively, including state-backed BHEL - late-cycle glut risk on the EV side. Critical Power (telecom rectifiers, >60% BharatNet share) is the more defensible node."
+  },
+  "earnings_quality": {
+    "margin_driver": "unclear",
+    "drivers": [
+      "Critical Power scale (5G / BharatNet)",
+      "Tritium losses masking standalone profitability",
+      "operating leverage on the standalone base"
+    ],
+    "peak_margin_risk": false,
+    "normalised_note": "Consolidated margin is below zero; standalone EBITDA margin ~8.8% is a recovering, not peak, level. No peak-margin risk - the open question is proving positive consolidated margin at all."
+  },
+  "growth_trajectory": {
+    "yoy_trend": "accelerating",
+    "last_quarters_note": "Consolidated revenue YoY oldest->newest roughly: +33% (FY26), +46% (Q4 FY26), +61% (Q1 FY27). Revenue is accelerating but off a loss-making base; consolidated profitability YoY is still negative.",
+    "reverse_pe_note": "No P/E (loss-making); P/B ~3.9x needs a turn to sustained consolidated profit that recent quarters have not yet shown."
+  },
+  "management_quality": {
+    "capital_allocation": "Funded the Tritium acquisition ~84% with debt into a business with a poor execution history; the integration has driven ROCE to -14.7% and ROE to -40.8%. No unrelated diversification beyond the EV bet; the turnaround is unproven.",
+    "capital_allocation_track_record": "unclear",
+    "rpt_trend": "unclear",
+    "guidance_credibility": "no-track-record",
+    "shareholder_returns": "none",
+    "capability_ladder_note": "Telecom rectifier -> EV DC charging -> flagged data-centre / AI 800V DC power",
+    "assessment": "concern"
+  },
+  "quality_metrics": {
+    "roce_pct": -14.7,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": null,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "improving",
+    "capex_efficiency": "value-destructive",
+    "assessment": "concern",
+    "open_questions": "FCF conversion not derivable from snippets and EBITDA is negative, making the ratio meaningless; the FY26 cash-flow statement is needed. Net-debt/EBITDA and interest coverage not meaningful while EBITDA is negative."
+  },
+  "conviction": "Low"
 }

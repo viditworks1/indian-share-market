@@ -45,7 +45,7 @@
     "Rich valuation (58.5x P/E) despite still-weak trailing profitability"
   ],
   "market_cap_tier": "Small-cap (~Rs 883 Cr)",
-  "thesis_fit": "10x-in-2-3-years",
+  "thesis_fit": "neither",
   "verdict_headline": "A real but fragile, price-led recovery that the community itself is actively split on -- unconfirmed and low conviction",
   "verdict_reasoning": [
     "The recent-quarter inflection is real and specific (34.4% YoY revenue growth), satisfying the weak-trailing/strong-recent pattern this thesis is built to catch",
@@ -61,6 +61,6 @@
     "moat": "no",
     "valuation": "no",
     "score": 0.5,
-    "note": "Recovery is explicitly price-led/China-dumping-dependent, not a demand-driven structural tailwind — no; Q1 FY27 +34.4% revenue recovery with only 4% volume growth is fragile — tam weak; a credible community member flagged structural dependency risk (isostearic acid as dimer-acid byproduct) and exited at a loss for exactly this reason — moat no; 58.5x P/E despite still-weak trailing profitability — valuation no."
+    "note": "Recovery is explicitly price-led/China-dumping-dependent, not a demand-driven structural tailwind — no; Q1 FY27 +34.4% revenue recovery with only 4% volume growth is fragile — tam weak; a credible community member flagged structural dependency risk (isostearic acid as dimer-acid byproduct) and exited at a loss for exactly this reason — moat no; 58.5x P/E despite still-weak trailing profitability — valuation no. [audit 2026-09-07: thesis_fit set to 'neither' to satisfy the four_box <=1.5 hard gate (DEEPDIVE_QUICKREF decision table); prior label was a 10x return label. vpscreen-rerank may revisit if boxes improve.]"
   }
 }

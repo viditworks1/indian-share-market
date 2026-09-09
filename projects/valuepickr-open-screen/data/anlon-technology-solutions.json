@@ -49,7 +49,7 @@
     "SME/micro-cap liquidity and disclosure risk"
   ],
   "market_cap_tier": "SME / micro-cap (~Rs 491 Cr)",
-  "thesis_fit": "10x-in-2-3-years",
+  "thesis_fit": "neither",
   "verdict_headline": "Placed in the 10x frame on the strength of the recent-quarter growth inflection and the manufacturing/export catalyst - but conviction is LOW and explicitly unconfirmed because the competitive-moat case is deteriorating in real time",
   "verdict_reasoning": [
     "Per the recent-inflection rule, a small-cap with H1 FY26 revenue +117%, a manufacturing ramp to ~42% of revenue and a specific Rosenbauer export catalyst earns a 10x-in-2-3-years tag rather than 'neither', despite a weak multi-year return profile",
@@ -65,6 +65,6 @@
     "moat": "no",
     "valuation": "weak",
     "score": 1.5,
-    "note": "Verdict explicit: best-informed community downgraded the moat thesis as competition enters every vertical, Rosenbauer exclusivity disputed (moat=no)."
+    "note": "Verdict explicit: best-informed community downgraded the moat thesis as competition enters every vertical, Rosenbauer exclusivity disputed (moat=no). [audit 2026-09-07: thesis_fit set to 'neither' to satisfy the four_box <=1.5 hard gate (DEEPDIVE_QUICKREF decision table); prior label was a 10x return label. vpscreen-rerank may revisit if boxes improve.]"
   }
 }

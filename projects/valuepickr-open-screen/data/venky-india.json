@@ -59,7 +59,7 @@
     "Inflection is one quarter old and commodity-driven, not a structural compounding story; essentially no ValuePickr coverage / risk-checking"
   ],
   "market_cap_tier": "Small-cap (~Rs 2,100 Cr)",
-  "thesis_fit": "10x-in-2-3-years",
+  "thesis_fit": "neither",
   "verdict_headline": "Textbook trough-cyclical poultry play with one strong confirming quarter — high-variance, commodity-driven, worth tracking the next print",
   "verdict_reasoning": [
     "Step 1 discovery candidate: no live-theme match (poultry/animal-protein is not in active_themes.json) — surfaced by recency discovery (new thread opened 2026-08-31).",
@@ -74,6 +74,6 @@
     "moat": "no",
     "valuation": "weak",
     "score": 1.5,
-    "note": "value_chain explicitly states 'No durable moat; returns are a commodity spread play' driven by feed-cost vs realisation spread — tailwind and moat both no; small-cap (~Rs2,100cr) with a confirming Q1 FY27 inflection (PAT +216%) supports tam via the recent-quarter-trend rule; low price/sales noted but no market_expectation data — valuation weak."
+    "note": "value_chain explicitly states 'No durable moat; returns are a commodity spread play' driven by feed-cost vs realisation spread — tailwind and moat both no; small-cap (~Rs2,100cr) with a confirming Q1 FY27 inflection (PAT +216%) supports tam via the recent-quarter-trend rule; low price/sales noted but no market_expectation data — valuation weak. [audit 2026-09-07: thesis_fit set to 'neither' to satisfy the four_box <=1.5 hard gate (DEEPDIVE_QUICKREF decision table); prior label was a 10x return label. vpscreen-rerank may revisit if boxes improve.]"
   }
 }

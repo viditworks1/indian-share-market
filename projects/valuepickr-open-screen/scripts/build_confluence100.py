@@ -1,11 +1,22 @@
 #!/usr/bin/env python3
 """
-Builds the Confluence 100 artifact: the top 100 ValuePickr-screen stocks by a
-confidence-adjusted blend of master_score (conviction/quality/expectation-gap/
-asymmetry) and a live 30-week EMA technical read.
+Builds the Confluence 100 artifact: a confidence-adjusted blend of master_score
+(conviction/quality/expectation-gap/asymmetry) and a live 30-week EMA technical
+read, over the ValuePickr open-screen deepdive universe.
 
-Run as a weekly side job of vpscreen-rerank (see that task's SKILL.md Step 7).
-Writes projects/valuepickr-open-screen/artifacts/confluence100.artifact.html —
+Two rankings are produced, each 100 names, switchable in the artifact:
+  - "Overall"     — every deepdived stock with no red flag, ANY thesis_fit
+                    (a 10x thesis is NOT required; a great business that only
+                    clears the return bar at 3-4x still belongs on a
+                    confidence-ranked shortlist).
+  - "Thesis only" — the stricter historical list: thesis_fit is
+                    10x-in-2-3-years or 100x-in-10-years, no red flag.
+Thesis-only is a subset of Overall.
+
+Run as a side job of vpscreen-rerank (see that task's SKILL.md Step 7). It is
+UNCONDITIONAL now — every rerank cycle rebuilds this, no weekly gate — because
+a tier move, a new placement, or a score shift in Steps 3-6 can change either
+list. Writes projects/valuepickr-open-screen/artifacts/confluence100.artifact.html;
 the scheduled task then publishes that file with the Artifact tool using the
 fixed URL recorded in vpscreen-rerank/SKILL.md.
 
@@ -40,12 +51,13 @@ def load_json(path):
 
 
 def build_universe():
+    """Every deepdived stock with a clear red_flag_tier (HIGH CAUTION / AVOID /
+    EXCLUDE are hard-dropped from a confidence ranking regardless of score).
+    thesis_fit is NOT filtered here — each row carries `thesis_eligible` so the
+    two rankings can be sliced downstream."""
     d = load_json(os.path.join(DATA_DIR, "master-scores.json"))
     ranked = d["ranked"]
-    elig = [
-        x for x in ranked
-        if x.get("thesis_fit") in ELIGIBLE_THESIS and x.get("red_flag_tier") in (None, "")
-    ]
+    elig = [x for x in ranked if x.get("red_flag_tier") in (None, "")]
     out = []
     for x in elig:
         slug = x["slug"]
@@ -55,7 +67,8 @@ def build_universe():
             "name": x["name"],
             "master_score": x["master_score"],
             "conviction_label": x["conviction"],
-            "thesis_fit": x["thesis_fit"],
+            "thesis_fit": x.get("thesis_fit"),
+            "thesis_eligible": x.get("thesis_fit") in ELIGIBLE_THESIS,
             "sb": x["score_breakdown"],
         }
         if os.path.exists(path):
@@ -214,33 +227,9 @@ def current_holdings():
     return names
 
 
-def main():
-    universe, total_deepdived = build_universe()
-    for x in universe:
-        x["blended_fundamental"] = blend_fundamental(x)
-    universe.sort(key=lambda x: -x["blended_fundamental"])
-
-    full_coverage_count = sum(1 for x in universe if x["sb"]["weight_coverage"] >= 0.85)
-
-    top = universe[:TECH_SCAN_BUFFER]
-    print(f"Running live technical scan for {len(top)} candidates...", file=sys.stderr)
-    for i, x in enumerate(top):
-        x["tech"] = technical_read(x["name"])
-        if i % 20 == 0:
-            print(f"  ...{i}/{len(top)}", file=sys.stderr)
-
-    for x in top:
-        adj = tech_adjustment(x["tech"])
-        x["tech_adj"] = adj
-        x["confidence_pct"] = round(max(5, min(96, x["blended_fundamental"] + adj)))
-
-    top.sort(key=lambda x: (-x["confidence_pct"], -x["blended_fundamental"]))
-    final = top[:TOP_N]
-
-    holdings = current_holdings()
-
+def make_rows(ordered, holdings):
     rows = []
-    for i, x in enumerate(final):
+    for i, x in enumerate(ordered):
         sb = x["sb"]
         name = clean_name(x["name"])
         rows.append({
@@ -257,21 +246,70 @@ def main():
             "weight_coverage": sb.get("weight_coverage"),
             "conviction_label": x.get("conviction_label"),
             "market_cap_tier": x.get("market_cap_tier"),
+            "thesis_fit": x.get("thesis_fit") or "neither",
+            "thesis_eligible": bool(x.get("thesis_eligible")),
             "tagline": (x.get("tagline") or "")[:160],
             "technical": tech_str(x["tech"]),
             "in_current_portfolio": name in holdings,
         })
+    return rows
+
+
+def main():
+    universe, total_deepdived = build_universe()
+    for x in universe:
+        x["blended_fundamental"] = blend_fundamental(x)
+    universe.sort(key=lambda x: -x["blended_fundamental"])
+
+    full_coverage_count = sum(1 for x in universe if x["sb"]["weight_coverage"] >= 0.85)
+    thesis_universe_count = sum(1 for x in universe if x["thesis_eligible"])
+
+    # Scan the union of (overall top buffer) and (thesis-eligible top buffer) so
+    # both rankings have live technicals for every name that could land in their
+    # top 100. Thesis-eligible is a subset, but its members can rank lower on the
+    # blended fundamental than the overall cut, so scan them explicitly.
+    overall_head = universe[:TECH_SCAN_BUFFER]
+    thesis_head = [x for x in universe if x["thesis_eligible"]][:TECH_SCAN_BUFFER]
+    scan = list({id(x): x for x in overall_head + thesis_head}.values())
+
+    print(f"Running live technical scan for {len(scan)} candidates "
+          f"({len(overall_head)} overall-head + {len(thesis_head)} thesis-head, deduped)...",
+          file=sys.stderr)
+    for i, x in enumerate(scan):
+        x["tech"] = technical_read(x["name"])
+        if i % 20 == 0:
+            print(f"  ...{i}/{len(scan)}", file=sys.stderr)
+
+    for x in scan:
+        adj = tech_adjustment(x["tech"])
+        x["tech_adj"] = adj
+        x["confidence_pct"] = round(max(5, min(96, x["blended_fundamental"] + adj)))
+
+    holdings = current_holdings()
+
+    overall_sorted = sorted(scan, key=lambda x: (-x["confidence_pct"], -x["blended_fundamental"]))
+    rows_overall = make_rows(overall_sorted[:TOP_N], holdings)
+
+    thesis_sorted = sorted(
+        [x for x in scan if x["thesis_eligible"]],
+        key=lambda x: (-x["confidence_pct"], -x["blended_fundamental"]),
+    )
+    rows_thesis = make_rows(thesis_sorted[:TOP_N], holdings)
 
     stats = {
         "total_deepdived": total_deepdived,
-        "eligible_count": len(universe),
+        "eligible_overall": len(universe),
+        "eligible_thesis": thesis_universe_count,
+        # kept for backward compat with older template copies
+        "eligible_count": thesis_universe_count,
         "full_coverage_count": full_coverage_count,
         "asof_date": datetime.datetime.now().strftime("%-d %b %Y"),
     }
 
     template_path = os.path.join(ARTIFACTS_DIR, "confluence100_template.html")
     html = open(template_path).read()
-    html = html.replace("__ROWS_JSON__", json.dumps(rows, ensure_ascii=False))
+    html = html.replace("__ROWS_OVERALL_JSON__", json.dumps(rows_overall, ensure_ascii=False))
+    html = html.replace("__ROWS_THESIS_JSON__", json.dumps(rows_thesis, ensure_ascii=False))
     html = html.replace("__STATS_JSON__", json.dumps(stats, ensure_ascii=False))
     html = html.replace("__ASOF_DATE__", stats["asof_date"])
 
@@ -279,19 +317,34 @@ def main():
     with open(out_path, "w") as f:
         f.write(html)
 
-    # Machine-readable sidecar (slugs + ranks) — consumed by build_deepdive_queue.py
-    # to prioritize deep-dive coverage of the current Confluence 100 membership.
+    # Machine-readable sidecar — consumed by build_deepdive_queue.py to prioritize
+    # deep-dive coverage of current Confluence-100 membership. `rows` keeps the
+    # union of both lists (deduped by slug) so a name in either ranking counts.
+    seen, union = set(), []
+    for r in rows_overall + rows_thesis:
+        if r["slug"] in seen:
+            continue
+        seen.add(r["slug"])
+        union.append(r)
     json_path = os.path.join(DATA_DIR, "confluence100.json")
     with open(json_path, "w") as f:
-        json.dump({"generated": stats["asof_date"], "rows": rows}, f, indent=2, ensure_ascii=False)
+        json.dump({
+            "generated": stats["asof_date"],
+            "rows": union,
+            "rows_overall": rows_overall,
+            "rows_thesis": rows_thesis,
+        }, f, indent=2, ensure_ascii=False)
 
-    resolved = sum(1 for x in final if x["tech"].get("status") == "ok")
+    res_o = sum(1 for x in overall_sorted[:TOP_N] if x["tech"].get("status") == "ok")
+    res_t = sum(1 for x in thesis_sorted[:TOP_N] if x["tech"].get("status") == "ok")
     print(f"Wrote {out_path}")
     print(f"Wrote {json_path}")
-    print(f"Universe: {total_deepdived} deepdived, {len(universe)} eligible, "
-          f"{full_coverage_count} fully cross-scored.")
-    print(f"Top {TOP_N}: {resolved}/{TOP_N} technicals resolved, "
-          f"{sum(1 for r in rows if r['in_current_portfolio'])} flagged as current holdings.")
+    print(f"Universe: {total_deepdived} deepdived, {len(universe)} no-red-flag "
+          f"({thesis_universe_count} also thesis-eligible), {full_coverage_count} fully cross-scored.")
+    print(f"Overall 100: {res_o}/{TOP_N} technicals resolved. "
+          f"Thesis 100: {res_t}/{TOP_N} technicals resolved. "
+          f"Union sidecar: {len(union)} unique names, "
+          f"{sum(1 for r in union if r['in_current_portfolio'])} flagged as current holdings.")
 
 
 if __name__ == "__main__":

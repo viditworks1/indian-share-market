@@ -134,6 +134,12 @@ Decision table — the allowed `thesis_fit` given `four_box.score`:
 | **2.0–2.5** | `neither` **UNLESS** a written exception in `verdict_reasoning`: `valuation` box = `yes`, **or** growth is un-ignorable (phreak's carve-out), **or** the large-cap named-inflection exception — then the return-magnitude label is allowed but conviction caps at **Medium** with an "unconfirmed" caveat |
 | **≤ 1.5** | `thesis_fit: "neither"`, hard — no exception |
 
+When `score >= 3.0` but you deliberately keep `thesis_fit: "neither"` (size / return-magnitude /
+capital-intensity call the mechanical boxes don't capture — the "Nesco logic"), set
+`"analyst_override": true` inside the `four_box` block and put the one-line reason in `note`.
+`audit_state.py` then treats it as intentional instead of re-flagging it as an understated
+mismatch every run.
+
 Interactions (unchanged, they just feed the boxes now): small/mid-cap live inflection → a real
 recent-quarter inflection counts as `tailwind: yes` / `tam: yes` even if the 3–5yr average is
 weak. Genuine large-cap → `tam: no` (can't get the headroom) → score < 3 → `neither` unless the

@@ -25,7 +25,7 @@
     ],
     [
       "Valuation",
-      "~12x TTM sales — rich"
+      "~69x P/E trailing (screener, Sep-2026), ~10x sales — rich"
     ]
   ],
   "fundamentals_narrative": "Growth and return ratios look strong for an SME, but the market prices ~12x sales, discounting years of flawless execution. The Rs 1,200 Cr order book is ~6x revenue and skews toward higher-margin defence/marine, supporting management's aim to lift the defence/marine mix toward 50% over 3-5 years (auto-component margins are stated at 10-15%, marine/defence pull the blended OPM to ~18%). Rising land/plant additions (Sanand machining unit, ~Rs 49 Cr/yr incremental from Q4 FY27; Maharashtra integrated facility) are the near-term capex.",
@@ -44,6 +44,88 @@
     "Once-a-year concall = thin disclosure; scaling complex machining/forging from a small, fragmented base is hard",
     "Rising debtor days flagged; capex-funding and working-capital needs grow with the order book"
   ],
+  "commitments": [
+    {
+      "area": "orders",
+      "text": "Execute the ~Rs 1,200 Cr order book, weighted to defence/marine",
+      "specifics": "~5.5x FY26 revenue; mostly nominated auto + defence/marine",
+      "timeline_bucket": "beyond",
+      "quality_stage": "commercial",
+      "source": "FY26 investor release / VP thread",
+      "dependency": "capacity ramp + defence/marine qualification cycles",
+      "single_point_of_failure": "shop-floor machining capacity vs outsourced job-work; working-capital funding",
+      "thesis_critical": true
+    },
+    {
+      "area": "margin",
+      "text": "Lift defence/marine to ~50% of revenue to hold/expand blended OPM ~18%",
+      "specifics": "auto parts 10-15% OPM; marine/defence pull blended to ~18%",
+      "timeline_bucket": "beyond",
+      "quality_stage": "expectation",
+      "source": "management commentary (annual concall)",
+      "dependency": "qualification wins + mix shift over 3-5 years",
+      "single_point_of_failure": "defence approval timelines",
+      "thesis_critical": true
+    },
+    {
+      "area": "capacity",
+      "text": "Sanand machining unit + Maharashtra integrated facility",
+      "specifics": "Sanand ~Rs 49 Cr/yr incremental revenue from Q4 FY27; land acquired for integrated plant",
+      "timeline_bucket": "FY27",
+      "quality_stage": "operational",
+      "source": "FY26 disclosures",
+      "dependency": "commissioning on schedule; capex funding",
+      "single_point_of_failure": "capex slippage / cost overrun",
+      "thesis_critical": true
+    }
+  ],
+  "earnings_chain": {
+    "chain": [
+      "order book (~Rs 1,200 Cr)",
+      "capacity ramp (forging + Sanand + integrated facility)",
+      "revenue conversion",
+      "defence/marine mix shift",
+      "blended OPM ~18% held",
+      "PAT",
+      "FCF (negative until capex cycle ends)"
+    ],
+    "bottleneck_link": "capacity ramp (forging + Sanand + integrated facility)",
+    "operating_leverage": "unclear - OPM has been flat ~18% while revenue tripled, so leverage is offset by mix/cost; management expects mix to drive future margin, not scale",
+    "evidenced_links": [
+      "order book (~Rs 1,200 Cr)",
+      "revenue conversion",
+      "blended OPM ~18% held"
+    ],
+    "assumed_links": [
+      "capacity ramp (forging + Sanand + integrated facility)",
+      "defence/marine mix shift",
+      "FCF (negative until capex cycle ends)"
+    ]
+  },
+  "market_expectation": {
+    "as_of": "2026-09-08",
+    "price": null,
+    "current_pe": 69,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~69x trailing implies ~35-40% EPS CAGR FY26-28 to be fair against a ~25x exit as it graduates from SME; order book + Sanand make FY27-28 plausible, beyond that is a bet on the defence/marine mix",
+    "our_fy27_estimate": "revenue +45-55% (Rs 320-340 Cr), OPM ~17-18%, PAT +50%+",
+    "our_fy28_estimate": "revenue +30-40% as Sanand + integrated facility contribute; OPM sustainability the swing factor",
+    "gap_direction": "priced-in",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "near-term growth is visible and roughly in the multiple; the market is also paying for the mix-driven margin story and for the job-work question to resolve benign",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "catalyst": {
+    "event": "FY27 annual concall + H2 FY27 prints: Sanand commissioning on schedule, OPM holding ~18%, and disclosure that clarifies in-house machining content vs job-work",
+    "expected_window_months": 9,
+    "window_start": "2026-09-08",
+    "evidence_quality": "low",
+    "is_dated": false,
+    "status": "pending"
+  },
   "value_chain": {
     "theme": "Precision machined/forged components for auto, defence, marine, renewables",
     "position": "Tier-2/Tier-1 component supplier; nominated auto business is sticky, defence/marine is the value-add push",
@@ -57,9 +139,94 @@
     ],
     "note": "Order book implies the demand-side is secured; the open question is whether OBSC's own capacity/skill (vs outsourced job-work) can execute the machining content at the stated margins."
   },
-  "market_cap_tier": "Small-cap (~Rs 2,238 Cr)",
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-08",
+    "sources_reviewed": [
+      "screener.in OBSCP (5yr P&L, ROCE/ROE, borrowings, cash flow, quarterly sequence, shareholding)",
+      "Q1FY27 results coverage (tradebrains, trendlyne) - consol rev Rs 78.7 Cr (+84.5% YoY), PAT Rs 9.47 Cr (+87.9% YoY)",
+      "FY26 annual results (scanx, goodreturns) - rev Rs 219.5 Cr (+53.8%), PAT Rs 27 Cr (+61.2%)",
+      "NSE investor release Nov-2025",
+      "existing ValuePickr thread (34 posts, plant visits, employee-cost debate)"
+    ],
+    "annual_report_findings": [
+      "Revenue scaled Rs 56 Cr FY22 -> Rs 220 Cr FY26 (~41% CAGR); FY26 +54% - genuine top-line acceleration",
+      "OPM has held ~18% for three straight years (FY24-FY26) through the scale-up - the margin has not faded post-IPO, which was the central bear worry",
+      "ROCE ~19.5% and ROE ~20% FY26 (5yr ROE 25%) - strong capital efficiency for the size",
+      "Capex ramp is very heavy: FY26 capex Rs 76 Cr vs CFO -Rs 2 Cr => FCF ~ -Rs 79 Cr; FY25 FCF -Rs 24 Cr. Two consecutive years of large negative FCF funding forging + Sanand + integrated facility",
+      "Borrowings up Rs 19 Cr (FY22) -> Rs 69 Cr (FY26); D/E still modest (~0.2-0.3x) but rising with the order book and working capital",
+      "Promoter holding 69.8%, stable; no disclosed pledge",
+      "Employee cost as a % of sales remains structurally below precision-engineering peers (Sansera/RACL) - the thread's outsourced-job-work question is not resolved by the FY26 filing"
+    ],
+    "quarterly_trend": [
+      "Sales oldest->newest (Rs Cr): 34.8 (Dec24), 40.3 (Mar25), 41.9 (Jun25), 46.8 (Sep25), 59.4 (Dec25), 71.5 (Mar26), 77.3 (Jun26) - steep, steady sequential ramp",
+      "OPM by quarter: 20.1%, 15.8%, 17.9%, 18.1%, 19.3%, 17.1%, 17.9% - broadly stable in a 16-20% band",
+      "PAT oldest->newest (Rs Cr): 4.4, 5.1, 5.0, 5.5, 7.9, 8.7, 9.5",
+      "Q1FY27 YoY: revenue +84.5%, PAT +87.9% - acceleration, not deceleration"
+    ],
+    "recent_announcements": [
+      "Order book maintained at Rs 1,200 Cr+ (~5.5x FY26 revenue), mix skewing to defence/marine",
+      "~Rs 10.6 Cr export order from a French firm (defence/marine adjacency)",
+      "Sanand machining unit - incremental ~Rs 49 Cr/yr revenue from Q4 FY27; Maharashtra integrated facility land acquired",
+      "First in-house forging plant (hot + cold), Pune - capability addition with orders in hand"
+    ],
+    "key_new_facts": [
+      "Margins held ~18% across the entire FY24-FY26 scale-up and into Q1FY27 - the main bear thesis (post-IPO margin fade) has not played out over 2+ years",
+      "FCF has been deeply negative two years running (-Rs 24 Cr, -Rs 79 Cr); the growth is real but entirely capex/working-capital-funded",
+      "P/E ~69x (screener, Sep-2026); mcap ~Rs 2,180 Cr - still discounting flawless execution",
+      "The employee-cost / in-house-machining-vs-job-work question is still open after another full year of filings"
+    ],
+    "open_questions": [
+      "Is the reported ~18% OPM genuine value-add machining, or is finishing/assembly on outsourced job-work flattering the employee-cost line?",
+      "When does FCF inflect - the integrated facility + Sanand capex still ahead, so possibly not before FY28",
+      "Can defence/marine qualification cycles actually lift the mix to the stated ~50% in 3-5 years, and hold blended OPM there?",
+      "Only one concall a year - disclosure cadence is thin for a name at this multiple"
+    ],
+    "conviction_update": "Medium -> Medium. Two more years of held ~18% margins and accelerating growth (Q1FY27 rev +85%) materially answer the margin-fade bear case; but deeply negative FCF, a ~69x multiple, the unresolved job-work question and no trusted-roster engagement (only an informational X tip) keep it from an upgrade."
+  },
+  "growth_trajectory": {
+    "yoy_trend": "accelerating",
+    "last_quarters_note": "Annual revenue YoY: FY23 +70%, FY24 +21%, FY25 +23%, FY26 +54%; recent quarterly YoY running +50-85% (Q1FY27 +84.5%). Order book ~5.5x revenue underpins continued high growth into FY27-28.",
+    "reverse_pe_note": "~69x trailing needs ~35-40% EPS CAGR FY26-28 at a ~25x SME-graduating exit; the order book and Sanand ramp support that near-term, but the multiple leaves nothing for the job-work/margin question going the wrong way"
+  },
+  "earnings_quality": {
+    "margin_driver": "mixed",
+    "drivers": [
+      "defence/marine and export mix (higher value-add than nominated auto)",
+      "low reported employee cost (structurally below peers - possibly job-work outsourcing)",
+      "operating leverage on a fast-growing revenue base"
+    ],
+    "peak_margin_risk": false,
+    "normalised_note": "OPM ~18% has held for 3 years and into Q1FY27, so it is not an obvious spike above a through-cycle level. The risk is not mean-reversion from a peak but that the margin is partly an artefact of outsourced job-work rather than owned machining - a quality question, not a peak-cycle question."
+  },
+  "management_quality": {
+    "capital_allocation": "All reinvestment is in-domain (forging, machining capacity, integrated facility); incremental ROCE has held ~19-20% while scaling 3x, so the reinvestment is earning its keep so far. But FCF is deeply negative and the biggest capex (integrated facility) is still ahead - the discipline claim is unproven through a full cycle.",
+    "capital_allocation_track_record": "neutral",
+    "rpt_trend": "unclear",
+    "guidance_credibility": "no-track-record",
+    "shareholder_returns": "none",
+    "capability_ladder_note": "Explicit push up the value curve - machining/casting -> in-house forging -> defence/marine/aerospace components; land acquired to consolidate 4-5 fragmented plants into one integrated facility",
+    "assessment": "neutral"
+  },
+  "quality_metrics": {
+    "roce_pct": 19.5,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": 1.0,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -120,
+    "margin_trend": "stable",
+    "capex_efficiency": "productive",
+    "assessment": "neutral"
+  },
+  "track_record": {
+    "years_checked": 3,
+    "years_cleared": 3,
+    "note": "FY24-FY26 each had revenue growth >=20% and ROCE ~18-20% (>=15%). FY22-FY23 pre-IPO figures are less reliable and FY23 OPM dipped to 10% with flat PAT, so not counted. The 3-year clean run is real but short, and the low-employee-cost anomaly is an open question over how 'real' the reported returns are."
+  },
+  "market_cap_tier": "Small-cap (~Rs 2,180 Cr)",
   "thesis_fit": "10x-in-2-3-years",
-  "verdict_headline": "Credible high-growth SME story — order book supports it, but valuation and the outsourcing/margin question keep conviction at Medium",
+  "conviction": "Medium",
+  "verdict_headline": "Credible high-growth SME story — order book and now three years of held ~18% margins support it, but negative FCF, ~69x P/E and the outsourcing/margin question keep conviction at Medium",
   "verdict_reasoning": [
     "Small-cap with strong recent growth and a specific, credible catalyst (a 6x book-to-bill order book weighted to margin-accretive defence/marine) — fits '10x-in-2-3-years' at LOW-MEDIUM conviction with an 'unconfirmed' caveat on margin sustainability.",
     "X signal (@LearningEleven, non-roster, x_conviction 'high') informational only — no conviction floor.",
@@ -74,6 +241,6 @@
     "moat": "weak",
     "valuation": "no",
     "score": 2.5,
-    "note": "Defence/marine mix-shift (target 50% of revenue in 3-5yrs) is a real margin-accretive tailwind; Rs1,200cr order book (~6x revenue) supports tam; nominated-auto stickiness + defence/marine qualification cycles are a real barrier but unresolved whether in-house machining vs outsourced job-work (employee-cost anomaly) — moat weak; ~12x sales already prices near-flawless execution — valuation no."
+    "note": "Defence/marine mix-shift (target 50% of revenue in 3-5yrs) is a real margin-accretive tailwind; Rs1,200cr order book (~5.5x revenue) supports tam; nominated-auto stickiness + defence/marine qualification cycles are a real barrier but unresolved whether in-house machining vs outsourced job-work (employee-cost anomaly) — moat weak; ~69x P/E / ~10x sales already prices near-flawless execution — valuation no. Score 2.5 -> 'neither' by default, but the written exception in verdict_reasoning (live small-cap inflection: Q1FY27 rev +85%, order book ~5.5x, margins held ~18% for 3yrs) keeps 10x-in-2-3-years at Medium with an 'unconfirmed' caveat on margin genuineness."
   }
 }

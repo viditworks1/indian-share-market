@@ -91,8 +91,8 @@ Run from the repo root:  python3 valuepickr-screen/scripts/build_deepdive_queue.
 """
 import json, os, glob, datetime
 
-ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-VP = os.path.join(ROOT, "valuepickr-screen")
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
+VP = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DATA = os.path.join(VP, "data")
 STATE = os.path.join(VP, "state.json")
 QUEUE = os.path.join(DATA, "deepdive-queue.json")

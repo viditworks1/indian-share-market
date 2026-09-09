@@ -46,7 +46,7 @@
     "Thread is 4 posts old — no independent scuttlebutt, governance or capital-allocation history vetted by the community yet"
   ],
   "market_cap_tier": "Micro-cap (~Rs 130–300 Cr)",
-  "thesis_fit": "10x-in-2-3-years",
+  "thesis_fit": "neither",
   "verdict_headline": "Real FY26 inflection + exceptional asset-light returns put it on the 10x map, but conviction is Low and unconfirmed — thin-spread commodity model, trimmed guidance, near-zero forum vetting",
   "verdict_reasoning": [
     "Per the recent-inflection rule: micro-cap with a strong, specific recent-quarter improvement (H1 FY26 +125%) and a credible near-term driver (gas-price surge) → 10x-in-2-3-years at LOW conviction with an explicit 'unconfirmed' caveat, not 'neither'",
@@ -62,6 +62,6 @@
     "moat": "no",
     "valuation": "weak",
     "score": 1.5,
-    "note": "Gas-price surge driver explicitly fragile ('how quickly the volume story can wobble'); verdict states aggregation spreads 'structurally thin' (moat=no)."
+    "note": "Gas-price surge driver explicitly fragile ('how quickly the volume story can wobble'); verdict states aggregation spreads 'structurally thin' (moat=no). [audit 2026-09-07: thesis_fit set to 'neither' to satisfy the four_box <=1.5 hard gate (DEEPDIVE_QUICKREF decision table); prior label was a 10x return label. vpscreen-rerank may revisit if boxes improve.]"
   }
 }

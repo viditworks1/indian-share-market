@@ -273,6 +273,32 @@
       "backfill_complete": true,
       "backfill_progress_post_number": null,
       "backfill_note": "Not yet backfilled. Thread last_posted_at=2020-01-01 (>6 years old) - entire thread is already past the 365-day depth cutoff, so the first backfill batch is expected to close out immediately with nothing processed (same pattern as Yogesh's/Chins'/Malhar's). | 2026-08-30: confirmed via topic JSON — posts_count=76, last_posted_at=2020-01-01 (~6.6 yr old), created 2016. Every post in the thread is older than the 365-day depth cutoff. Nothing beyond the topic JSON fetched, nothing processed; backfill_progress_post_number left null. Marked complete per the 1-year-cutoff criterion — whole thread is stale, not missed."
+    },
+    "malkds-core-portfolio": {
+      "topic_id": 39786,
+      "title": "Malkd's Core Portfolio",
+      "primary_author": "Malkd",
+      "trust_level": "auto-discovered",
+      "added_date": "2026-09-07",
+      "added_reason": "Title-pattern search ('investment journey portfolio'): rate-based gate 3027 likes / 947 posts = 3.2 likes/post (>=3.0), participant_count=129 (>=15), posts_count=947 (>=20) - PASSES. Author Malkd not in trusted_users.json - auto-discovered, lighter weight until proven. last_posted_at 2026-04-01.",
+      "last_post_number_seen": 0,
+      "last_checked_date": "2026-09-07",
+      "backfill_complete": false,
+      "backfill_progress_post_number": null,
+      "backfill_note": "Added 2026-09-07 via Step 5 discovery. Not yet backfilled."
+    },
+    "midhuns-investment-journey": {
+      "topic_id": 122104,
+      "title": "Midhun's Investment journey and Space to organize investment ideas",
+      "primary_author": "Midhunjoe",
+      "trust_level": "user-trusted",
+      "added_date": "2026-09-07",
+      "added_reason": "Title-pattern search ('investment journey portfolio'): rate-based gate 368 likes / 92 posts = 4.0 likes/post (>=3.0), participant_count=18 (>=15), posts_count=92 (>=20) - PASSES. Author Midhunjoe already in trusted_users.json (elevated, auto-promoted 2026-08-22) - added directly as user-trusted. Thread actively posted (last_posted_at 2026-09-07).",
+      "last_post_number_seen": 0,
+      "last_checked_date": "2026-09-07",
+      "backfill_complete": false,
+      "backfill_progress_post_number": null,
+      "backfill_note": "Added 2026-09-07 via Step 5 discovery. Not yet backfilled."
     }
   },
   "rejected": [
@@ -433,5 +459,5 @@
       "reason": "Rate-based gate failed: 1 like / 10 posts = 0.1 likes/post (<3.0 threshold), participant_count=5 (<15 threshold). Dormant since 2014-09-12."
     }
   ],
-  "last_updated": "2026-09-05"
+  "last_updated": "2026-09-07"
 }

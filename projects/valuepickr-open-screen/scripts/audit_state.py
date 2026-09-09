@@ -240,6 +240,7 @@ def main():
     #     block yet is skipped (deepdive-top100's rotation backfills it). ---
     fb_missing = 0
     fb_checked = 0
+    fb_override_kept = 0
     for slug, e in stocks.items():
         if e.get("status") != "researched" or e.get("red_flag_tier"):
             continue
@@ -269,10 +270,19 @@ def main():
             have_score = want_score  # judge the mismatch below on the true sum
         t = e.get("thesis_fit")
         if have_score >= 3.0 and t == "neither":
-            report.append(f"FOUR-BOX MISMATCH (thesis understated): {slug} four_box.score "
-                          f"{have_score} >= 3.0 but thesis_fit == 'neither'. Re-check against "
-                          f"analysis.md; if the boxes are right, thesis_fit should be a return "
-                          f"label (conviction unchanged).")
+            # score >= 3.0 only PERMITS a return label (DEEPDIVE_QUICKREF decision table),
+            # it does not require one. A deliberate 'neither' with a written rationale in the
+            # four_box note / verdict_reasoning carries analyst_override:true and is not a defect
+            # (size / return-magnitude / capital-intensity calls the mechanical boxes can't see -
+            # the "Nesco logic"). Count them so the suppression stays visible.
+            if fb.get("analyst_override"):
+                fb_override_kept += 1
+            else:
+                report.append(f"FOUR-BOX MISMATCH (thesis understated): {slug} four_box.score "
+                              f"{have_score} >= 3.0 but thesis_fit == 'neither'. Re-check against "
+                              f"analysis.md; if the boxes are right, thesis_fit should be a return "
+                              f"label (conviction unchanged). If the 'neither' is deliberate, add "
+                              f"four_box.analyst_override=true with the reason in the note.")
         elif have_score <= 1.5 and t in RETURN_LABELS:
             report.append(f"FOUR-BOX MISMATCH (thesis overstated): {slug} four_box.score "
                           f"{have_score} <= 1.5 but thesis_fit == '{t}'. That range is 'neither' "
@@ -281,6 +291,10 @@ def main():
         report.append(f"four_box coverage: {fb_checked} researched non-red-flag names have a "
                       f"block, {fb_missing} still missing (deepdive-top100 backfills these; a "
                       f"rising count means it isn't).")
+    if fb_override_kept:
+        report.append(f"four_box: {fb_override_kept} name(s) keep thesis_fit='neither' at "
+                      f"score>=3.0 via analyst_override (deliberate size/return-magnitude calls) "
+                      f"- suppressed from the understated-mismatch list, not a defect.")
 
     # --- 3. revisit_after_30d 3-part rule (mechanical, safe to auto-fix) ---
     for slug, e in stocks.items():

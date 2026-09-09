@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-05",
+  "generated": "2026-09-08",
   "selection": "status=researched, no red flag, thesis_fit!=neither, conviction_score>=35, no market_expectation block yet. Sorted by conviction_score desc. guidance-backfill drains this; entries drop off automatically once a market_expectation block exists (from here or deepdive-top100).",
-  "total": 53,
-  "pending": 53,
+  "total": 43,
+  "pending": 43,
   "queue": [
     {
       "slug": "hbl-engineering-booting",
@@ -47,46 +47,32 @@
       "rank": 3
     },
     {
-      "slug": "bhagyanagar-india",
-      "state_key": "bhagyanagar-india",
-      "name": "Bhagyanagar India Ltd",
-      "data_file": "data/bhagyanagar-india.json",
-      "conviction_score": 42.8,
+      "slug": "motherson",
+      "state_key": "motherson",
+      "name": "Samvardhana Motherson International",
+      "data_file": "data/motherson.json",
+      "conviction_score": 44.0,
       "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap",
+      "thesis_fit": "100x-in-10-years",
+      "market_cap_tier": "Large-cap (~Rs 1,69,293 Cr)",
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
       "rank": 4
     },
     {
-      "slug": "data-patterns",
-      "state_key": "data-patterns",
-      "name": "Data Patterns (India) Limited",
-      "data_file": "data/data-patterns.json",
-      "conviction_score": 42.8,
+      "slug": "tube-investments-ltd-diversified-engineering-company",
+      "state_key": "tube-investments-ltd-diversified-engineering-company",
+      "name": "Tube Investments Ltd ~ Diversified Engineering Company",
+      "data_file": "data/tube-investments-ltd-diversified-engineering-company.json",
+      "conviction_score": 44.0,
       "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small/Mid-cap (~Rs 27,040 Cr)",
+      "thesis_fit": "100x-in-10-years",
+      "market_cap_tier": "Large-cap (~Rs 52,226 Cr)",
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
       "rank": 5
-    },
-    {
-      "slug": "deep-industries",
-      "state_key": "deep-industries",
-      "name": "Deep Industries (DIL)",
-      "data_file": "data/deep-industries.json",
-      "conviction_score": 42.8,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-mid-cap (~Rs 4,416 Cr)",
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 6
     },
     {
       "slug": "electronics-mart-india",
@@ -100,7 +86,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 7
+      "rank": 6
     },
     {
       "slug": "indegene-ltd",
@@ -114,7 +100,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 8
+      "rank": 7
     },
     {
       "slug": "ngl-fine-chem-ltd",
@@ -128,7 +114,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 9
+      "rank": 8
     },
     {
       "slug": "privi-speciality-chemicals-ltd",
@@ -142,7 +128,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 10
+      "rank": 9
     },
     {
       "slug": "punjab-chemicals-crop-protection-ltd",
@@ -156,7 +142,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 11
+      "rank": 10
     },
     {
       "slug": "sml-isuzu",
@@ -170,21 +156,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 12
-    },
-    {
-      "slug": "surya-roshni-ltd",
-      "state_key": "surya-roshni-ltd",
-      "name": "Surya roshni ltd",
-      "data_file": "data/surya-roshni-ltd.json",
-      "conviction_score": 42.8,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap (~Rs 5,377 Cr)",
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 13
+      "rank": 11
     },
     {
       "slug": "time-technoplast",
@@ -198,7 +170,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 14
+      "rank": 12
     },
     {
       "slug": "vimta-labs-ltd",
@@ -212,7 +184,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 15
+      "rank": 13
     },
     {
       "slug": "alembic-pharma-oral-solids-injectables-onco-derma-opthalmic",
@@ -226,7 +198,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 16
+      "rank": 14
     },
     {
       "slug": "apcotex-industries-monopoly-in-synthetic-rubber",
@@ -240,7 +212,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 17
+      "rank": 15
     },
     {
       "slug": "csb-bank-ltd",
@@ -254,35 +226,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 18
-    },
-    {
-      "slug": "freshara-agro-exports",
-      "state_key": "freshara-agro-exports",
-      "name": "Freshara Agro Exports Ltd",
-      "data_file": "data/freshara-agro-exports.json",
-      "conviction_score": 42.32,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "micro-cap",
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 19
-    },
-    {
-      "slug": "sandhar-technologies-ltd",
-      "state_key": "sandhar-technologies-ltd",
-      "name": "Sandhar Technologies Ltd",
-      "data_file": "data/sandhar-technologies-ltd.json",
-      "conviction_score": 42.32,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-mid-cap (~Rs 4,012 Cr)",
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 20
+      "rank": 16
     },
     {
       "slug": "20-microns-micronized-to-nano",
@@ -296,7 +240,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 21
+      "rank": 17
     },
     {
       "slug": "alpex-solar",
@@ -310,21 +254,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 22
-    },
-    {
-      "slug": "alufluoride",
-      "state_key": "alufluoride",
-      "name": "Alufluoride Limited-conversion of waste into wealth",
-      "data_file": "data/alufluoride.json",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Micro-cap (~Rs 357 Cr)",
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 23
+      "rank": 18
     },
     {
       "slug": "apollo-micro-systems",
@@ -338,7 +268,21 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 24
+      "rank": 19
+    },
+    {
+      "slug": "aries-agro",
+      "state_key": "aries-agro",
+      "name": "Aries Agro Ltd",
+      "data_file": "data/aries-agro.json",
+      "conviction_score": 38.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Small-cap (~Rs 630 Cr)",
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 20
     },
     {
       "slug": "arman-financial-services",
@@ -352,7 +296,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 25
+      "rank": 21
     },
     {
       "slug": "asm-technologies",
@@ -366,7 +310,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 26
+      "rank": 22
     },
     {
       "slug": "capri-global-capital",
@@ -380,7 +324,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 27
+      "rank": 23
     },
     {
       "slug": "cff-fluid-control",
@@ -394,7 +338,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 28
+      "rank": 24
     },
     {
       "slug": "ddev-plastiks-industries",
@@ -408,7 +352,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 29
+      "rank": 25
     },
     {
       "slug": "esds-software",
@@ -422,21 +366,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 30
-    },
-    {
-      "slug": "goldiam-international-a-rare-shareholder-friendly-and-debt-free-jewelry-company",
-      "state_key": "goldiam-international-a-rare-shareholder-friendly-and-debt-free-jewelry-company",
-      "name": "Goldiam International : A rare shareholder friendly and debt free Jewelry company",
-      "data_file": "data/goldiam-international-a-rare-shareholder-friendly-and-debt-free-jewelry-company.json",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap (~Rs 5,782 Cr)",
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 31
+      "rank": 26
     },
     {
       "slug": "goodluck-india",
@@ -450,21 +380,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 32
-    },
-    {
-      "slug": "harshdeep-hortico",
-      "state_key": "harshdeep-hortico",
-      "name": "Harshdeep Hortico Ltd (SME)",
-      "data_file": "data/harshdeep-hortico.json",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Micro-cap / SME (~Rs 130 Cr)",
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 33
+      "rank": 27
     },
     {
       "slug": "hind-rectifiers",
@@ -478,7 +394,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 34
+      "rank": 28
     },
     {
       "slug": "indotech",
@@ -492,21 +408,35 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 35
+      "rank": 29
     },
     {
-      "slug": "jasch-industries",
-      "state_key": "jasch-industries",
-      "name": "Jasch Industries Ltd",
-      "data_file": "data/jasch-industries.json",
+      "slug": "jayaswal-neco",
+      "state_key": "jayaswal-neco",
+      "name": "Jayaswal Neco- Integrated Steel Player",
+      "data_file": "data/jayaswal-neco.json",
       "conviction_score": 38.0,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Micro-cap",
+      "market_cap_tier": "Small/Mid-cap (~Rs 8,642 Cr)",
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 36
+      "rank": 30
+    },
+    {
+      "slug": "jubilant-agri-and-consumer-products-ltd-a-hidden-gem-from-the-jubilant-group",
+      "state_key": "jubilant-agri-and-consumer-products-ltd-a-hidden-gem-from-the-jubilant-group",
+      "name": "Jubilant Agri and Consumer Products Ltd (JACPL) — A Hidden Gem from the Jubilant Group?",
+      "data_file": "data/jubilant-agri-and-consumer-products-ltd-a-hidden-gem-from-the-jubilant-group.json",
+      "conviction_score": 38.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Small/Mid-cap (~Rs 2,807 Cr)",
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 31
     },
     {
       "slug": "kernex-tcas-led-multi-year-growth-story",
@@ -520,7 +450,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 37
+      "rank": 32
     },
     {
       "slug": "marine-electricals-riding-the-waves-of-expansion",
@@ -534,7 +464,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 38
+      "rank": 33
     },
     {
       "slug": "matrimony-com",
@@ -548,7 +478,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 39
+      "rank": 34
     },
     {
       "slug": "obsc-perfection",
@@ -562,7 +492,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 40
+      "rank": 35
     },
     {
       "slug": "orchid-pharma-ltd",
@@ -576,35 +506,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 41
-    },
-    {
-      "slug": "quality-power-electrical-equipments",
-      "state_key": "quality-power-electrical-equipments",
-      "name": "Quality Power Electrical Equipments Ltd (QPOWER)",
-      "data_file": "data/quality-power-electrical-equipments.json",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Mid-cap (~Rs 10,337 Cr)",
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 42
-    },
-    {
-      "slug": "rain-industries",
-      "state_key": "rain-industries",
-      "name": "Rain Industries",
-      "data_file": "data/rain-industries.json",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap (~Rs 6,900 Cr)",
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 43
+      "rank": 36
     },
     {
       "slug": "repono-ltd",
@@ -618,7 +520,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 44
+      "rank": 37
     },
     {
       "slug": "rnit-ai-solutions-ltd",
@@ -632,7 +534,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 45
+      "rank": 38
     },
     {
       "slug": "senores-pharma",
@@ -646,7 +548,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 46
+      "rank": 39
     },
     {
       "slug": "south-west-pinnacle-exploration",
@@ -660,7 +562,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 47
+      "rank": 40
     },
     {
       "slug": "ugro-capital",
@@ -674,7 +576,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 48
+      "rank": 41
     },
     {
       "slug": "ujjivan-small-finance-bank",
@@ -688,49 +590,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 49
-    },
-    {
-      "slug": "vaibhav-global-vertically-integrated-value-e",
-      "state_key": "vaibhav-global-vertically-integrated-value-e",
-      "name": "Vaibhav Global ~ Vertically integrated value e-tailer of Jewellery and Lifestyle Products",
-      "data_file": "data/vaibhav-global-vertically-integrated-value-e.json",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small/Mid-cap (~Rs 3,750 Cr)",
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 50
-    },
-    {
-      "slug": "venky-india",
-      "state_key": "venky-india",
-      "name": "Venky India",
-      "data_file": "data/venky-india.json",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap (~Rs 2,100 Cr)",
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 51
-    },
-    {
-      "slug": "virtual-galaxy-infotech",
-      "state_key": "virtual-galaxy-infotech",
-      "name": "Virtual Galaxy Infotech Ltd",
-      "data_file": "data/virtual-galaxy-infotech.json",
-      "conviction_score": 38.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Micro-cap (~Rs 361 Cr)",
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 52
+      "rank": 42
     },
     {
       "slug": "emerald-finance",
@@ -744,7 +604,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 53
+      "rank": 43
     }
   ]
 }
