@@ -1,23 +1,25 @@
 #!/usr/bin/env python3
 """
-paper-trading/swing-6m/track.py -- daily mark-to-market for the 6-MONTH SWING portfolio.
+paper-trading/swing-6m/track.py -- daily mark-to-market for ALL 6-month swing cohorts.
 
-Run any weekday, alongside paper-trading/scripts/refresh.py. It:
-  1. loads the active portfolio (highest portfolio-v*.json in this folder),
-  2. marks every holding to market (latest Yahoo daily close),
-  3. computes value / 1-day / return-since-inception, distance-to-stop, and 30W EMA posture,
-  4. raises rule flags: STOP HIT, NEAR STOP (<=3%), EMA BREAK (2 weekly closes below 30W EMA),
-  5. compares to a small-cap benchmark over the identical window,
-  6. appends today's snapshot to history.json (one per date, latest write wins),
-  7. regenerates TRACKER.md and prints a summary.
+Since 2026-09-11 this is a WEEKLY, append-only cohort series (swing-6m/cohorts.json),
+mirroring the pattern already used for the standard/concentrated paper-trading cohorts:
+every Monday a NEW frozen Rs 1,00,000 swing portfolio is decided (picks from
+swing_screen.py's momentum+catalyst score, sized by hand per the SKILL) and then left
+untouched for its own 6-month horizon and per-holding -16% hard stops -- never
+rebalanced, never replaced. (Before this, there was a single ongoing book,
+portfolio-v1.json, re-screened monthly; that book is now cohort "2026-W36-inaugural"
+in cohorts.json, migrated byte-for-byte, and keeps running to its original
+2027-03-03 horizon under the same rules.)
 
-This is an ACTIVELY-MANAGED book: this script does NOT sell anything. It surfaces when a
-rule has triggered so the monthly review (or an ad-hoc call) can act. Methodology +
-reasoning: docs/SWING_6M_PORTFOLIO.md. Reuses fetch/EMA helpers from ../scripts/refresh.py.
-No third-party deps.
+Run any weekday, alongside ../scripts/refresh.py (which invokes this as a subprocess).
+This is an ACTIVELY-MANAGED-PER-COHORT book: this script does NOT sell anything. It
+surfaces when a rule has triggered so the monthly review (or an ad-hoc call) can act.
+Methodology + reasoning: SWING_6M_PORTFOLIO.md. Reuses fetch/EMA helpers from
+../scripts/refresh.py. No third-party deps.
 """
 
-import json, os, sys, glob, datetime, importlib.util
+import json, os, sys, datetime, importlib.util
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
@@ -32,11 +34,13 @@ BENCHMARKS = [
     ("Nifty Smallcap 100", "^CNXSC"),
     ("BSE SmallCap", "BSE-SMLCAP.BO"),
 ]
+COHORTS_PATH = os.path.join(HERE, "cohorts.json")
+HIST_PATH = os.path.join(HERE, "history.json")
+TRACKER_PATH = os.path.join(HERE, "TRACKER.md")
 
 
 def latest_daily(sym):
-    rows = rf._yahoo(sym, "1y", "1d")
-    return rows or []
+    return rf._yahoo(sym, "1y", "1d") or []
 
 
 def close_asof(rows, d):
@@ -57,49 +61,35 @@ def weekly_ema_posture(sym, span=30):
     return {"ext_pct": round(ext, 1), "ema": round(e[-1], 2), "below_2_weeks": below2, "as_of": closed[-1][0].isoformat()}
 
 
-def active_portfolio_file():
-    cands = sorted(glob.glob(os.path.join(HERE, "portfolio-v*.json")))
-    if not cands:
-        sys.exit("no portfolio-v*.json in " + HERE)
-    return cands[-1]
+def benchmark_since(start_date):
+    for label, sym in BENCHMARKS:
+        b = latest_daily(sym)
+        if not b:
+            continue
+        _, p0 = close_asof(b, start_date)
+        p1 = b[-1][1]
+        if p0:
+            return {"label": label, "symbol": sym, "start": round(p0, 2), "now": round(p1, 2),
+                    "return_pct": round((p1 / p0 - 1) * 100, 2), "as_of": b[-1][0].isoformat()}
+    return None
 
 
-def main():
-    pf_path = active_portfolio_file()
-    P = json.load(open(pf_path))
-    start_date = datetime.date.fromisoformat(P.get("entry_price_date", P["decided_date"]))
-    horizon_end = P.get("horizon_end_date")
-    cap_start = P.get("capital", CAPITAL_INCEPTION)
-    cash = P["cash"]
-    today = datetime.date.today()
-
-    hist_path = os.path.join(HERE, "history.json")
-    hist = json.load(open(hist_path)) if os.path.exists(hist_path) else {
-        "_readme": "Append-only daily snapshots for the 6-month swing portfolio. One per date, latest write wins. Script-owned (track.py).",
-        "snapshots": [],
-    }
-    prev = [s for s in hist["snapshots"] if s["date"] < today.isoformat()]
-    prev_snap = prev[-1] if prev else None
-
+def mark_cohort(c, prev_snap, today):
+    start_date = datetime.date.fromisoformat(c.get("entry_price_date", c["decided_date"]))
     rows, total_val, fetch_fail = [], 0.0, []
-    for h in P["holdings"]:
+    for h in c["holdings"]:
         sym = h["symbol"]
         dseries = latest_daily(sym)
         if not dseries:
             fetch_fail.append(sym)
-            price, pdate = h["entry_price"], None
-            stale = True
+            price, pdate, stale = h["entry_price"], None, True
         else:
             price, pdate = dseries[-1][1], dseries[-1][0]
             stale = pdate < today
         value = h["shares"] * price
         total_val += value
         ret_pct = (price / h["entry_price"] - 1) * 100
-        # 1-day
-        if dseries and len(dseries) >= 2:
-            day_pct = (dseries[-1][1] / dseries[-2][1] - 1) * 100
-        else:
-            day_pct = None
+        day_pct = (dseries[-1][1] / dseries[-2][1] - 1) * 100 if dseries and len(dseries) >= 2 else None
         dist_stop = (price / h["hard_stop"] - 1) * 100  # +% = cushion above stop
         post = weekly_ema_posture(sym)
         flags = []
@@ -120,104 +110,129 @@ def main():
             "ext_vs_30w_ema_pct": post["ext_pct"] if post else None,
             "catalyst": h.get("catalyst", ""), "flags": flags,
         })
-
+    cash = c["cash"]
     port_value = round(total_val + cash, 2)
-    port_ret = round((port_value / CAPITAL_INCEPTION - 1) * 100, 2)
-    day_change_pct = None
-    if prev_snap:
-        day_change_pct = round((port_value / prev_snap["port_value"] - 1) * 100, 2)
-
-    # benchmark since start_date
-    bench = None
-    for label, sym in BENCHMARKS:
-        b = latest_daily(sym)
-        if not b:
-            continue
-        _, p0 = close_asof(b, start_date)
-        p1 = b[-1][1]
-        if p0:
-            bench = {"label": label, "symbol": sym, "start": round(p0, 2), "now": round(p1, 2),
-                     "return_pct": round((p1 / p0 - 1) * 100, 2), "as_of": b[-1][0].isoformat()}
-            break
-
+    port_ret = round((port_value / c.get("capital", CAPITAL_INCEPTION) - 1) * 100, 2)
+    day_change_pct = round((port_value / prev_snap["port_value"] - 1) * 100, 2) if prev_snap else None
+    bench = benchmark_since(start_date)
     alpha = None if bench is None else round(port_ret - bench["return_pct"], 2)
     all_flags = sorted({f for r in rows for f in r["flags"]})
-
+    horizon_end = c.get("horizon_end_date")
+    dte = (datetime.date.fromisoformat(horizon_end) - today).days if horizon_end else None
     snap = {
-        "date": today.isoformat(), "portfolio_version": P.get("version", os.path.basename(pf_path)),
+        "date": today.isoformat(), "week_id": c["week_id"], "series": "swing",
+        "decided_date": c["decided_date"], "entry_price_date": c["entry_price_date"],
+        "horizon_end_date": horizon_end, "days_to_horizon": dte,
         "port_value": port_value, "port_return_pct": port_ret, "day_change_pct": day_change_pct,
         "invested_value": round(total_val, 2), "cash": cash,
-        "benchmark": bench, "alpha_pct": alpha,
-        "flags": all_flags, "holdings": rows,
+        "benchmark": bench, "alpha_pct": alpha, "flags": all_flags, "holdings": rows,
     }
-    hist["snapshots"] = [s for s in hist["snapshots"] if s["date"] != today.isoformat()] + [snap]
-    hist["snapshots"].sort(key=lambda s: s["date"])
-    json.dump(hist, open(hist_path, "w"), indent=2)
+    return snap, fetch_fail
 
-    write_tracker(P, snap, hist, pf_path, horizon_end)
 
-    # ---- console summary ----
-    print(f"swing-6m track -- {today} ({datetime.datetime.now():%Y-%m-%d %H:%M})  [{P.get('version','?')}]")
+def main():
+    doc = json.load(open(COHORTS_PATH))
+    cohorts = doc["cohorts"]
+    today = datetime.date.today()
+
+    hist = json.load(open(HIST_PATH)) if os.path.exists(HIST_PATH) else {
+        "_readme": "Append-only daily snapshots for the swing-6m cohorts. One per (date, week_id). "
+                   "Script-owned (track.py).",
+        "snapshots": [],
+    }
+    prev_by_week = {}
+    for s in sorted(hist["snapshots"], key=lambda s: s["date"]):
+        if s["date"] < today.isoformat():
+            prev_by_week[s["week_id"]] = s
+
+    marked, all_fail = [], []
+    for c in cohorts:
+        snap, fail = mark_cohort(c, prev_by_week.get(c["week_id"]), today)
+        marked.append(snap)
+        all_fail.extend(fail)
+
+    hist["snapshots"] = [s for s in hist["snapshots"] if s["date"] != today.isoformat()] + marked
+    hist["snapshots"].sort(key=lambda s: (s["date"], s["week_id"]))
+    with open(HIST_PATH, "w") as f:
+        json.dump(hist, f, indent=2)
+        f.write("\n")
+
+    write_tracker(marked, hist)
+
+    print(f"swing-6m track -- {today} ({datetime.datetime.now():%Y-%m-%d %H:%M})  [{len(marked)} cohort(s)]")
     print("-" * 64)
-    for r in sorted(rows, key=lambda z: z["return_pct"]):
-        d = "" if r["day_change_pct"] is None else f"{r['day_change_pct']:+.2f}%"
-        star = "  <<< " + ", ".join(r["flags"]) if r["flags"] else ""
-        print(f"  {r['name']:<24} {r['return_pct']:+6.2f}%  (1d {d:>7})  stop {r['dist_to_stop_pct']:+5.1f}%  ema {r['ext_vs_30w_ema_pct']}{star}")
-    print("-" * 64)
-    d = "" if day_change_pct is None else f"{day_change_pct:+.2f}%"
-    print(f"  PORTFOLIO  Rs {port_value:,.2f}   total {port_ret:+.2f}%   1d {d}")
-    if bench:
-        print(f"  BENCHMARK  {bench['label']}: {bench['return_pct']:+.2f}%   ALPHA {alpha:+.2f} pp   (since {start_date})")
-    else:
-        print("  BENCHMARK  !! no benchmark series fetched")
-    if fetch_fail:
-        print(f"  !! fetch failed (carried entry price): {', '.join(fetch_fail)}")
-    if all_flags:
-        print("  !! RULE FLAGS: " + " | ".join(all_flags))
-    else:
-        print("  no rule flags")
+    for m in marked:
+        d = "  n/a " if m["day_change_pct"] is None else f"{m['day_change_pct']:+6.2f}"
+        dte = "" if m["days_to_horizon"] is None else f"  {m['days_to_horizon']}d to horizon"
+        print(f"  {m['week_id']:<22} value {m['port_value']:>12,.2f}  1d {d}%  total {m['port_return_pct']:+7.2f}%{dte}")
+        if m["flags"]:
+            print(f"      !! RULE FLAGS: {' | '.join(m['flags'])}")
+    if len(marked) >= 2:
+        avg = sum(m["port_return_pct"] for m in marked) / len(marked)
+        print(f"  [swing avg] {avg:+.2f}% over {len(marked)} cohort(s)")
+    if all_fail:
+        print(f"  !! fetch failed (carried entry price): {', '.join(sorted(set(all_fail)))}")
+    print()
 
 
-def write_tracker(P, snap, hist, pf_path, horizon_end):
+def write_tracker(marked, hist):
     L = []
     a = L.append
-    a(f"# 6-Month Swing Portfolio -- Returns Tracker\n")
-    a(f"_Regenerated by `paper-trading/swing-6m/track.py` on {snap['date']}. Do not hand-edit._\n")
-    a(f"- Active portfolio: `{os.path.basename(pf_path)}` ({P.get('version','?')}), started {P.get('entry_price_date')}, horizon ends {horizon_end}")
-    a(f"- Reference doc: `docs/SWING_6M_PORTFOLIO.md`")
-    b = snap["benchmark"]
-    if b:
-        a(f"- Benchmark: {b['label']} ({b['symbol']}) -- proxy for {P.get('benchmark','')}\n")
-    a(f"\n## Mark-to-market -- {snap['date']}\n")
-    d = "" if snap["day_change_pct"] is None else f"{snap['day_change_pct']:+.2f}%"
-    a(f"| Portfolio value | Total return | 1-day |")
-    a(f"|---|---|---|")
-    a(f"| **Rs {snap['port_value']:,.2f}** | **{snap['port_return_pct']:+.2f}%** | {d} |")
-    if b:
-        a(f"\n| {b['label']} since start | Alpha |")
-        a(f"|---|---|")
-        a(f"| {b['return_pct']:+.2f}% | **{snap['alpha_pct']:+.2f} pp** |")
-    a(f"\n## Holdings\n")
-    a(f"| Name | Wt% | Entry | Price | Return | 1-Day | Value | Dist to stop | vs 30W EMA | Flags |")
-    a(f"|---|---|---|---|---|---|---|---|---|---|")
-    for r in sorted(snap["holdings"], key=lambda z: -z["return_pct"]):
-        dd = "" if r["day_change_pct"] is None else f"{r['day_change_pct']:+.2f}%"
-        st = " *" if r["stale"] else ""
-        a(f"| {r['name']}{st} | {r['weight_pct']} | {r['entry_price']:.2f} | {r['price']:.2f} | {r['return_pct']:+.2f}% | {dd} | {r['value']:,.0f} | {r['dist_to_stop_pct']:+.1f}% | {r['ext_vs_30w_ema_pct']} | {', '.join(r['flags']) or '-'} |")
-    a(f"| **Total** | | | | **{snap['port_return_pct']:+.2f}%** | | **{snap['invested_value']:,.0f}** + {snap['cash']:,.0f} cash | | | |")
-    if snap["flags"]:
-        a(f"\n## ⚠ Rule flags active\n")
-        for f in snap["flags"]:
-            a(f"- **{f}**")
-        a(f"\n_This script does not trade. Act on flags at the monthly review or ad hoc._")
-    a(f"\n## Value history\n")
-    a(f"| Date | Value | Total return | 1-day | Benchmark | Alpha | Flags |")
-    a(f"|---|---|---|---|---|---|---|")
-    for s in hist["snapshots"][-40:]:
+    a("# 6-Month Swing Portfolio -- Returns Tracker\n")
+    a(f"_Regenerated by `paper-trading/swing-6m/track.py` on {datetime.date.today().isoformat()}. Do not hand-edit._\n")
+    a("A NEW frozen Rs 1,00,000 swing cohort is decided every Monday (momentum + dated-catalyst screen, "
+      "`swing_screen.py`), sized once and then never rebalanced -- same append-only pattern as "
+      "`paper-trading/cohorts.json`'s standard/concentrated series, just for the swing methodology. Each "
+      "cohort carries its own 6-month horizon and per-holding -16% hard stops; this script never trades, "
+      "it only surfaces rule flags (STOP HIT / NEAR STOP / EMA BREAK / EXTENDED) for the monthly review or "
+      "an ad-hoc call. Reference: `SWING_6M_PORTFOLIO.md`.\n")
+    a("---\n")
+    a("## Summary -- all swing cohorts\n")
+    a("| Cohort | Decided | Entry Basis | Horizon end | Value (Rs) | 1-Day | Return % | Flags |")
+    a("|---|---|---|---|---:|---:|---:|---|")
+    for m in marked:
+        d = "" if m["day_change_pct"] is None else f"{m['day_change_pct']:+.2f}%"
+        a(f"| {m['week_id']} | {m['decided_date']} | {m['entry_price_date']} | {m['horizon_end_date']} | "
+          f"{m['port_value']:,.2f} | {d} | **{m['port_return_pct']:+.2f}%** | {', '.join(m['flags']) or '-'} |")
+    if len(marked) >= 2:
+        avg = sum(m["port_return_pct"] for m in marked) / len(marked)
+        a(f"\n*Swing series: {len(marked)} cohort(s), average return **{avg:+.2f}%**.*")
+    a("\n---\n")
+    for m in marked:
+        a(f"## Cohort: {m['week_id']}\n")
+        a(f"Decided {m['decided_date']}, entry-priced off {m['entry_price_date']} close, horizon ends "
+          f"{m['horizon_end_date']} ({m['days_to_horizon']}d left). Invested Rs {m['invested_value']:,.2f} / "
+          f"cash Rs {m['cash']:,.2f}.\n")
+        b = m["benchmark"]
+        if b:
+            a(f"Benchmark: {b['label']} ({b['symbol']}) {b['return_pct']:+.2f}% since entry -- "
+              f"**alpha {m['alpha_pct']:+.2f} pp**.\n")
+        a("| Holding | Wt% | Entry | Price | Return | 1-Day | Value | Dist to stop | vs 30W EMA | Flags |")
+        a("|---|---|---|---|---|---|---|---|---|---|")
+        for r in sorted(m["holdings"], key=lambda z: -z["return_pct"]):
+            dd = "" if r["day_change_pct"] is None else f"{r['day_change_pct']:+.2f}%"
+            st = " *" if r["stale"] else ""
+            a(f"| {r['name']}{st} | {r['weight_pct']} | {r['entry_price']:.2f} | {r['price']:.2f} | "
+              f"{r['return_pct']:+.2f}% | {dd} | {r['value']:,.0f} | {r['dist_to_stop_pct']:+.1f}% | "
+              f"{r['ext_vs_30w_ema_pct']} | {', '.join(r['flags']) or '-'} |")
+        a(f"| **Total** | | | | **{m['port_return_pct']:+.2f}%** | | **{m['invested_value']:,.0f}** + "
+          f"{m['cash']:,.0f} cash | | | |")
+        if m["flags"]:
+            a("\n**Rule flags active:** " + ", ".join(m["flags"]) + " -- act at the monthly review or ad hoc.")
+        a("")
+    a("---\n")
+    a("## Value history (all cohorts)\n")
+    a("| Date | Cohort | Value | Total return | 1-day | Benchmark | Alpha | Flags |")
+    a("|---|---|---|---|---|---|---|---|")
+    for s in hist["snapshots"][-120:]:
         bb = s.get("benchmark") or {}
         dd = "" if s.get("day_change_pct") is None else f"{s['day_change_pct']:+.2f}%"
-        a(f"| {s['date']} | {s['port_value']:,.0f} | {s['port_return_pct']:+.2f}% | {dd} | {bb.get('return_pct','-') if bb else '-'}{'%' if bb else ''} | {s.get('alpha_pct','-')}{' pp' if s.get('alpha_pct') is not None else ''} | {', '.join(s.get('flags',[])) or '-'} |")
-    open(os.path.join(HERE, "TRACKER.md"), "w").write("\n".join(L) + "\n")
+        a(f"| {s['date']} | {s['week_id']} | {s['port_value']:,.0f} | {s['port_return_pct']:+.2f}% | {dd} | "
+          f"{bb.get('return_pct', '-') if bb else '-'}{'%' if bb else ''} | "
+          f"{s.get('alpha_pct', '-')}{' pp' if s.get('alpha_pct') is not None else ''} | "
+          f"{', '.join(s.get('flags', [])) or '-'} |")
+    with open(TRACKER_PATH, "w") as f:
+        f.write("\n".join(L) + "\n")
 
 
 if __name__ == "__main__":

@@ -1,11 +1,17 @@
 # 6-Month Swing Portfolio — Methodology & Reasoning Log
 
 **Created:** 2026-09-03
-**Machine-readable holdings:** `paper-trading/swing-6m/portfolio-v1.json`
-**Status:** v1 live (paper). Horizon end 2027-03-03. First monthly review 2026-10-06.
+**Machine-readable holdings:** `paper-trading/swing-6m/cohorts.json` (append-only, one cohort per week)
+**Status:** Since 2026-09-11, a WEEKLY frozen cohort series (like the standard/concentrated series) —
+a new Rs 1,00,000 swing cohort is decided every Monday and left untouched for its own 6-month horizon.
+The original v1 book (created 2026-09-03) is now cohort `2026-W36-inaugural`, migrated byte-for-byte,
+still running to its original 2027-03-03 horizon and first monthly review 2026-10-06.
 
 This document is the permanent reference for *why* this portfolio exists, how names are
 chosen, and the rules that govern it. Update the Changelog at the bottom on every revision.
+The factor thesis, screen design, and construction rules below (sections 2–5, 7) describe the
+**per-cohort methodology** — unchanged by the 2026-09-11 switch to weekly cohorts. Section 6's
+worked example is specifically the inaugural cohort's construction.
 
 ---
 
@@ -20,10 +26,14 @@ the cohorts carry 15–29 % cash, and the catalysts are mostly dated >12 months 
 that is wrong for a multi-year hold; it just means **year-one (and six-month) alpha is
 structurally capped**.
 
-This portfolio is the deliberate opposite: a **6-month horizon**, chosen on the factors that
-actually drive short-horizon returns, and **actively managed** (hard stops, thesis-break
-exits, monthly review). It is a separate experiment — do **not** merge it into
-`cohorts.json` or feed it to `refresh.py`.
+This series is the deliberate opposite: a **6-month horizon** per cohort, chosen on the
+factors that actually drive short-horizon returns, with hard stops and a monthly review of
+live cohorts for thesis-break exits. Since 2026-09-11 it is structured the same way as the
+frozen weekly cohorts — a NEW Rs 1,00,000 cohort every Monday, sized once and never
+rebalanced — just with the swing factor thesis instead of the fundamentals one, and its own
+`swing-6m/cohorts.json` (do **not** merge it into the main `paper-trading/cohorts.json` or
+feed it to `refresh.py` directly — `refresh.py` invokes `swing-6m/track.py` as a subprocess
+instead, same as it does for `live-recommendation/track.py`).
 
 ---
 
@@ -234,30 +244,39 @@ columns collapse to the same value — treat "6m %" as "since ~start of window".
 
 ## 8. Tracking & success criteria
 
-- **`paper-trading/swing-6m/track.py`** marks the book to market **every weekday**. It is
-  invoked automatically by `paper-trading/scripts/refresh.py` (which the `paper-trading-weekly`
-  scheduled task runs), so the swing book rides along with the frozen cohorts on every run.
-  It appends to `history.json` (one snapshot/date), regenerates `TRACKER.md`, and prints
-  per-holding return / distance-to-stop / 30W-EMA extension, the portfolio total, the
-  benchmark return since inception, the alpha, and any rule flags.
-- **Hosted dashboard:** `refresh.py` folds the latest swing snapshot into `dashboard_data.json`
-  as a `swing` block and the **Front-Test Ledger** artifact renders a "6-month swing book"
-  section (summary, sparkline, per-holding table with distance-to-stop and EMA extension, and
-  any active rule flags). Same URL as the cohort dashboard.
+- **`paper-trading/swing-6m/track.py`** marks **every** cohort in `swing-6m/cohorts.json` to
+  market **every weekday**. It is invoked automatically by
+  `paper-trading/scripts/refresh.py` (which the `paper-trading-weekly` scheduled task runs),
+  so the swing cohorts ride along with the frozen fundamentals cohorts on every run. It
+  appends to `history.json` (one snapshot per date+week_id), regenerates `TRACKER.md` (one
+  section per cohort), and prints per-cohort per-holding return / distance-to-stop / 30W-EMA
+  extension, the portfolio total, the benchmark return since that cohort's own entry, the
+  alpha, and any rule flags.
+- **Hosted dashboard:** `refresh.py` folds every cohort's latest snapshot into
+  `dashboard_data.json` as a `swing_cohorts` list and the **Front-Test Ledger** artifact
+  renders a "6-month swing cohorts" section — one panel per cohort (summary, sparkline,
+  per-holding table with distance-to-stop and EMA extension, and any active rule flags). Same
+  URL as the cohort dashboard.
 - Benchmark series used: **Nifty Smallcap 250** (`NIFTYSMLCAP250.NS`) as the Yahoo-available
   proxy for Nifty Microcap 250 TRI. Price index, not TRI — smallcap dividend yield ~1–1.5 %/yr,
   immaterial over six months.
 - `track.py` **never trades.** When a flag fires (`STOP HIT`, `NEAR STOP`, `EMA BREAK`,
-  `EXTENDED`) it is surfaced in the daily report; acting on it is the monthly review's job, or
-  an explicit ad-hoc decision.
-- Monthly re-screen / rebalance is a **separate manual pass**: rerun `swing_screen.py`, write a
-  new `portfolio-v{N+1}.json` (carrying `capital` = the book's value on the rebalance date so
-  the value series stitches), bump the Changelog. `track.py` auto-picks the highest version.
-- **Judged at 2027-03-03** against Nifty Microcap 250 TRI over the identical window.
-- Success = **beat the benchmark by ≥ 5 pp** after the modelled stops/exits, with a
-  max drawdown no worse than the benchmark's. Matching the benchmark = the active
-  machinery (stops, monthly churn) did not earn its complexity. A single 6-month run is
-  one data point; the method only earns confidence over several overlapping windows.
+  `EXTENDED`) on a cohort's holding it is surfaced in the daily report; acting on it is the
+  monthly review's job, or an explicit ad-hoc decision. This is now purely a **live-cohort
+  monitoring** cadence — it does not replace or rebalance the book, since a fresh cohort is
+  already created every Monday regardless.
+- **New cohort every Monday** (added 2026-09-11, replacing the old single-book monthly
+  re-screen): rerun `swing_screen.py`, hand-curate that week's names, append a new frozen
+  cohort to `swing-6m/cohorts.json` per the `paper-trading-weekly` SKILL's Step 2c. Each
+  cohort is judged independently against the benchmark over its own window from its own
+  `entry_price_date` to its own `horizon_end_date`.
+- Each cohort **judged at its own `horizon_end_date`** (6 months from its `decided_date`)
+  against Nifty Microcap 250 TRI over the identical window.
+- Success per cohort = **beat the benchmark by ≥ 5 pp** after modelled stops/exits, with a
+  max drawdown no worse than the benchmark's. Matching the benchmark = the active machinery
+  (stops, monthly monitoring) did not earn its complexity. A single 6-month cohort is one data
+  point; the method earns confidence as more overlapping weekly cohorts complete their
+  horizons and can be compared.
 
 ---
 
@@ -274,3 +293,16 @@ columns collapse to the same value — treat "6m %" as "since ~start of window".
   itself and injects a `swing` block into `dashboard_data.json`; the Front-Test Ledger artifact
   renders a "6-month swing book" section. The separate SKILL Step 1b was removed — one entry
   point (`refresh.py`) drives both books. Artifact republished.
+- **2026-09-11 — switched to a weekly, frozen cohort series** (user request: "every week,
+  need a new swing portfolio"). Replaced the single ongoing book (`portfolio-v1.json`,
+  monthly re-screen replacing the whole book) with `swing-6m/cohorts.json` — same
+  append-only, never-rebalanced discipline as the standard/concentrated series, just for the
+  swing methodology. The original v1 book was migrated byte-for-byte as cohort
+  `2026-W36-inaugural` (no change to its holdings, prices, or dates) and keeps running to its
+  original 2027-03-03 horizon. `track.py` rewritten to mark every cohort in the file, not just
+  one active version; `history.json` snapshots now key on (date, week_id). Monthly review is
+  now purely a monitoring/stop-triggered-exit cadence on already-decided cohorts — it no
+  longer replaces the book, since Step 2c of the `paper-trading-weekly` SKILL creates a fresh
+  cohort every Monday regardless. `refresh.py`'s dashboard fold-in changed from a single
+  `swing` block to a `swing_cohorts` list, one artifact panel per cohort. See also
+  [[project_swing_6m_portfolio]] in memory.

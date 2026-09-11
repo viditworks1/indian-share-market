@@ -1,5 +1,5 @@
 {
-  "_readme": "Append-only daily snapshots for the 6-month swing portfolio. One per date, latest write wins. Script-owned (track.py).",
+  "_readme": "Append-only daily snapshots for the swing-6m cohorts. One per (date, week_id). Script-owned (track.py). Pre-2026-09-11 snapshots belong to cohort 2026-W36-inaugural (migrated from the single-book portfolio-v1.json era).",
   "snapshots": [
     {
       "date": "2026-09-04",
@@ -172,7 +172,10 @@
           "catalyst": "Haridwar capacity doubling commissioning Sep 2026; H1 FY27 results ~Nov 2026 toward the Rs 210-220 Cr FY27 guide with OPM >25%",
           "flags": []
         }
-      ]
+      ],
+      "week_id": "2026-W36-inaugural",
+      "entry_price_date": "2026-09-03",
+      "horizon_end_date": "2027-03-03"
     },
     {
       "date": "2026-09-05",
@@ -345,7 +348,10 @@
           "catalyst": "Haridwar capacity doubling commissioning Sep 2026; H1 FY27 results ~Nov 2026 toward the Rs 210-220 Cr FY27 guide with OPM >25%",
           "flags": []
         }
-      ]
+      ],
+      "week_id": "2026-W36-inaugural",
+      "entry_price_date": "2026-09-03",
+      "horizon_end_date": "2027-03-03"
     },
     {
       "date": "2026-09-07",
@@ -518,7 +524,10 @@
           "catalyst": "Haridwar capacity doubling commissioning Sep 2026; H1 FY27 results ~Nov 2026 toward the Rs 210-220 Cr FY27 guide with OPM >25%",
           "flags": []
         }
-      ]
+      ],
+      "week_id": "2026-W36-inaugural",
+      "entry_price_date": "2026-09-03",
+      "horizon_end_date": "2027-03-03"
     },
     {
       "date": "2026-09-08",
@@ -691,7 +700,10 @@
           "catalyst": "Haridwar capacity doubling commissioning Sep 2026; H1 FY27 results ~Nov 2026 toward the Rs 210-220 Cr FY27 guide with OPM >25%",
           "flags": []
         }
-      ]
+      ],
+      "week_id": "2026-W36-inaugural",
+      "entry_price_date": "2026-09-03",
+      "horizon_end_date": "2027-03-03"
     },
     {
       "date": "2026-09-09",
@@ -864,7 +876,10 @@
           "catalyst": "Haridwar capacity doubling commissioning Sep 2026; H1 FY27 results ~Nov 2026 toward the Rs 210-220 Cr FY27 guide with OPM >25%",
           "flags": []
         }
-      ]
+      ],
+      "week_id": "2026-W36-inaugural",
+      "entry_price_date": "2026-09-03",
+      "horizon_end_date": "2027-03-03"
     },
     {
       "date": "2026-09-10",
@@ -1037,11 +1052,19 @@
           "catalyst": "Haridwar capacity doubling commissioning Sep 2026; H1 FY27 results ~Nov 2026 toward the Rs 210-220 Cr FY27 guide with OPM >25%",
           "flags": []
         }
-      ]
+      ],
+      "week_id": "2026-W36-inaugural",
+      "entry_price_date": "2026-09-03",
+      "horizon_end_date": "2027-03-03"
     },
     {
       "date": "2026-09-11",
-      "portfolio_version": "v1",
+      "week_id": "2026-W36-inaugural",
+      "series": "swing",
+      "decided_date": "2026-09-03",
+      "entry_price_date": "2026-09-03",
+      "horizon_end_date": "2027-03-03",
+      "days_to_horizon": 173,
       "port_value": 106859.1,
       "port_return_pct": 6.86,
       "day_change_pct": 1.11,

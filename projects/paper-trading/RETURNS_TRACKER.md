@@ -1,12 +1,12 @@
 # Paper-Trading Front-Test Tracker
 
-This is a **forward-testing** journal, not a backtest. Every Monday a brand-new, independent Rs 1,00,000 paper portfolio is decided (from the then-current `docs/FINAL_PORTFOLIO_RECOMMENDATION.md`), priced at the **prior Friday's close**, and then left untouched forever. Every cohort is marked to market **every weekday** by `paper-trading/scripts/refresh.py`; this file and `paper-trading/dashboard.html` are regenerated on each run. Raw entry data: `cohorts.json` (append-only). Daily snapshots: `daily_history.json` (append-only).
+This is a **forward-testing** journal, not a backtest. Every Monday a brand-new, independent Rs 1,00,000 paper portfolio is decided (from the then-current `docs/FINAL_PORTFOLIO_RECOMMENDATION.md`), priced at the **prior Friday's close**, and then left untouched forever. Every cohort is marked to market **every weekday** by `paper-trading/scripts/refresh.py`; this file and `paper-trading/dashboard.html` are regenerated on each run. Raw entry data: `cohorts.json` (append-only). Daily snapshots: `daily_history.json` (append-only). Two sibling books are tracked separately and folded into the same dashboard: the continuously-rebalanced `live-recommendation/` tracker (own `TRACKER.md`) and the weekly frozen `swing-6m/cohorts.json` series (own `TRACKER.md`) — see those files, not this one, for their detail.
 
 **Two parallel series per week, same Rs 1,00,000, different sizing:**
 - **standard** — mirrors the recommendation's current allocation as-is (~10 diversified positions).
 - **concentrated** — top-5 of the candidate universe by a **2-factor composite** (`master_score` 75% + technical 25%, technical itself weekly EMA 60% / monthly EMA 40%), sized 25/20/20/17/13. `master_score` (valuepickr-open-screen, built from studying real high-return investors' documented methods) is itself a renormalized blend of conviction + quality + expectation-gap + consistency + asymmetry — see `valuepickr-open-screen/scripts/MASTER_SCORE_METHODOLOGY.md`. Before 2026-09-05 this was a 4-factor composite (conviction 30% + gap 30% + fundamental screen-tier 25% + weekly technical 15%); before 2026-09-01 it ranked on conviction score alone. Conviction/gap/fundamental-tier are still shown per-name for context, just no longer weighted separately into the composite (they'd double-count against `master_score`).
 
-**Last updated:** 2026-09-11 (generated 2026-09-11 21:32). Daily history: 10 day(s) recorded.
+**Last updated:** 2026-09-11 (generated 2026-09-11 23:07). Daily history: 10 day(s) recorded.
 
 ---
 
@@ -34,12 +34,12 @@ Scored fresh each run from live weekly + monthly technicals + the current `maste
 | # | Name | Composite | Master | Conv | Gap | Fund | Tech (wk/mo) | Ext vs 30W EMA | Ext vs 10M EMA | Conv-only rank | Δ |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 1 ★ | Venus Remedies | **78.6** | 77 | 91 | 70 | 90 | 82/88 | +17.8% | +27.2% | 1 | 0 |
-| 2 ★ | Dynamic Cables | **75.6** | 68 | 60 | 65 | 88 | 100/100 | +1.7% | +1.1% | 5 | ▲3 |
+| 2 ★ | Dynamic Cables | **75.6** | 68 | 60 | 65 | 90 | 100/100 | +1.7% | +1.1% | 5 | ▲3 |
 | 3 ★ | Macpower CNC Machines | **63.7** | 65 | 81 | 30 | 90 | 47/79 | +37.7% | +35.7% | 3 | 0 |
 | 4 ★ | Yash Highvoltage | **57.5** | 50 | 49 | 37 | 70 | 73/88 | +23.1% | +27.5% | 7 | ▲3 |
 | 5 ★ | Bansal Roofing Products | **57.0** | 46 | 53 | 6 | 88 | 81/100 | +18.5% | +15.2% | 6 | ▲1 |
 | 6 | Aeroflex Industries | **52.5** | 52 | 85 | 0 | 90 | 40/72 | +41.3% | +43.1% | 2 | ▼4 |
-| 7 | Entero Healthcare Solutions | **44.1** | 37 | 61 | 33 | 70 | 50/86 | +35.7% | +29.4% | 4 | ▼3 |
+| 7 | Entero Healthcare Solutions | **44.1** | 37 | 61 | 33 | 90 | 50/86 | +35.7% | +29.4% | 4 | ▼3 |
 | 8 | GPT Healthcare | **37.0** | 16 | 3 | 45 | 88 | 100/100 | +8.1% | +7.6% | 11 | ▲3 |
 | 9 | L. T. Elevators | **29.1** | 35 | 36 | 24 | 70 | 11/15 | +46.4% | — | 8 | ▼1 |
 | 10 | Haldyn Glass | **23.9** | 4 | 3 | 45 | 88 | 77/94 | +20.9% | +20.9% | 12 | ▲2 |
