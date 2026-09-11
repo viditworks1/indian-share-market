@@ -60,5 +60,37 @@
     "valuation": "weak",
     "score": 3.0,
     "note": "Defense-ministry Super Special Class (unlimited tendering) status is a real structural moat and tailwind for a micro-cap contractor; ROCE (15.5%)/growth (20%) support tam, but market cap down -64.4% in a year unexplained by this pass — weak; low interest coverage ratio despite a seemingly low D/E is an unresolved balance-sheet caution — valuation weak, no market_expectation data. No independent ValuePickr thread exists to corroborate the single trusted 1% position."
+  },
+  "track_record": {
+    "years_checked": 9,
+    "years_cleared": 3,
+    "note": "FY18-FY26 screener. Both revenue growth >=10% AND ROCE >=15% in the same FY only in FY18, FY20, FY23. The business then deteriorated sharply: FY25 ROCE -6%, and FY26 revenue collapsed 57% to Rs 180 Cr with an operating loss (OPM -11%), ROE -19.4%. The screen-era 'ROCE 15.5% / 20% growth' framing is stale - recent filings show a serious profitability and execution breakdown."
+  },
+  "quality_metrics": {
+    "roce_pct": -6,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": null,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "contracting",
+    "capex_efficiency": "value-destructive",
+    "assessment": "concern",
+    "note": "roce_pct shown is FY25 (-6%); FY26 ROCE not on screener but the FY26 operating loss (OPM -11%, ROE -19.4%) implies it stayed negative. net_debt_to_ebitda / interest_coverage null because FY26 EBITDA is negative - and borrowings are Rs 237 Cr against a ~Rs 70 Cr market cap, a real solvency-adjacent stress. FY26 CFO -Rs 30 Cr; revenue fell 57% YoY. Serious deterioration, not a normal contracting-cycle dip."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-10",
+    "price": 20,
+    "current_pe": null,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/B",
+    "implied_growth_cagr": "no P/E (FY26 loss-making); the stock has fallen ~64% in a year to ~Rs 20 - a distressed-recovery bet, not a growth valuation. It needs project execution to resume and the Rs 237 Cr borrowings to be serviced before any earnings case exists",
+    "our_fy27_estimate": "highly uncertain - revenue might partially recover toward Rs 250-350 Cr if defence/marine order execution restarts, but FY26 ran an operating loss and sources give no FY26 concall clarity",
+    "our_fy28_estimate": "not estimable with confidence given the FY26 collapse",
+    "gap_direction": "priced-in",
+    "gap_type": "timing",
+    "gap_magnitude_pct": null,
+    "gap_basis": "FY26 revenue collapsed 57% to Rs 180 Cr with an operating loss, ROE -19%, CFO -Rs 30 Cr and Rs 237 Cr borrowings against a ~Rs 70 Cr market cap. The -64% one-year price fall reflects a real business deterioration; the Ministry of Defence Super Special Class status is optionality only if execution resumes.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

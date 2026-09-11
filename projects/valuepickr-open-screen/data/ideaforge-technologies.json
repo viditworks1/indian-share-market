@@ -70,5 +70,35 @@
     "valuation": "no",
     "score": 2.0,
     "note": "ISR/tactical defence-procurement driver is real and specific (tailwind=yes); order book stalled since March 2026 per bear case; valuation regime called 'fragile'."
-  }
+  },
+  "quality_metrics": {
+    "roce_pct": -3,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": null,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "contracting",
+    "capex_efficiency": "value-destructive",
+    "assessment": "concern",
+    "note": "Drone (UAS) maker, IPO 2023. FY26 net loss -Rs17cr, OPM 2.6%, ROCE -3%, ROE -3.3% - down from profitability in FY24. EBITDA ~nil in FY26 so leverage / FCF-conversion ratios are not meaningful; CFO negative on a 204-day debtor cycle. QIP of Rs500cr completed and a Rs151cr defence order booked; Q1FY27 showed positive EBITDA - recovery claimed but unproven."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 747,
+    "current_pe": null,
+    "current_ev_ebitda": null,
+    "valuation_tool": "other",
+    "implied_growth_cagr": "loss-making FY26; ~Rs3,700cr mcap on Rs226cr revenue (~16x sales) prices a large defence-drone order ramp and margin normalisation to mid-teens",
+    "our_fy27_estimate": "revenue rebound to Rs350-450cr on defence order inflow (Rs151cr order booked, Rs500cr QIP funded), return to thin profitability",
+    "our_fy28_estimate": "scale-dependent; contingent on sustained MoD / paramilitary order flow and import-substitution policy",
+    "gap_direction": "over-optimistic",
+    "gap_type": "new_business",
+    "gap_magnitude_pct": null,
+    "gap_basis": "16x sales on a company that just posted a loss with 204 debtor-days; the drone-import-substitution thesis is real but order lumpiness and competition make the priced-in ramp aggressive.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "commitments": [],
+  "track_record_na": true,
+  "track_record_na_note": "<3 fiscal years of verifiable history (or bank basis) at 2026-09-09 coverage backfill; leave absent per DEEPDIVE_QUICKREF, re-evaluate on a full deep pass."
 }

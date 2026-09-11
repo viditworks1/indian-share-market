@@ -69,5 +69,37 @@
     "valuation": "weak",
     "score": 2.5,
     "note": "Re-verification note: 'the water-scarcity structural story stays real' (tailwind=yes); healthy order book/pipeline per trusted pushback (tam weak); only ~12% ROE/ROCE, loss-making consumer segment (moat weak)."
+  },
+  "track_record": {
+    "years_checked": 8,
+    "years_cleared": 5,
+    "note": "FY19-FY26 screener consolidated. Both revenue growth >=10% AND ROCE >=15% in the same FY: FY19, FY20, FY23, FY24, FY25. FY21 (rev -2%) and FY22 (rev +9%) missed on growth; FY26 missed on both (rev +7%, ROCE 14%). ROCE collapsed from 34% (FY23) to 14% (FY26) as Roha-capex interest hit the P&L and the consumer segment turned loss-making."
+  },
+  "quality_metrics": {
+    "roce_pct": 14.2,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 2.0,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -50,
+    "margin_trend": "contracting",
+    "capex_efficiency": "neutral",
+    "assessment": "concern",
+    "note": "FY26 ROCE 14% / ROE 12%, down from a 34-40% ROCE band FY19-FY23. OPM contracted 13%->7% FY23->FY26. FY26 CFO was negative (-Rs 28 Cr) and borrowings rose to Rs 482 Cr as the ~Rs 400 Cr Roha capex (80% debt) moved out of capitalisation. Consumer segment loss-making, Engineering division flagged with execution/profitability headwinds on a UP order - assessment concern."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-10",
+    "price": 437,
+    "current_pe": 58.4,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~58x trailing on a trough year (ROCE 14%, CFO -Rs 28 Cr) implies the market is pricing a sharp earnings recovery - roughly ~35-45% EPS CAGR FY26-28 off the depressed base to justify ~58x at a ~20-25x water-infra exit",
+    "our_fy27_estimate": "revenue ~Rs 3,200-3,500 Cr (+10-18% on the Rs 2,750 Cr order book), OPM recovering toward 9-11% as Roha utilisation lifts, PAT recovery off the FY26 trough",
+    "our_fy28_estimate": "revenue ~Rs 3,700-4,100 Cr, PAT normalising if the consumer segment stops bleeding",
+    "gap_direction": "priced-in",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "58x trailing on a trough-earnings year - ROCE 14%, negative CFO, loss-making consumer segment, rising Roha-capex interest. The multiple already discounts a full margin/return recovery; the Rs 2,750 Cr order book and Rs 8,500 Cr pipeline support the topline but the earnings rebound the price needs is not yet visible.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

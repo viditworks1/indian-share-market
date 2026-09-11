@@ -2,7 +2,7 @@
 
 Stocks worth actively re-checking once their cooldown lapses, even if the forum goes quiet on them - not just passively waiting for new posts. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-09-09
+Generated: 2026-09-11
 
 ## Due now
 
@@ -85,9 +85,9 @@ _(none)_
 | Technocraft Industries | 2027-03-10 | ~6M | pending | 7.0 | Q2/Q3 FY27 prints showing whether the elevated (~22%) consolidated margin holds as drum-closure EBIT normalises off 43%, plus defense repeat orders and any P... |
 | Electronics Mart India Limited- EMIL | 2027-03-10 | ~6M | pending | 6.39 | Q2-Q3 FY27 (festive) prints showing EBITDA margin sustained above the ~7% historical level, plus West Bengal store openings on schedule |
 | Marine Electricals: Riding the Waves of Expansion | 2027-03-10 | ~6M | pending | 6.39 | Q2/Q3 FY27 prints showing order-book conversion at >35% revenue growth with OPM holding above 11%, plus continued DC order inflow |
+| Bliss GVS Pharma Ltd | 2027-03-10 | ~6M | pending | 0 | Completion of the Anupam Rasayan open offer / change of control, plus a Q2-Q3 FY27 print confirming the ~26% EBITDA margin is sustained |
 | Mitsu Chem Plast Ltd | 2027-03-10 | ~6M | pending | 0 | Q2/Q3 FY27 prints showing whether double-digit EBITDA margin holds and a disclosed Furnastra/IBC segment split |
 | Axiscades Engineering | 2027-03-10 | ~6M | pending | 0 | Q2/Q3 FY27 prints from the pure-play continuing entity showing defence revenue +75% and margin recovering off 11.8%, plus Devanahalli Atmanirbhar Complex Pha... |
-| Bliss GVS Pharma Ltd | 2027-03-10 | ~6M | pending | 0 | Completion of the Anupam Rasayan open offer / change of control, plus a Q2-Q3 FY27 print confirming the ~26% EBITDA margin is sustained |
 | John Cockerill India: A Case Study on Decarbonisation of Steel | 2027-03-10 | ~6M | pending | 0 | H2 CY26 quarterly print showing an actual EBITDA-margin step-up (management's own guided window) |
 | Permanent Magnets | 2027-03-10 | ~6M | pending | 0 | REPM-scheme bid outcome (5 of 20 applicants selected) and/or Quantum Magnetics Phase-2 commissioning on the revised Q3 FY27 schedule |
 | Unimech Aerospace and Manufacturing Ltd | 2027-04-02 | ~7M | pending | 0 | First nuclear-order execution prints in H2FY27 + full-quarter Hobel contribution from Q2 + QIP completion / MPS sell-down clearing the overhang |
@@ -146,13 +146,13 @@ _(none)_
 | OBSC Perfection Ltd | 2027-06-09 | ~9M | pending | 3.31 | FY27 annual concall + H2 FY27 prints: Sanand commissioning on schedule, OPM holding ~18%, and disclosure that clarifies in-house machining content vs job-work |
 | Vimta Labs Ltd | 2027-06-09 | ~9M | pending | 0 | A FY27 quarter showing clinical-research revenue growth reaccelerating toward the 20-25% target (NDCT throughput visible in the numbers) |
 | ASM Technologies | 2027-06-09 | ~9M | pending | 0 | 2-3 quarters showing new-plant utilisation and a growing DLM/semiconductor order book that validates the re-rating, plus first meaningful ASM-HHV JV revenue |
-| Ratnaveer precision a newly headed steel company | 2027-06-09 | ~9M | pending | 0 | CCL plant commercial production start (targeted Nov 2026) + the first 1-2 quarters of CCL output showing volume and margin |
 | Apcotex Industries Ltd | 2027-06-09 | ~9M | pending | 0 | Q2/Q3 FY27 prints showing whether EBITDA margin holds above 15-16% with inventory gains rolled off and exports weak; Finance Ministry notification of the DGT... |
+| Ratnaveer precision a newly headed steel company | 2027-06-09 | ~9M | pending | 0 | CCL plant commercial production start (targeted Nov 2026) + the first 1-2 quarters of CCL output showing volume and margin |
 | Apollo Micro Systems Limited | 2027-06-09 | ~9M | pending | 0 | MIGM (~Rs 3,500 Cr, ~70% Apollo share) and QRSAM purchase orders expected by end-FY27, plus the first consolidated quarter showing Premier Explosives integra... |
 | Ramco system | 2027-06-09 | ~9M | pending | 0 | H2 FY27 prints against LarryWink's three tests: OPM back above ~20%, absolute recurring revenue rising, services revenue stabilising |
 | Gujarat Themis Biosyn Ltd | 2027-06-09 | ~9M | pending | 0 | MBJ acquisition close (targeted Q2 FY27) + QIP pricing + first combined-entity quarter showing pro-forma revenue, margin and net debt |
-| Exicom Tele-Services: A Key Player in the Booming EV Sector | 2027-06-09 | ~9M | pending | 0 | A quarter of positive consolidated EBITDA plus Tritium visibly approaching its Q4 FY27 breakeven target |
 | Indotech | 2027-06-09 | ~9M | pending | 0 | Conversion of the 400kV/BESS (NTPC) qualification and recent order wins into a disclosed order book, a Q2/Q3 FY27 margin print showing the ~14% EBITDA margin... |
+| Exicom Tele-Services: A Key Player in the Booming EV Sector | 2027-06-09 | ~9M | pending | 0 | A quarter of positive consolidated EBITDA plus Tritium visibly approaching its Q4 FY27 breakeven target |
 | Wonderla Holidays | 2027-07-01 | ~10M | pending | 5.89 | Formal announcement of the next 1-2 large park locations with capex and timeline (management guided 'before end-FY27'), plus H2 FY27 prints confirming mature... |
 | Aarti Pharmalabs Ltd | 2027-07-02 | ~10M | pending | 25.18 | H2 FY27 CDMO revenue ramp toward the USD 100 mn / +40-50% guide; Atali Block 2 commissioning; xanthine pricing recovery sustaining; FDA Form 483 (Unit IV Tar... |
 | See the bright Sun: Aditya Vision | 2027-07-02 | ~10M | pending | 0 | MP/WB/Chhattisgarh store rollout through FY27 plus the Q1FY28 (peak-summer) print showing whether SSSG + new states hold ~25% growth |
@@ -176,8 +176,8 @@ _(none)_
 | Orchid Pharma Ltd | 2027-09-08 | ~12M | pending | 9.73 | Two or three consecutive quarters of cephalosporin margin recovery (OPM back above 10%) plus a step-up in EXBLIFEP licensing income |
 | COSMIC CRF LIMITED | 2027-09-08 | ~12M | pending | 5.5 | RDSO licences for springs + first Amzen wagon-plant milestone (restart Mar-May 2027), with a quarter showing blended margin lifting toward 10% |
 | Walchandnagar Industries | Return of a Golden Era | 2027-09-08 | ~12M | pending | 5.02 | First full-year net profit (FY27) plus a large defence/nuclear order-book item visibly converting to revenue; clarification / reduction of the promoter pledge |
-| Hind Rectifiers Ltd (HIRECT) | 2027-09-08 | ~12M | pending | 0 | Full-service propulsion-vendor approval (targeted end-FY27) + a standalone quarter re-accelerating toward the 30% guide |
 | KRM Ayurveda Ltd | 2027-09-08 | ~12M | pending | 0 | 2-3 quarters showing the ~20-28% PAT margin holds through the bed expansion, plus new hospitals (Gurugram, MSS Delhi) going live and lifting sequential revenue |
+| Hind Rectifiers Ltd (HIRECT) | 2027-09-08 | ~12M | pending | 0 | Full-service propulsion-vendor approval (targeted end-FY27) + a standalone quarter re-accelerating toward the 30% guide |
 | SML Isuzu Ltd | 2027-09-08 | ~12M | pending | 0 | A quarter showing EBITDA margin recovery above 12% plus tangible M&M product / distribution synergies |
 | Eureka Forbes Ltd | 2027-09-08 | ~12M | pending | 0 | Two or more quarters showing EBITDA margin actually expanding toward the FY30 path, and/or resolution/unwind of the promoter pledge |
 | GMM Pfaudler | 2027-09-08 | ~12M | pending | 0 | Two consecutive quarters showing consolidated EBITDA margin toward 13-15% and PAT growth off a normalised base |

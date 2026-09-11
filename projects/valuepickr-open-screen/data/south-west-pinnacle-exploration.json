@@ -64,5 +64,36 @@
     "valuation": "weak",
     "score": 2.5,
     "note": "India energy self-reliance policy tailwind and order-book at all-time high (Rs 761cr, rigs fully deployed) support tailwind/tam; no moat discussed for a rig-services business; no valuation/market_expectation data recorded; unresolved accounting question + cash-tightness flag are separate risks."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 227,
+    "current_pe": 18.5,
+    "current_ev_ebitda": 9,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~18-19x trailing earnings on a cyclical drilling-services contractor; against a ~12-14x through-cycle multiple this needs ~20-25% EPS CAGR FY26-28 to be fair -- the market is partly pricing the order-book-led operating-leverage step-up",
+    "our_fy27_estimate": "revenue +25-35% on the Rs 761 Cr all-time-high order book and full rig deployment (plus hired rigs); margins expand toward mid-20s% OPM as depreciated rigs drop incremental revenue to PBT; PAT +30-40% but FCF likely still negative on fleet capex",
+    "our_fy28_estimate": "further growth if order intake holds and private-client mix speeds collections; operating leverage the main driver",
+    "gap_direction": "partially-priced",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "the order book and rig-depreciation operating-leverage mechanism are real and only partly in an ~18x multiple, but modest trailing ROE (~11%), negative free cash flow and an unresolved accounting question (Other Operating Expense jump, undisclosed coal-trading exit) cap the upside vs the implied path",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 15.15,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 1.0,
+    "interest_coverage": 6.5,
+    "fcf_conversion_pct": -19,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "concern"
+  },
+  "track_record": {
+    "years_checked": 9,
+    "years_cleared": 2,
+    "note": "Per screener.in consolidated (FY18-FY26): only FY25 (+35% revenue / ROCE 20%) is a clean pass; FY26 (+35% revenue, ROCE ~15% per company Q1 FY27 update, not yet on screener) is a marginal pass. FY18-FY24 all had ROCE 8-13%, below the 15% bar, even in years revenue grew >10% (FY21 +21%, FY22 +14%). The operating-leverage inflection is FY25-onwards only."
   }
 }

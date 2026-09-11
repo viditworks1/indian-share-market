@@ -3,12 +3,30 @@
   "tagline": "Debt-free yarn spinner with a genuine Q1FY27 revenue spike, but near-full utilisation caps volume upside and no dedicated ValuePickr thread exists to cross-check the story",
   "business_overview": "Yarn manufacturing and exporting business, demerged from parent GHCL Ltd (soda ash). No dedicated ValuePickr thread was found -- a forum search for 'GHCL Textiles' surfaces only the parent GHCL Ltd's soda-ash thread, which is not the same demerged entity.",
   "fundamentals_table": [
-    ["Market Cap", "Rs 1,148 Cr (up 50.5% in 1 year)"],
-    ["ROE / ROCE", "3.38% (3yr avg, weak) / 2.30% (avg, weak)"],
-    ["Revenue growth", "5yr CAGR ~0%, but Q1 FY27 +52% YoY"],
-    ["Debt", "Almost debt-free"],
-    ["52-week range", "Rs 65.35 - 136.8"],
-    ["Promoter holding", "19.20% (0% pledged)"]
+    [
+      "Market Cap",
+      "Rs 1,148 Cr (up 50.5% in 1 year)"
+    ],
+    [
+      "ROE / ROCE",
+      "3.38% (3yr avg, weak) / 2.30% (avg, weak)"
+    ],
+    [
+      "Revenue growth",
+      "5yr CAGR ~0%, but Q1 FY27 +52% YoY"
+    ],
+    [
+      "Debt",
+      "Almost debt-free"
+    ],
+    [
+      "52-week range",
+      "Rs 65.35 - 136.8"
+    ],
+    [
+      "Promoter holding",
+      "19.20% (0% pledged)"
+    ]
   ],
   "fundamentals_narrative": "Trailing 3-year returns are weak (ROE 3.38%, ROCE 2.30%), consistent with a company mid-cycle in a commoditised, spread-sensitive yarn business. However, Q1 FY27 revenue grew a genuine 52% YoY, and the market has already re-rated the stock 50.5% over the past year. The catch: per the original tip's own note, capacity utilisation is already ~98%, meaning near-term growth is spread/pricing-driven rather than volume-driven, and durability past the current cotton-yarn-spread upcycle is unconfirmed.",
   "technical_read": "Not checked -- web-only pass, no forum thread available to escalate to a deeper technical read.",
@@ -45,5 +63,35 @@
     "score": 2.0,
     "note": "Priority-2 steady textile theme; large TAM; moat 'no' (commoditised yarn spinning); valuation weak given the trailing 3-year weakness even though the recent quarter is strong. Un-ignorable-growth exception invoked (Q1FY27 +52% YoY) to permit the 10x label at capped conviction."
   },
-  "trusted_signals": []
+  "trusted_signals": [],
+  "quality_metrics": {
+    "roce_pct": 6,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": 0.8,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -17,
+    "margin_trend": "expanding",
+    "capex_efficiency": "value-destructive",
+    "assessment": "concern",
+    "note": "Cotton-yarn spinning demerged from GHCL, listed 2024. ROCE 6%/5%/6% FY24-26 - structurally below cost of capital; OPM improved 8%->11%->12% but off a trough. Borrowings Rs134cr FY26 vs ~Rs158cr EBITDA (~0.8x). Trailing-3y FCF conversion ~-17% (FCF -Rs13cr/+Rs4cr/-Rs54cr FY24-26) against Rs154cr FY25 capex; ROCE stuck at 5-6% so capex reads value-destructive. Cyclical commodity spinner."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 134,
+    "current_pe": 13.3,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~13x on a cyclical spinner near trough margins; the market is pricing a cotton-yarn up-cycle, ~10-15% EPS CAGR would justify it",
+    "our_fy27_estimate": "revenue +10-15% on capacity, OPM 11-13%, PAT swinging with cotton-yarn spreads",
+    "our_fy28_estimate": "cycle-dependent; new spinning + technical-textile capacity the driver",
+    "gap_direction": "partially-priced",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "cotton-yarn spinning at 6% ROCE through a soft patch; 13x P/E and 0.85x book price a cyclical recovery that depends on cotton spreads, not company execution.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "commitments": [],
+  "track_record_na": true,
+  "track_record_na_note": "<3 fiscal years of verifiable history (or bank basis) at 2026-09-09 coverage backfill; leave absent per DEEPDIVE_QUICKREF, re-evaluate on a full deep pass."
 }

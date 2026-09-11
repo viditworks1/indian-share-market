@@ -120,5 +120,37 @@
     "valuation": "weak",
     "score": 2.0,
     "note": "Beverage/pet-food/retort lines are a real but contingent tailwind ('must commission on schedule'); FY27 guidance cut to 25-30% from 'more than double'; no explicit TAM/moat/valuation data in record"
+  },
+  "track_record": {
+    "years_checked": 3,
+    "years_cleared": 2,
+    "note": "FY24-FY26 (company financials; screener 10y table login-gated this pass): debt-free ~40%-ROCE model so ROCE >=15% every year. Revenue Rs 76cr (FY23) -> 100 (+32%, FY24) -> 105 (+5%, FY25) -> 147 (+40%, FY26). Both metrics cleared FY24 and FY26 = 2 of 3; FY25 missed on the +5% flat year."
+  },
+  "quality_metrics": {
+    "roce_pct": 40,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": -0.5,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 0,
+    "margin_trend": "stable",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral",
+    "note": "Debt-free (D/E ~0; interest ~nil so coverage null), modest net cash from the IPO. roce_pct FY26 40% (ROE 45%, 3yr ROE 39%) -- high and stable. FCF-conv ~0: FY26 deteriorated sharply -- CFO ~Rs 4cr (41% of operating profit), FCF ~-Rs 21cr on capex, and working-capital days rose ~48 -> ~83; prior years converted better so the 3y average is roughly breakeven. OPM ~20% (H1 22% / H2 19% give-back). Great returns, but FY26 cash conversion + a cut FY27 guide keep the read neutral."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 303,
+    "current_pe": 34.0,
+    "current_ev_ebitda": 23.0,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~34x trailing; against a ~25-28x exit for a debt-free 40%-ROCE nutraceutical CDMO, the multiple implies ~20-25% EPS CAGR FY26-FY28 -- roughly matching management's cut FY27 guide of 25-30% revenue growth.",
+    "our_fy27_estimate": "Revenue +25-30% (~Rs 185cr) per the revised guide; PAT ~Rs 24-27cr if OPM holds ~20% and working capital stabilises.",
+    "our_fy28_estimate": "~Rs 30-35cr PAT on continued CDMO order flow + new capacity, contingent on the FY26 working-capital build reversing.",
+    "gap_direction": "priced-in",
+    "gap_type": "timing",
+    "gap_magnitude_pct": null,
+    "gap_basis": "~34x prices ~20-25% EPS growth, which the cut FY27 guide roughly supports; the swing factor is cash -- FY26 CFO fell to 41% of operating profit and working-capital days nearly doubled, so the question is quality of growth, not its rate.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

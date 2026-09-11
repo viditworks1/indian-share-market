@@ -106,5 +106,36 @@
     "valuation": "yes",
     "score": 2.0,
     "note": "EWA product tailwind undermined by well-funded competition (Fund My Staff, Refyne, Jiffy) already locking up large enterprises; management's own '10x in 2-3yrs' guidance not tracking caps tam; no moat evidenced and GNPA/NNPA/ECL non-disclosure is a governance gap; single-digit forward P/E / P/B~1.75 is explicitly cheap — valuation yes."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 67.1,
+    "current_pe": 14.4,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~14x trailing / single-digit forward P/E with ~16% ROE; against an ~18-20x exit for a profitable niche NBFC this needs only ~15-20% EPS CAGR to be fair -- the market has stopped pricing the guided '10x in 2-3 years' and is valuing the base ~40-50% growth cheaply",
+    "our_fy27_estimate": "revenue +30-45% if corporate onboarding (~30/quarter) and gold-loan DSA hold; PAT +30-40%; ROE mid-to-high teens",
+    "our_fy28_estimate": "continued 30%+ growth possible on the EWA + origination-platform flywheel, but well-funded competition (Fund My Staff, Refyne, Jiffy) is a real cap",
+    "gap_direction": "partially-priced",
+    "gap_type": "duration",
+    "gap_magnitude_pct": null,
+    "gap_basis": "single-digit forward P/E prices only base growth and ignores the guided 10x; the growth is real (12 straight up quarters, PAT +50%+ YoY) but the missed guidance, absent GNPA/NNPA disclosure, rising unexplained impairment and new competition keep this partially-priced rather than clearly underestimated",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 21.2,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": null,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral"
+  },
+  "track_record": {
+    "years_checked": 5,
+    "years_cleared": 1,
+    "note": "NBFC -- profitability leg on ROE. Per screener.in, only FY26 (+41% revenue / ROE 16%, ROCE 21%) clears both bars. FY22-FY24 ROE was ~9%; FY25 (+69% revenue) ROE 14% just missed. The EWA-driven profitability step-up is one year old; revenue has risen 12 straight quarters but ROE only crossed 15% in FY26. No GNPA/NNPA/ECL disclosure is a governance gap."
   }
 }

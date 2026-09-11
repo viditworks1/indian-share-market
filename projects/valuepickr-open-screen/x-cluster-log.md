@@ -224,3 +224,15 @@ cyient, dixon-technologies, zydus-lifesciences, beml, ksb-ltd, bluspring-enterpr
   - united-drilling-tools (researched, trusted-x-watch @a_basumallick): @a_basumallick re-shared the same intelsense "STOCK STORY" writeup (tied to the Vinati oil-drilling tailwind). Already captured in existing x_watch_note. No write-back.
   - @Finstor85 reply thread praised an unnamed "power & communication infra protection" small-cap ("180cr mcap to 3800cr+ since 2020") — company not named in any captured text; not actionable, no permalink dive (reply thread, name only in parent). Noted, no entry.
 - Mechanism: mcp__claude-in-chrome browser path, one javascript_tool extractor per handle, 3 batches. No walls/errors. Apify not used.
+
+## 2026-09-10
+- Scan (browser): 13 handles queried, 9 returned posts, ~11 new tweets total. Per-handle new (id > last_seen): ishmohit1 1, unseenvalue 2, itsTarH 0, persistencecap 0 (empty), LearningEleven ~6, suru27 1, srisiv1 0 (empty), dhruvbajaj184 0 (empty), prabhakarkudva 0 (empty), Anand_shah07 0, saket1974 1, Finstor85 ~6, a_basumallick ~9.
+- New candidates (source:trusted-x): airfloa-rail-technology (@a_basumallick "STOCK STORY" single-company feature — railways manufacturer transitioning to precision mfr for railways/aerospace/defence; "very interesting business"; non-negative dedicated writeup → implicit-conviction rule, x_conviction_strength high).
+- Refreshed candidates: none
+- New watch-list names (source:trusted-x-watch): none
+- trusted_signals appended (already-researched): obsc-perfection (@LearningEleven — AS9100D aerospace cert "almost in the bag", mgmt guided 6mo ago, customers in discussion; constructive on next concall, notes stock expensive on valuation). Docx regenerated; analysis.md entry added.
+- Overflow / skipped: none (well under caps).
+- Notes: Browser path only, no Apify needed, no login walls. Skipped: ishmohit1's only new post ("boom in production in India") — generic theme, no named stock. unseenvalue new posts (YoY-interest-expense caution, Peter Lynch reply) — no named stock; his Shaily Engineering + "A Picture and 1000 Words" Substack posts were already below last_seen (processed prior run). itsTarH's Strides/Arun-Kumar post was exactly at last_seen (already processed). suru27 ACE concall thread was below last_seen. a_basumallick: "#WABAG gets repeat order from RIL" = directionless order-win news snippet on va-tech-wabag (already researched, thesis_fit neither/filtered on size) → per Step 4B already-researched path, log only, no state change; Flipkart/qcomm post named no listed co; @ApolloPharmacy post was a personal delivery complaint, not a stock view. LearningEleven "not tracking Sandhar" reply = explicit anti-signal, skipped. Finstor85 new posts were all generic AI/content-proxy themes or replies with no named Indian listco (his infra-protection single-stock replies were below last_seen).
+
+## 2026-09-10 (same-day no-op)
+- x_cluster.json.last_run_date already 2026-09-10 and a scan block for today already exists above. Duplicate same-day fire — no scrape, no write-back. One scan per calendar day.

@@ -87,5 +87,36 @@
     "valuation": "no",
     "score": 2.5,
     "note": "tailwind yes (import substitution + China+1 + Indian healthcare infra); tam yes (large global devices TAM, deep import dependence, new adjacencies); moat weak (certification + cost edge but heavy competition / Chinese dumping); valuation no (~50x+ even post 60% drawdown). Score 2.5, no exception invoked -> 'neither'."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 1724,
+    "current_pe": 54.6,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~55x TTM even after a 60% drawdown implies ~30%+ EPS CAGR FY26-28 at a 28-32x exit for a high-quality franchise",
+    "our_fy27_estimate": "revenue +15-20% as the large new capacity (FY25 capex ~Rs 1,187 Cr) fills; OPM ~25%; ROCE re-expansion is the swing",
+    "our_fy28_estimate": "value-curve move (renal -> cardiology -> critical care -> ortho) plus China+1; payback on the FY25 capex unproven",
+    "gap_direction": "priced-in",
+    "gap_type": "capacity",
+    "gap_magnitude_pct": null,
+    "gap_basis": "still ~55x post-drawdown; the capacity payoff and ROCE recovery (fell 24%->12%) are needed just to hold the multiple. Related-party (Vitromed) and promoter-pay concerns; reached the screen as a snippet mention, not a call",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 12,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 0.8,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -72,
+    "margin_trend": "stable",
+    "capex_efficiency": "neutral",
+    "assessment": "concern"
+  },
+  "track_record": {
+    "years_checked": 4,
+    "years_cleared": 3,
+    "note": "Of the years with both metrics verifiable (FY20, FY24, FY25, FY26), FY20 (+12.6%/25%), FY24 (+23.3%/24%) and FY25 (+21.4%/18%) cleared; FY26 (+12.3%/12%) missed on ROCE after the large FY25 capacity capex. Revenue growth has been high-teens+ for a decade."
   }
 }

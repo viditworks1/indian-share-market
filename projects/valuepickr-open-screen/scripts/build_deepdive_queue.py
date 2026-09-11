@@ -59,19 +59,35 @@ pool outright over names with a much stronger fundamental potential_score.
 Stage 2 — ROTATION ORDER *within* the pool (this drives `rank` 1..100 and therefore which
 3 get picked next — see deepdive-top100/SKILL.md Step 0):
 
-  sort key = ( high_caution flag (0/1, de-prioritised last),
-               never-deep-dived flag (0/1, never-dived sorts FIRST),
-               -days_since_last_deepdive (more stale first, 0 for never-dived — already
-                 sorted first by the flag above),
-               -pool_priority (ranking tie-break / secondary ordering — same
-                 Confluence-100 + low-coverage-boosted score as Stage 1, so those names
-                 also sort earlier *within* whichever staleness/never-dived tier they land in),
+  2026-09-11 (user instruction): staleness (days-since-last-dive) no longer drives ordering
+  at all among already-dived names — it used to push the longest-untouched name to the front
+  regardless of whether it was ever worth re-diving. Replaced with a 4-level tier, each level
+  ordered by `pool_priority` descending:
+
+    tier 0 — never-deep-dived                       ("prioritize newer candidates" first)
+    tier 1 — already dived, potential_score >= STALE_RERUN_FLOOR (30)   (worth a re-dive)
+    tier 2 — already dived, potential_score <  STALE_RERUN_FLOOR       ("no need to rerun" —
+             a stale call that never cleared the quality bar on raw four_box+master alone;
+             floor checked on `potential_score`, i.e. BEFORE the Confluence-100/coverage
+             bonuses, so a fundamentally weak name doesn't dodge the floor just because it's
+             a current Confluence member or missing score coverage — those are separate,
+             visibility-driven reasons to prioritize, not quality)
+    tier 3 — high_caution                            (unchanged, still de-prioritised last)
+
+  sort key = ( tier (0/1/2/3 per the above),
+               -pool_priority (ranking WITHIN a tier — same Confluence-100 +
+                 low-coverage-boosted score as Stage 1),
                name )
 
-Plainly: never-dived pool members go first (highest priority first among them), then
-once every pool member has had at least one dive in the current rotation, ordering falls
-back to staleness (longest-since-last-dive first), with pool_priority as the tie-break.
-This is exactly "restart basis staleness and ranking" once a pass completes.
+Plainly: never-dived pool members go first (highest priority first among them); once every
+pool member has had at least one dive in the current rotation, ordering is pool_priority
+descending among names that cleared the floor, then pool_priority descending again among
+names that didn't (so a weak, boosted-into-the-pool name only gets re-dived once nothing
+better is pending), with high_caution names still sorting dead last. This replaces the old
+"restart basis staleness and ranking" behaviour — staleness no longer decides order at all,
+only whether a name is *stale enough to be a re-dive candidate in the first place* is now
+irrelevant to this script (every already-dived pool member is always a candidate once its
+pass comes due; STALE_RERUN_FLOOR only affects how eagerly it's picked, not whether).
 
 Rotation bookkeeping is scoped to the ACTIVE POOL only (not the full universe):
   * a pool entry is "done" once its deep dive for `current_pass` is finished, else "pending";
@@ -108,6 +124,10 @@ DEFAULT_MASTER = 30.0          # fallback when master_score is absent (shouldn't
 CONFLUENCE_BONUS = 20.0        # pool_priority nudge for current Confluence-100 members
 COVERAGE_BONUS_MAX = 10.0      # pool_priority nudge (scaled by 1-weight_coverage) for
                                 # stocks whose master-score sub-components are incomplete
+STALE_RERUN_FLOOR = 30.0       # Stage 2: an already-dived name with potential_score below
+                                # this (pre-Confluence/coverage-bonus quality alone) sorts
+                                # behind every name that cleared it — "no need to rerun" a
+                                # stale call that never earned the budget (2026-09-11)
 
 SKIP_STEMS = {"max-returns-ranking", "screen-ranking", "conviction-scores",
               "deepdive-queue", "expectation-gap-scores"}
@@ -309,14 +329,22 @@ def main():
     pool_rows = [r for r in rows if r["in_active_pool"]]
     other_rows = [r for r in rows if not r["in_active_pool"]]
 
-    # ---- Stage 2: rotation order within the pool (staleness, then ranking) ----
-    pool_rows.sort(key=lambda r: (
-        1 if r["high_caution"] else 0,
-        0 if r["never_deepdived"] else 1,
-        -(r["days_since_deepdive"] or 0) if not r["never_deepdived"] else 0,
-        -r["pool_priority"],
-        r["name"].lower(),
-    ))
+    # ---- Stage 2: rotation order within the pool (tier, then pool_priority) ----
+    # 2026-09-11: staleness no longer orders anything — see the module docstring. A name's
+    # tier is (0) never-dived, (1) already-dived and worth a re-dive (potential_score >=
+    # floor), (2) already-dived but never earned the budget (potential_score < floor,
+    # "no need to rerun"), (3) high_caution (always last). Within a tier, pool_priority desc.
+    def rerun_tier(r):
+        if r["high_caution"]:
+            return 3
+        if r["never_deepdived"]:
+            return 0
+        return 1 if r["potential_score"] >= STALE_RERUN_FLOOR else 2
+
+    for r in pool_rows:
+        r["rerun_tier"] = rerun_tier(r)
+
+    pool_rows.sort(key=lambda r: (r["rerun_tier"], -r["pool_priority"], r["name"].lower()))
 
     # --- pool rotation bookkeeping (current_pass computed over the pool only) ---
     passes = {r["deepdive_pass"] for r in pool_rows}
@@ -336,6 +364,7 @@ def main():
     other_rows.sort(key=lambda r: (-r["pool_priority"], -r["potential_score"], -r["master_score"], r["name"].lower()))
     for r in other_rows:
         r["deepdive_status"] = "not_in_pool"
+        r["rerun_tier"] = None  # rerun_tier only means something for in-pool rotation
 
     ordered = pool_rows + other_rows
     for i, r in enumerate(ordered, 1):
@@ -354,7 +383,10 @@ def main():
                    "pool_priority = potential_score (0.5*four_box_score(scaled 0-100) + "
                    "0.5*master_score) + a +20 bonus for current Confluence-100 membership "
                    "+ up to +10 for low score-coverage (weight_coverage). Rotation order "
-                   "*within* the pool is by staleness then pool_priority ranking. See "
+                   "*within* the pool (2026-09-11) is by rerun_tier (0=never-dived, "
+                   "1=already-dived & potential_score>=30, 2=already-dived & "
+                   "potential_score<30 i.e. 'no need to rerun', 3=high_caution) then "
+                   "pool_priority desc — staleness no longer orders anything. See "
                    "build_deepdive_queue.py."),
         "universe_size": len(out),
         "pool_size": pool_size,
@@ -371,8 +403,10 @@ def main():
                  "with, even once every never-dived pool member has been covered. Once "
                  "every pool entry is 'done' for `current_pass`, it rolls to N+1 and all "
                  "pool entries reset to 'pending' — rotation then resumes ordered by "
-                 "staleness (longest-since-last-dive first) with potential_score as the "
-                 "ranking tie-break. Non-pool entries are dormant (status 'not_in_pool') "
+                 "rerun_tier (never-dived, then already-dived-above-floor, then "
+                 "already-dived-below-floor 'no need to rerun', then high_caution) with "
+                 "pool_priority as the ranking key within each tier (2026-09-11 — staleness "
+                 "itself no longer decides order). Non-pool entries are dormant (status 'not_in_pool') "
                  "but keep their own data_file mapping (other scripts, e.g. "
                  "resolve_data_file.py, depend on the FULL universe being listed here, "
                  "not just the pool) and their full deepdive history/pass/date, so they "
@@ -389,19 +423,22 @@ def main():
     pool_done = sum(1 for e in out if e["in_active_pool"] and e["deepdive_status"] == "done")
     pool_never = sum(1 for e in out if e["in_active_pool"] and e["never_deepdived"])
     pool_confluence = sum(1 for e in out if e["in_active_pool"] and e["in_confluence100"])
+    pool_no_rerun = sum(1 for e in out if e["in_active_pool"] and e["rerun_tier"] == 2)
     covered = [e["weight_coverage"] for e in out if e["in_active_pool"] and e["weight_coverage"] is not None]
     avg_coverage = round(sum(covered) / len(covered), 2) if covered else None
     print(f"Wrote {QUEUE}")
     print(f"  universe={len(out)}  pool_size={pool_size}  current_pass={current_pass}")
     print(f"  pool: pending={pool_pending}  done={pool_done}  never-deep-dived-in-pool={pool_never}")
     print(f"  pool: confluence100-members={pool_confluence}/{len(confluence_slugs)}  avg_weight_coverage={avg_coverage}")
+    print(f"  pool: below-floor 'no need to rerun' (potential_score<{STALE_RERUN_FLOOR}, already dived)={pool_no_rerun}")
     if pool_rows:
         min_potential = min(r["potential_score"] for r in pool_rows)
         min_priority = min(r["pool_priority"] for r in pool_rows)
         print(f"  pool potential_score cutoff (min in pool): {min_potential}  (min pool_priority: {min_priority})")
         print("  top of pool rotation order this run:")
+        tier_tag = {0: "NEVER", 1: "re-dive", 2: "no-rerun", 3: "caution"}
         for e in [r for r in out if r["in_active_pool"]][:5]:
-            tag = "NEVER" if e["never_deepdived"] else f"{e['days_since_deepdive']}d-stale"
+            tag = tier_tag.get(e["rerun_tier"], "?")
             cf = "C100" if e["in_confluence100"] else "    "
             print(f"    #{e['rank']:>3} {e['name'][:38]:38} pri={e['pool_priority']:>6} pot={e['potential_score']:>6}"
                   f"  fb={e['four_box_score']}  master={e['master_score']:>5}  cov={e['weight_coverage']}  {cf}  {tag}  [{e['deepdive_status']}]")

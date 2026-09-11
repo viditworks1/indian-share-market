@@ -44,6 +44,25 @@ TECH_SCAN_BUFFER = 135  # scan more than TOP_N since some won't resolve / will l
 
 ELIGIBLE_THESIS = ("10x-in-2-3-years", "100x-in-10-years")
 
+# slug -> verified Yahoo symbol, consulted BEFORE the live name search.
+# A null value = "confirmed no usable Yahoo weekly series" (NSE-Emerge / BSE-SME
+# names return a single bar) — skip the search and mark the read unavailable
+# cleanly instead of retrying every run. Maintained by hand + topped up from the
+# "resolved by search this run" list this script prints at the end.
+SYMBOL_MAP_PATH = os.path.join(DATA_DIR, "yahoo_symbol_map.json")
+
+
+def load_symbol_map():
+    try:
+        with open(SYMBOL_MAP_PATH) as f:
+            return json.load(f).get("map", {})
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+SYMBOL_MAP = load_symbol_map()
+_RESOLVED_BY_SEARCH = {}  # slug -> symbol, for names not in SYMBOL_MAP that the search found
+
 
 def load_json(path):
     with open(path) as f:
@@ -93,7 +112,7 @@ def blend_fundamental(x):
 
 
 def clean_name(name):
-    n = re.split(r"[:(–—-]", name)[0].strip()
+    n = re.split(r"[:(~–—-]", name)[0].strip()
     n = re.sub(r"\bLtd\.?\b|\bLimited\b", "", n, flags=re.I).strip()
     return n or name.strip()
 
@@ -139,7 +158,18 @@ def ema30(closes):
     return vals
 
 
-def technical_read(name):
+def technical_read(name, slug=None):
+    # 1. verified symbol map wins — skips the fragile name search entirely.
+    if slug is not None and slug in SYMBOL_MAP:
+        mapped = SYMBOL_MAP[slug]
+        if mapped is None:
+            return {"status": "no_history_sme"}  # known: no Yahoo weekly series
+        pairs = yahoo_chart(mapped)
+        if not pairs:
+            return {"status": "no_data", "symbol": mapped}
+        return _read_from_pairs(mapped, pairs)
+
+    # 2. fall back to the live name search.
     sd = yahoo_search(clean_name(name))
     sym = None
     if sd and sd.get("quotes"):
@@ -157,6 +187,12 @@ def technical_read(name):
     pairs = yahoo_chart(sym)
     if not pairs:
         return {"status": "no_data", "symbol": sym}
+    if slug is not None:
+        _RESOLVED_BY_SEARCH[slug] = sym  # candidate to promote into SYMBOL_MAP
+    return _read_from_pairs(sym, pairs)
+
+
+def _read_from_pairs(sym, pairs):
     closes = [c for t, c in pairs]
     emas = ema30(closes)
     last_close, last_ema = closes[-1], emas[-1]
@@ -196,6 +232,8 @@ def tech_str(t):
         if t.get("cross_weeks_ago") is not None:
             s += f" (cross {t['cross_weeks_ago']}w ago)"
         return s
+    if t.get("status") == "no_history_sme":
+        return "No weekly series (SME listing)"
     return "Not resolved"
 
 
@@ -276,7 +314,7 @@ def main():
           f"({len(overall_head)} overall-head + {len(thesis_head)} thesis-head, deduped)...",
           file=sys.stderr)
     for i, x in enumerate(scan):
-        x["tech"] = technical_read(x["name"])
+        x["tech"] = technical_read(x["name"], x["slug"])
         if i % 20 == 0:
             print(f"  ...{i}/{len(scan)}", file=sys.stderr)
 
@@ -337,6 +375,21 @@ def main():
 
     res_o = sum(1 for x in overall_sorted[:TOP_N] if x["tech"].get("status") == "ok")
     res_t = sum(1 for x in thesis_sorted[:TOP_N] if x["tech"].get("status") == "ok")
+    if _RESOLVED_BY_SEARCH:
+        print(f"\n{len(_RESOLVED_BY_SEARCH)} name(s) resolved by live search (not in "
+              f"yahoo_symbol_map.json) — verify and promote the good ones into the map:")
+        for slug, sym in sorted(_RESOLVED_BY_SEARCH.items()):
+            print(f'    "{slug}": "{sym}",')
+    unresolved = sorted(
+        x["slug"] for x in scan
+        if x["tech"].get("status") not in ("ok", "no_history_sme")
+    )
+    if unresolved:
+        print(f"\n{len(unresolved)} name(s) still unresolved (no map entry, search failed) — "
+              f"need a hand-checked symbol or a null map entry if genuinely SME/unlisted:")
+        for slug in unresolved:
+            print(f"    {slug}")
+    print()
     print(f"Wrote {out_path}")
     print(f"Wrote {json_path}")
     print(f"Universe: {total_deepdived} deepdived, {len(universe)} no-red-flag "

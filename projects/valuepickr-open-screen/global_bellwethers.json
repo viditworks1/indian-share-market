@@ -10,7 +10,9 @@
     "proxy_writeback_cap_per_run": 6,
     "stage_c_names_cap_per_run": 5,
     "stage_c_recheck_days": 30,
-    "decelerating_runs_to_dormant": 2
+    "decelerating_runs_to_dormant": 2,
+    "geopolitical_search_cap_per_run": 3,
+    "geopolitical_writeback_cap_per_run": 3
   },
   "_status_enum": {
     "active": "tailwind live; read on cadence, seed/verify proxies normally",

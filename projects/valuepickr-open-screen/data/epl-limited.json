@@ -3,12 +3,30 @@
   "tagline": "Global laminated-tube packaging leader (oral care, beauty) mid-merger with Indorama's Indovida at a swap price implying ~Rs 339/share — a real, debated value-unlock catalyst, but a steady ~18% ROCE mid-cap, not a 10x setup",
   "business_overview": "World's largest maker of laminated plastic tubes (oral care, cosmetics, pharma) — formerly Essel Propack, now Blackstone-controlled, in the process of merging with Indorama's Indovida (rigid packaging) to create a ~$1bn-revenue, ~$2bn-valuation combined packaging group, with Indorama becoming the new promoter and Blackstone exiting.",
   "fundamentals_table": [
-    ["Market Cap", "~Rs 7,900 Cr (mid-cap)"],
-    ["ROCE / ROE", "~18.1% / ~16.6%"],
-    ["Debt", "D/E ~0.32"],
-    ["5-yr revenue CAGR", "~9% (slow, but reaccelerating)"],
-    ["Q1 FY27", "Revenue +25.3% YoY (underlying +20% ex-commodity pass-through); PAT -1.4% YoY on commodity-cost squeeze; EBITDA margin ~18.8%"],
-    ["Merger swap", "Indovida deal implies ~Rs 339/share for EPL vs a market price that has traded materially below that (Rs ~180-245 range through the debate)"]
+    [
+      "Market Cap",
+      "~Rs 7,900 Cr (mid-cap)"
+    ],
+    [
+      "ROCE / ROE",
+      "~18.1% / ~16.6%"
+    ],
+    [
+      "Debt",
+      "D/E ~0.32"
+    ],
+    [
+      "5-yr revenue CAGR",
+      "~9% (slow, but reaccelerating)"
+    ],
+    [
+      "Q1 FY27",
+      "Revenue +25.3% YoY (underlying +20% ex-commodity pass-through); PAT -1.4% YoY on commodity-cost squeeze; EBITDA margin ~18.8%"
+    ],
+    [
+      "Merger swap",
+      "Indovida deal implies ~Rs 339/share for EPL vs a market price that has traded materially below that (Rs ~180-245 range through the debate)"
+    ]
   ],
   "fundamentals_narrative": "A quality, if slow-growing, global packaging leader: ~18% ROCE, moderate leverage, and a genuine step-up in top-line growth in Q1 FY27 (though margin was squeezed by commodity inflation, not expanded). The real story right now is the Indovida merger — a promoter change (Blackstone exiting, Indorama entering) at a swap valuation implying roughly a 40-60% premium to where the stock traded through much of 2026, which the VP community has actively debated rather than simply cheered.",
   "technical_read": "Not independently pulled; stock has traded in a wide Rs ~180-245+ range through the merger-arb debate in 2026.",
@@ -44,5 +62,36 @@
   ],
   "red_flag_tier": null,
   "red_flag_reason": null,
-  "disclaimer": "This is independent research for informational purposes only, not investment advice."
+  "disclaimer": "This is independent research for informational purposes only, not investment advice.",
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 247,
+    "current_pe": 19.2,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~19x TTM on an ~18% ROCE steady mid-cap implies ~10-12% EPS CAGR FY26-28 at an 18-20x exit",
+    "our_fy27_estimate": "revenue high-single to low-double-digit, OPM ~20%, PAT low-teens growth; Indorama/Indovida merger accretion is the swing factor",
+    "our_fy28_estimate": "merger integration benefits plus laminated-tube share gains; steady compounder economics",
+    "gap_direction": "partially-priced",
+    "gap_type": "new_business",
+    "gap_magnitude_pct": null,
+    "gap_basis": "the board-approved Indovida merger (swap price implying ~Rs 339/share) is a real value-unlock not fully in the ~19x standalone multiple; but this is an ~18% ROCE mid-cap, not a 10x setup",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 18,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 1.0,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 37,
+    "margin_trend": "expanding",
+    "capex_efficiency": "productive",
+    "assessment": "positive"
+  },
+  "track_record": {
+    "years_checked": 11,
+    "years_cleared": 4,
+    "note": "Of FY16-FY26, FY19 (+11.7%/17%), FY21 (+12.0%/17%), FY22 (+11.0%/17%) and FY26 (+13.1%/18%) cleared both filters. ROCE sits steadily at 16-18% but the mature laminated-tube category clears 10% revenue growth in only 4 of 11 years."
+  }
 }

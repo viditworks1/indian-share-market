@@ -72,5 +72,37 @@
     "valuation": "weak",
     "score": 2.0,
     "note": "US healthcare-outsourcing TAM is real but most recent quarter grew at 'the same rate as the overall market' (12% CC), i.e. not outperforming — tailwind weak; already Rs30,645cr large-cap rules out a genuine 10x — tam no; sticky full-stack platform (regulatory complexity + integration depth) is a genuine moat vs AI disruption; no valuation data, rising customer concentration (top-10 ~44-45%) is a separate risk — weak."
+  },
+  "track_record": {
+    "years_checked": 6,
+    "years_cleared": 5,
+    "note": "FY21-FY26 screener. Both revenue growth >=10% AND ROCE >=15%: FY22 (+38%, ROCE 50%), FY23 (+35%, 30%), FY24 (+76%, 27%), FY25 (+47%, 32%), FY26 (+20%; FY26 ROCE not yet on screener but ROE 31% and FY25 was 32%, so >15% clearly). Missed only FY21 (rev +5%). ROCE stepped down from ~50% pre-scale but has held high-20s/low-30s."
+  },
+  "quality_metrics": {
+    "roce_pct": 30,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": 0.7,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 65,
+    "margin_trend": "stable",
+    "capex_efficiency": "neutral",
+    "assessment": "positive",
+    "note": "FY26 ROE 31%, ROCE ~30% (FY25 32%; screener FY26 not shown). Asset-light healthcare-outsourcing platform - high cash conversion (~65%, approximate, no CFO line pulled). Borrowings Rs 753 Cr vs EBITDA ~Rs 1,086 Cr FY26; leverage rises post the debt-funded TruBridge close (mid-2026) and Q1 FY27 EBITDA margin already slipped 35%->33% on integration. Growth is M&A-led (AQuity, TruBridge) so capex_efficiency neutral until TruBridge returns are proven."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-10",
+    "price": 1792,
+    "current_pe": 40.3,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~40x trailing on a high-ROE US-healthcare-outsourcing platform needs ~25-30% EPS CAGR FY26-28 against a ~28-32x quality-franchise exit; Q1 FY27 grew only ~12% constant-currency (market rate) with margin dented by TruBridge integration",
+    "our_fy27_estimate": "revenue +18-25% including TruBridge consolidation (organic ~12-15%), EBITDA margin ~32-34%, PAT +15-20%",
+    "our_fy28_estimate": "mid-teens organic growth plus TruBridge synergies; PAT ~15-20% growth",
+    "gap_direction": "over-optimistic",
+    "gap_type": "duration",
+    "gap_magnitude_pct": -25,
+    "gap_basis": "40x trailing on ~12% constant-currency organic growth with margin under near-term pressure from TruBridge integration and rising customer concentration (top-10 ~44-45%). Our FY28 PAT is materially below the ~25-30% CAGR the multiple embeds.",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

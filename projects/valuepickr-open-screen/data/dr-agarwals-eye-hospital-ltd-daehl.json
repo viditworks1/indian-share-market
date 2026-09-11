@@ -84,5 +84,37 @@
     "valuation": "weak",
     "score": 2.5,
     "note": "value_chain: surgeon density+brand trust give premium pricing power (moat=yes); equity mechanically pinned to parent's swap ratio caps tam."
+  },
+  "track_record": {
+    "years_checked": 8,
+    "years_cleared": 6,
+    "note": "FY19-FY26 screener. Both revenue growth >=10% AND ROCE >=15% in the same FY: FY19, FY22, FY23, FY24, FY25, FY26 (ROCE 17-34%, growth 11-44%). Missed only FY20 (rev +4%) and FY21 (COVID, rev -20%). ROCE has settled at a steady 17-20% since FY22 as the centre network scaled."
+  },
+  "quality_metrics": {
+    "roce_pct": 17,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": 2.0,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 40,
+    "margin_trend": "stable",
+    "capex_efficiency": "productive",
+    "assessment": "positive",
+    "note": "FY26 ROCE 17% / ROE 25%, OPM ~31%. Borrowings Rs 326 Cr vs EBITDA ~Rs 146 Cr FY26 (~2.2x, partly Ind AS 116 hospital lease liabilities). CFO Rs 145 Cr FY26. Day-care surgical eye-care model has short payback per centre and ROCE held ~17-20% right through the roll-out - capex_efficiency productive. Note: equity value is now mechanically pinned to parent DAHL via the fixed 2:23 merger swap."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-10",
+    "price": 5242,
+    "current_pe": 33.0,
+    "current_ev_ebitda": 19,
+    "valuation_tool": "EV/EBITDA",
+    "implied_growth_cagr": "equity value is mechanically pinned to parent DAHL via the fixed 2 DAEHL : 23 DAHL swap; standalone ~19x EV/EBITDA vs the parent's ~28x on ~14-16% same-store + centre-roll-out growth implies a mid-teens EPS CAGR, but the realised outcome is whatever DAHL does minus the ~8-11% arbitrage/dilution the thread keeps arriving at",
+    "our_fy27_estimate": "revenue ~Rs 550-600 Cr (+17-25%), OPM ~28-31%, PAT +18-25%",
+    "our_fy28_estimate": "revenue ~Rs 650-720 Cr; post-merger the position simply becomes DAHL at ~28x EV/EBITDA",
+    "gap_direction": "priced-in",
+    "gap_type": "duration",
+    "gap_magnitude_pct": null,
+    "gap_basis": "after the announced 2:23 merger (pending SEBI then NCLT, likely to slip past FY27) DAEHL is a merger-arbitrage proxy on the parent. Standalone ROCE ~17% / ROE ~25% and ~19x EV/EBITDA are attractive vs the parent's ~28x, but that discount is what the swap is meant to close, not upside for DAEHL holders.",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

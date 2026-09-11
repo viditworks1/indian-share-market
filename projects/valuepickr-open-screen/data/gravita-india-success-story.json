@@ -65,5 +65,37 @@
     "valuation": "weak",
     "score": 2.5,
     "note": "Secular circular-economy/recycling tailwind with a diversified international footprint is real and structural; capacity utilization flat ~65-75% for 3 consecutive quarters ('not sweating assets') — tam weak; recent margin compression in newer plastic/copper segments undermines confidence in the diversification moat — weak; no valuation data recorded, pending MCX aluminium-exchange listing is the main awaited catalyst — weak."
+  },
+  "track_record": {
+    "years_checked": 8,
+    "years_cleared": 5,
+    "note": "FY19-FY26 screener consolidated. Both revenue growth >=10% AND ROCE >=15% in the same FY: FY22 (+57%, ROCE 31%), FY23 (+26%, 32%), FY24 (+13%, 28%), FY25 (+22%, 22%), FY26 (+10%, 17%). FY19-FY21 missed (ROCE 13-21% with sub-10% or single-digit growth in FY20-FY21). ROCE has fallen from a 32% peak (FY23) to 17% (FY26) as newer plastic/copper verticals dilute and utilisation plateaus."
+  },
+  "quality_metrics": {
+    "roce_pct": 17,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": -1.0,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 5,
+    "margin_trend": "stable",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral",
+    "note": "FY26 ROCE 17%, down from 32% (FY23). Net cash (~Rs 414 Cr, D/E 0.20) despite Rs 736 Cr gross borrowings. OPM range-bound ~8-10%. CFO only Rs 169 Cr FY26 against EBITDA ~Rs 427 Cr - lead/metal recycling is working-capital-heavy and capacity capex has run ahead of a utilisation that has been flat ~65-75% for three quarters ('not sweating assets'), so capex_efficiency neutral."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-10",
+    "price": 1696,
+    "current_pe": 31.9,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~32x trailing on a ~15-20% recycling compounder needs ~25% EPS CAGR FY26-28 against a ~18-22x cyclical-industrial exit; capacity utilisation has been flat ~65-75% for three quarters and ROCE has fallen 32%->17%",
+    "our_fy27_estimate": "revenue ~Rs 5,000-5,400 Cr (+17-25% on new capacity), OPM ~9-10%, PAT ~Rs 500-560 Cr",
+    "our_fy28_estimate": "revenue ~Rs 6,000-6,600 Cr if utilisation lifts and the MCX aluminium channel opens, PAT ~Rs 600-680 Cr",
+    "gap_direction": "over-optimistic",
+    "gap_type": "margin",
+    "gap_magnitude_pct": -20,
+    "gap_basis": "32x P/E while ROCE fell 32%->17% (FY23->FY26), plastic and copper segment margins compressed (Jul-Aug 2026) and utilisation plateaued. Our FY28 PAT is ~20% below the ~25% CAGR the multiple implies; the pending MCX aluminium listing is the main unpriced catalyst.",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

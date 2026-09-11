@@ -72,5 +72,23 @@
     "valuation": "no",
     "score": 3.0,
     "note": "Government-digitisation FRS SaaS niche (3bn+ verifications, 300+ depts) is a real structural moat and tailwind; microcap (~Rs741cr) base supports tam; implied P/E ~55-60x already prices continued hypergrowth — valuation no. quality_metrics assessment flagged 'concern' separately."
-  }
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 99.6,
+    "current_pe": 67.8,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~68x trailing P/E; against a ~30x exit multiple for a niche government-SaaS name, roughly 50%+ EPS CAGR FY26-28 is needed for today's price to be fair -- the market is pricing sustained hypergrowth off a small (~Rs 52 Cr revenue) base",
+    "our_fy27_estimate": "revenue growth likely stays high off the low base as government FRS rollouts continue, but PAT visibility is low with no concall or guidance and near-total single-buyer (government) concentration",
+    "our_fy28_estimate": "unquantified; depends on government procurement pace, contract renewals and dilution from the recent equity raise",
+    "gap_direction": "priced-in",
+    "gap_type": "new_business",
+    "gap_magnitude_pct": null,
+    "gap_basis": "P/E ~68x already embeds multi-year hypergrowth continuing; with no independent guidance and near-total government-customer concentration, our path cannot be shown to exceed the implied one",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "track_record_na": true,
+  "track_record_na_note": "<3 fiscal years of verifiable history (or bank basis) at 2026-09-09 coverage backfill; leave absent per DEEPDIVE_QUICKREF, re-evaluate on a full deep pass."
 }

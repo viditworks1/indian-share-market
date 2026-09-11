@@ -3,13 +3,34 @@
   "tagline": "Debt-free micro-cap (~Rs 228 Cr) running PropEquity, India's dominant subscription real-estate transaction database (18-yr proprietary dataset), plus Propedge valuation services - ~40% pre-tax margins, big TAM headroom, trades ~14.6x (~7x ex-cash), Propedge back to growth and a fresh HDFC Capital strategic investment; tempered by mid-teens (not 37%) growth, a large idle cash pile dragging blended ROE to ~16%, and scope-creep across 7 verticals + Middle East + a mooted MBA school",
   "business_overview": "Owns/operates PropEquity - subscription database of ~1.4-1.7 lakh projects across 44+ cities, sold to developers (70%+ of India's top 100), 100+ banks/NBFCs and ~35 PE funds - plus Propedge, a property-valuation subsidiary (expanded 10 -> 38 cities). Now describes itself as 7 verticals (subscription data, valuations, research & consulting, plus newer lines). Asset-light, subscription-led, ~40% pre-tax margin, debt-free with ~Rs 113 Cr cash/investments. Has stopped earlier speculative F&O activity. Incorporated PropEquity Middle East (Dubai, Aug-2024); PropEquity AI is being built in a separately-funded subsidiary (PropEquity Tech Pvt Ltd).",
   "fundamentals_table": [
-    ["Market Cap", "~Rs 228 Cr (price ~Rs 210)"],
-    ["Revenue / PAT", "FY26 ~Rs 53.8 Cr (+21% YoY) / ~Rs 15.7 Cr (+22%); EPS Rs 14.97 (screener TTM shows ~Rs 47 Cr / Rs 16 Cr on a different basis)"],
-    ["ROCE / ROE", "Operating ROCE very high (small operating capital); consolidated/blended ROCE ~21%, ROE ~16% (dragged by ~Rs 113 Cr cash = ~half of book value Rs 100/sh)"],
-    ["Revenue growth", "~37% FY24 -> ~21% FY26; 3-yr sales CAGR ~17%, profit CAGR ~15%; management targets Rs 500-1,000 Cr long term"],
-    ["Margin", "~29% net / ~40% pre-tax - stable across FY25-26"],
-    ["Debt / Cash", "Debt-free; ~Rs 113 Cr cash & investments"],
-    ["Promoter holding", "~72.3% (Jul 2026), no pledge; dividend yield 0%"]
+    [
+      "Market Cap",
+      "~Rs 228 Cr (price ~Rs 210)"
+    ],
+    [
+      "Revenue / PAT",
+      "FY26 ~Rs 53.8 Cr (+21% YoY) / ~Rs 15.7 Cr (+22%); EPS Rs 14.97 (screener TTM shows ~Rs 47 Cr / Rs 16 Cr on a different basis)"
+    ],
+    [
+      "ROCE / ROE",
+      "Operating ROCE very high (small operating capital); consolidated/blended ROCE ~21%, ROE ~16% (dragged by ~Rs 113 Cr cash = ~half of book value Rs 100/sh)"
+    ],
+    [
+      "Revenue growth",
+      "~37% FY24 -> ~21% FY26; 3-yr sales CAGR ~17%, profit CAGR ~15%; management targets Rs 500-1,000 Cr long term"
+    ],
+    [
+      "Margin",
+      "~29% net / ~40% pre-tax - stable across FY25-26"
+    ],
+    [
+      "Debt / Cash",
+      "Debt-free; ~Rs 113 Cr cash & investments"
+    ],
+    [
+      "Promoter holding",
+      "~72.3% (Jul 2026), no pledge; dividend yield 0%"
+    ]
   ],
   "fundamentals_narrative": "High-quality economics for its size - ~40% pre-tax margins, debt-free, high operating ROCE - anchored by a genuine data moat: 18 years of month-on-month primary-transaction coverage, ~Rs 300 Cr invested in datasets, and >70% of India's top-100 developers plus 100+ lenders and ~35 PE funds as clients (real switching cost once a bank standardises on it for underwriting). This deep-dive tempered three things in the prior write-up: (1) blended returns are lower than stated - consolidated ROE is ~16%, not ~26%, because roughly half of book value sits in idle cash earning little and there is no dividend; the ~34% figure was an operating/standalone read; (2) growth has decelerated from ~37% (FY24) to ~21% (FY26), and client count has been closer to flat QoQ - recent growth is more price/existing-client than new logos; (3) the company is spreading itself across 7 verticals, a Dubai entity, a proposed real-estate MBA school and a separately-funded AI subsidiary - broad for a ~Rs 54 Cr-revenue business. Offsetting positives confirmed this pass: the Propedge valuation division has stabilised and returned to growth (company + trusted-user), and HDFC Capital Advisors is coming onto the cap table via an ~Rs 8 Cr preferential issue (with special rights) plus a term sheet validating the PropEquity AI round. Stock trades ~14.6x trailing, roughly 7x ex-cash.",
   "technical_read": "Not independently pulled. Price ~Rs 210 vs a prior ~Rs 231 Cr cap reference; recovered from the 2024 lows after the valuation-division wobble.",
@@ -207,7 +228,12 @@
     "position": "dominant subscription database of Indian primary real-estate transactions, plus valuation services (Propedge) to developers, banks and PE funds",
     "bottleneck_node": "the proprietary 18-year month-on-month transaction dataset (~Rs 300 Cr invested) - very hard to replicate",
     "supply_side_status": "consolidating",
-    "adjacent_peers": ["Liases Foras", "CRE Matrix", "Anarock Research", "Knight Frank India (advisory)"],
+    "adjacent_peers": [
+      "Liases Foras",
+      "CRE Matrix",
+      "Anarock Research",
+      "Knight Frank India (advisory)"
+    ],
     "note": "The data asset is the moat - a new entrant would need 15+ years of coverage; banks/PE standardise on PropEquity for underwriting, creating switching cost. Clear leader in a lightly-contested national niche."
   },
   "earnings_quality": {
@@ -248,5 +274,21 @@
       "note": "Update (11 loves): Propedge/valuation division has stabilised and is back to a growth trajectory; core subscription business 'growing very well in last few quarters'. Caps a multi-year run of positive coverage of the business quality and runway. Not an explicit price-target call.",
       "superseded": false
     }
-  ]
+  ],
+  "track_record": {
+    "years_checked": 3,
+    "years_cleared": 2,
+    "note": "FY24-FY26 (screener PROPEQUITY view; note the data file uses a larger standalone revenue basis -- Rs 54cr FY26 vs screener Rs 30cr -- but the growth/ROCE pattern is the same): ROCE 18-23% every year (>=15%). Revenue growth ~+10% FY24, ~+9% FY25 (flat year), ~+21-25% FY26. Both cleared FY24 and FY26 = 2 of 3; FY25 missed on sub-10% growth."
+  },
+  "quality_metrics": {
+    "roce_pct": 23,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": -5.0,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 67,
+    "margin_trend": "stable",
+    "capex_efficiency": "productive",
+    "assessment": "positive",
+    "note": "roce_pct is FY25 23% (FY23 18% -> FY24 20% -> FY25 23%, improving; FY26 not separately shown, ~22-24%). Debt-free with ~Rs 113cr cash & investments (~half of book value) so ND/EBITDA deeply negative and interest coverage null. FCF-conv ~67%: asset-light subscription database, negligible capex (~Rs 1cr/yr), CFO Rs 6/8/10cr FY24-26. OPM ~38-47% (~40% pre-tax), stable. Positive on the model quality; the ~Rs 113cr idle cash + 0% payout drag blended ROE (~16-17%)."
+  }
 }

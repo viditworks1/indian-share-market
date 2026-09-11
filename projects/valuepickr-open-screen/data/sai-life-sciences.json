@@ -304,5 +304,21 @@
     "valuation": "no",
     "score": 1.5,
     "note": "China+1 tailwind real but competed away by industry capacity adds; large-cap (~Rs32k Cr) exempt from TAM headroom; 87x P/E over-optimistic per market_expectation"
+  },
+  "track_record": {
+    "years_checked": 7,
+    "years_cleared": 2,
+    "note": "FY20-FY26 screener consolidated. Both revenue growth >=10% AND ROCE >=15% in the same FY: FY25 (rev +15.7%, ROCE 20%) and FY26 (rev +29%, ROCE ~19.6%). FY22-FY24 cleared the growth bar but ROCE was 6-14% (pre-scale). FY20-FY21 failed both."
+  },
+  "quality_metrics": {
+    "roce_pct": 19.6,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 0.3,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -20,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "positive",
+    "note": "OPM 14%->29% FY23->FY26, ROCE 11%->~20%. Borrowings Rs 288 Cr vs EBITDA ~Rs 661 Cr FY26, OCF +Rs 509 Cr so near net-cash. FCF negative (FY26 -Rs 83 Cr) purely on the doubled FY27 capex programme into ~65% utilisation - capex payback still unproven, hence capex_efficiency neutral."
   }
 }

@@ -58,5 +58,36 @@
     "valuation": "weak",
     "score": 2.0,
     "note": "Loss-making, no public track record (moat=no); order book ~19x revenue is large relative headroom (tam=yes); thesis entirely order-book conversion, no sector driver named."
+  },
+  "track_record": {
+    "years_checked": 3,
+    "years_cleared": 0,
+    "note": "FY24-FY26 verifiable (FY23 excluded, no FY22 revenue for a growth read). FY24 rev -26% / ROCE 12%; FY25 rev +26% / ROCE -15%; FY26 rev -22% / ROCE negative. Zero years clear the growth>=10% AND ROCE>=15% test -- pre-scale-up, loss-making."
+  },
+  "quality_metrics": {
+    "roce_pct": -15.1,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": null,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "contracting",
+    "capex_efficiency": "unclear",
+    "assessment": "concern"
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 918,
+    "current_pe": null,
+    "current_ev_ebitda": null,
+    "valuation_tool": "other",
+    "implied_growth_cagr": "at ~Rs 2,500 Cr market cap on Rs 49 Cr FY26 revenue and net losses, the price already assumes near-complete, on-schedule conversion of the Rs 921 Cr Indian Railways order book into revenue over ~3 years at double-digit margins, plus repeat wins",
+    "our_fy27_estimate": "revenue should step up materially as propulsion-system deliveries begin, but margin and PAT trajectory are unproven; losses may persist into early FY27 during the ramp",
+    "our_fy28_estimate": "if order-book execution holds, revenue could be several times FY26 with a return to profit -- entirely execution-dependent and unverified",
+    "gap_direction": "over-optimistic",
+    "gap_type": "new_business",
+    "gap_magnitude_pct": null,
+    "gap_basis": "market cap ~Rs 2,500 Cr on Rs 49 Cr FY26 revenue and net losses prices near-flawless conversion of the Rs 921 Cr order book; execution is entirely unproven and FY26 revenue actually fell ~22%",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

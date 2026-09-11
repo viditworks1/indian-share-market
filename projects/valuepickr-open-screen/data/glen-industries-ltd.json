@@ -58,5 +58,35 @@
     "valuation": "weak",
     "score": 2.5,
     "note": "Verdict explicit 'structural sustainable-packaging tailwind' (yes); independent screen flags inconsistent quality (moat weak); D/E~2.9 elevated; no tam/valuation detail."
-  }
+  },
+  "quality_metrics": {
+    "roce_pct": 14,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 3.2,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -37,
+    "margin_trend": "contracting",
+    "capex_efficiency": "neutral",
+    "assessment": "concern",
+    "note": "SME IPO Jul 2025. ROCE 14% FY26 vs 23% 3-yr avg; OPM contracted 24%->19%, PAT down YoY (Rs18cr->Rs16cr). Borrowings rose to Rs121cr vs ~Rs38cr EBITDA (~3.2x); FY26 CFO only Rs6cr, FCF -Rs14cr (~-37% conversion) as PLA/paper-straw + thin-wall capacity ramps. Single-use-plastic-ban tailwind is real but leverage, negative FCF and margin contraction are live concerns."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": null,
+    "current_pe": 18.4,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~18x on Rs16cr PAT (which fell YoY); needs a return to 20%+ growth and margin recovery to justify",
+    "our_fy27_estimate": "revenue +20-25% on new PLA/paper-straw + thin-wall capacity, OPM recovery toward 20-22%, PAT rebound",
+    "our_fy28_estimate": "export-led second leg; single-plant / customer concentration the risk",
+    "gap_direction": "partially-priced",
+    "gap_type": "margin",
+    "gap_magnitude_pct": -15,
+    "gap_basis": "plastic-ban tailwind is real but FY26 saw margin contraction (24%->19%), PAT down YoY, debt up to 3.2x EBITDA and negative FCF while capacity ramps; 18x prices a clean recovery.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "commitments": [],
+  "track_record_na": true,
+  "track_record_na_note": "<3 fiscal years of verifiable history (or bank basis) at 2026-09-09 coverage backfill; leave absent per DEEPDIVE_QUICKREF, re-evaluate on a full deep pass."
 }

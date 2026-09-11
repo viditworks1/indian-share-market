@@ -62,5 +62,36 @@
     "valuation": "weak",
     "score": 3.0,
     "note": "7GW order book + management's 40-50% CAGR-to-FY30 target on a large land bank is a real renewable-IPP tailwind and tam; no distinct moat described for a commodity solar-IPP model — weak; stock near 52-wk low after a ~40% correction with an unresolved community question on whether margin pressure is temporary or structural — valuation weak. D/E 1.71 is meaningful leverage against currently-pressured margins."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 292,
+    "current_pe": 12.6,
+    "current_ev_ebitda": 8,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~13x trailing earnings after a ~40% correction from the peak; against a ~14-16x exit this needs only ~15-20% EPS CAGR, which the 7 GW order book and 40-50% revenue CAGR target would clear easily if margins and leverage hold -- the low multiple prices in the margin-pressure and D/E-1.71 risk",
+    "our_fy27_estimate": "revenue +35-50% on the order book / land bank; OPM ~32-36%; PAT growth slower than revenue on higher interest as the IPP book scales; FCF remains deeply negative on capex",
+    "our_fy28_estimate": "continued high revenue growth if execution timing normalises; the swing factor is whether margin pressure is temporary (execution timing) or structural (competitive solar-IPP tariffs)",
+    "gap_direction": "partially-priced",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "a ~13x multiple on a 40-50%-growth renewable IPP looks cheap, but ROCE has fallen to ~14%, D/E is 1.71 against currently-pressured margins, FCF is heavily negative on capex, and the community's temporary-vs-structural margin question is unresolved -- the low multiple is compensation for those risks, not a clean mispricing",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 13.8,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 5.4,
+    "interest_coverage": 5.3,
+    "fcf_conversion_pct": -290,
+    "margin_trend": "stable",
+    "capex_efficiency": "neutral",
+    "assessment": "concern"
+  },
+  "track_record": {
+    "years_checked": 7,
+    "years_cleared": 5,
+    "note": "Per screener.in consolidated (FY20-FY26): FY20-FY24 all cleared both bars (revenue +59-180% / ROCE 16-25%); FY25-FY26 ROCE slipped to ~14% on rising leverage (D/E 1.71) and margin pressure even as revenue kept growing 55-69%. Capital-intensive IPP model with deeply negative free cash flow."
   }
 }

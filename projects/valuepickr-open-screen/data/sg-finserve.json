@@ -3,14 +3,38 @@
   "tagline": "APL Apollo-group anchor-led supply-chain / invoice-financing NBFC — cheap cost of funds and zero reported NPAs, but a walked-back growth guidance, a CEO+CFO exit, and a genuine TAM ceiling that management itself is trying to diversify around",
   "business_overview": "SG Finserve is a supply-chain-finance NBFC promoted by the sons of Sanjay Gupta (promoter of APL Apollo Tubes). It provides short-tenor (typically 1-3 month) working-capital finance to the suppliers and dealers of large 'anchor' corporates (Adani, JSW, Tata, Havells and ~45+ others), using the GST stack and AI-based monitoring of 6,000+ MSMEs. Cost of funds ~8.5% (among the lowest in the NBFC peer set, helped by an irrevocable corporate guarantee from S Gupta Holding to lenders), yield on assets ~12.5%, NIM ~4-4.5%. ~60%+ of AUM is to listed entities.",
   "fundamentals_table": [
-    ["Market Cap", "~Rs 4,460 Cr (small-cap); ~3x book"],
-    ["AUM / loan book", "~Rs 2,900 Cr; loan book roughly doubled YoY in Q3 FY26"],
-    ["FY26", "PAT ~Rs 100 Cr; ROE ~9% (3-yr avg ~10%)"],
-    ["Q1 FY27", "PAT ~Rs 54 Cr; revenue ~Rs 136 Cr; annualised ROE ~14%"],
-    ["Asset quality", "Zero reported NPA (a ~Rs 5 Cr bad loan was fully provided in-quarter, not shown as NPA)"],
-    ["Guidance", "Original FY27 AUM guide of Rs 6,000 Cr walked back in Jan 2026 to Rs 7,500 Cr by FY30 + '20% CAGR from here'"],
-    ["Capital", "1 Cr promoter warrants at Rs 450 (premium to market at issue); promoter buying Feb 2026"],
-    ["Governance", "CEO (Sorabh Dhawan, moved to Veefin) and CFO both resigned Oct 2025; both had been selling in the open market for several quarters"]
+    [
+      "Market Cap",
+      "~Rs 4,460 Cr (small-cap); ~3x book"
+    ],
+    [
+      "AUM / loan book",
+      "~Rs 2,900 Cr; loan book roughly doubled YoY in Q3 FY26"
+    ],
+    [
+      "FY26",
+      "PAT ~Rs 100 Cr; ROE ~9% (3-yr avg ~10%)"
+    ],
+    [
+      "Q1 FY27",
+      "PAT ~Rs 54 Cr; revenue ~Rs 136 Cr; annualised ROE ~14%"
+    ],
+    [
+      "Asset quality",
+      "Zero reported NPA (a ~Rs 5 Cr bad loan was fully provided in-quarter, not shown as NPA)"
+    ],
+    [
+      "Guidance",
+      "Original FY27 AUM guide of Rs 6,000 Cr walked back in Jan 2026 to Rs 7,500 Cr by FY30 + '20% CAGR from here'"
+    ],
+    [
+      "Capital",
+      "1 Cr promoter warrants at Rs 450 (premium to market at issue); promoter buying Feb 2026"
+    ],
+    [
+      "Governance",
+      "CEO (Sorabh Dhawan, moved to Veefin) and CFO both resigned Oct 2025; both had been selling in the open market for several quarters"
+    ]
   ],
   "fundamentals_narrative": "The reported numbers look strong in isolation — loan book doubling, zero NPAs, PAT compounding, a cost of funds most NBFCs would envy on the back of APL Apollo parentage. But the FY26/27 story is really about credibility and headroom: management materially cut its own AUM guidance in Jan 2026 (Rs 6,000 Cr FY27 -> Rs 4,200-4,500 Cr) while simultaneously floating AIF, insurance-broking (a wholly-owned subsidiary was incorporated) and last-mile-retail initiatives that investors opposed on the concall. ROE is still only low-double-digits because the book is small and the model is capital-hungry.",
   "technical_read": "Not pulled. 52-week range ~Rs 323-650; stock de-rated through H2 FY26 on the guidance reset, recovered somewhat on the strong Q4/Q1 prints.",
@@ -70,5 +94,36 @@
   ],
   "red_flag_tier": null,
   "red_flag_reason": null,
-  "disclaimer": "This is independent research for informational purposes only, not investment advice."
+  "disclaimer": "This is independent research for informational purposes only, not investment advice.",
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 679,
+    "current_pe": 28.6,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/B",
+    "implied_growth_cagr": "~3x book with ~10% ROE prices a rapid rise in sustainable ROE toward the mid-to-high teens plus 25-30% book compounding; fair P/B for a 10% ROE lender is ~1x, so ~3x embeds several years of ROE expansion that has not yet shown up",
+    "our_fy27_estimate": "AUM/revenue +30-50% off the low base (loan book roughly doubling), PAT +30-40%; ROE improves only modestly toward low-teens as the book is capital-hungry",
+    "our_fy28_estimate": "growth continues if the anchor model scales, but management's own AUM guide was cut (Rs 6,000 Cr FY27 -> Rs 7,500 Cr by FY30) and the middle-tier-vendor TAM is the open question",
+    "gap_direction": "over-optimistic",
+    "gap_type": "duration",
+    "gap_magnitude_pct": null,
+    "gap_basis": "at ~3x book / ~29x earnings the price needs a fast ROE step-up, but ROE has been stuck at 9-11% for three years, management cut its own AUM guidance, the CEO and CFO both exited, and zero-NPA optics rest partly on aggressive in-quarter provisioning",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 9.32,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": null,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "stable",
+    "capex_efficiency": "neutral",
+    "assessment": "concern"
+  },
+  "track_record": {
+    "years_checked": 3,
+    "years_cleared": 0,
+    "note": "NBFC -- profitability leg on ROE. Per screener.in, revenue scaled fast (FY24 +363%, FY26 +96%) but ROE stuck at 9-11% (FY24 11% / FY25 9% / FY26 10%), never near 15%; FY25 revenue actually declined 11%. Pre-FY24 revenue was negligible (~Rs 2 Cr). Zero years cleared both tests -- a capital-hungry sub-scale model."
+  }
 }

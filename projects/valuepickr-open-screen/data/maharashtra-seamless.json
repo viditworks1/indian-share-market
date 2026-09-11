@@ -76,5 +76,36 @@
     "score": 3.0,
     "note": "Government E&P budget allocation (Rs57,612cr) is a real sector tailwind; Q1 FY27 order book +31% QoQ to Rs1,709cr with a shift to higher-margin ONGC/Oil India/export mix supports tam; faces structural competition from forward-integrated steel majors (JSW, Tata) and Chinese dumping with anti-dumping protection lapsing ~2026 — no distinct moat; ~11x P/E called 'reasonable valuation' — yes. A June-2026 board-approved demerger tied to a reported family/promoter dispute is a live, unresolved special situation, separate from this score.",
     "analyst_override": true
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 676,
+    "current_pe": 12.3,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~12x TTM on trough earnings for a net-cash cyclical implies roughly flat EPS - the market is not pricing the Q1 FY27 order-book acceleration or the heavy promoter buying",
+    "our_fy27_estimate": "revenue recovery off the FY26 trough as the order book converts; margin rebuilding from 14% toward high-teens",
+    "our_fy28_estimate": "second leg on capacity plus acquisitions; the board-approved demerger tied to a family dispute is an unresolved special situation",
+    "gap_direction": "underestimated",
+    "gap_type": "volume",
+    "gap_magnitude_pct": null,
+    "gap_basis": "a 12x trough multiple on a debt-free balance sheet does not credit the Q1 FY27 order-book acceleration or promoter buying; the demerger overhang is the offsetting caveat",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 14,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": -0.5,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 22,
+    "margin_trend": "contracting",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral"
+  },
+  "track_record": {
+    "years_checked": 3,
+    "years_cleared": 0,
+    "note": "Of the years with both metrics verifiable in the captured table (FY24-26), none cleared: revenue fell -5.5%, -2.5% and -11.3% despite ROCE of 23%, 17% and 14%. The earlier up-cycle (FY22-23 revenue +36-83%) pre-dates the ROCE data captured here - a cyclical, not a consistent compounder."
   }
 }

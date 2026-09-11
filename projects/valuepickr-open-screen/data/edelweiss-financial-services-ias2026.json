@@ -65,5 +65,37 @@
     "valuation": "yes",
     "score": 2.5,
     "note": "EAAA IPO/placement is a genuine value-unlock (valuation=yes) but magnitude only supports re-rating not 10x; weak growth/high leverage undercut other boxes."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 134,
+    "current_pe": 20.1,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/B",
+    "implied_growth_cagr": "~2.7x P/B on a ~14% ROE hold-co implies the market is crediting the asset-management-arm IPO / sum-of-the-parts unlock; fair value near 2x P/B needs ROE to sustain 14-16% and the AMC listing to crystallise",
+    "our_fy27_estimate": "revenue +10-15%, ROE creeping toward 14-15%; standalone earnings power modest",
+    "our_fy28_estimate": "value realisation hinges on the AMC IPO timing and terms, not organic compounding",
+    "gap_direction": "partially-priced",
+    "gap_type": "new_business",
+    "gap_magnitude_pct": null,
+    "gap_basis": "the SOTP / AMC-IPO unlock is partly in the 2.7x P/B; execution and timing of the listing are the swing, and the consolidated ROE has never reached 15%",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 14,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": null,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral",
+    "note": "Diversified financial hold-co - leverage/coverage/FCF/capex metrics not meaningful. Based on ROE 10%->14% (FY23->FY26, still sub-15%), high structural leverage (borrowings ~Rs 18,600 Cr), net profit margin 5.5%->6.3%. capex_efficiency set neutral as not applicable."
+  },
+  "track_record": {
+    "years_checked": 11,
+    "years_cleared": 0,
+    "note": "Consolidated ROE (used in place of ROCE for a financial) was 5% through FY20 and only reached 14% by FY26 - below the 15% filter every year. Revenue growth is erratic with the credit cycle (-34% to +35%). No year clears both filters; the thesis is a SOTP unlock, not a consistency record."
   }
 }

@@ -3,19 +3,52 @@
   "tagline": "Fast-growing coffee processor/exporter riding a capacity-expansion wave, clouded by a stack of governance red flags including a fresh Aug-2026 fund-utilization deviation",
   "business_overview": "Vintage Coffee manufactures and exports spray-dried, agglomerated, and (soon) freeze-dried instant coffee, aggressively expanding capacity (6,500 to 11,000+ MTPA across FY25-27) funded largely by equity issuance, with a growing consumer-pack/domestic mix alongside its bulk export business.",
   "fundamentals_table": [
-    ["Market Cap", "~Rs 2,354 Cr"],
-    ["ROCE", "18.2%"],
-    ["ROE", "16.6%"],
-    ["Stock P/E", "29.9"],
-    ["52-week range", "Rs 120 - 180"],
-    ["Working capital", "Days reduced from 192 to 147"]
+    [
+      "Market Cap",
+      "~Rs 2,354 Cr"
+    ],
+    [
+      "ROCE",
+      "18.2%"
+    ],
+    [
+      "ROE",
+      "16.6%"
+    ],
+    [
+      "Stock P/E",
+      "29.9"
+    ],
+    [
+      "52-week range",
+      "Rs 120 - 180"
+    ],
+    [
+      "Working capital",
+      "Days reduced from 192 to 147"
+    ]
   ],
   "fundamentals_narrative": "Genuinely strong and accelerating operating performance — Q1FY27 revenue +58% YoY, EBITDA +75% YoY on top of a Q3FY26 quarter that saw revenue +71%/EBITDA +79% YoY — driven by capacity coming online and a shift toward higher-margin consumer packs. Cash flow from operations turned positive in Q3FY26.",
   "technical_read": "Not independently pulled this pass.",
   "sentiment_summary": "Read the most recent 50 of 76 posts (2025-07 to 2026-08), single batch. Sentiment tracks two parallel threads: (1) a genuinely strong operating story — capacity ramp, volume growth cross-checked independently against Coffee Board export-permit data by one detailed poster (anupammahor), consistently beating quarter guidance; and (2) a persistent, escalating governance concern — heavy equity dilution via repeated preferential allotments, a compliance officer resignation, missing historical annual-report filings, an accounting classification flagged as a red flag (short-term borrowings booked inside operating cash flow, masking a likely negative true CFO), and — in the very last post read (2026-08-26, from a trusted user) — a fresh, disclosed-after-the-fact deviation where ~Rs 12 Cr raised for 'plant and machinery upgrades' was instead used to buy land without prior shareholder approval.",
   "community_signal": "Multiple posters (thevalueinvestor, akash_das, ValueVision) flagged frequent equity dilution and promoter-share pledging as early as Oct 2025; Vishal11 (not trusted, but substantive) identified a specific accounting red flag in Jun 2026 — short-term borrowings classified inside CFO, implying true operating cash flow was negative ~Rs 20 Cr in FY26 rather than positive.",
   "trusted_signals": [
-    {"date": "2026-08-26", "username": "Jadewade", "thread": "Vintage Coffee", "note": "Flagged a disclosed-after-the-fact Rs 12 Cr deviation in preferential-issue fund utilization (raised for 'plant and machinery upgrades,' instead spent on land purchase without prior shareholder approval), explicitly comparing the pattern to Sigachi's warrant-dilution capital-allocation issue that made him cautious there.", "superseded": false}
+    {
+      "date": "2026-08-26",
+      "username": "Jadewade",
+      "thread": "Vintage Coffee",
+      "note": "Flagged a disclosed-after-the-fact Rs 12 Cr deviation in preferential-issue fund utilization (raised for 'plant and machinery upgrades,' instead spent on land purchase without prior shareholder approval), explicitly comparing the pattern to Sigachi's warrant-dilution capital-allocation issue that made him cautious there.",
+      "superseded": false
+    },
+    {
+      "date": "2025-11-06",
+      "username": "Midhunjoe",
+      "thread": "Midhun's Investment journey (own thread, elevated tier)",
+      "note": "post #64: capacity-expansion thesis (4500->6500->+4500 MT), consistent YoY growth, reasonable forward valuation; #66 tracks the concall (additional 4500 MT facility online by Mar 2026, contributing Q1 FY27). Not in his Sep-2026 sold list. recency_weight 0.25 at scoring time. elevated-tier -> no floor.",
+      "superseded": false,
+      "strength": "high",
+      "signal_type": "conviction"
+    }
   ],
   "bse_notes": "History of frequent preferential allotments/QIPs funding capex; compliance officer resignation (Oct 2025) around the time of a warrant issue at Rs 124/share; company's BSE filings reportedly show only the current year's annual report despite being listed since 2019 (flagged by thevalueinvestor, unverified independently this pass).",
   "bull_case": [

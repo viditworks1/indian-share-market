@@ -67,14 +67,18 @@ def main():
     if entry is None:
         sys.exit(f"no guidance-backfill queue entry with slug: {a.slug!r}")
 
-    # sanity: if result=done, the data file really should carry the block now
+    # sanity: if result=done, the data file should now carry at least one of the
+    # three coverage blocks (market_expectation / quality_metrics / track_record).
+    # The queue rebuild re-adds the name next run if it is still missing any of
+    # them, so a partial fill is safe — this just catches a no-op "done".
     if a.result == "done":
         dpath = resolve_data_path(VP, DATA_DIR, a.slug)
         try:
             d = load(dpath)
-            if not isinstance(d.get("market_expectation"), dict):
-                sys.exit(f"--result done but {dpath} has no market_expectation block; "
-                         f"write the blocks first, then call this.")
+            cov = ("market_expectation", "quality_metrics", "track_record")
+            if not any(isinstance(d.get(b), dict) for b in cov):
+                sys.exit(f"--result done but {dpath} carries none of {cov}; "
+                         f"write the block(s) first, then call this.")
         except OSError:
             sys.exit(f"--result done but cannot read {dpath}")
 

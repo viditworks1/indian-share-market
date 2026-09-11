@@ -79,5 +79,38 @@
     "valuation": "yes",
     "score": 2.0,
     "note": "ADD extension + no new domestic PAN capacity is real protective tailwind; verdict explicit IGPL 'controls neither' spread/crude (moat=no); re-rating room to book (valuation=yes) but capped at 3-5x (tam=no)."
-  }
+  },
+  "track_record": {
+    "years_checked": 9,
+    "years_cleared": 2,
+    "note": "Screener FY18-FY26: rev growth >=10% AND ROCE >=15% both cleared in only 2 of 9 (FY18 10%/29%, FY22 68%/21%) - the phthalic-anhydride spread up-cycle years. ROCE swings wildly with PA spreads (45/29/5/29/33/21/5/11/3%); FY26 ROE ~0.2% (deep trough). Cyclical single-product commodity."
+  },
+  "quality_metrics": {
+    "roce_pct": 3,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 3.8,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 15,
+    "margin_trend": "unclear",
+    "capex_efficiency": "neutral",
+    "assessment": "concern",
+    "note": "Phthalic-anhydride producer at a cyclical trough - ROCE ~3% FY25, ROE ~0.2% FY26; OPM whipsaws with PA spreads (5/10/5% FY24-26). Borrowings Rs362cr FY26 vs ~Rs96cr trough EBITDA (~3.8x). FY26 CFO Rs102cr vs capex Rs89cr (~+15% conversion) - mature assets, capex light - but on depressed EBITDA. Chinese PA oversupply the overhang; capex (maleic anhydride / downstream) yet to earn."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 557,
+    "current_pe": 21.0,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "21x on trough earnings (ROE ~0%); the market is pricing a phthalic-anhydride spread recovery, not company growth",
+    "our_fy27_estimate": "revenue flat-to-+10% on volume, OPM recovery to 8-10% as PA spreads normalise, PAT up sharply off a near-zero base",
+    "our_fy28_estimate": "downstream (maleic anhydride, speciality) diversification the structural lever; spread-cycle dependent",
+    "gap_direction": "partially-priced",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "21x P/E on cyclical-trough phthalic-anhydride earnings with 3.8x EBITDA leverage; any upside is a spread-cycle call, with Chinese PA oversupply the overhang.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "commitments": []
 }

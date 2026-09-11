@@ -73,5 +73,37 @@
     "valuation": "weak",
     "score": 2.5,
     "note": "Verdict explicit: 'EV two-wheeler after-market opportunity is genuine, not hype' (tailwind=yes); but Q4FY26 declining EBITDA/PAT and a trusted user's opacity-driven exit undercut moat; no tam/valuation detail."
+  },
+  "track_record": {
+    "years_checked": 8,
+    "years_cleared": 4,
+    "note": "FY19-FY26 screener consolidated. Both revenue growth >=10% AND ROCE >=15% in the same FY: FY19, FY21, FY22, FY25. ROCE has been consistently strong (19-27% since FY21), so the binding fail is revenue growth - the 5-yr sales CAGR is only ~9% and FY20 (+3%), FY23 (+8%), FY24 (+1%) and FY26 (+5%) all missed the growth bar."
+  },
+  "quality_metrics": {
+    "roce_pct": 22,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": -0.3,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 60,
+    "margin_trend": "stable",
+    "capex_efficiency": "productive",
+    "assessment": "positive",
+    "note": "FY26 ROCE 22% (a third-party aggregator shows 26.9%), ROE ~16% (screener; the deep-dive's 7.5% figure looks stale), near debt-free (borrowings Rs 24 Cr), CFO Rs 171 Cr FY26 against EBITDA ~Rs 146 Cr - strong cash generation on low capex intensity. OPM range-bound ~20-26% (dipped in Q4 FY26). Capital quality is genuinely good; the weakness is the ~9% five-year topline CAGR, not the balance sheet."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-10",
+    "price": 1746,
+    "current_pe": 18.0,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~18x trailing on a debt-free ~22% ROCE niche belt exporter prices in a return to low-teens earnings growth; the 5-yr revenue CAGR has been only ~9% and Q4 FY26 printed EBITDA -8% / PAT -11% YoY, so the EV two-wheeler after-market belt catalyst has to actually move the topline to justify even this modest multiple",
+    "our_fy27_estimate": "revenue ~Rs 640-680 Cr (+5-12%), OPM ~22-24%, PAT ~Rs 130-150 Cr",
+    "our_fy28_estimate": "revenue ~Rs 720-800 Cr if the EV-belt after-market scales, PAT ~Rs 150-175 Cr",
+    "gap_direction": "priced-in",
+    "gap_type": "timing",
+    "gap_magnitude_pct": null,
+    "gap_basis": "18x on a high-ROCE but slow-growing (~9% 5-yr CAGR) belt exporter whose most recent quarter decelerated (EBITDA -8%, PAT -11% YoY). The EV two-wheeler after-market belt opportunity is real optionality not yet visible in reported revenue; recurring management-transparency complaints add a discount.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

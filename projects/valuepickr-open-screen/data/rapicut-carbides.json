@@ -60,5 +60,38 @@
     "valuation": "weak",
     "score": 2.0,
     "note": "Specific recent-quarter catalyst noted but explicitly unconfirmed; thin community coverage limits scrutiny; no moat/tam/valuation detail in record."
-  }
+  },
+  "track_record": {
+    "years_checked": 9,
+    "years_cleared": 1,
+    "note": "Screener FY18-FY26: rev growth >=10% AND ROCE >=15% both cleared in only 1 of 9 (FY19 10%/15%). A decade of sub-scale, mostly negative-ROCE results (FY20-25 ROCE -6% to 4%); FY26 sales +129% but ROCE still only 11%. Tiny tungsten-carbide tools maker."
+  },
+  "quality_metrics": {
+    "roce_pct": 11,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 0,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "improving",
+    "capex_efficiency": "neutral",
+    "assessment": "concern",
+    "note": "Debt-free but sub-scale (Rs96cr sales FY26). ROCE -6% FY25 -> 11% FY26 off a very low base; OPM only 3.1%. EBITDA was negligible/negative across FY24-25 so FCF-conversion ratio is unstable - in absolute terms CFO ~Rs11cr over FY24-26 vs ~Rs2cr capex, so cash-generative but tiny. Capex negligible - not a capex story; a decade of weak returns is the concern."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 350,
+    "current_pe": 16.2,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "16x on Rs2cr PAT (first profit in years); needs FY26's 129% revenue jump to prove durable and ROCE to hold double digits",
+    "our_fy27_estimate": "revenue growth moderating to 15-25% after the FY26 spike, OPM 4-6%, PAT still sub-Rs5cr",
+    "our_fy28_estimate": "import-substitution in tungsten-carbide tooling the structural angle; execution unproven",
+    "gap_direction": "partially-priced",
+    "gap_type": "volume",
+    "gap_magnitude_pct": null,
+    "gap_basis": "one strong year (FY26 sales +129%) after a decade of sub-scale, mostly loss-making results; 16x P/E and 8.7x book price a durable turnaround not yet demonstrated.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "commitments": []
 }

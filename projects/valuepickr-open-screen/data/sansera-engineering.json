@@ -87,5 +87,36 @@
     "valuation": "weak",
     "score": 2.5,
     "note": "value_chain bottleneck_node: aerospace/semicon qualification is a multi-year barrier protecting incumbents (moat=yes); ~Rs25,000cr size explicitly caps tam."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 4136,
+    "current_pe": 69.2,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~69x TTM (rich) for a ~14-16% ROCE forging major implies ~35%+ EPS CAGR FY26-28 plus a durable multiple - the aerospace/defence/semiconductor mix must carry it",
+    "our_fy27_estimate": "revenue +15-20%, OPM toward 18-19%, PAT +20-30% as the tech-agnostic and aero share rises",
+    "our_fy28_estimate": "second leg on aero/defence order execution; capex remains heavy and ROCE flat in the interim",
+    "gap_direction": "over-optimistic",
+    "gap_type": "new_business",
+    "gap_magnitude_pct": null,
+    "gap_basis": "the multiple already prices a fast, successful aerospace transition against thin reported returns (ROCE stuck at 13-16%, FCF negative through the FY25 capex year)",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 15,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": 0.8,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -39,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral"
+  },
+  "track_record": {
+    "years_checked": 6,
+    "years_cleared": 1,
+    "note": "Of FY20-FY25 (both metrics verifiable), only FY23 (+17.5%/16%) cleared both filters. ROCE has been stuck at 13-16% and revenue growth is lumpy (-10% to +28%); the aerospace/defence pivot is the forward story, not the record."
   }
 }

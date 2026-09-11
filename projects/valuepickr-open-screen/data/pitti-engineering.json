@@ -86,5 +86,36 @@
     "score": 3.0,
     "note": "Real sector tailwinds and share-gain TAM, but contract-manufacturer economics with no pricing power and a fair-to-full valuation near the 52-week high; score permits a return label which judgment declines given the unit economics",
     "analyst_override": true
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 1172,
+    "current_pe": 35.4,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~35x TTM on a no-pricing-power laminations maker implies ~30%+ EPS CAGR FY26-28 at a 20-22x exit",
+    "our_fy27_estimate": "revenue +18-22% on railways/renewable/power demand, OPM toward 17-18%, PAT +25-30% on the value-mix shift",
+    "our_fy28_estimate": "continued shift to 15%+ EBITDA stator/rotor sub-assemblies; post-merger integration benefits",
+    "gap_direction": "partially-priced",
+    "gap_type": "mix",
+    "gap_magnitude_pct": null,
+    "gap_basis": "the mix shift from ~8-10% commodity sheet to 15%+ sub-assemblies is partly in the 35x; no pricing power, a merger-inflated capital base (ROCE slipping 19%->15%) and promoter selling cap it",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 15,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 2.5,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -26,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral"
+  },
+  "track_record": {
+    "years_checked": 3,
+    "years_cleared": 3,
+    "note": "FY22 (+84%/19%), FY23 (+15%/17%) and FY24 (+13%/15%) each cleared both filters. FY25-26 ROCE is not in the captured table but revenue growth stayed above 12% (+37%, +12%); ~23% revenue CAGR, though ROCE is trending down on the merger-enlarged capital base."
   }
 }

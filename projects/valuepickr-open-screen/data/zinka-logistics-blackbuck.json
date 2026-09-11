@@ -86,5 +86,33 @@
     "valuation": "no",
     "score": 2.5,
     "note": "Core tolling/telematics (24% GTV growth vs ~15% industry) + SuperLoads digital-freight-brokerage (+271% YoY, 4->9->14 cities) is a real dual structural tailwind and supports tam; a real regulatory dependency (FASTag policy shift risk) was called 'a major red flag' by one poster, and SuperLoads remains early-stage/unproven — moat weak; P/E~84/P/S~18 is rich for a business only recently consistently profitable — valuation no. Promoter stake sales in late 2025 are a separate caution."
-  }
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 580,
+    "current_pe": 62.3,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~62x TTM implies the market needs ~40%+ EPS CAGR FY26-28 at a 30-35x exit - it is pricing the SuperLoads freight-brokerage optionality plus operating leverage off a just-turned-profitable base",
+    "our_fy27_estimate": "revenue +35-45% on SuperLoads scale-up and the platform take-rate; margin expanding past 26%",
+    "our_fy28_estimate": "second leg depends on SuperLoads durability and FASTag regulatory continuity",
+    "gap_direction": "priced-in",
+    "gap_type": "new_business",
+    "gap_magnitude_pct": null,
+    "gap_basis": "at 62x the SuperLoads growth is already in the price; FASTag regulatory dependency and promoter selling are unpriced downside, not upside",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 13,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": -1.5,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 70,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral"
+  },
+  "track_record_na": true,
+  "track_record_na_note": "<3 fiscal years of verifiable history (or bank basis) at 2026-09-09 coverage backfill; leave absent per DEEPDIVE_QUICKREF, re-evaluate on a full deep pass."
 }

@@ -134,5 +134,37 @@
     "valuation": "no",
     "score": 1.0,
     "note": "Guidance is a mid-teens compounder not a multibagger driver; explicit genuine large-cap (~Rs45,924cr) size-math exemption from TAM; no moat data; verdict notes valuation 'adds caution'"
+  },
+  "track_record": {
+    "years_checked": 10,
+    "years_cleared": 8,
+    "note": "FY17-FY26 screener consolidated. Revenue growth >=10% AND ROCE >=15% in the same FY passed in FY17, FY20, FY21, FY22, FY23, FY24, FY25, FY26 (ROCE 23-52% throughout, growth 10-26%). Missed only FY18 (rev +7%) and FY19 (rev -3.5%). ROCE never below 23% in the window."
+  },
+  "quality_metrics": {
+    "roce_pct": 35,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": -0.3,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 40,
+    "margin_trend": "stable",
+    "capex_efficiency": "productive",
+    "assessment": "positive",
+    "note": "FY26 ROCE 35% / RoNW 25%, near debt-free (borrowings ~Rs 260 Cr vs EBITDA ~Rs 1,395 Cr, net cash). OPM steady 27-28%. FY26 OCF Rs 529 Cr against modest maintenance capex; branded-generics model reinvests at 30%+ incremental ROCE. fcf_conversion approximate."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-10",
+    "price": 3534,
+    "current_pe": 38.9,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~18-20% EPS CAGR FY26-28 needed to justify 39x trailing decaying to a ~28-30x high-quality-franchise exit",
+    "our_fy27_estimate": "revenue ~Rs 6,300-6,500 Cr (+16-18%, per company high-teens guide with US only mid-single-digit), PAT ~Rs 1,220-1,280 Cr",
+    "our_fy28_estimate": "revenue ~Rs 7,300-7,600 Cr, PAT ~Rs 1,420-1,500 Cr (mid-teens compounding)",
+    "gap_direction": "priced-in",
+    "gap_type": "duration",
+    "gap_magnitude_pct": -5,
+    "gap_basis": "39x trailing on a mid-to-high-teens branded-generics compounder; company FY27 guide is high-teens revenue with US price erosion. Our FY28 PAT sits ~5% below what a 28-30x-exit path from today's price implies.",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

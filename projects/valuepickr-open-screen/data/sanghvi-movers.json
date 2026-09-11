@@ -65,5 +65,33 @@
     "valuation": "yes",
     "score": 2.5,
     "note": "Genuine KSA expansion (~100% utilization, Jeddah Tower) + India wind-super-cycle/nuclear/metro/refinery demand is a real, specific structural tailwind; explicit verdict rules out a 10x from this asset-heavy, ~15%-ROE base — tam no; core crane rental (~50-56% EBITDA margin) is a real high-margin niche, but capital intensity + wind-cyclicality (historically loss-making) temper confidence — moat weak; ~15x earnings with PEG<1 called 'undemanding' — valuation yes."
-  }
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 443,
+    "current_pe": 19.2,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~19x TTM coming off a record year implies the market is pricing continued growth; a capital-heavy cyclical would normally sit at ~12-15x, so ~15-20% EPS CAGR FY26-28 is implied",
+    "our_fy27_estimate": "revenue +20-30% on the Saudi Arabia / Middle East ramp at ~100% utilisation; core rental EBITDA margin normalising from the ~50% peak toward high-30s",
+    "our_fy28_estimate": "second leg on ME fleet additions; wind-cyclicality and capital intensity are the caps",
+    "gap_direction": "partially-priced",
+    "gap_type": "duration",
+    "gap_magnitude_pct": null,
+    "gap_basis": "the Saudi/ME expansion optionality is partly in the 19x; the capital-heavy, wind-cyclical model and margin normalisation off a record year are the offsets",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 16,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 1.7,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -40,
+    "margin_trend": "contracting",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral"
+  },
+  "track_record_na": true,
+  "track_record_na_note": "<3 fiscal years of verifiable history (or bank basis) at 2026-09-09 coverage backfill; leave absent per DEEPDIVE_QUICKREF, re-evaluate on a full deep pass."
 }

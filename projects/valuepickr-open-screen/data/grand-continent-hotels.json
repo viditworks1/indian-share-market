@@ -256,5 +256,17 @@
     "valuation": "weak",
     "score": 2.0,
     "note": "Revenue growth (+94% FY26) and key-count ramp (956->1855) support tam via live-inflection carve-out; late-cycle glut risk tempers tailwind; no moat (least-flexible fixed-lease peer); GST margin hit unconfirmed keeps valuation weak (partially-priced)."
-  }
+  },
+  "quality_metrics": {
+    "roce_pct": 12.0,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 1.5,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -65,
+    "margin_trend": "contracting",
+    "capex_efficiency": "neutral",
+    "assessment": "concern"
+  },
+  "track_record_na": true,
+  "track_record_na_note": "<3 fiscal years of verifiable history (or bank basis) at 2026-09-09 coverage backfill; leave absent per DEEPDIVE_QUICKREF, re-evaluate on a full deep pass."
 }

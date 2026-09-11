@@ -85,5 +85,37 @@
     "valuation": "weak",
     "score": 2.5,
     "note": "AI-datacentre-driven behind-the-meter power demand is a genuine, accelerating structural tailwind (Bloom/CAT proxy); explicit size math (~Rs1.4 lakh cr) rules out tam; ~80% share of India hyperscale DC-genset market is a very strong moat; no market_expectation data but Goldman has a 'sell' despite good numbers — valuation marked weak. BESS substitution is a genuine long-run threat to the core franchise, separate from this score."
+  },
+  "track_record": {
+    "years_checked": 8,
+    "years_cleared": 6,
+    "note": "Screener 10y table FY19-FY26: both rev growth >=10% AND ROCE >=15% cleared in 6 of 8 years. Only FY20 (-8.9%) and FY21 (-16.0%) failed, on the covid revenue contraction; ROCE was 17-21% even then and has since risen to 40%."
+  },
+  "quality_metrics": {
+    "roce_pct": 40,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 0,
+    "interest_coverage": 200,
+    "fcf_conversion_pct": 61,
+    "margin_trend": "expanding",
+    "capex_efficiency": "productive",
+    "assessment": "positive",
+    "note": "Net-cash (borrowings Rs37cr FY26 vs EBITDA ~Rs2,550cr), interest cover ~200x. OPM expanded 14%->21% FY21-FY26, ROCE 21%->40%. Trailing-3y FCF conversion ~61% of EBITDA (CFO Rs1,285/1,683/1,734cr vs modest capex). CPCB IV+ transition landed margin-accretive; capex productive as ROCE rose through the ramp."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 5170,
+    "current_pe": 58.6,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~30-35% EPS CAGR FY26-28 needed to justify ~59x today against a ~32x high-quality-franchise exit multiple",
+    "our_fy27_estimate": "revenue +18-20% (Q1 FY27 +18%, powergen +50%, data centres ~40% of PG), OPM ~21-22%, PAT +20-25%",
+    "our_fy28_estimate": "DC capex wave continues; high-teens/low-20s revenue growth, PAT ~20%",
+    "gap_direction": "over-optimistic",
+    "gap_type": "duration",
+    "gap_magnitude_pct": -16,
+    "gap_basis": "Revenue compounding high-teens with powergen +50% and DC now ~40% of PG, but a 59x P/E needs mid-30s EPS CAGR. BESS substitution, metro diesel-genset curbs and infra-cycle exposure cap how long that rate holds.",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

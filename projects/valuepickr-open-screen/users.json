@@ -1,6 +1,6 @@
 {
   "note": "Community reputation registry. Built incrementally: every time the scan task reads an individual post (Phase 4 'go deeper'), it logs the poster's username and that post's love/like count here (Discourse action id=2 = the heart/Like reaction, which is what renders as 'love' on ValuePickr). This is NOT an exhaustive forum-wide crawl of every user - it's a byproduct of the posts we actually read during normal scanning, accumulating over time. Regenerate the human-readable leaderboard with scripts/regen_user_ranking.py.",
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-10",
   "users": {
     "phreakv6": {
       "total_love": 1241,
@@ -114,9 +114,31 @@
       "high_conviction_calls": []
     },
     "Cshar": {
-      "total_love": 243,
-      "posts_seen": 41,
-      "high_conviction_calls": []
+      "total_love": 252,
+      "posts_seen": 43,
+      "high_conviction_calls": [
+        {
+          "stock": "Kaynes Technology India",
+          "date": "2026-06-20",
+          "strength": "high",
+          "superseded": false,
+          "note": "post #79 in Midhun's thread: \"loaded up 10% of PF when it dropped to 3100 levels ... will hold ... next 4-5 years at least.\" Independent of Midhunjoe (who exited). conviction Low -> Low-Medium."
+        },
+        {
+          "stock": "Cohance Life Science",
+          "date": "2026-06-20",
+          "strength": "high",
+          "superseded": false,
+          "note": "post #79 in Midhun's thread: \"Cohance at sub 300 levels 8% of PF, will hold ... 4-5 years at least.\" conviction (unset) -> Low-Medium."
+        },
+        {
+          "stock": "Wockhardt",
+          "date": "2026-06-20",
+          "strength": "very-high",
+          "superseded": false,
+          "note": "post #79 in Midhun's thread: \"my top bet and not for sale for next 8-10 year or a market cap above 1 lk crore.\" Primacy language -> very-high; Cshar elevated -> no floor. conviction Medium -> Medium-High."
+        }
+      ]
     },
     "madanvl010": {
       "total_love": 9,
@@ -858,9 +880,52 @@
       "high_conviction_calls": []
     },
     "Midhunjoe": {
-      "total_love": 53,
-      "posts_seen": 16,
-      "high_conviction_calls": []
+      "total_love": 200,
+      "posts_seen": 39,
+      "high_conviction_calls": [
+        {
+          "stock": "Neuland Laboratories",
+          "date": "2026-09-02",
+          "strength": "very-high",
+          "superseded": false,
+          "note": "post #90 (own thread): named among 17 core holdings; \"highest % gains (Neuland, Navin) ... held over 4-5 years\"; #92 reaffirms. 2nd+ qualifying mention in-batch -> very-high. elevated tier -> floor_active=false. state conviction Medium-High -> High."
+        },
+        {
+          "stock": "Navin Fluorine International",
+          "date": "2026-09-02",
+          "strength": "very-high",
+          "superseded": false,
+          "note": "post #90/#91/#92 (own thread): core holding held 4-5 years, \"highest % gains\"; patient hold through 2021-25 consolidation. very-high; elevated tier -> no floor. conviction Low-Medium -> Medium."
+        },
+        {
+          "stock": "TD Power Systems",
+          "date": "2026-09-02",
+          "strength": "high",
+          "superseded": false,
+          "note": "post #90 (own thread): \"TD, E2E, Car trade etc are 1-2 years old\" among 17 core holdings. Corroborates phreakv6. conviction Medium-High -> High."
+        },
+        {
+          "stock": "E2E Networks",
+          "date": "2026-09-02",
+          "strength": "high",
+          "superseded": false,
+          "note": "post #90 (own thread): named among 17 core holdings; held through earlier paper loss. conviction Low-Medium -> Medium."
+        },
+        {
+          "stock": "CarTrade Tech",
+          "date": "2026-09-02",
+          "strength": "high",
+          "superseded": false,
+          "note": "post #90 (own thread): named among 17 core holdings; #71 \"did c. 3x\" in 2025. conviction Medium -> Medium-High."
+        },
+        {
+          "stock": "Vintage Coffee",
+          "date": "2025-11-06",
+          "strength": "high",
+          "superseded": false,
+          "note": "post #64/#66 (own thread): capacity-expansion thesis + concall tracking. Not in Sep-2026 sold list. recency_weight 0.25. conviction Medium -> Medium-High."
+        }
+      ]
     },
     "T11": {
       "total_love": 40,
@@ -1472,7 +1537,7 @@
     },
     "Deven": {
       "total_love": 45,
-      "posts_seen": 12,
+      "posts_seen": 13,
       "high_conviction_calls": []
     },
     "shunz": {
@@ -1734,8 +1799,8 @@
       "high_conviction_calls": []
     },
     "Investor_No_1": {
-      "total_love": 137,
-      "posts_seen": 45,
+      "total_love": 144,
+      "posts_seen": 47,
       "high_conviction_calls": []
     },
     "Vijayan_N": {
@@ -1906,8 +1971,8 @@
       "high_conviction_calls": []
     },
     "Niraj_Punjkaran": {
-      "total_love": 49,
-      "posts_seen": 14,
+      "total_love": 52,
+      "posts_seen": 15,
       "high_conviction_calls": []
     },
     "ankit_tripathi": {
@@ -2381,8 +2446,8 @@
       "high_conviction_calls": []
     },
     "gaurav": {
-      "total_love": 72,
-      "posts_seen": 22,
+      "total_love": 73,
+      "posts_seen": 23,
       "high_conviction_calls": []
     },
     "Familyman": {
@@ -2896,8 +2961,8 @@
       "high_conviction_calls": []
     },
     "hardik_shah1": {
-      "total_love": 23,
-      "posts_seen": 19,
+      "total_love": 24,
+      "posts_seen": 20,
       "high_conviction_calls": []
     },
     "babu44b": {
@@ -4678,7 +4743,7 @@
     },
     "GrowthValueInvester": {
       "total_love": 2,
-      "posts_seen": 7,
+      "posts_seen": 10,
       "high_conviction_calls": []
     },
     "mallikarjun": {
@@ -11901,6 +11966,31 @@
       "posts_seen": 1,
       "high_conviction_calls": [],
       "first_seen_note": "The Anti-Portfolio post #843 (2026-09-04, love=5): asked vikas_sinha to re-share his portfolio holdings table. Question, no personal holding/conviction language - reputation-only."
+    },
+    "Malkd": {
+      "total_love": 60,
+      "posts_seen": 6,
+      "high_conviction_calls": []
+    },
+    "Mukul": {
+      "total_love": 2,
+      "posts_seen": 1,
+      "high_conviction_calls": []
+    },
+    "ap1990": {
+      "total_love": 0,
+      "posts_seen": 1,
+      "high_conviction_calls": []
+    },
+    "roopakagarwal": {
+      "total_love": 0,
+      "posts_seen": 1,
+      "high_conviction_calls": []
+    },
+    "chaitanyakhanna": {
+      "total_love": 0,
+      "posts_seen": 1,
+      "high_conviction_calls": []
     }
   }
 }

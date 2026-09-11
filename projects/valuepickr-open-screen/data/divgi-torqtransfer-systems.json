@@ -69,5 +69,38 @@
     "valuation": "weak",
     "score": 2.0,
     "note": "value_chain notes EV-transmission adjacency is 'contested' since Sona Comstar is far larger/better capitalised (moat weak); capital efficiency (ROCE/ROE) unproven; no tam/valuation detail."
-  }
+  },
+  "track_record": {
+    "years_checked": 6,
+    "years_cleared": 2,
+    "note": "Screener FY20-FY25: rev growth >=10% AND ROCE >=15% both cleared in 2 of 6 (FY21 18%/20%, FY22 25%/15%). FY23-25 fell away (ROCE 10%/6%/10%, sales down FY24-25 on customer-programme lulls). FY26 rebounded +61% but ROCE not yet displayed/restored."
+  },
+  "quality_metrics": {
+    "roce_pct": 10,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 0,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -4,
+    "margin_trend": "stable",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral",
+    "note": "EV-transmission supplier; IPO 2023. ROCE fell 20%->6% FY22-24 on a demand lull, back to ~10% FY25 with FY26 sales +61% and OPM recovered to 20%. Net cash (borrowings Rs2cr FY26). FCF conversion ~-4% on the one clean year available (FY24 CFO Rs41cr vs capex Rs43cr); FY25-26 cash-flow detail not pulled this pass. Capex reads neutral - returns collapsed then, rebound unproven."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 1150,
+    "current_pe": 55.8,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~56x trailing needs ~35-40% EPS CAGR FY26-28 (EV-transmission ramp) against a ~25-30x auto-tech exit",
+    "our_fy27_estimate": "revenue +25-35% on EV transfer-case / DCT programme ramp, OPM ~20-22%, PAT +40%+ off a low FY25 base",
+    "our_fy28_estimate": "second leg from new OEM EV platforms; order-book execution dependent",
+    "gap_direction": "partially-priced",
+    "gap_type": "new_business",
+    "gap_magnitude_pct": null,
+    "gap_basis": "FY26 revenue rebounded +61% after a 3-yr decline; 56x P/E prices a sustained EV-transmission ramp with only one strong quarter of evidence and ROCE not yet back to the FY21-22 15-20% level.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "commitments": []
 }

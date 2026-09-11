@@ -234,7 +234,15 @@
   ],
   "red_flag_tier": null,
   "red_flag_reason": null,
-  "trusted_signals": [],
+  "trusted_signals": [
+    {
+      "date": "2026-09-09",
+      "username": "LearningEleven (X)",
+      "thread": "X / @LearningEleven",
+      "note": "AS9100D aerospace certification almost in the bag (mgmt guided 6mo ago, customers in discussion); constructive on next concall, notes stock still expensive on valuation.",
+      "superseded": false
+    }
+  ],
   "four_box": {
     "tailwind": "yes",
     "tam": "yes",

@@ -3,15 +3,42 @@
   "tagline": "Integrated TOPCon solar cell + module maker whose PAT went from Rs 9 Cr (FY23) to Rs 1,082 Cr (FY26) on a policy shift (ALMM List-II) — genuine, un-ignorable growth, but the earnings base is a domestic-content super-cycle peak into an industry-wide capacity build",
   "business_overview": "Emmvee (Bengaluru, listed Nov 2025) is an integrated solar PV manufacturer — modules plus the TOPCon cells that go inside them — across five factories clustered around Bengaluru. It began ~two decades ago in solar water heaters before moving to full-scale module and then cell manufacturing. Current capacity ~10.3 GW modules / 2.94 GW cells; a 6 GW integrated TOPCon facility is being commissioned (module line Dec 2026, cell line Mar 2027), taking capacity to ~16.3 GW modules / ~8.9 GW cells by early FY28. It is described as India's 2nd pure-play integrated cell-and-module manufacturer by capacity.",
   "fundamentals_table": [
-    ["Market Cap", "~Rs 22,000-23,400 Cr (mid-cap)"],
-    ["ROE / ROCE", "~51% / ~45% (FY26)"],
-    ["Revenue", "FY25 total income Rs 2,360 Cr (+147% YoY); revenue roughly doubled again in FY26"],
-    ["PAT", "Rs 9 Cr (FY23) -> ~Rs 1,082 Cr (FY26); Q1 FY27 PAT Rs 380 Cr (+103% YoY)"],
-    ["Q1 FY27 margins", "EBITDA margin 35.2% (all-time high); PAT margin 24.2% (record)"],
-    ["Order book", "~9.9 GW all-time high; Q1 inflows 1.48 GW; repeat-customer rate 57%"],
-    ["Balance sheet", "Debt/equity ~0.1; company has reduced debt"],
-    ["Stock P/E", "~17-18x (optically low — but on peak-cycle margins)"],
-    ["Policy", "ALMM List-II (mandatory domestic solar cells for eligible projects) effective Jun 2026; Emmvee is on the approved list, moving to a fully DCR-compliant portfolio"]
+    [
+      "Market Cap",
+      "~Rs 22,000-23,400 Cr (mid-cap)"
+    ],
+    [
+      "ROE / ROCE",
+      "~51% / ~45% (FY26)"
+    ],
+    [
+      "Revenue",
+      "FY25 total income Rs 2,360 Cr (+147% YoY); revenue roughly doubled again in FY26"
+    ],
+    [
+      "PAT",
+      "Rs 9 Cr (FY23) -> ~Rs 1,082 Cr (FY26); Q1 FY27 PAT Rs 380 Cr (+103% YoY)"
+    ],
+    [
+      "Q1 FY27 margins",
+      "EBITDA margin 35.2% (all-time high); PAT margin 24.2% (record)"
+    ],
+    [
+      "Order book",
+      "~9.9 GW all-time high; Q1 inflows 1.48 GW; repeat-customer rate 57%"
+    ],
+    [
+      "Balance sheet",
+      "Debt/equity ~0.1; company has reduced debt"
+    ],
+    [
+      "Stock P/E",
+      "~17-18x (optically low — but on peak-cycle margins)"
+    ],
+    [
+      "Policy",
+      "ALMM List-II (mandatory domestic solar cells for eligible projects) effective Jun 2026; Emmvee is on the approved list, moving to a fully DCR-compliant portfolio"
+    ]
   ],
   "fundamentals_narrative": "The 120x PAT jump in three years did not come from a new product — it came from ALMM (and DCR/PLI) rules that decide which panels can compete for a large, protected slice of India's ~45 GW/year solar demand, and Emmvee was one of very few Indian firms already built with integrated domestic cell capacity to capture it. Q1 FY27 margins (35% EBITDA, 24% PAT) are records. The risk is precisely that: solar cell/module manufacturing is globally one of the most brutally cyclical, commoditised industries, Chinese overcapacity is structural, and every major Indian player (Waaree, Premier Energies, Adani, ReNew, Tata Power, Websol and others) is adding integrated cell lines. As domestic cell supply catches up with the protected demand, today's margins normalise toward mid-teens EBITDA — so the ~17x optical P/E is on an earnings number that is very unlikely to be the through-cycle level.",
   "technical_read": "Not pulled. Listed Nov 2025; has traded well above the ~Rs 217 issue price.",
@@ -37,7 +64,12 @@
     "position": "integrated TOPCon solar cell + module manufacturer (one of ~2 pure-play integrated Indian players by capacity)",
     "bottleneck_node": "domestic solar cell capacity (ALMM List-II mandate) -- currently short, being filled fast",
     "supply_side_status": "adding",
-    "adjacent_peers": ["Premier Energies", "Waaree Energies", "Websol Energy", "Adani Solar (unlisted)"],
+    "adjacent_peers": [
+      "Premier Energies",
+      "Waaree Energies",
+      "Websol Energy",
+      "Adani Solar (unlisted)"
+    ],
     "note": "Capital-cycle read: supply-side 'adding' across every major player = late-cycle glut risk. The protected demand pool is real today, but the entire industry is racing to add integrated cell capacity, which is what normalises the current peak margins."
   },
   "four_box": {
@@ -57,5 +89,36 @@
   ],
   "red_flag_tier": null,
   "red_flag_reason": null,
-  "disclaimer": "This is independent research for informational purposes only, not investment advice."
+  "disclaimer": "This is independent research for informational purposes only, not investment advice.",
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 329,
+    "current_pe": 17.3,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~17x TTM on FY26 PAT (a policy-super-cycle peak) implies the market is NOT extrapolating the earnings base - a ~12-15x exit for a cyclical needs flat-to-down EPS, i.e. the market expects normalisation",
+    "our_fy27_estimate": "revenue can still grow on capacity, but ALMM List-II premium and TOPCon module ASPs are the swing; margin off the 34% FY26 peak",
+    "our_fy28_estimate": "industry-wide cell/module capacity build is a real headwind to the domestic-content premium",
+    "gap_direction": "over-optimistic",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "FY26 earnings sit on a domestic-content super-cycle peak (PAT Rs 9 Cr FY23 -> Rs 1,082 Cr FY26); with the industry adding capacity, the risk is our forward path is below even what a 17x needs",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 45,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 0.2,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -48,
+    "margin_trend": "expanding",
+    "capex_efficiency": "productive",
+    "assessment": "neutral"
+  },
+  "track_record": {
+    "years_checked": 4,
+    "years_cleared": 3,
+    "note": "FY24 (+54%/28%), FY25 (+146%/45%) and FY26 (+116%, ROCE well above 15% on a 34% OPM) each cleared both filters; FY23 (+11%/7%) missed on ROCE. The record is a 3-year ALMM List-II policy super-cycle off a Rs 9 Cr FY23 PAT base, not a long history."
+  }
 }

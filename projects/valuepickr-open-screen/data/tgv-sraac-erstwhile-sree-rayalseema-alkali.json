@@ -80,5 +80,38 @@
     "score": 3.0,
     "note": "China anti-involution capacity cuts + European shutdowns (Ineos Inovyn, Dow) are a real multi-year industry tailwind independent of execution; but large new caustic capacity from Reliance/Adani targeted live 2027-28 is a real medium-term oversupply risk — tam no; forward integration into chloromethanes/derivatives + aggressive captive-solar power-cost reduction is a genuine structural cost moat; ~8.2x trailing P/E with double-digit ROCE/ROE — valuation yes. Persistently poor shareholder communication is a separate governance gap.",
     "analyst_override": true
-  }
+  },
+  "track_record": {
+    "years_checked": 9,
+    "years_cleared": 3,
+    "note": "Screener FY18-FY26: rev growth >=10% AND ROCE >=15% both cleared in only 3 of 9 (FY19 15%/22%, FY22 51%/21%, FY23 53%/38%) - the caustic up-cycle years. FY24 collapsed (-34% sales, 5% ROCE); FY25-26 recovered on revenue but ROCE stuck at 10-13%. Cyclical commodity chemical."
+  },
+  "quality_metrics": {
+    "roce_pct": 13,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 1.0,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -1,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral",
+    "note": "ROCE 5%->10%->13% FY24-26 off a cyclical trough; OPM 9%->13%->18% as solar cuts power cost. Borrowings ~Rs357cr FY26 vs EBITDA ~Rs350cr (~1.0x). Trailing-3y FCF ~breakeven (CFO Rs697cr vs capex Rs705cr FY24-26) - heavy captive-solar + forward-integration capex; returns improving but still below a 15% bar, so capex reads neutral."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 107,
+    "current_pe": 8.27,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "at ~8x trailing P/E the market prices mid-cycle normalisation / an earnings decline; ~0-5% EPS CAGR justifies today's multiple on an ~8-10x cyclical exit",
+    "our_fy27_estimate": "revenue +10-12%, OPM held high-teens on solar cost savings + caustic tailwind, PAT +15-20%",
+    "our_fy28_estimate": "flat-to-down risk as Reliance/Adani caustic capacity lands 2027-28",
+    "gap_direction": "partially-priced",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "cheap on trailing earnings with solar-driven cost reduction and the China/Europe caustic tailwind under-appreciated; but 2027-28 domestic caustic oversupply (Reliance, Adani) and weak shareholder communication cap the re-rating.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "commitments": []
 }

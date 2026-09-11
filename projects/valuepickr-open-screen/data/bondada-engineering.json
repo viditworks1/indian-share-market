@@ -85,5 +85,37 @@
     "valuation": "yes",
     "score": 2.5,
     "note": "Solar+BESS/telecom EPC capex cycle is real but value_chain explicitly notes pricing power is limited (supply side 'adding') — tailwind weak; Rs7,147cr order book (~2.5x FY26 revenue) + fresh NTPC REL award (Rs1,338cr) support tam; EPC contractors 'seldom sustain much above mid-to-high teens' P/E — moat no; ~15x earnings undemanding on ~80% growth — valuation yes. Thread is effectively empty — no independent scrutiny of margin durability."
+  },
+  "track_record": {
+    "years_checked": 7,
+    "years_cleared": 6,
+    "note": "FY20-FY26 screener (id 543971). Both revenue growth >=10% AND ROCE >=15% in the same FY: FY21, FY22, FY23, FY24, FY25, FY26 (ROCE 19-39%, growth 11-116%). Missed only FY20 (rev +2%). ROCE stepped up to ~39% from FY24 as the solar+telecom EPC ramp scaled."
+  },
+  "quality_metrics": {
+    "roce_pct": 39,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 0.8,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 5,
+    "margin_trend": "expanding",
+    "capex_efficiency": "productive",
+    "assessment": "positive",
+    "note": "FY26 ROCE ~39% / ROE ~36%, OPM expanded 6%->12% FY22->FY26. Borrowings Rs 292 Cr vs EBITDA ~Rs 340 Cr FY26 (~0.8x). Cash conversion thin (CFO Rs 125 Cr FY26) because revenue is tripling and solar EPC is working-capital-heavy - trailing 3y (CFO-capex)/EBITDA barely positive. Asset-light EPC keeps ROCE high; empty VP thread means receivables/margin durability are unscrutinised."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-10",
+    "price": 289,
+    "current_pe": 14.8,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~15x trailing on ~80% revenue growth and a 2.5x-revenue order book is undemanding on the growth rate; solar/telecom EPC contractors rarely sustain a multiple much above mid-to-high teens, so the exit multiple - not growth - is the binding assumption",
+    "our_fy27_estimate": "revenue ~Rs 4,300-4,800 Cr (+50-70% per guidance on the Rs 7,147 Cr order book), OPM ~11-12%, PAT ~Rs 290-340 Cr",
+    "our_fy28_estimate": "revenue ~Rs 6,000-6,800 Cr, PAT ~Rs 400-470 Cr",
+    "gap_direction": "underestimated",
+    "gap_type": "duration",
+    "gap_magnitude_pct": 50,
+    "gap_basis": "~15x P/E on FY26 PAT ~Rs 195 Cr with ~80% revenue growth, ~39% ROCE and a Rs 7,147 Cr order book. Our FY28 PAT ~50% above what a flat ~15x on ~20% assumed growth implies - near-term growth is under-priced, though the EPC re-rating ceiling caps the upside multiple.",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

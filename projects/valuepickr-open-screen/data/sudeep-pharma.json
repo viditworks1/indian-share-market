@@ -75,5 +75,38 @@
     "valuation": "no",
     "score": 2.5,
     "note": "value_chain: price-maker in niches via formulation IP/registrations (moat=yes); ~70x multiple at Rs13,000cr scale explicitly rules out 10x (valuation=no)."
-  }
+  },
+  "track_record": {
+    "years_checked": 5,
+    "years_cleared": 3,
+    "note": "Screener FY21-FY25: rev growth >=10% AND ROCE >=15% both cleared in 3 of 5 (FY21 75%/36%, FY22 59%/33%, FY23 25%/49%); FY24 (7%) and FY25 (9%) missed on growth though ROCE held 28-36%. FY26 ROCE not displayed. ROCE 28-49% every verifiable year."
+  },
+  "quality_metrics": {
+    "roce_pct": 28,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 0,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -37,
+    "margin_trend": "contracting",
+    "capex_efficiency": "productive",
+    "assessment": "positive",
+    "note": "ROCE 49%->36%->28% FY23-25; OPM 40%->38%->35%. Net cash post-IPO (gross borrowings ~Rs150cr FY26 vs EBITDA ~Rs225cr). Trailing-3y FCF conversion negative (~-37% of EBITDA) - CFO ~Rs62cr/yr against a Rs327cr FY26 capex spike for specialty-excipient + phosphate capacity; ROCE still ~28-35% so capex reads productive."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": null,
+    "current_pe": 79.1,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~35-40% EPS CAGR FY26-28 needed to justify ~79x today against a ~28-30x high-quality-franchise exit",
+    "our_fy27_estimate": "~25-30% revenue (base case, ex battery-materials optionality), OPM ~34-35%, PAT +20-25%",
+    "our_fy28_estimate": "second leg only if the phosphate/battery-materials option converts; otherwise ~20% growth",
+    "gap_direction": "over-optimistic",
+    "gap_type": "new_business",
+    "gap_magnitude_pct": -20,
+    "gap_basis": "~79x embeds years of high-20s/30s compounding; the base excipient franchise is tracking mid-20s growth with contracting margins. Battery-materials optionality is a call option, not in numbers.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "commitments": []
 }

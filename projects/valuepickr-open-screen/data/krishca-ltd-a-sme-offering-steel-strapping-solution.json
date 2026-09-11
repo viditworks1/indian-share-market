@@ -60,5 +60,36 @@
     "valuation": "weak",
     "score": 2.0,
     "note": "PLI approval+capacity-doubling catalyst explicitly unconfirmed pending execution; missed first concall a caution flag; no moat/tam/valuation detail given."
+  },
+  "track_record": {
+    "years_checked": 3,
+    "years_cleared": 1,
+    "note": "FY24-FY26 verifiable. FY24 passed (rev +46%, ROCE ~20%); FY25 (rev +42%, ROCE ~13%) and FY26 (rev +57%, ROCE ~12.9%) failed on ROCE<15% as margins compressed. Strong top-line every year but only 1 of 3 clears the dual test."
+  },
+  "quality_metrics": {
+    "roce_pct": 12.9,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 2.4,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -175,
+    "margin_trend": "contracting",
+    "capex_efficiency": "unclear",
+    "assessment": "concern"
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 157,
+    "current_pe": 21.9,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~15-20% EPS CAGR FY26-28 needed to justify ~22x trailing at a ~15-18x exit for a small leveraged industrial",
+    "our_fy27_estimate": "revenue could rise sharply if the PLI/CRM facility commissions on schedule (community projects a near-doubling); PAT far less certain given OPM compression and stepped-up finance/depreciation costs",
+    "our_fy28_estimate": "bimodal -- material upside if CRM plus the Vajra Alloys/Manda Stainless stakes integrate and run at scale; downside if margins stay ~12% and borrowings keep climbing",
+    "gap_direction": "partially-priced",
+    "gap_type": "new_business",
+    "gap_magnitude_pct": null,
+    "gap_basis": "market already pays ~22x on downgraded FY26 earnings, implying meaningful FY27+ growth; our forward path shares that upside but rests entirely on unconfirmed CRM commissioning and acquisition integration, and the company just missed its first concall since listing",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

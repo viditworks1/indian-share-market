@@ -63,5 +63,38 @@
     "valuation": "weak",
     "score": 2.0,
     "note": "Legacy Tier B 'early-stage turnaround' framing; recent-quarter inflection noted but ROE still weak, VP thread dead - no detailed driver/moat/valuation."
-  }
+  },
+  "track_record": {
+    "years_checked": 5,
+    "years_cleared": 0,
+    "note": "Screener FY21-FY25: never had both rev growth >=10% AND ROCE >=15% in the same year - ROCE structurally sub-15 (range 7-15%), and the one 15% ROCE year (FY23) had only 4% growth. 0 of 5 cleared."
+  },
+  "quality_metrics": {
+    "roce_pct": 9,
+    "roce_trend": "unclear",
+    "net_debt_to_ebitda": 2.4,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 40,
+    "margin_trend": "contracting",
+    "capex_efficiency": "value-destructive",
+    "assessment": "concern",
+    "note": "ROCE volatile and low (13/7/11/15/8/9% FY20-25); OPM contracted 11%->6%->5% FY24-26. Borrowings Rs104cr FY26 vs ~Rs43cr EBITDA (~2.4x); FY26 interest cover only ~1.4x (PBT Rs17cr / interest Rs12cr). Trailing-3y FCF conversion ~+40% only because capex was starved (Rs16-46cr/yr) - not a quality signal given ROCE <10% and margins falling, so capex reads value-destructive."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 513,
+    "current_pe": 23.8,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~24x on thin (~5% OPM) earnings implies the market expects a sharp margin recovery; needs OPM back to ~10%+ and ~20% EPS CAGR to justify",
+    "our_fy27_estimate": "revenue +15-20% on volume, OPM recovery to 7-9%, PAT up sharply off a low base",
+    "our_fy28_estimate": "further normalisation if surfactant spreads recover; execution- and spread-dependent",
+    "gap_direction": "over-optimistic",
+    "gap_type": "margin",
+    "gap_magnitude_pct": -25,
+    "gap_basis": "24x trailing P/E on a sub-6% OPM commodity-surfactants business with 1.4x interest cover and ROCE <10%; the multiple already prices a margin recovery the filings don't show.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "commitments": []
 }

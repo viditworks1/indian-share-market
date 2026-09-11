@@ -48,5 +48,35 @@
     "valuation": "weak",
     "score": 2.0,
     "note": "Size fits bank re-rating (tam yes) but ex-IndusInd wholesale-team underwriting concern + rising CD ratio/GNPA argue moat no; no growth/valuation data recorded, marked weak."
-  }
+  },
+  "quality_metrics": {
+    "roce_pct": 13.0,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": null,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "contracting",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral",
+    "note": "Bank - net-debt/EBITDA, interest-coverage and FCF-conversion are not applicable; roce_pct here is ROE. FY26 PAT Rs633cr (+7% YoY); ROE ~13%, down from ~15% three years ago during a costly branch-expansion phase. Asset quality clean: GNPA 1.75% / NNPA 0.39% (Jun-2026), credit cost benign. CAR comfortably above the regulatory minimum. NIM compressing. No dividend despite consistent profit; promoter (Fairfax) holding cut ~49.7%->40%. capex_efficiency neutral by bank convention."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 311,
+    "current_pe": 8.12,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/B",
+    "implied_growth_cagr": "~1.1x book / ~8x earnings on ~13% ROE implies the market expects mid-teens book-value CAGR at best; a re-rating needs ROE back toward 15%+",
+    "our_fy27_estimate": "advances +20-25% (SME + gold + retail), NIM stabilising, credit cost benign; PAT +12-18%, ROE ~12-13%",
+    "our_fy28_estimate": "operating leverage from the branch-expansion investment phase; ROE recovery toward 14-15% the key swing",
+    "gap_direction": "partially-priced",
+    "gap_type": "duration",
+    "gap_magnitude_pct": null,
+    "gap_basis": "1.1x book is undemanding for 20%+ loan growth and clean asset quality, but ROE has drifted from 15% to 13% during a costly expansion phase and the multiple won't re-rate until ROE turns.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "commitments": [],
+  "track_record_na": true,
+  "track_record_na_note": "<3 fiscal years of verifiable history (or bank basis) at 2026-09-09 coverage backfill; leave absent per DEEPDIVE_QUICKREF, re-evaluate on a full deep pass."
 }

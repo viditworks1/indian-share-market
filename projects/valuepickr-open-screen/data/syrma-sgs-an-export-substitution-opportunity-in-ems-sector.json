@@ -74,5 +74,37 @@
     "valuation": "yes",
     "score": 2.5,
     "note": "India-EMS PLI/ECMS/ISM 2.0 + 5yr PCB anti-dumping duty is a real structural tailwind; explicit size math (~Rs28,400cr, would need ~Rs2.8 lakh crore, larger than Dixon today) rules out tam; management-driven margin turnaround (EBITDA margin 6%->9-11%+) is real execution but EMS economics remain structurally thin (ROE~10-12%) — moat weak; cheapest valuation among listed EMS leaders (vs Dixon, Kaynes) — valuation yes."
+  },
+  "track_record": {
+    "years_checked": 6,
+    "years_cleared": 2,
+    "note": "FY21-FY26 screener. Despite ~30-60% revenue growth most years, both revenue growth >=10% AND ROCE >=15% cleared in only FY22 (+43%, ROCE 15%) and FY25 (+20%, 17%). FY23 (ROCE 10%), FY24 (12%) and FY26 (~13-15%, ROE 14%) missed on returns - EMS economics are structurally thin (ROE 10-14%), so the margin turnaround has not yet lifted ROCE durably above 15%."
+  },
+  "quality_metrics": {
+    "roce_pct": 14,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": 0.3,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -40,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral",
+    "note": "FY26 ROE 14%, ROCE ~13-15% (FY25 17%; screener FY26 not shown). Near net-cash after the ~Rs 1,000 Cr QIP (gross borrowings Rs 400 Cr vs EBITDA ~Rs 530 Cr). OPM expanded 6%->11% FY24->FY26 on a deliberate mix-shift out of consumer into auto/healthcare/industrial + ODM. But EMS is very working-capital-intensive (inventory + receivables) so cash conversion is deeply negative during the growth phase, and the fresh Rs 1,595 Cr PCB-fab entry is capital-heavy and unproven - capex_efficiency neutral."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-10",
+    "price": 1622,
+    "current_pe": 84.2,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~84x trailing needs ~40%+ EPS CAGR sustained against a ~30-35x EMS-leader exit; the EBITDA-margin step-up from ~6% to 9-11% is driving PAT faster than revenue, but ROE is still ~10-14% and the stock has already doubled in six months",
+    "our_fy27_estimate": "revenue ~Rs 6,000-6,500 Cr (+25-35%), EBITDA margin ~10-11%, PAT +40-60% on operating leverage + mix",
+    "our_fy28_estimate": "revenue ~Rs 7,500-8,500 Cr, PAT growth moderating as the margin re-rating matures and PCB-fab capex weighs",
+    "gap_direction": "over-optimistic",
+    "gap_type": "margin",
+    "gap_magnitude_pct": -35,
+    "gap_basis": "84x trailing P/E on a ~4-5% PAT-margin, ~10-14% ROE EMS contractor; the fast EBITDA-margin step-up (6%->9-11%) is a one-time mix re-rating, not a repeatable driver. Our FY28 PAT is well below the 40%+ CAGR the multiple embeds, and the stock has already doubled pricing the turnaround.",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

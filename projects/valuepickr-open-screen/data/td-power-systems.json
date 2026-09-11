@@ -62,6 +62,15 @@
       "thread": "X / @LearningEleven",
       "note": "Concall: 'tremendous shortage of power generation equipment — gas turbines, gas engines, transformers, generators.'",
       "superseded": false
+    },
+    {
+      "date": "2026-09-02",
+      "username": "Midhunjoe",
+      "thread": "Midhun's Investment journey (own thread, elevated tier)",
+      "note": "post #90: \"TD, E2E, Car trade etc are 1-2 years old\" - named among the 17 stocks \"considered as core holdings\". Independent corroboration of the existing phreakv6 signal. elevated-tier -> no floor from this signal.",
+      "superseded": false,
+      "strength": "high",
+      "signal_type": "conviction"
     }
   ],
   "bse_notes": "13-Aug-2026: 10-year Build-to-Print Manufacturing Framework Agreement signed with Siemens Energy, Inc. (gas-turbine generator components). 14-Aug-2026: board approved a Rs 600cr QIP + a Rs 75cr preferential issue to promoters Nikhil Kumar and Mohib Khericha (6.25 lakh shares each at Rs 600); EGM 10-Sep-2026. FY26: Tumkur (3rd plant) commissioned; 2:1 stock split; dividend raised to Rs 2.10/share (from Rs 1.25). Aug-2026: SEBI Reg 29(2) disclosures (QIP-related). >100MW large-generator opportunity flagged as near-signing, announcement expected around Aug-2026, no FY27 revenue impact.",
@@ -295,5 +304,21 @@
     "valuation": "no",
     "score": 2.0,
     "note": "Genuine data-centre/turbine shortage tailwind; TAM undocumented amid industry-wide capacity adds; moat neutral (build-to-print, no pricing power evidence); 88x P/E gap=priced-in"
+  },
+  "track_record": {
+    "years_checked": 11,
+    "years_cleared": 4,
+    "note": "FY16-FY26 (screener consolidated): a decade-long turnaround -- ROCE below 15% every year FY15-FY21 and revenue shrinking FY16-FY17. Both metrics cleared only from FY22: FY22, FY24, FY25, FY26 = 4 of 11 (FY23 missed on 9.4% growth). Last 4 of 5 years clean; ROCE now 34%, OPM 18%."
+  },
+  "quality_metrics": {
+    "roce_pct": 34,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": -1.5,
+    "interest_coverage": 40,
+    "fcf_conversion_pct": 10,
+    "margin_trend": "expanding",
+    "capex_efficiency": "productive",
+    "assessment": "positive",
+    "note": "Net cash -- borrowings only Rs 18cr FY26 vs a large cash pile, so ND/EBITDA negative and interest_coverage (~40x) is the fallback metric. FCF-conv ~10% (trailing 3y CFO-capex ~Rs 80cr / EBITDA ~Rs 740cr) held down by working-capital build during 45% FY26 revenue growth. OPM expanded 12% (FY22) -> 18% (FY26); ROCE 16% -> 34%."
   }
 }

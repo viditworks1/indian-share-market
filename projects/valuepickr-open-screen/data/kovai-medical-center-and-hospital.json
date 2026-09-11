@@ -69,5 +69,37 @@
     "valuation": "no",
     "score": 1.5,
     "note": "Steady mid-teens hospital growth vs flat industry is real but not explosive (tailwind weak); explicit size math (~Rs6,555cr, ~14% growth) rules out tam; multi-decade regional trust/switching-cost moat is genuine; P/E ~25.6x near 52-wk high already prices the quality — valuation no."
+  },
+  "track_record": {
+    "years_checked": 9,
+    "years_cleared": 7,
+    "note": "FY18-FY26 screener consolidated. Revenue growth >=10% AND ROCE >=15% in the same FY passed FY18, FY20, FY22, FY23, FY24, FY25, FY26 (ROCE 15-24%, growth 11-31%). Missed FY19 (rev +7%) and FY21 (COVID, rev -3%). ROCE has been a steady 23% FY24-FY26."
+  },
+  "quality_metrics": {
+    "roce_pct": 23,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 0.7,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 25,
+    "margin_trend": "stable",
+    "capex_efficiency": "productive",
+    "assessment": "positive",
+    "note": "FY26 ROCE 23% / ROE 20.5%, OPM steady ~28% for four years. Borrowings Rs 403 Cr vs EBITDA ~Rs 444 Cr FY26 (~0.7x, comfortably serviced by Rs 362 Cr CFO). Cash conversion currently absorbed by the ~Rs 300 Cr Chennai facility build (18-24 month), hence trailing conversion ~25%. ROCE held at 23% right through the Coimbatore expansion - capex has been productive."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-10",
+    "price": 6150,
+    "current_pe": 26.2,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~14-16% EPS CAGR FY26-28 to justify ~26x trailing decaying to a ~20x steady-compounder exit",
+    "our_fy27_estimate": "revenue ~Rs 1,800 Cr (+13-15%), EBITDA margin ~28%, PAT ~Rs 275-295 Cr (off ~Rs 244 Cr FY26)",
+    "our_fy28_estimate": "revenue ~Rs 2,050 Cr, PAT ~Rs 315-340 Cr; Chennai (300-400 beds, ~Rs 300 Cr) opens into this window but ramps slowly",
+    "gap_direction": "priced-in",
+    "gap_type": "duration",
+    "gap_magnitude_pct": -3,
+    "gap_basis": "~26x trailing on a steady mid-teens regional-hospital compounder with ROCE ~23%; management gives no formal topline guidance. Our FY28 PAT roughly matches what the multiple implies; Chennai is optionality not yet in numbers.",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

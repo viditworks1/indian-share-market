@@ -72,5 +72,37 @@
     "valuation": "no",
     "score": 2.0,
     "note": "New LPG capacity (Mangalore/Pipavav tripling throughput) + ammonia terminal/green-ammonia optionality + $1.5B Tristar acquisition talks is a real structural growth story; explicit large-cap size (~Rs46,913cr) with the stock already trading near management's own implied Sep-2027 target rules out tam; genuine port/jetty infrastructure moat being built; no fresh valuation cushion — no. Community's own veteran holder frames this as a 5+yr infrastructure compounder, not a fast-return stock."
+  },
+  "track_record": {
+    "years_checked": 8,
+    "years_cleared": 3,
+    "note": "FY19-FY26 screener consolidated. Both revenue growth >=10% AND ROCE >=15% in the same FY: FY19, FY22, FY23. Reported revenue is LPG-price-linked trading and very lumpy (FY21 -46%, FY23 +86%, FY24 -18%), so the growth test is noisy; the cleaner read is ROCE drifting 17%->13% FY22->FY26 as the gross block builds toward Rs 10,000 Cr ahead of throughput. FY26 ROCE 13% misses the bar."
+  },
+  "quality_metrics": {
+    "roce_pct": 13,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 2.3,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -10,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral",
+    "note": "FY26 ROCE 13% / ROE 16%. Borrowings Rs 4,150 Cr vs normalised EBITDA ~Rs 1,599 Cr FY26 (~2.3x, largely at the ~45%-owned AVTL level). CFO Rs 2,028 Cr FY26 but roughly matched by terminal capex, so FCF is thin-to-negative through the Rs 10,000 Cr gross-block build. Management targets 20-25% IRR on capex; ROCE currently falling as assets land ahead of the throughput ramp - capex_efficiency neutral pending the fill."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-10",
+    "price": 1343,
+    "current_pe": 37.7,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~38x trailing on a mid-teens-ROCE infrastructure compounder implies ~25-30% EPS CAGR to FY28 against a ~22-25x steady-infra exit; management targets ~Rs 2,500 Cr EBITDA off a Rs 10,000 Cr gross block by FY27",
+    "our_fy27_estimate": "normalised EBITDA ~Rs 1,900-2,100 Cr as Mangalore/Pipavav LPG throughput ramps, PAT ~Rs 1,250-1,400 Cr",
+    "our_fy28_estimate": "EBITDA toward Rs 2,300-2,500 Cr, PAT ~Rs 1,500-1,700 Cr",
+    "gap_direction": "priced-in",
+    "gap_type": "duration",
+    "gap_magnitude_pct": -10,
+    "gap_basis": "the well-known Rs 10,000 Cr gross-block / Rs 2,500 Cr EBITDA FY27 target at ~20x EBITDA implies a ~Rs 50,000 Cr mcap - roughly today's level - so the build-out is largely in the price. The $1.5B Tristar acquisition talks are unpriced optionality; ROCE is 13% and falling as capex leads throughput.",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

@@ -79,5 +79,35 @@
     "valuation": "no",
     "score": 2.5,
     "note": "1,000-bed expansion plan on debt-free Uganda-funded base is real, sizeable headroom (tailwind/tam=yes); ~50x P/E after a ~6x run (valuation=no)."
-  }
+  },
+  "quality_metrics": {
+    "roce_pct": 12,
+    "roce_trend": "unclear",
+    "net_debt_to_ebitda": 0,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "unclear",
+    "capex_efficiency": "unclear",
+    "assessment": "neutral",
+    "note": "Hospital operator (India + East Africa), NSE-SME listed 2023. Screener figures pulled this pass are largely standalone/holdco (FY26 sales Rs6.5cr) - consolidated disclosure not available. On that basis ROCE ~12%, ROE ~8.9%, debt-free; OPM highly volatile (47%/7%/38% FY24-26). Trailing CFO negative (FY24 -Rs2.4cr, FY25 -Rs0.8cr, FY26 +Rs4cr) against Rs5-11cr/yr expansion capex - FCF-conversion not meaningfully derivable at this disclosure level. Overseas execution and consolidated visibility are the gaps."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 720,
+    "current_pe": 176,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "P/E ~176 (standalone basis) prices a very steep hospital-network ramp; needs multi-year 40%+ earnings CAGR as new hospitals (India + East Africa) mature",
+    "our_fy27_estimate": "consolidated revenue growth on new-hospital additions and occupancy ramp; margins normalising toward mid-teens EBITDA",
+    "our_fy28_estimate": "operating leverage as beds mature; single-project execution and geographic (Africa) risk",
+    "gap_direction": "over-optimistic",
+    "gap_type": "new_business",
+    "gap_magnitude_pct": null,
+    "gap_basis": "very high headline multiple on thin, mostly standalone financials; the network-expansion thesis is unproven at scale and consolidated disclosure this pass was limited.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "commitments": [],
+  "track_record_na": true,
+  "track_record_na_note": "<3 fiscal years of verifiable history (or bank basis) at 2026-09-09 coverage backfill; leave absent per DEEPDIVE_QUICKREF, re-evaluate on a full deep pass."
 }

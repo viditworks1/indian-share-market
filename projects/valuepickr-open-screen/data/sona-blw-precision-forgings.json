@@ -80,5 +80,36 @@
     "valuation": "no",
     "score": 2.0,
     "note": "EV content-per-vehicle growth + railway/robotics diversification is real structural tailwind; explicit size math (~Rs51,000cr, P/E~50) rules out tam; validated rare-earth-free ferrite motor is a genuine tech moat; even after de-rating from 70-90x, ~45-55x P/E after an 82% 1yr run leaves no valuation room. Many announced collaborations remain MoUs not orders — separate execution flag."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 800,
+    "current_pe": 68.7,
+    "current_ev_ebitda": 35,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~69x trailing earnings; even on a generous ~35x exit for a high-quality auto-tech franchise this needs ~30%+ EPS CAGR sustained for 4-5 years plus the railway/robotics/Denso legs converting -- a demanding bar with EV demand choppy and OPM compressing",
+    "our_fy27_estimate": "revenue +20-25% (EV content growth + railway ramp), OPM ~23-24% (further mix / gross-margin pressure), PAT +18-22%",
+    "our_fy28_estimate": "growth sustained if robotics + Denso JV + railway scale; Europe (~25% of revenue) EV demand and the ~Rs 2,500 Cr order-book pruning are risks to the trajectory",
+    "gap_direction": "priced-in",
+    "gap_type": "duration",
+    "gap_magnitude_pct": null,
+    "gap_basis": "the ~69x multiple already embeds years of 25-30%+ compounding plus new-business optionality; our base case matches the compounding but the size (~Rs 50,000 Cr mcap), OPM compression and choppy EV demand mean the optionality does not create a positive gap",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 17.8,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": 0.4,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -57,
+    "margin_trend": "contracting",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral"
+  },
+  "track_record": {
+    "years_checked": 8,
+    "years_cleared": 7,
+    "note": "Per screener.in consolidated (FY19-FY26): every year except FY25 cleared both >=10% revenue growth and >=15% ROCE. FY19-FY24 ran ROCE 18-24% on 14-51% revenue growth; FY25 dipped to +11% revenue / ROCE 14% on the EV-demand air-pocket; FY26 recovered to +25.5% revenue with ROCE ~17-18%. A genuine Coffee-Can-grade consistency record."
   }
 }

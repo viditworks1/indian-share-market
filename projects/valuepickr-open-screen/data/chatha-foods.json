@@ -84,5 +84,36 @@
     "score": 3.0,
     "note": "Real QSR tailwind and a big operating-leverage TAM from the completed 3x capacity, but the inflection is anticipated not demonstrated, moat is limited by customer concentration, and trailing valuation is rich; score permits a label which judgment defers until FY27 numbers confirm the leverage",
     "analyst_override": true
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 108,
+    "current_pe": 39.0,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~39x TTM on depressed ~8% margins implies the market is fully pricing the operating-leverage recovery - PAT needs to roughly 3x as utilisation ramps to justify 39x at a 20-25x exit",
+    "our_fy27_estimate": "revenue +20-25% on QSR demand and the just-completed 3x capacity; margin to 10-13% if utilisation ramps",
+    "our_fy28_estimate": "PAT multi-x on operating leverage IF the ramp lands; B2C/export pivot adds working-capital and execution risk",
+    "gap_direction": "priced-in",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "the operating leverage is anticipated, not demonstrated (ROCE fell 19%->10% as capacity was added ahead of volume); at 39x the recovery is already in the price",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 10,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 2.0,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -210,
+    "margin_trend": "stable",
+    "capex_efficiency": "unclear",
+    "assessment": "concern"
+  },
+  "track_record": {
+    "years_checked": 3,
+    "years_cleared": 0,
+    "note": "FY24 (+14.5%/12%) and FY25 (+17.2%/10%) missed on ROCE; FY26 (+5.7%) missed on revenue growth. ROCE fell from 19% (FY23) to ~10% as the 3x capacity expansion landed ahead of volume - no year clears both filters yet."
   }
 }

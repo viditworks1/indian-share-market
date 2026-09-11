@@ -55,5 +55,33 @@
     "valuation": "weak",
     "score": 3.0,
     "note": "E-commerce integration/enablement SaaS is a real structural niche; headline +75.3% growth is Shipway-acquisition-driven while core Uniware grows only single digits (community-flagged client churn ~292 of 465 gross adds lost) — tam weak; two-sided integration network effects are a genuine, explicit structural moat; no valuation data, CEO reducing personal stake since May-2026 is a separate insider-conviction caution."
-  }
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 85.5,
+    "current_pe": 45.3,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~45x TTM on an e-commerce OMS/WMS SaaS implies the market needs ~30%+ EPS CAGR FY26-28 at a ~30x exit to be fair",
+    "our_fy27_estimate": "revenue +25-35% on order-volume growth and new logos; margin ~17-20%",
+    "our_fy28_estimate": "growth durability is the question - community-flagged client churn caps the compounding",
+    "gap_direction": "priced-in",
+    "gap_type": "duration",
+    "gap_magnitude_pct": null,
+    "gap_basis": "at 45x the market already credits sustained 30%+ growth; community-flagged client churn undercutting the headline rate is the risk our estimate reflects",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 21,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": -1.0,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 60,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral"
+  },
+  "track_record_na": true,
+  "track_record_na_note": "<3 fiscal years of verifiable history (or bank basis) at 2026-09-09 coverage backfill; leave absent per DEEPDIVE_QUICKREF, re-evaluate on a full deep pass."
 }

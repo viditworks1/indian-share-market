@@ -240,5 +240,20 @@
     "valuation": "yes",
     "score": 2.0,
     "note": "Equinor LNG cost edge + TAN demerger real but ammonia/TAN pricing is cyclical (tailwind weak); explicit size math rules out tam (Rs 18,000cr too large for 10x/100x bar); market_expectation gap underestimated +25% supports valuation."
+  },
+  "quality_metrics": {
+    "roce_pct": 11.0,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": 1.4,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -60,
+    "margin_trend": "unclear",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral"
+  },
+  "track_record": {
+    "years_checked": 10,
+    "years_cleared": 2,
+    "note": "screener.in FY17-FY26: only FY22 (rev +32%, ROCE 19%) and FY23 (rev +48%, ROCE 25%) cleared both bars - the ammonia/TAN price up-cycle. ROCE was 6-9% FY17-FY20, 14% FY21, then fell back to ~11-13% FY24-FY26. Revenue is lumpy and cyclical (FY20 -31%, FY24 -23%). FY26 rev +12% but ROCE only ~11%."
   }
 }

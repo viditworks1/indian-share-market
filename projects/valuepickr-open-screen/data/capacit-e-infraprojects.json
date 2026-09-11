@@ -62,5 +62,37 @@
     "valuation": "yes",
     "score": 2.5,
     "note": "Modest revenue growth (+7-12% YoY) suggests this is a valuation catch-up story more than a structural growth tailwind (weak); order book (~5.1x TTM revenue) gives strong multi-year tam visibility; no explicit moat for a mid-cap EPC business (no); trades at 9.4x P/E vs 15-22x peers and below book (0.91x P/B) — a real, quantified valuation discount, yes."
+  },
+  "track_record": {
+    "years_checked": 10,
+    "years_cleared": 6,
+    "note": "FY17-FY26 screener consolidated. Both revenue growth >=10% AND ROCE >=15% in the same FY: FY17, FY18, FY19, FY23, FY25, FY26. FY20-FY21 collapsed on COVID (rev -15%, -42%); FY22 rebounded on revenue but ROCE only 10%; FY24 revenue grew just 7%. Recent ROCE (15-18%) only marginally clears the bar - EPC working-capital drag."
+  },
+  "quality_metrics": {
+    "roce_pct": 15,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": 1.1,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 25,
+    "margin_trend": "stable",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral",
+    "note": "FY26 ROCE 15% / ROE 10%, OPM steady ~16%. Borrowings Rs 483 Cr vs EBITDA ~Rs 420 Cr FY26 (~1.1x), CFO Rs 223 Cr. High DISCOM/developer debtor days are a permanent working-capital drag; ROCE has sat at a mid-teens plateau (17->16->18->15) despite a 5x-revenue order book, so incremental capital is only earning its cost - capex_efficiency neutral."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-10",
+    "price": 200,
+    "current_pe": 9.1,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~9x trailing P/E and 0.9x book price in near-zero earnings growth plus the structural EPC working-capital discount; a re-rate toward the 15-22x civil-construction peer band needs the Rs 13,535 Cr order book (~5.1x revenue) to convert at a normalised ~16% OPM",
+    "our_fy27_estimate": "revenue ~Rs 2,950-3,100 Cr (+12-18% on the order book), OPM normalising toward 16-17% as the Q1 commodity provisioning reverses, PAT ~Rs 210-240 Cr",
+    "our_fy28_estimate": "revenue ~Rs 3,400-3,700 Cr, PAT ~Rs 260-300 Cr",
+    "gap_direction": "underestimated",
+    "gap_type": "margin",
+    "gap_magnitude_pct": 40,
+    "gap_basis": "9.1x P/E / 0.9x book on a contractor with a 5.1x-revenue order book and double-digit revenue growth; the Q1 FY27 PAT dip is a one-off Rs 20 Cr commodity provision against lagged government escalation-clause reimbursement, not structural. Our FY28 PAT sits ~40% above what the de-rated multiple implies.",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

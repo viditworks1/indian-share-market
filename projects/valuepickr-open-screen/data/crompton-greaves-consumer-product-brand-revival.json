@@ -73,5 +73,37 @@
     "valuation": "yes",
     "score": 2.5,
     "note": "Mature, competitive consumer-durables category (fans/LED) faces structural price pressure — tailwind weak; explicit size/category ceiling (~Rs16,494cr) rules out tam; market-leader position in fans + top-2 LED is a real moat; stock down ~20% in 52wks despite operating recovery post one-off impairment — valuation yes."
+  },
+  "track_record": {
+    "years_checked": 8,
+    "years_cleared": 2,
+    "note": "Screener 10y table FY19-FY26: both rev growth >=10% AND ROCE >=15% cleared only FY22 (12.3%/16%) and FY23 (27.4%/16%). FY19-21 failed on growth; FY24-26 failed on growth (6.4%/7.5%/3.0%) despite ROCE 18-19%."
+  },
+  "quality_metrics": {
+    "roce_pct": 18.1,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": 0,
+    "interest_coverage": 16,
+    "fcf_conversion_pct": 85,
+    "margin_trend": "contracting",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral",
+    "note": "Almost debt-free (borrowings Rs199cr FY26, cash covers it), strong FCF conversion (~85% of EBITDA, FY24-26 FCF Rs763/647/644cr). But OPM contracted 14%->10% FY22-FY26 and ROCE has settled at ~18% vs 35%+ pre-2021. Capex light (~Rs80-100cr/yr); returns adequate but not improving."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 233,
+    "current_pe": 32.9,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~15% EPS CAGR FY26-28 needed to justify ~33x today against a ~21x steady-compounder exit multiple",
+    "our_fy27_estimate": "revenue low-double-digit growth (Q1 FY27 +12%), EBITDA margin stabilising ~11%, PAT +12-15%",
+    "our_fy28_estimate": "continued low-teens revenue growth as pumps/appliances/wires scale; PAT mid-teens if margin holds",
+    "gap_direction": "priced-in",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "Two-quarter revenue+margin recovery roughly matches the ~15% EPS CAGR a 33x multiple needs; no material gap either direction. Impairment was non-cash and is behind the reported base.",
+    "evidence_quality": "none",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

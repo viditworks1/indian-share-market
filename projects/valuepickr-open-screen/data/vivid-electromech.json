@@ -275,5 +275,21 @@
     "valuation": "weak",
     "score": 3.0,
     "note": "Structural DC/PDU tailwind + explicit TAM-doubling PDU ramp; hyperscaler-approval moat real but OEM in-sourcing risk flagged; 44x P/E gap=partially-priced"
+  },
+  "track_record": {
+    "years_checked": 4,
+    "years_cleared": 3,
+    "note": "screener.in FY23-FY26: FY24 (+51% rev, ROCE 77%), FY25 (+74% rev, ROCE 59%), FY26 (+29% rev, ROCE ~55%) all clear both hurdles; FY23 fails (0% sales growth). All three clean years are post-turnaround -- OPM stepped 3% -> 9% -> 18% -> 23% -- so the record is short and reflects the recent data-centre/PDU mix shift, not long-run compounding. FY22 ROCE not published (profit ~0), excluded."
+  },
+  "quality_metrics": {
+    "roce_pct": 55,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 0.7,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "expanding",
+    "capex_efficiency": "productive",
+    "assessment": "neutral",
+    "note": "Exceptional but normalising ROCE (77% FY24 -> 59% FY25 -> ~55% FY26 off a tiny capital base); OPM expansion 9->18->23% FY24-26 is structural (PDU/DC mix, COGS 85->64%). Borrowings Rs 33 Cr / EBITDA Rs 45 Cr ~0.7x, up from ~Rs 4 Cr as debtor days rose 142 -> 212 -- a working-capital-heavy project model. fcf_conversion left null: this is an Apr-2026 SME listing, screener has no FY26 cash flow yet; FY24-FY25 (CFO-capex)/EBITDA was ~16% but predates the FY26 debtor-day jump, so a true trailing-3y figure is not sourceable. Historic capex tiny (~Rs 2 Cr/yr) and highly productive; the Ambernath 3x facility spend is still ahead."
   }
 }

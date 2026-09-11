@@ -3,13 +3,34 @@
   "tagline": "High-quality affordable-housing financier — 25.7% AUM growth, 4.2% ROA, stable asset quality, PE promoters gradually exiting into strength — but a well-covered Rs 12,400 Cr mid-cap in a crowded space, not an under-the-radar multibagger",
   "business_overview": "Affordable-housing NBFC-HFC lending to first-time home buyers in the informal/self-employed segment, largely tier-2/3 markets, using a tech-driven underwriting/collections model. Competes with Aavas Financiers, Aptus Value Housing, Aadhar Housing and traditional HFCs/banks.",
   "fundamentals_table": [
-    ["Market Cap", "~Rs 12,391 Cr (mid-cap)"],
-    ["AUM", "Rs 16,938 Cr, +25.7% YoY (Q1 FY27); disbursements +31% YoY"],
-    ["ROA / ROE", "~4.2% / ~14.5% (Q1 FY27)"],
-    ["NIM", "~6.0%; long-term spread target 5.0-5.25%"],
-    ["Asset quality", "1+ DPD 4.7%, 30+ DPD 3.2%, Gross Stage 3 1.8% — stable"],
-    ["PAT", "Rs 160 Cr, +34.5% YoY (Q1 FY27)"],
-    ["Valuation", "P/B compressed to ~2.84x (per a Mar-2026 community post) vs. a stated peer median ~4.1x"]
+    [
+      "Market Cap",
+      "~Rs 12,391 Cr (mid-cap)"
+    ],
+    [
+      "AUM",
+      "Rs 16,938 Cr, +25.7% YoY (Q1 FY27); disbursements +31% YoY"
+    ],
+    [
+      "ROA / ROE",
+      "~4.2% / ~14.5% (Q1 FY27)"
+    ],
+    [
+      "NIM",
+      "~6.0%; long-term spread target 5.0-5.25%"
+    ],
+    [
+      "Asset quality",
+      "1+ DPD 4.7%, 30+ DPD 3.2%, Gross Stage 3 1.8% — stable"
+    ],
+    [
+      "PAT",
+      "Rs 160 Cr, +34.5% YoY (Q1 FY27)"
+    ],
+    [
+      "Valuation",
+      "P/B compressed to ~2.84x (per a Mar-2026 community post) vs. a stated peer median ~4.1x"
+    ]
   ],
   "fundamentals_narrative": "A genuinely well-run affordable-housing lender: consistent 25%+ AUM growth, improving ROA, and stable delinquencies through a period when some HFC/NBFC peers have seen pockets of stress. Nothing here contradicts the quality story. The question is not quality but scale and crowd — at Rs 12,400 Cr market cap in a segment with several well-covered listed comparables, this reads as a steady compounder rather than an overlooked opportunity.",
   "technical_read": "Not independently pulled.",
@@ -44,5 +65,37 @@
   ],
   "red_flag_tier": null,
   "red_flag_reason": null,
-  "disclaimer": "This is independent research for informational purposes only, not investment advice."
+  "disclaimer": "This is independent research for informational purposes only, not investment advice.",
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 1202,
+    "current_pe": 21.6,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/B",
+    "implied_growth_cagr": "~2.9x P/B on a 16% ROE affordable-housing financier implies the market expects ~25% AUM growth to persist; fair at 2.5-3x P/B needs ROE held at 16-18% with AUM +20-25%",
+    "our_fy27_estimate": "AUM +25%, ROA ~3.8-4.2%, EPS +20-25%; asset quality stable (GNPA ~1.8%)",
+    "our_fy28_estimate": "growth durability in a crowded affordable-housing space; PE-promoter overhang gradually clearing",
+    "gap_direction": "priced-in",
+    "gap_type": "duration",
+    "gap_magnitude_pct": null,
+    "gap_basis": "a well-covered Rs 12,400 Cr mid-cap; consensus already models the 25% AUM growth and stable ROA, so the price roughly reflects our path",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 16,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": null,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "stable",
+    "capex_efficiency": "neutral",
+    "assessment": "positive",
+    "note": "Housing-finance NBFC - leverage/coverage/FCF/capex metrics not meaningful. Based on ROE ~16% (13%->16% FY23->FY26), ROA ~4.2%, GNPA 1.80% / NNPA 1.40% with stable asset quality, net profit margin ~28%. capex_efficiency set neutral as not applicable."
+  },
+  "track_record": {
+    "years_checked": 3,
+    "years_cleared": 3,
+    "note": "FY24 (+45%/ROE 16%), FY25 (+33%/16%) and FY26 (+25%/16%) each cleared both filters (ROE used in place of ROCE for a lender). Pre-FY24 ROE was 13%; the growth-with-return record covers the last three years."
+  }
 }

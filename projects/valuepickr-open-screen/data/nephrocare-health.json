@@ -71,5 +71,36 @@
     "valuation": "weak",
     "score": 2.5,
     "note": "value_chain: consolidation play, moat is network density+payer relationships (yes); verdict explicit Rs7,000cr size makes 10x/100x implausible (tam=no)."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 733,
+    "current_pe": 86.8,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~87x TTM implies the market needs ~40%+ EPS CAGR FY26-28 at a 30-35x exit - it is pricing years of 30%+ revenue compounding plus operating leverage",
+    "our_fy27_estimate": "revenue +28-32% on centre roll-out, OPM creeping to 24-25%, PAT growing faster on leverage off a small base",
+    "our_fy28_estimate": "structural CKD tailwind intact; ROE still modest and centre-expansion capex keeps FCF negative",
+    "gap_direction": "priced-in",
+    "gap_type": "duration",
+    "gap_magnitude_pct": null,
+    "gap_basis": "at 87x with ROE only ~9-12% and FY26 capex 3x operating cash flow, the durable 30%+ compounding is already fully in the price",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 15,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": -1.0,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -26,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral"
+  },
+  "track_record": {
+    "years_checked": 4,
+    "years_cleared": 1,
+    "note": "Of FY22-FY25 (both metrics verifiable), only FY25 (+33.6%/15%) cleared. FY22-24 revenue grew 11-37% but ROCE was -4% to 14% as dialysis-centre utilisation matured; FY26 ROCE not yet disclosed."
   }
 }

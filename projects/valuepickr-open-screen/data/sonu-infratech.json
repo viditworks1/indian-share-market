@@ -58,5 +58,35 @@
     "valuation": "yes",
     "score": 2.0,
     "note": "Single-customer (Reliance) concentration is a moat risk not a moat (no); verdict cites a 'cheap multiple' (valuation=yes); FY26 guidance miss and SME liquidity undercut tailwind/tam."
-  }
+  },
+  "quality_metrics": {
+    "roce_pct": 19,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": 1.6,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "stable",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral",
+    "note": "SME EPC contractor (mechanical/civil), listed 2024. FY26 ROCE 19% / ROE 19%, OPM ~15%, PAT +18%. Borrowings cut Rs66cr->Rs46cr vs ~Rs29cr EBITDA (~1.6x). Cash-flow statements not pulled this pass but the working-capital profile (cash-conversion cycle 229 days, debtor days 155, inventory 177) implies weak-to-negative operating cash conversion. Promoter holding diluted 65%->53% over 3 years."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 49.6,
+    "current_pe": 4.48,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "4.5x P/E and 0.7x book price an earnings decline / execution risk; even flat earnings would justify a higher multiple",
+    "our_fy27_estimate": "revenue +15-20% on order book, OPM ~14-15%, PAT +15%",
+    "our_fy28_estimate": "bid-capacity ceiling (~Rs25cr) and working-capital intensity cap the compounding",
+    "gap_direction": "underestimated",
+    "gap_type": "duration",
+    "gap_magnitude_pct": null,
+    "gap_basis": "profitable EPC contractor at 4.5x earnings / 0.7x book with 19% ROCE; the discount reflects SME liquidity, a 229-day cash cycle and promoter stake dilution rather than the earnings trend.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "commitments": [],
+  "track_record_na": true,
+  "track_record_na_note": "<3 fiscal years of verifiable history (or bank basis) at 2026-09-09 coverage backfill; leave absent per DEEPDIVE_QUICKREF, re-evaluate on a full deep pass."
 }

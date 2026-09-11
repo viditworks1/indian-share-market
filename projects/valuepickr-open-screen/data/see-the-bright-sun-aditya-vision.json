@@ -258,5 +258,21 @@
     "score": 3.0,
     "note": "Structural Tier2/3 organized-retail tailwind, ~50% Bihar-share moat, and geographic runway (MP/WB/Chhattisgarh) score well, but market_expectation shows price already implies 30-35% CAGR vs delivered ~24-27% (gap -12%, over-optimistic) — valuation no.",
     "analyst_override": true
+  },
+  "track_record": {
+    "years_checked": 8,
+    "years_cleared": 7,
+    "note": "FY19-FY26 screener (ticker AVL). Revenue growth >=10% AND ROCE >=15% in the same FY passed FY19, FY20, FY22, FY23, FY24, FY25, FY26 (ROCE 17-51%, growth 18-47%). Missed only FY21 (COVID, rev -6%). ROCE has drifted down 25%->17% FY23->FY26 as working-capital debt rose but stayed above the bar."
+  },
+  "quality_metrics": {
+    "roce_pct": 17,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 2.2,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -10,
+    "margin_trend": "stable",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral",
+    "note": "Working-capital-funded electronics retail: borrowings Rs 573 Cr vs EBITDA ~Rs 240 Cr FY26 (~2.2x). OPM stable ~9-10%. CFO only just turned positive (+Rs 75 Cr FY26) after a negative prior year, so trailing 3y cash conversion is around breakeven-to-negative. ROCE 25%->17% over FY23-FY26 as debt funded ~30 stores/yr. Store rollout economics sound but returns diluting - capex_efficiency neutral."
   }
 }

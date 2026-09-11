@@ -288,5 +288,18 @@
     "valuation": "weak",
     "score": 3.5,
     "note": "MMR redevelopment structural; Rs52,000cr GDV vs Rs3,543cr mcap is large headroom; #1 Thane share + approval-throughput moat; gap=partially-priced (NAV discount not fully closed)"
-  }
+  },
+  "quality_metrics": {
+    "roce_pct": 30,
+    "roce_trend": "unclear",
+    "net_debt_to_ebitda": 2.2,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -200,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral",
+    "note": "Only two meaningful FYs (demerged from Raymond May 2025, listed Jul 2025; FY24 was a Rs 3cr shell). roce_pct is FY25 30% (FY26 not separately disclosed; FY26 ROE 36%). Asset-light JDA model so capex is minimal, but a developer in land-acquisition/build phase: CFO negative all three years (-Rs 226 / -237 / -910cr) on inventory/WIP, so fcf_conversion is deeply negative -- normal for the phase but a real cash-absorption signal. Gross borrowings Rs 1,014cr FY26 (ND/EBITDA ~2.2x). Trend fields 'unclear' on <3yr history."
+  },
+  "track_record_na": true,
+  "track_record_na_note": "<3 fiscal years of verifiable history (or bank basis) at 2026-09-09 coverage backfill; leave absent per DEEPDIVE_QUICKREF, re-evaluate on a full deep pass."
 }

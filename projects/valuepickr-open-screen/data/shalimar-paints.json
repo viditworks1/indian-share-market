@@ -69,5 +69,38 @@
     "valuation": "weak",
     "score": 2.0,
     "note": "Funded capacity-expansion catalyst is company-specific, not a sector tailwind; decade of repeated failed turnarounds per verdict; no moat/tam/valuation detail."
-  }
+  },
+  "track_record": {
+    "years_checked": 5,
+    "years_cleared": 0,
+    "note": "FY22-FY26: operating margin negative every year (-10% to -4%), ROCE negative, sales flat-to-declining. 0 of 5 years cleared the rev-growth>=10% + ROCE>=15% double. Old company (est. 1902), not a young-listco omit - this is a genuine zero."
+  },
+  "quality_metrics": {
+    "roce_pct": -8,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": null,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "improving",
+    "capex_efficiency": "value-destructive",
+    "assessment": "concern",
+    "note": "Decorative-paint turnaround that has not turned: FY26 net loss -Rs65cr, 3-yr ROE -21%, ROCE ~-8%; OPM -10%/-10%/-4% FY24-26 (losses narrowing toward breakeven). EBITDA negative so leverage / FCF-conversion ratios are not meaningful; FY26 CFO +Rs23cr but 3-yr FCF negative. Promoters have pledged 70.5% of their holding. Years of losses have consumed capital."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 83.9,
+    "current_pe": null,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/B",
+    "implied_growth_cagr": "loss-making; 2.8x book prices a successful turnaround to industry-average paint margins (~12-15% EBITDA) and share gains against Asian Paints/Berger/new entrants",
+    "our_fy27_estimate": "revenue return to growth on new-plant utilisation, OPM toward breakeven, still loss-making at PAT level",
+    "our_fy28_estimate": "path to thin profit contingent on brand revival + distribution build; heavily execution-dependent",
+    "gap_direction": "over-optimistic",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "five straight years of negative operating margins, declining sales and a 70.5% promoter pledge; 2.8x book embeds a turnaround with no operating evidence yet.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "commitments": []
 }

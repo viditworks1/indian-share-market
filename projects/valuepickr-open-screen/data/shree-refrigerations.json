@@ -77,5 +77,36 @@
     "valuation": "weak",
     "score": 2.0,
     "note": "Naval/shipbuilding capex + new data-center cooling vertical (Smardt tie-up) is a real dual tailwind; management's 40-50% CAGR guide is aggressive relative to demonstrated depth — tam weak; multiple posters found no credentialed engineers/R&D spend for a company positioning as 'technologically advanced' — moat no; no valuation data recorded. Pre-IPO compliance history + related-party promoter compensation are separate governance flags."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 404,
+    "current_pe": 67.6,
+    "current_ev_ebitda": 40,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~68x trailing earnings prices management's 40-50% revenue CAGR guide (4-5 years) as delivered plus margin expansion; needs ~40%+ EPS CAGR held for years against a ~25-30x exit -- a demanding bar for a working-capital-heavy SME with a thin engineering bench",
+    "our_fy27_estimate": "revenue +35-50% possible on naval/shipbuilding order flow and the Smardt data-center-cooling vertical if orders convert; PAT growth constrained by the ~377-day working-capital cycle and interest",
+    "our_fy28_estimate": "highly contingent on the >Rs 1 lakh Cr corvette/submarine order pipeline actually converting to Shree orders and on building genuine engineering depth",
+    "gap_direction": "over-optimistic",
+    "gap_type": "duration",
+    "gap_magnitude_pct": null,
+    "gap_basis": "the dual defence + data-center tailwind is real, but ~68x P/E prices flawless multi-year execution while ROCE has fallen to 13%, debtor days are ~251, FCF is negative, pre-IPO compliance was weak, and community due-diligence could not verify an R&D/engineering bench for the 'technologically advanced' positioning",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 13,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 0.8,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -60,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "concern"
+  },
+  "track_record": {
+    "years_checked": 6,
+    "years_cleared": 2,
+    "note": "Per screener.in (FY21-FY26): only FY23 (+13% revenue / ROCE 25%) and FY24 (+57% / ROCE 18%) cleared both bars; FY22 and FY25-FY26 had ROCE 13-14% despite strong revenue growth (working-capital-heavy, ~251 debtor days, ~377-day cycle). Listed only Aug 2025, so pre-IPO figures are DRHP-sourced."
   }
 }

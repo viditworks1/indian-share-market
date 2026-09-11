@@ -271,5 +271,21 @@
     "valuation": "no",
     "score": 3.0,
     "note": "MDx adoption + AMR testing structural multi-year; ~1/10th Molbio scale plus Europe/US-FDA optionality = long-horizon headroom; reagent-rental installed-base is a real switching-cost moat; gap=priced-in at ~22x"
+  },
+  "track_record": {
+    "years_checked": 9,
+    "years_cleared": 6,
+    "note": "FY18-FY26 (screener consolidated): ROCE >=19% every year (COVID spike to 162% FY21). Revenue lumpy -- +44% FY18, flat FY19, +26% FY20, COVID PCR spike +683% FY21, then -64%/-24% give-back FY22-FY23, recovering +19%/+30%/+48% FY24-FY26. Both metrics cleared 6 of 9 (FY18, FY20, FY21, FY24, FY25, FY26); FY21 is a COVID one-off and FY26 growth is mostly the Coris acquisition (organic MDx only ~+10%)."
+  },
+  "quality_metrics": {
+    "roce_pct": 25,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": -0.5,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 68,
+    "margin_trend": "contracting",
+    "capex_efficiency": "neutral",
+    "assessment": "positive",
+    "note": "Effectively debt-free (borrowings ~Rs 3cr FY26; interest ~nil so coverage null), modest net cash. roce_pct FY26 25% (FY24 21% -> FY25 26% -> FY26 25%, stable). FCF-conv ~68%: trailing 3y FCF Rs 26/42/27cr vs EBITDA ~Rs 33/50/57cr; CFO/PAT ~0.87 FY26, clean. margin_trend contracting -- OPM 52% FY25 -> 40% FY26 on the lower-margin Coris consolidation (H1 FY27 Coris loss). Debt-free high-margin niche MDx compounder; Coris integration is the watch item."
   }
 }

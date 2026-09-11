@@ -100,5 +100,36 @@
     "score": 3.0,
     "note": "tailwind yes (China+1 casting reshoring + US railroad); tam weak (Rs 3,350 Cr, headroom ~2-3x over 3-4 yrs not 10x-in-2-3-yr); moat yes (75-80% US railroad share, Cat/Komatsu approvals, cost edge, sand+shell rarity); valuation weak (~8.5x book / ~37x earnings). Score 3.0 permits a label, but honest return maths doesn't reach 10x/2-3yr -> thesis_fit 'neither'.",
     "analyst_override": true
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 325,
+    "current_pe": 36.3,
+    "current_ev_ebitda": 22,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~36x trailing earnings for a high-margin cyclical caster; against a ~20-22x through-cycle exit this needs ~20-25% EPS CAGR for 3-4 years, which the utilisation ramp (50-55% toward 90%) plus ~20% revenue CAGR and 28-29% OPM can deliver if the US-tariff drag clears",
+    "our_fy27_estimate": "revenue +18-25% (Q1 FY27 already +18%) as tariff impact resolves and utilisation rises; OPM ~27-29%; PAT +20-30%",
+    "our_fy28_estimate": "further operating-leverage-led growth toward 90% utilisation plus the 6-ton casting-weight extension; ~2-3x total equity return over 3-4 years, not a 10x",
+    "gap_direction": "priced-in",
+    "gap_type": "timing",
+    "gap_magnitude_pct": null,
+    "gap_basis": "the China+1 reshoring and operating-leverage runway are real but ~36x P/E and ~8x book after a +53% one-year run already embed the utilisation ramp; the US-tariff hit to FY26 volumes is a non-impairing speed-breaker, not a structural change, so it is a timing gap rather than a mispricing",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 32,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": -0.5,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 35,
+    "margin_trend": "stable",
+    "capex_efficiency": "productive",
+    "assessment": "positive"
+  },
+  "track_record": {
+    "years_checked": 11,
+    "years_cleared": 5,
+    "note": "Per screener.in (FY16-FY26): FY18-19, FY22-23 and FY26 cleared both >=10% revenue growth and >=15% ROCE. Cyclical end-markets (mining/railroad/earth-moving) produced revenue declines in FY20-21 and FY24-25 even though ROCE stayed 30-40% (structural margin, captive power). A high-margin cyclical, not a steady compounder."
   }
 }

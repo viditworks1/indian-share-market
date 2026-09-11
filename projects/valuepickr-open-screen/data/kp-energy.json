@@ -98,5 +98,38 @@
     "valuation": "yes",
     "score": 2.5,
     "note": "Verdict: India's wind build-out is 'a genuine multi-year tailwind' (yes); but order book materially tied to group co KPI Green explicitly 'caps the pricing power and multiple' (moat=no); '~9x trailing... cheap on growth' (valuation=yes)."
-  }
+  },
+  "track_record": {
+    "years_checked": 9,
+    "years_cleared": 4,
+    "note": "Screener FY18-FY26: rev growth >=10% AND ROCE >=15% both cleared in 4 of 9 (FY22 247%/44%, FY23 75%/38%, FY25 99%/39%, FY26 60%/39%). Misses are mostly lumpy wind-EPC revenue timing (FY18 -46%, FY21 -4%, FY24 +8%) or an early low-ROCE year (FY19 7%); ROCE has been 38-44% in every delivery year since FY22."
+  },
+  "quality_metrics": {
+    "roce_pct": 39,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": 1.4,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -36,
+    "margin_trend": "expanding",
+    "capex_efficiency": "productive",
+    "assessment": "positive",
+    "note": "Wind-EPC / balance-of-plant with a deliberate shift into owned IPP + O&M annuity. ROCE 38-42% FY23-26; OPM 18%->19%->21%. Borrowings Rs442cr FY26 vs ~Rs314cr EBITDA (~1.4x). Trailing-3y FCF conversion ~-36% (CFO Rs318cr vs capex Rs523cr FY24-26) - the negative gap is the deliberate build-out of owned wind assets; ROCE holding ~39% through the spend, so capex reads productive."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 233,
+    "current_pe": 8.66,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~9x trailing P/E prices a sharp slowdown / execution risk; even 10-15% EPS CAGR would justify a materially higher multiple for a 39% ROCE business",
+    "our_fy27_estimate": "revenue +25-40% on the wind-EPC order book + rising IPP/O&M annuity, OPM ~20-22%, PAT +25-30%",
+    "our_fy28_estimate": "annuity mix (owned wind + O&M) lifts through-cycle quality; capex funding and receivables the watch items",
+    "gap_direction": "underestimated",
+    "gap_type": "duration",
+    "gap_magnitude_pct": 25,
+    "gap_basis": "39% ROCE, revenue up ~16x in 4 years, expanding into higher-quality IPP annuity - yet trades at ~9x earnings; the market treats it as a pure lumpy EPC contractor and discounts the annuity build.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "commitments": []
 }

@@ -65,5 +65,36 @@
     "valuation": "no",
     "score": 2.0,
     "note": "Oncology-mix-shift + export/regulatory approvals (SFDA GMP, Mexico oncology approval) is a real, guidance-corroborated structural tailwind; concrete FY29 targets (Rs1,000-1,100cr revenue) support tam; no distinct moat described for a generics/oncology API maker — no; stock already ~8x in a year — much of the inflection is priced — valuation no. Doubled working-capital cycle (~50% of sales in receivables) is a separate unresolved concern."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 3577,
+    "current_pe": 45.4,
+    "current_ev_ebitda": 30,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~45x trailing / ~10x book after a ~8x one-year run; the multiple prices the FY29 guidance (Rs 1,000-1,100 Cr revenue, >Rs 100 Cr PAT, 26-30% EBITDA margin via oncology mix-shift) as largely delivered -- needs ~35-40% EPS CAGR held for 3-4 years against a ~20-25x pharma exit",
+    "our_fy27_estimate": "revenue toward the guided ~Rs 650 Cr (+30%+), EBITDA margin rising on oncology / hormones mix, PAT >Rs 100 Cr -- Q1 FY27 (+46% revenue / +119% PAT) is tracking",
+    "our_fy28_estimate": "continued 25-35% growth if regulatory approvals (SFDA, Mexico oncology) convert to order flow; the swing risk is the working-capital cycle (~50% of sales in receivables)",
+    "gap_direction": "priced-in",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "the inflection is real and guidance-backed and Q1 FY27 is tracking, but an ~8x one-year re-rate to ~45x P/E already capitalises the FY29 targets; a doubled working-capital cycle with ~half of sales in receivables and no management answer on it caps the upside versus the implied path",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 24,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 1.0,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 10,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "concern"
+  },
+  "track_record": {
+    "years_checked": 11,
+    "years_cleared": 8,
+    "note": "Per screener.in consolidated (FY16-FY26): 8 of 11 years cleared both >=10% revenue growth and >=15% ROCE (FY17-19, FY21-22, FY24-26). FY20 and FY23 saw revenue decline (-16%, -45%) -- a lumpy tender/export-order-driven injectables business, not a smooth compounder (FY22 ROCE 98% is a spike). The FY24-26 run (rev +21-36% / ROCE 16-24%) is a genuine clean stretch."
   }
 }

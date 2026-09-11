@@ -60,5 +60,36 @@
     "valuation": "weak",
     "score": 2.0,
     "note": "Demand surge in dye/chemicals is a real but unconfirmed near-term catalyst on top of 5yrs of sales decline — tailwind weak; FY26 revenue +13.5% turn is an early-stage inflection, financial closure for the underpinning debt funding not yet achieved — tam weak; no distinct moat described; community flags a pattern of promoter over-promising — valuation weak given no market_expectation data and unresolved credibility risk."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 551,
+    "current_pe": 4.47,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/B",
+    "implied_growth_cagr": "~0.5x book prices the market's disbelief that the core dyes/intermediates business can earn an adequate return; the ~4.5x P/E is optically cheap only because FY26 earnings include a large one-off DyStar/Senda arbitration gain (~Rs 6,000 Cr other income) -- on operations the business is loss-making (ROCE ~ -2%)",
+    "our_fy27_estimate": "operating revenue +10-15% on the cited demand recovery; operating margins still thin; the swing factor is whether the arbitration cash is deployed into a genuine capacity/turnaround or leaks away",
+    "our_fy28_estimate": "unquantified -- depends entirely on execution of the debt-funded turnaround, for which financial closure was not yet achieved as of the latest VP thread post",
+    "gap_direction": "partially-priced",
+    "gap_type": "timing",
+    "gap_magnitude_pct": null,
+    "gap_basis": "0.5x book looks like deep value and the balance sheet is now cash-rich post-arbitration, but the operating business still has negative ROCE, negative 5-yr sales CAGR, and a community-flagged promoter over-promising pattern on the pending turnaround funding -- the discount is warranted until operations inflect",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": -2.0,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": -1.5,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -100,
+    "margin_trend": "contracting",
+    "capex_efficiency": "value-destructive",
+    "assessment": "concern"
+  },
+  "track_record": {
+    "years_checked": 11,
+    "years_cleared": 1,
+    "note": "Per screener.in consolidated (FY16-FY26): only FY22 (+56% revenue / ROCE 16%) cleared both bars. A highly cyclical dyes/intermediates maker with negative 5-yr sales CAGR; ROCE was 5-13% in most years, and FY26 reported profit is a DyStar/Senda arbitration windfall (~Rs 6,000 Cr other income), not operations -- operational ROCE FY26 was ~ -2%."
   }
 }

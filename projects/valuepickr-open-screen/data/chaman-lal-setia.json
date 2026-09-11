@@ -83,5 +83,36 @@
     "valuation": "yes",
     "score": 2.5,
     "note": "Basmati commodity-price cyclicality is explicitly flagged as structurally harder for sustained 10x growth than a secular category — tailwind no; capacity expansion (Karnal, Gandhidham) is real but running behind schedule vs management's own targets — tam weak; not aging rice inventory (unlike KRBL) + diversified 90-country small-customer export base is a genuine quality moat; stock down 8.39% in a year despite real capex progress — valuation yes."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 305,
+    "current_pe": 12.1,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~12x TTM on a low-debt basmati exporter implies ~8-10% EPS CAGR FY26-28 at a 14-16x exit - the multiple discounts the basmati-price cyclicality that has driven lumpy revenue",
+    "our_fy27_estimate": "revenue recovery as basmati prices normalise plus new capacity; PAT growth low-teens off a soft FY26 base",
+    "our_fy28_estimate": "capacity expansion contributes a full year; margin range-bound at 9-12% on rice-price pass-through",
+    "gap_direction": "partially-priced",
+    "gap_type": "volume",
+    "gap_magnitude_pct": null,
+    "gap_basis": "market prices the cyclicality (12x); the multi-year capacity expansion and consistently high ROCE (17-46%) are not fully in the multiple, but neither is a re-rating catalyst visible",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 18,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 0.5,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 15,
+    "margin_trend": "stable",
+    "capex_efficiency": "productive",
+    "assessment": "positive"
+  },
+  "track_record": {
+    "years_checked": 11,
+    "years_cleared": 3,
+    "note": "Of FY16-FY26, only FY18 (+51.5%/29%), FY23 (+48.8%/26%) and FY25 (+10.3%/17%) cleared both filters. ROCE is consistently 17-46% but basmati-price cyclicality keeps revenue growth above 10% in only 3 of 11 years."
   }
 }

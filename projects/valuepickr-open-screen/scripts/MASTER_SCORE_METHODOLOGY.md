@@ -94,7 +94,7 @@ single quality number can't.
 ```
 master_score = Σ(weight_i × score_i) / Σ(weight_i)     — over whichever components are present
 
-  conviction_score       weight 0.25   (Jhunjhunwala/Kedia endorsement + thesis-fit, red-flag-gated)
+  conviction_score       weight 0.25   (own_conviction + trusted_lift — see below; red-flag-gated)
   quality_score           weight 0.25   (Akre leg 1 + Terry Smith + Mukherjea's bar, point-in-time)
   expectation_gap_score   weight 0.20   (Lynch's PEG logic + Terry Smith's "don't overpay" + the user's own rerating thesis)
   consistency_score       weight 0.15   (Mukherjea's actual mechanism — persistence, not a point-in-time read)
@@ -112,6 +112,17 @@ would mean no research has happened at all.
 No red-flag multiplier is applied a second time at this level — `conviction_score` and
 `quality_score` already each apply their own (AVOID/EXCLUDE forces to 0, HIGH CAUTION halves),
 and those effects propagate into `master_score` through the weighted average automatically.
+
+**`conviction_score` internals (2026-09-10).** It is now `own_conviction` (my own
+categorical conviction + thesis magnitude + a `quality_lift` off the stock's own
+`quality_score` + management quality − red-flag penalty) plus a signed, recency-weighted
+`trusted_lift` from the trusted-thread ledger — see `CONVICTION_SCORE_METHODOLOGY.md`. Two
+consequences here: (1) a good business **no trusted user has flagged** now scores on its own
+merit rather than sitting at `base_anchor + thesis` only; (2) `quality_lift` mildly overlaps
+this file's direct `quality_score` weight (≈1-3 effective master points — bounded and
+deliberate; a great business should read as both). The `master-scores.json` rows and the
+state entries also now carry `own_conviction` / `trusted_lift` so the standalone-vs-borrowed
+split is visible at the master level too.
 
 ## Reading the score
 

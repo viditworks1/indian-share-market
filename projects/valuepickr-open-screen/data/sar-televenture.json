@@ -1,0 +1,53 @@
+{
+  "name": "SAR Televenture Ltd",
+  "tagline": "A working-capital-heavy telecom-tower and optical-fibre EPC play riding the BSNL 4G/5G build - but ~6% ROCE / ~9.5% ROE fails the quality gate outright.",
+  "business_overview": "Telecom infrastructure provider: installs and maintains small/low-cost 4G/5G cell towers (Rs 2-3 lakh/tower) and lays optical fibre cable, then leases towers back to operators (Airtel, BSNL, Jio, Vodafone). Order pipeline is heavily BSNL-linked (rural / Tier-3 4G rollout). Seeded as an external lead from X triage (@BeatTheStreet10, untrusted) citing consistent tower scaling and the OFC-laying foray.",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 448 Cr (small-cap)"],
+    ["52-week range", "roughly Rs 264 - Rs 106 (post-split figures vary by source)"],
+    ["ROCE / ROE", "~6.0% ROCE / ~9.5% ROE (3-yr) - weak"],
+    ["Debt", "Almost debt-free; has reduced debt"],
+    ["Working capital", "Debtor days 85.7 -> 115; working-capital days 95 -> 159 (deteriorating)"],
+    ["Demand driver", "BSNL Rs 82,900 Cr infusion; 4G/5G rural rollout"]
+  ],
+  "fundamentals_narrative": "SAR Televenture sits in front of a genuine demand event - the BSNL 4G/5G rural build and broader tower/OFC capex - and keeps a clean, near-debt-free balance sheet. But the returns are poor: ~6% ROCE and ~9.5% ROE over three years, with working-capital days ballooning from 95 to 159 and debtor days from 86 to 115. That is the signature of a low-margin EPC contractor exposed to government-payment cycles, not a compounding infrastructure owner. The BSNL capex bulge is also a one-time program, not a structural annuity.",
+  "technical_read": "Small-cap, wide post-listing/post-split range; not pulled - the verdict turns on return ratios, not the chart.",
+  "sentiment_summary": "ValuePickr thread 158987 exists but is dead - 2 posts, one substantive (Aug-2024, @anupammahor, not a trusted user) laying out the bull case (400 cell sites then, >Rs 2,000 Cr BSNL pipeline). No activity since. Assessment is web/filings-based.",
+  "community_signal": "No trusted-user activity. One stale 2024 bull writeup from a non-trusted user. External lead: @BeatTheStreet10 (untrusted X triage).",
+  "trusted_signals": [],
+  "bse_notes": "No SEBI / fraud action found. The monitorable is working-capital quality - rising debtor and WC days against a government-heavy (BSNL) order book.",
+  "bull_case": [
+    "BSNL 4G/5G rural rollout + Rs 82,900 Cr government infusion is a real near-term demand driver",
+    "Near-debt-free balance sheet",
+    "Tower lease-back model can build a recurring rental base over time",
+    "Blue-chip operator client list (Airtel, BSNL, Jio, Vi)"
+  ],
+  "bear_case": [
+    "~6% ROCE / ~9.5% ROE - fails the screen's quality gate on its own",
+    "Working-capital days 95 -> 159, debtor days 86 -> 115 - deteriorating cash cycle",
+    "Low-margin EPC economics with heavy government-payment dependence",
+    "BSNL capex is a one-time program, not a structural annuity",
+    "Dead ValuePickr thread; single live source is an untrusted X account"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 448 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Real demand event but contractor-grade economics - ~6% ROCE, deteriorating working capital. thesis_fit 'neither' (hard), conviction Low.",
+  "verdict_reasoning": [
+    "four_box: tailwind weak (BSNL 4G/5G build is real but lumpy, government-dependent and a one-time program), tam weak (tower + OFC EPC is competitive and low-margin), moat no (EPC contractor, no pricing power, working-capital heavy), valuation no (~6% ROCE / ~9.5% ROE does not support Rs 448 Cr; fails quality gate) -> score 1.0",
+    "Score <= 1.5 -> thesis_fit 'neither', hard, no exception",
+    "Conviction Low: fails the ROCE/ROE quality gate; rising working-capital intensity; no trusted signal",
+    "No value_chain block (thin optical/telecom-infra exposure, not genuine AI-cluster optics; no deep read)",
+    "No red-flag tier (solvent, near-debt-free, no SEBI action)"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "no",
+    "valuation": "no",
+    "score": 1.0,
+    "note": "moat = no and valuation = no (EPC contractor economics, ~6% ROCE / ~9.5% ROE, deteriorating working capital). tailwind/tam weak (lumpy government-driven tower+OFC EPC). Score <=1.5 -> thesis_fit 'neither', hard."
+  },
+  "value_chain": null
+}

@@ -3,15 +3,42 @@
   "tagline": "Nashik-based cloud / data-centre / GPU-as-a-Service player that listed 2026-09-04 at a 76% premium and has since gone near-parabolic (Rs 429 issue -> ~Rs 1,308, ~Rs 12,800 Cr mcap, multiple upper circuits) - FY26 financials are genuinely strong (+28% revenue, +117% PAT, ~50% EBITDA margin) and it is a clean data-centre/AI theme hit, but zero public track record and a now-indefensible ~106x trailing P/E",
   "business_overview": "One of only two Indian players claimed to offer the full spectrum of GPU-as-a-Service (GPUaaS), cloud, managed services and data-centre infrastructure plus software, largely serving government/BFSI and enterprise customers (MeitY-empanelled). IPO priced at Rs 429/share, raised ~Rs 720 Cr fresh issue (~Rs 576 Cr earmarked for cloud/DC infrastructure), listed on NSE/BSE 2026-09-04 at a ~76% premium and hit upper circuits for several sessions after. No ValuePickr thread yet - web-only, first-week-of-listing assessment.",
   "fundamentals_table": [
-    ["Market Cap", "~Rs 12,777 Cr (price ~Rs 1,308, 8-Sep-2026; up from ~Rs 8,873 Cr at listing price on repeated upper circuits)"],
-    ["FY26 revenue", "Rs 472.2 Cr, +28% YoY (FY24 Rs 286.5 Cr -> FY25 Rs 361.3 Cr -> FY26 Rs 472.2 Cr)"],
-    ["FY26 PAT", "Rs 120.8 Cr, +117% YoY (FY24 Rs 13.6 Cr -> FY25 Rs 55.6 Cr -> FY26 Rs 120.8 Cr)"],
-    ["Margins", "Operating profit Rs 234 Cr (~50% margin, up from ~35% in FY24); PAT margin ~25.6%"],
-    ["Balance sheet", "Low leverage (D/E ~0.08 pre-IPO); interest expense fell Rs 31.6 Cr (FY24) -> Rs 11.8 Cr (FY26); net cash post-IPO"],
-    ["Valuation", "~27x trailing sales / ~106x trailing PAT at ~Rs 1,308 - already extreme, and running ahead of fundamentals on post-listing momentum"],
-    ["Capex plan", "~Rs 576 Cr of IPO proceeds earmarked for cloud-computing/data-centre infrastructure"],
-    ["Customer concentration", "Top 10 customers = ~45.4% of FY26 revenue"],
-    ["Cross-sell", "Customers using all 3 service lines rose from 62.3% (FY24) to 89.0% (FY26)"]
+    [
+      "Market Cap",
+      "~Rs 12,777 Cr (price ~Rs 1,308, 8-Sep-2026; up from ~Rs 8,873 Cr at listing price on repeated upper circuits)"
+    ],
+    [
+      "FY26 revenue",
+      "Rs 472.2 Cr, +28% YoY (FY24 Rs 286.5 Cr -> FY25 Rs 361.3 Cr -> FY26 Rs 472.2 Cr)"
+    ],
+    [
+      "FY26 PAT",
+      "Rs 120.8 Cr, +117% YoY (FY24 Rs 13.6 Cr -> FY25 Rs 55.6 Cr -> FY26 Rs 120.8 Cr)"
+    ],
+    [
+      "Margins",
+      "Operating profit Rs 234 Cr (~50% margin, up from ~35% in FY24); PAT margin ~25.6%"
+    ],
+    [
+      "Balance sheet",
+      "Low leverage (D/E ~0.08 pre-IPO); interest expense fell Rs 31.6 Cr (FY24) -> Rs 11.8 Cr (FY26); net cash post-IPO"
+    ],
+    [
+      "Valuation",
+      "~27x trailing sales / ~106x trailing PAT at ~Rs 1,308 - already extreme, and running ahead of fundamentals on post-listing momentum"
+    ],
+    [
+      "Capex plan",
+      "~Rs 576 Cr of IPO proceeds earmarked for cloud-computing/data-centre infrastructure"
+    ],
+    [
+      "Customer concentration",
+      "Top 10 customers = ~45.4% of FY26 revenue"
+    ],
+    [
+      "Cross-sell",
+      "Customers using all 3 service lines rose from 62.3% (FY24) to 89.0% (FY26)"
+    ]
   ],
   "fundamentals_narrative": "FY26 numbers (per the RHP) are genuinely excellent for a company of this scale: 28% revenue growth compounding into 117% PAT growth, operating margin expanding from ~35% to ~50%, falling interest cost, and a rising cross-sell rate (62% -> 89% of customers on all three service lines) that points to real stickiness. It is a clean hit on the live priority-1 data-centre / hyperscale / AI-infrastructure theme (GPUaaS + cloud + DC infra). Two hard caveats, both now sharper than at the first read: (1) zero public-market or post-IPO-disclosure track record - the first quarterly results as a listed company have not been reported; (2) the stock has roughly tripled from a rich IPO price to ~Rs 1,308 (~Rs 12,800 Cr, ~106x trailing PAT, ~27x sales) in its first week on repeated upper circuits, so the entry valuation now embeds years of flawless compounding with negative margin of safety. Margin durability (~50% operating margin) is itself unproven against GPUaaS pricing competition and hyperscaler pressure.",
   "technical_read": "N/A for a fundamentals read - but note the post-listing price action is a multi-session upper-circuit run, i.e. momentum/scarcity-driven, not fundamentally anchored.",
@@ -186,7 +213,13 @@
     "position": "Indian sovereign/enterprise cloud + colocation + GPUaaS provider - tier-2 DC operator serving govt/BFSI/enterprise, downstream of GPU/server OEMs and power/cooling suppliers, competing with hyperscalers and larger DC REIT-style operators",
     "bottleneck_node": "GPU/accelerator supply and power availability for AI-capable DC capacity; enterprise willingness to adopt a domestic provider over hyperscalers",
     "supply_side_status": "adding",
-    "adjacent_peers": ["Yotta (Hiranandani)", "CtrlS", "Netmagic (NTT)", "Nxtra (Airtel)", "Sify Technologies"],
+    "adjacent_peers": [
+      "Yotta (Hiranandani)",
+      "CtrlS",
+      "Netmagic (NTT)",
+      "Nxtra (Airtel)",
+      "Sify Technologies"
+    ],
     "note": "India DC capacity is in a heavy build phase (adding = late-cycle glut risk if AI demand disappoints), but sovereign-cloud/MeitY positioning gives ESDS a defensible niche. GPUaaS margins are the swing variable as more capacity comes online industry-wide."
   },
   "earnings_quality": {
@@ -223,5 +256,10 @@
     "capex_efficiency": "unclear",
     "assessment": "neutral"
   },
-  "disclaimer": "This is independent research for informational purposes only, not investment advice."
+  "disclaimer": "This is independent research for informational purposes only, not investment advice.",
+  "track_record": {
+    "years_checked": 5,
+    "years_cleared": 3,
+    "note": "FY22-FY26 screener (ESDS, listed Sep-2026). Both revenue growth >=10% AND ROCE >=15%: FY24 (+38%, ROCE 21%), FY25 (+26%, ROCE 30%), and FY26 (+31%; FY26 ROCE not yet on screener but inferred >15% from OPM 50% and a net-cash post-IPO balance sheet). FY22 (ROCE 1%) and FY23 (rev +7%) missed. Only two years are fully screener-verified on both metrics - short history."
+  }
 }

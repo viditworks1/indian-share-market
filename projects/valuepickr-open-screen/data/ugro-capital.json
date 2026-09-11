@@ -68,5 +68,36 @@
     "valuation": "yes",
     "score": 2.5,
     "note": "Secured MSME lending differentiates from MFI-contagion stress but ROE still weak (7%) — tailwind/tam marked weak, not a growth story yet; co-lending moat explicitly disputed in community (weak); 0.53x P/B with stable 2.2% GNPA supports valuation as a value-mispricing case."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 83.4,
+    "current_pe": 7.4,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/B",
+    "implied_growth_cagr": "~0.45x book with ~6-7% ROE implies the market expects little value creation (fair P/B ~ ROE/CoE, so ~0.45x prices a sub-8% sustainable ROE); any move of ROE toward the low-teens on operating leverage would justify a re-rate toward ~0.8-1.0x book",
+    "our_fy27_estimate": "AUM growth continues (~20-25%); ROE improves modestly toward high-single/low-double digits if credit costs stay contained (GNPA ~2.2%) and opex leverage plays out",
+    "our_fy28_estimate": "ROE low-teens on a larger book would support a P/B re-rating; the thesis is a re-rating of a depressed multiple more than an earnings surprise",
+    "gap_direction": "partially-priced",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "secured MSME LAP/machinery book has been de-rated alongside unsecured-MFI-sector stress despite stable 2.2% GNPA; at 0.45x book the price embeds a permanently sub-8% ROE, whereas operating leverage on a scaling book could lift ROE to low-teens -- but no earnings inflection is confirmed yet",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 12.9,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": null,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "stable",
+    "capex_efficiency": "neutral",
+    "assessment": "concern"
+  },
+  "track_record": {
+    "years_checked": 5,
+    "years_cleared": 0,
+    "note": "NBFC -- profitability leg assessed on ROE. Per screener.in, revenue grew >20% every year FY22-FY26 (FY23 +119%, FY26 +24%) as AUM scaled, but ROE was only 2-10% (FY26 ~5-7%), never near the 15% bar. Zero years cleared both tests; the book is still sub-scale and operating-leverage-dependent. Asset quality (GNPA ~2.2%) is stable; CAR adequate."
   }
 }

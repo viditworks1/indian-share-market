@@ -258,5 +258,17 @@
     "valuation": "weak",
     "score": 2.5,
     "note": "Railway-capex tailwind + live Haridwar-plant inflection support tailwind/tam; forum's own thesis author concedes 'no strong moat per se'; stock +50% in a month already partly prices the guide (gap_direction partially-priced)."
-  }
+  },
+  "quality_metrics": {
+    "roce_pct": 31.8,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": -0.5,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -50,
+    "margin_trend": "stable",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral"
+  },
+  "track_record_na": true,
+  "track_record_na_note": "<3 fiscal years of verifiable history (or bank basis) at 2026-09-09 coverage backfill; leave absent per DEEPDIVE_QUICKREF, re-evaluate on a full deep pass."
 }

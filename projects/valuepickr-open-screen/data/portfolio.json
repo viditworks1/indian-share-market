@@ -1,107 +1,168 @@
 {
-  "date_compiled": "2026-09-09",
-  "philosophy": "Illustrative Rs 1,00,000 allocation drawn purely from this project's Tier-A bucket (conviction_score >= 60, thesis_fit = 10x-in-2-3-years, no red flag). Tier A grew to six names on the 2026-09-09 rerank when Time Technoplast's conviction_score crossed 60 (Medium -> Medium-High) on confirmed deleveraging plus ~5 straight quarters of ~20-25% PAT growth. No market-cap ceiling; sizing follows conviction_score and thesis-return-magnitude rather than index weight, with a deliberate haircut on names whose valuation already prices in most of the near-term catalyst (Aeroflex's ~107x P/E, Wockhardt's expectation-gap 'over-optimistic/no-edge' flag). The book spans specialty pharma (Venus, Wockhardt - distinct sub-theses), machine tools (Macpower), diagnostics (Thyrocare), AI-datacentre thermal (Aeroflex) and industrial packaging/deleveraging (Time Technoplast) - six effectively independent business drivers. A ~13% cash buffer is held back given how much of this batch has already re-rated.",
+  "date_compiled": "2026-09-11",
+  "philosophy": "Illustrative Rs 1,00,000 allocation drawn purely from this project's Tier-A bucket (conviction_score >= 60, thesis_fit = 10x-in-2-3-years, no red flag). Tier A more than doubled this cycle (6 -> 12 names) as a broad, mechanical quality-data refresh (more deepdive coverage feeding quality_lift) lifted scores across most of the prior Tier-B batch simultaneously -- HBL Engineering, Vivid Electromech, Raymond Realty, Entero Healthcare, P.E. Analytics, Matrimony.com and Dynamic Cables all crossed 60 this run. Wockhardt Ltd's score fell from 61.3 to 55.9 on trusted-signal recency decay and exits the Tier-A bucket (and this portfolio) this cycle -- the underlying Zaynich/margin-turnaround thesis is unchanged, it simply no longer clears the mechanical bar. Two Tier-A names (Vivid Electromech, P.E. Analytics) have no resolvable Yahoo Finance symbol (illiquid SME/micro-cap listings) and are excluded from this tradable allocation pending a manual price check, not because of any thesis concern. Of the remaining ten, sizing follows conviction_score and thesis-return-magnitude, tilted by the expectation-gap read: Aeroflex and HBL are held at the smallest positions despite high/mid conviction because their expectation-gap scores flag the catalyst as already priced in (Aeroflex 0, 'over-optimistic') or lacking a near-term catalyst (HBL, 'no-catalyst', gap 24). The book now spans ten largely independent sectors -- specialty pharma, machine tools, diagnostics, AI-datacentre thermal, industrial packaging, rail signalling/Kavach, real-estate redevelopment, healthcare distribution, internet/matchmaking platform and power cables -- a meaningfully more diversified book than the prior six-name version. Prices were live-pulled from Yahoo Finance at compile time (2026-09-11); reverify before acting. A ~12% cash buffer is held back.",
   "allocation": [
     {
       "name": "Venus Remedies",
-      "weight": 23,
-      "amount": 23075,
-      "price": 1775,
-      "shares": 13,
-      "conviction": "High"
-    },
-    {
-      "name": "Macpower CNC Machines",
-      "weight": 17,
-      "amount": 16056,
-      "price": 2007,
-      "shares": 8,
+      "weight": 15,
+      "amount": 14546.7,
+      "price": 1616.3,
+      "shares": 9,
       "conviction": "High"
     },
     {
       "name": "Thyrocare Technologies",
-      "weight": 16,
-      "amount": 16000,
-      "price": 640,
-      "shares": 25,
-      "conviction": "High"
-    },
-    {
-      "name": "Aeroflex Industries Ltd",
-      "weight": 12,
-      "amount": 11924,
-      "price": 542,
-      "shares": 22,
+      "weight": 11,
+      "amount": 10994.0,
+      "price": 549.7,
+      "shares": 20,
       "conviction": "High"
     },
     {
       "name": "Time Technoplast",
-      "weight": 12,
-      "amount": 11660,
-      "price": 530,
-      "shares": 22,
+      "weight": 10,
+      "amount": 9944.0,
+      "price": 180.8,
+      "shares": 55,
       "conviction": "Medium-High"
     },
     {
-      "name": "Wockhardt Ltd",
-      "weight": 8,
-      "amount": 8348,
-      "price": 2087,
+      "name": "Macpower CNC Machines",
+      "weight": 9,
+      "amount": 9215.0,
+      "price": 1843.0,
+      "shares": 5,
+      "conviction": "High"
+    },
+    {
+      "name": "Dynamic Cables",
+      "weight": 9,
+      "amount": 9109.0,
+      "price": 455.45,
+      "shares": 20,
+      "conviction": "Medium-High"
+    },
+    {
+      "name": "Matrimony.com Ltd",
+      "weight": 9,
+      "amount": 8751.6,
+      "price": 514.8,
+      "shares": 17,
+      "conviction": "Medium-High"
+    },
+    {
+      "name": "Entero Healthcare Solutions Ltd",
+      "weight": 7,
+      "amount": 7261.6,
+      "price": 1815.4,
       "shares": 4,
-      "conviction": "Medium"
+      "conviction": "Medium-High"
+    },
+    {
+      "name": "Raymond Realty Ltd",
+      "weight": 7,
+      "amount": 7002.6,
+      "price": 583.55,
+      "shares": 12,
+      "conviction": "Medium-High"
+    },
+    {
+      "name": "HBL Engineering",
+      "weight": 6,
+      "amount": 5777.6,
+      "price": 722.2,
+      "shares": 8,
+      "conviction": "Medium-High"
+    },
+    {
+      "name": "Aeroflex Industries Ltd",
+      "weight": 6,
+      "amount": 5639.5,
+      "price": 563.95,
+      "shares": 10,
+      "conviction": "High"
     }
   ],
-  "allocation_note": "~87% deployed, ~13% (Rs 12,937) held as cash buffer. Sizing rule: conviction_score sets the base weight, then a valuation/expectation-gap haircut trims names where the catalyst looks largely priced in (Aeroflex's ~107x trailing P/E despite score 80; Wockhardt's expectation-gap score 0 with an explicit 'over-optimistic/no-edge' flag caps it at the smallest position despite clearing the Tier-A bar on conviction_score alone). Time Technoplast (new this cycle) enters at a mid-weight: score 62.8 is near the bottom of the tier, but its expectation-gap read is favourable ('underestimated', gap score ~52) and it is the cheapest name in the book at ~19x trailing for ~20% PAT growth plus deleveraging. Its price (~Rs 530) and Thyrocare's (~Rs 640) are estimates, not independently re-pulled this pass - verify live prices before acting, as the doc disclaimer notes.",
+  "allocation_note": "~88% deployed (Rs 88,241.60), ~12% (Rs 11,758.40) held as cash buffer. Sizing rule: conviction_score sets the base weight, then an expectation-gap tilt adjusts it -- Venus (score 91, gap 70 favourable) and Thyrocare (score 75, gap 55 favourable) get the top two slots; Aeroflex (score 85, the batch's second-highest) and HBL Engineering (score 66) are held at the smallest positions in the book because their expectation-gap scores flag the near-term catalyst as already priced in (Aeroflex: 0, 'over-optimistic') or absent (HBL: 24, 'no-catalyst') despite otherwise clearing Tier A comfortably. Vivid Electromech (score 62) and P.E. Analytics (score 61) are Tier-A by score but excluded from this tradable allocation -- no resolvable Yahoo symbol (SME/micro-cap, likely illiquid) -- reprice manually before considering either. All ten listed prices were live-pulled from Yahoo Finance (VENUSREM.NS, THYROCARE.NS, TIMETECHNO.NS, MACPOWER.NS, DYCL.NS, MATRIMONY.NS, ENTERO.NS, RAYMONDREL.NS, HBLENGINE.NS, AEROFLEX.NS) at compile time 2026-09-11 -- reverify before acting, markets move.",
   "stocks": [
     {
       "name": "Venus Remedies",
       "tagline": "Turned-around, debt-free injectables/oncology exporter whose FY26 filings confirm the inflection is cash-backed",
-      "thesis": "Venus generates ~Rs 811 Cr revenue at 4x the EBITDA of peer Orchid Pharma, yet trades at roughly 1/5th Orchid's market cap and 2-3x cheaper than peers Sakar, Beta Drugs and Sai Parenteral - a peer-valuation-gap re-rating thesis, not a pure growth story. FY26 confirmed the profit is real: CFO matched or exceeded EBITDA for a second straight year while receivables fell, revenue +17.9%, PAT +127%. Balance sheet is genuinely debt-free (~Rs12cr borrowings, >Rs250cr cash, zero pledge), first dividend in 13 years. A trusted investor (phreakv6, core-tier) disclosed a position on this exact thesis and reaffirmed it as recently as 2026-09-01.",
-      "sizing_rationale": "Highest conviction_score in the batch (80.0) combined with the cheapest valuation of the six (~19x P/E, ~9x EV/EBITDA) and cash-backed (not accrual-led) earnings - the largest position.",
-      "watch_for": "~Rs23cr of FY26 operating profit was one-offs (Cipla milestone + PLI incentive) - normalised OPM is ~17%, not the 20.8% headline. Management previously set and missed a Rs1,000cr FY25 revenue target, so any new guidance carries a credibility discount. Still no concalls or investor presentations despite the size reached."
-    },
-    {
-      "name": "Macpower CNC Machines",
-      "tagline": "CNC machine-tool inflection confirmed across four straight quarters, funded by a capacity-doubling greenfield plant",
-      "thesis": "Q1 FY27 revenue +56%, EBITDA +95% - not a one-quarter blip but the fourth consecutive quarter of acceleration, driven by a capacity-doubling greenfield plant and a shift toward the premium NEXA product line. Domestic machine-tool import-substitution tailwind underpins the multi-year growth case.",
-      "sizing_rationale": "Strong conviction_score (66.0) and a real, multi-quarter confirmed inflection - sized just behind Venus, ahead of the lower-scoring, higher-valuation names.",
-      "watch_for": "~52x trailing multiple already prices in a good chunk of the growth; cash conversion is running well behind reported PAT (working-capital build during the capacity ramp) - watch for this normalising as the greenfield plant scales, not widening further."
+      "thesis": "Venus generates ~Rs 811 Cr revenue at 4x the EBITDA of peer Orchid Pharma, yet trades at roughly 1/5th Orchid's market cap and 2-3x cheaper than peers Sakar, Beta Drugs and Sai Parenteral -- a peer-valuation-gap re-rating thesis, not a pure growth story. FY26 confirmed the profit is real: CFO matched or exceeded EBITDA for a second straight year while receivables fell, revenue +17.9%, PAT +127%. Balance sheet is genuinely debt-free (~Rs 12 Cr borrowings, >Rs 250 Cr cash, zero pledge), first dividend in 13 years. A trusted investor (phreakv6, core-tier) disclosed a position on this exact thesis.",
+      "sizing_rationale": "Highest conviction_score in the whole batch (91.37) combined with the most favourable expectation-gap read (70, no 'priced-in' flag) -- the largest position by a clear margin.",
+      "watch_for": "~Rs 23 Cr of FY26 operating profit was one-offs (Cipla milestone + PLI incentive) -- normalised OPM is ~17%, not the 20.8% headline. Management previously set and missed a Rs 1,000 Cr FY25 revenue target, so any new guidance carries a credibility discount. Still no concalls or investor presentations despite the size reached."
     },
     {
       "name": "Thyrocare Technologies",
       "tagline": "Debt-free, asset-light diagnostics chain with accelerating PAT growth and a compressing multiple",
-      "thesis": "FY26 PAT +81% YoY, Q1 FY27 PAT +34% YoY, on an almost debt-free, asset-light diagnostics-chain model. The trailing multiple has compressed from ~50x to ~40x purely because profit growth has outrun the price. A radiology-segment divestment is concretely in-process (not yet closed) and would sharpen the core-business focus and add a one-time cash catalyst.",
-      "sizing_rationale": "conviction_score 60.0 sits right at the Tier-A threshold; sized in line with Macpower given a comparably real (if less extreme) earnings inflection and a debt-free balance sheet, but this stock has not had a deep-dive quality-score/expectation-gap pass yet - some of this sizing is provisional pending that.",
-      "watch_for": "Promoter holding has fallen from 71.06% to 51.02% via staged stake sales to repay Rs1,050cr of parent debt - track that this stabilises rather than continuing to decline. The radiology divestment closing (or stalling) is the near-term event to watch."
-    },
-    {
-      "name": "Aeroflex Industries Ltd",
-      "tagline": "AI data-center liquid-cooling pivot now confirmed in the numbers, but at ~107x P/E with no margin of safety",
-      "thesis": "Flexible-hose maker whose pivot into liquid-cooling skids/flow-control for AI data centers (supplying Vertiv, a key hyperscaler infrastructure player) is now showing up in reported numbers: Q1 FY27 revenue +72%, skids now 23% of mix. A core-trusted investor holds this as a primary position on the same thesis.",
-      "sizing_rationale": "conviction_score ties Venus Remedies at 80.0 (the batch's highest), but the ~107x trailing P/E means almost the entire AI-cooling growth story is already priced in - the position is deliberately capped below its score-implied weight to reflect that valuation risk.",
-      "watch_for": "Any deceleration in the skids/liquid-cooling revenue mix, or evidence the Vertiv relationship is exclusive/at-risk rather than expanding, would remove the only justification for a 107x multiple. This is the single most valuation-fragile name in the book."
+      "thesis": "FY26 PAT +81% YoY, Q1 FY27 PAT +34% YoY, on an almost debt-free, asset-light diagnostics-chain model. The trailing multiple has compressed purely because profit growth has outrun the price. A radiology-segment divestment is concretely in-process and would sharpen the core-business focus plus add a one-time cash catalyst.",
+      "sizing_rationale": "conviction_score 75.0 with a favourable expectation-gap read (55) -- sized second after Venus.",
+      "watch_for": "Promoter holding has fallen sharply via staged stake sales to repay parent debt -- track that this stabilises rather than continuing to decline. The radiology divestment closing (or stalling) is the near-term event to watch."
     },
     {
       "name": "Time Technoplast",
-      "tagline": "Industrial-packaging compounder finishing a multi-year deleveraging, ~20-25% PAT growth for five straight quarters, still cheap",
-      "thesis": "Q1 FY27 revenue +25% / PAT +22%, the ~fifth consecutive quarter of ~20-25% PAT growth, with the composite (value-added) mix rising 27% -> 35% and ROCE guided from 18.9% FY26 toward 23%+ FY28. FY26 cut net debt by Rs 409 Cr with net-debt-free targeted in 12-18 months - the falling interest drag is a structural, steel-price-independent earnings tailwind on top of volume growth. Trades ~19x trailing, undemanding for the growth-plus-deleveraging combination; expectation-gap module reads 'underestimated' (gap score ~52).",
-      "sizing_rationale": "conviction_score 62.8 (Medium-High) is near the bottom of the tier, so a mid-weight; but it is the cheapest name in the book and the only one with a clearly favourable expectation-gap read, which offsets the lower conviction score - sized level with Aeroflex.",
-      "watch_for": "The VAP-mix shift and the net-debt-free milestone are the thesis - a stall in either (composite mix flat, or working capital reabsorbing the deleveraging) breaks it. Guidance credibility is 'mixed' historically. Confirm the ~Rs 530 entry price live before acting."
+      "tagline": "Industrial-packaging compounder finishing a multi-year deleveraging, cheap and with a favourable expectation-gap read",
+      "thesis": "Multiple consecutive quarters of ~20-25% PAT growth, composite (value-added) mix rising, ROCE guided higher, net debt falling toward net-debt-free -- the falling interest drag is a structural, steel-price-independent earnings tailwind on top of volume growth. Cheapest-multiple name in the book with the second-best expectation-gap read (52, 'underestimated').",
+      "sizing_rationale": "conviction_score 70.37, expectation-gap 51.59 (favourable, 'underestimated') -- sized just behind the top two on the strength of the gap read despite a mid-tier conviction score.",
+      "watch_for": "The VAP-mix shift and the net-debt-free milestone are the thesis -- a stall in either breaks it. Guidance credibility is historically mixed."
     },
     {
-      "name": "Wockhardt Ltd",
-      "tagline": "Zaynich cleared full US FDA approval - a real catalyst, but already priced in per expectation-gap scoring",
-      "thesis": "Zaynich (an NCE) won full US FDA approval on 29-May-2026 with Priority Review, Fast Track and QIDP status - the first NCE fully developed and commercialised by an Indian pharma company to win full US approval. The margin turnaround is confirmed multi-quarter (FY26 EBITDA margin 13.8%->18.7%, Q1 FY27 EBITDA +86% YoY), and promoter pledge has fallen sharply (52.9%->18.8%).",
-      "sizing_rationale": "conviction_score (61.32) barely clears the Tier-A bar and thesis_fit is 10x-in-2-3-years, but the expectation-gap module flags this 'over-optimistic/no-edge' (score 0): the ~85x trailing P/E already implies ~80%+ EPS CAGR through FY28, well above the realistic base case absent a signed global (ex-India/ex-US) licensing deal. Smallest position in the book - included for the real catalyst, sized down because the market has already run ahead of it.",
-      "watch_for": "A signed global licensing/commercialization deal for Zaynich, or the first reported US revenue print, would validate the re-rating already in the price. Absent that within ~6 months, this is a name to trim rather than add to - and a fresh Rs1,000cr capital-raise resolution (10-Aug-2026) is a live dilution risk on top of an unfinished Nov-2024 QIP."
+      "name": "Macpower CNC Machines",
+      "tagline": "CNC machine-tool inflection confirmed across four straight quarters, funded by a capacity-doubling greenfield plant",
+      "thesis": "Multiple consecutive quarters of accelerating revenue/EBITDA growth, driven by a capacity-doubling greenfield plant and a shift toward the premium NEXA product line. Domestic machine-tool import-substitution tailwind underpins the multi-year growth case.",
+      "sizing_rationale": "conviction_score 80.75, the third-highest in the batch, but expectation-gap only 30.47 (moderate, growth partially priced) -- held below Venus/Thyrocare/Time Technoplast on that basis.",
+      "watch_for": "Rich trailing multiple already prices in a good chunk of the growth; cash conversion has run behind reported PAT during the capacity ramp -- watch for this normalising as the greenfield plant scales."
+    },
+    {
+      "name": "Dynamic Cables",
+      "tagline": "Power-cable maker on the T&D + solar capex super-cycle, best expectation-gap read among the new Tier-A entrants",
+      "thesis": "~30% growth confirmed across multiple concalls, ROCE ~27%, long-term debt repaid, UL 854 + PGCIL approvals opening export/utility demand. Was legacy Tier A in the older screen; re-enters this cycle on the mechanical score refresh.",
+      "sizing_rationale": "conviction_score 60.18 (just crossed the Tier-A threshold this cycle) but the best expectation-gap score of the seven new entrants (64.57) -- sized ahead of the other newcomers on that basis.",
+      "watch_for": "A ~Rs 344 Cr Indokrates promoter-related guarantee and capex-timing slippage are the live risks. Confirm the score holds above 60 for a second cycle before treating this as a settled Tier-A position."
+    },
+    {
+      "name": "Matrimony.com Ltd",
+      "tagline": "Hated, cheap category leader with margins inflecting and a favourable expectation-gap read",
+      "thesis": "Category leader earning the large majority of industry profits at a modest EV ex-cash, with easing competition, a buying promoter and operating leverage inflecting (PAT growth well ahead of revenue).",
+      "sizing_rationale": "conviction_score 60.25 (just crossed the Tier-A threshold) with a favourable expectation-gap score (57.57) -- sized level with Dynamic Cables.",
+      "watch_for": "The re-rate case is real but needs margins to hold for 2-3 more quarters to be considered confirmed rather than a one-off."
+    },
+    {
+      "name": "Entero Healthcare Solutions Ltd",
+      "tagline": "Five consecutive quarters of confirmed EBITDA margin expansion in pharma distribution",
+      "thesis": "EBITDA margin expansion confirmed across five straight quarters (2.8% -> 4.5%), market cap below TTM sales -- the strongest methodology-confirmed margin-inflection case in the batch.",
+      "sizing_rationale": "conviction_score 61.42 (just crossed Tier A) with a moderate expectation-gap read (32.72) -- mid-sized position among the newcomers.",
+      "watch_for": "Distribution-business margins are thin and competitive by nature -- confirm the margin expansion continues rather than mean-reverting as competitors respond."
+    },
+    {
+      "name": "Raymond Realty Ltd",
+      "tagline": "Real embedded-value gap in Thane redevelopment, tempered by leverage",
+      "thesis": "#1 Thane West market share confirmed by multiple trusted elevated users; strong revenue/EBITDA growth YoY; promoter open-market buying; large JDA signed; institutional stake entry; large estimated project surplus per the Aug-2026 investor presentation.",
+      "sizing_rationale": "conviction_score 61.79 (just crossed Tier A) with a moderate expectation-gap read (30.04) -- sized level with Entero Healthcare, held back of the top-conviction names by real-estate-accounting-driven trailing-ROCE distortion and leverage (D/E ~9.81).",
+      "watch_for": "Trailing ROCE is distorted by RE accounting, not a genuine profitability signal yet -- watch cash-flow realisation as the Thane JDA and other projects convert bookings to cash."
+    },
+    {
+      "name": "HBL Engineering",
+      "tagline": "Kavach order-book story with excellent trailing returns, but no near-term catalyst per the expectation-gap read",
+      "thesis": "Kavach (train-collision-avoidance) order-book story with excellent trailing returns; multiple elevated-tier trusted users hold it as a top position. Q1 FY27 miss and Tonbo JV uncertainty are live headwinds, independently re-verified as not floor-derived.",
+      "sizing_rationale": "conviction_score 65.75, the third-highest of the seven new entrants, but the expectation-gap score (24.19) carries an explicit 'no-catalyst' flag -- held to the smallest position in the book alongside Aeroflex on that basis.",
+      "watch_for": "The 'no-catalyst' flag means the re-rating case needs a fresh, dated trigger (a confirmed large order, Tonbo JV resolution) to re-rate further from here -- absent that, this is a name to hold, not add to."
+    },
+    {
+      "name": "Aeroflex Industries Ltd",
+      "tagline": "AI data-centre liquid-cooling pivot confirmed in the numbers, but expectation-gap scoring flags it fully priced in",
+      "thesis": "Flexible-hose maker whose pivot into liquid-cooling skids/flow-control for AI data centres (supplying Vertiv) is showing up in reported numbers. A core-trusted investor holds this as a primary position on the same thesis.",
+      "sizing_rationale": "conviction_score 84.62, the second-highest in the batch, but expectation-gap score is 0 with an explicit 'over-optimistic' flag -- deliberately capped at the smallest position in the book despite the high conviction score, unchanged reasoning from prior cycles.",
+      "watch_for": "Any deceleration in the skids/liquid-cooling revenue mix, or evidence the Vertiv relationship is at risk rather than expanding, removes the only justification for the stretched multiple. The single most valuation-fragile name in the book."
     }
   ],
   "risk_management": [
-    "2026-09-09 cycle: Tier A grew from 5 to 6 names - Time Technoplast crossed conviction_score 60 (62.8, Medium-High). Rebalanced: existing five trimmed proportionally to fund a 12% Time Technoplast position; cash buffer widened slightly to ~13%. Other scores re-confirmed (Venus 80, Aeroflex 80, Macpower 66, Wockhardt 61.3, Thyrocare 60). Verify live prices before acting.",
-    "Time Technoplast is a one-cycle tier entrant - treat its sizing as provisional until a second ranking cycle confirms it holds above 60, not a momentary crossing.",
-    "Two names (Venus Remedies, Wockhardt) are both specialty pharma exporters - correlated to sector-wide regulatory/pricing risk (US FDA action, government drug-pricing policy) even though their individual theses are distinct.",
-    "Three of six names (Macpower, Aeroflex, Wockhardt) are trading at stretched multiples (~52x, ~107x, ~85x respectively) relative to their own history - a broad market drawdown would likely hit this book's re-rated names hardest first. Time Technoplast (~19x) and Venus (~19x) are the valuation ballast.",
-    "Thyrocare has not yet had the deep-dive guidance/expectation-gap pass (commitments, earnings_chain, market_expectation blocks) that the other names have - re-check its sizing once deepdive-top100 covers it.",
-    "Cash buffer (~13%) is intentionally held given how much of this batch has already re-rated; redeploy only into a fresh Tier-A entry or an existing position pulling back to a materially cheaper multiple, not into adding to current winners at current prices."
+    "2026-09-11 cycle: Tier A grew from 6 to 12 names on a broad mechanical score refresh (more deepdive/quality-score coverage lifting quality_lift across the board), not from fresh individual catalysts on each name -- treat the seven newcomers (HBL, Vivid Electromech, Raymond Realty, Entero Healthcare, P.E. Analytics, Matrimony.com, Dynamic Cables) as provisional until their scores hold above 60 for a second cycle.",
+    "Wockhardt Ltd exited the portfolio this cycle: conviction_score fell from 61.3 to 55.9 (below the Tier-A floor) purely on trusted-signal recency decay, not new negative news. The underlying Zaynich/margin-turnaround thesis is intact -- re-add if the score recrosses 60.",
+    "Vivid Electromech and P.E. Analytics are Tier-A by score (62.09 and 61.05) but excluded from this tradable allocation -- no resolvable Yahoo Finance symbol, likely illiquid SME/micro-cap listings. Resolve pricing manually before considering either for inclusion.",
+    "Ten sectors represented (specialty pharma, diagnostics, industrial packaging, machine tools, power cables, internet platform, healthcare distribution, real estate, rail signalling, AI-datacentre thermal) -- materially more diversified than the prior six-name book, though Venus (specialty pharma) and Entero (healthcare distribution) both carry some healthcare-sector correlation.",
+    "Aeroflex and HBL Engineering are held at the smallest positions in the book (6% each) specifically because their expectation-gap scores flag the near-term catalyst as priced-in or absent -- do not add to either without a fresh expectation-gap improvement.",
+    "All ten prices were live-pulled from Yahoo Finance at compile time (2026-09-11) -- reverify before acting, especially for the newly-added names which have not been priced in a prior cycle.",
+    "Cash buffer (~12%) held given how much of Venus, Aeroflex, Macpower and Thyrocare has already re-rated; redeploy only into a fresh Tier-A entry that holds for a second cycle, or an existing position pulling back to a materially cheaper multiple."
   ]
 }

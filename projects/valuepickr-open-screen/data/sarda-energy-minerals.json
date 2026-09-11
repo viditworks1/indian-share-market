@@ -61,5 +61,36 @@
     "valuation": "weak",
     "score": 2.5,
     "note": "Concrete, quantified power-capacity-doubling plan (930MW->1,720MW+) + expanding coal/iron-ore mining pipeline is a real capacity-backed tailwind; already a well-covered Rs18,125cr mid-large-cap needing 'an exceptional, sustained catalyst' — tam no; vertically integrated (own coal+iron ore feeding steel/ferro-alloy/power) is a genuine structural moat; growing net debt (~Rs1,604cr) to fund expansion — valuation weak, no market_expectation data."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 546,
+    "current_pe": 17.7,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~18x TTM on cycle-high margins (31% OPM) for a commodity integrated player implies the market expects the capacity-doubling to more than offset margin mean-reversion; a mid-cycle multiple would be ~10-14x",
+    "our_fy27_estimate": "revenue growth on the capacity ramp and hydro power; OPM likely off the 31% peak as ferro-alloy/steel spreads normalise",
+    "our_fy28_estimate": "full contribution from the capacity plan; net debt (~Rs 2,632 Cr) and commodity spreads are the swing",
+    "gap_direction": "over-optimistic",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "18x on peak-ish earnings with rising net debt; downside if ferro-alloy/steel/power spreads revert, which the multiple does not appear to discount",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 17,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 1.5,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -9,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral"
+  },
+  "track_record": {
+    "years_checked": 7,
+    "years_cleared": 3,
+    "note": "Of FY18-FY26 (both metrics verifiable), FY22 (+78%/29%), FY25 (+20%/15%) and FY26 (+23%/17%) cleared both filters. The commodity-cyclical topline clears 10% in about half the years; FY22 and FY25-26 cleared on the ferro-alloy/power up-cycle."
   }
 }

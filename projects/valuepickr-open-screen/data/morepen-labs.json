@@ -77,5 +77,36 @@
     "valuation": "weak",
     "score": 2.0,
     "note": "CDMO/CMO relationship (Rs823cr order) is a single-customer catalyst, unconfirmed as durable — tailwind weak; Rs58cr already delivered in Q1 plus existing API/diagnostics growth (+34%/+422% PAT) supports tam via the inflection rule; community itself disputes whether this is sticky CDMO vs commoditized CMO — moat no; no valuation data. 2019 SEBI ban + CBI case against promoter is a serious separate governance flag."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 117,
+    "current_pe": 54.5,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~55x trailing earnings on a business with ~8% ROCE and flat FY26 revenue; the multiple prices the CDMO/CMO pivot scaling into a multi-year growth + margin story -- needs ~40%+ EPS CAGR for 3-4 years to be defensible against a ~20x pharma exit",
+    "our_fy27_estimate": "revenue +15-25% as the Rs 823 Cr order executes (Rs 58 Cr delivered in Q1), OPM recovering toward 10-11%, PAT sharply up off a low FY26 base",
+    "our_fy28_estimate": "depends entirely on repeat CDMO orders converting the single-customer win into a pipeline; base business (API + diagnostics) grows mid-teens",
+    "gap_direction": "over-optimistic",
+    "gap_type": "new_business",
+    "gap_magnitude_pct": null,
+    "gap_basis": "a ~55x multiple already prices a durable CDMO franchise, but the order is one customer and one quarter old, the community disputes CDMO vs commoditised CMO economics, trailing ROE is negative, FCF is deeply negative on capex, and governance history (2019 SEBI ban, CBI case) warrants a discount",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 8.0,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 1.1,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -85,
+    "margin_trend": "contracting",
+    "capex_efficiency": "neutral",
+    "assessment": "concern"
+  },
+  "track_record": {
+    "years_checked": 11,
+    "years_cleared": 3,
+    "note": "Per screener.in consolidated (FY16-FY26): only FY21, FY22 and FY24 cleared both >=10% revenue growth and >=15% ROCE -- FY21-22 were the COVID-diagnostics boom (ROCE 23%). FY16-20 ran ROCE 8-10%; FY25 revenue grew only 7%; FY26 revenue was flat and ROCE fell back to 8%. Not a consistent compounder."
   }
 }

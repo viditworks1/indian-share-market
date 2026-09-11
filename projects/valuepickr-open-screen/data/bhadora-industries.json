@@ -85,5 +85,36 @@
     "valuation": "weak",
     "score": 2.0,
     "note": "Discom/grid T&D capex + electrification-metals demand is a real sector tailwind; +226% quarter is realisation/mix-led not confirmed volume growth, and reported ROE/ROCE are 'a small-number artefact' — tam weak; explicitly commoditised LV-cable segment vs much larger players (Polycab, KEI, RR Kabel) — moat no; no valuation data, D/E~0.9 already rising with unfunded capex plan — weak."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 119,
+    "current_pe": 22.4,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~22x trailing earnings on a ~Rs 10 Cr PAT prices continued fast growth; for a commoditised copper-pass-through LV-cable maker a ~12-15x exit is fair, so ~30-40% EPS CAGR is needed for 2-3 years to justify today's price",
+    "our_fy27_estimate": "revenue growth could stay high on discom / grid T&D demand if the Q1 FY27 +226% is volume-backed, but management credits mix + realisations; PAT growth lags on rising interest (D/E ~0.95) and working-capital drag",
+    "our_fy28_estimate": "depends on the integrated-facility capex being funded and executed and on order-backed volume replacing realisation-led gains",
+    "gap_direction": "over-optimistic",
+    "gap_type": "volume",
+    "gap_magnitude_pct": null,
+    "gap_basis": "a ~22x multiple prices durable high growth, but the +226% quarter is realisation/mix-led (reversible in a copper pass-through), FY26 operating cash flow was negative Rs 27 Cr, debtor days are ~155, D/E is ~0.95 with an unfunded capex plan, and the segment is crowded with far larger players",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 24.0,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 0.6,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -115,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "concern"
+  },
+  "track_record": {
+    "years_checked": 4,
+    "years_cleared": 4,
+    "note": "Per screener.in (FY23-FY26): revenue growth >14% and ROCE >20% every year -- but this is a tiny-base ramp (revenue Rs 15 Cr FY22 -> Rs 125 Cr FY26) after a 2024 IPO; the high ROCE is a small-base artefact and FY26 operating cash flow was negative Rs 27 Cr on a working-capital build (debtor days ~155). Consistency is unproven."
   }
 }

@@ -2,7 +2,7 @@
 
 Stocks analyzed recently enough that their thread should NOT be re-opened by the scan job yet, regardless of new forum activity. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-09-09
+Generated: 2026-09-11
 
 | Stock | Last analyzed | Eligible again on | Conviction |
 |---|---|---|---|
@@ -273,7 +273,7 @@ Generated: 2026-09-09
 | Modern Insulators Ltd: A Porcelain Insulator Opportunity Insulating the Power Cycle while Riding India’s Transmission Boom | 2026-08-25 | 2026-09-24 | Medium |
 | Prevest Denpro Limited | 2026-08-25 | 2026-09-24 | Low-Medium |
 | Vikram Solar- One of the oldest Solar module manufacturer | 2026-08-25 | 2026-09-24 | Low-Medium |
-| Cohance life science ( older name Suven Pharma ) ~ Demerged CRAMS Arm of Suven Life Sciences | 2026-08-25 | 2026-09-24 | ? |
+| Cohance life science ( older name Suven Pharma ) ~ Demerged CRAMS Arm of Suven Life Sciences | 2026-08-25 | 2026-09-24 | Low |
 | Jindal Stainless (Hisar) | 2026-08-25 | 2026-09-24 | ? |
 | CSL Finance Limited | 2026-08-25 | 2026-09-24 | Low-Medium |
 | Avenue Supermarts Ltd (DMart): A Slow Compounding Machine? | 2026-08-25 | 2026-09-24 | None |
@@ -644,3 +644,50 @@ Generated: 2026-09-09
 | Hi-Green Carbon Ltd | 2026-09-08 | 2026-10-08 | Low |
 | IRCTC: a necessity, a monopoly | 2026-09-08 | 2026-10-08 | Low-Medium |
 | Neuland Laboratories Limited | 2026-09-08 | 2026-10-08 | Medium-High |
+| Rajesh Exports Ltd | 2026-09-09 | 2026-10-09 | Low |
+| Susan Electricals India Ltd | 2026-09-09 | 2026-10-09 | Low-Medium |
+| Ashutosh Fibre Ltd | 2026-09-09 | 2026-10-09 | Low |
+| Indo Borax & Chemicals Ltd | 2026-09-09 | 2026-10-09 | Low-Medium |
+| GV Electricals Ltd | 2026-09-09 | 2026-10-09 | Low-Medium |
+| Monolithish Ltd | 2026-09-09 | 2026-10-09 | Low-Medium |
+| Creative Newtech Ltd | 2026-09-09 | 2026-10-09 | Low-Medium |
+| Atharva Polyplast Ltd | 2026-09-09 | 2026-10-09 | Low |
+| Max India Ltd | 2026-09-09 | 2026-10-09 | Low |
+| Oval Projects Engineering Ltd | 2026-09-09 | 2026-10-09 | Low-Medium |
+| Shri Ahimsa Naturals Ltd | 2026-09-09 | 2026-10-09 | Low-Medium |
+| SMR Jewels Ltd | 2026-09-09 | 2026-10-09 | Low |
+| Rajnandini Fashion India Ltd | 2026-09-09 | 2026-10-09 | Low |
+| Nelco Ltd | 2026-09-09 | 2026-10-09 | Low |
+| Lloyds Engineering Works Ltd | 2026-09-09 | 2026-10-09 | Low-Medium |
+| Cryogenic OGS Ltd | 2026-09-09 | 2026-10-09 | Low-Medium |
+| Sacheerome Ltd | 2026-09-09 | 2026-10-09 | Medium |
+| E to E Transportation Infrastructure Ltd | 2026-09-09 | 2026-10-09 | Low |
+| Exato Technologies Ltd | 2026-09-09 | 2026-10-09 | Low-Medium |
+| Purple United Sales Ltd | 2026-09-09 | 2026-10-09 | Low-Medium |
+| IIFL Finance | 2026-09-10 | 2026-10-10 | Medium |
+| Millworks Technologies Ltd | 2026-09-10 | 2026-10-10 | Low-Medium |
+| Lloyds Metal & Energy Ltd | 2026-09-10 | 2026-10-10 | Medium |
+| Suba Hotels Ltd | 2026-09-10 | 2026-10-10 | Low-Medium |
+| SAR Televenture Ltd | 2026-09-10 | 2026-10-10 | Low |
+| Recode Studios Ltd | 2026-09-10 | 2026-10-10 | Low-Medium |
+| Sotefin Bharat Ltd | 2026-09-10 | 2026-10-10 | Low-Medium |
+| Eraaya Lifespaces Ltd | 2026-09-10 | 2026-10-10 | Low |
+| Asarfi Hospital Limited SME IPO (Asarfi Hospital IPO) | 2026-09-10 | 2026-10-10 | Low-Medium |
+| Oil & Natural Gas Corporation Ltd (ONGC) | 2026-09-10 | 2026-10-10 | Low-Medium |
+| Oil India Ltd | 2026-09-10 | 2026-10-10 | Low-Medium |
+| Hindustan Oil Exploration Company Ltd (HOEC) | 2026-09-10 | 2026-10-10 | Low |
+| Alphageo (India) Ltd | 2026-09-10 | 2026-10-10 | Low |
+| Aban Offshore Ltd | 2026-09-10 | 2026-10-10 | Low |
+| Dolphin Offshore Enterprises (India) Ltd | 2026-09-10 | 2026-10-10 | Low |
+| Escorts Kubota Ltd | 2026-09-10 | 2026-10-10 | Medium |
+| Ajax Engineering Ltd | 2026-09-10 | 2026-10-10 | Medium |
+| Indo Farm Equipment Ltd | 2026-09-10 | 2026-10-10 | Low |
+| Signpost India Ltd | 2026-09-10 | 2026-10-10 | Low-Medium |
+| Airfloa Rail Technology | 2026-09-10 | 2026-10-10 | Medium |
+| Innovassynth investments limited | 2026-09-11 | 2026-10-11 | Low |
+| Siddhika Coating Limited- A Paint Company | 2026-09-11 | 2026-10-11 | Medium |
+| Tainwala Chemicals | 2026-09-11 | 2026-10-11 | Low |
+| Vindhya Telelinks ltd | 2026-09-11 | 2026-10-11 | Low-Medium |
+| e2e Rail : SME Kavach OEM Play | 2026-09-11 | 2026-10-11 | Low |
+| SAT Industries | 2026-09-11 | 2026-10-11 | Low |
+| NIBE LTD | 2026-09-11 | 2026-10-11 | Low |

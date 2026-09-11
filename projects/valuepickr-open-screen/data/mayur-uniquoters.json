@@ -84,5 +84,36 @@
       "Balkrishna Industries (tyres, unrelated but same forum-adjacent auto-ancillary discussion)"
     ],
     "note": "Established market leader with genuine global-OEM traction; the real re-rating lever (PU utilisation) has been stuck for years, which is exactly why the four-box tailwind/tam boxes stay at 'weak' despite the moat being real."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 736,
+    "current_pe": 15.4,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~15x TTM on an almost-debt-free 24% ROCE compounder implies the market is pricing only ~8-10% EPS CAGR (the historical single-digit topline), well below the export-ramp trajectory",
+    "our_fy27_estimate": "revenue mid-teens as the global-OEM export ramp (BMW, Mercedes, Kia-adjacent) scales and Mexico/Lithuania contribute; PAT +20-28%",
+    "our_fy28_estimate": "second export leg plus PU mix; ROCE holding mid-20s",
+    "gap_direction": "underestimated",
+    "gap_type": "volume",
+    "gap_magnitude_pct": null,
+    "gap_basis": "28% FY26 PAT growth and a genuine global-OEM export ramp are not in a 15x multiple built on the old single-digit domestic growth; the Rs 3,196 Cr size still argues against a 10x framing",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "quality_metrics": {
+    "roce_pct": 24,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": -0.3,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 24,
+    "margin_trend": "expanding",
+    "capex_efficiency": "productive",
+    "assessment": "positive"
+  },
+  "track_record": {
+    "years_checked": 4,
+    "years_cleared": 2,
+    "note": "Of FY22-FY25 (both metrics verifiable), FY22 (+27.9%/17%) and FY23 (+18.3%/19%) cleared both; FY24 (+3.5%) and FY25 (+9.6%) missed on revenue growth despite ROCE of 22-24%. The export ramp is lifting TTM growth to ~16% but not yet across a full fiscal year."
   }
 }

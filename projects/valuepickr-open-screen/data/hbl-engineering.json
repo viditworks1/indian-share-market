@@ -151,5 +151,26 @@
     "valuation": "yes",
     "score": 2.5,
     "note": "Large multi-year govt Kavach TAM is the tailwind, but thesis_fit text itself says literal 10x from Rs18.7k Cr 'not credible'; ROCE 58% declining trend; valuation reasonable (~23x, not the constraint)"
+  },
+  "track_record": {
+    "years_checked": 11,
+    "years_cleared": 2,
+    "note": "FY16-FY26 (screener consolidated): a low-return battery/defence company until FY24 -- ROCE 4-14% and revenue shrinking FY19-FY21. The Kavach (train collision-avoidance) / DFCCIL order ramp lifted ROCE to 36% (FY24) and 58% (FY26). Both metrics cleared only FY24 and FY26 (FY25 revenue dipped -12% on order timing) = 2 of 11; the last three years are the real story."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 730,
+    "current_pe": 25.2,
+    "current_ev_ebitda": 18.0,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~25x trailing earnings; against a ~22-25x exit for a debt-free, high-ROCE order-book compounder, the multiple implies only ~12-15% EPS CAGR FY26-FY28 -- modest versus the multi-year Kavach / rail-safety pipeline, but FY26's 34% OPM sets a high base.",
+    "our_fy27_estimate": "Revenue flat-to-+15% (soft Q1 FY27; ~Rs 1,800cr order book refilled); PAT ~Rs 750-900cr as the FY26 34% OPM normalises toward high-20s%.",
+    "our_fy28_estimate": "Kavach nationwide rollout + defence electronics take revenue back to double-digit growth; PAT ~Rs 900-1,150cr.",
+    "gap_direction": "partially-priced",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "~25x trailing is undemanding for a debt-free Kavach compounder, but FY26's 34% OPM (vs high-20s historically) plus a soft Q1 FY27 mean near-term EPS may be flat before the order book converts; the easy re-rating (~10x off the FY22 base) has already happened.",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

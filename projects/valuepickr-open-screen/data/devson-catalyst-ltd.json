@@ -58,5 +58,35 @@
     "valuation": "weak",
     "score": 2.0,
     "note": "Listed July 2026 with no public quarters per verdict; ROCE~48% suggests returns but niche/driver undetailed; customer concentration disclosed."
-  }
+  },
+  "quality_metrics": {
+    "roce_pct": 57,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 0,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -6,
+    "margin_trend": "expanding",
+    "capex_efficiency": "productive",
+    "assessment": "positive",
+    "note": "SME listed Jul 2026. ROCE 57% / ROE 45% latest (43.2% 3-yr avg); OPM expanded 11%->30% over 3 years; near debt-free (borrowings Rs2cr). FCF conversion ~-6% (FY26 CFO Rs5cr, FCF ~-Rs1cr on ~Rs17cr EBITDA) with sharp working-capital deterioration - debtor days 57->110, working-capital days 36->128. High-ROCE import-substitution catalyst maker but the cash cycle is the watch item."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-09",
+    "price": 352,
+    "current_pe": 39.1,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~39x on Rs13cr PAT needs ~35%+ EPS CAGR FY26-28 against a ~25x SME-catalyst exit",
+    "our_fy27_estimate": "revenue +25-30% (catalyst import-substitution + 15-country exports), OPM held ~28-30%, PAT +30%",
+    "our_fy28_estimate": "second leg on IPO-funded capacity addition; working-capital discipline the swing factor",
+    "gap_direction": "partially-priced",
+    "gap_type": "volume",
+    "gap_magnitude_pct": -10,
+    "gap_basis": "high-ROCE import-substitution catalyst maker growing ~20-25%; 39x P/E prices continued 30%+ compounding while debtor/working-capital days are deteriorating sharply.",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "commitments": [],
+  "track_record_na": true,
+  "track_record_na_note": "<3 fiscal years of verifiable history (or bank basis) at 2026-09-09 coverage backfill; leave absent per DEEPDIVE_QUICKREF, re-evaluate on a full deep pass."
 }
