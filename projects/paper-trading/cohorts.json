@@ -58,6 +58,43 @@
         {"name": "Entero Healthcare Solutions", "symbol": "ENTERO.NS", "weight_pct": 13, "conviction_score": 58.32, "conviction_source": "numeric", "entry_price": 1808.60, "shares": 7, "invested": 12660.20}
       ],
       "cash": 7680.90
+    },
+    {
+      "week_id": "2026-W37",
+      "series": "standard",
+      "decided_date": "2026-09-07",
+      "entry_price_date": "2026-09-04",
+      "capital": 100000,
+      "source": "portfolio/FINAL_PORTFOLIO_RECOMMENDATION.md v8 (Compiled 2026-09-05, 2 days old at decision -- not stale) Section 3 allocation, priced at Fri 2026-09-04 close. Weight column primary %; RNIT AI Solutions excluded (0%). Two changes vs v7 already reflected: Dynamic Cables restored 6%->12% on its 30W-EMA reclaim, Thyrocare Technologies added new at 5%. Macpower mechanical floor(8% of 100k / 1904.90) = 4 shares here; the doc discretionarily holds it at 3 for the real book (Section 3 note) -- floor() reconciles per the SKILL.",
+      "holdings": [
+        {"name": "Dynamic Cables", "symbol": "DYNAMIC.NS", "weight_pct": 12, "entry_price": 146.30, "shares": 82, "invested": 11996.60},
+        {"name": "Venus Remedies", "symbol": "VENUSREM.NS", "weight_pct": 12, "entry_price": 1694.40, "shares": 7, "invested": 11860.80},
+        {"name": "Novartis India", "symbol": "NOVARTIND.NS", "weight_pct": 11, "entry_price": 1646.70, "shares": 6, "invested": 9880.20},
+        {"name": "Asahi Songwon Colors", "symbol": "ASAHISONG.NS", "weight_pct": 10, "entry_price": 372.65, "shares": 26, "invested": 9688.90},
+        {"name": "GPT Healthcare", "symbol": "GPTHEALTH.NS", "weight_pct": 9, "entry_price": 158.17, "shares": 56, "invested": 8857.52},
+        {"name": "Yash Highvoltage", "symbol": "YASHHV.BO", "weight_pct": 9, "entry_price": 950.65, "shares": 9, "invested": 8555.85},
+        {"name": "Macpower CNC Machines", "symbol": "MACPOWER.NS", "weight_pct": 8, "entry_price": 1904.90, "shares": 4, "invested": 7619.60},
+        {"name": "Haldyn Glass", "symbol": "HALDYNGL.BO", "weight_pct": 6, "entry_price": 146.40, "shares": 40, "invested": 5856.00},
+        {"name": "Thyrocare Technologies", "symbol": "THYROCARE.NS", "weight_pct": 5, "entry_price": 576.15, "shares": 8, "invested": 4609.20},
+        {"name": "Bansal Roofing Products", "symbol": "BRPL.BO", "weight_pct": 4, "entry_price": 157.05, "shares": 25, "invested": 3926.25}
+      ],
+      "cash": 17149.08
+    },
+    {
+      "week_id": "2026-W37",
+      "series": "concentrated",
+      "decided_date": "2026-09-07",
+      "entry_price_date": "2026-09-04",
+      "capital": 100000,
+      "source": "composite-ranked top-5 from projects/paper-trading/dashboard_data.json concentrated_next (refresh.py run 2026-09-07), priced at Fri 2026-09-04 close. Composite = 0.75*master_score + 0.25*technical, technical = 0.6*weekly + 0.4*monthly (30W-EMA weekly gate + 10M-EMA monthly regime). Rank weights 25/20/20/17/13; unused ~5% + rounding stays cash (not redistributed). Sub-scores (master / conviction / gap / fundamental-tier / tech weekly / tech monthly): Venus Remedies 83.2 / 80.0 / 70.0 / 90 / 70.4 / 83.6 -> composite 81.32; Dynamic Cables 59.4 / 52.0 / 64.6 / 88 / 100.0 / 100.0 -> 69.55; Macpower CNC Machines 62.3 / 66.0 / 30.5 / 90 / 35.3 / 77.4 -> 59.76; Yash Highvoltage 46.1 / 54.0 / 37.0 / 70 / 70.2 / 87.9 -> 53.90; Aeroflex Industries 45.6 / 80.0 / 0.0 / 90 / 45.1 / 76.9 -> 48.66. Conviction/gap/fundamental shown for context only -- they already feed master_score upstream and are not separately weighted (no double-count). All 5 above their 30W EMA (weekly gate passed).",
+      "holdings": [
+        {"name": "Venus Remedies", "symbol": "VENUSREM.NS", "weight_pct": 25, "composite_score": 81.32, "entry_price": 1694.40, "shares": 14, "invested": 23721.60},
+        {"name": "Dynamic Cables", "symbol": "DYNAMIC.NS", "weight_pct": 20, "composite_score": 69.55, "entry_price": 146.30, "shares": 136, "invested": 19896.80},
+        {"name": "Macpower CNC Machines", "symbol": "MACPOWER.NS", "weight_pct": 20, "composite_score": 59.76, "entry_price": 1904.90, "shares": 10, "invested": 19049.00},
+        {"name": "Yash Highvoltage", "symbol": "YASHHV.BO", "weight_pct": 17, "composite_score": 53.90, "entry_price": 950.65, "shares": 17, "invested": 16161.05},
+        {"name": "Aeroflex Industries", "symbol": "AEROFLEX.NS", "weight_pct": 13, "composite_score": 48.66, "entry_price": 537.45, "shares": 24, "invested": 12898.80}
+      ],
+      "cash": 8272.75
     }
   ]
 }
