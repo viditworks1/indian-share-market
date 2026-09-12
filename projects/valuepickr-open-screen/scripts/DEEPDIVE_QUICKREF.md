@@ -1,8 +1,9 @@
 # Deep-dive block quick-ref (enums + one example)
 
 One-page working reference for `deepdive-top100` (and its light guidance lane). The full
-contracts — rationale, rendering, scoring formulas — are in `GUIDANCE_EXPECTATION_SCHEMA.md`
-and `ISHMOHIT_SIGNALS_SCHEMA.md`; read those only if this page is ambiguous for a case.
+contracts — rationale, rendering, scoring formulas — are in `GUIDANCE_EXPECTATION_SCHEMA.md`,
+`ISHMOHIT_SIGNALS_SCHEMA.md`, and `FUNDAMENTALS_GAP_SCHEMA.md` (shareholding pattern / working
+capital / sector KPIs / scenario analysis); read those only if this page is ambiguous for a case.
 Every block is optional; absent = "not assessed", `[]`/`null` = "assessed, nothing there".
 Unrecognised enum value → consumer treats it as the most conservative option + warns.
 
@@ -107,6 +108,33 @@ mid-ramp legitimately showing negative conversion is exactly the signal this fie
 catch; only use null when the number genuinely can't be sourced. Feeds
 `compute_quality_score.py` (0-100, `QUALITY_SCORE_METHODOLOGY.md`) — a separate script from
 `compute_conviction_score.py`, not a component of it.
+
+## Fundamentals-gap blocks (4, added 2026-09-11 — `FUNDAMENTALS_GAP_SCHEMA.md`)
+
+Informational only — not read by any scoring script yet. Added after benchmarking against
+a third-party report generator (researchtool.lkradvisors.in) surfaced 4 sections nothing
+here captured (9 of its 13 sections already existed under different names).
+
+**`shareholding_pattern`** — `{ as_of, promoter_pct, promoter_trend: increasing|stable|
+decreasing|unclear, pledge_pct, pledge_trend: none|falling|stable|rising|unclear, fii_pct,
+fii_trend: buying|stable|selling|unclear, dii_pct, dii_trend (same enum), public_pct,
+concurrent_red_flag (bool — true only when pledge_trend=rising AND promoter_trend=decreasing
+in the same window), note }`.
+
+**`working_capital`** — `{ as_of, inventory_days, receivable_days, payable_days,
+cash_conversion_cycle_days (= inventory + receivable − payable), nwc_trend:
+improving|stable|deteriorating|unclear, working_capital_intensity: light|moderate|heavy|
+unclear (vs sector norm, not absolute), note }`.
+
+**`sector_kpis`** — `{ sector_label, kpis:[{ metric, value, trend:
+improving|stable|declining|unclear, peer_comparison }], note }`. Free-form list — sector
+ops metrics don't share one shape (cement utilisation vs bank NIM/CASA vs SaaS NRR).
+
+**`scenario_analysis`** — numeric bull/base/bear, distinct from the prose `bull_case[]`/
+`bear_case[]` (those stay). `{ as_of, bear/base/bull: { revenue_cagr_fy26_28_pct,
+fy28_margin_pct, fy28_eps, exit_multiple, implied_price, vs_cmp_pct (signed, vs CMP),
+key_assumption }, note }`. Anchor to the same FY27/FY28 numbers already in
+`market_expectation` where that block exists — don't re-derive a second, inconsistent set.
 
 ## Thesis-fit 4-box gate (`four_box`) — set this BEFORE `thesis_fit`
 

@@ -98,6 +98,77 @@ children.push(h("Fundamentals"));
 if (d.fundamentals_table) children.push(kvTable(d.fundamentals_table));
 if (d.fundamentals_narrative) { children.push(new Paragraph({ text: "", spacing: { after: 100 } })); children.push(p(d.fundamentals_narrative)); }
 
+if (d.shareholding_pattern) {
+  const sh = d.shareholding_pattern;
+  children.push(h("Shareholding Pattern", HeadingLevel.HEADING_2));
+  children.push(kvTable([
+    ["As of", sh.as_of || "—"],
+    ["Promoter", sh.promoter_pct != null ? `${sh.promoter_pct}% (${sh.promoter_trend || "unclear"})` : "—"],
+    ["Pledge", sh.pledge_pct != null ? `${sh.pledge_pct}% of promoter holding (${sh.pledge_trend || "unclear"})` : "—"],
+    ["FII", sh.fii_pct != null ? `${sh.fii_pct}% (${sh.fii_trend || "unclear"})` : "—"],
+    ["DII", sh.dii_pct != null ? `${sh.dii_pct}% (${sh.dii_trend || "unclear"})` : "—"],
+    ["Public", sh.public_pct != null ? `${sh.public_pct}%` : "—"],
+  ]));
+  if (sh.concurrent_red_flag) {
+    children.push(p("RED FLAG: pledge rising while promoter holding is decreasing in the same window.",
+      { bold: true, size: 20, color: COLORS.bear }));
+  }
+  if (sh.note) children.push(p(sh.note, { size: 18, color: COLORS.muted }));
+}
+
+if (d.working_capital) {
+  const wc = d.working_capital;
+  children.push(h("Working Capital", HeadingLevel.HEADING_2));
+  children.push(kvTable([
+    ["As of", wc.as_of || "—"],
+    ["Inventory / receivable / payable days", [wc.inventory_days, wc.receivable_days, wc.payable_days]
+      .map(v => v != null ? v : "—").join(" / ")],
+    ["Cash conversion cycle", wc.cash_conversion_cycle_days != null ? `${wc.cash_conversion_cycle_days} days` : "—"],
+    ["Trend", wc.nwc_trend || "—"],
+    ["Intensity vs sector", wc.working_capital_intensity || "—"],
+  ]));
+  if (wc.note) children.push(p(wc.note, { size: 18, color: COLORS.muted }));
+}
+
+if (d.sector_kpis && d.sector_kpis.kpis && d.sector_kpis.kpis.length) {
+  const sk = d.sector_kpis;
+  children.push(h(`Sector KPIs${sk.sector_label ? " — " + sk.sector_label : ""}`, HeadingLevel.HEADING_2));
+  children.push(dataTable(
+    ["Metric", "Value", "Trend", "Peer comparison"],
+    sk.kpis.map(k => [k.metric, k.value, k.trend || "—", k.peer_comparison || "—"]),
+    [2000, 1600, 1400, 4000]
+  ));
+  if (sk.note) children.push(p(sk.note, { size: 18, color: COLORS.muted }));
+}
+
+if (d.scenario_analysis && (d.scenario_analysis.bear || d.scenario_analysis.base || d.scenario_analysis.bull)) {
+  const sa = d.scenario_analysis;
+  children.push(h("Scenario Analysis", HeadingLevel.HEADING_2));
+  children.push(p(`As of ${sa.as_of || "—"}`, { italics: true, color: COLORS.muted, size: 18 }));
+  const scRows = ["bear", "base", "bull"]
+    .filter(k => sa[k])
+    .map(k => [
+      k[0].toUpperCase() + k.slice(1),
+      sa[k].revenue_cagr_fy26_28_pct != null ? `${sa[k].revenue_cagr_fy26_28_pct}%` : "—",
+      sa[k].fy28_margin_pct != null ? `${sa[k].fy28_margin_pct}%` : "—",
+      sa[k].fy28_eps != null ? sa[k].fy28_eps : "—",
+      sa[k].exit_multiple != null ? `${sa[k].exit_multiple}x` : "—",
+      sa[k].implied_price != null ? `Rs ${sa[k].implied_price}` : "—",
+      sa[k].vs_cmp_pct != null ? `${sa[k].vs_cmp_pct > 0 ? "+" : ""}${sa[k].vs_cmp_pct}%` : "—",
+    ]);
+  children.push(dataTable(
+    ["Scenario", "Rev CAGR FY26-28", "FY28 margin", "FY28 EPS", "Exit multiple", "Implied price", "vs CMP"],
+    scRows,
+    [1000, 1400, 1200, 1000, 1200, 1300, 900]
+  ));
+  ["bear", "base", "bull"].forEach(k => {
+    if (sa[k] && sa[k].key_assumption) {
+      children.push(p(`${k[0].toUpperCase() + k.slice(1)}: ${sa[k].key_assumption}`, { size: 18, color: COLORS.muted }));
+    }
+  });
+  if (sa.note) children.push(p(sa.note, { size: 18, color: COLORS.muted }));
+}
+
 if (d.deep_dive) {
   const dd = d.deep_dive;
   children.push(h("Deep-Dive: Primary Documents (Annual Reports, Quarterly Results, Exchange Filings)"));
