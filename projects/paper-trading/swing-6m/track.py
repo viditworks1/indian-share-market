@@ -61,6 +61,19 @@ def weekly_ema_posture(sym, span=30):
     return {"ext_pct": round(ext, 1), "ema": round(e[-1], 2), "below_2_weeks": below2, "as_of": closed[-1][0].isoformat()}
 
 
+def market_regime():
+    """Portfolio-level overlay (added 2026-09-12, user rule: "don't fight the market"): is the
+    benchmark itself (Nifty Smallcap 250) below its own 30W EMA for 2+ consecutive weekly closes?
+    Independent of any cohort's own entry date -- this is a market-wide signal, not per-cohort.
+    Never force-exits a holding by itself; see SWING_6M_PORTFOLIO.md section 5."""
+    label, sym = BENCHMARKS[0]
+    post = weekly_ema_posture(sym)
+    if post is None:
+        return {"label": label, "symbol": sym, "available": False}
+    return {"label": label, "symbol": sym, "available": True, "ext_pct": post["ext_pct"],
+            "ema": post["ema"], "as_of": post["as_of"], "downtrend": post["below_2_weeks"]}
+
+
 def benchmark_since(start_date):
     for label, sym in BENCHMARKS:
         b = latest_daily(sym)
@@ -145,9 +158,13 @@ def main():
         if s["date"] < today.isoformat():
             prev_by_week[s["week_id"]] = s
 
+    regime = market_regime()
     marked, all_fail = [], []
     for c in cohorts:
         snap, fail = mark_cohort(c, prev_by_week.get(c["week_id"]), today)
+        if regime.get("downtrend"):
+            snap["flags"] = sorted(set(snap["flags"]) | {"MARKET DOWNTREND"})
+        snap["market_regime"] = regime
         marked.append(snap)
         all_fail.extend(fail)
 
@@ -160,6 +177,11 @@ def main():
     write_tracker(marked, hist)
 
     print(f"swing-6m track -- {today} ({datetime.datetime.now():%Y-%m-%d %H:%M})  [{len(marked)} cohort(s)]")
+    if regime.get("available"):
+        tag = "DOWNTREND" if regime["downtrend"] else "ok"
+        print(f"  market regime [{tag}]: {regime['label']} {regime['ext_pct']:+.2f}% vs its own 30W EMA (as of {regime['as_of']})")
+    else:
+        print("  market regime: !! benchmark fetch unavailable, check skipped this run")
     print("-" * 64)
     for m in marked:
         d = "  n/a " if m["day_change_pct"] is None else f"{m['day_change_pct']:+6.2f}"
@@ -186,6 +208,11 @@ def write_tracker(marked, hist):
       "cohort carries its own 6-month horizon and per-holding -16% hard stops; this script never trades, "
       "it only surfaces rule flags (STOP HIT / NEAR STOP / EMA BREAK / EXTENDED) for the monthly review or "
       "an ad-hoc call. Reference: `SWING_6M_PORTFOLIO.md`.\n")
+    regime = marked[0].get("market_regime") if marked else None
+    if regime and regime.get("available"):
+        tag = "**DOWNTREND -- see section 5's market-regime overlay**" if regime["downtrend"] else "ok, no overlay"
+        a(f"**Market regime check** ({regime['label']}): {regime['ext_pct']:+.2f}% vs its own 30W EMA "
+          f"as of {regime['as_of']} -- {tag}.\n")
     a("---\n")
     a("## Summary -- all swing cohorts\n")
     a("| Cohort | Decided | Entry Basis | Horizon end | Value (Rs) | 1-Day | Return % | Flags |")

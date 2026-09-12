@@ -143,6 +143,15 @@ columns collapse to the same value — treat "6m %" as "since ~start of window".
 - **Thesis-break exit:** guidance cut, a quarterly miss versus the tracked catalyst, or a
   close below the rising 30W EMA on two consecutive weekly closes → exit next session,
   regardless of price.
+- **Market-regime overlay (added 2026-09-12, user rule: "don't fight the market — when index/
+  sector/market is getting rough, it makes more sense to get out").** A portfolio-level check
+  on top of the per-name rules above, not a replacement for them: `track.py` also checks whether
+  the benchmark itself (Nifty Smallcap 250) has closed 2+ consecutive weekly closes below its
+  own 30W EMA and raises a cohort-level `MARKET DOWNTREND` flag when it has (same mechanism as
+  the per-holding `EMA BREAK` flag, just applied to the benchmark). This never force-exits a
+  holding by itself — it's a review signal, same status as the other flags — but when active it
+  should weigh toward completing pending thesis-break exits rather than granting benefit of the
+  doubt, and toward NOT deploying freed cash into a fresh top-of-rank pick until the flag clears.
 - **Trim on realisation:** once a tracked catalyst lands, if the stock makes no new 20-day
   high within ~3 weeks, cut the position by half (the drift has stalled).
 - **Review:** monthly (2026-10-06, 11-03, 12-01, 2027-01-05, 02-02). Re-run the screen; cut
@@ -306,3 +315,10 @@ columns collapse to the same value — treat "6m %" as "since ~start of window".
   cohort every Monday regardless. `refresh.py`'s dashboard fold-in changed from a single
   `swing` block to a `swing_cohorts` list, one artifact panel per cohort. See also
   [[project_swing_6m_portfolio]] in memory.
+- **2026-09-12 — market-regime overlay added** (user rule, section 5). `track.py` now also
+  checks the benchmark's (Nifty Smallcap 250) own weekly close vs its 30W EMA and raises a
+  cohort-level `MARKET DOWNTREND` flag on 2+ consecutive closes below it, alongside the
+  existing per-holding flags. First live read at today's run: benchmark +5.31% above its own
+  30W EMA (close 18,339.90 vs EMA 17,415.22 as of the week of 2026-09-06) — flag does not fire.
+  Same rule also added to `portfolio-rs1l-revision`'s SKILL.md (Step 3.5) and
+  `FINAL_PORTFOLIO_RECOMMENDATION.md` (Section 8H) for the fundamentals-driven book.

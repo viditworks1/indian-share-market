@@ -457,6 +457,7 @@ def run_swing_tracker():
             "day_change_pct": last.get("day_change_pct"), "invested_value": last.get("invested_value"),
             "cash": last.get("cash"), "benchmark": last.get("benchmark"), "alpha_pct": last.get("alpha_pct"),
             "flags": last.get("flags", []), "holdings": last.get("holdings", []), "value_history": vh,
+            "market_regime": last.get("market_regime"),
             "rules": rules_by_week.get(wk, {}),
         })
     out.sort(key=lambda c: c["decided_date"])
@@ -1188,6 +1189,7 @@ document.getElementById('cards-note').textContent = D.cohorts.length + ' running
         <span><span class="k">invested / cash</span><b>${fmt(sw.invested_value,0)} / ${fmt(sw.cash,0)}</b></span>
         <span><span class="k">next review</span><b>${nextReview||'—'}</b></span>
         <span><span class="k">hard stop</span><b>${sw.rules&&sw.rules.hard_stop_pct!=null?sw.rules.hard_stop_pct+'%':'—'}</b></span>
+        ${sw.market_regime&&sw.market_regime.available?`<span><span class="k">market regime</span><b class="${sw.market_regime.downtrend?'neg':'pos'}">${sw.market_regime.label} ${pct(sw.market_regime.ext_pct)} vs 30W EMA</b></span>`:''}
       </div>
       <div style="margin-top:12px">${flagBadges||'<span class="sub">no rule flags active</span>'}</div>
       <div class="scroll" style="margin-top:14px"><table>
