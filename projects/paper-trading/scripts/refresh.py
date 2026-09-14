@@ -627,7 +627,7 @@ def write_tracker(data, cohorts_doc):
     if out:
         a("")
         a("*Out of pool:* " + "; ".join(
-            f"{r['name']} (" + ("hard-excluded" if r['excluded'] else f"below 30W EMA {r['ext_pct']:+.1f}%") + ")"
+            f"{r['name']} (" + ("hard-excluded" if r['excluded'] else f"below 30W EMA {r['ext_pct']:+.1f}%" if r['ext_pct'] is not None else "below 30W EMA —%") + ")"
             for r in out))
     a(f"\n★ = would be in next Monday's concentrated cohort at "
       f"{'/'.join(map(str, CFG['concentrated_rank_weights_by_slot']))}% by rank.\n")
