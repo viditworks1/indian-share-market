@@ -1,11 +1,30 @@
 #!/usr/bin/env python3
 """
-build_deepdive_queue.py — (re)generate the deep-dive task's active-100 pool + queue.
+build_deepdive_queue.py — (re)generate the deep-dive task's active pool + queue.
 
 2026-09-05: reworked from a dynamic priority over the ENTIRE researched universe (572+
 stocks, priority = conviction_score + staleness + thesis_bonus - redflag_penalty) back to
 a fixed-size TOP-100 ACTIVE POOL, but selected and rotated on different signals than the
 old static top-100-of-max-returns-ranking design ever used. See CHANGELOG.md.
+
+2026-09-16 (user instruction — HARD eligibility gate, not just a priority bonus): the pool
+is no longer drawn from the full researched universe. It is now restricted to stocks that
+are BOTH (a) a current Confluence-100 member (data/confluence100.json) AND (b) not a
+large/mega-cap (`market_cap_tier` containing "large" or "mega", case-insensitive). A
+large-cap name almost always resolves `thesis_fit` to "neither" purely on size (per the
+large-cap protocol in DEEPDIVE_QUICKREF.md) regardless of how strong its four_box/master
+score is, so it can never "support the thesis" this project screens for — the user's
+explicit instruction is to safely ignore such names from this pipeline entirely, even if
+they'd otherwise score well enough to make a priority-based top-100. Small/mid-cap
+Confluence-100 members are eligible regardless of thesis_fit (a name that doesn't yet
+support the thesis is still worth deepening research on, per the user). A stock that is
+NOT a current Confluence-100 member, or that IS large/mega-cap, is never in the pool no
+matter its potential_score — see the `eligible_for_pool` gate below. Also added: a 60-day
+per-stock cooldown (`COOLDOWN_DAYS`) — a pool member last deep-dived within the last 60
+days is never selected for a fresh FULL primary-document dive; it still rotates into the
+queue (as the lowest-priority `rerun_tier`) with `dive_mode:"technicals_only"`, signalling
+the task to do a lightweight price/valuation-only refresh rather than a new dive to that
+name. See CHANGELOG.md and deepdive-top100/SKILL.md Step 0 / Step 1.
 
 Universe (unchanged): EVERY researched stock in state.json that
   * has status == "researched",
@@ -18,8 +37,26 @@ names outside the active pool — resolve_data_file.py and other scripts depend 
 queue being the source of truth for the state_key -> data_file mapping for every
 researched stock, not just the pool.
 
-Stage 1 — POOL SELECTION, by "priority" (four_box + master_score, boosted for
-Confluence-100 membership and for low score-coverage), primarily:
+Stage 1 — POOL SELECTION.
+
+  2026-09-16 (user instruction — HARD gate, supersedes the old "everyone eligible, just
+  boosted" model): a stock is only `eligible_for_pool` if BOTH:
+    (a) `in_confluence100` — a current Confluence-100 member (data/confluence100.json,
+        built by vpscreen-rerank's Step 7 side job), AND
+    (b) NOT `is_large_or_mega` — its `market_cap_tier` does not contain "large" or "mega"
+        (case-insensitive). Large-caps are excluded outright, regardless of score: per the
+        large-cap protocol, a large-cap's `thesis_fit` resolves to "neither" purely on size
+        no matter how strong its four_box/master score is, so it structurally can never
+        "support the thesis" this screen exists for. Small/mid-cap Confluence-100 members
+        are eligible even when their OWN `thesis_fit` is currently "neither" — the point is
+        Confluence-100 membership + being small/mid-cap enough to plausibly support the
+        thesis with more work, not already having cleared it.
+  A stock failing either test is never in the pool, however high its potential_score —
+  see `other_rows` below, which is `ineligible_rows + (eligible_rows past the pool cutoff)`.
+
+  Among ELIGIBLE rows only, priority is still four_box + master_score, boosted for low
+  score-coverage (the Confluence-100 gate above already handles the old CONFLUENCE_BONUS
+  role, so that bonus term is retired — see CHANGELOG.md):
 
   fb100    = four_box.score / 4 * 100   (four_box.score is 0-4; read from data/<slug>.json)
              falls back to master_score if a stock has no four_box block yet
@@ -27,66 +64,73 @@ Confluence-100 membership and for low score-coverage), primarily:
 
   potential_score = round(0.5 * fb100 + 0.5 * master, 2)
 
-  2026-09-05 (user instruction): pool selection AND rotation both additionally favour
-  (a) stocks currently in the weekly Confluence-100 artifact (data/confluence100.json,
-      built by vpscreen-rerank's Step 7 side job — the live, technically-confirmed,
-      portfolio-actionable shortlist) and
-  (b) stocks with low `weight_coverage` (data/master-scores.json's per-stock
-      score_breakdown — the fraction of the 5 master-score sub-scores actually
-      computable; low coverage means quality_score/consistency_score/expectation_gap_score
-      etc. are still missing, i.e. this name needs more primary-document work before it's
-      fully cross-scored), so the routine actively closes those gaps rather than only
-      re-confirming already well-covered names.
-
-  CONFLUENCE_BONUS = 20.0   if the stock is a current Confluence-100 member
   COVERAGE_BONUS   = (1 - weight_coverage) * 10.0   (weight_coverage defaults to 0.0,
                      i.e. the full +10 bonus, for a stock master-scores.json has no entry
-                     for yet — consistent with "no coverage yet" deserving priority)
+                     for yet — consistent with "no coverage yet" deserving priority; low
+                     coverage means quality_score/consistency_score/expectation_gap_score
+                     etc. are still missing, i.e. this name needs more primary-document
+                     work before it's fully cross-scored)
 
-  pool_priority = round(potential_score + CONFLUENCE_BONUS + COVERAGE_BONUS, 2)
+  pool_priority = round(potential_score + COVERAGE_BONUS, 2)
 
-Sort the whole eligible universe by pool_priority desc (ties: master desc, then name).
-The ACTIVE POOL = the top POOL_SIZE (100) of that sort — recomputed fresh every run, so
-membership can shift as deep dives update four_box/master_score, as Confluence-100
-membership changes week to week, and as score coverage fills in. This never shrinks below
-min(POOL_SIZE, eligible_universe_size) — with 570+ eligible names today that floor is
-always exactly 100; there is always a next-best name to pull in. The bonuses are additive
-nudges (typically ~10-40 points against a potential_score range that runs from the pool
-cutoff, currently ~mid-40s, up into the 80s-90s for the strongest names) — they pull
-borderline Confluence-100/low-coverage names into contention, they do not hand them the
-pool outright over names with a much stronger fundamental potential_score.
+Sort ELIGIBLE rows by pool_priority desc (ties: master desc, then name). The ACTIVE POOL =
+the top POOL_SIZE (100) of that sort — recomputed fresh every run, so membership can shift
+as deep dives update four_box/master_score, as Confluence-100 membership changes week to
+week (a name entering or leaving Confluence-100, or crossing the large-cap line, moves
+straight in or out of eligibility), and as score coverage fills in. Because eligibility is
+now a hard gate on Confluence-100 + non-large-cap rather than the full 570+-stock
+universe, the pool can genuinely be SMALLER than 100 — `pool_size = min(POOL_SIZE,
+len(eligible_rows))`, and it is normal/expected for this to print well under 100 (bounded
+by however many small/mid-cap Confluence-100 members exist at any given time).
 
-Stage 2 — ROTATION ORDER *within* the pool (this drives `rank` 1..100 and therefore which
-3 get picked next — see deepdive-top100/SKILL.md Step 0):
+Stage 2 — ROTATION ORDER *within* the pool (this drives `rank` 1..pool_size and therefore
+which 3 get picked next — see deepdive-top100/SKILL.md Step 0):
+
+  2026-09-16 (user instruction): a 60-day per-stock cooldown was added as the new tier-0
+  check, ABOVE high_caution — a pool member last deep-dived (`deepdive_date`) fewer than
+  `COOLDOWN_DAYS` (60) ago is NEVER a candidate for a fresh full primary-document dive,
+  full stop, regardless of how strong or stale its score is. It still appears in the queue
+  (so it isn't silently forgotten) with `dive_mode:"technicals_only"` and sorts into the
+  new lowest tier (4) — see deepdive-top100/SKILL.md Step 1 for what a technicals-only
+  touch means (a lightweight price/valuation refresh, NOT a new research pass, and it must
+  NOT update `deepdive_date`/`deepdive_pass`/history the way a full dive does, or the
+  cooldown would never actually expire).
 
   2026-09-11 (user instruction): staleness (days-since-last-dive) no longer drives ordering
   at all among already-dived names — it used to push the longest-untouched name to the front
-  regardless of whether it was ever worth re-diving. Replaced with a 4-level tier, each level
-  ordered by `pool_priority` descending:
+  regardless of whether it was ever worth re-diving. Replaced with a 5-level tier (0-3
+  unchanged in spirit, 4 added 2026-09-16 for cooldown), each level ordered by
+  `pool_priority` descending:
 
     tier 0 — never-deep-dived                       ("prioritize newer candidates" first)
     tier 1 — already dived, potential_score >= STALE_RERUN_FLOOR (30)   (worth a re-dive)
     tier 2 — already dived, potential_score <  STALE_RERUN_FLOOR       ("no need to rerun" —
              a stale call that never cleared the quality bar on raw four_box+master alone;
-             floor checked on `potential_score`, i.e. BEFORE the Confluence-100/coverage
-             bonuses, so a fundamentally weak name doesn't dodge the floor just because it's
-             a current Confluence member or missing score coverage — those are separate,
-             visibility-driven reasons to prioritize, not quality)
-    tier 3 — high_caution                            (unchanged, still de-prioritised last)
+             floor checked on `potential_score`, i.e. BEFORE the low-coverage bonus, so a
+             fundamentally weak name doesn't dodge the floor just for missing score
+             coverage — that's a separate, visibility-driven reason to prioritize, not
+             quality)
+    tier 3 — high_caution                            (unchanged, de-prioritised near-last)
+    tier 4 — in_cooldown (deep-dived <60 days ago)   (2026-09-16, ALWAYS absolute last —
+             checked before high_caution, so even a high_caution name that was just dived
+             sorts here, not tier 3; see `rerun_tier()`)
 
-  sort key = ( tier (0/1/2/3 per the above),
-               -pool_priority (ranking WITHIN a tier — same Confluence-100 +
-                 low-coverage-boosted score as Stage 1),
+  sort key = ( tier (0/1/2/3/4 per the above),
+               -pool_priority (ranking WITHIN a tier — same low-coverage-boosted score as
+                 Stage 1),
                name )
 
 Plainly: never-dived pool members go first (highest priority first among them); once every
 pool member has had at least one dive in the current rotation, ordering is pool_priority
 descending among names that cleared the floor, then pool_priority descending again among
 names that didn't (so a weak, boosted-into-the-pool name only gets re-dived once nothing
-better is pending), with high_caution names still sorting dead last. This replaces the old
-"restart basis staleness and ranking" behaviour — staleness no longer decides order at all,
-only whether a name is *stale enough to be a re-dive candidate in the first place* is now
-irrelevant to this script (every already-dived pool member is always a candidate once its
+better is pending), with high_caution names sorting near-last and in_cooldown names always
+sorting dead last (a full dive should basically never reach tier 4 in normal operation —
+by design, cooldown entries are meant to be picked up only via the technicals-only path
+described in SKILL.md, once tiers 0-3 are exhausted). This replaces the old "restart basis
+staleness and ranking" behaviour — staleness no longer decides order at all, only whether a
+name is *stale enough to be a re-dive candidate in the first place* is now irrelevant to
+this script (every already-dived, non-cooldown pool member is always a candidate once its
 pass comes due; STALE_RERUN_FLOOR only affects how eagerly it's picked, not whether).
 
 Rotation bookkeeping is scoped to the ACTIVE POOL only (not the full universe):
@@ -117,13 +161,17 @@ MASTER_SCORES = os.path.join(DATA, "master-scores.json")  # read-only, for weigh
 CONFLUENCE = os.path.join(DATA, "confluence100.json")     # read-only, weekly side job output
 
 # ---- tunables ----
-POOL_SIZE = 100                # the active deep-dive pool never exceeds (or, while the
-                                # eligible universe is >= 100, ever falls below) this
+POOL_SIZE = 100                # the active deep-dive pool never exceeds this; since
+                                # 2026-09-16 eligibility is a hard Confluence-100 +
+                                # non-large-cap gate (see module docstring), the pool is
+                                # routinely SMALLER than this — it is a ceiling, not a floor
 DEFAULT_MASTER = 30.0          # fallback when master_score is absent (shouldn't happen
                                 # for any "researched" stock, but stay defensive)
-CONFLUENCE_BONUS = 20.0        # pool_priority nudge for current Confluence-100 members
 COVERAGE_BONUS_MAX = 10.0      # pool_priority nudge (scaled by 1-weight_coverage) for
                                 # stocks whose master-score sub-components are incomplete
+COOLDOWN_DAYS = 60             # 2026-09-16 (user instruction): a pool member last
+                                # deep-dived fewer than this many days ago is never a
+                                # candidate for a fresh FULL dive — see rerun_tier()
 STALE_RERUN_FLOOR = 30.0       # Stage 2: an already-dived name with potential_score below
                                 # this (pre-Confluence/coverage-bonus quality alone) sorts
                                 # behind every name that cleared it — "no need to rerun" a
@@ -280,14 +328,18 @@ def main():
         potential = round(0.5 * fb100 + 0.5 * master_used, 2)
 
         in_confluence100 = stem in confluence_slugs
+        tier_str = (s.get("market_cap_tier") or "").lower()
+        is_large_or_mega = ("large" in tier_str) or ("mega" in tier_str)
+        eligible_for_pool = in_confluence100 and not is_large_or_mega
         weight_coverage = stem_coverage.get(stem)  # None if not yet in master-scores.json
         coverage_bonus = (1.0 - (weight_coverage if weight_coverage is not None else 0.0)) * COVERAGE_BONUS_MAX
-        pool_priority = round(potential + (CONFLUENCE_BONUS if in_confluence100 else 0.0) + coverage_bonus, 2)
+        pool_priority = round(potential + coverage_bonus, 2)
 
         thesis = s.get("thesis_fit") or "neither"
         dsince = days_since(dd_date)
         never = dd_pass == 0 or dsince is None
         high_caution = bool(rf) and rf.upper() not in ("", "NONE")
+        in_cooldown = (not never) and (dsince is not None) and (dsince < COOLDOWN_DAYS)
 
         rows.append({
             "state_key": key,
@@ -306,11 +358,14 @@ def main():
             "four_box_score": fb_score,
             "potential_score": potential,
             "in_confluence100": in_confluence100,
+            "is_large_or_mega": is_large_or_mega,
+            "eligible_for_pool": eligible_for_pool,
             "weight_coverage": weight_coverage,
             "pool_priority": pool_priority,
             "high_caution": high_caution,
             "never_deepdived": never,
             "days_since_deepdive": dsince,
+            "in_cooldown": in_cooldown,
             "deepdive_status": p.get("deepdive_status", "pending"),
             "deepdive_pass": dd_pass,
             "deepdive_date": dd_date,
@@ -319,22 +374,33 @@ def main():
             "history": history,
         })
 
-    # ---- Stage 1: pool selection by pool_priority (potential_score, boosted for ----
-    # ---- Confluence-100 membership and low score-coverage) ----
-    rows.sort(key=lambda r: (-r["pool_priority"], -r["potential_score"], -r["master_score"], r["name"].lower()))
-    pool_size = min(POOL_SIZE, len(rows))
-    for i, r in enumerate(rows):
-        r["in_active_pool"] = i < pool_size
+    # ---- Stage 1: pool selection ----
+    # 2026-09-16: HARD gate first (Confluence-100 member AND not large/mega-cap) — a row
+    # failing this is never in the pool no matter its pool_priority. Only eligible rows
+    # compete for the top-POOL_SIZE cut by pool_priority (potential_score, boosted for low
+    # score-coverage).
+    eligible_rows = [r for r in rows if r["eligible_for_pool"]]
+    ineligible_rows = [r for r in rows if not r["eligible_for_pool"]]
 
-    pool_rows = [r for r in rows if r["in_active_pool"]]
-    other_rows = [r for r in rows if not r["in_active_pool"]]
+    eligible_rows.sort(key=lambda r: (-r["pool_priority"], -r["potential_score"], -r["master_score"], r["name"].lower()))
+    pool_size = min(POOL_SIZE, len(eligible_rows))
+    for i, r in enumerate(eligible_rows):
+        r["in_active_pool"] = i < pool_size
+    for r in ineligible_rows:
+        r["in_active_pool"] = False
+
+    pool_rows = [r for r in eligible_rows if r["in_active_pool"]]
+    other_rows = [r for r in eligible_rows if not r["in_active_pool"]] + ineligible_rows
 
     # ---- Stage 2: rotation order within the pool (tier, then pool_priority) ----
     # 2026-09-11: staleness no longer orders anything — see the module docstring. A name's
     # tier is (0) never-dived, (1) already-dived and worth a re-dive (potential_score >=
     # floor), (2) already-dived but never earned the budget (potential_score < floor,
-    # "no need to rerun"), (3) high_caution (always last). Within a tier, pool_priority desc.
+    # "no need to rerun"), (3) high_caution, (4) in_cooldown (2026-09-16, checked FIRST so
+    # it wins over every other tier including high_caution — see module docstring).
     def rerun_tier(r):
+        if r["in_cooldown"]:
+            return 4
         if r["high_caution"]:
             return 3
         if r["never_deepdived"]:
@@ -343,6 +409,9 @@ def main():
 
     for r in pool_rows:
         r["rerun_tier"] = rerun_tier(r)
+        # 2026-09-16: a technicals-only touch must NOT reset deepdive_date/pass/history —
+        # see SKILL.md Step 1 and deepdive_apply.py's --mode flag.
+        r["dive_mode"] = "technicals_only" if r["rerun_tier"] == 4 else "full"
 
     pool_rows.sort(key=lambda r: (r["rerun_tier"], -r["pool_priority"], r["name"].lower()))
 
@@ -365,6 +434,7 @@ def main():
     for r in other_rows:
         r["deepdive_status"] = "not_in_pool"
         r["rerun_tier"] = None  # rerun_tier only means something for in-pool rotation
+        r["dive_mode"] = None
 
     ordered = pool_rows + other_rows
     for i, r in enumerate(ordered, 1):
@@ -377,41 +447,52 @@ def main():
 
     queue = {
         "generated": TODAY.isoformat(),
-        "source": ("ACTIVE-100-POOL — recomputed every run from every researched "
-                   "state.json stock (status=researched, data file resolvable, not "
-                   "AVOID/EXCLUDE). Pool membership (top 100) is selected by "
+        "source": ("ACTIVE POOL (2026-09-16: hard-gated) — recomputed every run from "
+                   "every researched state.json stock (status=researched, data file "
+                   "resolvable, not AVOID/EXCLUDE), but only stocks that are BOTH a "
+                   "current Confluence-100 member AND not large/mega-cap are "
+                   "`eligible_for_pool` at all — a large-cap's thesis_fit resolves to "
+                   "'neither' on size alone regardless of score, so it can never support "
+                   "this screen's thesis and is excluded outright, not just de-prioritised. "
+                   "Among eligible stocks, pool membership (top up to 100) is ranked by "
                    "pool_priority = potential_score (0.5*four_box_score(scaled 0-100) + "
-                   "0.5*master_score) + a +20 bonus for current Confluence-100 membership "
-                   "+ up to +10 for low score-coverage (weight_coverage). Rotation order "
-                   "*within* the pool (2026-09-11) is by rerun_tier (0=never-dived, "
-                   "1=already-dived & potential_score>=30, 2=already-dived & "
-                   "potential_score<30 i.e. 'no need to rerun', 3=high_caution) then "
+                   "0.5*master_score) + up to +10 for low score-coverage "
+                   "(weight_coverage). Rotation order *within* the pool is by rerun_tier "
+                   "(0=never-dived, 1=already-dived & potential_score>=30, "
+                   "2=already-dived & potential_score<30 i.e. 'no need to rerun', "
+                   "3=high_caution, 4=in_cooldown i.e. deep-dived <60 days ago — always "
+                   "absolute last, dive_mode='technicals_only' not a full dive) then "
                    "pool_priority desc — staleness no longer orders anything. See "
                    "build_deepdive_queue.py."),
         "universe_size": len(out),
         "pool_size": pool_size,
-        "tunables": {"POOL_SIZE": POOL_SIZE, "DEFAULT_MASTER": DEFAULT_MASTER},
+        "tunables": {"POOL_SIZE": POOL_SIZE, "DEFAULT_MASTER": DEFAULT_MASTER,
+                     "COOLDOWN_DAYS": COOLDOWN_DAYS},
         "note": ("Active-pool queue for the deepdive-top100 task. The task rebuilds this "
                  "at Step 0 of EVERY run, then takes the first 3 'pending' entries by "
                  "`rank` (all pending entries are pool members — non-pool entries are "
-                 "marked 'not_in_pool' and never selected). Pool = top 100 by "
-                 "pool_priority (four_box + master_score, boosted for current "
-                 "Confluence-100 membership and for low score-coverage), recomputed fresh "
-                 "each run — membership can shift. The pool never shrinks below "
-                 "min(100, eligible_universe_size); with 570+ eligible names, that floor "
-                 "is always exactly 100 — there is always a next-best name to backfill "
-                 "with, even once every never-dived pool member has been covered. Once "
-                 "every pool entry is 'done' for `current_pass`, it rolls to N+1 and all "
-                 "pool entries reset to 'pending' — rotation then resumes ordered by "
-                 "rerun_tier (never-dived, then already-dived-above-floor, then "
-                 "already-dived-below-floor 'no need to rerun', then high_caution) with "
-                 "pool_priority as the ranking key within each tier (2026-09-11 — staleness "
-                 "itself no longer decides order). Non-pool entries are dormant (status 'not_in_pool') "
-                 "but keep their own data_file mapping (other scripts, e.g. "
-                 "resolve_data_file.py, depend on the FULL universe being listed here, "
-                 "not just the pool) and their full deepdive history/pass/date, so they "
-                 "pick up right where they left off if they re-enter the pool later. "
-                 "Do not hand-edit."),
+                 "marked 'not_in_pool' and never selected). Pool eligibility (2026-09-16) "
+                 "is a HARD gate: must be a current Confluence-100 member AND not "
+                 "large/mega-cap, or the stock is never in the pool regardless of score "
+                 "(`eligible_for_pool` on every queue entry records this). Among eligible "
+                 "stocks, pool = top up to 100 by pool_priority (four_box + master_score, "
+                 "boosted for low score-coverage), recomputed fresh each run — membership "
+                 "can shift as Confluence-100 changes week to week or a name crosses the "
+                 "large-cap line. Unlike the pre-2026-09-16 design, the pool can genuinely "
+                 "run BELOW 100 (bounded by how many small/mid-cap Confluence-100 members "
+                 "exist) — that is expected, not a bug. Once every pool entry is 'done' "
+                 "for `current_pass`, it rolls to N+1 and all pool entries reset to "
+                 "'pending' — rotation then resumes ordered by rerun_tier (never-dived, "
+                 "then already-dived-above-floor, then already-dived-below-floor 'no need "
+                 "to rerun', then high_caution, then in_cooldown — a pool member "
+                 "deep-dived under 60 days ago, always absolute last and marked "
+                 "`dive_mode:'technicals_only'`, never a candidate for a fresh full dive) "
+                 "with pool_priority as the ranking key within each tier. Non-pool entries "
+                 "are dormant (status 'not_in_pool') but keep their own data_file mapping "
+                 "(other scripts, e.g. resolve_data_file.py, depend on the FULL universe "
+                 "being listed here, not just the pool) and their full deepdive "
+                 "history/pass/date, so they pick up right where they left off if they "
+                 "re-enter the pool later. Do not hand-edit."),
         "current_pass": current_pass,
         "queue": out,
     }
@@ -424,11 +505,16 @@ def main():
     pool_never = sum(1 for e in out if e["in_active_pool"] and e["never_deepdived"])
     pool_confluence = sum(1 for e in out if e["in_active_pool"] and e["in_confluence100"])
     pool_no_rerun = sum(1 for e in out if e["in_active_pool"] and e["rerun_tier"] == 2)
+    pool_cooldown = sum(1 for e in out if e["in_active_pool"] and e["in_cooldown"])
+    eligible_count = sum(1 for e in out if e["eligible_for_pool"])
+    excluded_large = sum(1 for e in out if e["in_confluence100"] and e["is_large_or_mega"])
     covered = [e["weight_coverage"] for e in out if e["in_active_pool"] and e["weight_coverage"] is not None]
     avg_coverage = round(sum(covered) / len(covered), 2) if covered else None
     print(f"Wrote {QUEUE}")
     print(f"  universe={len(out)}  pool_size={pool_size}  current_pass={current_pass}")
-    print(f"  pool: pending={pool_pending}  done={pool_done}  never-deep-dived-in-pool={pool_never}")
+    print(f"  eligibility: confluence100-total={len(confluence_slugs)}  eligible(C100+non-large)={eligible_count}"
+          f"  excluded-as-large/mega={excluded_large}")
+    print(f"  pool: pending={pool_pending}  done={pool_done}  never-deep-dived-in-pool={pool_never}  in_cooldown(technicals-only)={pool_cooldown}")
     print(f"  pool: confluence100-members={pool_confluence}/{len(confluence_slugs)}  avg_weight_coverage={avg_coverage}")
     print(f"  pool: below-floor 'no need to rerun' (potential_score<{STALE_RERUN_FLOOR}, already dived)={pool_no_rerun}")
     if pool_rows:
@@ -436,12 +522,12 @@ def main():
         min_priority = min(r["pool_priority"] for r in pool_rows)
         print(f"  pool potential_score cutoff (min in pool): {min_potential}  (min pool_priority: {min_priority})")
         print("  top of pool rotation order this run:")
-        tier_tag = {0: "NEVER", 1: "re-dive", 2: "no-rerun", 3: "caution"}
+        tier_tag = {0: "NEVER", 1: "re-dive", 2: "no-rerun", 3: "caution", 4: "COOLDOWN"}
         for e in [r for r in out if r["in_active_pool"]][:5]:
             tag = tier_tag.get(e["rerun_tier"], "?")
             cf = "C100" if e["in_confluence100"] else "    "
             print(f"    #{e['rank']:>3} {e['name'][:38]:38} pri={e['pool_priority']:>6} pot={e['potential_score']:>6}"
-                  f"  fb={e['four_box_score']}  master={e['master_score']:>5}  cov={e['weight_coverage']}  {cf}  {tag}  [{e['deepdive_status']}]")
+                  f"  fb={e['four_box_score']}  master={e['master_score']:>5}  cov={e['weight_coverage']}  {cf}  {tag}  [{e['deepdive_status']}/{e['dive_mode']}]")
     if unresolved:
         print(f"  WARNING: {len(unresolved)} researched stocks could not resolve a data_file:")
         for key, nm in unresolved[:20]:
