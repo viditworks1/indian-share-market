@@ -1,7 +1,7 @@
 {
   "method": "the user's stated screening framework (2026-09-04): growth + margins + ROCE + debt + capex + free cash flow + competitive advantage + management quality. This score covers the four legs (ROCE, debt, FCF, capex) that had no numeric home before. Formula in this script's docstring and scripts/QUALITY_SCORE_METHODOLOGY.md.",
-  "scored_count": 215,
-  "not_assessed_count": 671,
+  "scored_count": 231,
+  "not_assessed_count": 655,
   "ranked": [
     {
       "slug": "venus-remedies",
@@ -78,6 +78,32 @@
         "margin_component": 15,
         "capex_component": 15,
         "raw": 95,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "astra-microwave-products",
+      "name": "Astra Microwave",
+      "quality_score": 92.0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": 20,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.85,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 90,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 21,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 25,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 92,
         "red_flag_multiplier": 1.0
       }
     },
@@ -267,7 +293,7 @@
       "slug": "siddhika-coating",
       "name": "Siddhika Coating Limited- A Paint Company",
       "quality_score": 87.0,
-      "conviction_score": 21.19,
+      "conviction_score": 30.44,
       "red_flag_tier": null,
       "roce_pct": 31.9,
       "roce_trend": "improving",
@@ -711,6 +737,32 @@
         "debt_component": 20,
         "debt_component_source": "net_debt_to_ebitda",
         "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 75,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "golkunda-diamonds",
+      "name": "Golkunda Diamond",
+      "quality_score": 75.0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": 20,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 1.55,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 40,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 21,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 14,
         "margin_component": 15,
         "capex_component": 15,
         "raw": 75,
@@ -1362,6 +1414,32 @@
       }
     },
     {
+      "slug": "marksans-pharma",
+      "name": "Marksans Pharma",
+      "quality_score": 67.0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": 19,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 0.58,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 56,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 13,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 14,
+        "margin_component": 9,
+        "capex_component": 15,
+        "raw": 67,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "sun-pharma",
       "name": "Sun Pharma",
       "quality_score": 67.0,
@@ -1606,6 +1684,34 @@
       }
     },
     {
+      "slug": "gayatri-rubber-and-chemicals",
+      "name": "Gayatri Rubber and Chemicals",
+      "quality_score": 63.0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": 37.86,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.79,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -39,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 25,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 63,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "ngl-fine-chem-ltd",
       "name": "NGL Fine-Chem Ltd",
       "quality_score": 62.0,
@@ -1717,7 +1823,7 @@
       "slug": "arrow-greentech",
       "name": "Arrow Greentech",
       "quality_score": 61.0,
-      "conviction_score": 27.0,
+      "conviction_score": 29.75,
       "red_flag_tier": null,
       "roce_pct": 30,
       "roce_trend": "declining",
@@ -2016,6 +2122,60 @@
       }
     },
     {
+      "slug": "sbcl",
+      "name": "SBCL",
+      "quality_score": 57.0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": 25,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 0.36,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 32,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 18,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 7,
+        "margin_component": 9,
+        "capex_component": 7,
+        "raw": 57,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "skipper",
+      "name": "Skipper",
+      "quality_score": 57.0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": 24,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 1.68,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 0.9,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 21,
+        "debt_component": 10,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 2,
+        "margin_component": 9,
+        "capex_component": 15,
+        "raw": 57,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "asm-technologies",
       "name": "ASM Technologies",
       "quality_score": 56.0,
@@ -2029,6 +2189,34 @@
       "margin_trend": "expanding",
       "capex_efficiency": "unclear",
       "assessment": "neutral",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 25,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 0,
+        "raw": 56,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "millworks-technologies",
+      "name": "Millworks Technologies Ltd",
+      "quality_score": 56.0,
+      "conviction_score": 30.0,
+      "red_flag_tier": null,
+      "roce_pct": 81,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.33,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -247,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
       "flags": [
         "weak-fcf"
       ],
@@ -2465,6 +2653,34 @@
       }
     },
     {
+      "slug": "univastu-india",
+      "name": "Univastu India",
+      "quality_score": 52.0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": 30,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.87,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 5,
+      "margin_trend": "stable",
+      "capex_efficiency": "unclear",
+      "assessment": "positive",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 25,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 2,
+        "margin_component": 9,
+        "capex_component": 0,
+        "raw": 52,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "sansera-engineering",
       "name": "Sansera Engineering Ltd",
       "quality_score": 51.0,
@@ -2877,6 +3093,34 @@
       }
     },
     {
+      "slug": "vadilal-industries",
+      "name": "Vadilal Industries",
+      "quality_score": 48.0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": 22,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 0.9,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 15,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "positive",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 14,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 2,
+        "margin_component": 9,
+        "capex_component": 7,
+        "raw": 48,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "izmo",
       "name": "IZMO- bet on new technologies in Auto retail & defence",
       "quality_score": 47.0,
@@ -2932,7 +3176,7 @@
       "slug": "lumax-industries",
       "name": "Lumax Industries",
       "quality_score": 47.0,
-      "conviction_score": 31.0,
+      "conviction_score": 30.25,
       "red_flag_tier": null,
       "roce_pct": 18,
       "roce_trend": "stable",
@@ -2986,7 +3230,7 @@
       "slug": "syrma-sgs-an-export-substitution-opportunity-in-ems-sector",
       "name": "Syrma SGS an Export Substitution opportunity in EMS sector",
       "quality_score": 46.0,
-      "conviction_score": 25.98,
+      "conviction_score": 24.83,
       "red_flag_tier": null,
       "roce_pct": 14,
       "roce_trend": "stable",
@@ -3423,6 +3667,34 @@
       }
     },
     {
+      "slug": "ebgng",
+      "name": "EBGNG",
+      "quality_score": 43.0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": 20,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 2.29,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -126,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 17,
+        "debt_component": 4,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 43,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "rbz-jewellers",
       "name": "RBZ Jewellers Ltd",
       "quality_score": 42.0,
@@ -3618,6 +3890,35 @@
       }
     },
     {
+      "slug": "lloyds-metal-energy",
+      "name": "Lloyds Metal & Energy Ltd",
+      "quality_score": 40.0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": 27,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 3.36,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -106,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "flags": [
+        "high-leverage",
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 18,
+        "debt_component": 0,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 7,
+        "raw": 40,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "recode-studios",
       "name": "Recode Studios Ltd",
       "quality_score": 40.0,
@@ -3772,6 +4073,32 @@
         "debt_component_source": "net_debt_to_ebitda",
         "fcf_component": 0,
         "margin_component": 15,
+        "capex_component": 0,
+        "raw": 38,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "tata-motors-commercial-vehicles",
+      "name": "Tata Motors Commercial Vehicles (TMCV)",
+      "quality_score": 38.0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": 37,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": -0.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unclear",
+      "capex_efficiency": "unclear",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 18,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 0,
         "capex_component": 0,
         "raw": 38,
         "red_flag_multiplier": 1.0
@@ -4470,6 +4797,34 @@
       }
     },
     {
+      "slug": "universal-cables",
+      "name": "Universal Cables",
+      "quality_score": 28.0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": 11.7,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 4.33,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 23,
+      "margin_trend": "stable",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "flags": [
+        "high-leverage"
+      ],
+      "score_breakdown": {
+        "roce_component": 12,
+        "debt_component": 0,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 7,
+        "margin_component": 9,
+        "capex_component": 0,
+        "raw": 28,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "wonderla-holidays",
       "name": "Wonderla Holidays",
       "quality_score": 27.0,
@@ -4804,6 +5159,35 @@
       }
     },
     {
+      "slug": "til",
+      "name": "TIL",
+      "quality_score": 22.0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": 3,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 66,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -1620,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "flags": [
+        "high-leverage",
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 7,
+        "debt_component": 0,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 0,
+        "raw": 22,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "ion-exchange-india-limited",
       "name": "Ion Exchange (India) Ltd",
       "quality_score": 22.0,
@@ -4941,6 +5325,32 @@
         "fcf_component": 14,
         "margin_component": 0,
         "capex_component": 7,
+        "raw": 21,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "iifl-finance",
+      "name": "IIFL Finance",
+      "quality_score": 21.0,
+      "conviction_score": 27.7,
+      "red_flag_tier": null,
+      "roce_pct": 13,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "stable",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 12,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 9,
+        "capex_component": 0,
         "raw": 21,
         "red_flag_multiplier": 1.0
       }
@@ -5517,6 +5927,37 @@
       }
     },
     {
+      "slug": "rossell-techsys",
+      "name": "Rossell Techsys",
+      "quality_score": 12.0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": 12,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 6.49,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -167,
+      "margin_trend": "contracting",
+      "capex_efficiency": "value-destructive",
+      "assessment": "concern",
+      "flags": [
+        "high-leverage",
+        "weak-fcf",
+        "margin-contracting",
+        "value-destructive-capex"
+      ],
+      "score_breakdown": {
+        "roce_component": 12,
+        "debt_component": 0,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 12,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "novartis-india-ltd",
       "name": "Novartis India Ltd",
       "quality_score": 0,
@@ -6053,12 +6494,6 @@
       "red_flag_tier": null
     },
     {
-      "slug": "millworks-technologies",
-      "name": "Millworks Technologies Ltd",
-      "conviction_score": 30.0,
-      "red_flag_tier": null
-    },
-    {
       "slug": "afcom-holdings",
       "name": "Afcom Holdings",
       "conviction_score": 29.63,
@@ -6121,12 +6556,6 @@
     {
       "slug": "rpg-life-sciences",
       "name": "RPG Life Sciences Ltd",
-      "conviction_score": 27.7,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "iifl-finance",
-      "name": "IIFL Finance",
       "conviction_score": 27.7,
       "red_flag_tier": null
     },
@@ -6235,12 +6664,6 @@
     {
       "slug": "shanthi-gears-shanti-gears",
       "name": "Shanthi Gears/Shanti Gears",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "til",
-      "name": "TIL",
       "conviction_score": 25.0,
       "red_flag_tier": null
     },
@@ -6443,12 +6866,6 @@
       "red_flag_tier": null
     },
     {
-      "slug": "lloyds-metal-energy",
-      "name": "Lloyds Metal & Energy Ltd",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
       "slug": "escorts-kubota",
       "name": "Escorts Kubota Ltd",
       "conviction_score": 25.0,
@@ -6473,24 +6890,6 @@
       "red_flag_tier": null
     },
     {
-      "slug": "univastu-india",
-      "name": "Univastu India",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "gayatri-rubber-and-chemicals",
-      "name": "Gayatri Rubber and Chemicals",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "rossell-techsys",
-      "name": "Rossell Techsys",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
       "slug": "kody-technolabs",
       "name": "Kody Technolabs",
       "conviction_score": 25.0,
@@ -6499,18 +6898,6 @@
     {
       "slug": "cyient-dlm",
       "name": "Cyient DLM",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "sbcl",
-      "name": "SBCL",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "ebgng",
-      "name": "EBGNG",
       "conviction_score": 25.0,
       "red_flag_tier": null
     },
@@ -6529,12 +6916,6 @@
     {
       "slug": "omnitech",
       "name": "Omnitech",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "vadilal-industries",
-      "name": "Vadilal Industries",
       "conviction_score": 25.0,
       "red_flag_tier": null
     },
@@ -6559,24 +6940,6 @@
     {
       "slug": "nlc-india",
       "name": "NLC India",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "universal-cables",
-      "name": "Universal Cables",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "astra-microwave-products",
-      "name": "Astra Microwave",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "golkunda-diamonds",
-      "name": "Golkunda Diamond",
       "conviction_score": 25.0,
       "red_flag_tier": null
     },
@@ -6623,20 +6986,8 @@
       "red_flag_tier": null
     },
     {
-      "slug": "skipper",
-      "name": "Skipper",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
       "slug": "hdfc-amc",
       "name": "HDFC AMC",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "marksans-pharma",
-      "name": "Marksans Pharma",
       "conviction_score": 25.0,
       "red_flag_tier": null
     },
@@ -6661,12 +7012,6 @@
     {
       "slug": "mgl",
       "name": "Mahanagar Gas (MGL)",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "tata-motors-commercial-vehicles",
-      "name": "Tata Motors Commercial Vehicles (TMCV)",
       "conviction_score": 25.0,
       "red_flag_tier": null
     },

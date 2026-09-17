@@ -49,5 +49,37 @@
     "score": 2.5,
     "note": "Genuine defense-indigenisation tailwind and TAM, with a record order book, but valuation (~84x P/E, ~12x P/B after a ~51% 1-year rally) is already very rich, and moat is tempered by unusually low (~6.54%) promoter holding."
   },
-  "value_chain": null
+  "value_chain": null,
+  "quality_metrics": {
+    "roce_pct": 20,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 0.85,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 90,
+    "margin_trend": "expanding",
+    "capex_efficiency": "productive",
+    "assessment": "positive",
+    "note": "A genuine structural improvement, not a valuation-only story: ROCE has climbed from a trough of ~3% (FY19) through 11-19% (FY22-25) to 20% (FY26), while OPM has expanded from ~12% (FY22) to 29% (FY26). FCF conversion is strong (~90% of EBITDA, FY26). The quality is real; the 84x P/E is a separate, valid caution about how much of it is already paid for."
+  },
+  "track_record": {
+    "years_checked": 5,
+    "years_cleared": 3,
+    "note": "FY24 (+11.4% growth, ROCE 19%), FY25 (+15.6%, ROCE 19%) and FY26 (+10.7%, ROCE 20%) each cleared BOTH >=10% revenue growth AND >=15% ROCE; FY22 and FY23 (ROCE 11% and 17% respectively) did not clear on growth or ROCE - the last 3 years mark a genuine, recent step-up in consistency, not a decade-long trend."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 1608,
+    "current_pe": 80.7,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~80.7x trailing P/E needs a long, high-growth runway from the defense/space order book to look fair at any reasonable exit multiple",
+    "our_fy27_estimate": "Order-book conversion (Rs 4,300 Cr consolidated, incl. the Rs 2,205 Cr HAL Uttam Radar order) likely continues driving double-digit revenue growth with margins holding near FY26's 29% OPM",
+    "our_fy28_estimate": "Not estimable with confidence - no explicit management guidance reviewed this pass",
+    "gap_direction": "priced-in",
+    "gap_type": "volume",
+    "gap_magnitude_pct": null,
+    "gap_basis": "The genuine 3-year ROCE/margin improvement and record order book are real, but an 84x P/E and 12x P/B after a 51% 1-year rally already price in a great deal of continued execution",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  }
 }

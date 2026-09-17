@@ -47,5 +47,37 @@
     "score": 2.5,
     "note": "Genuine Q1 FY27 margin/capacity inflection and clean balance sheet, but only one quarter of proof against a weak 5-year growth base - watch, don't yet act."
   },
-  "value_chain": null
+  "value_chain": null,
+  "quality_metrics": {
+    "roce_pct": 20,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 1.55,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 40,
+    "margin_trend": "expanding",
+    "capex_efficiency": "productive",
+    "assessment": "positive",
+    "note": "ROCE has structurally improved from a 6-9% band (FY19-21) to 17-20% (FY22-26) as OPM expanded from ~3-5% to ~8%; the new Mumbai capacity add (Rs 12 Cr, +50-60% capacity) tracks this improving-returns trend rather than diluting it."
+  },
+  "track_record": {
+    "years_checked": 11,
+    "years_cleared": 2,
+    "note": "FY16-FY26 checked: only FY22 (+37.6% growth, ROCE 17%) and FY26 (+11.9% growth, ROCE 20%) cleared BOTH >=10% revenue growth AND >=15% ROCE. A genuinely weak long-run Coffee-Can record (revenue was flat-to-declining FY23-25) consistent with the write-up's own 'poor 5-yr CAGR ~10.2%' framing - the Q1 FY27 inflection is a real but still-unconfirmed break from a historically inconsistent pattern."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 331,
+    "current_pe": 14.7,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~14.7x trailing P/E is not demanding; even modest high-single-digit forward growth would look reasonable at this multiple",
+    "our_fy27_estimate": "If the Q1 FY27 inflection (+22.7% revenue, +69.3% EBITDA) continues, FY27 could meaningfully beat the weak historical trend; new Mumbai capacity (+50-60%) supports this",
+    "our_fy28_estimate": "Not estimable with confidence - only one confirming quarter and a historically inconsistent multi-year base",
+    "gap_direction": "partially-priced",
+    "gap_type": "capacity",
+    "gap_magnitude_pct": null,
+    "gap_basis": "A cheap ~14.7x multiple against a genuine but single-quarter capacity/margin inflection - the market isn't paying up for the inflection yet, but nor is it clearly mispriced given the weak multi-year base the inflection must still overcome",
+    "evidence_quality": "monitor",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  }
 }

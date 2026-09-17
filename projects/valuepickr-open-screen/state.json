@@ -453,9 +453,15 @@
       "revisit_after_30d": false,
       "conviction_score": 25.0,
       "last_post_number_analyzed": 50,
-      "master_score": 25.0,
+      "master_score": 11.75,
       "own_conviction_score": 25.0,
-      "trusted_lift": 0.0
+      "trusted_lift": 0.0,
+      "guidance_backfill_date": "2026-09-18",
+      "guidance_backfill_result": "done",
+      "expectation_gap_score": 0,
+      "quality_score": 22.0,
+      "consistency_score": 0,
+      "asymmetry_score": 0
     },
     "triveni-turbines": {
       "name": "Triveni Turbines Ltd",
@@ -7477,8 +7483,8 @@
       "thesis_fit": "neither",
       "last_post_number_analyzed": 57,
       "revisit_after_30d": false,
-      "conviction_score": 25.98,
-      "master_score": 25.95,
+      "conviction_score": 24.83,
+      "master_score": 25.66,
       "guidance_backfill_date": "2026-09-10",
       "guidance_backfill_result": "done",
       "expectation_gap_score": 0,
@@ -7486,7 +7492,7 @@
       "consistency_score": 33,
       "asymmetry_score": 20.0,
       "own_conviction_score": 24.0,
-      "trusted_lift": 1.98
+      "trusted_lift": 0.83
     },
     "thangmayil-jewellers-ltd": {
       "name": "Thangmayil jewellers ltd",
@@ -20133,9 +20139,15 @@
       "last_post_number_analyzed": 223,
       "revisit_after_30d": false,
       "conviction_score": 27.7,
-      "master_score": 27.7,
+      "master_score": 27.83,
       "own_conviction_score": 25.0,
-      "trusted_lift": 2.7
+      "trusted_lift": 2.7,
+      "guidance_backfill_date": "2026-09-18",
+      "guidance_backfill_result": "done",
+      "expectation_gap_score": 24.19,
+      "quality_score": 21.0,
+      "consistency_score": 60,
+      "asymmetry_score": 12.1
     },
     "rajesh-exports": {
       "name": "Rajesh Exports Ltd",
@@ -20678,7 +20690,12 @@
       "conviction_score": 30.0,
       "master_score": 30.0,
       "own_conviction_score": 30.0,
-      "trusted_lift": 0.0
+      "trusted_lift": 0.0,
+      "guidance_backfill_date": "2026-09-18",
+      "guidance_backfill_result": "done",
+      "expectation_gap_score": 3.63,
+      "quality_score": 56.0,
+      "asymmetry_score": 21.82
     },
     "lloyds-metal-energy": {
       "name": "Lloyds Metal & Energy Ltd",
@@ -20700,9 +20717,15 @@
       "last_post_number_analyzed": 10,
       "revisit_after_30d": false,
       "conviction_score": 25.0,
-      "master_score": 25.0,
+      "master_score": 31.9,
       "own_conviction_score": 25.0,
-      "trusted_lift": 0.0
+      "trusted_lift": 0.0,
+      "guidance_backfill_date": "2026-09-18",
+      "guidance_backfill_result": "done",
+      "expectation_gap_score": 24.19,
+      "quality_score": 40.0,
+      "consistency_score": 60,
+      "asymmetry_score": 12.1
     },
     "suba-hotels": {
       "name": "Suba Hotels Ltd",
@@ -20778,7 +20801,9 @@
       "deepdive_date": "2026-09-12",
       "expectation_gap_score": 29.23,
       "quality_score": 40.0,
-      "asymmetry_score": 14.62
+      "asymmetry_score": 14.62,
+      "guidance_backfill_date": "2026-09-18",
+      "guidance_backfill_result": "no-data"
     },
     "sotefin-bharat": {
       "name": "Sotefin Bharat Ltd",
@@ -20848,10 +20873,10 @@
       "red_flag_tier": null,
       "last_post_number_analyzed": 33,
       "revisit_after_30d": false,
-      "conviction_score": 21.19,
-      "own_conviction_score": 21.0,
+      "conviction_score": 30.44,
+      "own_conviction_score": 30.25,
       "trusted_lift": 0.19,
-      "master_score": 53.68,
+      "master_score": 55.99,
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-17",
       "expectation_gap_score": 17.76,
@@ -21196,7 +21221,9 @@
       "reply_count": 2,
       "flagged_material": false,
       "excerpt": "",
-      "highest_post_number": 5
+      "highest_post_number": 5,
+      "guidance_backfill_date": "2026-09-18",
+      "guidance_backfill_result": "no-data"
     },
     "atma-nirbhar-bharat": {
       "name": "Atma Nirbhar Bharat",
@@ -21877,7 +21904,13 @@
       "conviction_score": 25.0,
       "own_conviction_score": 25.0,
       "trusted_lift": 0.0,
-      "master_score": 25.0
+      "master_score": 44.6,
+      "guidance_backfill_date": "2026-09-18",
+      "guidance_backfill_result": "done",
+      "expectation_gap_score": 37.62,
+      "quality_score": 52.0,
+      "consistency_score": 78,
+      "asymmetry_score": 40.81
     },
     "gayatri-rubber-and-chemicals": {
       "name": "Gayatri Rubber and Chemicals",
@@ -21898,7 +21931,12 @@
       "conviction_score": 25.0,
       "own_conviction_score": 25.0,
       "trusted_lift": 0.0,
-      "master_score": 25.0
+      "master_score": 30.59,
+      "guidance_backfill_date": "2026-09-18",
+      "guidance_backfill_result": "done",
+      "expectation_gap_score": 3.63,
+      "quality_score": 63.0,
+      "asymmetry_score": 21.82
     },
     "rossell-techsys": {
       "name": "Rossell Techsys",
@@ -21921,7 +21959,12 @@
       "conviction_score": 25.0,
       "own_conviction_score": 25.0,
       "trusted_lift": 0.0,
-      "master_score": 25.0
+      "master_score": 10.88,
+      "guidance_backfill_date": "2026-09-18",
+      "guidance_backfill_result": "done",
+      "expectation_gap_score": 0,
+      "quality_score": 12.0,
+      "asymmetry_score": 0
     },
     "asian-energy-services": {
       "name": "Asian Energy Services",
@@ -22222,7 +22265,12 @@
       "conviction_score": 25.0,
       "own_conviction_score": 25.0,
       "trusted_lift": 0.0,
-      "master_score": 25.0
+      "master_score": 28.88,
+      "guidance_backfill_date": "2026-09-18",
+      "guidance_backfill_result": "done",
+      "expectation_gap_score": 0,
+      "quality_score": 57.0,
+      "asymmetry_score": 27.0
     },
     "ind-swift-laboratories": {
       "name": "Ind-Swift Laboratories (INDSWFTLAB)",
@@ -22334,7 +22382,12 @@
       "conviction_score": 25.0,
       "own_conviction_score": 25.0,
       "trusted_lift": 0.0,
-      "master_score": 25.0
+      "master_score": 22.06,
+      "guidance_backfill_date": "2026-09-18",
+      "guidance_backfill_result": "done",
+      "expectation_gap_score": 3.63,
+      "quality_score": 43.0,
+      "asymmetry_score": 6.81
     },
     "sunlite": {
       "name": "Sunlite",
@@ -22373,10 +22426,10 @@
       "last_analyzed_date": "2026-09-15",
       "red_flag_tier": null,
       "revisit_after_30d": false,
-      "conviction_score": 31.0,
-      "own_conviction_score": 31.0,
+      "conviction_score": 30.25,
+      "own_conviction_score": 30.25,
       "trusted_lift": 0.0,
-      "master_score": 41.55,
+      "master_score": 41.36,
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-17",
       "expectation_gap_score": 22.9,
@@ -22529,7 +22582,13 @@
       "conviction_score": 25.0,
       "own_conviction_score": 25.0,
       "trusted_lift": 0.0,
-      "master_score": 25.0
+      "master_score": 32.79,
+      "guidance_backfill_date": "2026-09-18",
+      "guidance_backfill_result": "done",
+      "expectation_gap_score": 16.31,
+      "quality_score": 48.0,
+      "consistency_score": 45,
+      "asymmetry_score": 30.16
     },
     "sona-comstar": {
       "name": "Sona BLW / Sona Comstar",
@@ -22867,7 +22926,12 @@
       "conviction_score": 25.0,
       "own_conviction_score": 25.0,
       "trusted_lift": 0.0,
-      "master_score": 25.0
+      "master_score": 22.1,
+      "guidance_backfill_date": "2026-09-18",
+      "guidance_backfill_result": "done",
+      "expectation_gap_score": 16.31,
+      "quality_score": 28.0,
+      "asymmetry_score": 15.16
     },
     "ifci-ltd": {
       "name": "IFCI",
@@ -22930,7 +22994,13 @@
       "conviction_score": 25.0,
       "own_conviction_score": 25.0,
       "trusted_lift": 0.0,
-      "master_score": 25.0
+      "master_score": 46.48,
+      "guidance_backfill_date": "2026-09-18",
+      "guidance_backfill_result": "done",
+      "expectation_gap_score": 5.38,
+      "quality_score": 92.0,
+      "consistency_score": 60,
+      "asymmetry_score": 47.69
     },
     "ge-power-india": {
       "name": "GE Power India",
@@ -23056,7 +23126,13 @@
       "conviction_score": 25.0,
       "own_conviction_score": 25.0,
       "trusted_lift": 0.0,
-      "master_score": 25.0
+      "master_score": 37.24,
+      "guidance_backfill_date": "2026-09-18",
+      "guidance_backfill_result": "done",
+      "expectation_gap_score": 20.25,
+      "quality_score": 75.0,
+      "consistency_score": 18,
+      "asymmetry_score": 36.62
     },
     "gnrl-ltd": {
       "name": "GNRL Ltd",
@@ -23868,7 +23944,13 @@
       "conviction_score": 25.0,
       "own_conviction_score": 25.0,
       "trusted_lift": 0.0,
-      "master_score": 25.0
+      "master_score": 36.83,
+      "guidance_backfill_date": "2026-09-18",
+      "guidance_backfill_result": "done",
+      "expectation_gap_score": 24.19,
+      "quality_score": 57.0,
+      "consistency_score": 50,
+      "asymmetry_score": 26.59
     },
     "rane-madras": {
       "name": "Rane (Madras) [RML]",
@@ -24036,10 +24118,10 @@
       "last_analyzed_date": "2026-09-16",
       "red_flag_tier": null,
       "revisit_after_30d": false,
-      "conviction_score": 27.0,
-      "own_conviction_score": 27.0,
+      "conviction_score": 29.75,
+      "own_conviction_score": 29.75,
       "trusted_lift": 0.0,
-      "master_score": 44.66,
+      "master_score": 45.35,
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-17",
       "expectation_gap_score": 20.22,
@@ -24171,7 +24253,13 @@
       "conviction_score": 25.0,
       "own_conviction_score": 25.0,
       "trusted_lift": 0.0,
-      "master_score": 25.0
+      "master_score": 49.75,
+      "guidance_backfill_date": "2026-09-18",
+      "guidance_backfill_result": "done",
+      "expectation_gap_score": 24.19,
+      "quality_score": 67.0,
+      "consistency_score": 100,
+      "asymmetry_score": 46.09
     },
     "icici-lombard": {
       "name": "ICICI Lombard",
@@ -24738,7 +24826,12 @@
       "conviction_score": 25.0,
       "own_conviction_score": 25.0,
       "trusted_lift": 0.0,
-      "master_score": 25.0
+      "master_score": 30.77,
+      "guidance_backfill_date": "2026-09-18",
+      "guidance_backfill_result": "done",
+      "expectation_gap_score": 24.19,
+      "quality_score": 38.0,
+      "asymmetry_score": 37.09
     },
     "jio-financial-services": {
       "name": "Jio Financial Services",

@@ -50,5 +50,32 @@
     "note": "Genuine, named defence-indigenization/Make-in-India tailwind driving 145% YoY growth (yes); large multi-year domestic defence-electronics capex TAM (yes); military-aerospace qualification/certification cycles are a real technical moat (yes); but ~29.7x book value against ~7% ROCE and ~4.7% net margin is rich (no).",
     "analyst_override": true
   },
-  "value_chain": null
+  "value_chain": null,
+  "quality_metrics": {
+    "roce_pct": 12,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 6.49,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -167,
+    "margin_trend": "contracting",
+    "capex_efficiency": "value-destructive",
+    "assessment": "concern",
+    "note": "FY26 primary numbers are materially weaker than the '145% YoY growth' headline suggests: OPM contracted 15%->14%->13% (FY24-26), net debt/EBITDA is ~6.5x (borrowings Rs 409 Cr vs FY26 EBITDA ~Rs 63 Cr), and free cash flow was deeply negative (-Rs 105 Cr FY26, -167% of EBITDA). roce_pct (12%, FY25) is actually higher than the '3-yr avg 7.2%' cited in the original write-up - both figures are directionally consistent (weak returns) but not reconciled to a single number this pass."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 1357,
+    "current_pe": 193,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~193x trailing P/E is priced for a profitability inflection that has not shown up yet - margins have contracted for 3 straight years even as revenue tripled",
+    "our_fy27_estimate": "Revenue likely continues growing on the defence-indigenisation order book, but PAT growth depends entirely on an unproven margin recovery and de-leveraging",
+    "our_fy28_estimate": "Not estimable with confidence - no concall/guidance reviewed this pass",
+    "gap_direction": "over-optimistic",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "A ~193x trailing multiple against contracting margins, ~6.5x net debt/EBITDA and deeply negative FCF is pricing a return-on-capital inflection the primary numbers do not yet show any sign of",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  }
 }

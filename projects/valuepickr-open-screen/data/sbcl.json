@@ -45,5 +45,32 @@
     "score": 2.5,
     "note": "Real electrification tailwind and a credible sole-integrated-manufacturer moat, but valuation is rich (~60x P/E, ~13x book) after a ~3x run off the 52-week low - defaults to 'neither' per the 2.0-2.5 rule, no exception written."
   },
-  "value_chain": null
+  "value_chain": null,
+  "quality_metrics": {
+    "roce_pct": 25,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 0.36,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 32,
+    "margin_trend": "stable",
+    "capex_efficiency": "neutral",
+    "assessment": "concern",
+    "note": "ROCE has declined every year from a FY23 peak (38% -> 34% -> 26% -> 25% FY26) while revenue has been essentially flat (Rs 420 Cr FY23 -> Rs 462 Cr FY26, +6.9%/-2.7%/+5.7% YoY) despite continued capex - growth has not followed the capex, an efficiency caution the original 'strong return ratios' framing did not capture. IMPORTANT SEPARATE FINDING: promoter shareholding has fallen sharply, 60.6% (FY23) -> 51.1% (FY24) -> 33.4% (FY26) - a ~27pp decline that reads as a promoter-holding reduction significant enough to flag for a HIGH CAUTION review; this light-coverage pass does not have authority to set red_flag_tier, so it is surfaced here and in analysis.md for the next full pass/vpscreen-scan to assess."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 1092,
+    "current_pe": 71.7,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~71.7x trailing P/E needs a strong, sustained growth revival - the opposite of what the last 3 years of flat revenue and declining ROCE show",
+    "our_fy27_estimate": "No clear catalyst identified this pass for a growth re-acceleration; ROCE likely continues normalising toward the low-20s% absent one",
+    "our_fy28_estimate": "Not estimable with confidence - no concall/guidance reviewed this pass",
+    "gap_direction": "over-optimistic",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "A ~72x P/E and ~13x book against 3 years of flat revenue, declining ROCE and a sharply falling promoter stake is priced well ahead of what the primary numbers currently support",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  }
 }

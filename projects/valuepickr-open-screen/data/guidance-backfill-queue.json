@@ -1,9 +1,9 @@
 {
-  "generated": "2026-09-17",
+  "generated": "2026-09-18",
   "selection": "status=researched, no red flag, thesis_fit!=neither, conviction_score>=35, MISSING >=1 of ['market_expectation', 'quality_metrics', 'track_record']. Sorted by Confluence-100 membership, then conviction_score desc. deepdive-top100's light lane drains this, writing only the blocks named in each entry's `missing`; entries drop off once all three exist (here or a full deep pass).",
-  "total": 21,
-  "pending": 21,
-  "confluence100_pending": 21,
+  "total": 18,
+  "pending": 18,
+  "confluence100_pending": 18,
   "queue": [
     {
       "slug": "recode-studios",
@@ -18,10 +18,18 @@
       "missing": [
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 1
+      "backfill_status": "done",
+      "backfill_date": "2026-09-18",
+      "attempts": 1,
+      "rank": 1,
+      "backfill_result": "no-data",
+      "history": [
+        {
+          "date": "2026-09-18",
+          "result": "no-data",
+          "summary": "track_record left N/A - only 2 of 3 required years have both growth+ROCE confirmed (young, May-2026 IPO)"
+        }
+      ]
     },
     {
       "slug": "airfloa-rail-technology",
@@ -36,10 +44,18 @@
       "missing": [
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 2
+      "backfill_status": "done",
+      "backfill_date": "2026-09-18",
+      "attempts": 1,
+      "rank": 2,
+      "backfill_result": "no-data",
+      "history": [
+        {
+          "date": "2026-09-18",
+          "result": "no-data",
+          "summary": "track_record left N/A - only 2 checkable growth+ROCE pairs found (below 3yr minimum); already at 0.85 coverage regardless"
+        }
+      ]
     },
     {
       "slug": "millworks-technologies",
@@ -56,10 +72,18 @@
         "quality_metrics",
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 3
+      "backfill_status": "done",
+      "backfill_date": "2026-09-18",
+      "attempts": 1,
+      "rank": 3,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-09-18",
+          "result": "done",
+          "summary": "All 3 blocks filled; 81% ROCE genuinely strong but FCF deeply negative (-247%) confirming 340-debtor-day cash-quality concern"
+        }
+      ]
     },
     {
       "slug": "iifl-finance",
@@ -76,50 +100,18 @@
         "quality_metrics",
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 4
-    },
-    {
-      "slug": "siddhika-coating",
-      "state_key": "siddhika-coating",
-      "name": "Siddhika Coating Limited- A Paint Company",
-      "data_file": "data/siddhika-coating.json",
-      "conviction_score": 25.19,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "market_cap_tier": "Micro-cap (~Rs 133 Cr)",
-      "in_confluence100": true,
-      "missing": [
-        "market_expectation",
-        "quality_metrics",
-        "track_record"
-      ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 5
-    },
-    {
-      "slug": "arrow-greentech",
-      "state_key": "arrow-greentech",
-      "name": "Arrow Greentech",
-      "data_file": "data/arrow-greentech.json",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "market_cap_tier": "Small-cap (~Rs 1,047-1,227 Cr)",
-      "in_confluence100": true,
-      "missing": [
-        "market_expectation",
-        "quality_metrics",
-        "track_record"
-      ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 6
+      "backfill_status": "done",
+      "backfill_date": "2026-09-18",
+      "attempts": 1,
+      "rank": 4,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-09-18",
+          "result": "done",
+          "summary": "All 3 blocks filled (ROE/revenue used as NBFC proxies); track record shows real RBI-ban disruption (3/5 cleared) + ongoing recovery"
+        }
+      ]
     },
     {
       "slug": "astra-microwave-products",
@@ -136,10 +128,18 @@
         "quality_metrics",
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 7
+      "backfill_status": "done",
+      "backfill_date": "2026-09-18",
+      "attempts": 1,
+      "rank": 5,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-09-18",
+          "result": "done",
+          "summary": "All 3 blocks filled; genuine 3yr ROCE step-up (11%->20%) confirmed, but 84x P/E already prices it in"
+        }
+      ]
     },
     {
       "slug": "ebgng",
@@ -156,10 +156,46 @@
         "quality_metrics",
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 8
+      "backfill_status": "done",
+      "backfill_date": "2026-09-18",
+      "attempts": 1,
+      "rank": 6,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-09-18",
+          "result": "done",
+          "summary": "quality_metrics+market_expectation filled; found FY26 FCF collapse to -Rs238cr, a new material caution vs original write-up"
+        }
+      ]
+    },
+    {
+      "slug": "gayatri-rubber-and-chemicals",
+      "state_key": "gayatri-rubber-and-chemicals",
+      "name": "Gayatri Rubber and Chemicals",
+      "data_file": "data/gayatri-rubber-and-chemicals.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Micro-cap (~Rs 255 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "done",
+      "backfill_date": "2026-09-18",
+      "attempts": 1,
+      "rank": 7,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-09-18",
+          "result": "done",
+          "summary": "quality_metrics+market_expectation filled; ROCE strong (38%) but FCF negative all 4 disclosed years - real cash-quality caution"
+        }
+      ]
     },
     {
       "slug": "golkunda-diamonds",
@@ -176,30 +212,46 @@
         "quality_metrics",
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 9
+      "backfill_status": "done",
+      "backfill_date": "2026-09-18",
+      "attempts": 1,
+      "rank": 8,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-09-18",
+          "result": "done",
+          "summary": "All 3 blocks filled; 11yr track record weak (2/11 cleared) but Q1FY27 inflection + cheap 14.7x P/E support partially-priced"
+        }
+      ]
     },
     {
-      "slug": "lumax-industries",
-      "state_key": "lumax-industries",
-      "name": "Lumax Industries",
-      "data_file": "data/lumax-industries.json",
+      "slug": "lloyds-metal-energy",
+      "state_key": "lloyds-metal-energy",
+      "name": "Lloyds Metal & Energy Ltd",
+      "data_file": "data/lloyds-metal-energy.json",
       "conviction_score": 25.0,
       "conviction": "Medium",
       "thesis_fit": "neither",
-      "market_cap_tier": "Small/Mid-cap (~Rs 5,700-5,750 Cr)",
+      "market_cap_tier": "Large-cap (~Rs 1,01,700 Cr)",
       "in_confluence100": true,
       "missing": [
         "market_expectation",
         "quality_metrics",
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 10
+      "backfill_status": "done",
+      "backfill_date": "2026-09-18",
+      "attempts": 1,
+      "rank": 9,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-09-18",
+          "result": "done",
+          "summary": "All 3 blocks filled; genuine 3/5yr track record but new finding: ~3.4x net debt/EBITDA + deeply negative FCF during the capex cycle"
+        }
+      ]
     },
     {
       "slug": "marksans-pharma",
@@ -216,30 +268,18 @@
         "quality_metrics",
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 11
-    },
-    {
-      "slug": "molbio",
-      "state_key": "molbio",
-      "name": "Molbio Diagnostics",
-      "data_file": "data/molbio.json",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "market_cap_tier": "Mid-cap (~Rs 12,900 Cr)",
-      "in_confluence100": true,
-      "missing": [
-        "market_expectation",
-        "quality_metrics",
-        "track_record"
-      ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 12
+      "backfill_status": "done",
+      "backfill_date": "2026-09-18",
+      "attempts": 1,
+      "rank": 10,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-09-18",
+          "result": "done",
+          "summary": "All 3 blocks filled; clean 3/3-year Coffee-Can record confirms accelerating-growth thesis"
+        }
+      ]
     },
     {
       "slug": "rossell-techsys",
@@ -256,10 +296,18 @@
         "quality_metrics",
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 13
+      "backfill_status": "done",
+      "backfill_date": "2026-09-18",
+      "attempts": 1,
+      "rank": 11,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-09-18",
+          "result": "done",
+          "summary": "quality_metrics+market_expectation filled; found severe leverage (6.5x net debt/EBITDA) + deeply negative FCF, gap_direction over-optimistic"
+        }
+      ]
     },
     {
       "slug": "sbcl",
@@ -276,10 +324,18 @@
         "quality_metrics",
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 14
+      "backfill_status": "done",
+      "backfill_date": "2026-09-18",
+      "attempts": 1,
+      "rank": 12,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-09-18",
+          "result": "done",
+          "summary": "quality_metrics+market_expectation filled; declining ROCE + flat growth + promoter stake fell 60.6%->33.4% (flag for HIGH CAUTION review)"
+        }
+      ]
     },
     {
       "slug": "skipper",
@@ -296,30 +352,46 @@
         "quality_metrics",
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 15
+      "backfill_status": "done",
+      "backfill_date": "2026-09-18",
+      "attempts": 1,
+      "rank": 13,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-09-18",
+          "result": "done",
+          "summary": "All 3 blocks filled; RECONCILED prior 'unverified ROCE' flag - real trend is 9%->24% genuine improvement, growth figure confirmed correct"
+        }
+      ]
     },
     {
-      "slug": "sunlite",
-      "state_key": "sunlite",
-      "name": "Sunlite",
-      "data_file": "data/sunlite.json",
+      "slug": "tata-motors-commercial-vehicles",
+      "state_key": "tata-motors-commercial-vehicles",
+      "name": "Tata Motors Commercial Vehicles (TMCV)",
+      "data_file": "data/tata-motors-commercial-vehicles.json",
       "conviction_score": 25.0,
       "conviction": "Medium",
       "thesis_fit": "neither",
-      "market_cap_tier": "Micro-cap (~Rs 741 Cr)",
+      "market_cap_tier": "Mega-cap (~Rs 160,036 Cr)",
       "in_confluence100": true,
       "missing": [
         "market_expectation",
         "quality_metrics",
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 16
+      "backfill_status": "done",
+      "backfill_date": "2026-09-18",
+      "attempts": 1,
+      "rank": 14,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-09-18",
+          "result": "done",
+          "summary": "quality_metrics+market_expectation filled (track_record N/A, <1yr standalone); confirms best-in-class ROCE/net-cash profile"
+        }
+      ]
     },
     {
       "slug": "til",
@@ -336,10 +408,18 @@
         "quality_metrics",
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 17
+      "backfill_status": "done",
+      "backfill_date": "2026-09-18",
+      "attempts": 1,
+      "rank": 15,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-09-18",
+          "result": "done",
+          "summary": "All 3 blocks filled; honest 0/11-year Coffee-Can record confirms this is an unproven, early-stage turnaround"
+        }
+      ]
     },
     {
       "slug": "univastu-india",
@@ -356,10 +436,18 @@
         "quality_metrics",
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 18
+      "backfill_status": "done",
+      "backfill_date": "2026-09-18",
+      "attempts": 1,
+      "rank": 16,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-09-18",
+          "result": "done",
+          "summary": "All 3 blocks filled; found a genuinely strong 7/9-year Coffee-Can record, materially upgrading confidence vs original 'moat weak, unconfirmed' framing"
+        }
+      ]
     },
     {
       "slug": "universal-cables",
@@ -376,10 +464,18 @@
         "quality_metrics",
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 19
+      "backfill_status": "done",
+      "backfill_date": "2026-09-18",
+      "attempts": 1,
+      "rank": 17,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-09-18",
+          "result": "done",
+          "summary": "quality_metrics+market_expectation filled; confirmed real leverage risk (4.3x net debt/EBITDA) against only modest 12% ROCE"
+        }
+      ]
     },
     {
       "slug": "vadilal-industries",
@@ -396,30 +492,18 @@
         "quality_metrics",
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 20
-    },
-    {
-      "slug": "vishnu-chemicals",
-      "state_key": "vishnu-chemicals",
-      "name": "Vishnu Chemicals",
-      "data_file": "data/vishnu-chemicals.json",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "market_cap_tier": "Mid-cap (~Rs 4,900 Cr)",
-      "in_confluence100": true,
-      "missing": [
-        "market_expectation",
-        "quality_metrics",
-        "track_record"
-      ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 21
+      "backfill_status": "done",
+      "backfill_date": "2026-09-18",
+      "attempts": 1,
+      "rank": 18,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-09-18",
+          "result": "done",
+          "summary": "All 3 blocks filled; moderate 5/11-yr track record, gently declining ROCE, valuation reconciled down from ~34x to ~23x P/E"
+        }
+      ]
     }
   ]
 }

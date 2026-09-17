@@ -70,5 +70,37 @@
     "note": "Named T&D capex-cycle and export tailwind support tailwind/tam; moat and valuation both weak given unverified headline ROCE/growth figures and rising debtor days. Score permits but does not require a 10x/100x label; kept 'neither' pending real forum corroboration (thread exists but was not deep-read this pass).",
     "analyst_override": true
   },
-  "value_chain": null
+  "value_chain": null,
+  "quality_metrics": {
+    "roce_pct": 24,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 1.68,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 0.9,
+    "margin_trend": "stable",
+    "capex_efficiency": "productive",
+    "assessment": "positive",
+    "note": "Reconciles the original write-up's flagged 'unverified, possibly inflated' ROCE (~47.8%) and growth (~65.7%) figures using screener.in's FY-labelled tables: the real ROCE trend is 9-12% (FY20-22) improving to a genuine 21-24% (FY23-25) - strong but not the ~48% cited; the ~65.7% growth figure is CONFIRMED, not an artifact (FY24 was actually +65.8%). OPM has been remarkably stable (~9-10%) across 8 fiscal years. FCF conversion is thin (~1% of EBITDA, FY26) as capex absorbs most operating cash flow. Separately: promoter holding fell 66.50% (Mar-26) -> 61.48% (Jul-26), a fresh ~5pp reduction the original write-up (which only checked encumbrance, not the raw holding %) did not have visibility into."
+  },
+  "track_record": {
+    "years_checked": 6,
+    "years_cleared": 3,
+    "note": "FY23 (+16.0% growth, ROCE 21%), FY24 (+65.8%, ROCE 24%) and FY25 (+40.9%, ROCE 24%) each cleared BOTH >=10% revenue growth AND >=15% ROCE; FY20-22 did not clear (ROCE only 9-12% in that window). A genuine, recent 3-year step-up in consistency."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 533,
+    "current_pe": 25.9,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~25.9x trailing P/E against a confirmed, genuine ROCE improvement (9%->24%) and real revenue growth is not demanding if the T&D capex cycle continues",
+    "our_fy27_estimate": "Revenue growth likely continues on the domestic T&D grid build-out and export demand, though rising debtor days (79->98) and thin FCF conversion are working-capital risks to watch",
+    "our_fy28_estimate": "Not estimable with confidence - no concall/guidance reviewed this pass",
+    "gap_direction": "partially-priced",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "The now-reconciled, genuine ROCE improvement (9%->24% over 5 years) is real and not obviously fully credited at ~26x P/E, but thin FCF conversion and rising debtor days are real, only partially-priced risks",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  }
 }

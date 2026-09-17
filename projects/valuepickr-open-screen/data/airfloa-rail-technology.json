@@ -324,5 +324,7 @@
     },
     "closest_to": "base",
     "note": "EPS/implied-price legs left null — per-share figures weren't sourced this pass (only aggregate PAT/mcap). Bull requires the FY27 margin-recovery commitment (12-13% PAT margin) to land AND the A&D ramp to continue past FY27; bear is the FY26 margin-compression trend continuing into FY27-28 despite the order-book-backed revenue growth. closest_to 'base' agrees with gap_direction 'partially-priced'."
-  }
+  },
+  "track_record_na": true,
+  "track_record_na_note": "2026-09-18 light-lane pass: FY22-24 have confirmed ROCE (29%, 32%, 26%) but only FY23 (-30.7%, a revenue decline) and FY24 (+25.3%) have a checkable growth figure against a prior-year baseline - just 2 checkable pairs, below the 3-year minimum. FY25/FY26 have strong ROE (23%/23%) but no ROCE was found. Revisit once a screener.in ROCE figure for FY25/26 is available (weight_coverage is already at 0.85 from market_expectation + quality_metrics, so this does not block the investable-now gate)."
 }

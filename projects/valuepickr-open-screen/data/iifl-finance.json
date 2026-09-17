@@ -61,5 +61,37 @@
     "score": 2.5,
     "note": "Genuine large-cap -> tam cannot deliver the required multiple (treat as 'no' for the thesis); label 'neither' on size math. tailwind weak (post-ban normalisation, not a new structural driver), moat weak (retail NBFC, governance history), valuation weak (~1.8x book, recovery priced). Large-cap inflection exception not applicable (PE stake = ownership churn)."
   },
-  "value_chain": null
+  "value_chain": null,
+  "quality_metrics": {
+    "roce_pct": 13,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": null,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "stable",
+    "capex_efficiency": "unclear",
+    "assessment": "neutral",
+    "note": "NBFC lending business - net_debt_to_ebitda/interest_coverage/fcf_conversion_pct are not meaningful metrics for this business model (leverage is structural to lending) and are left null rather than guessed. roce_pct/roce_trend use ROE as the closest analog: 18% (FY24) -> 5% (FY25, the RBI gold-loan-ban year) -> 13% (FY26) -> ~19.5% (Q1 FY27) - a genuine, ongoing recovery, not yet back to pre-ban levels. NIM stable/mildly compressing (7.0% Mar-25 -> 6.8% Jun-25)."
+  },
+  "track_record": {
+    "years_checked": 5,
+    "years_cleared": 3,
+    "note": "Uses total revenue/income (in place of 'revenue growth', not meaningful in the same sense for an NBFC) and ROE (in place of ROCE). FY22 (+17.1% revenue, ROE 20%), FY23 (+20.8%, ROE 19%) and FY24 (+24.0%, ROE 18%) each cleared BOTH >=10% growth and >=15% ROE; FY25 broke the streak on revenue (-2.3%, the RBI gold-loan-ban year) and FY26 on ROE (13%, still recovering) despite revenue growth resuming (+30.6%) - a clean, honest record of a real disruption and an ongoing, not-yet-complete recovery."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 597,
+    "current_pe": 12.1,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/B",
+    "implied_growth_cagr": "~1.8x book (price 597 / book value 327) for a lender working back toward a ~20% ROE is not demanding if the recovery completes, but is not obviously cheap either given the governance history",
+    "our_fy27_estimate": "AUM growth likely continues (+38% YoY as of Mar-26); ROE likely continues recovering toward the Q1 FY27 ~19.5% print if MFI-segment stress doesn't worsen",
+    "our_fy28_estimate": "Not estimable with confidence - no management guidance reviewed this pass",
+    "gap_direction": "partially-priced",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "The operational recovery (AUM +38%, ROE trending back toward ~20%) is real and substantially visible in the numbers already, but the stock trading near its 52-week high suggests the market has priced a good chunk of it in already; a full return to pre-ban ROE levels is not yet confirmed",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  }
 }

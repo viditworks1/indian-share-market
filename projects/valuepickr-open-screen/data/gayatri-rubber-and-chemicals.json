@@ -44,5 +44,33 @@
     "score": 2.5,
     "note": "Genuine EPR/tyre-recycling regulatory tailwind (yes); reclaimed-rubber TAM is real but niche relative to virgin rubber (weak); moat rests on scrap-sourcing/compliance barriers rather than differentiation (weak); valuation unconfirmed with CMP well off 52-week low (weak)."
   },
-  "value_chain": null
+  "value_chain": null,
+  "quality_metrics": {
+    "roce_pct": 37.86,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 0.79,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -39,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "concern",
+    "note": "roce_pct is FY24 (most recent confirmed by screener.in; FY25/26 not disclosed there). OPM has expanded every year on record (7.79%->11.18%->14.70%->21.08% FY23-26) and ROCE improved 29.8%->37.86% - genuinely strong. But free cash flow has been NEGATIVE in all 4 disclosed fiscal years (FY23-26: -6.61, -1.78, -2.12, -3.45 Cr) even as borrowings have risen from zero to Rs 6.93 Cr - a real, previously-unflagged earnings-quality caution behind the strong margin/ROCE headline."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 572,
+    "current_pe": 58.8,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~58.8x trailing P/E on a Rs 255-330 Cr micro-cap needs a long, clean growth runway to justify - demanding given the FCF quality caution below",
+    "our_fy27_estimate": "Revenue likely continuing the recent ~30%+ YoY pace if the EPR/tyre-recycling tailwind persists, margins likely holding near the FY26 21% OPM level",
+    "our_fy28_estimate": "Not estimable with confidence - no concall/guidance reviewed this pass",
+    "gap_direction": "priced-in",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "~58.8x P/E already prices in continued strong growth and margin expansion; the persistently negative free cash flow across all 4 disclosed years is a real quality caution the multiple does not appear to discount",
+    "evidence_magnitude_pct": null,
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  }
 }

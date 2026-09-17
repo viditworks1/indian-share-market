@@ -48,5 +48,37 @@
     "note": "Real organized-ice-cream-category tailwind and large underpenetrated TAM; heritage brand equity is a real but not dominant moat given Amul/Havmor/Creambell competition; valuation weak at ~34x P/E on thin (~13%) margins.",
     "analyst_override": true
   },
-  "value_chain": null
+  "value_chain": null,
+  "quality_metrics": {
+    "roce_pct": 22,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 0.90,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 15,
+    "margin_trend": "stable",
+    "capex_efficiency": "neutral",
+    "assessment": "positive",
+    "note": "ROCE is gently declining from a FY24 peak (27% -> 25% -> 22%, FY24-26) despite continued capex (Rs 104 Cr, FY26) - a mild but real efficiency caution. ROCE has otherwise been consistently healthy (18-27%) across the last decade. OPM has been stable in the mid-to-high teens (14-20%) since FY22."
+  },
+  "track_record": {
+    "years_checked": 11,
+    "years_cleared": 5,
+    "note": "FY16, FY22, FY23, FY25 and FY26 each cleared BOTH >=10% revenue growth AND >=15% ROCE; FY17-21 and FY24 did not (mostly on the growth leg, ROCE stayed healthy throughout). A moderate, real Coffee-Can record (5/11) consistent with a solid category compounder rather than a hypergrowth story."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 7101,
+    "current_pe": 23.3,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~23.3x trailing P/E (down from ~34x cited a month earlier, as EPS has caught up) against a moderate Coffee-Can record and gently declining ROCE looks reasonable, not clearly cheap or rich",
+    "our_fy27_estimate": "Revenue growth likely continues in the low-to-mid teens on the organised-ice-cream category tailwind; ROCE likely stabilises in the low-20s% absent a fresh catalyst",
+    "our_fy28_estimate": "Not estimable with confidence - no concall/guidance reviewed this pass",
+    "gap_direction": "partially-priced",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "The multiple has already compressed from ~34x to ~23x as earnings caught up; a moderate (5/11) Coffee-Can record and gently declining ROCE are reasonably reflected at this more moderate multiple",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  }
 }

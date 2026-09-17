@@ -45,5 +45,32 @@
     "score": 2.5,
     "note": "Domestic CV/infra-logistics upcycle is a real but cyclical tailwind (weak); tam scored 'weak' (not the large-cap default 'no') given the genuine named structural inflection of the Oct 2025 demerger/focus; moat is strong (#1 CV maker, dealer network, brand - yes); valuation weak given the post-listing run and 26-28% listing-day premium already paid. Score 2.5 - would not clear 3.0 even with the inflection credit, and mega-cap size makes the label moot in any case."
   },
-  "value_chain": null
+  "value_chain": null,
+  "quality_metrics": {
+    "roce_pct": 37,
+    "roce_trend": "unclear",
+    "net_debt_to_ebitda": -0.3,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "unclear",
+    "capex_efficiency": "unclear",
+    "assessment": "positive",
+    "note": "Standalone entity since demerger (effective 2025-10-01) is under 1 year old - too little independent history for a trend read on ROCE/margin, or to independently source FCF conversion this pass. roce_pct uses the midpoint of the broker-estimated 35-39% FY26E range already on file; net_debt_to_ebitda estimated as mildly net-cash consistent with the disclosed ~-0.5x net debt/equity."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 436,
+    "current_pe": null,
+    "current_ev_ebitda": null,
+    "valuation_tool": "other",
+    "implied_growth_cagr": "Not independently re-derived this pass - see the existing ~Rs 160,036 Cr market cap and ~35-39% ROCE already on file",
+    "our_fy27_estimate": "Domestic CV/infra-logistics demand likely continues on trend; the demerger's own capital-allocation/focus benefits are still unproven as a standalone entity",
+    "our_fy28_estimate": "Not estimable with confidence - under 1 year of standalone disclosure",
+    "gap_direction": "partially-priced",
+    "gap_type": "new_business",
+    "gap_magnitude_pct": null,
+    "gap_basis": "The demerger is a genuine, dated structural event and the balance sheet/return metrics are best-in-class, but the stock already listed at a 26-28% premium to implied valuation and has traded within that post-listing range - a decent amount of the quality is already recognised",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  }
 }

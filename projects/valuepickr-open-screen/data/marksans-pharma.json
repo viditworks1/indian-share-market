@@ -45,5 +45,37 @@
     "score": 2.5,
     "note": "Strong accelerating export growth (tailwind); large but mature/commoditized generics TAM; moat is regulatory-approval-based rather than structural; valuation weak after an ~89.7% 1-year run-up to near 52-week highs."
   },
-  "value_chain": null
+  "value_chain": null,
+  "quality_metrics": {
+    "roce_pct": 19,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": 0.58,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 56,
+    "margin_trend": "stable",
+    "capex_efficiency": "productive",
+    "assessment": "positive",
+    "note": "Confirms the strong, accelerating growth story with a clean 3/3-year Coffee-Can record. One nuance vs the original 'net debt-free' framing: gross borrowings have actually risen (Rs 244 Cr FY24 -> Rs 343 Cr FY26); a net-cash/debt-free position was not independently re-verified against a cash balance this pass."
+  },
+  "track_record": {
+    "years_checked": 3,
+    "years_cleared": 3,
+    "note": "FY24 (+17.5% growth, ROCE 21%), FY25 (+20.5%, ROCE 20%) and FY26 (+12.5%, ROCE 19%) each cleared BOTH >=10% revenue growth AND >=15% ROCE - a clean, genuine Coffee-Can pass across every checkable year."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 320,
+    "current_pe": 28.0,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~28x trailing P/E against a confirmed high-teens ROCE and accelerating growth (FY25 +37.6%) is not obviously rich, though the stock is already up ~90% over the past year",
+    "our_fy27_estimate": "Revenue growth likely continues in the mid-to-high teens on the UK/Europe ramp (+74.7% YoY recently) if that momentum holds; ROCE likely stays in the high-teens band",
+    "our_fy28_estimate": "Not estimable with confidence - no concall/guidance reviewed this pass",
+    "gap_direction": "partially-priced",
+    "gap_type": "volume",
+    "gap_magnitude_pct": null,
+    "gap_basis": "The confirmed 3/3-year Coffee-Can consistency and accelerating UK/Europe growth are real, but the ~90% 1-year re-rating means a good part of this is already reflected in the price",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  }
 }

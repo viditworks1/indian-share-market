@@ -1,8 +1,8 @@
 {
-  "date_compiled": "2026-09-17",
+  "date_compiled": "2026-09-18",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
-  "scored_count": 233,
-  "not_assessed_count": 653,
+  "scored_count": 249,
+  "not_assessed_count": 637,
   "ranked": [
     {
       "slug": "deepak-fertilizers-and-petrochemicals",
@@ -895,6 +895,39 @@
       "catalyst_event": null,
       "catalyst_window_months": null,
       "catalyst_window_start": "2026-09-09",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 28.0,
+        "gap_frac": 0.7,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.537
+      }
+    },
+    {
+      "slug": "univastu-india",
+      "name": "Univastu India",
+      "expectation_gap_score": 37.62,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 611 Cr)",
+      "gap_direction": "underestimated",
+      "gap_type": "volume",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
       "catalyst_status_effective": null,
       "catalyst_is_dated": false,
       "risk_open_spof_count": 0,
@@ -2341,6 +2374,171 @@
       }
     },
     {
+      "slug": "iifl-finance",
+      "name": "IIFL Finance",
+      "expectation_gap_score": 24.19,
+      "conviction_score": 27.7,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Large-cap (~Rs 25,700 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.537
+      }
+    },
+    {
+      "slug": "lloyds-metal-energy",
+      "name": "Lloyds Metal & Energy Ltd",
+      "expectation_gap_score": 24.19,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Large-cap (~Rs 1,01,700 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "capacity",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.537
+      }
+    },
+    {
+      "slug": "skipper",
+      "name": "Skipper",
+      "expectation_gap_score": 24.19,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 6,091 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.537
+      }
+    },
+    {
+      "slug": "marksans-pharma",
+      "name": "Marksans Pharma",
+      "expectation_gap_score": 24.19,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 14,973 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "volume",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.537
+      }
+    },
+    {
+      "slug": "tata-motors-commercial-vehicles",
+      "name": "Tata Motors Commercial Vehicles (TMCV)",
+      "expectation_gap_score": 24.19,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mega-cap (~Rs 160,036 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "new_business",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.537
+      }
+    },
+    {
       "slug": "ksh-international-ltd",
       "name": "KSH International Ltd",
       "expectation_gap_score": 23.78,
@@ -2481,7 +2679,7 @@
       "slug": "lumax-industries",
       "name": "Lumax Industries",
       "expectation_gap_score": 22.9,
-      "conviction_score": 31.0,
+      "conviction_score": 30.25,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -2688,10 +2886,43 @@
       }
     },
     {
+      "slug": "golkunda-diamonds",
+      "name": "Golkunda Diamond",
+      "expectation_gap_score": 20.25,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 140-238 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "capacity",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "monitor",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.5,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.45
+      }
+    },
+    {
       "slug": "arrow-greentech",
       "name": "Arrow Greentech",
       "expectation_gap_score": 20.22,
-      "conviction_score": 27.0,
+      "conviction_score": 29.75,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -2870,7 +3101,7 @@
       "slug": "siddhika-coating",
       "name": "Siddhika Coating Limited- A Paint Company",
       "expectation_gap_score": 17.76,
-      "conviction_score": 21.19,
+      "conviction_score": 30.44,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -3490,6 +3721,72 @@
       "catalyst_event": null,
       "catalyst_window_months": null,
       "catalyst_window_start": "2026-09-10",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
+      "slug": "vadilal-industries",
+      "name": "Vadilal Industries",
+      "expectation_gap_score": 16.31,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 5,421 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
+      "slug": "universal-cables",
+      "name": "Universal Cables",
+      "expectation_gap_score": 16.31,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 5,207 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
       "catalyst_status_effective": null,
       "catalyst_is_dated": false,
       "risk_open_spof_count": 0,
@@ -5073,6 +5370,40 @@
       }
     },
     {
+      "slug": "astra-microwave-products",
+      "name": "Astra Microwave",
+      "expectation_gap_score": 5.38,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-to-large-cap (~Rs 15,956 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "volume",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.537
+      }
+    },
+    {
       "slug": "deepa-jewellers",
       "name": "Deepa Jewellers",
       "expectation_gap_score": 5.24,
@@ -5612,6 +5943,108 @@
       "catalyst_event": null,
       "catalyst_window_months": null,
       "catalyst_window_start": "2026-09-09",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
+      "slug": "millworks-technologies",
+      "name": "Millworks Technologies Ltd",
+      "expectation_gap_score": 3.63,
+      "conviction_score": 30.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "SME / micro-cap (~Rs 2,020 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "volume",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
+      "slug": "gayatri-rubber-and-chemicals",
+      "name": "Gayatri Rubber and Chemicals",
+      "expectation_gap_score": 3.63,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Micro-cap (~Rs 255 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
+      "slug": "ebgng",
+      "name": "EBGNG",
+      "expectation_gap_score": 3.63,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/mid-cap (~Rs 7,749 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "volume",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
       "catalyst_status_effective": null,
       "catalyst_is_dated": false,
       "risk_open_spof_count": 0,
@@ -6851,40 +7284,6 @@
       }
     },
     {
-      "slug": "syrma-sgs-an-export-substitution-opportunity-in-ems-sector",
-      "name": "Syrma SGS an Export Substitution opportunity in EMS sector",
-      "expectation_gap_score": 0,
-      "conviction_score": 25.98,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "Large-cap (~Rs 28,400 Cr)",
-      "gap_direction": "over-optimistic",
-      "gap_type": "margin",
-      "gap_magnitude_pct": -35,
-      "evidence_quality": "moderate",
-      "catalyst_event": null,
-      "catalyst_window_months": null,
-      "catalyst_window_start": "2026-09-10",
-      "catalyst_status_effective": null,
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 0,
-      "risk_open_spofs": [],
-      "flags": [
-        "no-edge",
-        "no-catalyst"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.75,
-        "catalyst_q": 0.15,
-        "timing_q": 0.4,
-        "risk_q": 1.0,
-        "quality": 0.537
-      }
-    },
-    {
       "slug": "sudeep-pharma",
       "name": "Sudeep Pharma Ltd",
       "expectation_gap_score": 0,
@@ -6989,6 +7388,40 @@
       }
     },
     {
+      "slug": "til",
+      "name": "TIL",
+      "expectation_gap_score": 0,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 1,897-1,901 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "no-edge",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
       "slug": "ratnaveer-precision-a-newly-headed-steel-company",
       "name": "Ratnaveer precision a newly headed steel company",
       "expectation_gap_score": 0,
@@ -7022,6 +7455,108 @@
         "timing_q": 0.75,
         "risk_q": 0.4,
         "quality": 0.492
+      }
+    },
+    {
+      "slug": "rossell-techsys",
+      "name": "Rossell Techsys",
+      "expectation_gap_score": 0,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 4,600 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "no-edge",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
+      "slug": "sbcl",
+      "name": "SBCL",
+      "expectation_gap_score": 0,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/mid-cap (~Rs 6,400 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "no-edge",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
+      "slug": "syrma-sgs-an-export-substitution-opportunity-in-ems-sector",
+      "name": "Syrma SGS an Export Substitution opportunity in EMS sector",
+      "expectation_gap_score": 0,
+      "conviction_score": 24.83,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Large-cap (~Rs 28,400 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": -35,
+      "evidence_quality": "moderate",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-10",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "no-edge",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.537
       }
     },
     {
@@ -8227,13 +8762,6 @@
       "thesis_fit": "10x-in-2-3-years"
     },
     {
-      "slug": "millworks-technologies",
-      "name": "Millworks Technologies Ltd",
-      "conviction_score": 30.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
       "slug": "surya-roshni-ltd",
       "name": "Surya roshni ltd",
       "conviction_score": 29.12,
@@ -8278,13 +8806,6 @@
     {
       "slug": "rpg-life-sciences",
       "name": "RPG Life Sciences Ltd",
-      "conviction_score": 27.7,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "iifl-finance",
-      "name": "IIFL Finance",
       "conviction_score": 27.7,
       "conviction": "Medium",
       "thesis_fit": "neither"
@@ -8383,13 +8904,6 @@
     {
       "slug": "shanthi-gears-shanti-gears",
       "name": "Shanthi Gears/Shanti Gears",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "til",
-      "name": "TIL",
       "conviction_score": 25.0,
       "conviction": "Medium",
       "thesis_fit": "neither"
@@ -8626,13 +9140,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "lloyds-metal-energy",
-      "name": "Lloyds Metal & Energy Ltd",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "escorts-kubota",
       "name": "Escorts Kubota Ltd",
       "conviction_score": 25.0,
@@ -8661,27 +9168,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "univastu-india",
-      "name": "Univastu India",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "gayatri-rubber-and-chemicals",
-      "name": "Gayatri Rubber and Chemicals",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "rossell-techsys",
-      "name": "Rossell Techsys",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "kody-technolabs",
       "name": "Kody Technolabs",
       "conviction_score": 25.0,
@@ -8691,20 +9177,6 @@
     {
       "slug": "cyient-dlm",
       "name": "Cyient DLM",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "sbcl",
-      "name": "SBCL",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "ebgng",
-      "name": "EBGNG",
       "conviction_score": 25.0,
       "conviction": "Medium",
       "thesis_fit": "neither"
@@ -8726,13 +9198,6 @@
     {
       "slug": "omnitech",
       "name": "Omnitech",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "vadilal-industries",
-      "name": "Vadilal Industries",
       "conviction_score": 25.0,
       "conviction": "Medium",
       "thesis_fit": "neither"
@@ -8761,27 +9226,6 @@
     {
       "slug": "nlc-india",
       "name": "NLC India",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "universal-cables",
-      "name": "Universal Cables",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "astra-microwave-products",
-      "name": "Astra Microwave",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "golkunda-diamonds",
-      "name": "Golkunda Diamond",
       "conviction_score": 25.0,
       "conviction": "Medium",
       "thesis_fit": "neither"
@@ -8836,22 +9280,8 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "skipper",
-      "name": "Skipper",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "hdfc-amc",
       "name": "HDFC AMC",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "marksans-pharma",
-      "name": "Marksans Pharma",
       "conviction_score": 25.0,
       "conviction": "Medium",
       "thesis_fit": "neither"
@@ -8880,13 +9310,6 @@
     {
       "slug": "mgl",
       "name": "Mahanagar Gas (MGL)",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "tata-motors-commercial-vehicles",
-      "name": "Tata Motors Commercial Vehicles (TMCV)",
       "conviction_score": 25.0,
       "conviction": "Medium",
       "thesis_fit": "neither"
@@ -13425,7 +13848,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 22.9,
-      "conviction_score": 31.0
+      "conviction_score": 30.25
     },
     {
       "slug": "arrow-greentech",
@@ -13436,7 +13859,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 20.22,
-      "conviction_score": 27.0
+      "conviction_score": 29.75
     },
     {
       "slug": "unimech-aerospace-and-manufacturing-ltd",

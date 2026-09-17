@@ -59,5 +59,37 @@
     "supply_side_status": "adding",
     "adjacent_peers": ["Godawari Power & Ispat", "Sarda Energy & Minerals", "NMDC", "JSW Steel"],
     "note": "Structural cost edge is real (zero-premium lease, pipeline freight), but the ~Rs 16,000 Cr build is a large late-cycle capacity add into a cyclical end-product; power sourcing for the steel plants is unresolved."
+  },
+  "quality_metrics": {
+    "roce_pct": 27,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 3.36,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -106,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "neutral",
+    "note": "ROCE has normalised down from an extreme 78-81% peak (FY22-23, small-base/one-off-item effects) to a still-strong 27% (FY25; FY26 not yet disclosed by the aggregator). Two new, material findings the original write-up's capex-plan framing did not quantify: net debt/EBITDA has risen to ~3.4x and FY26 free cash flow was deeply negative (~-106% of EBITDA) as the Rs 16,000 Cr forward-integration capex program ramps - real leverage/cash-flow costs of the transition, not yet a sign the returns on that capital have arrived."
+  },
+  "track_record": {
+    "years_checked": 5,
+    "years_cleared": 3,
+    "note": "FY22 (+175.7% growth, ROCE 81%), FY23 (+384.5%, ROCE 78%) and FY24 (+94.5%, ROCE 37%) each cleared BOTH >=10% revenue growth AND >=15% ROCE (explosive, base-effect-driven growth off a small merchant-miner base); FY21 and FY25 did not clear on growth. FY26 ROCE not yet available to check."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 1799,
+    "current_pe": 21.2,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~21x trailing P/E is not extreme for a company with a genuine structural cost moat, but the ~3.4x net debt/EBITDA and negative FCF during the capex cycle are real near-term costs of the transition",
+    "our_fy27_estimate": "EBITDA likely continues growing toward the brokerage-cited Rs 10-11k Cr FY28 run-rate if the pellet/DRI/wire-rod capacity comes online on schedule, tempered by rising interest cost on the larger debt load",
+    "our_fy28_estimate": "3 MTPA HRC flat-steel plant (FY29) is the next major leg; contingent on the FY27 capex program executing without further delay",
+    "gap_direction": "partially-priced",
+    "gap_type": "capacity",
+    "gap_magnitude_pct": null,
+    "gap_basis": "The structural cost-edge thesis (zero-premium ore, pipeline freight) is well understood by the market at ~21x P/E and ~8.6x P/B, but the near-term leverage/FCF cost of the Rs 16,000 Cr capex cycle is a fresh, only partially-priced risk",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

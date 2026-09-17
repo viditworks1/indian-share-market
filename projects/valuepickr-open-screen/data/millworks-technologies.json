@@ -56,5 +56,32 @@
     "supply_side_status": "adding",
     "adjacent_peers": ["MTAR Technologies", "Azad Engineering", "Dynamic Cables (unrelated)", "Sansera Engineering"],
     "note": "Real bottleneck exposure on paper, but Millworks is a very small, very new entrant; whether it holds approved-vendor share and pricing as it scales is the open question."
+  },
+  "quality_metrics": {
+    "roce_pct": 81,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 0.33,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -247,
+    "margin_trend": "expanding",
+    "capex_efficiency": "unclear",
+    "assessment": "concern",
+    "note": "Confirms the original write-up's 340-debtor-day caution with hard numbers: free cash flow has been sharply negative both disclosed years (FY24 -Rs 12 Cr, FY25 -Rs 19 Cr, i.e. -444%/-247% of EBITDA) despite genuinely exceptional headline profitability (81% ROCE, 35% OPM) - the P&L quality is real but cash conversion is not, exactly the working-capital-stretch risk already flagged. Ratios are on a very small base (FY25 EBITDA ~Rs 7.7 Cr) and should be read directionally, not as precise multiples."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 1201,
+    "current_pe": 57,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~57x trailing P/E on a 4-year-old SME needs a long, clean growth runway; the 340-debtor-day cash-conversion issue is a real risk to that runway if it doesn't resolve",
+    "our_fy27_estimate": "Revenue likely continues scaling on the defence/aerospace/railway/semiconductor tailwinds if order flow holds; cash conversion is the key variable to watch, not revenue growth itself",
+    "our_fy28_estimate": "Not estimable with confidence - no concall/guidance reviewed this pass, <2 years of public financials",
+    "gap_direction": "priced-in",
+    "gap_type": "volume",
+    "gap_magnitude_pct": null,
+    "gap_basis": "~57x P/E already prices in continued fast growth; the market does not appear to be discounting the working-capital/cash-conversion risk the 340 debtor-days and negative FCF represent",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

@@ -47,5 +47,37 @@
     "score": 2.5,
     "note": "Infra/construction capex tailwind and cheap valuation (~12x P/E) for ~27% growth, but EPC-type moat is weak/absent and worsening debtor days (58->121) argue against an exception at this score band."
   },
-  "value_chain": null
+  "value_chain": null,
+  "quality_metrics": {
+    "roce_pct": 30,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 0.87,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 5,
+    "margin_trend": "stable",
+    "capex_efficiency": "unclear",
+    "assessment": "positive",
+    "note": "Materially upgrades the original 'no ROCE figure confirmed' framing: ROCE has been consistently strong and improving (17-30% across FY21-25). FCF conversion is volatile and confirms the debtor-days concern already flagged - operating cash flow was actually negative in FY25 (-Rs 6 Cr) before recovering to +Rs 12 Cr in FY26; trailing conversion is weak (~5% of EBITDA average) despite the strong ROCE."
+  },
+  "track_record": {
+    "years_checked": 9,
+    "years_cleared": 7,
+    "note": "FY17, FY18, FY19, FY22, FY23, FY24 and FY25 each cleared BOTH >=10% revenue growth AND >=15% ROCE (only FY20 and FY21 - a COVID-disrupted year - did not). A genuinely strong Coffee-Can record that significantly upgrades confidence versus the original write-up's 'moat weak, no ROCE confirmed' framing."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 145,
+    "current_pe": 17.2,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~17.2x trailing P/E against a confirmed 7/9-year Coffee-Can record and ~27%/yr average growth looks inexpensive if the working-capital volatility doesn't worsen",
+    "our_fy27_estimate": "Revenue growth likely continues in the 25-40% range per the recent trend if the infra/construction order pipeline holds; the debtor-days trend is the key risk to watch, not growth or returns",
+    "our_fy28_estimate": "Not estimable with confidence - no concall/guidance reviewed this pass",
+    "gap_direction": "underestimated",
+    "gap_type": "volume",
+    "gap_magnitude_pct": null,
+    "gap_basis": "A genuinely strong, now-confirmed 7/9-year Coffee-Can consistency record (17-30% ROCE) at just ~17x P/E looks underestimated by the market relative to the fundamentals, tempered by the real working-capital caution (debtor days 58->121)",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  }
 }

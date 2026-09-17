@@ -61,5 +61,37 @@
     "valuation": "weak",
     "score": 2.5,
     "note": "Gainwell-Caterpillar-dealership aftermarket synergy + defense-indigenization re-entry are real emerging structural drivers; Kharagpur facility at only 30-35% utilization could triple revenue on minimal capex — tam yes; competitor ACE remains dominant in the core market — explicit no-moat signal; still consolidated-PAT-negative with 3.4x D/E — valuation weak, no market_expectation data. Management bandwidth split and an already-slipped product-commercialization timeline (CarryKing) are separate execution risks."
+  },
+  "quality_metrics": {
+    "roce_pct": 3,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 66,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -1620,
+    "margin_trend": "expanding",
+    "capex_efficiency": "unclear",
+    "assessment": "concern",
+    "note": "A genuinely distressed-but-recovering profile: ROCE has climbed from deeply negative (-49%, FY24) to a still-weak +3% (FY26) as the turnaround takes hold. net_debt_to_ebitda (~66x) and fcf_conversion_pct (-1620%) are technically computed but not meaningful ratios at this tiny EBITDA base (FY26 EBITDA only ~Rs 5.8 Cr against Rs 382 Cr borrowings) - read directionally (still highly leveraged relative to earnings power) rather than as precise multiples."
+  },
+  "track_record": {
+    "years_checked": 11,
+    "years_cleared": 0,
+    "note": "FY16-FY26 checked: ZERO years cleared BOTH >=10% revenue growth AND >=15% ROCE - a genuinely weak decade (severe revenue decline FY20-23, negative ROCE FY21-24). This is an honest reflection of the distressed history the turnaround is working to escape, not yet a demonstrated Coffee-Can consistency story."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 250,
+    "current_pe": null,
+    "current_ev_ebitda": null,
+    "valuation_tool": "other",
+    "implied_growth_cagr": "Not P/E-assessable (consolidated PAT still negative); at ~Rs 1,900 Cr market cap vs Rs 323 Cr FY26 revenue (~5.9x sales), the market is pricing meaningful optionality on the Gainwell-synergy/defense turnaround succeeding",
+    "our_fy27_estimate": "Standalone revenue could triple toward Rs 700-750 Cr per management's own capacity math if Kharagpur utilisation ramps, but consolidated profitability recovery is unconfirmed and management has flagged 6-8 quarters for margin harmonisation",
+    "our_fy28_estimate": "Contingent entirely on CarryKing commercialisation (already slipped once, now targeted Q1 FY28) and the A&D/Gainwell aftermarket mix actually scaling",
+    "gap_direction": "over-optimistic",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "~5.9x sales for a company still consolidated-PAT-negative, with zero years of Coffee-Can consistency in the last decade and a management-acknowledged multi-year (not multi-quarter) path to margin harmonisation, is pricing a successful turnaround that has not yet been demonstrated",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

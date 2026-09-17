@@ -46,5 +46,32 @@
     "note": "T&D capex tailwind and TAM are genuine, but single-digit ROE/modest ROCE and a commoditised product category (despite EHV specialty mix) mean the growth math does not support a 10x/100x label even though the score permits one.",
     "analyst_override": true
   },
-  "value_chain": null
+  "value_chain": null,
+  "quality_metrics": {
+    "roce_pct": 11.7,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 4.33,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 23,
+    "margin_trend": "stable",
+    "capex_efficiency": "unclear",
+    "assessment": "concern",
+    "note": "Confirms and sharpens the original write-up's data gaps: net debt/EBITDA is ~4.3x (borrowings have risen Rs 771 Cr -> Rs 849 Cr -> Rs 1,177 Cr, FY24-26) while ROCE has stayed only modest (9%->12%->~12%) - a material leverage caution the original 'no debt figure confirmed' framing was masking. A large capex step-up (reportedly to ~Rs 617 Cr) is apparently underway, which should be watched for whether it actually lifts ROCE."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 1439,
+    "current_pe": 24.8,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~24.8x trailing P/E is not demanding on revenue growth alone, but a ~4.3x net debt/EBITDA against only ~12% ROCE is a real balance-sheet risk the multiple may not be discounting",
+    "our_fy27_estimate": "Revenue growth likely continues on the T&D/grid-modernisation capex cycle; whether the large new capex programme lifts ROCE meaningfully above ~12% is the key unresolved variable",
+    "our_fy28_estimate": "Not estimable with confidence - no concall/guidance reviewed this pass",
+    "gap_direction": "partially-priced",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "Strong revenue growth is well recognised at ~25x P/E, but the confirmed high leverage (~4.3x net debt/EBITDA) against only modest ROCE is a real risk that does not appear to be clearly priced either way",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  }
 }

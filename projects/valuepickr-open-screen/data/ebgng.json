@@ -46,5 +46,32 @@
     "score": 2.5,
     "note": "Real circular-economy/refurbished-electronics tailwind and large TAM with demonstrated scale leadership (moat weak - real but not unassailable), but ~54.4x trailing P/E and ~2x debt/equity leverage keep valuation at 'no'."
   },
-  "value_chain": null
+  "value_chain": null,
+  "quality_metrics": {
+    "roce_pct": 20,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": 2.29,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -126,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "concern",
+    "note": "New, material finding beyond the original write-up: FY26 free cash flow collapsed to -Rs 238 Cr (vs +Rs 15 Cr FY25, +Rs 73 Cr FY24) even as revenue and OPM both grew - a sharp working-capital/inventory build that the original 'D/E ~2x, monitor' framing did not have visibility into. ROCE has held steady at ~20% (FY24-25); OPM has expanded 6%->7%->8%->10% (FY23-26)."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 662,
+    "current_pe": 52.9,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~52.9x trailing P/E needs sustained ~25%+ revenue growth with stable-to-improving returns to look fair; the FY26 FCF collapse is a fresh risk to that picture the multiple does not appear to discount",
+    "our_fy27_estimate": "Revenue growth likely continues on the refurbished-electronics/ITAD tailwind; the key variable to watch is whether FY26's negative FCF was a one-off inventory build or a structural change",
+    "our_fy28_estimate": "Not estimable with confidence - no concall/guidance reviewed this pass",
+    "gap_direction": "priced-in",
+    "gap_type": "volume",
+    "gap_magnitude_pct": null,
+    "gap_basis": "~54x P/E already prices in continued strong growth; the newly-confirmed FY26 FCF collapse and ~2.3x net debt/EBITDA are not obviously reflected in the multiple",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  }
 }
