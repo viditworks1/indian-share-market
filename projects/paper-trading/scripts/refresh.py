@@ -18,10 +18,13 @@ No third-party deps (urllib + json + math + datetime only).
 import json, math, sys, time, urllib.request, datetime, os, re, subprocess, glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+REPO_ROOT = os.path.dirname(ROOT)  # one level above projects/ -- where portfolio/ lives
 PT   = os.path.join(ROOT, "paper-trading")
 SWING_DIR = os.path.join(PT, "swing-6m")
+LIVE_DIR = os.path.join(PT, "live-recommendation")
+RECOMMENDATION_DOC = os.path.join(REPO_ROOT, "portfolio", "FINAL_PORTFOLIO_RECOMMENDATION.md")
 
-def p(*a):  # repo-relative path
+def p(*a):  # projects/-relative path
     return os.path.join(ROOT, *a)
 
 def load(path):
@@ -398,11 +401,15 @@ def mark_cohorts(cohorts, prev_snap_by_key):
 # 6-month swing book (separate, actively-managed) -- run its tracker, fold in  #
 # --------------------------------------------------------------------------- #
 def run_swing_tracker():
-    """Invoke paper-trading/swing-6m/track.py (its own MTM engine) so the dashboard folds in
-    fresh data, then load its latest snapshot into a dashboard-ready dict. Returns None if the
-    swing book isn't set up. This is a SEPARATE book from cohorts.json -- never merged in."""
+    """Invoke paper-trading/swing-6m/track.py (its own multi-cohort MTM engine) so the
+    dashboard folds in fresh data, then load each cohort's latest snapshot into a list of
+    dashboard-ready dicts. Returns [] if the swing book isn't set up. Since 2026-09-11 this
+    is a WEEKLY, append-only cohort series (swing-6m/cohorts.json) -- never merged into
+    paper-trading/cohorts.json (fundamentals-driven) or live-recommendation/ (continuously
+    rebalanced)."""
     track = os.path.join(SWING_DIR, "track.py")
     hist_p = os.path.join(SWING_DIR, "history.json")
+    cohorts_p = os.path.join(SWING_DIR, "cohorts.json")
     if os.path.exists(track):
         try:
             r = subprocess.run([sys.executable, track], capture_output=True, text=True, timeout=180)
@@ -413,6 +420,110 @@ def run_swing_tracker():
         except Exception as e:  # noqa
             print(f"  !! could not run swing track.py: {e}", file=sys.stderr)
     if not os.path.exists(hist_p):
+        return []
+    try:
+        snaps = load(hist_p).get("snapshots", [])
+    except Exception:
+        return []
+    if not snaps:
+        return []
+    rules_by_week = {}
+    if os.path.exists(cohorts_p):
+        try:
+            for c in load(cohorts_p).get("cohorts", []):
+                r = c.get("rules") or {}
+                rules_by_week[c["week_id"]] = {"hard_stop_pct": r.get("hard_stop_pct"),
+                                                "review_dates": r.get("review_cadence_monthly", [])}
+        except Exception:
+            pass
+    by_week = {}
+    for s in snaps:
+        by_week.setdefault(s["week_id"], []).append(s)
+    out = []
+    for wk, arr in by_week.items():
+        arr.sort(key=lambda x: x["date"])
+        last = arr[-1]
+        vh = [{"date": x["date"], "indexed": round(x["port_value"] / CAP * 100, 3),
+               "value": x["port_value"], "return_pct": x["port_return_pct"],
+               "benchmark_return_pct": (x.get("benchmark") or {}).get("return_pct")} for x in arr]
+        start_date = last.get("entry_price_date")
+        if start_date and (not vh or vh[0]["date"] != start_date):
+            vh.insert(0, {"date": start_date, "indexed": 100.0, "value": CAP, "return_pct": 0.0, "benchmark_return_pct": 0.0})
+        out.append({
+            "week_id": wk, "decided_date": last.get("decided_date"),
+            "start_date": start_date, "horizon_end_date": last.get("horizon_end_date"),
+            "days_to_horizon": last.get("days_to_horizon"),
+            "as_of": last["date"], "port_value": last["port_value"], "port_return_pct": last["port_return_pct"],
+            "day_change_pct": last.get("day_change_pct"), "invested_value": last.get("invested_value"),
+            "cash": last.get("cash"), "benchmark": last.get("benchmark"), "alpha_pct": last.get("alpha_pct"),
+            "flags": last.get("flags", []), "holdings": last.get("holdings", []), "value_history": vh,
+            "market_regime": last.get("market_regime"),
+            "rules": rules_by_week.get(wk, {}),
+        })
+    out.sort(key=lambda c: c["decided_date"])
+    return out
+
+
+# --------------------------------------------------------------------------- #
+# Live recommendation tracker (separate, continuously-rebalanced book) --      #
+# parses portfolio/FINAL_PORTFOLIO_RECOMMENDATION.md Section 3 directly, runs  #
+# its own tracker, fold in                                                    #
+# --------------------------------------------------------------------------- #
+def parse_recommendation_weights(doc_path=None):
+    """Extract {name: weight_pct} from Section 3's allocation table (primary
+    weight column, ignoring the parenthetical '-> x% held' note), skipping
+    0%/strikethrough/cash/total rows -- same convention the SKILL already uses
+    for manual standard-cohort creation. Also returns a short revision label
+    parsed from the doc header, for logging."""
+    doc_path = doc_path or RECOMMENDATION_DOC
+    text = open(doc_path).read()
+    rev_m = re.search(r"\*\*Revision:\*\*\s*([^\(\n]+)", text)
+    comp_m = re.search(r"\*\*Compiled:\*\*\s*([^\n]+)", text)
+    revision = f"{(rev_m.group(1).strip() if rev_m else '?')} (Compiled {(comp_m.group(1).strip() if comp_m else '?')})"
+    m = re.search(r"## 3\. Final Rs.*?\n(.*?)\n---", text, re.S)
+    section = m.group(1) if m else text
+    weights = {}
+    for line in section.splitlines():
+        line = line.strip()
+        if not line.startswith("|"):
+            continue
+        cells = [c.strip() for c in line.strip("|").split("|")]
+        if len(cells) < 2:
+            continue
+        name_raw, wt_raw = cells[0], cells[1]
+        if set(name_raw) <= set("-: "):
+            continue
+        if name_raw.strip().startswith("~~"):  # exited (strikethrough)
+            continue
+        name = re.sub(r"[*~]", "", name_raw).strip()
+        if not name or name.lower() in ("stock", "cash buffer", "total"):
+            continue
+        wm = re.search(r"([\d.]+)\s*%", wt_raw)
+        if not wm:
+            continue
+        wt = float(wm.group(1))
+        if wt <= 0:
+            continue
+        weights[name] = wt
+    return weights, revision
+
+
+def run_live_recommendation_tracker():
+    """Invoke paper-trading/live-recommendation/track.py (its own MTM + auto-rebalance
+    engine) so the dashboard folds in fresh data, then load its latest snapshot into a
+    dashboard-ready dict. Returns None if that book isn't set up yet."""
+    track = os.path.join(LIVE_DIR, "track.py")
+    hist_p = os.path.join(LIVE_DIR, "history.json")
+    if os.path.exists(track):
+        try:
+            r = subprocess.run([sys.executable, track], capture_output=True, text=True, timeout=180)
+            if r.stdout:
+                print(r.stdout, end="" if r.stdout.endswith("\n") else "\n")
+            if r.returncode != 0:
+                print(f"  !! live-recommendation track.py exited {r.returncode}: {r.stderr.strip()[:300]}", file=sys.stderr)
+        except Exception as e:  # noqa
+            print(f"  !! could not run live-recommendation track.py: {e}", file=sys.stderr)
+    if not os.path.exists(hist_p):
         return None
     try:
         snaps = load(hist_p).get("snapshots", [])
@@ -421,25 +532,20 @@ def run_swing_tracker():
     if not snaps:
         return None
     last = snaps[-1]
-    pfs = sorted(glob.glob(os.path.join(SWING_DIR, "portfolio-v*.json")))
-    meta = load(pfs[-1]) if pfs else {}
-    horizon = meta.get("horizon_end_date")
-    start_date = meta.get("entry_price_date") or meta.get("decided_date")
-    dte = (datetime.date.fromisoformat(horizon) - TODAY).days if horizon else None
-    vh = [{"date": s["date"], "indexed": round(s["port_value"] / CAP * 100, 3),
-           "value": s["port_value"], "return_pct": s["port_return_pct"],
-           "benchmark_return_pct": (s.get("benchmark") or {}).get("return_pct")} for s in snaps]
-    if start_date and (not vh or vh[0]["date"] != start_date):
-        vh.insert(0, {"date": start_date, "indexed": 100.0, "value": CAP, "return_pct": 0.0, "benchmark_return_pct": 0.0})
+    pf_p = os.path.join(LIVE_DIR, "portfolio.json")
+    meta = load(pf_p) if os.path.exists(pf_p) else {}
+    vh = [{"date": s["date"], "indexed": round(s["nav"] / CAP * 100, 3),
+           "value": s["nav"], "return_pct": s["return_pct"]} for s in snaps]
+    inception = meta.get("inception_date")
+    if inception and (not vh or vh[0]["date"] != inception):
+        vh.insert(0, {"date": inception, "indexed": 100.0, "value": CAP, "return_pct": 0.0})
     return {
-        "active_version": last.get("portfolio_version"),
-        "start_date": start_date, "horizon_end_date": horizon, "days_to_horizon": dte,
-        "as_of": last["date"], "port_value": last["port_value"], "port_return_pct": last["port_return_pct"],
+        "inception_date": inception, "version": meta.get("version"),
+        "source_revision": meta.get("source_revision"),
+        "as_of": last["date"], "nav": last["nav"], "return_pct": last["return_pct"],
         "day_change_pct": last.get("day_change_pct"), "invested_value": last.get("invested_value"),
-        "cash": last.get("cash"), "benchmark": last.get("benchmark"), "alpha_pct": last.get("alpha_pct"),
-        "flags": last.get("flags", []), "holdings": last.get("holdings", []), "value_history": vh,
-        "rules": {"hard_stop_pct": (meta.get("rules") or {}).get("hard_stop_pct"),
-                  "review_dates": (meta.get("rules") or {}).get("review_cadence_monthly", [])},
+        "cash": last.get("cash"), "holdings": last.get("holdings", []),
+        "rebalance_log": meta.get("rebalance_log", []), "value_history": vh,
     }
 
 
@@ -497,7 +603,8 @@ def main():
         json.dump(hist, f, indent=2)
         f.write("\n")
 
-    swing = run_swing_tracker()
+    swing_cohorts = run_swing_tracker()
+    live_recommendation = run_live_recommendation_tracker()
 
     universe, concentrated_next = score_universe()
 
@@ -548,7 +655,8 @@ def main():
         "universe": universe,
         "concentrated_next": concentrated_next,
         "history_points": len(set(s["date"] for s in hist["snapshots"])),
-        "swing": swing,
+        "swing_cohorts": swing_cohorts,
+        "live_recommendation": live_recommendation,
     }
     with open(os.path.join(PT, "dashboard_data.json"), "w") as f:
         json.dump(data, f, indent=2)
@@ -576,7 +684,10 @@ def write_tracker(data, cohorts_doc):
       "priced at the **prior Friday's close**, and then left untouched forever. Every cohort is marked to "
       "market **every weekday** by `paper-trading/scripts/refresh.py`; this file and "
       "`paper-trading/dashboard.html` are regenerated on each run. Raw entry data: `cohorts.json` "
-      "(append-only). Daily snapshots: `daily_history.json` (append-only).\n")
+      "(append-only). Daily snapshots: `daily_history.json` (append-only). Two sibling books are "
+      "tracked separately and folded into the same dashboard: the continuously-rebalanced "
+      "`live-recommendation/` tracker (own `TRACKER.md`) and the weekly frozen `swing-6m/cohorts.json` "
+      "series (own `TRACKER.md`) — see those files, not this one, for their detail.\n")
     a("**Two parallel series per week, same Rs 1,00,000, different sizing:**")
     a("- **standard** — mirrors the recommendation's current allocation as-is (~10 diversified positions).")
     a("- **concentrated** — top-5 of the candidate universe by a **2-factor composite** "
@@ -694,6 +805,11 @@ def print_summary(data):
               f" / conv {r['conviction']:.0f} / gap {r['gap']:.0f})")
     if data["age_matched_note"]:
         print(f"\n  Age-matched: {data['age_matched_note']}")
+    lr = data.get("live_recommendation")
+    if lr:
+        d = "" if lr.get("day_change_pct") is None else f"{lr['day_change_pct']:+.2f}%"
+        print(f"\n  [live recommendation] v{lr.get('version')}  Rs {lr['nav']:>12,.2f}  "
+              f"1d {d}  total {lr['return_pct']:+.2f}%  ({lr.get('source_revision','?')})")
     print()
 
 
@@ -851,9 +967,11 @@ svg text{font-family:"IBM Plex Mono",ui-monospace,monospace}
     </div>
     <p class="lede">Every Monday a new Rs 1,00,000 paper portfolio is decided from the live recommendation,
       priced at the prior Friday's close, and then never touched again. Two sizing philosophies run in
-      parallel &mdash; <b>standard</b> (diversified) and <b>concentrated</b> (top-5 by a four-factor composite).
-      A separate, <b>actively-managed 6-month swing book</b> (momentum + dated catalysts, hard stops) runs
-      alongside for contrast. Marked to market every weekday; nothing here is advice.</p>
+      parallel &mdash; <b>standard</b> (diversified) and <b>concentrated</b> (top-5 by a two-factor composite).
+      A separate <b>live recommendation tracker</b> stays continuously rebalanced to whatever the
+      recommendation doc says right now, for contrast against the frozen cohorts. A weekly, frozen
+      <b>6-month swing cohort series</b> (momentum + dated catalysts, hard stops) runs alongside for a
+      third angle. Marked to market every weekday; nothing here is advice.</p>
   </header>
 
   <section id="s-cards">
@@ -861,9 +979,14 @@ svg text{font-family:"IBM Plex Mono",ui-monospace,monospace}
     <div class="cards" id="cards"></div>
   </section>
 
+  <section id="s-live">
+    <div class="sec-head"><h2>Live recommendation tracker</h2><span class="note">continuously rebalanced to the current doc &middot; not a frozen cohort</span></div>
+    <div class="panel" id="live-panel"></div>
+  </section>
+
   <section id="s-swing">
-    <div class="sec-head"><h2>6-month swing book</h2><span class="note">actively managed &middot; &minus;16% stops &middot; monthly re-screen &middot; not a frozen cohort</span></div>
-    <div class="panel" id="swing-panel"></div>
+    <div class="sec-head"><h2>6-month swing cohorts</h2><span class="note">weekly, frozen at entry &middot; &minus;16% stops per cohort &middot; never rebalanced</span></div>
+    <div id="swing-panels"></div>
   </section>
 
   <section id="s-series">
@@ -964,19 +1087,14 @@ function card(c){
 document.getElementById('cards').innerHTML = D.cohorts.map(card).join('');
 document.getElementById('cards-note').textContent = D.cohorts.length + ' running · none ever rebalanced';
 
-/* ---- 6-month swing book ---- */
+/* ---- live recommendation tracker (single, continuously rebalanced) ---- */
 (function(){
-  const sw = D.swing;
-  const sec = document.getElementById('s-swing');
-  if(!sw){ if(sec) sec.hidden = true; return; }
-  const retCls = sw.port_return_pct>=0?'pos':'neg';
-  const b = sw.benchmark;
-  const alphaCls = (sw.alpha_pct||0)>=0?'pos':'neg';
-  const dcTxt = sw.day_change_pct==null ? '—' : pct(sw.day_change_pct);
-  const badge = f => `<span class="flag${/EXTENDED/.test(f)?' warn':''}">${f}</span>`;
-  const flagBadges = (sw.flags||[]).map(badge).join('');
-
-  const vh = sw.value_history||[];
+  const lr = D.live_recommendation;
+  const sec = document.getElementById('s-live');
+  if(!lr){ if(sec) sec.hidden = true; return; }
+  const retCls = lr.return_pct>=0?'pos':'neg';
+  const dcTxt = lr.day_change_pct==null ? '—' : pct(lr.day_change_pct);
+  const vh = lr.value_history||[];
   let spark = '';
   if(vh.length>=2){
     const W=300,H=56,pd=4, vals=vh.map(p=>p.indexed);
@@ -986,47 +1104,100 @@ document.getElementById('cards-note').textContent = D.cohorts.length + ' running
     const d=vals.map((v,i)=>(i?'L':'M')+X(i).toFixed(1)+' '+Y(v).toFixed(1)).join(' ');
     spark=`<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" style="margin-top:10px" aria-hidden="true">`
       +`<line x1="${pd}" y1="${Y(100).toFixed(1)}" x2="${W-pd}" y2="${Y(100).toFixed(1)}" stroke="var(--edge-strong)" stroke-dasharray="2 3"/>`
-      +`<path d="${d}" fill="none" stroke="var(--s3)" stroke-width="2" stroke-linejoin="round"/></svg>`;
+      +`<path d="${d}" fill="none" stroke="var(--s4)" stroke-width="2" stroke-linejoin="round"/></svg>`;
   }
-  const nextReview = (sw.rules&&sw.rules.review_dates||[]).filter(x=>x>=D.as_of_date)[0];
-
-  const hrows = [...sw.holdings].sort((a,b)=>b.return_pct-a.return_pct).map(h=>{
-    const fl = (h.flags||[]).join(', ');
-    const near = h.dist_to_stop_pct!=null && h.dist_to_stop_pct<=3;
-    return `<tr class="${fl?'star':''}">
-      <td>${h.name}${h.stale?' <span class="sub">*</span>':''}${h.catalyst?`<div class="sub">${h.catalyst}</div>`:''}</td>
+  const hrows = [...lr.holdings].sort((a,b)=>b.return_pct-a.return_pct).map(h=>`<tr>
+      <td>${h.name}${h.stale?' <span class="sub">*</span>':''}</td>
       <td class="num">${h.weight_pct}</td>
       <td class="num">${fmt(h.entry_price)}</td>
       <td class="num">${fmt(h.price)}</td>
-      <td class="num ${h.day_change_pct>=0?'pos':'neg'}">${pct(h.day_change_pct)}</td>
       <td class="num ${h.return_pct>=0?'pos':'neg'}">${pct(h.return_pct)}</td>
-      <td class="num ${near?'neg':''}">${h.dist_to_stop_pct==null?'—':(h.dist_to_stop_pct>=0?'+':'')+h.dist_to_stop_pct.toFixed(1)+'%'}</td>
-      <td class="num">${h.ext_vs_30w_ema_pct==null?'—':(h.ext_vs_30w_ema_pct>=0?'+':'')+h.ext_vs_30w_ema_pct.toFixed(0)+'%'}</td>
-      <td class="sub">${fl||'—'}</td>
-    </tr>`;
-  }).join('');
-
-  document.getElementById('swing-panel').innerHTML = `
+      <td class="num">${fmt(h.value,0)}</td>
+    </tr>`).join('');
+  const rebal = (lr.rebalance_log||[]).slice().reverse().slice(0,8).map(e=>
+    `<div class="chip"><span class="nm">${e.date} &middot; v${e.version}</span><span class="sub">${e.reason}</span></div>`).join('');
+  document.getElementById('live-panel').innerHTML = `
     <div class="swing-head">
-      <div class="bignum mono">Rs ${fmt(sw.port_value)}</div>
-      <div class="${retCls}" style="font-size:18px;font-weight:600">${pct(sw.port_return_pct)}</div>
-      <div class="sub">1-day ${dcTxt}${b?` &nbsp;·&nbsp; ${b.label} ${pct(b.return_pct)} &nbsp;·&nbsp; <b class="${alphaCls}">alpha ${(sw.alpha_pct||0)>=0?'+':''}${sw.alpha_pct} pp</b>`:''}</div>
+      <div class="bignum mono">Rs ${fmt(lr.nav)}</div>
+      <div class="${retCls}" style="font-size:18px;font-weight:600">${pct(lr.return_pct)}</div>
+      <div class="sub">1-day ${dcTxt} &nbsp;·&nbsp; v${lr.version} since ${lr.inception_date} &nbsp;·&nbsp; source ${lr.source_revision||'—'}</div>
     </div>
     ${spark}
     <div class="kv">
-      <span><span class="k">version</span><b>${sw.active_version||'—'}</b></span>
-      <span><span class="k">since</span><b>${sw.start_date||'—'}</b></span>
-      <span><span class="k">horizon</span><b>${sw.horizon_end_date||'—'}${sw.days_to_horizon!=null?` (${sw.days_to_horizon}d)`:''}</b></span>
-      <span><span class="k">invested / cash</span><b>${fmt(sw.invested_value,0)} / ${fmt(sw.cash,0)}</b></span>
-      <span><span class="k">next review</span><b>${nextReview||'—'}</b></span>
-      <span><span class="k">hard stop</span><b>${sw.rules&&sw.rules.hard_stop_pct!=null?sw.rules.hard_stop_pct+'%':'—'}</b></span>
+      <span><span class="k">invested / cash</span><b>${fmt(lr.invested_value,0)} / ${fmt(lr.cash,0)}</b></span>
+      <span><span class="k">rebalances</span><b>${(lr.rebalance_log||[]).length}</b></span>
     </div>
-    <div style="margin-top:12px">${flagBadges||'<span class="sub">no rule flags active</span>'}</div>
     <div class="scroll" style="margin-top:14px"><table>
-      <thead><tr><th>Holding</th><th>Wt%</th><th>Entry</th><th>Price</th><th>1-Day</th><th>Return</th><th>To stop</th><th>vs EMA</th><th>Flags</th></tr></thead>
+      <thead><tr><th>Holding</th><th>Wt%</th><th>Entry (v${lr.version})</th><th>Price</th><th>Return</th><th>Value</th></tr></thead>
       <tbody>${hrows}</tbody>
     </table></div>
-    <p class="sub" style="margin-top:10px">Momentum + dated-catalyst screen, actively managed: &minus;16% hard stops, thesis-break exits, monthly re-screen. Benchmarked to ${b?b.label:'the Nifty Smallcap 250'}. Method: <code>docs/SWING_6M_PORTFOLIO.md</code>. * = price carried forward.</p>`;
+    ${rebal?`<div class="chips" style="margin-top:12px">${rebal}</div>`:''}
+    <p class="sub" style="margin-top:10px">Auto-rebalances at live prices whenever the recommendation doc's Section 3 changes a holding or a weight by more than 0.5pp. Entry price shown is this version's rebalance price, not the original inception price. * = price carried forward.</p>`;
+})();
+
+/* ---- 6-month swing cohorts (weekly, frozen) ---- */
+(function(){
+  const cohorts = D.swing_cohorts||[];
+  const sec = document.getElementById('s-swing');
+  if(!cohorts.length){ if(sec) sec.hidden = true; return; }
+  const badge = f => `<span class="flag${/EXTENDED/.test(f)?' warn':''}">${f}</span>`;
+  document.getElementById('swing-panels').innerHTML = cohorts.map(sw=>{
+    const retCls = sw.port_return_pct>=0?'pos':'neg';
+    const b = sw.benchmark;
+    const alphaCls = (sw.alpha_pct||0)>=0?'pos':'neg';
+    const dcTxt = sw.day_change_pct==null ? '—' : pct(sw.day_change_pct);
+    const flagBadges = (sw.flags||[]).map(badge).join('');
+    const vh = sw.value_history||[];
+    let spark = '';
+    if(vh.length>=2){
+      const W=300,H=56,pd=4, vals=vh.map(p=>p.indexed);
+      const lo=Math.min(100,...vals), hi=Math.max(100,...vals), rng=(hi-lo)||1;
+      const X=i=> pd + i/(vh.length-1)*(W-2*pd);
+      const Y=v=> pd + (1-(v-lo)/rng)*(H-2*pd);
+      const d=vals.map((v,i)=>(i?'L':'M')+X(i).toFixed(1)+' '+Y(v).toFixed(1)).join(' ');
+      spark=`<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" style="margin-top:10px" aria-hidden="true">`
+        +`<line x1="${pd}" y1="${Y(100).toFixed(1)}" x2="${W-pd}" y2="${Y(100).toFixed(1)}" stroke="var(--edge-strong)" stroke-dasharray="2 3"/>`
+        +`<path d="${d}" fill="none" stroke="var(--s3)" stroke-width="2" stroke-linejoin="round"/></svg>`;
+    }
+    const nextReview = (sw.rules&&sw.rules.review_dates||[]).filter(x=>x>=D.as_of_date)[0];
+    const hrows = [...sw.holdings].sort((a,b)=>b.return_pct-a.return_pct).map(h=>{
+      const fl = (h.flags||[]).join(', ');
+      const near = h.dist_to_stop_pct!=null && h.dist_to_stop_pct<=3;
+      return `<tr class="${fl?'star':''}">
+        <td>${h.name}${h.stale?' <span class="sub">*</span>':''}${h.catalyst?`<div class="sub">${h.catalyst}</div>`:''}</td>
+        <td class="num">${h.weight_pct}</td>
+        <td class="num">${fmt(h.entry_price)}</td>
+        <td class="num">${fmt(h.price)}</td>
+        <td class="num ${h.day_change_pct>=0?'pos':'neg'}">${pct(h.day_change_pct)}</td>
+        <td class="num ${h.return_pct>=0?'pos':'neg'}">${pct(h.return_pct)}</td>
+        <td class="num ${near?'neg':''}">${h.dist_to_stop_pct==null?'—':(h.dist_to_stop_pct>=0?'+':'')+h.dist_to_stop_pct.toFixed(1)+'%'}</td>
+        <td class="num">${h.ext_vs_30w_ema_pct==null?'—':(h.ext_vs_30w_ema_pct>=0?'+':'')+h.ext_vs_30w_ema_pct.toFixed(0)+'%'}</td>
+        <td class="sub">${fl||'—'}</td>
+      </tr>`;
+    }).join('');
+    return `<div class="panel" style="margin-bottom:14px">
+      <div class="sec-head" style="margin-bottom:2px"><h3 style="font-family:'IBM Plex Sans',sans-serif;font-size:15px">${sw.week_id}</h3>
+        <span class="note">decided ${sw.decided_date} &middot; entry ${sw.start_date}</span></div>
+      <div class="swing-head">
+        <div class="bignum mono">Rs ${fmt(sw.port_value)}</div>
+        <div class="${retCls}" style="font-size:18px;font-weight:600">${pct(sw.port_return_pct)}</div>
+        <div class="sub">1-day ${dcTxt}${b?` &nbsp;·&nbsp; ${b.label} ${pct(b.return_pct)} &nbsp;·&nbsp; <b class="${alphaCls}">alpha ${(sw.alpha_pct||0)>=0?'+':''}${sw.alpha_pct} pp</b>`:''}</div>
+      </div>
+      ${spark}
+      <div class="kv">
+        <span><span class="k">horizon</span><b>${sw.horizon_end_date||'—'}${sw.days_to_horizon!=null?` (${sw.days_to_horizon}d)`:''}</b></span>
+        <span><span class="k">invested / cash</span><b>${fmt(sw.invested_value,0)} / ${fmt(sw.cash,0)}</b></span>
+        <span><span class="k">next review</span><b>${nextReview||'—'}</b></span>
+        <span><span class="k">hard stop</span><b>${sw.rules&&sw.rules.hard_stop_pct!=null?sw.rules.hard_stop_pct+'%':'—'}</b></span>
+        ${sw.market_regime&&sw.market_regime.available?`<span><span class="k">market regime</span><b class="${sw.market_regime.downtrend?'neg':'pos'}">${sw.market_regime.label} ${pct(sw.market_regime.ext_pct)} vs 30W EMA</b></span>`:''}
+      </div>
+      <div style="margin-top:12px">${flagBadges||'<span class="sub">no rule flags active</span>'}</div>
+      <div class="scroll" style="margin-top:14px"><table>
+        <thead><tr><th>Holding</th><th>Wt%</th><th>Entry</th><th>Price</th><th>1-Day</th><th>Return</th><th>To stop</th><th>vs EMA</th><th>Flags</th></tr></thead>
+        <tbody>${hrows}</tbody>
+      </table></div>
+    </div>`;
+  }).join('') + `<p class="sub">Momentum + dated-catalyst screen. Each cohort is frozen at entry: &minus;16% hard stops per holding, never rebalanced. This script surfaces flags only -- act at the monthly review or ad hoc. Method: <code>SWING_6M_PORTFOLIO.md</code>. * = price carried forward.</p>`;
 })();
 
 /* ---- series comparison ---- */
@@ -1235,8 +1406,9 @@ lineChart();
 })();
 
 document.getElementById('foot').innerHTML =
-  `Prices: Yahoo Finance daily/weekly closes. Cohorts are frozen at entry and never rebalanced — the recommendation doc evolves, these do not. ` +
-  `The 6-month swing book is actively managed (stops, monthly re-screen) and benchmarked to the Nifty Smallcap 250. ` +
+  `Prices: Yahoo Finance daily/weekly closes. Standard/concentrated cohorts and swing cohorts are frozen at entry and never rebalanced — the recommendation doc evolves, these do not. ` +
+  `The live recommendation tracker is the exception: it auto-rebalances to whatever the doc says right now. ` +
+  `Swing cohorts carry their own hard stops and are benchmarked to the Nifty Smallcap 250. ` +
   `Generated by <code>paper-trading/scripts/refresh.py</code> on ${D.generated_at}. Research model only, not investment advice.`;
 </script>
 </body>

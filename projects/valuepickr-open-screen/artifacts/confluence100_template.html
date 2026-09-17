@@ -211,7 +211,7 @@ footer a{color:var(--accent);}
   <div class="masthead">
     <div class="eyebrow">ValuePickr open screen · portfolio-rs1l-revision universe · __ASOF_DATE__</div>
     <h1>Confluence 100</h1>
-    <p class="dek">Every stock the ValuePickr-forum research pipeline has actually deepdived, ranked by where fundamentals and price agree. <b>Confidence %</b> blends the <b>master score</b> (conviction · quality · expectation-gap · asymmetry) with a live 30-week EMA read, then discounts for how many of those five components a given stock actually has. Two lists, 100 names each: <b>Overall</b> (any deepdived stock, no red flag) and <b>Thesis only</b> (the stricter 10x / 100x return bar).</p>
+    <p class="dek">Every stock the ValuePickr-forum research pipeline has actually deepdived, ranked by where fundamentals and price agree. The philosophy: <b>strong business + reasonable valuation + rising 30W trend + relative strength</b> — a good company at a fair price that the market is already starting to reward, not just quietly trending up in isolation. <b>Confidence %</b> blends the <b>master score</b> (conviction · quality · expectation-gap · asymmetry) with two live technical reads — a 30-week EMA trend and relative strength vs the Nifty 500 — then discounts for how many of those five fundamental components a given stock actually has. Two lists, 100 names each: <b>Overall</b> (any deepdived stock, no red flag) and <b>Thesis only</b> (the stricter 10x / 100x return bar).</p>
   </div>
 
   <div class="stats" id="stats"></div>
@@ -221,7 +221,8 @@ footer a{color:var(--accent);}
     <div class="method-body">
       <p><b style="color:var(--ink)">Universe.</b> <span id="m-total">616</span> stocks have been deepdived by the ValuePickr open-screen pipeline. Both lists hard-drop any name with a <code>red_flag_tier</code> (HIGH CAUTION / AVOID / EXCLUDE — dropped, not sized down). <b>Overall</b> then ranks all <span id="m-eligible-overall">438</span> remaining names — a 10x thesis is <em>not</em> required, so a high-quality business that only clears the return bar at 3-4x still appears (tagged <span class="badge-nonthesis">non-thesis</span>). <b>Thesis only</b> keeps the <span id="m-eligible">164</span> where <code>thesis_fit</code> is <code>10x-in-2-3-years</code> or <code>100x-in-10-years</code>. Thesis-only is a strict subset of Overall. Both are a <em>different, larger</em> universe than the live Rs&nbsp;1L portfolio — only a handful of names overlap (marked <span class="badge-hold">HOLD</span>).</p>
       <p><b style="color:var(--ink)">Master score</b> is this pipeline's own composite — <code>0.25×conviction + 0.25×quality + 0.20×expectation-gap + 0.15×consistency + 0.15×asymmetry</code>, renormalized over whichever components exist for that stock (see <code>MASTER_SCORE_METHODOLOGY.md</code>). <span class="warn">Coverage is thin almost everywhere</span>: only <span id="m-fullcov">12</span> names have 4-5 of those components computed — the rest are still mostly riding on <code>conviction_score</code> alone, with the deepdive's own qualitative <code>four_box</code> read (tailwind / TAM / moat / valuation, scored 0-5) blended in to partly compensate, weighted more heavily the thinner the coverage.</p>
-      <p><b style="color:var(--ink)">Technical overlay.</b> For each of the top candidates a live weekly chart was pulled (Yahoo Finance, 3-year history) and a 30-week EMA computed — the same discipline the live portfolio runs on. Sitting tight above the line (≤15%) or crossing it in the last 3 weeks adds to confidence; sitting below it cuts hard (a stock can be fundamentally excellent and still fail the entry-timing filter); very extended (&gt;45% above) is discounted too, since that's poor risk-reward to buy into, not a red flag on the business. Names that couldn't be ticker-matched automatically carry a small penalty for that data gap rather than a real technical read.</p>
+      <p><b style="color:var(--ink)">Trend overlay (30W EMA).</b> For each of the top candidates a live weekly chart was pulled (Yahoo Finance, 3-year history) and a 30-week EMA computed — the same discipline the live portfolio runs on. Sitting tight above the line (≤15%) or crossing it in the last 3 weeks adds to confidence; sitting below it cuts hard (a stock can be fundamentally excellent and still fail the entry-timing filter); very extended (&gt;45% above) is discounted too, since that's poor risk-reward to buy into, not a red flag on the business. Names that couldn't be ticker-matched automatically carry a small penalty for that data gap rather than a real technical read.</p>
+      <p><b style="color:var(--ink)">Relative strength overlay.</b> Trend alone doesn't say whether a stock is actually leading or just drifting up with a rising market — so each candidate's trailing 13-week return is compared against the <b>Nifty 500</b>'s own 13-week return over the same window. Genuinely outperforming the index (RS &gt; 0) adds to confidence, scaling up for a wide gap (≥15 percentage points); quietly lagging the broad market (RS &lt; -10pp) cuts it, even if the stock's own chart still looks fine in isolation. This is orthogonal to the 30W-EMA read: a stock can be above its own trend line while still losing to the market, or vice versa.</p>
       <p><b style="color:var(--ink)">Confidence % is a model output, not a probability of return.</b> Treat ≥70 as "worth a full-position look," 50-69 as "real but thin, verify before sizing," and &lt;50 as "on the radar, not yet actionable." No stock here was sourced by open-ended web search — every name already existed in the ValuePickr deepdive database. Rebuilt every <code>vpscreen-rerank</code> cycle (no weekly gate) so a tier move or score shift shows up the same day.</p>
     </div>
   </details>
@@ -249,7 +250,8 @@ footer a{color:var(--accent);}
           <th data-sort="name">Stock</th>
           <th class="num" data-sort="confidence">Confidence<span class="arrow">▾</span></th>
           <th class="num" data-sort="master_score">Master</th>
-          <th>Technical (30W EMA)</th>
+          <th>Trend (30W EMA)</th>
+          <th class="num" data-sort="rs_pct">Rel. Strength<span class="arrow">▾</span></th>
           <th>Coverage</th>
           <th></th>
         </tr>
@@ -260,7 +262,7 @@ footer a{color:var(--accent);}
   <p class="count-note" id="countnote"></p>
 
   <footer>
-    Sources: <code>valuepickr-screen/data/master-scores.json</code> (composite, refreshed weekly) cross-checked against <code>quality-scores.json</code>, <code>expectation-gap-scores.json</code>, <code>screen-ranking.json</code>, and each stock's own deepdive record for tagline / four-box / market-cap tier; live 30-week EMA computed from Yahoo Finance weekly closes at compile time. Not investment advice — a research model, re-verify before acting. Click any row for the full score breakdown.
+    Sources: <code>valuepickr-screen/data/master-scores.json</code> (composite, refreshed weekly) cross-checked against <code>quality-scores.json</code>, <code>expectation-gap-scores.json</code>, <code>screen-ranking.json</code>, and each stock's own deepdive record for tagline / four-box / market-cap tier; live 30-week EMA and 13-week relative strength vs the Nifty 500 (<code>^CRSLDX</code>) computed from Yahoo Finance weekly closes at compile time. Not investment advice — a research model, re-verify before acting. Click any row for the full score breakdown.
   </footer>
 </div>
 
@@ -279,6 +281,11 @@ function techInfo(t){
   if(t.startsWith('Above')) return {cls:'tech-up', label:t.replace('Above 30W-EMA','↑')};
   if(t.startsWith('Below')) return {cls:'tech-down', label:t.replace('Below 30W-EMA','↓')};
   return {cls:'tech-na', label:'not resolved'};
+}
+function rsInfo(r){
+  if(r.rs_pct===null || r.rs_pct===undefined) return {cls:'tech-na', label:'n/a'};
+  const sign = r.rs_pct>0 ? '+' : '';
+  return {cls: r.rs_pct>0 ? 'tech-up' : 'tech-down', label: `${sign}${r.rs_pct.toFixed(1)}pp`};
 }
 function covDots(r){
   const present = [r.conviction_score, r.quality_score, r.expectation_gap_score, r.asymmetry_score].map(v=>v!==null && v!==undefined);
@@ -312,12 +319,14 @@ function render(rows){
   rows.forEach(r=>{
     const tr = document.createElement('tr');
     const ti = techInfo(r.technical);
+    const ri = rsInfo(r);
     tr.innerHTML = `
       <td class="rank">${r.rank}</td>
       <td><div class="namecell"><span class="nm">${r.name}</span>${r.in_current_portfolio?'<span class="badge-hold">HOLD</span>':''}${(!r.thesis_eligible)?'<span class="badge-nonthesis" title="thesis_fit is not 10x/100x — included in the Overall list on business quality">non-thesis</span>':''}</div></td>
       <td class="num"><span class="conf-pill ${confClass(r.confidence)}">${r.confidence}%</span></td>
       <td class="num">${fmt(r.master_score)}</td>
       <td><span class="tech-pill ${ti.cls}">${ti.label}</span></td>
+      <td class="num"><span class="tech-pill ${ri.cls}" title="vs Nifty 500, trailing 13 weeks">${ri.label}</span></td>
       <td><span class="cov">${covDots(r)}</span></td>
       <td style="color:var(--muted);font-size:11px;">▾</td>
     `;
@@ -328,7 +337,7 @@ function render(rows){
       tr.classList.add('expanded');
       const dr = document.createElement('tr');
       dr.className='detail-row';
-      dr.innerHTML = `<td colspan="7"><div class="detail-inner">
+      dr.innerHTML = `<td colspan="8"><div class="detail-inner">
         <p class="tagline">${r.tagline}${r.tagline.length>=155?'…':''}</p>
         <div class="scoregrid">
           <div><div class="v">${fmt(r.conviction_score,0)}</div><div class="k">Conviction</div></div>
@@ -342,7 +351,8 @@ function render(rows){
           <div><b>Thesis fit:</b> ${r.thesis_fit}${r.thesis_eligible?'':' <span style="color:var(--muted)">(Overall list only)</span>'}</div>
           <div><b>Market cap:</b> ${r.market_cap_tier||'—'}</div>
           <div><b>Data coverage:</b> ${Math.round(r.weight_coverage*100)}% of composite components present</div>
-          <div><b>Technical:</b> ${r.technical}</div>
+          <div><b>Trend (30W EMA):</b> ${r.technical}</div>
+          <div><b>Relative strength:</b> ${r.relative_strength}</div>
         </div>
       </div></td>`;
       tr.after(dr);
