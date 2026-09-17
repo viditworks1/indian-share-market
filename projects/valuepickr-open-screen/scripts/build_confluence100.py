@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """
 Builds the Confluence 100 artifact: a confidence-adjusted blend of master_score
-(conviction/quality/expectation-gap/asymmetry) and a live 30-week EMA technical
-read, over the ValuePickr open-screen deepdive universe.
+(conviction/quality/expectation-gap/asymmetry) with two live technical reads —
+a 30-week EMA trend read and a relative-strength read vs the Nifty 500 — over
+the ValuePickr open-screen deepdive universe. Philosophy: strong business +
+reasonable valuation + rising 30W trend + relative strength (beating the
+market, not just trending up in isolation).
 
 Two rankings are produced, each 100 names, switchable in the artifact:
   - "Overall"     — every deepdived stock with no red flag, ANY thesis_fit
@@ -19,6 +22,19 @@ a tier move, a new placement, or a score shift in Steps 3-6 can change either
 list. Writes projects/valuepickr-open-screen/artifacts/confluence100.artifact.html;
 the scheduled task then publishes that file with the Artifact tool using the
 fixed URL recorded in vpscreen-rerank/SKILL.md.
+
+Cost control: a live Yahoo Finance pull for every candidate every run is wasteful
+(150-250 network calls per run). Only the top TOP_FRESH_N candidates by fundamental
+score get a live pull every run; everyone else is served from data/technical_cache.json
+and only refetched once it's older than CACHE_TTL_DAYS. See load/save_cache() and the
+scan loop in main().
+
+Data-loss safeguard: if live Yahoo access is broadly failing this run (network outage,
+rate-limit), a stale cached read is used in preference to a blank "Not resolved" — and
+if too few candidates resolve either way (MIN_RESOLVED_FRACTION), the run aborts BEFORE
+touching the artifact/sidecar files, so a bad run can't clobber the last known-good
+published build. This is exactly the failure mode that once silently overwrote a good
+build with an all-unresolved one — see MEMORY project_confluence_100.md, 2026-09-16.
 
 Usage: python3 projects/valuepickr-open-screen/scripts/build_confluence100.py  (from Stock Market root)
 """
@@ -42,6 +58,10 @@ from resolve_data_file import resolve_data_path  # noqa: E402
 TOP_N = 100
 TECH_SCAN_BUFFER = 135  # scan more than TOP_N since some won't resolve / will lose to tech penalty
 
+TOP_FRESH_N = 20         # always live-fetched every run, regardless of cache age
+CACHE_TTL_DAYS = 7       # everyone else: reuse a cached read until it's this old
+MIN_RESOLVED_FRACTION = 0.3  # abort (don't touch outputs) if fewer than this fraction resolves
+
 ELIGIBLE_THESIS = ("10x-in-2-3-years", "100x-in-10-years")
 
 # slug -> verified Yahoo symbol, consulted BEFORE the live name search.
@@ -62,6 +82,63 @@ def load_symbol_map():
 
 SYMBOL_MAP = load_symbol_map()
 _RESOLVED_BY_SEARCH = {}  # slug -> symbol, for names not in SYMBOL_MAP that the search found
+
+# Relative strength: is the stock beating the broad market, not just its own
+# trend? Benchmarked against the Nifty 500 (^CRSLDX) — the universe here spans
+# large- to micro-cap, so a broad index is the fairer bar than Nifty 50.
+BENCHMARK_SYMBOL = "^CRSLDX"
+BENCHMARK_LABEL = "Nifty 500"
+RS_LOOKBACK_WEEKS = 13  # ~1 quarter, standard relative-strength window
+_BENCHMARK_RETURN_PCT = None  # populated once in main(), read by _read_from_pairs
+
+# Technical-read cache: {"benchmark": {...} | None, "stocks": {slug: {...}}}.
+# Keeps last-known-good 30W-EMA + RS reads so (a) most candidates only need a
+# live Yahoo pull once a week instead of every run, and (b) a run where Yahoo
+# access is broadly broken still has real data to fall back on instead of
+# publishing a wall of "Not resolved".
+CACHE_PATH = os.path.join(DATA_DIR, "technical_cache.json")
+
+
+def load_cache():
+    try:
+        with open(CACHE_PATH) as f:
+            c = json.load(f)
+    except (OSError, json.JSONDecodeError):
+        c = {}
+    c.setdefault("benchmark", None)
+    c.setdefault("stocks", {})
+    return c
+
+
+def save_cache(cache):
+    tmp = CACHE_PATH + ".tmp"
+    with open(tmp, "w") as f:
+        json.dump(cache, f, indent=2, ensure_ascii=False)
+    os.replace(tmp, CACHE_PATH)
+
+
+def days_since(date_str, today):
+    try:
+        return (today - datetime.date.fromisoformat(date_str)).days
+    except (TypeError, ValueError):
+        return None
+
+
+def tech_to_cache_entry(tech, today_iso):
+    entry = dict(tech)
+    entry["fetched_at"] = today_iso
+    return entry
+
+
+def cache_entry_to_tech(entry):
+    return {k: v for k, v in entry.items() if k != "fetched_at"}
+
+
+def atomic_write(path, text):
+    tmp = path + ".tmp"
+    with open(tmp, "w") as f:
+        f.write(text)
+    os.replace(tmp, path)
 
 
 def load_json(path):
@@ -158,6 +235,24 @@ def ema30(closes):
     return vals
 
 
+def trailing_return_pct(closes, weeks):
+    if len(closes) <= weeks:
+        return None
+    base = closes[-1 - weeks]
+    if not base:
+        return None
+    return (closes[-1] / base - 1) * 100
+
+
+def fetch_benchmark_return():
+    """Nifty 500's own trailing RS_LOOKBACK_WEEKS return, fetched once per run."""
+    pairs = yahoo_chart(BENCHMARK_SYMBOL)
+    if not pairs:
+        return None
+    closes = [c for t, c in pairs]
+    return trailing_return_pct(closes, RS_LOOKBACK_WEEKS)
+
+
 def technical_read(name, slug=None):
     # 1. verified symbol map wins — skips the fragile name search entirely.
     if slug is not None and slug in SYMBOL_MAP:
@@ -202,10 +297,14 @@ def _read_from_pairs(sym, pairs):
         if (closes[j - 1] > emas[j - 1]) != (closes[j] > emas[j]):
             cross_weeks_ago = len(closes) - 1 - j
             break
-    return {
+    out = {
         "status": "ok", "symbol": sym, "pct_vs_ema": round(pct, 1),
         "above": last_close > last_ema, "cross_weeks_ago": cross_weeks_ago,
     }
+    stock_ret = trailing_return_pct(closes, RS_LOOKBACK_WEEKS)
+    if stock_ret is not None and _BENCHMARK_RETURN_PCT is not None:
+        out["rs_pct"] = round(stock_ret - _BENCHMARK_RETURN_PCT, 1)
+    return out
 
 
 def tech_adjustment(t):
@@ -231,10 +330,36 @@ def tech_str(t):
         s = f"{'Above' if t['above'] else 'Below'} 30W-EMA {t['pct_vs_ema']:+.1f}%"
         if t.get("cross_weeks_ago") is not None:
             s += f" (cross {t['cross_weeks_ago']}w ago)"
+        if t.get("stale_days") is not None:
+            s += f" [cached, {t['stale_days']}d old — live refetch failed this run]"
         return s
     if t.get("status") == "no_history_sme":
         return "No weekly series (SME listing)"
     return "Not resolved"
+
+
+def rs_adjustment(t):
+    """Relative strength vs the broad market (Nifty 500), trailing RS_LOOKBACK_WEEKS.
+    Orthogonal to tech_adjustment: a stock can be above its own 30W EMA (a rising
+    trend) while still lagging the index (weak RS), or vice versa — this rewards
+    genuine outperformance and penalizes quiet underperformance either way."""
+    rs = t.get("rs_pct")
+    if rs is None:
+        return 0
+    if rs >= 15:
+        return 6
+    if rs > 0:
+        return 3
+    if rs > -10:
+        return 0
+    return -6
+
+
+def rs_str(t):
+    rs = t.get("rs_pct")
+    if rs is None:
+        return "RS not resolved"
+    return f"RS {rs:+.1f}pp vs {BENCHMARK_LABEL} ({RS_LOOKBACK_WEEKS}w)"
 
 
 def current_holdings():
@@ -288,6 +413,8 @@ def make_rows(ordered, holdings):
             "thesis_eligible": bool(x.get("thesis_eligible")),
             "tagline": (x.get("tagline") or "")[:160],
             "technical": tech_str(x["tech"]),
+            "relative_strength": rs_str(x["tech"]),
+            "rs_pct": x["tech"].get("rs_pct"),
             "in_current_portfolio": name in holdings,
         })
     return rows
@@ -310,16 +437,87 @@ def main():
     thesis_head = [x for x in universe if x["thesis_eligible"]][:TECH_SCAN_BUFFER]
     scan = list({id(x): x for x in overall_head + thesis_head}.values())
 
-    print(f"Running live technical scan for {len(scan)} candidates "
-          f"({len(overall_head)} overall-head + {len(thesis_head)} thesis-head, deduped)...",
-          file=sys.stderr)
+    today = datetime.date.today()
+    today_iso = today.isoformat()
+    cache = load_cache()
+
+    # Only the top TOP_FRESH_N by fundamental score get a mandatory live pull
+    # every run — everyone else rides the cache until it's CACHE_TTL_DAYS old.
+    top_fresh_slugs = {x["slug"] for x in universe[:TOP_FRESH_N]}
+
+    global _BENCHMARK_RETURN_PCT
+    _BENCHMARK_RETURN_PCT = fetch_benchmark_return()
+    if _BENCHMARK_RETURN_PCT is not None:
+        cache["benchmark"] = {"return_pct": _BENCHMARK_RETURN_PCT, "fetched_at": today_iso}
+        print(f"{BENCHMARK_LABEL} trailing {RS_LOOKBACK_WEEKS}w return: "
+              f"{_BENCHMARK_RETURN_PCT:+.1f}% (live)", file=sys.stderr)
+    elif cache.get("benchmark"):
+        _BENCHMARK_RETURN_PCT = cache["benchmark"]["return_pct"]
+        age = days_since(cache["benchmark"]["fetched_at"], today)
+        print(f"WARNING: live {BENCHMARK_LABEL} pull failed — using cached return "
+              f"{_BENCHMARK_RETURN_PCT:+.1f}% from {age if age is not None else '?'}d ago.",
+              file=sys.stderr)
+    else:
+        print(f"WARNING: could not fetch {BENCHMARK_SYMBOL} ({BENCHMARK_LABEL}) and no cached "
+              f"fallback exists — relative-strength adjustment will be skipped this run.",
+              file=sys.stderr)
+
+    print(f"Technical scan for {len(scan)} candidates "
+          f"({len(overall_head)} overall-head + {len(thesis_head)} thesis-head, deduped): "
+          f"top {min(TOP_FRESH_N, len(scan))} by fundamentals always live, rest cached "
+          f"up to {CACHE_TTL_DAYS}d old...", file=sys.stderr)
+
+    live_n = cache_hit_n = stale_fallback_n = 0
     for i, x in enumerate(scan):
-        x["tech"] = technical_read(x["name"], x["slug"])
+        slug = x["slug"]
+        cached = cache["stocks"].get(slug)
+        cache_age = days_since(cached["fetched_at"], today) if cached else None
+        need_live = slug in top_fresh_slugs or cached is None or (
+            cache_age is not None and cache_age >= CACHE_TTL_DAYS)
+
+        if need_live:
+            tech = technical_read(x["name"], slug)
+            live_n += 1
+            if tech.get("status") == "ok":
+                cache["stocks"][slug] = tech_to_cache_entry(tech, today_iso)
+            elif cached and cached.get("status") == "ok":
+                # Live fetch failed (network/rate-limit/renamed ticker) — a stale
+                # known-good read beats a blank one. Cache itself is left untouched
+                # so a transient failure doesn't erase the last good fetch date.
+                tech = cache_entry_to_tech(cached)
+                tech["stale_days"] = cache_age
+                stale_fallback_n += 1
+        else:
+            tech = cache_entry_to_tech(cached)
+            cache_hit_n += 1
+
+        x["tech"] = tech
         if i % 20 == 0:
             print(f"  ...{i}/{len(scan)}", file=sys.stderr)
 
+    print(f"Technical scan done: {live_n} live fetch(es), {cache_hit_n} cache hit(s) "
+          f"(<{CACHE_TTL_DAYS}d old), {stale_fallback_n} fell back to a stale cached read "
+          f"after a failed live refetch.", file=sys.stderr)
+
+    # Save whatever resolved, before the quality gate — a partially-successful run
+    # (e.g. half the top-20 pulled fine before a rate-limit kicked in) shouldn't
+    # lose the reads it did get, even if the run aborts below.
+    save_cache(cache)
+
+    resolved_n = sum(1 for x in scan if x["tech"].get("status") in ("ok", "no_history_sme"))
+    resolved_frac = resolved_n / len(scan) if scan else 1.0
+    if resolved_frac < MIN_RESOLVED_FRACTION:
+        print(f"\nABORT: only {resolved_n}/{len(scan)} ({resolved_frac:.0%}) candidates resolved "
+              f"(live or cached) — below the {MIN_RESOLVED_FRACTION:.0%} safety floor. This "
+              f"usually means Yahoo Finance access is broadly broken in this environment "
+              f"(network/rate-limit), not that 100+ tickers all vanished at once. NOT touching "
+              f"artifacts/confluence100.artifact.html or data/confluence100.json — the last "
+              f"known-good build stays live. (Cache was still saved with anything that did "
+              f"resolve, so the next run starts from a better position.)", file=sys.stderr)
+        sys.exit(1)
+
     for x in scan:
-        adj = tech_adjustment(x["tech"])
+        adj = tech_adjustment(x["tech"]) + rs_adjustment(x["tech"])
         x["tech_adj"] = adj
         x["confidence_pct"] = round(max(5, min(96, x["blended_fundamental"] + adj)))
 
@@ -351,9 +549,11 @@ def main():
     html = html.replace("__STATS_JSON__", json.dumps(stats, ensure_ascii=False))
     html = html.replace("__ASOF_DATE__", stats["asof_date"])
 
+    # Atomic writes (temp file + os.replace): the quality gate above already keeps
+    # a bad run from reaching here, but this also protects against a crash or kill
+    # mid-write leaving a truncated/corrupt file behind.
     out_path = os.path.join(ARTIFACTS_DIR, "confluence100.artifact.html")
-    with open(out_path, "w") as f:
-        f.write(html)
+    atomic_write(out_path, html)
 
     # Machine-readable sidecar — consumed by build_deepdive_queue.py to prioritize
     # deep-dive coverage of current Confluence-100 membership. `rows` keeps the
@@ -365,13 +565,12 @@ def main():
         seen.add(r["slug"])
         union.append(r)
     json_path = os.path.join(DATA_DIR, "confluence100.json")
-    with open(json_path, "w") as f:
-        json.dump({
-            "generated": stats["asof_date"],
-            "rows": union,
-            "rows_overall": rows_overall,
-            "rows_thesis": rows_thesis,
-        }, f, indent=2, ensure_ascii=False)
+    atomic_write(json_path, json.dumps({
+        "generated": stats["asof_date"],
+        "rows": union,
+        "rows_overall": rows_overall,
+        "rows_thesis": rows_thesis,
+    }, indent=2, ensure_ascii=False))
 
     res_o = sum(1 for x in overall_sorted[:TOP_N] if x["tech"].get("status") == "ok")
     res_t = sum(1 for x in thesis_sorted[:TOP_N] if x["tech"].get("status") == "ok")
@@ -398,6 +597,10 @@ def main():
           f"Thesis 100: {res_t}/{TOP_N} technicals resolved. "
           f"Union sidecar: {len(union)} unique names, "
           f"{sum(1 for r in union if r['in_current_portfolio'])} flagged as current holdings.")
+    print(f"Cache economics: {live_n} live Yahoo fetches this run "
+          f"(top {TOP_FRESH_N} fundamentals + any cache miss/expiry), {cache_hit_n} served "
+          f"from cache (<{CACHE_TTL_DAYS}d old), {stale_fallback_n} stale-fallback saves. "
+          f"Cache: {CACHE_PATH}")
 
 
 if __name__ == "__main__":

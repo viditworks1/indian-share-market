@@ -1,0 +1,111 @@
+{
+  "_readme": "LIVE recommendation tracker. SEPARATE from paper-trading/cohorts.json (frozen weekly cohorts) and swing-6m/cohorts.json (actively-managed swing cohorts). This single book always mirrors the CURRENT allocation in portfolio/FINAL_PORTFOLIO_RECOMMENDATION.md Section 3, auto-rebalancing at live prices whenever that table's holdings or weights change by more than a rounding amount. Script-owned -- do not hand-edit holdings/cash; edit the recommendation doc instead, this script picks it up on the next run.",
+  "inception_date": "2026-09-11",
+  "inception_capital": 100000,
+  "version": 1,
+  "effective_date": "2026-09-11",
+  "source_revision": "v12 (Compiled 11 September 2026)",
+  "holdings": [
+    {
+      "name": "Dynamic Cables",
+      "symbol": "DYNAMIC.NS",
+      "weight_pct": 12.0,
+      "entry_price": 142.65,
+      "shares": 84,
+      "invested": 11982.6
+    },
+    {
+      "name": "Venus Remedies",
+      "symbol": "VENUSREM.NS",
+      "weight_pct": 12.0,
+      "entry_price": 1616.3,
+      "shares": 7,
+      "invested": 11314.1
+    },
+    {
+      "name": "Novartis India",
+      "symbol": "NOVARTIND.NS",
+      "weight_pct": 11.0,
+      "entry_price": 2391.3,
+      "shares": 4,
+      "invested": 9565.2
+    },
+    {
+      "name": "Asahi Songwon Colors",
+      "symbol": "ASAHISONG.NS",
+      "weight_pct": 10.0,
+      "entry_price": 363.95,
+      "shares": 27,
+      "invested": 9826.65
+    },
+    {
+      "name": "GPT Healthcare",
+      "symbol": "GPTHEALTH.NS",
+      "weight_pct": 9.0,
+      "entry_price": 159.38,
+      "shares": 56,
+      "invested": 8925.28
+    },
+    {
+      "name": "Yash Highvoltage",
+      "symbol": "YASHHV.BO",
+      "weight_pct": 9.0,
+      "entry_price": 945.55,
+      "shares": 9,
+      "invested": 8509.95
+    },
+    {
+      "name": "Macpower CNC Machines",
+      "symbol": "MACPOWER.NS",
+      "weight_pct": 8.0,
+      "entry_price": 1843.0,
+      "shares": 4,
+      "invested": 7372.0
+    },
+    {
+      "name": "Haldyn Glass",
+      "symbol": "HALDYNGL.BO",
+      "weight_pct": 6.0,
+      "entry_price": 147.55,
+      "shares": 40,
+      "invested": 5902.0
+    },
+    {
+      "name": "Thyrocare Technologies",
+      "symbol": "THYROCARE.NS",
+      "weight_pct": 5.0,
+      "entry_price": 549.7,
+      "shares": 9,
+      "invested": 4947.3
+    },
+    {
+      "name": "Bansal Roofing Products",
+      "symbol": "BRPL.BO",
+      "weight_pct": 4.0,
+      "entry_price": 144.95,
+      "shares": 27,
+      "invested": 3913.65
+    }
+  ],
+  "cash": 17741.27,
+  "rebalance_log": [
+    {
+      "date": "2026-09-11",
+      "version": 1,
+      "reason": "inception",
+      "nav": 100000,
+      "target_weights": {
+        "Dynamic Cables": 12.0,
+        "Venus Remedies": 12.0,
+        "Novartis India": 11.0,
+        "Asahi Songwon Colors": 10.0,
+        "GPT Healthcare": 9.0,
+        "Yash Highvoltage": 9.0,
+        "Macpower CNC Machines": 8.0,
+        "Haldyn Glass": 6.0,
+        "Thyrocare Technologies": 5.0,
+        "Bansal Roofing Products": 4.0
+      }
+    }
+  ]
+}
