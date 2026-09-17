@@ -47,9 +47,9 @@
   ],
   "bear_case": [
     "Already a Rs 3,196 Cr company with high-single-digit topline growth - not a small-base setup for a 10x-in-short-order thesis",
-    "PU-plant capacity utilisation has remained persistently low (~20-25%) for multiple years per two trusted-user updates - the biggest single growth lever isn't yet firing",
+    "PU-plant capacity utilisation has remained persistently low (~23-25%) for multiple years, confirmed unchanged in Q1 FY27 - the biggest single growth lever isn't yet firing",
+    "Mexico capex (~Rs 200 Cr) is now explicitly ON HOLD due to a 25% US tariff - not just an election-timing question as previously framed, pushing out the US-OEM leg by at least several quarters",
     "Domestic market growth has been flat for years per community discussion (a competitor, Jasch Industries, explicitly framed itself as taking domestic PU share from Mayur)",
-    "Mexico capex decision was explicitly contingent on 2026 US election outcome - execution/timing risk",
     "Underinvoicing/duty-manipulation in PU imports is a disclosed industry headwind"
   ],
   "market_cap_tier": "Mid-cap (~Rs 3,196 Cr)",
@@ -60,7 +60,8 @@
     "Score >=3.0 technically permits the 10x/100x label, but exercising judgment per the decision table's discretion: a Rs 3,196 Cr company growing topline at ~10%/yr would need an implausible re-rating+growth combination to deliver 10x in 2-3 years, and 100x-in-10-years is even further from this company's realistic growth ceiling - the mechanical four-box score doesn't capture this size/growth-rate mismatch, so thesis_fit is set to 'neither' by explicit judgment call rather than the score alone",
     "This is a genuine quality holding worth tracking as a steady compounder, not a screen-fit multibagger candidate under this project's thesis (10x-in-2-3yr or 100x-in-10yr) - conviction Medium reflects business quality, not thesis-fit",
     "No live theme match in active_themes.json (Auto ancillaries theme is components/OEM-supplier shaped; Mayur's synthetic-leather-to-auto-interiors business is adjacent but not a clean keyword hit) - value_chain block added given the deep read clearly established the auto-OEM export supply-chain position",
-    "No red flag. Source is untrusted external-lead (X triage) - no conviction floor applies. Re-check trigger: PU capacity utilisation finally moving up meaningfully from ~20-25%, or the Mexico facility reaching commercial production"
+    "No red flag. Source is untrusted external-lead (X triage) - no conviction floor applies. Re-check trigger: PU capacity utilisation finally moving up meaningfully from ~20-25%, or the Mexico facility reaching commercial production",
+    "2026-09-12 deep-dive pass 1: Q1 FY27 confirms strong margin execution (25.4% standalone, up from 21%) but also confirms the Mexico capex is formally paused on US tariffs (not just election-timing) - net, the quality-compounder framing and 'neither' thesis-fit both hold unchanged."
   ],
   "red_flag_tier": null,
   "red_flag_reason": null,
@@ -86,7 +87,7 @@
     "note": "Established market leader with genuine global-OEM traction; the real re-rating lever (PU utilisation) has been stuck for years, which is exactly why the four-box tailwind/tam boxes stay at 'weak' despite the moat being real."
   },
   "market_expectation": {
-    "as_of": "2026-09-09",
+    "as_of": "2026-09-12",
     "price": 736,
     "current_pe": 15.4,
     "current_ev_ebitda": null,
@@ -97,7 +98,7 @@
     "gap_direction": "underestimated",
     "gap_type": "volume",
     "gap_magnitude_pct": null,
-    "gap_basis": "28% FY26 PAT growth and a genuine global-OEM export ramp are not in a 15x multiple built on the old single-digit domestic growth; the Rs 3,196 Cr size still argues against a 10x framing",
+    "gap_basis": "Q1 FY27 standalone EBITDA margin 25.4% (vs 21% YoY) and PAT +43% show the margin-led thesis playing out, but Mexico capex is now confirmed paused on US tariffs — the market's ~15x multiple already reflects the old single-digit domestic-growth base, not the margin improvement, but the Mexico delay caps how much upside the export leg adds near-term",
     "evidence_quality": "moderate",
     "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   },
@@ -115,5 +116,138 @@
     "years_checked": 4,
     "years_cleared": 2,
     "note": "Of FY22-FY25 (both metrics verifiable), FY22 (+27.9%/17%) and FY23 (+18.3%/19%) cleared both; FY24 (+3.5%) and FY25 (+9.6%) missed on revenue growth despite ROCE of 22-24%. The export ramp is lifting TTM growth to ~16% but not yet across a full fiscal year."
+  },
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-12",
+    "sources_reviewed": [
+      "FY26 AR/concall — Mexico capex status, PU utilization",
+      "Q1 FY27 results + concall (Aug 2026)",
+      "BSE filings — FY26 board meeting, dividend, promoter purchases (Mar 2026)"
+    ],
+    "annual_report_findings": [
+      "Mexico capex (~Rs 200 Cr, land identified, planning complete) is ON HOLD — a 25% US tariff imposition paused the go-ahead; management says it's 'intact' but no restart date given",
+      "Lithuania: UAB Futura Textiles Europe (wholly-owned sub) formally established in FY26 to service the European market — this leg is live, unlike Mexico",
+      "PU-plant capacity utilization remains stuck at ~23-25%, unchanged for multiple years — the single biggest unexercised growth lever",
+      "Promoter (Kiran Poddar) continued small open-market purchases through FY26 (e.g. 14,004 + 2,000 shares in Mar 2026) — genuine but modest in scale",
+      "Promoter stake ~58.77% as of Mar 2026, consistent with historical levels"
+    ],
+    "quarterly_trend": [
+      "Q1 FY27 (Aug 2026 concall): standalone PAT +43% YoY to Rs 58.95 Cr; standalone EBITDA margin improved to 25.4% from 21% YoY; consolidated EBITDA margin 30.4%",
+      "Management reiterated long-term EBITDA margin guidance of 25% +/- 1-2%, flagging quarter-to-quarter volatility from raw-material/freight costs",
+      "Management guided 10-15% annualised revenue growth over the next 3 years via global auto-OEM export orders — modest, consistent with the existing bear case, not an acceleration",
+      "FY26 full year: revenue +9.9%, PAT +28.4%; Q1 FY27 PAT +43% suggests the margin-led PAT outperformance is continuing into FY27"
+    ],
+    "recent_announcements": [
+      "2026-05-19/20: FY26 results + Rs 6/share (120%) final dividend approved; investor call held",
+      "2026-08-06: Q1 FY27 results + concall held",
+      "No BSE filing found confirming a Mexico capex restart or reversal — status remains paused"
+    ],
+    "key_new_facts": [
+      "Mexico capex is explicitly ON HOLD due to a 25% US tariff, not just 'contingent on election clarity' as previously framed — pushes out the US-OEM export leg by at least several quarters",
+      "Management's own guidance (10-15% revenue growth, 25%+/-2% EBITDA margin) confirms the 'quality compounder, not a re-rating candidate' framing",
+      "PU utilization still unmoved at 23-25% — the named re-rating catalyst has not fired"
+    ],
+    "open_questions": [
+      "No visibility on when/if Mexico tariff clarity arrives or capex restarts",
+      "Lithuania subsidiary's revenue/margin contribution not yet quantified in any filing found"
+    ],
+    "conviction_update": "Medium -> Medium. Q1 FY27 margin execution (25.4% standalone, up from 21%) is genuinely strong and PAT growth continues to outpace revenue, but the Mexico capex pause on tariffs removes near-term visibility on the lever that could accelerate the export-ramp thesis, and PU utilization remains stuck. Net: the quality-compounder case holds; nothing moves conviction materially."
+  },
+  "commitments": [
+    {
+      "area": "capex",
+      "text": "Mexico plant (~Rs 200 Cr, 60 lakh m capacity) for US auto-OEM interiors",
+      "specifics": "land identified, planning complete, ~Rs 200 Cr",
+      "timeline_bucket": "beyond",
+      "quality_stage": "action",
+      "source": "FY26 concall/AR",
+      "dependency": "US tariff clarity",
+      "single_point_of_failure": "US tariff policy resolution",
+      "thesis_critical": true
+    },
+    {
+      "area": "new_business",
+      "text": "Lithuania subsidiary (UAB Futura Textiles Europe) for European market access",
+      "specifics": "wholly-owned sub established FY26",
+      "timeline_bucket": "12M",
+      "quality_stage": "operational",
+      "source": "FY26 AR",
+      "dependency": "",
+      "single_point_of_failure": "",
+      "thesis_critical": false
+    },
+    {
+      "area": "margin",
+      "text": "Long-term EBITDA margin guidance 25% +/-1-2%",
+      "specifics": "Q1FY27 standalone margin 25.4%, consolidated 30.4%",
+      "timeline_bucket": "beyond",
+      "quality_stage": "financial",
+      "source": "Q1 FY27 concall Aug 2026",
+      "dependency": "raw material/freight cost stability",
+      "single_point_of_failure": "",
+      "thesis_critical": true
+    },
+    {
+      "area": "growth",
+      "text": "10-15% annualised revenue growth over next 3 years via global auto-OEM export orders",
+      "specifics": "10-15% p.a.",
+      "timeline_bucket": "beyond",
+      "quality_stage": "expectation",
+      "source": "Q1 FY27 concall Aug 2026",
+      "dependency": "export order ramp",
+      "single_point_of_failure": "",
+      "thesis_critical": true
+    }
+  ],
+  "earnings_chain": {
+    "chain": [
+      "auto-OEM export orders (BMW/Mercedes)",
+      "PU capacity utilization ramp",
+      "revenue growth (guided 10-15%)",
+      "margin (guided 25%+/-2%)",
+      "PAT"
+    ],
+    "bottleneck_link": "PU capacity utilization (stuck ~23-25% for years)",
+    "operating_leverage": "unclear — margin guidance is a steady-state target, not an explicit operating-leverage story off utilization",
+    "evidenced_links": [
+      "auto-OEM export orders",
+      "margin (Q1FY27 25.4% delivered)"
+    ],
+    "assumed_links": [
+      "PU capacity utilization ramp",
+      "revenue growth 10-15%"
+    ]
+  },
+  "catalyst": {
+    "event": "Mexico capex restart once US tariff clarity emerges, or PU-plant utilization finally moving meaningfully above ~25%",
+    "expected_window_months": 12,
+    "window_start": "2026-09-12",
+    "evidence_quality": "low",
+    "is_dated": false,
+    "status": "pending"
+  },
+  "earnings_quality": {
+    "margin_driver": "structural",
+    "drivers": [
+      "export/PU product mix shift toward higher-margin business",
+      "operating leverage on existing (ex-PU) capacity"
+    ],
+    "peak_margin_risk": false,
+    "normalised_note": "Management guides 25%+/-2% as the through-cycle level; Q1 FY27's 25.4% standalone / 30.4% consolidated is within/near that guided band, not a one-off spike."
+  },
+  "growth_trajectory": {
+    "yoy_trend": "steady",
+    "last_quarters_note": "FY24 +3.5%, FY25 +9.6%, FY26 +9.9%, Q1FY27 PAT +43% (margin-led, not volume-led) — revenue growth has stabilised in high-single-digits, not accelerating",
+    "reverse_pe_note": "~15x trailing needs only ~8-10% EPS CAGR to be fair at a steady 15-18x exit — undemanding, consistent with the market pricing this as a mature compounder, not a growth story"
+  },
+  "management_quality": {
+    "capital_allocation": "Reinvesting in Mexico (paused) and Lithuania (live) at a company running ~24-26% ROCE; no unrelated diversification found",
+    "capital_allocation_track_record": "disciplined",
+    "rpt_trend": "unclear",
+    "guidance_credibility": "reliable",
+    "shareholder_returns": "consistent",
+    "capability_ladder_note": "Explicit shift toward higher-margin PU/export mix and global OEM programmes (BMW, Mercedes)",
+    "assessment": "positive"
   }
 }

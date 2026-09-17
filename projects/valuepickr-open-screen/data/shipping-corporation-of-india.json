@@ -1,0 +1,51 @@
+{
+  "name": "Shipping Corporation of India Ltd",
+  "tagline": "India's largest PSU shipping company, cheap on P/E and mid-way through a large fleet-modernization program, but a stalled privatization and a decade of poor sales growth keep this a large-cap value/cyclical play, not a growth thesis.",
+  "business_overview": "SCI operates a diversified fleet (crude/product tankers, LPG carriers, bulk carriers, container ships, passenger vessels; 55+ vessels, 3.5m+ DWT) as India's largest government-owned shipping company. It has announced a ~$2.3bn domestic newbuild program (26 ships, ~1.18m GT, phased delivery) to modernize the fleet with dual-fuel (LNG-capable) vessels ahead of IMO 2030 carbon-intensity rules. Long-pending privatization appears stalled again - recent reports suggest the government may pause disinvestment given global shipping-route disruptions and a strategic desire to retain a state-owned fleet. Seeded 2026-09-13 via untrusted X triage (@r_laroia, high conviction).",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 13,369 Cr"],
+    ["Price / 52-week range", "~Rs 287; range Rs 195 - Rs 369"],
+    ["ROCE / ROE", "ROCE ~13.9%; ROE ~15.0%"],
+    ["Valuation", "P/E ~8.33x - cheap"],
+    ["Revenue growth", "5-year sales growth ~9.31% - described by screener as poor"],
+    ["Dividend", "Yield ~2.6%; payout ~21.9%"],
+    ["Contingent liabilities", "~Rs 4,099 Cr"]
+  ],
+  "fundamentals_narrative": "Cheap (P/E ~8.3x, decent ROE ~15%) but this is a commodity freight-rate business with a mediocre 9.31% 5-year sales growth track record. The one specific, named structural item found this pass is the ~$2.3bn/26-ship domestic newbuild and fleet-modernization program (dual-fuel, IMO-2030-compliant) - a genuine capacity/quality upgrade, but phased over several years and dependent on global tanker/bulk/LNG rate cycles playing out favourably. The long-running privatization story, which would have been the cleanest re-rating catalyst, appears to be paused again rather than progressing.",
+  "technical_read": "Not pulled - large-cap fast-triage lane skips technical/forum work by default.",
+  "sentiment_summary": "No forum deep-dive performed - large-cap fast-triage lane; write-up kept to fundamentals/filings only per the rules.",
+  "community_signal": "Not sought this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No red flag found. Rs 4,099 Cr contingent liabilities noted (typical for a large shipping PSU with charter/legal exposures) but not flagged as a going-concern or fraud issue.",
+  "bull_case": [
+    "Cheap valuation (P/E ~8.3x) with a respectable ROE (~15%) for a PSU",
+    "Named structural inflection: ~$2.3bn, 26-ship domestic newbuild program modernizing the fleet with dual-fuel, IMO-2030-ready vessels",
+    "Dividend yield ~2.6% with a reasonable payout ratio"
+  ],
+  "bear_case": [
+    "5-year sales growth of only ~9.31% - screener itself flags this as poor for the sector",
+    "Privatization, the cleanest re-rating catalyst, appears stalled/paused again per recent reporting - reduces near-term catalyst visibility",
+    "Commodity freight-rate business with no pricing moat; earnings are cyclical and rate-dependent",
+    "~Rs 4,099 Cr contingent liabilities is a meaningful tail risk to monitor"
+  ],
+  "market_cap_tier": "Large-cap (~Rs 13,369 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Cheap PSU shipping major mid-way through a genuine ($2.3bn/26-ship) fleet-modernization program, but a stalled privatization and a mediocre growth track record keep this a value/cyclical holding, not a 10x/100x thesis. thesis_fit 'neither', conviction Low-Medium.",
+  "verdict_reasoning": [
+    "Large-cap fast-triage lane applied: default tam 'no' unless a specific named management/structural inflection is found. One was found (the ~$2.3bn/26-ship newbuild + IMO-2030 fleet-modernization program), so tam is scored 'weak' rather than a flat 'no' - but per the rule this still caps conviction at Low-Medium and does not warrant a forum deep-dive or a longer write-up.",
+    "four_box = 2.0 (tailwind weak - global shipping cycle plus the newbuild program, but 5-yr sales growth is poor; tam weak - the newbuild inflection is real but phased/multi-year and cyclical; moat no - commodity freight rates, PSU structure; valuation yes - P/E ~8.3x is cheap). Score sits in the 2.0-2.5 band, so 'neither' is the default and no explicit exception is written here.",
+    "No red flag found; the privatization pause is a catalyst-timing negative, not a fundamentals red flag.",
+    "Kept to a fast, ~150-200 word style write-up per the large-cap rule - no forum/community deep-dive performed."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "no",
+    "valuation": "yes",
+    "score": 2.0,
+    "note": "Large-cap default of tam:no overridden to 'weak' because a specific named structural inflection was found (~$2.3bn/26-ship domestic newbuild + IMO-2030 fleet modernization); but this is phased over years and rate-cycle-dependent, privatization (the cleaner catalyst) appears paused, and the business has no pricing moat - score stays in the 'neither' default band."
+  },
+  "value_chain": null
+}

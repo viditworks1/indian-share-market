@@ -1,0 +1,48 @@
+{
+  "name": "Sai Parenterals Ltd",
+  "tagline": "Small-cap generic injectables/parenteral formulations manufacturer with weak return ratios and high leverage - fundamentals too weak to support a thesis_fit call beyond 'neither'.",
+  "business_overview": "Sai Parenterals is a pharmaceutical formulations company engaged in R&D, manufacturing and commercialisation of injectable/parenteral products for domestic and international markets. Seeded via untrusted X triage (@ParthaAwe, bullish/medium conviction, 2026-09-13).",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 2,275 Cr (price ~Rs 515)"],
+    ["52-week range", "~Rs 400 - Rs 706"],
+    ["ROCE / ROE (screener.in)", "ROCE ~5.3%, ROE ~4.9%"],
+    ["ROCE / ROE (Zerodha, conflicting)", "ROCE ~29.1%, ROE ~15.2% - source discrepancy not resolved this pass"],
+    ["Debt / equity", "~2.18 - high leverage; low interest coverage"],
+    ["Working capital", "Debtor days improved 253 -> 173 days but still elevated"]
+  ],
+  "fundamentals_narrative": "Sources disagree sharply on Sai Parenterals' return ratios (screener.in shows ROCE ~5.3%/ROE ~4.9%; Zerodha shows ROCE ~29.1%/ROE ~15.2%), a discrepancy not resolved this pass and itself a data-quality caution. What is consistent across sources is meaningful leverage (debt/equity ~2.18) with a flagged low interest-coverage ratio, and debtor days that, while improving (253 -> 173 days), remain elevated for a generic parenteral manufacturer with limited pricing power. This combination of high leverage and either weak-to-moderate returns is not a fundamentals profile that supports a constructive thesis at this pass.",
+  "technical_read": "Not pulled this pass.",
+  "sentiment_summary": "Not assessed - fundamentals too weak to warrant a forum check per the fast-triage scoring rule (four_box score <=1.5).",
+  "community_signal": "Not sought this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No AVOID/EXCLUDE-tier red flag found (no negative net worth, no active SEBI/fraud action, no promoter-holding collapse or auditor resignation surfaced) - weak fundamentals here are a conviction/thesis issue, not a red-flag-tier exclusion.",
+  "bull_case": [
+    "Exposure to generic injectables/parenteral demand (domestic + export)",
+    "Improving debtor-days trend (253 -> 173 days)"
+  ],
+  "bear_case": [
+    "High leverage (debt/equity ~2.18) with a flagged low interest-coverage ratio",
+    "Conflicting return-ratio data across sources (screener.in ROCE ~5.3% vs Zerodha ~29.1%) - not resolved this pass, itself a caution",
+    "Elevated debtor days (~173) even after improvement, consistent with limited pricing power in a generic/contract-manufacturing-like segment",
+    "No named moat or differentiation identified in generic parenteral manufacturing"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 2,275 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Small-cap generic injectables maker with high leverage and weak-to-conflicting return ratios - four_box score 1.0, hard 'neither'. Conviction Low.",
+  "verdict_reasoning": [
+    "four_box = 1.0 (tailwind weak - generic pharma demand only; tam weak; moat no - no differentiation in generic parenteral manufacturing; valuation no - high leverage/weak-to-conflicting returns undercut any margin-of-safety case).",
+    "Score <=1.5 is a hard 'neither' per the fast-triage rule - no forum deep-dive performed.",
+    "No red flag tier applies (not negative net worth / SEBI action / promoter collapse) - this is a conviction call on weak-and-inconsistent fundamentals, not an exclusion."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "no",
+    "valuation": "no",
+    "score": 1.0,
+    "note": "High leverage (D/E ~2.18) with low interest coverage; return ratios weak-to-conflicting across sources; no differentiation moat in generic parenteral manufacturing."
+  },
+  "value_chain": null
+}

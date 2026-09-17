@@ -62,9 +62,10 @@
     "Management guiding ~60-70% FY27 growth; small solar IPP adds an annuity layer"
   ],
   "bear_case": [
-    "Solar EPC is competitive, working-capital-heavy and bid on moderate margins - re-rating ceiling is real",
+    "Solar EPC is competitive, working-capital-heavy and bid on moderate margins - re-rating ceiling is real; management's own FY27 guidance (11-12% EBITDA) holds margin flat, not expanding",
+    "Market itself flagged margin worries on the new Rs 816 Cr NTPC BOS-scope order - not all order-book growth is equally accretive",
+    "FY26 AGM approved a Rs 10,000 Cr borrowing limit and an RPT resolution passed with an unusually high reported dissent/support figure (~11.52%, exact framing unconfirmed) - a governance-adjacent flag with no independent VP-thread scrutiny to cross-check",
     "A clean 10x needs both a large earnings ramp and sharp multiple expansion from an already-decent ~15x",
-    "Thread is empty - no independent check on margin durability, receivables or related-party mix",
     "High-growth-off-a-fast-rising-base concentration and execution risk if order intake slows"
   ],
   "market_cap_tier": "Small-cap (~Rs 3,182 Cr)",
@@ -73,7 +74,8 @@
   "verdict_reasoning": [
     "Sovrenn-news seed (tier 4.65). Datapoints (FY26 +81% revenue / +86% PAT; Rs 1,338 Cr NTPC REL award; Rs 7,147 Cr order book) hold up against the FY26 results. Per the trailing-vs-live rule this is a strong recent trajectory + concrete catalyst + small base -> 10x-in-2-3-years at Low-Medium conviction with an 'unconfirmed' caveat.",
     "The caveat: solar EPC is competitive and working-capital-intensive, and EPC contractors rarely re-rate far beyond mid-teens P/E - so the realistic outcome is more likely 3-5x than a clean 10x unless margins and order intake surprise strongly. The empty thread means no independent validation of earnings quality.",
-    "Live-theme adjacency: solar + BESS EPC touches the priority-2 EV/BESS theme (value_chain added). No red flag (profitable, high ROCE, promoter-led, no SEBI/auditor issue). conviction Low-Medium; revisit_after_30d false. Re-check on FY27 quarterly margin and receivable trends."
+    "Live-theme adjacency: solar + BESS EPC touches the priority-2 EV/BESS theme (value_chain added). No red flag (profitable, high ROCE, promoter-led, no SEBI/auditor issue). conviction Low-Medium; revisit_after_30d false. Re-check on FY27 quarterly margin and receivable trends.",
+    "2026-09-12 deep-dive pass 1: Q1 FY27 (+24% revenue/+38% PAT) confirms the growth thesis, but surfaces two new governance-adjacent flags (Rs 10,000 Cr borrowing-limit approval, contested RPT vote at the Aug 2026 AGM) and a live market signal questioning margin quality on new BOS-scope orders. Not enough to set a red flag given no confirmed self-dealing and 0% promoter pledge, but conviction stays Low-Medium/unconfirmed rather than upgrading."
   ],
   "red_flag_tier": null,
   "red_flag_reason": null,
@@ -103,19 +105,150 @@
     "note": "FY26 ROCE ~39% / ROE ~36%, OPM expanded 6%->12% FY22->FY26. Borrowings Rs 292 Cr vs EBITDA ~Rs 340 Cr FY26 (~0.8x). Cash conversion thin (CFO Rs 125 Cr FY26) because revenue is tripling and solar EPC is working-capital-heavy - trailing 3y (CFO-capex)/EBITDA barely positive. Asset-light EPC keeps ROCE high; empty VP thread means receivables/margin durability are unscrutinised."
   },
   "market_expectation": {
-    "as_of": "2026-09-10",
+    "as_of": "2026-09-12",
     "price": 289,
     "current_pe": 14.8,
     "current_ev_ebitda": null,
     "valuation_tool": "P/E",
     "implied_growth_cagr": "~15x trailing on ~80% revenue growth and a 2.5x-revenue order book is undemanding on the growth rate; solar/telecom EPC contractors rarely sustain a multiple much above mid-to-high teens, so the exit multiple - not growth - is the binding assumption",
-    "our_fy27_estimate": "revenue ~Rs 4,300-4,800 Cr (+50-70% per guidance on the Rs 7,147 Cr order book), OPM ~11-12%, PAT ~Rs 290-340 Cr",
+    "our_fy27_estimate": "revenue ~Rs 4,300-4,800 Cr (+50-70% per guidance, Q1 FY27 already +24% on a rising base), EBITDA margin 11-12% per management's own guidance (not expansion), PAT ~Rs 290-340 Cr",
     "our_fy28_estimate": "revenue ~Rs 6,000-6,800 Cr, PAT ~Rs 400-470 Cr",
     "gap_direction": "underestimated",
     "gap_type": "duration",
     "gap_magnitude_pct": 50,
-    "gap_basis": "~15x P/E on FY26 PAT ~Rs 195 Cr with ~80% revenue growth, ~39% ROCE and a Rs 7,147 Cr order book. Our FY28 PAT ~50% above what a flat ~15x on ~20% assumed growth implies - near-term growth is under-priced, though the EPC re-rating ceiling caps the upside multiple.",
+    "gap_basis": "~15x P/E on FY26 PAT ~Rs 195 Cr with ~80% revenue growth, ~39% ROCE and a Rs 7,147 Cr order book; Q1 FY27 (+24% revenue/+38% PAT) confirms the growth path but management's own 11-12% margin guidance is flat, not expanding, and the market itself flagged margin worries on a new BOS-scope order — near-term growth still looks underpriced but the margin-expansion leg of the bull case is not confirmed by management's own guidance",
     "evidence_quality": "moderate",
     "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-12",
+    "sources_reviewed": [
+      "Q1 FY27 results + concall (Aug 2026)",
+      "14th AGM (2026-08-21) resolutions — RPT, borrowing limit, dividend",
+      "6mo BSE announcements — Rs 816 Cr NTPC BOS order, KCS Engineering acquisition"
+    ],
+    "annual_report_findings": [
+      "FY26: revenue Rs 2,843 Cr (from Rs 1,571 Cr FY25), PAT Rs 211 Cr, debt/equity 0.43, promoter holding 61.52% with 0% pledge (no pledge risk found)",
+      "14th AGM (2026-08-21): shareholders approved raising the board's borrowing limit to Rs 10,000 Cr under Sec 180(1)(c) — a large jump relative to ~Rs 3,182 Cr market cap and ~Rs 2,843 Cr revenue; standard-form authorization but the scale warrants monitoring for an actual large debt raise",
+      "The AGM's related-party-transaction resolution passed with only ~11.52% reported support/dissent figure in press coverage — the exact framing (for vs against) could not be confirmed from available sources this pass; flagged as an open question given the empty VP thread provides no independent scrutiny",
+      "Bondada Dynamics (subsidiary) acquired 75% of KCS Engineering Solutions (defence/aerospace, DRDO/ISRO/BEL-linked clientele) — company explicitly stated this is NOT a related-party transaction and no promoter-group interest exists in orders awarded to KCS"
+    ],
+    "quarterly_trend": [
+      "Q1 FY27: consolidated revenue +23.98% YoY to Rs 691.65 Cr, PAT +38.23% to Rs 52.89 Cr, PBT +26.89%",
+      "Segment mix: EPC +25.43% YoY (Rs 600.25 Cr), Services +39.39% (Rs 50.21 Cr), Products -4.78% (Rs 41.19 Cr)",
+      "Management guided an explicit long-term target of 11-12% EBITDA margin / 7% PAT margin for FY27 — a ceiling-setting guidance consistent with the EPC-multiple-ceiling caveat already in the thesis",
+      "Market reacted negatively (-3%) to the fresh Rs 816 Cr NTPC BOS order (600 MW Rajasthan solar), citing margin worries on Balance-of-System scope specifically — a live signal that not all new order intake is equally accretive"
+    ],
+    "recent_announcements": [
+      "2026-06-17: Rs 1,338 Cr NTPC REL solar+BESS award (already known)",
+      "2026-07-30: Bondada Dynamics to acquire 75% of KCS Engineering Solutions (defence/aerospace) — new segment entry",
+      "2026-08 (exact date unclear): Rs 816 Cr NTPC Green Energy BOS order for 600 MW Rajasthan solar, 16-month execution — stock fell ~3% on margin concerns",
+      "2026-08-21: 14th AGM — FY26 accounts adopted, dividend declared, borrowing limit raised to Rs 10,000 Cr, RPT resolution passed with a notably high reported dissent/support figure (~11.52%)"
+    ],
+    "key_new_facts": [
+      "Q1 FY27 confirms the growth and margin trajectory are intact (+24% revenue, +38% PAT, EPC segment leading)",
+      "A large Rs 10,000 Cr borrowing-limit approval and an unusually contested RPT resolution at the FY26 AGM are new governance-adjacent data points not previously assessed — neither is confirmed as a hard red flag, but both warrant a closer look than the prior pass gave the (still-empty) VP thread",
+      "The market itself is now discriminating between order types on margin quality (BOS-scope orders read as lower-margin) — a real-time confirmation of the EPC-margin-ceiling caveat already in the thesis",
+      "Defence/aerospace diversification via KCS Engineering is a new growth vector beyond solar/BESS/telecom, expanding the TAM but also execution scope"
+    ],
+    "open_questions": [
+      "Exact nature and beneficiary of the RPT resolution voted on at the FY26 AGM — press coverage gives a bare percentage without clarifying for/against or transaction detail",
+      "Whether the Rs 10,000 Cr borrowing limit reflects an imminent large debt-funded expansion or is routine board-flexibility authorization (common in India for fast-growing EPC names)",
+      "Margin trajectory on the BOS-scope NTPC order vs the company's blended 11-12% EBITDA guidance"
+    ],
+    "conviction_update": "Low-Medium -> Low-Medium. Q1 FY27 fundamentals (revenue +24%, PAT +38%) keep the growth thesis intact and support the existing 'unconfirmed 10x' framing, but two new governance-adjacent flags (the Rs 10,000 Cr borrowing-limit approval and the contested RPT vote) plus a live market signal on order-margin quality reinforce rather than resolve the empty-thread/execution-risk caveat already priced into the Low-Medium rating. Not enough to declare a red flag; enough to keep this firmly unconfirmed."
+  },
+  "commitments": [
+    {
+      "area": "orders",
+      "text": "Rs 7,147 Cr order book (Mar 2026) executing over 18-20 months",
+      "specifics": "~65% solar EPC, BESS + telecom + Kavach + emerging defence/aerospace",
+      "timeline_bucket": "beyond",
+      "quality_stage": "commercial",
+      "source": "FY26 AR/concall",
+      "dependency": "execution bandwidth + working capital",
+      "single_point_of_failure": "",
+      "thesis_critical": true
+    },
+    {
+      "area": "margin",
+      "text": "Long-term guidance 11-12% EBITDA margin / 7% PAT margin for FY27",
+      "specifics": "11-12% EBITDA, 7% PAT",
+      "timeline_bucket": "FY27",
+      "quality_stage": "expectation",
+      "source": "Q1 FY27 concall Aug 2026",
+      "dependency": "order mix (BOS-scope orders read as lower-margin)",
+      "single_point_of_failure": "",
+      "thesis_critical": true
+    },
+    {
+      "area": "new_business",
+      "text": "Defence/aerospace entry via Bondada Dynamics' 75% acquisition of KCS Engineering Solutions",
+      "specifics": "DRDO/ISRO/BEL/BDL-linked client base",
+      "timeline_bucket": "12M",
+      "quality_stage": "action",
+      "source": "BSE filing Jul 2026",
+      "dependency": "integration + conversion to BKCS Technologies",
+      "single_point_of_failure": "",
+      "thesis_critical": false
+    },
+    {
+      "area": "growth",
+      "text": "FY27 revenue growth guidance ~60-70%",
+      "specifics": "60-70% YoY",
+      "timeline_bucket": "FY27",
+      "quality_stage": "expectation",
+      "source": "FY26 concall",
+      "dependency": "order-book execution pace",
+      "single_point_of_failure": "",
+      "thesis_critical": true
+    }
+  ],
+  "earnings_chain": {
+    "chain": [
+      "order book (Rs 7,147 Cr)",
+      "execution/revenue recognition",
+      "revenue growth (guided 60-70% FY27)",
+      "EBITDA margin (guided 11-12%)",
+      "PAT (guided 7% margin)"
+    ],
+    "bottleneck_link": "order mix — margin-dilutive BOS-scope work vs full-EPC scope",
+    "operating_leverage": "unclear — guidance holds margin roughly flat rather than expanding with scale",
+    "evidenced_links": [
+      "order book",
+      "Q1 FY27 revenue +24%/PAT +38%"
+    ],
+    "assumed_links": [
+      "EBITDA margin holding 11-12%",
+      "60-70% FY27 revenue growth"
+    ]
+  },
+  "catalyst": {
+    "event": "FY27 quarterly margin prints testing the 11-12% EBITDA guidance against the mix shift toward BOS-scope and defence/aerospace orders; clarity on the RPT-vote dissent and borrowing-limit usage",
+    "expected_window_months": 6,
+    "window_start": "2026-09-12",
+    "evidence_quality": "med",
+    "is_dated": false,
+    "status": "pending"
+  },
+  "earnings_quality": {
+    "margin_driver": "mixed",
+    "drivers": [
+      "scale/operating leverage on a fast-growing order book",
+      "order mix shifting toward BOS-scope work the market itself flagged as lower-margin"
+    ],
+    "peak_margin_risk": true,
+    "normalised_note": "ROCE ~39% and OPM ~12% are strong but achieved during a period of extremely rapid revenue tripling; management's own flat 11-12% EBITDA guidance for FY27 (not expansion) plus the market's negative reaction to a BOS-scope order suggest current margins may not be the trough-to-peak trend they appear, i.e. some cyclical/mix element to the recent margin level."
+  },
+  "management_quality": {
+    "capital_allocation": "Aggressive but so-far-productive reinvestment into solar/BESS EPC capacity and a new defence/aerospace vertical (KCS acquisition); no track record yet through a down-cycle",
+    "capital_allocation_track_record": "unclear",
+    "rpt_trend": "unclear",
+    "guidance_credibility": "no-track-record",
+    "shareholder_returns": "unclear",
+    "capability_ladder_note": "Explicit move from pure EPC execution into own IPP/BESS assets and now defence/aerospace (KCS) — visible value-chain climbing, unproven at scale",
+    "assessment": "concern",
+    "note": "FY26 AGM approved a Rs 10,000 Cr borrowing limit and passed an RPT resolution with an unusually high reported dissent/support figure (~11.52%) that could not be clarified from available sources this pass — not a confirmed red flag, but the empty VP thread means no independent community scrutiny exists, so this is marked a soft concern pending clarification rather than a red-flag-tier finding."
   }
 }

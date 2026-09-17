@@ -1,0 +1,51 @@
+{
+  "name": "Omax Autos",
+  "tagline": "Small-cap auto-ancillary sheet-metal component maker for commercial-vehicle and railway OEMs; strong FY26 growth off a low ROCE base, no named structural inflection found.",
+  "business_overview": "Omax Autos Ltd (NSE/BSE: OMAXAUTO) manufactures automotive sheet-metal components, supplying major OEMs in the commercial-vehicle and railway sectors. Seeded via X (untrusted triage, @Disciplined_Inv, very-high conviction bullish view).",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 411 Cr"],
+    ["ROCE", "~9.43%"],
+    ["ROE", "~6.84% (varies 3.4-10.7% by source/period)"],
+    ["Revenue growth (FY26)", "+31.21% YoY to ~Rs 484.5 Cr; historical 5-yr avg ~15.9%/yr"],
+    ["Net profit (FY26)", "+71.90% YoY to ~Rs 37.0 Cr"],
+    ["Debt/Equity", "~0.22 (reduced)"],
+    ["52-week range", "~Rs 84.65 - Rs 265.85"]
+  ],
+  "fundamentals_narrative": "FY26 showed a strong revenue (+31%) and profit (+72%) jump, but this comes off a low base: ROCE (~9.4%) and ROE (~6.8%) remain well below what would signal a genuine structural inflection, and the business is a commodity-adjacent sheet-metal/auto-ancillary supplier rather than one with pricing power. Debt has been reduced (D/E ~0.22), a positive. No named management initiative, capacity catalyst, or new-client win was found that would explain the FY26 jump as more than a cyclical OEM order upcycle.",
+  "technical_read": "52-week range ~Rs 85-266 (>3x) - highly volatile small-cap; not pulled in further detail given the fundamentals-driven outcome.",
+  "sentiment_summary": "No forum thread check performed - four_box score falls in the hard-neither band, so Step 7 was skipped per the rules; topic_id remains null.",
+  "community_signal": "X seed only: @Disciplined_Inv (untrusted X triage), bullish, very-high conviction. No independent corroboration sought this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No SEBI/fraud/going-concern issues found. Two governance items noted but assessed as non-material: (1) Internal Auditors M/s. Singhi Chugh & Kumar resigned effective 14-Jan-2026 (internal, not statutory auditor - routine-severity item, not treated as a HIGH CAUTION trigger); (2) a ransomware attack on IT infrastructure was disclosed and the company reported systems restored. Promoters (16 entities) declared no share encumbrance for FY26.",
+  "bull_case": [
+    "FY26 revenue +31.2% and net profit +71.9% YoY - a real, recent acceleration",
+    "Debt reduced, D/E now ~0.22",
+    "No promoter pledge; clean encumbrance declaration for FY26"
+  ],
+  "bear_case": [
+    "ROCE (~9.4%) and ROE (~6.8%) remain low - no evidence of a durable margin/return-on-capital step-change, just a strong single-year print",
+    "Commodity sheet-metal auto-ancillary business with limited pricing power / moat",
+    "Internal-auditor resignation and a disclosed ransomware attack are governance-adjacent yellow flags, even though neither rises to a HIGH CAUTION red flag on the evidence found",
+    "Source is untrusted X triage only, no independent corroboration"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 411 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Entity confirmed as Omax Autos Ltd (NSE/BSE: OMAXAUTO). Strong FY26 revenue/profit growth off a low ROCE/ROE base, no named structural inflection or moat evidence found. Conviction Low.",
+  "verdict_reasoning": [
+    "four_box = 1.5 (tailwind weak - one strong FY26 print but no named catalyst behind it; tam no - no expanding addressable market identified; moat weak - commodity sheet-metal auto-ancillary supplier; valuation weak - low ROCE/ROE despite growth). Score sits at the hard-neither boundary (<=1.5).",
+    "No red flag found rising to AVOID/EXCLUDE/HIGH CAUTION - internal auditor resignation (not statutory) and a disclosed-and-resolved ransomware incident are noted but not treated as red flags on the evidence found.",
+    "Step 7 forum check skipped per the four_box outcome; topic_id stays null.",
+    "Source is untrusted X seed (Disciplined_Inv) only - fast fundamentals triage, not a verified deep-dive."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "no",
+    "moat": "weak",
+    "valuation": "weak",
+    "score": 1.5,
+    "note": "Strong FY26 revenue/profit growth (+31%/+72%) but off a low ROCE (~9.4%) base with no named structural catalyst - reads as a cyclical OEM-order upcycle, not a fresh inflection."
+  },
+  "value_chain": null
+}

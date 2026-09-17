@@ -1,0 +1,54 @@
+{
+  "name": "FlySBS Aviation Limited",
+  "tagline": "NSE/BSE-listed private-charter aviation operator (single 13-seater Embraer Legacy 600, dry-lease model) with genuinely strong ROE/ROCE and low debt, but a single-aircraft concentration risk and a niche ultra-elite TAM keep the four-box score short of a clear thesis fit.",
+  "business_overview": "FlySBS Aviation Ltd is a DGCA-approved non-scheduled airline operator providing private, non-scheduled air charter services from India to an elite clientele, operating one 13-seater Embraer Legacy 600 aircraft under a dry-lease model across domestic and long-haul international routes (Far East, Middle East, New Zealand, Arctic Europe, North America, as far as Mauritania). Listed on NSE (FLYSBS) and BSE (95380) via an SME IPO on 8 August 2025 that raised ~Rs 102.5 Cr (fresh issue only), debuting at a 90% listing-day premium. Entity confirmed via NSE/BSE listing matching state.json name 'Flysbs'.",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 1,156 Cr"],
+    ["52-week range", "~Rs 355 - Rs 790"],
+    ["Revenue", "~Rs 319 Cr"],
+    ["Net profit", "~Rs 60.8 Cr (implied P/E ~19x)"],
+    ["ROE", "26.23%"],
+    ["ROCE", "34.67%"],
+    ["Debt/Equity", "0.12 - low"],
+    ["Promoter holding", "~32.5% - relatively low"]
+  ],
+  "fundamentals_narrative": "The numbers are genuinely strong for a recent SME IPO: ROE 26%, ROCE 35%, low leverage (D/E 0.12), and a reasonable implied P/E (~19x) against those returns. The structural caveat is the business model itself - a single aircraft under dry lease is a severe concentration/key-asset risk (any extended maintenance, loss, or lease disruption directly halts revenue), and the addressable market (ultra-elite non-scheduled charter) is inherently small and niche versus a scaled aviation business. Promoter holding at ~32.5% is on the lower side for an SME-platform company, worth watching but not itself a red flag.",
+  "technical_read": "Recent range Rs 355-790, last quoted ~Rs 579 (mid-August 2026) - well off the highs, elevated volatility typical of a newly listed SME stock.",
+  "sentiment_summary": "No forum thread check performed this pass - four_box score (2.5) sits in the 'defaults neither unless explicit exception' band; no ValuePickr topic_id resolved (state.json topic_id null), and budget did not extend to a search.json lookup given the score.",
+  "community_signal": "None sought this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No AVOID/EXCLUDE/HIGH CAUTION criteria found (no negative net worth, no SEBI/fraud action, no promoter-pledge collapse, no auditor resignation surfaced in searches run). Single-aircraft concentration is flagged as a structural business-model risk, not a red flag per the defined tiers.",
+  "bull_case": [
+    "Strong, real returns: ROE 26%, ROCE 35%, low debt (D/E 0.12)",
+    "Reasonable valuation for the return profile (~19x trailing P/E)",
+    "Rising India UHNI/private-charter demand is a genuine, if niche, tailwind",
+    "Untrusted X source flagged this as a high-conviction bullish call, and the reported fundamentals do not contradict that"
+  ],
+  "bear_case": [
+    "Single-aircraft fleet (one Embraer Legacy 600, dry-leased) is a severe concentration/key-asset risk - no redundancy if the aircraft is grounded",
+    "Very niche addressable market (ultra-elite non-scheduled charter) limits scalability without material capex to add aircraft",
+    "Promoter holding relatively low (~32.5%) for a recently listed SME company",
+    "Newly listed (Aug 2025) with a short public trading and reporting history - limited multi-cycle track record"
+  ],
+  "market_cap_tier": "Small-cap / SME (~Rs 1,156 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Entity confirmed as FlySBS Aviation Ltd (NSE:FLYSBS / BSE:95380). Strong ROE/ROCE and low debt are real, but single-aircraft concentration risk and a niche TAM cap the four-box score at 2.5 - defaults to 'neither' with no exception written. Conviction Medium.",
+  "verdict_reasoning": [
+    "Entity resolution: NSE + BSE listing confirms 'FlySBS Aviation Limited' as the match for state.json name 'Flysbs' - single unambiguous candidate found.",
+    "No red flag under the defined criteria.",
+    "four_box score 2.5 (tailwind yes, tam weak, moat weak, valuation weak) - falls in the 2.0-2.5 band that defaults to 'neither' unless an explicit exception is written; single-aircraft concentration risk is judged material enough that no exception is taken here.",
+    "Conviction set to Medium (not Low) given the genuinely strong ROE/ROCE/debt profile, but capped below High by the business-model concentration risk.",
+    "Skipped topic_id/forum resolution given the fast-lane budget and boundary (not clearly 'genuinely promising') score."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "yes",
+    "tam": "weak",
+    "moat": "weak",
+    "valuation": "weak",
+    "score": 2.5,
+    "note": "Rising India UHNI/private-charter demand is a real tailwind; TAM is niche/small by nature of ultra-elite charter; DGCA licensing plus capital intensity give some moat but single-aircraft concentration undercuts it; valuation reasonable (~19x P/E for 26% ROE) but not clearly cheap, hence weak not yes."
+  },
+  "value_chain": null
+}

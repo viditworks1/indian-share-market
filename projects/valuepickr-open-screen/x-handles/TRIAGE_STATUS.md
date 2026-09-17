@@ -1,1 +1,1 @@
-IN PROGRESS — x-handle-triage started 2026-09-02; 35/103 deep-pass handles triaged (68 remaining as of 2026-09-07).
+SCOPE COMPLETE 2026-09-13 — all 103 deep-pass handles triaged.

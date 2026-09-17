@@ -1,0 +1,50 @@
+{
+  "name": "Trejhara Solutions Ltd",
+  "tagline": "Small-cap BFSI-focused software/IT services company with a large one-year revenue spike but chronically weak returns on capital - the numbers don't yet support a real thesis.",
+  "business_overview": "Trejhara Solutions is a small-cap IT services/software company (NSE: TREJHARA) in the BFSI-adjacent software space. Seeded 2026-09-13 via untrusted X triage (@rajuidesai, medium conviction). Statutory auditor Bajrang Paras & Co resigned in the recent past, explained as a shift in the audit firm's own business focus toward advisory services rather than any company-specific issue; promoters have filed the routine SEBI Regulation 31(4) disclosure confirming no new share encumbrance in FY2025-26.",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 345 Cr (down ~-31.6% over 1 year)"],
+    ["Revenue / Profit", "Revenue ~Rs 177 Cr; Net profit ~Rs 12.8 Cr"],
+    ["ROE", "~2.98% (3-year average) - weak"],
+    ["Revenue growth", "Latest-year growth ~388% (likely low-base/one-off contract effect); 5-year revenue CAGR ~24.83% vs industry median ~2.48%"],
+    ["Debt", "Almost debt-free"],
+    ["Promoter holding", "~33.9% - low for a small-cap"],
+    ["52-week range", "Rs 139.0 - Rs 284.8"]
+  ],
+  "fundamentals_narrative": "Headline revenue growth looks dramatic (388% YoY) but the 3-year average ROE of just ~2.98% shows this has not translated into real capital returns - either margins are thin, the base year was unusually depressed, or growth is not yet profitable at scale. Debtor days have improved (131 -> 86.2) and working-capital days have fallen sharply (680 -> 75.9), which is a genuine operational positive, but a P/E in the high-20s on a company earning under 3% ROE is not obviously cheap. Promoter holding at 33.9% is low for a small-cap of this size, and no dividend is paid despite reported profits.",
+  "technical_read": "Not pulled - stock down ~32% over the past year and well off its 52-week high (Rs 284.8 vs current levels); not relevant given the weak fundamental screen.",
+  "sentiment_summary": "No forum check performed - four_box score is well below the promising threshold, so per the fast-triage rule no ValuePickr search was run.",
+  "community_signal": "None found - not searched given weak fundamentals.",
+  "trusted_signals": [],
+  "bse_notes": "No red flag found: auditor resignation (Bajrang Paras & Co) was explained as the audit firm's own strategic pivot away from audit services, not a company-specific concern; promoters confirmed no new share pledge/encumbrance in FY2025-26 via standard SEBI filing.",
+  "bull_case": [
+    "Explosive headline revenue growth (388% latest year) and a strong 5-year revenue CAGR (~24.83%) well above the industry median",
+    "Working-capital efficiency improving sharply (debtor days and WC days both down substantially)",
+    "Almost debt-free balance sheet"
+  ],
+  "bear_case": [
+    "ROE of just ~2.98% (3-year average) - growth has not converted into real shareholder returns",
+    "Low promoter holding (33.9%) for a small-cap of this size",
+    "No dividend despite reported profitability; stock down ~32% over the past year",
+    "Revenue growth spike likely reflects a low base or one-off contract rather than a durable structural inflection - no specific driver identified"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 345 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Headline revenue growth is real but ROE of ~3% shows it isn't yet profitable growth - fundamentals don't support a thesis at this stage. thesis_fit 'neither', conviction Low.",
+  "verdict_reasoning": [
+    "four_box = 1.0 (tailwind weak - generic BFSI-software demand, no specific named driver; tam no - unclear differentiated market; moat no - ROE of ~3% shows no evident pricing power or scale advantage; valuation weak - high-20s P/E is not cheap for this return profile). Score <=1.5, so 'neither' applies hard per the fast-triage rule.",
+    "No red flag found (auditor change and promoter disclosure both explained/routine), so this is a plain fundamentals-driven pass rather than a red-flag disposition.",
+    "Forum/community check skipped - not promising enough to warrant the additional search per the fast-triage rules."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "no",
+    "moat": "no",
+    "valuation": "weak",
+    "score": 1.0,
+    "note": "Generic BFSI/software demand only (no named driver); ROE ~3% argues against real moat/pricing power; P/E in the high-20s is not cheap for that return profile despite strong topline growth."
+  },
+  "value_chain": null
+}

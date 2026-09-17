@@ -1,0 +1,50 @@
+{
+  "name": "Shiprocket Ltd",
+  "tagline": "Recently-IPO'd (Aug 2026) e-commerce shipping/logistics aggregator SaaS platform for D2C sellers - fast-growing but still loss-making, in a crowded, low-switching-cost aggregator space.",
+  "business_overview": "Shiprocket is a cloud-based shipping/logistics aggregation and fulfilment SaaS platform for Indian D2C and e-commerce sellers - it plugs sellers into multiple courier partners, provides NDR (non-delivery-report) management, returns handling and (more recently) fulfilment/warehousing services. Listed on NSE/BSE in August 2026 (IPO priced at Rs 97/share). Seeded via untrusted X triage (@JakeraChoudhury, Sept 2026) as an EXIT-call view with very-high stated conviction.",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 9,749 Cr"],
+    ["52-week range", "~Rs 124 - Rs 157 (since Aug 2026 listing)"],
+    ["ROE", "~-11.8% (3-yr avg) - loss-making"],
+    ["Revenue growth", "Q1 FY27 +34% YoY (~Rs 592 Cr)"],
+    ["Debt/equity", "~0.04 - low balance-sheet debt"],
+    ["Listing", "IPO Aug 19 2026 at Rs 97/share"]
+  ],
+  "fundamentals_narrative": "Shiprocket is growing fast on the top line (+34% YoY) with almost no balance-sheet debt, but it is still loss-making with a negative 3-year average ROE (~-11.8%) - typical of a recently-listed, still-unprofitable internet/SaaS aggregator. The shipping-aggregator model has low switching costs for sellers and faces direct competitors (Shyplite, ClickPost, Pickrr/Shipway, plus large couriers building their own seller tools), which caps pricing power. No red flags (no going-concern, no fraud/SEBI action) - this is a growth-vs-profitability trade-off case, not a distress case.",
+  "technical_read": "Trading in a narrow band since its August 2026 listing (~Rs 124-157); no meaningful multi-year chart history yet given the recent IPO.",
+  "sentiment_summary": "No forum thread found/read (topic_id null, no dedicated ValuePickr thread surfaced this pass - stock only listed a month ago). Assessment is web/filings-based only.",
+  "community_signal": "None on ValuePickr this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No red flags found - no going-concern, pledge, or SEBI/fraud issues. Recently listed (Aug 2026), so limited financial-history depth.",
+  "bull_case": [
+    "Genuine e-commerce logistics tailwind in India; low balance-sheet debt (D/E ~0.04)",
+    "Revenue growing well (+34% YoY in the latest quarter)",
+    "Large addressable market of D2C/e-commerce sellers needing multi-courier orchestration"
+  ],
+  "bear_case": [
+    "Still loss-making with negative 3-yr average ROE (~-11.8%) - no profitability proof point yet",
+    "Aggregator model has weak moat: low seller switching costs, several direct competitors (Shyplite, ClickPost, Pickrr), and couriers disintermediating via their own tools",
+    "Original X source (@JakeraChoudhury) framed this as an EXIT call with very-high conviction - a bearish signal that lines up with the negative-ROE, weak-moat read",
+    "Very short listed history (since Aug 2026) - limited track record to underwrite a multi-year thesis"
+  ],
+  "market_cap_tier": "Small/mid-cap (~Rs 9,749 Cr), recently listed",
+  "thesis_fit": "neither",
+  "verdict_headline": "Fast-growing but still loss-making e-commerce logistics aggregator with a weak moat in a crowded space; four_box score 2.5 does not clear the bar for a 10x/100x label. thesis_fit 'neither', conviction Low.",
+  "verdict_reasoning": [
+    "four_box = 2.5 (tailwind yes, tam yes, moat weak - low switching costs/crowded aggregator field, valuation no - loss-making/negative ROE). Score in the 2.0-2.5 band defaults to 'neither' with no exception written.",
+    "No red flag (no going-concern/fraud/pledge issue) - this is a profitability/moat-quality call, not a distress exclusion.",
+    "Original signal was an X exit-call (bearish, very-high conviction) - independent fundamentals (negative ROE, competitive aggregator model) corroborate rather than contradict that bearish framing.",
+    "No forum thread found/read; recently listed (Aug 2026) with limited track record."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "yes",
+    "tam": "yes",
+    "moat": "weak",
+    "valuation": "no",
+    "score": 2.5,
+    "note": "Real e-commerce-logistics tailwind and large TAM, but the shipping-aggregator model has low switching costs and multiple direct competitors (moat weak), and the company is still loss-making with negative ROE (valuation no)."
+  },
+  "value_chain": null
+}

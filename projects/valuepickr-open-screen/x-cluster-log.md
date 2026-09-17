@@ -236,3 +236,36 @@ cyient, dixon-technologies, zydus-lifesciences, beml, ksb-ltd, bluspring-enterpr
 
 ## 2026-09-10 (same-day no-op)
 - x_cluster.json.last_run_date already 2026-09-10 and a scan block for today already exists above. Duplicate same-day fire — no scrape, no write-back. One scan per calendar day.
+
+## 2026-09-12
+- Scan (browser): 13 handles queried, 9 returned posts in-window, ~34 new tweets total (since=2026-09-02, gap since last run=2026-09-10). Per-handle new: ishmohit1 2, unseenvalue 18, itsTarH 0, persistencecap 0, LearningEleven 15, suru27 0, srisiv1 0 (empty), dhruvbajaj184 0 (empty), prabhakarkudva 0, Anand_shah07 3, saket1974 0, Finstor85 6, a_basumallick 11.
+- New candidates (source:trusted-x): none
+- Refreshed candidates: none
+- New watch-list names (source:trusted-x-watch): none
+- trusted_signals appended (already-researched): syngene-international (@unseenvalue — public contrarian bull post "Sticking my neck out in public on #Syngene... numbers will eventually speak louder than the narrative"; same handle had also posted a bearish reply on Syngene hours earlier same day — mixed/evolving signal, logged as-is, no floor/status/conviction change). Docx regenerated; analysis.md entry added.
+- Overflow / skipped: none (well under caps).
+- Notes: Browser path only, no Apify needed, no login walls. ishmohit1's 2 new posts were a product-teaser (StockScans/Interview Scans) and a political/incentive-bias musing — no named stock. unseenvalue's 18 new posts were dominated by book-recommendation replies, past-Neuland/Laurus retrospectives, and a fractal-pattern reference back to his own old Shilpa Medicare piece — none a new name. LearningEleven's 15 new posts were all personal/TV-show banter plus an ESDS-listing-emotion post (investor psychology commentary, not a business view) — skipped. Anand_shah07's 3 new posts were general investing-philosophy musings, no named stock. Finstor85's 6 new posts: a Quick-Heal/MSSP factual correction reply (no conviction lean) and a Haldiram's/Bikaji groundnut-oil trend comment (passing brand-name example in a generic FMCG-trend take, not a dedicated writeup) — both judged too weak to action; rest were non-Indian SaaS/general replies. a_basumallick's 11 new posts: a Genesys International "Stock Story Update: Reviewing the Annual Report 2026" Substack link (already researched/HIGH-CAUTION; tweet text carries no visible directional lean — not actioned) and a re-surfaced Airfloa Rail Technology stock-story link that is the SAME original tweet already used to onboard Airfloa on 2026-09-10 (trusted_signals entry already exists for it — no duplicate write) — id-cursor was simply behind for this handle; also a bare "#BEML" hashtag with no text/view, an Amazon-Bazaar retail-trend note (not Indian-listed), and a GLP-1 market-size stat with no company named — all skipped. suru27's new post (id exactly at prior cursor) was the only "new" item and had already been processed last run.
+- Mechanism: mcp__claude-in-chrome browser path, one javascript_tool extractor per handle, 3 batches of ~5/5/3. No walls/errors. Apify not used.
+
+## 2026-09-12 — x-cluster-promotion proposal (monthly; NOT yet applied — user action required)
+
+**Mechanical scoreboard is empty this cycle.** `x-handles/x-handle-scoreboard.md` shows "0 handles with a dossier" (generated 2026-09-02) and its own run log (`x-handle-ranking-log.md`) has never fired a real run — header only, no dated blocks. 42 per-handle dossiers now exist under `x-handles/dossiers/` (from `x-handle-triage`'s deep pass), but every `calls[].our_verdict` field in them is still `null` — `regen_x_scoreboard.py` only counts calls with a resolved verdict, so it correctly scores 0 across the board. Nothing to promote/drop from that pipeline until `x-handle-ranking` actually runs and fills verdicts. No ADD proposals this cycle as a result.
+
+### Propose ADD to x_cluster.json (tier: cluster)
+_(none — scoreboard has zero resolved-call handles to evaluate; see note above)_
+
+### Propose DROP (evidence from x_cluster.json cluster-tier handles + x-cluster-log.md, full ~6-week history since 2026-08-30 inception through 2026-09-10)
+- **@persistencecap** (cluster; added 2026-08-30, "Signal & Noise" deck) — lowest volume of the cluster from day one (6 tweets in the initial 30-day backfill) and zero posts returned in every single subsequent run (08-31, 09-01, 09-02, 09-04, 09-05, 09-07, 09-08, 09-09, 09-10). Zero usable signals, zero even attempted content, across the entire run history.
+- **@srisiv1** (cluster; added 2026-08-30, "@ishmohit1: 'prescient, never miss an interview'") — 3 tweets in the initial backfill, one macro/directional note on PSU + private banks (08-30, logged, not a stock call), then zero new posts every run since. No named-stock signal ever.
+- **@dhruvbajaj184** (cluster; added 2026-08-30, special-situations) — 29 tweets in the initial backfill (highest volume of the low-output group) bucketed as "mostly macro/psychology/framework" from the start, then zero new posts in every subsequent run. Meaningful volume produced zero business content — worth dropping rather than waiting further.
+- **@prabhakarkudva** (cluster; added 2026-08-30 for "PEAD / earnings-surprise commentary") — 20 tweets in the initial backfill, but every run since (notably ~10 new posts on 09-07) has been pure portfolio-construction/regime-awareness philosophy with zero named stocks. The PEAD content that motivated adding this handle has not materialized in 6 weeks.
+- **@Anand_shah07** (cluster; added 2026-08-30 for "psychology + themes" amplification) — steady posting volume (30, then 1-8 new tweets most runs) but every single post logged has been emoji replies / behavioural reflection, never a named stock or thesis. Zero usable signals in 6 weeks despite active posting.
+
+To apply any of the above: remove the corresponding entry from `x_cluster.json.handles`.
+
+### No change (close to the bar, or too new to judge fairly)
+- **@saket1974** (cluster; added 2026-08-31, pipe industry) — only ~12 days of history vs. the ~8-week bar; already flagged at addition as very low volume with no stock signal (5 tweets/30d). Revisit next cycle once it has a full window.
+- **@Finstor85** (cluster; added 2026-08-31, Ameya) — no conviction-tier signal, but did produce 2 watch-list contributions (chennai-petroleum-corporation 09-02, iifl-finance 09-08) plus a refreshed watch entry (antelopus-selan-oil-exploration) — some usable output, just below conviction grade. Not a drop.
+- **@itsTarH** (cluster; added 2026-08-30) — thin since inception (one conviction candidate, bliss-gvs-pharma, on 08-30 itself; only already-researched touches since) but the single signal falls inside the 6-week window, so it doesn't clear the "0 usable calls" drop bar yet. Worth watching next cycle.
+
+Note: `x-handles/TRIAGE_STATUS.md` still says **IN PROGRESS** (50/103 deep-pass handles triaged as of 2026-09-11) — the promotion pool is not yet complete.

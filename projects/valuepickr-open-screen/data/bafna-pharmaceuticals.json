@@ -1,0 +1,45 @@
+{
+  "name": "Bafna Pharmaceuticals Ltd",
+  "tagline": "Small-cap pharma formulations exporter with decent (not exceptional) returns trading at a rich ~90x trailing P/E - valuation doesn't support the fundamentals.",
+  "business_overview": "Bafna Pharmaceuticals (incorporated 1981) manufactures finished pharmaceutical formulations, with over 336 licensed formulations and 78 globally registered products. Seeded via an untrusted X tip (@rajuidesai, bullish, 2026-09-13).",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 700 Cr (price ~Rs 296)"],
+    ["52-week range", "~Rs 94.8 - 318"],
+    ["ROCE / ROE", "ROCE ~11.9%, ROE ~12.3%"],
+    ["Valuation", "Stock P/E ~89.8x trailing; Book value ~Rs 40.6"],
+    ["Dividend yield", "0%"]
+  ],
+  "fundamentals_narrative": "Returns are middling for a pharma formulations business (ROCE ~11.9%, ROE ~12.3%) - decent but not exceptional, and not obviously margin-expanding or compounding based on the data found this pass. Against that, the stock trades at a rich ~90x trailing P/E, implying the market is pricing in a growth/margin re-rating story that isn't evidenced in the current return metrics. The global product registrations (78) give some regulatory-moat character, but nothing found points to a specific named inflection (new large export contract, capacity step-change, margin re-rating already in motion) that would justify the current multiple.",
+  "technical_read": "Not pulled - stock is well off its 52-week high (~Rs 318 vs current ~Rs 296 is actually close; not independently verified this pass) - valuation is the binding constraint regardless of chart position.",
+  "sentiment_summary": "No forum check performed - fails the four-box screen before reaching Step 7 (fast triage).",
+  "community_signal": "None sought.",
+  "trusted_signals": [],
+  "bse_notes": "No red flag found (no negative net worth, no SEBI/fraud order, no auditor resignation, no promoter pledge/collapse identified in this pass).",
+  "bull_case": [
+    "78 globally registered formulations - some regulatory/registration moat",
+    "ROCE/ROE both positive and reasonable (~12%) with a clean enough balance sheet on the data found"
+  ],
+  "bear_case": [
+    "~90x trailing P/E against only ~12% ROCE/ROE is a very rich multiple with no evidenced re-rating catalyst",
+    "No named structural inflection (new large contract, capacity step-change, margin expansion already underway) found to justify the valuation",
+    "Middling, not exceptional, capital efficiency for a formulations exporter"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 700 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Decent-but-unexceptional pharma formulations exporter (ROCE ~11.9%, ROE ~12.3%) priced at a rich ~90x trailing P/E with no evidenced re-rating catalyst - valuation doesn't support the fundamentals.",
+  "verdict_reasoning": [
+    "No red flag (AVOID/EXCLUDE/HIGH CAUTION criteria not met).",
+    "four_box = 1.5 (tailwind weak - generic pharma-export tailwind only; tam weak - registrations give some reach but no specific inflection found; moat weak - registration-based, not dominant; valuation no - ~90x P/E vs ~12% ROCE/ROE is expensive). Score <=1.5 -> thesis_fit 'neither' hard per rule.",
+    "Fast triage disposition given the weak score; no forum deep-dive warranted."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "weak",
+    "valuation": "no",
+    "score": 1.5,
+    "note": "Generic pharma-export tailwind and 78 global product registrations give weak tailwind/tam/moat credit, but ~90x trailing P/E against only ~12% ROCE/ROE leaves valuation firmly 'no'."
+  }
+}

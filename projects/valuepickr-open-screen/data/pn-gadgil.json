@@ -1,0 +1,54 @@
+{
+  "name": "P N Gadgil Jewellers Ltd",
+  "tagline": "DUPLICATE CANDIDATE - same listed entity (NSE/BSE: PNGJL) as the existing slug data/p-n-gadgil-jewellers.json, which already carries a full deep-dive (VP topic_id 170360). Conclusions below mirror that existing research for consistency; the integrator should consider merging/de-duping the two state.json entries ('pn-gadgil' vs 'p-n-gadgil-jewellers').",
+  "business_overview": "PNG Jewellers is Maharashtra/Goa's #2 jewellery retail brand (190-year-old Pune heritage name), on an aggressive 78 -> 177-store rollout (COCO/FOCO/Lifestyle formats) by March 2029, with genuine 46% retail SSSG in Q1 FY27. Entity confirmed unambiguously - this is the identical company already researched under slug 'p-n-gadgil-jewellers' (state.json topic_id 170360). NOTE: this write-up condenses that existing deep-dive rather than re-doing the forum read from scratch, per this pass's efficiency mandate.",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 9,230 Cr (price ~Rs 627)"],
+    ["ROCE / ROE", "20.9% / 23.4% reported - but flattered by ~Rs 80-90 Cr of FY26 unhedged gold-price gains"],
+    ["Revenue / PAT (FY23-26)", "Rs 4,488 -> 10,739 Cr (~34% CAGR); PAT Rs 94 -> 410 Cr"],
+    ["Operating cash flow", "FY25/26 CFO -Rs 675 / -Rs 717 Cr - deeply negative as gold inventory builds for the rollout"],
+    ["Hedging credibility issue", "Management claimed '100% hedged' in FY25 calls vs ~70% actual admitted later; a trusted VP user (murali603) called the Q4 FY26 explanation a 'cooked story'"],
+    ["Debt / capital raise", "Borrowings ~Rs 1,737 Cr (D/E ~0.95); Rs 700 Cr QIP closed Aug 2026 at only a ~5% discount, institutionally subscribed"],
+    ["Store plan", "78 now -> 177 by March 2029 (COCO + FOCO + higher-margin Lifestyle formats)"]
+  ],
+  "fundamentals_narrative": "Condensed from the existing deep-dive on file (data/p-n-gadgil-jewellers.json): genuine organized-retail growth (46% SSSG, ~34% revenue CAGR) is real, but reported profit quality is compromised - an estimated Rs 80-90 Cr (~20%) of FY26 PAT came from unhedged gold-price gains, not operations, and management's hedging disclosure has a documented multi-quarter credibility problem. Operating cash flow has been deeply negative for two straight years (-Rs 675 Cr, -Rs 717 Cr) as the store rollout consumes working capital, funded by debt, gold-metal loans and a completed Rs 700 Cr QIP. The QIP closing at only a ~5% discount with institutional take-up is a genuine positive signal.",
+  "technical_read": "Not independently pulled this pass (reused from prior file).",
+  "sentiment_summary": "Not re-read this pass - the existing deep-dive (data/p-n-gadgil-jewellers.json, VP topic_id 170360) already covers 50 of 157 posts spanning Jul 2025-Jul 2026, documenting a credibility arc (initial excitement -> May 2026 hedging-disclosure controversy -> partial trust rebuild in the Jul 2026 Q1 FY27 concall).",
+  "community_signal": "murali603 (trusted) was the dominant critical voice on the hedging-disclosure issue - sustained scrutiny, not a conviction/buy call (per the existing deep-dive).",
+  "trusted_signals": [],
+  "bse_notes": "Promoter holding cut from 83.11% to 76.62% via the Aug 2026 QIP for MPS (<=75% promoter) compliance - a dilution requirement, not a stake-sale red flag.",
+  "bull_case": [
+    "Genuine organized-retail growth: 46% retail SSSG in Q1 FY27, ~34% revenue CAGR FY23-26",
+    "Rs 700 Cr QIP closed Aug 2026 at only a ~5% discount with institutional take-up - deleverages and validates the story",
+    "Higher-margin Lifestyle format is a real mix-up lever (targeting 30-35% gross margin vs ~12% legacy retail)",
+    "Valuation discount to Kalyan/Titan on reported P/E and P/B"
+  ],
+  "bear_case": [
+    "Documented multi-quarter management credibility problem on gold-hedging disclosure ('100% hedged' claimed vs ~70% actual)",
+    "~Rs 80-90 Cr (~20%) of FY26 PAT came from unhedged gold-price gains, not clean operations",
+    "Operating cash flow deeply negative for two straight years (-Rs 675 Cr FY25, -Rs 717 Cr FY26) - growth is externally funded",
+    "FOCO-format stores (~2.5% margin) become the majority of new openings, a structural margin drag"
+  ],
+  "market_cap_tier": "Small/Mid-cap (~Rs 9,230 Cr)",
+  "thesis_fit": "10x-in-2-3-years",
+  "verdict_headline": "DUPLICATE of slug 'p-n-gadgil-jewellers' (same entity, VP topic_id 170360) - reusing that existing deep-dive's verdict: real growth story undercut by a documented hedging-disclosure credibility problem and deeply negative operating cash flow. thesis_fit '10x-in-2-3-years' (four_box permits it), conviction held at Low.",
+  "verdict_reasoning": [
+    "This slug ('pn-gadgil', external-lead/X-triage source) resolves to the identical listed company already tracked under slug 'p-n-gadgil-jewellers' (VP forum topic_id 170360, full deep-dive on file dated 2026-09-08)",
+    "Rather than re-running the forum/fundamentals read from scratch (out of scope for this fast triage pass and duplicative of existing work), this file condenses that existing verdict for consistency across the two state.json entries",
+    "four_box = 3.0 reused unchanged from the existing deep-dive (tailwind + tam yes; moat + valuation weak) - permits the 10x label on growth-story merits",
+    "Conviction held at Low per the existing analysis: the hedging-disclosure credibility issue and two years of deeply negative operating cash flow outweigh the genuine SSSG/store-rollout growth",
+    "RECOMMENDATION FOR INTEGRATOR: merge or cross-reference state.json entries 'pn-gadgil' and 'p-n-gadgil-jewellers' to avoid tracking the same company twice"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "yes",
+    "tam": "yes",
+    "moat": "weak",
+    "valuation": "weak",
+    "score": 3.0,
+    "note": "Reused unchanged from the existing deep-dive on file (data/p-n-gadgil-jewellers.json): tailwind yes (organized-retail formalization); tam yes (78->177 store plan, under-penetrated regional market); moat weak (strong regional brand, no national moat, FOCO dilutes economics); valuation weak (~20x reported P/E below peers but on hedging-gain-inflated earnings)."
+  },
+  "conviction": "Low",
+  "value_chain": null
+}

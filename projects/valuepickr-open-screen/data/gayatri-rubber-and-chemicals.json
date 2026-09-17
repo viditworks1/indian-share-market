@@ -1,0 +1,48 @@
+{
+  "name": "Gayatri Rubbers and Chemicals Ltd",
+  "tagline": "Micro-cap reclaimed-rubber and rubber-chemicals manufacturer with strong headline metrics (39.5% ROCE, 31% revenue growth, near-zero debt) riding India's tyre-recycling/EPR push, but on a tiny base with a largely commodity moat.",
+  "business_overview": "Gayatri Rubbers and Chemicals Ltd (NSE: GRCL) manufactures reclaimed rubber, rubber products, rubber by-products and rubber chemicals from rubber scrap (largely end-of-life tyres), selling into tyre and rubber-goods manufacturers as a cost-effective substitute for virgin rubber. Entity confirmed via screener.in (ticker GRCL) matching the state.json name closely (minor 'Rubber'/'Rubbers' spelling variance only). Seeded 2026-09-13 via untrusted X triage (@rishithegreat41, high conviction).",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 255 Cr"],
+    ["CMP / 52-week range", "~Rs 444 (range ~Rs 307 - Rs 525)"],
+    ["ROCE / ROE", "39.5% / 33.1%"],
+    ["Revenue growth", "~31% YoY (TTM revenue ~Rs 67 Cr)"],
+    ["Debt / equity", "~4% (near debt-free)"]
+  ],
+  "fundamentals_narrative": "Headline numbers are genuinely strong for a micro-cap: high ROCE/ROE, healthy revenue growth and almost no leverage. The business rides a real regulatory tailwind - India's Extended Producer Responsibility (EPR) rules for waste tyres are pushing organized demand for reclaimed rubber/recycling capacity. However this is a tiny-revenue (~Rs 67 Cr) commodity-adjacent processor: reclaimed rubber is a substitute input priced off virgin-rubber/scrap spreads, with limited product differentiation. No P/E or margin detail could be confirmed in this pass, and the stock trades well off its 52-week low, so valuation comfort is unconfirmed.",
+  "technical_read": "CMP ~Rs 444 sits in the upper half of the 52-week range (Rs 307-525), i.e. a meaningful run-up off the low with headroom to the high - not pulled in depth this pass.",
+  "sentiment_summary": "One ValuePickr forum search (category 11/14/17) returned no clear dedicated thread for this name - top hits were an unrelated general concall-tracking thread and a railway-capex thread. No forum deep-read performed; topic_id could not be resolved.",
+  "community_signal": "External lead only (@rishithegreat41, untrusted X triage, high conviction) - no corroborating ValuePickr or trusted-X signal found this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No red flags found in this pass (no negative net worth, no SEBI/fraud mentions, no promoter-holding or auditor issues surfaced).",
+  "bull_case": [
+    "Regulatory tailwind: India's EPR rules for waste tyres are formalizing demand for reclaimed-rubber processing capacity",
+    "Strong capital efficiency (ROCE 39.5%, ROE 33.1%) and a near debt-free balance sheet (D/E ~4%)",
+    "31% YoY revenue growth off a small base gives genuine multi-year runway if it continues"
+  ],
+  "bear_case": [
+    "Very small revenue base (~Rs 67 Cr TTM) and micro-cap size (~Rs 255 Cr) mean limited data history and liquidity",
+    "Reclaimed rubber is a substitute/commodity input with limited pricing power or differentiation versus virgin rubber - moat is weak (scrap-sourcing logistics, not brand/IP)",
+    "No confirmed P/E or margin trend this pass, and CMP is well off the 52-week low - valuation comfort unconfirmed",
+    "Single untrusted-X seed with no forum corroboration found"
+  ],
+  "market_cap_tier": "Micro-cap (~Rs 255 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Strong ROCE/ROE and clean balance sheet on a genuine EPR/tyre-recycling tailwind, but a commodity-adjacent moat and unconfirmed valuation keep this at 'neither' rather than a confirmed 10x/100x call.",
+  "verdict_reasoning": [
+    "four_box score 2.5 (tailwind yes, tam weak, moat weak, valuation weak) falls in the 2.0-2.5 band, which defaults to 'neither' absent an explicit exception; the commodity/substitute nature of reclaimed rubber and lack of confirmed valuation data argue against writing that exception this pass",
+    "No red flags found; no forum thread resolved (topic_id null) despite one search attempt",
+    "Single untrusted external-lead seed (@rishithegreat41) - treat as an early-stage watch item, not a verified conviction call"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "yes",
+    "tam": "weak",
+    "moat": "weak",
+    "valuation": "weak",
+    "score": 2.5,
+    "note": "Genuine EPR/tyre-recycling regulatory tailwind (yes); reclaimed-rubber TAM is real but niche relative to virgin rubber (weak); moat rests on scrap-sourcing/compliance barriers rather than differentiation (weak); valuation unconfirmed with CMP well off 52-week low (weak)."
+  },
+  "value_chain": null
+}

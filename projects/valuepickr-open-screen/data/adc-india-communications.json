@@ -1,0 +1,46 @@
+{
+  "name": "ADC India Communications Ltd",
+  "tagline": "Small-cap telecom/IT networking connectivity products maker (copper/fiber physical connectivity, structured cabling) with strong ROCE/ROE and an almost debt-free balance sheet, but a rich ~47x P/E and no clear moat beyond being a components supplier in a competitive equipment category.",
+  "business_overview": "ADC India Communications manufactures and trades telecommunications and IT networking products - copper and fiber physical connectivity and structured cabling solutions for telecom and data-networking infrastructure. Seeded via untrusted X triage (@ParthaAwe, 2026-09-13, medium conviction).",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 1,058 Cr (price ~Rs 2,300)"],
+    ["ROCE / ROE", "ROCE ~31.4%; ROE ~24.2%"],
+    ["Valuation", "P/E ~47x; Book value ~Rs 188/share"],
+    ["Debt", "Almost debt-free"],
+    ["52-week range", "~Rs 1,150 - Rs 2,678"]
+  ],
+  "fundamentals_narrative": "Healthy return ratios (ROCE ~31%, ROE ~24%) and a clean, almost debt-free balance sheet, but revenue growth figures were not clearly available in this pass's sources, and the ~47x trailing P/E is rich for a connectivity-hardware/structured-cabling supplier - a category with limited pricing power and no strong evidence of a differentiated moat beyond product certification/relationships. Data-center and fiberization buildout is a real but generic sector tailwind, not company-specific.",
+  "technical_read": "Mid-range of 52-week band (~Rs 1,150-2,678); no further TA pulled.",
+  "sentiment_summary": "Not sought this pass - four_box score too low to justify forum check under the fast-triage budget.",
+  "community_signal": "Not sought this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No red flags found in this pass (screener/web sources only).",
+  "bull_case": [
+    "Strong ROCE (~31%) / ROE (~24%), almost debt-free",
+    "Benefits from generic data-center/fiberization/telecom-infra buildout tailwind"
+  ],
+  "bear_case": [
+    "Rich valuation (~47x P/E) without clearly confirmed high revenue growth",
+    "Commodity-ish connectivity/cabling hardware category - limited evidence of a durable moat",
+    "Revenue growth not clearly established this pass - open question"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 1,058 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Profitable, debt-free connectivity-hardware small-cap but rich valuation (~47x P/E) against an unconfirmed growth rate and no clear moat - four_box score too low for a 10x/100x label. thesis_fit 'neither', conviction Low.",
+  "verdict_reasoning": [
+    "four_box = 1.0 (tailwind weak - generic telecom/data-infra buildout; tam weak - modest structured-cabling market; moat no - commodity-ish connectivity hardware; valuation no - ~47x P/E without confirmed high growth). Score <=1.5 -> thesis_fit 'neither' hard per rule.",
+    "No red flag found; solid ROCE/ROE and debt-free balance sheet keep conviction at Low rather than excluding outright",
+    "No forum deep-dive performed - score too low to justify under fast-triage budget"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "no",
+    "valuation": "no",
+    "score": 1.0,
+    "note": "Generic telecom/data-infra fiberization tailwind; modest structured-cabling/connectivity TAM; no durable moat evident in a commodity-ish hardware category; valuation rich (~47x P/E) without confirmed high growth."
+  },
+  "value_chain": null
+}

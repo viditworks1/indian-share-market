@@ -1,0 +1,52 @@
+{
+  "name": "Atul Auto Ltd",
+  "tagline": "Gujarat-based three-wheeler (ICE + slow EV pivot) manufacturer with a sharp recent profit surge (Q1 FY27 PAT +290%) off a low base, but weak capital efficiency (ROCE ~11.3%, ROE ~9.3%), a full ~26x P/E, and an EV segment where it trails Bajaj (~36% EV-3W share) and M&M (~37.6% share) by a wide margin.",
+  "business_overview": "Atul Auto manufactures three-wheelers (goods and passenger segments) in petrol, diesel, LPG and electric variants, plus spare parts. Recent quarters show a strong volume/profit recovery, but the EV pivot - the segment's structural growth driver - is lagging larger competitors.",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 1,268 Cr"],
+    ["ROCE / ROE", "ROCE ~11.3%; ROE ~9.3%"],
+    ["Valuation", "P/E ~26.3x; Book value ~Rs 174; Dividend yield ~0.66%"],
+    ["Revenue / Profit", "Revenue ~Rs 890 Cr; Profit ~Rs 49.2 Cr"],
+    ["Recent growth", "Q1 FY27 revenue +43% YoY, PAT +290% YoY (off a weak prior-year base); June 2026 monthly sales +34.6% YoY"],
+    ["52-week range", "Rs 380 - Rs 597 (CMP ~Rs 456)"],
+    ["Promoter pledge", "Zero promoter pledging"]
+  ],
+  "fundamentals_narrative": "Atul Auto's headline growth numbers (Q1 FY27 revenue +43%, PAT +290%) look dramatic but are largely a low-base recovery in the ICE three-wheeler business, not evidence of a structural re-rating. The company's own EV three-wheeler sales are growing only in low single digits while Bajaj Auto (~36% share) and Mahindra & Mahindra (~37.6% share) have already captured the bulk of the fast-growing electric-3W segment - the part of the market with genuine long-term tailwind. Capital efficiency remains modest (ROCE ~11.3%, ROE ~9.3%) and at least one analyst source flags a high debt-to-EBITDA ratio alongside 'management efficiency' concerns even as operating profit grows. The stock's ~26x P/E is not cheap for these return metrics. Notably, the state.json seed note for this stock describes an 'exit call view' from the X source, not a bullish one - consistent with a cautious read here.",
+  "technical_read": "Trading mid-range of its Rs 380-597 52-week band; not the basis for this call.",
+  "sentiment_summary": "No forum thread check performed this pass (fast-triage budget; score-driven fast disposition).",
+  "community_signal": "Not sought this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No AVOID/EXCLUDE/HIGH CAUTION trigger (zero promoter pledge; no auditor resignation or SEBI/fraud order found).",
+  "bull_case": [
+    "Strong recent volume/profit recovery (Q1 FY27 PAT +290% YoY, monthly sales growth 30-75% YoY through H1 2026)",
+    "30% FY27 volume growth target set by management",
+    "Zero promoter pledge - no financial-stress signal at the promoter level"
+  ],
+  "bear_case": [
+    "EV three-wheeler sales growth is only low single digits, while Bajaj Auto (~36% EV-3W share) and M&M (~37.6% share) dominate the segment's real structural growth",
+    "Modest capital efficiency (ROCE ~11.3%, ROE ~9.3%) and a flagged high debt-to-EBITDA ratio despite recent profit growth",
+    "~26x P/E is not cheap for these return metrics",
+    "The X-source seed note itself frames this as an 'exit call,' not a bullish thesis - a signal against building fresh conviction here",
+    "Low institutional validation flagged as a red flag by outside analysts"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 1,268 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Sharp but low-base-driven ICE recovery, an EV segment where Atul Auto trails the two dominant players by a wide margin, modest capital efficiency, and a full ~26x P/E - four_box score 1.5 is a hard 'neither'. Conviction Low, reinforced by the seed note's own framing as an exit call.",
+  "verdict_reasoning": [
+    "four_box = 1.5 (tailwind weak - EV three-wheeler tailwind exists but Atul is not capturing it, ICE segment is mature; tam weak - three-wheeler TAM is decent but not explosive; moat weak - established dealer network but no pricing power or EV leadership; valuation no - ~26x P/E not cheap for ROE ~9.3%).",
+    "Score <=1.5 is a hard 'neither' per screen rules - no exception considered.",
+    "State.json notes_short explicitly frames the X-source signal as an 'Exit call view,' which corroborates rather than contradicts the cautious disposition here.",
+    "No red flag found; conviction kept Low given the combination of a hard-neither four_box score and the exit-call framing."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "weak",
+    "valuation": "no",
+    "score": 1.5,
+    "note": "EV three-wheeler tailwind is real but Atul is not capturing it (low single-digit EV growth vs Bajaj/M&M's dominant share); ICE recovery is largely a low-base bounce; ~26x P/E is not cheap for ROCE ~11.3%/ROE ~9.3%."
+  },
+  "value_chain": null
+}

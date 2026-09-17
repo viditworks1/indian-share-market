@@ -361,6 +361,70 @@ if (d.value_chain || d.earnings_quality || d.growth_trajectory || d.management_q
   }
 }
 
+if (d.shareholding_pattern || d.working_capital || d.sector_kpis || d.scenario_analysis) {
+  children.push(h("Fundamentals-Gap Checks (shareholding · working capital · sector KPIs · scenario analysis)"));
+  children.push(p(
+    "Extra fundamentals extracted from the same filings — informational only, not yet consumed by any scoring script.",
+    { italics: true, color: COLORS.muted, size: 18 }
+  ));
+
+  if (d.shareholding_pattern) {
+    const sh = d.shareholding_pattern;
+    if (sh.concurrent_red_flag) {
+      children.push(p("CONCURRENT RED FLAG: pledge rising while promoter holding falls in the same window", { bold: true, size: 20, color: COLORS.bear }));
+    }
+    children.push(p("Shareholding pattern:", { bold: true, size: 20 }));
+    children.push(kvTable([
+      ["Promoter %", sh.promoter_pct != null ? `${sh.promoter_pct}% (${sh.promoter_pct_trend || "unclear"})` : "—"],
+      ["Pledge %", sh.pledge_pct != null ? `${sh.pledge_pct}% (${sh.pledge_pct_trend || "unclear"})` : "—"],
+      ["FII/DII %", sh.fii_dii_pct != null ? `${sh.fii_dii_pct}% (${sh.fii_dii_pct_trend || "unclear"})` : "—"],
+      ["Quarters checked", (sh.quarters_checked && sh.quarters_checked.length) ? sh.quarters_checked.join(", ") : "—"],
+    ]));
+    if (sh.note) children.push(p(sh.note, { size: 18, color: COLORS.muted }));
+  }
+
+  if (d.working_capital) {
+    const wc = d.working_capital;
+    children.push(p("Working capital:", { bold: true, size: 20 }));
+    children.push(kvTable([
+      ["Inventory days", wc.inventory_days != null ? wc.inventory_days : "—"],
+      ["Receivable days", wc.receivable_days != null ? wc.receivable_days : "—"],
+      ["Payable days", wc.payable_days != null ? wc.payable_days : "—"],
+      ["Cash conversion cycle", wc.cash_conversion_cycle != null ? wc.cash_conversion_cycle : "—"],
+      ["3y trend", wc.trend_3y || "—"],
+      ["Vs sector", wc.sector_relative || "—"],
+    ]));
+    if (wc.note) children.push(p(wc.note, { size: 18, color: COLORS.muted }));
+  }
+
+  if (d.sector_kpis && d.sector_kpis.length) {
+    children.push(p("Sector KPIs:", { bold: true, size: 20 }));
+    d.sector_kpis.forEach((k) => {
+      const trendTxt = k.trend ? ` (${k.trend})` : "";
+      children.push(bullet(`${k.metric || "—"}: ${k.value || "—"}${trendTxt}${k.note ? " — " + k.note : ""}`));
+    });
+  }
+
+  if (d.scenario_analysis) {
+    const sc = d.scenario_analysis;
+    children.push(p(`Scenario analysis (closest to: ${sc.closest_to || "unclear"}):`, { bold: true, size: 20 }));
+    const row = (s) => s
+      ? `rev CAGR ${s.revenue_cagr_fy26_28_pct != null ? s.revenue_cagr_fy26_28_pct + "%" : "—"}, `
+        + `FY28 margin ${s.fy28_margin_pct != null ? s.fy28_margin_pct + "%" : "—"}, `
+        + `FY28 EPS ${s.fy28_eps != null ? s.fy28_eps : "—"}, `
+        + `exit ${s.exit_multiple != null ? s.exit_multiple + "x" : "—"}, `
+        + `implied price ${s.implied_price != null ? s.implied_price : "—"}`
+        + `${s.pct_vs_cmp != null ? ` (${s.pct_vs_cmp > 0 ? "+" : ""}${s.pct_vs_cmp}% vs CMP)` : ""}`
+      : "—";
+    children.push(kvTable([
+      ["Bull", row(sc.bull)],
+      ["Base", row(sc.base)],
+      ["Bear", row(sc.bear)],
+    ]));
+    if (sc.note) children.push(p(sc.note, { size: 18, color: COLORS.muted }));
+  }
+}
+
 children.push(h("Technical Read (Weekly / Monthly MACD + Bollinger Bands, or RSI/CCI/Williams %R proxy)"));
 children.push(p(d.technical_read));
 

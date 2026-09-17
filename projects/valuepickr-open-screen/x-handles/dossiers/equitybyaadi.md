@@ -8,8 +8,8 @@
   "discloses_names": false,
   "disclaimer_pattern": "refuses",
   "calls": [
-    { "stock": "Indotech Transformers", "slug": "indotech", "date": "2026-08-24", "direction": "bull", "conviction": "high", "quote": "Indotech transformers Rs.410 to Rs.4000 in 3 years... There was a strike and price fell 50%... We hold on to it and the rest is history", "new_to_screen": false, "our_verdict": null, "since_call_pct": null },
-    { "stock": "Kernex Microsystems", "slug": "kernex-tcas-led-multi-year-growth-story", "date": "2026-08-13", "direction": "bull", "conviction": "high", "quote": "Kernex Q1 surpassed entire FY26 revenue. 300 to 2300 journey completed. Next leg of growth begins", "new_to_screen": false, "our_verdict": null, "since_call_pct": null }
+    { "stock": "Indotech Transformers", "slug": "indotech", "date": "2026-08-24", "direction": "bull", "conviction": "high", "quote": "Indotech transformers Rs.410 to Rs.4000 in 3 years... There was a strike and price fell 50%... We hold on to it and the rest is history", "new_to_screen": false, "our_verdict": "red-flag", "since_call_pct": null },
+    { "stock": "Kernex Microsystems", "slug": "kernex-tcas-led-multi-year-growth-story", "date": "2026-08-13", "direction": "bull", "conviction": "high", "quote": "Kernex Q1 surpassed entire FY26 revenue. 300 to 2300 journey completed. Next leg of growth begins", "new_to_screen": false, "our_verdict": "agree", "since_call_pct": null }
   ],
   "watch_only_names": []
 }

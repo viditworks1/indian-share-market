@@ -8,7 +8,7 @@
   "discloses_names": false,
   "disclaimer_pattern": "refuses",
   "calls": [
-    { "stock": "Kimbal", "slug": "kimbal", "date": "2026-05-24", "direction": "bull", "conviction": "medium", "quote": "Absolutely loved speaking to Ayush Sinhal about how he is shaping up Kimbal to tap opportunities in the energy ecosystem; backed the founder across three consecutive rounds.", "new_to_screen": true, "our_verdict": null, "since_call_pct": null }
+    { "stock": "Kimbal", "slug": "kimbal", "date": "2026-05-24", "direction": "bull", "conviction": "medium", "quote": "Absolutely loved speaking to Ayush Sinhal about how he is shaping up Kimbal to tap opportunities in the energy ecosystem; backed the founder across three consecutive rounds.", "new_to_screen": true, "our_verdict": "unverified", "since_call_pct": null }
   ],
   "watch_only_names": []
 }

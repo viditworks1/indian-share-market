@@ -1,0 +1,48 @@
+{
+  "name": "Ind-Swift Laboratories Ltd (INDSWFTLAB)",
+  "tagline": "Generic finished-dosage pharma manufacturer whose stock has surged ~265% in a year despite a declining 5-year revenue trend - a classic price/fundamentals divergence, not a fundamentals-driven re-rating.",
+  "business_overview": "Ind-Swift Laboratories (incorporated 1995) manufactures finished dosage formulations - tablets, capsules, ointments, injectables, liquids and dry syrups - across gynaecology, paediatrics, cardiology, diabetology and dermatology therapies. Seeded via untrusted X triage (@JakeraChoudhury, Sept 2026) as a bullish, medium-conviction view.",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 3,334 Cr (up ~265% over 1 year)"],
+    ["Revenue / Profit", "Revenue ~Rs 665 Cr; Profit ~Rs 57.3 Cr"],
+    ["ROE / ROCE", "ROE ~21-25% (sources vary); ROCE figures conflict across sources (~3-24%) - not independently reconciled this pass"],
+    ["Revenue growth", "~-6.37% over the past 5 years - declining"],
+    ["Debt/equity", "~0.03 - very low"]
+  ],
+  "fundamentals_narrative": "The headline concern here is a sharp disconnect: the stock is up ~265% over the past year while 5-year revenue growth is actually negative (~-6.37%). ROE looks respectable (~21-25%) and debt is very low, but ROCE figures conflict materially across sources (3.2% vs 24.24%), which was not reconcilable within this pass's budget. A generic FDF manufacturer with a shrinking 5-year top line does not fit the profile that normally justifies a multi-year re-rating - this reads as price-led momentum ahead of, or in the absence of, a clearly demonstrated fundamentals turnaround.",
+  "technical_read": "Stock has appreciated ~265% over the trailing year - strong momentum, but exact 52-week high/low not confirmed this pass.",
+  "sentiment_summary": "No forum thread read this pass (topic_id null); assessment is web/filings-based only.",
+  "community_signal": "None sought this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No AVOID/EXCLUDE-level red flag found this pass (no going-concern, pledge collapse, auditor resignation or SEBI/fraud action surfaced) - but the price-vs-fundamentals divergence below warrants caution and was not fully resolved.",
+  "bull_case": [
+    "Very low debt (D/E ~0.03) and a respectable headline ROE (~21-25%)",
+    "Strong recent share-price momentum (+265% over 1 year) suggests the market is pricing in a turnaround the data reviewed here doesn't yet confirm"
+  ],
+  "bear_case": [
+    "5-year revenue growth is negative (~-6.37%) - the business has been shrinking, not growing, over the medium term",
+    "Stock price (+265% in a year) has run far ahead of any confirmed fundamentals improvement - a classic momentum/re-rating risk pattern",
+    "ROCE figures conflict sharply across sources (3.2% vs 24.24%) and were not reconciled - a data-quality flag on its own",
+    "Generic FDF manufacturing is a commodity, competitive category with limited demonstrated pricing power given the declining top line"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 3,334 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Stock price has surged 265% in a year against a declining 5-year revenue trend and conflicting ROCE data; four_box score 1.0 is a hard 'neither'. Conviction Low.",
+  "verdict_reasoning": [
+    "four_box = 1.0 (tailwind weak - generic pharma export/domestic tailwind exists sector-wide but this company's own revenue is shrinking; tam weak; moat no - commodity FDF manufacturing with no demonstrated pricing power given declining revenue; valuation no - a 265% 1-yr price move against negative 5-yr revenue growth is a stretched, momentum-led valuation). Score <=1.5 is a hard 'neither' per rule.",
+    "No AVOID/EXCLUDE-tier red flag confirmed, but the price/fundamentals divergence and conflicting ROCE figures are flagged as unresolved caution items rather than cleared.",
+    "X source was bullish/medium-conviction on share-price momentum; independent fundamentals (declining 5-yr revenue) do not corroborate a multi-year re-rating thesis.",
+    "No forum thread read (topic_id null, score does not clear the 'genuinely promising' bar for a forum check)."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "no",
+    "valuation": "no",
+    "score": 1.0,
+    "note": "265% one-year price rally sits on top of a declining 5-year revenue trend (~-6.37%) and unreconciled, conflicting ROCE data - a momentum/re-rating risk pattern rather than a fundamentals-backed thesis."
+  },
+  "value_chain": null
+}
