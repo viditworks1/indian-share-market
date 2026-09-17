@@ -1,0 +1,51 @@
+{
+  "name": "Univastu India Ltd",
+  "tagline": "Small-cap construction/engineering (EPC-type) company with decent growth (~27%/yr) and a cheap P/E (~12x), but low-moat EPC economics and sharply worsening debtor days (58 -> 121) temper the case.",
+  "business_overview": "Univastu India Ltd operates in the construction & engineering (EPC-type) space. Revenues have grown at an average ~26.8%/year, with ROE ~19.3% and net margins ~7.4%, but debtor days have roughly doubled (58.4 -> 121), a working-capital caution flag for a contracting-type business. Seeded 2026-09-13 via untrusted X triage (@rishithegreat41, high conviction claimed).",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 611 Cr"],
+    ["52-week range", "~Rs 56 - Rs 179"],
+    ["ROE", "~19.3%"],
+    ["P/E", "~12.0x"],
+    ["Revenue growth", "~26.8%/year average"],
+    ["Net margin", "~7.4%"],
+    ["Working capital", "Debtor days worsened from ~58.4 to ~121"]
+  ],
+  "fundamentals_narrative": "The growth (~27%/yr) and valuation (~12x P/E, ~19% ROE) combination looks statistically cheap for the growth rate. But construction/EPC-type businesses are typically low-moat and working-capital intensive, and the near-doubling of debtor days (58 -> 121) is a real caution: it suggests either slower client payment cycles, revenue recognition running ahead of cash collection, or increasing exposure to weaker-paying clients - any of which can turn a 'cheap growth' story into a cash-flow problem. Not a red flag on its own (no going-concern, fraud, or promoter-pledge signal found), but enough to keep this from a straightforward growth-compounder label.",
+  "technical_read": "Not pulled in detail - fundamentals/thesis-driven verdict; trades well off its 52-week high (~Rs 179 vs current levels), wide range vs the ~Rs 56 low.",
+  "sentiment_summary": "No dedicated ValuePickr thread found for Univastu India. Search returned only an incidental 2017-era mention in a general watchlist thread ('A super simple way to find good companies', topic_id 8809) with a stale price quote, and an unrelated current thread (Vivid Electromech) - neither is a genuine coverage match. No deep-dive performed; web/filings-based write-up only.",
+  "community_signal": "None found - no trusted or forum conviction signal on this name.",
+  "trusted_signals": [],
+  "bse_notes": "No SEBI/fraud/going-concern flags found this pass. The worsening debtor-days trend is a working-capital caution, not a red-flag-tier issue.",
+  "bull_case": [
+    "Revenue growing ~27%/year on average - a real growth business, not a stagnant EPC name",
+    "Statistically cheap for the growth rate: ~12x P/E against ~19.3% ROE and ~27% growth",
+    "Small market cap (~Rs 611 Cr) leaves room to re-rate if growth and working capital both hold up"
+  ],
+  "bear_case": [
+    "Debtor days have roughly doubled (58.4 -> 121) - a real working-capital deterioration signal for a contracting-type business",
+    "EPC/construction economics are typically low-moat and competitively bid",
+    "No forum or trusted conviction signal found to corroborate the thesis",
+    "No ROCE figure confirmed this pass to cross-check capital efficiency"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 611 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Cheap-looking (~12x P/E) construction/engineering grower (~27%/yr, ~19% ROE), but low EPC moat and sharply worsening debtor days (58->121) keep this at 'neither' rather than a growth-compounder label.",
+  "verdict_reasoning": [
+    "four_box score 2.5 (tailwind yes - infra/construction capex cycle; tam weak - growth is real but sector-generic; moat no - EPC/construction is low-differentiation, competitively bid; valuation yes - ~12x P/E is cheap for ~27% growth) falls in the 2.0-2.5 band, which defaults to 'neither' absent an explicit exception",
+    "No exception written: the doubling of debtor days (58->121) is exactly the kind of quality caution that argues against overriding the default here",
+    "No red flag found (not AVOID/EXCLUDE/HIGH CAUTION tier), so this is a valuation/quality judgment call, not a filter",
+    "No dedicated ValuePickr thread resolved (only stale/incidental mentions found); topic_id remains null"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "yes",
+    "tam": "weak",
+    "moat": "no",
+    "valuation": "yes",
+    "score": 2.5,
+    "note": "Infra/construction capex tailwind and cheap valuation (~12x P/E) for ~27% growth, but EPC-type moat is weak/absent and worsening debtor days (58->121) argue against an exception at this score band."
+  },
+  "value_chain": null
+}

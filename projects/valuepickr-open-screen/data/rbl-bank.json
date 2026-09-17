@@ -1,0 +1,48 @@
+{
+  "name": "RBL Bank Ltd",
+  "tagline": "Mid-sized private bank (~Rs 62,500 Cr market cap) with persistently weak profitability (ROE ~5%, ROCE ~6%) and ongoing microfinance/credit-card asset-quality stress - a large-cap with no named structural inflection to justify a re-rating thesis.",
+  "business_overview": "RBL Bank is a private-sector bank with retail, wholesale and commercial banking segments, historically overweight unsecured retail (credit cards, microfinance). Seeded via untrusted X triage (@mystockedge, bullish, medium conviction, 2026-09-13). CEO R Subramaniakumar (since 2022, a turnaround specialist) has made incremental executive changes (e.g. Kumar Ashish as Head of Retail Assets, May 2025) but asset-quality stress in microfinance and credit cards has persisted through 2025-26, with collection efficiencies in some states below the 95%+ comfort level.",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 62,500 Cr"],
+    ["Price / 52-week range", "~Rs 404 (range ~Rs 243-420)"],
+    ["ROE", "~5.1% (3-yr avg ~5.9%) - weak for a bank"],
+    ["ROCE", "~5.8%"],
+    ["Revenue growth (5yr)", "~11.5% - modest"],
+    ["Asset quality", "Ongoing stress in microfinance + credit-card books; low interest coverage flagged"]
+  ],
+  "fundamentals_narrative": "A large-cap bank (~Rs 62,500 Cr) with sub-par returns on equity/capital versus peers, driven by unresolved stress in its unsecured retail (microfinance, credit card) book. Leadership has been stable since 2022 with only incremental executive reshuffles - no fresh, named management or structural inflection event was found this pass that would justify a re-rating case at this market cap.",
+  "technical_read": "Not pulled - fast large-cap pass, thesis_fit 'neither' makes technical read low-value.",
+  "sentiment_summary": "No forum deep-dive performed per the large-cap-no-inflection fast rule.",
+  "community_signal": "None sought this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No SEBI/fraud/going-concern red flags found. Contingent liabilities (~Rs 1,45,506 Cr) are standard for a bank's LC/guarantee book, not a distress signal.",
+  "bull_case": [
+    "Turnaround-oriented CEO in place since 2022 with a stated focus on governance and risk",
+    "Large, diversified deposit/retail franchise with room for cost-of-funds and mix improvement if asset quality stabilises"
+  ],
+  "bear_case": [
+    "ROE (~5%) and ROCE (~6%) well below what a re-rating case would need",
+    "Microfinance and credit-card slippages remain elevated with no clear resolution timeline",
+    "No specific named management/structural inflection identified - default large-cap treatment applies"
+  ],
+  "market_cap_tier": "Large-cap (~Rs 62,500 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Large-cap private bank with weak ROE/ROCE and unresolved microfinance/credit-card stress; no named structural inflection found - fast large-cap pass, thesis_fit 'neither', conviction Low.",
+  "verdict_reasoning": [
+    "Large-cap (~Rs 62,500 Cr) triggers the default tam:no fast-pass rule - no specific named management/structural inflection was identified beyond a 2022 CEO change with incremental executive reshuffles since",
+    "ROE ~5%, ROCE ~6%, five-year revenue growth only ~11.5% - fundamentals do not support a re-rating thesis on their own",
+    "No forum deep-dive performed per rule; topic_id remains null",
+    "No red flag - weak profitability is not itself an AVOID/EXCLUDE/HIGH CAUTION trigger"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "no",
+    "moat": "weak",
+    "valuation": "weak",
+    "score": 1.5,
+    "note": "Large-cap default tam:no applied (no named structural inflection found). Tailwind/moat/valuation all weak given persistent unsecured-book stress and sub-par returns."
+  },
+  "value_chain": null
+}

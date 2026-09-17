@@ -1,7 +1,7 @@
 {
   "20-microns-micronized-to-nano": "20MICRONS.NS",
   "_readme": "slug -> Yahoo Finance symbol for the Confluence-100 technical scan (build_confluence100.py consults this BEFORE its live name search). A value of null means 'confirmed no usable Yahoo weekly OHLC series' (NSE-Emerge / BSE-SME listings return a single data point regardless of range) - the build skips the search for these and marks the technical cleanly as unavailable rather than retrying every run. Add a real symbol here once verified (>= ~35 weekly bars over range=3y). Keep entries in sync with portfolio-rs1l-revision's hand list where they overlap.",
-  "_verified": "2026-09-09",
+  "_verified": "2026-09-17",
   "aarti-pharmalabs": "AARTIPHARM.NS",
   "aarti-surfactants-ltd": "AARTISURF.NS",
   "acutaas-chemicals": "ACUTAAS.NS",
@@ -191,5 +191,14 @@
   "vimta-labs-ltd": "VIMTALABS.NS",
   "vinati-organics": "VINATIORGA.NS",
   "wockhardt-ltd": "WOCKPHARMA.NS",
-  "yash-highvoltage": "YASHHV.BO"
+  "yash-highvoltage": "YASHHV.BO",
+  "astra-microwave-products": "ASTRAMICRO.NS",
+  "ebgng": "EBGNG.NS",
+  "engineers-india": "ENGINERSIN.NS",
+  "golkunda-diamonds": "GOLKUNDIA.BO",
+  "indian-metals-ferro-alloys": "IMFA.BO",
+  "marksans-pharma": "MARKSANS.NS",
+  "nestle-india": "NESTLEIND.NS",
+  "sbcl": "SBCL.NS",
+  "univastu-india": "UNIVASTU.NS"
 }

@@ -1,0 +1,52 @@
+{
+  "name": "Inox Green Energy Services Ltd",
+  "tagline": "India's only listed pure-play wind O&M company, with long-term (5-20yr) locked-in contracts riding the wind-capacity buildout - but weak capital efficiency (ROE ~5.6%) and a rich ~56x P/E leave no valuation cushion.",
+  "business_overview": "Inox Green Energy Services Ltd (NSE: INOXGREEN) is part of the INOX Wind group and provides operations & maintenance (O&M) services for wind turbine generators (WTGs) and common infrastructure, under long-term contracts of 5-20 years tied to INOX Wind's installed fleet and third-party wind assets. Entity confirmed via screener.in/NSE - unambiguous match to the state.json name 'Inox Green Energy'.",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 6,927 Cr (price ~Rs 172) - mid-cap"],
+    ["ROCE / ROE", "ROCE ~8.42%; ROE ~5.62% (3-yr avg only ~3.18%) - weak capital efficiency"],
+    ["Valuation", "P/E ~56.5x; Book value ~Rs 42.5 - richly priced for the return profile"],
+    ["Revenue / profit growth", "5-yr sales growth only ~10.3% (poor); 5-yr profit CAGR ~21.5% (better, likely cost/scale driven)"],
+    ["Debt", "Debt reduced, now almost debt-free"],
+    ["52-week range", "Rs 132.58 - Rs 279 - currently well off the high"]
+  ],
+  "fundamentals_narrative": "The business model is genuinely differentiated - India's only listed pure-play wind O&M provider with long-duration (5-20yr) contracted revenue tied to a growing installed wind fleet, and the balance sheet has been cleaned up (almost debt-free). But the return ratios undercut the story: ROE of just ~5.6% (3-yr average ~3.18%) is weak, and a ~56.5x P/E leaves essentially no valuation margin of safety if growth or margins disappoint. Revenue growth itself has been poor (~10.3% over 5 years); most of the profit CAGR (~21.5%) looks to be coming from cost/scale efficiencies and debt reduction rather than volume growth.",
+  "technical_read": "Trading at ~Rs 172 against a 52-week range of Rs 132.58-279 - roughly 38% off the high, in the lower-middle of the range.",
+  "sentiment_summary": "No dedicated forum thread check performed this pass - the four_box score (2.5) falls in the default-'neither' band and does not clear the bar for a 'genuinely promising' light forum check; state.json topic_id is null.",
+  "community_signal": "None sought this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No red flags surfaced (no SEBI/fraud action, no auditor resignation, no promoter-holding collapse found).",
+  "bull_case": [
+    "India's only listed pure-play renewable O&M provider - a genuinely differentiated position",
+    "Long-term (5-20yr) locked-in contracts give revenue visibility tied to India's wind-capacity buildout",
+    "Balance sheet cleaned up - debt reduced, now almost debt-free",
+    "5-yr profit CAGR of ~21.5% shows real operating improvement even against weak revenue growth"
+  ],
+  "bear_case": [
+    "ROE just ~5.62% (3-yr average ~3.18%) - weak capital efficiency for the valuation being asked",
+    "P/E ~56.5x is rich against this return profile - little cushion if growth or margins disappoint",
+    "5-yr revenue growth of only ~10.3% - much of the profit growth looks to be cost/margin driven, not volume driven",
+    "Stock already down ~38% from its 52-week high - no positive momentum signal",
+    "No forum/community corroboration found this pass"
+  ],
+  "market_cap_tier": "Mid-cap (~Rs 6,927 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "A genuinely differentiated, debt-light wind-O&M franchise with long-term contracted revenue, but weak ROE (~5.6%) and a rich ~56x P/E keep this in the default-'neither' band. Conviction Low-Medium.",
+  "verdict_reasoning": [
+    "four_box = 2.5 (tailwind yes - India wind-capacity buildout; tam yes - long-duration O&M contract base growing with fleet additions; moat weak - sole-listed-pure-play status tempered by low realized returns; valuation no - ~56.5x P/E against ~5.6% ROE). Score sits in the 2.0-2.5 default-'neither' band; no explicit exception written",
+    "No red flag found - this is a fundamentals-driven 'neither', not a disqualification",
+    "Revisit if ROE trends meaningfully higher or the valuation multiple compresses toward the return profile"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "yes",
+    "tam": "yes",
+    "moat": "weak",
+    "valuation": "no",
+    "score": 2.5,
+    "note": "Tailwind yes: India's wind-capacity buildout drives O&M contract growth. Tam yes: long-duration (5-20yr) contracted revenue base expanding with fleet additions. Moat weak: sole listed pure-play status is real, but low realized returns (ROE ~5.6%) suggest limited pricing power translating to shareholder returns. Valuation no: ~56.5x P/E is rich against the return profile."
+  },
+  "conviction": "Low-Medium",
+  "value_chain": null
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Symbiotec Pharmalab Ltd (SYMBIOTEC)",
+  "tagline": "Recently-IPO'd (Sept 2026) pharma API manufacturer with decelerating ROCE (14.0% -> 11.6%) despite steady revenue growth - fundamentals corroborate the bearish external view it was seeded with.",
+  "business_overview": "Symbiotec Pharmalab manufactures active pharmaceutical ingredients (APIs), listed on NSE/BSE on 1 September 2026. Seeded via untrusted X triage (@JakeraChoudhury, Sept 2026) as a bearish, medium-conviction view.",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 7,165 Cr"],
+    ["52-week range", "~Rs 934 - Rs 1,194"],
+    ["Revenue", "FY24 Rs 716 Cr -> FY25 Rs 752 Cr -> FY26 Rs 869 Cr (+15.4% YoY FY26)"],
+    ["ROE", "~12.9% (3-yr avg)"],
+    ["ROCE", "Declining: 14.03% (FY24) -> 11.56% (FY26)"],
+    ["Debt", "Reduced"],
+    ["Listing", "IPO'd 1 September 2026"]
+  ],
+  "fundamentals_narrative": "Symbiotec's revenue growth looks fine on the surface (+15.4% YoY in FY26, EBITDA +12.5%), but ROCE has been steadily declining over three years (14.03% -> 11.56%) even as debt was reduced - meaning returns on the capital employed are getting worse, not better, despite top-line growth. That is a capital-efficiency red flag on its own terms (not an AVOID-tier one), and it lines up with the bearish external view this name was seeded with. As a September-2026 IPO, there is minimal post-listing track record to weigh against this.",
+  "technical_read": "52-week range Rs 934-1,194 since its Sept 2026 listing; too short a history for a meaningful technical read.",
+  "sentiment_summary": "No forum thread read this pass (topic_id null); assessment is web/filings-based only.",
+  "community_signal": "None sought this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No AVOID/EXCLUDE-tier red flag found (no going-concern, pledge, auditor-resignation or SEBI/fraud issue surfaced). Declining ROCE trend is a fundamentals caution, not a red-flag exclusion.",
+  "bull_case": [
+    "Revenue has grown every year for three years (Rs 716 Cr -> Rs 869 Cr), with FY26 growth accelerating to +15.4% YoY",
+    "Debt has been reduced over the same period"
+  ],
+  "bear_case": [
+    "ROCE has declined for three straight years (14.03% -> 11.56%) despite revenue growth and debt reduction - capital efficiency is deteriorating, not improving",
+    "Original X source (@JakeraChoudhury) flagged this as a bearish, medium-conviction view - independent fundamentals (falling ROCE) corroborate rather than contradict that read",
+    "Barely one month of trading history since its September 2026 IPO - essentially no track record to underwrite a multi-year thesis",
+    "API manufacturing is a competitive, capacity-driven category; no company-specific moat evidence surfaced this pass"
+  ],
+  "market_cap_tier": "Small/mid-cap (~Rs 7,165 Cr), recently listed",
+  "thesis_fit": "neither",
+  "verdict_headline": "API maker growing revenue but with three straight years of declining ROCE (14.0% -> 11.6%); four_box score 2.0 defaults to 'neither' with no exception written. Conviction Low.",
+  "verdict_reasoning": [
+    "four_box = 2.0 (tailwind weak - sector-wide API/China+1 tailwind exists but company-specific ROCE trend is deteriorating; tam yes - global API market is large; moat weak - no company-specific evidence surfaced; valuation no - ~7,165 Cr cap against Rs 869 Cr revenue and a falling-ROCE trend is not cheap). Score 2.0-2.5 band defaults to 'neither', no exception written.",
+    "No red-flag-tier issue, but declining ROCE (14.03% -> 11.56% over 3 years) is a genuine capital-efficiency caution.",
+    "X source was bearish/medium-conviction; independent fundamentals (falling ROCE trend) corroborate that read rather than contradicting it.",
+    "No forum thread read (topic_id null, score does not clear the 'genuinely promising' bar for a forum check); recently listed (Sept 2026) with minimal track record."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "yes",
+    "moat": "weak",
+    "valuation": "no",
+    "score": 2.0,
+    "note": "Global API/China+1 tailwind exists at the sector level, and TAM is large, but the company's own ROCE has declined for three straight years (14.03% -> 11.56%) despite revenue growth - capital efficiency is deteriorating, and no company-specific moat evidence surfaced. Valuation not cheap against that trend."
+  },
+  "value_chain": null
+}

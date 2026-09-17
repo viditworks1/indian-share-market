@@ -2,18 +2,18 @@
   "_doc": "State for the x-trusted-cluster scheduled task. Mirrors trusted_threads.json in spirit. handles[]: X accounts watched. 'tier' = 'primary' (user-named-trusted: @ishmohit1 — signals get trusted_conviction_strength, but NOT a conviction floor; floor stays core-tier/phreakv6 only) or 'cluster' (people @ishmohit1 consistently engages with — informational only, like an 'elevated' VP user). last_tweet_id_seen: highest tweet id already processed for that handle (string; null = never run, first run reads the trailing 30 days only, never older — respects the 1-year backfill cap). Method + rationale: playbook/ishmohit-soic-style.md.",
   "actor": "kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest",
   "first_run_lookback_days": 30,
-  "last_run_date": "2026-09-10",
+  "last_run_date": "2026-09-12",
   "handles": [
     {
       "handle": "ishmohit1",
       "tier": "primary",
-      "last_tweet_id_seen": "2097682586571309190",
+      "last_tweet_id_seen": "2098067375530885233",
       "note": "Ishmohit Arora — SOIC founder; user-named trusted 2026-08-30"
     },
     {
       "handle": "unseenvalue",
       "tier": "cluster",
-      "last_tweet_id_seen": "2097712743318946262",
+      "last_tweet_id_seen": "2098701984899408109",
       "note": "early on CDMO; @ishmohit1 references often"
     },
     {
@@ -31,7 +31,7 @@
     {
       "handle": "LearningEleven",
       "tier": "cluster",
-      "last_tweet_id_seen": "2097731105902494110",
+      "last_tweet_id_seen": "2098688485561684258",
       "note": "Sekhar — Investing Eleven; frequent @ishmohit1 interaction"
     },
     {
@@ -61,7 +61,7 @@
     {
       "handle": "Anand_shah07",
       "tier": "cluster",
-      "last_tweet_id_seen": "2097145153756807176",
+      "last_tweet_id_seen": "2098477865012695068",
       "note": "@ishmohit1 quote-amplifies on psychology + themes"
     },
     {
@@ -73,13 +73,13 @@
     {
       "handle": "Finstor85",
       "tier": "cluster",
-      "last_tweet_id_seen": "2097683607137419462",
+      "last_tweet_id_seen": "2098682899549548602",
       "note": "Ameya; named in playbook section 5. Very low posting volume. Added 2026-08-31 (user-directed x-cluster expansion)."
     },
     {
       "handle": "a_basumallick",
       "tier": "cluster",
-      "last_tweet_id_seen": "2097694330370617625",
+      "last_tweet_id_seen": "2098679265403297970",
       "note": "Abhishek Basumallick (Shree Rama PMS / Intelligent Investor advisory / CURIOSITY newsletter). Named in playbook section 5. High-volume concall-snippet + macro/theme posting. Added 2026-08-31 (user-directed x-cluster expansion)."
     }
   ]

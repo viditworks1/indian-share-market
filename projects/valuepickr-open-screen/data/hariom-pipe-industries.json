@@ -1,0 +1,51 @@
+{
+  "name": "Hariom Pipe Industries Ltd",
+  "tagline": "Vertically integrated structural-steel-pipe manufacturer with a genuinely good ROCE (~21% FY26) and a stock already down ~53% from its 52-week high - but the sourcing X-handle's own note flagged this as an 'exit call', and nothing found this pass overrides that caution.",
+  "business_overview": "Hariom Pipe Industries Ltd (NSE: HARIOMPIPE), incorporated 2008, manufactures ERW/structural steel pipes and allied products via a vertically integrated process from billets/scrap through to finished pipe. Entity confirmed via screener.in/NSE - matches state.json name 'HariOm Pipes' (spelling variant, same company).",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 1,112 Cr (down ~26% over 1 year)"],
+    ["Revenue", "~Rs 1,635 Cr; +23% YoY FY26"],
+    ["ROCE / ROE", "ROCE ~21% FY26 (genuinely good); ROE ~12% FY26 (3-yr avg ~12.5%) - a meaningful gap suggesting leverage/mix effects"],
+    ["52-week range", "Rs 268.05 - Rs 572.20 - currently ~53% below the high"],
+    ["Promoter holding", "57.3%"]
+  ],
+  "fundamentals_narrative": "The headline fundamentals are decent - 23% YoY revenue growth and a genuinely good 21% ROCE for FY26, at a market cap (~Rs 1,112 Cr) below trailing revenue (~Rs 1,635 Cr), i.e. cheap on price-to-sales after a sharp ~53% drawdown from the 52-week high. But the state.json seed note itself frames this as an 'Exit call view' from the sourcing X-handle (rdkriplani) - i.e., the original signal was bearish, not a fresh bullish lead. Structural steel pipes remain a largely commodity, cyclical category (HRC/scrap price swings) with no clear differentiation found, and the gap between the good ROCE (21%) and modest ROE (12%) warrants care on capital structure/mix. Nothing found this pass overturns the exit-call framing.",
+  "technical_read": "Down ~53% from the 52-week high (Rs 572.20) to the current level near the lower half of the Rs 268.05-572.20 range - a clear negative-momentum stock, consistent with the 'exit call' framing.",
+  "sentiment_summary": "No dedicated forum thread check performed this pass - the four_box score (2.0) falls in the default-'neither' band, and the source note itself already signals an exit/bearish view rather than a fresh thesis worth a forum read; state.json topic_id is null.",
+  "community_signal": "None sought this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No red flags surfaced (no SEBI/fraud action, no auditor resignation, no promoter-holding collapse found in this pass).",
+  "bull_case": [
+    "ROCE ~21% FY26 is genuinely good for a steel-pipe manufacturer",
+    "Revenue +23% YoY FY26",
+    "Cheap on price-to-sales (market cap ~Rs 1,112 Cr vs revenue ~Rs 1,635 Cr) after the ~53% drawdown from 52-week highs",
+    "Vertically integrated billet/scrap-to-pipe process supports some cost control"
+  ],
+  "bear_case": [
+    "The sourcing signal itself is an 'exit call' (bearish), not a fresh bullish lead - the seed note flags this explicitly",
+    "Stock down ~26% over 1 year and ~53% off its 52-week high - clear negative momentum",
+    "No distinguishable moat in a largely commodity structural-steel-pipe market",
+    "ROE (~12%) well below ROCE (~21%) - a gap worth scrutiny on leverage/capital structure that this pass did not resolve",
+    "Structural steel pipes remain exposed to HRC/scrap price cyclicality"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 1,112 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Decent ROCE and cheap price-to-sales after a sharp drawdown, but the source signal is itself an exit call and nothing found this pass overturns that caution. thesis_fit 'neither', conviction Low-Medium.",
+  "verdict_reasoning": [
+    "four_box = 2.0 (tailwind weak - generic steel/infra capex cycle; tam weak - moderate-growth commodity structural-pipe market; moat no - undifferentiated commodity manufacturer; valuation yes - cheap on price-to-sales post-drawdown, good ROCE). Score sits in the 2.0-2.5 default-'neither' band; no explicit exception written given the bearish source framing",
+    "The state.json seed note ('Exit call view, medium conviction via @rdkriplani') already signals this was flagged as a sell/caution, not a buy idea - this pass's fundamentals read (good ROCE, but negative momentum and no moat) is consistent with, not contradictory to, that framing",
+    "No red flag found; this is a fundamentals-driven 'neither', not a disqualification"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "no",
+    "valuation": "yes",
+    "score": 2.0,
+    "note": "Tailwind weak: generic steel/infra capex cycle, no company-specific driver. Tam weak: structural steel pipes is a moderate-growth, largely commodity category. Moat no: vertically integrated but undifferentiated manufacturer in a competitive commodity space. Valuation yes: cheap on price-to-sales (mcap < trailing revenue) after a ~53% drawdown, with a genuinely good 21% ROCE."
+  },
+  "conviction": "Low-Medium",
+  "value_chain": null
+}

@@ -25,7 +25,7 @@ SKILL. Config: `global_bellwethers.json`. Per-run narrative: `global-proxy-log.m
 
 ## Current alignment table
 
-_As of: 2026-09-04_
+_As of: 2026-09-16_
 
 | Indian name | slug | theme | tailwind | verdict | as-of | note | portfolio action |
 |---|---|---|---|---|---|---|---|
@@ -81,3 +81,37 @@ _As of: 2026-09-04_
   2026-10-04. No other Stage C names due (all next_check ~2026-10-01/02). No new global theme
   this run; Stage A rotating reads (TSMC, GE Vernova + Siemens Energy) both still
   **accelerating** (Siemens Energy transformer lead times now 3+ years; total backlog $186bn).
+- **2026-09-12** — no Stage C rows due this run (all 11 tracked proxies' `next_check_date`
+  fall 2026-10-01/02/04); table unchanged, `_As of:_` rolled forward. Stage A re-read 11 themes
+  (14 bellwethers): ASML, Micron+SK Hynix, Vertiv, Salesforce, Caterpillar, Arista, Infineon,
+  Rheinmetall, GE Aerospace, Cameco, Bloom Energy+ERock — all still **accelerating** except
+  enterprise-saas (Salesforce cRPO growth held flat at +14% YoY vs Q1 → downgraded
+  `accelerating` → **steady**, no re-rating impact, theme stays human-owned/priority 2). Stage B
+  ran for 3 still-`hypothesis` accelerating themes: ai-networking-optics (still no genuine
+  India-listed AI-cluster-optics pure-play — log-only), uranium-nuclear (still no direct
+  mined-uranium/enrichment play — log-only), power-semiconductors → **new seed**
+  `rir-power-electronics` (NSE-listed legacy power-semi maker building India's first SiC fab in
+  Odisha, Rs618cr, FY2027 target; pre-commercial, no signal to verify yet). Stage B2
+  (geopolitical) found nothing concrete enough to seed: a 2026-09-12 USTR Section 301
+  forced-labor-import investigation naming India + many countries was too broad/no clear company
+  link; an India-US Reciprocal Defense Procurement Agreement is "close to concluding" but not
+  yet signed. Stage A4 found no genuinely new theme (Broadcom's 10GW/2029 OpenAI backlog and
+  Ciena's 2028-29 backlog/LTAs both overlap existing semi-capex/ai-networking-optics themes).
+- **2026-09-16** — no Stage C rows due this run (all 11 tracked proxies' `next_check_date`
+  fall 2026-10-01/02/04); table unchanged, `_As of:_` rolled forward. Stage A re-read 9
+  bellwethers: Eli Lilly, Danaher, BorgWarner, Freeport-McMoRan, Rockwell Automation and
+  Hensoldt (all stale/cadence-due — all confirmed **unchanged** vs their last print, no new
+  quarter yet) plus a rotating sample of TSMC, GE Vernova + Siemens Energy (all still
+  **accelerating**, strengthening further: TSMC August monthly revenue +53.3% YoY record;
+  GE Vernova total backlog $176bn; Siemens Energy Grid Technologies backlog a record €51bn).
+  Stage A4 found one genuinely new dislocation — global shipyard capacity ("sold out well
+  into 2030" per SFL's Q2-26 call) — added as theme `global-shipbuilding-capacity` (bellwether:
+  HD Hyundai Heavy Industries), formalising the existing x-cluster-sourced "Shipbuilding &
+  maritime" active_themes.json entry into the bellwether rotation; Stage B found all 4 obvious
+  India shipbuilding names (Mazagon Dock, Cochin Shipyard, GRSE, Shipping Corp of India)
+  already `researched` (thesis_fit=neither) — no new candidate, theme stays `unread` pending
+  its first formal bellwether read next run. Stage B2 (geopolitical) found a real, dated
+  ₹1.10 lakh crore DAC defence-procurement clearance (7-Sep-2026, 98% domestic) but it is only
+  an in-principle approval (AoN) with vendor awards not yet made — too early-stage to tie to a
+  specific company (Bharat Forge's related Rs425cr marine-gas-turbine contract predates and is
+  unrelated to this specific clearance) — not seeded.

@@ -1,19 +1,55 @@
 {
-  "generated": "2026-09-10",
+  "generated": "2026-09-14",
   "selection": "status=researched, no red flag, thesis_fit!=neither, conviction_score>=35, MISSING >=1 of ['market_expectation', 'quality_metrics', 'track_record']. Sorted by Confluence-100 membership, then conviction_score desc. deepdive-top100's light lane drains this, writing only the blocks named in each entry's `missing`; entries drop off once all three exist (here or a full deep pass).",
-  "total": 5,
-  "pending": 5,
-  "confluence100_pending": 5,
+  "total": 10,
+  "pending": 10,
+  "confluence100_pending": 7,
   "queue": [
+    {
+      "slug": "recode-studios",
+      "state_key": "recode-studios",
+      "name": "Recode Studios Ltd",
+      "data_file": "data/recode-studios.json",
+      "conviction_score": 42.5,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "SME / micro-cap",
+      "in_confluence100": true,
+      "missing": [
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 1
+    },
     {
       "slug": "airfloa-rail-technology",
       "state_key": "airfloa-rail-technology",
       "name": "Airfloa Rail Technology",
       "data_file": "data/airfloa-rail-technology.json",
-      "conviction_score": 41.7,
+      "conviction_score": 38.7,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap / SME (~Rs 1,149 Cr)",
+      "market_cap_tier": "Small-cap / SME (~Rs 1,180 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 2
+    },
+    {
+      "slug": "carysil",
+      "state_key": "carysil",
+      "name": "Carysil (earlier Acrysil)",
+      "data_file": "data/carysil.json",
+      "conviction_score": 35.83,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Small-cap (~Rs 3,300-3,400 Cr)",
       "in_confluence100": true,
       "missing": [
         "market_expectation",
@@ -23,7 +59,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 1
+      "rank": 3
     },
     {
       "slug": "millworks-technologies",
@@ -43,27 +79,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 2
-    },
-    {
-      "slug": "recode-studios",
-      "state_key": "recode-studios",
-      "name": "Recode Studios Ltd",
-      "data_file": "data/recode-studios.json",
-      "conviction_score": 30.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "SME / micro-cap (~Rs 358 Cr)",
-      "in_confluence100": true,
-      "missing": [
-        "market_expectation",
-        "quality_metrics",
-        "track_record"
-      ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 3
+      "rank": 4
     },
     {
       "slug": "iifl-finance",
@@ -83,7 +99,27 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 4
+      "rank": 5
+    },
+    {
+      "slug": "siddhika-coating",
+      "state_key": "siddhika-coating",
+      "name": "Siddhika Coating Limited- A Paint Company",
+      "data_file": "data/siddhika-coating.json",
+      "conviction_score": 25.19,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Micro-cap (~Rs 133 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 6
     },
     {
       "slug": "til",
@@ -103,7 +139,67 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 5
+      "rank": 7
+    },
+    {
+      "slug": "rappid-valves",
+      "state_key": "rappid-valves",
+      "name": "Rappid Valves",
+      "data_file": "data/rappid-valves.json",
+      "conviction_score": 49.0,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Micro/small-cap (~Rs 166 Cr)",
+      "in_confluence100": false,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 8
+    },
+    {
+      "slug": "eppelton",
+      "state_key": "eppelton",
+      "name": "Eppelton (EEPL)",
+      "data_file": "data/eppelton.json",
+      "conviction_score": 39.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Micro-cap (~Rs 150-200 Cr)",
+      "in_confluence100": false,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 9
+    },
+    {
+      "slug": "garuda-construction",
+      "state_key": "garuda-construction",
+      "name": "Garuda Construction",
+      "data_file": "data/garuda-construction.json",
+      "conviction_score": 39.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Small-cap (~Rs 1,800-1,805 Cr)",
+      "in_confluence100": false,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 10
     }
   ]
 }

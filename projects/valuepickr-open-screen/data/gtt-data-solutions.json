@@ -1,0 +1,49 @@
+{
+  "name": "GTT Data Solutions Ltd (formerly Cinerad Communications Ltd)",
+  "tagline": "A 1986-vintage TV-broadcasting/ad-films shell company renamed to 'GTT Data Solutions' in August 2024 and repositioned as an IT/data-analytics play - tiny (~Rs 16.5 Cr) and loss-making, with no evidence yet of the new narrative translating into a real business.",
+  "business_overview": "Originally incorporated as Cinerad Communications Ltd in 1986 (television broadcasting, ad-film/documentary production, computer graphics/video editing), the company was renamed GTT Data Solutions Ltd in August 2024 and now describes itself as offering software development, IT integration and data-analytics consulting - a business-model pivot with no clear operational continuity from the original media business. Confirmed as the exact listed entity via web search: NSE ticker GTTDATA, BSE ticker GTTDATPP (scrip formerly BSE 530457/Cinerad). Seeded via untrusted X triage (@rishithegreat41, 2026-09-13).",
+  "fundamentals_table": [
+    ["Market cap", "Micro-cap (share price ~Rs 50.76 as of 14-Aug-2026)"],
+    ["52-week range", "Rs 36.1 - Rs 101.8"],
+    ["Revenue (FY25-26)", "Rs 16.53 Cr"],
+    ["Profit (FY25-26)", "Loss of Rs 7.06 Cr"],
+    ["Promoter holding", "62.24% (Ganesh Natarajan, U.G. Patwardhan Services, Uma Ganesh); 0% pledged per FY26 SAST filing"],
+    ["Institutional holding", "0.02%"]
+  ],
+  "fundamentals_narrative": "This is a tiny, loss-making company (Rs 16.53 Cr revenue, Rs 7.06 Cr loss in FY25-26) that changed its name and stated line of business in 2024 from television/ad-film production to 'data solutions'/IT services, with no evidence found of a track record or scaled contracts in the new business. Promoter holding is reasonably high (62.24%) and formally unpledged per the latest SEBI SAST disclosure, which is a genuine positive, but the underlying fundamentals (tiny, shrinking-to-negative earnings) do not support a growth thesis on the numbers available.",
+  "technical_read": "52-week range Rs 36.1-101.8, roughly halved from its high; not pursued further given the fundamentals disposition below.",
+  "sentiment_summary": "No forum deep-dive performed - four-box score is 0 (hard 'neither') and there is no evidence of genuine promise to justify a forum read. topic_id remains null; not resolved this pass.",
+  "community_signal": "None sought this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No promoter-pledge or auditor-resignation signal found (FY26 SAST filing confirms nil encumbrance); no SEBI fraud/enforcement action or negative-net-worth/going-concern language surfaced. None of the defined red-flag triggers (AVOID/EXCLUDE/HIGH CAUTION) are confirmed, so red_flag_tier is left null - but the name-change-plus-unrelated-business-pivot pattern on a tiny, loss-making revenue base is exactly the profile of a speculative narrative microcap, and is called out explicitly here as a caution even though it does not meet the strict red-flag bar.",
+  "bull_case": [
+    "Promoter holding is relatively high (62.24%) and formally unpledged per the latest SEBI filing",
+    "IT/data-analytics is a genuinely growing sector in India if the company can actually build a real client base"
+  ],
+  "bear_case": [
+    "Tiny revenue base (Rs 16.53 Cr) and a net loss (Rs 7.06 Cr) in the most recent full year - no evidence of profitable scale",
+    "2024 name change from an unrelated media/broadcasting business to 'data solutions' with no demonstrated operational track record in the new line - a classic narrative-pivot pattern seen in speculative microcaps",
+    "No institutional holding (0.02%) and no trusted-community coverage found",
+    "No named catalyst, contract win, or client relationship found to substantiate the IT-services repositioning"
+  ],
+  "market_cap_tier": "Micro-cap",
+  "thesis_fit": "neither",
+  "verdict_headline": "A renamed 1986-vintage media shell repositioned as an IT/data-analytics company in 2024, still tiny and loss-making with no substantiated track record in the new business. four_box = 0, thesis_fit 'neither', conviction Low.",
+  "verdict_reasoning": [
+    "four_box = 0 (tailwind no - no evidence of a real, growing IT/data business beyond the rebrand; tam no - no scale or client wins found; moat no - no differentiation evident; valuation no - loss-making on a tiny revenue base)",
+    "Score <=1.5 -> thesis_fit 'neither' hard; no forum deep-dive performed",
+    "No formal red-flag category confirmed (pledge checked and clean; no SEBI/fraud/going-concern signal found), so red_flag_tier is null, but the name-change/unrelated-pivot pattern is flagged explicitly as a caution for future re-review rather than silently passed over",
+    "Entity confirmed via web search matching state.json name exactly (NSE: GTTDATA, BSE: GTTDATPP, formerly Cinerad Communications Ltd)"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "no",
+    "tam": "no",
+    "moat": "no",
+    "valuation": "no",
+    "score": 0,
+    "note": "Tiny (Rs 16.53 Cr revenue), loss-making (Rs -7.06 Cr) company that renamed itself from an unrelated media/broadcasting business to 'data solutions'/IT services in 2024 with no substantiated client base or track record found in the new line."
+  },
+  "value_chain": null
+}

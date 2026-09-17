@@ -16,7 +16,7 @@
       "conviction": "high",
       "quote": "RACL is a beautiful case study of big transformation due to dedication and hard work",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     }
   ],

@@ -8,9 +8,9 @@
   "discloses_names": true,
   "disclaimer_pattern": "refuses",
   "calls": [
-    { "stock": "Rapicut Carbides", "slug": "rapicut-carbides", "date": "2026-08-26", "direction": "bull", "conviction": "high", "quote": "Rapicut Carbide ATH... Rapicut ATH (repeated positive callouts Aug 25-26, disclosed long-term holding)", "new_to_screen": false, "our_verdict": null, "since_call_pct": null },
-    { "stock": "Vaxfab Enterprises", "slug": "vaxfab-enterprises-ltd", "date": "2026-08-24", "direction": "bull", "conviction": "medium", "quote": "Vaxfab ATH", "new_to_screen": false, "our_verdict": null, "since_call_pct": null },
-    { "stock": "Alan Scott Enterprises", "slug": "alan-scott-enterprises-ltd", "date": "2026-09-01", "direction": "bull", "conviction": "medium", "quote": "Sell Alan Scott Rights Entitlement if not interested in subscribing and make some money (disclosed shareholder, rights issue)", "new_to_screen": false, "our_verdict": null, "since_call_pct": null }
+    { "stock": "Rapicut Carbides", "slug": "rapicut-carbides", "date": "2026-08-26", "direction": "bull", "conviction": "high", "quote": "Rapicut Carbide ATH... Rapicut ATH (repeated positive callouts Aug 25-26, disclosed long-term holding)", "new_to_screen": false, "our_verdict": "disagree", "since_call_pct": null },
+    { "stock": "Vaxfab Enterprises", "slug": "vaxfab-enterprises-ltd", "date": "2026-08-24", "direction": "bull", "conviction": "medium", "quote": "Vaxfab ATH", "new_to_screen": false, "our_verdict": "red-flag", "since_call_pct": null },
+    { "stock": "Alan Scott Enterprises", "slug": "alan-scott-enterprises-ltd", "date": "2026-09-01", "direction": "bull", "conviction": "medium", "quote": "Sell Alan Scott Rights Entitlement if not interested in subscribing and make some money (disclosed shareholder, rights issue)", "new_to_screen": false, "our_verdict": "red-flag", "since_call_pct": null }
   ],
   "watch_only_names": []
 }
