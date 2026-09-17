@@ -58,6 +58,20 @@ from resolve_data_file import resolve_data_path  # noqa: E402
 TOP_N = 100
 TECH_SCAN_BUFFER = 135  # scan more than TOP_N since some won't resolve / will lose to tech penalty
 
+# "Investable now" gate (2026-09-18): a stock only counts toward the Top-10
+# actionable cut if its confidence_pct is backed by real, complete inputs —
+# not a score propped up on 1-2 present components, and not a stale/missing
+# technical read. This is deliberately independent of confidence_pct itself
+# (which already soft-discounts thin coverage via blend_fundamental's cov
+# weighting) — soft-discounting can still leave an incomplete name ranked
+# ahead of a complete one on a lucky component; the gate makes "complete
+# enough to act on" an explicit yes/no instead of an implicit side-effect
+# of the score. INVESTABLE_COV_THRESHOLD matches full_coverage_count's own
+# bar for "fully cross-scored" so the two stats stay consistent.
+INVESTABLE_COV_THRESHOLD = 0.85
+INVESTABLE_TECH_STATUSES = ("ok",)
+TOP10_N = 10
+
 TOP_FRESH_N = 20         # always live-fetched every run, regardless of cache age
 CACHE_TTL_DAYS = 7       # everyone else: reuse a cached read until it's this old
 MIN_RESOLVED_FRACTION = 0.3  # abort (don't touch outputs) if fewer than this fraction resolves
@@ -72,12 +86,21 @@ ELIGIBLE_THESIS = ("10x-in-2-3-years", "100x-in-10-years")
 SYMBOL_MAP_PATH = os.path.join(DATA_DIR, "yahoo_symbol_map.json")
 
 
+_SYMBOL_MAP_META_KEYS = {"_readme", "_verified"}
+
+
 def load_symbol_map():
+    """Flat slug -> symbol (or null) map at the top level of the JSON file,
+    minus the leading '_'-prefixed metadata keys. (2026-09-18: fixed a bug
+    where this read a nested "map" sub-key that no longer matched the file's
+    actual flat structure, silently ignoring ~140 curated entries and forcing
+    a live re-search for names that already had a verified symbol on file.)"""
     try:
         with open(SYMBOL_MAP_PATH) as f:
-            return json.load(f).get("map", {})
+            raw = json.load(f)
     except (OSError, json.JSONDecodeError):
         return {}
+    return {k: v for k, v in raw.items() if k not in _SYMBOL_MAP_META_KEYS}
 
 
 SYMBOL_MAP = load_symbol_map()
@@ -390,11 +413,28 @@ def current_holdings():
     return names
 
 
+def investable_now(x):
+    """Hard data-completeness gate, independent of confidence_pct — see
+    INVESTABLE_COV_THRESHOLD above. Returns (bool, reason_if_not)."""
+    cov = x["sb"].get("weight_coverage") or 0.0
+    tech_status = x["tech"].get("status")
+    if cov < INVESTABLE_COV_THRESHOLD and tech_status not in INVESTABLE_TECH_STATUSES:
+        return False, "needs quality/consistency data + a resolved technical read"
+    if cov < INVESTABLE_COV_THRESHOLD:
+        return False, "needs quality/consistency data (thin master-score coverage)"
+    if tech_status == "no_history_sme":
+        return False, "no technical read possible (SME/Emerge listing, or too-recent a listing for 35+ weekly bars)"
+    if tech_status not in INVESTABLE_TECH_STATUSES:
+        return False, "technical not resolved (needs a verified Yahoo symbol)"
+    return True, ""
+
+
 def make_rows(ordered, holdings):
     rows = []
     for i, x in enumerate(ordered):
         sb = x["sb"]
         name = clean_name(x["name"])
+        ready, not_ready_reason = investable_now(x)
         rows.append({
             "rank": i + 1,
             "name": name,
@@ -415,6 +455,8 @@ def make_rows(ordered, holdings):
             "technical": tech_str(x["tech"]),
             "relative_strength": rs_str(x["tech"]),
             "rs_pct": x["tech"].get("rs_pct"),
+            "investable_now": ready,
+            "not_ready_reason": not_ready_reason,
             "in_current_portfolio": name in holdings,
         })
     return rows
@@ -532,6 +574,19 @@ def main():
     )
     rows_thesis = make_rows(thesis_sorted[:TOP_N], holdings)
 
+    # The single actionable cut: "if I bought today, what would I actually
+    # buy" — confidence-ranked, but ONLY from names that pass the investable_now
+    # data-completeness gate (see investable_now() above). Drawn from the Overall
+    # ranking (any thesis_fit) since a fairly-priced, rising, high-quality
+    # non-thesis name is a legitimate buy today even if it'll never be a 10x.
+    top10_investable = [r for r in rows_overall if r["investable_now"]][:TOP10_N]
+    # Near-misses: highest-confidence names the gate is currently excluding —
+    # surfaced so it's visible what a coverage/technical backfill would unlock,
+    # not just silently dropped from the actionable list.
+    near_miss_investable = [
+        r for r in rows_overall if not r["investable_now"]
+    ][: max(0, TOP10_N)]
+
     stats = {
         "total_deepdived": total_deepdived,
         "eligible_overall": len(universe),
@@ -539,6 +594,7 @@ def main():
         # kept for backward compat with older template copies
         "eligible_count": thesis_universe_count,
         "full_coverage_count": full_coverage_count,
+        "investable_now_count": sum(1 for r in rows_overall if r["investable_now"]),
         "asof_date": datetime.datetime.now().strftime("%-d %b %Y"),
     }
 
@@ -546,6 +602,8 @@ def main():
     html = open(template_path).read()
     html = html.replace("__ROWS_OVERALL_JSON__", json.dumps(rows_overall, ensure_ascii=False))
     html = html.replace("__ROWS_THESIS_JSON__", json.dumps(rows_thesis, ensure_ascii=False))
+    html = html.replace("__TOP10_JSON__", json.dumps(top10_investable, ensure_ascii=False))
+    html = html.replace("__NEARMISS_JSON__", json.dumps(near_miss_investable, ensure_ascii=False))
     html = html.replace("__STATS_JSON__", json.dumps(stats, ensure_ascii=False))
     html = html.replace("__ASOF_DATE__", stats["asof_date"])
 
@@ -570,6 +628,9 @@ def main():
         "rows": union,
         "rows_overall": rows_overall,
         "rows_thesis": rows_thesis,
+        "top10_investable": top10_investable,
+        "near_miss_investable": near_miss_investable,
+        "investable_now_count": stats["investable_now_count"],
     }, indent=2, ensure_ascii=False))
 
     res_o = sum(1 for x in overall_sorted[:TOP_N] if x["tech"].get("status") == "ok")
@@ -597,6 +658,16 @@ def main():
           f"Thesis 100: {res_t}/{TOP_N} technicals resolved. "
           f"Union sidecar: {len(union)} unique names, "
           f"{sum(1 for r in union if r['in_current_portfolio'])} flagged as current holdings.")
+    print(f"\nInvestable-now gate (cov>={INVESTABLE_COV_THRESHOLD}, resolved technical): "
+          f"{stats['investable_now_count']}/{len(rows_overall)} of the Overall 100 pass. "
+          f"Top {len(top10_investable)}:")
+    for r in top10_investable:
+        print(f"    {r['confidence']:3d}%  {r['name']}")
+    if near_miss_investable[:5]:
+        print(f"  Highest-confidence names the gate is currently excluding "
+              f"(would need backfill to qualify):")
+        for r in near_miss_investable[:5]:
+            print(f"    {r['confidence']:3d}%  {r['name']:40s} — {r['not_ready_reason']}")
     print(f"Cache economics: {live_n} live Yahoo fetches this run "
           f"(top {TOP_FRESH_N} fundamentals + any cache miss/expiry), {cache_hit_n} served "
           f"from cache (<{CACHE_TTL_DAYS}d old), {stale_fallback_n} stale-fallback saves. "
