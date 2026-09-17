@@ -3,15 +3,42 @@
   "tagline": "Small-cap water-soluble/biodegradable-film manufacturer (Watersol brand) and patent-royalty holding company with strong margins and an almost debt-free balance sheet, riding a genuine anti-single-use-plastic tailwind - but conflicting fundamentals data and a respected ValuePickr veteran's explicit 'very large loss... hope investment' account temper conviction. Seeded 2026-09-13 via untrusted X triage (@saditya10p, bullish, high conviction).",
   "business_overview": "Arrow Greentech (BSE: 516064) is a holding company built around cast water-soluble film manufacturing and patent/royalty income, marketed under the Watersol brand for biodegradable and bio-compostable packaging (used in agrochemicals, detergent pods, embroidery/textile transfer film etc.), plus a Hightech Products segment (lamination films, holograms). It describes itself as India's largest water-soluble-film manufacturer. Green Products segment revenue grew ~52% YoY to ~Rs 36.9 Cr in FY26.",
   "fundamentals_table": [
-    ["Market cap", "~Rs 1,047 - 1,227 Cr (source dependent)"],
-    ["52-week range", "~Rs 341.95 - Rs 817.95"],
-    ["Revenue", "~Rs 247 Cr (TTM)"],
-    ["Net profit", "~Rs 63.9 Cr (~25.8% net margin)"],
-    ["ROCE", "conflicting: ~20.9% vs ~2.79% across sources - not reconciled this pass"],
-    ["ROE", "conflicting: ~23.16% vs ~14.2% across sources - not reconciled this pass"],
-    ["Revenue growth", "reported CAGR ~61.68% (screener) - unusually high, likely base-effect driven; not independently reconciled"],
-    ["Debt", "Almost debt-free"],
-    ["Green Products segment growth (FY26)", "+52% YoY to ~Rs 36.9 Cr"]
+    [
+      "Market cap",
+      "~Rs 1,047 - 1,227 Cr (source dependent)"
+    ],
+    [
+      "52-week range",
+      "~Rs 341.95 - Rs 817.95"
+    ],
+    [
+      "Revenue",
+      "~Rs 247 Cr (TTM)"
+    ],
+    [
+      "Net profit",
+      "~Rs 63.9 Cr (~25.8% net margin)"
+    ],
+    [
+      "ROCE",
+      "conflicting: ~20.9% vs ~2.79% across sources - not reconciled this pass"
+    ],
+    [
+      "ROE",
+      "conflicting: ~23.16% vs ~14.2% across sources - not reconciled this pass"
+    ],
+    [
+      "Revenue growth",
+      "reported CAGR ~61.68% (screener) - unusually high, likely base-effect driven; not independently reconciled"
+    ],
+    [
+      "Debt",
+      "Almost debt-free"
+    ],
+    [
+      "Green Products segment growth (FY26)",
+      "+52% YoY to ~Rs 36.9 Cr"
+    ]
   ],
   "fundamentals_narrative": "Arrow Greentech screens as a genuinely profitable, almost debt-free small-cap (net margin ~25.8%) with a real regulatory/consumer tailwind behind biodegradable packaging films, and patent-protected technology supporting a moat claim as India's largest water-soluble-film maker. However, ROCE/ROE and revenue-growth figures conflict sharply across sources (ROCE 20.9% vs 2.79%; ROE 23.16% vs 14.2%; a reported 61.68% revenue CAGR that looks base-effect distorted) and were not reconciled within this fast pass's budget - the underlying quality is directionally positive but the magnitude is uncertain. A forum search surfaced a long-time, well-regarded ValuePickr member (dd1474, two posts with 34-35 likes) explicitly describing Arrow Greentech as 'one such hope investment for which I booked very large loss in my investment career' - a real, credible bear signal from someone with skin in the game historically, not just a passing comment.",
   "technical_read": "Trading well off its 52-week high (Rs 817.95) near multi-month lows (~Rs 342-818 range) - not independently re-verified against a current price this pass.",
@@ -47,7 +74,8 @@
     "moat": "yes",
     "valuation": "weak",
     "score": 3.0,
-    "note": "Anti-single-use-plastic / biodegradable-packaging tailwind is real; TAM is niche and not clearly sized; patent-protected Watersol technology and 'largest water-soluble-film maker in India' claim support moat; valuation is full-ish (~19x TTM P/E) not clearly cheap. Score sits at the 3.0 threshold that permits (not requires) a 10x/100x label - not applied this pass given data-quality and community caveats (no analyst_override)."
+    "note": "Anti-single-use-plastic / biodegradable-packaging tailwind is real; TAM is niche and not clearly sized; patent-protected Watersol technology and 'largest water-soluble-film maker in India' claim support moat; valuation is full-ish (~19x TTM P/E) not clearly cheap. Score sits at the 3.0 threshold that permits (not requires) a 10x/100x label - not applied this pass given data-quality and community caveats; analyst_override=true set given the data-quality/community caveats already noted.",
+    "analyst_override": true
   },
   "value_chain": null
 }

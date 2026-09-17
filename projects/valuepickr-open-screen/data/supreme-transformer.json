@@ -3,12 +3,30 @@
   "tagline": "Debt-free small-cap transformer manufacturer (power/generator/windmill transformers) riding the grid-capex and renewables tailwind with 30%+ revenue CAGR, but in a crowded, commoditized transformer-maker field with no clear differentiated moat.",
   "business_overview": "Incorporated 1994, Supreme Power Equipment manufactures, upgrades and renovates power transformers, generator transformers and windmill/wind-turbine transformers, serving India's power-sector capex and renewables buildout. Seeded via untrusted X triage (@rdkriplani, bullish, medium conviction, 2026-09-13).",
   "fundamentals_table": [
-    ["Market cap", "~Rs 551-604 Cr"],
-    ["Price / 52-wk range", "~Rs 221 / Rs 130.55 - Rs 291.35"],
-    ["ROCE / ROE", "~21.5% / ~19.4% (some sources show higher, up to ROCE 29.4%/ROE 22.8%)"],
-    ["Revenue growth", "Revenue CAGR ~30.25% vs industry median ~13%"],
-    ["Debt", "D/E ~0.03x - almost debt-free"],
-    ["Valuation", "P/E ~26.4x; Book value ~Rs 47.3"]
+    [
+      "Market cap",
+      "~Rs 551-604 Cr"
+    ],
+    [
+      "Price / 52-wk range",
+      "~Rs 221 / Rs 130.55 - Rs 291.35"
+    ],
+    [
+      "ROCE / ROE",
+      "~21.5% / ~19.4% (some sources show higher, up to ROCE 29.4%/ROE 22.8%)"
+    ],
+    [
+      "Revenue growth",
+      "Revenue CAGR ~30.25% vs industry median ~13%"
+    ],
+    [
+      "Debt",
+      "D/E ~0.03x - almost debt-free"
+    ],
+    [
+      "Valuation",
+      "P/E ~26.4x; Book value ~Rs 47.3"
+    ]
   ],
   "fundamentals_narrative": "Genuinely strong growth (30%+ revenue CAGR) and clean balance sheet (near-zero debt, ROCE/ROE both ~20%+), riding real power-sector and renewables transformer demand. However the transformer-manufacturing space in India is crowded with many small/mid-cap listed peers (Shilchar, TARIL, Voltamp, Raychem RPG, Danish Power) competing on similar order-book/utilization dynamics, so differentiated moat is unclear at this stage. P/E ~26x is not obviously cheap for the growth, but not stretched either given the CAGR.",
   "technical_read": "52-week range Rs 130.55-291.35 - large amplitude typical of a small-cap re-rating; no further TA pulled this pass (fast triage).",
@@ -42,7 +60,8 @@
     "moat": "weak",
     "valuation": "yes",
     "score": 3.0,
-    "note": "Real power-capex/renewables tailwind and strong revenue growth (score permits a 10x/100x label) but crowded peer field with no clear moat differentiation found this pass - kept at 'neither' (analyst_override)."
+    "note": "Real power-capex/renewables tailwind and strong revenue growth (score permits a 10x/100x label) but crowded peer field with no clear moat differentiation found this pass - kept at 'neither' (analyst_override).",
+    "analyst_override": true
   },
   "value_chain": null
 }

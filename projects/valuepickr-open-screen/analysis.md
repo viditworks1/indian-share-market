@@ -1105,46 +1105,6 @@ Stocks are ordered alphabetically by slug.
 - Community signal: Ghonarbochon (trusted, elevated-tier, own thread): "High conviction high risk investments like Axiscades, Apollo micro, wockhardt..." (post #165, 2025-07-02); "core portfolio...Wockhardt..." (post #167, 2025-08-29, 2nd mention) - Investment journey of a late starter, backfill — very-high
 - Strength upgraded: high (vikas_sinha) -> very-high (Ghonarbochon, repeat qualifying mention); floor NOT applied — elevated-tier and >180 days stale
 
-## Ceinsys Tech
-
-### 2025-11-27 (backfilled 2026-08-22)
-- Fundamentals: not pulled (community-signal-only entry from portfolio-thread backfill; awaiting vpscreen-scan research pass)
-- Technicals: not pulled
-- Red flag tier: none assessed yet
-- Community signal: Ghonarbochon (trusted, elevated-tier, own thread): "core portfolio...Ceinsys etc." (post #167, 2025-08-29); "high conviction bets..hence additions to HBL,Ceinsys and Valiant" (post #184, 2025-11-27, 2nd mention) - Investment journey of a late starter, backfill — very-high (floor not active: elevated-tier, >180 days stale)
-- Thesis fit: not assessed — new candidate, needs a fundamentals pass
-- Source: [Ceinsys Tech-Engineering, Geospatial & IT solutions Company](https://forum.valuepickr.com/t/124693)
-
-## Axiscades Engineering
-
-### 2025-08-29 (backfilled 2026-08-22)
-- Fundamentals: not pulled (community-signal-only entry from portfolio-thread backfill; awaiting vpscreen-scan research pass)
-- Technicals: not pulled
-- Red flag tier: none assessed yet
-- Community signal: Ghonarbochon (trusted, elevated-tier, own thread): "High conviction high risk investments like Axiscades..." (post #165, 2025-07-02); "core portfolio...(Piccadily, Axiscades, Apollo micro, Wockhardt, Ceinsys etc.)" (post #167, 2025-08-29, 2nd mention) - Investment journey of a late starter, backfill — very-high (floor not active: elevated-tier, >180 days stale)
-- Thesis fit: not assessed — new candidate, needs a fundamentals pass
-- Source: [Axiscades Engineering - High Potential Defence/Aerospace company](https://forum.valuepickr.com/t/5923)
-
-## Valiant Communications Limited
-
-### 2025-03-29 (backfilled 2026-08-22)
-- Fundamentals: not pulled (community-signal-only entry from portfolio-thread backfill; awaiting vpscreen-scan research pass)
-- Technicals: not pulled
-- Red flag tier: none assessed yet
-- Community signal: Ghonarbochon (trusted, elevated-tier, own thread): "Only company which did horribly bad but I have held on is Valiant communication..because I still have conviction" (post #148, 2025-03-29); "high conviction bets..HBL,Ceinsys and Valiant" (post #184, 2025-11-27, 2nd mention) - Investment journey of a late starter, backfill — very-high (floor not active: elevated-tier, >180 days stale)
-- Thesis fit: not assessed — new candidate, needs a fundamentals pass
-- Source: [Valiant Communications Limited](https://forum.valuepickr.com/t/215958)
-
-## Apollo Micro Systems Limited
-
-### 2025-12-17 (backfilled 2026-08-22)
-- Fundamentals: not pulled (community-signal-only entry from portfolio-thread backfill; awaiting vpscreen-scan research pass)
-- Technicals: not pulled
-- Red flag tier: none assessed yet
-- Community signal: Ghonarbochon (trusted, elevated-tier, own thread) named it "High conviction" (post #165, 2025-07-02) and again as part of "core portfolio" (post #167, 2025-08-29, 2nd mention, would-be very-high) but then explicitly SOLD it: "Sold out of Apollo Microsystems and Stallion Fluoro as I do not have enough conviction" (post #185, 2025-12-17) - Investment journey of a late starter, backfill — SUPERSEDED, both earlier calls marked superseded, no candidate retag applied
-- Thesis fit: not assessed — new candidate, needs a fundamentals pass
-- Source: [Apollo Micro Systems Limited - A Small cap in Aerospace & Defense](https://forum.valuepickr.com/t/177404)
-
 ## ABS Marine Services Ltd
 
 ### 2026-08-22
@@ -2815,46 +2775,6 @@ Stocks are ordered alphabetically by slug.
 - Conviction: Medium
 - Source: trusted-thread (high strength)
 
-## Hindustan Zinc Ltd
-
-### 2026-01-19 (backfilled 2026-08-23)
-- Fundamentals: not pulled (community-signal-only entry from portfolio-thread backfill; awaiting vpscreen-scan research pass)
-- Technicals: not pulled
-- Red flag tier: none assessed yet
-- Community signal: ranvir (trusted, elevated-tier, own thread): started a 4-stock non-ferrous metals thematic add after exiting Gold/Silver ETFs — "largest producer of Zinc + Silver in India" (post #1735) - Ranvir's Portfolio, backfill — high
-- Thesis fit: not assessed — new candidate, needs a fundamentals pass
-- Source: [Hindustan Zinc - Galvanize Capital of Investors?](https://forum.valuepickr.com/t/hindustan-zinc-galvanize-capital-of-investors/5003)
-
-## Hindalco Industries Ltd
-
-### 2026-01-19 (backfilled 2026-08-23)
-- Fundamentals: not pulled (community-signal-only entry from portfolio-thread backfill; awaiting vpscreen-scan research pass)
-- Technicals: not pulled
-- Red flag tier: none assessed yet
-- Community signal: ranvir (trusted, elevated-tier, own thread): part of the same 4-stock non-ferrous metals thematic add (post #1735) - Ranvir's Portfolio, backfill — high
-- Thesis fit: not assessed — new candidate, needs a fundamentals pass
-- Source: [Hindalco Industries - Attempting to reduce cyclicality of the business](https://forum.valuepickr.com/t/hindalco-industries-attempting-to-reduce-cyclicality-of-the-business/80970)
-
-## National Aluminium Company Ltd (NALCO)
-
-### 2026-01-19 (backfilled 2026-08-23)
-- Fundamentals: not pulled (community-signal-only entry from portfolio-thread backfill; awaiting vpscreen-scan research pass)
-- Technicals: not pulled
-- Red flag tier: none assessed yet
-- Community signal: ranvir (trusted, elevated-tier, own thread): part of the same 4-stock non-ferrous metals thematic add — "first and Second largest producer of Aluminium in India" (post #1735) - Ranvir's Portfolio, backfill — high
-- Thesis fit: not assessed — new candidate, needs a fundamentals pass
-- Source: [NALCO - lowest cost producer of alumina and bauxite](https://forum.valuepickr.com/t/nalco-lowest-cost-producer-of-alumina-and-bauxite/32642)
-
-## MOIL Ltd
-
-### 2026-01-19 (backfilled 2026-08-23)
-- Fundamentals: not pulled (community-signal-only entry from portfolio-thread backfill; awaiting vpscreen-scan research pass)
-- Technicals: not pulled
-- Red flag tier: none assessed yet
-- Community signal: ranvir (trusted, elevated-tier, own thread): part of the same 4-stock non-ferrous metals thematic add — "largest producer of Manganese in India" (post #1735) - Ranvir's Portfolio, backfill — high
-- Thesis fit: not assessed — new candidate, needs a fundamentals pass
-- Source: [Moil](https://forum.valuepickr.com/t/moil/1279)
-
 ## Data Patterns (India) Ltd
 
 ### 2026-08-23
@@ -3604,16 +3524,6 @@ Stocks are ordered alphabetically by slug.
 - Community signal: not researched — filtered at preliminary fundamentals stage (weak ROE at a fairly large cap, stock at multi-year lows, no catalyst found)
 - Thesis fit: neither — Conviction: Low
 - Source: sourced via discover.py (recency-based), no dedicated deep-dive this pass
-
-## Mankind Pharma
-
-### 2025-11-08
-- Fundamentals: not pulled (community-signal-only entry from portfolio-thread backfill; awaiting vpscreen-scan research pass)
-- Technicals: not pulled
-- Red flag tier: none assessed yet
-- Community signal: ranvir (elevated-tier): "Disc: core holding, biased, added recently" (post #1678, Ranvir's Portfolio, backfill) — very-high, floor not active (elevated-tier source)
-- Thesis fit: not assessed — new candidate, needs a fundamentals pass
-- Source: trusted-thread (ranvir)
 
 ## Mankind Pharma Ltd
 

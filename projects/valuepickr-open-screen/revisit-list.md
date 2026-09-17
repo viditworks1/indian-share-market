@@ -27,7 +27,6 @@ _(none due)_
 | Vivid Electromech Ltd | 2026-09-28 | Medium-High |
 | P.E. Analytics Ltd (PROPEQUITY) | 2026-09-29 | Medium-High |
 | Dynamic Cables | 2026-09-29 | Medium-High |
-| Rappid Valves | 2026-10-13 | Low-Medium |
 
 ---
 

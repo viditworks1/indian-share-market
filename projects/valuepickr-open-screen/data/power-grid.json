@@ -3,10 +3,22 @@
   "tagline": "Mega-cap PSU power-transmission monopoly with decent ROE (~16.5%) and reasonable valuation (~17x P/E), but weak 5-year sales growth (~3.35%) and no specific structural inflection confirmed this pass.",
   "business_overview": "Power Grid Corporation of India Ltd (NSE/BSE: POWERGRID) owns and operates the large majority of India's inter-state electricity transmission network, a regulated-return monopoly business. Entity unambiguous. Seeded 2026-09-13 via untrusted X triage (@SanaSecurities, high conviction).",
   "fundamentals_table": [
-    ["Market cap", "~Rs 2,62,975 Cr"],
-    ["ROE", "~16.49%"],
-    ["Revenue growth (5yr)", "~3.35% (weak)"],
-    ["Valuation", "~17x trailing P/E, ~2.8x price-to-book"]
+    [
+      "Market cap",
+      "~Rs 2,62,975 Cr"
+    ],
+    [
+      "ROE",
+      "~16.49%"
+    ],
+    [
+      "Revenue growth (5yr)",
+      "~3.35% (weak)"
+    ],
+    [
+      "Valuation",
+      "~17x trailing P/E, ~2.8x price-to-book"
+    ]
   ],
   "fundamentals_narrative": "A stable, regulated-return transmission monopoly with reasonable ROE and a fair valuation multiple, but 5-year sales growth of only ~3.35% is weak by any standard. India's renewable-energy transmission buildout is a real qualitative tailwind, but no specific named catalyst (e.g. a confirmed step-change in Power Grid's own capex/order-book guidance, a leadership change, or a capital-allocation shift) was confirmed via search in this pass, so the large-cap default applies.",
   "technical_read": "Not pulled - fast large-cap pass.",
@@ -14,8 +26,15 @@
   "community_signal": "External lead only (@SanaSecurities, untrusted X triage, high conviction).",
   "trusted_signals": [],
   "bse_notes": "No red flags found.",
-  "bull_case": ["Regulated-return monopoly with predictable cash flows and reasonable valuation (~17x P/E)", "Qualitative tailwind from India's renewable-energy transmission capex buildout"],
-  "bear_case": ["5-year revenue growth only ~3.35% - among the weakest of the three PSUs reviewed this batch", "No specific named structural inflection confirmed this pass to justify overriding the large-cap default", "Mega-cap size caps multibagger potential regardless of quality"],
+  "bull_case": [
+    "Regulated-return monopoly with predictable cash flows and reasonable valuation (~17x P/E)",
+    "Qualitative tailwind from India's renewable-energy transmission capex buildout"
+  ],
+  "bear_case": [
+    "5-year revenue growth only ~3.35% - among the weakest of the three PSUs reviewed this batch",
+    "No specific named structural inflection confirmed this pass to justify overriding the large-cap default",
+    "Mega-cap size caps multibagger potential regardless of quality"
+  ],
   "market_cap_tier": "Mega-cap PSU (~Rs 2.6 lakh Cr)",
   "thesis_fit": "neither",
   "verdict_headline": "Stable transmission monopoly at a fair multiple, but weak 5-year growth and no confirmed specific structural inflection this pass keep it at 'neither'.",
@@ -31,8 +50,8 @@
     "tam": "no",
     "moat": "yes",
     "valuation": "yes",
-    "score": null,
-    "note": "Large-cap fast-track: tam defaulted to 'no' (renewable-transmission buildout is a real but generic industry tailwind, not a confirmed company-specific inflection this pass); moat yes (transmission monopoly); valuation yes (~17x P/E is fair); score not computed per fast large-cap rule."
+    "score": 2.5,
+    "note": "Large-cap: tam defaulted to 'no' (renewable-transmission buildout is a real but generic industry tailwind, not a confirmed company-specific inflection this pass); moat yes (transmission monopoly); valuation yes (~17x P/E is fair); score computed per standard rule (informational only - large-cap protocol keeps thesis_fit 'neither' regardless of score)."
   },
   "value_chain": null
 }
