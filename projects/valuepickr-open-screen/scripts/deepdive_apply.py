@@ -22,6 +22,17 @@ Usage (run from repo root):
 --pre / --post are the conviction label before and after this deep dive.
 --redflag: one of  none | AVOID | "HIGH CAUTION" | EXCLUDE
 --thesis:  one of  10x-in-2-3-years | 100x-in-10-years | neither
+
+--mode (2026-09-16, default "full"): "technicals_only" for a cooldown-tier
+(`dive_mode:"technicals_only"` in the queue, `rerun_tier==4`) touch — a lightweight
+price/valuation-only refresh, NOT a fresh primary-document dive (see
+deepdive-top100/SKILL.md Step 1). In this mode, `deepdive_pass`/`deepdive_date` on BOTH
+state.json and the queue entry are left UNTOUCHED, so the 60-day cooldown clock keeps
+counting from the last FULL dive, not this touch — resetting it here would mean a stock
+in cooldown could never actually leave cooldown. The queue entry's `deepdive_status`
+still flips to "done" (so it isn't re-picked again within the same run) and a `history`
+entry is still appended, tagged `"mode": "technicals_only"`, but it does NOT count as a
+new `pass` for PASS-COMPLETE purposes — see the done/total print at the bottom.
 """
 import argparse, json, os, sys, datetime
 
@@ -59,7 +70,9 @@ def main():
     ap.add_argument("--redflag", default="none")
     ap.add_argument("--notes", required=True)
     ap.add_argument("--summary", required=True)
+    ap.add_argument("--mode", default="full", choices=["full", "technicals_only"])
     a = ap.parse_args()
+    is_technicals = a.mode == "technicals_only"
 
     if a.post not in VALID_CONV or a.pre not in VALID_CONV:
         sys.exit(f"bad conviction label (pre={a.pre} post={a.post}); valid: {sorted(VALID_CONV)}")
@@ -83,34 +96,53 @@ def main():
         s["market_cap_tier"] = a.mcap
         s["notes_short"] = a.notes
         s["red_flag_tier"] = None if a.redflag == "none" else a.redflag
-        s["deepdive_pass"] = a.passno
-        s["deepdive_date"] = TODAY
+        if not is_technicals:
+            # 2026-09-16: a technicals-only touch must NOT reset the 60-day cooldown
+            # clock — leave deepdive_pass/deepdive_date exactly as they were from the
+            # last FULL dive.
+            s["deepdive_pass"] = a.passno
+            s["deepdive_date"] = TODAY
         dump(STATE, st)
-        state_msg = f"state.json[{state_key}] updated"
+        state_msg = f"state.json[{state_key}] updated" + (" (technicals-only; deepdive_date unchanged)" if is_technicals else "")
     else:
         state_msg = f"WARNING: state_key {state_key!r} not in state.json — skipped state update"
 
     # ---- deepdive-queue.json ----
-    entry["deepdive_status"] = "done"
-    entry["deepdive_pass"] = a.passno
-    entry["deepdive_date"] = TODAY
     entry["pre_deepdive_conviction"] = a.pre
     entry["post_deepdive_conviction"] = a.post
-    entry.setdefault("history", []).append({
-        "pass": a.passno, "date": TODAY,
-        "pre": a.pre, "post": a.post, "summary": a.summary,
-    })
+    if is_technicals:
+        # Leave deepdive_status/deepdive_pass/deepdive_date untouched (whatever
+        # build_deepdive_queue.py last set them to, i.e. "pending" + the old full-dive
+        # date) so the cooldown clock and pass-rollover bookkeeping both stay correct —
+        # this run's touch doesn't count as completing a pass for this stock. Still
+        # record it in history for the audit trail, tagged distinctly.
+        entry.setdefault("history", []).append({
+            "pass": entry.get("deepdive_pass", 0), "date": TODAY,
+            "pre": a.pre, "post": a.post, "summary": a.summary,
+            "mode": "technicals_only",
+        })
+    else:
+        entry["deepdive_status"] = "done"
+        entry["deepdive_pass"] = a.passno
+        entry["deepdive_date"] = TODAY
+        entry.setdefault("history", []).append({
+            "pass": a.passno, "date": TODAY,
+            "pre": a.pre, "post": a.post, "summary": a.summary,
+        })
     dump(QUEUE, q)
 
     pool = [e for e in q["queue"] if e.get("in_active_pool")]
     done = sum(1 for e in pool if e["deepdive_status"] == "done"
                and e["deepdive_pass"] >= a.passno)
     total = len(pool) or len(q["queue"])  # fallback for a queue predating the active-pool rework
-    print(f"OK  rank {entry['rank']:>3}  {a.queue_name[:50]}")
+    print(f"OK  rank {entry['rank']:>3}  {a.queue_name[:50]}" + ("  [technicals-only]" if is_technicals else ""))
     print(f"    {state_msg}")
-    print(f"    queue: pass {a.passno} progress {done}/{total} (active pool)"
-          + ("  <-- PASS COMPLETE, run build_deepdive_queue.py to roll to next pass"
-             if done == total else ""))
+    if is_technicals:
+        print(f"    queue: technicals-only touch recorded — deepdive_status/pass/date left untouched (cooldown clock unaffected)")
+    else:
+        print(f"    queue: pass {a.passno} progress {done}/{total} (active pool)"
+              + ("  <-- PASS COMPLETE, run build_deepdive_queue.py to roll to next pass"
+                 if done == total else ""))
 
 
 if __name__ == "__main__":

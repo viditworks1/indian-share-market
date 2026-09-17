@@ -1,87 +1,239 @@
 {
   "name": "Unicommerce eSolutions Ltd",
-  "tagline": "Dominant e-commerce OMS/WMS 'picks and shovels' play with a real moat, but community-flagged client churn undercuts the headline growth story",
-  "business_overview": "Unicommerce, founded by Kunal Bahl and Rohit Bansal, is India's dominant warehouse management (WMS) and order management system (OMS) provider for e-commerce and quick-commerce fulfillment, earning a fee per parcel/order processed.",
+  "tagline": "Dominant e-commerce OMS/WMS 'picks and shovels' play with a real network-effect moat; the community-flagged core-Uniware-growth concern now reads as resolved (a single lost top-10 customer, not broad churn) but the insider-stake-reduction claim remains unverified and the stock isn't cheap at ~44x trailing",
+  "business_overview": "Unicommerce, founded by Kunal Bahl and Rohit Bansal (via AceVector/B2 Capital, ~36% combined promoter holding), is India's dominant warehouse management (WMS) and order management system (OMS) provider for e-commerce and quick-commerce fulfillment, earning a fee per parcel/order processed across Uniware (the core, higher-margin OMS/WMS product) and Shipway (a shipping-aggregation product consolidated via acquisition in Dec 2024).",
   "fundamentals_table": [
     [
       "Market Cap",
-      "Rs 983 Cr"
+      "~Rs 945 Cr (price ~Rs 84)"
     ],
     [
       "ROCE / ROE",
-      "21.1% / 15.6% -- solid"
+      "21.1% / 15.6% - down from FY24's 31% ROCE but stable the last two years"
     ],
     [
       "Revenue growth",
-      "+75.3% YoY in Q2 FY26 (Rs 51.4 Cr)"
+      "FY26 full year +51.6% YoY (Rs 204.3 Cr, Shipway-boosted); Q1 FY27 +14.3% YoY (Rs 51.4 Cr) as the FY26 M&A base laps"
+    ],
+    [
+      "Margins",
+      "FY26 full year adj. EBITDA margin 21.5% (stable); Q1 FY27 EBITDA -14.5% YoY on a deliberate AI/talent/sales investment step-up"
     ],
     [
       "Debt",
-      "Net cash (net debt/equity -0.06)"
+      "Near debt-free (Rs 9 Cr borrowings vs Rs 92.6 Cr cash) - net cash"
+    ],
+    [
+      "Valuation",
+      "P/E ~44x trailing (TTM EPS Rs 1.90) - full, not cheap"
     ]
   ],
-  "fundamentals_narrative": "Decent returns and strong headline revenue growth (+75.3% YoY), but this is inflated by the Shipway acquisition consolidated in Dec 2024 -- the high-margin core Uniware product is growing only in single digits per a community-flagged concern.",
-  "technical_read": "Not pulled this pass.",
-  "sentiment_summary": "Read the entire 8-post thread (started May 2026, all posts fit in one batch).",
-  "community_signal": "rks00 opened the thread asking whether Unicommerce can 5x in 5 years per management's own guidance, framing a real moat argument (network effects: a new competitor needs 150+ marketplace/logistics integrations before merchants will switch, but merchants won't sign up until integrations exist). mako flagged that most of FY26 topline growth came from the Shipway acquisition, with core high-margin Uniware growing only in single digits. sivaprakashh made a sharper, specific churn observation: enterprise client count grew net 173 (953 to 1,126) in FY26, but the company reported adding 465 new clients -- implying roughly 292 clients were lost, meaning gross client additions are not translating proportionally into topline. vinay_turaidar flagged that CEO Kapil Makhija has been consistently reducing his ownership stake (1.15% to 0.52%) since May 2026 -- an insider-selling caution.",
-  "bse_notes": "Not checked this pass.",
+  "fundamentals_narrative": "The community's central concern - that headline growth was Shipway-acquisition-driven while core Uniware grew only single digits - reads as substantially resolved this pass: management stated Q1 FY27 was Uniware's 4th consecutive quarter of improving growth, with like-for-like growth exceeding 15% excluding a single former top-10 customer that discontinued operations. That reframes the community's churn math (953->1,126 enterprise clients in FY26 despite 465 gross adds, implying ~292 losses) as concentrated in one large account rather than broad-based attrition, and enterprise additions have kept accelerating since (110 in Q4 FY26, 115 in Q1 FY27, +30.7% YoY, including Amul, Haldiram's, Mahindra Logistics, Shein Marketplace, Interio by Godrej). FY26 full-year revenue grew 51.6% to Rs 204.3 Cr with adjusted EBITDA up 54.5% to Rs 43.9 Cr (21.5% margin); Q1 FY27 revenue grew a slower 14.3% (Uniware +12.8%, Shipway +16.8%) as the FY26 Shipway-consolidation base laps, while adjusted EBITDA fell 14.5% YoY on a deliberate, management-flagged step-up in AI/talent/sales investment - a near-term margin dip, not a deteriorating unit-economics signal, backed by a strong and growing cash position (Rs 92.6 Cr, +72.1% YoY) and a near debt-free balance sheet (Rs 9 Cr borrowings). One item from the original forum thread - CEO Kapil Makhija reportedly reducing his personal stake from 1.15% to 0.52% since May 2026 - could NOT be independently corroborated this pass (available sources show ~1.15-1.16% as of Dec 2025 and in current profiles); left as an open, unresolved question rather than confirmed or dismissed.",
+  "technical_read": "Not pulled this pass - the write-up turns on fundamentals/thesis, not chart position.",
+  "sentiment_summary": "Read the entire 8-post thread (started May 2026, all posts fit in one batch) at initial discovery. rks00 opened the thread asking whether Unicommerce can 5x in 5 years per management's own guidance, framing a real moat argument (network effects: a new competitor needs 150+ marketplace/logistics integrations before merchants will switch, but merchants won't sign up until integrations exist). mako flagged that most of FY26 topline growth came from the Shipway acquisition, with core high-margin Uniware growing only in single digits. sivaprakashh made a sharper, specific churn observation: enterprise client count grew net 173 (953 to 1,126) in FY26 despite 465 gross adds, implying ~292 clients lost. vinay_turaidar flagged CEO Kapil Makhija reducing his ownership stake (1.15% to 0.52%) since May 2026.",
+  "community_signal": "No new trusted-user activity found this pass; the original thread (8 posts, all from untrusted/unrated users) remains the only source.",
+  "bse_notes": "Not independently re-checked this pass beyond shareholding filings (promoter disclosure as of March 31, 2026 shows no encumbrance/pledge on any promoter shares).",
   "bull_case": [
-    "Genuine structural moat: two-sided integration network effects make Unicommerce difficult to displace once embedded in merchant/logistics workflows",
-    "Headline revenue growth remains strong (+75.3% YoY)",
-    "Net-cash balance sheet, no leverage risk",
-    "Management guiding to a 5x-in-5-years outcome, which if delivered would fit the thesis directly"
+    "Genuine structural moat: two-sided integration network effects (150+ live marketplace/logistics integrations) make Unicommerce difficult to displace once embedded in merchant workflows",
+    "The core community concern (Uniware growth allegedly weak, masked by Shipway M&A) now looks resolved: management reports 4 consecutive quarters of improving Uniware growth, LFL >15% ex one discontinued top-10 customer, and enterprise client adds have kept accelerating (110-115/quarter, +30.7% YoY)",
+    "Near debt-free with a growing cash pile (Rs 92.6 Cr, +72.1% YoY) funding a deliberate AI/talent/sales investment phase rather than relying on leverage",
+    "Management guiding to >15% Uniware growth and >20% Shipway growth from Q4 FY27 onwards, which if delivered fits the compounding thesis directly"
   ],
   "bear_case": [
-    "A specific, well-reasoned community observation flags real client churn (~292 of 465 gross adds lost) undermining the headline growth narrative",
-    "Core high-margin Uniware product growing only in single digits -- most growth is acquisition-driven (Shipway), not organic",
-    "CEO has been steadily reducing personal stake since May 2026 -- a real insider-conviction caution",
-    "Thread is very new (8 posts) with limited independent scrutiny beyond the points above"
+    "Valuation is full (~44x trailing P/E) for a company whose reported EBITDA margin just fell 14.5% YoY, even if the reinvestment rationale is credible",
+    "Only one quarter (Q1 FY27) of data confirms the churn-resolution narrative - the community's underlying math (292 implied client losses in FY26) hasn't been re-verified independently against a full-year filing, only accepted via management's own framing on the concall",
+    "The CEO stake-reduction claim (1.15% to 0.52%) could not be corroborated or refuted this pass - a genuine open governance question, not resolved either way",
+    "Short public trading history (listed August 2024) limits how much can be inferred about durability through a full cycle",
+    "Blended revenue growth decelerated sharply from FY26's 51.6% (Shipway-boosted) to 14.3% in Q1 FY27 as the acquisition base laps - the market will need several more quarters of the reaccelerating-Uniware narrative to re-rate on it"
   ],
-  "market_cap_tier": "Small-cap (~Rs 983 Cr)",
+  "market_cap_tier": "Small-cap (~Rs 945 Cr)",
   "thesis_fit": "10x-in-2-3-years",
-  "verdict_headline": "A real moat business with a specific, credible churn concern and insider selling that keep this at low conviction, unconfirmed",
+  "verdict_headline": "The core churn concern reads as resolved (one lost top-10 customer, not broad attrition, with 4 straight quarters of Uniware reacceleration and strong enterprise-client adds), upgrading this from a low-conviction, unconfirmed call - but the unverified CEO-stake claim and a full ~44x valuation keep conviction at Medium, not higher.",
   "verdict_reasoning": [
-    "The moat argument is structurally sound (integration switching costs), and the small market cap leaves genuine room if management's 5x guidance is delivered",
-    "But the churn math flagged by the community is specific and concrete, not vague sentiment -- it directly questions whether client additions are translating into durable revenue growth",
-    "Insider selling by the CEO since May 2026 is a real, current caution that tempers conviction further",
-    "No formal red flag; conviction set Low given the combination of a thin, new thread and the specific churn/insider-selling concerns"
+    "The moat argument remains structurally sound (integration switching costs), and the small ~Rs 945 Cr market cap leaves genuine room if management's growth guidance is delivered.",
+    "Deep-dive pass 1: the specific, concrete community concern (client churn masking weak core growth) is directly addressed by management's own Q1 FY27 disclosure - a named, one-time cause (a discontinued top-10 customer) rather than systemic attrition, corroborated by 4 consecutive quarters of improving LFL growth and continued enterprise-client acceleration. four_box upgraded from 3.0 to 3.5 (tam: weak -> yes) on this basis.",
+    "The CEO personal-stake-reduction claim (1.15% -> 0.52%) could not be independently corroborated or refuted with the sources available this pass - left as an open question rather than resolved, and it still tempers conviction below Medium-High.",
+    "No formal red flag; conviction upgraded Low -> Medium given the churn resolution, balanced against the unresolved insider-stake question, a full valuation (~44x trailing), and only one confirming quarter of data."
   ],
   "red_flag_tier": null,
   "red_flag_reason": null,
   "four_box": {
     "tailwind": "yes",
-    "tam": "weak",
+    "tam": "yes",
     "moat": "yes",
     "valuation": "weak",
-    "score": 3.0,
-    "note": "E-commerce integration/enablement SaaS is a real structural niche; headline +75.3% growth is Shipway-acquisition-driven while core Uniware grows only single digits (community-flagged client churn ~292 of 465 gross adds lost) — tam weak; two-sided integration network effects are a genuine, explicit structural moat; no valuation data, CEO reducing personal stake since May-2026 is a separate insider-conviction caution."
+    "score": 3.5,
+    "note": "E-commerce integration/enablement SaaS is a real structural niche; the prior 'tam weak' call (Shipway-driven growth masking weak core Uniware) is upgraded to 'yes' this pass - management reports 4 consecutive quarters of improving Uniware growth, LFL >15% ex one discontinued top-10 customer, plus accelerating enterprise-client adds. Two-sided integration network effects remain a genuine, explicit structural moat. Valuation weak at ~44x trailing P/E; the CEO stake-reduction claim is a separate, unresolved insider-conviction caution not captured in this box."
   },
-  "market_expectation": {
-    "as_of": "2026-09-09",
-    "price": 85.5,
-    "current_pe": 45.3,
-    "current_ev_ebitda": null,
-    "valuation_tool": "P/E",
-    "implied_growth_cagr": "~45x TTM on an e-commerce OMS/WMS SaaS implies the market needs ~30%+ EPS CAGR FY26-28 at a ~30x exit to be fair",
-    "our_fy27_estimate": "revenue +25-35% on order-volume growth and new logos; margin ~17-20%",
-    "our_fy28_estimate": "growth durability is the question - community-flagged client churn caps the compounding",
-    "gap_direction": "priced-in",
-    "gap_type": "duration",
-    "gap_magnitude_pct": null,
-    "gap_basis": "at 45x the market already credits sustained 30%+ growth; community-flagged client churn undercutting the headline rate is the risk our estimate reflects",
-    "evidence_quality": "weak",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  "value_chain": {
+    "theme": "E-commerce / quick-commerce fulfillment enablement (OMS/WMS SaaS)",
+    "position": "Dominant order-management/warehouse-management SaaS layer connecting e-commerce sellers to 150+ marketplaces, logistics and payment partners; monetises via a per-order/parcel fee (Uniware) plus a shipping-aggregation product (Shipway)",
+    "bottleneck_node": "Breadth and depth of live marketplace/logistics/payment integrations - the real switching-cost moat, not raw software capacity",
+    "supply_side_status": "balanced",
+    "adjacent_peers": [
+      "Increff",
+      "Browntape",
+      "EasyEcom"
+    ],
+    "note": "Two-sided integration network effect: a new competitor needs 150+ live marketplace/logistics integrations before merchants will switch, but merchants won't adopt until the integrations exist - a structural moat independent of the Uniware/Shipway growth-mix debate."
   },
-  "quality_metrics": {
-    "roce_pct": 21,
-    "roce_trend": "declining",
-    "net_debt_to_ebitda": -1.0,
-    "interest_coverage": null,
-    "fcf_conversion_pct": 60,
-    "margin_trend": "expanding",
-    "capex_efficiency": "neutral",
+  "earnings_quality": {
+    "margin_driver": "mixed",
+    "drivers": [
+      "Operating leverage on Uniware as like-for-like growth reaccelerates",
+      "Deliberate step-up in AI/talent/sales investment compressing near-term EBITDA margin",
+      "Shipway integration/cross-sell scaling"
+    ],
+    "peak_margin_risk": false,
+    "normalised_note": "FY26 full-year adjusted EBITDA margin (21.5%) is the through-cycle level; Q1 FY27's dip (EBITDA -14.5% YoY) reflects a deliberate, management-flagged investment phase, not deteriorating unit economics - the opposite of a peak-margin risk."
+  },
+  "growth_trajectory": {
+    "yoy_trend": "accelerating",
+    "last_quarters_note": "Per management: Uniware like-for-like growth (ex a discontinued former top-10 customer) has improved for 4 consecutive quarters, exceeding 15% in Q1 FY27. Blended company revenue growth: FY26 +51.6% (Shipway-boosted) -> Q1 FY27 +14.3% (decelerating on a tougher M&A-inflated base, even as the underlying core trend improves).",
+    "reverse_pe_note": "~44x trailing P/E needs roughly 35-40% EPS CAGR FY26-28 to be fair at a ~25-28x SaaS exit multiple; the >15%/>20% Uniware/Shipway guidance plus operating leverage could plausibly get there, but it is a stretch on only one confirming quarter - consistent with 'partially-priced' rather than 'underestimated'."
+  },
+  "management_quality": {
+    "capital_allocation": "Asset-light SaaS reinvesting operating cash flow (Rs 47 Cr FY26) into AI/talent/sales headcount rather than capex; near debt-free (Rs 9 Cr borrowings) with a growing cash balance; no unrelated diversification found.",
+    "capital_allocation_track_record": "disciplined",
+    "rpt_trend": "unclear",
+    "guidance_credibility": "unclear",
+    "shareholder_returns": "none",
+    "capability_ladder_note": "Explicit investment in AI capabilities layered onto the core OMS/WMS product, alongside Shipway cross-sell, moving toward a broader retail-fulfilment-tech platform.",
     "assessment": "neutral"
   },
+  "quality_metrics": {
+    "roce_pct": 21.1,
+    "roce_trend": "stable",
+    "net_debt_to_ebitda": -1.9,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 95,
+    "margin_trend": "contracting",
+    "capex_efficiency": "neutral",
+    "assessment": "positive"
+  },
+  "commitments": [
+    {
+      "area": "growth",
+      "text": "Uniware growth reacceleration to >15%, Shipway >20% growth 'from Q4 FY27 onwards'",
+      "specifics": "Q1 FY27 Uniware LFL growth already >15% ex one discontinued top-10 customer; 4th consecutive quarter of improving growth",
+      "timeline_bucket": "FY27",
+      "quality_stage": "financial",
+      "source": "Q1 FY27 concall",
+      "dependency": "sustaining the trend without new large-customer losses",
+      "single_point_of_failure": "",
+      "thesis_critical": true
+    },
+    {
+      "area": "new_business",
+      "text": "Enterprise client additions running 110-115/quarter, +30.7% YoY in Q1 FY27",
+      "specifics": "115 new enterprise clients Q1 FY27 incl. Amul, Haldiram's, Mahindra Logistics; 110 in Q4 FY26 incl. Shein Marketplace, Interio by Godrej",
+      "timeline_bucket": "3M",
+      "quality_stage": "commercial",
+      "source": "Q1 FY27 and Q4 FY26 concalls",
+      "dependency": "",
+      "single_point_of_failure": "",
+      "thesis_critical": true
+    },
+    {
+      "area": "margin",
+      "text": "Adjusted EBITDA margin to recover after the near-term AI/talent/sales investment phase",
+      "specifics": "Q1 FY27 EBITDA -14.5% YoY to Rs 8.1 Cr on planned investment; FY26 full-year margin was 21.5%",
+      "timeline_bucket": "FY27",
+      "quality_stage": "expectation",
+      "source": "Q1 FY27 concall",
+      "dependency": "AI/sales investment converting to durable growth",
+      "single_point_of_failure": "",
+      "thesis_critical": true
+    }
+  ],
+  "earnings_chain": {
+    "chain": [
+      "Client acquisition (110-115 enterprise adds/quarter)",
+      "Order/parcel volume growth per client (Uniware LFL reacceleration)",
+      "Revenue growth (Uniware >15%, Shipway >20% guided)",
+      "Operating leverage (post AI/talent/sales investment phase)",
+      "EBITDA margin recovery toward/above 21.5%",
+      "PAT growth"
+    ],
+    "bottleneck_link": "Operating leverage / margin recovery after the deliberate Q1 FY27 investment step-up",
+    "operating_leverage": "yes - management explicitly frames the Q1 FY27 EBITDA dip as a deliberate investment phase expected to convert to durable growth, not a structural cost increase",
+    "evidenced_links": [
+      "Client acquisition",
+      "Order/parcel volume growth per client (Uniware LFL reacceleration)",
+      "Revenue growth"
+    ],
+    "assumed_links": [
+      "Operating leverage",
+      "EBITDA margin recovery",
+      "PAT growth"
+    ]
+  },
+  "market_expectation": {
+    "as_of": "2026-09-14",
+    "price": 84,
+    "current_pe": 44.1,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~35-40% EPS CAGR FY26-28 needed to justify ~44x trailing P/E at a ~25-28x SaaS exit multiple",
+    "our_fy27_estimate": "Uniware growth reaccelerating past 15%, Shipway past 20% from Q4 FY27; blended revenue growth mid-teens to 20%+ as the FY26 M&A base effect fades; margin dips near-term on AI/talent investment before recovering toward the FY27 exit",
+    "our_fy28_estimate": "If the network-effect moat holds and enterprise client adds (110-115/quarter) keep compounding, a genuine SaaS-style operating-leverage re-rate is plausible, but this is only the second full fiscal year of public disclosure and the trend needs more confirming quarters",
+    "gap_direction": "partially-priced",
+    "gap_type": "duration",
+    "gap_magnitude_pct": null,
+    "gap_basis": "At ~44x the market is already pricing a durable compounder; Q1 FY27's specific, credible resolution of the churn concern (one lost top-10 customer, not broad attrition) supports the bull case, but only one quarter of confirming data exists since the community first flagged the issue",
+    "evidence_quality": "strong",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "catalyst": {
+    "event": "Q4 FY27 print showing Shipway growth above 20% and Uniware sustaining above 15%, confirming the churn-resolution thesis across multiple quarters",
+    "expected_window_months": 6,
+    "window_start": "2026-09-14",
+    "evidence_quality": "med",
+    "is_dated": true,
+    "status": "pending"
+  },
   "track_record_na": true,
-  "track_record_na_note": "<3 fiscal years of verifiable history (or bank basis) at 2026-09-09 coverage backfill; leave absent per DEEPDIVE_QUICKREF, re-evaluate on a full deep pass."
+  "track_record_na_note": "Listed August 2024; only FY25 and FY26 are clean full fiscal years of public disclosure (<3 verifiable years) - left absent per DEEPDIVE_QUICKREF rather than fabricate a per-year growth/ROCE table from partial pre-IPO data. Re-evaluate once FY27 closes.",
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-14",
+    "sources_reviewed": [
+      "Q1 FY27 concall summaries (Quartr, investorstack.in, Yahoo Finance earnings-call highlights)",
+      "FY26 full-year and Q4 FY26 results (Whalesbook, MarketsMojo, scanx.trade press releases)",
+      "screener.in consolidated financials (ROCE/ROE trend, debt, shareholding)",
+      "Shareholding-pattern search for CEO Kapil Makhija's personal stake (inconclusive, see open_questions)"
+    ],
+    "annual_report_findings": [
+      "FY26 full-year revenue Rs 204.3 Cr (+51.6% YoY, Shipway-boosted), adjusted EBITDA Rs 43.9 Cr (+54.5%, 21.5% margin) - both metrics grew faster than the community's headline concern implied.",
+      "Near debt-free: Rs 9 Cr borrowings vs Rs 92.6 Cr cash (Q1 FY27); operating cash flow Rs 47 Cr FY26 funds the AI/talent/sales investment without leverage.",
+      "ROCE trajectory: FY24 31% -> FY25 21% -> FY26 21.1% - a real step-down from an elevated post-IPO base, now stable at ~21%, not a continuing decline.",
+      "Promoter shareholding (AceVector 25.90%+0.23% indirect, B2 Capital/Kunal Bahl+Rohit Bansal 9.80%) ~36.01% as of Jun 2026, with the March 2026 disclosure confirming no encumbrance/pledge on promoter shares.",
+      "Could not independently corroborate the forum's specific CEO-stake claim (1.15% -> 0.52%); available sources show Kapil Makhija at ~1.15-1.16% as of Dec 2025 and in current profiles - left unresolved, not confirmed or dismissed."
+    ],
+    "quarterly_trend": [
+      "Revenue: FY26 +51.6% full year -> Q4 FY26 Rs 51.63 Cr (-8.44% QoQ) -> Q1 FY27 Rs 51.4 Cr (+14.3% YoY) - blended growth decelerating as the FY26 Shipway-consolidation base laps.",
+      "Uniware specifically: management states 4 consecutive quarters of improving like-for-like growth, exceeding 15% in Q1 FY27 excluding one discontinued former top-10 customer - directly addresses the community's core concern.",
+      "Adjusted EBITDA: Q4 FY26 Rs 9.6 Cr (+7.8% YoY) -> Q1 FY27 Rs 8.1 Cr (-14.5% YoY) on a deliberate, disclosed step-up in AI/talent/sales investment.",
+      "Enterprise clients: 110 added Q4 FY26 (Action Tesa, Lehar Footwear, Interio by Godrej, Shein Marketplace, Underneat), 115 added Q1 FY27 (+30.7% YoY, incl. Amul, Haldiram's, Mahindra Logistics) - continued acceleration in gross adds."
+    ],
+    "recent_announcements": [
+      "Q4 & FY26 results published (April 2026 board meeting/earnings call).",
+      "Q1 FY27 results published (August 2026 earnings call).",
+      "Promoter shareholding disclosure as of March 31, 2026 - no encumbrance/pledge reported.",
+      "No litigation, auditor-change, or going-concern issues surfaced in the sources reviewed this pass."
+    ],
+    "key_new_facts": [
+      "The community's core concern (Shipway masking weak core Uniware growth) is directly addressed by management's own disclosure: Uniware's apparent weakness traced to a single discontinued top-10 customer, with underlying like-for-like growth improving for 4 straight quarters and exceeding 15% in Q1 FY27.",
+      "Enterprise client gross additions have kept accelerating post the community's original observation (110 in Q4 FY26, 115 in Q1 FY27, +30.7% YoY) with recognisable large-brand names.",
+      "The Q1 FY27 EBITDA decline (-14.5% YoY) is a disclosed, deliberate reinvestment choice (AI/talent/sales) funded from a strong and growing cash position, not a sign of deteriorating economics.",
+      "The CEO personal-stake-reduction claim from the original thread (1.15% -> 0.52%) could not be corroborated with the sources available this pass - remains a genuine open question, not resolved in either direction."
+    ],
+    "open_questions": [
+      "CEO Kapil Makhija's personal shareholding trend across 2026 quarters - the forum's specific 1.15% -> 0.52% claim is neither confirmed nor refuted by the sources found this pass; needs a direct BSE/NSE shareholding-pattern filing check next pass.",
+      "Whether the ~292 implied FY26 client losses (953->1,126 net vs 465 gross adds) are fully explained by the single discontinued top-10 customer management cited, or include smaller-account churn not separately disclosed.",
+      "RPT trend not assessed this pass given the promoter structure (AceVector/B2 Capital) - no disclosures surfaced either way; verify in the FY26 annual report notes.",
+      "FCF conversion (~95%) is derived from FY26 operating cash flow vs adjusted EBITDA, not a directly reported figure - treat as approximate."
+    ],
+    "conviction_update": "Low -> Medium. The specific, concrete community concern that anchored the original Low conviction (churn masking weak core growth) is directly and credibly addressed by management's own Q1 FY27 disclosure, corroborated by 4 consecutive quarters of improving trend and continued enterprise-client acceleration - four_box upgraded 3.0 -> 3.5 (tam: weak -> yes). Conviction is not raised further because the CEO stake-reduction claim remains genuinely unresolved (not disproven, just uncorroborated) and the stock trades at a full ~44x trailing P/E on only one confirming quarter of data."
+  }
 }

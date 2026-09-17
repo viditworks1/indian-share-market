@@ -26,9 +26,9 @@ Built incrementally from posts actually read during scanning - not an exhaustive
 | 20 | Chins | 210 | 5 | 42.0 |
 | 21 | Midhunjoe | 200 | 39 | 5.1 |
 | 22 | Vijay_Kiran | 194 | 89 | 2.2 |
-| 23 | nirvana_laha | 180 | 15 | 12.0 |
-| 24 | newrb | 146 | 18 | 8.1 |
-| 25 | Investor_No_1 | 144 | 47 | 3.1 |
+| 23 | Investor_No_1 | 185 | 51 | 3.6 |
+| 24 | nirvana_laha | 180 | 15 | 12.0 |
+| 25 | newrb | 146 | 18 | 8.1 |
 | 26 | fabregas | 141 | 15 | 9.4 |
 | 27 | rajpanda | 135 | 73 | 1.8 |
 | 28 | rk1771 | 132 | 39 | 3.4 |
@@ -104,32 +104,32 @@ Built incrementally from posts actually read during scanning - not an exhaustive
 | 98 | drjpatwa | 52 | 17 | 3.1 |
 | 99 | Niraj_Punjkaran | 52 | 15 | 3.5 |
 | 100 | raj1968 | 52 | 12 | 4.3 |
-| 101 | paragbharambe | 51 | 9 | 5.7 |
-| 102 | niraj | 51 | 4 | 12.8 |
-| 103 | rcinvestor999 | 50 | 29 | 1.7 |
-| 104 | firefueled | 50 | 12 | 4.2 |
-| 105 | Mayank_d | 50 | 6 | 8.3 |
-| 106 | hnk_so | 49 | 15 | 3.3 |
-| 107 | Rahul_Bhardwaj | 49 | 12 | 4.1 |
-| 108 | Malhar_Manek | 49 | 8 | 6.1 |
-| 109 | Vkventra | 48 | 1 | 48.0 |
-| 110 | RocketMan | 47 | 14 | 3.4 |
-| 111 | Naman_Bhansali | 47 | 3 | 15.7 |
-| 112 | ORION | 46 | 14 | 3.3 |
-| 113 | Markmaker | 46 | 9 | 5.1 |
-| 114 | abhicnr | 46 | 8 | 5.8 |
-| 115 | sujaypawar | 46 | 4 | 11.5 |
-| 116 | Deven | 45 | 13 | 3.5 |
-| 117 | DeepVal | 45 | 10 | 4.5 |
-| 118 | sumit680 | 45 | 4 | 11.2 |
-| 119 | Manoos | 44 | 4 | 11.0 |
-| 120 | ashishk | 44 | 3 | 14.7 |
-| 121 | faltooinvestor | 43 | 8 | 5.4 |
-| 122 | First_Principles | 43 | 4 | 10.8 |
-| 123 | asarun | 42 | 14 | 3.0 |
-| 124 | Lavanya_Tomar | 41 | 10 | 4.1 |
-| 125 | Aman_Jain3 | 40 | 29 | 1.4 |
-| 126 | sujay85 | 40 | 17 | 2.4 |
+| 101 | sujay85 | 51 | 18 | 2.8 |
+| 102 | paragbharambe | 51 | 9 | 5.7 |
+| 103 | niraj | 51 | 4 | 12.8 |
+| 104 | rcinvestor999 | 50 | 29 | 1.7 |
+| 105 | firefueled | 50 | 12 | 4.2 |
+| 106 | Mayank_d | 50 | 6 | 8.3 |
+| 107 | hnk_so | 49 | 15 | 3.3 |
+| 108 | Rahul_Bhardwaj | 49 | 12 | 4.1 |
+| 109 | Malhar_Manek | 49 | 8 | 6.1 |
+| 110 | Vkventra | 48 | 1 | 48.0 |
+| 111 | RocketMan | 47 | 14 | 3.4 |
+| 112 | Naman_Bhansali | 47 | 3 | 15.7 |
+| 113 | ORION | 46 | 14 | 3.3 |
+| 114 | Markmaker | 46 | 9 | 5.1 |
+| 115 | abhicnr | 46 | 8 | 5.8 |
+| 116 | sujaypawar | 46 | 4 | 11.5 |
+| 117 | Deven | 45 | 13 | 3.5 |
+| 118 | DeepVal | 45 | 10 | 4.5 |
+| 119 | sumit680 | 45 | 4 | 11.2 |
+| 120 | Manoos | 44 | 4 | 11.0 |
+| 121 | ashishk | 44 | 3 | 14.7 |
+| 122 | faltooinvestor | 43 | 8 | 5.4 |
+| 123 | First_Principles | 43 | 4 | 10.8 |
+| 124 | asarun | 42 | 14 | 3.0 |
+| 125 | Lavanya_Tomar | 41 | 10 | 4.1 |
+| 126 | Aman_Jain3 | 40 | 29 | 1.4 |
 | 127 | randomquarks | 40 | 13 | 3.1 |
 | 128 | Pujan_Shah | 40 | 12 | 3.3 |
 | 129 | Mukul_Jain | 40 | 8 | 5.0 |
@@ -2288,6 +2288,13 @@ Built incrementally from posts actually read during scanning - not an exhaustive
 - **Vijay_Kiran** on `None` (2022-12-31): high: "pleasantly surprised me this year in my satellite PF are VBL, Butterfly, Uno Minda and Nikhil Adhesive" (post #73) - VijayKiran (VK) Long Term Portfolio Mistakes & Learnings, backfill. Existing candidate (trusted-thread/high from Vivek_6954) upgraded to very-high - second independent trusted holder corroboration.
 - **Vijay_Kiran** on `None` (2022-12-31): high: "pleasantly surprised me this year in my satellite PF are VBL, Butterfly, Uno Minda and Nikhil Adhesive" (post #73) - VijayKiran (VK) Long Term Portfolio Mistakes & Learnings, backfill. New candidate created, trusted-thread/high. No dedicated ValuePickr thread found (searched 'Nikhil Adhesives').
 - **Vijay_Kiran** on `None` (2022-12-31): high: "pleasantly surprised me this year in my satellite PF are VBL, Butterfly, Uno Minda and Nikhil Adhesive" (post #73) - VijayKiran (VK) Long Term Portfolio Mistakes & Learnings, backfill. No candidate created - Butterfly Gandhimathi was acquired/delisted via Crompton Greaves open offer (~2018), predating this Dec-2022 mention; not independently tradeable. Crompton Greaves Consumer Electricals already tracked separately in state.json.
+- **Investor_No_1** on `None` (2026-04-27): None
+- **Investor_No_1** on `None` (2026-04-27): None
+- **Investor_No_1** on `None` (2026-04-27): None
+- **Investor_No_1** on `None` (2026-04-27): None
+- **Investor_No_1** on `None` (2026-04-27): None
+- **Investor_No_1** on `None` (2026-04-27): None
+- **Investor_No_1** on `None` (2026-07-15): None
 - **newrb** on `None` (2026-08-22): high: "disc - holding HBL" (post #1242) - Vivek Gautam Portfolio, backfill
 - **rajpanda** on `None` (2013-07-31): high: "Added to existing positions in CanFin, Repco, Gruh, Astral, HDFC Bank, Kaveri" (post #35) - Notes on investing & portfolio, backfill. Thread dormant since 2015-07-02; historical record only, no candidate/bump applied.
 - **rajpanda** on `None` (2013-07-31): high: "Added to existing positions in CanFin, Repco, Gruh, Astral, HDFC Bank, Kaveri" (post #35) - Notes on investing & portfolio, backfill. Thread dormant since 2015-07-02; historical record only, no candidate/bump applied.
@@ -2319,3 +2326,4 @@ Built incrementally from posts actually read during scanning - not an exhaustive
 - **Ashar_Mann** on `None` (2025-10-12): Started the VP thread with a full bull thesis (asset-light 10-15yr leases, Regenta/Golden Tulip franchise, aggressive room expansion); explicitly 'invested and biased'. 9 loves. Elevated tier - informational, no conviction floor.
 - **raj1968** on `None` (2026-08-15): "Fantastic result... Still among my top 3 holding" - invested >1 year, trimmed 1/3 into the run-up but retains a large position; posts detailed concall notes every quarter since the Aug-2025 first-ever concall, repeatedly "management is walking the talk". Sourced from the Fredun Pharmaceuticals VP thread.
 - **raj1968** on `None` (2026-06-09): "Invested since last 4 months" - defends the Ricardo D2C acquisition rationale, actively tracking (L.T. Elevator thread)
+- **sujay85** on `None` (2026-04-29): None
