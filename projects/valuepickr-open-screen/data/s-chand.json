@@ -1,0 +1,48 @@
+{
+  "name": "S Chand & Company Ltd",
+  "tagline": "Small-cap educational publisher trading cheap (P/E ~6-7x) but with weak ROE, high debtor days and no growth tailwind identified - fast fundamentals disposition, thesis_fit 'neither'.",
+  "business_overview": "S Chand & Company is an educational publisher and content provider spanning early learning, K-12, higher education, competitive-exam prep and digital platforms. Seeded via X triage (untrusted, @Disciplined_Inv, high conviction, 2026-09-13).",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 486-500 Cr"],
+    ["52-week range", "~Rs 130 - Rs 258"],
+    ["ROE", "~6-7% (3-yr avg)"],
+    ["Revenue growth", "~9-12%/yr"],
+    ["Debt", "Low (debt/equity ~1%)"],
+    ["Valuation / working capital", "P/E ~6.6x (cheap); debtor days high at ~160 days"]
+  ],
+  "fundamentals_narrative": "S Chand screens cheap on a headline basis (P/E ~6.6x, low debt) but return on equity is weak (~6-7%) and working-capital quality is poor - debtor days of ~160 are high for a publisher and consistent with the channel-heavy, seasonal, receivables-laden economics typical of Indian education publishing. No specific named structural tailwind (e.g., a confirmed digital-pivot inflection or market-share gain) was found this pass; educational publishing faces a secular digital-disruption headwind rather than a tailwind.",
+  "technical_read": "Not pulled this pass - fundamentals-driven verdict.",
+  "sentiment_summary": "No forum deep-dive performed - four_box score below the bar for escalation.",
+  "community_signal": "None sought this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No red flags identified this pass; high debtor days is a working-capital caution, not a formal red flag (no going-concern, fraud, or promoter-pledge signal found).",
+  "bull_case": [
+    "Cheap headline valuation (P/E ~6.6x) and low reported debt",
+    "Established publishing brand across K-12/higher-ed/competitive-exam segments"
+  ],
+  "bear_case": [
+    "Weak ROE (~6-7%) despite the low debt - capital is not being deployed at attractive returns",
+    "High debtor days (~160) signal working-capital/collection quality concerns",
+    "Educational publishing faces secular digital-disruption pressure rather than a growth tailwind",
+    "No specific named structural inflection found to justify a re-rating"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 486-500 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Cheap-looking small-cap publisher (P/E ~6.6x) but weak ROE (~6-7%) and high debtor days, with no growth tailwind or structural inflection identified - four_box score ~1.5, thesis_fit 'neither' (hard default per scoring rule), conviction Low.",
+  "verdict_reasoning": [
+    "four_box = 1.5 (tailwind no, tam no, moat weak, valuation yes on cheapness) - falls in the 2.0-2.5-or-below 'neither' default band with no exception written",
+    "High debtor days is a genuine working-capital caution flagged in bear_case, though it does not meet the formal red-flag bar (no going-concern/fraud/pledge signal)",
+    "No forum check performed - fundamentals did not clear the bar for escalation"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "no",
+    "tam": "no",
+    "moat": "weak",
+    "valuation": "yes",
+    "score": 1.5,
+    "note": "Cheap valuation is the only clear positive; weak ROE, high debtor days and a secular digital-disruption headwind for print publishing outweigh it. Score falls in the hard 'neither' band (<=1.5)."
+  },
+  "value_chain": null
+}

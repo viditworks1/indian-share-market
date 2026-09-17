@@ -1,0 +1,49 @@
+{
+  "name": "GVPIL (GE Power India Ltd)",
+  "tagline": "Duplicate seed of GE Power India Ltd (see data/ge-power-india.json, slug 'ge-power-india') under its NSE ticker GVPIL - CORRECTED after the initial triage pass fabricated a net-worth crisis that independent verification disproved.",
+  "business_overview": "GE Power India Ltd (GVPIL, NSE: GEPIL) executes engineering-procurement-construction and supplies key equipment (boilers, turbines, generators) for thermal and hydro power plants in India, historically as an Alstom/GE-affiliated player. GVPIL is the company's NSE ticker and was seeded as a separate state.json candidate from the full-name seed 'ge-power-india' - both slugs refer to the SAME listed company.",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 4,388 Cr"],
+    ["ROCE (TTM)", "64-77% depending on source"],
+    ["ROE (3-yr avg)", "43.6-61%"],
+    ["Revenue growth", "-17.6% over 5 years (declining legacy order-book unwind)"],
+    ["Debt", "Almost debt-free"],
+    ["Corporate action", "Scheme of arrangement to demerge the Durgapur boiler/pressure-vessel/coal-mill unit to JSW Energy - NCLT Mumbai cleared first motion; shareholders get 10 JSW Energy shares per 139 GVPIL shares held, appointed date 2025-07-01"]
+  ],
+  "fundamentals_narrative": "CORRECTION NOTE: an earlier triage pass on this slug (dated 2026-09-15) reported deeply negative ROE (~-95.7%) and ROCE (~-98.5%) and framed the Durgapur/JSW Energy scheme as evidence of a 'self-acknowledged net-worth problem' requiring an AVOID red flag. That was independently re-verified via web search against screener.in/Yahoo Finance/TipRanks and found to be FABRICATED - the company's actual ROCE/ROE are exceptional (64-77% / 43-61%), consistent with the already-researched 'ge-power-india' slug. The Durgapur-to-JSW-Energy demerger is a real, confirmed corporate action (NCLT-cleared scheme of arrangement, share-swap terms disclosed), but it reads as a strategic portfolio/vertical-integration deal for JSW Energy, not a distress-driven asset sale - no going-concern or negative-net-worth language was found anywhere in the actual filings or coverage. Financial substance otherwise matches 'ge-power-india': high legacy capital efficiency on a shrinking revenue base (-17.6% over 5 years), no company-specific inflection found to justify a re-rating thesis.",
+  "technical_read": "Not independently re-pulled - see 'ge-power-india' for the same underlying stock.",
+  "sentiment_summary": "No forum check performed this pass - duplicate of an already-researched slug.",
+  "community_signal": "None sought - see 'ge-power-india'.",
+  "trusted_signals": [],
+  "bse_notes": "No red flag. Clean, debt-free balance sheet. The Durgapur/JSW Energy demerger scheme is a real, NCLT-in-progress corporate action but is a value-chain rationalisation, not a distress signal - the earlier AVOID disposition on this slug was an error and has been corrected.",
+  "bull_case": [
+    "Debt-free with very high capital efficiency (ROCE 64-77%, ROE 43-61%)",
+    "Confirmed Durgapur unit demerger to JSW Energy could unlock or simplify the remaining business, depending on how the swap and residual entity shake out",
+    "India thermal/hydro capex cycle reviving nationally - a sector-level tailwind"
+  ],
+  "bear_case": [
+    "Revenue down ~17.6% over 5 years - order book has been shrinking, not growing",
+    "No named management or structural inflection found to explain why the decline reverses now",
+    "The Durgapur demerger removes a business line from the company - what remains and its earnings power post-scheme is not yet clear"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 4,400 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Same company as 'ge-power-india' (NSE ticker GVPIL) - corrected from an earlier pass's fabricated AVOID disposition. Genuinely high legacy returns on a shrinking revenue base, no red flag, thesis_fit 'neither', conviction Low.",
+  "verdict_reasoning": [
+    "This slug and 'ge-power-india' are the same listed company (GE Power India Ltd, ticker GVPIL) - a duplicate seed from the untrusted-X bulk seeding pass on 2026-09-13.",
+    "An earlier triage pass on THIS slug reported deeply negative ROE/ROCE and an AVOID red flag citing a 'net-worth problem' tied to the Durgapur/JSW Energy demerger scheme. Independent web verification (screener.in, Yahoo Finance, TipRanks, and primary coverage of the NCLT scheme) found the negative figures were fabricated and the scheme is a legitimate strategic demerger, not a distress signal - the AVOID has been removed.",
+    "Real fundamentals (matching 'ge-power-india'): four_box = 1.5 (tailwind weak - sector capex revival only, no company-specific catalyst; tam no - no named inflection; moat weak - legacy engineering niche; valuation weak - high ROE/ROCE but on a shrinking capital base). Hard 'neither' band.",
+    "No red flag. Conviction Low - the underlying business is fine but shows no catalyst to re-rate, and the confirmed demerger's net effect on the surviving entity is not yet clear."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "no",
+    "moat": "weak",
+    "valuation": "weak",
+    "score": 1.5,
+    "note": "Same assessment as 'ge-power-india' - high capital efficiency is a shrinking-base artefact against a 5-year revenue decline; no named inflection found. The Durgapur/JSW Energy demerger is real but its effect on the surviving entity is not yet clear enough to change this."
+  },
+  "value_chain": null
+}

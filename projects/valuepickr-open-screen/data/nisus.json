@@ -1,0 +1,52 @@
+{
+  "name": "Nisus Finance Services Co Ltd",
+  "tagline": "Small-cap transaction-advisory, fund-management and SME-credit business riding India's private-credit/AIF boom - strong ROE/ROCE and near-zero debt, but recent 118% YoY revenue growth is largely acquisition-driven, tempering the compounding-math case.",
+  "business_overview": "Nisus Finance Services (NSE: NISUS) specialises in transaction advisory services, fund management (alternative investment funds / private credit) and SME credit services, operating as a small-cap financial-services platform. Seeded 2026-09-13 via untrusted X triage (@ChintanParikh10), bullish, medium conviction.",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 902 Cr"],
+    ["52-week range", "~Rs 142.65 - Rs 435"],
+    ["ROE", "~20.05%"],
+    ["ROCE", "~25.57%"],
+    ["P/E", "~27.99"],
+    ["Debt/equity", "~0.06 - near debt-free"],
+    ["Revenue growth", "+118% YoY - 'largely attributed to strategic acquisitions'"]
+  ],
+  "fundamentals_narrative": "A genuinely attractive quality profile on the surface: high ROE (~20%) and ROCE (~25.6%), near-zero leverage (D/E ~0.06), and headline revenue growth of 118% YoY. The important caveat, from the same source, is that the growth is 'largely attributed to strategic acquisitions' rather than pure organic scaling - which matters for a compounding thesis, since acquisition-driven growth carries integration risk and is less mechanically repeatable than organic AUM/fee growth. The business itself (transaction advisory + AIF/private-credit fund management + SME credit) sits inside a real, large India-specific tailwind: the rapid growth of the domestic alternative-investment-fund and private-credit industry and the well-documented SME credit gap.",
+  "technical_read": "Wide 52-week range (~Rs 142.65 to Rs 435, a ~3x band) - reflects small-cap/thin-float volatility more than a clean trend read. No weekly-EMA analysis performed this pass.",
+  "sentiment_summary": "No dedicated ValuePickr thread found. One search.json query (post-heavy 'Companies With First ever concalls OR Investor Presentations' megathread, topic_id 111868) surfaced a single incidental mention (niveshark, post #94, referencing Nisus Finance's first concall, dated Jan 2025) - not a dedicated company thread, so no topic_id/topic_slug is being reported for state.json. No deep post-by-post read performed.",
+  "community_signal": "Untrusted X lead only (@ChintanParikh10), bullish, medium conviction, 2026-09-13, plus one incidental non-dedicated forum mention (see sentiment_summary). Neither counts as a trusted_signal.",
+  "trusted_signals": [],
+  "bse_notes": "None found this pass. No SEBI/fraud, pledge, or auditor-resignation signals surfaced.",
+  "bull_case": [
+    "High ROE (~20%) and ROCE (~25.6%) with near-zero leverage (D/E ~0.06) - a genuinely clean balance sheet",
+    "Operates in a real, large India-specific tailwind: the fast-growing AIF/private-credit and SME-credit-gap industries",
+    "Asset-light, scalable fund-management/advisory model in principle"
+  ],
+  "bear_case": [
+    "Headline 118% YoY revenue growth is 'largely attributed to strategic acquisitions', not organic scaling - integration risk and less repeatable than fee/AUM-driven organic growth",
+    "People-business/key-man risk typical of transaction-advisory and fund-management franchises - limited structural moat beyond track record and relationships",
+    "P/E ~28x is not obviously cheap once the acquisition-driven growth caveat is priced in",
+    "No dedicated ValuePickr thread found to corroborate community due diligence - only an incidental mention in an unrelated megathread"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 902 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Clean balance sheet, strong ROE/ROCE and a real AIF/private-credit tailwind - four_box score of 3.0 permits a 10x-style label, but acquisition-driven (not organic) growth and people-business key-man risk argue for caution without deeper diligence. thesis_fit 'neither' (analyst override), conviction Medium.",
+  "verdict_reasoning": [
+    "four_box = 3.0 (tailwind yes - genuine, large India-specific AIF/private-credit and SME-credit-gap tailwind; tam yes - asset-light fund-management model can scale AUM well beyond current size; moat weak - relationship/track-record based, not structural; valuation weak - P/E ~28x, not clearly cheap). Score>=3.0 permits but does not require a 10x-in-2-3-years label.",
+    "Exercising the override: the 118% YoY revenue growth explicitly cited as 'largely' acquisition-driven (not organic) is a material caveat on the growth math a 10x/100x label would lean on, and no dedicated forum thread was found to corroborate the thesis with independent community diligence - thesis_fit set to 'neither' pending a fuller pass (analyst_override)",
+    "No red flag found",
+    "No dedicated ValuePickr thread resolved (search.json returned only an incidental single-post mention in an unrelated megathread, topic_id 111868) - not logged as a candidate topic_id for this stock since it isn't a company-specific thread"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "yes",
+    "tam": "yes",
+    "moat": "weak",
+    "valuation": "weak",
+    "score": 3.0,
+    "note": "Genuine AIF/private-credit sector tailwind and an asset-light, scalable fund-management model support tailwind/tam; moat is relationship/track-record based rather than structural; valuation (P/E ~28x) is not clearly cheap given growth is largely acquisition-driven rather than organic.",
+    "analyst_override": true
+  },
+  "value_chain": null
+}

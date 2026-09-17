@@ -1,0 +1,50 @@
+{
+  "name": "Kwality Wall's (India) Ltd (KWIL)",
+  "tagline": "India's first standalone listed ice-cream company - demerged from Hindustan Unilever (effective 1 Dec 2025, listed 16 Feb 2026) - but revenue is falling (-30% YoY) and losses are widening in its first quarters as an independent entity.",
+  "business_overview": "Kwality Wall's (India) Ltd was carved out of HUL's ice-cream business (Wall's, Cornetto, Magnum, Feast) via NCLT-approved demerger, 1:1 share entitlement to HUL shareholders, listing 16 Feb 2026 at ~26% discount to adjusted parent price. The ice-cream business was only ~3% of HUL's pre-demerger revenue (~Rs 1,800 Cr). Seeded via untrusted X triage (@ashwinidamani, 2026-09-13); confirmed as the correct listed entity (NSE/BSE scrip 544622, ticker KWIL) via web search on the HUL demerger.",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 11,360 Cr (as of 3-Sep-2026)"],
+    ["Share price / 52-week range", "~Rs 42.31; range Rs 22.24 - Rs 50.68"],
+    ["P/E", "Negative (~-30.8x) - loss-making"],
+    ["Revenue (Q3 FY26)", "Rs 222.34 Cr, down 30.23% YoY"],
+    ["Profitability", "Loss before exceptional items widened to Rs 109.22 Cr (Q3 FY26) vs Rs 97 Cr loss YoY"],
+    ["Listing context", "Demerger effective 1-Dec-2025; listed 16-Feb-2026 at ~26% discount to adjusted HUL price"]
+  ],
+  "fundamentals_narrative": "As a newly independent entity, KWIL is absorbing standalone costs (distribution network build-out separate from HUL's, brand-licensing/transition costs, working-capital reset) that a captive divisional business never had to bear on its own P&L. Revenue has fallen sharply (-30% YoY in Q3 FY26) and losses have widened rather than narrowed in its first reported quarters post-listing - the opposite of what a clean, well-executed spin-off would show this early. No sign yet of the standalone cost base stabilising.",
+  "technical_read": "Trading near the lower half of its short post-listing 52-week range (Rs 22.24 - Rs 50.68); not evaluated further given the fundamentals disposition below.",
+  "sentiment_summary": "No forum deep-dive performed - four-box score is low (1.0) and this is a fast-track large-recognisable-brand disposition, not a promising small-cap lead. topic_id remains null; not resolved this pass.",
+  "community_signal": "None sought this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No red flags found (no CIRP/negative net worth, no SEBI/fraud action, no promoter-pledge or auditor-resignation signal surfaced). Disposition is fundamentals-driven (revenue decline + widening losses), not a red-flag exclusion.",
+  "bull_case": [
+    "Strong recognised brand portfolio (Wall's, Cornetto, Magnum, Feast) with decades of India distribution history",
+    "India ice-cream category has long-run premiumisation/per-capita-consumption tailwinds",
+    "Now a focused, independent management team free of competing capital-allocation priorities inside a much larger FMCG conglomerate"
+  ],
+  "bear_case": [
+    "Revenue down 30% YoY and losses widening in the first reported quarters as a standalone company - a difficult separation, not a clean spin-off",
+    "Must rebuild distribution/cold-chain infrastructure independently of HUL's much larger general-trade network - a genuine execution risk, not yet proven out",
+    "Negative P/E; no visible profitability inflection yet",
+    "No specific named management/structural catalyst (new CEO turnaround, capital-allocation regime change) found beyond the demerger itself, which so far reads as value-destructive rather than value-unlocking"
+  ],
+  "market_cap_tier": "Mid-cap (~Rs 11,360 Cr), newly listed FMCG spin-off",
+  "thesis_fit": "neither",
+  "verdict_headline": "Recently demerged from HUL but posting declining revenue and widening losses in its first quarters as a standalone company - four-box score 1.0, no credible re-rating catalyst yet. thesis_fit 'neither', conviction Low.",
+  "verdict_reasoning": [
+    "four_box = 1.0 (tailwind weak - generic category growth only; tam no - no named inflection, demerger itself looks value-destructive so far; moat weak - strong legacy brands but distribution now has to be rebuilt independently; valuation no - loss-making, negative P/E)",
+    "Score <=1.5 -> thesis_fit 'neither' hard per screening rules; no forum deep-dive performed given the weak score and fast-track scope",
+    "No red flag category triggered (not CIRP/negative-net-worth, no fraud/SEBI action, no pledge/auditor issue) - this is a fundamentals-driven 'neither', not an exclusion",
+    "Entity confidently confirmed as Kwality Wall's (India) Ltd, NSE/BSE scrip KWIL/544622, via the HUL demerger/listing news matching the state.json name exactly"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "no",
+    "moat": "weak",
+    "valuation": "no",
+    "score": 1.0,
+    "note": "Generic ice-cream category growth only (no named specific catalyst); demerger itself has so far been value-destructive (revenue -30% YoY, widening losses) rather than value-unlocking; legacy brand strength offset by having to rebuild distribution independently of HUL; loss-making with negative P/E."
+  },
+  "value_chain": null
+}

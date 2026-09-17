@@ -2,7 +2,7 @@
 
 Stocks worth actively re-checking once their cooldown lapses, even if the forum goes quiet on them - not just passively waiting for new posts. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-09-16
+Generated: 2026-09-17
 
 ## Due now
 

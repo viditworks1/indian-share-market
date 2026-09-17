@@ -1,0 +1,47 @@
+{
+  "name": "Colab Platforms Ltd",
+  "tagline": "A sports-tech/esports narrative wrapped around a computer-hardware-and-securities-trading business, trading at an ~607x P/E on ~Rs 69 Cr revenue - a story stock, not a value case.",
+  "business_overview": "Colab Platforms Ltd (formerly Colab Cloud Platforms, renamed Feb 2025; BSE 542866, NSE: COLAB) describes itself as providing IT, esports and gaming-related services (sports marketplace, smart stadiums, sports IP management), but its formal line of business per screener data is 'computer hardware and software processing job-work and trading of shares & securities.' Seeded via untrusted-X triage (@rajuidesai, 2026-09-13, no thesis detail given).",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 2,810-2,866 Cr"],
+    ["Revenue (FY25)", "~Rs 69 Cr"],
+    ["P/E", "~607x"],
+    ["Book value", "Rs 1.44/share"],
+    ["ROCE / ROE", "24.3% / 17.5%"],
+    ["Debt", "Almost debt-free (D/E ~0)"]
+  ],
+  "fundamentals_narrative": "The disclosed ROCE/ROE look attractive but sit on a tiny Rs 69 Cr revenue base against a ~Rs 2,800+ Cr market cap and a P/E near 607x - an extreme disconnect that flags this as a narrative-driven small-cap rather than a business the numbers support. The gap between the promotional esports/sports-infrastructure story and the company's own stated 'job-work and securities trading' business line is itself a caution sign, though it does not meet the defined AVOID/EXCLUDE/HIGH CAUTION criteria (no negative net worth, no SEBI action, no promoter or auditor red flag found this pass).",
+  "technical_read": "Not pulled this pass - the write-up turns on the valuation/business-description mismatch, not chart position.",
+  "sentiment_summary": "No forum check performed - four_box score 1.0, hard neither band.",
+  "community_signal": "None sought.",
+  "trusted_signals": [],
+  "bse_notes": "No formal red flag (criteria not met) but flagged as speculative/story-driven given the ~607x P/E and business-description ambiguity - treat with caution.",
+  "bull_case": [
+    "Almost debt-free, decent ROCE/ROE on paper",
+    "India esports/sports-tech is a genuine emerging theme if the narrative is real"
+  ],
+  "bear_case": [
+    "P/E of ~607x against Rs 69 Cr revenue - no fundamental support for the current market cap",
+    "Company's own stated business line (job-work + securities trading) does not match the esports/sports-infrastructure narrative used to promote it",
+    "No verifiable moat or TAM case established this pass"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 2,800 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Extreme valuation (~607x P/E) on a tiny revenue base with a narrative/business-description mismatch - four_box score 1.0, hard neither.",
+  "verdict_reasoning": [
+    "four_box: tailwind weak (0.5, unclear which business the esports narrative actually maps to), tam weak (0.5), moat no (0, no discernible moat), valuation no (0, ~607x P/E) = 1.0",
+    "Score <=1.5 is a hard 'neither' per triage rules",
+    "conviction Low - untrusted X seed, valuation/business-description red flags warrant caution even though they don't meet the formal red-flag criteria"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "no",
+    "valuation": "no",
+    "score": 1.0,
+    "note": "Extreme P/E (~607x) on tiny revenue base; esports narrative doesn't match the company's own stated business line."
+  },
+  "value_chain": null
+}

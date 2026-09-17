@@ -1,6 +1,6 @@
 {
   "note": "Community reputation registry. Built incrementally: every time the scan task reads an individual post (Phase 4 'go deeper'), it logs the poster's username and that post's love/like count here (Discourse action id=2 = the heart/Like reaction, which is what renders as 'love' on ValuePickr). This is NOT an exhaustive forum-wide crawl of every user - it's a byproduct of the posts we actually read during normal scanning, accumulating over time. Regenerate the human-readable leaderboard with scripts/regen_user_ranking.py.",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-16",
   "users": {
     "phreakv6": {
       "total_love": 1241,
@@ -1479,9 +1479,17 @@
       "high_conviction_calls": []
     },
     "sujay85": {
-      "total_love": 40,
-      "posts_seen": 17,
-      "high_conviction_calls": []
+      "total_love": 51,
+      "posts_seen": 18,
+      "high_conviction_calls": [
+        {
+          "stock": "trent",
+          "date": "2026-04-29",
+          "thread": "simple-investing",
+          "post_number": 340,
+          "strength": "very-high"
+        }
+      ]
     },
     "JR_R": {
       "total_love": 1,
@@ -1799,9 +1807,59 @@
       "high_conviction_calls": []
     },
     "Investor_No_1": {
-      "total_love": 144,
-      "posts_seen": 47,
-      "high_conviction_calls": []
+      "total_love": 185,
+      "posts_seen": 51,
+      "high_conviction_calls": [
+        {
+          "stock": "trent",
+          "date": "2026-04-27",
+          "thread": "simple-investing",
+          "post_number": 339,
+          "strength": "high"
+        },
+        {
+          "stock": "hitachi-energy",
+          "date": "2026-04-27",
+          "thread": "simple-investing",
+          "post_number": 339,
+          "strength": "high"
+        },
+        {
+          "stock": "nelco",
+          "date": "2026-04-27",
+          "thread": "simple-investing",
+          "post_number": 339,
+          "strength": "high"
+        },
+        {
+          "stock": "max-india",
+          "date": "2026-04-27",
+          "thread": "simple-investing",
+          "post_number": 339,
+          "strength": "high"
+        },
+        {
+          "stock": "avenue-supermarts-ltd-a-slow-compounding-machine",
+          "date": "2026-04-27",
+          "thread": "simple-investing",
+          "post_number": 339,
+          "strength": "high"
+        },
+        {
+          "stock": "asian-paints",
+          "date": "2026-04-27",
+          "thread": "simple-investing",
+          "post_number": 339,
+          "strength": "high"
+        },
+        {
+          "stock": "hitachi-energy",
+          "date": "2026-07-15",
+          "thread": "simple-investing",
+          "post_number": 342,
+          "strength": "very-high"
+        }
+      ]
     },
     "Vijayan_N": {
       "total_love": 4,

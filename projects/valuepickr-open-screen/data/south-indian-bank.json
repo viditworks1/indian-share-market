@@ -1,0 +1,42 @@
+{
+  "name": "The South Indian Bank Limited",
+  "tagline": "Kerala-based old private-sector bank with acceptable current return ratios (ROE ~13.5%, ROCE ~14.8%) but a poor five-year sales growth of only ~6.15% and no specific named structural inflection found. Seeded 2026-09-13 via untrusted X triage (@investor_vineet, bearish, medium conviction).",
+  "business_overview": "South Indian Bank (NSE/BSE: SOUTHBANK) is an old private-sector bank headquartered in Kerala, with a traditional NRI-remittance and retail/SME deposit franchise concentrated in South India, gradually diversifying its loan book toward gold loans, MSME and corporate credit.",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 12,096 Cr"],
+    ["52-week range", "~Rs 28.11 - Rs 49.90"],
+    ["ROE", "~13.54% (3-yr avg lower, ~13.7%)"],
+    ["ROCE", "~14.79%"],
+    ["Debt/Equity", "~0.34"],
+    ["5-year sales growth", "~6.15% - described by screener as 'poor'"],
+    ["Interest coverage", "Low"]
+  ],
+  "fundamentals_narrative": "Current return ratios (ROE ~13.5%, ROCE ~14.8%) are respectable for an old private-sector bank, but the five-year sales/growth track record (~6.15%) is weak, and interest coverage is flagged as low. No specific named management or structural inflection (e.g., a fresh capital raise tied to a defined growth plan, a credit-rating upgrade cycle, or a named new-segment push) was found in this pass to justify treating this as anything beyond a steady, slow-growth old private bank.",
+  "technical_read": "Not pulled - large-cap fast-triage write-up, no forum deep-dive per rule.",
+  "sentiment_summary": "No forum deep-dive performed - large-cap-treatment stock with no named inflection found, per fast-triage rule (topic_id null in state.json; not chased further).",
+  "community_signal": "Not sought this pass - large-cap fast-path.",
+  "trusted_signals": [],
+  "bse_notes": "No exclusion-level red flag found. Reasonable D/E (~0.34) and positive ROE/ROCE, but low interest coverage and a poor five-year growth track record are standing cautions, not a going-concern issue.",
+  "bull_case": [
+    "Current ROE/ROCE (~13.5%/~14.8%) are acceptable for an old private bank, and leverage (D/E ~0.34) is not excessive",
+    "Kerala/NRI-remittance franchise and gold-loan/MSME diversification provide some structural ballast"
+  ],
+  "bear_case": [
+    "Five-year sales growth of only ~6.15% is genuinely weak - a slow-growth franchise, consistent with the bearish X seed",
+    "Low interest coverage flagged independently by screener-type sources",
+    "No specific named inflection (capital raise, rating upgrade, new-segment push) found to argue for anything beyond continuation of slow growth"
+  ],
+  "market_cap_tier": "Large-cap-treatment old private bank (~Rs 12,096 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Acceptable current return ratios but a genuinely weak five-year growth track record and no named structural inflection - thesis_fit 'neither' per the large-cap fast-triage default, directionally consistent with the bearish X seed. Conviction Low.",
+  "verdict_reasoning": [
+    "Large-cap-treatment fast-triage rule applied: default tam 'no' since no specific named management/structural inflection was found",
+    "thesis_fit 'neither', conviction Low given the weak five-year sales growth (~6.15%) and low interest coverage, despite acceptable current ROE/ROCE",
+    "No forum deep-dive performed per the large-cap-no-inflection fast-path; topic_id remains null in state.json",
+    "No red-flag exclusion - this is a fundamentals-driven 'neither', and the bearish X seed is broadly corroborated by the weak growth track record"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": null,
+  "value_chain": null
+}

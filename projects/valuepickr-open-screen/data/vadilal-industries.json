@@ -1,0 +1,52 @@
+{
+  "name": "Vadilal Industries Ltd",
+  "tagline": "115-year-old Indian ice cream/frozen dessert brand with low debt and a genuine category tailwind (rising organized ice cream consumption), but thin single-digit-to-low-teens margins and no confirmed hypergrowth math - a solid small-cap compounder candidate, not a 10x/100x case.",
+  "business_overview": "Vadilal Industries manufactures ice cream, frozen desserts and processed food products, one of India's most recognised heritage ice cream brands (~115 years). There is a live, long-running ValuePickr thread on the stock (topic_id 88517, opened by basumallick in 2022) - not deep-read this pass, flagged for later patching. Seeded via untrusted X triage (@Prashanth_Krish, 2026-09-13, medium conviction).",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 5,421 Cr (up ~37.8% in 1 year)"],
+    ["Revenue / Profit", "Revenue ~Rs 1,676 Cr; Profit ~Rs 219 Cr (~13% net margin)"],
+    ["Valuation", "P/E ~33.9x (as of Aug 2026)"],
+    ["Debt", "Debt/Equity ~0.12 - low"],
+    ["Promoter holding", "~64.7%"],
+    ["52-week range", "~Rs 3,996 - Rs 7,478"]
+  ],
+  "fundamentals_narrative": "Vadilal is riding a real, structural tailwind - organized ice cream/frozen dessert consumption growing off a low per-capita base in India, with the brand well established via 27 industry awards over 4 years and 'most trusted brand in ice cream' recognition. Balance sheet is clean (D/E ~0.12) and the stock has re-rated ~38% over the past year, but ROCE/ROE figures were not clearly confirmed this pass, and the ~34x P/E on a ~13% net margin, decades-old business does not show the explosive earnings-growth math that would support a genuine 10x/100x label - this reads as a category-tailwind compounder rather than a hypergrowth story.",
+  "technical_read": "Mid-range of 52-week band (~Rs 3,996-7,478); no further TA pulled.",
+  "sentiment_summary": "Not deep-read this pass. ValuePickr topic_id 88517 resolved via forum search.json (opened 2022, basumallick) - long-running thread; flagged for later patching, not post-by-post reviewed under the fast-triage budget.",
+  "community_signal": "Not assessed this pass - forum thread flagged only, not read.",
+  "trusted_signals": [],
+  "bse_notes": "No red flags found in this pass (screener/web sources only).",
+  "bull_case": [
+    "Well-established heritage ice cream brand with strong trust/award recognition",
+    "Genuine category tailwind - rising organized ice cream/frozen dessert consumption in India",
+    "Low debt (D/E ~0.12); high promoter holding (~64.7%)",
+    "Stock re-rated ~38% over the past year"
+  ],
+  "bear_case": [
+    "Thin net margins (~13%) typical of a competitive FMCG/frozen-food category (Amul, Havmor, Creambell competition)",
+    "~34x P/E does not look cheap for the confirmed growth/margin profile",
+    "ROCE/ROE not independently confirmed this pass",
+    "No evidence of a capacity/margin-inflection catalyst that would support a hypergrowth (10x/100x) case"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 5,421 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Established ice cream brand small-cap with a real category tailwind and clean balance sheet, but margins and valuation do not support a 10x/100x case despite a four_box score at the label-permitting threshold. thesis_fit 'neither' (explicit exception), conviction Medium.",
+  "verdict_reasoning": [
+    "four_box = 3.0 (tailwind yes - organized ice cream category growth; tam yes - large underpenetrated frozen dessert market; moat weak - strong regional/heritage brand but intense competition from Amul/Havmor/Creambell; valuation weak - ~34x P/E on ~13% margins). Score >=3.0 permits a 10x/100x label but does not require one.",
+    "Explicit exception applied: no confirmed hypergrowth earnings math (ROCE/ROE not verified, margins thin, no named capacity/margin-inflection catalyst found) - this reads as a durable category compounder, not a 10x-in-2-3-years or 100x-in-10-years case. thesis_fit kept at 'neither'.",
+    "No red flag found; clean balance sheet and category tailwind support Medium conviction",
+    "ValuePickr topic_id 88517 resolved via search.json (long-running thread since 2022) - noted for later patching, not deep-read under the fast-triage budget"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "yes",
+    "tam": "yes",
+    "moat": "weak",
+    "valuation": "weak",
+    "score": 3.0,
+    "note": "Real organized-ice-cream-category tailwind and large underpenetrated TAM; heritage brand equity is a real but not dominant moat given Amul/Havmor/Creambell competition; valuation weak at ~34x P/E on thin (~13%) margins.",
+    "analyst_override": true
+  },
+  "value_chain": null
+}

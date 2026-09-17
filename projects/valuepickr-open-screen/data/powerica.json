@@ -1,0 +1,51 @@
+{
+  "name": "Powerica Ltd",
+  "tagline": "Diesel/gas generator-set and wind-power (IPP/EPC/O&M) company riding backup-power demand (data centers, telecom, industrial capex), but moderate returns (ROCE ~12.8%, ROE ~10.7%), a full-ish valuation, and a live Bombay High Court family/promoter dispute challenging past buybacks as 'void ab initio' - a real legal overhang.",
+  "business_overview": "Powerica manufactures and sells diesel generator (DG) sets and Medium Speed Large Generators (MSLG) for backup/main power, plus a wind-power business (IPP, EPC & O&M). Newly listed (2025 IPO). Revenue and profit growth have been strong recently (Q1 FY26 sales +26.7% YoY to Rs 780 Cr) on the back of India's power-backup demand cycle (data centers, telecom towers, industrial capex).",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 6,259 Cr"],
+    ["Revenue / Profit", "Revenue ~Rs 3,176 Cr; Profit ~Rs 291 Cr (implied P/E ~21.5x)"],
+    ["ROCE / ROE", "ROCE ~12.84%; ROE ~10.71%"],
+    ["Revenue growth", "Q1 FY26 sales +26.7% YoY; double-digit growth guided for FY27"],
+    ["Interest coverage", "~6.33x - adequate"],
+    ["52-week range", "Rs 365.10 - Rs 675.00"]
+  ],
+  "fundamentals_narrative": "Powerica is benefiting from a genuine backup-power demand cycle, with double-digit revenue growth guided into FY27 and a comfortable interest-coverage ratio. But capital efficiency is only moderate (ROCE ~12.8%, ROE ~10.7%) for a business without an obvious technology or brand moat - DG sets are a relatively commoditised, competitively bid product category. At ~21.5x earnings for these return metrics, the stock is not obviously cheap.",
+  "technical_read": "Not pulled this pass - trades roughly mid-range of its Rs 365-675 52-week band; thesis rests on fundamentals, not chart position.",
+  "sentiment_summary": "No forum thread check performed this pass (recently listed company, fast-triage budget; topic_id remained null, not resolved). Assessment is web/filings-based only.",
+  "community_signal": "Not sought this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No AVOID/EXCLUDE/HIGH CAUTION trigger (no negative net worth, no SEBI/fraud order, no promoter-pledge or auditor-resignation pattern found). However, the company's own IPO RHP disclosed a civil suit in the Bombay High Court (the 'Vania Oberoi' family dispute) challenging past buyback transactions and the current shareholding structure as 'void ab initio' - a live legal overhang on the promoter/capital structure that any adverse ruling could affect. Not AVOID-tier (no going-concern or fraud finding) but a real risk to flag.",
+  "bull_case": [
+    "Genuine backup-power demand tailwind: data-center, telecom-tower and industrial capex driving DG-set and MSLG demand",
+    "Strong recent growth (Q1 FY26 sales +26.7% YoY) with double-digit growth guided for FY27",
+    "Adequate balance sheet (interest coverage ~6.33x)",
+    "Diversification into wind-power IPP/EPC/O&M adds a renewables growth leg"
+  ],
+  "bear_case": [
+    "Live Bombay High Court family/promoter dispute challenging past buybacks and the current shareholding structure as 'void ab initio' - an unresolved legal overhang on capital structure and stock stability",
+    "Only moderate capital efficiency (ROCE ~12.8%, ROE ~10.7%) for the ~21.5x earnings multiple - not obviously cheap",
+    "DG-set manufacturing is a relatively commoditised, competitively bid category without a clear structural moat",
+    "Recently listed (2025 IPO) - limited multi-year public track record to validate through-cycle consistency"
+  ],
+  "market_cap_tier": "Mid-cap (~Rs 6,259 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Real backup-power demand tailwind and strong recent growth, but only moderate ROCE/ROE, a full-ish ~21.5x multiple, and a live, unresolved family/promoter legal dispute over past buybacks keep this out of a 10x/100x framing. thesis_fit 'neither', conviction Medium.",
+  "verdict_reasoning": [
+    "four_box = 2.5 (tailwind yes - genuine backup-power demand cycle; tam weak - DG-set market is large but mature, not explosive; moat weak - commoditised, competitively bid category; valuation weak - ~21.5x earnings for ROCE ~12.8%/ROE ~10.7% is not cheap).",
+    "Score in the 2.0-2.5 band defaults to 'neither' per policy; no explicit exception written given the unresolved legal overhang on the promoter/capital structure adds real, unquantified risk.",
+    "No red-flag-tier trigger (no going concern, fraud, pledge, or auditor issue), but the Bombay High Court buyback-validity suit is noted prominently in bear_case as a live risk investors should track via the case docket and future RHP-style disclosures.",
+    "topic_id not resolved this pass (recently listed; fast-triage budget) - candidate for a forum-thread check in a later pass if promoted."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "yes",
+    "tam": "weak",
+    "moat": "weak",
+    "valuation": "weak",
+    "score": 2.5,
+    "note": "Genuine backup-power demand tailwind, but a mature/commoditised DG-set TAM, no clear structural moat, and a full ~21.5x multiple for moderate ROCE/ROE keep the score in the 'neither'-default band; a live promoter/buyback legal dispute is an added unquantified risk."
+  },
+  "value_chain": null
+}

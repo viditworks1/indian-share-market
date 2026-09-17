@@ -1,0 +1,49 @@
+{
+  "name": "Gujarat Containers Ltd",
+  "tagline": "A profitable, low-debt small-cap steel-barrel manufacturer with historically solid returns, but revenue and profit are now shrinking with no visible growth driver - fine business, no thesis.",
+  "business_overview": "Gujarat Containers Ltd (incorporated 1992) manufactures steel barrels/drums for the packaging and industrial-goods sector. Seeded 2026-09-13 via untrusted X triage (@rajuidesai, medium conviction).",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 95.8 Cr"],
+    ["Price / P/E / Book value", "~Rs 170-178; P/E ~14.3; Book value ~Rs 94.4"],
+    ["ROCE / ROE", "ROCE ~18.4%; ROE ~17.4% (3-yr average ROE ~24.4% - has declined recently)"],
+    ["Revenue growth", "1-year revenue growth ~-3.88%"],
+    ["Recent quarter", "Q2 FY26 net profit fell ~-29.9% YoY to ~Rs 1.36 Cr; 1-yr net income growth ~-10.84%"],
+    ["Promoter holding / pledge", "~59.7% promoter holding; no pledge"],
+    ["52-week range", "Rs 154 - Rs 188"],
+    ["Dividend yield", "~0.88%"]
+  ],
+  "fundamentals_narrative": "Historically a solid small-cap compounder (3-year average ROE of ~24.4%) but the current trend is soft: revenue down ~3.9% and net profit down nearly 30% in the most recent quarter reported. Steel barrels are a commodity, mature industrial-packaging product with no obvious structural growth driver disclosed. Balance sheet is clean (no pledge, healthy promoter holding at ~59.7%) and valuation is not demanding (P/E ~14.3), but a shrinking topline and bottomline argue against paying even a modest multiple for growth that isn't there right now.",
+  "technical_read": "Not pulled - four_box score is well below the promising threshold.",
+  "sentiment_summary": "No forum check performed per the fast-triage rule (not promising enough to warrant the search).",
+  "community_signal": "None found - not searched.",
+  "trusted_signals": [],
+  "bse_notes": "No red flag found: no promoter pledge, auditor (CNK & Associates LLP) unchanged, FY26 financials approved and dividend declared in recent board/shareholder meetings - all routine.",
+  "bull_case": [
+    "Clean balance sheet, no promoter pledge, decent historical 3-year average ROE (~24.4%)",
+    "Reasonable valuation (P/E ~14.3) and a modest dividend"
+  ],
+  "bear_case": [
+    "Revenue down ~3.9% YoY and profit down ~30% in the most recent quarter - a shrinking, not growing, business right now",
+    "Commodity steel-barrel product with no disclosed structural growth driver or capacity expansion",
+    "ROE has declined from a 3-yr average of ~24.4% to a current ~17.4%, suggesting the best years may be behind it"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 96 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Clean, historically profitable steel-barrel maker now in revenue/profit decline with no growth driver - thesis_fit 'neither', conviction Low.",
+  "verdict_reasoning": [
+    "four_box = 1.0 (tailwind no - commodity industrial packaging, no named driver; tam no - mature/declining; moat weak - decent historical ROCE/ROE but no differentiation evident; valuation weak - P/E ~14.3 isn't demanding but isn't a screaming bargain against a shrinking base). Score <=1.5, 'neither' applies hard.",
+    "No red flag found; this is a plain weak-momentum fundamentals call, not a governance issue.",
+    "Forum/community check skipped per the fast-triage rule - not promising enough to warrant it."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "no",
+    "tam": "no",
+    "moat": "weak",
+    "valuation": "weak",
+    "score": 1.0,
+    "note": "Commodity steel-barrel manufacturer with no named growth driver; revenue and profit both declining YoY; historically decent returns (3-yr avg ROE ~24.4%) but no current momentum or moat evidence beyond that history."
+  },
+  "value_chain": null
+}

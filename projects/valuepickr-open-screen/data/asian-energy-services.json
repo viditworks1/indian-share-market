@@ -1,0 +1,53 @@
+{
+  "name": "Asian Energy Services Ltd",
+  "tagline": "Small/mid-cap oilfield-services provider (formerly Asian Oilfield Services) with decent returns (16.5% ROCE) but a rich ~40x P/E, declining promoter holding and stretched receivables (160 debtor days).",
+  "business_overview": "Asian Energy Services Ltd (NSE/BSE: ASIANENE, formerly Asian Oilfield Services) operates in the Oil Equipment & Services sector, providing oilfield/drilling-related services to E&P operators. Entity confirmed via screener.in (ticker ASIANENE) and forum cross-check (legacy 'asian-oilfields' thread). Seeded 2026-09-13 via untrusted X triage (@rishithegreat41 + 2 more, medium conviction).",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 2,598 Cr"],
+    ["CMP / 52-week range", "~Rs 534 (range ~Rs 230 - Rs 566)"],
+    ["ROCE / ROE", "16.5% / 12.9%"],
+    ["P/E / Book value", "~40.2x / ~Rs 110"],
+    ["Revenue growth", "Median ~46.7% over 10 years (volatile, project-based)"],
+    ["Promoter holding", "Decreased ~4.6 percentage points last quarter"],
+    ["Working capital", "High debtor days (~160)"]
+  ],
+  "fundamentals_narrative": "Returns are respectable but not exceptional (ROCE 16.5%, ROE 12.9%) for a ~40x trailing P/E - the market is pricing in continued growth from the global/India oilfield-services up-cycle rather than current profitability. Long-run revenue growth (10-year median ~46.7%) reflects the lumpy, project/tender-driven nature of oilfield services rather than a smooth compounding trend. Two caution flags surfaced this pass: promoter holding fell by ~4.6 percentage points in the latest quarter, and debtor days are high (~160), suggesting working-capital strain typical of tender-based E&P service contracts. Neither rises to a red-flag tier (no negative net worth, no SEBI action, no auditor resignation) but both temper conviction.",
+  "technical_read": "CMP ~Rs 534 sits near the top of its 52-week range (Rs 230-566), i.e. a large run-up (>2x off the low) already priced in - not pulled in further depth this pass.",
+  "sentiment_summary": "ValuePickr forum search resolved a likely legacy match: topic_id 9164, slug 'asian-oilfields' (pre-rename thread), category_id 11. Not deep-read this pass per fast-triage budget - flag for later confirmation that this thread is current/active before relying on it.",
+  "community_signal": "External lead only (@rishithegreat41 + 2 more, untrusted X triage, medium conviction) - forum thread exists under the legacy name but was not read for corroboration.",
+  "trusted_signals": [],
+  "bse_notes": "No AVOID/EXCLUDE-tier red flags found (no negative net worth, no SEBI/fraud action, no auditor resignation). Two caution items noted in bear case (promoter-holding decline, high debtor days) - not escalated to red_flag_tier as neither is a 'collapse' or filing-confirmed issue this pass.",
+  "bull_case": [
+    "Global and India oilfield-services activity is in an up-cycle, supporting order flow for drilling/E&P service providers",
+    "Decent capital efficiency (ROCE 16.5%) for a project-based services business",
+    "Legacy ValuePickr thread exists (topic_id 9164) for future deep-dive if warranted"
+  ],
+  "bear_case": [
+    "Rich valuation: ~40.2x trailing P/E against 12.9% ROE - growth needs to accelerate materially to justify",
+    "Promoter holding declined ~4.6 percentage points in the latest quarter - a caution flag worth monitoring, though not confirmed as a 'collapse'",
+    "High debtor days (~160) signal working-capital stress typical of tender-based E&P contracts",
+    "Revenue growth is lumpy/project-driven (10-yr median ~46.7%) rather than a smooth compounding trend",
+    "CMP already near the top of its 52-week range - much of the up-cycle optimism appears priced in",
+    "Moat is weak: oilfield services in India are largely tender/commodity-priced with limited differentiation"
+  ],
+  "market_cap_tier": "Small/mid-cap (~Rs 2,598 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Decent returns and a real oilfield-services up-cycle tailwind, but a rich ~40x P/E, declining promoter holding and stretched receivables keep this at 'neither' rather than a growth-thesis call.",
+  "verdict_reasoning": [
+    "four_box score 2.0 (tailwind yes, tam weak, moat weak, valuation no) falls at the bottom of the 2.0-2.5 band, which defaults to 'neither' without an explicit exception; the promoter-holding decline and high debtor days argue against writing one",
+    "No AVOID/EXCLUDE/HIGH-CAUTION red flag found, but promoter-holding decline (~4.6pp QoQ) and high debtor days (~160) are logged as bear-case caution items",
+    "Legacy ValuePickr thread resolved (topic_id 9164, slug asian-oilfields, category_id 11) but not deep-read - confirm it is still the live/current thread before relying on it",
+    "Multiple untrusted external-lead seeds (@rishithegreat41 + 2 more) - treat as an early-stage watch item, not a verified conviction call"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "yes",
+    "tam": "weak",
+    "moat": "weak",
+    "valuation": "no",
+    "score": 2.0,
+    "note": "Real global/India oilfield-services up-cycle tailwind (yes); India oilfield-services TAM is real but not confirmed as structurally large this pass (weak); moat weak given tender/commodity-priced services (weak); ~40x P/E against 12.9% ROE plus declining promoter holding and high debtor days argue valuation no."
+  },
+  "value_chain": null
+}

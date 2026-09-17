@@ -1,0 +1,48 @@
+{
+  "name": "Valiant Laboratories Ltd",
+  "tagline": "Recently-listed small-cap API/pharma manufacturer (Paracetamol focus) showing negative ROE and a steep revenue decline - weak fundamentals, no visible inflection.",
+  "business_overview": "Valiant Laboratories manufactures active pharmaceutical ingredients (APIs) and speciality chemicals, with a concentration in Paracetamol API. Seeded via untrusted X triage (@bastionresearch, bullish/medium conviction, 2026-09-13). Recently listed (IPO); trades as a small-cap.",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 371-650 Cr (volatile since listing)"],
+    ["ROCE", "~0.75%"],
+    ["ROE", "~-1.20%"],
+    ["Revenue growth", "Revenue CAGR ~-22.95% - declining, losing volume/share"],
+    ["Debt", "Reported as reduced, but returns are too weak to assess debt-service comfort meaningfully"],
+    ["52-week range", "Rs 50.00 - Rs 110.8"]
+  ],
+  "fundamentals_narrative": "Valiant Laboratories screens weak on every core metric: ROCE near zero (~0.75%), ROE negative (~-1.20%), and a steep multi-year revenue CAGR decline of roughly -23%, consistent with a single-product (Paracetamol API) commodity-chemical business losing volume or pricing power, likely amid Chinese API competition. No named management or structural inflection was found in this pass - just a recently listed small-cap with deteriorating fundamentals. The X seed (bastionresearch, untrusted, medium conviction) is not corroborated by the underlying numbers.",
+  "technical_read": "Not pulled - fundamentals disqualify before a technical read is useful.",
+  "sentiment_summary": "No forum thread search performed given the weak four-box outcome; fast fundamentals-only pass per project rules.",
+  "community_signal": "None sought.",
+  "trusted_signals": [],
+  "bse_notes": "No SEBI action, auditor resignation, or promoter-pledge collapse found in this pass - fundamentals are weak but this is not a red-flag exclusion.",
+  "bull_case": [
+    "Paracetamol API demand has structural pharma-industry tailwinds broadly (generics, China+1 API sourcing)",
+    "Recently listed, so limited public trading history to judge management execution either way"
+  ],
+  "bear_case": [
+    "ROE negative (~-1.2%) and ROCE near zero (~0.75%) - capital is not earning an adequate return",
+    "Revenue CAGR ~-23% - a genuine and steep decline, not a one-off dip",
+    "Single-product (Paracetamol API) commodity exposure with limited disclosed diversification",
+    "No named catalyst or management inflection found to explain a turnaround thesis"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 500-650 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Weak-fundamentals small-cap API maker - negative ROE, near-zero ROCE, and a steep revenue decline with no offsetting catalyst. thesis_fit 'neither', conviction Low.",
+  "verdict_reasoning": [
+    "four_box: tailwind weak, tam no, moat no, valuation no - score ~0.5, hard 'neither' per project rule (score<=1.5)",
+    "No red flag (no negative net worth/going-concern, no SEBI action, no auditor resignation found), but fundamentals are simply too weak to support a thesis",
+    "No forum deep-dive performed - fast fundamentals-only disposition given the four-box score"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "no",
+    "moat": "no",
+    "valuation": "no",
+    "score": 0.5,
+    "note": "Single-product API commodity business with declining revenue and near-zero returns on capital; no named inflection found."
+  },
+  "value_chain": null
+}

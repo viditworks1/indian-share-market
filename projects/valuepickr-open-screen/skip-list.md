@@ -2,7 +2,7 @@
 
 Stocks analyzed recently enough that their thread should NOT be re-opened by the scan job yet, regardless of new forum activity. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-09-16
+Generated: 2026-09-17
 
 | Stock | Last analyzed | Eligible again on | Conviction |
 |---|---|---|---|

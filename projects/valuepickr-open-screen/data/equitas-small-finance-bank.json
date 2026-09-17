@@ -1,0 +1,43 @@
+{
+  "name": "Equitas Small Finance Bank",
+  "tagline": "Chennai-based small finance bank with weak current profitability (ROE ~2.5%, ROCE ~4.6%) due to ongoing microfinance-book stress; a Universal Bank licence bid was explicitly paused in 2026 to study peer (Ujjivan/Jana) rejections rather than pursued as a live catalyst - no confirmed named inflection found. Seeded 2026-09-13 via untrusted X triage (@investor_vineet, bullish, very-high conviction).",
+  "business_overview": "Equitas SFB serves financially underserved segments (microfinance, vehicle finance, MSME, affordable housing) with a bank licence since 2016. It has been reducing its microfinance-advances mix (12% -> 9% of total advances between Mar 2025 and Jun 2025) to manage asset-quality stress in that segment, while also being eligible (on NPA ratios) to apply for a Universal Bank licence - a step it has so far paused rather than pursued.",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 8,246 Cr"],
+    ["52-week range", "~Rs 50.00 - Rs 80.14"],
+    ["ROE", "~2.46%"],
+    ["ROCE", "~4.62%"],
+    ["Debt/Equity", "~0.36"],
+    ["P/E", "~79x (depressed earnings base)"],
+    ["Asset quality (Dec 2025)", "Net NPA ~0.92%, Gross NPA ~2.75% - within Universal Bank licence eligibility thresholds"],
+    ["Credit rating", "CARE reaffirmed AA-/stable (Aug 2025)"]
+  ],
+  "fundamentals_narrative": "Current profitability is weak (ROE ~2.5%, ROCE ~4.6%, P/E ~79x on a depressed earnings base) - explained by elevated credit costs and write-offs in the microfinance book, which the bank has been actively shrinking as a share of total advances (12% to 9% within a few months). Asset quality ratios (sub-1% net NPA, sub-3% gross NPA) technically clear the RBI bar for a Universal Bank licence application, but management has explicitly paused that bid to study why peers Ujjivan and Jana were rejected - this is a live risk being managed down, not a confirmed named inflection to underwrite a bullish thesis on.",
+  "technical_read": "Not pulled - large-cap fast-triage write-up, no forum deep-dive per rule.",
+  "sentiment_summary": "No forum deep-dive performed - large-cap-treatment stock with no named inflection found, per fast-triage rule (topic_id null in state.json; not chased further).",
+  "community_signal": "Not sought this pass - large-cap fast-path.",
+  "trusted_signals": [],
+  "bse_notes": "No exclusion-level red flag found. CARE reaffirmed the long-term rating at AA-/stable in August 2025, and NPA ratios are within RBI's Universal Bank eligibility bar - but current profitability is weak and the licence bid itself is paused, not progressing.",
+  "bull_case": [
+    "Microfinance-book de-risking is already showing in the mix shift (12% -> 9% of advances) and NPA ratios remain within Universal Bank eligibility thresholds",
+    "Stable AA- credit rating reaffirmed even through the stress period"
+  ],
+  "bear_case": [
+    "Current ROE (~2.5%) and ROCE (~4.6%) are weak - the microfinance stress is a real, ongoing profitability drag, not yet resolved",
+    "Universal Bank licence bid explicitly paused (2026) to study why peers Ujjivan and Jana were rejected - not a confirmed, in-progress catalyst",
+    "P/E of ~79x on a depressed earnings base is not obviously cheap even relative to a distressed-earnings period"
+  ],
+  "market_cap_tier": "Large-cap-treatment small finance bank (~Rs 8,246 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Weak current profitability from ongoing microfinance stress, with a paused (not active) Universal Bank licence bid - no confirmed named inflection, so thesis_fit 'neither' per the large-cap fast-triage default despite the bullish X seed. Conviction Low-Medium.",
+  "verdict_reasoning": [
+    "Large-cap-treatment fast-triage rule applied: the Universal Bank licence angle was investigated as a candidate named inflection but found to be explicitly paused, not an active in-progress catalyst - default tam 'no' stands",
+    "thesis_fit 'neither', conviction capped Low-Medium; weak current ROE/ROCE keep it toward the Low end despite the stable credit rating and improving mix",
+    "No forum deep-dive performed per the large-cap-no-inflection fast-path; topic_id remains null in state.json",
+    "No red-flag exclusion - this is a fundamentals-driven 'neither', not a distress case"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": null,
+  "value_chain": null
+}

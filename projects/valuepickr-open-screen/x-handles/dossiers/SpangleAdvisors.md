@@ -8,9 +8,9 @@
   "discloses_names": false,
   "disclaimer_pattern": "light",
   "calls": [
-    { "stock": "BSE Ltd", "slug": "bombay-stock-exchange-bet-on-financialization", "date": "2026-08-10", "direction": "bull", "conviction": "high", "quote": "Invested in BSE 5-6 years ago when mcap was 2-3K crs. Still holding... only regret is invested with very small allocation", "new_to_screen": false, "our_verdict": null, "since_call_pct": null },
-    { "stock": "Reliance Industries", "slug": "reliance-industries-ltd-is-the-reliance-on-jio-justified", "date": "2026-03-05", "direction": "bull", "conviction": "medium", "quote": "Singapore GRM now reached US$30, Refineries & Reliance Industries Top Beneficiary #TurnaroundStock", "new_to_screen": false, "our_verdict": null, "since_call_pct": null },
-    { "stock": "BHEL", "slug": "bhel", "date": "2026-07-19", "direction": "bull", "conviction": "medium", "quote": "BHEL Emerging as serious innovators... exemplary work in Power, Nuclear, Defence, Coal Gasification Innovation", "new_to_screen": true, "our_verdict": null, "since_call_pct": null }
+    { "stock": "BSE Ltd", "slug": "bombay-stock-exchange-bet-on-financialization", "date": "2026-08-10", "direction": "bull", "conviction": "high", "quote": "Invested in BSE 5-6 years ago when mcap was 2-3K crs. Still holding... only regret is invested with very small allocation", "new_to_screen": false, "our_verdict": "mixed", "since_call_pct": null },
+    { "stock": "Reliance Industries", "slug": "reliance-industries-ltd-is-the-reliance-on-jio-justified", "date": "2026-03-05", "direction": "bull", "conviction": "medium", "quote": "Singapore GRM now reached US$30, Refineries & Reliance Industries Top Beneficiary #TurnaroundStock", "new_to_screen": false, "our_verdict": "mixed", "since_call_pct": null },
+    { "stock": "BHEL", "slug": "bhel", "date": "2026-07-19", "direction": "bull", "conviction": "medium", "quote": "BHEL Emerging as serious innovators... exemplary work in Power, Nuclear, Defence, Coal Gasification Innovation", "new_to_screen": true, "our_verdict": "mixed", "since_call_pct": null }
   ],
   "watch_only_names": []
 }

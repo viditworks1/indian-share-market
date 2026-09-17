@@ -1,0 +1,49 @@
+{
+  "name": "Embassy Office Parks REIT",
+  "tagline": "India's largest listed office REIT with strong FY26 operating momentum (94% occupancy, NOI +15%, DPU +10%, NAV +16% YoY) - a solid income/total-return vehicle, but structurally not a 10x/100x equity-style thesis.",
+  "business_overview": "Embassy Office Parks REIT (NSE: EMBASSY) owns and operates a large portfolio of Grade-A office parks (~43.5 msf operational portfolio) across Bengaluru, Pune, Mumbai, NCR and Chennai, distributing the bulk of net distributable cash flow to unitholders. Seeded via untrusted X triage (@rdkriplani, bullish view, medium conviction, 2026-09-13). Distinct entity from Embassy Developments Ltd (a separate listed real-estate developer, data/embassy-developments.json) - confirmed via name and business-model differences (REIT vs. developer).",
+  "fundamentals_table": [
+    ["Occupancy", "94% by value (FY2026), up from prior year, on 6.4 msf leased at 17% higher spreads"],
+    ["NOI growth", "+15% YoY (FY2026)"],
+    ["DPU growth", "+10% YoY; FY2026 cumulative distribution Rs 25.28/unit (~Rs 2,396 Cr)"],
+    ["Distribution yield", "~6.6% (on IPO price of Rs 300)"],
+    ["NAV growth", "+16% YoY"],
+    ["Portfolio", "~43.5 msf operational, record 3.3 msf delivered in FY2026; guiding to double-digit NOI/DPU growth again in FY2027"]
+  ],
+  "fundamentals_narrative": "Embassy REIT posted a genuinely strong FY2026: occupancy climbed to 94% with positive leasing spreads (+17%), NOI grew 15% and DPU grew 10% YoY to a record Rs 25.28/unit for the year, while NAV rose 16%. Management has guided to double-digit NOI/DPU growth again in FY2027 - a real, named forward guide, but it is routine portfolio-level leasing and rent-reversion momentum rather than a one-off structural inflection (new asset class entry, major M&A, regulatory unlock, etc.). As a REIT, ~90% of distributable cash flow is paid out by structure, so equity-style compounding and 10x/100x return framing do not apply; the appropriate lens is distribution yield plus NAV/unit-price appreciation, both of which are currently healthy.",
+  "technical_read": "Not pulled this pass - REIT unit price moves are typically driven by distribution yield relative to bond yields rather than a technical breakout thesis.",
+  "sentiment_summary": "Not pulled - large/REIT fast path, no forum deep-dive per rules (guided growth is routine, not a named structural inflection).",
+  "community_signal": "None sought this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No red flags found this pass (no going-concern, fraud, or governance issues surfaced; occupancy, NOI, DPU and NAV all trending positively).",
+  "bull_case": [
+    "Occupancy at 94% with positive re-leasing spreads (+17%) - genuine demand strength in core markets",
+    "NOI +15%, DPU +10% YoY with management guiding to double-digit growth again in FY2027",
+    "NAV +16% YoY - total return (yield + NAV appreciation) profile is currently attractive for the asset class"
+  ],
+  "bear_case": [
+    "Structurally a distribution vehicle (~90% payout) - not a growth-equity compounder; 10x/100x framing does not apply",
+    "Distribution yield (~6.6% on IPO price) is sensitive to interest-rate moves, a macro factor outside company control",
+    "No named structural inflection (vs. routine leasing-driven growth) found this pass"
+  ],
+  "market_cap_tier": "Large-cap REIT",
+  "thesis_fit": "neither",
+  "verdict_headline": "Strong FY2026 operating year (94% occupancy, NOI +15%, DPU +10%, NAV +16%) for India's largest listed office REIT - solid income/total-return case, but thesis_fit 'neither' by structure, not by a fundamentals weakness.",
+  "verdict_reasoning": [
+    "REIT structure precludes 10x/100x-style equity compounding (near-full payout of distributable cash flow) - thesis_fit 'neither' is the correct framing regardless of operating strength",
+    "Large-cap-equivalent fast path applied: guided double-digit FY2027 growth is routine leasing/rent-reversion momentum, not a specific named structural inflection, so no forum deep-dive performed",
+    "Fundamentals are genuinely strong (occupancy, NOI, DPU, NAV all up) - conviction set to Medium as a total-return holding rather than Low",
+    "No red flag found; confirmed as a distinct entity from Embassy Developments Ltd (separate developer, already tracked under data/embassy-developments.json)"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "yes",
+    "tam": "no",
+    "moat": "yes",
+    "valuation": "weak",
+    "score": 2.5,
+    "note": "Bengaluru/major-metro Grade-A office demand tailwind is real (94% occupancy, positive leasing spreads); large-cap-equivalent fast path defaults tam to 'no' absent a named structural inflection; scale/quality of the portfolio is a real moat; valuation (distribution yield vs. bond yields) is a fair, not obviously cheap, trade-off. Four-box framing is illustrative only - REIT structure, not this score, drives thesis_fit."
+  },
+  "value_chain": null
+}

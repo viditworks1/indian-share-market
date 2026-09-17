@@ -1,0 +1,52 @@
+{
+  "name": "Trident Techlabs Limited",
+  "tagline": "NSE SME-listed engineering/design consultancy and electronics-tools trading business (FPGA/ASIC design, data analytics/AI, structural analysis) - decent ROE/ROCE but elevated leverage, very high debtor days and an -79% one-year stock decline argue against the bullish read.",
+  "business_overview": "Trident Techlabs Limited (ticker TECHLABS), founded 2000, New Delhi-based, listed on the NSE SME platform in December 2023. Operates a Trading Business (electronics/mechanical engineering design tools) and a Consultancy Business spanning FPGA design/validation, ASIC design and implementation, reliability/quality solutions, data analytics and AI, structural analysis, and PCB design-to-manufacture. Entity confirmed via NSE listing (symbol TECHLABS) matching state.json name 'Techlabs'.",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 204 Cr"],
+    ["52-week range", "~Rs 105 - Rs 660"],
+    ["1-year return", "-79.1% (sharp correction from 52-week high)"],
+    ["ROCE", "28.95% latest (3yr avg 20.38%)"],
+    ["ROE", "28.34% latest (3yr avg 11.44%)"],
+    ["Revenue (TTM)", "~Rs 77 Cr; FY26 revenue Rs 97.2 Cr, +26.98% YoY"],
+    ["Debt/Equity", "1.19 latest (3yr avg 1.88) - elevated for the business size"],
+    ["Debtor days", "~216 days - working-capital concern"]
+  ],
+  "fundamentals_narrative": "Headline ROCE/ROE look strong (28-29%) and revenue grew ~27% in FY26, but the balance sheet carries meaningfully more debt (D/E ~1.2x) than is typical for an asset-light design/consultancy + trading business, and debtor days of ~216 signal weak collection/bargaining power over customers. The stock has fallen ~79% from its 52-week high of Rs 660 to the Rs 105-660 range, a decline consistent with the bearish X view flagged in the seed note rather than contradicting it.",
+  "technical_read": "Deep correction from 52-week high (Rs 660) toward the 52-week low (Rs 105); no separate TA pulled given the fast-lane disposition below.",
+  "sentiment_summary": "No forum thread check performed - four_box score did not clear the bar for a promising-candidate deep dive (score 1.5, hard 'neither' per rubric). No ValuePickr topic_id resolved (state.json topic_id null).",
+  "community_signal": "None sought this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No AVOID/EXCLUDE/HIGH CAUTION criteria found this pass (no negative net worth, no SEBI/fraud action, no promoter-pledge collapse or auditor resignation surfaced in the searches run). Elevated debt and very high debtor days are noted as bear-case items, not red-flag triggers.",
+  "bull_case": [
+    "ROCE/ROE both ~28-29%, and FY26 revenue grew ~27% YoY",
+    "Niche technical consultancy exposure (FPGA/ASIC design, data analytics/AI, structural analysis) rides broader engineering-design-services demand"
+  ],
+  "bear_case": [
+    "Debt/Equity ~1.19x is high for an SME consultancy/trading business of this size",
+    "Debtor days ~216 suggest weak collection discipline / customer leverage over the company",
+    "Stock down ~79% from its 52-week high - momentum has clearly broken",
+    "Very small, thinly documented SME-platform listing (Dec 2023 IPO) with limited independent coverage",
+    "Untrusted X source (@ChintanParikh10) itself flagged a bearish view, which the fundamentals here do not contradict"
+  ],
+  "market_cap_tier": "Small-cap / SME (~Rs 204 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Entity confirmed as Trident Techlabs Ltd (NSE:TECHLABS). Decent ROE/ROCE offset by elevated leverage, very high debtor days, and a -79% one-year stock decline - four_box score 1.5 is a hard 'neither'. Conviction Low.",
+  "verdict_reasoning": [
+    "Entity resolution: NSE listing confirms 'Trident Techlabs Limited' (symbol TECHLABS) as the match for state.json name 'Techlabs' - single unambiguous candidate found.",
+    "No red flag under the defined criteria (no negative net worth/going concern, no active SEBI/fraud action, no promoter-pledge collapse, no auditor resignation surfaced).",
+    "four_box score 1.5 (tailwind weak, tam weak, moat no, valuation weak) - score<=1.5 forces thesis_fit 'neither' hard, no exception written.",
+    "Skipped forum/topic_id resolution - score did not clear the 'genuinely promising' bar for a light forum check under tight batch budget."
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "no",
+    "valuation": "weak",
+    "score": 1.5,
+    "note": "Generic engineering-design-services tailwind (not a named structural inflection); modest revenue base (~Rs 77 Cr TTM) limits tam; trading+consultancy mix with 216-day debtors signals no real moat/pricing power; valuation ambiguous post -79% correction but elevated D/E and debtor quality temper it to weak, not yes."
+  },
+  "value_chain": null
+}

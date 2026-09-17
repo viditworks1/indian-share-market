@@ -1,0 +1,50 @@
+{
+  "name": "Prostarm Info Systems Ltd",
+  "tagline": "Small-cap energy-storage and power-conditioning equipment maker (batteries, UPS, EV-charging adjacent) with genuine TAM breadth but deteriorating working-capital metrics - four_box score 2.5 defaults to 'neither'.",
+  "business_overview": "Prostarm Info Systems designs, manufactures and sells energy-storage and power-conditioning equipment (UPS systems, batteries, related power electronics), incorporated January 2008 and recently IPO'd. Seeded 2026-09-13 via untrusted X triage (@ChintanParikh10, bullish, high conviction claimed).",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 817 Cr (down ~-33% over 1 year)"],
+    ["Revenue / Profit", "Revenue ~Rs 403 Cr; Profit ~Rs 38.2 Cr"],
+    ["ROE / ROCE", "~11.5% / ~16.5%"],
+    ["Revenue growth", "3-yr CAGR ~18.8%"],
+    ["52-week range", "Rs 114.64 - Rs 237 (stock well off its high)"],
+    ["Working capital", "Debtor days ~246; working-capital days risen from ~112 to ~192 - a real deterioration"],
+    ["Promoter holding", "~72.8%"]
+  ],
+  "fundamentals_narrative": "Historically strong revenue growth (~18.8% 3-yr CAGR) and a decent ROCE (~16.5%) in a genuinely broad energy-storage/power-conditioning category (backup power, renewables-adjacent, data-center demand), but working-capital quality has deteriorated meaningfully - debtor days ~246 and total working-capital days nearly doubling (~112 to ~192) - which tempers confidence in the growth's cash-conversion quality. The stock is down ~33% over the past year, consistent with the market re-rating this concern rather than a name discovery opportunity.",
+  "technical_read": "Trading close to its 52-week low (Rs 114.64) against a Rs 237 high - a steep drawdown, not checked further for a base/breakout this pass given the 'neither' four_box outcome.",
+  "sentiment_summary": "No dedicated ValuePickr thread found - only a passing mention (post #139) in the generic multi-stock 'Atma Nirbhar Bharat - Stock opportunities' thread (topic_id 142013), not a company-specific discussion. No deep forum read performed.",
+  "community_signal": "None beyond the passing generic-thread mention noted above - not treated as a trusted or company-specific signal.",
+  "trusted_signals": [],
+  "bse_notes": "No AVOID/EXCLUDE/HIGH-CAUTION red flags found (no negative net worth, fraud action, promoter-holding collapse or auditor resignation). Working-capital deterioration (debtor days ~246, WC days ~112->192) is a genuine caution flagged in bear_case but does not meet the red-flag bar.",
+  "bull_case": [
+    "Strong historical growth (~18.8% 3-yr revenue CAGR) in a broad, structurally growing energy-storage/power-conditioning category",
+    "Decent ROCE (~16.5%) and high promoter holding (~72.8%)"
+  ],
+  "bear_case": [
+    "Working-capital quality has deteriorated meaningfully - debtor days ~246 and WC days nearly doubled (~112 to ~192) - a real caution on cash-conversion and customer bargaining power",
+    "Stock down ~33% over 1 year and near its 52-week low - the market has already begun repricing the concern",
+    "No dedicated ValuePickr thread exists - only a passing generic-thread mention, no community conviction signal",
+    "X-triage source is untrusted and unverified (single bullish account, high conviction claimed)"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 817 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Genuine growth and TAM breadth in energy storage, but deteriorating working capital - four_box score 2.5 defaults to 'neither' with no exception written.",
+  "verdict_reasoning": [
+    "four_box score 2.5 (tailwind weak - broad but not a named/structural inflection this pass; tam yes - genuine multi-year energy-storage/power-conditioning demand growth; moat weak - working-capital deterioration suggests limited customer bargaining power; valuation weak - ~21x P/E against ~11.5% ROE, unremarkable) - per the decision table, score 2.0-2.5 defaults to 'neither' absent an explicit written exception, and the working-capital deterioration argues against writing one",
+    "No red flag tier applies, but the debtor-days/working-capital trend is called out explicitly in bear_case as a genuine caution",
+    "No dedicated ValuePickr thread found via search.json - only a generic multi-stock thread mention (topic_id 142013, 'Atma Nirbhar Bharat - Stock opportunities'); not treated as a company-specific match, so topic_id is not being proposed for state.json",
+    "Untrusted X-triage seed only (@ChintanParikh10, high conviction claimed) - no independent corroboration found"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "weak",
+    "tam": "yes",
+    "moat": "weak",
+    "valuation": "weak",
+    "score": 2.5,
+    "note": "Genuine TAM breadth (energy storage/power conditioning) supports a 'yes' on tam, but working-capital deterioration (debtor days ~246, WC days ~112->192) undercuts moat/quality confidence. Score sits in the 2.0-2.5 default-to-neither band; no exception written given the working-capital caution."
+  },
+  "value_chain": null
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Tejas Networks Ltd",
+  "tagline": "Tata-Group-backed Indian telecom/optical-networking equipment maker riding the domestic-manufacturing (PLI/Make-in-India) tailwind on paper - but posting deeply negative ROE/ROCE and a startling ~1,077-day debtor cycle, mainly tied to delayed government (BSNL) receivables.",
+  "business_overview": "Tejas Networks designs and manufactures optical and data networking equipment (routers, switches, 4G/5G RAN gear) sold mainly to Indian telcos and government/PSU customers, notably BSNL's 4G rollout. Tata Sons is the controlling promoter (post its 2022 stake acquisition). Confirmed via screener.in/tickertape as the exact listed entity (NSE: TEJASNET) matching the state.json name. Seeded via untrusted X triage (@nathanit2014 +1, 2026-09-13).",
+  "fundamentals_table": [
+    ["Market cap", "~Rs 9,841 Cr"],
+    ["52-week range", "Rs 294 - Rs 644.75"],
+    ["ROE (3-yr avg)", "-4.01%"],
+    ["ROCE", "-30.56%"],
+    ["Revenue growth", "~15.94% CAGR (vs industry median 8.37%)"],
+    ["Debt / cash", "Gross debt ~Rs 4,866 Cr; cash ~Rs 589 Cr (Q1 FY27)"],
+    ["Debtor days", "~1,077 days - extreme working-capital stress"],
+    ["Interest coverage", "Low"]
+  ],
+  "fundamentals_narrative": "Headline revenue growth (~16% CAGR, ahead of industry) masks a business that is not converting sales into cash or profit: ROCE is deeply negative (-30.56%), ROE has averaged -4% over three years, and debtor days of ~1,077 (nearly three years) point to large, unresolved receivables - consistent with the well-documented delays in BSNL's 4G network payments to its equipment vendors. Gross debt (~Rs 4,866 Cr) dwarfs cash (~Rs 589 Cr), and interest coverage is low. This is a real operating business with genuine India-manufacturing tailwinds, but the P&L and balance sheet do not currently support a positive-return thesis.",
+  "technical_read": "Trading well off its 52-week high (~Rs 645 vs current levels near/below Rs 550); not pursued further given the fundamentals disposition below.",
+  "sentiment_summary": "No forum deep-dive performed - four-box score (2.0) falls in the 'defaults neither' band and the debtor/ROCE profile is not promising enough to justify a forum read within this pass's budget. topic_id remains null; not resolved this pass.",
+  "community_signal": "None sought this pass.",
+  "trusted_signals": [],
+  "bse_notes": "No CIRP/negative-net-worth, SEBI/fraud, or promoter-pledge/auditor-resignation signal found - this is a fundamentals-driven 'neither', not a red-flag exclusion. The extreme debtor-day figure is a genuine operating concern (likely government-receivables-related) and is called out explicitly in the bear case rather than mapped to a formal red-flag tier.",
+  "bull_case": [
+    "Tata Group-backed (controlling promoter since 2022) with a domestic telecom-equipment manufacturing mandate aligned to India's PLI/Make-in-India push",
+    "Revenue CAGR (~16%) ahead of the industry median, indicating real order-book traction (BSNL 4G and other telco/defence contracts)",
+    "Optical networking and indigenous 4G/5G RAN gear is a strategically prioritised segment for the Indian government"
+  ],
+  "bear_case": [
+    "ROCE deeply negative (-30.56%) and ROE negative on a 3-year average - the business is destroying capital at current scale",
+    "Debtor days of ~1,077 (nearly 3 years) signal severe working-capital stress, almost certainly tied to delayed government/BSNL payments - a real, unresolved cash-conversion problem",
+    "Gross debt (~Rs 4,866 Cr) far exceeds cash (~Rs 589 Cr) with low interest coverage - balance sheet is stretched",
+    "Customer concentration risk with government/PSU telecom buyers whose payment cycles are demonstrably unreliable"
+  ],
+  "market_cap_tier": "Small/mid-cap (~Rs 9,841 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Real India-manufacturing tailwind and above-industry revenue growth, but deeply negative ROE/ROCE and an extreme ~1,077-day debtor cycle (government-receivables-driven) mean the numbers don't currently support a thesis fit. four_box = 2.0, thesis_fit 'neither', conviction Low.",
+  "verdict_reasoning": [
+    "four_box = 2.0 (tailwind yes - PLI/Make-in-India telecom equipment push; tam weak - real but customer-concentrated growth; moat weak - Tata backing and R&D capability offset by inability to convert scale into returns; valuation no - no profit base to value against given negative ROE/ROCE)",
+    "Score sits in the 2.0-2.5 'defaults neither unless explicit exception' band; the extreme debtor-day figure and negative capital returns are not the profile of a compelling exception, so no override written",
+    "No formal red-flag category triggered (not CIRP/negative net worth, no fraud/pledge/auditor signal) - disposition is fundamentals-driven, not an exclusion",
+    "Entity confirmed as Tejas Networks Ltd (NSE: TEJASNET) matching state.json name exactly"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "yes",
+    "tam": "weak",
+    "moat": "weak",
+    "valuation": "no",
+    "score": 2.0,
+    "note": "Genuine PLI/Make-in-India telecom-equipment tailwind and above-industry revenue growth, but heavy customer concentration (BSNL/government), deeply negative ROE/ROCE, ~1,077-day debtors and debt exceeding cash mean valuation and moat cannot be scored positively at current fundamentals."
+  },
+  "value_chain": null
+}
