@@ -1,8 +1,8 @@
 {
-  "date_compiled": "2026-09-11",
+  "date_compiled": "2026-09-16",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
-  "scored_count": 213,
-  "not_assessed_count": 472,
+  "scored_count": 230,
+  "not_assessed_count": 656,
   "ranked": [
     {
       "slug": "deepak-fertilizers-and-petrochemicals",
@@ -407,39 +407,6 @@
       }
     },
     {
-      "slug": "bondada-engineering",
-      "name": "Bondada Engineering Ltd",
-      "expectation_gap_score": 53.75,
-      "conviction_score": 35.75,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "red_flag_tier": null,
-      "market_cap_tier": "Small-cap (~Rs 3,182 Cr)",
-      "gap_direction": "underestimated",
-      "gap_type": "duration",
-      "gap_magnitude_pct": 50,
-      "evidence_quality": "moderate",
-      "catalyst_event": null,
-      "catalyst_window_months": null,
-      "catalyst_window_start": "2026-09-10",
-      "catalyst_status_effective": null,
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 0,
-      "risk_open_spofs": [],
-      "flags": [
-        "no-catalyst"
-      ],
-      "score_breakdown": {
-        "gap_points": 40,
-        "gap_frac": 1.0,
-        "evidence_q": 0.75,
-        "catalyst_q": 0.15,
-        "timing_q": 0.4,
-        "risk_q": 1.0,
-        "quality": 0.537
-      }
-    },
-    {
       "slug": "time-technoplast",
       "name": "Time Technoplast",
       "expectation_gap_score": 51.59,
@@ -470,6 +437,39 @@
         "timing_q": 0.75,
         "risk_q": 0.8,
         "quality": 0.737
+      }
+    },
+    {
+      "slug": "bondada-engineering",
+      "name": "Bondada Engineering Ltd",
+      "expectation_gap_score": 51.06,
+      "conviction_score": 29.75,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap",
+      "gap_direction": "underestimated",
+      "gap_type": "duration",
+      "gap_magnitude_pct": 50,
+      "evidence_quality": "moderate",
+      "catalyst_event": "FY27 quarterly margin prints testing the 11-12% EBITDA guidance against the mix shift toward BOS-scope and defence/aerospace orders; clarity on the RPT-vote dissent and borrowing-limit usage",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-12",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 40,
+        "gap_frac": 1.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 1.0,
+        "quality": 0.729
       }
     },
     {
@@ -648,7 +648,7 @@
       "slug": "muthoot-microfin-limited-is-it-next-jp-morgan",
       "name": "Muthoot Microfin Limited is it next JP Morgan?",
       "expectation_gap_score": 44.76,
-      "conviction_score": 31.3,
+      "conviction_score": 29.98,
       "conviction": "Medium-High",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -676,6 +676,39 @@
         "timing_q": 1.0,
         "risk_q": 0.4,
         "quality": 0.639
+      }
+    },
+    {
+      "slug": "carysil",
+      "name": "Carysil (earlier Acrysil)",
+      "expectation_gap_score": 43.65,
+      "conviction_score": 51.08,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 3,000-3,050 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "capacity",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "strong",
+      "catalyst_event": "Quartz capacity expansion (1.25m units) commissioning + the FY27 exit-quarter margin print",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-14",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "quartz commissioning timeline"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 1.0,
+        "catalyst_q": 1.0,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.97
       }
     },
     {
@@ -713,6 +746,39 @@
         "timing_q": 1.0,
         "risk_q": 0.2,
         "quality": 0.609
+      }
+    },
+    {
+      "slug": "mayur-uniquoters",
+      "name": "Mayur Uniquoters Ltd",
+      "expectation_gap_score": 41.68,
+      "conviction_score": 44.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap",
+      "gap_direction": "underestimated",
+      "gap_type": "volume",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Mexico capex restart once US tariff clarity emerges, or PU-plant utilization finally moving meaningfully above ~25%",
+      "catalyst_window_months": 12,
+      "catalyst_window_start": "2026-09-12",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "us tariff policy resolution"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 28.0,
+        "gap_frac": 0.7,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.21,
+        "timing_q": 0.75,
+        "risk_q": 0.8,
+        "quality": 0.595
       }
     },
     {
@@ -783,6 +849,37 @@
       }
     },
     {
+      "slug": "unicommerce-esolutions",
+      "name": "Unicommerce Esolutions",
+      "expectation_gap_score": 40.27,
+      "conviction_score": 48.4,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 945 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "duration",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "strong",
+      "catalyst_event": "Q4 FY27 print showing Shipway growth above 20% and Uniware sustaining above 15%, confirming the churn-resolution thesis across multiple quarters",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-14",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 1.0,
+        "catalyst_q": 0.65,
+        "timing_q": 1.0,
+        "risk_q": 1.0,
+        "quality": 0.895
+      }
+    },
+    {
       "slug": "maharashtra-seamless",
       "name": "Maharashtra seamless-a value plus cyclical play",
       "expectation_gap_score": 37.62,
@@ -791,39 +888,6 @@
       "thesis_fit": "neither",
       "red_flag_tier": null,
       "market_cap_tier": "Mid-cap (~Rs 8,173 Cr)",
-      "gap_direction": "underestimated",
-      "gap_type": "volume",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "moderate",
-      "catalyst_event": null,
-      "catalyst_window_months": null,
-      "catalyst_window_start": "2026-09-09",
-      "catalyst_status_effective": null,
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 0,
-      "risk_open_spofs": [],
-      "flags": [
-        "no-catalyst"
-      ],
-      "score_breakdown": {
-        "gap_points": 28.0,
-        "gap_frac": 0.7,
-        "evidence_q": 0.75,
-        "catalyst_q": 0.15,
-        "timing_q": 0.4,
-        "risk_q": 1.0,
-        "quality": 0.537
-      }
-    },
-    {
-      "slug": "mayur-uniquoters",
-      "name": "Mayur Uniquoters Ltd",
-      "expectation_gap_score": 37.62,
-      "conviction_score": 32.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap",
       "gap_direction": "underestimated",
       "gap_type": "volume",
       "gap_magnitude_pct": null,
@@ -883,6 +947,40 @@
       }
     },
     {
+      "slug": "kotak-bank",
+      "name": "Kotak Bank",
+      "expectation_gap_score": 37.01,
+      "conviction_score": 35.0,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Large/mega-cap (~Rs 4,16,800 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Naming of the new CEO/MD successor, and continued Q2/Q3 FY27 results confirming the post-ban growth trajectory and Deutsche Bank India integration progress",
+      "catalyst_window_months": 3,
+      "catalyst_window_start": "2026-09-16",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "integration execution concurrent with the ceo transition",
+        "successor quality/continuity"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 1.0,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.823
+      }
+    },
+    {
       "slug": "kp-energy",
       "name": "KP Energy Ltd",
       "expectation_gap_score": 36.25,
@@ -913,6 +1011,39 @@
         "timing_q": 0.4,
         "risk_q": 1.0,
         "quality": 0.363
+      }
+    },
+    {
+      "slug": "engineers-india",
+      "name": "Engineers India (EIL)",
+      "expectation_gap_score": 36.0,
+      "conviction_score": 56.25,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Large-cap (~Rs 14,655 Cr) - PSU",
+      "gap_direction": "partially-priced",
+      "gap_type": "mix",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "strong",
+      "catalyst_event": "Continued consultancy-mix-driven margin expansion across FY27, and confirmation of Dangote contract execution milestones",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-16",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "single large overseas client/project concentration"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 1.0,
+        "catalyst_q": 0.6,
+        "timing_q": 0.75,
+        "risk_q": 0.8,
+        "quality": 0.8
       }
     },
     {
@@ -1120,6 +1251,39 @@
       }
     },
     {
+      "slug": "steelcast",
+      "name": "Steelcast Ltd",
+      "expectation_gap_score": 33.16,
+      "conviction_score": 51.67,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 3,290 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "new_business",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "strong",
+      "catalyst_event": "New railroad-casting-component approval decision (currently in field trials, management ~85%+ confidence) - a real, currently-excluded-from-guidance upside catalyst",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-14",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "this specific approval outcome"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 1.0,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.8,
+        "quality": 0.737
+      }
+    },
+    {
       "slug": "entero-healthcare-solutions",
       "name": "Entero Healthcare Solutions Ltd",
       "expectation_gap_score": 32.72,
@@ -1225,6 +1389,42 @@
     {
       "slug": "kernex-tcas-led-multi-year-growth-story",
       "name": "Kernex: TCAS led multi year growth story",
+      "expectation_gap_score": 31.34,
+      "conviction_score": 39.8,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 2,914 Cr)",
+      "gap_direction": "underestimated",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "A Q2/Q3 FY27 print showing sustained execution WITH visible receivables collection / positive operating cash flow (plus continued Kavach award cadence)",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "field testing / commissioning bottleneck",
+        "indian railways as sole customer; commissioning-schedule slippage"
+      ],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 28.0,
+        "gap_frac": 0.7,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.639
+      }
+    },
+    {
+      "slug": "kernex-microsystems",
+      "name": "Kernex Microsystems",
       "expectation_gap_score": 31.34,
       "conviction_score": 39.8,
       "conviction": "Medium",
@@ -1464,6 +1664,39 @@
       }
     },
     {
+      "slug": "recode-studios",
+      "name": "Recode Studios Ltd",
+      "expectation_gap_score": 29.23,
+      "conviction_score": 42.5,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "SME / micro-cap",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "FY27 quarterly prints showing whether the May-2026 Rs 12 Cr/month run-rate holds, and whether Aflairza's stalled growth reverses post-integration",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-12",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "aflairza integration economics"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.8,
+        "quality": 0.649
+      }
+    },
+    {
       "slug": "suprajit-engineering-ltd",
       "name": "Suprajit Engineering Ltd",
       "expectation_gap_score": 29.12,
@@ -1496,6 +1729,74 @@
         "timing_q": 0.75,
         "risk_q": 0.2,
         "quality": 0.647
+      }
+    },
+    {
+      "slug": "airfloa-rail-technology",
+      "name": "Airfloa Rail Technology",
+      "expectation_gap_score": 28.78,
+      "conviction_score": 38.7,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap / SME (~Rs 1,180 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2/Q3 FY27 prints showing FY27 Rs500cr guidance progress, a margin-recovery inflection (vs the FY26 -500bps compression), and A&D order flow (Big Bang Boom JV formalisation + HAL orders)",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-12",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "hal customer concentration within the a&d leg",
+        "simultaneous execution across railway, metro and a&d segments"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.639
+      }
+    },
+    {
+      "slug": "eppelton",
+      "name": "Eppelton (EEPL)",
+      "expectation_gap_score": 28.78,
+      "conviction_score": 25.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Micro-cap (~Rs 172 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "AMISP empanelment confirmation + the next 1-2 quarters of cash-flow/working-capital data",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-16",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "government/discom payment-cycle timing",
+        "this specific metric not improving"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.639
       }
     },
     {
@@ -2007,39 +2308,6 @@
       }
     },
     {
-      "slug": "shaily-engineering",
-      "name": "Shaily Engineering Plastics Ltd",
-      "expectation_gap_score": 24.19,
-      "conviction_score": 33.45,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap",
-      "gap_direction": "partially-priced",
-      "gap_type": "volume",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "moderate",
-      "catalyst_event": null,
-      "catalyst_window_months": null,
-      "catalyst_window_start": "2026-09-09",
-      "catalyst_status_effective": null,
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 0,
-      "risk_open_spofs": [],
-      "flags": [
-        "no-catalyst"
-      ],
-      "score_breakdown": {
-        "gap_points": 18.0,
-        "gap_frac": 0.45,
-        "evidence_q": 0.75,
-        "catalyst_q": 0.15,
-        "timing_q": 0.4,
-        "risk_q": 1.0,
-        "quality": 0.537
-      }
-    },
-    {
       "slug": "pitti-engineering",
       "name": "Pitti Engineering Ltd",
       "expectation_gap_score": 24.19,
@@ -2174,6 +2442,39 @@
         "timing_q": 0.4,
         "risk_q": 1.0,
         "quality": 0.363
+      }
+    },
+    {
+      "slug": "sri-lotus-developers",
+      "name": "Sri Lotus Developers",
+      "expectation_gap_score": 22.98,
+      "conviction_score": 29.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 10,643 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2/Q3 FY27 results confirming whether the EBITDA margin contraction reverses and whether the guided 55-60% revenue/PAT growth and Rs 1,800-2,000 Cr pre-sales target stay on track across the 4 additional FY27 project launches",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-16",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 1.0,
+        "quality": 0.729
       }
     },
     {
@@ -2604,6 +2905,41 @@
         "timing_q": 1.0,
         "risk_q": 0.4,
         "quality": 0.552
+      }
+    },
+    {
+      "slug": "proventus-agrocom",
+      "name": "Proventus Agrocom",
+      "expectation_gap_score": 17.16,
+      "conviction_score": 0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": "HIGH CAUTION",
+      "market_cap_tier": "Small-cap (~Rs 570 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Appointment of a replacement statutory auditor to fill the casual vacancy, and Surat facility full commissioning/ramp confirmation",
+      "catalyst_window_months": 3,
+      "catalyst_window_start": "2026-09-16",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "clarity on the resignation reason"
+      ],
+      "flags": [
+        "high-caution"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.6,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.762
       }
     },
     {
@@ -3284,6 +3620,43 @@
       }
     },
     {
+      "slug": "zaggle-prepaid",
+      "name": "Zaggle Prepaid Ocean Services",
+      "expectation_gap_score": 10.27,
+      "conviction_score": 20.8,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 2,420 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "A Q2/Q3 FY27 print showing program-fee growth re-accelerating and adj EBITDA margin back toward 10% with receivables flat-to-down",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "enterprise customers' payment cycles",
+        "program-fee / volume growth re-accelerating from ~10%",
+        "whether the compression is truly one-off"
+      ],
+      "flags": [
+        "growth-decelerating"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.21,
+        "timing_q": 1.0,
+        "risk_q": 0.2,
+        "quality": 0.381
+      }
+    },
+    {
       "slug": "orchid-pharma-ltd",
       "name": "Orchid Pharma Ltd",
       "expectation_gap_score": 9.73,
@@ -3395,6 +3768,41 @@
       }
     },
     {
+      "slug": "sun-pharma",
+      "name": "Sun Pharma",
+      "expectation_gap_score": 8.82,
+      "conviction_score": 50.25,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Large/mega-cap (~Rs 4,41,478 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Organon acquisition close (targeted Q4 FY27) and continued confirmation of the specialty-led margin-expansion trend across FY27 quarters",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-16",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "regulatory approval in any key jurisdiction"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.75,
+        "catalyst_q": 1.0,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.882
+      }
+    },
+    {
       "slug": "v2-retail",
       "name": "V2 Retail",
       "expectation_gap_score": 8.05,
@@ -3463,6 +3871,39 @@
         "timing_q": 1.0,
         "risk_q": 0.8,
         "quality": 0.777
+      }
+    },
+    {
+      "slug": "lohia-corp",
+      "name": "Lohia Corp",
+      "expectation_gap_score": 7.67,
+      "conviction_score": 54.0,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 5,770 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "duration",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "strong",
+      "catalyst_event": "Continued order-book-to-revenue conversion and margin sustainability across the next 2-3 quarters, confirming Q1 FY27 is the start of a trend rather than a one-off low-base print",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-16",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 1.0,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 1.0,
+        "quality": 0.767
       }
     },
     {
@@ -4328,7 +4769,7 @@
       "slug": "prevest-denpro",
       "name": "Prevest Denpro Limited",
       "expectation_gap_score": 5.38,
-      "conviction_score": 37.25,
+      "conviction_score": 35.75,
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
@@ -4339,7 +4780,7 @@
       "evidence_quality": "moderate",
       "catalyst_event": null,
       "catalyst_window_months": null,
-      "catalyst_window_start": "2026-09-09",
+      "catalyst_window_start": "2026-09-12",
       "catalyst_status_effective": null,
       "catalyst_is_dated": false,
       "risk_open_spof_count": 0,
@@ -4495,40 +4936,6 @@
       }
     },
     {
-      "slug": "steelcast",
-      "name": "Steelcast Ltd",
-      "expectation_gap_score": 5.38,
-      "conviction_score": 40.67,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "Small-cap (~Rs 3,350 Cr)",
-      "gap_direction": "priced-in",
-      "gap_type": "timing",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "moderate",
-      "catalyst_event": null,
-      "catalyst_window_months": null,
-      "catalyst_window_start": "2026-09-09",
-      "catalyst_status_effective": null,
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 0,
-      "risk_open_spofs": [],
-      "flags": [
-        "priced-in",
-        "no-catalyst"
-      ],
-      "score_breakdown": {
-        "gap_points": 4.0,
-        "gap_frac": 0.1,
-        "evidence_q": 0.75,
-        "catalyst_q": 0.15,
-        "timing_q": 0.4,
-        "risk_q": 1.0,
-        "quality": 0.537
-      }
-    },
-    {
       "slug": "home-first-finance",
       "name": "Home First Finance Company India Ltd",
       "expectation_gap_score": 5.38,
@@ -4560,6 +4967,41 @@
         "timing_q": 0.4,
         "risk_q": 1.0,
         "quality": 0.537
+      }
+    },
+    {
+      "slug": "deepa-jewellers",
+      "name": "Deepa Jewellers",
+      "expectation_gap_score": 5.24,
+      "conviction_score": 20.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 1,651 Cr), recently listed Sept 2026",
+      "gap_direction": "priced-in",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "In-house manufacturing facility commissioning + the first full quarter of post-listing disclosure (Q2/Q3 FY27), confirming whether margin improves and cash conversion stabilises",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-16",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "loss of a top-10 karigar relationship"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.524
       }
     },
     {
@@ -4756,40 +5198,6 @@
       "market_cap_tier": "Micro-cap (~Rs 701 Cr)",
       "gap_direction": "priced-in",
       "gap_type": "timing",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "weak",
-      "catalyst_event": null,
-      "catalyst_window_months": null,
-      "catalyst_window_start": "2026-09-09",
-      "catalyst_status_effective": null,
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 0,
-      "risk_open_spofs": [],
-      "flags": [
-        "priced-in",
-        "no-catalyst"
-      ],
-      "score_breakdown": {
-        "gap_points": 4.0,
-        "gap_frac": 0.1,
-        "evidence_q": 0.25,
-        "catalyst_q": 0.15,
-        "timing_q": 0.4,
-        "risk_q": 1.0,
-        "quality": 0.363
-      }
-    },
-    {
-      "slug": "unicommerce-esolutions",
-      "name": "Unicommerce Esolutions",
-      "expectation_gap_score": 3.63,
-      "conviction_score": 30.15,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "red_flag_tier": null,
-      "market_cap_tier": "Small-cap",
-      "gap_direction": "priced-in",
-      "gap_type": "duration",
       "gap_magnitude_pct": null,
       "evidence_quality": "weak",
       "catalyst_event": null,
@@ -5233,7 +5641,7 @@
       "slug": "inox-india-a-story-worth-looking",
       "name": "Inox India, a story worth looking?",
       "expectation_gap_score": 3.54,
-      "conviction_score": 37.53,
+      "conviction_score": 36.21,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -5264,6 +5672,42 @@
         "timing_q": 0.75,
         "risk_q": 0.4,
         "quality": 0.589
+      }
+    },
+    {
+      "slug": "garuda-construction",
+      "name": "Garuda Construction",
+      "expectation_gap_score": 3.5,
+      "conviction_score": 0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": "HIGH CAUTION",
+      "market_cap_tier": "Small-cap (~Rs 1,638 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Next 1-2 quarters of cash-flow/working-capital disclosure, and any further promoter pledge or release activity - the key tests of whether the Jul 2026 pledge was a one-off financing choice or the start of a recurring pattern",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-16",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "working-capital/cash-flow management, evidenced as a live constraint by the promoter pledge"
+      ],
+      "flags": [
+        "high-caution",
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.699
       }
     },
     {
@@ -6125,6 +6569,42 @@
       }
     },
     {
+      "slug": "shaily-engineering",
+      "name": "Shaily Engineering Plastics Ltd",
+      "expectation_gap_score": 0,
+      "conviction_score": 29.45,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 15,000 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "volume",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2/Q3 FY27 prints testing whether the Q1FY27 deceleration (+14%) was a one-off cost/timing issue (management's claim) or a genuine growth-rate reset, plus whether gross margin actually normalises by Q3FY27 as guided",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-12",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "23-24 partners must convert to volume, not just signed relationships",
+        "single new facility/geography"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.639
+      }
+    },
+    {
       "slug": "piccadily-agro-industries",
       "name": "Piccadily Agro Industries Ltd",
       "expectation_gap_score": 0,
@@ -6757,6 +7237,41 @@
         "timing_q": 1.0,
         "risk_q": 0.2,
         "quality": 0.609
+      }
+    },
+    {
+      "slug": "archit-nuwood-industries",
+      "name": "Archit Nuwood Industries",
+      "expectation_gap_score": 0,
+      "conviction_score": 19.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 639 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "FY26 annual report / cash-flow statement - the key test of whether the 9M FY26 margin recovery is accompanied by normalised operating cash flow and working-capital days, or whether the FY24-style cash-conversion problem persists",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-16",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "this specific metric not improving"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.524
       }
     },
     {
@@ -7435,6 +7950,78 @@
         "risk_q": 0.8,
         "quality": 0.637
       }
+    },
+    {
+      "slug": "rappid-valves",
+      "name": "Rappid Valves",
+      "expectation_gap_score": 0,
+      "conviction_score": 0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": "HIGH CAUTION",
+      "market_cap_tier": "Micro/small-cap (~Rs 160 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "Next 1-2 quarters of cash-flow/working-capital disclosure - the key test of whether the FY25 negative-OCF/positive-PAT divergence is stabilising or worsening as the Navy/BHEL order book scales",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-16",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "concentration in government/psu-linked defence-programme orders"
+      ],
+      "flags": [
+        "high-caution",
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.524
+      }
+    },
+    {
+      "slug": "beacon-trusteeship",
+      "name": "Beacon Trusteeship",
+      "expectation_gap_score": 0,
+      "conviction_score": 0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": "HIGH CAUTION",
+      "market_cap_tier": "Micro/small-cap (~Rs 141-146 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "new_business",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "NCLT ruling on the 3-entity amalgamation scheme + disclosure of the actual swap ratio and per-share dilution impact",
+      "catalyst_window_months": 3,
+      "catalyst_window_start": "2026-09-16",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "fairness of the swap ratio/valuation, not independently verified this pass"
+      ],
+      "flags": [
+        "high-caution",
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 1.0,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.882
+      }
     }
   ],
   "not_assessed": [
@@ -7444,13 +8031,6 @@
       "conviction_score": 43.25,
       "conviction": "Medium-High",
       "thesis_fit": "neither"
-    },
-    {
-      "slug": "airfloa-rail-technology",
-      "name": "Airfloa Rail Technology",
-      "conviction_score": 41.7,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
     },
     {
       "slug": "garden-reach-shipbuilders-engineers",
@@ -7476,6 +8056,13 @@
     {
       "slug": "bajaj-consumer-care",
       "name": "Bajaj Consumer Care Ltd",
+      "conviction_score": 35.0,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "suzlon",
+      "name": "Suzlon",
       "conviction_score": 35.0,
       "conviction": "Medium-High",
       "thesis_fit": "neither"
@@ -7539,13 +8126,6 @@
     {
       "slug": "millworks-technologies",
       "name": "Millworks Technologies Ltd",
-      "conviction_score": 30.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "recode-studios",
-      "name": "Recode Studios Ltd",
       "conviction_score": 30.0,
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years"
@@ -7966,6 +8546,363 @@
     {
       "slug": "ajax-engineering",
       "name": "Ajax Engineering Ltd",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "nisus",
+      "name": "Nisus",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "flysbs",
+      "name": "Flysbs",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "univastu-india",
+      "name": "Univastu India",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "gayatri-rubber-and-chemicals",
+      "name": "Gayatri Rubber and Chemicals",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "rossell-techsys",
+      "name": "Rossell Techsys",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "kody-technolabs",
+      "name": "Kody Technolabs",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "cyient-dlm",
+      "name": "Cyient DLM",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "sbcl",
+      "name": "SBCL",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "ebgng",
+      "name": "EBGNG",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "sunlite",
+      "name": "Sunlite",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "lumax-industries",
+      "name": "Lumax Industries",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "apar-industries",
+      "name": "APAR Industries",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "omnitech",
+      "name": "Omnitech",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "vadilal-industries",
+      "name": "Vadilal Industries",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "titan-company",
+      "name": "Titan",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "fsn-e-commerce-nykaa",
+      "name": "Nykaa",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "powerica",
+      "name": "Powerica Ltd",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "nlc-india",
+      "name": "NLC India",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "universal-cables",
+      "name": "Universal Cables",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "astra-microwave-products",
+      "name": "Astra Microwave",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "golkunda-diamonds",
+      "name": "Golkunda Diamond",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "rossell-india",
+      "name": "Rossell India / Rossell Techsys",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "styrenix-performance-materials",
+      "name": "Styrenix Performance Materials",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "indian-metals-ferro-alloys",
+      "name": "Indian Metals & Ferro Alloys (IMFA)",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "bank-of-maharashtra",
+      "name": "Bank of Maharashtra",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "nestle-india",
+      "name": "Nestle India",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "grt-jewellers",
+      "name": "GRT Jewellers (re TBZ acquisition)",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "dee-development-engineers",
+      "name": "Dee Development Engineers",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "skipper",
+      "name": "Skipper",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "hdfc-amc",
+      "name": "HDFC AMC",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "arrow-greentech",
+      "name": "Arrow Greentech",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "marksans-pharma",
+      "name": "Marksans Pharma",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "icici-lombard",
+      "name": "ICICI Lombard",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "tata-motors-passenger-vehicles",
+      "name": "Tata Motors Passenger Vehicles",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "sbi-funds-management",
+      "name": "SBI Funds Management",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "mgl",
+      "name": "Mahanagar Gas (MGL)",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "tata-motors-commercial-vehicles",
+      "name": "Tata Motors Commercial Vehicles (TMCV)",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "coforge",
+      "name": "Coforge",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "embassy-reit",
+      "name": "Embassy REIT",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "supreme-transformer",
+      "name": "Supreme (transformer maker)",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "shilchar-technologies",
+      "name": "Shilchar Technologies",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "eicher-motors",
+      "name": "Eicher Motors (VECV heavy trucks)",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "raghav-productivity-solutions",
+      "name": "Raghav Productivity Solutions",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "state-bank-of-india",
+      "name": "State Bank of India",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "vishnu-chemicals",
+      "name": "Vishnu Chemicals",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "cholamandalam",
+      "name": "Cholamandalam Investment and Finance",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "shriram-finance",
+      "name": "Shriram Finance",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "shankesh",
+      "name": "Shankesh Jewellers",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "molbio",
+      "name": "Molbio Diagnostics",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "kingfa",
+      "name": "Kingfa Science and Technology",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "ipca-labs",
+      "name": "IPCA Labs",
       "conviction_score": 25.0,
       "conviction": "Medium",
       "thesis_fit": "neither"
@@ -8608,6 +9545,405 @@
       "thesis_fit": "neither"
     },
     {
+      "slug": "pvr-inox",
+      "name": "PVR INOX",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "renaissance-global",
+      "name": "Renaissance Global",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "pine-labs",
+      "name": "Pine Labs",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "prostarm",
+      "name": "Prostarm Info Systems",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "indomim",
+      "name": "IndoMIM",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "laserpower",
+      "name": "Laser Power & Infra",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "tac-infosec",
+      "name": "TAC Infosec",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "trishakti-industries",
+      "name": "Trishakti Industries",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "iol-chemicals",
+      "name": "IOL Chemicals",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "techera-engineering",
+      "name": "Techera Engineering",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "asian-energy-services",
+      "name": "Asian Energy Services",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "indo-mim",
+      "name": "Indo MIM",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "htel",
+      "name": "HTEL",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "lumino-industries",
+      "name": "Lumino Industries",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "rubicon-research",
+      "name": "Rubicon Research",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "sona-comstar",
+      "name": "Sona BLW / Sona Comstar",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "bajaj-finance",
+      "name": "Bajaj Finance",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "igi-india",
+      "name": "IGI (Lab Grown Diamond certification)",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "divis-laboratories",
+      "name": "Divi's Labs",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "tata-consultancy-services",
+      "name": "TCS",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "trent-ltd",
+      "name": "Trent",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "tata-elxsi",
+      "name": "Tata Elxsi",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "hdfc-bank-ltd",
+      "name": "HDFC Bank",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "sp-apparels",
+      "name": "SP Apparels",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "cords-cable-industries",
+      "name": "Cords Cable",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "hcp-plastene",
+      "name": "HCP Plastene",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "poonawala-fincorp",
+      "name": "Poonawala Fincorp",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "shipping-corporation-of-india",
+      "name": "Shipping Corporation of India",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "hyundai-motor-india",
+      "name": "Hyundai Motor India",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "sandur-manganese-iron-ores",
+      "name": "Sandur (Manganese & Iron Ores)",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "sheela-foam",
+      "name": "Sheela Foam",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "route-mobile",
+      "name": "Route Mobile",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "equitas-small-finance-bank",
+      "name": "Equitas Small Finance Bank",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "emcure-pharma",
+      "name": "Emcure Pharma",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "granules-india",
+      "name": "Granules India",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "apollo-hospitals",
+      "name": "Apollo Hospitals",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "info-edge",
+      "name": "Info Edge (Naukri)",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "ireda",
+      "name": "IREDA",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "hudco",
+      "name": "HUDCO",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "bank-of-baroda",
+      "name": "Bank of Baroda",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "infosys",
+      "name": "Infosys",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "coal-india",
+      "name": "Coal India",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "tcs",
+      "name": "TCS",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "igl",
+      "name": "Indraprastha Gas (IGL)",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "power-grid",
+      "name": "Power Grid",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "ntpc",
+      "name": "NTPC",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "bank-of-india",
+      "name": "Bank of India",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "hul",
+      "name": "HUL",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "crisil",
+      "name": "Crisil",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "inox-green-energy-services",
+      "name": "Inox Green Energy",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "wipro",
+      "name": "Wipro",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "hariom-pipe-industries",
+      "name": "HariOm Pipes",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "selan-exploration",
+      "name": "Selan Exploration",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "ashok-leyland",
+      "name": "Ashok Leyland",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "ge-shipping",
+      "name": "GE Shipping",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "confidence-petroleum",
+      "name": "Confidence Petroleum",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "valor-estates",
+      "name": "Valor Estates (ex-DB Realty)",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
       "slug": "international-gemmological-institute-india-ltd",
       "name": "International Gemmological Institute (India) Ltd",
       "conviction_score": 15.65,
@@ -8706,13 +10042,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "all-e-technologies-making-businesses-ready-for-ai",
-      "name": "All E Technologies, making businesses ready for AI",
-      "conviction_score": 11.21,
-      "conviction": "Low",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "kitex-garments",
       "name": "Kitex Garments Ltd",
       "conviction_score": 11.0,
@@ -8729,6 +10058,13 @@
     {
       "slug": "ceinsys-tech",
       "name": "Ceinsys Tech-Engineering, Geospatial & IT solutions Company",
+      "conviction_score": 10.7,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "syngene-international",
+      "name": "Syngene International Ltd",
       "conviction_score": 10.7,
       "conviction": "Low",
       "thesis_fit": "neither"
@@ -8772,6 +10108,13 @@
       "slug": "sharda-cropchem-ltd",
       "name": "Sharda Cropchem Ltd",
       "conviction_score": 10.6,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "all-e-technologies-making-businesses-ready-for-ai",
+      "name": "All E Technologies, making businesses ready for AI",
+      "conviction_score": 10.49,
       "conviction": "Low",
       "thesis_fit": "neither"
     },
@@ -9623,13 +10966,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "syngene-international",
-      "name": "Syngene International Ltd",
-      "conviction_score": 8.0,
-      "conviction": "Low",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "olectra-greentech",
       "name": "Olectra Greentech Ltd",
       "conviction_score": 8.0,
@@ -9968,6 +11304,447 @@
     {
       "slug": "sat-industries",
       "name": "SAT Industries",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "zee-entertainment",
+      "name": "Zee Entertainment",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "kwality-walls",
+      "name": "Kwality Walls (Hindustan Unilever demerger)",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "triton-valves",
+      "name": "Triton Valves",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "knack",
+      "name": "Knack (Knack Life Sciences)",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "voepl",
+      "name": "VOEPL",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "fns-india",
+      "name": "FNS India",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "fanclean",
+      "name": "Fanclean",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "techlabs",
+      "name": "Techlabs",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "bombay-dyeing",
+      "name": "Bombay Dyeing",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "tejas-networks",
+      "name": "Tejas Networks",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "gtt-data-solutions",
+      "name": "GTT Data Solutions",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "shiprocket",
+      "name": "Shiprocket",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "qline",
+      "name": "Qline (SME)",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "fcl",
+      "name": "FCL",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "skyways",
+      "name": "Skyways",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "balaji-amines",
+      "name": "Balaji Amines (Balamines)",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "ind-swift-laboratories",
+      "name": "Ind-Swift Laboratories (INDSWFTLAB)",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "symbiotec-pharmalab",
+      "name": "Symbiotec Pharmalab (SYMBIOTEC)",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "tempsens-instruments",
+      "name": "Tempsens Instruments",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "gujarat-fluorochemicals",
+      "name": "Gujarat Fluorochemicals",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "sai-parenterals",
+      "name": "Sai Parenterals",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "adc-india-communications",
+      "name": "ADC India Communications",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "tata-technologies",
+      "name": "Tata Technologies",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "dlink-india",
+      "name": "D-Link India",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "bajaj-housing-finance",
+      "name": "Bajaj Housing Finance",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "ifci-ltd",
+      "name": "IFCI",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "atul-auto",
+      "name": "Atul Auto",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "ge-power-india",
+      "name": "GE Power India",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "colab-platform",
+      "name": "Colab Platform",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "gnrl-ltd",
+      "name": "GNRL Ltd",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "bafna-pharmaceuticals",
+      "name": "Bafna Pharma",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "scml",
+      "name": "SCML",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "aarti-surfactants",
+      "name": "Aarti Surfactants",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "asahi-songwon-colors",
+      "name": "Asahi Songwon Colors",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "gvpil",
+      "name": "GVPIL",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "trejhara-solutions",
+      "name": "Trejhara Solutions",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "gujarat-containers",
+      "name": "Gujarat Containers",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "auro-impex-chem",
+      "name": "Auro Impex & Chem",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "sanathan-textiles",
+      "name": "Sanathan Textiles",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "ratnamani-metals-tubes",
+      "name": "Ratnamani Metals & Tubes",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "s-chand",
+      "name": "S Chand & Co",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "vijay-solvex",
+      "name": "Vijay Solvex",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "omax-autos",
+      "name": "Omax Autos",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "fineotex-chemical",
+      "name": "Fineotex Chemical",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "solara-active-pharma",
+      "name": "Solara Active Pharma Sciences",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "rane-madras",
+      "name": "Rane (Madras) [RML]",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "south-indian-bank",
+      "name": "South Indian Bank",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "sdhi",
+      "name": "SDHI",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "adani-power",
+      "name": "Adani Power",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "vedanta",
+      "name": "Vedanta",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "eternal",
+      "name": "Eternal (Zomato)",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "bandhan-bank",
+      "name": "Bandhan Bank",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "birlasoft",
+      "name": "Birlasoft",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "jio-financial-services",
+      "name": "Jio Financial Services",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "nse-india",
+      "name": "NSE (National Stock Exchange)",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "heidelberg-cement-india",
+      "name": "Heidelberg Cement India",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "vedanta-aluminium",
+      "name": "Vedanta Aluminium",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "indo-count-industries",
+      "name": "Indo Count Industries",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "maruti-suzuki",
+      "name": "Maruti Suzuki",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "valiant-laboratories",
+      "name": "Valiant Laboratories",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "arisinfra",
+      "name": "ArisInfra Solutions",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "tvs-supply-chain",
+      "name": "TVS Supply Chain Solutions",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "rbl-bank",
+      "name": "RBL Bank",
       "conviction_score": 8.0,
       "conviction": "Low",
       "thesis_fit": "neither"
@@ -10741,6 +12518,104 @@
       "conviction_score": 0,
       "conviction": "Low",
       "thesis_fit": "neither"
+    },
+    {
+      "slug": "lelavoir-ltd",
+      "name": "Lelavoir Ltd",
+      "conviction_score": 0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "dil",
+      "name": "DIL",
+      "conviction_score": 0.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "rkec-infra",
+      "name": "RKEC Infra",
+      "conviction_score": 0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "jyoti-ltd",
+      "name": "Jyoti Ltd",
+      "conviction_score": 0.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "ema-india",
+      "name": "EMA India",
+      "conviction_score": 0.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "sigma-advanced-systems",
+      "name": "Sigma Advanced Systems",
+      "conviction_score": 0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "vmarc",
+      "name": "Vmarc Cable & Wires",
+      "conviction_score": 0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "icemake-refrigeration",
+      "name": "Icemake Refrigeration",
+      "conviction_score": 0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "omaxe",
+      "name": "Omaxe Limited",
+      "conviction_score": 0.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "alok-industries",
+      "name": "Alok Industries",
+      "conviction_score": 0.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "sammaan-capital",
+      "name": "Sammaan Capital",
+      "conviction_score": 0.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "pasupati-fincap",
+      "name": "Pasupati Fincap",
+      "conviction_score": 0.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "vodafone-idea",
+      "name": "Vodafone Idea",
+      "conviction_score": 0.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "ashapura-minechem",
+      "name": "Ashapura Minechem",
+      "conviction_score": 0.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
     }
   ],
   "catalyst_calendar": [
@@ -10853,6 +12728,39 @@
       "status_effective": "pending",
       "expectation_gap_score": 0,
       "conviction_score": 26.25
+    },
+    {
+      "slug": "kotak-bank",
+      "name": "Kotak Bank",
+      "event": "Naming of the new CEO/MD successor, and continued Q2/Q3 FY27 results confirming the post-ban growth trajectory and Deutsche Bank India integration progress",
+      "target_date": "2026-12-16",
+      "window_months": 3,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 37.01,
+      "conviction_score": 35.0
+    },
+    {
+      "slug": "proventus-agrocom",
+      "name": "Proventus Agrocom",
+      "event": "Appointment of a replacement statutory auditor to fill the casual vacancy, and Surat facility full commissioning/ramp confirmation",
+      "target_date": "2026-12-16",
+      "window_months": 3,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 17.16,
+      "conviction_score": 0
+    },
+    {
+      "slug": "beacon-trusteeship",
+      "name": "Beacon Trusteeship",
+      "event": "NCLT ruling on the 3-entity amalgamation scheme + disclosure of the actual swap ratio and per-share dilution impact",
+      "target_date": "2026-12-16",
+      "window_months": 3,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 0
     },
     {
       "slug": "thyrocare-debt-free-asset-light-healthcare-play",
@@ -10984,7 +12892,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 44.76,
-      "conviction_score": 31.3
+      "conviction_score": 29.98
     },
     {
       "slug": "neetu-yoshi",
@@ -11141,6 +13049,17 @@
       "conviction_score": 39.8
     },
     {
+      "slug": "kernex-microsystems",
+      "name": "Kernex Microsystems",
+      "event": "A Q2/Q3 FY27 print showing sustained execution WITH visible receivables collection / positive operating cash flow (plus continued Kavach award cadence)",
+      "target_date": "2027-03-10",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 31.34,
+      "conviction_score": 39.8
+    },
+    {
       "slug": "gufic-biosciences",
       "name": "Gufic BioSciences Ltd",
       "event": "EU-GMP certificate issuance for Indore + a Q2/Q3 FY27 print showing GLP-1/Hetero CMO revenue + Indore utilisation reaching 40-45%",
@@ -11161,6 +13080,17 @@
       "status_effective": "pending",
       "expectation_gap_score": 10.27,
       "conviction_score": 21.62
+    },
+    {
+      "slug": "zaggle-prepaid",
+      "name": "Zaggle Prepaid Ocean Services",
+      "event": "A Q2/Q3 FY27 print showing program-fee growth re-accelerating and adj EBITDA margin back toward 10% with receivables flat-to-down",
+      "target_date": "2027-03-10",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 10.27,
+      "conviction_score": 20.8
     },
     {
       "slug": "jubilant-agri-and-consumer-products-ltd-a-hidden-gem-from-the-jubilant-group",
@@ -11271,6 +13201,138 @@
       "status_effective": "pending",
       "expectation_gap_score": 0,
       "conviction_score": 6.4
+    },
+    {
+      "slug": "bondada-engineering",
+      "name": "Bondada Engineering Ltd",
+      "event": "FY27 quarterly margin prints testing the 11-12% EBITDA guidance against the mix shift toward BOS-scope and defence/aerospace orders; clarity on the RPT-vote dissent and borrowing-limit usage",
+      "target_date": "2027-03-14",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 51.06,
+      "conviction_score": 29.75
+    },
+    {
+      "slug": "airfloa-rail-technology",
+      "name": "Airfloa Rail Technology",
+      "event": "Q2/Q3 FY27 prints showing FY27 Rs500cr guidance progress, a margin-recovery inflection (vs the FY26 -500bps compression), and A&D order flow (Big Bang Boom JV formalisation + HAL orders)",
+      "target_date": "2027-03-14",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 28.78,
+      "conviction_score": 38.7
+    },
+    {
+      "slug": "shaily-engineering",
+      "name": "Shaily Engineering Plastics Ltd",
+      "event": "Q2/Q3 FY27 prints testing whether the Q1FY27 deceleration (+14%) was a one-off cost/timing issue (management's claim) or a genuine growth-rate reset, plus whether gross margin actually normalises by Q3FY27 as guided",
+      "target_date": "2027-03-14",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 29.45
+    },
+    {
+      "slug": "carysil",
+      "name": "Carysil (earlier Acrysil)",
+      "event": "Quartz capacity expansion (1.25m units) commissioning + the FY27 exit-quarter margin print",
+      "target_date": "2027-03-16",
+      "window_months": 6,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 43.65,
+      "conviction_score": 51.08
+    },
+    {
+      "slug": "unicommerce-esolutions",
+      "name": "Unicommerce Esolutions",
+      "event": "Q4 FY27 print showing Shipway growth above 20% and Uniware sustaining above 15%, confirming the churn-resolution thesis across multiple quarters",
+      "target_date": "2027-03-16",
+      "window_months": 6,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 40.27,
+      "conviction_score": 48.4
+    },
+    {
+      "slug": "eppelton",
+      "name": "Eppelton (EEPL)",
+      "event": "AMISP empanelment confirmation + the next 1-2 quarters of cash-flow/working-capital data",
+      "target_date": "2027-03-18",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 28.78,
+      "conviction_score": 25.0
+    },
+    {
+      "slug": "sri-lotus-developers",
+      "name": "Sri Lotus Developers",
+      "event": "Q2/Q3 FY27 results confirming whether the EBITDA margin contraction reverses and whether the guided 55-60% revenue/PAT growth and Rs 1,800-2,000 Cr pre-sales target stay on track across the 4 additional FY27 project launches",
+      "target_date": "2027-03-18",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 22.98,
+      "conviction_score": 29.0
+    },
+    {
+      "slug": "sun-pharma",
+      "name": "Sun Pharma",
+      "event": "Organon acquisition close (targeted Q4 FY27) and continued confirmation of the specialty-led margin-expansion trend across FY27 quarters",
+      "target_date": "2027-03-18",
+      "window_months": 6,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 8.82,
+      "conviction_score": 50.25
+    },
+    {
+      "slug": "deepa-jewellers",
+      "name": "Deepa Jewellers",
+      "event": "In-house manufacturing facility commissioning + the first full quarter of post-listing disclosure (Q2/Q3 FY27), confirming whether margin improves and cash conversion stabilises",
+      "target_date": "2027-03-18",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 5.24,
+      "conviction_score": 20.0
+    },
+    {
+      "slug": "garuda-construction",
+      "name": "Garuda Construction",
+      "event": "Next 1-2 quarters of cash-flow/working-capital disclosure, and any further promoter pledge or release activity - the key tests of whether the Jul 2026 pledge was a one-off financing choice or the start of a recurring pattern",
+      "target_date": "2027-03-18",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 3.5,
+      "conviction_score": 0
+    },
+    {
+      "slug": "archit-nuwood-industries",
+      "name": "Archit Nuwood Industries",
+      "event": "FY26 annual report / cash-flow statement - the key test of whether the 9M FY26 margin recovery is accompanied by normalised operating cash flow and working-capital days, or whether the FY24-style cash-conversion problem persists",
+      "target_date": "2027-03-18",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 19.0
+    },
+    {
+      "slug": "rappid-valves",
+      "name": "Rappid Valves",
+      "event": "Next 1-2 quarters of cash-flow/working-capital disclosure - the key test of whether the FY25 negative-OCF/positive-PAT divergence is stabilising or worsening as the Navy/BHEL order book scales",
+      "target_date": "2027-03-18",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 0
     },
     {
       "slug": "unimech-aerospace-and-manufacturing-ltd",
@@ -11468,7 +13530,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 3.54,
-      "conviction_score": 37.53
+      "conviction_score": 36.21
     },
     {
       "slug": "jnk-india-ltd",
@@ -11966,6 +14028,50 @@
       "conviction_score": 0
     },
     {
+      "slug": "recode-studios",
+      "name": "Recode Studios Ltd",
+      "event": "FY27 quarterly prints showing whether the May-2026 Rs 12 Cr/month run-rate holds, and whether Aflairza's stalled growth reverses post-integration",
+      "target_date": "2027-06-13",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 29.23,
+      "conviction_score": 42.5
+    },
+    {
+      "slug": "steelcast",
+      "name": "Steelcast Ltd",
+      "event": "New railroad-casting-component approval decision (currently in field trials, management ~85%+ confidence) - a real, currently-excluded-from-guidance upside catalyst",
+      "target_date": "2027-06-15",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 33.16,
+      "conviction_score": 51.67
+    },
+    {
+      "slug": "engineers-india",
+      "name": "Engineers India (EIL)",
+      "event": "Continued consultancy-mix-driven margin expansion across FY27, and confirmation of Dangote contract execution milestones",
+      "target_date": "2027-06-17",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 36.0,
+      "conviction_score": 56.25
+    },
+    {
+      "slug": "lohia-corp",
+      "name": "Lohia Corp",
+      "event": "Continued order-book-to-revenue conversion and margin sustainability across the next 2-3 quarters, confirming Q1 FY27 is the start of a trend rather than a one-off low-base print",
+      "target_date": "2027-06-17",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 7.67,
+      "conviction_score": 54.0
+    },
+    {
       "slug": "wonderla-holidays",
       "name": "Wonderla Holidays",
       "event": "Formal announcement of the next 1-2 large park locations with capex and timeline (management guided 'before end-FY27'), plus H2 FY27 prints confirming mature-park double-digit growth is not just a seasonal Q1",
@@ -12272,6 +14378,17 @@
       "status_effective": "pending",
       "expectation_gap_score": 0,
       "conviction_score": 6.17
+    },
+    {
+      "slug": "mayur-uniquoters",
+      "name": "Mayur Uniquoters Ltd",
+      "event": "Mexico capex restart once US tariff clarity emerges, or PU-plant utilization finally moving meaningfully above ~25%",
+      "target_date": "2027-09-12",
+      "window_months": 12,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 41.68,
+      "conviction_score": 44.0
     },
     {
       "slug": "sambhv-steel-tubes",
