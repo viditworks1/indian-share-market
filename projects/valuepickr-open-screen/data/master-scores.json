@@ -2,8 +2,8 @@
   "method": "Composite of conviction_score/quality_score/expectation_gap_score/consistency_score/asymmetry_score, weighted 0.25/0.25/0.20/0.15/0.15 and renormalized over whichever are present. Formula + investor research in MASTER_SCORE_METHODOLOGY.md.",
   "scored_count": 886,
   "not_assessed_count": 0,
-  "consistency_score_coverage": 170,
-  "asymmetry_score_coverage": 207,
+  "consistency_score_coverage": 173,
+  "asymmetry_score_coverage": 210,
   "ranked": [
     {
       "slug": "venus-remedies",
@@ -601,6 +601,34 @@
         "expectation_gap_score": 5.38,
         "consistency_score": 80,
         "asymmetry_score": 41.69,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "siddhika-coating",
+      "name": "Siddhika Coating Limited- A Paint Company",
+      "master_score": 53.68,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 3,
+        "note": "FY23, FY24, FY25 each cleared BOTH >=10% revenue growth AND >=15% ROCE (FY23 +58% growth; FY24 +14%; FY25 +30%, against ROCE averaging ~23% and peaking ~29-32% over the same window) -- a clean Coffee-Can pass, though only 3 fiscal years are verifiable pre-2022 scale-up so this is not yet a full decade of history."
+      },
+      "score_breakdown": {
+        "conviction_score": 21.19,
+        "quality_score": 87.0,
+        "expectation_gap_score": 17.76,
+        "consistency_score": 100,
+        "asymmetry_score": 53.88,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -1391,6 +1419,34 @@
       }
     },
     {
+      "slug": "arrow-greentech",
+      "name": "Arrow Greentech",
+      "master_score": 44.66,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 4,
+        "years_cleared": 3,
+        "note": "FY23 (+220% growth off a COVID-hit base, ROCE 21%), FY24 (+37% growth, ROCE 35%) and FY25 (+63% growth, ROCE 53%) each cleared BOTH >=10% revenue growth and >=15% ROCE; FY26 broke the streak on growth (-17.6%) despite ROCE still a healthy 30% -- a genuine 3-year run followed by a real down year, not yet re-confirmed by a full FY27."
+      },
+      "score_breakdown": {
+        "conviction_score": 27.0,
+        "quality_score": 61.0,
+        "expectation_gap_score": 20.22,
+        "consistency_score": 75,
+        "asymmetry_score": 49.11,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "kalyani-cast",
       "name": "Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing",
       "master_score": 44.27,
@@ -1735,6 +1791,34 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "lumax-industries",
+      "name": "Lumax Industries",
+      "master_score": 41.55,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 4,
+        "years_cleared": 4,
+        "note": "FY22 (+22.8% growth, ROCE 19%), FY23 (+32.5% growth, ROCE 17%), FY24 (+13.7% growth, ROCE 16%) and FY25 (+28.9% growth, ROCE 18%) each cleared BOTH >=10% revenue growth AND >=15% ROCE -- a clean 4/4-year Coffee-Can pass sustained even through a heavy capex/leverage build-up phase."
+      },
+      "score_breakdown": {
+        "conviction_score": 31.0,
+        "quality_score": 47.0,
+        "expectation_gap_score": 22.9,
+        "consistency_score": 100,
+        "asymmetry_score": 16.45,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
       }
     },
     {
@@ -4815,26 +4899,6 @@
       }
     },
     {
-      "slug": "siddhika-coating",
-      "name": "Siddhika Coating Limited- A Paint Company",
-      "master_score": 25.19,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 25.19,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "eppelton",
       "name": "Eppelton (EEPL)",
       "master_score": 25.19,
@@ -5954,26 +6018,6 @@
       }
     },
     {
-      "slug": "lumax-industries",
-      "name": "Lumax Industries",
-      "master_score": 25.0,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "apar-industries",
       "name": "APAR Industries",
       "master_score": 25.0,
@@ -6336,26 +6380,6 @@
     {
       "slug": "hdfc-amc",
       "name": "HDFC AMC",
-      "master_score": 25.0,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "arrow-greentech",
-      "name": "Arrow Greentech",
       "master_score": 25.0,
       "red_flag_tier": null,
       "conviction": "Medium",

@@ -107,6 +107,8 @@ _(none)_
 | Garuda Construction | 2027-03-18 | ~6M | pending | 3.5 | Next 1-2 quarters of cash-flow/working-capital disclosure, and any further promoter pledge or release activity - the key tests of whether the Jul 2026 pledge... |
 | Archit Nuwood Industries | 2027-03-18 | ~6M | pending | 0 | FY26 annual report / cash-flow statement - the key test of whether the 9M FY26 margin recovery is accompanied by normalised operating cash flow and working-c... |
 | Rappid Valves | 2027-03-18 | ~6M | pending | 0 | Next 1-2 quarters of cash-flow/working-capital disclosure - the key test of whether the FY25 negative-OCF/positive-PAT divergence is stabilising or worsening... |
+| Lumax Industries | 2027-03-19 | ~6M | pending | 22.9 | Q2/Q3 FY27 results and Bangalore facility commissioning progress, testing whether EBITDA margin holds double-digit levels net of the flagged one-off tooling-... |
+| Arrow Greentech | 2027-03-19 | ~6M | pending | 20.22 | Q2/Q3 FY27 results confirming whether Q1 FY27's rebound (+111% revenue, +151% PAT YoY) is a sustained new run-rate or a one-off order-timing spike |
 | Unimech Aerospace and Manufacturing Ltd | 2027-04-02 | ~7M | pending | 0 | First nuclear-order execution prints in H2FY27 + full-quarter Hobel contribution from Q2 + QIP completion / MPS sell-down clearing the overhang |
 | Dynamic Cables | 2027-04-03 | ~7M | pending | 64.57 | Greenfield trial production Sep 2026 -> commercial Q4 FY27 (revenue from Q4 FY27, 80-85% utilisation by end-FY28); quarterly prints sustaining ~30% growth vs... |
 | MTAR Technologies Ltd | 2027-04-03 | ~7M | pending | 0 | Fuel-cell Phase 2 capacity live (Oct 2026) then Phase 3 (Mar 2027); H2 FY27 nuclear execution ramp; Q2/Q3 FY27 prints confirming the +80% FY27 path |

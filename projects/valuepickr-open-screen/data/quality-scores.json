@@ -1,7 +1,7 @@
 {
   "method": "the user's stated screening framework (2026-09-04): growth + margins + ROCE + debt + capex + free cash flow + competitive advantage + management quality. This score covers the four legs (ROCE, debt, FCF, capex) that had no numeric home before. Formula in this script's docstring and scripts/QUALITY_SCORE_METHODOLOGY.md.",
-  "scored_count": 212,
-  "not_assessed_count": 674,
+  "scored_count": 215,
+  "not_assessed_count": 671,
   "ranked": [
     {
       "slug": "venus-remedies",
@@ -259,6 +259,32 @@
         "fcf_component": 20,
         "margin_component": 15,
         "capex_component": 15,
+        "raw": 87,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "siddhika-coating",
+      "name": "Siddhika Coating Limited- A Paint Company",
+      "quality_score": 87.0,
+      "conviction_score": 21.19,
+      "red_flag_tier": null,
+      "roce_pct": 31.9,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.8,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 70,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 25,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 20,
+        "margin_component": 15,
+        "capex_component": 7,
         "raw": 87,
         "red_flag_multiplier": 1.0
       }
@@ -1688,6 +1714,32 @@
       }
     },
     {
+      "slug": "arrow-greentech",
+      "name": "Arrow Greentech",
+      "quality_score": 61.0,
+      "conviction_score": 27.0,
+      "red_flag_tier": null,
+      "roce_pct": 30,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 0.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 45,
+      "margin_trend": "stable",
+      "capex_efficiency": "unclear",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 18,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 14,
+        "margin_component": 9,
+        "capex_component": 0,
+        "raw": 61,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "krm-ayurveda",
       "name": "KRM Ayurveda Ltd",
       "quality_score": 60.0,
@@ -2869,6 +2921,34 @@
         "roce_component": 17,
         "debt_component": 0,
         "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 15,
+        "raw": 47,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "lumax-industries",
+      "name": "Lumax Industries",
+      "quality_score": 47.0,
+      "conviction_score": 31.0,
+      "red_flag_tier": null,
+      "roce_pct": 18,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 2.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -15,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "neutral",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 13,
+        "debt_component": 4,
+        "debt_component_source": "net_debt_to_ebitda",
         "fcf_component": 0,
         "margin_component": 15,
         "capex_component": 15,
@@ -6123,12 +6203,6 @@
       "red_flag_tier": null
     },
     {
-      "slug": "siddhika-coating",
-      "name": "Siddhika Coating Limited- A Paint Company",
-      "conviction_score": 25.19,
-      "red_flag_tier": null
-    },
-    {
       "slug": "solar-industries-india",
       "name": "Solar Industries India Ltd",
       "conviction_score": 25.17,
@@ -6447,12 +6521,6 @@
       "red_flag_tier": null
     },
     {
-      "slug": "lumax-industries",
-      "name": "Lumax Industries",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
       "slug": "apar-industries",
       "name": "APAR Industries",
       "conviction_score": 25.0,
@@ -6563,12 +6631,6 @@
     {
       "slug": "hdfc-amc",
       "name": "HDFC AMC",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "arrow-greentech",
-      "name": "Arrow Greentech",
       "conviction_score": 25.0,
       "red_flag_tier": null
     },

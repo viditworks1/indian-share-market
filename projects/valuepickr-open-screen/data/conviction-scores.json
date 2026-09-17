@@ -5304,6 +5304,51 @@
     }
   },
   {
+    "slug": "lumax-industries",
+    "name": "Lumax Industries",
+    "conviction_score": 31.0,
+    "own_conviction": 31.0,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Small/Mid-cap (~Rs 5,350 Cr)",
+    "red_flag_tier": null,
+    "source": "external-lead",
+    "score_breakdown": {
+      "own_conviction": 31.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 6.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "positive",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
+      }
+    }
+  },
+  {
     "slug": "apcotex-industries-monopoly-in-synthetic-rubber",
     "name": "Apcotex Industries Ltd",
     "conviction_score": 30.81,
@@ -7290,6 +7335,51 @@
     }
   },
   {
+    "slug": "arrow-greentech",
+    "name": "Arrow Greentech",
+    "conviction_score": 27.0,
+    "own_conviction": 27.0,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Small-cap (~Rs 1,350-1,360 Cr)",
+    "red_flag_tier": null,
+    "source": "external-lead",
+    "score_breakdown": {
+      "own_conviction": 27.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 2.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "no-track-record",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "consistent"
+      }
+    }
+  },
+  {
     "slug": "freshara-agro-exports",
     "name": "Freshara Agro Exports Ltd",
     "conviction_score": 26.69,
@@ -7998,45 +8088,6 @@
     "thesis_fit": "neither",
     "quality_score": null,
     "market_cap_tier": "Mid-cap (~Rs 7,299 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 25.0,
-      "trusted_lift": 0.19,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.19,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.19,
-        "pos_raw": 0.19,
-        "pos_capped": 0.19,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 2,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": null
-    }
-  },
-  {
-    "slug": "siddhika-coating",
-    "name": "Siddhika Coating Limited- A Paint Company",
-    "conviction_score": 25.19,
-    "own_conviction": 25.0,
-    "trusted_lift": 0.19,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Micro-cap (~Rs 133 Cr)",
     "red_flag_tier": null,
     "source": null,
     "score_breakdown": {
@@ -10359,45 +10410,6 @@
     }
   },
   {
-    "slug": "lumax-industries",
-    "name": "Lumax Industries",
-    "conviction_score": 25.0,
-    "own_conviction": 25.0,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Small/Mid-cap (~Rs 5,700-5,750 Cr)",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 25.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "apar-industries",
     "name": "APAR Industries",
     "conviction_score": 25.0,
@@ -11109,45 +11121,6 @@
     "thesis_fit": "neither",
     "quality_score": null,
     "market_cap_tier": "Large-cap (~Rs 1,03,082 Cr)",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 25.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": null
-    }
-  },
-  {
-    "slug": "arrow-greentech",
-    "name": "Arrow Greentech",
-    "conviction_score": 25.0,
-    "own_conviction": 25.0,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Small-cap (~Rs 1,047-1,227 Cr)",
     "red_flag_tier": null,
     "source": "external-lead",
     "score_breakdown": {
@@ -12798,6 +12771,51 @@
       },
       "distinct_trusted_users": 0,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "siddhika-coating",
+    "name": "Siddhika Coating Limited- A Paint Company",
+    "conviction_score": 21.19,
+    "own_conviction": 21.0,
+    "trusted_lift": 0.19,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Micro-cap (~Rs 140 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 21.0,
+      "trusted_lift": 0.19,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": -4.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.19,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.19,
+        "pos_raw": 0.19,
+        "pos_capped": 0.19,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 2,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "concern",
+        "guidance_credibility": "no-track-record",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "consistent"
+      }
     }
   },
   {

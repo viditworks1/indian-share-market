@@ -1,9 +1,9 @@
 {
-  "generated": "2026-09-14",
+  "generated": "2026-09-17",
   "selection": "status=researched, no red flag, thesis_fit!=neither, conviction_score>=35, MISSING >=1 of ['market_expectation', 'quality_metrics', 'track_record']. Sorted by Confluence-100 membership, then conviction_score desc. deepdive-top100's light lane drains this, writing only the blocks named in each entry's `missing`; entries drop off once all three exist (here or a full deep pass).",
-  "total": 10,
-  "pending": 10,
-  "confluence100_pending": 7,
+  "total": 21,
+  "pending": 21,
+  "confluence100_pending": 21,
   "queue": [
     {
       "slug": "recode-studios",
@@ -42,26 +42,6 @@
       "rank": 2
     },
     {
-      "slug": "carysil",
-      "state_key": "carysil",
-      "name": "Carysil (earlier Acrysil)",
-      "data_file": "data/carysil.json",
-      "conviction_score": 35.83,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "market_cap_tier": "Small-cap (~Rs 3,300-3,400 Cr)",
-      "in_confluence100": true,
-      "missing": [
-        "market_expectation",
-        "quality_metrics",
-        "track_record"
-      ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 3
-    },
-    {
       "slug": "millworks-technologies",
       "state_key": "millworks-technologies",
       "name": "Millworks Technologies Ltd",
@@ -79,7 +59,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 4
+      "rank": 3
     },
     {
       "slug": "iifl-finance",
@@ -99,7 +79,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 5
+      "rank": 4
     },
     {
       "slug": "siddhika-coating",
@@ -119,7 +99,227 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
+      "rank": 5
+    },
+    {
+      "slug": "arrow-greentech",
+      "state_key": "arrow-greentech",
+      "name": "Arrow Greentech",
+      "data_file": "data/arrow-greentech.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Small-cap (~Rs 1,047-1,227 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
       "rank": 6
+    },
+    {
+      "slug": "astra-microwave-products",
+      "state_key": "astra-microwave-products",
+      "name": "Astra Microwave",
+      "data_file": "data/astra-microwave-products.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Mid-to-large-cap (~Rs 15,956 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 7
+    },
+    {
+      "slug": "ebgng",
+      "state_key": "ebgng",
+      "name": "EBGNG",
+      "data_file": "data/ebgng.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Small/mid-cap (~Rs 7,749 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 8
+    },
+    {
+      "slug": "golkunda-diamonds",
+      "state_key": "golkunda-diamonds",
+      "name": "Golkunda Diamond",
+      "data_file": "data/golkunda-diamonds.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Small-cap (~Rs 140-238 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 9
+    },
+    {
+      "slug": "lumax-industries",
+      "state_key": "lumax-industries",
+      "name": "Lumax Industries",
+      "data_file": "data/lumax-industries.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Small/Mid-cap (~Rs 5,700-5,750 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 10
+    },
+    {
+      "slug": "marksans-pharma",
+      "state_key": "marksans-pharma",
+      "name": "Marksans Pharma",
+      "data_file": "data/marksans-pharma.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Mid-cap (~Rs 14,973 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 11
+    },
+    {
+      "slug": "molbio",
+      "state_key": "molbio",
+      "name": "Molbio Diagnostics",
+      "data_file": "data/molbio.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Mid-cap (~Rs 12,900 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 12
+    },
+    {
+      "slug": "rossell-techsys",
+      "state_key": "rossell-techsys",
+      "name": "Rossell Techsys",
+      "data_file": "data/rossell-techsys.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Small-cap (~Rs 4,600 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 13
+    },
+    {
+      "slug": "sbcl",
+      "state_key": "sbcl",
+      "name": "SBCL",
+      "data_file": "data/sbcl.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Small/mid-cap (~Rs 6,400 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 14
+    },
+    {
+      "slug": "skipper",
+      "state_key": "skipper",
+      "name": "Skipper",
+      "data_file": "data/skipper.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Mid-cap (~Rs 6,091 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 15
+    },
+    {
+      "slug": "sunlite",
+      "state_key": "sunlite",
+      "name": "Sunlite",
+      "data_file": "data/sunlite.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Micro-cap (~Rs 741 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 16
     },
     {
       "slug": "til",
@@ -139,38 +339,18 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 7
+      "rank": 17
     },
     {
-      "slug": "rappid-valves",
-      "state_key": "rappid-valves",
-      "name": "Rappid Valves",
-      "data_file": "data/rappid-valves.json",
-      "conviction_score": 49.0,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Micro/small-cap (~Rs 166 Cr)",
-      "in_confluence100": false,
-      "missing": [
-        "market_expectation",
-        "quality_metrics",
-        "track_record"
-      ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 8
-    },
-    {
-      "slug": "eppelton",
-      "state_key": "eppelton",
-      "name": "Eppelton (EEPL)",
-      "data_file": "data/eppelton.json",
-      "conviction_score": 39.0,
+      "slug": "univastu-india",
+      "state_key": "univastu-india",
+      "name": "Univastu India",
+      "data_file": "data/univastu-india.json",
+      "conviction_score": 25.0,
       "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Micro-cap (~Rs 150-200 Cr)",
-      "in_confluence100": false,
+      "thesis_fit": "neither",
+      "market_cap_tier": "Small-cap (~Rs 611 Cr)",
+      "in_confluence100": true,
       "missing": [
         "market_expectation",
         "quality_metrics",
@@ -179,18 +359,18 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 9
+      "rank": 18
     },
     {
-      "slug": "garuda-construction",
-      "state_key": "garuda-construction",
-      "name": "Garuda Construction",
-      "data_file": "data/garuda-construction.json",
-      "conviction_score": 39.0,
+      "slug": "universal-cables",
+      "state_key": "universal-cables",
+      "name": "Universal Cables",
+      "data_file": "data/universal-cables.json",
+      "conviction_score": 25.0,
       "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap (~Rs 1,800-1,805 Cr)",
-      "in_confluence100": false,
+      "thesis_fit": "neither",
+      "market_cap_tier": "Mid-cap (~Rs 5,207 Cr)",
+      "in_confluence100": true,
       "missing": [
         "market_expectation",
         "quality_metrics",
@@ -199,7 +379,47 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 10
+      "rank": 19
+    },
+    {
+      "slug": "vadilal-industries",
+      "state_key": "vadilal-industries",
+      "name": "Vadilal Industries",
+      "data_file": "data/vadilal-industries.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Small-cap (~Rs 5,421 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 20
+    },
+    {
+      "slug": "vishnu-chemicals",
+      "state_key": "vishnu-chemicals",
+      "name": "Vishnu Chemicals",
+      "data_file": "data/vishnu-chemicals.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Mid-cap (~Rs 4,900 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 21
     }
   ]
 }

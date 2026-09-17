@@ -1,8 +1,8 @@
 {
-  "date_compiled": "2026-09-16",
+  "date_compiled": "2026-09-17",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
-  "scored_count": 230,
-  "not_assessed_count": 656,
+  "scored_count": 233,
+  "not_assessed_count": 653,
   "ranked": [
     {
       "slug": "deepak-fertilizers-and-petrochemicals",
@@ -2478,6 +2478,42 @@
       }
     },
     {
+      "slug": "lumax-industries",
+      "name": "Lumax Industries",
+      "expectation_gap_score": 22.9,
+      "conviction_score": 31.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 5,350 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "strong",
+      "catalyst_event": "Q2/Q3 FY27 results and Bangalore facility commissioning progress, testing whether EBITDA margin holds double-digit levels net of the flagged one-off tooling-profitability boost and progresses toward the 12-13% two-year target",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-17",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "bangalore facility commissioning timeline",
+        "customer concentration -- top-8 customers ~85% of revenue, mahindra+maruti roughly half"
+      ],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 1.0,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.727
+      }
+    },
+    {
       "slug": "arman-financial-services",
       "name": "Arman Financial Services Ltd",
       "expectation_gap_score": 22.59,
@@ -2652,6 +2688,39 @@
       }
     },
     {
+      "slug": "arrow-greentech",
+      "name": "Arrow Greentech",
+      "expectation_gap_score": 20.22,
+      "conviction_score": 27.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 1,350-1,360 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "monitor",
+      "catalyst_event": "Q2/Q3 FY27 results confirming whether Q1 FY27's rebound (+111% revenue, +151% PAT YoY) is a sustained new run-rate or a one-off order-timing spike",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-17",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.5,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 1.0,
+        "quality": 0.642
+      }
+    },
+    {
       "slug": "borosil-renewables",
       "name": "Borosil Renewables",
       "expectation_gap_score": 20.08,
@@ -2795,6 +2864,40 @@
         "timing_q": 0.75,
         "risk_q": 0.4,
         "quality": 0.589
+      }
+    },
+    {
+      "slug": "siddhika-coating",
+      "name": "Siddhika Coating Limited- A Paint Company",
+      "expectation_gap_score": 17.76,
+      "conviction_score": 21.19,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Micro-cap (~Rs 140 Cr)",
+      "gap_direction": "underestimated",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-17",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "peak-margin-risk",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 28.0,
+        "gap_frac": 0.7,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
       }
     },
     {
@@ -8250,13 +8353,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "siddhika-coating",
-      "name": "Siddhika Coating Limited- A Paint Company",
-      "conviction_score": 25.19,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "solar-industries-india",
       "name": "Solar Industries India Ltd",
       "conviction_score": 25.17,
@@ -8621,13 +8717,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "lumax-industries",
-      "name": "Lumax Industries",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "apar-industries",
       "name": "APAR Industries",
       "conviction_score": 25.0,
@@ -8756,13 +8845,6 @@
     {
       "slug": "hdfc-amc",
       "name": "HDFC AMC",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "arrow-greentech",
-      "name": "Arrow Greentech",
       "conviction_score": 25.0,
       "conviction": "Medium",
       "thesis_fit": "neither"
@@ -13333,6 +13415,28 @@
       "status_effective": "pending",
       "expectation_gap_score": 0,
       "conviction_score": 0
+    },
+    {
+      "slug": "lumax-industries",
+      "name": "Lumax Industries",
+      "event": "Q2/Q3 FY27 results and Bangalore facility commissioning progress, testing whether EBITDA margin holds double-digit levels net of the flagged one-off tooling-profitability boost and progresses toward the 12-13% two-year target",
+      "target_date": "2027-03-19",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 22.9,
+      "conviction_score": 31.0
+    },
+    {
+      "slug": "arrow-greentech",
+      "name": "Arrow Greentech",
+      "event": "Q2/Q3 FY27 results confirming whether Q1 FY27's rebound (+111% revenue, +151% PAT YoY) is a sustained new run-rate or a one-off order-timing spike",
+      "target_date": "2027-03-19",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 20.22,
+      "conviction_score": 27.0
     },
     {
       "slug": "unimech-aerospace-and-manufacturing-ltd",
