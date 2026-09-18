@@ -144,7 +144,7 @@ Generated: 2026-09-18
 | Varun Beverages Ltd | 2026-08-23 | 2026-09-22 | Low |
 | Transrail Lighting Ltd | 2026-08-23 | 2026-09-22 | Low-Medium |
 | SML Isuzu Ltd | 2026-08-23 | 2026-09-22 | Low-Medium |
-| Zinka Logistics Solutions Ltd (BlackBuck) | 2026-08-23 | 2026-09-22 | Low |
+| Zinka Logistics Solutions Ltd (BlackBuck) | 2026-08-23 | 2026-09-22 | Medium |
 | RR Kabel Ltd | 2026-08-23 | 2026-09-22 | Low |
 | EIH Ltd (Oberoi Group) | 2026-08-23 | 2026-09-22 | Low |
 | Sky Gold Ltd | 2026-08-23 | 2026-09-22 | Medium |
@@ -200,7 +200,7 @@ Generated: 2026-09-18
 | LT Foods Ltd | 2026-08-23 | 2026-09-22 | Low |
 | Amber Enterprises India Ltd | 2026-08-23 | 2026-09-22 | Low |
 | Vasa Denticity Ltd | 2026-08-23 | 2026-09-22 | Low |
-| Pix Transmissions Ltd | 2026-08-23 | 2026-09-22 | Low |
+| Pix Transmissions Ltd | 2026-08-23 | 2026-09-22 | Low-Medium |
 | J.G. Chemicals Ltd | 2026-08-23 | 2026-09-22 | Low |
 | Arvind SmartSpaces Ltd | 2026-08-23 | 2026-09-22 | Medium |
 | Suprajit Engineering Ltd | 2026-08-23 | 2026-09-22 | Medium-High |
@@ -561,7 +561,7 @@ Generated: 2026-09-18
 | Virtual Galaxy Infotech Ltd | 2026-09-03 | 2026-10-03 | Medium-High |
 | Netweb Technologies India Ltd | 2026-09-03 | 2026-10-03 | Low-Medium |
 | Hi-Tech Pipes Ltd | 2026-09-03 | 2026-10-03 | Low |
-| Bhadora Industries Ltd | 2026-09-03 | 2026-10-03 | Low-Medium |
+| Bhadora Industries Ltd | 2026-09-03 | 2026-10-03 | Low |
 | Sunteck Realty | 2026-09-04 | 2026-10-04 | Low-Medium |
 | Steelcast Ltd | 2026-09-04 | 2026-10-04 | Medium-High |
 | PTC Industries Ltd | 2026-09-04 | 2026-10-04 | Medium |
@@ -633,7 +633,7 @@ Generated: 2026-09-18
 | Purple Style Labs | 2026-09-05 | 2026-10-05 | Low |
 | Asian oilfields | 2026-09-07 | 2026-10-07 | Low-Medium |
 | Shaily Engineering Plastics Ltd | 2026-09-07 | 2026-10-07 | Low-Medium |
-| Pitti Engineering Ltd | 2026-09-07 | 2026-10-07 | Medium |
+| Pitti Engineering Ltd | 2026-09-07 | 2026-10-07 | Low-Medium |
 | Beezaasan Explotech | 2026-09-07 | 2026-10-07 | Low-Medium |
 | Jindal Saw | 2026-09-07 | 2026-10-07 | Low-Medium |
 | Andhra Sugar- A sweet chemical story | 2026-09-07 | 2026-10-07 | Low-Medium |
@@ -797,7 +797,7 @@ Generated: 2026-09-18
 | Colab Platform | 2026-09-15 | 2026-10-15 | Low |
 | Cords Cable | 2026-09-15 | 2026-10-15 | Low-Medium |
 | HCP Plastene | 2026-09-15 | 2026-10-15 | Low-Medium |
-| Golkunda Diamond | 2026-09-15 | 2026-10-15 | Medium |
+| Golkunda Diamond | 2026-09-15 | 2026-10-15 | Low-Medium |
 | GNRL Ltd | 2026-09-15 | 2026-10-15 | Low |
 | Bafna Pharma | 2026-09-15 | 2026-10-15 | Low |
 | Lelavoir Ltd | 2026-09-15 | 2026-10-15 | Low |
@@ -832,7 +832,7 @@ Generated: 2026-09-18
 | Omax Autos | 2026-09-16 | 2026-10-16 | Low |
 | Fineotex Chemical | 2026-09-16 | 2026-10-16 | Low |
 | Solara Active Pharma Sciences | 2026-09-16 | 2026-10-16 | Low |
-| Skipper | 2026-09-16 | 2026-10-16 | Medium |
+| Skipper | 2026-09-16 | 2026-10-16 | Medium-High |
 | Rane (Madras) [RML] | 2026-09-16 | 2026-10-16 | Low |
 | Icemake Refrigeration | 2026-09-16 | 2026-10-16 | Low |
 | Omaxe Limited | 2026-09-16 | 2026-10-16 | Low |
@@ -844,7 +844,7 @@ Generated: 2026-09-18
 | SDHI | 2026-09-16 | 2026-10-16 | Low |
 | Emcure Pharma | 2026-09-16 | 2026-10-16 | Low-Medium |
 | Granules India | 2026-09-16 | 2026-10-16 | Low-Medium |
-| Marksans Pharma | 2026-09-16 | 2026-10-16 | Medium |
+| Marksans Pharma | 2026-09-16 | 2026-10-16 | Medium-High |
 | IREDA | 2026-09-16 | 2026-10-16 | Low-Medium |
 | HUDCO | 2026-09-16 | 2026-10-16 | Low-Medium |
 | Engineers India (EIL) | 2026-09-16 | 2026-10-16 | Medium-High |

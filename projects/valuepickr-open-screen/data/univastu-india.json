@@ -1,83 +1,220 @@
 {
   "name": "Univastu India Ltd",
-  "tagline": "Small-cap construction/engineering (EPC-type) company with decent growth (~27%/yr) and a cheap P/E (~12x), but low-moat EPC economics and sharply worsening debtor days (58 -> 121) temper the case.",
-  "business_overview": "Univastu India Ltd operates in the construction & engineering (EPC-type) space. Revenues have grown at an average ~26.8%/year, with ROE ~19.3% and net margins ~7.4%, but debtor days have roughly doubled (58.4 -> 121), a working-capital caution flag for a contracting-type business. Seeded 2026-09-13 via untrusted X triage (@rishithegreat41, high conviction claimed).",
+  "tagline": "Small-cap metro-rail EPC/systems contractor (sub-contractor/JV partner to L&T and IRCON) with an accelerating, order-book-confirmed growth ramp (Rs1,021cr+ order book, ~4x TTM revenue) and cheap-looking 18x P/E, but sharply worsening receivables and a working-capital-funded growth model temper the case.",
+  "business_overview": "Univastu India Ltd operates in the construction & engineering (EPC-type) space, specialising in metro-rail civil and systems work as a sub-contractor/JV partner to majors (L&T, IRCON), alongside sports/aquatic facilities, buildings and structural projects, PWD/CIDCO Class-1A certified. Revenue has grown at a ~37% 5-year CAGR (Rs59cr FY22 -> Rs243cr FY26) and is now accelerating sharply (+252% YoY in Q1 FY27) as a large metro order book begins executing. Diversifying via MOU/JV structures into data-centres (URBS Systems AB), wireless BMS/IoT (Univastu NUOS JV) and Olympic-grade aquatics (Myrtha Pools exclusive partnership). Seeded 2026-09-13 via untrusted X triage (@rishithegreat41, high conviction claimed).",
   "fundamentals_table": [
-    ["Market cap", "~Rs 611 Cr"],
+    ["Market cap", "~Rs 548-611 Cr (price moved ~145->152 between the seed pass and this pass; share-count basis varies slightly across sources)"],
     ["52-week range", "~Rs 56 - Rs 179"],
-    ["ROE", "~19.3%"],
-    ["P/E", "~12.0x"],
-    ["Revenue growth", "~26.8%/year average"],
-    ["Net margin", "~7.4%"],
-    ["Working capital", "Debtor days worsened from ~58.4 to ~121"]
+    ["ROE / ROCE", "~25.4% / ~30.0% (screener, latest) - confirms and slightly exceeds the prior pass's reconciled 17-30% FY21-25 range"],
+    ["P/E", "~18.0x (screener, price ~Rs152) - up from ~12x cited at the original seed, reflecting both price appreciation and a large EPS jump"],
+    ["Revenue growth", "FY22-26 annual growth 47%/39%/41%/42% (Rs59cr->Rs243cr, ~37% 5-yr CAGR); Q1 FY27 revenue +252% YoY (Rs104cr vs Rs29cr) as the metro order book began executing"],
+    ["Net margin", "~9.6% (Q1 FY27), ~10.7% (FY26 annual) - broadly stable-to-improving vs the ~7.4% average originally cited, not a clean acceleration"],
+    ["Working capital", "Debtor days worsened sharply to ~121 days (FY26-end) from a much lower base (15-58 days depending on source) - a serious, confirmed working-capital caution"],
+    ["Order book", "Rs1,021cr+ unexecuted, ~4.2x FY26 revenue - includes L&T Mumbai Metro Line 4/4A (Rs392cr), IRCON Mumbai Metro (Rs485.67cr, design+supply+install+5yr maintenance), Pune Metro (Rs229.97cr, 35% share = Rs80.49cr)"]
   ],
-  "fundamentals_narrative": "The growth (~27%/yr) and valuation (~12x P/E, ~19% ROE) combination looks statistically cheap for the growth rate. But construction/EPC-type businesses are typically low-moat and working-capital intensive, and the near-doubling of debtor days (58 -> 121) is a real caution: it suggests either slower client payment cycles, revenue recognition running ahead of cash collection, or increasing exposure to weaker-paying clients - any of which can turn a 'cheap growth' story into a cash-flow problem. Not a red flag on its own (no going-concern, fraud, or promoter-pledge signal found), but enough to keep this from a straightforward growth-compounder label.",
-  "technical_read": "Not pulled in detail - fundamentals/thesis-driven verdict; trades well off its 52-week high (~Rs 179 vs current levels), wide range vs the ~Rs 56 low.",
-  "sentiment_summary": "No dedicated ValuePickr thread found for Univastu India. Search returned only an incidental 2017-era mention in a general watchlist thread ('A super simple way to find good companies', topic_id 8809) with a stale price quote, and an unrelated current thread (Vivid Electromech) - neither is a genuine coverage match. No deep-dive performed; web/filings-based write-up only.",
+  "fundamentals_narrative": "This pass materially upgrades the original 'generic, low-moat EPC' framing. Univastu is a qualified sub-contractor/JV partner to L&T and IRCON on metro-rail civil and systems work (not plain civil construction), backed by a confirmed Rs1,021cr+ order book (~4.2x FY26 revenue) that is now visibly executing - Q1 FY27 revenue grew 252% YoY. The company is also diversifying via named MOU/JV structures into data-centres (URBS Systems AB, Sweden), wireless BMS/IoT (Univastu NUOS JV) and Olympic-grade aquatics (Myrtha Pools, with one Rs9cr order already booked) - real optionality, though pre-revenue at scale. Set against this, the working-capital picture has deteriorated sharply: debtor days have risen to ~121 days, the board tripled the borrowing limit to ~Rs200cr to fund working capital, and a Rs16cr preferential warrant issue was needed to bring in fresh capital - though notably the promoters themselves (Dr./Mrs. Khandagale) are among the largest warrant allottees, i.e. infusing capital rather than exiting. Net-net: a genuinely stronger, more differentiated growth story than the original pass captured, but one now running hot on working capital that needs to be watched closely.",
+  "technical_read": "Trades well off its 52-week high (~Rs179) at a current price of ~Rs152, above the ~Rs56 low; not pulled in further technical detail this pass.",
+  "sentiment_summary": "No dedicated ValuePickr thread found for Univastu India. Search returned only an incidental 2017-era mention in a general watchlist thread ('A super simple way to find good companies', topic_id 8809) with a stale price quote, and an unrelated current thread (Vivid Electromech) - neither is a genuine coverage match. No deep-read forum thread exists; write-up remains web/filings-based.",
   "community_signal": "None found - no trusted or forum conviction signal on this name.",
   "trusted_signals": [],
-  "bse_notes": "No SEBI/fraud/going-concern flags found this pass. The worsening debtor-days trend is a working-capital caution, not a red-flag-tier issue.",
+  "bse_notes": "No SEBI/fraud/going-concern flags found this pass. Annual SAST Reg. 31(4) disclosure (Apr-2026) confirms nil promoter share encumbrance for FY25-26 - no pledge. Board approved a preferential issue of 18,39,339 fully convertible warrants at Rs87 each (~Rs16cr) to 5 allottees (promoters Dr. Pradeep Khandagale and Mrs. Rajashri Khandagale, plus 3 outside investors), approved at an EGM on 18-Jul-2026, alongside tripling the company's borrowing limit to ~Rs200cr - both aimed at funding working capital for the metro order-book ramp. The worsening debtor-days trend is a real working-capital caution, not a red-flag-tier issue on its own.",
   "bull_case": [
-    "Revenue growing ~27%/year on average - a real growth business, not a stagnant EPC name",
-    "Statistically cheap for the growth rate: ~12x P/E against ~19.3% ROE and ~27% growth",
-    "Small market cap (~Rs 611 Cr) leaves room to re-rate if growth and working capital both hold up"
+    "Confirmed, commercially-evidenced order book of Rs1,021cr+ (~4.2x FY26 revenue), including marquee contracts from L&T (Mumbai Metro Line 4/4A, Rs392cr) and IRCON (Mumbai Metro, Rs485.67cr, design+supply+install+5yr maintenance) - not generic small-town civil work but qualified metro-rail systems sub-contracting",
+    "Revenue growth has accelerated sharply and is now order-book-confirmed: Q1 FY27 revenue +252% YoY (Rs104cr vs Rs29cr), off an already-strong ~37% 5-yr CAGR",
+    "Statistically inexpensive for the growth rate: ~18x P/E against ~30% ROCE and confirmed hyper-growth quarters",
+    "Real diversification optionality via named partnerships: URBS Systems AB (data-centres), Univastu NUOS JV (wireless BMS/IoT), and an exclusive Myrtha Pools partnership (one Rs9cr order already booked)",
+    "Promoters (Dr./Mrs. Khandagale) are themselves among the largest allottees in the Rs16cr preferential warrant issue - infusing capital rather than exiting, despite the headline promoter-holding decline"
   ],
   "bear_case": [
-    "Debtor days have roughly doubled (58.4 -> 121) - a real working-capital deterioration signal for a contracting-type business",
-    "EPC/construction economics are typically low-moat and competitively bid",
-    "No forum or trusted conviction signal found to corroborate the thesis",
-    "No ROCE figure confirmed this pass to cross-check capital efficiency"
+    "Debtor days have risen sharply to ~121 days (FY26-end) from a much lower base - a serious, confirmed working-capital deterioration that forced the board to triple the borrowing limit (to ~Rs200cr) and raise a Rs16cr warrant issue just to fund the growth ramp",
+    "Promoter holding has fallen over several consecutive quarters (71.20% Mar-25 -> 67.46% Mar/Jun-26 -> 64.24% Jul-26) - substantially explained by the warrant-dilution math (promoters are participating, not selling), but the multi-quarter direction is real",
+    "Growth is heavily order-book/large-client-dependent (L&T, IRCON) - a single client relationship going cold, or execution slippage on any one marquee contract, is a real single-point-of-failure risk for a company this small",
+    "New-vertical bets (data-centres, BMS/IoT, aquatics) are still MOU/JV-stage with negligible revenue to date - real optionality, but unproven at any scale",
+    "No dividend paid despite consistent profitability (0% payout) and no ValuePickr thread or trusted conviction signal to corroborate the thesis"
   ],
-  "market_cap_tier": "Small-cap (~Rs 611 Cr)",
-  "thesis_fit": "neither",
-  "verdict_headline": "Cheap-looking (~12x P/E) construction/engineering grower (~27%/yr, ~19% ROE), but low EPC moat and sharply worsening debtor days (58->121) keep this at 'neither' rather than a growth-compounder label.",
+  "market_cap_tier": "Small-cap (~Rs 550-610 Cr)",
+  "thesis_fit": "10x-in-2-3-years",
+  "conviction": "Medium",
+  "verdict_headline": "Upgraded this pass: a confirmed, order-book-backed metro-rail EPC/systems contractor (L&T + IRCON sub-contractor, Rs1,021cr+ order book, accelerating growth) with real diversification optionality - four_box now clears 3.0 and thesis_fit moves to '10x-in-2-3-years' at Medium conviction, capped by a genuine and severe working-capital deterioration (debtor days to ~121) that must resolve for the thesis to hold.",
   "verdict_reasoning": [
-    "four_box score 2.5 (tailwind yes - infra/construction capex cycle; tam weak - growth is real but sector-generic; moat no - EPC/construction is low-differentiation, competitively bid; valuation yes - ~12x P/E is cheap for ~27% growth) falls in the 2.0-2.5 band, which defaults to 'neither' absent an explicit exception",
-    "No exception written: the doubling of debtor days (58->121) is exactly the kind of quality caution that argues against overriding the default here",
-    "No red flag found (not AVOID/EXCLUDE/HIGH CAUTION tier), so this is a valuation/quality judgment call, not a filter",
-    "No dedicated ValuePickr thread resolved (only stale/incidental mentions found); topic_id remains null"
+    "four_box re-scored 3.5 (up from 2.5): tailwind yes - metro-rail urban-infra capex plus an emerging India data-centre buildout, both structural multi-year drivers, now backed by named contracts rather than a generic sector claim; tam upgraded to yes - the Rs1,021cr order book alone is ~1.9x current market cap and ~4.2x TTM revenue, and the metro-rail pipeline spans multiple Indian cities; moat upgraded to weak (from no) - PWD/CIDCO Class-1A pre-qualification plus a real, repeat sub-contractor/JV relationship with L&T and IRCON is a genuine (if narrow) qualification barrier, though still ultimately competitively tendered; valuation stays yes - ~18x P/E for confirmed 250%+ YoY quarterly growth and 30% ROCE remains statistically inexpensive.",
+    "Score >=3.0 permits '10x-in-2-3-years'; applied via the small/mid-cap live-inflection rule (trailing average was already solid at ~37-42%/yr, and the current-quarter inflection is real, catalyst-dated, and evidenced by named, signed contracts from blue-chip clients - not an 'unconfirmed' rumour) - but conviction is capped at Medium, not higher, given the severity of the working-capital deterioration (debtor days to ~121, borrowing limit tripled, a fresh warrant raise) that the growth is currently being funded through.",
+    "The multi-quarter promoter-holding decline (71.20%->64.24%) was investigated and found to be substantially a warrant-dilution artifact - promoters Dr./Mrs. Khandagale are themselves the largest allottees in the Rs16cr preferential warrant issue, i.e. infusing capital, not exiting - so this was NOT treated as a HIGH CAUTION promoter-holding-collapse signal, but is flagged for continued monitoring given the multi-quarter direction is still real.",
+    "No red flag found (not AVOID/EXCLUDE/HIGH CAUTION tier) - the working-capital strain is a genuine quality caution, not a forensic red flag, given no pledge, no fraud/going-concern signal, and promoter capital participation in the warrant raise.",
+    "No dedicated ValuePickr thread resolved (only stale/incidental mentions found); topic_id remains null. No trusted-signal corroboration this pass."
   ],
   "red_flag_tier": null,
   "red_flag_reason": null,
   "four_box": {
     "tailwind": "yes",
-    "tam": "weak",
-    "moat": "no",
+    "tam": "yes",
+    "moat": "weak",
     "valuation": "yes",
-    "score": 2.5,
-    "note": "Infra/construction capex tailwind and cheap valuation (~12x P/E) for ~27% growth, but EPC-type moat is weak/absent and worsening debtor days (58->121) argue against an exception at this score band."
+    "score": 3.5,
+    "note": "Metro-rail/urban-infra capex tailwind is now order-book-confirmed (L&T, IRCON contracts); TAM is large relative to the tiny market cap (order book alone ~1.9x mcap); moat upgraded to weak on real PWD/CIDCO Class-1A pre-qualification plus repeat blue-chip sub-contractor relationships; valuation stays cheap-looking (~18x P/E) for the confirmed growth rate. Severe working-capital deterioration is the main check on how far this should be pushed and is reflected in conviction, not the four_box score."
   },
-  "value_chain": null,
+  "value_chain": {
+    "theme": "Urban metro-rail infrastructure EPC/systems integration, with emerging optionality in India data-centres and specialised building systems",
+    "position": "Qualified sub-contractor/JV partner to majors (L&T, IRCON) on metro civil and systems work; PWD/CIDCO Class-1A pre-qualified; diversifying via MOU/JV into data-centres, BMS/IoT and Olympic-grade aquatics",
+    "bottleneck_node": "Execution capacity/manpower to scale roughly 4x off a small base without quality or schedule slippage on marquee-client contracts",
+    "supply_side_status": "balanced",
+    "adjacent_peers": ["ITD Cementation India", "J Kumar Infraprojects", "NCC Limited", "Ahluwalia Contracts"],
+    "note": "Being a qualified sub-contractor/JV partner to L&T and IRCON on metro-systems work is a real, if narrow, barrier versus generic civil EPC (limited pre-qualified players); the data-centre/BMS/aquatics diversification is genuine optionality but not yet revenue-material."
+  },
+  "earnings_quality": {
+    "margin_driver": "mixed",
+    "drivers": ["Mix shift toward higher-value metro-systems scope (e.g. IRCON's design+supply+install+maintenance contract) versus plain civil", "Operating leverage as revenue scales off a small base", "New-vertical optionality (data-centre, BMS) not yet contributing"],
+    "peak_margin_risk": false,
+    "normalised_note": "Net margin has been broadly stable-to-improving on an annual basis (8.5% FY22 -> 10.7% FY26); Q1 FY27's ~9.6% sits within that range, not clearly above a sustainable level. One year of hyper-growth data is not enough to confirm whether the recent mix is the new normal or temporary."
+  },
+  "growth_trajectory": {
+    "yoy_trend": "accelerating",
+    "last_quarters_note": "Annual revenue growth FY22-26: +47%, +39%, +41%, +42% (Rs59cr -> Rs243cr), followed by a sharp step-up to +252% YoY in Q1 FY27 (Rs104cr vs Rs29cr) as the L&T/IRCON metro order book began executing.",
+    "reverse_pe_note": "~18x trailing P/E requires only modest further growth to look fair against an already-confirmed +250% YoY quarter and a ~4.2x-revenue order book; the multiple looks undemanding if execution holds, but would look expensive in hindsight if growth reverts sharply toward the ~40% historical average as the order-book base effect fades."
+  },
+  "management_quality": {
+    "capital_allocation": "Growth is being funded via a tripled borrowing limit (to ~Rs200cr) and a promoter-participated Rs16cr preferential warrant issue rather than pure dilution to outside investors; reinvestment has coincided with ROCE rising to ~30%. The data-centre/BMS/aquatics diversification moves are adjacent to the core EPC/infrastructure capability, not an unrelated diversification.",
+    "capital_allocation_track_record": "disciplined",
+    "rpt_trend": "unclear",
+    "guidance_credibility": "no-track-record",
+    "shareholder_returns": "none",
+    "capability_ladder_note": "Explicit, named move up the value chain: from plain civil EPC to metro-rail systems/signalling-type scope (IRCON's design+supply+install+5yr maintenance contract) and into new verticals (data-centres, BMS/IoT, Olympic-grade aquatics) via MOU/JV structures.",
+    "assessment": "positive"
+  },
   "quality_metrics": {
     "roce_pct": 30,
     "roce_trend": "improving",
-    "net_debt_to_ebitda": 0.87,
+    "net_debt_to_ebitda": 0.72,
     "interest_coverage": null,
     "fcf_conversion_pct": 5,
     "margin_trend": "stable",
     "capex_efficiency": "unclear",
     "assessment": "positive",
-    "note": "Materially upgrades the original 'no ROCE figure confirmed' framing: ROCE has been consistently strong and improving (17-30% across FY21-25). FCF conversion is volatile and confirms the debtor-days concern already flagged - operating cash flow was actually negative in FY25 (-Rs 6 Cr) before recovering to +Rs 12 Cr in FY26; trailing conversion is weak (~5% of EBITDA average) despite the strong ROCE."
+    "note": "Materially upgrades the original 'no ROCE figure confirmed' framing: ROCE has been consistently strong and improving (17-30% across FY21-25), and the latest screener figure (30.0%) confirms the top end of that range holding into FY26. FCF conversion remains volatile and confirms the debtor-days concern already flagged - operating cash flow was negative in FY25 (-Rs6cr) before recovering to +Rs12cr in FY26; trailing conversion is weak (~5% of EBITDA average) despite the strong ROCE. Gross borrowings are still low in absolute terms (~Rs34cr, Mar-2026) but the board tripled the borrowing limit to ~Rs200cr this pass specifically to fund working capital as debtor days rose to ~121 - a genuine, fresh signal that the growth is currently outrunning cash generation."
   },
   "track_record": {
-    "years_checked": 9,
-    "years_cleared": 7,
-    "note": "FY17, FY18, FY19, FY22, FY23, FY24 and FY25 each cleared BOTH >=10% revenue growth AND >=15% ROCE (only FY20 and FY21 - a COVID-disrupted year - did not). A genuinely strong Coffee-Can record that significantly upgrades confidence versus the original write-up's 'moat weak, no ROCE confirmed' framing."
+    "years_checked": 10,
+    "years_cleared": 8,
+    "note": "FY17, FY18, FY19, FY22, FY23, FY24, FY25 and FY26 each cleared BOTH >=10% revenue growth AND >=15% ROCE (only FY20 and FY21 - COVID-disrupted years - did not); FY26 (confirmed this pass: +42% growth, ROCE 30%) extends the streak. An exceptionally strong Coffee-Can record for a small-cap."
+  },
+  "shareholding_pattern": {
+    "promoter_pct": 64.24,
+    "promoter_pct_trend": "falling",
+    "pledge_pct": 0,
+    "pledge_pct_trend": "stable",
+    "fii_dii_pct": null,
+    "fii_dii_pct_trend": "unclear",
+    "quarters_checked": ["Mar-2025", "Mar/Jun-2026", "Jul-2026 (post-EGM interim)"],
+    "concurrent_red_flag": false,
+    "note": "Promoter holding declined from 71.20% (Mar-25) to 64.24% (Jul-26), but this substantially reflects dilution from a Rs16cr preferential warrant issue in which the promoter couple (Dr./Mrs. Khandagale) are themselves the largest allottees alongside 3 outside investors - i.e. promoters are infusing fresh capital, not exiting; post-full-conversion promoter stake is projected to recover to ~65.39%. No pledge in any period disclosed (SAST filing confirms nil encumbrance FY25-26). Read as capital-raise dilution rather than a promoter-exit signal, though the multi-quarter direction bears watching. FII/DII split not sourced this pass."
+  },
+  "working_capital": {
+    "inventory_days": null,
+    "receivable_days": 121,
+    "payable_days": null,
+    "cash_conversion_cycle": null,
+    "trend_3y": "elongating",
+    "sector_relative": "looser-than-sector",
+    "note": "Debtor days worsened sharply to ~121 days (FY26-end) from a much lower base (sources vary: 15-58 days depending on methodology/period). Screener also flags an extreme negative cash-conversion-cycle figure (-631 days) that is very likely distorted by the scale of the recent revenue jump rather than a literal, meaningful number - not used here. Paired with the company's own ~40-50% growth guidance, an elongating collection cycle is exactly the kind of growth-funded-by-working-capital pattern that can turn a strong P&L story into a cash-flow problem if it isn't arrested; the tripled borrowing limit and warrant raise are direct evidence management is already responding to this."
+  },
+  "sector_kpis": [
+    {"metric": "Order book / TTM revenue", "value": "~4.2x (Rs1,021cr+ / ~Rs243cr FY26 revenue)", "trend": "improving", "note": "up sharply following the L&T (Jan-26) and IRCON (Feb-26) metro wins"},
+    {"metric": "Revenue growth (YoY)", "value": "+252% in Q1 FY27", "trend": "improving", "note": "off a small base, as order-book execution ramps"},
+    {"metric": "Debtor days", "value": "~121 days (FY26-end), up from a much lower base", "trend": "declining", "note": "the key operational risk metric to watch each quarter"},
+    {"metric": "New-vertical order contribution (data-centre/BMS/aquatics)", "value": "Minimal to date - one Rs9cr Myrtha Pools order booked; URBS data-centre MOU and Univastu NUOS BMS JV both pre-revenue", "trend": "unclear", "note": "genuine optionality, not yet material"}
+  ],
+  "scenario_analysis": {
+    "bull": {"revenue_cagr_fy26_28_pct": 55, "fy28_margin_pct": 11.5, "fy28_eps": 16.4, "exit_multiple": 26, "implied_price": 426, "pct_vs_cmp": 180},
+    "base": {"revenue_cagr_fy26_28_pct": 40, "fy28_margin_pct": 10.0, "fy28_eps": 13.4, "exit_multiple": 20, "implied_price": 268, "pct_vs_cmp": 76},
+    "bear": {"revenue_cagr_fy26_28_pct": 20, "fy28_margin_pct": 8.0, "fy28_eps": 9.8, "exit_multiple": 14, "implied_price": 137, "pct_vs_cmp": -10},
+    "closest_to": "bear",
+    "note": "Base case takes management's own ~40% organic-CAGR guidance at face value with margin holding near the FY26 level; bull adds a contribution from the data-centre/BMS/aquatics diversification bets; bear assumes the debtor-days/cash-conversion strain forces a working-capital-driven growth slowdown or order-book execution stalls. Current price (~Rs152) sits numerically closest to the bear scenario despite the strong reported growth - consistent with the market still discounting execution/cash-flow risk, which supports the 'underestimated' read in market_expectation, tempered by the real working-capital risk."
   },
   "market_expectation": {
     "as_of": "2026-09-18",
-    "price": 145,
-    "current_pe": 17.2,
+    "price": 152,
+    "current_pe": 18.0,
     "current_ev_ebitda": null,
     "valuation_tool": "P/E",
-    "implied_growth_cagr": "~17.2x trailing P/E against a confirmed 7/9-year Coffee-Can record and ~27%/yr average growth looks inexpensive if the working-capital volatility doesn't worsen",
-    "our_fy27_estimate": "Revenue growth likely continues in the 25-40% range per the recent trend if the infra/construction order pipeline holds; the debtor-days trend is the key risk to watch, not growth or returns",
-    "our_fy28_estimate": "Not estimable with confidence - no concall/guidance reviewed this pass",
+    "implied_growth_cagr": "~18x trailing P/E against a confirmed +252% YoY quarter and a ~4.2x-revenue order book requires only modest further growth to look fair; the market appears to be pricing meaningfully less than management's own ~40-50% guidance",
+    "our_fy27_estimate": "Revenue growth likely continues in the 30-50%+ range as the L&T/IRCON metro order book executes, assuming the debtor-days/working-capital strain doesn't force a slowdown; the working-capital trend is the key risk to watch, not growth or returns",
+    "our_fy28_estimate": "Continued order-book execution plus a first material contribution from the data-centre/BMS/aquatics diversification bets, if any of those convert from MOU/JV stage to signed, revenue-generating projects",
     "gap_direction": "underestimated",
     "gap_type": "volume",
     "gap_magnitude_pct": null,
-    "gap_basis": "A genuinely strong, now-confirmed 7/9-year Coffee-Can consistency record (17-30% ROCE) at just ~17x P/E looks underestimated by the market relative to the fundamentals, tempered by the real working-capital caution (debtor days 58->121)",
-    "evidence_quality": "moderate",
+    "gap_basis": "A confirmed order book of ~4.2x TTM revenue and a genuinely strong, now-extended 8/10-year Coffee-Can consistency record, at just ~18x P/E, looks underestimated by the market relative to the fundamentals - tempered by the real, confirmed working-capital deterioration (debtor days to ~121) that could force a slower, more cash-constrained execution path than the headline order book implies",
+    "evidence_quality": "strong",
     "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "catalyst": {
+    "event": "Execution ramp of the Rs1,021cr+ order book (L&T Metro Line 4/4A, IRCON Mumbai Metro, Pune Metro) converting to revenue over FY27-28, plus a first material revenue contribution from the URBS data-centre or Univastu NUOS BMS verticals",
+    "expected_window_months": 12,
+    "window_start": "2026-09-18",
+    "evidence_quality": "high",
+    "is_dated": true,
+    "status": "pending"
+  },
+  "commitments": [
+    {"area": "orders", "text": "Rs1,021cr+ unexecuted order book including L&T Mumbai Metro Line 4/4A (Rs392cr) and IRCON Mumbai Metro (Rs485.67cr, design+supply+install+5yr maintenance)", "specifics": "L&T MMRDA order Jan-2026; IRCON order Feb-2026; Pune Metro Rs229.97cr (35% share = Rs80.49cr)", "timeline_bucket": "FY28", "quality_stage": "commercial", "source": "BSE order-win filings, Jan-Feb 2026", "dependency": "on-schedule execution and subcontractor/JV coordination with L&T/IRCON", "single_point_of_failure": "Execution capacity to scale roughly 4x the revenue base without quality or timeline slippage on marquee-client contracts", "thesis_critical": true},
+    {"area": "growth", "text": "Management guides ~40% organic revenue CAGR, potentially 50%+ with new verticals", "specifics": "Per FY26 concall commentary", "timeline_bucket": "FY28", "quality_stage": "expectation", "source": "Q4 FY26 concall", "dependency": "order-book conversion plus new verticals materialising", "single_point_of_failure": "", "thesis_critical": true},
+    {"area": "new_business", "text": "MOU with URBS Systems AB (Sweden) to develop AI/HPC-ready hyperscale/edge data-centres in Maharashtra", "specifics": "Univastu is the local project-development partner; MOU stage only, no signed project or revenue yet", "timeline_bucket": "beyond", "quality_stage": "expectation", "source": "Jan-2026 exchange filing / press coverage", "dependency": "the MOU converting into an actual signed project", "single_point_of_failure": "Single MOU partner (URBS); no data-centre project confirmed yet", "thesis_critical": false},
+    {"area": "new_business", "text": "JV 'Univastu NUOS' for wireless BMS/IoT; exclusive India-side partnership with Myrtha Pools for Olympic-grade aquatic projects", "specifics": "First Myrtha-related order already booked: Rs9cr Sports Authority of Gujarat pool contract", "timeline_bucket": "FY27", "quality_stage": "commercial", "source": "Jan-2026 filings / press coverage", "dependency": "scaling beyond pilot-sized contracts", "single_point_of_failure": "", "thesis_critical": false},
+    {"area": "balance_sheet", "text": "Rs16cr preferential warrant issue (promoters + 3 outside investors) plus a tripled borrowing limit (to ~Rs200cr) for working capital", "specifics": "18,39,339 warrants at Rs87 each; promoters Dr. Pradeep Khandagale and Mrs. Rajashri Khandagale among the 5 allottees; approved at EGM 18-Jul-2026", "timeline_bucket": "6M", "quality_stage": "action", "source": "Jul-2026 EGM filing", "dependency": "successful warrant conversion and serviceable debt as the company scales", "single_point_of_failure": "", "thesis_critical": true}
+  ],
+  "earnings_chain": {
+    "chain": ["Order book (Rs1,021cr+, ~4.2x TTM revenue)", "Execution ramp on L&T/IRCON metro contracts", "Revenue growth (accelerating, +252% YoY Q1 FY27)", "Working-capital funding (warrants plus expanded borrowing limit)", "EBITDA/PAT scaling with margin near mid-teens to high-single-digits", "PAT (FY26 +63% YoY, ROCE 30%)"],
+    "bottleneck_link": "Working-capital funding and collections (debtor days risen to ~121) keeping pace with the revenue ramp",
+    "operating_leverage": "yes - PAT has grown roughly in line with or faster than revenue through the ramp (FY26 net margin 10.7% vs FY22 8.5%), though the working-capital funding of that growth is the real constraint to watch",
+    "evidenced_links": ["Order book", "Execution ramp", "Revenue growth", "PAT growth"],
+    "assumed_links": ["Working-capital funding staying sufficient", "New-vertical (data-centre/BMS) contribution"]
+  },
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-18",
+    "sources_reviewed": [
+      "Q1 FY27 results coverage (indmoney, business-standard, and other financial news aggregators)",
+      "screener.in company page (consolidated financials, ratios, shareholding pattern)",
+      "BSE/NSE order-win filing coverage (L&T Jan-2026, IRCON Feb-2026, Pune Metro, Sant Dnyaneshwar Garden, Myrtha Pools)",
+      "Shareholding-pattern and pledge-disclosure coverage (SAST Reg. 31(4) filing, trendlyne)",
+      "Preferential warrant-issue / EGM coverage (Jul-2026)",
+      "URBS Systems AB MOU and Univastu NUOS JV press coverage"
+    ],
+    "annual_report_findings": [
+      "Revenue FY22-26: Rs59cr, Rs87cr, Rs121cr, Rs171cr, Rs243cr (~37% 5-yr CAGR); PAT FY22-26: Rs5cr, Rs7cr, Rs10cr, Rs16cr, Rs26cr",
+      "ROCE has run 17-30% across FY21-26 (confirmed this pass at the top end, 30.0% latest); net margin stable-to-improving on an annual basis (8.5% FY22 -> 10.7% FY26)",
+      "Gross borrowings remain low in absolute terms (~Rs34cr, Mar-2026), but the board tripled the company's borrowing limit to ~Rs200cr this year specifically to fund working capital",
+      "No annual-report-level RPT, auditor-resignation, or pledge disclosure found this pass beyond the standard nil-encumbrance SAST filing",
+      "No going-concern or SEBI/fraud flags found"
+    ],
+    "quarterly_trend": [
+      "Revenue: Q1 FY26 Rs29cr -> Q2 Rs48cr -> Q3 Rs56cr -> Q4 Rs109cr -> Q1 FY27 Rs104cr",
+      "Q1 FY27 revenue +252% YoY (Rs104cr vs Rs29cr) and PAT +282% YoY (per press coverage), driven by the L&T/IRCON metro order book beginning to execute",
+      "Net margin has stayed in a fairly stable 9-14% band through the ramp (annual figures show 8.5%->10.7% over 5 years; quarterly figures are noisier but not clearly deteriorating)",
+      "Debtor days rose sharply to ~121 days by FY26-end, the standout deterioration in an otherwise strong quarterly trend"
+    ],
+    "recent_announcements": [
+      "Jan-2026: L&T work order for Mumbai Metro Line 4/4A (MMRDA), worth ~Rs392cr, stock surged ~19% on the news",
+      "Feb-2026: IRCON International contract for a Mumbai Metro project (design, supply, installation, 5-yr maintenance), worth ~Rs485.67cr",
+      "Pune Metro order worth Rs229.97cr with a 35% share (~Rs80.49cr), ~27-month completion timeline",
+      "Sant Dnyaneshwar Garden restoration order worth ~Rs109.2cr",
+      "Jan-2026: MOU with Sweden-based URBS Systems AB for AI/HPC-ready hyperscale/edge/colocation data-centres in Maharashtra; JV 'Univastu NUOS' for wireless BMS/IoT; exclusive Myrtha Pools partnership with a first Rs9cr Sports Authority of Gujarat order",
+      "Jul-2026: EGM approved a Rs16cr preferential warrant issue (promoters + 3 outside investors) and tripled the borrowing limit to ~Rs200cr",
+      "Apr-2026: Annual SAST Reg. 31(4) filing confirms nil promoter share encumbrance for FY25-26"
+    ],
+    "key_new_facts": [
+      "Materially upgrades the original 'generic, low-moat EPC' framing: Univastu is a qualified metro-rail systems sub-contractor/JV partner to L&T and IRCON, with a confirmed Rs1,021cr+ order book (~4.2x TTM revenue) already executing, not a claimed thesis",
+      "Real, named diversification optionality into data-centres (URBS Systems AB), BMS/IoT (Univastu NUOS) and Olympic-grade aquatics (Myrtha Pools) beyond the original write-up's pure-EPC framing",
+      "The multi-quarter promoter-holding decline is substantially explained by a promoter-participated warrant issue (Dr./Mrs. Khandagale are the largest allottees) - a capital infusion, not an exit signal, though not confirmed with full certainty",
+      "The working-capital deterioration is more severe and better-evidenced this pass than the original write-up captured: debtor days to ~121 plus a tripled borrowing limit and a fresh capital raise are direct, corroborating evidence of real cash-flow strain funding the growth",
+      "FY26 track record extends the Coffee-Can consistency streak (8 of 10 checkable years now clear both >=10% growth and >=15% ROCE)"
+    ],
+    "open_questions": [
+      "No ValuePickr thread exists for this name - community/trusted corroboration remains entirely absent",
+      "RPT trend not sourced this pass; the promoter-participated warrant issue is technically a related-party-adjacent transaction that deserves scrutiny at the next revisit once conversion completes",
+      "Exact FII/DII shareholding split not sourced this pass",
+      "Whether the data-centre (URBS) and BMS (Univastu NUOS) verticals convert from MOU/JV to actual signed, revenue-generating projects is entirely open",
+      "screener's reported cash-conversion-cycle figure (-631 days) looks like a data artifact from the extreme YoY revenue jump and was not used; a cleaner reconciliation needs the full balance-sheet schedule, not sourced this pass"
+    ],
+    "conviction_update": "Medium -> Medium (upgraded thesis_fit, conviction held). four_box moved from 2.5 to 3.5 as the order book converted from a generic claim into confirmed, named, commercial contracts (L&T, IRCON) and the moat/TAM boxes were re-scored on that evidence - this clears the >=3.0 threshold and permits '10x-in-2-3-years' via the small-cap live-inflection rule. Conviction is held at Medium rather than raised further because the growth is currently being funded through a genuinely severe and worsening working-capital position (debtor days to ~121, tripled borrowing limit, a fresh warrant raise) that must resolve for the thesis to play out cleanly."
   }
 }

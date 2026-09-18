@@ -1,63 +1,47 @@
 {
   "name": "Skipper",
-  "tagline": "Mid-cap power transmission/distribution structures, telecom towers and polymer pipes manufacturer riding the T&D capex cycle - a pre-existing 246-post ValuePickr thread found; genuinely promising fundamentals but reported return-ratio/growth figures are inconsistent across sources and were not independently reconciled this pass.",
-  "business_overview": "Skipper Ltd (NSE/BSE: SKIPPER) manufactures power transmission and distribution (T&D) structures/towers, telecom towers, and polymer pipes & fittings, with exports to 60+ countries and a domestic T&D capex-cycle tailwind. Seeded via X (untrusted triage, @RupakRoyC, high conviction bullish view).",
+  "tagline": "Largest domestic transmission-tower manufacturer riding India's T&D grid capex cycle, now backed by a record Rs 9,217cr order book and raised FY27 export guidance - genuinely improving fundamentals, but a leveraged, low-moat, working-capital-heavy EPC-type business that keeps this at 'neither' rather than a return-magnitude label.",
+  "business_overview": "Skipper Ltd (NSE/BSE: SKIPPER) manufactures power transmission and distribution (T&D) structures/towers, telecom towers, and polymer pipes & fittings, with exports to 60+ countries and a domestic T&D capex-cycle tailwind. Seeded via X (untrusted triage, @RupakRoyC, high conviction bullish view). Is India's largest transmission-tower manufacturer, scaling engineering (tower) capacity from 300,000 MTPA (FY25 start) toward a targeted 600,000 MTPA by FY29.",
   "fundamentals_table": [
-    [
-      "Market cap",
-      "~Rs 6,091 Cr"
-    ],
-    [
-      "ROCE",
-      "~47.8% per one aggregator (unusually high, likely inflated/period-specific - not independently reconciled this pass)"
-    ],
-    [
-      "ROE",
-      "~13.7% (3-yr avg)"
-    ],
-    [
-      "Revenue growth",
-      "TTM revenue ~Rs 5,553 Cr; growth figure of ~65.7% cited by one source (likely base-effect or data-period artifact - flagged, not independently verified)"
-    ],
-    [
-      "Debt/Equity",
-      "~0.65"
-    ],
-    [
-      "52-week range",
-      "~Rs 327.05 - Rs 616.80"
-    ],
-    [
-      "Working capital",
-      "Debtor days rose from ~79.4 to ~97.6 days"
-    ]
+    ["Market cap", "~Rs 6,042 Cr"],
+    ["ROCE", "~23.5% (screener, FY26) - reconciled this pass; a previously-cited ~47.8% figure was confirmed as an aggregator artifact, not the real number"],
+    ["ROE", "~16.3% (screener, latest)"],
+    ["Revenue growth", "FY26 revenue ~Rs 5,554 Cr, +20.1% YoY; FY24 +65.8% and FY25 +40.9% both independently confirmed (not artifacts) - a genuine, decelerating-off-a-high-base growth curve"],
+    ["Debt/Equity", "Borrowings up from ~Rs 579 Cr (FY24) to ~Rs 931 Cr (FY26); CARE rates Skipper A+/A1+ (stable), calling debt-servicing comfortable, but cost of borrowing is flagged high by screener"],
+    ["52-week range", "~Rs 327.05 - Rs 616.80"],
+    ["Working capital", "Screener debtor days rose 79.4->97.6; CARE's own operating-cycle metric instead shows improvement (60 days FY25 -> 46 days FY26) - a genuine methodology discrepancy, not reconciled this pass"],
+    ["Order book", "Record Rs 9,217 Cr (Jun-26), ~1.65x FY26 revenue; Aug-26 order win took some press coverage to describe the book as crossing Rs 10,000 Cr"]
   ],
-  "fundamentals_narrative": "Skipper is a genuine beneficiary of India's T&D grid build-out and export demand for transmission structures, with a real backward-integrated cost position claimed in its own investor commentary. However, the specific ROCE (~47.8%) and revenue-growth (~65.7%) figures pulled this pass look anomalously high relative to the company's historical profile and were not cross-checked against a primary filing/screener table directly - treat these two figures as directionally positive but numerically unverified. Debtor days rising (79->98 days) is a working-capital caution worth tracking. No SEBI/pledge/auditor-resignation issues were found.",
-  "technical_read": "52-week range ~Rs 327-617 (~1.9x) - not pulled in further technical detail this pass.",
-  "sentiment_summary": "A dedicated, long-running ValuePickr thread exists (topic_id 2952, \"Skipper Ltd., (Power and Water) a moat in making?\", 246 posts since 2014) - not tiny, so per Step 7 rules this was not deep-read post-by-post this pass; disposition is web/filings-based, and the existence of sustained multi-year forum coverage itself is a mild positive signal of community interest.",
+  "fundamentals_narrative": "Skipper is a genuine, evidenced beneficiary of India's T&D grid build-out and export demand for transmission structures: a record Rs 9,217cr order book (commercial evidence, not just a claimed tailwind), management raising FY27 export order-inflow guidance from Rs 650cr to Rs 1,500cr and total order-inflow guidance to Rs 7,500cr mid-year (a credibility positive - guidance was raised, not cut), and a genuinely improving ROCE (9% in FY20-22 to 23-24% in FY23-26, confirmed via screener/CARE this pass, not the previously-flagged unreliable ~48% figure). Set against this: debt has risen materially (Rs579cr->Rs931cr, FY24->FY26) with cost of borrowing flagged as high, FCF conversion remains thin as capex absorbs most operating cash flow, and promoter holding fell sharply from 66.50% to 61.48% in a single recent month (Jun->Jul 2026) - concurrent with a sharp FII holding increase (4.11%->10.64%), consistent with a block-deal/OFS rather than open-market distress selling, but worth watching over the next 1-2 quarters. Working-capital reads are genuinely mixed between sources (CARE says the operating cycle improved; screener's debtor-days metric says it worsened) and were not fully reconciled this pass.",
+  "technical_read": "52-week range ~Rs 327-617 (~1.9x); price ~Rs 535 as of this pass, near the upper half of the range - not pulled in further technical detail this pass.",
+  "sentiment_summary": "A dedicated, long-running ValuePickr thread exists (topic_id 2952, \"Skipper Ltd., (Power and Water) a moat in making?\", 246 posts since 2014) - not tiny, so per Step 7 rules this was not deep-read post-by-post this pass; disposition remains web/filings-based. The existence of sustained multi-year forum coverage itself is a mild positive signal of community interest.",
   "community_signal": "Forum thread confirmed to exist (topic_id 2952) but not deep-read this pass - no specific trusted-user signal captured. X seed only: @RupakRoyC (untrusted X triage), bullish, high conviction.",
   "trusted_signals": [],
-  "bse_notes": "No SEBI/fraud/going-concern issues found. Promoters (7,50,80,657 shares) declared no encumbrance as of 31-Mar-2026. Statutory auditor is V S & Co., no resignation found. AGM proposed a routine 10% dividend.",
+  "bse_notes": "No SEBI/fraud/going-concern issues found. Promoters (7,50,80,657 shares) declared no encumbrance as of 31-Mar-2026 (SAST filing). Statutory auditor is V S & Co., no resignation found. AGM proposed a routine 10% dividend. One entry-tax dispute sits in contingent liabilities with the liability amount unquantified in filings. CARE Ratings reaffirmed CARE A+/A1+ (stable) in June 2026, calling scheduled term-debt repayment (Rs 98-125cr/yr) comfortably covered by Rs 350-500cr annual cash accruals.",
   "bull_case": [
-    "Genuine, named tailwind: India's T&D grid capex cycle plus export demand (60+ countries) for transmission structures and telecom towers",
-    "Backward-integration cost position claimed by management in the T&D segment",
-    "No promoter pledge; clean encumbrance declaration; no auditor resignation found",
-    "A sustained, 246-post ValuePickr thread (topic_id 2952) since 2014 indicates durable community interest"
+    "Record, commercially-evidenced Rs 9,217cr order book (~1.65x FY26 revenue) - not just a claimed tailwind - including two 765kV domestic lines and North America tower/monopole export wins (Aug-26, Rs 1,305cr)",
+    "Management raised FY27 guidance mid-year (export order inflow Rs 650cr->Rs 1,500cr; total inflow to Rs 7,500cr) - a real management-credibility positive, guidance going up not down",
+    "Genuinely improving ROCE (9% FY20-22 -> 23-24% FY23-26, now independently confirmed via screener/CARE, resolving the prior pass's 'unverified, possibly inflated' flag)",
+    "CARE Ratings A+/A1+ (stable) - independent third-party comfort that debt-servicing capacity is adequate despite the rising debt quantum",
+    "No promoter pledge; no auditor resignation; a sustained 246-post ValuePickr thread (topic_id 2952) since 2014 indicates durable community interest"
   ],
   "bear_case": [
-    "Key metrics (ROCE ~47.8%, revenue growth ~65.7%) look anomalously high and were not independently reconciled against a primary source this pass - treat with caution until verified",
-    "Debtor days rising (79->98) - working-capital quality caution",
-    "No trusted-signal or deep forum corroboration captured this pass (thread not deep-read given its size)",
-    "Source is untrusted X triage only"
+    "Debt has risen materially (Rs 579cr FY24 -> Rs 931cr FY26) with cost of borrowing flagged high by screener; capex-heavy expansion (600,000 MTPA target by FY29) keeps FCF conversion thin",
+    "Promoter holding fell sharply, 66.50% (Jun-26) -> 61.48% (Jul-26) - likely a block-deal/OFS given the simultaneous FII stake jump, but a fresh, real reduction worth confirming isn't a sustained exit trend over the next 1-2 quarters",
+    "Working-capital signal is genuinely mixed between sources this pass (CARE says operating cycle improved 60->46 days; screener's debtor-days metric says it worsened 79->98) - not reconciled",
+    "No moat: multiple large T&D EPC/tower players (KEC International, Kalpataru Projects) are simultaneously expanding capacity alongside the same PGCIL/state-transmission capex cycle - supply-side is adding, not consolidating",
+    "No trusted-signal or deep forum corroboration captured this pass (246-post thread not deep-read given its size); source remains untrusted X triage only"
   ],
-  "market_cap_tier": "Mid-cap (~Rs 6,091 Cr)",
+  "market_cap_tier": "Mid-cap (~Rs 6,042 Cr)",
   "thesis_fit": "neither",
-  "verdict_headline": "Entity confirmed as Skipper Ltd (NSE/BSE: SKIPPER). Genuine T&D-capex-cycle tailwind and a pre-existing 246-post ValuePickr thread, but headline growth/ROCE figures are numerically unverified this pass and there is no forum-corroborated conviction signal yet - kept at 'neither', conviction capped at Medium pending a proper deep-dive and figure reconciliation.",
+  "conviction": "Medium-High",
+  "verdict_headline": "Entity confirmed as Skipper Ltd (NSE/BSE: SKIPPER). A genuine, now commercially-evidenced T&D-capex-cycle beneficiary - record order book, raised guidance, real ROCE improvement - but rising debt, thin FCF conversion, a fresh promoter stake reduction and no true moat keep this at 'neither' (via analyst override) despite a four_box score of 3.0; conviction upgraded to Medium-High as this pass resolved the prior 'unverified figures' doubt into genuinely confirmed strength.",
   "verdict_reasoning": [
-    "four_box = 3.0 (tailwind yes - named T&D capex-cycle and export tailwind; tam yes - expanding grid-infrastructure and telecom-tower demand; moat weak - claimed backward-integration cost edge but multiple competitors exist in T&D structures; valuation weak - reported ROCE/growth figures unverified and possibly inflated, so valuation cannot be confidently assessed as cheap). Score >=3.0 permits a 10x/100x label per the small/mid-cap rule, but per the same rule this is capped at Medium conviction absent real forum/community corroboration - the existing 246-post thread was not deep-read this pass, so no trusted signal was captured. thesis_fit kept 'neither' rather than applying the label without that corroboration (no analyst_override applied).",
-    "No red flag found - clean pledge declaration, no auditor resignation, no SEBI action.",
-    "topic_id 2952 confirmed to exist (\"Skipper Ltd., (Power and Water) a moat in making?\", 246 posts) - flagged for a future proper deep-dive rather than read this pass given its size.",
-    "Source is untrusted X seed (RupakRoyC) only - fast fundamentals triage, not a verified deep-dive; the anomalous ROCE/growth figures found in web search should be reconciled against screener.in directly before this is escalated."
+    "four_box = 3.0 (tailwind yes - named, now order-book-evidenced T&D capex-cycle and export tailwind; tam yes - expanding grid-infrastructure and telecom-tower demand; moat weak - real backward-integration cost position but multiple large competitors (KEC, Kalpataru) are simultaneously adding capacity into the same cycle; valuation weak - 26.7x trailing P/E against a capital-intensive, working-capital-heavy, increasingly leveraged balance sheet is not clearly 'room to pay'). Score >=3.0 permits a 10x/100x label, but analyst_override is kept: this is capital-intensive, low-moat EPC-type economics (rising debt, thin FCF, commodity-competitive tower manufacturing) that don't fit a 10x-in-2-3-years/100x-in-10-years return-magnitude claim even with genuinely improving fundamentals ('Nesco logic').",
+    "Conviction raised from Medium to Medium-High: the prior pass's core doubt (ROCE ~47.8% and growth ~65.7% 'looked anomalously high... not independently reconciled') is now resolved - the real ROCE trajectory (9%->24%) and the FY24 growth figure (confirmed genuine, +65.8%) are both independently corroborated via screener and CARE Ratings, AND fresh evidence (record order book, raised mid-year guidance) adds real commercial substance beyond the fundamentals alone.",
+    "Kept from High: rising debt (Rs579cr->Rs931cr) with high flagged borrowing cost, thin FCF conversion, a fresh single-month promoter stake reduction (66.50%->61.48%, likely a block deal given the simultaneous FII increase but not fully confirmed as such), and continued absence of any trusted/forum corroboration (246-post VP thread still not deep-read given its size) argue against going higher than Medium-High.",
+    "No red flag found - clean pledge declaration, no auditor resignation, no SEBI action. The promoter stake reduction was evaluated against the HIGH CAUTION 'promoter-holding collapse' criterion and judged not to meet that bar (promoter retains a clear majority at 61%, and the move coincides with an FII increase suggestive of an OFS/block deal rather than distress selling) - but it is flagged prominently for the next revisit.",
+    "topic_id 2952 confirmed to exist (\"Skipper Ltd., (Power and Water) a moat in making?\", 246 posts) - flagged for a future proper deep-read rather than read this pass given its size."
   ],
   "red_flag_tier": null,
   "red_flag_reason": null,
@@ -67,10 +51,37 @@
     "moat": "weak",
     "valuation": "weak",
     "score": 3.0,
-    "note": "Named T&D capex-cycle and export tailwind support tailwind/tam; moat and valuation both weak given unverified headline ROCE/growth figures and rising debtor days. Score permits but does not require a 10x/100x label; kept 'neither' pending real forum corroboration (thread exists but was not deep-read this pass).",
+    "note": "Named T&D capex-cycle and export tailwind now backed by a record Rs9,217cr order book and raised guidance support tailwind/tam; moat stays weak (multiple large competitors adding capacity into the same cycle) and valuation stays weak (26.7x P/E against rising debt and thin FCF conversion, not clearly under-pricing the thesis). Score permits but does not require a 10x/100x label; kept 'neither' given capital-intensity/leverage (Nesco logic).",
     "analyst_override": true
   },
-  "value_chain": null,
+  "value_chain": {
+    "theme": "India T&D grid capex cycle + global transmission-tower/monopole export demand",
+    "position": "India's largest domestic manufacturer of transmission-line towers/structures, backward-integrated (own galvanizing/fabrication), diversifying into telecom towers and polymer pipes",
+    "bottleneck_node": "Engineering/tower manufacturing capacity (375,000 MTPA installed, targeting 600,000 MTPA by FY29 via ~Rs 500cr further capex)",
+    "supply_side_status": "adding",
+    "adjacent_peers": ["KEC International", "Kalpataru Projects International", "Hitachi Energy India", "Techno Electric & Engineering"],
+    "note": "Multiple large T&D EPC/tower players (KEC, Kalpataru) are also expanding capacity alongside the PGCIL/state-transmission capex cycle - supply side is adding, not consolidating, so pricing power stays a function of capacity utilisation and order mix rather than a structural moat."
+  },
+  "earnings_quality": {
+    "margin_driver": "mixed",
+    "drivers": ["Operating leverage on a growing revenue base", "Mix shift toward high-voltage (765kV) and export tower/monopole orders", "Backward integration (galvanizing, fabrication) cost edge"],
+    "peak_margin_risk": false,
+    "normalised_note": "Current ~10.1% EBITDA margin (Q1 FY27) is below management's own stated long-term aspirational level of ~12% - not a spike, still building toward the stated target on mix/scale."
+  },
+  "growth_trajectory": {
+    "yoy_trend": "decelerating",
+    "last_quarters_note": "Annual YoY revenue growth: FY23 +16.0%, FY24 +65.8%, FY25 +40.9%, FY26 (actual) +20.1%, FY27 (management guidance) +15% - a clear, high-base deceleration, though still respectable double-digit growth each year.",
+    "reverse_pe_note": "~26.7x trailing P/E is not demanding against a ~60% 5-yr profit CAGR and management's own +30% FY27 PAT guidance, but the multiple assumes growth doesn't decelerate materially faster than the already-declining trend (65.8%->40.9%->20%->15% guided)."
+  },
+  "management_quality": {
+    "capital_allocation": "Reinvesting FY24-26 aggregate capex of ~Rs 867cr into capacity (300,000 -> 375,000 MTPA, targeting 600,000 by FY29), funded via internal accruals + term loan; incremental ROCE has risen alongside the capex cycle (9% -> 24%). No unrelated diversification found.",
+    "capital_allocation_track_record": "disciplined",
+    "rpt_trend": "unclear",
+    "guidance_credibility": "reliable",
+    "shareholder_returns": "consistent",
+    "capability_ladder_note": "Explicit move up the value chain: from standard lattice-tower EPC toward 765kV high-voltage lines, monopoles, and a North America/LATAM export programme - management frames this as a deliberate mix-upgrade.",
+    "assessment": "positive"
+  },
   "quality_metrics": {
     "roce_pct": 24,
     "roce_trend": "improving",
@@ -80,27 +91,126 @@
     "margin_trend": "stable",
     "capex_efficiency": "productive",
     "assessment": "positive",
-    "note": "Reconciles the original write-up's flagged 'unverified, possibly inflated' ROCE (~47.8%) and growth (~65.7%) figures using screener.in's FY-labelled tables: the real ROCE trend is 9-12% (FY20-22) improving to a genuine 21-24% (FY23-25) - strong but not the ~48% cited; the ~65.7% growth figure is CONFIRMED, not an artifact (FY24 was actually +65.8%). OPM has been remarkably stable (~9-10%) across 8 fiscal years. FCF conversion is thin (~1% of EBITDA, FY26) as capex absorbs most operating cash flow. Separately: promoter holding fell 66.50% (Mar-26) -> 61.48% (Jul-26), a fresh ~5pp reduction the original write-up (which only checked encumbrance, not the raw holding %) did not have visibility into."
+    "note": "Reconciles the original write-up's flagged 'unverified, possibly inflated' ROCE (~47.8%) and growth (~65.7%) figures using screener.in's FY-labelled tables: the real ROCE trend is 9-12% (FY20-22) improving to a genuine 21-24% (FY23-26) - strong but not the ~48% cited; the ~65.7% growth figure is CONFIRMED, not an artifact (FY24 was actually +65.8%). OPM has been remarkably stable (~9-10%) across 8 fiscal years, now edging toward management's ~12% aspirational target. FCF conversion is thin (~1% of EBITDA, FY26) as capex absorbs most operating cash flow. Gross borrowings have risen from ~Rs579cr (FY24) to ~Rs931cr (FY26) with cost of borrowing flagged high by screener, though CARE Ratings (A+/A1+, stable, Jun-2026) judges scheduled term-debt repayment comfortably covered by cash accruals. Separately: promoter holding fell 66.50% (Jun-26) -> 61.48% (Jul-26), a fresh ~5pp reduction concurrent with a sharp FII increase (4.11%->10.64%), consistent with a block deal rather than open-market selling but not fully confirmed as such this pass."
   },
   "track_record": {
-    "years_checked": 6,
-    "years_cleared": 3,
-    "note": "FY23 (+16.0% growth, ROCE 21%), FY24 (+65.8%, ROCE 24%) and FY25 (+40.9%, ROCE 24%) each cleared BOTH >=10% revenue growth AND >=15% ROCE; FY20-22 did not clear (ROCE only 9-12% in that window). A genuine, recent 3-year step-up in consistency."
+    "years_checked": 7,
+    "years_cleared": 4,
+    "note": "FY23 (+16.0% growth, ROCE 21%), FY24 (+65.8%, ROCE 24%), FY25 (+40.9%, ROCE 24%) and FY26 (+20.1%, ROCE 23.5%) each cleared BOTH >=10% revenue growth AND >=15% ROCE; FY20-22 did not clear (ROCE only 9-12% in that window). A genuine, now 4-year-running step-up in consistency, extended this pass with confirmed FY26 actuals."
+  },
+  "shareholding_pattern": {
+    "promoter_pct": 61.48,
+    "promoter_pct_trend": "falling",
+    "pledge_pct": 0,
+    "pledge_pct_trend": "stable",
+    "fii_dii_pct": 12.88,
+    "fii_dii_pct_trend": "rising",
+    "quarters_checked": ["Mar-2026", "Jun-2026", "Jul-2026 (interim)"],
+    "concurrent_red_flag": false,
+    "note": "Promoter holding fell sharply from 66.50% (Jun-26) to 61.48% (Jul-26); FII holding rose sharply in the same window (4.11%->10.64%), consistent with a block deal/OFS moving shares to institutions rather than open-market distress selling. No pledge in either period, so concurrent_red_flag does not trigger (pledge is stable/zero, not rising). Worth confirming this isn't a sustained multi-quarter exit trend at the next revisit."
+  },
+  "working_capital": {
+    "inventory_days": 82,
+    "receivable_days": 71,
+    "payable_days": 107,
+    "cash_conversion_cycle": 46,
+    "trend_3y": "improving",
+    "sector_relative": "in-line",
+    "note": "CARE Ratings' own operating-cycle calculation shows genuine improvement (60 days FY25 -> 46 days FY26); this conflicts with screener.in's debtor-days metric (79->98 days), likely a different day-count methodology - not reconciled this pass. Net read: stable-to-improving working capital for an inherently capital-intensive, tender-based EPC/manufacturing business with 1-2 year execution cycles."
+  },
+  "sector_kpis": [
+    {"metric": "Order book", "value": "Rs 9,217cr (Jun-26), record high, ~1.65x FY26 revenue", "trend": "improving", "note": "up from Rs 8,502cr in Mar-26"},
+    {"metric": "FY27 order-inflow guidance", "value": "Raised to Rs 7,500cr total (export component Rs 650cr -> Rs 1,500cr)", "trend": "improving", "note": "management raised guidance mid-year, a credibility positive"},
+    {"metric": "Engineering (tower) manufacturing capacity", "value": "375,000 MTPA installed, targeting 600,000 MTPA by FY29", "trend": "improving", "note": "funded by ~Rs867cr FY24-26 capex + ~Rs500cr FY27-28 planned"},
+    {"metric": "EBITDA margin vs aspirational target", "value": "~10.1% (Q1 FY27) vs management's stated long-term aspirational ~12%", "trend": "improving", "note": "narrowing via mix shift to high-voltage/export + operating leverage"}
+  ],
+  "scenario_analysis": {
+    "bull": {"revenue_cagr_fy26_28_pct": 22, "fy28_margin_pct": 12.0, "fy28_eps": 34, "exit_multiple": 28, "implied_price": 952, "pct_vs_cmp": 78},
+    "base": {"revenue_cagr_fy26_28_pct": 17, "fy28_margin_pct": 11.0, "fy28_eps": 28, "exit_multiple": 24, "implied_price": 672, "pct_vs_cmp": 26},
+    "bear": {"revenue_cagr_fy26_28_pct": 10, "fy28_margin_pct": 9.5, "fy28_eps": 20, "exit_multiple": 18, "implied_price": 360, "pct_vs_cmp": -33},
+    "closest_to": "base",
+    "note": "Base case takes management's own FY27 guidance (~15% revenue, ~30% PAT growth) as persisting through FY28 with margin approaching but not reaching the 12% aspirational target. Bull requires the export/high-voltage mix shift and capacity ramp to click together without execution slippage. Bear assumes growth decelerates faster (continuing the already-visible trend: 65.8%->40.9%->20%->15% guided) while rising debt costs pressure margins."
   },
   "market_expectation": {
     "as_of": "2026-09-18",
-    "price": 533,
-    "current_pe": 25.9,
+    "price": 535,
+    "current_pe": 26.7,
     "current_ev_ebitda": null,
     "valuation_tool": "P/E",
-    "implied_growth_cagr": "~25.9x trailing P/E against a confirmed, genuine ROCE improvement (9%->24%) and real revenue growth is not demanding if the T&D capex cycle continues",
-    "our_fy27_estimate": "Revenue growth likely continues on the domestic T&D grid build-out and export demand, though rising debtor days (79->98) and thin FCF conversion are working-capital risks to watch",
-    "our_fy28_estimate": "Not estimable with confidence - no concall/guidance reviewed this pass",
+    "implied_growth_cagr": "~26.7x trailing P/E against a confirmed, genuine ROCE improvement (9%->24%) and a ~60% 5-yr profit CAGR is not demanding if the T&D capex cycle and the record order book continue converting to revenue",
+    "our_fy27_estimate": "Revenue growth of ~15% and PAT growth of ~30% per management's own raised guidance, off the record Rs9,217cr order book and raised export targets; rising debt and thin FCF conversion are the key risks to that delivering as guided",
+    "our_fy28_estimate": "A further step toward the ~12% aspirational EBITDA margin as high-voltage/export mix scales, assuming order-book execution stays on schedule and the capacity build to 600,000 MTPA (FY29 target) proceeds without slippage",
     "gap_direction": "partially-priced",
     "gap_type": "margin",
     "gap_magnitude_pct": null,
-    "gap_basis": "The now-reconciled, genuine ROCE improvement (9%->24% over 5 years) is real and not obviously fully credited at ~26x P/E, but thin FCF conversion and rising debtor days are real, only partially-priced risks",
-    "evidence_quality": "moderate",
+    "gap_basis": "The now-confirmed, genuine ROCE improvement (9%->24%) and record order book are real and only partially credited at ~27x P/E, but rising debt, thin FCF conversion and a fresh promoter stake reduction are real, only partially-priced risks on the other side",
+    "evidence_quality": "strong",
     "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "catalyst": {
+    "event": "FY27 execution of the record Rs9,217cr order book plus delivery against the raised export/order-inflow guidance (Rs1,500cr export, Rs7,500cr total), with EBITDA margin trending toward the ~12% aspirational level",
+    "expected_window_months": 12,
+    "window_start": "2026-09-18",
+    "evidence_quality": "high",
+    "is_dated": true,
+    "status": "pending"
+  },
+  "commitments": [
+    {"area": "capacity", "text": "Scale engineering (tower) capacity to 600,000 MTPA by FY29", "specifics": "375,000 MTPA installed (FY25 exit); further ~Rs500cr capex FY27-28 on top of ~Rs867cr already spent FY24-26", "timeline_bucket": "beyond", "quality_stage": "action", "source": "CARE Ratings rationale, Jun-2026", "dependency": "customer demand absorption; land/regulatory approvals", "single_point_of_failure": "", "thesis_critical": true},
+    {"area": "orders", "text": "Raised FY27 export order-inflow guidance Rs650cr -> Rs1,500cr; total inflow guidance to Rs7,500cr", "specifics": "Following the Aug-2026 Rs1,305cr order win (domestic 765kV Maharashtra x2 + North America tower/monopole export)", "timeline_bucket": "FY27", "quality_stage": "commercial", "source": "Aug-2026 exchange filing / management commentary", "dependency": "execution and customer payment cycle", "single_point_of_failure": "", "thesis_critical": true},
+    {"area": "margin", "text": "EBITDA margin to reach the 'aspirational' ~12% long-term level from the current ~10%", "specifics": "Driven by opex leverage plus a higher share of high-voltage/export/monopole mix", "timeline_bucket": "beyond", "quality_stage": "expectation", "source": "Q1 FY27 concall commentary (via press coverage)", "dependency": "revenue scale-up plus mix shift", "single_point_of_failure": "", "thesis_critical": true},
+    {"area": "balance_sheet", "text": "Cover Rs98-125cr/yr scheduled term-debt repayment from Rs350-500cr annual cash accruals", "specifics": "Aggregate capex ~Rs867cr FY24-26 plus a further ~Rs500cr FY27-28", "timeline_bucket": "FY28", "quality_stage": "action", "source": "CARE Ratings rationale, Jun-2026", "dependency": "cash-flow generation holding up as debt rises", "single_point_of_failure": "", "thesis_critical": false}
+  ],
+  "earnings_chain": {
+    "chain": ["Order book (Rs9,217cr, record)", "Execution/capacity ramp (375,000 -> 600,000 MTPA)", "Revenue growth (~15% FY27 guided)", "Operating leverage plus mix shift", "EBITDA margin toward 12% aspirational", "PAT (+30% FY27 guided)"],
+    "bottleneck_link": "Capacity ramp and execution of the high-voltage/export order mix",
+    "operating_leverage": "yes - management explicitly guides margin expansion from operating leverage plus higher-margin mix (EBITDA margin 10.1% Q1 FY27 vs 9.6% Q1 FY26)",
+    "evidenced_links": ["Order book", "Revenue growth", "Margin improvement YoY"],
+    "assumed_links": ["Further margin expansion to 12% aspirational", "PAT +30% FY27"]
+  },
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-18",
+    "sources_reviewed": [
+      "Q1 FY27 concall highlights (press coverage - Yahoo Finance, FM Live, Business Standard)",
+      "CARE Ratings rationale for Skipper Limited, Jun-2026 and Jan-2026",
+      "screener.in company page (financials, ratios, shareholding pattern)",
+      "Exchange-filing coverage of order wins (Aug-2026 Rs1,305cr, May-2026 Rs1,265cr)",
+      "Shareholding-pattern trend coverage (screener/trendlyne)"
+    ],
+    "annual_report_findings": [
+      "FY24->FY25 revenue +40.9% (Rs3,282cr -> Rs4,624cr); aggregate capex ~Rs867cr FY24-26 into capacity expansion (300,000 -> 375,000 MTPA)",
+      "CARE reaffirmed CARE A+/A1+ (stable) June 2026; Rs98-125cr/yr term-debt repayment comfortably covered by Rs350-500cr annual cash accruals",
+      "CARE's own operating-cycle metric improved 60 days (FY25) -> 46 days (FY26), which conflicts with screener's debtor-days metric (79->98 days) - a genuine discrepancy not reconciled this pass",
+      "One contingent liability: an entry-tax dispute with the liability amount unquantified in filings",
+      "No auditor resignation found this pass, consistent with the original write-up"
+    ],
+    "quarterly_trend": [
+      "Revenue: Q1 FY26 Rs1,254cr -> Q2 Rs1,262cr -> Q3 Rs1,371cr -> Q4 Rs1,667cr -> Q1 FY27 Rs1,310cr",
+      "EBITDA margin improving YoY: 9.6% (Q1 FY26) -> 10.1% (Q1 FY27)",
+      "PAT: Q1 FY26 Rs45cr -> Q1 FY27 Rs56cr (screener figures); some press coverage cites a higher 41% YoY PAT-growth figure using a different comparison base - flagged, not reconciled",
+      "FY26 full year (screener): revenue ~Rs5,554cr (+20.1% YoY), PAT ~Rs208cr, ROCE 23.5%"
+    ],
+    "recent_announcements": [
+      "Aug-27-2026: New orders worth Rs1,305cr (two domestic 765kV Maharashtra lines + North America tower/monopole export); order book described by some coverage as crossing Rs10,000cr",
+      "May-15-2026: Orders worth Rs1,265cr (765kV/400kV domestic + LATAM export towers)",
+      "Management raised FY27 export order-inflow guidance (Rs650cr -> Rs1,500cr) and total order-inflow guidance (to Rs7,500cr)",
+      "Promoters declared no encumbrance on 7,50,80,657 shares (Mar-26 SAST filing)",
+      "Promoter holding fell 66.50% (Jun-26) -> 61.48% (Jul-26); FII holding rose 4.11% -> 10.64% in the same window"
+    ],
+    "key_new_facts": [
+      "Confirms a genuine, commercially-evidenced order-book-backed growth story (Rs9,200+cr order book, ~1.65x TTM revenue), not just a claimed tailwind as the prior pass framed it",
+      "Management is raising, not cutting, guidance mid-year - a real credibility positive",
+      "Debt has been rising (Rs579cr FY24 -> Rs931cr FY26) with a flagged high cost of borrowing - a genuine new caution the original write-up did not have visibility into",
+      "A fresh, sizeable promoter stake reduction (~5pp in one month) concurrent with an FII increase - most likely a block deal, but not confirmed as such this pass",
+      "CARE Ratings (external agency) rates Skipper A+/A1+ stable and judges debt-servicing comfortable - independent third-party comfort partially offsetting the rising-debt concern"
+    ],
+    "open_questions": [
+      "The full 246-post ValuePickr thread remains un-read given its size; a targeted post-2025 scan could surface community view on the capacity/margin trajectory",
+      "RPT trend not sourced this pass - no promoter-group related-party dealings found or ruled out",
+      "The CARE-vs-screener working-capital discrepancy (operating cycle improving vs debtor days worsening) is not reconciled",
+      "Whether the Jun->Jul 2026 promoter stake reduction was a disclosed OFS/block deal is not confirmed from the sources reviewed this pass"
+    ],
+    "conviction_update": "Medium -> Medium-High. The original pass's core doubt ('ROCE ~47.8% and growth ~65.7% look anomalously high... not independently reconciled') is resolved this pass into genuinely confirmed strength (ROCE 9%->24%, FY24 growth of +65.8% confirmed real, record order book, raised guidance). four_box stays at 3.0 with thesis_fit kept 'neither' via analyst_override - capital-intensive, no-true-moat EPC-type economics with rising leverage don't support a 10x/100x return-magnitude label despite the quality improvement."
   }
 }
