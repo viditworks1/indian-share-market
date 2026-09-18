@@ -16,6 +16,12 @@ Two rankings are produced, each 100 names, switchable in the artifact:
                     10x-in-2-3-years or 100x-in-10-years, no red flag.
 Thesis-only is a subset of Overall.
 
+SME/Emerge exclusion (2026-09-18, at the user's explicit request): a stock
+tagged `is_sme_emerge: true` on its state.json entry is hard-excluded from
+both rankings in build_universe() below — it never enters `universe` at all,
+so it can't appear in either list regardless of score. See build_universe()'s
+docstring for how the tag is set/maintained.
+
 Run as a side job of vpscreen-rerank (see that task's SKILL.md Step 7). It is
 UNCONDITIONAL now — every rerank cycle rebuilds this, no weekly gate — because
 a tier move, a new placement, or a score shift in Steps 3-6 can change either
@@ -173,10 +179,31 @@ def build_universe():
     """Every deepdived stock with a clear red_flag_tier (HIGH CAUTION / AVOID /
     EXCLUDE are hard-dropped from a confidence ranking regardless of score).
     thesis_fit is NOT filtered here — each row carries `thesis_eligible` so the
-    two rankings can be sliced downstream."""
+    two rankings can be sliced downstream.
+
+    SME/Emerge exclusion (2026-09-18, at the user's explicit request): a stock
+    tagged `is_sme_emerge: true` on its state.json entry (see
+    scripts/patch_stock.py) is hard-dropped here, before ranking — not merely
+    penalized via the tech_adjustment -2 / investable_now gate it used to fall
+    through. These names have no usable Yahoo weekly series by construction
+    (single-bar illiquid boards), so they could never pass investable_now
+    anyway; excluding them outright keeps Confluence-100 to names on the main
+    board. The tag is maintained by hand (or by any task's research) via
+    `patch_stock.py <slug> --set-json is_sme_emerge=true` the moment a listing
+    platform is confirmed — do not infer it from `market_cap_tier` text here,
+    that field is free-text and unreliable for a hard filter."""
     d = load_json(os.path.join(DATA_DIR, "master-scores.json"))
+    state = load_json(os.path.join(BASE, "state.json"))["stocks"]
     ranked = d["ranked"]
-    elig = [x for x in ranked if x.get("red_flag_tier") in (None, "")]
+    elig = [
+        x for x in ranked
+        if x.get("red_flag_tier") in (None, "")
+        and not state.get(x["slug"], {}).get("is_sme_emerge")
+    ]
+    excluded_sme_emerge = sum(
+        1 for x in ranked
+        if x.get("red_flag_tier") in (None, "") and state.get(x["slug"], {}).get("is_sme_emerge")
+    )
     out = []
     for x in elig:
         slug = x["slug"]
@@ -200,7 +227,7 @@ def build_universe():
             except Exception:
                 pass
         out.append(rec)
-    return out, len(ranked)
+    return out, len(ranked), excluded_sme_emerge
 
 
 def blend_fundamental(x):
@@ -423,7 +450,10 @@ def investable_now(x):
     if cov < INVESTABLE_COV_THRESHOLD:
         return False, "needs quality/consistency data (thin master-score coverage)"
     if tech_status == "no_history_sme":
-        return False, "no technical read possible (SME/Emerge listing, or too-recent a listing for 35+ weekly bars)"
+        # Confirmed SME/Emerge names are excluded in build_universe() before
+        # reaching here (see is_sme_emerge), so this status now only fires for
+        # a genuine main-board stock too recently listed for 35+ weekly bars.
+        return False, "no technical read possible (too-recent a listing for 35+ weekly bars)"
     if tech_status not in INVESTABLE_TECH_STATUSES:
         return False, "technical not resolved (needs a verified Yahoo symbol)"
     return True, ""
@@ -463,7 +493,7 @@ def make_rows(ordered, holdings):
 
 
 def main():
-    universe, total_deepdived = build_universe()
+    universe, total_deepdived, excluded_sme_emerge = build_universe()
     for x in universe:
         x["blended_fundamental"] = blend_fundamental(x)
     universe.sort(key=lambda x: -x["blended_fundamental"])
@@ -589,6 +619,7 @@ def main():
 
     stats = {
         "total_deepdived": total_deepdived,
+        "excluded_sme_emerge": excluded_sme_emerge,
         "eligible_overall": len(universe),
         "eligible_thesis": thesis_universe_count,
         # kept for backward compat with older template copies
@@ -652,7 +683,8 @@ def main():
     print()
     print(f"Wrote {out_path}")
     print(f"Wrote {json_path}")
-    print(f"Universe: {total_deepdived} deepdived, {len(universe)} no-red-flag "
+    print(f"Universe: {total_deepdived} deepdived, {excluded_sme_emerge} excluded as SME/Emerge "
+          f"(is_sme_emerge tag), {len(universe)} no-red-flag "
           f"({thesis_universe_count} also thesis-eligible), {full_coverage_count} fully cross-scored.")
     print(f"Overall 100: {res_o}/{TOP_N} technicals resolved. "
           f"Thesis 100: {res_t}/{TOP_N} technicals resolved. "
