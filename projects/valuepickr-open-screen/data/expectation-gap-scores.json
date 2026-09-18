@@ -1772,7 +1772,7 @@
       "slug": "pitti-engineering",
       "name": "Pitti Engineering Ltd",
       "expectation_gap_score": 28.78,
-      "conviction_score": 15.8,
+      "conviction_score": 16.05,
       "conviction": "Low-Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -1975,7 +1975,7 @@
       "slug": "rnit-ai-solutions-ltd",
       "name": "RNIT AI Solutions Ltd",
       "expectation_gap_score": 25.36,
-      "conviction_score": 34.0,
+      "conviction_score": 39.5,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
@@ -2115,7 +2115,7 @@
       "slug": "marksans-pharma",
       "name": "Marksans Pharma",
       "expectation_gap_score": 24.79,
-      "conviction_score": 51.25,
+      "conviction_score": 52.75,
       "conviction": "Medium-High",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -2973,7 +2973,7 @@
       "slug": "epl-limited",
       "name": "EPL Ltd",
       "expectation_gap_score": 18.65,
-      "conviction_score": 32.0,
+      "conviction_score": 31.0,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -4498,7 +4498,7 @@
       "slug": "kwality-pharmaceuticals",
       "name": "Kwality Pharmaceuticals",
       "expectation_gap_score": 6.88,
-      "conviction_score": 33.58,
+      "conviction_score": 31.58,
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
@@ -5601,7 +5601,7 @@
       "slug": "zinka-logistics-blackbuck",
       "name": "Zinka Logistics Solutions Ltd (BlackBuck)",
       "expectation_gap_score": 4.2,
-      "conviction_score": 45.68,
+      "conviction_score": 43.93,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
@@ -6375,7 +6375,7 @@
       "slug": "pix-transmissions-ltd",
       "name": "Pix Transmissions Ltd",
       "expectation_gap_score": 1.74,
-      "conviction_score": 25.86,
+      "conviction_score": 21.61,
       "conviction": "Low-Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -8218,39 +8218,6 @@
       }
     },
     {
-      "slug": "bhadora-industries",
-      "name": "Bhadora Industries Ltd",
-      "expectation_gap_score": 0,
-      "conviction_score": 16.5,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "red_flag_tier": null,
-      "market_cap_tier": "Micro-cap",
-      "gap_direction": "over-optimistic",
-      "gap_type": "volume",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "weak",
-      "catalyst_event": "A Q2/Q3 FY27 result showing whether the +226% Q1 FY27 net-sales jump is volume-backed and whether debtor days/operating cash flow normalise from the FY26 blowout",
-      "catalyst_window_months": 6,
-      "catalyst_window_start": "2026-09-18",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 0,
-      "risk_open_spofs": [],
-      "flags": [
-        "no-edge"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.25,
-        "catalyst_q": 0.21,
-        "timing_q": 1.0,
-        "risk_q": 1.0,
-        "quality": 0.501
-      }
-    },
-    {
       "slug": "bhagyanagar-india",
       "name": "Bhagyanagar India Ltd",
       "expectation_gap_score": 0,
@@ -8395,39 +8362,36 @@
       }
     },
     {
-      "slug": "devson-catalyst-ltd",
-      "name": "Devson Catalyst Ltd",
+      "slug": "bhadora-industries",
+      "name": "Bhadora Industries Ltd",
       "expectation_gap_score": 0,
-      "conviction_score": 14.25,
+      "conviction_score": 14.75,
       "conviction": "Low",
-      "thesis_fit": "neither",
+      "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Microcap SME-platform",
+      "market_cap_tier": "Micro-cap",
       "gap_direction": "over-optimistic",
       "gap_type": "volume",
-      "gap_magnitude_pct": -15,
-      "evidence_quality": "moderate",
-      "catalyst_event": "Q2 FY27 (Jul-Sep 2026) results \u2014 first quarterly print as a listed company; plus any disclosed Ammonia Decomposition Catalyst order value or repeat-order cadence from Tata Steel/NMDC",
-      "catalyst_window_months": 2,
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "A Q2/Q3 FY27 result showing whether the +226% Q1 FY27 net-sales jump is volume-backed and whether debtor days/operating cash flow normalise from the FY26 blowout",
+      "catalyst_window_months": 6,
       "catalyst_window_start": "2026-09-18",
       "catalyst_status_effective": "pending",
-      "catalyst_is_dated": true,
-      "risk_open_spof_count": 2,
-      "risk_open_spofs": [
-        "single new-unit commissioning \u2014 no phased/multi-site de-risking disclosed",
-        "undisclosed order size; dependent on two named customers (nmdc, tata steel) converting pilot wins into recurring volume"
-      ],
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
       "flags": [
         "no-edge"
       ],
       "score_breakdown": {
         "gap_points": 0.0,
         "gap_frac": 0.0,
-        "evidence_q": 0.75,
-        "catalyst_q": 0.65,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.21,
         "timing_q": 1.0,
-        "risk_q": 0.4,
-        "quality": 0.718
+        "risk_q": 1.0,
+        "quality": 0.501
       }
     },
     {
@@ -8498,6 +8462,42 @@
         "timing_q": 0.75,
         "risk_q": 0.4,
         "quality": 0.589
+      }
+    },
+    {
+      "slug": "devson-catalyst-ltd",
+      "name": "Devson Catalyst Ltd",
+      "expectation_gap_score": 0,
+      "conviction_score": 10.5,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Microcap SME-platform",
+      "gap_direction": "over-optimistic",
+      "gap_type": "volume",
+      "gap_magnitude_pct": -15,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2 FY27 (Jul-Sep 2026) results \u2014 first quarterly print as a listed company; plus any disclosed Ammonia Decomposition Catalyst order value or repeat-order cadence from Tata Steel/NMDC",
+      "catalyst_window_months": 2,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "single new-unit commissioning \u2014 no phased/multi-site de-risking disclosed",
+        "undisclosed order size; dependent on two named customers (nmdc, tata steel) converting pilot wins into recurring volume"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.65,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.718
       }
     },
     {
@@ -13252,7 +13252,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 0,
-      "conviction_score": 14.25
+      "conviction_score": 10.5
     },
     {
       "slug": "l-t-elevators-can-they-lift-investors",
@@ -13406,7 +13406,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 6.88,
-      "conviction_score": 33.58
+      "conviction_score": 31.58
     },
     {
       "slug": "v2-retail",
@@ -14000,7 +14000,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 28.78,
-      "conviction_score": 15.8
+      "conviction_score": 16.05
     },
     {
       "slug": "rnit-ai-solutions-ltd",
@@ -14011,7 +14011,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 25.36,
-      "conviction_score": 34.0
+      "conviction_score": 39.5
     },
     {
       "slug": "marksans-pharma",
@@ -14022,7 +14022,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 24.79,
-      "conviction_score": 51.25
+      "conviction_score": 52.75
     },
     {
       "slug": "golkunda-diamonds",
@@ -14044,7 +14044,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 4.2,
-      "conviction_score": 45.68
+      "conviction_score": 43.93
     },
     {
       "slug": "bhadora-industries",
@@ -14055,7 +14055,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 0,
-      "conviction_score": 16.5
+      "conviction_score": 14.75
     },
     {
       "slug": "unimech-aerospace-and-manufacturing-ltd",
@@ -14814,7 +14814,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 18.65,
-      "conviction_score": 32.0
+      "conviction_score": 31.0
     },
     {
       "slug": "pix-transmissions-ltd",
@@ -14825,7 +14825,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 1.74,
-      "conviction_score": 25.86
+      "conviction_score": 21.61
     },
     {
       "slug": "wonderla-holidays",

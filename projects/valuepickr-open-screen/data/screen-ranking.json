@@ -617,15 +617,15 @@
     },
     {
       "name": "Arrow Greentech",
-      "reason": "four_box 3.0 (threshold) but NOT overridden - conflicting ROCE/ROE/growth data + a veteran forum member's (dd1474) account of 'a very large loss' kept this at neither. Scattered old topic_id candidates found (210/323/8518/29904/76222), none confidently current - not patched.",
+      "reason": "Deep-dive pass 1 (2026-09-17): reconciled the original 'conflicting ROCE/ROE/growth data' caveat using screener.in's own FY-labelled tables (earlier scrape mixed calendar-year and fiscal-year conventions) - both prior 'conflicting' figures turn out correct-but-different windows, not a real data problem. New finding: FY26 was a genuine down year (revenue -17.6%, PAT -25% YoY, breaking a 3-year Coffee-Can streak), followed by a sharp Q1 FY27 rebound (+111% revenue, +151% PAT YoY, highest-ever quarter) - a genuinely lumpy, order-driven business, not a smooth compounder. Confirmed the real moat is patent-protected security/anti-counterfeiting film technology (27 patents, 2 newly granted 2026, 20-yr exclusivity) more than the anti-plastic packaging story originally emphasized. No pledge (FY26 zero-encumbrance filed); dividend rising Rs1->4/share FY23-25. dd1474's 2022 'large loss, hope investment' community caution remains unresolved. Conviction Medium (unchanged, net wash); thesis_fit stays neither (four_box 3.0, analyst_override - lumpy earnings, valuation full post-rebound).",
       "dimensions": {
-        "thesis": "unknown",
-        "recent_fundamentals": "unknown",
-        "long_term_fundamentals": "unknown",
-        "technicals": "unknown",
-        "governance": "unknown"
+        "thesis": "neither",
+        "recent_fundamentals": "strong",
+        "long_term_fundamentals": "neutral",
+        "technicals": "stretched",
+        "governance": "watch"
       },
-      "primary_screen_reason": "unclassified"
+      "primary_screen_reason": "technicals"
     },
     {
       "name": "Artemis Medicare Services Ltd",
@@ -1853,15 +1853,15 @@
     },
     {
       "name": "Dhabriya Polywood Ltd",
-      "reason": "Jaipur uPVC/PVC profiles + windows + modular + rising-margin fluted/soffit panels (brand Polywood); ROCE 19->26% in 2yr, ~14x, de-levered; Q1FY27 PAT +35% on +10% rev. four_box 2.5 (valuation box yes) but honest return ~2-3x -> neither, conviction Medium. Old dineshssairam RPT flag (2020, mitigated). external-lead.",
+      "reason": "Deep-dive pass 1 (2026-09-18): PAT compounding far faster than revenue (+67% FY26, +35.4% Q1 FY27, vs only +12.6%/+10.0% revenue growth); ROCE up to ~26% (from ~19% FY24). Aluminium Windows & Facade division moved from plan to commercial stage (Rs56cr+ backlog, first named order - Rs4.78cr Godrej Properties facade - guided Rs40-50cr FY27 revenue). Correction: borrowings rose Rs53cr->Rs76cr in the last year funding a new Rs100cr capex programme - reverses the prior 'steady deleveraging' framing. Maiden dividend initiated (Rs0.70/share, May-2026); promoter holding stabilized ~67.8% for 4 straight quarters, no pledge - the old dineshssairam RPT flag (2020) stays mitigated, not current. Muted ~10-12% revenue growth traced to external causes (FY25 monsoon/GRAP restrictions, FY26 developer site deferrals), not demand weakness - order book at an all-time high (Rs200cr+). Conviction Medium (unchanged); thesis_fit stays neither (four_box 2.5).",
       "dimensions": {
-        "thesis": "unknown",
-        "recent_fundamentals": "unknown",
-        "long_term_fundamentals": "unknown",
+        "thesis": "neither",
+        "recent_fundamentals": "strong",
+        "long_term_fundamentals": "neutral",
         "technicals": "unknown",
-        "governance": "red"
+        "governance": "clean"
       },
-      "primary_screen_reason": "governance"
+      "primary_screen_reason": "thesis"
     },
     {
       "name": "Dhanuka Agritech Ltd",
@@ -2009,15 +2009,15 @@
     },
     {
       "name": "EPL Ltd",
-      "reason": "Global laminated-tube leader merging w/ Indorama's Indovida (Blackstone exit); ROCE 18.1%, Q1FY27 rev +25% but PAT -1.4% (commodity squeeze). Live merger-arb debate on VP thread: swap implies ~Rs339 vs mkt price, one poster called it financial engineering for Blackstone exit not a clean minority deal. four_box 2.5, no exception -> neither. Conviction Medium. Good re-verify candidate post-merger.",
+      "reason": "Deep-dive pass 1 (2026-09-18): Indovida merger materially de-risked - CCI cleared it (May-2026) and minority shareholders already approved via e-voting (Feb-Mar 2026); swap value (~Rs339/share) still implies ~45% upside to CMP (~Rs234), NCLT approval the main remaining gate. New earnings-quality caution: PAT growth stalled for two straight quarters (Q4 FY26 ~flat, Q1 FY27 -1.4% YoY) even as revenue accelerated to +25.3% - commodity cost pass-through lag. Promoter holding drop (51.5%->26.38%) confirmed as a disclosed, structured Blackstone-to-Indorama stake sale ahead of the merger, not distress - no pledge at any point. four_box reached 3.0 (valuation box upgraded on the persisting arb gap) but treated as merger-arb, not a business-compounding case (analyst override, thesis_fit stays neither). ~18.2x P/E, ROCE ~17.8%/ROE ~15.7% - quality but not cheap for a mature-category mid-cap. Conviction Medium (unchanged).",
       "dimensions": {
-        "thesis": "unknown",
-        "recent_fundamentals": "unknown",
-        "long_term_fundamentals": "unknown",
+        "thesis": "neither",
+        "recent_fundamentals": "weak",
+        "long_term_fundamentals": "neutral",
         "technicals": "unknown",
-        "governance": "unknown"
+        "governance": "clean"
       },
-      "primary_screen_reason": "unclassified"
+      "primary_screen_reason": "thesis"
     },
     {
       "name": "Edelweiss Financial Services",
@@ -2081,13 +2081,13 @@
     },
     {
       "name": "Emmvee Photovoltaic Power Ltd",
-      "reason": "Integrated TOPCon solar cell+module maker; PAT Rs 9cr FY23 -> Rs 1,082cr FY26 on ALMM List-II; Q1FY27 PAT +103%, 35% EBITDA margin (peak). four_box 2.5; un-ignorable-growth exception CONSIDERED but declined - policy-driven cyclical peak into industry-wide capacity build (supply 'adding'). thesis neither, conviction Medium. VP thread 1 day old. external-lead.",
+      "reason": "Deep-dive pass 1 (2026-09-18): deleveraging is real and already executed - debt fell ~83% (Rs2,065cr->Rs360cr FY25->FY26) on IPO-proceeds prepayment, ICRA upgraded the rating, interest coverage ~8.2x. Growth multi-sourced: live 2.5 GW module line (since Dec-2025), 9.9 GW order book, new 4.5 GWp TOPCon cell supply deal won by subsidiary Emmvee Energy. Even the bullish sell-side case (Jefferies, Buy, target Rs440) explicitly models margin normalisation to 'high-teens ROCE through-cycle,' corroborating the peak-margin-risk thesis. One immaterial governance blemish (~Rs7.68cr customs penalty, Mar-2026); no pledge, no auditor issue, no SEBI action. four_box unchanged at 2.5 (tam/moat/valuation still weak); thesis_fit stays neither. Conviction Medium (unchanged).",
       "dimensions": {
         "thesis": "neither",
-        "recent_fundamentals": "unknown",
-        "long_term_fundamentals": "unknown",
-        "technicals": "unknown",
-        "governance": "unknown"
+        "recent_fundamentals": "strong",
+        "long_term_fundamentals": "neutral",
+        "technicals": "stretched",
+        "governance": "watch"
       },
       "primary_screen_reason": "thesis"
     },
@@ -2714,18 +2714,6 @@
         "governance": "unknown"
       },
       "primary_screen_reason": "unclassified"
-    },
-    {
-      "name": "Golkunda Diamond",
-      "reason": "Genuine Q1 FY27 margin/capacity inflection (EBITDA +69%), clean balance sheet, but only 1 quarter vs weak 5yr history; four_box 2.5, no exception - flag for re-check next quarter.",
-      "dimensions": {
-        "thesis": "unknown",
-        "recent_fundamentals": "unknown",
-        "long_term_fundamentals": "weak",
-        "technicals": "unknown",
-        "governance": "unknown"
-      },
-      "primary_screen_reason": "long_term_fundamentals"
     },
     {
       "name": "Goodyear India Ltd",
@@ -4169,15 +4157,15 @@
     },
     {
       "name": "Lumax Industries",
-      "reason": "P/E 32.6x already full; four_box 3.0 but no named inflection -> override to neither. VP thread found (topic 2970), not deep-read.",
+      "reason": "Deep-dive pass 1 (2026-09-17): growth story confirmed genuinely order-book-backed and accelerating - ~Rs2,200cr order book (88% LED), FY26 record revenue Rs4,184cr (+23% YoY, EBITDA +42.8%), Q1 FY27 accelerating further to +32.6% revenue/+41.2% PAT YoY. Clean 4/4-year Coffee-Can track record (FY22-25) sustained through a heavy capex phase. Two caveats: borrowings nearly quadrupled since FY22 (Rs401cr->Rs973cr) funding the Bangalore LED-capacity facility, and management attributed part of the recent margin beat to 'exceptional tooling profitability,' setting a more modest 12-13% margin target 2 years out. Customer concentration real (top-8 ~85%, Mahindra ~30% + Maruti ~16-26% roughly half the business), though new Tata/Mahindra wins add breadth. Promoter flat 75%, no pledge; DII holding rising (1.3%->6.7% over 3 years). Conviction Medium (unchanged, net wash - stronger growth offset by rising leverage + margin caveat); thesis_fit stays neither (valuation still full at ~26.6x P/E, growth magnitude doesn't support literal 10x).",
       "dimensions": {
-        "thesis": "unknown",
-        "recent_fundamentals": "unknown",
-        "long_term_fundamentals": "unknown",
-        "technicals": "unknown",
-        "governance": "unknown"
+        "thesis": "neither",
+        "recent_fundamentals": "strong",
+        "long_term_fundamentals": "strong",
+        "technicals": "stretched",
+        "governance": "clean"
       },
-      "primary_screen_reason": "unclassified"
+      "primary_screen_reason": "valuation"
     },
     {
       "name": "Lumino Industries",
@@ -4337,13 +4325,13 @@
     },
     {
       "name": "Marksans Pharma",
-      "reason": "Strong debt-free growth (FY25 +37.6%, UK/Europe +74.7%) but +89.7% 1yr run-up already priced in; four_box 2.5. VP thread found (topic 1520), not deep-read.",
+      "reason": "Deep-dive pass 1 (2026-09-18): margin expansion now a 2-quarter pattern, not one-off (EBITDA margin 17.9%->22.8%->25.3% over last 3 reported quarters). Europe expansion now concrete (two named acquisitions - QliniQ B.V. closed Jun-2026, ABCnow GmbH agreed). Corrected a data-entry conflation: prior 'FY25 revenue growth +37.6%' was actually the Q1 FY27 YoY figure mislabeled - verified actual FY25 growth +20.5%, FY26 +15.6%. Working capital unusually heavy for the sector (inventory days ~270, cash-conversion-cycle ~254 vs ~100-150 for Ajanta/Alembic), funded partly by rising borrowings. four_box unchanged at 2.5 (tam/moat weak, valuation weak after ~90% 1-yr run-up to 28x P/E near 52wk high) - thesis_fit stays neither. Conviction Medium -> Medium-High.",
       "dimensions": {
-        "thesis": "unknown",
-        "recent_fundamentals": "unknown",
-        "long_term_fundamentals": "unknown",
+        "thesis": "neither",
+        "recent_fundamentals": "strong",
+        "long_term_fundamentals": "neutral",
         "technicals": "stretched",
-        "governance": "unknown"
+        "governance": "watch"
       },
       "primary_screen_reason": "technicals"
     },
@@ -5081,23 +5069,23 @@
     },
     {
       "name": "Pitti Engineering Ltd",
-      "reason": "Organised electrical-steel lamination leader (~8% share) moving up value chain to 15%+ stator/rotor assemblies; ~24% rev CAGR, ~19% ROCE/ROE, post-merger integration + railway/renewable/power tailwinds. trusted-x @suru27 (high), no floor. No pricing power (fixed EBITDA/tonne), finite TAM, promoter selling ~Rs1400+. four_box 3.0, label declined on unit economics.",
+      "reason": "Deep-dive pass 1 (2026-09-18): the original 'near-debt-free by FY26' framing does not hold - FY26 borrowings actually rose 17.5% YoY to Rs811cr, and management's own updated target now pushes net-debt reduction (to ~Rs300cr) out to FY28 - a genuine, quantifiable guidance miss. ROCE kept declining (18.9%->14.8%, now a 2-reading confirmed downtrend). TTM PAT growth is actually -1% despite EBITDA-margin expansion, because the effective tax rate stepped up 24%->30% (ESOP disallowance + hedging accounting). The prior 'promoter selling around Rs1,400+' bear-case point does not show up in shareholding data: promoter holding flat 54.17-54.18% since Dec-2024, pledge fully released since Dec-2024 - resolved as positive, not an active exit signal. Raw-material-cost ratio decline (67%->61.9%, FY21-25) is hard evidence the HVA thesis is real. four_box valuation box downgraded weak->no (score 2.5) - thesis_fit stays neither via the mechanical rule. Conviction Medium -> Low-Medium.",
       "dimensions": {
-        "thesis": "unknown",
-        "recent_fundamentals": "unknown",
-        "long_term_fundamentals": "unknown",
+        "thesis": "neither",
+        "recent_fundamentals": "weak",
+        "long_term_fundamentals": "weak",
         "technicals": "unknown",
-        "governance": "red"
+        "governance": "clean"
       },
-      "primary_screen_reason": "governance"
+      "primary_screen_reason": "recent_fundamentals"
     },
     {
       "name": "Pix Transmissions Ltd",
-      "reason": "Real EV two-wheeler belt catalyst, but Q4FY26 EBITDA/PAT declined YoY and a trusted tracker exited over management opacity.",
+      "reason": "Deep-dive pass 1 (2026-09-18): Q1 FY27's headlined 91% PAT jump is substantially a non-operating investment/fair-value gain per two independent sources, not a core-margin recovery - reinforces the Q4 FY26 core weakness (EBITDA -8%, PAT -11% YoY) a trusted tracker already flagged. No independent corroboration found for any specific EV two-wheeler (Ola/Ather) belt order - remains a community-sourced narrative, not a disclosed commercial commitment. Balance sheet genuinely strong (near debt-free 0.09x gearing, CARE A+(Stable)/A1+ reaffirmed Mar-2026, promoter ~62% stable, zero pledge). Persistent management-transparency complaints unresolved; the trusted tracker's opacity-driven exit stands. Conviction Low-Medium (unchanged).",
       "dimensions": {
-        "thesis": "unknown",
+        "thesis": "neither",
         "recent_fundamentals": "weak",
-        "long_term_fundamentals": "unknown",
+        "long_term_fundamentals": "neutral",
         "technicals": "unknown",
         "governance": "red"
       },
@@ -6389,15 +6377,15 @@
     },
     {
       "name": "Siddhika Coating Limited- A Paint Company",
-      "reason": "Debt-free paint applicator (18yr SKK Japan tie-up), ~24% ROE, 20-25% growth; four_box 3.0 but growth rate doesn't support 10x label -- quality compounder not asymmetric bet. Capital-allocation drag (cash hoarding in MFs)",
+      "reason": "Deep-dive pass 1 (2026-09-17): primary-document pass (first-ever deep dive) confirms the thread's cash-hoarding narrative with hard numbers - net cash ~Rs9.7cr sitting in MFs/FDs, zero debt, clean 3/3-checkable-fiscal-year Coffee-Can pass (FY23-25 each cleared >=10% revenue growth and >=15% ROCE). OPM expanded structurally 9%(FY22)->22%(FY26) as scale absorbed largely fixed application-business costs - a genuine margin story. At ~14.5x trailing P/E the market doesn't look like it's pricing in this quality (reverse-P/E implies only ~10-12% forward growth needed). Growth decelerating off a larger base (+48%->17%->15%->14% half-yearly YoY over last 4 periods); promoter flat 63.09% for 2+ years, no pledge. four_box 3.0 but growth rate doesn't support a 10x label - quality compounder not an asymmetric bet; capital-allocation drag (cash hoarding). Conviction Medium (unchanged).",
       "dimensions": {
-        "thesis": "unknown",
-        "recent_fundamentals": "unknown",
+        "thesis": "neither",
+        "recent_fundamentals": "neutral",
         "long_term_fundamentals": "strong",
         "technicals": "unknown",
-        "governance": "unknown"
+        "governance": "clean"
       },
-      "primary_screen_reason": "unclassified"
+      "primary_screen_reason": "thesis"
     },
     {
       "name": "Signpost India Ltd",
@@ -6425,15 +6413,15 @@
     },
     {
       "name": "Skipper",
-      "reason": "Real T&D-capex tailwind, four_box 3.0, but headline ROCE (~47.8%)/growth (~65.7%) figures look anomalous/unverified; capped Medium. Pre-existing 246-post VP thread (topic 2952), too large to deep-read this pass.",
+      "reason": "Deep-dive pass 1 (2026-09-18): record Rs9,217cr order book (Jun-26, ~1.65x FY26 revenue) incl. Aug-26 Rs1,305cr domestic 765kV + North America export win. Management raised FY27 guidance mid-year (export inflow Rs650cr->Rs1,500cr; total inflow to Rs7,500cr) - a credibility positive. ROCE trajectory (9%->24%, FY20-26) and FY24's +65.8% growth figure independently confirmed as genuine, not aggregator artifacts (resolves the prior 'anomalous/unverified' caveat). New caution: gross debt rose Rs579cr(FY24)->Rs931cr(FY26), FCF conversion stays thin (~1% of EBITDA); promoter holding fell 66.50%->61.48% in one month (Jun->Jul-26) concurrent with an FII jump - likely a block deal, unconfirmed, watch next quarter. Conviction Medium -> Medium-High; thesis_fit stays neither (four_box 3.0, analyst_override retained - capital-intensive/leveraged EPC economics don't fit a 10x/100x label despite strong fundamentals).",
       "dimensions": {
         "thesis": "neither",
-        "recent_fundamentals": "unknown",
-        "long_term_fundamentals": "unknown",
+        "recent_fundamentals": "strong",
+        "long_term_fundamentals": "strong",
         "technicals": "unknown",
-        "governance": "unknown"
+        "governance": "watch"
       },
-      "primary_screen_reason": "size"
+      "primary_screen_reason": "thesis"
     },
     {
       "name": "Skyways",
@@ -7252,18 +7240,6 @@
       "primary_screen_reason": "unclassified"
     },
     {
-      "name": "Univastu India",
-      "reason": "EPC/construction, cheap (P/E ~12x, 27% growth) but debtor days doubled 58->121; four_box 2.5, no exception -> neither.",
-      "dimensions": {
-        "thesis": "unknown",
-        "recent_fundamentals": "unknown",
-        "long_term_fundamentals": "unknown",
-        "technicals": "stretched",
-        "governance": "unknown"
-      },
-      "primary_screen_reason": "technicals"
-    },
-    {
       "name": "Universal Cables",
       "reason": "four_box 3.0 but single-digit ROE/ROCE undercuts the growth math -> override to neither.",
       "dimensions": {
@@ -7850,6 +7826,18 @@
         "governance": "red"
       },
       "primary_screen_reason": "governance"
+    },
+    {
+      "name": "Devson Catalyst Ltd",
+      "reason": "Deep-dive pass 1 (2026-09-18) downgraded thesis_fit 10x-in-2-3-years -> neither (four_box 2.0): revenue growth decelerated sharply 3 straight years (+30% -> +23% -> +5.6%), working-capital days elongated 70->128 (debtor days 87->110) in FY26 independent of growth. New evidenced win (Ammonia Decomposition Catalyst at NMDC + first Tata Steel order Sept-2026) is a real R&D proof point but unquantified. Customer concentration (top-10 = 76%) and single-country export concentration (Kuwait ~46% of exports) now explicit. IPO-funded capacity doubling (6,205->11,293 MTPA) financed, not aspirational; ~Rs443cr mkt cap, ~36x P/E. Conviction stays Low.",
+      "dimensions": {
+        "thesis": "neither",
+        "recent_fundamentals": "weak",
+        "long_term_fundamentals": "weak",
+        "technicals": "unknown",
+        "governance": "unknown"
+      },
+      "primary_screen_reason": "long_term_fundamentals"
     }
   ],
   "tierA_intro": "Names combining real (not narrative-only) fundamental momentum, a specific catalyst, and a credible path to the thesis return, with no material red flags found.",
@@ -8186,6 +8174,21 @@
       "name": "Yash Highvoltage Ltd",
       "tagline": "score 54 (was 62) — phreakv6 small-position bushing-shortage pick, trusted signal aging",
       "rationale": "Moved tierA -> tierB this run: refreshed conviction_score is 54.0 (base 32 + thesis 14 + trust 8), down from 62.0 at last placement, so it now sits in the 35-59 tierB band. The drop is recency decay — the phreakv6 hold and the cross-concall bushing-shortage corroboration have aged past the score's recency weighting, so the corroboration bonus fell to 0 and distinct_trusted_users to 0. Underlying thesis unchanged: global high-voltage bushing shortage independently referenced across 3 unrelated companies' concalls, phreakv6's own small position. Still the cleanest catalyst case among the ex-tierA batch; re-crosses to tierA if a fresh trusted mention or a confirmed order/margin step-up lands."
+    },
+    {
+      "name": "RNIT AI Solutions Ltd",
+      "tagline": "Govt facial-recognition SaaS microcap, ROCE 12%->20%, low leverage (0.13x)",
+      "rationale": "Deep-dive pass 1 (2026-09-18): listed vehicle emerged from NCLT insolvency resolution (real operating history ~2yrs only). ROCE improved to ~20.2% (from ~12.2%), OPM to ~40% (from ~32%) - genuine fundamental improvement. Prior D/E ~5.0x figure was stale/mis-scaled - corrected to ~0.13x, genuinely low leverage. Two preferential allotments (~Rs47cr) drove a promoter-holding swing (52.28%->73.74%->67.42%) that reads as dilution, not selling. First non-government diversification (Aug-2026 1FC Technology fintech/wealthtech deal, Rs5-15cr, unproven at scale). Seasonal revenue pattern (Q4 govt year-end peak), elevated working capital (debtor days 146). four_box stays 3.0, thesis_fit 10x-in-2-3-years held. Conviction Medium (unchanged). [conviction_score 39.5]"
+    },
+    {
+      "name": "Zinka Logistics Solutions Ltd (BlackBuck)",
+      "tagline": "First full profitable FY (PAT Rs160cr), SuperLoads scaling ahead of guide",
+      "rationale": "Deep-dive pass 1 (2026-09-18): FY26 was BlackBuck's first full profitable year (PAT Rs160cr, revenue +53% to Rs652cr, adj. EBITDA +84% to Rs190cr) after four straight loss-making years. SuperLoads scaling faster than guided (~50% QoQ, hit 14-city target on schedule, roughly halfway to 5,000-monthly-load goal). Correction: EBITDA margin actually compressing YoY (24.9% vs 29% Q1 FY27) on SuperLoads mix dilution, not expanding as previously assumed. Promoter holding fell 27.70%->25.05% over 4 quarters plus a confirmed Nov-2025 founder block deal (~2% stake); FII holding absorbed the supply (11.6%->32.5%). New Rs22cr tax dispute flagged in Q1 FY27 concall; FASTag-vs-GNSS regulatory transition still unresolved. Valuation de-rated ~84x -> ~65-67x P/E as earnings caught up. Conviction Low-Medium -> Medium. [conviction_score 43.9]"
+    },
+    {
+      "name": "Univastu India",
+      "tagline": "Rs1,021cr+ metro order book (4.2x FY26 revenue), ~37% revenue CAGR",
+      "rationale": "Deep-dive pass 1 (2026-09-18) upgraded thesis_fit neither -> 10x-in-2-3-years (four_box 2.5->3.5, moat and TAM re-scored on confirmed evidence): Rs1,021cr+ order book confirmed (L&T Mumbai Metro Line4/4A Rs392cr, IRCON Mumbai Metro Rs485.67cr, Pune Metro Rs229.97cr/35% share). Revenue growth accelerating - FY22-26 CAGR ~37%, Q1 FY27 +252% YoY as the metro order book began executing. Real diversification optionality found (URBS Systems AB data-centre MOU, Univastu NUOS BMS/IoT JV, exclusive Myrtha Pools aquatics partnership). Multi-quarter promoter-holding decline (71.2%->64.24%) resolved as largely a promoter-participated Rs16cr warrant raise, not an exit signal. Serious caution: debtor days worsened to ~121, forcing a tripled borrowing limit (~Rs200cr) plus the warrant raise - growth is currently working-capital-funded, capping conviction at Medium. [conviction_score 48.5]"
     }
   ],
   "tierC_intro": "Speculative or low-conviction - worth tracking, not yet actionable. Several of these are unconfirmed INFLECTION stories: a real, recent-quarter change plausibly explains why trailing multi-year averages don't reflect the current picture - flagged for visibility and monitoring, not treated as confirmed.",
@@ -8276,15 +8279,15 @@
     },
     {
       "name": "Bhadora Industries Ltd",
-      "reason": "Sovrenn-discovery tier 4.65. No VP thread - web/filings only. Small integrated LV power-cable maker (PVC/XLPE/AB for discom + infra T&D): revenue Rs 18.8 Cr FY23 -> Rs 110.7 Cr FY25, Q1 FY27 net sales +226% to Rs 45.3 Cr on 'mix + realisations'; reported ROE ~51%/ROCE ~42% off a tiny base, D/E ~0.9. Trailing-vs-inflection: thesis_fit 10x-in-2-3-years UNCONFIRMED (realisation-led/reversible, capex funding unclear, commoditised vs Polycab/KEI, microcap SME) - conviction Low-Medium leaning cautious. Theme: priority-1 copper/electrification + grid-transmission (cable). value_chain + growth_trajectory added.",
+      "reason": "Deep-dive pass 1 (2026-09-18): FY26 operating cash flow was Rs -27cr against Rs10cr PAT, debtor days jumped 72->~155 and working-capital days 36->~150. FY26 PAT flat-to-down YoY (~Rs10cr vs Rs10.8cr FY25) even as revenue grew - earnings quality weakened despite the top-line story. Q1 FY27 net sales +226% YoY confirmed against press coverage but management attributes it to mix/realisations, not a disclosed order book - still unconfirmed as volume-led. Two corrections in Bhadora's favour: D/E actually ~0.29 (not ~0.9), and Khargone capex partially funded by the Aug-2025 IPO's Rs55.62cr proceeds. Promoter holding rose 62.75%->65.59% - no exit signal. No VP thread, no broker coverage, no disclosed order book - thin independent-scrutiny layer for a commoditised LV-cable maker vs Polycab/KEI/RR Kabel. Conviction Low-Medium -> Low.",
       "dimensions": {
         "thesis": "fit",
-        "recent_fundamentals": "unknown",
+        "recent_fundamentals": "weak",
         "long_term_fundamentals": "unknown",
         "technicals": "unknown",
         "governance": "unknown"
       },
-      "primary_screen_reason": "no_thread"
+      "primary_screen_reason": "recent_fundamentals"
     },
     {
       "name": "Bondada Engineering Ltd",
@@ -8369,18 +8372,6 @@
         "governance": "unknown"
       },
       "primary_screen_reason": "no_thread"
-    },
-    {
-      "name": "Devson Catalyst Ltd",
-      "reason": "Industrial catalysts/adsorbents, pre-IPO ROCE ~48%, listed Jul 2026 - zero public quarters, SME liquidity, customer concentration; 10x frame LOW conviction",
-      "dimensions": {
-        "thesis": "unknown",
-        "recent_fundamentals": "unknown",
-        "long_term_fundamentals": "unknown",
-        "technicals": "unknown",
-        "governance": "unknown"
-      },
-      "primary_screen_reason": "unclassified"
     },
     {
       "name": "Divgi TorqTransfer Systems Ltd",
@@ -8672,15 +8663,15 @@
     },
     {
       "name": "Kwality Pharmaceuticals",
-      "reason": "Genuine guidance-backed recent-quarter inflection, but stock already up ~8x and receivables need watching.",
+      "reason": "Deep-dive pass 1 (2026-09-18): FY27 revenue guidance raised twice within the year (Rs600cr->650cr->700cr+); Q1 FY27 (+46% revenue/+116-119% PAT) tracking it. FY26 operating cash flow fell to Rs17cr against Rs67cr PAT (CFO/PAT ~25-32%, down from ~85% FY25) as debtor days rose to ~203-208 - hard numbers confirming the receivables concern. Oncology mix (central to the FY29 margin thesis) came in at ~20% of Q1 FY27 revenue vs a previously guided ~26% on registration delays; a promoter-linked oncology JV (Calor Biopharma) is now quietly on hold. Debt-to-equity improved (0.44->0.39), zero pledge, FIIs accumulating. Conviction Low-Medium (unchanged); stock's ~8x one-year re-rate to ~45x P/E means much of the inflection looks priced in.",
       "dimensions": {
         "thesis": "neither",
-        "recent_fundamentals": "unknown",
+        "recent_fundamentals": "weak",
         "long_term_fundamentals": "unknown",
         "technicals": "stretched",
         "governance": "unknown"
       },
-      "primary_screen_reason": "size"
+      "primary_screen_reason": "valuation"
     },
     {
       "name": "Laxmi Dental Ltd",
@@ -8849,18 +8840,6 @@
         "governance": "unknown"
       },
       "primary_screen_reason": "unclassified"
-    },
-    {
-      "name": "RNIT AI Solutions Ltd",
-      "reason": "Govt facial-recognition SaaS microcap, 245%/yr growth off low base; rich P/E ~55-60x + govt-customer concentration cap conviction; no VP thread",
-      "dimensions": {
-        "thesis": "unknown",
-        "recent_fundamentals": "unknown",
-        "long_term_fundamentals": "unknown",
-        "technicals": "unknown",
-        "governance": "unknown"
-      },
-      "primary_screen_reason": "no_thread"
     },
     {
       "name": "Rapicut Carbides Ltd.",
@@ -9065,18 +9044,6 @@
         "governance": "unknown"
       },
       "primary_screen_reason": "unclassified"
-    },
-    {
-      "name": "Zinka Logistics Solutions Ltd (BlackBuck)",
-      "reason": "SuperLoads freight-brokerage growing 271% YoY, core tolling gaining share, joinjp2003 named it a 2025 conviction bet. FASTag/GNSS regulatory dependency risk + promoter selling + rich valuation (P/E ~84).",
-      "dimensions": {
-        "thesis": "unknown",
-        "recent_fundamentals": "unknown",
-        "long_term_fundamentals": "unknown",
-        "technicals": "unknown",
-        "governance": "red"
-      },
-      "primary_screen_reason": "governance"
     }
   ],
   "highCaution": [
@@ -9857,6 +9824,18 @@
         "long_term_fundamentals": "weak",
         "technicals": "unknown",
         "governance": "red"
+      },
+      "primary_screen_reason": "governance"
+    },
+    {
+      "name": "Golkunda Diamond",
+      "reason": "HIGH CAUTION (2026-09-18 deep dive): Infomerics placed Rs49cr bank facilities on Rating Watch-Negative (Apr-2026) citing WC pressure, high bank-limit utilisation, and ~85-90% Middle-East export concentration. Company raised Rs27.6cr via a dilutive preferential warrant issue (Jun-2026) explicitly earmarked partly for working capital - corroborates rather than resolves the rating flag. Promoter holding (72.8%) locked in to dilute to ~61.4% once warrants convert within 18mo. FY26 revenue growth only +11.5% (softer than the one strong Q1 FY27 print +22.7%) - inflection narrative still rests on one quarter. Genuine positives (new Mumbai plant live Aug-2026, 15% dividend) don't offset the new credit-rating flag. Conviction Medium -> Low-Medium.",
+      "dimensions": {
+        "thesis": "neither",
+        "recent_fundamentals": "weak",
+        "long_term_fundamentals": "weak",
+        "technicals": "unknown",
+        "governance": "watch"
       },
       "primary_screen_reason": "governance"
     }

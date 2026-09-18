@@ -1404,6 +1404,51 @@
     }
   },
   {
+    "slug": "marksans-pharma",
+    "name": "Marksans Pharma",
+    "conviction_score": 52.75,
+    "own_conviction": 52.75,
+    "trusted_lift": 0.0,
+    "conviction": "Medium-High",
+    "thesis_fit": "neither",
+    "quality_score": 73.0,
+    "market_cap_tier": "Mid-cap",
+    "red_flag_tier": null,
+    "source": "external-lead",
+    "score_breakdown": {
+      "own_conviction": 52.75,
+      "trusted_lift": 0.0,
+      "base_anchor": 35,
+      "thesis_bonus": 0,
+      "quality_lift": 5.75,
+      "management_component": 12.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "positive",
+        "guidance_credibility": "reliable",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "initiated"
+      }
+    }
+  },
+  {
     "slug": "jeena-sikho-lifecare",
     "name": "Jeena Sikho Lifecare",
     "conviction_score": 52.21,
@@ -1620,51 +1665,6 @@
       },
       "distinct_trusted_users": 0,
       "management_quality": null
-    }
-  },
-  {
-    "slug": "marksans-pharma",
-    "name": "Marksans Pharma",
-    "conviction_score": 51.25,
-    "own_conviction": 51.25,
-    "trusted_lift": 0.0,
-    "conviction": "Medium-High",
-    "thesis_fit": "neither",
-    "quality_score": 67.0,
-    "market_cap_tier": "Mid-cap",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 51.25,
-      "trusted_lift": 0.0,
-      "base_anchor": 35,
-      "thesis_bonus": 0,
-      "quality_lift": 4.25,
-      "management_component": 12.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "reliable",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "initiated"
-      }
     }
   },
   {
@@ -2337,51 +2337,6 @@
     }
   },
   {
-    "slug": "zinka-logistics-blackbuck",
-    "name": "Zinka Logistics Solutions Ltd (BlackBuck)",
-    "conviction_score": 45.68,
-    "own_conviction": 45.0,
-    "trusted_lift": 0.68,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 74.0,
-    "market_cap_tier": "mid-cap",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 45.0,
-      "trusted_lift": 0.68,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": 6.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.68,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.68,
-        "pos_raw": 0.68,
-        "pos_capped": 0.68,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 3,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 3,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 3,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "unclear",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
-      }
-    }
-  },
-  {
     "slug": "frontier-springs",
     "name": "Frontier Springs",
     "conviction_score": 45.25,
@@ -2591,6 +2546,51 @@
         "capital_allocation_track_record": "disciplined",
         "rpt_trend": "unclear",
         "shareholder_returns": "consistent"
+      }
+    }
+  },
+  {
+    "slug": "zinka-logistics-blackbuck",
+    "name": "Zinka Logistics Solutions Ltd (BlackBuck)",
+    "conviction_score": 43.93,
+    "own_conviction": 43.25,
+    "trusted_lift": 0.68,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 67.0,
+    "market_cap_tier": "mid-cap",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 43.25,
+      "trusted_lift": 0.68,
+      "base_anchor": 25,
+      "thesis_bonus": 14,
+      "quality_lift": 4.25,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.68,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.68,
+        "pos_raw": 0.68,
+        "pos_capped": 0.68,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 3,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 3,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 3,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
       }
     }
   },
@@ -3416,6 +3416,51 @@
         "source": "ledger"
       },
       "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "no-track-record",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
+      }
+    }
+  },
+  {
+    "slug": "rnit-ai-solutions-ltd",
+    "name": "RNIT AI Solutions Ltd",
+    "conviction_score": 39.5,
+    "own_conviction": 39.5,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 52.0,
+    "market_cap_tier": "Microcap",
+    "red_flag_tier": null,
+    "source": "legacy-108-screen",
+    "score_breakdown": {
+      "own_conviction": 39.5,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 14,
+      "quality_lift": 0.5,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
       "management_quality": {
         "assessment": "neutral",
         "guidance_credibility": "no-track-record",
@@ -5025,96 +5070,6 @@
     }
   },
   {
-    "slug": "rnit-ai-solutions-ltd",
-    "name": "RNIT AI Solutions Ltd",
-    "conviction_score": 34.0,
-    "own_conviction": 34.0,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 5.0,
-    "market_cap_tier": "Microcap",
-    "red_flag_tier": null,
-    "source": "legacy-108-screen",
-    "score_breakdown": {
-      "own_conviction": 34.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": -5.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "no-track-record",
-        "capital_allocation_track_record": "unclear",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
-      }
-    }
-  },
-  {
-    "slug": "kwality-pharmaceuticals",
-    "name": "Kwality Pharmaceuticals",
-    "conviction_score": 33.58,
-    "own_conviction": 32.75,
-    "trusted_lift": 0.83,
-    "conviction": "Low-Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 61.0,
-    "market_cap_tier": "Small/Mid-cap",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 32.75,
-      "trusted_lift": 0.83,
-      "base_anchor": 16,
-      "thesis_bonus": 14,
-      "quality_lift": 2.75,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.83,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.83,
-        "pos_raw": 0.83,
-        "pos_capped": 0.83,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "neutral",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
-      }
-    }
-  },
-  {
     "slug": "swastika-castal",
     "name": "Swastika Castal Ltd",
     "conviction_score": 33.05,
@@ -5406,51 +5361,6 @@
     }
   },
   {
-    "slug": "epl-limited",
-    "name": "EPL Ltd",
-    "conviction_score": 32.0,
-    "own_conviction": 32.0,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": 70.0,
-    "market_cap_tier": "Mid-cap",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 32.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 5.0,
-      "management_component": 2.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "unclear",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "consistent"
-      }
-    }
-  },
-  {
     "slug": "bliss-gvs-pharma",
     "name": "Bliss GVS Pharma Ltd",
     "conviction_score": 31.75,
@@ -5580,6 +5490,51 @@
     }
   },
   {
+    "slug": "kwality-pharmaceuticals",
+    "name": "Kwality Pharmaceuticals",
+    "conviction_score": 31.58,
+    "own_conviction": 30.75,
+    "trusted_lift": 0.83,
+    "conviction": "Low-Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 53.0,
+    "market_cap_tier": "Small/Mid-cap",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 30.75,
+      "trusted_lift": 0.83,
+      "base_anchor": 16,
+      "thesis_bonus": 14,
+      "quality_lift": 0.75,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.83,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.83,
+        "pos_raw": 0.83,
+        "pos_capped": 0.83,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
+      }
+    }
+  },
+  {
     "slug": "millworks-technologies",
     "name": "Millworks Technologies Ltd",
     "conviction_score": 31.5,
@@ -5705,6 +5660,51 @@
         "capital_allocation_track_record": null,
         "rpt_trend": "unclear",
         "shareholder_returns": null
+      }
+    }
+  },
+  {
+    "slug": "epl-limited",
+    "name": "EPL Ltd",
+    "conviction_score": 31.0,
+    "own_conviction": 31.0,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 66.0,
+    "market_cap_tier": "Mid-cap",
+    "red_flag_tier": null,
+    "source": "external-lead",
+    "score_breakdown": {
+      "own_conviction": 31.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 4.0,
+      "management_component": 2.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "consistent"
       }
     }
   },
@@ -7935,51 +7935,6 @@
       },
       "distinct_trusted_users": 2,
       "management_quality": null
-    }
-  },
-  {
-    "slug": "pix-transmissions-ltd",
-    "name": "Pix Transmissions Ltd",
-    "conviction_score": 25.86,
-    "own_conviction": 22.75,
-    "trusted_lift": 3.11,
-    "conviction": "Low-Medium",
-    "thesis_fit": "neither",
-    "quality_score": 81.0,
-    "market_cap_tier": "Small-cap",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 22.75,
-      "trusted_lift": 3.11,
-      "base_anchor": 16,
-      "thesis_bonus": 0,
-      "quality_lift": 7.75,
-      "management_component": -1.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 3.11,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 3.11,
-        "pos_raw": 3.11,
-        "pos_capped": 3.11,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 2,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": {
-        "assessment": "concern",
-        "guidance_credibility": "no-track-record",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "consistent"
-      }
     }
   },
   {
@@ -12528,6 +12483,51 @@
     }
   },
   {
+    "slug": "pix-transmissions-ltd",
+    "name": "Pix Transmissions Ltd",
+    "conviction_score": 21.61,
+    "own_conviction": 18.5,
+    "trusted_lift": 3.11,
+    "conviction": "Low-Medium",
+    "thesis_fit": "neither",
+    "quality_score": 64.0,
+    "market_cap_tier": "Small-cap",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 18.5,
+      "trusted_lift": 3.11,
+      "base_anchor": 16,
+      "thesis_bonus": 0,
+      "quality_lift": 3.5,
+      "management_component": -1.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 3.11,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 3.11,
+        "pos_raw": 3.11,
+        "pos_capped": 3.11,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 2,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
+      "management_quality": {
+        "assessment": "concern",
+        "guidance_credibility": "no-track-record",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "consistent"
+      }
+    }
+  },
+  {
     "slug": "divgi-torqtransfer-systems",
     "name": "Divgi TorqTransfer Systems Ltd",
     "conviction_score": 21.5,
@@ -14556,51 +14556,6 @@
     }
   },
   {
-    "slug": "bhadora-industries",
-    "name": "Bhadora Industries Ltd",
-    "conviction_score": 16.5,
-    "own_conviction": 16.5,
-    "trusted_lift": 0.0,
-    "conviction": "Low",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 52.0,
-    "market_cap_tier": "Micro-cap",
-    "red_flag_tier": null,
-    "source": "sovrenn-discovery",
-    "score_breakdown": {
-      "own_conviction": 16.5,
-      "trusted_lift": 0.0,
-      "base_anchor": 8,
-      "thesis_bonus": 14,
-      "quality_lift": 0.5,
-      "management_component": -6.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "concern",
-        "guidance_credibility": "no-track-record",
-        "capital_allocation_track_record": "no-track-record",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
-      }
-    }
-  },
-  {
     "slug": "uno-minda",
     "name": "Uno Minda Ltd",
     "conviction_score": 16.41,
@@ -15033,6 +14988,51 @@
       },
       "distinct_trusted_users": 1,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "pitti-engineering",
+    "name": "Pitti Engineering Ltd",
+    "conviction_score": 16.05,
+    "own_conviction": 12.75,
+    "trusted_lift": 3.3,
+    "conviction": "Low-Medium",
+    "thesis_fit": "neither",
+    "quality_score": 37.0,
+    "market_cap_tier": "Small/Mid-cap",
+    "red_flag_tier": null,
+    "source": "trusted-x",
+    "score_breakdown": {
+      "own_conviction": 12.75,
+      "trusted_lift": 3.3,
+      "base_anchor": 16,
+      "thesis_bonus": 0,
+      "quality_lift": -3.25,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 3.3,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 3.3,
+        "pos_raw": 3.3,
+        "pos_capped": 3.3,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
+      }
     }
   },
   {
@@ -19527,51 +19527,6 @@
     }
   },
   {
-    "slug": "pitti-engineering",
-    "name": "Pitti Engineering Ltd",
-    "conviction_score": 15.8,
-    "own_conviction": 12.5,
-    "trusted_lift": 3.3,
-    "conviction": "Low-Medium",
-    "thesis_fit": "neither",
-    "quality_score": 36.0,
-    "market_cap_tier": "Small/Mid-cap",
-    "red_flag_tier": null,
-    "source": "trusted-x",
-    "score_breakdown": {
-      "own_conviction": 12.5,
-      "trusted_lift": 3.3,
-      "base_anchor": 16,
-      "thesis_bonus": 0,
-      "quality_lift": -3.5,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 3.3,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 3.3,
-        "pos_raw": 3.3,
-        "pos_capped": 3.3,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "neutral",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "unclear"
-      }
-    }
-  },
-  {
     "slug": "john-cockerill-india-a-case-study-on-decarbonisation-of-steel",
     "name": "John Cockerill India: A Case Study on Decarbonisation of Steel",
     "conviction_score": 15.68,
@@ -19875,6 +19830,51 @@
     }
   },
   {
+    "slug": "bhadora-industries",
+    "name": "Bhadora Industries Ltd",
+    "conviction_score": 14.75,
+    "own_conviction": 14.75,
+    "trusted_lift": 0.0,
+    "conviction": "Low",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 45.0,
+    "market_cap_tier": "Micro-cap",
+    "red_flag_tier": null,
+    "source": "sovrenn-discovery",
+    "score_breakdown": {
+      "own_conviction": 14.75,
+      "trusted_lift": 0.0,
+      "base_anchor": 8,
+      "thesis_bonus": 14,
+      "quality_lift": -1.25,
+      "management_component": -6.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "concern",
+        "guidance_credibility": "no-track-record",
+        "capital_allocation_track_record": "no-track-record",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
+      }
+    }
+  },
+  {
     "slug": "pennar-industries",
     "name": "Pennar Industries Limited",
     "conviction_score": 14.42,
@@ -19959,51 +19959,6 @@
         "assessment": "concern",
         "guidance_credibility": "over-promises",
         "capital_allocation_track_record": "neutral",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
-      }
-    }
-  },
-  {
-    "slug": "devson-catalyst-ltd",
-    "name": "Devson Catalyst Ltd",
-    "conviction_score": 14.25,
-    "own_conviction": 14.25,
-    "trusted_lift": 0.0,
-    "conviction": "Low",
-    "thesis_fit": "neither",
-    "quality_score": 75.0,
-    "market_cap_tier": "Microcap SME-platform",
-    "red_flag_tier": null,
-    "source": "legacy-108-screen",
-    "score_breakdown": {
-      "own_conviction": 14.25,
-      "trusted_lift": 0.0,
-      "base_anchor": 8,
-      "thesis_bonus": 0,
-      "quality_lift": 6.25,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "no-track-record",
-        "capital_allocation_track_record": "unclear",
         "rpt_trend": "unclear",
         "shareholder_returns": "none"
       }
@@ -21174,6 +21129,51 @@
       },
       "distinct_trusted_users": 2,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "devson-catalyst-ltd",
+    "name": "Devson Catalyst Ltd",
+    "conviction_score": 10.5,
+    "own_conviction": 10.5,
+    "trusted_lift": 0.0,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 60.0,
+    "market_cap_tier": "Microcap SME-platform",
+    "red_flag_tier": null,
+    "source": "legacy-108-screen",
+    "score_breakdown": {
+      "own_conviction": 10.5,
+      "trusted_lift": 0.0,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 2.5,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "no-track-record",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
+      }
     }
   },
   {
@@ -34962,20 +34962,20 @@
     "slug": "golkunda-diamonds",
     "name": "Golkunda Diamond",
     "conviction_score": 0,
-    "own_conviction": -6.75,
+    "own_conviction": -16.12,
     "trusted_lift": 0.0,
     "conviction": "Low-Medium",
     "thesis_fit": "neither",
-    "quality_score": 75.0,
+    "quality_score": 37.5,
     "market_cap_tier": "Micro-cap",
     "red_flag_tier": "HIGH CAUTION",
     "source": "external-lead",
     "score_breakdown": {
-      "own_conviction": -6.75,
+      "own_conviction": -16.12,
       "trusted_lift": 0.0,
       "base_anchor": 16,
       "thesis_bonus": 0,
-      "quality_lift": 6.25,
+      "quality_lift": -3.12,
       "management_component": -4.0,
       "red_flag_penalty": 25,
       "red_flag_forced_zero": false,
