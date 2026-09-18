@@ -47,5 +47,34 @@
     "note": "Genuine copper-recycling/import-substitution tailwind and large TAM against a tiny market cap, but moat is weak - a ValuePickr forum user specifically described exiting this name over commodity/value-addition concerns ('you cannot rely purely on commodity sales'). No confirmed P/E; valuation treated as weak/unproven rather than clearly cheap.",
     "analyst_override": true
   },
-  "value_chain": null
+  "value_chain": null,
+  "quality_metrics": {
+    "roce_pct": 36.3,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": 0.68,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "unclear",
+    "capex_efficiency": "unclear",
+    "assessment": "positive",
+    "note": "Confirms the exceptional headline returns: ROCE 36.3%, near debt-free (D/E ~0.2, net debt/EBITDA ~0.68x), PAT compounding fast (Rs 5.6 Cr FY23 -> Rs 8.94 Cr FY24 -> Rs 14.27 Cr FY25). fcf_conversion_pct and margin_trend left null/unclear - only 3 years of PAT and no per-year OPM/CFO breakdown was found this pass for a company that only IPO'd Aug-2024."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 680,
+    "current_pe": 23.5,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~23.5x trailing P/E against ~36% ROCE and a ~57%/yr average growth rate is not demanding if the copper-recycling growth continues, though the forum-flagged commodity/moat concern (see verdict_reasoning) is the real risk to that continuing",
+    "our_fy27_estimate": "Revenue likely continues growing fast on copper-scrap volume if demand holds, though returns could compress if copper-scrap spreads narrow (a genuinely commodity-exposed input)",
+    "our_fy28_estimate": "Not estimable with confidence - no concall/guidance reviewed this pass, thin (2-year) public track record",
+    "gap_direction": "partially-priced",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "A reasonable ~23.5x P/E for the confirmed exceptional ROCE and growth, but the forum-flagged commodity/value-addition moat concern is a real risk to the durability of these returns that a plain multiple doesn't capture",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "track_record_na": true,
+  "track_record_na_note": "2026-09-18 light-lane pass: only aggregate PAT for 3 years found (FY23-25), no per-year revenue-growth or ROCE figures to pair - company IPO'd Aug-2024, too little public per-year disclosure yet for a 3-year Coffee-Can check. Current ROCE (36.3%) is a single, most-recent-year figure only."
 }

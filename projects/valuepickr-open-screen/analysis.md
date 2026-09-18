@@ -7925,3 +7925,14 @@ Light-lane pass across 18 Confluence-100 members with thin master-score coverage
 - **Recode Studios / Airfloa Rail Technology** - track_record left N/A (insufficient confirmed growth+ROCE year-pairs; both already at 0.85 coverage from a prior pass, unaffected).
 
 Step 5 refresh_derived (scores/gap/quality/master/lists) run; Confluence-100 rebuilt with live technicals. yahoo_symbol_map.json unaffected by this batch (Millworks and Recode Studios confirmed genuine "No weekly series (SME listing)" - structural, not a mapping gap).
+
+## Confluence-100 coverage backfill, final 4 — 2026-09-18
+Closed the last gaps in the guidance-backfill queue (0 pending after this batch):
+- **Vishnu Chemicals** - filled all 3 blocks. New finding: ROCE in a genuine multi-year decline (30%->16%, FY22-25), directly reinforcing the ValuePickr thread's own "Is Growth sustainable?" question. Also added a verified Yahoo symbol (VISHNU.NS) - was previously technical-unresolved.
+- **Sunlite Recycling** - filled quality_metrics+market_expectation (track_record N/A, IPO Aug-2024, too little per-year history). Confirms exceptional ROCE (36.3%) and near-debt-free balance sheet.
+- **Molbio Diagnostics** - filled quality_metrics+market_expectation (track_record N/A, listed Aug-2026). RECONCILED the original "debt tripled to Rs413cr" framing: the company is actually in a net CASH position (~-Rs321cr net debt) - gross debt rose but is more than covered by cash.
+- **Millworks Technologies** - corrected a bookkeeping gap from the prior batch (track_record_na flag was missing despite being processed as "done").
+
+Also confirmed via direct Yahoo Finance checks that ~21 remaining technical-unresolved names in the union list are genuine SME/Emerge listings with no weekly OHLC series (structural, not fixable by more research) - added `eppelton: null` to yahoo_symbol_map.json to stop re-searching it every run.
+
+**Result: 0/136 union-list stocks now below 0.85 score coverage (was 16+2 at the start of today's session). Confluence-100 investable-now gate: 90/100 passing (was 79/100 this morning). All remaining gate exclusions are structural (no Yahoo weekly series for that listing).**

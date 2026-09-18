@@ -2,8 +2,8 @@
   "method": "Composite of conviction_score/quality_score/expectation_gap_score/consistency_score/asymmetry_score, weighted 0.25/0.25/0.20/0.15/0.15 and renormalized over whichever are present. Formula + investor research in MASTER_SCORE_METHODOLOGY.md.",
   "scored_count": 886,
   "not_assessed_count": 0,
-  "consistency_score_coverage": 182,
-  "asymmetry_score_coverage": 226,
+  "consistency_score_coverage": 183,
+  "asymmetry_score_coverage": 229,
   "ranked": [
     {
       "slug": "venus-remedies",
@@ -887,6 +887,34 @@
       }
     },
     {
+      "slug": "marksans-pharma",
+      "name": "Marksans Pharma",
+      "master_score": 50.81,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 3,
+        "note": "FY24 (+17.5% growth, ROCE 21%), FY25 (+20.5%, ROCE 20%) and FY26 (+12.5%, ROCE 19%) each cleared BOTH >=10% revenue growth AND >=15% ROCE - a clean, genuine Coffee-Can pass across every checkable year."
+      },
+      "score_breakdown": {
+        "conviction_score": 29.25,
+        "quality_score": 67.0,
+        "expectation_gap_score": 24.19,
+        "consistency_score": 100,
+        "asymmetry_score": 46.09,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "cff-fluid-control",
       "name": "CFF Fluid Control Ltd",
       "master_score": 50.65,
@@ -943,34 +971,6 @@
       }
     },
     {
-      "slug": "marksans-pharma",
-      "name": "Marksans Pharma",
-      "master_score": 49.75,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 3,
-        "note": "FY24 (+17.5% growth, ROCE 21%), FY25 (+20.5%, ROCE 20%) and FY26 (+12.5%, ROCE 19%) each cleared BOTH >=10% revenue growth AND >=15% ROCE - a clean, genuine Coffee-Can pass across every checkable year."
-      },
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 67.0,
-        "expectation_gap_score": 24.19,
-        "consistency_score": 100,
-        "asymmetry_score": 46.09,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "indegene-ltd",
       "name": "Indegene Ltd",
       "master_score": 49.72,
@@ -1016,6 +1016,34 @@
         "expectation_gap_score": 24.19,
         "consistency_score": 18,
         "asymmetry_score": 52.09,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "astra-microwave-products",
+      "name": "Astra Microwave",
+      "master_score": 48.98,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 3,
+        "note": "FY24 (+11.4% growth, ROCE 19%), FY25 (+15.6%, ROCE 19%) and FY26 (+10.7%, ROCE 20%) each cleared BOTH >=10% revenue growth AND >=15% ROCE; FY22 and FY23 (ROCE 11% and 17% respectively) did not clear on growth or ROCE - the last 3 years mark a genuine, recent step-up in consistency, not a decade-long trend."
+      },
+      "score_breakdown": {
+        "conviction_score": 35.0,
+        "quality_score": 92.0,
+        "expectation_gap_score": 5.38,
+        "consistency_score": 60,
+        "asymmetry_score": 47.69,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -1156,34 +1184,6 @@
         "expectation_gap_score": 5.89,
         "consistency_score": 67,
         "asymmetry_score": 34.95,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "astra-microwave-products",
-      "name": "Astra Microwave",
-      "master_score": 46.48,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 3,
-        "note": "FY24 (+11.4% growth, ROCE 19%), FY25 (+15.6%, ROCE 19%) and FY26 (+10.7%, ROCE 20%) each cleared BOTH >=10% revenue growth AND >=15% ROCE; FY22 and FY23 (ROCE 11% and 17% respectively) did not clear on growth or ROCE - the last 3 years mark a genuine, recent step-up in consistency, not a decade-long trend."
-      },
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 92.0,
-        "expectation_gap_score": 5.38,
-        "consistency_score": 60,
-        "asymmetry_score": 47.69,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -1505,7 +1505,7 @@
     {
       "slug": "univastu-india",
       "name": "Univastu India",
-      "master_score": 44.6,
+      "master_score": 44.72,
       "red_flag_tier": null,
       "conviction": "Medium",
       "thesis_fit": "neither",
@@ -1515,7 +1515,7 @@
         "note": "FY17, FY18, FY19, FY22, FY23, FY24 and FY25 each cleared BOTH >=10% revenue growth AND >=15% ROCE (only FY20 and FY21 - a COVID-disrupted year - did not). A genuinely strong Coffee-Can record that significantly upgrades confidence versus the original write-up's 'moat weak, no ROCE confirmed' framing."
       },
       "score_breakdown": {
-        "conviction_score": 25.0,
+        "conviction_score": 25.5,
         "quality_score": 52.0,
         "expectation_gap_score": 37.62,
         "consistency_score": 78,
@@ -2438,6 +2438,34 @@
       }
     },
     {
+      "slug": "golkunda-diamonds",
+      "name": "Golkunda Diamond",
+      "master_score": 38.81,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 11,
+        "years_cleared": 2,
+        "note": "FY16-FY26 checked: only FY22 (+37.6% growth, ROCE 17%) and FY26 (+11.9% growth, ROCE 20%) cleared BOTH >=10% revenue growth AND >=15% ROCE. A genuinely weak long-run Coffee-Can record (revenue was flat-to-declining FY23-25) consistent with the write-up's own 'poor 5-yr CAGR ~10.2%' framing - the Q1 FY27 inflection is a real but still-unconfirmed break from a historically inconsistent pattern."
+      },
+      "score_breakdown": {
+        "conviction_score": 31.25,
+        "quality_score": 75.0,
+        "expectation_gap_score": 20.25,
+        "consistency_score": 18,
+        "asymmetry_score": 36.62,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "virtual-galaxy-infotech",
       "name": "Virtual Galaxy Infotech Ltd",
       "master_score": 38.75,
@@ -2710,23 +2738,23 @@
       }
     },
     {
-      "slug": "golkunda-diamonds",
-      "name": "Golkunda Diamond",
-      "master_score": 37.24,
+      "slug": "skipper",
+      "name": "Skipper",
+      "master_score": 37.26,
       "red_flag_tier": null,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "track_record": {
-        "years_checked": 11,
-        "years_cleared": 2,
-        "note": "FY16-FY26 checked: only FY22 (+37.6% growth, ROCE 17%) and FY26 (+11.9% growth, ROCE 20%) cleared BOTH >=10% revenue growth AND >=15% ROCE. A genuinely weak long-run Coffee-Can record (revenue was flat-to-declining FY23-25) consistent with the write-up's own 'poor 5-yr CAGR ~10.2%' framing - the Q1 FY27 inflection is a real but still-unconfirmed break from a historically inconsistent pattern."
+        "years_checked": 6,
+        "years_cleared": 3,
+        "note": "FY23 (+16.0% growth, ROCE 21%), FY24 (+65.8%, ROCE 24%) and FY25 (+40.9%, ROCE 24%) each cleared BOTH >=10% revenue growth AND >=15% ROCE; FY20-22 did not clear (ROCE only 9-12% in that window). A genuine, recent 3-year step-up in consistency."
       },
       "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 75.0,
-        "expectation_gap_score": 20.25,
-        "consistency_score": 18,
-        "asymmetry_score": 36.62,
+        "conviction_score": 26.75,
+        "quality_score": 57.0,
+        "expectation_gap_score": 24.19,
+        "consistency_score": 50,
+        "asymmetry_score": 26.59,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -2784,34 +2812,6 @@
         "expectation_gap_score": 0,
         "consistency_score": 67,
         "asymmetry_score": 25.0,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "skipper",
-      "name": "Skipper",
-      "master_score": 36.83,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 6,
-        "years_cleared": 3,
-        "note": "FY23 (+16.0% growth, ROCE 21%), FY24 (+65.8%, ROCE 24%) and FY25 (+40.9%, ROCE 24%) each cleared BOTH >=10% revenue growth AND >=15% ROCE; FY20-22 did not clear (ROCE only 9-12% in that window). A genuine, recent 3-year step-up in consistency."
-      },
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 57.0,
-        "expectation_gap_score": 24.19,
-        "consistency_score": 50,
-        "asymmetry_score": 26.59,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -3420,7 +3420,7 @@
     {
       "slug": "vadilal-industries",
       "name": "Vadilal Industries",
-      "master_score": 32.79,
+      "master_score": 32.66,
       "red_flag_tier": null,
       "conviction": "Medium",
       "thesis_fit": "neither",
@@ -3430,7 +3430,7 @@
         "note": "FY16, FY22, FY23, FY25 and FY26 each cleared BOTH >=10% revenue growth AND >=15% ROCE; FY17-21 and FY24 did not (mostly on the growth leg, ROCE stayed healthy throughout). A moderate, real Coffee-Can record (5/11) consistent with a solid category compounder rather than a hypergrowth story."
       },
       "score_breakdown": {
-        "conviction_score": 25.0,
+        "conviction_score": 24.5,
         "quality_score": 48.0,
         "expectation_gap_score": 16.31,
         "consistency_score": 45,
@@ -3578,34 +3578,6 @@
       }
     },
     {
-      "slug": "lloyds-metal-energy",
-      "name": "Lloyds Metal & Energy Ltd",
-      "master_score": 31.9,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 3,
-        "note": "FY22 (+175.7% growth, ROCE 81%), FY23 (+384.5%, ROCE 78%) and FY24 (+94.5%, ROCE 37%) each cleared BOTH >=10% revenue growth AND >=15% ROCE (explosive, base-effect-driven growth off a small merchant-miner base); FY21 and FY25 did not clear on growth. FY26 ROCE not yet available to check."
-      },
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 40.0,
-        "expectation_gap_score": 24.19,
-        "consistency_score": 60,
-        "asymmetry_score": 12.1,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "swastika-castal",
       "name": "Swastika Castal Ltd",
       "master_score": 31.82,
@@ -3738,6 +3710,29 @@
       }
     },
     {
+      "slug": "gayatri-rubber-and-chemicals",
+      "name": "Gayatri Rubber and Chemicals",
+      "master_score": 31.54,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 28.25,
+        "quality_score": 63.0,
+        "expectation_gap_score": 3.63,
+        "consistency_score": null,
+        "asymmetry_score": 21.82,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
       "slug": "gravita-india-success-story",
       "name": "Gravita India success story",
       "master_score": 31.47,
@@ -3817,6 +3812,34 @@
       }
     },
     {
+      "slug": "lloyds-metal-energy",
+      "name": "Lloyds Metal & Energy Ltd",
+      "master_score": 31.28,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 3,
+        "note": "FY22 (+175.7% growth, ROCE 81%), FY23 (+384.5%, ROCE 78%) and FY24 (+94.5%, ROCE 37%) each cleared BOTH >=10% revenue growth AND >=15% ROCE (explosive, base-effect-driven growth off a small merchant-miner base); FY21 and FY25 did not clear on growth. FY26 ROCE not yet available to check."
+      },
+      "score_breakdown": {
+        "conviction_score": 22.5,
+        "quality_score": 40.0,
+        "expectation_gap_score": 24.19,
+        "consistency_score": 60,
+        "asymmetry_score": 12.1,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "control-print",
       "name": "Control Print",
       "master_score": 31.02,
@@ -3890,52 +3913,6 @@
         "expectation_gap_score": 15.92,
         "consistency_score": null,
         "asymmetry_score": 20.46,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
-      "slug": "tata-motors-commercial-vehicles",
-      "name": "Tata Motors Commercial Vehicles (TMCV)",
-      "master_score": 30.77,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 38.0,
-        "expectation_gap_score": 24.19,
-        "consistency_score": null,
-        "asymmetry_score": 37.09,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
-      "slug": "gayatri-rubber-and-chemicals",
-      "name": "Gayatri Rubber and Chemicals",
-      "master_score": 30.59,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 63.0,
-        "expectation_gap_score": 3.63,
-        "consistency_score": null,
-        "asymmetry_score": 21.82,
         "components_used": [
           "asymmetry_score",
           "conviction_score",
@@ -4027,6 +4004,29 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "millworks-technologies",
+      "name": "Millworks Technologies Ltd",
+      "master_score": 30.44,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 31.5,
+        "quality_score": 56.0,
+        "expectation_gap_score": 3.63,
+        "consistency_score": null,
+        "asymmetry_score": 21.82,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
       }
     },
     {
@@ -4209,29 +4209,6 @@
       }
     },
     {
-      "slug": "millworks-technologies",
-      "name": "Millworks Technologies Ltd",
-      "master_score": 30.0,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 30.0,
-        "quality_score": 56.0,
-        "expectation_gap_score": 3.63,
-        "consistency_score": null,
-        "asymmetry_score": 21.82,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
       "slug": "poly-medicure",
       "name": "Poly Medicure Ltd",
       "master_score": 29.94,
@@ -4257,6 +4234,52 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "tata-motors-commercial-vehicles",
+      "name": "Tata Motors Commercial Vehicles (TMCV)",
+      "master_score": 29.88,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 22.0,
+        "quality_score": 38.0,
+        "expectation_gap_score": 24.19,
+        "consistency_score": null,
+        "asymmetry_score": 37.09,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "sbcl",
+      "name": "SBCL",
+      "master_score": 29.4,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 26.75,
+        "quality_score": 57.0,
+        "expectation_gap_score": 0,
+        "consistency_score": null,
+        "asymmetry_score": 27.0,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
       }
     },
     {
@@ -4325,29 +4348,6 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "sbcl",
-      "name": "SBCL",
-      "master_score": 28.88,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 57.0,
-        "expectation_gap_score": 0,
-        "consistency_score": null,
-        "asymmetry_score": 27.0,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
       }
     },
     {
@@ -4544,6 +4544,29 @@
       }
     },
     {
+      "slug": "sunlite",
+      "name": "Sunlite",
+      "master_score": 28.22,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 25.0,
+        "quality_score": 41.0,
+        "expectation_gap_score": 16.31,
+        "consistency_score": null,
+        "asymmetry_score": 28.16,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
       "slug": "sterlite-technologies",
       "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
       "master_score": 28.21,
@@ -4637,34 +4660,6 @@
         "expectation_gap_score": 17.39,
         "consistency_score": 0,
         "asymmetry_score": 22.7,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "iifl-finance",
-      "name": "IIFL Finance",
-      "master_score": 27.83,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 3,
-        "note": "Uses total revenue/income (in place of 'revenue growth', not meaningful in the same sense for an NBFC) and ROE (in place of ROCE). FY22 (+17.1% revenue, ROE 20%), FY23 (+20.8%, ROE 19%) and FY24 (+24.0%, ROE 18%) each cleared BOTH >=10% growth and >=15% ROE; FY25 broke the streak on revenue (-2.3%, the RBI gold-loan-ban year) and FY26 on ROE (13%, still recovering) despite revenue growth resuming (+30.6%) - a clean, honest record of a real disruption and an ongoing, not-yet-complete recovery."
-      },
-      "score_breakdown": {
-        "conviction_score": 27.7,
-        "quality_score": 21.0,
-        "expectation_gap_score": 24.19,
-        "consistency_score": 60,
-        "asymmetry_score": 12.1,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -4906,6 +4901,34 @@
           "conviction_score"
         ],
         "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "iifl-finance",
+      "name": "IIFL Finance",
+      "master_score": 26.58,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 3,
+        "note": "Uses total revenue/income (in place of 'revenue growth', not meaningful in the same sense for an NBFC) and ROE (in place of ROCE). FY22 (+17.1% revenue, ROE 20%), FY23 (+20.8%, ROE 19%) and FY24 (+24.0%, ROE 18%) each cleared BOTH >=10% growth and >=15% ROE; FY25 broke the streak on revenue (-2.3%, the RBI gold-loan-ban year) and FY26 on ROE (13%, still recovering) despite revenue growth resuming (+30.6%) - a clean, honest record of a real disruption and an ongoing, not-yet-complete recovery."
+      },
+      "score_breakdown": {
+        "conviction_score": 22.7,
+        "quality_score": 21.0,
+        "expectation_gap_score": 24.19,
+        "consistency_score": 60,
+        "asymmetry_score": 12.1,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
       }
     },
     {
@@ -6134,26 +6157,6 @@
       }
     },
     {
-      "slug": "sunlite",
-      "name": "Sunlite",
-      "master_score": 25.0,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "apar-industries",
       "name": "APAR Industries",
       "master_score": 25.0,
@@ -6654,26 +6657,6 @@
       }
     },
     {
-      "slug": "vishnu-chemicals",
-      "name": "Vishnu Chemicals",
-      "master_score": 25.0,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "cholamandalam",
       "name": "Cholamandalam Investment and Finance",
       "master_score": 25.0,
@@ -6716,26 +6699,6 @@
     {
       "slug": "shankesh",
       "name": "Shankesh Jewellers",
-      "master_score": 25.0,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "molbio",
-      "name": "Molbio Diagnostics",
       "master_score": 25.0,
       "red_flag_tier": null,
       "conviction": "Medium",
@@ -7264,52 +7227,6 @@
       }
     },
     {
-      "slug": "universal-cables",
-      "name": "Universal Cables",
-      "master_score": 22.1,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 28.0,
-        "expectation_gap_score": 16.31,
-        "consistency_score": null,
-        "asymmetry_score": 15.16,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
-      "slug": "ebgng",
-      "name": "EBGNG",
-      "master_score": 22.06,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 43.0,
-        "expectation_gap_score": 3.63,
-        "consistency_score": null,
-        "asymmetry_score": 6.81,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
       "slug": "pngs-gargi-fashion-jewellery",
       "name": "PNGS Gargi Fashion Jewellery Ltd",
       "master_score": 22.0,
@@ -7438,6 +7355,29 @@
       }
     },
     {
+      "slug": "molbio",
+      "name": "Molbio Diagnostics",
+      "master_score": 21.76,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 25.0,
+        "quality_score": 30.0,
+        "expectation_gap_score": 3.63,
+        "consistency_score": null,
+        "asymmetry_score": 26.82,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
       "slug": "inox-india-a-story-worth-looking",
       "name": "Inox India, a story worth looking?",
       "master_score": 21.69,
@@ -7504,6 +7444,57 @@
         "expectation_gap_score": 7.27,
         "consistency_score": 0,
         "asymmetry_score": 16.13,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "ebgng",
+      "name": "EBGNG",
+      "master_score": 21.54,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 23.25,
+        "quality_score": 43.0,
+        "expectation_gap_score": 3.63,
+        "consistency_score": null,
+        "asymmetry_score": 6.81,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "vishnu-chemicals",
+      "name": "Vishnu Chemicals",
+      "master_score": 21.5,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 10,
+        "years_cleared": 4,
+        "note": "FY18 (+26.8% growth, ROCE 17%), FY22 (+57.4%, ROCE 30%), FY23 (+30.1%, ROCE 20%) and FY25 (+19.3%, ROCE 16%) each cleared BOTH >=10% revenue growth AND >=15% ROCE; FY24 was a revenue decline (-12.8%). A moderate, inconsistent record (4/10) - genuine growth exists but has not been a clean multi-year compounding story."
+      },
+      "score_breakdown": {
+        "conviction_score": 25.0,
+        "quality_score": 30.0,
+        "expectation_gap_score": 3.63,
+        "consistency_score": 40,
+        "asymmetry_score": 6.81,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -7633,6 +7624,29 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "universal-cables",
+      "name": "Universal Cables",
+      "master_score": 20.63,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 20.0,
+        "quality_score": 28.0,
+        "expectation_gap_score": 16.31,
+        "consistency_score": null,
+        "asymmetry_score": 15.16,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
       }
     },
     {
@@ -11337,34 +11351,6 @@
       }
     },
     {
-      "slug": "til",
-      "name": "TIL",
-      "master_score": 11.75,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 11,
-        "years_cleared": 0,
-        "note": "FY16-FY26 checked: ZERO years cleared BOTH >=10% revenue growth AND >=15% ROCE - a genuinely weak decade (severe revenue decline FY20-23, negative ROCE FY21-24). This is an honest reflection of the distressed history the turnaround is working to escape, not yet a demonstrated Coffee-Can consistency story."
-      },
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 22.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 0,
-        "asymmetry_score": 0,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "aarti-surfactants-ltd",
       "name": "Aarti Surfactants Ltd",
       "master_score": 11.6,
@@ -11605,29 +11591,6 @@
       }
     },
     {
-      "slug": "rossell-techsys",
-      "name": "Rossell Techsys",
-      "master_score": 10.88,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 12.0,
-        "expectation_gap_score": 0,
-        "consistency_score": null,
-        "asymmetry_score": 0,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
       "slug": "archit-nuwood-industries",
       "name": "Archit Nuwood Industries",
       "master_score": 10.88,
@@ -11856,6 +11819,34 @@
           "conviction_score"
         ],
         "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "til",
+      "name": "TIL",
+      "master_score": 10.5,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 11,
+        "years_cleared": 0,
+        "note": "FY16-FY26 checked: ZERO years cleared BOTH >=10% revenue growth AND >=15% ROCE - a genuinely weak decade (severe revenue decline FY20-23, negative ROCE FY21-24). This is an honest reflection of the distressed history the turnaround is working to escape, not yet a demonstrated Coffee-Can consistency story."
+      },
+      "score_breakdown": {
+        "conviction_score": 20.0,
+        "quality_score": 22.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 0,
+        "asymmetry_score": 0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
       }
     },
     {
@@ -12358,6 +12349,29 @@
           "conviction_score"
         ],
         "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "rossell-techsys",
+      "name": "Rossell Techsys",
+      "master_score": 9.41,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 20.0,
+        "quality_score": 12.0,
+        "expectation_gap_score": 0,
+        "consistency_score": null,
+        "asymmetry_score": 0,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
       }
     },
     {

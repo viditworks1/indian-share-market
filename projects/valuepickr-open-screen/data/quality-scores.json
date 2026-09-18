@@ -1,7 +1,7 @@
 {
   "method": "the user's stated screening framework (2026-09-04): growth + margins + ROCE + debt + capex + free cash flow + competitive advantage + management quality. This score covers the four legs (ROCE, debt, FCF, capex) that had no numeric home before. Formula in this script's docstring and scripts/QUALITY_SCORE_METHODOLOGY.md.",
-  "scored_count": 231,
-  "not_assessed_count": 655,
+  "scored_count": 234,
+  "not_assessed_count": 652,
   "ranked": [
     {
       "slug": "venus-remedies",
@@ -85,7 +85,7 @@
       "slug": "astra-microwave-products",
       "name": "Astra Microwave",
       "quality_score": 92.0,
-      "conviction_score": 25.0,
+      "conviction_score": 35.0,
       "red_flag_tier": null,
       "roce_pct": 20,
       "roce_trend": "improving",
@@ -747,7 +747,7 @@
       "slug": "golkunda-diamonds",
       "name": "Golkunda Diamond",
       "quality_score": 75.0,
-      "conviction_score": 25.0,
+      "conviction_score": 31.25,
       "red_flag_tier": null,
       "roce_pct": 20,
       "roce_trend": "improving",
@@ -1417,7 +1417,7 @@
       "slug": "marksans-pharma",
       "name": "Marksans Pharma",
       "quality_score": 67.0,
-      "conviction_score": 25.0,
+      "conviction_score": 29.25,
       "red_flag_tier": null,
       "roce_pct": 19,
       "roce_trend": "stable",
@@ -1687,7 +1687,7 @@
       "slug": "gayatri-rubber-and-chemicals",
       "name": "Gayatri Rubber and Chemicals",
       "quality_score": 63.0,
-      "conviction_score": 25.0,
+      "conviction_score": 28.25,
       "red_flag_tier": null,
       "roce_pct": 37.86,
       "roce_trend": "improving",
@@ -2125,7 +2125,7 @@
       "slug": "sbcl",
       "name": "SBCL",
       "quality_score": 57.0,
-      "conviction_score": 25.0,
+      "conviction_score": 26.75,
       "red_flag_tier": null,
       "roce_pct": 25,
       "roce_trend": "declining",
@@ -2151,7 +2151,7 @@
       "slug": "skipper",
       "name": "Skipper",
       "quality_score": 57.0,
-      "conviction_score": 25.0,
+      "conviction_score": 26.75,
       "red_flag_tier": null,
       "roce_pct": 24,
       "roce_trend": "improving",
@@ -2207,7 +2207,7 @@
       "slug": "millworks-technologies",
       "name": "Millworks Technologies Ltd",
       "quality_score": 56.0,
-      "conviction_score": 30.0,
+      "conviction_score": 31.5,
       "red_flag_tier": null,
       "roce_pct": 81,
       "roce_trend": "improving",
@@ -2656,7 +2656,7 @@
       "slug": "univastu-india",
       "name": "Univastu India",
       "quality_score": 52.0,
-      "conviction_score": 25.0,
+      "conviction_score": 25.5,
       "red_flag_tier": null,
       "roce_pct": 30,
       "roce_trend": "improving",
@@ -3096,7 +3096,7 @@
       "slug": "vadilal-industries",
       "name": "Vadilal Industries",
       "quality_score": 48.0,
-      "conviction_score": 25.0,
+      "conviction_score": 24.5,
       "red_flag_tier": null,
       "roce_pct": 22,
       "roce_trend": "declining",
@@ -3670,7 +3670,7 @@
       "slug": "ebgng",
       "name": "EBGNG",
       "quality_score": 43.0,
-      "conviction_score": 25.0,
+      "conviction_score": 23.25,
       "red_flag_tier": null,
       "roce_pct": 20,
       "roce_trend": "stable",
@@ -3836,6 +3836,32 @@
       }
     },
     {
+      "slug": "sunlite",
+      "name": "Sunlite",
+      "quality_score": 41.0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": 36.3,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.68,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unclear",
+      "capex_efficiency": "unclear",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 25,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 41,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "apollo-micro-systems",
       "name": "Apollo Micro Systems Limited",
       "quality_score": 40.0,
@@ -3893,7 +3919,7 @@
       "slug": "lloyds-metal-energy",
       "name": "Lloyds Metal & Energy Ltd",
       "quality_score": 40.0,
-      "conviction_score": 25.0,
+      "conviction_score": 22.5,
       "red_flag_tier": null,
       "roce_pct": 27,
       "roce_trend": "declining",
@@ -4082,7 +4108,7 @@
       "slug": "tata-motors-commercial-vehicles",
       "name": "Tata Motors Commercial Vehicles (TMCV)",
       "quality_score": 38.0,
-      "conviction_score": 25.0,
+      "conviction_score": 22.0,
       "red_flag_tier": null,
       "roce_pct": 37,
       "roce_trend": "unclear",
@@ -4664,6 +4690,62 @@
       }
     },
     {
+      "slug": "vishnu-chemicals",
+      "name": "Vishnu Chemicals",
+      "quality_score": 30.0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": 16,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 2.04,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -54,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 10,
+        "debt_component": 4,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 9,
+        "capex_component": 7,
+        "raw": 30,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "molbio",
+      "name": "Molbio Diagnostics",
+      "quality_score": 30.0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": 17.6,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": -0.98,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "contracting",
+      "capex_efficiency": "unclear",
+      "assessment": "positive",
+      "flags": [
+        "margin-contracting"
+      ],
+      "score_breakdown": {
+        "roce_component": 10,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 30,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "muthoot-microfin-limited-is-it-next-jp-morgan",
       "name": "Muthoot Microfin Limited is it next JP Morgan?",
       "quality_score": 29.0,
@@ -4800,7 +4882,7 @@
       "slug": "universal-cables",
       "name": "Universal Cables",
       "quality_score": 28.0,
-      "conviction_score": 25.0,
+      "conviction_score": 20.0,
       "red_flag_tier": null,
       "roce_pct": 11.7,
       "roce_trend": "improving",
@@ -5162,7 +5244,7 @@
       "slug": "til",
       "name": "TIL",
       "quality_score": 22.0,
-      "conviction_score": 25.0,
+      "conviction_score": 20.0,
       "red_flag_tier": null,
       "roce_pct": 3,
       "roce_trend": "improving",
@@ -5333,7 +5415,7 @@
       "slug": "iifl-finance",
       "name": "IIFL Finance",
       "quality_score": 21.0,
-      "conviction_score": 27.7,
+      "conviction_score": 22.7,
       "red_flag_tier": null,
       "roce_pct": 13,
       "roce_trend": "improving",
@@ -5927,37 +6009,6 @@
       }
     },
     {
-      "slug": "rossell-techsys",
-      "name": "Rossell Techsys",
-      "quality_score": 12.0,
-      "conviction_score": 25.0,
-      "red_flag_tier": null,
-      "roce_pct": 12,
-      "roce_trend": "improving",
-      "net_debt_to_ebitda": 6.49,
-      "interest_coverage": null,
-      "fcf_conversion_pct": -167,
-      "margin_trend": "contracting",
-      "capex_efficiency": "value-destructive",
-      "assessment": "concern",
-      "flags": [
-        "high-leverage",
-        "weak-fcf",
-        "margin-contracting",
-        "value-destructive-capex"
-      ],
-      "score_breakdown": {
-        "roce_component": 12,
-        "debt_component": 0,
-        "debt_component_source": "net_debt_to_ebitda",
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 12,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
       "slug": "novartis-india-ltd",
       "name": "Novartis India Ltd",
       "quality_score": 0,
@@ -5982,6 +6033,37 @@
         "margin_component": 0,
         "capex_component": 0,
         "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "rossell-techsys",
+      "name": "Rossell Techsys",
+      "quality_score": 12.0,
+      "conviction_score": 20.0,
+      "red_flag_tier": null,
+      "roce_pct": 12,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 6.49,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -167,
+      "margin_trend": "contracting",
+      "capex_efficiency": "value-destructive",
+      "assessment": "concern",
+      "flags": [
+        "high-leverage",
+        "weak-fcf",
+        "margin-contracting",
+        "value-destructive-capex"
+      ],
+      "score_breakdown": {
+        "roce_component": 12,
+        "debt_component": 0,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 12,
         "red_flag_multiplier": 1.0
       }
     },
@@ -6902,12 +6984,6 @@
       "red_flag_tier": null
     },
     {
-      "slug": "sunlite",
-      "name": "Sunlite",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
       "slug": "apar-industries",
       "name": "APAR Industries",
       "conviction_score": 25.0,
@@ -7058,12 +7134,6 @@
       "red_flag_tier": null
     },
     {
-      "slug": "vishnu-chemicals",
-      "name": "Vishnu Chemicals",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
       "slug": "cholamandalam",
       "name": "Cholamandalam Investment and Finance",
       "conviction_score": 25.0,
@@ -7078,12 +7148,6 @@
     {
       "slug": "shankesh",
       "name": "Shankesh Jewellers",
-      "conviction_score": 25.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "molbio",
-      "name": "Molbio Diagnostics",
       "conviction_score": 25.0,
       "red_flag_tier": null
     },

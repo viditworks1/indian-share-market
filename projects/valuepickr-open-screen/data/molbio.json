@@ -65,5 +65,34 @@
     "note": "Genuine WHO-approved IP moat and expanding disease-test menu support tailwind/tam/moat; valuation is rich at ~65-80x trailing P/E given the stock listed only weeks ago and has already re-rated sharply. Score permits a 10x/100x label but it is not applied given valuation and lack of trading history.",
     "analyst_override": true
   },
-  "value_chain": null
+  "value_chain": null,
+  "quality_metrics": {
+    "roce_pct": 17.6,
+    "roce_trend": "unclear",
+    "net_debt_to_ebitda": -0.98,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "contracting",
+    "capex_efficiency": "unclear",
+    "assessment": "positive",
+    "note": "Important reconciliation of the original 'debt tripled to Rs 413 Cr' framing: gross borrowings did rise sharply, but the company is actually in a NET CASH position (net debt ~-Rs 321 Cr as of Mar-26, i.e. cash exceeds gross debt) - the capex is being funded without straining the balance sheet. Separately, EBITDA margin has compressed (24.97% FY25 -> 22.56% FY26) even as revenue grew - management's own stated target is 24-25% by FY27, i.e. a recovery, not further deterioration, is the expectation. roce_trend left 'unclear' - only 1 year (FY26) independently confirmed, company listed Aug-2026."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 1258,
+    "current_pe": 79,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~79x trailing P/E needs many years of continued 30%+ revenue growth to look fair at any reasonable exit multiple for a diagnostics-equipment maker",
+    "our_fy27_estimate": "Revenue growth likely continues in the 25-35% range on the expanding disease-test menu and export reach; EBITDA margin likely recovers toward management's stated 24-25% target if the FY26 dip was transitional",
+    "our_fy28_estimate": "Not estimable with confidence - no concall/guidance reviewed this pass, <2 months of public trading history",
+    "gap_direction": "priced-in",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "~79x trailing P/E already prices in sustained high growth and a margin recovery that has not yet happened (FY26 margin actually compressed) - genuine IP moat and net-cash balance sheet are real positives, but the multiple leaves little room for the margin recovery to slip",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "track_record_na": true,
+  "track_record_na_note": "2026-09-18 light-lane pass: only FY26 has both a confirmed revenue-growth figure and a confirmed ROCE - 1 year, well below the 3-year minimum. Company listed Aug-2026; pre-IPO per-year ROCE was not found this pass."
 }

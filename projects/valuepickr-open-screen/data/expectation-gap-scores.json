@@ -1,8 +1,8 @@
 {
   "date_compiled": "2026-09-18",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
-  "scored_count": 249,
-  "not_assessed_count": 637,
+  "scored_count": 252,
+  "not_assessed_count": 634,
   "ranked": [
     {
       "slug": "deepak-fertilizers-and-petrochemicals",
@@ -916,7 +916,7 @@
       "slug": "univastu-india",
       "name": "Univastu India",
       "expectation_gap_score": 37.62,
-      "conviction_score": 25.0,
+      "conviction_score": 25.5,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -2377,7 +2377,7 @@
       "slug": "iifl-finance",
       "name": "IIFL Finance",
       "expectation_gap_score": 24.19,
-      "conviction_score": 27.7,
+      "conviction_score": 22.7,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -2410,7 +2410,7 @@
       "slug": "lloyds-metal-energy",
       "name": "Lloyds Metal & Energy Ltd",
       "expectation_gap_score": 24.19,
-      "conviction_score": 25.0,
+      "conviction_score": 22.5,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -2443,7 +2443,7 @@
       "slug": "skipper",
       "name": "Skipper",
       "expectation_gap_score": 24.19,
-      "conviction_score": 25.0,
+      "conviction_score": 26.75,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -2476,7 +2476,7 @@
       "slug": "marksans-pharma",
       "name": "Marksans Pharma",
       "expectation_gap_score": 24.19,
-      "conviction_score": 25.0,
+      "conviction_score": 29.25,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -2509,7 +2509,7 @@
       "slug": "tata-motors-commercial-vehicles",
       "name": "Tata Motors Commercial Vehicles (TMCV)",
       "expectation_gap_score": 24.19,
-      "conviction_score": 25.0,
+      "conviction_score": 22.0,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -2889,7 +2889,7 @@
       "slug": "golkunda-diamonds",
       "name": "Golkunda Diamond",
       "expectation_gap_score": 20.25,
-      "conviction_score": 25.0,
+      "conviction_score": 31.25,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -3739,10 +3739,43 @@
       }
     },
     {
+      "slug": "sunlite",
+      "name": "Sunlite",
+      "expectation_gap_score": 16.31,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Micro-cap (~Rs 741 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
       "slug": "vadilal-industries",
       "name": "Vadilal Industries",
       "expectation_gap_score": 16.31,
-      "conviction_score": 25.0,
+      "conviction_score": 24.5,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -3775,7 +3808,7 @@
       "slug": "universal-cables",
       "name": "Universal Cables",
       "expectation_gap_score": 16.31,
-      "conviction_score": 25.0,
+      "conviction_score": 20.0,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -5373,7 +5406,7 @@
       "slug": "astra-microwave-products",
       "name": "Astra Microwave",
       "expectation_gap_score": 5.38,
-      "conviction_score": 25.0,
+      "conviction_score": 35.0,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -5965,7 +5998,7 @@
       "slug": "millworks-technologies",
       "name": "Millworks Technologies Ltd",
       "expectation_gap_score": 3.63,
-      "conviction_score": 30.0,
+      "conviction_score": 31.5,
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
@@ -5999,7 +6032,7 @@
       "slug": "gayatri-rubber-and-chemicals",
       "name": "Gayatri Rubber and Chemicals",
       "expectation_gap_score": 3.63,
-      "conviction_score": 25.0,
+      "conviction_score": 28.25,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -6033,13 +6066,81 @@
       "slug": "ebgng",
       "name": "EBGNG",
       "expectation_gap_score": 3.63,
-      "conviction_score": 25.0,
+      "conviction_score": 23.25,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
       "market_cap_tier": "Small/mid-cap (~Rs 7,749 Cr)",
       "gap_direction": "priced-in",
       "gap_type": "volume",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
+      "slug": "vishnu-chemicals",
+      "name": "Vishnu Chemicals",
+      "expectation_gap_score": 3.63,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 4,900 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
+      "slug": "molbio",
+      "name": "Molbio Diagnostics",
+      "expectation_gap_score": 3.63,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 12,900 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "margin",
       "gap_magnitude_pct": null,
       "evidence_quality": "weak",
       "catalyst_event": null,
@@ -7178,6 +7279,40 @@
       }
     },
     {
+      "slug": "sbcl",
+      "name": "SBCL",
+      "expectation_gap_score": 0,
+      "conviction_score": 26.75,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/mid-cap (~Rs 6,400 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "no-edge",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
       "slug": "vikram-thermo",
       "name": "Vikram Thermo",
       "expectation_gap_score": 0,
@@ -7388,40 +7523,6 @@
       }
     },
     {
-      "slug": "til",
-      "name": "TIL",
-      "expectation_gap_score": 0,
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "Small-cap (~Rs 1,897-1,901 Cr)",
-      "gap_direction": "over-optimistic",
-      "gap_type": "margin",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "weak",
-      "catalyst_event": null,
-      "catalyst_window_months": null,
-      "catalyst_window_start": "2026-09-18",
-      "catalyst_status_effective": null,
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 0,
-      "risk_open_spofs": [],
-      "flags": [
-        "no-edge",
-        "no-catalyst"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.25,
-        "catalyst_q": 0.15,
-        "timing_q": 0.4,
-        "risk_q": 1.0,
-        "quality": 0.363
-      }
-    },
-    {
       "slug": "ratnaveer-precision-a-newly-headed-steel-company",
       "name": "Ratnaveer precision a newly headed steel company",
       "expectation_gap_score": 0,
@@ -7455,74 +7556,6 @@
         "timing_q": 0.75,
         "risk_q": 0.4,
         "quality": 0.492
-      }
-    },
-    {
-      "slug": "rossell-techsys",
-      "name": "Rossell Techsys",
-      "expectation_gap_score": 0,
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "Small-cap (~Rs 4,600 Cr)",
-      "gap_direction": "over-optimistic",
-      "gap_type": "margin",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "weak",
-      "catalyst_event": null,
-      "catalyst_window_months": null,
-      "catalyst_window_start": "2026-09-18",
-      "catalyst_status_effective": null,
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 0,
-      "risk_open_spofs": [],
-      "flags": [
-        "no-edge",
-        "no-catalyst"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.25,
-        "catalyst_q": 0.15,
-        "timing_q": 0.4,
-        "risk_q": 1.0,
-        "quality": 0.363
-      }
-    },
-    {
-      "slug": "sbcl",
-      "name": "SBCL",
-      "expectation_gap_score": 0,
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "Small/mid-cap (~Rs 6,400 Cr)",
-      "gap_direction": "over-optimistic",
-      "gap_type": "margin",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "weak",
-      "catalyst_event": null,
-      "catalyst_window_months": null,
-      "catalyst_window_start": "2026-09-18",
-      "catalyst_status_effective": null,
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 0,
-      "risk_open_spofs": [],
-      "flags": [
-        "no-edge",
-        "no-catalyst"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.25,
-        "catalyst_q": 0.15,
-        "timing_q": 0.4,
-        "risk_q": 1.0,
-        "quality": 0.363
       }
     },
     {
@@ -7803,6 +7836,74 @@
         "timing_q": 0.75,
         "risk_q": 0.2,
         "quality": 0.385
+      }
+    },
+    {
+      "slug": "til",
+      "name": "TIL",
+      "expectation_gap_score": 0,
+      "conviction_score": 20.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 1,897-1,901 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "no-edge",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
+      "slug": "rossell-techsys",
+      "name": "Rossell Techsys",
+      "expectation_gap_score": 0,
+      "conviction_score": 20.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 4,600 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "no-edge",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
       }
     },
     {
@@ -9182,13 +9283,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "sunlite",
-      "name": "Sunlite",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "apar-industries",
       "name": "APAR Industries",
       "conviction_score": 25.0,
@@ -9364,13 +9458,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "vishnu-chemicals",
-      "name": "Vishnu Chemicals",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "cholamandalam",
       "name": "Cholamandalam Investment and Finance",
       "conviction_score": 25.0,
@@ -9387,13 +9474,6 @@
     {
       "slug": "shankesh",
       "name": "Shankesh Jewellers",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "molbio",
-      "name": "Molbio Diagnostics",
       "conviction_score": 25.0,
       "conviction": "Medium",
       "thesis_fit": "neither"

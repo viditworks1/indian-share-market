@@ -59,5 +59,37 @@
     "score": 2.5,
     "note": "Real export/growth tailwind but moderate ROCE/ROE and a commodity-chemicals moat profile - kept at 'neither' (true four_box score 2.5, below the 3.0 override threshold; no analyst_override needed) given the community thread's own open growth-sustainability question."
   },
-  "value_chain": null
+  "value_chain": null,
+  "quality_metrics": {
+    "roce_pct": 16,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 2.04,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -54,
+    "margin_trend": "stable",
+    "capex_efficiency": "neutral",
+    "assessment": "concern",
+    "note": "A real, previously-unquantified finding: ROCE has been in a multi-year decline from a FY22 peak (30% -> 20% -> 18% -> 16%, FY22-25), even as revenue kept growing - directly reinforcing the ValuePickr thread's own 'Is Growth sustainable?' question. FY26 free cash flow was negative (CFO Rs 127 Cr vs capex Rs 267 Cr) as a fresh capex cycle ramps."
+  },
+  "track_record": {
+    "years_checked": 10,
+    "years_cleared": 4,
+    "note": "FY18 (+26.8% growth, ROCE 17%), FY22 (+57.4%, ROCE 30%), FY23 (+30.1%, ROCE 20%) and FY25 (+19.3%, ROCE 16%) each cleared BOTH >=10% revenue growth AND >=15% ROCE; FY24 was a revenue decline (-12.8%). A moderate, inconsistent record (4/10) - genuine growth exists but has not been a clean multi-year compounding story."
+  },
+  "market_expectation": {
+    "as_of": "2026-09-18",
+    "price": 724,
+    "current_pe": 32.5,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~32.5x trailing P/E needs sustained double-digit growth AND a stabilising ROCE to look fair - the confirmed multi-year ROCE decline argues against taking the former for granted",
+    "our_fy27_estimate": "Revenue growth likely continues in the low-double-digits on the export/China+1 tailwind; ROCE likely stays in the mid-teens absent a fresh catalyst",
+    "our_fy28_estimate": "Not estimable with confidence - no concall/guidance reviewed this pass",
+    "gap_direction": "priced-in",
+    "gap_type": "margin",
+    "gap_magnitude_pct": null,
+    "gap_basis": "~32.5x already prices in continued growth; the newly-confirmed multi-year ROCE decline (30%->16%) is a real risk the multiple does not appear to discount",
+    "evidence_quality": "weak",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  }
 }
