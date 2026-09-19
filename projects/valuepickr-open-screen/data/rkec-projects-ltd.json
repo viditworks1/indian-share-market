@@ -1,70 +1,78 @@
 {
   "name": "RKEC Projects Ltd",
-  "tagline": "Micro-cap defense-linked civil contractor with decent ROCE but a stock that has been crushed -64% in a year and no community thread to cross-check the story",
+  "tagline": "Micro-cap defence-linked civil contractor now in real financial distress: a formal loan default disclosed, promoter pledge at 75%, and a marquee Rs 187 Cr jetty contract terminated for delays",
   "business_overview": "RKEC Projects is a civil construction contractor focused on industrial, marine, and bridge projects, holding Super Special Class registered contractor status with the Ministry of Defence, which gives it unlimited tendering capability on defense-related civil works.",
   "fundamentals_table": [
     [
       "Market Cap",
-      "Rs 67-71 Cr (micro-cap)"
+      "~Rs 47 Cr (new 52-week low, Sep-2026)"
     ],
     [
       "ROCE",
-      "15.5%"
+      "FY25 -6%, declining (screen-era 15.5% figure is stale)"
     ],
     [
       "ROE",
-      "10.8-11.2% (3yr avg / latest)"
+      "-19.4% (FY26)"
     ],
     [
       "Revenue growth",
-      "20% (annual)"
+      "FY24 Rs339 Cr -> FY25 Rs399 Cr -> FY26 Rs180 Cr (-57% YoY, operating loss)"
     ],
     [
       "Debt to Equity",
-      "14% (reasonable), but low interest coverage ratio flagged"
+      "Rs 212 Cr borrowings (FY25); Rs 55.90 Cr principal + Rs 7.52 Cr interest now in default (31-Jul-2026)"
     ],
     [
       "52-week range",
-      "Rs 81.84 - 23.90 (market cap down -64.4% in 1 year)"
+      "~Rs 17-84 (down ~78% off high; new 52-week low as of Sep-2026)"
+    ],
+    [
+      "Price / Book",
+      "0.31x (Rs 18 vs book value ~Rs 58.70) - distressed pricing, not a growth valuation"
     ]
   ],
-  "fundamentals_narrative": "ROCE of 15.5% and 20% annual revenue growth are genuinely decent for a company this small, and debt-to-equity of 14% looks reasonable on its face. But the market cap has collapsed -64.4% over the past year, and screener data separately flags a low interest coverage ratio -- a real solvency-adjacent concern that sits awkwardly next to the low D/E figure and wasn't resolved by this pass's search. The defense-contractor angle (unlimited tendering capability with the Ministry of Defence) is a genuine structural positive for a company this size.",
-  "technical_read": "Not independently pulled. 52-week range (Rs 23.90-81.84) shows the stock near its lows after a sharp derating.",
-  "sentiment_summary": "No dedicated ValuePickr thread found for RKEC Projects via forum search -- it surfaces only as a mention inside harsh.beria93's own portfolio-tracking thread, not a company-specific discussion.",
-  "community_signal": "harsh.beria93 (trusted, elevated-tier) disclosed adding a 1% position in RKEC Projects in his own portfolio thread, per the existing state.json sourcing. No independent company-thread discussion exists to corroborate or challenge that call.",
-  "bse_notes": "Not checked this pass -- no red-flag corporate actions surfaced in search.",
+  "fundamentals_narrative": "What looked like a decent micro-cap quality profile (ROCE 15.5%, 20% revenue growth) in the prior pass has been overtaken by a genuine financial-distress episode. FY26 revenue collapsed 57% YoY to ~Rs180 Cr with an operating loss (OPM -11%) and ROE -19.4%; the company then lost a Rs186.67 Cr Mumbai jetty EPC contract to termination over delays in April 2026 (FY27 Q1), and by 31-Jul-2026 formally disclosed a loan default of Rs55.90 Cr principal plus Rs7.52 Cr interest overdue against ~Rs212 Cr of FY25 borrowings. Promoter holding fell from 66.51% to 57.74% (Mar->Jun 2026) while pledge on the remaining stake rose to 75.2% - a classic promoter-distress signature. The Ministry of Defence Super Special Class registration (unlimited tendering) is still real, but with bank-guarantee capacity now almost certainly impaired by the default, it is optionality the company likely cannot use until the balance sheet is repaired. The stock trades at 0.31x book, but that is distress pricing, not cheapness.",
+  "technical_read": "New 52-week low hit in the week of 18-Sep-2026 (~Rs18); stock down ~78% from its 52-week high (~Rs84), confirming no technical stabilisation yet.",
+  "sentiment_summary": "No dedicated ValuePickr thread found for RKEC Projects via forum search - it surfaces only as a mention inside harsh.beria93's own portfolio-tracking thread, not a company-specific discussion. No community diligence exists to cross-check this pass's distress findings.",
+  "community_signal": "harsh.beria93 (trusted, elevated-tier) disclosed adding a 1% position in RKEC Projects in his own portfolio thread, per the existing state.json sourcing - predating the loan-default disclosure and contract termination found in this pass. No independent company-thread discussion exists to corroborate or challenge that call against the new facts.",
+  "bse_notes": "This pass found: (1) termination of the Rs186.67 Cr Mumbai jetty EPC contract by the client over alleged delays (Apr-2026); (2) a loan-default disclosure under SEBI LODR of Rs55.90 Cr principal + Rs7.52 Cr interest overdue as of 31-Jul-2026; (3) promoter pledge at 75.2% of a shrinking holding (66.51%->57.74%, Mar->Jun 2026). No confirmed formal auditor going-concern qualification was found in open sources this pass, but the fact pattern is consistent with one.",
   "bull_case": [
-    "Micro-cap base (~Rs 70 Cr) with genuine ROCE (15.5%) and revenue growth (20%) -- the profile the thesis is built to find, if the numbers hold",
-    "Defense-ministry contractor status (Super Special Class, unlimited tendering) is a real structural moat for a company this small",
-    "A trusted user holds a real (if small, 1%) position"
+    "Statistically very cheap at 0.31x book value if the business stabilises - real optionality for a distressed-recovery bet",
+    "Ministry of Defence Super Special Class registration (unlimited tendering) remains a genuine structural asset if bank-guarantee capacity is eventually restored",
+    "A trusted user (harsh.beria93) still holds a small (1%) position, though initiated before this pass's distress findings"
   ],
   "bear_case": [
-    "Market cap down -64.4% in a year is a severe derating that the search couldn't fully explain -- could reflect a real business problem, not just sentiment",
-    "Low interest coverage ratio flagged despite a seemingly low D/E -- a real, unresolved balance-sheet caution",
-    "No ValuePickr company thread exists, so there's no independent community diligence to cross-check the single small trusted position against"
+    "Formal loan default disclosed 31-Jul-2026 (Rs55.90 Cr principal + Rs7.52 Cr interest overdue) - a real, confirmed solvency-adjacent event, not just a ratio flag",
+    "Rs186.67 Cr Mumbai jetty EPC contract terminated by the client over delays (Apr-2026) - a marquee project lost to execution failure, not just a market-wide slowdown",
+    "Promoter holding fell 66.51% -> 57.74% (Mar->Jun 2026) with pledge at 75.2% of the reduced stake - a classic promoter-distress signature",
+    "FY26 revenue collapsed 57% YoY to ~Rs180 Cr with an operating loss (OPM -11%) and ROE -19.4%; working-capital stress (elevated debtor days) compounds the cash crunch",
+    "No ValuePickr company thread exists to independently corroborate or challenge the single small trusted position against this deterioration"
   ],
-  "market_cap_tier": "Micro-cap (~Rs 70 Cr)",
-  "thesis_fit": "10x-in-2-3-years",
-  "verdict_headline": "Decent micro-cap numbers on paper, but a severe unexplained derating and a solvency-adjacent flag keep this unconfirmed",
+  "market_cap_tier": "Micro-cap (~Rs 47 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Distress, not just a derating: a confirmed loan default, a terminated marquee contract, and rising promoter pledge overturn the prior 'decent micro-cap numbers' read",
   "verdict_reasoning": [
-    "ROCE (15.5%) and revenue growth (20%) fit the screen's quality gate on a genuinely micro-cap base, and the defense-contractor status is a real structural positive",
-    "But the -64.4% market-cap collapse in a year and the flagged low interest coverage ratio are real, unresolved cautions that this pass could not explain away",
-    "With no ValuePickr company thread to independently corroborate the single 1% trusted position, conviction stays Low pending clearer data on why the stock derated so sharply"
+    "The prior pass's ROCE (15.5%) / revenue-growth (20%) framing was already flagged as stale; this pass confirms the deterioration is a genuine execution and balance-sheet crisis, not a market overreaction",
+    "A formal loan-default disclosure (Rs55.90 Cr principal + Rs7.52 Cr interest, 31-Jul-2026) and the termination of the Rs186.67 Cr Mumbai jetty contract (Apr-2026) are new, confirmed, thesis-breaking facts since the last pass",
+    "Promoter holding down to 57.74% with 75.2% pledged signals real financial stress at the promoter level, not just operating-company noise",
+    "four_box score falls to 2.0 (tam and moat both downgraded on execution-capacity concerns); thesis_fit moves from 10x-in-2-3-years to neither, and red_flag_tier is set to HIGH CAUTION",
+    "Conviction stays at Low pending clear evidence of default resolution and restored bank-guarantee/execution capacity"
   ],
-  "red_flag_tier": null,
-  "red_flag_reason": null,
+  "red_flag_tier": "HIGH CAUTION",
+  "red_flag_reason": "Loan default disclosed as of 31-Jul-2026 (Rs 55.90 Cr principal + Rs 7.52 Cr interest overdue); promoter holding fell from 66.51% (Mar-2026) to 57.74% (Jun-2026) with pledge at 75.2% of that reduced holding; Rs 186.67 Cr Mumbai jetty EPC contract terminated by the client over delays (Apr-2026).",
   "four_box": {
     "tailwind": "yes",
-    "tam": "weak",
-    "moat": "yes",
+    "tam": "no",
+    "moat": "weak",
     "valuation": "weak",
-    "score": 3.0,
-    "note": "Defense-ministry Super Special Class (unlimited tendering) status is a real structural moat and tailwind for a micro-cap contractor; ROCE (15.5%)/growth (20%) support tam, but market cap down -64.4% in a year unexplained by this pass — weak; low interest coverage ratio despite a seemingly low D/E is an unresolved balance-sheet caution — valuation weak, no market_expectation data. No independent ValuePickr thread exists to corroborate the single trusted 1% position."
+    "score": 2.0,
+    "note": "India's defence/marine infra capex remains a real structural tailwind at the industry level (yes), but RKEC's own headroom to capture it is now in serious doubt post the Mumbai jetty contract termination and revenue collapse (tam: no). The MoD Super Special Class registration is a real but currently unusable moat given bank-guarantee capacity is almost certainly impaired by the loan default (moat: weak, downgraded from yes). 0.31x book is statistically cheap but reflects distress, not room to pay (valuation: weak). Score 2.0 -> thesis_fit neither, no exception granted given the concurrent HIGH CAUTION red flag."
   },
   "track_record": {
     "years_checked": 9,
     "years_cleared": 3,
-    "note": "FY18-FY26 screener. Both revenue growth >=10% AND ROCE >=15% in the same FY only in FY18, FY20, FY23. The business then deteriorated sharply: FY25 ROCE -6%, and FY26 revenue collapsed 57% to Rs 180 Cr with an operating loss (OPM -11%), ROE -19.4%. The screen-era 'ROCE 15.5% / 20% growth' framing is stale - recent filings show a serious profitability and execution breakdown."
+    "note": "FY18-FY26 screener. Both revenue growth >=10% AND ROCE >=15% in the same FY only in FY18, FY20, FY23. The business then deteriorated sharply: FY25 ROCE -6%, and FY26 revenue collapsed 57% to Rs180 Cr with an operating loss (OPM -11%), ROE -19.4%. This pass adds confirmation that the deterioration continued into FY27: a marquee contract was terminated (Apr-2026) and a formal loan default was disclosed (Jul-2026) - the screen-era 'ROCE 15.5% / 20% growth' framing is now clearly obsolete."
   },
   "quality_metrics": {
     "roce_pct": -6,
@@ -75,22 +83,109 @@
     "margin_trend": "contracting",
     "capex_efficiency": "value-destructive",
     "assessment": "concern",
-    "note": "roce_pct shown is FY25 (-6%); FY26 ROCE not on screener but the FY26 operating loss (OPM -11%, ROE -19.4%) implies it stayed negative. net_debt_to_ebitda / interest_coverage null because FY26 EBITDA is negative - and borrowings are Rs 237 Cr against a ~Rs 70 Cr market cap, a real solvency-adjacent stress. FY26 CFO -Rs 30 Cr; revenue fell 57% YoY. Serious deterioration, not a normal contracting-cycle dip."
+    "note": "roce_pct shown is FY25 (-6%); FY26 ROCE not on screener but the FY26 operating loss (OPM -11%, ROE -19.4%) implies it stayed negative. net_debt_to_ebitda / interest_coverage null because FY26 EBITDA is negative - and FY25 borrowings of ~Rs212 Cr now include a confirmed default (Rs55.90 Cr principal + Rs7.52 Cr interest overdue, 31-Jul-2026) against a market cap of only ~Rs47 Cr, a real and now-confirmed solvency-adjacent stress rather than a ratio-flag inference. FY26 CFO -Rs30 Cr; revenue fell 57% YoY, then a further Rs186.67 Cr contract was terminated in Apr-2026. Serious, ongoing deterioration."
   },
   "market_expectation": {
-    "as_of": "2026-09-10",
-    "price": 20,
+    "as_of": "2026-09-19",
+    "price": 18,
     "current_pe": null,
     "current_ev_ebitda": null,
     "valuation_tool": "P/B",
-    "implied_growth_cagr": "no P/E (FY26 loss-making); the stock has fallen ~64% in a year to ~Rs 20 - a distressed-recovery bet, not a growth valuation. It needs project execution to resume and the Rs 237 Cr borrowings to be serviced before any earnings case exists",
-    "our_fy27_estimate": "highly uncertain - revenue might partially recover toward Rs 250-350 Cr if defence/marine order execution restarts, but FY26 ran an operating loss and sources give no FY26 concall clarity",
-    "our_fy28_estimate": "not estimable with confidence given the FY26 collapse",
+    "implied_growth_cagr": "no P/E (loss-making); the stock has fallen further to ~Rs18 (0.31x book, new 52-week low Sep-2026) - a distressed-recovery bet, not a growth valuation. It needs the Rs55.90 Cr loan default resolved, bank-guarantee capacity restored, and project execution to resume before any earnings case exists",
+    "our_fy27_estimate": "highly uncertain - the Apr-2026 termination of the Rs186.67 Cr Mumbai jetty contract removes a major chunk of near-term revenue visibility; recovery toward even Rs250-350 Cr revenue looks optimistic absent a resolved default and restored execution capacity",
+    "our_fy28_estimate": "not estimable with confidence given the ongoing FY26-27 deterioration",
     "gap_direction": "priced-in",
     "gap_type": "timing",
     "gap_magnitude_pct": null,
-    "gap_basis": "FY26 revenue collapsed 57% to Rs 180 Cr with an operating loss, ROE -19%, CFO -Rs 30 Cr and Rs 237 Cr borrowings against a ~Rs 70 Cr market cap. The -64% one-year price fall reflects a real business deterioration; the Ministry of Defence Super Special Class status is optionality only if execution resumes.",
+    "gap_basis": "The stock's further fall to ~Rs18 (new 52-week low) and 0.31x book reflects the market having absorbed both the FY26 collapse and the newly confirmed loan default / contract termination; the Ministry of Defence Super Special Class status remains pure optionality unless the balance sheet is repaired and execution capacity restored.",
     "evidence_quality": "weak",
     "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "conviction": "Low",
+  "commitments": [],
+  "earnings_chain": null,
+  "catalyst": {
+    "event": "Resolution/refinancing of the Rs55.90 Cr loan default and clarity on FY27 order-execution and bank-guarantee capacity",
+    "expected_window_months": 6,
+    "window_start": "2026-09-19",
+    "evidence_quality": "low",
+    "is_dated": false,
+    "status": "pending"
+  },
+  "value_chain": {
+    "theme": "defence/marine civil EPC contracting",
+    "position": "Super Special Class MoD-registered civil contractor for marine/jetty/bridge works",
+    "bottleneck_node": "working capital and bank-guarantee capacity, now impaired by the confirmed loan default",
+    "supply_side_status": "unclear",
+    "adjacent_peers": [
+      "Man Infraconstruction",
+      "PSP Projects",
+      "NCC Ltd"
+    ],
+    "note": "The MoD registration is a real but currently underused moat - the loan default and rising promoter pledge almost certainly restrict the bank guarantees needed to bid for and execute new defence-EPC work, which is the actual bottleneck right now, not the registration itself."
+  },
+  "earnings_quality": {
+    "margin_driver": "unclear",
+    "drivers": [
+      "Rs186.67 Cr Mumbai jetty EPC contract terminated by the client over delays (Apr-2026)",
+      "working-capital stress (elevated debtor days) raising finance costs and squeezing cash",
+      "FY26 revenue base collapsed 57% YoY into an operating loss, so there is no current positive margin driver to characterise"
+    ],
+    "peak_margin_risk": false,
+    "normalised_note": "Margins are currently negative, not elevated - peak-margin risk is not the relevant concern here; the relevant risk is whether any positive operating margin returns at all before the balance sheet is repaired."
+  },
+  "growth_trajectory": {
+    "yoy_trend": "decelerating",
+    "last_quarters_note": "FY24 Rs339 Cr -> FY25 Rs399 Cr -> FY26 Rs180 Cr (-57% YoY, swinging into an operating loss, OPM -11%); FY27 opened with the Apr-2026 termination of the Rs186.67 Cr Mumbai jetty contract, a further blow to near-term revenue visibility.",
+    "reverse_pe_note": "Loss-making in FY26 and likely FY27 to date; no meaningful P/E. The stock trades at 0.31x book (Rs18 vs ~Rs58.70 book value), which is distress pricing, not a growth-implied multiple."
+  },
+  "management_quality": {
+    "capital_allocation": "No evidence of a deliberate reinvestment strategy this pass - the confirmed loan default (Rs55.90 Cr principal + Rs7.52 Cr interest overdue) and rising promoter pledge (75.2% of a shrinking 57.74% holding) point to financial stress rather than a chosen capital-allocation path.",
+    "capital_allocation_track_record": "value-destructive",
+    "rpt_trend": "unclear",
+    "guidance_credibility": "no-track-record",
+    "shareholder_returns": "none",
+    "capability_ladder_note": "",
+    "assessment": "concern"
+  },
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-19",
+    "sources_reviewed": [
+      "screener.in/company/RKEC (quarterly/annual financials, shareholding, borrowings)",
+      "trendlyne.com (RKEC quarterly results page, 52-week-low flag)",
+      "TipRanks - RKEC Projects Faces Termination of Rs186.67 Cr Mumbai Jetty Contract",
+      "marketsmojo.com - RKEC Projects lower-circuit / strong-sell coverage",
+      "business-standard.com - RKEC Projects share price / ONGC order coverage",
+      "WebSearch aggregation of BSE-announcement-derived news coverage (loan default, promoter pledge)"
+    ],
+    "annual_report_findings": [
+      "FY24 revenue Rs339 Cr -> FY25 Rs399 Cr -> FY26 ~Rs180 Cr (-57% YoY), FY26 swung to an operating loss (OPM -11%), ROE -19.4%",
+      "FY25 borrowings ~Rs212 Cr with an already-weak interest-coverage profile flagged pre-dating this pass",
+      "Promoter shareholding 66.51% (Mar-2026) -> 57.74% (Jun-2026); pledge on the reduced holding at 75.2%",
+      "No confirmed formal auditor going-concern qualification found in open sources this pass, though the fact pattern (default + pledge spike + holding decline) is consistent with one"
+    ],
+    "quarterly_trend": [
+      "FY26 quarters showed deep operating losses (screener-reported OPM around -109% in the worst prints) versus positive-margin quarters (~15-21% OPM) in FY24/early-FY25",
+      "No FY27 quarterly results or concall were locatable this pass; the most recent hard data point is the 31-Jul-2026 loan-default disclosure"
+    ],
+    "recent_announcements": [
+      "Termination of the Rs186.67 Cr Mumbai jetty EPC contract by the client, citing delays (Apr-2026)",
+      "Loan default disclosed under SEBI LODR: Rs55.90 Cr principal + Rs7.52 Cr interest overdue as of 31-Jul-2026",
+      "Promoter pledge increase to 75.2% alongside a ~9pp holding reduction (Mar->Jun 2026)",
+      "Rs197.59 Cr ONGC 'Jetty Revamping Project' order win (Nhava Supply Base) predates this distress episode and does not offset it"
+    ],
+    "key_new_facts": [
+      "Formal loan-default disclosure (Rs55.90 Cr principal + Rs7.52 Cr interest, 31-Jul-2026) - not known at the time of the prior pass",
+      "Termination of the Rs186.67 Cr Mumbai jetty EPC contract over delays (Apr-2026) - a concrete execution failure, not just a market-cap derating",
+      "Promoter holding decline + pledge spike to 75.2%, confirming promoter-level financial stress",
+      "Stock has fallen further to a new 52-week low (~Rs18-20) since the last pass's ~Rs20 reference price"
+    ],
+    "open_questions": [
+      "No FY27 (post-Apr-2026) quarterly results or concall transcript was locatable this pass - current live order book and cash position are unconfirmed",
+      "Whether a formal auditor going-concern qualification exists was not confirmed in open sources",
+      "Whether the loan default has since been cured/restructured is unknown as of this pass's cutoff"
+    ],
+    "conviction_update": "Low -> Low. The prior pass's caution is fully vindicated and deepened: a confirmed loan default and a terminated marquee contract are new, thesis-breaking facts. thesis_fit moves from 10x-in-2-3-years to neither (four_box score falls to 2.0) and red_flag_tier is set to HIGH CAUTION; conviction remains at the floor (Low)."
   }
 }

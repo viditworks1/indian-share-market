@@ -8051,3 +8051,179 @@ Also confirmed via direct Yahoo Finance checks that ~21 remaining technical-unre
 - Multi-quarter promoter-holding decline (71.2%->64.24%) resolved as largely a promoter-participated Rs16cr warrant capital-raise, not an exit signal
 - Serious new caution: debtor days worsened to ~121 days, forcing a tripled borrowing limit (~Rs200cr) and the warrant raise — growth is currently working-capital-funded
 - four_box upgraded 2.5->3.5 (moat and TAM re-scored on confirmed evidence); thesis_fit moved to "10x-in-2-3-years" at Medium conviction (capped by working-capital risk)
+
+## NLC India — deep-dive pass 1 [2026-09-18]
+- Corrected a stale read: original data file claimed flat revenue; FY26 consolidated revenue actually grew +14.4% YoY (Rs 17,490cr) and PAT +38.9% YoY to a record Rs 3,769cr, with Q1 FY27 revenue +23% YoY
+- Renewable pivot has visibly strengthened since the last snapshot: capacity nearly doubled (734 MW -> ~1.4 GW), 708.96 MW hived off to NIRL, and a fresh NIRL-PTC India JV was incorporated 16-Sep-2026 (two days before this review)
+- Valuation is arguably asymmetric: current price (~Rs 269) sits almost exactly at brokerages' bear-case scenario (~Rs 270) despite the FY26 beat, versus a base case near Rs 400 (Axis Securities target Rs 385)
+- Offsetting negatives: ROCE has never crossed 15% in the last 5 fiscal years (Coffee-Can track record 0/5), D/E has risen from 0.47x (FY15) to ~1.3x, Q1 FY27 consolidated PAT fell 39% YoY on a high prior-year exceptional-item base, and a brand-new CMD took over effective 17-Sep-2026
+- NIRL's IPO timeline (~Rs 4,000cr raise) is reported inconsistently across sources and shows signs of slipping -- no confirmed DRHP filing found
+- four_box re-verified at 3.5 (tailwind yes, tam yes via named inflection, moat weak, valuation yes); thesis_fit stays "neither" under the large-cap protocol; conviction reaffirmed at Medium
+
+## ICICI Lombard — deep-dive pass 1 [2026-09-18]
+- Q1 FY27 earnings shock: PAT -46% YoY, combined ratio spiked to 107.2%, driven by a Supreme Court Motor Third-Party ruling outside management's control
+- GST tailwind confirmed real and gaining share -- a genuine positive the original triage-level pass captured correctly
+- Mega-cap size (~Rs 73,000-75,000 Cr) already kept thesis_fit at "neither" under the large-cap protocol; this pass tempers weight in the Overall list pending 1-2 quarters of combined-ratio recovery
+- Conviction Medium -> Low-Medium
+
+## India Shelter Finance Ltd — deep-dive pass 1 [2026-09-18]
+- Operating fundamentals stronger than the prior light pass suggested: 24% AUM growth in-line with guidance, ROE up to 17.5%, improving spreads/cost-of-funds -- the earlier "asset quality moving the wrong way" framing was overstated
+- New material finding: promoter-group share pledge escalating to 100% while conflicting with a formal no-encumbrance declaration -- set to HIGH CAUTION
+- Per project rules, HIGH CAUTION caps conviction at Low-Medium regardless of the otherwise-improved operating picture
+- Conviction Medium -> Low-Medium; red_flag_tier: HIGH CAUTION (new)
+
+## Nisus — deep-dive pass 1 [2026-09-18]
+- Core fund-management/advisory business confirmed genuinely high-margin and fast-growing; AIF/private-credit tailwind is real
+- New HIGH CAUTION finding: a promoter-pledge funding a promoter-affiliated LLP loan, not previously recorded
+- Corrected debt picture (no longer near debt-free), a material unrelated diversification into EPC construction (NCCCL), and a YoY decline in owners'-attributable PAT despite explosive consolidated revenue growth
+- Conviction Medium -> Low-Medium; red_flag_tier: HIGH CAUTION (new)
+
+## Styrenix Performance Materials — deep-dive pass 1 [2026-09-18]
+- Fresh filings overturn the prior pass's core bull argument: management itself disavowed the Q1 FY27 margin/PAT surge as an abnormal one-off
+- Volumes were actually down 26% YoY; the "cheap at ~6-7x" valuation claim does not survive using FY26's real (non-abnormal) run-rate
+- Structural import-substitution tailwind and on-schedule ABS Phase I capacity expansion remain genuine positives; active ValuePickr thread corroboration keeps this above plain Low
+- Conviction Medium -> Low-Medium
+
+## Supreme (transformer maker) — deep-dive pass 1 [2026-09-18]
+- Confirms core growth and balance-sheet strengths: 31%+ revenue growth, near-zero debt, a real and mostly-complete capacity expansion, a well-covered order book
+- Two genuine new watch-items: persistent PAT-vs-revenue growth lag from new-plant overhead absorption, and a flagged FY28 equity-dilution/land-constraint risk
+- Offsetting positives: price-variation-clause protection on 80-85% of the order book, conservative guidance discipline, improving debtor days -- net effect roughly cancels out
+- Conviction Medium -> Medium (unchanged); four_box unchanged at 2.5
+
+## Maharashtra Seamless — deep-dive pass 1 [2026-09-18]
+- The demerger overhang flagged as the central uncertainty in the prior pass has been resolved (withdrawn)
+- Moat read upgraded from "no" to "weak" on real evidenced entry-barrier signals; order-book acceleration plus broad-based promoter buying continue to corroborate across two passes
+- Offsetting, but not fully cancelling: still-unresolved cash-deployment question and a further CFO departure
+- Conviction Medium -> Medium-High; thesis_fit stays "neither" given modest volume-growth guidance and mid-cap cyclical size (four_box 3.5 with an explicit Nesco-logic override)
+
+## Universal Cables — deep-dive pass 1 [2026-09-18]
+- Confirms rather than resolves the leverage risk flagged previously: net debt/EBITDA ~4.3-4.9x, newly-quantified EBIT/interest coverage of just ~1.55x, against ROCE that has not cleared 12% in 5 years
+- Simultaneously confirms a genuine, large Q1 FY27 inflection: record revenue, PAT +91-109% YoY, Rs 2,860cr order book, capacity expansion two-thirds complete
+- The two roughly offset: conviction held at Medium with a well-substantiated evidence base instead of the prior pass's data gaps
+- Conviction Medium -> Medium (unchanged)
+
+## Chatha Foods — deep-dive pass 1 [2026-09-18]
+- Confirms the capacity build is real and the Allana JV has genuine committed offtake
+- The core operating-leverage thesis has not progressed in the year since capacity completed: FY26 delivered +5.4% revenue / +19bps margin, and a prior FY25 growth guide was already missed
+- Governance remains clean and a trusted user continues to accumulate, but this is a real negative update against an aggressive new FY27-29 guidance ramp
+- Conviction Medium -> Low-Medium
+
+## IIFL Finance — deep-dive pass 1 [2026-09-18]
+- Filings confirm the recovery is real and arguably ahead of what the light pass captured: Q1FY27 PAT +160% YoY, GNPA/NNPA improving, explicit ~25% ROE FY27 guidance
+- A freshly-surfaced ICRA Negative outlook on standalone capital adequacy is a real, live offsetting caution the original write-up didn't have
+- The two roughly cancel out; the large-cap size cap (four_box re-derived to 1.5, hard "neither") remains the dominant constraint either way
+- Conviction Medium -> Medium (unchanged)
+
+## Vishnu Chemicals — deep-dive pass 1 [2026-09-18]
+- The filings did not resolve the ValuePickr thread's own "Is Growth sustainable?" question -- they independently confirmed it (multi-year ROCE decline, now with FY26 data)
+- Two fresh negatives added: a second year of negative free cash flow, and near-term freight-cost/one-off margin pressure
+- Against a real but early-stage and unproven positive (the specialty-chemicals capability upgrade via DMSO/Blanc Fixe/DCX); a 32.5x trailing P/E already looks like it's paying for the upgrade succeeding before the numbers confirm it
+- Conviction Medium -> Low-Medium
+
+## TGV SRAAC erstwhile Sree Rayalseema Alkali — deep-dive pass 1 [2026-09-18]
+- Fresh filings confirm the business is executing well operationally: solar build-out, forward integration, continued double-digit growth, trades below book
+- Two cautions firmed up: the Reliance/Adani 2027-28 caustic oversupply risk is now confirmed via credible industry press rather than just community debate, and Q4FY26 already shows the margin cycle beginning to turn before that new capacity has even landed
+- Moat read downgraded from "yes" to "weak" (cost cushion, not pricing power), taking four_box score from 3.0 to 2.5
+- Conviction Medium -> Low-Medium; remains a genuine value/GARP holding, not a 10x thesis
+
+## Bharat bijlee Ltd — deep-dive pass 1 [2026-09-18]
+- PAT has now fallen for two consecutive full years (FY26 -10.15%) and again sharply in Q1 FY27 (-29.6% YoY) -- the margin-pressure bear case is confirmed as an active, worsening trend in the primary filings, not just a forum concern
+- Gross debt roughly tripled in FY26 (Rs80cr -> Rs301cr) -- capex is now partly debt-funded, contradicting the earlier "funded by internal accruals" framing
+- Coffee-Can track record is 0-for-5 years (FY22-FY26): ROCE has never reached the 15% bar in any of the last five years, even in the FY24 peak year
+- Promoter shareholding and pledge status remain clean (33.65%, 0% pledged) -- no governance deterioration found
+- The tailwind and capacity-expansion story are confirmed real, but near-term earnings trajectory has deteriorated enough to lower conviction a notch
+- Conviction Medium -> Low-Medium
+
+## Sunlite — deep-dive pass 1 [2026-09-19]
+- Fresh filings corroborate rather than resolve the ValuePickr forum's moat caution: exceptional ROCE/ROE and genuine capacity build-out are real, but operating margin is confirmed structurally thin (~2.2%)
+- Cash conversion has deteriorated sharply (CFO/OP 78%->20%, FY26 FCF negative)
+- The newest growth leg arrived via a promoter-related-party acquisition
+- Offsetting positives: clean balance sheet, first dividend, continued strong absolute growth
+- Confirmatory pass -- conviction held at Medium, thesis_fit held at "neither" via analyst_override despite four_box score of 3.0
+
+## KPI Green Energy Ltd — deep-dive pass 1 [2026-09-19]
+- Converts the pre-dive's vague "margin pressure" concern into harder, more specific and in some ways worse facts: leverage roughly quadrupled in FY26, a freshly-disclosed 44.7% promoter pledge, two straight years of ROCE decline, a Q1 FY27 PAT miss
+- Mitigating nuance: EBITDA margin itself held/expanded YoY, so the PAT miss reads more like capex-cycle timing than structural margin collapse
+- Positive: a real, delivered 56% FY26 growth print, not just a target
+- Net effect confirmatory rather than a clear upgrade or downgrade -- conviction held at Low-Medium, thesis_fit held at 10x-in-2-3-years (four_box score 3.0 permits it) pending 1-2 more quarters of clarity
+
+## Force Motors Ltd — deep-dive pass 1 [2026-09-19]
+- Resolved the four_box=1.5 disconnect: the prior weak score rested on an unresolved Feb-May 2026 community complaint ("44% volume growth not translating to revenue") that fresh filings show was overstated -- actual FY25-26 domestic volumes were +20% YoY against +12.2% revenue growth, a real but modest mix/pricing gap
+- FY22-26: ROCE moved -3% -> 36%, revenue Rs3,240cr -> Rs9,057cr, PAT went from a Rs91cr loss to a record Rs1,212cr (+51% YoY) -- a structural improvement, not a cyclical spike
+- Two genuine structural moats confirmed: multi-decade captive BMW/Mercedes-Benz engine-manufacturing relationship, and >70% market share in the Traveller/Urbania van segment
+- Dated commercial-stage commitments now on record: 2,978-unit Gurkha defence order, 100-unit Mumbai Police Urbania order, board-committed Rs2,000-3,000cr capex plan
+- four_box upgraded 1.5 -> 3.0; analyst_override keeps thesis_fit "neither" on size math (Nesco logic), not business quality
+- Conviction Medium-High -> High
+
+## Molbio Diagnostics — deep-dive pass 1 [2026-09-19]
+- Margin-recovery guidance (24-25% FY27) now evidenced in Q1 FY27 (24.6% delivered), not just promised
+- Prior pass's "net cash" balance-sheet claim could not be re-confirmed; conflicting sources suggest mild net debt instead -- open question
+- "309% YoY" Q1 FY27 growth headline is mostly a base-effect artifact off an anomalously weak, loss-making Jun-25 quarter (tender-driven non-linearity)
+- TTM P/E compressed from ~79x (at listing) to ~59-60x as Q1 FY27 earnings flowed into trailing EPS
+- Conviction held at Medium, thesis_fit "neither" (four_box 3.0, analyst_override retained on valuation)
+
+## Rossell Techsys — deep-dive pass 1 [2026-09-19]
+- Fresh filings CONFIRM prior red flags: 3-yr avg ROCE ~7.8%, net debt/EBITDA ~6.5x, margins persistently below guidance
+- NEW: onboarded a major global semiconductor OEM (qualification complete), diversifying beyond pure defence -- revenue from Q2 FY27
+- NEW: board approved Rs300cr preferential equity raise to SBI MF (18-Sep-26, EGM 15-Oct-26) to de-lever the balance sheet
+- Promoter stake reduced 74.8%->69.9% via Kotak MF block deal (Rs166cr); no pledge
+- Q1 FY27 EBITDA margin ~15.1% -- first real margin step-up, still at low end of 15-22% guided band
+- Conviction held at Low-Medium, thesis_fit "neither" (four_box 3.0, analyst_override retained -- positives real but unconfirmed in a full reported period yet)
+
+## Leap India Ltd — deep-dive pass 1 [2026-09-19]
+- Corrected market cap to ~Rs 6,100-6,300 Cr (prior pass conflated IPO offer size with total market cap) -- puts trailing P/E at ~106x, not merely "expensive"
+- ROCE fell to ~8.3% (from ~19% pre-CHEP), and consolidated debt (~Rs 1,023 Cr) has NOT declined post-IPO despite ~Rs 360 Cr of fresh-issue proceeds earmarked for deleveraging -- the core IPO thesis is unconfirmed one quarter in
+- Q1 FY27 operating momentum genuinely strong (48 new customers vs 15-20 norm, EBITDA +21% vs revenue +19%, 89.2% utilisation) -- moat/tailwind case remains real
+- Fresh promoter pledge (5.10%, Sep-2026) tied to promoter's personal NCDs -- flagged as a watch item, not yet red-flag-tier
+- four_box revised to 2.5 (tailwind/moat=yes, tam=weak, valuation moved weak->no); conviction Low-Medium -> Low-Medium (confirmed/sharpened, not resolved)
+
+## Vadilal Industries Ltd — deep-dive pass 1 [2026-09-19]
+- Key finding: Vadilal Enterprises (related-party distributor, ~91% of FY26 turnover, 10-yr pact) will NOT renew past 30-Sep-2026 -- VEL's own public shareholders rejected the RPT at VEL's 8-Sep AGM despite VIL's shareholders approving it 10-Sep; no replacement distribution model announced; shares fell ~5%
+- Compounding risk: Reliance Consumer Products entered the category with "Bombay Creamery" the same month
+- FY26 (full fiscal year) PAT/EBITDA actually declined YoY; the strong Q1 FY27 print (revenue +34%, PAT +95%, margin 24.47% vs 19.76%) is unconfirmed as durable vs a seasonal peak
+- VEL was notably excluded from the 2025 promoter-entity merger scheme -- in hindsight a signal the VIL-VEL relationship was the more contentious one
+- red_flag_tier set to HIGH CAUTION this pass; four_box stays 3.0 but thesis_fit kept "neither" via analyst_override given the unresolved distribution risk
+- Conviction Medium -> Low-Medium
+
+## RKEC Projects Ltd — deep-dive pass 1 [2026-09-19]
+- Formal loan-default disclosure (Rs55.90 Cr principal + Rs7.52 Cr interest, 31-Jul-2026) -- a confirmed solvency-adjacent event, not just a screener ratio flag
+- Rs186.67 Cr Mumbai jetty EPC contract terminated by the client over delays (Apr-2026), a marquee project lost to execution failure
+- Promoter holding fell 66.51% -> 57.74% (Mar->Jun 2026) with pledge rising to 75.2% of the reduced stake
+- four_box score falls to 2.0 (tam: no, moat: weak); thesis_fit moves to neither, red_flag_tier set to HIGH CAUTION
+- MoD Super Special Class registration remains real but is likely unusable optionality until bank-guarantee capacity is restored
+- Conviction Low -> Low (confirmed, deepened)
+
+## Garden Reach Shipbuilders & Engineers Ltd (GRSE) — deep-dive pass 1 [2026-09-19]
+- Next-Generation Corvette award (~Rs33,000-36,000 Cr, 5 stealth corvettes) is now CCS-approved with commercial/technical terms finalised, signing expected Q2 FY27
+- Navratna status conferred June 2026 (29th CPSE) -- materially greater capex/investment autonomy
+- FY26 revenue +38% to Rs7,002 Cr, PAT +42% to Rs748 Cr; Q1 FY27 continued at +39%/+44% YoY -- growth is steady, not decelerating
+- Order book fell to Rs13,596 Cr (Jun-2026, first sub-Rs15,000cr print in a decade) -- management attributes this to fast execution, not weak demand
+- Valuation already full at 34.5x P/E / 10.5x P/B; four_box 2.5 (tam: no on size) keeps thesis_fit "neither" per the large-cap protocol
+- Diversification continuing: export MPV order for a German client expanded to 12 hybrid-propulsion vessels; non-defence order-book share now 25% vs 2% five years ago
+- Conviction Medium-High -> High
+
+## GNG Electronics Ltd (EBGNG) — deep-dive pass 1 [2026-09-19]
+- FY26 revenue +34%/PAT +91% beat management's own 20-25% growth guidance -- genuine guidance-credibility positive barely a year past its July-2025 IPO
+- The prior light-pass FCF caution is now independently confirmed: FY26 operating cash flow at -Rs 215 Cr (vs +Rs 25 Cr FY25), driven by inventory +Rs 253 Cr and receivables +Rs 340 Cr tied to new 30-45 day distributor credit terms
+- An estimated 80-120bps of FY26 margin gain is flagged as a cyclical inventory-timing effect (pre-buying ahead of a memory-chip price spike) expected to partially unwind over 12-18 months
+- New governance question mark: company publicly refuted (unverified) social-media claims that its Electronics Bazaar brand value flows to promoter-linked entity Kay Kay Overseas Corporation (KKOC)
+- Net debt fell from a Dec-2025 peak of Rs 466 Cr to Rs 300 Cr by Mar-2026
+- Conviction Medium -> Low-Medium
+
+## TIL Ltd — deep-dive pass 1 [2026-09-19]
+- Correction: FY26 full-year consolidated PAT actually widened to a loss of -Rs 30.86 Cr (from +Rs 2.90 Cr FY25), and revenue was flat-to-down YoY -- the turnaround had not yet shown up in FY26 results
+- The headline Q1 FY27 "+66-86%" consolidated growth is substantially inorganic (first-time consolidation of newly-acquired Tulip Compression/TCPL); standalone organic growth was a more modest +25% YoY
+- May-2026: TIL closed a 60% stake purchase in Tulip Compression (clean-energy/gas-compression) from promoter-affiliate Gainwell Commosales, a related-party-adjacent transaction not previously flagged; TCPL is immediately margin-accretive (~10% EBITDA margin vs TIL's 4.3%)
+- Real order-book evidence: ~Rs 110 Cr defense orders, Rs 66.75 Cr CONCOR ReachStacker contract, Rs 274 Cr FY27 pipeline
+- Legacy tax disputes resolved via Settlement-of-Disputes scheme, extinguishing/reducing ~Rs 45 Cr of contingent liabilities
+- four_box fell from 2.5 to 2.0 (valuation downgraded to "no"); Conviction Medium -> Low-Medium
+
+## Kaveri seeds company limited -- kscl — deep-dive pass 1 [2026-09-19]
+- Revenue mix has structurally shifted: cotton fell from 70%+ historically to ~25-28% by FY25, non-cotton (maize/rice/vegetables) now the majority -- a real diversification away from the government-price-controlled cotton segment
+- But Q1 FY27 (dominant Kharif quarter) shows non-cotton segments (especially maize, -39% volume) are themselves just as monsoon-exposed as cotton was -- the diversification changes the mix, not the fundamental weather dependency
+- 4-year Coffee-Can check (FY23-FY26) clears only 2 of 4 years on both the >=10% revenue-growth and >=15%-ROCE bars together -- confirms "lumpy," not compounding
+- Working-capital days deteriorated sharply from 151 to 275 -- a genuine new quality caution not present in the original pass
+- No promoter pledge, stable 60.50% holding, consistent buybacks since 2018 plus a steady dividend -- capital discipline real and unchanged
+- Current P/E ~14.4-15x is at/below its own historical median after a ~30% one-year price decline, supporting the valuation box
+- Prior Medium-High/38.3 master_score was an under-researched categorical anchor (sub-scores absent); corrected down to Medium
+- Conviction Medium-High -> Medium; four_box 1.5 -> 2.0, thesis_fit stays "neither"

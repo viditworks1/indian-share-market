@@ -2,7 +2,7 @@
 
 Stocks analyzed recently enough that their thread should NOT be re-opened by the scan job yet, regardless of new forum activity. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-09-18
+Generated: 2026-09-19
 
 | Stock | Last analyzed | Eligible again on | Conviction |
 |---|---|---|---|
@@ -15,7 +15,7 @@ Generated: 2026-09-18
 | 3B Blackbio DX Ltd | 2026-08-21 | 2026-09-20 | Medium |
 | Rain Industries | 2026-08-21 | 2026-09-20 | Medium |
 | E2E Networks Ltd | 2026-08-21 | 2026-09-20 | Low-Medium |
-| Kaveri seeds company limited -- kscl | 2026-08-21 | 2026-09-20 | Medium-High |
+| Kaveri seeds company limited -- kscl | 2026-08-21 | 2026-09-20 | Medium |
 | IDFC First Bank Limited | 2026-08-21 | 2026-09-20 | Low |
 | Manappuram Finance | 2026-08-21 | 2026-09-20 | Medium |
 | Kiri Industries: Loan reduction and demand surge | 2026-08-21 | 2026-09-20 | Low-Medium |
@@ -42,7 +42,7 @@ Generated: 2026-09-18
 | Milky Mist Dairy Food Ltd- Taste meets Valuations? | 2026-08-22 | 2026-09-21 | Medium |
 | Shanthi Gears/Shanti Gears | 2026-08-22 | 2026-09-21 | Medium |
 | Groww | 2026-08-22 | 2026-09-21 | Low |
-| TIL | 2026-08-22 | 2026-09-21 | Medium |
+| TIL | 2026-08-22 | 2026-09-21 | Low-Medium |
 | Triveni Turbines Ltd | 2026-08-22 | 2026-09-21 | Medium |
 | Kronox Lab Sciences | 2026-08-22 | 2026-09-21 | Low |
 | Venus Remedies | 2026-08-22 | 2026-09-21 | High |
@@ -56,7 +56,7 @@ Generated: 2026-09-18
 | TD Power Systems | 2026-08-22 | 2026-09-21 | Medium-High |
 | Affordable Robotic & Automation (ARAL) | 2026-08-22 | 2026-09-21 | Low |
 | AGI Infra Ltd | 2026-08-22 | 2026-09-21 | Medium |
-| Garden Reach Shipbuilders & Engineers Ltd (GRSE) | 2026-08-22 | 2026-09-21 | Medium-High |
+| Garden Reach Shipbuilders & Engineers Ltd (GRSE) | 2026-08-22 | 2026-09-21 | High |
 | Time Technoplast | 2026-08-22 | 2026-09-21 | Medium-High |
 | Surya roshni ltd | 2026-08-22 | 2026-09-21 | Medium |
 | Kaynes Technology India Limited | 2026-08-22 | 2026-09-21 | Low |
@@ -103,7 +103,7 @@ Generated: 2026-09-18
 | Yash Highvoltage Ltd | 2026-08-22 | 2026-09-21 | Medium-High |
 | Kitex Garments Ltd | 2026-08-22 | 2026-09-21 | Low |
 | Lactose India | 2026-08-22 | 2026-09-21 | Low |
-| Force Motors Ltd | 2026-08-22 | 2026-09-21 | Medium-High |
+| Force Motors Ltd | 2026-08-22 | 2026-09-21 | High |
 | Uno Minda Ltd | 2026-08-22 | 2026-09-21 | Low-Medium |
 | Godfrey Phillips India Ltd | 2026-08-22 | 2026-09-21 | Low-Medium |
 | Cupid Ltd | 2026-08-22 | 2026-09-21 | Low |
@@ -214,7 +214,7 @@ Generated: 2026-09-18
 | MOIL Ltd | 2026-08-23 | 2026-09-22 | Low |
 | BLS International | 2026-08-24 | 2026-09-23 | Low |
 | SG Mart- Can it successfully create a marketplace? | 2026-08-24 | 2026-09-23 | Low |
-| Maharashtra seamless-a value plus cyclical play | 2026-08-24 | 2026-09-23 | Medium |
+| Maharashtra seamless-a value plus cyclical play | 2026-08-24 | 2026-09-23 | Medium-High |
 | Raymond Lifestyle | 2026-08-24 | 2026-09-23 | Low |
 | Gufic BioSciences Ltd | 2026-08-24 | 2026-09-23 | Medium |
 | Gravita India success story | 2026-08-24 | 2026-09-23 | Medium |
@@ -286,7 +286,7 @@ Generated: 2026-09-18
 | Polycab India ~ Connection Zindagi Ka | 2026-08-25 | 2026-09-24 | None |
 | All E Technologies, making businesses ready for AI | 2026-08-26 | 2026-09-25 | Low |
 | Parag Milk Foods | 2026-08-26 | 2026-09-25 | Low |
-| TGV SRAAC erstwhile Sree Rayalseema Alkali | 2026-08-26 | 2026-09-25 | Medium |
+| TGV SRAAC erstwhile Sree Rayalseema Alkali | 2026-08-26 | 2026-09-25 | Low-Medium |
 | Stallion India Fluorochemicals : Aggressive Capex | 2026-08-26 | 2026-09-25 | Medium |
 | Hikal | 2026-08-26 | 2026-09-25 | Low |
 | TCPL Packaging Ltd. -- Statistical Facts & Figures -- Views Invited | 2026-08-26 | 2026-09-25 | None |
@@ -304,7 +304,7 @@ Generated: 2026-09-18
 | Kwality Pharmaceuticals | 2026-08-26 | 2026-09-25 | Low-Medium |
 | Jyoti Resins & Adhesives Limited (with bloated reserves) | 2026-08-26 | 2026-09-25 | None |
 | Laxmi Dental Ltd | 2026-08-26 | 2026-09-25 | Low |
-| India Shelter Finance Ltd: A Gem player in the affordable housing sector | 2026-08-26 | 2026-09-25 | Medium |
+| India Shelter Finance Ltd: A Gem player in the affordable housing sector | 2026-08-26 | 2026-09-25 | Low-Medium |
 | Ather Energy: Pioneering India's EV Revolution | 2026-08-26 | 2026-09-25 | Medium |
 | Vintage Coffee: Brewing Profits | 2026-08-26 | 2026-09-25 | Medium |
 | Ola Electric | 2026-08-26 | 2026-09-25 | None |
@@ -431,7 +431,7 @@ Generated: 2026-09-18
 | Repro india limited | 2026-08-29 | 2026-09-28 | Low |
 | Waaree Energies Ltd. | 2026-08-29 | 2026-09-28 | Medium |
 | Embassy Developments Ltd | 2026-08-29 | 2026-09-28 | Low |
-| Leap India Ltd- Leap of faith for long-term value? | 2026-08-30 | 2026-09-29 | Low |
+| Leap India Ltd- Leap of faith for long-term value? | 2026-08-30 | 2026-09-29 | Low-Medium |
 | Positron Energy | 2026-08-30 | 2026-09-29 | Low |
 | Religare Enterprises | 2026-08-30 | 2026-09-29 | Low |
 | Apollo Pipes Ltd. ~ From the house of APL Apollo (Erstwhile Amulya Leasing & Finance) | 2026-08-30 | 2026-09-29 | Low |
@@ -452,7 +452,7 @@ Generated: 2026-09-18
 | Savita Oil Technologies Ltd: Undervalued midcap in a competitive space? | 2026-08-30 | 2026-09-29 | Medium |
 | Avalon Technologies Ltd | 2026-08-30 | 2026-09-29 | Medium |
 | Elantas Beck India Ltd | 2026-08-30 | 2026-09-29 | Medium |
-| Bharat bijlee Ltd | 2026-08-30 | 2026-09-29 | Medium |
+| Bharat bijlee Ltd | 2026-08-30 | 2026-09-29 | Low-Medium |
 | Dynamic Cables | 2026-08-30 | 2026-09-29 | Medium-High |
 | United food brands ( Barbeque nation ) Ltd | 2026-08-30 | 2026-09-29 | Low |
 | Waaree Renewable Technologies Ltd | 2026-08-30 | 2026-09-29 | Medium |
@@ -638,7 +638,7 @@ Generated: 2026-09-18
 | Jindal Saw | 2026-09-07 | 2026-10-07 | Low-Medium |
 | Andhra Sugar- A sweet chemical story | 2026-09-07 | 2026-10-07 | Low-Medium |
 | Galaxy Bearings | 2026-09-07 | 2026-10-07 | Low |
-| Chatha Foods | 2026-09-07 | 2026-10-07 | Medium |
+| Chatha Foods | 2026-09-07 | 2026-10-07 | Low-Medium |
 | PC Jewellers | 2026-09-07 | 2026-10-07 | Low |
 | INOX Wind | 2026-09-07 | 2026-10-07 | Low-Medium |
 | Hi-Green Carbon Ltd | 2026-09-08 | 2026-10-08 | Low |
@@ -705,7 +705,7 @@ Generated: 2026-09-18
 | Knack (Knack Life Sciences) | 2026-09-13 | 2026-10-13 | Low |
 | VOEPL | 2026-09-13 | 2026-10-13 | Low |
 | FNS India | 2026-09-13 | 2026-10-13 | Low |
-| Nisus | 2026-09-13 | 2026-10-13 | Medium |
+| Nisus | 2026-09-13 | 2026-10-13 | Low-Medium |
 | Fanclean | 2026-09-13 | 2026-10-13 | Low |
 | Techlabs | 2026-09-13 | 2026-10-13 | Low |
 | Flysbs | 2026-09-13 | 2026-10-13 | Medium |
@@ -718,7 +718,7 @@ Generated: 2026-09-18
 | Rappid Valves | 2026-09-13 | 2026-10-13 | Low-Medium |
 | Univastu India | 2026-09-13 | 2026-10-13 | Medium |
 | Gayatri Rubber and Chemicals | 2026-09-13 | 2026-10-13 | Medium |
-| Rossell Techsys | 2026-09-13 | 2026-10-13 | Medium |
+| Rossell Techsys | 2026-09-13 | 2026-10-13 | Low-Medium |
 | Asian Energy Services | 2026-09-13 | 2026-10-13 | Low-Medium |
 | GTT Data Solutions | 2026-09-13 | 2026-10-13 | Low |
 | Kody Technolabs | 2026-09-13 | 2026-10-13 | Medium |
@@ -749,7 +749,7 @@ Generated: 2026-09-18
 | Ratnamani Metals & Tubes | 2026-09-13 | 2026-10-13 | Low |
 | Apollo Hospitals | 2026-09-13 | 2026-10-13 | Low-Medium |
 | Info Edge (Naukri) | 2026-09-13 | 2026-10-13 | Low-Medium |
-| ICICI Lombard | 2026-09-13 | 2026-10-13 | Medium |
+| ICICI Lombard | 2026-09-13 | 2026-10-13 | Low-Medium |
 | Kotak Bank | 2026-09-13 | 2026-10-13 | Medium-High |
 | Adani Power | 2026-09-13 | 2026-10-13 | Low |
 | Vedanta | 2026-09-13 | 2026-10-13 | Low |
@@ -774,7 +774,7 @@ Generated: 2026-09-18
 | Balaji Amines (Balamines) | 2026-09-15 | 2026-10-15 | Low |
 | Ind-Swift Laboratories (INDSWFTLAB) | 2026-09-15 | 2026-10-15 | Low |
 | Symbiotec Pharmalab (SYMBIOTEC) | 2026-09-15 | 2026-10-15 | Low |
-| EBGNG | 2026-09-15 | 2026-10-15 | Medium |
+| EBGNG | 2026-09-15 | 2026-10-15 | Low-Medium |
 | Sunlite | 2026-09-15 | 2026-10-15 | Medium |
 | Lumax Industries | 2026-09-15 | 2026-10-15 | Medium |
 | APAR Industries | 2026-09-15 | 2026-10-15 | Medium |
@@ -783,7 +783,7 @@ Generated: 2026-09-18
 | Omnitech | 2026-09-15 | 2026-10-15 | Medium |
 | Rubicon Research | 2026-09-15 | 2026-10-15 | Low-Medium |
 | ADC India Communications | 2026-09-15 | 2026-10-15 | Low |
-| Vadilal Industries | 2026-09-15 | 2026-10-15 | Medium |
+| Vadilal Industries | 2026-09-15 | 2026-10-15 | Low-Medium |
 | Sona BLW / Sona Comstar | 2026-09-15 | 2026-10-15 | Low-Medium |
 | IGI (Lab Grown Diamond certification) | 2026-09-15 | 2026-10-15 | Low-Medium |
 | D-Link India | 2026-09-15 | 2026-10-15 | Low |
@@ -810,7 +810,7 @@ Generated: 2026-09-18
 | Asahi Songwon Colors | 2026-09-15 | 2026-10-15 | Low |
 | GVPIL | 2026-09-15 | 2026-10-15 | Low |
 | Trejhara Solutions | 2026-09-15 | 2026-10-15 | Low |
-| Styrenix Performance Materials | 2026-09-15 | 2026-10-15 | Medium |
+| Styrenix Performance Materials | 2026-09-15 | 2026-10-15 | Low-Medium |
 | Gujarat Containers | 2026-09-15 | 2026-10-15 | Low |
 | EMA India | 2026-09-15 | 2026-10-15 | Low |
 | Auro Impex & Chem | 2026-09-15 | 2026-10-15 | Low |
@@ -870,12 +870,12 @@ Generated: 2026-09-18
 | Kernex Microsystems | 2026-09-16 | 2026-10-16 | Medium |
 | Embassy REIT | 2026-09-16 | 2026-10-16 | Medium |
 | Selan Exploration | 2026-09-16 | 2026-10-16 | Low-Medium |
-| Suzlon | 2026-09-16 | 2026-10-16 | Medium-High |
+| Suzlon | 2026-09-16 | 2026-10-16 | Medium |
 | Supreme (transformer maker) | 2026-09-16 | 2026-10-16 | Medium |
 | Shilchar Technologies | 2026-09-16 | 2026-10-16 | Medium |
 | Raghav Productivity Solutions | 2026-09-16 | 2026-10-16 | Medium |
 | Zaggle Prepaid Ocean Services | 2026-09-16 | 2026-10-16 | Low |
-| Vishnu Chemicals | 2026-09-16 | 2026-10-16 | Medium |
+| Vishnu Chemicals | 2026-09-16 | 2026-10-16 | Low-Medium |
 | GE Shipping | 2026-09-16 | 2026-10-16 | Low-Medium |
 | Valiant Laboratories | 2026-09-16 | 2026-10-16 | Low |
 | Pasupati Fincap | 2026-09-16 | 2026-10-16 | Low |

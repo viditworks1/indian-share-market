@@ -1,84 +1,212 @@
 {
   "name": "Vadilal Industries Ltd",
-  "tagline": "115-year-old Indian ice cream/frozen dessert brand with low debt and a genuine category tailwind (rising organized ice cream consumption), but thin single-digit-to-low-teens margins and no confirmed hypergrowth math - a solid small-cap compounder candidate, not a 10x/100x case.",
-  "business_overview": "Vadilal Industries manufactures ice cream, frozen desserts and processed food products, one of India's most recognised heritage ice cream brands (~115 years). There is a live, long-running ValuePickr thread on the stock (topic_id 88517, opened by basumallick in 2022) - not deep-read this pass, flagged for later patching. Seeded via untrusted X triage (@Prashanth_Krish, 2026-09-13, medium conviction).",
+  "conviction": "Low-Medium",
+  "tagline": "115-year-old heritage ice cream brand with a real category tailwind, a clean balance sheet and a blowout Q1 FY27 print, but this deep dive uncovers a material, unresolved governance/distribution shock - the related-party distributor handling ~91% of turnover will NOT renew past 30-Sep-2026 after ITS OWN shareholders rejected the deal, with no replacement plan announced and Reliance's Bombay Creamery entering the category the same month.",
+  "business_overview": "Vadilal Industries manufactures ice cream, frozen desserts and processed food products under one of India's most recognised heritage ice cream brands (~115 years of Gandhi-family heritage; the listed entity itself held its 42nd AGM in Sep-2026). Manufacturing facilities at Pundhra, Bareilly and Dharampur; 150+ SKUs across ice cream, frozen foods and processed foods; exports to 24 countries (~20% of turnover) including the US, UK and Middle East. Board approved shifting the Bareilly plant to a larger new facility at an estimated cost of Rs 385 Cr (approved May-2024, timeline still not finalised as of this pass). There is a live, long-running ValuePickr thread (topic_id 88517, opened by basumallick in 2022) with a documented history of promoter-family disputes; a memorandum of family settlement was signed in Mar-2025 to resolve a near-decade-long control dispute among three Gandhi-family branches, followed by a scheme to merge several promoter/promoter-group private entities into the listed company - notably EXCLUDING Vadilal Enterprises Ltd (VEL), the listed sister company that has been VIL's exclusive domestic distributor for the past 10 years. Seeded via untrusted X triage (@Prashanth_Krish, 2026-09-13, medium conviction).",
   "fundamentals_table": [
-    ["Market cap", "~Rs 5,421 Cr (up ~37.8% in 1 year)"],
-    ["Revenue / Profit", "Revenue ~Rs 1,676 Cr; Profit ~Rs 219 Cr (~13% net margin)"],
-    ["Valuation", "P/E ~33.9x (as of Aug 2026)"],
-    ["Debt", "Debt/Equity ~0.12 - low"],
-    ["Promoter holding", "~64.7%"],
+    ["Market cap", "~Rs 5,290-5,420 Cr (price ~Rs 7,362, Sep-2026)"],
+    ["FY26 (year ended Mar-2026)", "Turnover ~Rs 1,110 Cr (company AGM disclosure); PAT actually DECLINED to ~Rs 98 Cr from ~Rs 114 Cr FY25, EBITDA down to ~Rs 170 Cr from ~Rs 187 Cr FY25 - a down year, masked by the subsequent Q1 FY27 blowout"],
+    ["Q1 FY27 (Jun-2026 quarter)", "Revenue ~Rs 680 Cr (+34.2% YoY); PAT ~Rs 131 Cr (+95.4% YoY); EBITDA margin 24.47%, up sharply from 19.76% YoY - well above the historical mid-to-high-teens band, likely a seasonal (peak summer) + one-off effect, not yet confirmed as a new run-rate"],
+    ["ROCE / ROE (current, screener)", "ROCE ~22.0%, ROE ~19.6% - healthy, though ROCE has been gently declining from a ~27% FY24 peak"],
+    ["Valuation", "P/E ~24.2x (current, screener) - down from the ~34x cited a month earlier as TTM EPS caught up with the Q1 FY27 print"],
+    ["Debt", "Total debt ~Rs 230 Cr vs equity ~Rs 850 Cr, D/E ~0.27x - low, though up from the ~0.12x cited previously (likely reflects Bareilly-plant-relocation capex financing beginning)"],
+    ["Promoter holding", "~64.7-64.72%, stable; no pledge found"],
+    ["CRITICAL NEW FACT (governance/distribution)", "Vadilal Enterprises Ltd (VEL) - the related-party distributor handling ~91% of VIL's FY26 consolidated turnover under a 10-year pact signed Sep-2016 - will NOT renew the arrangement past 30-Sep-2026. VIL's own shareholders approved a 1-year renewal (up to Rs 1,373 Cr) at VIL's 42nd AGM (10-Sep-2026), but VEL's public shareholders voted AGAINST it at VEL's own AGM (8-Sep-2026), so the deal lapses anyway. No replacement distribution model (new distributor vs in-house) has been announced. Shares fell ~5% on the news."],
     ["52-week range", "~Rs 3,996 - Rs 7,478"]
   ],
-  "fundamentals_narrative": "Vadilal is riding a real, structural tailwind - organized ice cream/frozen dessert consumption growing off a low per-capita base in India, with the brand well established via 27 industry awards over 4 years and 'most trusted brand in ice cream' recognition. Balance sheet is clean (D/E ~0.12) and the stock has re-rated ~38% over the past year, but ROCE/ROE figures were not clearly confirmed this pass, and the ~34x P/E on a ~13% net margin, decades-old business does not show the explosive earnings-growth math that would support a genuine 10x/100x label - this reads as a category-tailwind compounder rather than a hypergrowth story.",
-  "technical_read": "Mid-range of 52-week band (~Rs 3,996-7,478); no further TA pulled.",
-  "sentiment_summary": "Not deep-read this pass. ValuePickr topic_id 88517 resolved via forum search.json (opened 2022, basumallick) - long-running thread; flagged for later patching, not post-by-post reviewed under the fast-triage budget.",
-  "community_signal": "Not assessed this pass - forum thread flagged only, not read.",
+  "fundamentals_narrative": "Vadilal is riding a real, structural tailwind - organised ice cream/frozen dessert consumption growing off a low per-capita base in India - with a clean balance sheet (D/E ~0.27x) and genuinely strong recent operating numbers (Q1 FY27 revenue +34%, PAT +95%, margin up ~470bps YoY). But FY26 itself was actually a down year on PAT and EBITDA, so the Q1 FY27 print needs at least one more quarter to confirm whether it is a real step-change or a seasonally strong outlier. More importantly, this deep dive surfaces a governance/distribution shock the prior light-lane pass never reached: Vadilal Enterprises (VEL), the related-party entity that has handled ~91% of VIL's domestic sales for a decade, will not renew that arrangement past 30-Sep-2026 because VEL's OWN public shareholders rejected the related-party-transaction renewal - despite VIL's shareholders approving it two days later. With no replacement distribution model disclosed yet, and Reliance Consumer Products entering the category the same month with 'Bombay Creamership,' this is a live, unresolved execution and competitive risk that materially outweighs the valuation improvement (P/E down from ~34x to ~24x) for now.",
+  "technical_read": "Near the top of its 52-week band (~Rs 3,996-7,478) at ~Rs 7,362, having partially recovered from a ~5% drop on the distribution-agreement news (~10-11 Sep-2026); no further TA pulled.",
+  "sentiment_summary": "ValuePickr topic_id 88517 (opened 2022 by basumallick) has a long history of promoter-family-dispute discussion. Posts reviewed (2024, via forum fetch - the most recent cleanly retrievable content, likely does not reflect the Sep-2026 distribution news): vignesh_iyer noted a 2017-18 NCLT case closing with no appeal (mildly positive on governance) but flagged market-share-loss uncertainty; swapnilr compared Vadilal unfavourably to Mrs Bector's on valuation, attributing the discount partly to 'history of conflicts among promoters' and a gap in quarterly updates since 2020; hakim_yamin suggested re-rating potential if promoter issues resolve. The thread's own multi-year narrative - promoter-family conflict depressing the multiple - reads as directly relevant background for the Sep-2026 VEL distribution breakdown, which is itself rooted in the group's related-party structure.",
+  "community_signal": "Forum thread shows persistent, multi-year caution specifically about promoter-family/governance friction depressing the stock's re-rating - a thesis this pass's key finding (the VEL distribution-pact non-renewal) directly corroborates. No verified trusted-roster conviction call on record; this project's trusted_signals pipeline has not flagged this name and that field is left untouched here.",
   "trusted_signals": [],
-  "bse_notes": "No red flags found in this pass (screener/web sources only).",
+  "bse_notes": "Material corporate disclosure (10-Sep/11-Sep-2026, BSE): VEL will not renew the domestic distribution agreement past 30-Sep-2026 after VEL's public shareholders rejected the RPT renewal at VEL's AGM, despite VIL shareholders approving their side of it. VIL states it 'has begun evaluating and initiating appropriate steps to ensure continuity of business operations' but has not announced a specific replacement (new distributor vs in-house model) as of this pass. This is treated as a HIGH CAUTION-tier governance/execution flag for this name (see red_flag_tier below) - it is the single most important new fact this deep dive uncovered and was not visible in the prior light-lane pass.",
   "bull_case": [
-    "Well-established heritage ice cream brand with strong trust/award recognition",
-    "Genuine category tailwind - rising organized ice cream/frozen dessert consumption in India",
-    "Low debt (D/E ~0.12); high promoter holding (~64.7%)",
-    "Stock re-rated ~38% over the past year"
+    "Well-established heritage ice cream brand (~115 years) with strong trust/award recognition and a genuine, underpenetrated category tailwind",
+    "Low debt (D/E ~0.27x), healthy ROCE (~22%) and ROE (~19.6%); promoter holding stable at ~64.7% with no pledge",
+    "Q1 FY27 print was genuinely strong (revenue +34%, PAT +95%, margin +470bps YoY) and valuation has become cheaper (P/E ~24x, down from ~34x a month earlier) even as the stock sits near 52-week highs",
+    "Mar-2025 family settlement + promoter-entity merger scheme suggests the decade-long control dispute is moving toward resolution, which the market itself has previously flagged as an overhang depressing the multiple"
   ],
   "bear_case": [
-    "Thin net margins (~13%) typical of a competitive FMCG/frozen-food category (Amul, Havmor, Creambell competition)",
-    "~34x P/E does not look cheap for the confirmed growth/margin profile",
-    "ROCE/ROE not independently confirmed this pass",
-    "No evidence of a capacity/margin-inflection catalyst that would support a hypergrowth (10x/100x) case"
+    "Vadilal Enterprises (the related-party distributor for ~91% of FY26 turnover) will not renew its 10-year distribution pact past 30-Sep-2026, and VIL has not announced a replacement model - this is a live, unresolved, near-term execution risk hitting the vast majority of domestic sales with only ~2 weeks' notice from today (19-Sep-2026)",
+    "Reliance Consumer Products entered the ice cream category with 'Bombay Creamery' the same month as the distribution shock - a well-capitalised new competitor arriving exactly when Vadilal's own go-to-market is in flux",
+    "FY26 (full fiscal year) PAT and EBITDA actually DECLINED YoY (Rs 98 Cr vs Rs 114 Cr PAT; Rs 170 Cr vs Rs 187 Cr EBITDA) - the strong headline growth is concentrated in the single Q1 FY27 quarter, which is also ice cream's seasonal peak, so peak-margin risk is real until confirmed by another quarter",
+    "VEL itself was notably excluded from the 2025 promoter-entity merger scheme even as other promoter/promoter-group entities were folded in - consistent with VEL being the more contentious, less-aligned related-party relationship in the group, which is exactly what has now broken down"
   ],
-  "market_cap_tier": "Small-cap (~Rs 5,421 Cr)",
+  "market_cap_tier": "Small-cap (~Rs 5,290-5,420 Cr)",
   "thesis_fit": "neither",
-  "verdict_headline": "Established ice cream brand small-cap with a real category tailwind and clean balance sheet, but margins and valuation do not support a 10x/100x case despite a four_box score at the label-permitting threshold. thesis_fit 'neither' (explicit exception), conviction Medium.",
+  "verdict_headline": "Established ice cream brand with a real category tailwind and clean balance sheet, but a newly-uncovered, unresolved related-party distribution breakdown (affecting ~91% of turnover) plus a fresh competitive entrant (Reliance's Bombay Creamery) override an otherwise-improving four_box score - thesis_fit stays 'neither' by deliberate override, conviction capped at Low-Medium pending clarity on the new distribution model",
   "verdict_reasoning": [
-    "four_box = 3.0 (tailwind yes - organized ice cream category growth; tam yes - large underpenetrated frozen dessert market; moat weak - strong regional/heritage brand but intense competition from Amul/Havmor/Creambell; valuation weak - ~34x P/E on ~13% margins). Score >=3.0 permits a 10x/100x label but does not require one.",
-    "Explicit exception applied: no confirmed hypergrowth earnings math (ROCE/ROE not verified, margins thin, no named capacity/margin-inflection catalyst found) - this reads as a durable category compounder, not a 10x-in-2-3-years or 100x-in-10-years case. thesis_fit kept at 'neither'.",
-    "No red flag found; clean balance sheet and category tailwind support Medium conviction",
-    "ValuePickr topic_id 88517 resolved via search.json (long-running thread since 2022) - noted for later patching, not deep-read under the fast-triage budget"
+    "four_box = 3.0 (tailwind yes - organised ice cream category growth; tam yes - large underpenetrated frozen dessert market; moat weak - real heritage-brand equity, but the exclusive-distribution relationship that partly explained the brand's retail reach has just collapsed, underscoring the moat was more relationship-dependent than owned; valuation weak - ~24x P/E on a still-thin, seasonally-boosted margin profile). Score >=3.0 would normally permit a 10x/100x label, but this pass deliberately keeps thesis_fit 'neither' (analyst_override=true) because of the live, unresolved VEL distribution-pact lapse - a governance/execution risk the mechanical four_box score doesn't capture",
+    "HIGH CAUTION red flag set this pass: VEL (related-party distributor for ~91% of turnover) will not renew past 30-Sep-2026 after VEL's own shareholders rejected the RPT; no replacement plan disclosed yet, and this arrives alongside a well-funded new competitor (Reliance's Bombay Creamery). This is exactly the kind of primary-document finding a light-lane pass (which never read the Sep-2026 filings) would miss",
+    "FY26 full-year profitability actually declined; the strong Q1 FY27 print (seasonal peak quarter) has not yet been confirmed as a durable new run-rate by a second data point",
+    "Conviction set to Low-Medium (down from the prior pass's explicit 'Medium') - the category tailwind and balance-sheet quality are real, but a HIGH CAUTION-tier, unresolved distribution-channel risk affecting the large majority of turnover caps conviction until a replacement distribution model is announced and shows results",
+    "ValuePickr topic_id 88517's own multi-year narrative (promoter-family conflict depressing the multiple, flagged repeatedly by forum posters since 2024) is directly corroborated by this pass's finding - the VEL breakdown is a related-party/governance event, not a pure demand-side shock"
   ],
-  "red_flag_tier": null,
-  "red_flag_reason": null,
+  "red_flag_tier": "HIGH CAUTION",
+  "red_flag_reason": "Vadilal Enterprises Ltd, the related-party entity handling ~91% of VIL's FY26 consolidated turnover under a 10-year exclusive domestic distribution pact, will not renew past 30-Sep-2026 - VEL's own public shareholders rejected the RPT renewal at VEL's 8-Sep-2026 AGM despite VIL's shareholders approving it two days later. No replacement distribution model (new distributor vs in-house) has been announced as of this pass (19-Sep-2026), and the arrangement lapses in under two weeks. This coincides with Reliance Consumer Products entering the category with 'Bombay Creamery.' Keep researching next quarter for the replacement plan and its execution; do not treat as resolved until VIL discloses and demonstrates a working alternative.",
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-19",
+    "sources_reviewed": [
+      "Screener.in consolidated page (market cap, P/E, ROCE, ROE, debt, promoter holding)",
+      "WebSearch aggregation of Q1 FY27 results coverage (Upstox, Indiantelevision, ScanX, Univest)",
+      "WebSearch aggregation of FY26 AGM/annual disclosures (turnover, net worth, export mix, Bareilly plant relocation)",
+      "BusinessWorld / Storyboard18 / Adgully / Whalesbook / Multibagg coverage of the Vadilal Enterprises distribution-agreement non-renewal (Sep-2026)",
+      "WebSearch aggregation of the 2025 Gandhi-family settlement and promoter-entity merger scheme (Business Standard, Storyboard18, MnAcritique)",
+      "ValuePickr forum thread 88517 ('Vadilal Industries') - 2024-era posts retrieved; more recent (Sep-2026) posts not confirmed retrievable this pass"
+    ],
+    "annual_report_findings": [
+      "FY26 (year ended Mar-2026): turnover ~Rs 1,110 Cr per AGM disclosure; PAT declined to ~Rs 98 Cr from ~Rs 114 Cr FY25; EBITDA declined to ~Rs 170 Cr from ~Rs 187 Cr FY25 - a down year on profitability despite the brand/category tailwind",
+      "Exports ~20% of turnover, reaching 24 countries including the US, UK and Middle East",
+      "Board approved (May-2024) relocating the Bareilly plant to a larger facility at an estimated cost of Rs 385 Cr; timeline for completion still not finalised as of this pass - a meaningful capex commitment relative to the ~Rs 850 Cr equity base",
+      "Mar-2025: Gandhi family (Rajesh R Gandhi, Janmajay V Gandhi, Devanshu L Gandhi branches) signed a memorandum settling a near-decade promoter control dispute; a composite scheme was approved to merge promoter/promoter-group entities (Vadilal Finance Company, Veronica Constructions, Vadilal International) into VIL - Vadilal Enterprises Ltd was notably NOT included in this merger despite VEL sourcing virtually all its ice-cream inventory from VIL",
+      "VIL's brand is used under a non-exclusive licence from Vadilal International (a promoter-group entity), per counsel statements in related litigation - the brand itself is not fully owned by the listed entity"
+    ],
+    "quarterly_trend": [
+      "Q4 FY26 (Jan-Mar 2026): revenue ~Rs 680 Cr (+9.7% YoY), PAT +56.1% YoY - management attributed to summer demand pull-forward and cost management",
+      "Q1 FY27 (Apr-Jun 2026): revenue ~Rs 680 Cr (+34.2% YoY), PAT ~Rs 131 Cr (+95.4% YoY), EBITDA margin 24.47% vs 19.76% YoY (+470bps) - a step-change versus the historical mid-to-high-teens OPM band noted in the prior pass's quality_metrics; stock hit a record high on the print",
+      "Interim dividend of Rs 17/share declared for FY27 alongside the Q1 results",
+      "Sequence read: FY26 was a down year on profitability (PAT -14% YoY), followed by a blowout Q1 FY27 - the trend is 'lumpy' rather than cleanly accelerating, and the margin step-up needs at least one more quarter to confirm as durable rather than a seasonal/one-off peak"
+    ],
+    "recent_announcements": [
+      "10-Sep-2026: VIL's 42nd AGM - shareholders approved a proposed 1-year renewal (capped at Rs 1,373 Cr, ~91% of FY26 consolidated turnover) of the VEL distribution RPT",
+      "8-Sep-2026: VEL's own AGM - VEL's public shareholders voted AGAINST the same RPT renewal, meaning it cannot proceed despite VIL's approval",
+      "VIL disclosed the pact (signed Sep-2016, its principal domestic sales/distribution channel) will lapse 30-Sep-2026, and stated it 'has begun evaluating and initiating appropriate steps to ensure continuity of business operations and minimise any adverse impact' - no specific replacement (new distributor vs in-house) disclosed yet",
+      "Shares fell ~5% on the news (~10-11 Sep-2026) before partially recovering to ~Rs 7,362 by the time of this pass",
+      "Reliance Consumer Products entered the ice cream/frozen-dessert category with 'Bombay Creamery' in the same month (Sep-2026)",
+      "FY26 final dividend record date fixed for 3-Sep-2026; FY26 sustainability report filed with exchanges"
+    ],
+    "key_new_facts": [
+      "The related-party distributor (VEL) handling ~91% of turnover will not renew its 10-year pact past 30-Sep-2026, rejected by VEL's OWN shareholders - this was not visible in the prior light-lane pass, which had explicitly flagged the VP forum thread as 'not deep-read'",
+      "FY26 (full fiscal year) PAT and EBITDA actually declined YoY, contrary to the impression a TTM-only read (boosted by the Q1 FY27 blowout) would give",
+      "VEL was deliberately excluded from the 2025 promoter-entity merger scheme, a structural signal (in hindsight) that the VIL-VEL relationship was the more contentious one in the group",
+      "A well-capitalised new competitor (Reliance's Bombay Creamery) entered the category the same month as the distribution shock"
+    ],
+    "open_questions": [
+      "What replacement distribution model will VIL adopt (new third-party distributor vs in-house build-out), on what timeline, and at what margin/cost impact?",
+      "Is the Q1 FY27 margin step-up (24.47% vs a historical mid-to-high-teens band) durable, or a seasonal-peak/one-off that reverts in FY27's other quarters?",
+      "What is VEL's own stated rationale for rejecting the RPT (not found in sources reviewed this pass) - pricing dispute, family-related friction, or a strategic pivot by VEL itself?",
+      "Has the Bareilly plant relocation (Rs 385 Cr) timeline been finalised, and how does its capex draw interact with the distribution-transition costs?"
+    ],
+    "conviction_update": "Medium -> Low-Medium. The category tailwind, balance-sheet quality and Q1 FY27 operating print remain genuinely attractive, but this pass uncovers a HIGH CAUTION-tier, unresolved related-party distribution breakdown affecting ~91% of turnover with no replacement plan disclosed and a well-funded new competitor entering the same month - exactly the kind of primary-document finding the light-lane pass was not positioned to catch. Conviction is capped at Low-Medium until VIL discloses and demonstrates a working alternative distribution model."
+  },
+  "commitments": [
+    {
+      "area": "strategy",
+      "text": "Establish a replacement domestic distribution model after the VEL pact lapses 30-Sep-2026",
+      "specifics": "No specific plan (new distributor vs in-house) disclosed as of this pass; affects ~91% of FY26 consolidated turnover",
+      "timeline_bucket": "3M",
+      "quality_stage": "expectation",
+      "source": "BSE filing / company statement, Sep-2026",
+      "dependency": "speed and quality of the transition; retention of freezer placements and retail reach built up over the VEL relationship",
+      "single_point_of_failure": "the transition itself - a stumble here directly hits the large majority of domestic revenue",
+      "thesis_critical": true
+    },
+    {
+      "area": "capacity",
+      "text": "Relocate Bareilly plant to a larger facility",
+      "specifics": "Estimated cost Rs 385 Cr, approved May-2024, timeline not yet finalised",
+      "timeline_bucket": "beyond",
+      "quality_stage": "action",
+      "source": "Board approval, May-2024 (via MarketScreener coverage)",
+      "dependency": "construction/commissioning timeline; funding mix (debt has already ticked up, D/E ~0.27x from ~0.12x)",
+      "single_point_of_failure": "",
+      "thesis_critical": false
+    },
+    {
+      "area": "margin",
+      "text": "Sustain the Q1 FY27 margin step-up (24.47% EBITDA margin) through the rest of FY27",
+      "specifics": "Up from 19.76% YoY; historical band was mid-to-high-teens",
+      "timeline_bucket": "FY27",
+      "quality_stage": "financial",
+      "source": "Q1 FY27 results",
+      "dependency": "whether Q1's mix/cost tailwinds repeat in non-peak quarters",
+      "single_point_of_failure": "",
+      "thesis_critical": true
+    }
+  ],
+  "earnings_chain": {
+    "chain": ["category tailwind (organised ice cream penetration)", "brand/distribution reach (historically via VEL)", "volume growth", "revenue growth", "mix/cost management", "EBITDA margin", "PAT"],
+    "bottleneck_link": "distribution channel transition (VEL pact lapsing 30-Sep-2026 with no announced replacement)",
+    "operating_leverage": "unclear - Q1 FY27 showed strong operating leverage (PAT +95% on revenue +34%), but the distribution transition is a new, un-evidenced variable that could disrupt the chain regardless of underlying demand",
+    "evidenced_links": ["category tailwind", "volume growth", "revenue growth (Q1 FY27)"],
+    "assumed_links": ["distribution continuity through the transition", "margin durability beyond the seasonal peak quarter"]
+  },
+  "market_expectation": {
+    "as_of": "2026-09-19",
+    "price": 7362,
+    "current_pe": 24.2,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~24x trailing P/E (down from ~34x a month earlier as TTM EPS caught up with the Q1 FY27 print) is a reasonable, not clearly rich, multiple IF the Q1 FY27 margin step-up and revenue growth prove durable - but the multiple does not yet appear to be pricing in the VEL distribution-transition risk at all",
+    "our_fy27_estimate": "Revenue growth likely continues in the mid-teens-to-20s% on the category tailwind IF the distribution transition is managed smoothly; a stumble in the transition could produce a revenue/margin air-pocket in Q2-Q3 FY27 regardless of underlying demand",
+    "our_fy28_estimate": "Not estimable with confidence - depends entirely on the outcome of the distribution-model transition and whether the Bareilly capex has landed by then",
+    "gap_direction": "partially-priced",
+    "gap_type": "timing",
+    "gap_magnitude_pct": null,
+    "gap_basis": "The market has re-rated the multiple down from ~34x to ~24x mechanically as EPS caught up, and reacted with only a ~5% drop (partially recovered since) to the VEL distribution news - this looks like the market is pricing the category tailwind and Q1 print more than it is pricing the unresolved, ~91%-of-turnover distribution transition risk",
+    "evidence_quality": "monitor",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "catalyst": {
+    "event": "Disclosure and early execution of VIL's replacement domestic distribution model post-VEL, plus confirmation (or reversal) of the Q1 FY27 margin step-up in Q2/Q3 FY27",
+    "expected_window_months": 6,
+    "window_start": "2026-09-19",
+    "evidence_quality": "high",
+    "is_dated": true,
+    "status": "pending"
+  },
+  "value_chain": {
+    "theme": "organised ice cream / frozen dessert FMCG",
+    "position": "heritage regional/national brand manufacturer, historically distributed almost entirely (~91% of turnover) through a single related-party distributor (VEL) now exiting that role",
+    "bottleneck_node": "domestic distribution/retail-freezer placement - now in transition with no announced replacement",
+    "supply_side_status": "consolidating",
+    "adjacent_peers": ["Amul", "Havmor (Lotte)", "Creambell", "Reliance Consumer Products (Bombay Creamery, new entrant Sep-2026)"],
+    "note": "The category itself is consolidating around a few well-capitalised national players (Amul, and now Reliance) even as it is structurally under-penetrated - Vadilal's distribution-channel disruption arrives at exactly the moment a deep-pocketed new entrant is pushing into the space, raising the stakes on a smooth transition."
+  },
+  "earnings_quality": {
+    "margin_driver": "mixed",
+    "drivers": ["seasonal mix (Q1 is the summer peak quarter)", "cost/input management", "operating leverage on the Q1 FY27 volume surge"],
+    "peak_margin_risk": true,
+    "normalised_note": "Q1 FY27's 24.47% EBITDA margin is well above the historical mid-to-high-teens band (and above FY26's own margin, which actually declined YoY) - this looks at least partly like a seasonal peak-quarter effect rather than a confirmed new structural level; needs a non-peak quarter to validate."
+  },
+  "growth_trajectory": {
+    "yoy_trend": "lumpy",
+    "last_quarters_note": "FY26 full year: PAT -14% YoY (a down year); Q4 FY26: revenue +9.7% YoY; Q1 FY27: revenue +34.2% YoY, PAT +95.4% YoY - a sharp swing from a down fiscal year into a blowout quarter, consistent with a seasonal/order-timing business rather than a steadily accelerating one",
+    "reverse_pe_note": "~24x trailing P/E does not require aggressive growth to be fair for a ~20% ROCE FMCG brand - the rate-of-change question here is less about whether growth is fast enough and more about whether the Q1 FY27 print (and the associated distribution channel it was sold through) is repeatable at all post-30-Sep-2026"
+  },
+  "management_quality": {
+    "capital_allocation": "Rs 385 Cr Bareilly plant relocation approved May-2024 (still not finalised on timeline, 18+ months later) alongside a rising D/E (0.12x to 0.27x); 3-yr incremental ROCE has been gently declining (27% to 22% FY24-26) despite continued capex - not clearly value-destructive, but not clearly accelerating either",
+    "capital_allocation_track_record": "neutral",
+    "rpt_trend": "concerning",
+    "guidance_credibility": "unclear",
+    "shareholder_returns": "consistent",
+    "capability_ladder_note": "",
+    "assessment": "concern"
+  },
+  "quality_metrics": {
+    "roce_pct": 22,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 0.7,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 15,
+    "margin_trend": "expanding",
+    "capex_efficiency": "unclear",
+    "assessment": "positive",
+    "note": "ROCE is gently declining from a FY24 peak (27% -> 25% -> 22%, FY24-26) despite continued capex (Bareilly relocation, Rs 385 Cr approved) - a mild but real efficiency caution, though ROCE has otherwise been consistently healthy (18-27%) across the last decade. margin_trend updated to 'expanding' this pass on the Q1 FY27 print (24.47% vs a prior high-teens band), but flagged in earnings_quality as possible peak_margin_risk pending confirmation. net_debt_to_ebitda recalculated to ~0.7x (Rs 230 Cr debt vs an estimated ~Rs 320 Cr TTM EBITDA) - still low, though up from the ~0.12x D/E cited previously as Bareilly capex financing begins."
+  },
+  "track_record": {
+    "years_checked": 11,
+    "years_cleared": 5,
+    "note": "FY16, FY22, FY23, FY25 and FY26-adjacent (per prior pass; FY26 itself was down on profitability per this pass's AGM-disclosure read, though ROCE stayed above 15%) each cleared BOTH >=10% revenue growth AND >=15% ROCE; FY17-21 and FY24 did not (mostly on the growth leg, ROCE stayed healthy throughout). A moderate, real Coffee-Can record (5/11) consistent with a solid category compounder rather than a hypergrowth story - unaffected by this pass's distribution-agreement finding, which is a forward-looking risk rather than a historical-financials one."
+  },
   "four_box": {
     "tailwind": "yes",
     "tam": "yes",
     "moat": "weak",
     "valuation": "weak",
     "score": 3.0,
-    "note": "Real organized-ice-cream-category tailwind and large underpenetrated TAM; heritage brand equity is a real but not dominant moat given Amul/Havmor/Creambell competition; valuation weak at ~34x P/E on thin (~13%) margins.",
+    "note": "Real organized-ice-cream-category tailwind and large underpenetrated TAM (tailwind/tam=yes). Moat is weak - heritage brand equity is real, but the exclusive-distribution relationship that partly explained the brand's retail reach has just collapsed, and the brand itself is only non-exclusively licensed from a separate promoter entity. Valuation weak at ~24x P/E (down from ~34x) on a margin profile not yet confirmed durable post-Q1 FY27.",
     "analyst_override": true
-  },
-  "value_chain": null,
-  "quality_metrics": {
-    "roce_pct": 22,
-    "roce_trend": "declining",
-    "net_debt_to_ebitda": 0.90,
-    "interest_coverage": null,
-    "fcf_conversion_pct": 15,
-    "margin_trend": "stable",
-    "capex_efficiency": "neutral",
-    "assessment": "positive",
-    "note": "ROCE is gently declining from a FY24 peak (27% -> 25% -> 22%, FY24-26) despite continued capex (Rs 104 Cr, FY26) - a mild but real efficiency caution. ROCE has otherwise been consistently healthy (18-27%) across the last decade. OPM has been stable in the mid-to-high teens (14-20%) since FY22."
-  },
-  "track_record": {
-    "years_checked": 11,
-    "years_cleared": 5,
-    "note": "FY16, FY22, FY23, FY25 and FY26 each cleared BOTH >=10% revenue growth AND >=15% ROCE; FY17-21 and FY24 did not (mostly on the growth leg, ROCE stayed healthy throughout). A moderate, real Coffee-Can record (5/11) consistent with a solid category compounder rather than a hypergrowth story."
-  },
-  "market_expectation": {
-    "as_of": "2026-09-18",
-    "price": 7101,
-    "current_pe": 23.3,
-    "current_ev_ebitda": null,
-    "valuation_tool": "P/E",
-    "implied_growth_cagr": "~23.3x trailing P/E (down from ~34x cited a month earlier, as EPS has caught up) against a moderate Coffee-Can record and gently declining ROCE looks reasonable, not clearly cheap or rich",
-    "our_fy27_estimate": "Revenue growth likely continues in the low-to-mid teens on the organised-ice-cream category tailwind; ROCE likely stabilises in the low-20s% absent a fresh catalyst",
-    "our_fy28_estimate": "Not estimable with confidence - no concall/guidance reviewed this pass",
-    "gap_direction": "partially-priced",
-    "gap_type": "margin",
-    "gap_magnitude_pct": null,
-    "gap_basis": "The multiple has already compressed from ~34x to ~23x as earnings caught up; a moderate (5/11) Coffee-Can record and gently declining ROCE are reasonably reflected at this more moderate multiple",
-    "evidence_quality": "weak",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   }
 }

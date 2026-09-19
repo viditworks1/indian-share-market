@@ -2,7 +2,7 @@
 
 Stocks worth actively re-checking once their cooldown lapses, even if the forum goes quiet on them - not just passively waiting for new posts. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-09-18
+Generated: 2026-09-19
 
 ## Due now
 
@@ -56,6 +56,7 @@ _(none)_
 | Kotak Bank | 2026-12-16 | ~3M | pending | 37.01 | Naming of the new CEO/MD successor, and continued Q2/Q3 FY27 results confirming the post-ban growth trajectory and Deutsche Bank India integration progress |
 | Proventus Agrocom | 2026-12-16 | ~3M | pending | 17.16 | Appointment of a replacement statutory auditor to fill the casual vacancy, and Surat facility full commissioning/ramp confirmation |
 | Beacon Trusteeship | 2026-12-16 | ~3M | pending | 0 | NCLT ruling on the 3-entity amalgamation scheme + disclosure of the actual swap ratio and per-share dilution impact |
+| Garden Reach Shipbuilders & Engineers Ltd (GRSE) | 2026-12-19 | ~3M | pending | 25.04 | Formal signing of the Rs 33,000-36,000 Cr Next-Generation Corvette contract (CCS-approved, terms already finalised) |
 | Thyrocare : Debt free Asset Light Healthcare Play | 2027-01-04 | ~4M | pending | 55.09 | Radiology (Nuclear Healthcare + Pulse Hitech) divestment closing |
 | Kwality Pharmaceuticals | 2027-01-18 | ~4M | pending | 6.88 | Hormone plant (Unit 6) commercial production start + a Q3 FY27 print showing oncology mix recovering to the guided 25-30% |
 | V2 Retail | 2027-01-29 | ~5M | pending | 8.05 | Q3 FY27 (December quarter) print -- the seasonal peak and the first quarter with the 4-5% price hikes: shows whether gross margin recovers to 29-30% and PAT ... |
@@ -111,15 +112,34 @@ _(none)_
 | Rappid Valves | 2027-03-18 | ~6M | pending | 0 | Next 1-2 quarters of cash-flow/working-capital disclosure - the key test of whether the FY25 negative-OCF/positive-PAT divergence is stabilising or worsening... |
 | Lumax Industries | 2027-03-19 | ~6M | pending | 22.9 | Q2/Q3 FY27 results and Bangalore facility commissioning progress, testing whether EBITDA margin holds double-digit levels net of the flagged one-off tooling-... |
 | Arrow Greentech | 2027-03-19 | ~6M | pending | 20.22 | Q2/Q3 FY27 results confirming whether Q1 FY27's rebound (+111% revenue, +151% PAT YoY) is a sustained new run-rate or a one-off order-timing spike |
+| Maharashtra seamless-a value plus cyclical play | 2027-03-20 | ~6M | pending | 55.09 | Q2/Q3 FY27 dispatch print (105,000-110,000 tons guided) and any fresh capital-allocation announcement on the ~Rs2,900+ Cr cash pile now that the demerger is ... |
 | Pitti Engineering Ltd | 2027-03-20 | ~6M | pending | 28.78 | FY28 print testing whether net debt actually falls toward ~Rs300cr (from ~Rs633cr) and whether PAT margin recovers as the tax rate normalises / HVA mix offse... |
 | RNIT AI Solutions Ltd | 2027-03-20 | ~6M | pending | 25.36 | 1FC Technology project delivery/renewal signal (6-month project from Aug 2026) plus Q2/Q3 FY27 results showing whether the government project pipeline (Goa/L... |
 | Marksans Pharma | 2027-03-20 | ~6M | pending | 24.79 | Q2/Q3 FY27 prints showing whether the 25% EBITDA margin holds, plus Europe (QliniQ/ABCnow) integration progress and Goa Unit 2 utilisation increase |
+| Universal Cables | 2027-03-20 | ~6M | pending | 24.49 | Final 2 CCV lines commissioning (Aug/Sep 2026) plus a Q2/Q3 FY27 margin print showing the full capacity benefit net of rising interest cost |
+| Nisus | 2027-03-20 | ~6M | pending | 18.11 | Q3 FY27 first UAE asset exit plus first NiYAM AIF deployment tranche - a real test of whether the FY27 growth guidance is credible |
+| Suzlon | 2027-03-20 | ~6M | pending | 17.27 | H2 FY27 quarterly print showing EBITDA margin recovery from Q1 FY27's compressed 15.6% level, as the Middle-East-linked supply-chain disruption cited by mana... |
+| TGV SRAAC erstwhile Sree Rayalseema Alkali | 2027-03-20 | ~6M | pending | 13.79 | Q2/Q3 FY27 margin print showing whether solar cost savings and forward integration offset the Q4FY26 cost-inflation signal ahead of Reliance/Adani capacity l... |
+| Styrenix Performance Materials | 2027-03-20 | ~6M | pending | 12.62 | ABS Phase I commissioning (within FY27) plus the first post-commissioning quarter confirming margins settle into the guided 10-12% band rather than falling f... |
+| IIFL Finance | 2027-03-20 | ~6M | pending | 11.57 | Q2/Q3 FY27 prints confirming the ROE trajectory toward ~25% guidance, plus any update on the ICRA capital-adequacy concern and the Blackstone-Fairfax stake t... |
 | Golkunda Diamond | 2027-03-20 | ~6M | pending | 11.21 | Q2/Q3 FY27 results showing whether the Mumbai-plant-driven domestic ramp continues the Q1 FY27 growth/margin inflection, and any Infomerics rating action (up... |
 | Zinka Logistics Solutions Ltd (BlackBuck) | 2027-03-20 | ~6M | pending | 4.2 | SuperLoads reaching its guided 5,000-monthly-load / 250-daily-load run-rate, and a quarter showing EBITDA margin re-inflecting rather than continuing to comp... |
+| Chatha Foods | 2027-03-20 | ~6M | pending | 2.28 | Q2/Q3 FY27 prints showing whether the utilisation ramp + Allana JV offtake actually deliver against the Rs 325cr FY27 guide |
 | Bhadora Industries Ltd | 2027-03-20 | ~6M | pending | 0 | A Q2/Q3 FY27 result showing whether the +226% Q1 FY27 net-sales jump is volume-backed and whether debtor days/operating cash flow normalise from the FY26 blo... |
+| Bharat bijlee Ltd | 2027-03-20 | ~6M | pending | 0 | H2 FY27 margin print showing whether copper/CRGO cost pass-through plus Phase 2 capacity flow through to a PAT recovery |
+| Molbio Diagnostics | 2027-03-21 | ~6M | pending | 32.83 | FY27 full-year print confirming the 24-25% EBITDA margin band holds + first revenue contribution from the new R&D facility / US-Europe expansion |
+| Force Motors Ltd | 2027-03-21 | ~6M | pending | 22.06 | Q3/Q4 FY27 print showing defence LSV deliveries + Urbania institutional orders translating into volume, and margin holding the ~18% Q2 FY27 exit run-rate |
+| KPI Green Energy Ltd | 2027-03-21 | ~6M | pending | 17.27 | Q2/Q3 FY27 results showing whether PAT growth reconnects with revenue/EBITDA growth (resolving the temporary-vs-structural question) plus visible progress to... |
+| Vadilal Industries | 2027-03-21 | ~6M | pending | 12.52 | Disclosure and early execution of VIL's replacement domestic distribution model post-VEL, plus confirmation (or reversal) of the Q1 FY27 margin step-up in Q2... |
+| Kaveri seeds company limited -- kscl | 2027-03-21 | ~6M | pending | 5.85 | Q2/Q3 FY27 prints (and Rabi-season sowing data) showing whether the Q1 FY27 monsoon-driven miss is a one-off or a multi-quarter drag |
+| RKEC Projects Ltd | 2027-03-21 | ~6M | pending | 1.5 | Resolution/refinancing of the Rs55.90 Cr loan default and clarity on FY27 order-execution and bank-guarantee capacity |
+| Leap India Ltd- Leap of faith for long-term value? | 2027-03-21 | ~6M | pending | 0 | FY27 full-year print showing whether EBITDA growth actually keeps outpacing revenue and whether consolidated debt visibly declines from the IPO proceeds |
+| Rossell Techsys | 2027-03-21 | ~6M | pending | 0 | Rs 300 Cr SBI MF preferential equity raise completing (EGM 15-Oct-2026) + first quarter of semiconductor-OEM revenue contribution (from Q2 FY27) + FY27 margi... |
+| TIL | 2027-03-21 | ~6M | pending | 0 | Q2/Q3 FY27 results showing a full-quarter TCPL contribution plus defense/CONCOR order execution, and whether consolidated EBITDA margin and PAT turn durably ... |
 | Unimech Aerospace and Manufacturing Ltd | 2027-04-02 | ~7M | pending | 0 | First nuclear-order execution prints in H2FY27 + full-quarter Hobel contribution from Q2 + QIP completion / MPS sell-down clearing the overhang |
 | Dynamic Cables | 2027-04-03 | ~7M | pending | 64.57 | Greenfield trial production Sep 2026 -> commercial Q4 FY27 (revenue from Q4 FY27, 80-85% utilisation by end-FY28); quarterly prints sustaining ~30% growth vs... |
 | MTAR Technologies Ltd | 2027-04-03 | ~7M | pending | 0 | Fuel-cell Phase 2 capacity live (Oct 2026) then Phase 3 (Mar 2027); H2 FY27 nuclear execution ramp; Q2/Q3 FY27 prints confirming the +80% FY27 path |
+| Supreme (transformer maker) | 2027-04-19 | ~7M | pending | 26.1 | Kanpur facility utilisation reaching the guided 30-50% band by Q4 FY27, alongside a quarter where PAT growth catches up to revenue growth (confirming the ove... |
 | Deepak Fertilizers and Petrochemicals | 2027-05-31 | ~9M | pending | 77.25 | Gopalpur TAN + Hazira nitric acid commissioning (Q2 FY27) and the Q3 FY27 print showing new-capacity + sustained-margin contribution, plus NCLT / regulatory ... |
 | Stylam Industries Ltd | 2027-05-31 | ~9M | pending | 33.35 | Panchkula plant commercial start (Sep 2026) plus Q2/Q3 FY27 prints showing new-capacity revenue, sustained ~20% margins, and the domestic segment swinging to... |
 | Timex Group (TGIL) | 2027-05-31 | ~9M | pending | 4.06 | H2 FY27 prints showing whether revenue growth re-accelerates toward 40% or settles near 30%, plus confirmation the promoter sell-down is genuinely over (no f... |
@@ -185,6 +205,7 @@ _(none)_
 | Engineers India (EIL) | 2027-06-17 | ~9M | pending | 36.0 | Continued consultancy-mix-driven margin expansion across FY27, and confirmation of Dangote contract execution milestones |
 | Lohia Corp | 2027-06-17 | ~9M | pending | 7.67 | Continued order-book-to-revenue conversion and margin sustainability across the next 2-3 quarters, confirming Q1 FY27 is the start of a trend rather than a o... |
 | Dhabriya Polywood Ltd | 2027-06-19 | ~9M | pending | 45.29 | Aluminium Windows & Facade division delivering its guided Rs40-50Cr FY27 revenue as the Rs56Cr+ backlog converts, alongside continued EBITDA margin expansion... |
+| NLC India | 2027-06-19 | ~9M | pending | 37.48 | NIRL (NLC India Renewables) DRHP filing / IPO listing (~Rs 4,000cr raise) as the renewable-arm value-unlock event |
 | EPL Ltd | 2027-06-19 | ~9M | pending | 18.65 | NCLT approval and Indovida merger completion (Indorama becomes promoter); Q2/Q3 FY27 margin prints showing commodity pass-through catching up to the ~20% und... |
 | Pix Transmissions Ltd | 2027-06-19 | ~9M | pending | 1.74 | A dated, disclosed EV two-wheeler OEM order (Ola/Ather or others) actually materialising; a subsequent quarter showing core EBITDA/PAT recovering on an opera... |
 | Wonderla Holidays | 2027-07-01 | ~10M | pending | 5.89 | Formal announcement of the next 1-2 large park locations with capex and timeline (management guided 'before end-FY27'), plus H2 FY27 prints confirming mature... |
@@ -218,6 +239,7 @@ _(none)_
 | Mayur Uniquoters Ltd | 2027-09-12 | ~12M | pending | 41.68 | Mexico capex restart once US tariff clarity emerges, or PU-plant utilization finally moving meaningfully above ~25% |
 | Univastu India | 2027-09-18 | ~12M | pending | 64.4 | Execution ramp of the Rs1,021cr+ order book (L&T Metro Line 4/4A, IRCON Mumbai Metro, Pune Metro) converting to revenue over FY27-28, plus a first material r... |
 | Skipper | 2027-09-18 | ~12M | pending | 25.65 | FY27 execution of the record Rs9,217cr order book plus delivery against the raised export/order-inflow guidance (Rs1,500cr export, Rs7,500cr total), with EBI... |
+| Vishnu Chemicals | 2027-09-18 | ~12M | pending | 3.85 | FY27 capex commissioning across DMSO plant / chromium-derivative capacity / barium backward integration, plus the first quarterly prints showing whether EBIT... |
 | Sambhv Steel Tubes | 2027-10-30 | ~14M | pending | 23.34 | Kesda stainless Phase-1 commissioning (targeted end-FY27) + first FY28 quarters showing SS contribution and post-deleverage interest savings, alongside proof... |
 | Emmvee Photovoltaic Power Ltd | 2027-12-19 | ~15M | pending | 0 | 6 GW integrated TOPCon module line commissioning (Dec-2026) and first cell-line ramp quarter (Mar-2027), plus any visible module/cell ASP softening as indust... |
 

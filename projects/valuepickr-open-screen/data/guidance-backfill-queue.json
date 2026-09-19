@@ -1,8 +1,249 @@
 {
-  "generated": "2026-09-18",
+  "generated": "2026-09-19",
   "selection": "status=researched, no red flag, thesis_fit!=neither, conviction_score>=35, MISSING >=1 of ['market_expectation', 'quality_metrics', 'track_record']. Sorted by Confluence-100 membership, then conviction_score desc. deepdive-top100's light lane drains this, writing only the blocks named in each entry's `missing`; entries drop off once all three exist (here or a full deep pass).",
-  "total": 0,
-  "pending": 0,
-  "confluence100_pending": 0,
-  "queue": []
+  "total": 12,
+  "pending": 12,
+  "confluence100_pending": 12,
+  "queue": [
+    {
+      "slug": "transrail-lighting",
+      "state_key": "transrail-lighting",
+      "name": "Transrail Lighting Ltd",
+      "data_file": "data/transrail-lighting.json",
+      "conviction_score": 31.65,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Small-cap (~Rs 6,176 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 1
+    },
+    {
+      "slug": "kp-green-engineering",
+      "state_key": "kp-green-engineering",
+      "name": "KP Green Engineering Ltd",
+      "data_file": "data/kp-green-engineering.json",
+      "conviction_score": 30.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Small-cap (~Rs 1,258 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 2
+    },
+    {
+      "slug": "trualt-bioenergy",
+      "state_key": "trualt-bioenergy",
+      "name": "TruAlt Bioenergy",
+      "data_file": "data/trualt-bioenergy.json",
+      "conviction_score": 30.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Small/Mid-cap (~Rs 3,826 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 3
+    },
+    {
+      "slug": "vikram-solar",
+      "state_key": "vikram-solar",
+      "name": "Vikram Solar- One of the oldest Solar module manufacturer",
+      "data_file": "data/vikram-solar.json",
+      "conviction_score": 30.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Mid-cap (~Rs 6,231 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 4
+    },
+    {
+      "slug": "hero-motor",
+      "state_key": "hero-motor",
+      "name": "Hero Motor",
+      "data_file": "data/hero-motor.json",
+      "conviction_score": 28.4,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Large-cap (~Rs 1,14,020 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 5
+    },
+    {
+      "slug": "embassy-reit",
+      "state_key": "embassy-reit",
+      "name": "Embassy REIT",
+      "data_file": "data/embassy-reit.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Large-cap REIT",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 6
+    },
+    {
+      "slug": "ipca-labs",
+      "state_key": "ipca-labs",
+      "name": "IPCA Labs",
+      "data_file": "data/ipca-labs.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Large-cap (~Rs 49,942 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 7
+    },
+    {
+      "slug": "omnitech",
+      "state_key": "omnitech",
+      "name": "Omnitech",
+      "data_file": "data/omnitech.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Small-cap (~Rs 6,500 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 8
+    },
+    {
+      "slug": "raghav-productivity-solutions",
+      "state_key": "raghav-productivity-solutions",
+      "name": "Raghav Productivity Solutions",
+      "data_file": "data/raghav-productivity-solutions.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Mid-cap (~Rs 6,000-8,500 Cr, source-dependent)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 9
+    },
+    {
+      "slug": "sacheerome",
+      "state_key": "sacheerome",
+      "name": "Sacheerome Ltd",
+      "data_file": "data/sacheerome.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Small-cap (~Rs 700-785 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 10
+    },
+    {
+      "slug": "eldeco-housing-ltd",
+      "state_key": "eldeco-housing-ltd",
+      "name": "Eldeco Housing Ltd",
+      "data_file": "data/eldeco-housing-ltd.json",
+      "conviction_score": 23.19,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Small-cap (~Rs 841 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 11
+    },
+    {
+      "slug": "borana-weaves",
+      "state_key": "borana-weaves",
+      "name": "Borana Weaves",
+      "data_file": "data/borana-weaves.json",
+      "conviction_score": 22.0,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Small-cap (~Rs 815 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 12
+    }
+  ]
 }
