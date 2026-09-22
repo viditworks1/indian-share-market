@@ -1,41 +1,53 @@
 {
   "name": "Solex Energy Ltd",
-  "tagline": "Recently mainboard-migrated solar-module manufacturer scaling aggressively toward a 15GW-by-2030 vision - down ~46% from highs after a disputed Q2FY26 revenue miss, statistically cheap post-crash (~10.5x TTM P/E) but facing a genuinely contested oversupply/commoditisation debate and a delayed cell-line",
-  "business_overview": "Incorporated 1995, Solex Energy manufactures solar photovoltaic cells and modules and does EPC in the solar-energy market, based in Gujarat. Completed SME-to-mainboard migration (Oct 2025). Vision 2030 targets 15GW module + 5GW cell manufacturing capacity; current module capacity ~4GW (2.5GW line commissioned Oct-Nov 2025), cell line pushed to ~FY27 (from an earlier FY26 target). (Source: external-lead, @ankitbahuguna84, untrusted X triage, first_seen 2026-09-04.)",
+  "tagline": "Recently mainboard-migrated solar-module manufacturer whose post-crash 'statistically cheap' thesis was tested by an actual Q1FY27 print and found wanting - PAT down 66.6% YoY, FY26 revenue guidance missed twice over, cell-line funding shrunk and shifted from QIP to structured debt, and the capacity vision quietly moderated from '15GW by 2030' to '10GW module by FY30'; real capacity/order-book scale remains but four_box score falls to 2.5 and thesis_fit moves to 'neither' pending H2FY27 delivery",
+  "business_overview": "Incorporated 1995, Solex Energy manufactures solar photovoltaic cells and modules and does EPC in the solar-energy market, based in Gujarat. Completed SME-to-mainboard migration (Oct 2025). Module capacity reached 4GW after Lines 3 & 4 (2.5GW combined) commissioned end-Oct/Nov 2025. A 2GW N-Type TOPCon Plus cell line, originally targeted for FY26 then FY27, is still pre-commissioning as of Sep 2026 - land procured, awaiting a 30MW power-connection approval from the Gujarat government, funding shifted from a Rs 1,500 Cr QIP+debt plan to a smaller ~Rs 1,050 Cr structured-debt-led plan (~Rs 700 Cr debt via an SBI-led consortium + ~Rs 350 Cr equity), debt due diligence completed and at final evaluation as of the Q1FY27 concall, target commissioning March 2027. Longer-dated: a proposed Rs 4,000 Cr integrated solar-cell + BESS (battery storage) facility in Gujarat, with the capacity vision now framed as 4GW -> 10GW module by FY30 (moderated from an earlier '15GW by 2030' framing). (Source: external-lead, @ankitbahuguna84, untrusted X triage, first_seen 2026-09-04; fundamentals updated via deep-dive pass 1, 2026-09-22.)",
   "fundamentals_table": [
     [
       "Market cap",
-      "~Rs 770 Cr (down 45.7% in 1 year)"
+      "~Rs 760 Cr (price ~Rs 704, Sep-22-2026)"
     ],
     [
       "52-week range",
-      "Rs 712.60 - Rs 745.00 (narrow, post-mainboard-migration range reset near lows)"
+      "Rs 1,985 (Nov 2025 high) to ~Rs 700 (current) - a ~64.5% peak-to-trough decline; the pass-0 file's narrower Rs 712-745 range materially understated the actual correction"
     ],
     [
-      "Revenue (TTM)",
-      "~Rs 1,566 Cr; H1FY26 Rs 415 Cr (+52% YoY, but Q2 fell sequentially vs Q1's Rs 260 Cr)"
+      "Revenue (TTM / FY26)",
+      "FY26 (Apr25-Mar26) actual Rs 1,621.1 Cr (+143.9% YoY); Q1FY27 (Apr-Jun26) revenue Rs 265.6 Cr, only +1.8% YoY - ALMM-driven order rescheduling delayed billing into H2FY27"
     ],
     [
       "Profit",
-      "~Rs 73.6 Cr; implied TTM P/E ~10.5x"
+      "FY26 PAT Rs 98.25 Cr (+132.7% YoY, margin 6.1%); Q1FY27 PAT collapsed 66.6% YoY to Rs 8.26 Cr as new-capacity depreciation/finance cost stepped up ahead of the revenue ramp. TTM P/E ~10.3x (screener, Sep-22-2026) on EPS (TTM) Rs 68.12"
     ],
     [
-      "ROE",
-      "46.43% (last reported FY, consolidated)"
+      "ROE / ROCE",
+      "ROE 38.4% FY26 (down from ~46.4% FY25); ROCE 31.7% FY26 - both declining YoY, and materially below the ~46% ROCE figure the pass-0 file carried (likely a ROE/ROCE conflation)"
     ],
     [
       "Debtor days",
-      "Rising: 61.9 -> 77.6 days"
+      "Rising per screener: 61.9 -> 77.6 days. Company's own H1/FY26 commentary separately claims an improved overall WC cycle (~35 days FY26 vs 61 FY25) - the two signals could not be reconciled within this pass's budget (see open_questions)"
     ],
     [
-      "FY26 revenue guidance",
-      "Rs 2,000+ Cr (management) - implies ~Rs 1,600 Cr required in H2FY26"
+      "FY26 guidance vs actual",
+      "MISSED both guides given during the year: Rs 1,621 Cr actual vs an original Rs 2,000+ Cr guidance and a revised ~Rs 1,850 Cr H1-concall guidance"
+    ],
+    [
+      "FY28 aspiration",
+      "Rs 4,500 Cr revenue, 5-6% PAT margin - management's own framing, explicitly called 'aspirational'; notably BELOW FY26's already-thin 6.1% actual margin"
+    ],
+    [
+      "Order book",
+      "Rs 3,400 Cr (Jun 2026), down from Rs 4,000 Cr (Sep 2025) on billing progress + ALMM-driven rescheduling; Rs 845.84 Cr near-term executable pipeline targeted for execution by 31-Dec-2026"
+    ],
+    [
+      "Leverage",
+      "Net debt/equity 0.57x (FY26); net debt/EBITDA ~0.7x estimated - set to rise materially once ~Rs 700 Cr of new cell-line debt draws down"
     ]
   ],
-  "fundamentals_narrative": "Genuine capacity and revenue scale-up (module capacity 700MW -> 4GW in ~2 years; TTM revenue already Rs 1,566 Cr) at a market cap that has been cut nearly in half (-45.7% 1yr) - the stock is statistically cheap (~10.5x TTM P/E, 46% ROE) after the correction. But H1FY26 showed an unexplained sequential revenue drop in Q2 (management attributed it to extended Gujarat monsoon delaying deliveries; a trusted community member called this 'a red herring... still unexplained'), the cell line has slipped from an FY26 to an FY27 timeline, rising debtor days signal building working-capital strain, and the community has raised a genuine, unresolved oversupply/commoditisation concern (many Indian module manufacturers expanding capacity simultaneously; thin, book-value-multiple-driven valuations across the sector).",
+  "fundamentals_narrative": "Genuine capacity and revenue scale-up (module capacity 700MW -> 4GW in ~2 years; FY26 revenue Rs 1,621 Cr, +144% YoY) at a market cap that has been cut by ~64.5% from its Nov-2025 peak (Rs 1,985 -> ~Rs 704) - a much sharper correction than the pass-0 file's '46%' figure captured. But the post-crash 'statistically cheap' thesis has now been tested by an actual earnings print rather than just sentiment: Q1FY27 PAT collapsed 66.6% YoY as new-capacity depreciation and finance cost stepped up ahead of the revenue ramp, EBITDA margin compressed to 12.7% from 16.4%, and ALMM-clarity delays pushed customer deliveries into H2FY27 (a rescheduling, per management, not cancellations). FY26 revenue also missed guidance twice over (Rs 2,000+ Cr original, then a revised ~Rs 1,850 Cr H1-concall guide, against an actual Rs 1,621 Cr) - a guidance-credibility problem not visible in the pass-0 read. The cell line has slipped again (funding shrunk from Rs 1,500 Cr to ~Rs 1,050 Cr and shifted from QIP to structured debt; still pre-financial-close as of Sep 2026), ROE/ROCE both declined YoY, rising debtor days signal continuing working-capital strain (though this conflicts with the company's own claimed WC-cycle improvement), and the community's genuine, unresolved oversupply/commoditisation concern is reinforced by management's own acknowledgement that Chinese manufacturers remain aggressive on price. Management's own FY28 aspiration (Rs 4,500 Cr revenue, 5-6% margin) is itself below FY26's actual margin - an implicit admission that near-term margins are not a clean run-rate. Real capacity and order-book scale remain (Rs 3,400 Cr order book, Rs 845.84 Cr near-term executable pipeline), so this stays a name to re-underwrite rather than avoid, but it no longer clears the bar for the return-magnitude label it carried in pass 0.",
   "technical_read": "Not pulled - fundamentals/thread read gave enough signal; stock already near 52-week lows post-correction.",
-  "sentiment_summary": "63-post thread (2024-2026) tracking capacity ramp, guidance, and post-mainboard-migration developments closely. Sentiment shifted from strongly bullish (2024, aggressive Vision-2030 framing) to genuinely divided after the ~50% price decline since Nov 2025, with a detailed bull/bear numerical debate (Agastya vs Prabhat_Mohanty) over whether H2FY26 guidance (Rs 1,600 Cr) is achievable.",
-  "community_signal": "Prabhat_Mohanty (trusted) is explicitly skeptical post-correction (Jan 2026): called the Q2 revenue drop 'a red herring... still unexplained,' noted peers (Premier, Vikram) also showing weak numbers, and called the Rs 1,600 Cr H2 target 'a herculean task' while acknowledging the European order book as 'a silver lining.' Nabendu (trusted) was an early, detailed bull (Dec 2024 thread-opening post, 12 likes) tracking capacity milestones closely but has not weighed in on the post-correction debate in the fetched window. No trusted-user directional call in either direction post-crash - genuine, live disagreement.",
+  "sentiment_summary": "63-post thread (2024-2026) tracking capacity ramp, guidance, and post-mainboard-migration developments closely. Sentiment shifted from strongly bullish (2024, aggressive Vision-2030 framing) to genuinely divided after the ~50% price decline since Nov 2025, with a detailed bull/bear numerical debate (Agastya vs Prabhat_Mohanty) over whether H2FY26 guidance (Rs 1,600 Cr) is achievable. (Note: this pass is a fundamentals-only deep dive; the VP thread itself was not re-read, so this summary predates the confirmed Q1FY27 PAT miss discussed in fundamentals_narrative above - see open_questions.)",
+  "community_signal": "Prabhat_Mohanty (trusted) is explicitly skeptical post-correction (Jan 2026): called the Q2 revenue drop 'a red herring... still unexplained,' noted peers (Premier, Vikram) also showing weak numbers, and called the Rs 1,600 Cr H2 target 'a herculean task' while acknowledging the European order book as 'a silver lining.' Nabendu (trusted) was an early, detailed bull (Dec 2024 thread-opening post, 12 likes) tracking capacity milestones closely but has not weighed in on the post-correction debate in the fetched window. No trusted-user directional call in either direction post-crash - genuine, live disagreement. (Fundamentals deep-dive, pass 1: the Q1FY27 PAT collapse now confirms the direction of Prabhat_Mohanty's skepticism with actual numbers rather than just sentiment.)",
   "trusted_signals": [
     {
       "date": "2026-01-26",
@@ -45,31 +57,33 @@
       "superseded": false
     }
   ],
-  "bse_notes": "No SEBI or fraud action found. Mainboard migration completed Oct 2025 (was delayed from an earlier June 2025 target due to ESM listing status).",
+  "bse_notes": "No SEBI or fraud action found. Mainboard migration completed Oct 2025 (was delayed from an earlier June 2025 target due to ESM listing status). Deep-dive pass 1 (2026-09-22): cell-line fund-raise plan formally revised down (Rs 1,500 Cr -> ~Rs 1,050 Cr) and shifted from QIP to structured debt (SBI-led consortium, due diligence complete, final evaluation stage); promoter pledge confirmed 0% throughout; no auditor-resignation or board/KMP-change disclosures found within this pass's search budget (see open_questions).",
   "bull_case": [
     "Real capacity scale-up already executed: 700MW -> 4GW module capacity in ~2 years",
-    "TTM revenue already Rs 1,566 Cr; ROE 46% (though partly reflects a small equity base pre-dilution)",
-    "Statistically cheap post ~46% correction: ~10.5x TTM P/E",
-    "Fresh Rs 500+ Cr European order win (Oct 2025) - genuine export diversification",
-    "Founder (Dr Chetan Shah) has a credible track record scaling a prior module manufacturer (Goldi Solar)"
+    "FY26 revenue Rs 1,621 Cr (+144% YoY); statistically cheap at ~10.3x TTM P/E even after two guidance misses",
+    "Genuine export diversification: European order book (Rs 500+ Cr, Oct 2025) and other non-China-preferring markets (Middle East, Africa, US)",
+    "Founder (Dr Chetan Shah) has a credible track record scaling a prior module manufacturer (Goldi Solar)",
+    "Rs 845.84 Cr near-term executable order pipeline (targeted for Dec-2026) gives some H2FY27 revenue visibility even after the Q1FY27 miss - management frames the shortfall as rescheduling, not cancellation",
+    "ROCE still comfortably above a 15% quality bar (31.7% FY26) and book value ~Rs 225/share (P/B ~3.1x) provide some fundamental cushion despite the correction"
   ],
   "bear_case": [
-    "Q2FY26 sequential revenue drop remains genuinely unexplained/disputed by a trusted community member",
-    "Cell-line commissioning slipped from FY26 to FY27 - a full capex-cycle delay on the margin-accretive part of the plan",
-    "Rising debtor days (61.9 -> 77.6) - working-capital strain building alongside the aggressive capex",
-    "Genuine, unresolved industry-wide oversupply/commoditisation concern (solar modules are a P/B-multiple, low-differentiation category)",
-    "H2FY26 guidance (Rs 1,600 Cr) called 'herculean' by a trusted, numerate community member",
-    "Peer weakness (Premier, Vikram) suggests this may be sector-wide, not company-specific"
+    "FY26 revenue MISSED guidance twice over (Rs 2,000+ Cr original, ~Rs 1,850 Cr revised, vs Rs 1,621 Cr actual) - a guidance-credibility problem, not just a one-off miss",
+    "Q1FY27 PAT collapsed 66.6% YoY and EBITDA margin compressed to 12.7% from 16.4% - the market's post-crash scepticism has now been confirmed by an actual earnings print, not just sentiment",
+    "Cell-line commissioning has slipped again; funding plan was cut (Rs 1,500 Cr -> ~Rs 1,050 Cr) and shifted from QIP to structured debt, with land/power-connection/debt-close all still pending as of Sep 2026",
+    "Rising debtor days (61.9 -> 77.6, per screener) - working-capital strain signal persists (in tension with the company's own claimed WC-cycle improvement, itself a transparency concern)",
+    "ROE and ROCE both declined YoY (ROE 46.4% -> 38.4%; ROCE confirmed at 31.7%, well below the inflated ~46% figure previously recorded)",
+    "Genuine, unresolved industry-wide oversupply/commoditisation concern, reinforced by an 'adding' capital-cycle signal (many Indian manufacturers, including Solex itself, simultaneously expanding capacity) and management's own acknowledgement that Chinese manufacturers remain aggressive on price",
+    "Management's own FY28 margin aspiration (5-6%) sits BELOW FY26's already-thin 6.1% actual margin - an implicit admission that near-term margins are not a clean run-rate"
   ],
-  "market_cap_tier": "Small-cap (~Rs 770 Cr)",
-  "thesis_fit": "10x-in-2-3-years",
-  "verdict_headline": "Real capacity scale-up and statistically cheap post-correction (four-box score 3.0), but an unresolved Q2 revenue miss and a delayed cell line mean the label is allowed but unconfirmed - conviction capped at Low-Medium pending H2FY26 delivery against guidance.",
+  "market_cap_tier": "Small-cap (~Rs 760 Cr)",
+  "thesis_fit": "neither",
+  "verdict_headline": "Post-correction 'cheap' thesis has now been tested by an actual earnings print, not just sentiment - Q1FY27 confirmed the market's scepticism with a 66.6% PAT collapse and margin compression, FY26 revenue missed guidance twice, and the cell-line/vision has been quietly scaled back (funding shrunk + shifted to debt, 15GW vision moderated to 10GW). four_box falls to 2.5 (valuation box downgraded) -> thesis_fit moves to 'neither'; conviction cut to Low pending a genuine H2FY27 delivery track record.",
   "verdict_reasoning": [
-    "four_box: tailwind weak (real India solar demand but genuine, community-flagged industry oversupply/commoditisation risk), tam yes (4GW->15GW capacity roadmap gives real revenue-scaling headroom off an already-demonstrated Rs 1,566 Cr TTM base), moat weak (commodity module manufacturing, thin differentiation, European/domestic competition), valuation yes (~10.5x TTM P/E after a 46% market-cap correction) -> score 3.0",
-    "Score >=3.0 permits the 10x-in-2-3-years label; however the execution picture is genuinely mixed (disputed Q2 miss, cell-line delay, rising debtor days) so conviction is capped at Low-Medium with an explicit 'unconfirmed pending H2FY26 delivery' caveat rather than treated as a clean call",
-    "No live theme match in active_themes.json (solar PV manufacturing isn't a listed theme - EV/battery-chemicals theme is adjacent but distinct) - no value_chain block written",
-    "No red flag. Source is untrusted external-lead (X triage) - no conviction floor applies",
-    "Re-check trigger: H2FY26 results confirming or missing the Rs 1,600 Cr guidance, and cell-line commissioning progress toward the revised FY27 timeline"
+    "four_box: tailwind weak (real India solar demand but a genuine, now-reinforced industry oversupply/'adding' capital-cycle risk - Chinese pricing pressure plus simultaneous domestic capacity adds including by Solex itself), tam yes (FY26's Rs 1,621 Cr base and the Rs 4,500 Cr FY28 aspiration / 10GW-by-FY30 roadmap still give real headroom, though the vision was moderated from 15GW), moat weak (commodity module manufacturing, unchanged), valuation DOWNGRADED from yes to weak (statistically cheap at ~10.3x trailing P/E, but Q1FY27's confirmed earnings collapse plus declining ROE/ROCE mean the 'cheapness' is now backed by deteriorating, not merely depressed, fundamentals) -> score 2.5",
+    "Score 2.0-2.5 band defaults to thesis_fit 'neither' unless a written exception (valuation=yes, un-ignorable growth, or the large-cap named-inflection carve-out); none apply here - growth has decelerated sharply (Q1FY27 +1.8% YoY vs FY26's +144%), not un-ignorable, and the valuation box is no longer clean, so thesis_fit moves to 'neither'",
+    "Conviction cut from Low-Medium (PRE) to Low (POST): two consecutive guidance misses (FY26 actual Rs 1,621 Cr vs Rs 2,000+ Cr original and ~Rs 1,850 Cr revised guidance) plus a confirmed Q1FY27 PAT collapse (-66.6% YoY) materially weaken guidance credibility and earnings quality versus the pass-0 read",
+    "red_flag_tier intentionally left untouched this pass (confirmed flag, out of scope) - remains null; promoter pledge confirmed 0% and the shareholding decline (70.65% -> 66.15% over ~4 years) reads as dilution-driven, not a collapse, so nothing in this pass's read independently triggers a red-flag tier",
+    "Re-check trigger: H2FY27 execution against the Rs 845.84 Cr near-term pipeline (targeted by 31-Dec-2026), and genuine progress (financial close + commissioning) on the cell line toward its March-2027 target"
   ],
   "red_flag_tier": null,
   "red_flag_reason": null,
@@ -77,39 +91,278 @@
     "tailwind": "weak",
     "tam": "yes",
     "moat": "weak",
-    "valuation": "yes",
-    "score": 3.0,
-    "note": "Real capacity/revenue scale (4GW roadmap, Rs 1,566 Cr TTM revenue) and cheap post-correction valuation, offset by industry oversupply risk and a commodity-manufacturing moat"
+    "valuation": "weak",
+    "score": 2.5,
+    "note": "Real capacity/order-book scale and TAM headroom (Rs1,621cr FY26 -> Rs4,500cr FY28 aspiration) offset by industry oversupply risk, a commodity-manufacturing moat, and a valuation box downgraded from yes to weak now that Q1FY27's confirmed 66.6% PAT collapse and declining ROE/ROCE show the trailing 'cheap' multiple is backed by deteriorating fundamentals, not just a sentiment discount"
+  },
+  "commitments": [
+    {
+      "area": "capacity",
+      "text": "2GW N-Type TOPCon Plus cell line commissioning",
+      "specifics": "target March 2027 (already slipped once from FY26); land procured, awaiting Gujarat govt 30MW power-connection approval; KPI-linked partnership with an experienced TOPCon manufacturer for line design/commissioning/ops",
+      "timeline_bucket": "FY27",
+      "quality_stage": "action",
+      "source": "Q1 FY27 concall (Aug 2026)",
+      "dependency": "Gujarat govt power-connection approval + structured-debt financial close",
+      "single_point_of_failure": "debt financial close for the ~Rs 700 Cr cell-line funding",
+      "thesis_critical": true
+    },
+    {
+      "area": "balance_sheet",
+      "text": "Rs ~1,050 Cr cell-line/expansion/WC fund raise",
+      "specifics": "~Rs 700 Cr structured debt (SBI-led consortium, due diligence complete, final evaluation stage) + ~Rs 350 Cr equity; revised down and reshuffled from an earlier Rs 1,500 Cr (Rs 1,000 Cr debt + Rs 500 Cr QIP) plan",
+      "timeline_bucket": "6M",
+      "quality_stage": "action",
+      "source": "Q1 FY27 concall (Aug 2026)",
+      "dependency": "lender consortium final approval",
+      "single_point_of_failure": "structured debt financial close",
+      "thesis_critical": true
+    },
+    {
+      "area": "orders",
+      "text": "Near-term executable order pipeline conversion",
+      "specifics": "Rs 845.84 Cr targeted for execution by 31-Dec-2026; H1:H2 revenue ratio guided ~1:3",
+      "timeline_bucket": "6M",
+      "quality_stage": "commercial",
+      "source": "Q1 FY27 concall (Aug 2026)",
+      "dependency": "customer site readiness / dispatch scheduling post-ALMM clarity",
+      "single_point_of_failure": "concentrated H2-weighted execution",
+      "thesis_critical": true
+    },
+    {
+      "area": "margin",
+      "text": "FY27 capacity utilisation guidance",
+      "specifics": "~55% guided (vs a cited ~50% industry average), FY27 called a 'turbulent year' by management due to ALMM disruption",
+      "timeline_bucket": "FY27",
+      "quality_stage": "expectation",
+      "source": "Q1 FY27 concall (Aug 2026)",
+      "dependency": "order execution + ALMM policy stability",
+      "single_point_of_failure": "",
+      "thesis_critical": true
+    },
+    {
+      "area": "growth",
+      "text": "FY28 revenue and margin aspiration",
+      "specifics": "Rs 4,500 Cr revenue, 5-6% PAT margin - explicitly framed by management as 'aspirational'",
+      "timeline_bucket": "FY28",
+      "quality_stage": "expectation",
+      "source": "management commentary, Q1 FY27 period",
+      "dependency": "cell-line commissioning + module ramp + module ASP stabilisation",
+      "single_point_of_failure": "cell-line project execution",
+      "thesis_critical": true
+    },
+    {
+      "area": "new_business",
+      "text": "10GW module capacity by FY30 + Rs 4,000 Cr integrated cell + BESS facility",
+      "specifics": "proposed integrated solar-cell and battery-energy-storage facility in Gujarat; capacity vision moderated from an earlier '15GW by 2030' framing",
+      "timeline_bucket": "beyond",
+      "quality_stage": "expectation",
+      "source": "company communications, 2026",
+      "dependency": "financing + BESS market-entry execution",
+      "single_point_of_failure": "",
+      "thesis_critical": false
+    }
+  ],
+  "earnings_chain": {
+    "chain": [
+      "order book conversion (Rs 3,400 Cr order book, Rs 845.84 Cr near-term executable pipeline)",
+      "module line utilisation (FY27 guided ~55%)",
+      "revenue growth",
+      "operating leverage vs stepped-up depreciation/finance cost (post Line 3/4 commissioning)",
+      "EBITDA margin (compressed to 12.7% in Q1FY27 from 16.4% YoY)",
+      "PAT"
+    ],
+    "bottleneck_link": "execution against the H2-weighted near-term pipeline (Rs 845.84 Cr by 31-Dec-2026) on a customer-delivery calendar already rescheduled once by ALMM clarity delays",
+    "operating_leverage": "no — Q1FY27 shows negative operating leverage near-term: revenue +1.8% YoY but PAT -66.6% YoY as new-capacity depreciation (Rs 10.19 Cr vs Rs 4.27 Cr) and finance cost (Rs 12.48 Cr vs Rs 5.41 Cr) stepped up ahead of the revenue ramp; leverage should only turn positive once H2FY27 billing lands",
+    "evidenced_links": [
+      "order book (Rs 3,400 Cr, Rs 845.84 Cr near-term executable)",
+      "capacity in place (4GW, Lines 3 & 4 live since Nov 2025)"
+    ],
+    "assumed_links": [
+      "H2-weighted execution (management's guided ~1:3 H1:H2 ratio)",
+      "operating leverage turning positive",
+      "EBITDA margin recovery toward the FY28 5-6% PAT-margin aspiration"
+    ]
   },
   "market_expectation": {
-    "as_of": "2026-09-09",
-    "price": 716,
-    "current_pe": 9.7,
+    "as_of": "2026-09-22",
+    "price": 704,
+    "current_pe": 10.3,
     "current_ev_ebitda": null,
     "valuation_tool": "P/E",
-    "implied_growth_cagr": "~10x TTM on a commodity solar-module maker implies the market expects margins/returns to de-rate; a defensible ~10-12x exit needs only ~5-10% EPS CAGR FY26-28 - the multiple prices scepticism, not the 15GW roadmap",
-    "our_fy27_estimate": "revenue Rs 2,000+ Cr if H2FY26 guidance lands and the 2.5GW line ramps; PAT sensitive to module ASPs in an oversupplied market",
-    "our_fy28_estimate": "second leg only if the FY27 cell line commissions and pricing holds; module-only economics stay thin",
+    "implied_growth_cagr": "~10x trailing P/E on a capital-intensive, cyclical commodity module maker implies the market expects near-term margin/return normalisation, not a growth re-rating; a defensible ~10-12x cyclical exit multiple needs only high-single-digit EPS CAGR FY26-28, roughly consistent with management's own FY28 aspiration (Rs 4,500 Cr revenue at a 5-6% PAT margin, itself below FY26's 6.1%) - the multiple is pricing continued margin caution, not the earlier hyper-growth narrative",
+    "our_fy27_estimate": "Flat-to-modest revenue growth given the Q1FY27 flat print and ALMM-driven H1 order deferral into H2; margin likely stays pressured (EBITDA margin roughly 12-13% vs FY26's 11.5%) since new-capacity depreciation/finance cost has now fully stepped up; utilisation guided conservatively at ~55%",
+    "our_fy28_estimate": "A second leg is possible only if the cell line commissions on the revised March-2027 timeline (itself already once delayed) and the Rs 4,500 Cr / 5-6%-margin FY28 aspiration is substantially met; execution risk (funding close, commissioning, ALMM policy stability) is now the dominant swing factor, not demand",
     "gap_direction": "partially-priced",
     "gap_type": "margin",
     "gap_magnitude_pct": null,
-    "gap_basis": "market at ~10x is pricing the industry oversupply/commoditisation risk; the disputed Q2 miss and cell-line slip keep evidence weak, so our path is roughly what the multiple needs, not clearly above it",
-    "evidence_quality": "weak",
+    "gap_basis": "Q1FY27 confirmed the market's post-crash scepticism: PAT fell 66.6% YoY as new-capacity depreciation/finance cost stepped up ahead of revenue (order deferral, not cancellation, per management) and EBITDA margin compressed to 12.7% from 16.4%. At ~10.3x trailing P/E the market is pricing continued margin pressure through the cell-line ramp; management's own FY28 aspiration is itself lower-margin than FY26's actual, so our path is roughly in line with what a cautious multiple needs, not clearly above it",
+    "evidence_quality": "moderate",
     "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   },
+  "catalyst": {
+    "event": "H2FY27 execution against the Rs 845.84 Cr near-term order pipeline (targeted by 31-Dec-2026) plus cell-line structured-debt financial close and commissioning progress toward the March-2027 target",
+    "expected_window_months": 6,
+    "window_start": "2026-09-22",
+    "evidence_quality": "med",
+    "is_dated": true,
+    "status": "pending"
+  },
+  "value_chain": {
+    "theme": "Indian solar module/cell manufacturing (ALMM-driven import substitution vs global, largely Chinese, oversupply)",
+    "position": "vertically-integrating module manufacturer (4GW module live, 2GW cell line under construction) selling into the ALMM-protected domestic market plus export markets that prefer non-Chinese modules (Middle East, Africa, Europe, US)",
+    "bottleneck_node": "in-house cell manufacturing (still pre-commissioning) - until the cell line is live, Solex remains exposed to imported-cell cost/supply and cannot capture the full cell-to-module margin",
+    "supply_side_status": "adding",
+    "adjacent_peers": [
+      "Premier Energies",
+      "Vikram Solar",
+      "Waaree Energies"
+    ],
+    "note": "Domestic module capacity is being added aggressively industry-wide (including by Solex itself, 4GW -> a 10GW-by-FY30 target) while global (Chinese) module/cell pricing stays under pressure - a classic 'adding' capital-cycle signal that argues for margin caution even where ALMM protects the domestic-facing order book. Peers (Premier, Vikram) showing similar Q1FY27-type softness per community commentary corroborates a sector-wide, not company-specific, read."
+  },
+  "earnings_quality": {
+    "margin_driver": "mixed",
+    "drivers": [
+      "new-capacity depreciation & finance cost stepping up ahead of revenue ramp (Lines 3 & 4 live since Nov 2025)",
+      "ALMM-driven customer order rescheduling shifting billing into H2FY27",
+      "industry-wide module oversupply / Chinese pricing pressure compressing realisations",
+      "eventual cell-line integration (once commissioned) as a structural margin lever, not yet realised"
+    ],
+    "peak_margin_risk": true,
+    "normalised_note": "Management's own FY28 PAT-margin aspiration (5-6%) is BELOW FY26's already-thin 6.1% actual - an explicit implicit admission that recent margins are not a clean run-rate. Treat FY26's 11.5% EBITDA margin (and H1FY26's 14.7% peak) as closer to a cyclical high than a through-cycle level until the cell line is live and the cost structure is genuinely re-based."
+  },
+  "growth_trajectory": {
+    "yoy_trend": "decelerating",
+    "last_quarters_note": "Annual YoY revenue growth: FY25 +81% (Rs 665.82 Cr), FY26 +144% (Rs 1,621.1 Cr); most recent quarter Q1FY27 +1.8% YoY (Rs 265.6 Cr) - a sharp deceleration from the FY26 run-rate, driven by ALMM-linked customer order rescheduling into H2FY27 (a timing shift per management, not confirmed demand loss)",
+    "reverse_pe_note": "Trailing ~10.3x needs only modest further EPS growth to look statistically cheap since TTM EPS still blends in the strong FY26 quarters; but the sharp deceleration/PAT collapse means the near-term rate-of-change has moved against what a re-rating needs - H2FY27 delivery against the Rs 845.84 Cr pipeline is now the swing factor for whether the multiple re-rates or de-rates further"
+  },
+  "management_quality": {
+    "capital_allocation": "Reinvesting aggressively into module capacity (700MW -> 4GW in ~2 years) and now a cell line plus a longer-dated Rs 4,000 Cr integrated cell+BESS facility; ROCE has been strong through the ramp (FY26 ~31.7%), but the funding strategy has reversed mid-plan (QIP -> structured debt) and the capacity vision has been quietly moderated (an earlier '15GW by 2030' framing vs a '10GW by FY30' module target now cited); no unrelated diversification, but a new adjacent bet into BESS/battery storage is emerging",
+    "capital_allocation_track_record": "neutral",
+    "rpt_trend": "unclear",
+    "guidance_credibility": "over-promises",
+    "shareholder_returns": "none",
+    "capability_ladder_note": "Explicit module-to-cell integration (2GW N-Type TOPCon Plus cell line) as the next rung, plus an early-stage move into BESS/battery storage - a real capability-ladder narrative, though execution against it has already slipped once (FY26 -> FY27) and the funding plan has been cut and reshuffled",
+    "assessment": "concern"
+  },
   "quality_metrics": {
-    "roce_pct": 46,
-    "roce_trend": "improving",
-    "net_debt_to_ebitda": 1.9,
+    "roce_pct": 31.7,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": 0.7,
     "interest_coverage": null,
     "fcf_conversion_pct": -120,
-    "margin_trend": "expanding",
+    "margin_trend": "contracting",
     "capex_efficiency": "neutral",
-    "assessment": "neutral"
+    "assessment": "concern"
   },
   "track_record": {
     "years_checked": 3,
     "years_cleared": 3,
-    "note": "FY24-26 each cleared both filters: revenue growth 81-144% and ROCE 36-46%. Pre-FY24 filings limited (SME-to-mainboard migration Oct 2025); the record is a 3-year hyper-growth ramp, not a long history."
+    "note": "FY24-26 revenue growth comfortably cleared 10% each year (81% FY25, 144% FY26; FY24 baseline Rs 368.02 Cr). ROCE most-recently-confirmed at 31.7% (FY26) - comfortably above the 15% bar, but materially below the ~46% figure the pass-0 file recorded, which likely conflated ROE (38.4% FY26, ~46.4% FY25) with ROCE. FY24/FY25 ROCE were not independently re-confirmed this pass; treat the 3-year 'cleared' call as directionally solid (revenue growth is unambiguous, and FY26 ROCE is comfortably above 15%) rather than precisely verified for all three years."
+  },
+  "sector_kpis": [
+    {
+      "metric": "Order book",
+      "value": "Rs 3,400 Cr (Jun 2026), down from Rs 4,000 Cr (Sep 2025)",
+      "trend": "declining",
+      "note": "billing progress plus ALMM-driven order rescheduling into H2FY27, not cancellations per management"
+    },
+    {
+      "metric": "Module capacity utilisation (guided)",
+      "value": "~55% FY27 guidance vs a cited ~50% industry average",
+      "trend": "stable",
+      "note": "deliberately conservative guidance amid an ALMM-disrupted 'turbulent year'"
+    },
+    {
+      "metric": "Installed module capacity",
+      "value": "4 GW (Lines 3 & 4 live since Nov 2025); target 10 GW by FY30",
+      "trend": "improving",
+      "note": "capacity vision moderated from an earlier 15GW-by-2030 framing"
+    },
+    {
+      "metric": "Near-term executable order pipeline",
+      "value": "Rs 845.84 Cr targeted for execution by 31-Dec-2026",
+      "trend": "",
+      "note": "H1:H2 revenue ratio guided ~1:3"
+    }
+  ],
+  "scenario_analysis": {
+    "bull": {
+      "revenue_cagr_fy26_28_pct": 67,
+      "fy28_margin_pct": 6.0,
+      "fy28_eps": 239,
+      "exit_multiple": 13,
+      "implied_price": 3107,
+      "pct_vs_cmp": 341
+    },
+    "base": {
+      "revenue_cagr_fy26_28_pct": 30,
+      "fy28_margin_pct": 5.0,
+      "fy28_eps": 121,
+      "exit_multiple": 10,
+      "implied_price": 1210,
+      "pct_vs_cmp": 72
+    },
+    "bear": {
+      "revenue_cagr_fy26_28_pct": 10,
+      "fy28_margin_pct": 4.0,
+      "fy28_eps": 69,
+      "exit_multiple": 8,
+      "implied_price": 552,
+      "pct_vs_cmp": -22
+    },
+    "closest_to": "bear",
+    "note": "Bull case uses management's own 'aspirational' Rs 4,500 Cr / 5-6%-margin FY28 target at the top end. Base sits well below that given two consecutive guidance misses (FY26 actual Rs 1,621 Cr vs Rs 2,000+ Cr original and ~Rs 1,850 Cr revised guidance) and the Q1FY27 PAT collapse. Bear assumes further cell-line slippage and continued industry oversupply pressure on margin. Current price (~Rs 704) sits closer to the bear case than the base case, consistent with the market pricing a cautious, execution-skeptical view post-Q1FY27. EPS figures do not fully account for potential further equity dilution from the pending ~Rs 350 Cr cell-line equity raise, which would lower all three per-share figures somewhat."
+  },
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-22",
+    "sources_reviewed": [
+      "FY25/FY26 annual results press coverage (Business Standard, Saurenergy, PV Magazine India, TaiyangNews, ScanX, Power Peak Digest)",
+      "H1 FY26 and Q1 FY27 concall transcripts/highlights (GuruFocus, Prysm Finance, EQ Mag, X/@manojgupta1979)",
+      "Q1 FY27 results coverage (DSIJ, Outlook Business, HDFC Sky, Inshorts, SolarQuarter, Taiyang News)",
+      "Tradebrains synthesis on FY28 aspiration, capex plan, and BESS diversification",
+      "Screener.in financials (P/E, ROCE, ROE, promoter/FII/DII holding, book value, debtor days)"
+    ],
+    "annual_report_findings": [
+      "FY24 revenue Rs 368.02 Cr (growth baseline); FY25 revenue Rs 665.82 Cr (+81% YoY), PAT Rs 42.79 Cr (+390% YoY) - capex on module-capacity ramp (1GW -> 1.5GW -> 4+2.2GW plan) plus early TOPCon cell-line spend (land/infra/vendor advances)",
+      "Promoter holding 66.15% (Jun 2026) vs 70.65% (Mar 2022), pledge 0% throughout, no quarterly granularity sourced within budget",
+      "FY26 (full year, audited) revenue Rs 1,621.1 Cr (+143.9% YoY), PAT Rs 98.25 Cr (+132.7% YoY), EBITDA margin 11.5% (down slightly from FY25's ~12.0%), ROE 38.4% (down from FY25's ~46.4%), ROCE 31.7%; net debt/equity 0.57x FY26",
+      "Company's own release cites an improved WC cycle (~35 days FY26 vs 61 days FY25) which conflicts with screener's rising debtor-days read (61.9 -> 77.6) - not reconciled within budget",
+      "No RPT or auditor-change disclosures surfaced in sources reviewed - genuinely unclear, not confirmed clean"
+    ],
+    "quarterly_trend": [
+      "H1FY26 (Apr-Sep25) revenue Rs 415.7 Cr (+51.8% YoY), EBITDA margin 14.7% (up sharply from H1FY25's 9.6%), PAT Rs 30.5 Cr (margin 7.3%); order book Rs 4,000 Cr as of Sep-30-2025; working-capital days spiked to 102 (extended-monsoon finished-goods buildup) before normalising",
+      "FY26 guidance (Rs 2,000-2,200 Cr, later revised in the H1 concall to ~Rs 1,850 Cr) was ultimately MISSED - actual FY26 revenue landed at Rs 1,621 Cr. Lines 3 & 4 (2.5GW) commissioned end-Oct/Nov-2025, taking module capacity to 4GW",
+      "Q1FY27 (Apr-Jun26): revenue Rs 265.6 Cr (+1.8% YoY, effectively flat), PAT collapsed 66.6% YoY to Rs 8.26 Cr, EBITDA fell 20.9% to Rs 33.8 Cr, EBITDA margin fell to 12.7% from 16.4% YoY - driven by depreciation stepping up to Rs 10.19 Cr (from Rs 4.27 Cr) and finance cost to Rs 12.48 Cr (from Rs 5.41 Cr) post Line 3/4 commissioning, plus ALMM (Approved List of Modules & Manufacturers) clarity delays in late-May-2026 causing customers to reschedule (not cancel) deliveries into H2FY27",
+      "Order book fell to Rs 3,400 Cr; management guided FY27 utilisation conservatively at ~55% (vs a cited ~50% industry average) and called FY27 a 'turbulent year' from ALMM disruption",
+      "Concall tone: cautiously optimistic, defensive on analyst questions about inventory-obsolescence risk and capex-plan reduction"
+    ],
+    "recent_announcements": [
+      "Cell-line (2GW N-Type TOPCon Plus) funding plan revised from Rs 1,500 Cr (Rs 500 Cr QIP + Rs 1,000 Cr debt) to a smaller ~Rs 1,050 Cr project (~Rs 700 Cr structured debt via an SBI-led consortium + ~Rs 350 Cr equity) - funding shifted away from QIP 'due to unfavourable market conditions'; debt due diligence completed, at final evaluation stage as of the Q1FY27 call",
+      "Land procured for the cell line, awaiting Gujarat govt approval for a 30MW power connection; KPI-linked partnership with an experienced TOPCon manufacturer for line design/commissioning/operations; target commissioning March 2027 (already once delayed from an FY26 target)",
+      "Near-term executable order pipeline of Rs 845.84 Cr targeted for execution by 31-Dec-2026 (H1:H2 revenue ratio guided ~1:3)",
+      "Longer-dated: a proposed Rs 4,000 Cr integrated solar-cell + BESS facility in Gujarat, with module capacity vision now framed as 4GW -> 10GW by FY30 - a moderation from the earlier '15GW by 2030' framing in the pass-0 tagline",
+      "October 2025 partnership with Germany's ISC Konstanz to launch India's first rear-contact solar module (a differentiation attempt)",
+      "No SEBI/fraud action, no auditor resignation, and 0% promoter pledge found in any source reviewed"
+    ],
+    "key_new_facts": [
+      "FY26 full-year revenue (Rs 1,621 Cr) MISSED both the original guidance (Rs 2,000+ Cr) and the revised H1-concall guidance (~Rs 1,850 Cr) - a guidance-credibility issue not previously captured",
+      "Q1FY27 PAT collapsed 66.6% YoY (Rs 8.26 Cr) and EBITDA margin compressed to 12.7% from 16.4% - the market's post-correction scepticism is now confirmed by an actual earnings print, not just sentiment",
+      "Actual 52-week high is Rs 1,985 (Nov 2025); current price ~Rs 704 is a ~64.5% decline from peak - materially sharper than the '~46%' figure carried in the pass-0 file",
+      "Cell-line funding plan shifted from QIP to structured debt and the project size was cut (Rs 1,500 Cr -> ~Rs 1,050 Cr); commissioning still targeted March 2027 but land/power-connection/debt-close steps are all still pending",
+      "Longer-term capacity vision quietly moderated from '15GW by 2030' to '10GW module capacity by FY30', alongside a new Rs 4,000 Cr integrated cell+BESS facility proposal - a genuine new diversification thread",
+      "Order book declined from Rs 4,000 Cr (Sep 2025) to Rs 3,400 Cr (Jun 2026) on billing progress plus ALMM-driven customer rescheduling (deferral, not cancellation, per management) into H2FY27",
+      "Management's own FY28 aspiration (Rs 4,500 Cr revenue, 5-6% PAT margin) implies a LOWER margin than FY26's already-thin 6.1% - an implicit admission that near-term margins are not a clean run-rate",
+      "ROE declined from ~46.4% (FY25) to 38.4% (FY26); ROCE most-recently-confirmed at 31.7% (materially below the ~46% figure recorded in the pass-0 quality_metrics, which likely conflated ROE with ROCE)"
+    ],
+    "open_questions": [
+      "RPT trend and auditor tenure/changes not found within this pass's search budget - genuinely unclear, not assumed clean",
+      "Working-capital signals conflict across sources: screener shows debtor days rising 61.9 -> 77.6, while company commentary cites an improved overall WC cycle (~35 days FY26 vs 61 FY25) - could not reconcile within budget; the working_capital fundamentals-gap block is left absent as a result",
+      "No granular quarterly (4-quarter) promoter/FII/DII shareholding trend was sourced - only two point-in-time comparisons (Mar 2022 vs Jun 2026); the shareholding_pattern fundamentals-gap block is left absent rather than guess a trend from 2 data points",
+      "Whether the Q1FY27 order deferral (ALMM-driven) is genuinely one-off/regulatory or the first sign of a broader demand-timing problem is unresolved pending H2FY27 execution against the Rs 845.84 Cr pipeline",
+      "No fresh VP-thread community commentary post-Q1FY27 was reviewed this pass (out of scope for a fundamentals-only deep dive) - a check of whether Prabhat_Mohanty or other trusted users have updated their view post-crash would sharpen the read"
+    ],
+    "conviction_update": "PRE=Low-Medium -> POST=Low. The deep dive confirms, rather than resolves, the community's post-correction scepticism: FY26 revenue missed guidance twice over, Q1FY27 PAT collapsed 66.6% YoY with EBITDA margin compressing to 12.7% from 16.4%, ROE/ROCE both declined YoY, and the cell-line funding plan was both shrunk and shifted from QIP to debt. four_box score falls to 2.5 (valuation downgraded from yes to weak given the earnings-quality deterioration behind the 'cheap' trailing multiple) -> thesis_fit moves to 'neither' with no written exception available (growth has decelerated sharply, not un-ignorable; valuation box no longer clean). Statistically still cheap and real capacity/order-book scale exist, so this stays a name to re-underwrite (not a red flag/avoid), but it no longer clears the bar for a return-magnitude label."
   }
 }

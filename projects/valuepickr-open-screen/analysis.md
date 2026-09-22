@@ -8227,3 +8227,58 @@ Also confirmed via direct Yahoo Finance checks that ~21 remaining technical-unre
 - Current P/E ~14.4-15x is at/below its own historical median after a ~30% one-year price decline, supporting the valuation box
 - Prior Medium-High/38.3 master_score was an under-researched categorical anchor (sub-scores absent); corrected down to Medium
 - Conviction Medium-High -> Medium; four_box 1.5 -> 2.0, thesis_fit stays "neither"
+
+## Solex Energy Ltd — deep-dive pass 1 [2026-09-22]
+- Q1 FY27 (Apr-Jun 2026) confirmed the community's post-crash scepticism with actual numbers, not just sentiment: PAT collapsed 66.6% YoY to Rs8.26 Cr, EBITDA margin compressed to 12.7% from 16.4%, as new-capacity depreciation/finance cost (post Line3/4 commissioning) stepped up ahead of revenue and ALMM-clarity delays pushed customer deliveries into H2FY27
+- FY26 full-year revenue (Rs1,621 Cr) MISSED both the original guidance (Rs2,000+ Cr) and a revised H1-concall guidance (~Rs1,850 Cr) -- a guidance-credibility problem not visible in the pass-0 read
+- Actual 52-week high is Rs1,985 (Nov 2025); current price ~Rs704 is a ~64.5% decline from peak -- materially sharper than the "~46%" figure the pass-0 file carried
+- Cell-line (2GW N-Type TOPCon Plus) funding plan cut (Rs1,500 Cr -> ~Rs1,050 Cr) and shifted from QIP to structured debt; still pre-financial-close as of Sep-2026; longer-term capacity vision quietly moderated from "15GW by 2030" to "10GW module by FY30" alongside a new Rs4,000 Cr integrated cell+BESS facility proposal
+- ROE declined 46.4%(FY25)->38.4%(FY26); ROCE confirmed at 31.7% FY26, well below the ~46% figure the pass-0 quality_metrics carried (likely a ROE/ROCE conflation)
+- four_box score falls 3.0 -> 2.5 (valuation box downgraded from yes to weak); thesis_fit moves 10x-in-2-3-years -> neither; conviction Low-Medium -> Low
+
+## Capacit'e Infraprojects — deep-dive pass 1 [2026-09-22]
+- Confirmed via the Q1 FY27 concall itself (not just the community summary): revenue +7% YoY to Rs629 Cr (a deceleration from FY26's +12%), EBITDA margin down 150bps to 15.7%, PAT Rs39.4 Cr (down from Rs45.7 Cr) on an additional Rs10 Cr commodity provision -- note the concall's own figure is Rs10 Cr, not the Rs20 Cr the file's community-sourced sentiment_summary cited (discrepancy unresolved)
+- New, previously-uncaptured fact: FY26 statutory auditors issued a qualified opinion flagging ~Rs66 Cr of receivables as uncertain to recover (Rs11.56 Cr from a party under CIRP/insolvency + ~Rs54.9 Cr under legal proceedings) -- quantifies the working-capital risk this file already flagged in bear_case
+- Also new: promoters cut pledge from ~31.9% to 18.65% of promoter holding in the Jun-2026 quarter (35.5 lakh shares released across May-Jun 2026), targeting zero pledge by FY27-end -- genuine de-risking, with promoter holding itself flat at 31.69% for four straight quarters (no exit pattern)
+- FY27 order-inflow guidance reiterated at Rs4,500-5,000 Cr (management confident Q2 FY27 exceeds the upper band); order book grew to Rs13,535 Cr (~5.1x TTM revenue) aided by a fresh Rs295 Cr LoA (Apr-2026, Indus Co-operative Housing Society, Wadala Mumbai)
+- Debtor days confirmed at 151 (vs historical 100-120 range); valuation essentially unchanged at ~9.0x P/E / 0.86x P/B
+- four_box unchanged at 2.5 (tailwind weak, tam yes, moat no, valuation yes); thesis_fit stays "10x-in-2-3-years" via the valuation-box exception; market_expectation.evidence_quality downgraded moderate -> weak (thesis-critical commitments still guidance-stage)
+- conviction Low-Medium -> Low-Medium (unchanged; new positives and new negatives roughly offset)
+
+## Omnitech — deep-dive pass 1 [2026-09-22]
+- Biggest new fact: order book surged ~970% YoY to ~Rs3,033 Cr by May-26 (vs ~Rs284 Cr a year earlier), heavily concentrated in energy (73.7%, vs motion-control/automation 13.7% and industrial equipment 12.6%) — firms up the tailwind/tam case with real disclosed numbers, not just narrative
+- New ~Rs250 Cr FY27/28 capex (Rs100 Cr building + Rs150 Cr plant/machinery) to lift machine-hour capacity ~60% (~26.4 to ~42-43 lakh annualised hours), tied directly to executing the order book; already flagged as partly delayed by the monsoon
+- But Q1 FY27 (Jun-26, first full quarter as a listed company) showed EBITDA growing only ~1% QoQ (Rs50cr -> Rs50.6cr) despite ~12% QoQ revenue growth (Rs149cr -> Rs167cr) — the operating leverage management guided to has not yet appeared in the numbers; working-capital metrics (debtor days ~153-172, cash-conversion cycle reportedly widening) remain a live caution
+- Leverage has genuinely improved post-IPO (D/E ~1.6-1.72x pre-IPO FY25 -> ~0.7x Jun-26); trailing P/E has fallen from ~84x to ~66-68x as earnings caught up, but valuation is still rich with no margin of safety (~10x book)
+- Promoter pledge % and related-party-transaction specifics could not be confirmed this pass (a CARE Ratings PDF WebFetch failed with a server error, no alternate source found within budget) — left as an open question, not assumed clean; track_record block omitted (only FY25 has both revenue-growth and ROCE legs independently confirmed)
+- four_box unchanged at 2.5 (tailwind/tam yes, moat weak, valuation no — hard no even after the earnings-driven de-rating); considered but declined the "growth un-ignorable" carve-out given the unproven capex/execution cycle; thesis_fit stays "neither"
+- conviction Medium -> Medium (unchanged; the order-book/capex positives are offset by the QoQ margin wobble and unresolved pledge/RPT/working-capital questions)
+
+## Raghav Productivity Solutions — deep-dive pass 1 [2026-09-22]
+- Growth has genuinely re-accelerated versus the prior fast-triage read's ~12% CAGR figure: FY26 revenue +28.76% YoY / PAT +48.22% YoY, and Q1 FY27 revenue +48.7% YoY / PAT +67.6% YoY (record quarter)
+- But valuation has also become extreme: ~127x trailing P/E, ~32x P/B (screener.in) — resolves the prior pass's unreconciled Rs6,000-8,500 Cr market-cap range at ~Rs7,950-8,000 Cr, but reveals a much richer multiple than previously flagged; scenario_analysis shows even a 40%-revenue-CAGR bull case at a generous 30x exit implies a price well below CMP
+- Two concurrent capacity expansions: organic +120,000 MTPA (Rs20cr, ~Oct-2026 commissioning, ~89% utilisation) plus a new ~Rs100cr JV with TRL Krosaki Refractories for a 350,000 MTPA plant in Odisha (announced 8-Sep-2026) — RPEL's first multi-location/JV move, unproven execution track record
+- New caution flags this pass: working-capital cycle elongated to ~255 days (Mar 2026); press/analyst commentary flags rising related-party transactions and a history of preferential equity issuances at a discount (per a stale 2021-era VP-thread read, not independently reverified against current AR)
+- Shareholding is clean: promoter holding flat ~62.9% with zero pledge across all 4 disclosed quarters; FII interest rising off a tiny base (0.14%->0.81%)
+- ValuePickr thread (56774) WebFetch returned only 2021-era cached content — no current community view retrieved this pass, flagged as an open question
+- four_box falls 2.5 -> 2.0 (valuation downgraded weak -> no); thesis_fit stays "neither"; conviction Medium -> Medium (unchanged — operational upgrade offset by valuation/governance/cash-flow caution)
+
+## Sacheerome Ltd — deep-dive pass 1 [2026-09-22]
+- Execution has genuinely proven out since first review: FY26 revenue Rs152.39cr (+41% YoY, four straight years of accelerating growth), EBITDA margin 26.02% (beat the prior ~24% working estimate), PAT Rs28.44cr (+78% YoY), ROCE sustained at 35.7% — quality is no longer the open question it was
+- But the stock re-rated a second leg on the back of it: market cap ~Rs700-785cr -> ~Rs1,140-1,190cr, price now ~Rs521 (~5x the Rs102 issue price), P/E ~26x -> ~41x trailing — the entry price is now the dominant risk, not the business
+- Reg 31(4) filing confirms zero promoter pledge and promoter holding rock-stable at 71.54% since listing — resolves the governance open question from first review cleanly
+- New caution flag: combined FII+DII holding nearly halved (~14.3% -> ~6.5%) over the 3 quarters since listing while public/retail holding rose from ~14% to 22% — reason (IPO-anchor lock-in expiry vs institutional profit-booking) unconfirmed
+- FY27/28/29 revenue guidance ladder (Rs200/250/300cr, +31%/+25%/+20% YoY) held consistent rather than walked back; management guides current-facility utilisation >100% for FY27 ahead of the new ~3.6x capacity (7.6->27.6 lakh kg) coming online, but commissioning/ramp status was not independently confirmed this pass
+- Track record check: 3 of 4 checkable fiscal years (FY24-26) clear both >=10% revenue growth and >=15% ROCE hurdles; FY23 narrowly missed on growth alone (+9%)
+- Two WebFetch attempts on primary filings (concall transcript PDF, investor-presentation PDF) both failed technically (timeout/certificate error); relied on WebSearch + screener.in aggregation instead — Q1 FY27 actuals, RPT detail, and precise working-capital/FCF figures remain open items for the next pass
+- four_box unchanged at 2.5 (tailwind yes, tam/moat/valuation weak — valuation materially more stretched than before); thesis_fit stays "neither"
+- conviction Medium -> Medium (unchanged; improved execution and richer valuation roughly offset)
+
+## KP Energy Ltd — deep-dive pass 1 [2026-09-22]
+- Order-book RPT dependence is better-quantified than the thread implied: Q1 FY27 concall explicitly disclosed the ~Rs2,250cr/2.16GW order book (Jun-2026) as ~50% group co KPI Green / ~50% non-related, not the thread's "most of order book" framing — order book itself has shrunk YoY (~Rs3,086cr Jun-2025 -> ~Rs2,250cr Jun-2026) as execution outpaced fresh intake
+- But Q1 FY27 exposed a real, fresh margin-execution risk: revenue +126-137% YoY to ~Rs520cr, yet PAT grew only ~3% YoY to ~Rs26cr as gross margin fell to ~20% from ~28% QoQ on rising right-of-way (ROW) costs and supply-chain input-cost shocks — the first quarter where growth and profit have decoupled
+- FY27 revenue-growth guidance cut mid-year to 30-40% (from a higher initial target), CFO citing the same ROW costs plus Gujarat farmer-protest execution risk — a second consecutive guidance disappointment, though proactively flagged this time rather than a silent miss
+- CARE Ratings upgraded the credit rating (Oct-2025) citing scale, order-book visibility, and clean on-time/on-budget execution of the 28.6 MW Vagra wind IPP — a concrete execution proof point; promoter holding stable ~45.3-45.4%, zero pledge confirmed across sources
+- Valuation refreshed and still cheap on every metric checked: ~8.65x trailing P/E, ~5.5x EV/EBITDA, ~1x sales, all below the stock's own 5-yr median (price ~Rs237, mcap ~Rs1,574cr as of 2026-09-22)
+- four_box firms 2.5 -> 3.0 (moat upgraded no -> weak on the RPT-split disclosure + Vagra execution track record); thesis_fit stays "10x-in-2-3-years" (now permitted at score>=3.0 without the unconfirmed-exception language)
+- conviction Low-Medium -> Low-Medium (unchanged; the moat/RPT-clarity upgrade and the newly-surfaced margin-compression risk roughly offset — re-check on Q2/Q3 FY27 prints for whether the ROW/cost shock proves transient)

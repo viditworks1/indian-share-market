@@ -1,8 +1,8 @@
 {
-  "date_compiled": "2026-09-19",
+  "date_compiled": "2026-09-22",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
-  "scored_count": 262,
-  "not_assessed_count": 624,
+  "scored_count": 265,
+  "not_assessed_count": 621,
   "ranked": [
     {
       "slug": "deepak-fertilizers-and-petrochemicals",
@@ -442,7 +442,7 @@
     {
       "slug": "capacit-e-infraprojects",
       "name": "Capacit'e Infraprojects",
-      "expectation_gap_score": 53.75,
+      "expectation_gap_score": 52.45,
       "conviction_score": 29.0,
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
@@ -450,26 +450,26 @@
       "market_cap_tier": "Small-cap (~Rs 1,742 Cr)",
       "gap_direction": "underestimated",
       "gap_type": "margin",
-      "gap_magnitude_pct": 40,
-      "evidence_quality": "moderate",
-      "catalyst_event": null,
-      "catalyst_window_months": null,
-      "catalyst_window_start": "2026-09-10",
-      "catalyst_status_effective": null,
+      "gap_magnitude_pct": 32,
+      "evidence_quality": "weak",
+      "catalyst_event": "Q3/Q4 FY27 print showing the Rs10cr commodity-provision reversal and FY27 order-inflow guidance (Rs4,500-5,000cr) tracking on schedule, confirming the margin-normalisation thesis",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-22",
+      "catalyst_status_effective": "pending",
       "catalyst_is_dated": false,
-      "risk_open_spof_count": 0,
-      "risk_open_spofs": [],
-      "flags": [
-        "no-catalyst"
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "timing is outside the company's control"
       ],
+      "flags": [],
       "score_breakdown": {
         "gap_points": 40,
         "gap_frac": 1.0,
-        "evidence_q": 0.75,
-        "catalyst_q": 0.15,
-        "timing_q": 0.4,
-        "risk_q": 1.0,
-        "quality": 0.537
+        "evidence_q": 0.25,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.524
       }
     },
     {
@@ -986,7 +986,7 @@
       "slug": "nlc-india",
       "name": "NLC India",
       "expectation_gap_score": 37.48,
-      "conviction_score": 27.0,
+      "conviction_score": 22.0,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -1082,39 +1082,6 @@
         "timing_q": 1.0,
         "risk_q": 0.4,
         "quality": 0.823
-      }
-    },
-    {
-      "slug": "kp-energy",
-      "name": "KP Energy Ltd",
-      "expectation_gap_score": 36.25,
-      "conviction_score": 20.75,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "red_flag_tier": null,
-      "market_cap_tier": "Small-cap (~Rs 1,631 Cr)",
-      "gap_direction": "underestimated",
-      "gap_type": "duration",
-      "gap_magnitude_pct": 25,
-      "evidence_quality": "weak",
-      "catalyst_event": null,
-      "catalyst_window_months": null,
-      "catalyst_window_start": "2026-09-09",
-      "catalyst_status_effective": null,
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 0,
-      "risk_open_spofs": [],
-      "flags": [
-        "no-catalyst"
-      ],
-      "score_breakdown": {
-        "gap_points": 40,
-        "gap_frac": 1.0,
-        "evidence_q": 0.25,
-        "catalyst_q": 0.15,
-        "timing_q": 0.4,
-        "risk_q": 1.0,
-        "quality": 0.363
       }
     },
     {
@@ -1974,7 +1941,7 @@
       "slug": "supreme-transformer",
       "name": "Supreme (transformer maker)",
       "expectation_gap_score": 26.1,
-      "conviction_score": 33.0,
+      "conviction_score": 29.0,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -2180,7 +2147,7 @@
       "slug": "garden-reach-shipbuilders-engineers",
       "name": "Garden Reach Shipbuilders & Engineers Ltd (GRSE)",
       "expectation_gap_score": 25.04,
-      "conviction_score": 61.12,
+      "conviction_score": 62.37,
       "conviction": "High",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -2284,7 +2251,7 @@
       "slug": "modern-insulators-ltd-a-porcelain-insulator-opportunity-insulating-the-power-cycle-while-riding-india-s-transmission-boom",
       "name": "Modern Insulators Ltd: A Porcelain Insulator Opportunity Insulating the Power Cycle while Riding India\u2019s Transmission Boom",
       "expectation_gap_score": 24.72,
-      "conviction_score": 34.04,
+      "conviction_score": 32.53,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
@@ -2388,7 +2355,7 @@
       "slug": "universal-cables",
       "name": "Universal Cables",
       "expectation_gap_score": 24.49,
-      "conviction_score": 22.0,
+      "conviction_score": 23.0,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -2862,7 +2829,7 @@
       "slug": "force-motors",
       "name": "Force Motors Ltd",
       "expectation_gap_score": 22.06,
-      "conviction_score": 63.25,
+      "conviction_score": 68.0,
       "conviction": "High",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -3212,6 +3179,42 @@
       }
     },
     {
+      "slug": "omnitech",
+      "name": "Omnitech",
+      "expectation_gap_score": 18.57,
+      "conviction_score": 28.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 6,880 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "FY27 capex commissioning (new machine-hour capacity) plus continued execution of the energy-heavy order book, with Q2/Q3 FY27 prints showing whether EBITDA margin/operating leverage catches up to revenue growth",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-22",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "concentration in energy-sector customers/orders (73.7%) - a single large programme's delay or cancellation would be material",
+        "on-time commissioning of the two new plants"
+      ],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.589
+      }
+    },
+    {
       "slug": "nisus",
       "name": "Nisus",
       "expectation_gap_score": 18.11,
@@ -3431,7 +3434,7 @@
       "slug": "suzlon",
       "name": "Suzlon",
       "expectation_gap_score": 17.27,
-      "conviction_score": 28.0,
+      "conviction_score": 26.75,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -3496,6 +3499,43 @@
         "timing_q": 1.0,
         "risk_q": 0.8,
         "quality": 0.762
+      }
+    },
+    {
+      "slug": "kp-energy",
+      "name": "KP Energy Ltd",
+      "expectation_gap_score": 16.44,
+      "conviction_score": 29.75,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 1,574 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "monitor",
+      "catalyst_event": "Q2/Q3 FY27 prints showing whether the ROW/input-cost margin compression seen in Q1 FY27 is transient or a new structural lower-margin regime, alongside delivery against the newly-cut 30-40% FY27 growth guidance",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-22",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "execution pace against row obstruction in gujarat wind sites",
+        "ipp capex financing and timely commissioning of remaining capacity",
+        "reliance on kpi green for ~half of the order book"
+      ],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.5,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.2,
+        "quality": 0.522
       }
     },
     {
@@ -3829,39 +3869,6 @@
       }
     },
     {
-      "slug": "solex-energy",
-      "name": "Solex Energy Ltd",
-      "expectation_gap_score": 16.31,
-      "conviction_score": 32.58,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "red_flag_tier": null,
-      "market_cap_tier": "Small-cap",
-      "gap_direction": "partially-priced",
-      "gap_type": "margin",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "weak",
-      "catalyst_event": null,
-      "catalyst_window_months": null,
-      "catalyst_window_start": "2026-09-09",
-      "catalyst_status_effective": null,
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 0,
-      "risk_open_spofs": [],
-      "flags": [
-        "no-catalyst"
-      ],
-      "score_breakdown": {
-        "gap_points": 18.0,
-        "gap_frac": 0.45,
-        "evidence_q": 0.25,
-        "catalyst_q": 0.15,
-        "timing_q": 0.4,
-        "risk_q": 1.0,
-        "quality": 0.363
-      }
-    },
-    {
       "slug": "ghcl-textiles",
       "name": "GHCL Textiles Ltd",
       "expectation_gap_score": 16.31,
@@ -4109,7 +4116,7 @@
       "slug": "sunlite",
       "name": "Sunlite",
       "expectation_gap_score": 14.51,
-      "conviction_score": 21.75,
+      "conviction_score": 29.25,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -4143,7 +4150,7 @@
       "slug": "tgv-sraac-erstwhile-sree-rayalseema-alkali",
       "name": "TGV SRAAC erstwhile Sree Rayalseema Alkali",
       "expectation_gap_score": 13.79,
-      "conviction_score": 10.79,
+      "conviction_score": 9.29,
       "conviction": "Low-Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -4174,10 +4181,49 @@
       }
     },
     {
+      "slug": "solex-energy",
+      "name": "Solex Energy Ltd",
+      "expectation_gap_score": 12.99,
+      "conviction_score": 0.58,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 760 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "H2FY27 execution against the Rs 845.84 Cr near-term order pipeline (targeted by 31-Dec-2026) plus cell-line structured-debt financial close and commissioning progress toward the March-2027 target",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-22",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 4,
+      "risk_open_spofs": [
+        "cell-line project execution",
+        "concentrated h2-weighted execution",
+        "debt financial close for the ~rs 700 cr cell-line funding",
+        "structured debt financial close"
+      ],
+      "flags": [
+        "peak-margin-risk",
+        "growth-decelerating"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.65,
+        "timing_q": 1.0,
+        "risk_q": 0.2,
+        "quality": 0.688
+      }
+    },
+    {
       "slug": "styrenix-performance-materials",
       "name": "Styrenix Performance Materials",
       "expectation_gap_score": 12.62,
-      "conviction_score": 19.0,
+      "conviction_score": 14.0,
       "conviction": "Low-Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -5437,7 +5483,7 @@
       "slug": "kaveri-seeds-company-limited",
       "name": "Kaveri seeds company limited -- kscl",
       "expectation_gap_score": 5.85,
-      "conviction_score": 39.3,
+      "conviction_score": 34.3,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -5748,7 +5794,7 @@
       "slug": "ebgng",
       "name": "EBGNG",
       "expectation_gap_score": 5.38,
-      "conviction_score": 16.25,
+      "conviction_score": 17.75,
       "conviction": "Low-Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -5810,6 +5856,41 @@
         "timing_q": 0.4,
         "risk_q": 1.0,
         "quality": 0.537
+      }
+    },
+    {
+      "slug": "sacheerome",
+      "name": "Sacheerome Ltd",
+      "expectation_gap_score": 5.24,
+      "conviction_score": 36.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 1,140-1,190 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "volume",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "Q2/Q3 FY27 results confirming whether current-facility >100% utilisation is converting into the Rs 200 Cr FY27 guide and whether the new capacity is commissioning/ramping on schedule",
+      "catalyst_window_months": 3,
+      "catalyst_window_start": "2026-09-22",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "utilisation ramp speed of the new capacity"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.524
       }
     },
     {
@@ -7955,6 +8036,41 @@
       }
     },
     {
+      "slug": "raghav-productivity-solutions",
+      "name": "Raghav Productivity Solutions",
+      "expectation_gap_score": 0,
+      "conviction_score": 24.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 7,950-8,000 Cr, screener.in Sept 2026)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Organic 120,000 MTPA line commissioning (targeted Oct-2026), followed by early Odisha JV construction/ramp milestones",
+      "catalyst_window_months": 1,
+      "catalyst_window_start": "2026-09-22",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "jv partner alignment + new-geography execution risk"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 1.0,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.882
+      }
+    },
+    {
       "slug": "mitsu-chem-plast",
       "name": "Mitsu Chem Plast Ltd",
       "expectation_gap_score": 0,
@@ -7990,16 +8106,16 @@
       }
     },
     {
-      "slug": "shree-refrigerations",
-      "name": "Shree Refrigerations",
+      "slug": "morepen-labs",
+      "name": "Morepen Labs",
       "expectation_gap_score": 0,
-      "conviction_score": 22.74,
+      "conviction_score": 22.35,
       "conviction": "Low",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Small-cap / SME (~Rs 1,427-1,508 Cr)",
+      "market_cap_tier": "Mid-cap (~Rs 5,145 Cr)",
       "gap_direction": "over-optimistic",
-      "gap_type": "duration",
+      "gap_type": "new_business",
       "gap_magnitude_pct": null,
       "evidence_quality": "weak",
       "catalyst_event": null,
@@ -8024,16 +8140,16 @@
       }
     },
     {
-      "slug": "morepen-labs",
-      "name": "Morepen Labs",
+      "slug": "shree-refrigerations",
+      "name": "Shree Refrigerations",
       "expectation_gap_score": 0,
-      "conviction_score": 22.35,
+      "conviction_score": 21.59,
       "conviction": "Low",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap (~Rs 5,145 Cr)",
+      "market_cap_tier": "Small-cap / SME (~Rs 1,427-1,508 Cr)",
       "gap_direction": "over-optimistic",
-      "gap_type": "new_business",
+      "gap_type": "duration",
       "gap_magnitude_pct": null,
       "evidence_quality": "weak",
       "catalyst_event": null,
@@ -8483,41 +8599,6 @@
       }
     },
     {
-      "slug": "leap-india",
-      "name": "Leap India Ltd- Leap of faith for long-term value?",
-      "expectation_gap_score": 0,
-      "conviction_score": 16.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "Small/Mid-cap (~Rs 6,100-6,300 Cr as of Sep-2026)",
-      "gap_direction": "over-optimistic",
-      "gap_type": "duration",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "weak",
-      "catalyst_event": "FY27 full-year print showing whether EBITDA growth actually keeps outpacing revenue and whether consolidated debt visibly declines from the IPO proceeds",
-      "catalyst_window_months": 6,
-      "catalyst_window_start": "2026-09-19",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 1,
-      "risk_open_spofs": [
-        "whether growth capex keeps being debt-funded faster than the ipo proceeds pay it down"
-      ],
-      "flags": [
-        "no-edge"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.25,
-        "catalyst_q": 0.39,
-        "timing_q": 1.0,
-        "risk_q": 0.8,
-        "quality": 0.524
-      }
-    },
-    {
       "slug": "john-cockerill-india-a-case-study-on-decarbonisation-of-steel",
       "name": "John Cockerill India: A Case Study on Decarbonisation of Steel",
       "expectation_gap_score": 0,
@@ -8730,41 +8811,6 @@
       }
     },
     {
-      "slug": "bharat-bijlee",
-      "name": "Bharat bijlee Ltd",
-      "expectation_gap_score": 0,
-      "conviction_score": 12.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "Small-cap (~Rs 2,500 Cr)",
-      "gap_direction": "over-optimistic",
-      "gap_type": "margin",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "moderate",
-      "catalyst_event": "H2 FY27 margin print showing whether copper/CRGO cost pass-through plus Phase 2 capacity flow through to a PAT recovery",
-      "catalyst_window_months": 6,
-      "catalyst_window_start": "2026-09-18",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 1,
-      "risk_open_spofs": [
-        "copper/crgo price direction - outside management's control, and management gives no hedging/pass-through guidance"
-      ],
-      "flags": [
-        "no-edge"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.75,
-        "catalyst_q": 0.21,
-        "timing_q": 1.0,
-        "risk_q": 0.8,
-        "quality": 0.645
-      }
-    },
-    {
       "slug": "rossell-techsys",
       "name": "Rossell Techsys",
       "expectation_gap_score": 0,
@@ -8797,6 +8843,41 @@
         "timing_q": 1.0,
         "risk_q": 0.8,
         "quality": 0.603
+      }
+    },
+    {
+      "slug": "leap-india",
+      "name": "Leap India Ltd- Leap of faith for long-term value?",
+      "expectation_gap_score": 0,
+      "conviction_score": 11.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 6,100-6,300 Cr as of Sep-2026)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "duration",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "FY27 full-year print showing whether EBITDA growth actually keeps outpacing revenue and whether consolidated debt visibly declines from the IPO proceeds",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-19",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "whether growth capex keeps being debt-funded faster than the ipo proceeds pay it down"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.524
       }
     },
     {
@@ -8869,6 +8950,41 @@
         "timing_q": 0.75,
         "risk_q": 0.4,
         "quality": 0.36
+      }
+    },
+    {
+      "slug": "bharat-bijlee",
+      "name": "Bharat bijlee Ltd",
+      "expectation_gap_score": 0,
+      "conviction_score": 7.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 2,500 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "H2 FY27 margin print showing whether copper/CRGO cost pass-through plus Phase 2 capacity flow through to a PAT recovery",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "copper/crgo price direction - outside management's control, and management gives no hedging/pass-through guidance"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.21,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.645
       }
     },
     {
@@ -9591,13 +9707,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "sacheerome",
-      "name": "Sacheerome Ltd",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "escorts-kubota",
       "name": "Escorts Kubota Ltd",
       "conviction_score": 25.0,
@@ -9635,13 +9744,6 @@
     {
       "slug": "apar-industries",
       "name": "APAR Industries",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "omnitech",
-      "name": "Omnitech",
       "conviction_score": 25.0,
       "conviction": "Medium",
       "thesis_fit": "neither"
@@ -9761,13 +9863,6 @@
     {
       "slug": "eicher-motors",
       "name": "Eicher Motors (VECV heavy trucks)",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "raghav-productivity-solutions",
-      "name": "Raghav Productivity Solutions",
       "conviction_score": 25.0,
       "conviction": "Medium",
       "thesis_fit": "neither"
@@ -10711,13 +10806,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "icici-lombard",
-      "name": "ICICI Lombard",
-      "conviction_score": 16.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "ireda",
       "name": "IREDA",
       "conviction_score": 16.0,
@@ -10960,6 +11048,13 @@
       "name": "Kitex Garments Ltd",
       "conviction_score": 11.0,
       "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "icici-lombard",
+      "name": "ICICI Lombard",
+      "conviction_score": 11.0,
+      "conviction": "Low-Medium",
       "thesis_fit": "neither"
     },
     {
@@ -13534,6 +13629,17 @@
   ],
   "catalyst_calendar": [
     {
+      "slug": "raghav-productivity-solutions",
+      "name": "Raghav Productivity Solutions",
+      "event": "Organic 120,000 MTPA line commissioning (targeted Oct-2026), followed by early Odisha JV construction/ramp milestones",
+      "target_date": "2026-10-22",
+      "window_months": 1,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 24.0
+    },
+    {
       "slug": "gng-electronics",
       "name": "GNG Electronics Ltd",
       "event": "Q2 FY27 results/concall showing whether margin expansion continues and whether inventory-turnover deterioration stabilises",
@@ -13696,7 +13802,18 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 25.04,
-      "conviction_score": 61.12
+      "conviction_score": 62.37
+    },
+    {
+      "slug": "sacheerome",
+      "name": "Sacheerome Ltd",
+      "event": "Q2/Q3 FY27 results confirming whether current-facility >100% utilisation is converting into the Rs 200 Cr FY27 guide and whether the new capacity is commissioning/ramping on schedule",
+      "target_date": "2026-12-22",
+      "window_months": 3,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 5.24,
+      "conviction_score": 36.0
     },
     {
       "slug": "thyrocare-debt-free-asset-light-healthcare-play",
@@ -14356,7 +14473,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 24.49,
-      "conviction_score": 22.0
+      "conviction_score": 23.0
     },
     {
       "slug": "nisus",
@@ -14378,7 +14495,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 17.27,
-      "conviction_score": 28.0
+      "conviction_score": 26.75
     },
     {
       "slug": "tgv-sraac-erstwhile-sree-rayalseema-alkali",
@@ -14389,7 +14506,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 13.79,
-      "conviction_score": 10.79
+      "conviction_score": 9.29
     },
     {
       "slug": "styrenix-performance-materials",
@@ -14400,7 +14517,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 12.62,
-      "conviction_score": 19.0
+      "conviction_score": 14.0
     },
     {
       "slug": "iifl-finance",
@@ -14466,7 +14583,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 0,
-      "conviction_score": 12.0
+      "conviction_score": 7.0
     },
     {
       "slug": "molbio",
@@ -14488,7 +14605,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 22.06,
-      "conviction_score": 63.25
+      "conviction_score": 68.0
     },
     {
       "slug": "kpi-green-energy",
@@ -14521,7 +14638,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 5.85,
-      "conviction_score": 39.3
+      "conviction_score": 34.3
     },
     {
       "slug": "rkec-projects-ltd",
@@ -14535,17 +14652,6 @@
       "conviction_score": 0
     },
     {
-      "slug": "leap-india",
-      "name": "Leap India Ltd- Leap of faith for long-term value?",
-      "event": "FY27 full-year print showing whether EBITDA growth actually keeps outpacing revenue and whether consolidated debt visibly declines from the IPO proceeds",
-      "target_date": "2027-03-21",
-      "window_months": 6,
-      "is_dated": false,
-      "status_effective": "pending",
-      "expectation_gap_score": 0,
-      "conviction_score": 16.0
-    },
-    {
       "slug": "rossell-techsys",
       "name": "Rossell Techsys",
       "event": "Rs 300 Cr SBI MF preferential equity raise completing (EGM 15-Oct-2026) + first quarter of semiconductor-OEM revenue contribution (from Q2 FY27) + FY27 margin trending toward the 15-22% guided band",
@@ -14557,6 +14663,17 @@
       "conviction_score": 12.0
     },
     {
+      "slug": "leap-india",
+      "name": "Leap India Ltd- Leap of faith for long-term value?",
+      "event": "FY27 full-year print showing whether EBITDA growth actually keeps outpacing revenue and whether consolidated debt visibly declines from the IPO proceeds",
+      "target_date": "2027-03-21",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 11.0
+    },
+    {
       "slug": "til",
       "name": "TIL",
       "event": "Q2/Q3 FY27 results showing a full-quarter TCPL contribution plus defense/CONCOR order execution, and whether consolidated EBITDA margin and PAT turn durably positive rather than repeating FY26's deterioration",
@@ -14566,6 +14683,39 @@
       "status_effective": "pending",
       "expectation_gap_score": 0,
       "conviction_score": 3.0
+    },
+    {
+      "slug": "capacit-e-infraprojects",
+      "name": "Capacit'e Infraprojects",
+      "event": "Q3/Q4 FY27 print showing the Rs10cr commodity-provision reversal and FY27 order-inflow guidance (Rs4,500-5,000cr) tracking on schedule, confirming the margin-normalisation thesis",
+      "target_date": "2027-03-24",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 52.45,
+      "conviction_score": 29.0
+    },
+    {
+      "slug": "kp-energy",
+      "name": "KP Energy Ltd",
+      "event": "Q2/Q3 FY27 prints showing whether the ROW/input-cost margin compression seen in Q1 FY27 is transient or a new structural lower-margin regime, alongside delivery against the newly-cut 30-40% FY27 growth guidance",
+      "target_date": "2027-03-24",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 16.44,
+      "conviction_score": 29.75
+    },
+    {
+      "slug": "solex-energy",
+      "name": "Solex Energy Ltd",
+      "event": "H2FY27 execution against the Rs 845.84 Cr near-term order pipeline (targeted by 31-Dec-2026) plus cell-line structured-debt financial close and commissioning progress toward the March-2027 target",
+      "target_date": "2027-03-24",
+      "window_months": 6,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 12.99,
+      "conviction_score": 0.58
     },
     {
       "slug": "unimech-aerospace-and-manufacturing-ltd",
@@ -14609,7 +14759,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 26.1,
-      "conviction_score": 33.0
+      "conviction_score": 29.0
     },
     {
       "slug": "deepak-fertilizers-and-petrochemicals",
@@ -14763,7 +14913,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 24.72,
-      "conviction_score": 34.04
+      "conviction_score": 32.53
     },
     {
       "slug": "inox-india-a-story-worth-looking",
@@ -15335,7 +15485,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 37.48,
-      "conviction_score": 27.0
+      "conviction_score": 22.0
     },
     {
       "slug": "epl-limited",
@@ -15358,6 +15508,17 @@
       "status_effective": "pending",
       "expectation_gap_score": 1.74,
       "conviction_score": 21.61
+    },
+    {
+      "slug": "omnitech",
+      "name": "Omnitech",
+      "event": "FY27 capex commissioning (new machine-hour capacity) plus continued execution of the energy-heavy order book, with Q2/Q3 FY27 prints showing whether EBITDA margin/operating leverage catches up to revenue growth",
+      "target_date": "2027-06-23",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 18.57,
+      "conviction_score": 28.0
     },
     {
       "slug": "wonderla-holidays",
