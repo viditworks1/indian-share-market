@@ -2658,7 +2658,7 @@
       "slug": "sambhv-steel-tubes",
       "name": "Sambhv Steel Tubes",
       "expectation_gap_score": 23.34,
-      "conviction_score": 55.25,
+      "conviction_score": 57.95,
       "conviction": "Medium-High",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
@@ -3182,7 +3182,7 @@
       "slug": "omnitech",
       "name": "Omnitech",
       "expectation_gap_score": 18.57,
-      "conviction_score": 28.0,
+      "conviction_score": 24.75,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -3505,7 +3505,7 @@
       "slug": "kp-energy",
       "name": "KP Energy Ltd",
       "expectation_gap_score": 16.44,
-      "conviction_score": 29.75,
+      "conviction_score": 26.0,
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
@@ -4184,7 +4184,7 @@
       "slug": "solex-energy",
       "name": "Solex Energy Ltd",
       "expectation_gap_score": 12.99,
-      "conviction_score": 0.58,
+      "conviction_score": 0,
       "conviction": "Low",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -5862,7 +5862,7 @@
       "slug": "sacheerome",
       "name": "Sacheerome Ltd",
       "expectation_gap_score": 5.24,
-      "conviction_score": 36.0,
+      "conviction_score": 32.5,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -7617,6 +7617,41 @@
       }
     },
     {
+      "slug": "raghav-productivity-solutions",
+      "name": "Raghav Productivity Solutions",
+      "expectation_gap_score": 0,
+      "conviction_score": 29.25,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 7,950-8,000 Cr, screener.in Sept 2026)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Organic 120,000 MTPA line commissioning (targeted Oct-2026), followed by early Odisha JV construction/ramp milestones",
+      "catalyst_window_months": 1,
+      "catalyst_window_start": "2026-09-22",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "jv partner alignment + new-geography execution risk"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 1.0,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.882
+      }
+    },
+    {
       "slug": "sbcl",
       "name": "SBCL",
       "expectation_gap_score": 0,
@@ -8033,41 +8068,6 @@
         "timing_q": 0.4,
         "risk_q": 1.0,
         "quality": 0.537
-      }
-    },
-    {
-      "slug": "raghav-productivity-solutions",
-      "name": "Raghav Productivity Solutions",
-      "expectation_gap_score": 0,
-      "conviction_score": 24.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap (~Rs 7,950-8,000 Cr, screener.in Sept 2026)",
-      "gap_direction": "over-optimistic",
-      "gap_type": "timing",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "moderate",
-      "catalyst_event": "Organic 120,000 MTPA line commissioning (targeted Oct-2026), followed by early Odisha JV construction/ramp milestones",
-      "catalyst_window_months": 1,
-      "catalyst_window_start": "2026-09-22",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": true,
-      "risk_open_spof_count": 1,
-      "risk_open_spofs": [
-        "jv partner alignment + new-geography execution risk"
-      ],
-      "flags": [
-        "no-edge"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.75,
-        "catalyst_q": 1.0,
-        "timing_q": 1.0,
-        "risk_q": 0.8,
-        "quality": 0.882
       }
     },
     {
@@ -8741,6 +8741,42 @@
       }
     },
     {
+      "slug": "knowledge-marine",
+      "name": "Knowledge Marine",
+      "expectation_gap_score": 0,
+      "conviction_score": 14.44,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 7,300 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2/Q3 FY27 prints showing the normalised post-billing-catch-up run-rate and margin, plus Kamal Marine shipyard commissioning, first green-tug deliveries, and whether promoter selling continues",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-01",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "aspirational - implies ~4x the current revenue base",
+        "project-timing revenue recognition"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.589
+      }
+    },
+    {
       "slug": "sg-finserve",
       "name": "SG Finserve Ltd",
       "expectation_gap_score": 0,
@@ -8772,42 +8808,6 @@
         "timing_q": 0.4,
         "risk_q": 1.0,
         "quality": 0.363
-      }
-    },
-    {
-      "slug": "knowledge-marine",
-      "name": "Knowledge Marine",
-      "expectation_gap_score": 0,
-      "conviction_score": 12.81,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap (~Rs 7,300 Cr)",
-      "gap_direction": "over-optimistic",
-      "gap_type": "margin",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "moderate",
-      "catalyst_event": "Q2/Q3 FY27 prints showing the normalised post-billing-catch-up run-rate and margin, plus Kamal Marine shipyard commissioning, first green-tug deliveries, and whether promoter selling continues",
-      "catalyst_window_months": 9,
-      "catalyst_window_start": "2026-09-01",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 2,
-      "risk_open_spofs": [
-        "aspirational - implies ~4x the current revenue base",
-        "project-timing revenue recognition"
-      ],
-      "flags": [
-        "no-edge"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.75,
-        "catalyst_q": 0.39,
-        "timing_q": 0.75,
-        "risk_q": 0.4,
-        "quality": 0.589
       }
     },
     {
@@ -10983,7 +10983,7 @@
     {
       "slug": "laurus-labs",
       "name": "Laurus Labs",
-      "conviction_score": 12.78,
+      "conviction_score": 13.03,
       "conviction": "Low",
       "thesis_fit": "neither"
     },
@@ -13637,7 +13637,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 0,
-      "conviction_score": 24.0
+      "conviction_score": 29.25
     },
     {
       "slug": "gng-electronics",
@@ -13813,7 +13813,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 5.24,
-      "conviction_score": 36.0
+      "conviction_score": 32.5
     },
     {
       "slug": "thyrocare-debt-free-asset-light-healthcare-play",
@@ -14704,7 +14704,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 16.44,
-      "conviction_score": 29.75
+      "conviction_score": 26.0
     },
     {
       "slug": "solex-energy",
@@ -14715,7 +14715,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 12.99,
-      "conviction_score": 0.58
+      "conviction_score": 0
     },
     {
       "slug": "unimech-aerospace-and-manufacturing-ltd",
@@ -14880,7 +14880,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 0,
-      "conviction_score": 12.81
+      "conviction_score": 14.44
     },
     {
       "slug": "aimtron-electronics",
@@ -15518,7 +15518,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 18.57,
-      "conviction_score": 28.0
+      "conviction_score": 24.75
     },
     {
       "slug": "wonderla-holidays",
@@ -15881,7 +15881,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 23.34,
-      "conviction_score": 55.25
+      "conviction_score": 57.95
     },
     {
       "slug": "emmvee-photovoltaic-power",
