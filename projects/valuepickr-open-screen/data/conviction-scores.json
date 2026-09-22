@@ -780,6 +780,51 @@
     }
   },
   {
+    "slug": "sambhv-steel-tubes",
+    "name": "Sambhv Steel Tubes",
+    "conviction_score": 57.95,
+    "own_conviction": 55.25,
+    "trusted_lift": 2.7,
+    "conviction": "Medium-High",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 43.0,
+    "market_cap_tier": "Small-cap (~Rs 3,750 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 55.25,
+      "trusted_lift": 2.7,
+      "base_anchor": 35,
+      "thesis_bonus": 14,
+      "quality_lift": -1.75,
+      "management_component": 8.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 2.7,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 2.7,
+        "pos_raw": 2.7,
+        "pos_capped": 2.7,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "positive",
+        "guidance_credibility": "reliable",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "unclear",
+        "shareholder_returns": null
+      }
+    }
+  },
+  {
     "slug": "kmc-speciality-hospital",
     "name": "KMC Speciality hospital",
     "conviction_score": 57.0,
@@ -1130,51 +1175,6 @@
         "capital_allocation_track_record": "neutral",
         "rpt_trend": "flat",
         "shareholder_returns": "consistent"
-      }
-    }
-  },
-  {
-    "slug": "sambhv-steel-tubes",
-    "name": "Sambhv Steel Tubes",
-    "conviction_score": 55.25,
-    "own_conviction": 55.25,
-    "trusted_lift": 0.0,
-    "conviction": "Medium-High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 43.0,
-    "market_cap_tier": "Small-cap (~Rs 3,750 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 55.25,
-      "trusted_lift": 0.0,
-      "base_anchor": 35,
-      "thesis_bonus": 14,
-      "quality_lift": -1.75,
-      "management_component": 8.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "reliable",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "unclear",
-        "shareholder_returns": null
       }
     }
   },
@@ -4404,51 +4404,6 @@
     }
   },
   {
-    "slug": "sacheerome",
-    "name": "Sacheerome Ltd",
-    "conviction_score": 36.0,
-    "own_conviction": 36.0,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Small-cap (~Rs 1,140-1,190 Cr)",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 36.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 11.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "reliable",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
-      }
-    }
-  },
-  {
     "slug": "cantabil-india",
     "name": "Cantabil India",
     "conviction_score": 35.83,
@@ -5256,6 +5211,51 @@
         "assessment": "neutral",
         "guidance_credibility": "no-track-record",
         "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
+      }
+    }
+  },
+  {
+    "slug": "sacheerome",
+    "name": "Sacheerome Ltd",
+    "conviction_score": 32.5,
+    "own_conviction": 32.5,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 36.0,
+    "market_cap_tier": "Small-cap (~Rs 1,140-1,190 Cr)",
+    "red_flag_tier": null,
+    "source": "external-lead",
+    "score_breakdown": {
+      "own_conviction": 32.5,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": -3.5,
+      "management_component": 11.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "positive",
+        "guidance_credibility": "reliable",
+        "capital_allocation_track_record": "disciplined",
         "rpt_trend": "unclear",
         "shareholder_returns": "none"
       }
@@ -6423,51 +6423,6 @@
     }
   },
   {
-    "slug": "kp-energy",
-    "name": "KP Energy Ltd",
-    "conviction_score": 29.75,
-    "own_conviction": 29.75,
-    "trusted_lift": 0.0,
-    "conviction": "Low-Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 61.0,
-    "market_cap_tier": "Small-cap (~Rs 1,574 Cr)",
-    "red_flag_tier": null,
-    "source": "sovrenn-news",
-    "score_breakdown": {
-      "own_conviction": 29.75,
-      "trusted_lift": 0.0,
-      "base_anchor": 16,
-      "thesis_bonus": 14,
-      "quality_lift": 2.75,
-      "management_component": -3.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "concern",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "unclear"
-      }
-    }
-  },
-  {
     "slug": "arrow-greentech",
     "name": "Arrow Greentech",
     "conviction_score": 29.75,
@@ -6687,6 +6642,51 @@
         "assessment": "neutral",
         "guidance_credibility": "no-track-record",
         "capital_allocation_track_record": "neutral",
+        "rpt_trend": "rising",
+        "shareholder_returns": "initiated"
+      }
+    }
+  },
+  {
+    "slug": "raghav-productivity-solutions",
+    "name": "Raghav Productivity Solutions",
+    "conviction_score": 29.25,
+    "own_conviction": 29.25,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 71.0,
+    "market_cap_tier": "Mid-cap (~Rs 7,950-8,000 Cr, screener.in Sept 2026)",
+    "red_flag_tier": null,
+    "source": "external-lead",
+    "score_breakdown": {
+      "own_conviction": 29.25,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 5.25,
+      "management_component": -1.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "unclear",
         "rpt_trend": "rising",
         "shareholder_returns": "initiated"
       }
@@ -7455,51 +7455,6 @@
     }
   },
   {
-    "slug": "omnitech",
-    "name": "Omnitech",
-    "conviction_score": 28.0,
-    "own_conviction": 28.0,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Small-cap (~Rs 6,880 Cr)",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 28.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 3.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "no-track-record",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
-      }
-    }
-  },
-  {
     "slug": "dr-agarwal-s-eye-hospital",
     "name": "Dr Agarwal's Eye Hospital Ltd (DAEHL)",
     "conviction_score": 27.75,
@@ -8118,6 +8073,51 @@
       },
       "distinct_trusted_users": 2,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "kp-energy",
+    "name": "KP Energy Ltd",
+    "conviction_score": 26.0,
+    "own_conviction": 26.0,
+    "trusted_lift": 0.0,
+    "conviction": "Low-Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 46.0,
+    "market_cap_tier": "Small-cap (~Rs 1,574 Cr)",
+    "red_flag_tier": null,
+    "source": "sovrenn-news",
+    "score_breakdown": {
+      "own_conviction": 26.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 16,
+      "thesis_bonus": 14,
+      "quality_lift": -1.0,
+      "management_component": -3.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "concern",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
+      }
     }
   },
   {
@@ -11316,6 +11316,51 @@
     }
   },
   {
+    "slug": "omnitech",
+    "name": "Omnitech",
+    "conviction_score": 24.75,
+    "own_conviction": 24.75,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 37.0,
+    "market_cap_tier": "Small-cap (~Rs 6,880 Cr)",
+    "red_flag_tier": null,
+    "source": "external-lead",
+    "score_breakdown": {
+      "own_conviction": 24.75,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": -3.25,
+      "management_component": 3.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "no-track-record",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
+      }
+    }
+  },
+  {
     "slug": "garware-hi-tech-films-ltd",
     "name": "Garware Hi-Tech Films Ltd",
     "conviction_score": 24.65,
@@ -11481,51 +11526,6 @@
       },
       "distinct_trusted_users": 1,
       "management_quality": null
-    }
-  },
-  {
-    "slug": "raghav-productivity-solutions",
-    "name": "Raghav Productivity Solutions",
-    "conviction_score": 24.0,
-    "own_conviction": 24.0,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Mid-cap (~Rs 7,950-8,000 Cr, screener.in Sept 2026)",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 24.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": -1.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "unclear",
-        "capital_allocation_track_record": "unclear",
-        "rpt_trend": "rising",
-        "shareholder_returns": "initiated"
-      }
     }
   },
   {
@@ -19470,6 +19470,51 @@
     }
   },
   {
+    "slug": "knowledge-marine",
+    "name": "Knowledge Marine",
+    "conviction_score": 14.44,
+    "own_conviction": 10.0,
+    "trusted_lift": 4.44,
+    "conviction": "Low-Medium",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Mid-cap (~Rs 7,300 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 10.0,
+      "trusted_lift": 4.44,
+      "base_anchor": 16,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": -6.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 4.44,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 4.44,
+        "pos_raw": 4.44,
+        "pos_capped": 4.44,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 4,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 4,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 4,
+      "management_quality": {
+        "assessment": "concern",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "unclear",
+        "shareholder_returns": null
+      }
+    }
+  },
+  {
     "slug": "pennar-industries",
     "name": "Pennar Industries Limited",
     "conviction_score": 14.42,
@@ -19812,56 +19857,11 @@
     }
   },
   {
-    "slug": "knowledge-marine",
-    "name": "Knowledge Marine",
-    "conviction_score": 12.81,
-    "own_conviction": 10.0,
-    "trusted_lift": 2.81,
-    "conviction": "Low-Medium",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Mid-cap (~Rs 7,300 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 10.0,
-      "trusted_lift": 2.81,
-      "base_anchor": 16,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": -6.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 2.81,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 2.81,
-        "pos_raw": 2.81,
-        "pos_capped": 2.81,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 3,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 3,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 3,
-      "management_quality": {
-        "assessment": "concern",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "unclear",
-        "shareholder_returns": null
-      }
-    }
-  },
-  {
     "slug": "laurus-labs",
     "name": "Laurus Labs",
-    "conviction_score": 12.78,
+    "conviction_score": 13.03,
     "own_conviction": 8.0,
-    "trusted_lift": 4.78,
+    "trusted_lift": 5.03,
     "conviction": "Low",
     "thesis_fit": "neither",
     "quality_score": null,
@@ -19870,22 +19870,22 @@
     "source": null,
     "score_breakdown": {
       "own_conviction": 8.0,
-      "trusted_lift": 4.78,
+      "trusted_lift": 5.03,
       "base_anchor": 8,
       "thesis_bonus": 0,
       "quality_lift": 0.0,
       "management_component": 0.0,
       "red_flag_penalty": 0,
       "red_flag_forced_zero": false,
-      "trusted_signal_component": 4.78,
+      "trusted_signal_component": 5.03,
       "trusted_lift_neg_floor_applied": false,
       "trusted_signal_detail": {
-        "value": 4.78,
-        "pos_raw": 4.78,
-        "pos_capped": 4.78,
+        "value": 5.03,
+        "pos_raw": 5.03,
+        "pos_capped": 5.03,
         "neg_raw": 0.0,
         "neg_capped": 0.0,
-        "n_positive_signals": 3,
+        "n_positive_signals": 4,
         "n_exit_signals": 0,
         "n_trim_signals": 0,
         "distinct_trusted_users": 2,
@@ -31503,51 +31503,6 @@
     }
   },
   {
-    "slug": "solex-energy",
-    "name": "Solex Energy Ltd",
-    "conviction_score": 0.58,
-    "own_conviction": -0.25,
-    "trusted_lift": 0.83,
-    "conviction": "Low",
-    "thesis_fit": "neither",
-    "quality_score": 57.0,
-    "market_cap_tier": "Small-cap (~Rs 760 Cr)",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": -0.25,
-      "trusted_lift": 0.83,
-      "base_anchor": 8,
-      "thesis_bonus": 0,
-      "quality_lift": 1.75,
-      "management_component": -10.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.83,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.83,
-        "pos_raw": 0.83,
-        "pos_capped": 0.83,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "concern",
-        "guidance_credibility": "over-promises",
-        "capital_allocation_track_record": "neutral",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
-      }
-    }
-  },
-  {
     "slug": "jindal-drilling",
     "name": "Jindal Drilling",
     "conviction_score": 0.17,
@@ -34494,6 +34449,51 @@
       },
       "distinct_trusted_users": 0,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "solex-energy",
+    "name": "Solex Energy Ltd",
+    "conviction_score": 0,
+    "own_conviction": -4.25,
+    "trusted_lift": 0.83,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 41.0,
+    "market_cap_tier": "Small-cap (~Rs 760 Cr)",
+    "red_flag_tier": null,
+    "source": "external-lead",
+    "score_breakdown": {
+      "own_conviction": -4.25,
+      "trusted_lift": 0.83,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": -2.25,
+      "management_component": -10.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.83,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.83,
+        "pos_raw": 0.83,
+        "pos_capped": 0.83,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "concern",
+        "guidance_credibility": "over-promises",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
+      }
     }
   },
   {

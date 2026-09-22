@@ -6,7 +6,9 @@ Generated: 2026-09-22
 
 ## Pending research (queue, oldest first)
 
-_(none pending)_
+| Stock | First seen | Trusted user(s) | Snippet / why tracked |
+|---|---|---|---|
+| Grindwell Norton Ltd | 2026-09-21 | unseenvalue | Named alongside Laurus/Sansera/Syngene/Cohance in a multi-stock substack roundup (antifragilethinking), no individual view given — 21-step decision-making piece, not a call |
 
 ## Already researched (exited the queue)
 

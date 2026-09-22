@@ -8282,3 +8282,12 @@ Also confirmed via direct Yahoo Finance checks that ~21 remaining technical-unre
 - Valuation refreshed and still cheap on every metric checked: ~8.65x trailing P/E, ~5.5x EV/EBITDA, ~1x sales, all below the stock's own 5-yr median (price ~Rs237, mcap ~Rs1,574cr as of 2026-09-22)
 - four_box firms 2.5 -> 3.0 (moat upgraded no -> weak on the RPT-split disclosure + Vagra execution track record); thesis_fit stays "10x-in-2-3-years" (now permitted at score>=3.0 without the unconfirmed-exception language)
 - conviction Low-Medium -> Low-Medium (unchanged; the moat/RPT-clarity upgrade and the newly-surfaced margin-compression risk roughly offset — re-check on Q2/Q3 FY27 prints for whether the ROW/cost shock proves transient)
+
+## Knowledge Marine — trusted-X signal [2026-09-20]
+- @suru27 (cluster tier) posted a dedicated bull case defending the ~55-60x trailing P/E via 22-49% sales growth, 35-62% PAT growth, 20-62% EPS growth and 60-74% OCF conversion, plus flagged a new 3rd Green Tug contract.
+
+## Laurus Labs — trusted-X signal [2026-09-18]
+- @LearningEleven (cluster tier): "Latest presentation is an absolute stunner! Top notch integrated pharma platform in making - Sky is the limit!" — fresh bullish reaction to a company presentation.
+
+## Sambhv Steel Tubes — trusted-X signal [2026-09-18]
+- @LearningEleven (cluster tier), in the same reply that turned cautious on Welspun Corp on valuation grounds: "Sambhv seem to have good prospects if they execute well."

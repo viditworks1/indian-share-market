@@ -1363,6 +1363,34 @@
       }
     },
     {
+      "slug": "sambhv-steel-tubes",
+      "name": "Sambhv Steel Tubes",
+      "master_score": 45.53,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 4,
+        "note": "screener.in FY22-FY26: revenue growth >=10% every year (+71/+14/+37/+17/+60%); ROCE >=15% in FY22 (23%), FY23 (22%), FY25 (19%), FY26 (19%) but only 14% in FY24 during the steel-cycle PAT dip. 4 of 5 years clear both. Pre-IPO base (listed 2025); FY21 ROCE 37% excluded as no prior-year growth rate."
+      },
+      "score_breakdown": {
+        "conviction_score": 57.95,
+        "quality_score": 43.0,
+        "expectation_gap_score": 23.34,
+        "consistency_score": 80,
+        "asymmetry_score": 24.17,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "arrow-greentech",
       "name": "Arrow Greentech",
       "master_score": 45.35,
@@ -1436,34 +1464,6 @@
         "expectation_gap_score": 6.77,
         "consistency_score": 55,
         "asymmetry_score": 30.38,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "sambhv-steel-tubes",
-      "name": "Sambhv Steel Tubes",
-      "master_score": 44.86,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 4,
-        "note": "screener.in FY22-FY26: revenue growth >=10% every year (+71/+14/+37/+17/+60%); ROCE >=15% in FY22 (23%), FY23 (22%), FY25 (19%), FY26 (19%) but only 14% in FY24 during the steel-cycle PAT dip. 4 of 5 years clear both. Pre-IPO base (listed 2025); FY21 ROCE 37% excluded as no prior-year growth rate."
-      },
-      "score_breakdown": {
-        "conviction_score": 55.25,
-        "quality_score": 43.0,
-        "expectation_gap_score": 23.34,
-        "consistency_score": 80,
-        "asymmetry_score": 24.17,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -3257,6 +3257,29 @@
       }
     },
     {
+      "slug": "raghav-productivity-solutions",
+      "name": "Raghav Productivity Solutions",
+      "master_score": 33.01,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 29.25,
+        "quality_score": 71.0,
+        "expectation_gap_score": 0,
+        "consistency_score": null,
+        "asymmetry_score": 20.0,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
       "slug": "sona-blw-precision-forgings",
       "name": "Sona BLW Precision Forgings Ltd",
       "master_score": 32.98,
@@ -3437,62 +3460,6 @@
       }
     },
     {
-      "slug": "solex-energy",
-      "name": "Solex Energy Ltd",
-      "master_score": 31.97,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 3,
-        "note": "FY24-26 revenue growth comfortably cleared 10% each year (81% FY25, 144% FY26; FY24 baseline Rs 368.02 Cr). ROCE most-recently-confirmed at 31.7% (FY26) - comfortably above the 15% bar, but materially below the ~46% figure the pass-0 file recorded, which likely conflated ROE (38.4% FY26, ~46.4% FY25) with ROCE. FY24/FY25 ROCE were not independently re-confirmed this pass; treat the 3-year 'cleared' call as directionally solid (revenue growth is unambiguous, and FY26 ROCE is comfortably above 15%) rather than precisely verified for all three years."
-      },
-      "score_breakdown": {
-        "conviction_score": 0.58,
-        "quality_score": 41.0,
-        "expectation_gap_score": 12.99,
-        "consistency_score": 100,
-        "asymmetry_score": 26.5,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "kp-energy",
-      "name": "KP Energy Ltd",
-      "master_score": 31.93,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 9,
-        "years_cleared": 4,
-        "note": "Screener FY18-FY26: rev growth >=10% AND ROCE >=15% both cleared in 4 of 9 (FY22 247%/44%, FY23 75%/38%, FY25 99%/39%, FY26 60%/39%). Misses are mostly lumpy wind-EPC revenue timing (FY18 -46%, FY21 -4%, FY24 +8%) or an early low-ROCE year (FY19 7%); ROCE has been 38-44% in every delivery year since FY22. Unaffected by this pass (annual-cadence metric); Q1 FY27's margin compression is a quarterly, not yet annual, signal."
-      },
-      "score_breakdown": {
-        "conviction_score": 29.75,
-        "quality_score": 46.0,
-        "expectation_gap_score": 16.44,
-        "consistency_score": 44,
-        "asymmetry_score": 20.72,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "swastika-castal",
       "name": "Swastika Castal Ltd",
       "master_score": 31.82,
@@ -3510,6 +3477,34 @@
         "expectation_gap_score": 16.31,
         "consistency_score": 33,
         "asymmetry_score": 20.66,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "solex-energy",
+      "name": "Solex Energy Ltd",
+      "master_score": 31.82,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 3,
+        "note": "FY24-26 revenue growth comfortably cleared 10% each year (81% FY25, 144% FY26; FY24 baseline Rs 368.02 Cr). ROCE most-recently-confirmed at 31.7% (FY26) - comfortably above the 15% bar, but materially below the ~46% figure the pass-0 file recorded, which likely conflated ROE (38.4% FY26, ~46.4% FY25) with ROCE. FY24/FY25 ROCE were not independently re-confirmed this pass; treat the 3-year 'cleared' call as directionally solid (revenue growth is unambiguous, and FY26 ROCE is comfortably above 15%) rather than precisely verified for all three years."
+      },
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": 41.0,
+        "expectation_gap_score": 12.99,
+        "consistency_score": 100,
+        "asymmetry_score": 26.5,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -3673,29 +3668,6 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "raghav-productivity-solutions",
-      "name": "Raghav Productivity Solutions",
-      "master_score": 31.47,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 24.0,
-        "quality_score": 71.0,
-        "expectation_gap_score": 0,
-        "consistency_score": null,
-        "asymmetry_score": 20.0,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
       }
     },
     {
@@ -3963,23 +3935,23 @@
       }
     },
     {
-      "slug": "sacheerome",
-      "name": "Sacheerome Ltd",
-      "master_score": 30.69,
+      "slug": "kp-energy",
+      "name": "KP Energy Ltd",
+      "master_score": 31.0,
       "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
       "track_record": {
-        "years_checked": 4,
-        "years_cleared": 3,
-        "note": "Of the 4 fiscal years with a calculable YoY comparison (FY23-FY26): FY23 narrowly missed (+9% revenue growth, just under the 10% hurdle, despite ROCE 36%); FY24, FY25 and FY26 cleared both hurdles cleanly (growth +21%/+27%/+41%, ROCE 38%/36%/35.7%). 3 of 4 checkable years pass, and the one miss was by 1pp on growth with excellent ROCE alongside it -- not a red flag."
+        "years_checked": 9,
+        "years_cleared": 4,
+        "note": "Screener FY18-FY26: rev growth >=10% AND ROCE >=15% both cleared in 4 of 9 (FY22 247%/44%, FY23 75%/38%, FY25 99%/39%, FY26 60%/39%). Misses are mostly lumpy wind-EPC revenue timing (FY18 -46%, FY21 -4%, FY24 +8%) or an early low-ROCE year (FY19 7%); ROCE has been 38-44% in every delivery year since FY22. Unaffected by this pass (annual-cadence metric); Q1 FY27's margin compression is a quarterly, not yet annual, signal."
       },
       "score_breakdown": {
-        "conviction_score": 36.0,
-        "quality_score": 36.0,
-        "expectation_gap_score": 5.24,
-        "consistency_score": 75,
-        "asymmetry_score": 2.62,
+        "conviction_score": 26.0,
+        "quality_score": 46.0,
+        "expectation_gap_score": 16.44,
+        "consistency_score": 44,
+        "asymmetry_score": 20.72,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -4297,6 +4269,34 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "sacheerome",
+      "name": "Sacheerome Ltd",
+      "master_score": 29.82,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 4,
+        "years_cleared": 3,
+        "note": "Of the 4 fiscal years with a calculable YoY comparison (FY23-FY26): FY23 narrowly missed (+9% revenue growth, just under the 10% hurdle, despite ROCE 36%); FY24, FY25 and FY26 cleared both hurdles cleanly (growth +21%/+27%/+41%, ROCE 38%/36%/35.7%). 3 of 4 checkable years pass, and the one miss was by 1pp on growth with excellent ROCE alongside it -- not a red flag."
+      },
+      "score_breakdown": {
+        "conviction_score": 32.5,
+        "quality_score": 36.0,
+        "expectation_gap_score": 5.24,
+        "consistency_score": 75,
+        "asymmetry_score": 2.62,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
       }
     },
     {
@@ -5337,29 +5337,6 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "omnitech",
-      "name": "Omnitech",
-      "master_score": 25.13,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 28.0,
-        "quality_score": 37.0,
-        "expectation_gap_score": 18.57,
-        "consistency_score": null,
-        "asymmetry_score": 9.29,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
       }
     },
     {
@@ -6905,6 +6882,29 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "omnitech",
+      "name": "Omnitech",
+      "master_score": 24.17,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 24.75,
+        "quality_score": 37.0,
+        "expectation_gap_score": 18.57,
+        "consistency_score": null,
+        "asymmetry_score": 9.29,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
       }
     },
     {
@@ -11222,13 +11222,13 @@
     {
       "slug": "laurus-labs",
       "name": "Laurus Labs",
-      "master_score": 12.78,
+      "master_score": 13.03,
       "red_flag_tier": null,
       "conviction": "Low",
       "thesis_fit": "neither",
       "track_record": null,
       "score_breakdown": {
-        "conviction_score": 12.78,
+        "conviction_score": 13.03,
         "quality_score": null,
         "expectation_gap_score": null,
         "consistency_score": null,
@@ -12773,6 +12773,27 @@
           "conviction_score"
         ],
         "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "knowledge-marine",
+      "name": "Knowledge Marine",
+      "master_score": 8.02,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 14.44,
+        "quality_score": null,
+        "expectation_gap_score": 0,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "expectation_gap_score"
+        ],
+        "weight_coverage": 0.45
       }
     },
     {
@@ -16692,27 +16713,6 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "knowledge-marine",
-      "name": "Knowledge Marine",
-      "master_score": 7.12,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 12.81,
-        "quality_score": null,
-        "expectation_gap_score": 0,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "expectation_gap_score"
-        ],
-        "weight_coverage": 0.45
       }
     },
     {
