@@ -937,6 +937,17 @@ svg text{font-family:"IBM Plex Mono",ui-monospace,monospace}
 .kv span .k{color:var(--ink-3); margin-right:5px}
 .kv b{color:var(--ink); font-weight:600}
 .swing-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:8px 16px}
+
+@media print{
+  #themeBtn, #printBtn{display:none !important;}
+  body{background:#fff; color:#111}
+  .wrap{max-width:100%; padding:12px 0}
+  .card, .panel, .cards, .top10, .tablewrap{box-shadow:none; break-inside:avoid}
+  table{min-width:0}
+  thead th{position:static; color:#333}
+  tbody tr{break-inside:avoid}
+  a{color:#111; text-decoration:none}
+}
 </style>
 </head>
 <body>
@@ -951,6 +962,7 @@ svg text{font-family:"IBM Plex Mono",ui-monospace,monospace}
         <div class="stamp">as of <b id="asof"></b></div>
         <div class="stamp" id="gen"></div>
         <button class="theme-btn" id="themeBtn" type="button">theme</button>
+        <button class="theme-btn" id="printBtn" type="button">print / PDF</button>
       </div>
     </div>
     <p class="lede">Every Monday a new Rs 1,00,000 paper portfolio is decided from the live recommendation,
@@ -1036,6 +1048,9 @@ tb.onclick = ()=>{
   draw();
 };
 try{ const t = localStorage.getItem('ftl-theme'); if(t) document.documentElement.setAttribute('data-theme', t); }catch(e){}
+
+/* ---- print / save as PDF ---- */
+document.getElementById('printBtn').addEventListener('click', ()=> window.print());
 
 /* ---- cards ---- */
 function cohortLabel(c){ return c.week_id + ' · ' + c.series; }

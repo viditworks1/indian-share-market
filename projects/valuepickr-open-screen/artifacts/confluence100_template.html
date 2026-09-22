@@ -207,6 +207,9 @@ td.num{text-align:right; font-family:"IBM Plex Mono",monospace; font-variant-num
   background:var(--surface); border:1px solid var(--accent); border-radius:12px;
   padding:20px 22px 8px; margin-bottom:26px; box-shadow:var(--shadow);
 }
+.top10.tactical6m{border-color:var(--brass);}
+.t6-regime{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--ink-soft); margin:0 0 14px;}
+.t6-regime .flag{color:var(--risk); font-weight:600;}
 .top10-head{display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:8px; margin-bottom:4px;}
 .top10-head h2{
   font-family:"Newsreader",Georgia,serif; font-weight:600; font-style:italic;
@@ -245,11 +248,34 @@ details.nearmiss[open] summary::before{content:"▾ ";}
 footer{margin-top:34px; padding-top:18px; border-top:1px solid var(--line); font-size:12px; color:var(--muted); line-height:1.7;}
 footer a{color:var(--accent);}
 ::selection{background:var(--accent-soft);}
+
+.eyebrow-row{display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;}
+.print-btn{
+  font:inherit; font-size:12px; color:var(--ink-soft); background:var(--surface); border:1px solid var(--line);
+  border-radius:999px; padding:6px 14px; cursor:pointer; white-space:nowrap; flex-shrink:0;
+}
+.print-btn:hover{border-color:var(--accent); color:var(--ink);}
+
+@media print{
+  .print-btn, .controls, .viewtoggle{display:none !important;}
+  body{background:#fff; color:#111;}
+  .wrap{max-width:100%; padding:12px 0;}
+  .stats, details.method, details.nearmiss, .top10, .tablewrap{box-shadow:none; break-inside:avoid;}
+  .tablewrap{overflow:visible; border:1px solid #ccc;}
+  table{min-width:0;}
+  thead th{position:static; color:#333;}
+  tbody tr, .t10-card{break-inside:avoid;}
+  a{color:#111; text-decoration:none;}
+  details[open] summary::before, details:not([open]) summary::before{content:"";}
+}
 </style>
 
 <div class="wrap">
   <div class="masthead">
-    <div class="eyebrow">ValuePickr open screen · the Rs 1L portfolio's source ranking · __ASOF_DATE__</div>
+    <div class="eyebrow-row">
+      <div class="eyebrow">ValuePickr open screen · the Rs 1L portfolio's source ranking · __ASOF_DATE__</div>
+      <button class="print-btn" id="printBtn" type="button">Print / Save as PDF</button>
+    </div>
     <h1>Confluence 100</h1>
     <p class="dek">Every stock the ValuePickr-forum research pipeline has actually deepdived, ranked by where fundamentals and price agree. The philosophy: <b>strong business + reasonable valuation + rising 30W trend + real momentum</b> — a good company at a fair price that the market is already starting to reward, not just quietly trending up in isolation. <b>Confidence %</b> is an explicit weighted blend, fundamentals-led: <b>70% master score</b> (conviction · quality · expectation-gap · asymmetry) + <b>18% trend quality</b> (30-week EMA distance/freshness) + <b>12% momentum</b> (trailing 13w/26w price return + relative strength vs the Nifty 500) — then discounted for how many of the five master-score components a given stock actually has. This one number is the sole basis for the ranking below — no separate tier list or return-magnitude label overrides it. The <b>Top 10</b> panel further gates on data completeness, so it never surfaces a name propped up by a thin score or an unresolved chart. Two lists, 100 names each: <b>Overall</b> (any deepdived stock, no red flag) and <b>Thesis only</b> (the stricter 10x / 100x return bar).</p>
   </div>
@@ -268,6 +294,17 @@ footer a{color:var(--accent);}
       <summary id="nearmiss-summary">Highest-confidence names excluded pending data →</summary>
       <div id="nearmiss-list"></div>
     </details>
+  </div>
+
+  <div class="top10 tactical6m">
+    <div class="top10-head">
+      <h2>6-Month Tactical — technical only</h2>
+      <span class="n" id="t6-count"></span>
+    </div>
+    <p class="top10-dek">A second, deliberately different cut over the same Top-100 Overall pool: every name here already cleared the fundamentals bar to make the 100, so this view <b>treats them as equal on fundamentals</b> and ranks <b>purely on <code>technical_score</code> + <code>momentum_score</code></b> (50/50, no master-score term at all) — a max-return-in-6-months tactical list, not a 10x/100x thesis screen. Same above-30W-EMA gate as the Top 10, but ignores fundamental-data completeness. <b>Fully stateless — recomputed and rebalanced from scratch every run</b>, no persisted holdings, no hysteresis. Cash floor rises to 20% in a confirmed broad market downtrend (same "don't fight the market" rule the Rs&nbsp;1L allocation uses), else 12%.</p>
+    <div id="t6-regime" class="t6-regime"></div>
+    <div class="top10-grid" id="t6-grid"></div>
+    <div id="t6-empty" class="t10-empty" style="display:none;">Fewer than 5 names currently clear the above-EMA gate — not built this run.</div>
   </div>
 
   <details class="method">
@@ -325,12 +362,14 @@ footer a{color:var(--accent);}
 <script id="rows-thesis-data" type="application/json">__ROWS_THESIS_JSON__</script>
 <script id="top10-data" type="application/json">__TOP10_JSON__</script>
 <script id="nearmiss-data" type="application/json">__NEARMISS_JSON__</script>
+<script id="tactical6m-data" type="application/json">__TACTICAL6M_JSON__</script>
 <script id="stats-data" type="application/json">__STATS_JSON__</script>
 <script>
 const DATA_OVERALL = JSON.parse(document.getElementById('rows-overall-data').textContent);
 const DATA_THESIS  = JSON.parse(document.getElementById('rows-thesis-data').textContent);
 const TOP10 = JSON.parse(document.getElementById('top10-data').textContent);
 const NEARMISS = JSON.parse(document.getElementById('nearmiss-data').textContent);
+const TACTICAL6M = JSON.parse(document.getElementById('tactical6m-data').textContent);
 const STATS = JSON.parse(document.getElementById('stats-data').textContent);
 let view = 'overall';
 let ROWS = DATA_OVERALL;
@@ -384,6 +423,46 @@ function renderTop10(){
         <span class="why">${r.not_ready_reason}</span>
       </div>`).join('');
   }
+}
+
+function renderTactical6m(){
+  const grid = document.getElementById('t6-grid');
+  const empty = document.getElementById('t6-empty');
+  const regimeEl = document.getElementById('t6-regime');
+  const rg = TACTICAL6M.market_regime || {};
+  const regimeTxt = !rg.resolved ? 'Market regime: not resolved this run'
+    : rg.downtrend ? `<span class="flag">DOWNTREND</span> ${rg.label} ${rg.pct_vs_ema}% vs its 30W EMA — cash floor raised to 20%`
+    : `Market regime OK — ${rg.label} ${rg.pct_vs_ema>=0?'+':''}${rg.pct_vs_ema}% vs its 30W EMA`;
+  regimeEl.innerHTML = regimeTxt;
+  document.getElementById('t6-count').textContent = TACTICAL6M.insufficient
+    ? `pool too small (${TACTICAL6M.pool_size})` : `${TACTICAL6M.holdings.length} of ${TACTICAL6M.pool_size} above-EMA names`;
+  if(TACTICAL6M.insufficient || !TACTICAL6M.holdings.length){ grid.innerHTML=''; empty.style.display='block'; return; }
+  empty.style.display='none';
+  grid.innerHTML = TACTICAL6M.holdings.map(r=>`<div class="t10-card" data-slug="${r.slug}">
+      <div class="t10-top">
+        <span class="t10-rank">${r.weight_pct}% wt</span>
+        <span class="conf-pill ${confClass(r.tactical_score)}">${r.tactical_score}</span>
+      </div>
+      <div class="t10-name">${r.name}${r.in_current_portfolio?' <span class="badge-hold">HOLD</span>':''}</div>
+      <div class="t10-tag">tech ${r.technical_score} / mom ${r.momentum_score} &middot; ${r.technical}</div>
+      <div class="t10-meta">
+        ${r.thesis_eligible?'':'<span class="badge-nonthesis">non-thesis</span>'}
+      </div>
+    </div>`).join('') + `<div class="t10-card" style="justify-content:center;align-items:center;color:var(--muted);font-size:12.5px;">cash<br><b style="font-size:20px;color:var(--ink)">${TACTICAL6M.cash_pct}%</b><br>floor ${TACTICAL6M.cash_floor_pct}%</div>`;
+  grid.querySelectorAll('.t10-card[data-slug]').forEach(card=>{
+    card.addEventListener('click', ()=>{
+      const slug = card.dataset.slug;
+      document.querySelector('#search').value='';
+      query=''; filter='all';
+      document.querySelectorAll('.chip').forEach(x=>x.classList.toggle('active', x.dataset.filter==='all'));
+      apply();
+      const idx = ROWS.findIndex(r=>r.slug===slug);
+      if(idx>=0){
+        const tr = document.querySelectorAll('#tbody tr:not(.detail-row)')[idx];
+        if(tr){ tr.scrollIntoView({behavior:'smooth', block:'center'}); tr.click(); }
+      }
+    });
+  });
 }
 
 function confClass(c){ return c>=70?'conf-hi':c>=50?'conf-mid':'conf-lo'; }
@@ -545,5 +624,21 @@ function renderStats(){
 
 renderStats();
 renderTop10();
+renderTactical6m();
 apply();
+
+/* Print / Save as PDF: force every <details> open so the methodology and
+   near-miss sections aren't silently missing from the printout, then restore
+   whatever the reader had open/closed beforehand. */
+let _detailsStateBeforePrint = null;
+document.getElementById('printBtn').addEventListener('click', ()=> window.print());
+window.addEventListener('beforeprint', ()=>{
+  _detailsStateBeforePrint = Array.from(document.querySelectorAll('details')).map(d=>d.open);
+  document.querySelectorAll('details').forEach(d=> d.open = true);
+});
+window.addEventListener('afterprint', ()=>{
+  if(!_detailsStateBeforePrint) return;
+  document.querySelectorAll('details').forEach((d,i)=> d.open = _detailsStateBeforePrint[i]);
+  _detailsStateBeforePrint = null;
+});
 </script>

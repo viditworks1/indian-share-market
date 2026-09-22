@@ -130,6 +130,10 @@ FUND_WEIGHT = 0.70
 TECH_WEIGHT = 0.18
 MOMENTUM_WEIGHT = 0.12
 
+# Shared single-name cap for both score-proportional sizings (the main Rs 1L
+# allocation and the 6-month tactical list) -- see size_by_score() below.
+SINGLE_NAME_CAP_PCT = 12.5
+
 # Technical-read cache: {"benchmark": {...} | None, "stocks": {slug: {...}}}.
 # Keeps last-known-good 30W-EMA + RS reads so (a) most candidates only need a
 # live Yahoo pull once a week instead of every run, and (b) a run where Yahoo
@@ -311,6 +315,66 @@ def fetch_benchmark_return():
         return None
     closes = [c for t, c in pairs]
     return trailing_return_pct(closes, RS_LOOKBACK_WEEKS)
+
+
+REGIME_BENCHMARK_SYMBOL = "NIFTYSMLCAP250.NS"
+REGIME_BENCHMARK_LABEL = "Nifty Smallcap 250"
+
+
+def market_regime():
+    """2026-09-22: shared "don't fight the market" check — is the benchmark's last
+    completed weekly close below its own 30W EMA for 2+ consecutive weeks ("broad
+    downtrend confirmed")? Used by both build_confluence100_allocation.py (the main
+    Rs 1L allocation) and the Top-100's own 6-month tactical section below, so both
+    raise their cash floor together on the same signal rather than drifting out of
+    sync. Fails open (not downtrend) on a fetch failure rather than blocking either
+    build on a data gap."""
+    pairs = yahoo_chart(REGIME_BENCHMARK_SYMBOL)
+    if not pairs or len(pairs) < 32:
+        return {"resolved": False, "downtrend": False, "label": REGIME_BENCHMARK_LABEL}
+    closes = [c for _, c in pairs]
+    emas = ema30(closes)
+    below_last = closes[-1] < emas[-1]
+    below_prev = closes[-2] < emas[-2]
+    pct = (closes[-1] / emas[-1] - 1) * 100
+    return {
+        "resolved": True,
+        "downtrend": below_last and below_prev,
+        "label": REGIME_BENCHMARK_LABEL,
+        "pct_vs_ema": round(pct, 1),
+        "above_ema": not below_last,
+    }
+
+
+def size_by_score(candidates, score_key, invested_target_pct, single_name_cap_pct):
+    """Generic confidence/score-proportional sizing with a single-name cap, used for
+    both the main Rs 1L allocation (score_key='confidence') and the 6-month tactical
+    list (score_key='tactical_score'). Cap-and-redistribute: repeatedly clamp anything
+    over the cap and spread the excess proportionally across the still-uncapped names
+    until stable. Returns (holdings, cash_pct) -- holdings carry weight_pct plus every
+    field already on each candidate dict (name/slug/symbol/scores/tagline/...)."""
+    total_score = sum(r[score_key] for r in candidates)
+    weights = {r["slug"]: (r[score_key] / total_score) * invested_target_pct for r in candidates}
+    for _ in range(len(candidates) + 2):
+        capped = {s: w for s, w in weights.items() if w > single_name_cap_pct}
+        if not capped:
+            break
+        excess = sum(w - single_name_cap_pct for w in capped.values())
+        for s in capped:
+            weights[s] = single_name_cap_pct
+        uncapped = {s: w for s, w in weights.items() if s not in capped}
+        uncapped_total = sum(uncapped.values())
+        if uncapped_total <= 0:
+            break
+        for s in uncapped:
+            weights[s] += excess * (uncapped[s] / uncapped_total)
+
+    holdings, invested_sum = [], 0.0
+    for r in candidates:
+        w = round(weights[r["slug"]], 2)
+        invested_sum += w
+        holdings.append({**r, "weight_pct": w})
+    return holdings, round(100 - invested_sum, 2)
 
 
 def technical_read(name, slug=None):
@@ -710,6 +774,40 @@ def main():
         r for r in rows_overall if not r["investable_now"]
     ][: max(0, TOP10_N)]
 
+    # 2026-09-22 (user request): a SECOND, purely-technical cut over the same Top-100
+    # Overall pool -- every candidate here already cleared the fundamentals bar to be
+    # in the 100, so this view treats them as equal on fundamentals and ranks PURELY
+    # on technical_score + momentum_score (no master_score/blended_fundamental term at
+    # all), for a 6-month max-return horizon rather than the site's usual 10x/100x
+    # thesis framing. Same above-EMA + resolved-technical gate as investable_now, but
+    # deliberately ignores weight_coverage / fundamental completeness -- that's the
+    # whole point of "equal on fundamentals". Fully stateless: recomputed fresh every
+    # run, no persisted holdings, no hysteresis -- rebalances every cycle by design.
+    tactical_pool = [
+        r for r in rows_overall
+        if r.get("above_ema") and r.get("technical_score") is not None and r.get("momentum_score") is not None
+    ]
+    for r in tactical_pool:
+        r["tactical_score"] = round(0.5 * r["technical_score"] + 0.5 * r["momentum_score"])
+    tactical_pool.sort(key=lambda r: -r["tactical_score"])
+    tactical_top = tactical_pool[:TOP10_N]
+    market_regime_now = market_regime()
+    if len(tactical_top) >= 5:
+        cash_floor = 20 if market_regime_now["downtrend"] else 12
+        tactical_holdings, tactical_cash_pct = size_by_score(
+            tactical_top, "tactical_score", 100 - cash_floor, SINGLE_NAME_CAP_PCT
+        )
+        tactical6m = {
+            "holdings": tactical_holdings, "cash_pct": tactical_cash_pct,
+            "cash_floor_pct": cash_floor, "pool_size": len(tactical_pool), "insufficient": False,
+        }
+    else:
+        tactical6m = {
+            "holdings": [], "cash_pct": None, "cash_floor_pct": None,
+            "pool_size": len(tactical_pool), "insufficient": True,
+        }
+    tactical6m["market_regime"] = market_regime_now
+
     stats = {
         "total_deepdived": total_deepdived,
         "excluded_sme_emerge": excluded_sme_emerge,
@@ -728,6 +826,7 @@ def main():
     html = html.replace("__ROWS_THESIS_JSON__", json.dumps(rows_thesis, ensure_ascii=False))
     html = html.replace("__TOP10_JSON__", json.dumps(top10_investable, ensure_ascii=False))
     html = html.replace("__NEARMISS_JSON__", json.dumps(near_miss_investable, ensure_ascii=False))
+    html = html.replace("__TACTICAL6M_JSON__", json.dumps(tactical6m, ensure_ascii=False))
     html = html.replace("__STATS_JSON__", json.dumps(stats, ensure_ascii=False))
     html = html.replace("__ASOF_DATE__", stats["asof_date"])
 
@@ -755,6 +854,14 @@ def main():
         "top10_investable": top10_investable,
         "near_miss_investable": near_miss_investable,
         "investable_now_count": stats["investable_now_count"],
+    }, indent=2, ensure_ascii=False))
+
+    # Separate sidecar for the 6-month tactical list -- distinct concern from the
+    # fundamentals-led Top 100 / Top 10, own consumers if any show up later.
+    tactical_path = os.path.join(DATA_DIR, "confluence100_tactical6m.json")
+    atomic_write(tactical_path, json.dumps({
+        "generated": stats["asof_date"], "as_of_date": stats["asof_date"],
+        "horizon": "6 months", **tactical6m,
     }, indent=2, ensure_ascii=False))
 
     res_o = sum(1 for x in overall_sorted[:TOP_N] if x["tech"].get("status") == "ok")
@@ -793,6 +900,19 @@ def main():
               f"(would need backfill to qualify):")
         for r in near_miss_investable[:5]:
             print(f"    {r['confidence']:3d}%  {r['name']:40s} — {r['not_ready_reason']}")
+    regime_str = (f"{'DOWNTREND' if tactical6m['market_regime']['downtrend'] else 'ok'} "
+                  f"({tactical6m['market_regime']['pct_vs_ema']:+.1f}% vs 30W EMA)"
+                  if tactical6m["market_regime"]["resolved"] else "not resolved")
+    print(f"\n6-month tactical (technical-only, {tactical6m['pool_size']} in pool, "
+          f"regime {regime_str}):")
+    if tactical6m["insufficient"]:
+        print(f"  insufficient pool ({tactical6m['pool_size']} < 5) — not built this run")
+    else:
+        for h in tactical6m["holdings"]:
+            print(f"    {h['weight_pct']:5.2f}%  {h['name']:<32} tactical {h['tactical_score']}"
+                  f"  (tech {h['technical_score']} / mom {h['momentum_score']})")
+        print(f"    cash {tactical6m['cash_pct']}% (floor {tactical6m['cash_floor_pct']}%)")
+    print(f"Wrote {tactical_path}")
     print(f"Cache economics: {live_n} live Yahoo fetches this run "
           f"(top {TOP_FRESH_N} fundamentals + any cache miss/expiry), {cache_hit_n} served "
           f"from cache (<{CACHE_TTL_DAYS}d old), {stale_fallback_n} stale-fallback saves. "

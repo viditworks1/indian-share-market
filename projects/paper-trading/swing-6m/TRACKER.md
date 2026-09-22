@@ -12,52 +12,50 @@ A NEW frozen Rs 1,00,000 swing cohort is decided every Monday (momentum + dated-
 
 | Cohort | Decided | Entry Basis | Horizon end | Value (Rs) | 1-Day | Return % | Flags |
 |---|---|---|---|---:|---:|---:|---|
-| 2026-W36-inaugural | 2026-09-03 | 2026-09-03 | 2027-03-03 | 111,531.10 | +2.97% | **+11.53%** | EXTENDED (+51% vs 30W EMA) |
-| 2026-W39 | 2026-09-21 | 2026-09-18 | 2027-03-21 | 102,143.49 | +2.67% | **+2.14%** | EXTENDED (+50% vs 30W EMA) |
+| 2026-W36-inaugural | 2026-09-03 | 2026-09-03 | 2027-03-03 | 111,058.75 | +2.53% | **+11.06%** | EXTENDED (+49% vs 30W EMA) |
+| 2026-W39 | 2026-09-21 | 2026-09-18 | 2027-03-21 | 103,441.70 | +3.98% | **+3.44%** | - |
 
-*Swing series: 2 cohort(s), average return **+6.83%**.*
+*Swing series: 2 cohort(s), average return **+7.25%**.*
 
 ---
 
 ## Cohort: 2026-W36-inaugural
 
-Decided 2026-09-03, entry-priced off 2026-09-03 close, horizon ends 2027-03-03 (162d left). Invested Rs 102,176.30 / cash Rs 9,354.80.
+Decided 2026-09-03, entry-priced off 2026-09-03 close, horizon ends 2027-03-03 (162d left). Invested Rs 101,703.95 / cash Rs 9,354.80.
 
-Benchmark: Nifty Smallcap 250 (NIFTYSMLCAP250.NS) -0.85% since entry -- **alpha +12.38 pp**.
+Benchmark: Nifty Smallcap 250 (NIFTYSMLCAP250.NS) -1.00% since entry -- **alpha +12.06 pp**.
 
 | Holding | Wt% | Entry | Price | Return | 1-Day | Value | Dist to stop | vs 30W EMA | Flags |
 |---|---|---|---|---|---|---|---|---|---|
-| Neetu Yoshi | 8 | 177.50 | 233.95 | +31.80% | +4.75% | 10,528 | +56.9% | 50.9 | EXTENDED (+51% vs 30W EMA) |
-| Vikram Thermo | 12 | 302.30 | 379.00 | +25.37% | +12.26% | 14,781 | +49.3% | 44.7 | - |
-| Unimech Aerospace | 12 | 1465.30 | 1776.80 | +21.26% | +11.66% | 14,214 | +44.4% | 29.2 | - |
-| Yash Highvoltage | 12 | 970.00 | 1126.00 | +16.08% | +6.31% | 13,512 | +38.2% | 33.5 | - |
-| L. T. Elevators | 10 | 309.45 | 345.50 | +11.65% | +1.32% | 11,056 | +32.9% | 31.3 | - |
-| Electronics Mart India | 15 | 176.16 | 193.44 | +9.81% | -1.45% | 16,442 | +30.7% | 37.9 | - |
-| Senores Pharmaceuticals | 13 | 1430.40 | 1380.00 | -3.52% | -1.61% | 12,420 | +14.9% | 16.3 | - |
-| Apcotex Industries | 10 | 650.40 | 614.85 | -5.47% | +1.65% | 9,223 | +12.5% | 16.0 | - |
-| **Total** | | | | **+11.53%** | | **102,176** + 9,355 cash | | | |
+| Neetu Yoshi | 8 | 177.50 | 230.30 | +29.75% | +1.19% | 10,364 | +54.5% | 48.6 | EXTENDED (+49% vs 30W EMA) |
+| Vikram Thermo | 12 | 302.30 | 386.05 | +27.70% | +17.86% | 15,056 | +52.0% | 36.9 | - |
+| Unimech Aerospace | 12 | 1465.30 | 1732.50 | +18.24% | +2.01% | 13,860 | +40.8% | 34.6 | - |
+| Yash Highvoltage | 12 | 970.00 | 1123.65 | +15.84% | +1.50% | 13,484 | +37.9% | 36.1 | - |
+| L. T. Elevators | 10 | 309.45 | 344.00 | +11.16% | -1.09% | 11,008 | +32.3% | 31.1 | - |
+| Electronics Mart India | 15 | 176.16 | 192.61 | +9.34% | +0.70% | 16,372 | +30.2% | 31.5 | - |
+| Senores Pharmaceuticals | 13 | 1430.40 | 1379.90 | -3.53% | -1.09% | 12,419 | +14.8% | 14.5 | - |
+| Apcotex Industries | 10 | 650.40 | 609.45 | -6.30% | +0.12% | 9,142 | +11.6% | 15.5 | - |
+| **Total** | | | | **+11.06%** | | **101,704** + 9,355 cash | | | |
 
-**Rule flags active:** EXTENDED (+51% vs 30W EMA) -- act at the monthly review or ad hoc.
+**Rule flags active:** EXTENDED (+49% vs 30W EMA) -- act at the monthly review or ad hoc.
 
 ## Cohort: 2026-W39
 
-Decided 2026-09-21, entry-priced off 2026-09-18 close, horizon ends 2027-03-21 (180d left). Invested Rs 95,494.84 / cash Rs 6,648.65.
+Decided 2026-09-21, entry-priced off 2026-09-18 close, horizon ends 2027-03-21 (180d left). Invested Rs 96,793.05 / cash Rs 6,648.65.
 
-Benchmark: Nifty Smallcap 250 (NIFTYSMLCAP250.NS) +0.01% since entry -- **alpha +2.13 pp**.
+Benchmark: Nifty Smallcap 250 (NIFTYSMLCAP250.NS) -0.15% since entry -- **alpha +3.59 pp**.
 
 | Holding | Wt% | Entry | Price | Return | 1-Day | Value | Dist to stop | vs 30W EMA | Flags |
 |---|---|---|---|---|---|---|---|---|---|
-| Vikram Thermo | 13 | 337.60 | 379.00 | +12.26% | +12.26% | 14,402 | +33.6% | 44.7 | - |
-| Yash Highvoltage | 10 | 1059.20 | 1126.00 | +6.31% | +6.31% | 10,134 | +26.6% | 33.5 | - |
-| Sambhv Steel Tubes | 12 | 147.57 | 153.30 | +3.88% | +3.88% | 12,417 | +23.7% | 25.7 | - |
-| Apcotex Industries | 8 | 604.85 | 614.85 | +1.65% | +1.65% | 7,993 | +21.0% | 16.0 | - |
-| L. T. Elevators | 10 | 341.00 | 345.50 | +1.32% | +1.32% | 10,020 | +20.6% | 31.3 | - |
-| Aimtron Electronics * | 12 | 1662.25 | 1662.25 | +0.00% | +2.83% | 11,636 | +19.0% | 27.0 | - |
-| Electronics Mart India | 15 | 196.28 | 193.44 | -1.45% | -1.45% | 14,701 | +17.3% | 37.9 | - |
-| Macpower CNC Machines | 15 | 2104.50 | 2027.40 | -3.66% | -3.66% | 14,192 | +14.7% | 49.8 | EXTENDED (+50% vs 30W EMA) |
-| **Total** | | | | **+2.14%** | | **95,495** + 6,649 cash | | | |
-
-**Rule flags active:** EXTENDED (+50% vs 30W EMA) -- act at the monthly review or ad hoc.
+| Vikram Thermo | 13 | 337.60 | 386.05 | +14.35% | +17.86% | 14,670 | +36.1% | 36.9 | - |
+| Aimtron Electronics * | 12 | 1662.25 | 1784.35 | +7.35% | +7.35% | 12,490 | +27.8% | 33.2 | - |
+| Yash Highvoltage | 10 | 1059.20 | 1123.65 | +6.08% | +1.50% | 10,113 | +26.3% | 36.1 | - |
+| Sambhv Steel Tubes | 12 | 147.57 | 151.94 | +2.96% | -2.06% | 12,307 | +22.6% | 29.5 | - |
+| L. T. Elevators | 10 | 341.00 | 344.00 | +0.88% | -1.09% | 9,976 | +20.1% | 31.1 | - |
+| Apcotex Industries | 8 | 604.85 | 609.45 | +0.76% | +0.12% | 7,923 | +20.0% | 15.5 | - |
+| Macpower CNC Machines | 15 | 2104.50 | 2096.50 | -0.38% | +7.22% | 14,676 | +18.6% | 35.7 | - |
+| Electronics Mart India | 15 | 196.28 | 192.61 | -1.87% | +0.70% | 14,638 | +16.8% | 31.5 | - |
+| **Total** | | | | **+3.44%** | | **96,793** + 6,649 cash | | | |
 
 ---
 
@@ -77,5 +75,5 @@ Benchmark: Nifty Smallcap 250 (NIFTYSMLCAP250.NS) +0.01% since entry -- **alpha 
 | 2026-09-18 | 2026-W36-inaugural | 104,552 | +4.55% | -0.79% | -2.19% | 6.74 pp | EXTENDED (+45% vs 30W EMA) |
 | 2026-09-21 | 2026-W36-inaugural | 108,318 | +8.32% | +3.60% | -0.9% | 9.22 pp | EXTENDED (+51% vs 30W EMA) |
 | 2026-09-21 | 2026-W39 | 99,484 | -0.52% |  | -0.05% | -0.47 pp | EXTENDED (+50% vs 30W EMA) |
-| 2026-09-22 | 2026-W36-inaugural | 111,531 | +11.53% | +2.97% | -0.85% | 12.38 pp | EXTENDED (+51% vs 30W EMA) |
-| 2026-09-22 | 2026-W39 | 102,143 | +2.14% | +2.67% | 0.01% | 2.13 pp | EXTENDED (+50% vs 30W EMA) |
+| 2026-09-22 | 2026-W36-inaugural | 111,059 | +11.06% | +2.53% | -1.0% | 12.06 pp | EXTENDED (+49% vs 30W EMA) |
+| 2026-09-22 | 2026-W39 | 103,442 | +3.44% | +3.98% | -0.15% | 3.59 pp | - |
