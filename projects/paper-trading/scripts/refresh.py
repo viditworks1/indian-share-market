@@ -22,7 +22,12 @@ REPO_ROOT = os.path.dirname(ROOT)  # one level above projects/ -- where portfoli
 PT   = os.path.join(ROOT, "paper-trading")
 SWING_DIR = os.path.join(PT, "swing-6m")
 LIVE_DIR = os.path.join(PT, "live-recommendation")
-RECOMMENDATION_DOC = os.path.join(REPO_ROOT, "portfolio", "FINAL_PORTFOLIO_RECOMMENDATION.md")
+# 2026-09-22: the standard cohort's and the live-recommendation tracker's weight source
+# moved from portfolio/FINAL_PORTFOLIO_RECOMMENDATION.md (written by the now-legacy,
+# pending-retirement portfolio-rs1l-revision job) to Confluence-100's own allocation,
+# built weekly by vpscreen-rerank Step 7.2 directly from top10_investable. See
+# parse_recommendation_weights() below.
+CONFLUENCE100_ALLOCATION = os.path.join(ROOT, "valuepickr-open-screen", "data", "confluence100_allocation.json")
 
 def p(*a):  # projects/-relative path
     return os.path.join(ROOT, *a)
@@ -466,45 +471,28 @@ def run_swing_tracker():
 
 # --------------------------------------------------------------------------- #
 # Live recommendation tracker (separate, continuously-rebalanced book) --      #
-# parses portfolio/FINAL_PORTFOLIO_RECOMMENDATION.md Section 3 directly, runs  #
-# its own tracker, fold in                                                    #
+# reads valuepickr-open-screen/data/confluence100_allocation.json directly,   #
+# runs its own tracker, folds into dashboard_data.json.                       #
 # --------------------------------------------------------------------------- #
-def parse_recommendation_weights(doc_path=None):
-    """Extract {name: weight_pct} from Section 3's allocation table (primary
-    weight column, ignoring the parenthetical '-> x% held' note), skipping
-    0%/strikethrough/cash/total rows -- same convention the SKILL already uses
-    for manual standard-cohort creation. Also returns a short revision label
-    parsed from the doc header, for logging."""
-    doc_path = doc_path or RECOMMENDATION_DOC
-    text = open(doc_path).read()
-    rev_m = re.search(r"\*\*Revision:\*\*\s*([^\(\n]+)", text)
-    comp_m = re.search(r"\*\*Compiled:\*\*\s*([^\n]+)", text)
-    revision = f"{(rev_m.group(1).strip() if rev_m else '?')} (Compiled {(comp_m.group(1).strip() if comp_m else '?')})"
-    m = re.search(r"## 3\. Final Rs.*?\n(.*?)\n---", text, re.S)
-    section = m.group(1) if m else text
+def parse_recommendation_weights(alloc_path=None):
+    """Extract {name: weight_pct} from Confluence-100's Rs 1L allocation (2026-09-22,
+    replaces the old portfolio/FINAL_PORTFOLIO_RECOMMENDATION.md Section 3 markdown
+    parse -- that doc's source job, portfolio-rs1l-revision, is pending retirement and
+    nothing here reads it anymore). Also returns a short revision label for logging,
+    and merges each holding's resolved symbol into CFG["names"] in-memory so
+    price_lookup() (in live-recommendation/track.py) finds it without a config.json
+    edit -- Confluence-100 has already verified the ticker, no need to duplicate it."""
+    alloc_path = alloc_path or CONFLUENCE100_ALLOCATION
+    alloc = load(alloc_path)
     weights = {}
-    for line in section.splitlines():
-        line = line.strip()
-        if not line.startswith("|"):
-            continue
-        cells = [c.strip() for c in line.strip("|").split("|")]
-        if len(cells) < 2:
-            continue
-        name_raw, wt_raw = cells[0], cells[1]
-        if set(name_raw) <= set("-: "):
-            continue
-        if name_raw.strip().startswith("~~"):  # exited (strikethrough)
-            continue
-        name = re.sub(r"[*~]", "", name_raw).strip()
-        if not name or name.lower() in ("stock", "cash buffer", "total"):
-            continue
-        wm = re.search(r"([\d.]+)\s*%", wt_raw)
-        if not wm:
-            continue
-        wt = float(wm.group(1))
+    for h in alloc.get("holdings", []):
+        name, wt = h["name"], h["weight_pct"]
         if wt <= 0:
             continue
         weights[name] = wt
+        if h.get("symbol") and name not in CFG["names"]:
+            CFG["names"][name] = {"symbol": h["symbol"], "slug": h.get("slug")}
+    revision = f"Confluence-100 allocation ({alloc.get('as_of_date', '?')}, cash {alloc.get('cash_pct', '?')}%)"
     return weights, revision
 
 

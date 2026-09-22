@@ -118,7 +118,17 @@ _RESOLVED_BY_SEARCH = {}  # slug -> symbol, for names not in SYMBOL_MAP that the
 BENCHMARK_SYMBOL = "^CRSLDX"
 BENCHMARK_LABEL = "Nifty 500"
 RS_LOOKBACK_WEEKS = 13  # ~1 quarter, standard relative-strength window
+MOMENTUM_LOOKBACK_WEEKS_LONG = 26  # ~2 quarters, the second leg of the momentum blend
 _BENCHMARK_RETURN_PCT = None  # populated once in main(), read by _read_from_pairs
+
+# 2026-09-22 (user request): confidence used to be blended_fundamental(0-100) plus
+# two small additive deltas (tech_adjustment -18..+10, rs_adjustment -6..+6) — fundamentals
+# dominated by construction but the split was never explicit. Replaced with a plain weighted
+# composite of three 0-100 sub-scores so the "lean fundamentals, but also have momentum"
+# balance is a literal, documented number rather than an emergent property of delta sizes.
+FUND_WEIGHT = 0.70
+TECH_WEIGHT = 0.18
+MOMENTUM_WEIGHT = 0.12
 
 # Technical-read cache: {"benchmark": {...} | None, "stocks": {slug: {...}}}.
 # Keeps last-known-good 30W-EMA + RS reads so (a) most candidates only need a
@@ -351,28 +361,37 @@ def _read_from_pairs(sym, pairs):
         "status": "ok", "symbol": sym, "pct_vs_ema": round(pct, 1),
         "above": last_close > last_ema, "cross_weeks_ago": cross_weeks_ago,
     }
-    stock_ret = trailing_return_pct(closes, RS_LOOKBACK_WEEKS)
-    if stock_ret is not None and _BENCHMARK_RETURN_PCT is not None:
-        out["rs_pct"] = round(stock_ret - _BENCHMARK_RETURN_PCT, 1)
+    stock_ret_13w = trailing_return_pct(closes, RS_LOOKBACK_WEEKS)
+    if stock_ret_13w is not None:
+        out["ret_13w_pct"] = round(stock_ret_13w, 1)
+        if _BENCHMARK_RETURN_PCT is not None:
+            out["rs_pct"] = round(stock_ret_13w - _BENCHMARK_RETURN_PCT, 1)
+    stock_ret_26w = trailing_return_pct(closes, MOMENTUM_LOOKBACK_WEEKS_LONG)
+    if stock_ret_26w is not None:
+        out["ret_26w_pct"] = round(stock_ret_26w, 1)
     return out
 
 
-def tech_adjustment(t):
+def technical_score(t):
+    """0-100 read of 30W-EMA trend quality — replaces the old small additive
+    tech_adjustment delta with a real sub-score so FUND/TECH/MOMENTUM_WEIGHT are a
+    literal blend, not fundamentals-plus-a-nudge. Unresolved reads get a neutral-low
+    40 (not a harsh penalty) since a data gap isn't evidence of a bad trend."""
     if t.get("status") != "ok":
-        return -2
+        return 40
     pct = t["pct_vs_ema"]
     cwa = t.get("cross_weeks_ago")
     if not t["above"]:
-        return -18
+        return 15
     if cwa is not None and cwa <= 3:
-        return 10
+        return 90  # fresh bullish cross
     if pct <= 15:
-        return 8
+        return 82  # tight cushion on an established uptrend
     if pct <= 30:
-        return 4
+        return 68
     if pct <= 45:
-        return 0
-    return -6
+        return 52
+    return 30  # very extended (>45%) — poor risk-reward to buy into, not a red flag
 
 
 def tech_str(t):
@@ -388,21 +407,47 @@ def tech_str(t):
     return "Not resolved"
 
 
-def rs_adjustment(t):
-    """Relative strength vs the broad market (Nifty 500), trailing RS_LOOKBACK_WEEKS.
-    Orthogonal to tech_adjustment: a stock can be above its own 30W EMA (a rising
-    trend) while still lagging the index (weak RS), or vice versa — this rewards
-    genuine outperformance and penalizes quiet underperformance either way."""
-    rs = t.get("rs_pct")
+def momentum_score(t):
+    """0-100 momentum read (2026-09-22, new factor): blends absolute trailing price
+    return (13w + 26w, the same two windows swing_screen.py uses) with relative
+    strength vs the Nifty 500 — orthogonal to technical_score, which reads trend
+    *quality* (distance/freshness vs the 30W EMA) rather than raw return magnitude.
+    A stock can be a fresh EMA cross with modest absolute momentum, or a strong
+    absolute-momentum name that's simply always traded above its EMA; this catches
+    the latter. Missing data reads neutral (50), never penalized."""
+    r13, r26 = t.get("ret_13w_pct"), t.get("ret_26w_pct")
+    abs_vals = [v for v in (r13, r26) if v is not None]
+    abs_component = _return_ladder(sum(abs_vals) / len(abs_vals)) if abs_vals else 50
+    rs_component = _rs_ladder(t.get("rs_pct"))
+    return round(0.65 * abs_component + 0.35 * rs_component)
+
+
+def _return_ladder(pct):
+    if pct >= 60:
+        return 95
+    if pct >= 30:
+        return 85
+    if pct >= 15:
+        return 72
+    if pct >= 0:
+        return 58
+    if pct >= -15:
+        return 40
+    if pct >= -30:
+        return 22
+    return 10
+
+
+def _rs_ladder(rs):
     if rs is None:
-        return 0
+        return 50
     if rs >= 15:
-        return 6
+        return 90
     if rs > 0:
-        return 3
+        return 68
     if rs > -10:
-        return 0
-    return -6
+        return 45
+    return 20
 
 
 def rs_str(t):
@@ -412,10 +457,36 @@ def rs_str(t):
     return f"RS {rs:+.1f}pp vs {BENCHMARK_LABEL} ({RS_LOOKBACK_WEEKS}w)"
 
 
+def momentum_str(t):
+    r13, r26 = t.get("ret_13w_pct"), t.get("ret_26w_pct")
+    if r13 is None and r26 is None:
+        return "Momentum not resolved"
+    parts = []
+    if r13 is not None:
+        parts.append(f"{r13:+.1f}% (13w)")
+    if r26 is not None:
+        parts.append(f"{r26:+.1f}% (26w)")
+    return " / ".join(parts)
+
+
 def current_holdings():
-    """Best-effort parse of portfolio/FINAL_PORTFOLIO_RECOMMENDATION.md Section 3
-    allocation table for the HOLD badge. Falls back to an empty set on any
-    parse failure rather than erroring the whole build."""
+    """Names in the live Rs 1L allocation, for the HOLD badge. Falls back to an
+    empty set on any read/parse failure rather than erroring the whole build.
+
+    2026-09-22: the allocation's source of truth moved to
+    data/confluence100_allocation.json (build_confluence100_allocation.py, run
+    right after this script by vpscreen-rerank) — Confluence-100 now drives the
+    portfolio instead of merely cross-referencing it. Falls back to the legacy
+    portfolio/FINAL_PORTFOLIO_RECOMMENDATION.md doc (written by the
+    portfolio-rs1l-revision job, which is being retired) only until the new
+    allocation file exists for the first time."""
+    alloc_path = os.path.join(DATA_DIR, "confluence100_allocation.json")
+    try:
+        alloc = load_json(alloc_path)
+        return {h["name"] for h in alloc.get("holdings", [])}
+    except (OSError, json.JSONDecodeError, KeyError):
+        pass
+
     path = os.path.join(ROOT, "portfolio", "FINAL_PORTFOLIO_RECOMMENDATION.md")
     try:
         text = open(path).read()
@@ -441,8 +512,15 @@ def current_holdings():
 
 
 def investable_now(x):
-    """Hard data-completeness gate, independent of confidence_pct — see
-    INVESTABLE_COV_THRESHOLD above. Returns (bool, reason_if_not)."""
+    """Hard data-completeness AND entry-timing gate, independent of confidence_pct
+    — see INVESTABLE_COV_THRESHOLD above. Returns (bool, reason_if_not).
+
+    2026-09-22: also requires the name to currently sit above its own 30W EMA —
+    "ready to invest today" now means the same thing the standing per-name EMA
+    discipline always has: never buy into a name below its own trend line, no
+    matter how strong the fundamentals. This is what lets the Rs 1L allocation
+    (build_confluence100_allocation.py) consume top10_investable directly without
+    a second, separate technical filter."""
     cov = x["sb"].get("weight_coverage") or 0.0
     tech_status = x["tech"].get("status")
     if cov < INVESTABLE_COV_THRESHOLD and tech_status not in INVESTABLE_TECH_STATUSES:
@@ -456,6 +534,8 @@ def investable_now(x):
         return False, "no technical read possible (too-recent a listing for 35+ weekly bars)"
     if tech_status not in INVESTABLE_TECH_STATUSES:
         return False, "technical not resolved (needs a verified Yahoo symbol)"
+    if tech_status == "ok" and not x["tech"].get("above"):
+        return False, "below its own 30W EMA — fails entry-timing discipline regardless of score"
     return True, ""
 
 
@@ -482,9 +562,18 @@ def make_rows(ordered, holdings):
             "thesis_fit": x.get("thesis_fit") or "neither",
             "thesis_eligible": bool(x.get("thesis_eligible")),
             "tagline": (x.get("tagline") or "")[:160],
+            "symbol": x["tech"].get("symbol"),
             "technical": tech_str(x["tech"]),
             "relative_strength": rs_str(x["tech"]),
             "rs_pct": x["tech"].get("rs_pct"),
+            "momentum": momentum_str(x["tech"]),
+            "ret_13w_pct": x["tech"].get("ret_13w_pct"),
+            "ret_26w_pct": x["tech"].get("ret_26w_pct"),
+            "fundamental_score": round(x["blended_fundamental"], 1),
+            "technical_score": x["technical_score_val"],
+            "momentum_score": x["momentum_score_val"],
+            "above_ema": x["tech"].get("above"),
+            "pct_vs_ema": x["tech"].get("pct_vs_ema"),
             "investable_now": ready,
             "not_ready_reason": not_ready_reason,
             "in_current_portfolio": name in holdings,
@@ -589,9 +678,13 @@ def main():
         sys.exit(1)
 
     for x in scan:
-        adj = tech_adjustment(x["tech"]) + rs_adjustment(x["tech"])
-        x["tech_adj"] = adj
-        x["confidence_pct"] = round(max(5, min(96, x["blended_fundamental"] + adj)))
+        x["technical_score_val"] = technical_score(x["tech"])
+        x["momentum_score_val"] = momentum_score(x["tech"])
+        x["confidence_pct"] = round(max(5, min(96,
+            FUND_WEIGHT * x["blended_fundamental"]
+            + TECH_WEIGHT * x["technical_score_val"]
+            + MOMENTUM_WEIGHT * x["momentum_score_val"]
+        )))
 
     holdings = current_holdings()
 

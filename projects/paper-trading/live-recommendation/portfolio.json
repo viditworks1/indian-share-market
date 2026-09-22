@@ -2,92 +2,92 @@
   "_readme": "LIVE recommendation tracker. SEPARATE from paper-trading/cohorts.json (frozen weekly cohorts) and swing-6m/cohorts.json (actively-managed swing cohorts). This single book always mirrors the CURRENT allocation in portfolio/FINAL_PORTFOLIO_RECOMMENDATION.md Section 3, auto-rebalancing at live prices whenever that table's holdings or weights change by more than a rounding amount. Script-owned -- do not hand-edit holdings/cash; edit the recommendation doc instead, this script picks it up on the next run.",
   "inception_date": "2026-09-11",
   "inception_capital": 100000,
-  "version": 2,
+  "version": 3,
   "effective_date": "2026-09-22",
-  "source_revision": "v13 (Compiled 21 September 2026)",
+  "source_revision": "Confluence-100 allocation (22 Sep 2026, cash 12.0%)",
   "holdings": [
     {
-      "name": "Dynamic Cables",
-      "symbol": "DYNAMIC.NS",
-      "weight_pct": 12.0,
-      "entry_price": 142.6,
-      "shares": 86,
-      "invested": 12263.6
+      "name": "Thyrocare",
+      "symbol": "THYROCARE.NS",
+      "weight_pct": 10.02,
+      "entry_price": 587.6,
+      "shares": 17,
+      "invested": 9989.2
     },
     {
       "name": "Venus Remedies",
       "symbol": "VENUSREM.NS",
-      "weight_pct": 12.0,
-      "entry_price": 1609.4,
-      "shares": 7,
-      "invested": 11265.8
+      "weight_pct": 9.76,
+      "entry_price": 1607.6,
+      "shares": 6,
+      "invested": 9645.6
     },
     {
-      "name": "Novartis India",
-      "symbol": "NOVARTIND.NS",
-      "weight_pct": 11.0,
-      "entry_price": 2029.5,
-      "shares": 5,
-      "invested": 10147.5
+      "name": "Dynamic Cables",
+      "symbol": "DYNAMIC.NS",
+      "weight_pct": 8.99,
+      "entry_price": 142.6,
+      "shares": 64,
+      "invested": 9126.4
     },
     {
-      "name": "Asahi Songwon Colors",
-      "symbol": "ASAHISONG.NS",
-      "weight_pct": 10.0,
-      "entry_price": 384.0,
-      "shares": 26,
-      "invested": 9984.0
-    },
-    {
-      "name": "GPT Healthcare",
-      "symbol": "GPTHEALTH.NS",
-      "weight_pct": 9.0,
-      "entry_price": 166.0,
-      "shares": 55,
-      "invested": 9130.0
-    },
-    {
-      "name": "Yash Highvoltage",
-      "symbol": "YASHHV.BO",
-      "weight_pct": 9.0,
-      "entry_price": 1150.25,
-      "shares": 8,
-      "invested": 9202.0
+      "name": "ADF FOOD",
+      "symbol": "ADFFOODS.NS",
+      "weight_pct": 8.61,
+      "entry_price": 263.0,
+      "shares": 33,
+      "invested": 8679.0
     },
     {
       "name": "Macpower CNC Machines",
       "symbol": "MACPOWER.NS",
-      "weight_pct": 8.0,
-      "entry_price": 1991.7,
+      "weight_pct": 8.48,
+      "entry_price": 2027.4,
       "shares": 4,
-      "invested": 7966.8
+      "invested": 8109.6
     },
     {
-      "name": "Haldyn Glass",
-      "symbol": "HALDYNGL.BO",
-      "weight_pct": 6.0,
-      "entry_price": 146.5,
-      "shares": 41,
-      "invested": 6006.5
+      "name": "Engineers India",
+      "symbol": "ENGINERSIN.NS",
+      "weight_pct": 8.48,
+      "entry_price": 289.3,
+      "shares": 29,
+      "invested": 8389.7
     },
     {
-      "name": "Thyrocare Technologies",
-      "symbol": "THYROCARE.NS",
-      "weight_pct": 5.0,
-      "entry_price": 579.0,
-      "shares": 8,
-      "invested": 4632.0
+      "name": "Valiant Communications",
+      "symbol": "VALIANT.BO",
+      "weight_pct": 8.48,
+      "entry_price": 1412.55,
+      "shares": 6,
+      "invested": 8475.3
     },
     {
-      "name": "Bansal Roofing Products",
-      "symbol": "BRPL.BO",
-      "weight_pct": 4.0,
-      "entry_price": 154.5,
-      "shares": 26,
-      "invested": 4017.0
+      "name": "Matrimony.com",
+      "symbol": "MATRIMONY.NS",
+      "weight_pct": 8.48,
+      "entry_price": 551.9,
+      "shares": 15,
+      "invested": 8278.5
+    },
+    {
+      "name": "SJS Enterprises",
+      "symbol": "SJS.NS",
+      "weight_pct": 8.48,
+      "entry_price": 2335.2,
+      "shares": 3,
+      "invested": 7005.6
+    },
+    {
+      "name": "Aries Agro",
+      "symbol": "ARIES.NS",
+      "weight_pct": 8.22,
+      "entry_price": 454.1,
+      "shares": 18,
+      "invested": 8173.8
     }
   ],
-  "cash": 17713.82,
+  "cash": 15960.02,
   "rebalance_log": [
     {
       "date": "2026-09-11",
@@ -112,6 +112,12 @@
       "version": 2,
       "reason": "added Raymond Realty Ltd",
       "nav": 102329.02
+    },
+    {
+      "date": "2026-09-22",
+      "version": 3,
+      "reason": "added ADF FOOD, Aries Agro, Engineers India, Matrimony.com, SJS Enterprises, Thyrocare, Valiant Communications; dropped Asahi Songwon Colors, Bansal Roofing Products, GPT Healthcare, Haldyn Glass, Novartis India, Thyrocare Technologies, Yash Highvoltage; reweighted Dynamic Cables, Venus Remedies",
+      "nav": 101832.72
     }
   ]
 }
