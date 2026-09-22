@@ -95,6 +95,43 @@
         {"name": "Aeroflex Industries", "symbol": "AEROFLEX.NS", "weight_pct": 13, "composite_score": 48.66, "entry_price": 537.45, "shares": 24, "invested": 12898.80}
       ],
       "cash": 8272.75
+    },
+    {
+      "week_id": "2026-W39",
+      "series": "standard",
+      "decided_date": "2026-09-21",
+      "entry_price_date": "2026-09-18",
+      "capital": 100000,
+      "source": "portfolio/FINAL_PORTFOLIO_RECOMMENDATION.md v12 (Compiled 2026-09-11, 10 days old at decision -- stale vs the 4-day guideline, but no newer revision exists; used as-is per SKILL Step 2a) Section 3 allocation, priced at Fri 2026-09-18 close. Weight column primary %; RNIT AI Solutions excluded (0%). No holdings changes vs the W37 cohort's source doc (v12 is annotation-only vs v11/v8 -- see doc revision log).",
+      "holdings": [
+        {"name": "Dynamic Cables", "symbol": "DYNAMIC.NS", "weight_pct": 12, "entry_price": 142.60, "shares": 84, "invested": 11978.40},
+        {"name": "Venus Remedies", "symbol": "VENUSREM.NS", "weight_pct": 12, "entry_price": 1582.20, "shares": 7, "invested": 11075.40},
+        {"name": "Novartis India", "symbol": "NOVARTIND.NS", "weight_pct": 11, "entry_price": 2046.80, "shares": 5, "invested": 10234.00},
+        {"name": "Asahi Songwon Colors", "symbol": "ASAHISONG.NS", "weight_pct": 10, "entry_price": 372.80, "shares": 26, "invested": 9692.80},
+        {"name": "GPT Healthcare", "symbol": "GPTHEALTH.NS", "weight_pct": 9, "entry_price": 166.21, "shares": 54, "invested": 8975.34},
+        {"name": "Yash Highvoltage", "symbol": "YASHHV.BO", "weight_pct": 9, "entry_price": 1059.20, "shares": 8, "invested": 8473.60},
+        {"name": "Macpower CNC Machines", "symbol": "MACPOWER.NS", "weight_pct": 8, "entry_price": 2104.50, "shares": 3, "invested": 6313.50},
+        {"name": "Haldyn Glass", "symbol": "HALDYNGL.BO", "weight_pct": 6, "entry_price": 141.80, "shares": 42, "invested": 5955.60},
+        {"name": "Thyrocare Technologies", "symbol": "THYROCARE.NS", "weight_pct": 5, "entry_price": 555.80, "shares": 8, "invested": 4446.40},
+        {"name": "Bansal Roofing Products", "symbol": "BRPL.BO", "weight_pct": 4, "entry_price": 156.30, "shares": 25, "invested": 3907.50}
+      ],
+      "cash": 18947.46
+    },
+    {
+      "week_id": "2026-W39",
+      "series": "concentrated",
+      "decided_date": "2026-09-21",
+      "entry_price_date": "2026-09-18",
+      "capital": 100000,
+      "source": "composite-ranked top-5 from projects/paper-trading/dashboard_data.json concentrated_next (refresh.py run 2026-09-21), priced at Fri 2026-09-18 close. Composite = 0.75*master_score + 0.25*technical, technical = 0.6*weekly + 0.4*monthly (30W-EMA weekly gate + 10M-EMA monthly regime). Rank weights 25/20/20/17/13; unused ~5% + rounding stays cash (not redistributed). Sub-scores (master / conviction / gap / fundamental-tier / tech weekly / tech monthly): Venus Remedies 76.6 / 91.4 / 70.0 / 90 / 89.7 / 90.3 -> composite 79.94; Dynamic Cables 67.5 / 60.2 / 64.6 / 90 / 100.0 / 100.0 -> 75.62; Aeroflex Industries 52.4 / 84.6 / 0.0 / 90 / 68.2 / 82.1 -> 57.74; Macpower CNC Machines 65.1 / 80.8 / 30.5 / 90 / 4.8 / 66.8 -> 56.22; Bansal Roofing Products 46.5 / 53.2 / 5.9 / 88 / 76.7 / 96.9 -> 56.07. Conviction/gap/fundamental shown for context only -- already feed master_score upstream, not separately weighted. All 5 above their 30W EMA (weekly gate passed).",
+      "holdings": [
+        {"name": "Venus Remedies", "symbol": "VENUSREM.NS", "weight_pct": 25, "composite_score": 79.94, "entry_price": 1582.20, "shares": 15, "invested": 23733.00},
+        {"name": "Dynamic Cables", "symbol": "DYNAMIC.NS", "weight_pct": 20, "composite_score": 75.62, "entry_price": 142.60, "shares": 140, "invested": 19964.00},
+        {"name": "Aeroflex Industries", "symbol": "AEROFLEX.NS", "weight_pct": 20, "composite_score": 57.74, "entry_price": 510.90, "shares": 39, "invested": 19925.10},
+        {"name": "Macpower CNC Machines", "symbol": "MACPOWER.NS", "weight_pct": 17, "composite_score": 56.22, "entry_price": 2104.50, "shares": 8, "invested": 16836.00},
+        {"name": "Bansal Roofing Products", "symbol": "BRPL.BO", "weight_pct": 13, "composite_score": 56.07, "entry_price": 156.30, "shares": 83, "invested": 12972.90}
+      ],
+      "cash": 6569.00
     }
   ]
 }

@@ -39,6 +39,54 @@
         {"name": "Dynamic Cables / Surya Roshni / HBL Engineering / Transrail Lighting / CSB Bank", "reason": "Below a falling 30W EMA and negative 3-month return -- excluded by the trend filter despite good businesses / real order books. Revisit if they reclaim a rising EMA before a review date."},
         {"name": "SML Isuzu / Marine Electricals / Vivid Electromech", "reason": "No usable Yahoo price history -> cannot be priced or tracked systematically. Ineligible until a data source exists."}
       ]
+    },
+    {
+      "week_id": "2026-W39",
+      "series": "swing",
+      "decided_date": "2026-09-21",
+      "entry_price_date": "2026-09-18",
+      "horizon_end_date": "2027-03-21",
+      "capital": 100000,
+      "benchmark": "Nifty Smallcap 250 (primary tracked; Nifty Microcap 250 TRI / BSE Smallcap TRI as originally specified in SWING_6M_PORTFOLIO.md but not reliably fetchable)",
+      "rules": {
+        "composite": "0.35*earnings_revision + 0.25*price_momentum_6m + 0.25*dated_catalyst_within_6m + 0.15*quality_floor",
+        "hard_stop_pct": -16,
+        "thesis_break_exit": "guidance cut, quarterly miss vs the tracked catalyst, or close below the rising 30W EMA for two consecutive weekly closes -> exit next session",
+        "trim_rule": "on catalyst realisation, if no new 20-day high within ~3 weeks of the event, cut the position by half",
+        "review_cadence_monthly": [
+          "2026-10-19",
+          "2026-11-16",
+          "2026-12-14",
+          "2027-01-11",
+          "2027-02-08",
+          "2027-03-08"
+        ],
+        "cash_band_pct": [
+          5,
+          10
+        ],
+        "single_name_cap_pct": 16,
+        "sme_or_thin_liquidity_cap_pct": 10,
+        "theme_cap_pct": 25
+      },
+      "source": "Hand-curated from swing_screen.py's momentum+catalyst scores, 2026-09-21. 8 names from a screen of ~25 candidates (5 dropped on missing Yahoo price history: Vivid Electromech, SML Isuzu, Unimech Aerospace, Marine Electricals, Bondada Engineering). Neetu Yoshi (SCORE 79.8) excluded as a vertical chase: +48.6% above its 30W EMA, over the ~40-45% threshold, despite a real Sep-2026 capacity-doubling catalyst -- revisit on a pullback. Weights tiered by SCORE, capped at 16% (single-name) and 10% (SME/thin-liquidity, applied to L. T. Elevators and Yash Highvoltage per the 2026-09-16 is_sme_emerge tagging). Full reasoning: SWING_6M_PORTFOLIO.md.",
+      "holdings": [
+        {"name": "Macpower CNC Machines", "symbol": "MACPOWER.NS", "bucket": "earnings-inflection", "weight_pct": 15, "entry_price": 2104.50, "shares": 7, "invested": 14731.50, "hard_stop": 1767.78, "swing_score": 90.50, "ext_vs_30w_ema_pct": 35.70, "catalyst": "Q2 FY27 results ~Oct-Nov 2026; guided FY27 capex-cycle order inflow continuing", "thesis": "4 straight quarters of accelerating growth (Q1 FY27 revenue +56%), CNC-machine capex-cycle beneficiary. Excluded from the inaugural cohort as a vertical chase at +43% above its 30W EMA; extension has since eased to +35.7% (3m return also cooled from +105% to +65.6%) while the earnings trajectory stayed intact, so the original objection no longer holds. Already a holding in the standard and concentrated frozen books too -- accepted here given the strength of the setup, not treated as a diversification breach."},
+        {"name": "Electronics Mart India", "symbol": "EMIL.NS", "bucket": "earnings-inflection", "weight_pct": 15, "entry_price": 196.28, "shares": 76, "invested": 14917.28, "hard_stop": 164.88, "swing_score": 90.00, "ext_vs_30w_ema_pct": 31.50, "catalyst": "Q2 FY27 results ~early Nov 2026; Dec-quarter (Q3 FY27) is the seasonal peak and first quarter carrying the 4-5% price hikes", "thesis": "Q1 FY27 PAT +458% after two years of margin compression; consumer-durables retailer with operating leverage turning, near 52-week high, rising 30W and 10W EMAs. Same name/thesis as the inaugural cohort's largest holding -- momentum and catalyst both still intact one cycle later."},
+        {"name": "L. T. Elevators", "symbol": "LTELEVATOR.BO", "bucket": "dated-catalyst", "weight_pct": 10, "entry_price": 341.00, "shares": 29, "invested": 9889.00, "hard_stop": 286.44, "swing_score": 86.40, "ext_vs_30w_ema_pct": 31.10, "catalyst": "DYPC acquisition close ~30 Sep 2026; H1 FY27 result ~Nov 2026 showing the growth run-rate with operating cash flow tracking profit", "thesis": "SME-listed elevator + automated-parking maker roughly doubling revenue on a ~10%+ sector tailwind; the DYPC close is a hard near-term date within days of this cohort's decision. SME/Emerge-listed (per 2026-09-16 tagging) -- capped at the 10% SME/thin-liquidity ceiling rather than its raw score-implied weight."},
+        {"name": "Vikram Thermo", "symbol": "VIKRAMTH.BO", "bucket": "earnings-inflection", "weight_pct": 13, "entry_price": 337.60, "shares": 38, "invested": 12828.80, "hard_stop": 283.58, "swing_score": 79.80, "ext_vs_30w_ema_pct": 36.90, "catalyst": "Q2 FY27 results ~Oct-Nov 2026 (margin trajectory)", "thesis": "Agro/pharma intermediates maker; Q1 FY27 showed real margin expansion on top of steady revenue growth (3m +35.3%). Extension (+36.9%) is below the ~40-45% vertical-chase threshold."},
+        {"name": "Aimtron Electronics", "symbol": "AIMTRON.NS", "bucket": "earnings-inflection", "weight_pct": 12, "entry_price": 1662.25, "shares": 7, "invested": 11635.75, "hard_stop": 1396.29, "swing_score": 79.30, "ext_vs_30w_ema_pct": 27.00, "catalyst": "Q2 FY27 results ~Oct-Nov 2026; continued EMS order-book scale-up", "thesis": "New this cycle. EMS (China+1) play with a verified FY26 revenue ~2x beat and PAT +77%; moderate extension (+27.0%) gives more room than most names on this screen. No prior-cohort overlap."},
+        {"name": "Sambhv Steel Tubes", "symbol": "SAMBHV.NS", "bucket": "earnings-inflection", "weight_pct": 12, "entry_price": 147.57, "shares": 81, "invested": 11953.17, "hard_stop": 123.96, "swing_score": 77.10, "ext_vs_30w_ema_pct": 29.50, "catalyst": "Q2 FY27 results ~Oct-Nov 2026; continuing quality-growth run-rate", "thesis": "New this cycle. Two consecutive quarters of accelerating, quality (not one-off) growth; extension +29.5% is moderate, 10W EMA slope still rising (+6.1). No prior-cohort overlap."},
+        {"name": "Yash Highvoltage", "symbol": "YASHHV.BO", "bucket": "dated-catalyst", "weight_pct": 10, "entry_price": 1059.20, "shares": 9, "invested": 9532.80, "hard_stop": 889.73, "swing_score": 71.70, "ext_vs_30w_ema_pct": 36.10, "catalyst": "Vadodara greenfield commissioning + trial production H1 FY27; first commercial RIP output from October 2026", "thesis": "Same dated catalyst carried from the inaugural cohort -- the October RIP commissioning is now imminent, within weeks of this cohort's decision date. SME-listed (BSE) -- capped at the 10% SME/thin-liquidity ceiling. Also a holding in the standard/concentrated books; accepted for the same reason as Macpower."},
+        {"name": "Apcotex Industries", "symbol": "APCOTEXIND.NS", "bucket": "earnings-inflection", "weight_pct": 8, "entry_price": 604.85, "shares": 13, "invested": 7863.05, "hard_stop": 508.07, "swing_score": 52.90, "ext_vs_30w_ema_pct": 15.50, "catalyst": "Anti-dumping duty decision + Q2 FY27 results ~Oct 2026", "thesis": "Record Q1 FY27 (revenue +40%, PAT +311%) specialty-rubber/latex maker; lowest score here but by far the least extended (+15.5% vs 30W EMA) of the shortlist, giving the most room to a dated catalyst (the anti-dumping ruling) that could re-rate it further. Sized smallest given the weaker relative momentum (3m +12.2% vs peers' 30-65%)."}
+      ],
+      "cash": 6648.65,
+      "excluded_notable": [
+      {"name": "Neetu Yoshi", "reason": "Vertical chase: +48.6% above its 30W EMA (over the ~40-45% threshold) despite a real Sep-2026 Haridwar capacity-doubling catalyst. Revisit on a pullback toward the EMA."},
+      {"name": "Senores Pharmaceuticals / Ujjivan SFB / Thyrocare / Stylam Industries / Venus Remedies", "reason": "Lower SCORE (27.9-47.4) than the 8 selected names on this screen -- weaker momentum or catalyst timing relative to the shortlist; not excluded on any hard rule."},
+      {"name": "HBL Engineering / CSB Bank / Dynamic Cables / Surya Roshni / Transrail Lighting", "reason": "SCORE 0-22.4 -- flat or negative 3-month momentum / below a flat-to-falling 30W EMA, failing the trend filter this cycle despite real order-book or earnings stories."},
+      {"name": "Vivid Electromech / SML Isuzu / Unimech Aerospace / Marine Electricals / Bondada Engineering", "reason": "No usable Yahoo price history (404) -- cannot be priced or tracked systematically. Ineligible until a data source exists."}
+      ]
     }
   ]
 }
