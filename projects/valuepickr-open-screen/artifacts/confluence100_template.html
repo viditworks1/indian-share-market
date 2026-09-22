@@ -627,11 +627,40 @@ renderTop10();
 renderTactical6m();
 apply();
 
-/* Print / Save as PDF: force every <details> open so the methodology and
-   near-miss sections aren't silently missing from the printout, then restore
-   whatever the reader had open/closed beforehand. */
+/* Print / Save as PDF. Artifacts render inside a sandboxed iframe that often blocks
+   window.print() outright (it's gated the same as alert()/confirm()), so the primary
+   path opens a full, unsandboxed copy of this page in a new tab and prints THAT --
+   a fresh top-level tab isn't constrained by the artifact iframe's sandbox. Falls
+   back to printing this window directly if the popup is blocked, and to a plain
+   instruction if even that throws. */
+function openPrintableCopy(){
+  const themeAttr = document.documentElement.getAttribute('data-theme');
+  const htmlOpen = '<html' + (themeAttr ? ' data-theme="' + themeAttr + '"' : '') + '>';
+  const full = '<!doctype html>' + htmlOpen + document.documentElement.innerHTML + '</html>';
+  let win = null;
+  try{ win = window.open('', '_blank'); }catch(e){}
+  if(win){
+    try{
+      win.document.open();
+      win.document.write(full);
+      win.document.close();
+      let printed = false;
+      const doPrint = ()=>{ if(printed) return; printed = true; try{ win.focus(); win.print(); }catch(e){} };
+      win.addEventListener('load', doPrint);
+      setTimeout(doPrint, 900);
+      return;
+    }catch(e){ /* fall through to same-window fallback */ }
+  }
+  try{ window.print(); }
+  catch(e){ alert("Could not open the print dialog automatically. Use your browser's own Print / Save as PDF command (Ctrl+P or Cmd+P) instead."); }
+}
+
+/* force every <details> open before printing so the methodology and near-miss
+   sections aren't silently missing from the printout, then restore whatever the
+   reader had open/closed beforehand -- applies to this window's own print (the
+   popped-out copy re-runs this same script and handles itself independently). */
 let _detailsStateBeforePrint = null;
-document.getElementById('printBtn').addEventListener('click', ()=> window.print());
+document.getElementById('printBtn').addEventListener('click', openPrintableCopy);
 window.addEventListener('beforeprint', ()=>{
   _detailsStateBeforePrint = Array.from(document.querySelectorAll('details')).map(d=>d.open);
   document.querySelectorAll('details').forEach(d=> d.open = true);

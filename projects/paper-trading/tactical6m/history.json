@@ -1,0 +1,147 @@
+{
+  "_readme": "Append-only daily NAV snapshots for the 6-month tactical tracker. One per date, latest write wins. Script-owned (track.py).",
+  "snapshots": [
+    {
+      "date": "2026-09-22",
+      "version": 1,
+      "rebalanced_today": false,
+      "nav": 100000.0,
+      "return_pct": 0.0,
+      "day_change_pct": null,
+      "invested_value": 86237.93,
+      "cash": 13762.07,
+      "holdings": [
+        {
+          "name": "Dynamic Cables",
+          "symbol": "DYNAMIC.NS",
+          "weight_pct": 9.29,
+          "entry_price": 139.8,
+          "shares": 66,
+          "invested": 9226.8,
+          "price": 139.8,
+          "as_of": "2026-09-21",
+          "stale": true,
+          "value": 9226.8,
+          "return_pct": 0.0
+        },
+        {
+          "name": "Thyrocare",
+          "symbol": "THYROCARE.NS",
+          "weight_pct": 8.84,
+          "entry_price": 577.5,
+          "shares": 15,
+          "invested": 8662.5,
+          "price": 577.5,
+          "as_of": "2026-09-22",
+          "stale": false,
+          "value": 8662.5,
+          "return_pct": 0.0
+        },
+        {
+          "name": "Matrimony.com",
+          "symbol": "MATRIMONY.NS",
+          "weight_pct": 8.84,
+          "entry_price": 550.75,
+          "shares": 16,
+          "invested": 8812.0,
+          "price": 550.75,
+          "as_of": "2026-09-22",
+          "stale": false,
+          "value": 8812.0,
+          "return_pct": 0.0
+        },
+        {
+          "name": "Marksans Pharma",
+          "symbol": "MARKSANS.NS",
+          "weight_pct": 8.84,
+          "entry_price": 332.95,
+          "shares": 26,
+          "invested": 8656.7,
+          "price": 332.95,
+          "as_of": "2026-09-22",
+          "stale": false,
+          "value": 8656.7,
+          "return_pct": 0.0
+        },
+        {
+          "name": "Univastu India",
+          "symbol": "UNIVASTU.NS",
+          "weight_pct": 8.84,
+          "entry_price": 148.17,
+          "shares": 59,
+          "invested": 8742.03,
+          "price": 148.17,
+          "as_of": "2026-09-22",
+          "stale": false,
+          "value": 8742.03,
+          "return_pct": -0.0
+        },
+        {
+          "name": "J.G. Chemicals",
+          "symbol": "JGCHEM.NS",
+          "weight_pct": 8.84,
+          "entry_price": 610.35,
+          "shares": 14,
+          "invested": 8544.9,
+          "price": 610.35,
+          "as_of": "2026-09-22",
+          "stale": false,
+          "value": 8544.9,
+          "return_pct": -0.0
+        },
+        {
+          "name": "Engineers India",
+          "symbol": "ENGINERSIN.NS",
+          "weight_pct": 8.62,
+          "entry_price": 302.55,
+          "shares": 28,
+          "invested": 8471.4,
+          "price": 302.55,
+          "as_of": "2026-09-22",
+          "stale": false,
+          "value": 8471.4,
+          "return_pct": -0.0
+        },
+        {
+          "name": "Valiant Communications",
+          "symbol": "VALIANT.BO",
+          "weight_pct": 8.62,
+          "entry_price": 1428.75,
+          "shares": 6,
+          "invested": 8572.5,
+          "price": 1428.75,
+          "as_of": "2026-09-22",
+          "stale": false,
+          "value": 8572.5,
+          "return_pct": 0.0
+        },
+        {
+          "name": "Aries Agro",
+          "symbol": "ARIES.NS",
+          "weight_pct": 8.62,
+          "entry_price": 469.95,
+          "shares": 18,
+          "invested": 8459.1,
+          "price": 469.95,
+          "as_of": "2026-09-22",
+          "stale": false,
+          "value": 8459.1,
+          "return_pct": 0.0
+        },
+        {
+          "name": "Sona BLW Precision Forgings",
+          "symbol": "SONACOMS.NS",
+          "weight_pct": 8.62,
+          "entry_price": 809.0,
+          "shares": 10,
+          "invested": 8090.0,
+          "price": 809.0,
+          "as_of": "2026-09-22",
+          "stale": false,
+          "value": 8090.0,
+          "return_pct": 0.0
+        }
+      ]
+    }
+  ]
+}

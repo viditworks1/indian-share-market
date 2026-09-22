@@ -22,12 +22,18 @@ REPO_ROOT = os.path.dirname(ROOT)  # one level above projects/ -- where portfoli
 PT   = os.path.join(ROOT, "paper-trading")
 SWING_DIR = os.path.join(PT, "swing-6m")
 LIVE_DIR = os.path.join(PT, "live-recommendation")
+TACTICAL6M_DIR = os.path.join(PT, "tactical6m")
 # 2026-09-22: the standard cohort's and the live-recommendation tracker's weight source
 # moved from portfolio/FINAL_PORTFOLIO_RECOMMENDATION.md (written by the now-legacy,
 # pending-retirement portfolio-rs1l-revision job) to Confluence-100's own allocation,
 # built weekly by vpscreen-rerank Step 7.2 directly from top10_investable. See
 # parse_recommendation_weights() below.
 CONFLUENCE100_ALLOCATION = os.path.join(ROOT, "valuepickr-open-screen", "data", "confluence100_allocation.json")
+# 2026-09-23: Confluence-100's SECOND list -- a purely technical/momentum 6-month
+# tactical ranking over the same Top-100 pool (fundamentals treated as equal, no
+# master_score term at all). Own continuously-rebalanced book, same pattern as the
+# live-recommendation tracker above. See parse_tactical6m_weights() below.
+CONFLUENCE100_TACTICAL6M = os.path.join(ROOT, "valuepickr-open-screen", "data", "confluence100_tactical6m.json")
 
 def p(*a):  # projects/-relative path
     return os.path.join(ROOT, *a)
@@ -496,6 +502,30 @@ def parse_recommendation_weights(alloc_path=None):
     return weights, revision
 
 
+def parse_tactical6m_weights(path=None):
+    """Extract {name: weight_pct} from Confluence-100's 6-month tactical list
+    (data/confluence100_tactical6m.json) -- a purely technical/momentum ranking over
+    the same Top-100 pool, no master_score term, rebalanced every Confluence-100 run.
+    Same shape and symbol-merging behavior as parse_recommendation_weights() above.
+    Returns ({}, revision) when the pool was too small to build this cycle -- the
+    caller (tactical6m/track.py) treats an empty weight set as all-cash, not an error."""
+    path = path or CONFLUENCE100_TACTICAL6M
+    data = load(path)
+    weights = {}
+    for h in data.get("holdings", []):
+        name, wt = h["name"], h["weight_pct"]
+        if wt <= 0:
+            continue
+        weights[name] = wt
+        if h.get("symbol") and name not in CFG["names"]:
+            CFG["names"][name] = {"symbol": h["symbol"], "slug": h.get("slug")}
+    if data.get("insufficient"):
+        revision = f"insufficient pool ({data.get('pool_size', '?')} names) as of {data.get('as_of_date', '?')}"
+    else:
+        revision = f"Confluence-100 tactical6m ({data.get('as_of_date', '?')}, cash {data.get('cash_pct', '?')}%)"
+    return weights, revision
+
+
 def run_live_recommendation_tracker():
     """Invoke paper-trading/live-recommendation/track.py (its own MTM + auto-rebalance
     engine) so the dashboard folds in fresh data, then load its latest snapshot into a
@@ -521,6 +551,48 @@ def run_live_recommendation_tracker():
         return None
     last = snaps[-1]
     pf_p = os.path.join(LIVE_DIR, "portfolio.json")
+    meta = load(pf_p) if os.path.exists(pf_p) else {}
+    vh = [{"date": s["date"], "indexed": round(s["nav"] / CAP * 100, 3),
+           "value": s["nav"], "return_pct": s["return_pct"]} for s in snaps]
+    inception = meta.get("inception_date")
+    if inception and (not vh or vh[0]["date"] != inception):
+        vh.insert(0, {"date": inception, "indexed": 100.0, "value": CAP, "return_pct": 0.0})
+    return {
+        "inception_date": inception, "version": meta.get("version"),
+        "source_revision": meta.get("source_revision"),
+        "as_of": last["date"], "nav": last["nav"], "return_pct": last["return_pct"],
+        "day_change_pct": last.get("day_change_pct"), "invested_value": last.get("invested_value"),
+        "cash": last.get("cash"), "holdings": last.get("holdings", []),
+        "rebalance_log": meta.get("rebalance_log", []), "value_history": vh,
+    }
+
+
+def run_tactical6m_tracker():
+    """Invoke paper-trading/tactical6m/track.py -- same pattern as
+    run_live_recommendation_tracker() above, but for Confluence-100's purely
+    technical/momentum 6-month tactical list. Returns None if that book isn't set
+    up yet."""
+    track = os.path.join(TACTICAL6M_DIR, "track.py")
+    hist_p = os.path.join(TACTICAL6M_DIR, "history.json")
+    if os.path.exists(track):
+        try:
+            r = subprocess.run([sys.executable, track], capture_output=True, text=True, timeout=180)
+            if r.stdout:
+                print(r.stdout, end="" if r.stdout.endswith("\n") else "\n")
+            if r.returncode != 0:
+                print(f"  !! tactical6m track.py exited {r.returncode}: {r.stderr.strip()[:300]}", file=sys.stderr)
+        except Exception as e:  # noqa
+            print(f"  !! could not run tactical6m track.py: {e}", file=sys.stderr)
+    if not os.path.exists(hist_p):
+        return None
+    try:
+        snaps = load(hist_p).get("snapshots", [])
+    except Exception:
+        return None
+    if not snaps:
+        return None
+    last = snaps[-1]
+    pf_p = os.path.join(TACTICAL6M_DIR, "portfolio.json")
     meta = load(pf_p) if os.path.exists(pf_p) else {}
     vh = [{"date": s["date"], "indexed": round(s["nav"] / CAP * 100, 3),
            "value": s["nav"], "return_pct": s["return_pct"]} for s in snaps]
@@ -593,6 +665,7 @@ def main():
 
     swing_cohorts = run_swing_tracker()
     live_recommendation = run_live_recommendation_tracker()
+    tactical6m = run_tactical6m_tracker()
 
     universe, concentrated_next = score_universe()
 
@@ -645,6 +718,7 @@ def main():
         "history_points": len(set(s["date"] for s in hist["snapshots"])),
         "swing_cohorts": swing_cohorts,
         "live_recommendation": live_recommendation,
+        "tactical6m": tactical6m,
     }
     with open(os.path.join(PT, "dashboard_data.json"), "w") as f:
         json.dump(data, f, indent=2)
@@ -798,6 +872,11 @@ def print_summary(data):
         d = "" if lr.get("day_change_pct") is None else f"{lr['day_change_pct']:+.2f}%"
         print(f"\n  [live recommendation] v{lr.get('version')}  Rs {lr['nav']:>12,.2f}  "
               f"1d {d}  total {lr['return_pct']:+.2f}%  ({lr.get('source_revision','?')})")
+    t6 = data.get("tactical6m")
+    if t6:
+        d = "" if t6.get("day_change_pct") is None else f"{t6['day_change_pct']:+.2f}%"
+        print(f"  [tactical6m]         v{t6.get('version')}  Rs {t6['nav']:>12,.2f}  "
+              f"1d {d}  total {t6['return_pct']:+.2f}%  ({t6.get('source_revision','?')})")
     print()
 
 
@@ -980,8 +1059,13 @@ svg text{font-family:"IBM Plex Mono",ui-monospace,monospace}
   </section>
 
   <section id="s-live">
-    <div class="sec-head"><h2>Live recommendation tracker</h2><span class="note">continuously rebalanced to the current doc &middot; not a frozen cohort</span></div>
+    <div class="sec-head"><h2>Live recommendation tracker</h2><span class="note">continuously rebalanced to the current Confluence-100 allocation &middot; not a frozen cohort</span></div>
     <div class="panel" id="live-panel"></div>
+  </section>
+
+  <section id="s-tactical6m">
+    <div class="sec-head"><h2>6-month tactical (technical-only)</h2><span class="note">continuously rebalanced to Confluence-100's pure technical/momentum list &middot; fundamentals treated as equal, no 10x/100x thesis</span></div>
+    <div class="panel" id="tactical6m-panel"></div>
   </section>
 
   <section id="s-swing">
@@ -1049,8 +1133,35 @@ tb.onclick = ()=>{
 };
 try{ const t = localStorage.getItem('ftl-theme'); if(t) document.documentElement.setAttribute('data-theme', t); }catch(e){}
 
-/* ---- print / save as PDF ---- */
-document.getElementById('printBtn').addEventListener('click', ()=> window.print());
+/* ---- print / save as PDF ----
+   Artifacts render inside a sandboxed iframe that often blocks window.print()
+   outright (it's gated the same as alert()/confirm()), so the primary path opens
+   a full, unsandboxed copy of this page in a new tab and prints THAT -- a fresh
+   top-level tab isn't constrained by the artifact iframe's sandbox. Falls back to
+   printing this window directly if the popup is blocked, and to a plain
+   instruction if even that throws. */
+function openPrintableCopy(){
+  const themeAttr = document.documentElement.getAttribute('data-theme');
+  const htmlOpen = '<html' + (themeAttr ? ' data-theme="' + themeAttr + '"' : '') + '>';
+  const full = '<!doctype html>' + htmlOpen + document.documentElement.innerHTML + '</html>';
+  let win = null;
+  try{ win = window.open('', '_blank'); }catch(e){}
+  if(win){
+    try{
+      win.document.open();
+      win.document.write(full);
+      win.document.close();
+      let printed = false;
+      const doPrint = ()=>{ if(printed) return; printed = true; try{ win.focus(); win.print(); }catch(e){} };
+      win.addEventListener('load', doPrint);
+      setTimeout(doPrint, 900);
+      return;
+    }catch(e){ /* fall through to same-window fallback */ }
+  }
+  try{ window.print(); }
+  catch(e){ alert("Could not open the print dialog automatically. Use your browser's own Print / Save as PDF command (Ctrl+P or Cmd+P) instead."); }
+}
+document.getElementById('printBtn').addEventListener('click', openPrintableCopy);
 
 /* ---- cards ---- */
 function cohortLabel(c){ return c.week_id + ' · ' + c.series; }
@@ -1135,7 +1246,66 @@ document.getElementById('cards-note').textContent = D.cohorts.length + ' running
       <tbody>${hrows}</tbody>
     </table></div>
     ${rebal?`<div class="chips" style="margin-top:12px">${rebal}</div>`:''}
-    <p class="sub" style="margin-top:10px">Auto-rebalances at live prices whenever the recommendation doc's Section 3 changes a holding or a weight by more than 0.5pp. Entry price shown is this version's rebalance price, not the original inception price. * = price carried forward.</p>`;
+    <p class="sub" style="margin-top:10px">Auto-rebalances at live prices whenever Confluence-100's Rs 1L allocation changes a holding or a weight by more than 0.5pp. Entry price shown is this version's rebalance price, not the original inception price. * = price carried forward.</p>`;
+})();
+
+/* ---- 6-month tactical tracker (single, continuously rebalanced, technical-only) ---- */
+(function(){
+  const t6 = D.tactical6m;
+  const sec = document.getElementById('s-tactical6m');
+  if(!t6){ if(sec) sec.hidden = true; return; }
+  const retCls = t6.return_pct>=0?'pos':'neg';
+  const dcTxt = t6.day_change_pct==null ? '—' : pct(t6.day_change_pct);
+  const vh = t6.value_history||[];
+  let spark = '';
+  if(vh.length>=2){
+    const W=300,H=56,pd=4, vals=vh.map(p=>p.indexed);
+    const lo=Math.min(100,...vals), hi=Math.max(100,...vals), rng=(hi-lo)||1;
+    const X=i=> pd + i/(vh.length-1)*(W-2*pd);
+    const Y=v=> pd + (1-(v-lo)/rng)*(H-2*pd);
+    const d=vals.map((v,i)=>(i?'L':'M')+X(i).toFixed(1)+' '+Y(v).toFixed(1)).join(' ');
+    spark=`<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" style="margin-top:10px" aria-hidden="true">`
+      +`<line x1="${pd}" y1="${Y(100).toFixed(1)}" x2="${W-pd}" y2="${Y(100).toFixed(1)}" stroke="var(--edge-strong)" stroke-dasharray="2 3"/>`
+      +`<path d="${d}" fill="none" stroke="var(--s3)" stroke-width="2" stroke-linejoin="round"/></svg>`;
+  }
+  if(!t6.holdings.length){
+    document.getElementById('tactical6m-panel').innerHTML = `
+    <div class="swing-head">
+      <div class="bignum mono">Rs ${fmt(t6.nav)}</div>
+      <div class="${retCls}" style="font-size:18px;font-weight:600">${pct(t6.return_pct)}</div>
+      <div class="sub">1-day ${dcTxt} &nbsp;·&nbsp; v${t6.version} since ${t6.inception_date} &nbsp;·&nbsp; source ${t6.source_revision||'—'}</div>
+    </div>
+    ${spark}
+    <p class="sub" style="margin-top:10px">All cash -- fewer than 5 names currently clear Confluence-100's above-EMA tactical gate.</p>`;
+    return;
+  }
+  const hrows = [...t6.holdings].sort((a,b)=>b.return_pct-a.return_pct).map(h=>`<tr>
+      <td>${h.name}${h.stale?' <span class="sub">*</span>':''}</td>
+      <td class="num">${h.weight_pct}</td>
+      <td class="num">${fmt(h.entry_price)}</td>
+      <td class="num">${fmt(h.price)}</td>
+      <td class="num ${h.return_pct>=0?'pos':'neg'}">${pct(h.return_pct)}</td>
+      <td class="num">${fmt(h.value,0)}</td>
+    </tr>`).join('');
+  const rebal = (t6.rebalance_log||[]).slice().reverse().slice(0,8).map(e=>
+    `<div class="chip"><span class="nm">${e.date} &middot; v${e.version}</span><span class="sub">${e.reason}</span></div>`).join('');
+  document.getElementById('tactical6m-panel').innerHTML = `
+    <div class="swing-head">
+      <div class="bignum mono">Rs ${fmt(t6.nav)}</div>
+      <div class="${retCls}" style="font-size:18px;font-weight:600">${pct(t6.return_pct)}</div>
+      <div class="sub">1-day ${dcTxt} &nbsp;·&nbsp; v${t6.version} since ${t6.inception_date} &nbsp;·&nbsp; source ${t6.source_revision||'—'}</div>
+    </div>
+    ${spark}
+    <div class="kv">
+      <span><span class="k">invested / cash</span><b>${fmt(t6.invested_value,0)} / ${fmt(t6.cash,0)}</b></span>
+      <span><span class="k">rebalances</span><b>${(t6.rebalance_log||[]).length}</b></span>
+    </div>
+    <div class="scroll" style="margin-top:14px"><table>
+      <thead><tr><th>Holding</th><th>Wt%</th><th>Entry (v${t6.version})</th><th>Price</th><th>Return</th><th>Value</th></tr></thead>
+      <tbody>${hrows}</tbody>
+    </table></div>
+    ${rebal?`<div class="chips" style="margin-top:12px">${rebal}</div>`:''}
+    <p class="sub" style="margin-top:10px">Auto-rebalances at live prices whenever Confluence-100's 6-month tactical list changes a holding or a weight by more than 0.5pp. Purely technical/momentum-ranked -- fundamentals treated as equal, no 10x/100x thesis. Entry price shown is this version's rebalance price, not the original inception price. * = price carried forward.</p>`;
 })();
 
 /* ---- 6-month swing cohorts (weekly, frozen) ---- */

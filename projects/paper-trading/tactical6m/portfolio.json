@@ -1,0 +1,111 @@
+{
+  "_readme": "6-MONTH TACTICAL tracker. SEPARATE from paper-trading/cohorts.json (frozen weekly cohorts), swing-6m/cohorts.json (hand-curated, fundamentally-informed swing cohorts), and live-recommendation/ (the fundamentals-led Rs 1L allocation). This single book always mirrors the CURRENT allocation in valuepickr-open-screen/data/confluence100_tactical6m.json -- Confluence-100's purely technical/momentum ranking (no master_score term), auto-rebalancing at live prices whenever that list's holdings or weights change by more than a rounding amount. Script-owned -- do not hand-edit holdings/cash; it picks up the next weekly Confluence-100 rebuild automatically. An empty holdings list (insufficient pool) means all-cash, not an error.",
+  "inception_date": "2026-09-22",
+  "inception_capital": 100000,
+  "version": 1,
+  "effective_date": "2026-09-22",
+  "source_revision": "Confluence-100 tactical6m (22 Sep 2026, cash 12.03%)",
+  "holdings": [
+    {
+      "name": "Dynamic Cables",
+      "symbol": "DYNAMIC.NS",
+      "weight_pct": 9.29,
+      "entry_price": 139.8,
+      "shares": 66,
+      "invested": 9226.8
+    },
+    {
+      "name": "Thyrocare",
+      "symbol": "THYROCARE.NS",
+      "weight_pct": 8.84,
+      "entry_price": 577.5,
+      "shares": 15,
+      "invested": 8662.5
+    },
+    {
+      "name": "Matrimony.com",
+      "symbol": "MATRIMONY.NS",
+      "weight_pct": 8.84,
+      "entry_price": 550.75,
+      "shares": 16,
+      "invested": 8812.0
+    },
+    {
+      "name": "Marksans Pharma",
+      "symbol": "MARKSANS.NS",
+      "weight_pct": 8.84,
+      "entry_price": 332.95,
+      "shares": 26,
+      "invested": 8656.7
+    },
+    {
+      "name": "Univastu India",
+      "symbol": "UNIVASTU.NS",
+      "weight_pct": 8.84,
+      "entry_price": 148.17,
+      "shares": 59,
+      "invested": 8742.03
+    },
+    {
+      "name": "J.G. Chemicals",
+      "symbol": "JGCHEM.NS",
+      "weight_pct": 8.84,
+      "entry_price": 610.35,
+      "shares": 14,
+      "invested": 8544.9
+    },
+    {
+      "name": "Engineers India",
+      "symbol": "ENGINERSIN.NS",
+      "weight_pct": 8.62,
+      "entry_price": 302.55,
+      "shares": 28,
+      "invested": 8471.4
+    },
+    {
+      "name": "Valiant Communications",
+      "symbol": "VALIANT.BO",
+      "weight_pct": 8.62,
+      "entry_price": 1428.75,
+      "shares": 6,
+      "invested": 8572.5
+    },
+    {
+      "name": "Aries Agro",
+      "symbol": "ARIES.NS",
+      "weight_pct": 8.62,
+      "entry_price": 469.95,
+      "shares": 18,
+      "invested": 8459.1
+    },
+    {
+      "name": "Sona BLW Precision Forgings",
+      "symbol": "SONACOMS.NS",
+      "weight_pct": 8.62,
+      "entry_price": 809.0,
+      "shares": 10,
+      "invested": 8090.0
+    }
+  ],
+  "cash": 13762.07,
+  "rebalance_log": [
+    {
+      "date": "2026-09-22",
+      "version": 1,
+      "reason": "inception",
+      "nav": 100000,
+      "target_weights": {
+        "Dynamic Cables": 9.29,
+        "Thyrocare": 8.84,
+        "Matrimony.com": 8.84,
+        "Marksans Pharma": 8.84,
+        "Univastu India": 8.84,
+        "J.G. Chemicals": 8.84,
+        "Engineers India": 8.62,
+        "Valiant Communications": 8.62,
+        "Aries Agro": 8.62,
+        "Sona BLW Precision Forgings": 8.62
+      }
+    }
+  ]
+}
