@@ -255,3 +255,14 @@ as a check that the process is working: "I have almost no fomo when I reject som
 consciously." A conscious, ranked rejection that leaves no FOMO is the signal the filter is
 calibrated; a rejection that keeps nagging is worth revisiting (see the asymmetric-regret entry
 in `investor-psychology.md`).
+
+## Watch for "peak margin" quarters — a great print can still mark the top if the market reads it as unsustainable (Vivek_6954, rank #5, elevated-tier)
+
+*Vivek Gautam Portfolio*, post #1245 (2026-09-02, love=26) names it as one of two recurring
+mistakes in his 14-year record: "delay in understanding the peak margin cases cos." Post #1254
+(2026-09-03) gives the concrete mechanism with Kernex as the example: "Watch peak margin cases
+closely. Eg kernex came with great nos this qtr yet stock fell from 2500 to 1600 odd in matter
+of days." The lesson isn't "sell on good results" — it's that a screening/monitoring process
+needs to actively ask, on every beat-and-raise quarter, whether the margin print looks durable
+or looks like a peak that the market will fade even as the headline number impresses. He later
+disclosed exiting Kernex (post #1245) after this pattern played out.

@@ -2,82 +2,10 @@
 
 Stocks analyzed recently enough that their thread should NOT be re-opened by the scan job yet, regardless of new forum activity. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-09-22
+Generated: 2026-09-24
 
 | Stock | Last analyzed | Eligible again on | Conviction |
 |---|---|---|---|
-| BLS International | 2026-08-24 | 2026-09-23 | Low |
-| SG Mart- Can it successfully create a marketplace? | 2026-08-24 | 2026-09-23 | Low |
-| Maharashtra seamless-a value plus cyclical play | 2026-08-24 | 2026-09-23 | Medium-High |
-| Raymond Lifestyle | 2026-08-24 | 2026-09-23 | Low |
-| Gufic BioSciences Ltd | 2026-08-24 | 2026-09-23 | Medium |
-| Gravita India success story | 2026-08-24 | 2026-09-23 | Medium |
-| PVR Ltd.- Play on increasing disposable income | 2026-08-24 | 2026-09-23 | Low |
-| Deccan Gold- A Global Gold Miner in Making? | 2026-08-24 | 2026-09-23 | Low |
-| Mankind Pharma | 2026-08-24 | 2026-09-23 | Low-Medium |
-| Quality Power Electrical Equipments Ltd (QPOWER) | 2026-08-24 | 2026-09-23 | Medium |
-| Cera Sanitaryware Ltd | 2026-08-24 | 2026-09-23 | Medium |
-| Nesco Ltd | 2026-08-24 | 2026-09-23 | Medium-High |
-| Orchid Pharma Ltd | 2026-08-24 | 2026-09-23 | Low |
-| PDS Limited | 2026-08-24 | 2026-09-23 | Low |
-| Repco Home Finance | 2026-08-24 | 2026-09-23 | Low-Medium |
-| Edelweiss Financial Services | 2026-08-24 | 2026-09-23 | Medium |
-| Neogen Chemicals | 2026-08-24 | 2026-09-23 | Low |
-| Ramkrishna Forgings | 2026-08-24 | 2026-09-23 | Low |
-| Jeena Sikho Lifecare | 2026-08-24 | 2026-09-23 | Medium |
-| Technocraft Industries | 2026-08-24 | 2026-09-23 | Medium |
-| GMM Pfaudler | 2026-08-24 | 2026-09-23 | Low |
-| Shilpa Medicare | 2026-08-24 | 2026-09-23 | Medium |
-| Amrutanjan Healthcare | 2026-08-24 | 2026-09-23 | Low |
-| Sigachi Industries Limited | 2026-08-24 | 2026-09-23 | Low |
-| VST Tillers and Tractors limited | 2026-08-24 | 2026-09-23 | Low-Medium |
-| Lakshmi Machine Works --- Textile Machinery Space | 2026-08-24 | 2026-09-23 | Low |
-| Vaibhav Global ~ Vertically integrated value e-tailer of Jewellery and Lifestyle Products | 2026-08-24 | 2026-09-23 | Medium |
-| Cantabil India | 2026-08-24 | 2026-09-23 | Medium |
-| Reliance Industries Ltd: Is the 'Reliance" on 'Jio' Justified? | 2026-08-25 | 2026-09-24 | None |
-| The Leela Palaces — New Promoter, Legacy Hotels, New Playbook | 2026-08-25 | 2026-09-24 | None |
-| Annapurna Swadisht Ltd | 2026-08-25 | 2026-09-24 | None |
-| PNGS Gargi Fashion Jewellery Ltd | 2026-08-25 | 2026-09-24 | Low |
-| Capacit'e Infraprojects | 2026-08-25 | 2026-09-24 | Low-Medium |
-| Concord Control Systems | 2026-08-25 | 2026-09-24 | Low-Medium |
-| Rainbow Children's Medicare | 2026-08-25 | 2026-09-24 | None |
-| Raymond Realty Ltd | 2026-08-25 | 2026-09-24 | Medium-High |
-| Envirotech Systems Limited- Acoustics | 2026-08-25 | 2026-09-24 | None |
-| Goodluck India Ltd | 2026-08-25 | 2026-09-24 | Medium |
-| Ptc india ltd | 2026-08-25 | 2026-09-24 | None |
-| Jubilant Ingrevia | 2026-08-25 | 2026-09-24 | None |
-| Valiant Organics | 2026-08-25 | 2026-09-24 | None |
-| Alufluoride Limited-conversion of waste into wealth | 2026-08-25 | 2026-09-24 | Low-Medium |
-| Nazara Technologies | 2026-08-25 | 2026-09-24 | None |
-| Apollo Micro Systems Limited | 2026-08-25 | 2026-09-24 | Low-Medium |
-| BCL Industries | 2026-08-25 | 2026-09-24 | None |
-| Goldiam International : A rare shareholder friendly and debt free Jewelry company | 2026-08-25 | 2026-09-24 | Medium |
-| Graphite Electrode : Graphite India/HEG | 2026-08-25 | 2026-09-24 | Low |
-| Alpex Solar Ltd | 2026-08-25 | 2026-09-24 | Medium |
-| Kernex: TCAS led multi year growth story | 2026-08-25 | 2026-09-24 | Medium |
-| Windlas Biotech Ltd | 2026-08-25 | 2026-09-24 | None |
-| Rapicut Carbides Ltd. | 2026-08-25 | 2026-09-24 | Low |
-| Jindal Drilling | 2026-08-25 | 2026-09-24 | None |
-| DDev Plastiks Industries Ltd | 2026-08-25 | 2026-09-24 | Medium |
-| Genesys International | 2026-08-25 | 2026-09-24 | None |
-| TruAlt Bioenergy | 2026-08-25 | 2026-09-24 | Low-Medium |
-| KPI Green Energy Ltd | 2026-08-25 | 2026-09-24 | Low-Medium |
-| Krishca Ltd : A SME offering steel strapping Solution | 2026-08-25 | 2026-09-24 | Low |
-| Supriya Lifescience Ltd | 2026-08-25 | 2026-09-24 | ? |
-| Modern Insulators Ltd: A Porcelain Insulator Opportunity Insulating the Power Cycle while Riding India’s Transmission Boom | 2026-08-25 | 2026-09-24 | Medium |
-| Prevest Denpro Limited | 2026-08-25 | 2026-09-24 | Low-Medium |
-| Vikram Solar- One of the oldest Solar module manufacturer | 2026-08-25 | 2026-09-24 | Low-Medium |
-| Cohance life science ( older name Suven Pharma ) ~ Demerged CRAMS Arm of Suven Life Sciences | 2026-08-25 | 2026-09-24 | Low |
-| Jindal Stainless (Hisar) | 2026-08-25 | 2026-09-24 | ? |
-| CSL Finance Limited | 2026-08-25 | 2026-09-24 | Low-Medium |
-| Avenue Supermarts Ltd (DMart): A Slow Compounding Machine? | 2026-08-25 | 2026-09-24 | None |
-| Senores Pharma- Hidden in plain sight | 2026-08-25 | 2026-09-24 | Medium |
-| Gujarat Themis Biosyn Ltd | 2026-08-25 | 2026-09-24 | Low-Medium |
-| Mahindra & Mahindra Ltd. | 2026-08-25 | 2026-09-24 | None |
-| Kusumgar Ltd | 2026-08-25 | 2026-09-24 | Low-Medium |
-| Usha Martin | 2026-08-25 | 2026-09-24 | ? |
-| Welspun Corp | 2026-08-25 | 2026-09-24 | None |
-| Polycab India ~ Connection Zindagi Ka | 2026-08-25 | 2026-09-24 | None |
 | All E Technologies, making businesses ready for AI | 2026-08-26 | 2026-09-25 | Low |
 | Parag Milk Foods | 2026-08-26 | 2026-09-25 | Low |
 | TGV SRAAC erstwhile Sree Rayalseema Alkali | 2026-08-26 | 2026-09-25 | Low-Medium |

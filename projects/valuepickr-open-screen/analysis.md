@@ -8291,3 +8291,33 @@ Also confirmed via direct Yahoo Finance checks that ~21 remaining technical-unre
 
 ## Sambhv Steel Tubes — trusted-X signal [2026-09-18]
 - @LearningEleven (cluster tier), in the same reply that turned cautious on Welspun Corp on valuation grounds: "Sambhv seem to have good prospects if they execute well."
+
+## Timex Group India Ltd — trusted-thread forward-check [2026-09-02]
+- Vivek_6954 (trusted, elevated-tier), *Vivek Gautam Portfolio* post #1245 (love=26), in a 14-year/~100x journey recap: "Timex Sh Piston GHFL Nuvama Nippo n Icici amc Uno Minda Acutaas Privi and more stocks have been holding for long time now n pyramiding as well on some triggers like good results." First Vivek_6954 mention of Timex; joinjp2003's fresher (2026-08-21) 2% portfolio-weight tag on this stock makes this the 2nd distinct fresh trusted holder. Floor not active (elevated-tier). trusted_signals + .docx + high_conviction_calls updated; revisit_after_30d set true (2nd distinct fresh trusted user).
+
+## Shriram Pistons & Rings Ltd — trusted-thread forward-check [2026-09-02]
+- Vivek_6954 (trusted, elevated-tier), same post #1245/thread — same "holding for long time n pyramiding" list. 2nd qualifying mention by Vivek_6954 (prior: 2025-12-23, Grupo Antolin acquisition rally) → strength high → very-high. Floor not active (elevated-tier). trusted_signals + .docx + high_conviction_calls updated; revisit_after_30d set true.
+
+## Garware Hi-Tech Films Ltd — trusted-thread forward-check [2026-09-02]
+- Vivek_6954 (trusted, elevated-tier), same post #1245/thread — same list. First Vivek_6954 mention; harsh.beria93's fresher (2026-08-22) governance-aware growth-participation call on this stock makes this the 2nd distinct fresh trusted holder. Floor not active. trusted_signals + .docx + high_conviction_calls updated; revisit_after_30d set true (2nd distinct fresh trusted user).
+
+## Nuvama Wealth Management Ltd — trusted-thread forward-check [2026-09-02]
+- Vivek_6954 (trusted, elevated-tier), same post #1245/thread — same list. 2nd+ qualifying mention by Vivek_6954 (already in high_conviction_calls) → strength high → very-high. Floor not active. trusted_signals + .docx + high_conviction_calls updated; revisit_after_30d set true.
+
+## Uno Minda Ltd — trusted-thread forward-check [2026-09-02]
+- Vivek_6954 (trusted, elevated-tier), same post #1245/thread — same list. 2nd+ qualifying mention (already in high_conviction_calls) → strength stays very-high. Floor not active. trusted_signals + .docx + high_conviction_calls updated; revisit_after_30d set true.
+
+## Acutaas Chemicals Ltd — trusted-thread forward-check [2026-09-02]
+- Vivek_6954 (trusted, elevated-tier), same post #1245/thread — same list. 2nd+ qualifying mention (already in high_conviction_calls) → strength stays very-high. Floor not active. trusted_signals + .docx + high_conviction_calls updated; revisit_after_30d set true.
+
+## Privi Speciality Chemicals Ltd — trusted-thread forward-check [2026-09-02]
+- Vivek_6954 (trusted, elevated-tier), same post #1245/thread — same list. First Vivek_6954 mention; joinjp2003's fresher (2026-08-22) 2% portfolio-weight tag on this stock makes this the 2nd distinct fresh trusted holder. Floor not active. trusted_signals + .docx + high_conviction_calls updated; revisit_after_30d set true (2nd distinct fresh trusted user).
+
+## Kernex — trusted-thread exit [2026-09-02]
+- Vivek_6954 (trusted, elevated-tier), post #1245: "As such was lucky in exiting recently kernex and bajaj corp post seeming good nos and switching to cos which came with good nos or pyramiding in existing stocks." No prior Vivek_6954 conviction call on Kernex was on record to supersede — logged as a fresh exit signal (signal_type: exit) in trusted_signals + high_conviction_calls. Categorical conviction label untouched (exit strength decays into compute_conviction_score.py's trusted_signal_component instead). revisit_after_30d set true.
+
+## Bajaj Consumer Care Ltd — trusted-thread exit [2026-09-02]
+- Vivek_6954 (trusted, elevated-tier), same post #1245 — same exit quote ("bajaj corp"). No prior Vivek_6954 conviction call on Bajaj Consumer Care was on record to supersede — logged as a fresh exit signal. Categorical conviction label untouched. revisit_after_30d set true.
+
+## Vivek Gautam Portfolio — forward-check note [2026-09-02]
+- Two names in post #1245's holdings list could not be confidently resolved to a specific India-listed VP-tracked stock and were skipped rather than guessed: "Nippo" (possibly Nippon Life India Asset Management / NAM-INDIA, but no dedicated VP thread found and the abbreviation is not conclusive) and "Icici amc" (ICICI Prudential AMC is not a separately-listed entity as far as could be determined; no matching VP thread found either). Not logged as trusted signals for any stock.

@@ -228,3 +228,17 @@ momentum-chasing into names where you can't say what they're worth. The framing 
 usual "how do I find the next multibagger" question — he treats compounding as the residual
 that takes care of itself once the left tail is controlled, so the active work is on what to
 avoid and when not to buy, not on maximising hit rate.
+
+## Concentrate to build the portfolio, diversify to protect the gains — position sizing should change with portfolio size, not stay fixed (Vivek_6954, rank #5, elevated-tier)
+
+*Vivek Gautam Portfolio*, post #1256 (2026-09-03): "Concentrated approach first to build up
+the portfolio now diversified approach to preserve the gains as portfolio becomes large. 3 to
+4% allocation in 30 to 35 names. Drawdown becomes tolerable. Depends on homework one ones own
+temperament also." Reflecting on a ~14-year, ~100x journey (post #1245, love=26): the same
+investor used concentration early (when a mistake is recoverable and upside matters more than
+drawdown) and switched to a ~30-35 name, 3-4%-per-position book later (when preserving
+already-compounded gains matters more than squeezing out more upside). He pairs this with
+"ruthless churning" — converting underperforming/non-performing positions into new names, or
+into better-performing existing ones, calling allocation quality "equally important as stock
+selection" — and "pyramiding" (adding to positions on confirming triggers like good results)
+as the mechanism for increasing allocation to winners rather than starting oversized.

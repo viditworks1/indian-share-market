@@ -1,75 +1,82 @@
 {
-  "note": "Tracks per-thread progress for the playbook (general-learnings) extraction pass, independent of ../trusted_threads.json's backfill_progress_post_number (stock-signal pipeline). last_processed_post_number is the lowest post number reached so far by the learnings crawl.",
-  "threads": {
-    "investment-journey-of-a-late-starter": {
-      "topic_id": 87419,
-      "primary_author": "Ghonarbochon",
-      "seeded_2026-08-23": true,
-      "last_processed_post_number": 95,
-      "complete": false
-    },
-    "mudits-portfolio-stage-analysis-price-momentum": {
-      "topic_id": 90802,
-      "primary_author": "Mudit.Kushalvardhan",
-      "seeded_2026-08-23": true,
-      "last_processed_post_number": 273,
-      "complete": false
-    },
-    "phreaks-thoughts-ideas-and-opinions": {
-      "topic_id": 180929,
-      "primary_author": "phreakv6",
-      "seeded_2026-08-23": true,
-      "last_processed_post_number": 334,
-      "complete": false
-    },
-    "hitesh-portfolio": {
-      "topic_id": 658,
-      "primary_author": "hitesh2710",
-      "seeded_2026-08-23": true,
-      "last_processed_post_number": 7661,
-      "complete": false
-    },
-    "the-harsh-portfolio": {
-      "topic_id": 28522,
-      "primary_author": "harsh.beria93",
-      "seeded_2026-08-23": true,
-      "last_processed_post_number": 542,
-      "complete": false
-    },
-    "vivek-gautam-portfolio": {
-      "topic_id": 675,
-      "primary_author": "Vivek_6954",
-      "seeded_2026-08-23": true,
-      "last_processed_post_number": 1034,
-      "complete": false
-    },
-    "ranvirs-portfolio": {
-      "topic_id": 1237,
-      "primary_author": "ranvir",
-      "seeded_2026-08-23": true,
-      "last_processed_post_number": 1580,
-      "complete": false
-    },
-    "the-anti-portfolio": {
-      "topic_id": 28464,
-      "primary_author": "vikas_sinha",
-      "seeded_2026-08-25": true,
-      "last_processed_post_number": 842,
-      "complete": true
-    },
-    "my-portfolio-updates-and-investment-journey": {
-      "topic_id": 109683,
-      "primary_author": "joinjp2003",
-      "seeded_2026-08-30": true,
-      "last_processed_post_number": 279,
-      "complete": false
-    },
-    "simple-investing": {
-      "topic_id": 58506,
-      "primary_author": "Investor_No_1",
-      "seeded_2026-09-16": true,
-      "last_processed_post_number": 339,
-      "complete": false
-    }
+ "note": "Tracks per-thread progress for the playbook (general-learnings) extraction pass, independent of ../trusted_threads.json's backfill_progress_post_number (stock-signal pipeline). last_processed_post_number is the lowest post number reached so far by the learnings crawl.",
+ "threads": {
+  "investment-journey-of-a-late-starter": {
+   "topic_id": 87419,
+   "primary_author": "Ghonarbochon",
+   "seeded_2026-08-23": true,
+   "last_processed_post_number": 95,
+   "complete": false
+  },
+  "mudits-portfolio-stage-analysis-price-momentum": {
+   "topic_id": 90802,
+   "primary_author": "Mudit.Kushalvardhan",
+   "seeded_2026-08-23": true,
+   "last_processed_post_number": 273,
+   "complete": false
+  },
+  "phreaks-thoughts-ideas-and-opinions": {
+   "topic_id": 180929,
+   "primary_author": "phreakv6",
+   "seeded_2026-08-23": true,
+   "last_processed_post_number": 334,
+   "complete": false
+  },
+  "hitesh-portfolio": {
+   "topic_id": 658,
+   "primary_author": "hitesh2710",
+   "seeded_2026-08-23": true,
+   "last_processed_post_number": 7661,
+   "complete": false
+  },
+  "the-harsh-portfolio": {
+   "topic_id": 28522,
+   "primary_author": "harsh.beria93",
+   "seeded_2026-08-23": true,
+   "last_processed_post_number": 542,
+   "complete": false
+  },
+  "vivek-gautam-portfolio": {
+   "topic_id": 675,
+   "primary_author": "Vivek_6954",
+   "seeded_2026-08-23": true,
+   "last_processed_post_number": 1258,
+   "complete": false
+  },
+  "ranvirs-portfolio": {
+   "topic_id": 1237,
+   "primary_author": "ranvir",
+   "seeded_2026-08-23": true,
+   "last_processed_post_number": 1580,
+   "complete": false
+  },
+  "the-anti-portfolio": {
+   "topic_id": 28464,
+   "primary_author": "vikas_sinha",
+   "seeded_2026-08-25": true,
+   "last_processed_post_number": 842,
+   "complete": true
+  },
+  "my-portfolio-updates-and-investment-journey": {
+   "topic_id": 109683,
+   "primary_author": "joinjp2003",
+   "seeded_2026-08-30": true,
+   "last_processed_post_number": 279,
+   "complete": false
+  },
+  "simple-investing": {
+   "topic_id": 58506,
+   "primary_author": "Investor_No_1",
+   "seeded_2026-09-16": true,
+   "last_processed_post_number": 339,
+   "complete": false
+  },
+  "omkars-portfolio-analysis-and-discussion": {
+   "topic_id": 53748,
+   "primary_author": "OmkarT",
+   "seeded_2026-09-24": true,
+   "last_processed_post_number": 466,
+   "complete": false
   }
+ }
 }

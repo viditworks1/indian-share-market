@@ -160,3 +160,17 @@ take a peer's high multiple as evidence your concentrated name is safe, and size
 holding for the day the numbers stop, because that is when the risk gets priced all at once.
 Caveat from his own record — he applied this filter to reject Acutaas and it kept running, so
 the rule protects against the tail, not against opportunity cost in the interim.
+
+## In auto-ancillaries, the biggest wealth creation has come from global-supply-chain integration, not from near-term sales/profit growth (OmkarT, rank #13, elevated-tier)
+
+*Omkar's Portfolio Analysis and Discussion*, post #466 (2026-09-12): "Though most of market
+participants like and focus on new product developments which are delivered to Indian OEs or
+exported, the biggest wealth creator in auto ancillary space is Motherson which has created
+wealth mainly building global supply chain. This is really a 'Terminal Value' I have in mind,
+not too much focussing on near term sales/profit growth. Most of these companies have
+manufacturing units integrated in global supply chains. They are not just export houses."
+Screening implication for the sector: don't just underwrite an auto-ancillary name on its next
+few quarters of order wins or margin trajectory — check whether it is becoming structurally
+embedded (owned manufacturing, not just a vendor relationship) inside a global OEM's supply
+chain, since that embeddedness is what compounded Motherson's terminal value over the long run,
+not any single product cycle.

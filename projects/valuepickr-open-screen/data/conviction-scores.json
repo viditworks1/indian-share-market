@@ -2427,6 +2427,51 @@
     }
   },
   {
+    "slug": "privi-speciality-chemicals-ltd",
+    "name": "Privi Speciality Chemicals Ltd",
+    "conviction_score": 45.62,
+    "own_conviction": 41.5,
+    "trusted_lift": 4.12,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 68.0,
+    "market_cap_tier": "Mid-cap (~Rs 13,602 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 41.5,
+      "trusted_lift": 4.12,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 4.5,
+      "management_component": 12.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 4.12,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 4.12,
+        "pos_raw": 4.12,
+        "pos_capped": 4.12,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "positive",
+        "guidance_credibility": "reliable",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "flat",
+        "shareholder_returns": "initiated"
+      }
+    }
+  },
+  {
     "slug": "frontier-springs",
     "name": "Frontier Springs",
     "conviction_score": 45.25,
@@ -2501,6 +2546,45 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "acutaas-chemicals",
+    "name": "Acutaas Chemicals Ltd (Erst. Ami Organics Ltd)",
+    "conviction_score": 44.47,
+    "own_conviction": 31.25,
+    "trusted_lift": 13.22,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 75.0,
+    "market_cap_tier": "Large-cap (~Rs 25,900 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 31.25,
+      "trusted_lift": 13.22,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 6.25,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 13.22,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 13.22,
+        "pos_raw": 13.22,
+        "pos_capped": 13.22,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 3,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 3,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 3,
       "management_quality": null
     }
   },
@@ -2730,48 +2814,42 @@
     }
   },
   {
-    "slug": "privi-speciality-chemicals-ltd",
-    "name": "Privi Speciality Chemicals Ltd",
-    "conviction_score": 43.15,
-    "own_conviction": 41.5,
-    "trusted_lift": 1.65,
-    "conviction": "Medium",
+    "slug": "nuvama-wealth-management",
+    "name": "Nuvama Wealth Management Ltd",
+    "conviction_score": 43.59,
+    "own_conviction": 35.0,
+    "trusted_lift": 8.59,
+    "conviction": "Medium-High",
     "thesis_fit": "neither",
-    "quality_score": 68.0,
-    "market_cap_tier": "Mid-cap (~Rs 13,602 Cr)",
-    "red_flag_tier": null,
+    "quality_score": null,
+    "market_cap_tier": "large-cap",
+    "red_flag_tier": "",
     "source": "trusted-thread",
     "score_breakdown": {
-      "own_conviction": 41.5,
-      "trusted_lift": 1.65,
-      "base_anchor": 25,
+      "own_conviction": 35.0,
+      "trusted_lift": 8.59,
+      "base_anchor": 35,
       "thesis_bonus": 0,
-      "quality_lift": 4.5,
-      "management_component": 12.0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
       "red_flag_penalty": 0,
       "red_flag_forced_zero": false,
-      "trusted_signal_component": 1.65,
+      "trusted_signal_component": 8.59,
       "trusted_lift_neg_floor_applied": false,
       "trusted_signal_detail": {
-        "value": 1.65,
-        "pos_raw": 1.65,
-        "pos_capped": 1.65,
+        "value": 8.59,
+        "pos_raw": 8.59,
+        "pos_capped": 8.59,
         "neg_raw": 0.0,
         "neg_capped": 0.0,
-        "n_positive_signals": 1,
+        "n_positive_signals": 3,
         "n_exit_signals": 0,
         "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "fallback-scalar"
+        "distinct_trusted_users": 3,
+        "source": "ledger"
       },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "reliable",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "flat",
-        "shareholder_returns": "initiated"
-      }
+      "distinct_trusted_users": 3,
+      "management_quality": null
     }
   },
   {
@@ -3387,96 +3465,6 @@
     }
   },
   {
-    "slug": "kernex-tcas-led-multi-year-growth-story",
-    "name": "Kernex: TCAS led multi year growth story",
-    "conviction_score": 39.8,
-    "own_conviction": 36.5,
-    "trusted_lift": 3.3,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 40.0,
-    "market_cap_tier": "Small-cap (~Rs 2,914 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 36.5,
-      "trusted_lift": 3.3,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": -2.5,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 3.3,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 3.3,
-        "pos_raw": 3.3,
-        "pos_capped": 3.3,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "no-track-record",
-        "capital_allocation_track_record": "unclear",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
-      }
-    }
-  },
-  {
-    "slug": "kernex-microsystems",
-    "name": "Kernex Microsystems",
-    "conviction_score": 39.8,
-    "own_conviction": 36.5,
-    "trusted_lift": 3.3,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 40.0,
-    "market_cap_tier": "Small-cap (~Rs 2,914 Cr)",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 36.5,
-      "trusted_lift": 3.3,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": -2.5,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 3.3,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 3.3,
-        "pos_raw": 3.3,
-        "pos_capped": 3.3,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "no-track-record",
-        "capital_allocation_track_record": "unclear",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
-      }
-    }
-  },
-  {
     "slug": "rnit-ai-solutions-ltd",
     "name": "RNIT AI Solutions Ltd",
     "conviction_score": 39.5,
@@ -3519,45 +3507,6 @@
         "rpt_trend": "unclear",
         "shareholder_returns": "none"
       }
-    }
-  },
-  {
-    "slug": "acutaas-chemicals",
-    "name": "Acutaas Chemicals Ltd (Erst. Ami Organics Ltd)",
-    "conviction_score": 39.27,
-    "own_conviction": 31.25,
-    "trusted_lift": 8.02,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": 75.0,
-    "market_cap_tier": "Large-cap (~Rs 25,900 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 31.25,
-      "trusted_lift": 8.02,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 6.25,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 8.02,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 8.02,
-        "pos_raw": 8.02,
-        "pos_capped": 8.02,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 2,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": null
     }
   },
   {
@@ -4007,6 +3956,96 @@
         "capital_allocation_track_record": null,
         "rpt_trend": "unclear",
         "shareholder_returns": null
+      }
+    }
+  },
+  {
+    "slug": "kernex-tcas-led-multi-year-growth-story",
+    "name": "Kernex: TCAS led multi year growth story",
+    "conviction_score": 37.05,
+    "own_conviction": 36.5,
+    "trusted_lift": 0.55,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 40.0,
+    "market_cap_tier": "Small-cap (~Rs 2,914 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 36.5,
+      "trusted_lift": 0.55,
+      "base_anchor": 25,
+      "thesis_bonus": 14,
+      "quality_lift": -2.5,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.55,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.55,
+        "pos_raw": 3.3,
+        "pos_capped": 3.3,
+        "neg_raw": 2.75,
+        "neg_capped": 2.75,
+        "n_positive_signals": 1,
+        "n_exit_signals": 1,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "no-track-record",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
+      }
+    }
+  },
+  {
+    "slug": "kernex-microsystems",
+    "name": "Kernex Microsystems",
+    "conviction_score": 37.05,
+    "own_conviction": 36.5,
+    "trusted_lift": 0.55,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 40.0,
+    "market_cap_tier": "Small-cap (~Rs 2,914 Cr)",
+    "red_flag_tier": null,
+    "source": "external-lead",
+    "score_breakdown": {
+      "own_conviction": 36.5,
+      "trusted_lift": 0.55,
+      "base_anchor": 25,
+      "thesis_bonus": 14,
+      "quality_lift": -2.5,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.55,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.55,
+        "pos_raw": 3.3,
+        "pos_capped": 3.3,
+        "neg_raw": 2.75,
+        "neg_capped": 2.75,
+        "n_positive_signals": 1,
+        "n_exit_signals": 1,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "no-track-record",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
       }
     }
   },
@@ -4539,45 +4578,6 @@
     }
   },
   {
-    "slug": "nuvama-wealth-management",
-    "name": "Nuvama Wealth Management Ltd",
-    "conviction_score": 35.55,
-    "own_conviction": 35.0,
-    "trusted_lift": 0.55,
-    "conviction": "Medium-High",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "large-cap",
-    "red_flag_tier": "",
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 35.0,
-      "trusted_lift": 0.55,
-      "base_anchor": 35,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.55,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.55,
-        "pos_raw": 0.55,
-        "pos_capped": 0.55,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 2,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "manorama-industries-creating-wealth-from-waste",
     "name": "Manorama Industries: Creating Wealth from Waste",
     "conviction_score": 35.35,
@@ -4710,45 +4710,6 @@
         "rpt_trend": "unclear",
         "shareholder_returns": "none"
       }
-    }
-  },
-  {
-    "slug": "bajaj-consumer-care",
-    "name": "Bajaj Consumer Care Ltd",
-    "conviction_score": 35.0,
-    "own_conviction": 35.0,
-    "trusted_lift": 0.0,
-    "conviction": "Medium-High",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Small-cap (~Rs 6,590 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 35.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 35,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": null
     }
   },
   {
@@ -5297,6 +5258,45 @@
         "source": "ledger"
       },
       "distinct_trusted_users": 1,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "bajaj-consumer-care",
+    "name": "Bajaj Consumer Care Ltd",
+    "conviction_score": 32.25,
+    "own_conviction": 35.0,
+    "trusted_lift": -2.75,
+    "conviction": "Medium-High",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Small-cap (~Rs 6,590 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 35.0,
+      "trusted_lift": -2.75,
+      "base_anchor": 35,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": -2.75,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": -2.75,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 2.75,
+        "neg_capped": 2.75,
+        "n_positive_signals": 0,
+        "n_exit_signals": 1,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 0,
       "management_quality": null
     }
   },
@@ -7535,9 +7535,9 @@
   {
     "slug": "emerald-finance",
     "name": "Emerald Finance",
-    "conviction_score": 27.65,
+    "conviction_score": 27.34,
     "own_conviction": 20.25,
-    "trusted_lift": 7.4,
+    "trusted_lift": 7.09,
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "quality_score": 43.0,
@@ -7546,19 +7546,19 @@
     "source": "web-discovery",
     "score_breakdown": {
       "own_conviction": 20.25,
-      "trusted_lift": 7.4,
+      "trusted_lift": 7.09,
       "base_anchor": 8,
       "thesis_bonus": 14,
       "quality_lift": -1.75,
       "management_component": 0.0,
       "red_flag_penalty": 0,
       "red_flag_forced_zero": false,
-      "trusted_signal_component": 7.4,
+      "trusted_signal_component": 7.09,
       "trusted_lift_neg_floor_applied": false,
       "trusted_signal_detail": {
-        "value": 7.4,
-        "pos_raw": 7.4,
-        "pos_capped": 7.4,
+        "value": 7.09,
+        "pos_raw": 7.09,
+        "pos_capped": 7.09,
         "neg_raw": 0.0,
         "neg_capped": 0.0,
         "n_positive_signals": 4,
@@ -7608,6 +7608,51 @@
       },
       "distinct_trusted_users": 0,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "garware-hi-tech-films-ltd",
+    "name": "Garware Hi-Tech Films Ltd",
+    "conviction_score": 27.12,
+    "own_conviction": 23.0,
+    "trusted_lift": 4.12,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Mid-cap (~Rs 16,700 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 23.0,
+      "trusted_lift": 4.12,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": -2.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 4.12,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 4.12,
+        "pos_raw": 4.12,
+        "pos_capped": 4.12,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "rising",
+        "shareholder_returns": null
+      }
     }
   },
   {
@@ -8234,6 +8279,45 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "uno-minda",
+    "name": "Uno Minda Ltd",
+    "conviction_score": 25.49,
+    "own_conviction": 16.0,
+    "trusted_lift": 9.49,
+    "conviction": "Low-Medium",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "large-cap",
+    "red_flag_tier": "",
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 16.0,
+      "trusted_lift": 9.49,
+      "base_anchor": 16,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 9.49,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 9.49,
+        "pos_raw": 9.49,
+        "pos_capped": 9.49,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 2,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
       "management_quality": null
     }
   },
@@ -11361,51 +11445,6 @@
     }
   },
   {
-    "slug": "garware-hi-tech-films-ltd",
-    "name": "Garware Hi-Tech Films Ltd",
-    "conviction_score": 24.65,
-    "own_conviction": 23.0,
-    "trusted_lift": 1.65,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Mid-cap (~Rs 16,700 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 23.0,
-      "trusted_lift": 1.65,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": -2.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 1.65,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 1.65,
-        "pos_raw": 1.65,
-        "pos_capped": 1.65,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "fallback-scalar"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "rising",
-        "shareholder_returns": null
-      }
-    }
-  },
-  {
     "slug": "shilpa-medicare-ias2026",
     "name": "Shilpa Medicare",
     "conviction_score": 24.61,
@@ -11655,6 +11694,51 @@
       },
       "distinct_trusted_users": 1,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "timex-group",
+    "name": "Timex Group (TGIL)",
+    "conviction_score": 23.12,
+    "own_conviction": 19.0,
+    "trusted_lift": 4.12,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Small-cap (~Rs 6,600 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 19.0,
+      "trusted_lift": 4.12,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": -6.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 4.12,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 4.12,
+        "pos_raw": 4.12,
+        "pos_capped": 4.12,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "concern",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "unclear",
+        "shareholder_returns": null
+      }
     }
   },
   {
@@ -12469,51 +12553,6 @@
         "guidance_credibility": "mixed",
         "capital_allocation_track_record": null,
         "rpt_trend": "rising",
-        "shareholder_returns": null
-      }
-    }
-  },
-  {
-    "slug": "timex-group",
-    "name": "Timex Group (TGIL)",
-    "conviction_score": 20.65,
-    "own_conviction": 19.0,
-    "trusted_lift": 1.65,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Small-cap (~Rs 6,600 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 19.0,
-      "trusted_lift": 1.65,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": -6.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 1.65,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 1.65,
-        "pos_raw": 1.65,
-        "pos_capped": 1.65,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "fallback-scalar"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "concern",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "unclear",
         "shareholder_returns": null
       }
     }
@@ -14148,45 +14187,6 @@
         "rpt_trend": "unclear",
         "shareholder_returns": "consistent"
       }
-    }
-  },
-  {
-    "slug": "uno-minda",
-    "name": "Uno Minda Ltd",
-    "conviction_score": 16.41,
-    "own_conviction": 16.0,
-    "trusted_lift": 0.41,
-    "conviction": "Low-Medium",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "large-cap",
-    "red_flag_tier": "",
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 16.0,
-      "trusted_lift": 0.41,
-      "base_anchor": 16,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.41,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.41,
-        "pos_raw": 0.41,
-        "pos_capped": 0.41,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": null
     }
   },
   {
@@ -21933,6 +21933,45 @@
         "n_trim_signals": 0,
         "distinct_trusted_users": 1,
         "source": "fallback-scalar"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "shriram-pistons-rings",
+    "name": "Shriram Pistons & Rings Ltd",
+    "conviction_score": 9.49,
+    "own_conviction": 0.0,
+    "trusted_lift": 9.49,
+    "conviction": null,
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Large-cap (~Rs 19,626 Cr)",
+    "red_flag_tier": null,
+    "source": "web-discovery",
+    "score_breakdown": {
+      "own_conviction": 0.0,
+      "trusted_lift": 9.49,
+      "base_anchor": 0,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 9.49,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 9.49,
+        "pos_raw": 9.49,
+        "pos_capped": 9.49,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 2,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
       },
       "distinct_trusted_users": 1,
       "management_quality": null
@@ -31436,45 +31475,6 @@
     "market_cap_tier": "Small-cap (~Rs 1,077 Cr)",
     "red_flag_tier": null,
     "source": null,
-    "score_breakdown": {
-      "own_conviction": 0.0,
-      "trusted_lift": 0.83,
-      "base_anchor": 0,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.83,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.83,
-        "pos_raw": 0.83,
-        "pos_capped": 0.83,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": null
-    }
-  },
-  {
-    "slug": "shriram-pistons-rings",
-    "name": "Shriram Pistons & Rings Ltd",
-    "conviction_score": 0.83,
-    "own_conviction": 0.0,
-    "trusted_lift": 0.83,
-    "conviction": null,
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Large-cap (~Rs 19,626 Cr)",
-    "red_flag_tier": null,
-    "source": "web-discovery",
     "score_breakdown": {
       "own_conviction": 0.0,
       "trusted_lift": 0.83,
