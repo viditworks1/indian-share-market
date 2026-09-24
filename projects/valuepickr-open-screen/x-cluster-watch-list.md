@@ -9,6 +9,8 @@ Generated: 2026-09-24
 | Stock | First seen | Trusted user(s) | Snippet / why tracked |
 |---|---|---|---|
 | Grindwell Norton Ltd | 2026-09-21 | unseenvalue | Named alongside Laurus/Sansera/Syngene/Cohance in a multi-stock substack roundup (antifragilethinking), no individual view given — 21-step decision-making piece, not a call |
+| Elecon Engineering Company | 2026-09-24 | a_basumallick | Named in a_basumallick shipbuilding-update digest (2026-09-24): gear maker was expecting orders tied to shipbuilding capex cycle (CSL/Titagarh/Marine Electricals also named). |
+| Titagarh Rail Systems | 2026-09-24 | a_basumallick | Named in a_basumallick shipbuilding-update digest (2026-09-24): "also looking to upgrade" alongside CSL/Elecon/Marine Electricals shipbuilding capex cycle. |
 
 ## Already researched (exited the queue)
 

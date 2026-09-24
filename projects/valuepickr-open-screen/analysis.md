@@ -8321,3 +8321,6 @@ Also confirmed via direct Yahoo Finance checks that ~21 remaining technical-unre
 
 ## Vivek Gautam Portfolio — forward-check note [2026-09-02]
 - Two names in post #1245's holdings list could not be confidently resolved to a specific India-listed VP-tracked stock and were skipped rather than guessed: "Nippo" (possibly Nippon Life India Asset Management / NAM-INDIA, but no dedicated VP thread found and the abbreviation is not conclusive) and "Icici amc" (ICICI Prudential AMC is not a separately-listed entity as far as could be determined; no matching VP thread found either). Not logged as trusted signals for any stock.
+
+## Sambhv Steel Tubes — trusted-X signal [2026-09-24]
+- suru27 (cluster-tier), own dedicated single-stock writeup (2026-09-24): stainless CR coils were absent from FY24 sales mix, now ~26% of FY26 finished-goods sales by value; flags the INR 810 Cr greenfield Phase-I at Kesda for stainless capacity as the next capital block to watch. Non-negative, implicit-conviction rule. trusted_signals + .docx updated.
