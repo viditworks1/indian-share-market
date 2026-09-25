@@ -2,40 +2,10 @@
 
 Stocks analyzed recently enough that their thread should NOT be re-opened by the scan job yet, regardless of new forum activity. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-09-24
+Generated: 2026-09-25
 
 | Stock | Last analyzed | Eligible again on | Conviction |
 |---|---|---|---|
-| All E Technologies, making businesses ready for AI | 2026-08-26 | 2026-09-25 | Low |
-| Parag Milk Foods | 2026-08-26 | 2026-09-25 | Low |
-| TGV SRAAC erstwhile Sree Rayalseema Alkali | 2026-08-26 | 2026-09-25 | Low-Medium |
-| Stallion India Fluorochemicals : Aggressive Capex | 2026-08-26 | 2026-09-25 | Medium |
-| Hikal | 2026-08-26 | 2026-09-25 | Low |
-| TCPL Packaging Ltd. -- Statistical Facts & Figures -- Views Invited | 2026-08-26 | 2026-09-25 | None |
-| Biocon | 2026-08-26 | 2026-09-25 | None |
-| Bombay Burmah way to Britannia | 2026-08-26 | 2026-09-25 | None |
-| Shalimar Paints Ltd. -- Worth a Serious Look -- Significant Rerating Triggers Inplace | 2026-08-26 | 2026-09-25 | Low |
-| NMDC Steel ( NSL ) | 2026-08-26 | 2026-09-25 | None |
-| Morepen Labs | 2026-08-26 | 2026-09-25 | Low |
-| Krsnaa Diagnostics | 2026-08-26 | 2026-09-25 | Low-Medium |
-| Glenmark | 2026-08-26 | 2026-09-25 | None |
-| Knowledge Marine | 2026-08-26 | 2026-09-25 | Low-Medium |
-| Krishna Defence & Allied Industries Ltd | 2026-08-26 | 2026-09-25 | Medium-High |
-| Ratnaveer precision a newly headed steel company | 2026-08-26 | 2026-09-25 | Low-Medium |
-| Eveready | 2026-08-26 | 2026-09-25 | None |
-| Kwality Pharmaceuticals | 2026-08-26 | 2026-09-25 | Low-Medium |
-| Jyoti Resins & Adhesives Limited (with bloated reserves) | 2026-08-26 | 2026-09-25 | None |
-| Laxmi Dental Ltd | 2026-08-26 | 2026-09-25 | Low |
-| India Shelter Finance Ltd: A Gem player in the affordable housing sector | 2026-08-26 | 2026-09-25 | Low-Medium |
-| Ather Energy: Pioneering India's EV Revolution | 2026-08-26 | 2026-09-25 | Medium |
-| Vintage Coffee: Brewing Profits | 2026-08-26 | 2026-09-25 | Medium |
-| Ola Electric | 2026-08-26 | 2026-09-25 | None |
-| Shree Refrigerations | 2026-08-26 | 2026-09-25 | Low |
-| Permanent Magnets | 2026-08-26 | 2026-09-25 | Low |
-| Inox India, a story worth looking? | 2026-08-26 | 2026-09-25 | Medium |
-| Sula vineyards | 2026-08-26 | 2026-09-25 | None |
-| Hero Motor | 2026-08-26 | 2026-09-25 | Medium |
-| Indotech | 2026-08-26 | 2026-09-25 | Low-Medium |
 | AksharChem (India) | 2026-08-27 | 2026-09-26 | None |
 | Yatharth Hospital & Trauma Care Services Limited | 2026-08-27 | 2026-09-26 | Medium-High |
 | Dishman Carbogen Amcis Ltd | 2026-08-27 | 2026-09-26 | Low |

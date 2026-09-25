@@ -741,6 +741,51 @@
     }
   },
   {
+    "slug": "sambhv-steel-tubes",
+    "name": "Sambhv Steel Tubes",
+    "conviction_score": 59.62,
+    "own_conviction": 55.25,
+    "trusted_lift": 4.37,
+    "conviction": "Medium-High",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 43.0,
+    "market_cap_tier": "Small-cap (~Rs 3,750 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 55.25,
+      "trusted_lift": 4.37,
+      "base_anchor": 35,
+      "thesis_bonus": 14,
+      "quality_lift": -1.75,
+      "management_component": 8.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 4.37,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 4.37,
+        "pos_raw": 4.37,
+        "pos_capped": 4.37,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 2,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
+      "management_quality": {
+        "assessment": "positive",
+        "guidance_credibility": "reliable",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "unclear",
+        "shareholder_returns": null
+      }
+    }
+  },
+  {
     "slug": "ajanta-pharma",
     "name": "Ajanta Pharma Ltd",
     "conviction_score": 59.21,
@@ -777,51 +822,6 @@
       },
       "distinct_trusted_users": 2,
       "management_quality": null
-    }
-  },
-  {
-    "slug": "sambhv-steel-tubes",
-    "name": "Sambhv Steel Tubes",
-    "conviction_score": 57.95,
-    "own_conviction": 55.25,
-    "trusted_lift": 2.7,
-    "conviction": "Medium-High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 43.0,
-    "market_cap_tier": "Small-cap (~Rs 3,750 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 55.25,
-      "trusted_lift": 2.7,
-      "base_anchor": 35,
-      "thesis_bonus": 14,
-      "quality_lift": -1.75,
-      "management_component": 8.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 2.7,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 2.7,
-        "pos_raw": 2.7,
-        "pos_capped": 2.7,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "reliable",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "unclear",
-        "shareholder_returns": null
-      }
     }
   },
   {
@@ -8478,45 +8478,6 @@
     }
   },
   {
-    "slug": "sona-blw-precision-forgings",
-    "name": "Sona BLW Precision Forgings Ltd",
-    "conviction_score": 25.22,
-    "own_conviction": 21.5,
-    "trusted_lift": 3.72,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": 36.0,
-    "market_cap_tier": "Large-cap (~Rs 51,000 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 21.5,
-      "trusted_lift": 3.72,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": -3.5,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 3.72,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 3.72,
-        "pos_raw": 3.72,
-        "pos_capped": 3.72,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 2,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "aarti-pharmalabs",
     "name": "Aarti Pharmalabs Ltd",
     "conviction_score": 25.21,
@@ -11564,6 +11525,45 @@
         "source": "ledger"
       },
       "distinct_trusted_users": 1,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "sona-blw-precision-forgings",
+    "name": "Sona BLW Precision Forgings Ltd",
+    "conviction_score": 23.9,
+    "own_conviction": 21.5,
+    "trusted_lift": 2.4,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 36.0,
+    "market_cap_tier": "Large-cap (~Rs 51,000 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 21.5,
+      "trusted_lift": 2.4,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": -3.5,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 2.4,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 2.4,
+        "pos_raw": 2.4,
+        "pos_capped": 2.4,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 2,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
       "management_quality": null
     }
   },
@@ -20304,45 +20304,6 @@
     }
   },
   {
-    "slug": "shadowfax-valuation-model",
-    "name": "ShadowFax Valuation Model",
-    "conviction_score": 11.3,
-    "own_conviction": 8.0,
-    "trusted_lift": 3.3,
-    "conviction": "Low",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Large-cap (~Rs 14,450 Cr)",
-    "red_flag_tier": null,
-    "source": "web-discovery",
-    "score_breakdown": {
-      "own_conviction": 8.0,
-      "trusted_lift": 3.3,
-      "base_anchor": 8,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 3.3,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 3.3,
-        "pos_raw": 3.3,
-        "pos_capped": 3.3,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "central-depository-services",
     "name": "Central Depository Services (India) Ltd (CDSL)",
     "conviction_score": 11.3,
@@ -21207,6 +21168,45 @@
     "thesis_fit": "neither",
     "quality_score": null,
     "market_cap_tier": "Small/Mid-cap (~Rs 3,860 Cr)",
+    "red_flag_tier": null,
+    "source": "web-discovery",
+    "score_breakdown": {
+      "own_conviction": 8.0,
+      "trusted_lift": 1.98,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 1.98,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 1.98,
+        "pos_raw": 1.98,
+        "pos_capped": 1.98,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "shadowfax-valuation-model",
+    "name": "ShadowFax Valuation Model",
+    "conviction_score": 9.98,
+    "own_conviction": 8.0,
+    "trusted_lift": 1.98,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Large-cap (~Rs 14,450 Cr)",
     "red_flag_tier": null,
     "source": "web-discovery",
     "score_breakdown": {
