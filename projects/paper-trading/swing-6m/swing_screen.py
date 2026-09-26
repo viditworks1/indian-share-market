@@ -85,6 +85,11 @@ for name, (sym, bucket, note) in CANDS.items():
         continue
     last_d, last_p = dseries[-1]
     r1 = ret(dseries, 30); r3 = ret(dseries, 91); r6 = ret(dseries, 182); r12 = ret(dseries, 365)
+    # relative strength vs the broad market (rf.relative_strength_pct, shared with the main
+    # paper-trading composite) -- Vikram Thermo (this book's best performer) ran +83pp ahead
+    # of the Nifty Smallcap 250 over its trailing 13 weeks; a name merely drifting up with a
+    # broad rally, rather than genuinely leading it, shows up here even when r3/r6 look similar.
+    rs13 = rf.relative_strength_pct(sym)
     # 52w high distance
     lo52 = min(p for d, p in dseries if d >= last_d - datetime.timedelta(days=365))
     hi52 = max(p for d, p in dseries if d >= last_d - datetime.timedelta(days=365))
@@ -111,7 +116,7 @@ for name, (sym, bucket, note) in CANDS.items():
         accel10w = None if ext10w_prior is None else ext10w - ext10w_prior
     rows.append(dict(name=name, sym=sym, bucket=bucket, note=note, last=last_p, last_d=last_d,
                      r1=r1, r3=r3, r6=r6, r12=r12, from_hi=from_hi, ext30=ext30, s30=ema30slope,
-                     ext10w=ext10w, s10w=ema10wslope, accel30=accel30, accel10w=accel10w))
+                     ext10w=ext10w, s10w=ema10wslope, accel30=accel30, accel10w=accel10w, rs13=rs13))
 
 def sc(x, lo, hi):
     if x is None: return 0.0
@@ -138,7 +143,7 @@ def posture_score(ext30):
         return 1.0                                # healthy, established cushion -- sweet spot
     return max(0.0, 1.0 - sc(ext30, 25, 55))      # decays into the overextension zone
 
-print(f"\n{'name':<24}{'bkt':<11}{'last':>9}{'1m%':>7}{'3m%':>7}{'6m%':>7}{'12m%':>8}{'<hi%':>7}{'ext30':>7}{'s30':>6}{'ext10w':>8}{'s10w':>7}{'acc30':>7}{'acc10w':>8}{'SCORE':>7}  flags")
+print(f"\n{'name':<24}{'bkt':<11}{'last':>9}{'1m%':>7}{'3m%':>7}{'6m%':>7}{'12m%':>8}{'<hi%':>7}{'ext30':>7}{'s30':>6}{'ext10w':>8}{'s10w':>7}{'acc30':>7}{'acc10w':>8}{'rs13':>8}{'SCORE':>7}  flags")
 scored = []
 for r in rows:
     # 6-month swing score: momentum sweet-spot + trend confirmation, penalise over-extension &
@@ -156,18 +161,25 @@ for r in rows:
     # on to the best returns, so acceleration and overextension are scored as separate
     # (partially offsetting) dimensions rather than one collapsing into the other.
     accel = 0.5 * sc(r['accel30'], 0, 30) + 0.5 * sc(r['accel10w'], 0, 20)
+    # leadership: is this name actually beating the market, or just drifting up with it?
+    # Vikram Thermo (this book's best performer, +83pp RS) and, in the main paper-trading
+    # composite, Novartis India (+34pp) both ran far ahead of the Nifty Smallcap 250;
+    # r3/r6 alone don't distinguish that from a broad rally lifting everything together.
+    leadership = sc(r['rs13'], -10, 60)
     notdump = 0.0 if (r['r3'] is not None and r['r3'] < -12) else 1.0   # exclude fresh breakdowns
-    score = notdump * (0.24*mom3 + 0.18*mom6 + 0.22*trend + 0.13*posture + 0.08*nearhi + 0.15*accel) * 100
+    score = notdump * (0.21*mom3 + 0.16*mom6 + 0.20*trend + 0.12*posture + 0.07*nearhi + 0.13*accel + 0.11*leadership) * 100
     r['score'] = score
     flags = []
     if r['ext30'] is not None and 0 < r['ext30'] < THIN_PCT:
         flags.append(f"THIN CUSHION ({r['ext30']:+.1f}% vs 30W EMA)")
     if r['accel30'] is not None and r['accel30'] <= FADING_PCT:
         flags.append(f"FADING ({r['accel30']:+.0f}pp ext30/{ACCEL_LOOKBACK_WEEKS}wk)")
+    if r['rs13'] is not None and r['rs13'] <= -15:
+        flags.append(f"LAGGING MARKET ({r['rs13']:+.0f}pp vs benchmark/13wk)")
     r['flags'] = flags
     scored.append(r)
 
 for r in sorted(scored, key=lambda z: -z['score']):
     f = lambda v, w=7, p=1: (f"{v:>{w}.{p}f}" if v is not None else " " * (w-1) + "-")
-    print(f"{r['name']:<24}{r['bucket']:<11}{f(r['last'],9,1)}{f(r['r1'])}{f(r['r3'])}{f(r['r6'])}{f(r['r12'],8)}{f(r['from_hi'])}{f(r['ext30'])}{f(r['s30'],6)}{f(r['ext10w'],8)}{f(r['s10w'])}{f(r['accel30'])}{f(r['accel10w'],8)}{f(r['score'],7,1)}  {', '.join(r['flags'])}")
+    print(f"{r['name']:<24}{r['bucket']:<11}{f(r['last'],9,1)}{f(r['r1'])}{f(r['r3'])}{f(r['r6'])}{f(r['r12'],8)}{f(r['from_hi'])}{f(r['ext30'])}{f(r['s30'],6)}{f(r['ext10w'],8)}{f(r['s10w'])}{f(r['accel30'])}{f(r['accel10w'],8)}{f(r['rs13'],8)}{f(r['score'],7,1)}  {', '.join(r['flags'])}")
     print(f"    {r['sym']:<14} {r['note']}")

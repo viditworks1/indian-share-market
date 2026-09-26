@@ -6,7 +6,7 @@ This is a **forward-testing** journal, not a backtest. Every Monday a brand-new,
 - **standard** — mirrors the recommendation's current allocation as-is (~10 diversified positions).
 - **concentrated** — top-5 of the candidate universe by a **2-factor composite** (`master_score` 75% + technical 25%, technical itself weekly EMA 60% / monthly EMA 40%), sized 25/20/20/17/13. `master_score` (valuepickr-open-screen, built from studying real high-return investors' documented methods) is itself a renormalized blend of conviction + quality + expectation-gap + consistency + asymmetry — see `valuepickr-open-screen/scripts/MASTER_SCORE_METHODOLOGY.md`. Before 2026-09-05 this was a 4-factor composite (conviction 30% + gap 30% + fundamental screen-tier 25% + weekly technical 15%); before 2026-09-01 it ranked on conviction score alone. Conviction/gap/fundamental-tier are still shown per-name for context, just no longer weighted separately into the composite (they'd double-count against `master_score`).
 
-**Last updated:** 2026-09-26 (generated 2026-09-26 22:02). Daily history: 18 day(s) recorded.
+**Last updated:** 2026-09-26 (generated 2026-09-26 23:14). Daily history: 18 day(s) recorded.
 
 ---
 
@@ -33,19 +33,19 @@ This is a **forward-testing** journal, not a backtest. Every Monday a brand-new,
 
 Scored fresh each run from live weekly + monthly technicals + the current `master_score` (all of which other scheduled tasks keep updating). Conv/Gap/Fund columns are informational context only — they feed `master_score` upstream, not this composite directly.
 
-| # | Name | Composite | Master | Conv | Gap | Fund | Tech (wk/mo) | Ext vs 30W EMA | Ext vs 10M EMA | vs 52W Hi | Conv-only rank | Δ | Flags |
-|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| 1 ★ | Venus Remedies | **78.4** | 77 | 91 | 70 | 90 | 81/88 | +18.4% | +27.3% | -14.3% | 1 | 0 | PEAKED (-14.3% off 52W hi), DECELERATING |
-| 2 ★ | Macpower CNC Machines | **61.4** | 65 | 81 | 30 | 90 | 38/69 | +42.5% | +45.9% | -2.0% | 3 | ▲1 | - |
-| 3 ★ | Aeroflex Industries | **55.6** | 52 | 85 | 0 | 90 | 56/79 | +26.9% | +36.1% | -6.8% | 2 | ▼1 | FADING (-17pp ext/4wk) |
-| 4 ★ | Bansal Roofing Products | **54.2** | 46 | 53 | 6 | 88 | 66/95 | +26.9% | +20.3% | +0.0% | 5 | ▲1 | - |
-| 5 ★ | Yash Highvoltage | **53.6** | 50 | 49 | 37 | 70 | 54/77 | +33.8% | +37.7% | +0.0% | 6 | ▲1 | - |
-| 6 | Entero Healthcare Solutions | **44.8** | 37 | 61 | 33 | 90 | 57/82 | +32.1% | +32.6% | -0.3% | 4 | ▼2 | - |
-| 7 | L. T. Elevators | **37.5** | 35 | 36 | 24 | 70 | 66/15 | +26.7% | — | -11.2% | 7 | 0 | PEAKED (-11.2% off 52W hi) |
-| 8 | GPT Healthcare | **37.0** | 16 | 3 | 45 | 88 | 100/100 | +6.9% | +7.9% | -5.4% | 10 | ▲2 | - |
-| 9 | Haldyn Glass | **23.6** | 4 | 3 | 45 | 88 | 76/92 | +21.1% | +23.1% | -0.6% | 11 | ▲2 | - |
-| 10 | Asahi Songwon Colors | **21.3** | 3 | 3 | 45 | 88 | 61/100 | +29.9% | +22.8% | +0.0% | 9 | ▼1 | - |
-| 11 | Novartis India | **20.8** | 10 | 20 | 45 | 88 | 45/66 | +38.5% | +49.3% | -17.8% | 8 | ▼3 | PEAKED (-17.8% off 52W hi) |
+| # | Name | Composite | Master | Conv | Gap | Fund | Tech (wk/mo) | Ext vs 30W EMA | Ext vs 10M EMA | 30W Slope | vs 52W Hi | RS/13wk | Conv-only rank | Δ | Flags |
+|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| 1 ★ | Venus Remedies | **79.6** | 77 | 91 | 70 | 90 | 86/94 | +18.4% | +27.3% | +14.0% | -14.3% | -16.9pp | 1 | 0 | PEAKED (-14.3% off 52W hi), DECELERATING, LAGGING MARKET (-17pp vs benchmark/13wk) |
+| 2 ★ | Macpower CNC Machines | **64.7** | 65 | 81 | 30 | 90 | 53/79 | +42.5% | +45.9% | +30.0% | -2.0% | +76.1pp | 3 | ▲1 | LEADER (+76pp vs benchmark/13wk) |
+| 3 ★ | Aeroflex Industries | **57.5** | 52 | 85 | 0 | 90 | 63/88 | +26.9% | +36.1% | +20.2% | -6.8% | +10.1pp | 2 | ▼1 | FADING (-17pp ext/4wk) |
+| 4 ★ | Yash Highvoltage | **56.0** | 50 | 49 | 37 | 70 | 63/87 | +33.8% | +37.7% | +17.9% | +0.0% | +21.3pp | 6 | ▲2 | - |
+| 5 ★ | Bansal Roofing Products | **56.0** | 46 | 53 | 6 | 88 | 74/100 | +26.9% | +20.3% | +10.1% | +0.0% | +33.1pp | 5 | 0 | LEADER (+33pp vs benchmark/13wk) |
+| 6 | Entero Healthcare Solutions | **47.3** | 37 | 61 | 33 | 90 | 68/90 | +32.1% | +32.6% | +17.0% | -0.3% | +51.8pp | 4 | ▼2 | LEADER (+52pp vs benchmark/13wk) |
+| 7 | L. T. Elevators | **38.7** | 35 | 36 | 24 | 70 | 75/15 | +26.7% | — | +22.9% | -11.2% | +25.1pp | 7 | 0 | PEAKED (-11.2% off 52W hi) |
+| 8 | GPT Healthcare | **37.0** | 16 | 3 | 45 | 88 | 100/100 | +6.9% | +7.9% | +3.6% | -5.4% | +6.8pp | 10 | ▲2 | - |
+| 9 | Haldyn Glass | **25.4** | 4 | 3 | 45 | 88 | 84/98 | +21.1% | +23.1% | +12.2% | -0.6% | +20.5pp | 11 | ▲2 | - |
+| 10 | Asahi Songwon Colors | **23.0** | 3 | 3 | 45 | 88 | 72/100 | +29.9% | +22.8% | +16.7% | +0.0% | +54.8pp | 9 | ▼1 | LEADER (+55pp vs benchmark/13wk) |
+| 11 | Novartis India | **23.0** | 10 | 20 | 45 | 88 | 54/74 | +38.5% | +49.3% | +23.5% | -17.8% | +34.4pp | 8 | ▼3 | PEAKED (-17.8% off 52W hi), LEADER (+34pp vs benchmark/13wk) |
 
 *Out of pool:* Dynamic Cables (below 30W EMA -0.2%)
 
@@ -58,6 +58,9 @@ Scored fresh each run from live weekly + monthly technicals + the current `maste
 - `FAST-EXTENDING` — Ext vs 30W EMA has gained 25pp or more in the trailing 4 weeks — a blow-off in progress, independent of the absolute extension level (Novartis went +28%→+81.5% in ~1 week).
 - `EMA50 BREAK` — the *daily* 50-day EMA has already been broken, well before the slower weekly 30W EMA hard gate would trip.
 - `DECELERATING` — the daily 50-day EMA's own slope (trailing 20 days) has turned negative — the short-term trend is rolling over even though price is still above both EMAs.
+- `LEADER` / `LAGGING MARKET` — trailing-13-week return vs the Nifty Smallcap 250 benchmark (`30W Slope`/`RS/13wk` columns above) is at or above +30pp / at or below -15pp. Checked against Vikram Thermo (paper-trading's best swing performer, +83pp) and Novartis India (best standard-cohort performer, +34pp) vs Venus Remedies (-17pp) and Dynamic Cables (-25pp, the two worst) — sorting by this one number alone almost exactly reproduced the real return ranking, more cleanly than Ext-vs-EMA alone.
+
+**Trend quality** *(affects the Tech score, additive bonus, capped, never a penalty)* — Vikram Thermo and Novartis India shared three things beyond Ext-vs-EMA: a steeply rising EMA (`30W Slope` column), sitting at/near a fresh 52-week high (`vs 52W Hi`), and strong relative strength (`RS/13wk`). Dynamic Cables and Venus Remedies had none of the three. See `technical`/`technical_monthly`'s `slope_bonus_*`/`rs_bonus_*`/`near_high_*`/`trend_quality_cap` in `config.json` for the exact scaling.
 
 ---
 

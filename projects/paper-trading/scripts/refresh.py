@@ -96,6 +96,39 @@ def monthly_closes(symbol):
     return _yahoo(symbol, "15y", "1mo")
 
 # --------------------------------------------------------------------------- #
+# Relative strength vs the broad market -- Vikram Thermo/Novartis post-mortem #
+# --------------------------------------------------------------------------- #
+BENCHMARK_SYMBOL = "NIFTYSMLCAP250.NS"
+
+def _trailing_return_pct(rows, days):
+    if not rows or len(rows) < 2:
+        return None
+    last_d, last_p = rows[-1]
+    tgt = last_d - datetime.timedelta(days=days)
+    prior = None
+    for d, p in rows:
+        if d <= tgt:
+            prior = p
+    if prior is None:
+        prior = rows[0][1]
+    return (last_p / prior - 1) * 100.0 if prior else None
+
+def relative_strength_pct(symbol, days=91, benchmark=BENCHMARK_SYMBOL):
+    """Trailing `days`-return of symbol minus the same for the benchmark (default 13
+    weeks vs Nifty Smallcap 250) -- is this name actually LEADING the market, or just
+    drifting up with a broad rally? Checked against every name in the composite universe
+    plus Vikram Thermo (paper-trading's best swing performer): sorting purely by this one
+    number almost exactly reproduces the real return ranking -- Vikram Thermo +83pp,
+    Macpower +76pp, Novartis India +34pp at the top; Venus Remedies -17pp, Dynamic Cables
+    -25pp at the bottom -- a cleaner discriminator than Ext-vs-EMA alone, which doesn't
+    distinguish a genuine market-beating move from one that's merely riding a rising tide."""
+    r_sym = _trailing_return_pct(daily_series(symbol), days)
+    r_bench = _trailing_return_pct(daily_series(benchmark), days)
+    if r_sym is None or r_bench is None:
+        return None
+    return round(r_sym - r_bench, 1)
+
+# --------------------------------------------------------------------------- #
 # Technical: 30-week EMA (hard gate) + 10-month EMA (soft regime overlay)     #
 # --------------------------------------------------------------------------- #
 def ema(vals, span):
@@ -119,11 +152,16 @@ def _drop_in_progress_period(rows, period):
     closed = [r for r in rows if keyfn(r[0]) != cur]
     return closed if closed else rows[:-1]
 
-def weekly_technical(symbol):
+def weekly_technical(symbol, rel_strength=None, from_high=None):
     """Last completed weekly close vs the 30-week EMA. HARD GATE: ext_pct <= 0
     (close at/below the EMA) disqualifies the name from the concentrated pool
     entirely -- unchanged from the original single-timeframe design; this is the
-    discipline the user had prior success with, so it keeps its primacy."""
+    discipline the user had prior success with, so it keeps its primacy.
+
+    rel_strength / from_high (both optional, passed in by score_universe() so they're
+    computed once and shared with monthly_technical()) feed the trend-quality bonus
+    below -- see its comment for why Ext-vs-EMA alone missed Vikram Thermo/Novartis
+    India's actual combination of signals."""
     tcfg = CFG["technical"]
     span = CFG["ema_weeks"]
     rows = weekly_closes(symbol)
@@ -137,6 +175,12 @@ def weekly_technical(symbol):
     e = ema(vals, span)
     last_close, last_ema = vals[-1], e[-1]
     ext = (last_close - last_ema) / last_ema * 100.0
+    # slope: how fast the EMA ITSELF is climbing (trend velocity), not just how far price
+    # sits above it. Dynamic Cables/Venus Remedies had a flat-to-negative slope even while
+    # ext_pct was still nominally positive; Vikram Thermo/Novartis/Macpower all had one of
+    # the steepest slopes in the universe.
+    slope_look = tcfg.get("slope_lookback_weeks", 8)
+    ema_slope = round((e[-1] / e[-1 - slope_look] - 1) * 100.0, 1) if len(e) > slope_look and e[-1 - slope_look] else None
     look = tcfg["fresh_cross_lookback_weeks"]
     fresh = False
     for i in range(max(1, len(vals) - look), len(vals)):
@@ -179,10 +223,24 @@ def weekly_technical(symbol):
         # near the top) -- this fires on the *trend* of ext_pct, regardless of its level.
         if accel is not None and accel <= tcfg["fading_alert_pct"]:
             base -= tcfg["fading_penalty"]
+        # trend quality: Vikram Thermo (best swing performer) and Novartis India (best
+        # standard-cohort performer) shared three things Ext-vs-EMA alone doesn't capture --
+        # a steeply RISING 30W EMA (ema_slope), sitting at/near a fresh 52-week high
+        # (from_high), and strong relative strength vs the broad market (rel_strength).
+        # Dynamic Cables/Venus Remedies had none of the three. Additive, capped, and only
+        # ever a BONUS -- absence of data (None) is neutral, never a penalty.
+        tq = 0.0
+        if ema_slope is not None and ema_slope > 0:
+            tq += min(ema_slope, tcfg["slope_bonus_cap_pct"]) * tcfg["slope_bonus_per_pct"]
+        if rel_strength is not None and rel_strength > 0:
+            tq += min(rel_strength, tcfg["rs_bonus_cap_pct"]) * tcfg["rs_bonus_per_pct"]
+        if from_high is not None and from_high >= -tcfg["near_high_pct"]:
+            tq += tcfg["near_high_bonus"]
+        base += min(tq, tcfg["trend_quality_cap"])
         score = max(0.0, min(100.0, base))
     return {"ext_pct": round(ext, 1), "fresh_cross": fresh, "score": None if score is None else round(score, 1),
             "ema": round(last_ema, 2), "close": round(last_close, 2), "as_of": dates[-1].isoformat(), "note": "",
-            "accel_pct": accel}
+            "accel_pct": accel, "ema_slope_pct": ema_slope}
 
 def high_drawdown_pct(symbol):
     """% off the trailing N-week high (completed weekly closes only), N = flags.high_lookback_weeks
@@ -217,12 +275,15 @@ def fast_ema_posture(symbol):
     slope = (e[-1] / e[-1 - look] - 1) * 100.0 if len(e) > look else None
     return {"ext_pct": round(ext, 1), "slope_pct": None if slope is None else round(slope, 1)}
 
-def monthly_technical(symbol):
+def monthly_technical(symbol, rel_strength=None, from_high=None):
     """Last completed monthly close vs the 10-month EMA -- a slower regime filter
     (Faber/GTAA-style), not a trade trigger. NEVER disqualifies from the pool
     (unlike weekly): a name below its monthly EMA just scores near base_floor,
     since a weekly pullback inside a longer monthly uptrend is normal and the
-    weekly gate above already handles the hard exit discipline."""
+    weekly gate above already handles the hard exit discipline.
+
+    rel_strength / from_high: see weekly_technical()'s docstring -- same trend-quality
+    bonus, scoped to the monthly regime line."""
     tcfg = CFG["technical_monthly"]
     span = CFG["ema_months"]
     rows = monthly_closes(symbol)
@@ -236,6 +297,8 @@ def monthly_technical(symbol):
     e = ema(vals, span)
     last_close, last_ema = vals[-1], e[-1]
     ext = (last_close - last_ema) / last_ema * 100.0
+    slope_look = tcfg.get("slope_lookback_months", 3)
+    ema_slope = round((e[-1] / e[-1 - slope_look] - 1) * 100.0, 1) if len(e) > slope_look and e[-1 - slope_look] else None
     look = tcfg["fresh_cross_lookback_months"]
     fresh = False
     for i in range(max(1, len(vals) - look), len(vals)):
@@ -267,10 +330,18 @@ def monthly_technical(symbol):
             base -= tcfg["overextended_penalty"]
         if accel is not None and accel <= tcfg["fading_alert_pct"]:
             base -= tcfg["fading_penalty"]
+        tq = 0.0
+        if ema_slope is not None and ema_slope > 0:
+            tq += min(ema_slope, tcfg["slope_bonus_cap_pct"]) * tcfg["slope_bonus_per_pct"]
+        if rel_strength is not None and rel_strength > 0:
+            tq += min(rel_strength, tcfg["rs_bonus_cap_pct"]) * tcfg["rs_bonus_per_pct"]
+        if from_high is not None and from_high >= -tcfg["near_high_pct"]:
+            tq += tcfg["near_high_bonus"]
+        base += min(tq, tcfg["trend_quality_cap"])
         score = max(0.0, min(100.0, base))
     return {"ext_pct": round(ext, 1), "fresh_cross": fresh, "score": round(max(0.0, min(100.0, score)), 1),
             "ema": round(last_ema, 2), "close": round(last_close, 2), "as_of": dates[-1].isoformat(), "note": "",
-            "accel_pct": accel}
+            "accel_pct": accel, "ema_slope_pct": ema_slope}
 
 # --------------------------------------------------------------------------- #
 # Fundamental screen-tier sub-score                                          #
@@ -371,11 +442,12 @@ def score_universe():
         conv, conv_basis, rft = conviction(slug)
         g, g_basis = gap(slug)
         m, m_basis = master_score(slug)
-        wk = weekly_technical(sym)
-        mo = monthly_technical(sym)
+        from_hi = high_drawdown_pct(sym)
+        rel_strength = relative_strength_pct(sym)
+        wk = weekly_technical(sym, rel_strength, from_hi)
+        mo = monthly_technical(sym, rel_strength, from_hi)
         fund = fundamental(name, slug, rft)
         excluded = name in CFG["hard_excluded"]
-        from_hi = high_drawdown_pct(sym)
         fast = fast_ema_posture(sym)
         # the weekly EMA break remains the ONLY technical pool gate -- monthly is a
         # regime overlay on the score, never a disqualifier (see monthly_technical docstring)
@@ -396,6 +468,13 @@ def score_universe():
                 flags.append("EMA50 BREAK")
             elif fast["slope_pct"] is not None and fast["slope_pct"] < 0:
                 flags.append("DECELERATING")
+            # trend-quality leadership/laggard read -- Vikram Thermo/Novartis India (best
+            # performers) both ran far ahead of the Nifty Smallcap 250; Venus Remedies/
+            # Dynamic Cables (worst) both lagged it, even while nominally still up.
+            if rel_strength is not None and rel_strength <= fcfg["lagging_market_pct"]:
+                flags.append(f"LAGGING MARKET ({rel_strength:+.0f}pp vs benchmark/13wk)")
+            elif rel_strength is not None and rel_strength >= fcfg["leader_pct"]:
+                flags.append(f"LEADER (+{rel_strength:.0f}pp vs benchmark/13wk)")
         wk_for_blend = wk["score"] if wk["score"] is not None else 0.0
         mo_for_blend = mo["score"] if mo["score"] is not None else 0.0
         tech_blend = tw["weekly"] * wk_for_blend + tw["monthly"] * mo_for_blend
@@ -414,6 +493,7 @@ def score_universe():
             "ema_monthly": mo["ema"], "monthly_close": mo["close"], "tech_as_of_monthly": mo.get("as_of"),
             "accel_pct": wk.get("accel_pct"), "from_52w_hi_pct": from_hi,
             "ema50_ext_pct": fast["ext_pct"], "ema50_slope_pct": fast["slope_pct"],
+            "ema_slope_pct": wk.get("ema_slope_pct"), "rel_strength_pct": rel_strength,
             "flags": flags,
             "composite": round(composite, 2),
             "in_pool": in_pool, "excluded": excluded,
@@ -882,21 +962,23 @@ def write_tracker(data, cohorts_doc):
     a("Scored fresh each run from live weekly + monthly technicals + the current `master_score` "
       "(all of which other scheduled tasks keep updating). Conv/Gap/Fund columns are informational "
       "context only — they feed `master_score` upstream, not this composite directly.\n")
-    a("| # | Name | Composite | Master | Conv | Gap | Fund | Tech (wk/mo) | Ext vs 30W EMA | Ext vs 10M EMA | vs 52W Hi | Conv-only rank | Δ | Flags |")
-    a("|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|")
+    a("| # | Name | Composite | Master | Conv | Gap | Fund | Tech (wk/mo) | Ext vs 30W EMA | Ext vs 10M EMA | 30W Slope | vs 52W Hi | RS/13wk | Conv-only rank | Δ | Flags |")
+    a("|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|")
     pool = sorted([r for r in data["universe"] if r["in_pool"]], key=lambda r: r["composite_rank"])
     for r in pool:
         ext = "—" if r["ext_pct"] is None else f"{r['ext_pct']:+.1f}%"
         ext_mo = "—" if r["ext_pct_monthly"] is None else f"{r['ext_pct_monthly']:+.1f}%"
         wk_mo = f"{r['weekly_technical']:.0f}/{r['monthly_technical']:.0f}" if r["weekly_technical"] is not None else "—"
+        slope = "—" if r["ema_slope_pct"] is None else f"{r['ema_slope_pct']:+.1f}%"
         hi = "—" if r["from_52w_hi_pct"] is None else f"{r['from_52w_hi_pct']:+.1f}%"
+        rs = "—" if r["rel_strength_pct"] is None else f"{r['rel_strength_pct']:+.1f}pp"
         dd = r["rank_delta"]
         darr = "—" if dd is None else (f"▲{dd}" if dd > 0 else (f"▼{-dd}" if dd < 0 else "0"))
         star = " ★" if r["composite_rank"] <= len(CFG["concentrated_rank_weights_by_slot"]) else ""
         flagtxt = ", ".join(r["flags"]) if r["flags"] else "-"
         a(f"| {r['composite_rank']}{star} | {r['name']} | **{r['composite']:.1f}** | {r['master']:.0f} | "
           f"{r['conviction']:.0f} | {r['gap']:.0f} | {r['fundamental']:.0f} | {wk_mo} | "
-          f"{ext} | {ext_mo} | {hi} | {r['conviction_rank']} | {darr} | {flagtxt} |")
+          f"{ext} | {ext_mo} | {slope} | {hi} | {rs} | {r['conviction_rank']} | {darr} | {flagtxt} |")
     out = [r for r in data["universe"] if not r["in_pool"]]
     if out:
         a("")
@@ -934,7 +1016,19 @@ def write_tracker(data, cohorts_doc):
       "well before the slower weekly 30W EMA hard gate would trip.")
     a(f"- `DECELERATING` — the daily {fcfg['ema_fast_span_days']}-day EMA's own slope (trailing "
       f"{fcfg['ema_fast_slope_lookback_days']} days) has turned negative — the short-term trend is rolling "
-      "over even though price is still above both EMAs.\n")
+      "over even though price is still above both EMAs.")
+    a(f"- `LEADER` / `LAGGING MARKET` — trailing-13-week return vs the Nifty Smallcap 250 benchmark "
+      f"(`30W Slope`/`RS/13wk` columns above) is at or above +{fcfg['leader_pct']}pp / at or below "
+      f"{fcfg['lagging_market_pct']}pp. Checked against Vikram Thermo (paper-trading's best swing "
+      "performer, +83pp) and Novartis India (best standard-cohort performer, +34pp) vs Venus Remedies "
+      "(-17pp) and Dynamic Cables (-25pp, the two worst) — sorting by this one number alone almost exactly "
+      "reproduced the real return ranking, more cleanly than Ext-vs-EMA alone.\n")
+    a("**Trend quality** *(affects the Tech score, additive bonus, capped, never a penalty)* — Vikram "
+      "Thermo and Novartis India shared three things beyond Ext-vs-EMA: a steeply rising EMA (`30W Slope` "
+      "column), sitting at/near a fresh 52-week high (`vs 52W Hi`), and strong relative strength "
+      "(`RS/13wk`). Dynamic Cables and Venus Remedies had none of the three. See `technical`/"
+      "`technical_monthly`'s `slope_bonus_*`/`rs_bonus_*`/`near_high_*`/`trend_quality_cap` in "
+      "`config.json` for the exact scaling.\n")
     a("---\n")
     for c in data["cohorts"]:
         a(f"## Cohort: {c['week_id']} ({c['series']})\n")
@@ -1099,6 +1193,7 @@ section{margin:34px 0 0}
 .chips{margin-top:12px; display:flex; flex-direction:column; gap:5px; font-size:12px}
 .chip{display:flex; justify-content:space-between; gap:10px}
 .chip .nm{color:var(--ink-2); overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.flagpill{display:inline-block; font-size:10.5px; font-weight:600; padding:1px 7px; border-radius:999px; background:var(--surface-2); color:var(--ink-2); white-space:nowrap; margin:1px 0}
 
 .panel{background:var(--surface); border:1px solid var(--edge); border-radius:var(--radius); padding:20px; box-shadow:var(--shadow)}
 .grid-2{display:grid; grid-template-columns:1.35fr 1fr; gap:18px}
@@ -1476,6 +1571,8 @@ document.getElementById('cards-note').textContent = D.cohorts.length + ' running
         <td class="num ${h.return_pct>=0?'pos':'neg'}">${pct(h.return_pct)}</td>
         <td class="num ${near?'neg':''}">${h.dist_to_stop_pct==null?'—':(h.dist_to_stop_pct>=0?'+':'')+h.dist_to_stop_pct.toFixed(1)+'%'}</td>
         <td class="num">${h.ext_vs_30w_ema_pct==null?'—':(h.ext_vs_30w_ema_pct>=0?'+':'')+h.ext_vs_30w_ema_pct.toFixed(0)+'%'}</td>
+        <td class="num ${h.ema_slope_pct>=0?'pos':'neg'}">${h.ema_slope_pct==null?'—':(h.ema_slope_pct>=0?'+':'')+h.ema_slope_pct.toFixed(1)+'%'}</td>
+        <td class="num ${h.rel_strength_pct>=0?'pos':'neg'}">${h.rel_strength_pct==null?'—':(h.rel_strength_pct>=0?'+':'')+h.rel_strength_pct.toFixed(1)+'pp'}</td>
         <td class="sub">${fl||'—'}</td>
       </tr>`;
     }).join('');
@@ -1497,7 +1594,7 @@ document.getElementById('cards-note').textContent = D.cohorts.length + ' running
       </div>
       <div style="margin-top:12px">${flagBadges||'<span class="sub">no rule flags active</span>'}</div>
       <div class="scroll" style="margin-top:14px"><table>
-        <thead><tr><th>Holding</th><th>Wt%</th><th>Entry</th><th>Price</th><th>1-Day</th><th>Return</th><th>To stop</th><th>vs EMA</th><th>Flags</th></tr></thead>
+        <thead><tr><th>Holding</th><th>Wt%</th><th>Entry</th><th>Price</th><th>1-Day</th><th>Return</th><th>To stop</th><th>vs EMA</th><th>30W Slope</th><th>RS/13wk</th><th>Flags</th></tr></thead>
         <tbody>${hrows}</tbody>
       </table></div>
     </div>`;
@@ -1678,8 +1775,12 @@ lineChart();
       <td class="num">${r.monthly_technical==null?'—':r.monthly_technical.toFixed(0)}</td>
       <td class="num ${r.ext_pct>=0?'pos':'neg'}">${r.ext_pct==null?'—':(r.ext_pct>=0?'+':'')+r.ext_pct.toFixed(1)+'%'}</td>
       <td class="num ${r.ext_pct_monthly>=0?'pos':'neg'}">${r.ext_pct_monthly==null?'—':(r.ext_pct_monthly>=0?'+':'')+r.ext_pct_monthly.toFixed(1)+'%'}</td>
+      <td class="num ${r.ema_slope_pct>=0?'pos':'neg'}">${r.ema_slope_pct==null?'—':(r.ema_slope_pct>=0?'+':'')+r.ema_slope_pct.toFixed(1)+'%'}</td>
+      <td class="num ${r.from_52w_hi_pct>=-5?'pos':'neg'}">${r.from_52w_hi_pct==null?'—':(r.from_52w_hi_pct>=0?'+':'')+r.from_52w_hi_pct.toFixed(1)+'%'}</td>
+      <td class="num ${r.rel_strength_pct>=0?'pos':'neg'}">${r.rel_strength_pct==null?'—':(r.rel_strength_pct>=0?'+':'')+r.rel_strength_pct.toFixed(1)+'pp'}</td>
       <td class="num">${r.conviction_rank}</td>
       <td class="num">${darr}</td>
+      <td>${r.flags && r.flags.length? r.flags.map(f=>`<span class="flagpill">${f}</span>`).join(' ') : '-'}</td>
     </tr>`;
   }).join('');
   const outrow = outp.length? `<p class="sub" style="margin:10px 0 0">Out of pool: ` + outp.map(r=>
@@ -1690,9 +1791,10 @@ lineChart();
       <span><i style="background:var(--s2)"></i>technical ×${W.technical} <span class="sub">(wk ${D.technical_weights?.weekly ?? '0.6'} / mo ${D.technical_weights?.monthly ?? '0.4'})</span></span>
     </div>
     <div class="scroll"><table>
-      <thead><tr><th>Rank / name</th><th>Comp</th><th>Master</th><th>Conv</th><th>Gap</th><th>Tech-wk</th><th>Tech-mo</th><th>vs 30W EMA</th><th>vs 10M EMA</th><th>Conv-rk</th><th>Δ</th></tr></thead>
+      <thead><tr><th>Rank / name</th><th>Comp</th><th>Master</th><th>Conv</th><th>Gap</th><th>Tech-wk</th><th>Tech-mo</th><th>vs 30W EMA</th><th>vs 10M EMA</th><th>30W Slope</th><th>vs 52W Hi</th><th>RS/13wk</th><th>Conv-rk</th><th>Δ</th><th>Flags</th></tr></thead>
       <tbody>${rows}</tbody>
-    </table></div>${outrow}`;
+    </table></div>${outrow}
+    <p class="sub" style="margin-top:8px">Flags: THIN CUSHION / FADING affect the Tech score itself; PEAKED / FAST-EXTENDING / EMA50 BREAK / DECELERATING / LEADER / LAGGING MARKET are advisory annotations. See RETURNS_TRACKER.md for the full legend.</p>`;
 })();
 
 /* ---- methodology ---- */

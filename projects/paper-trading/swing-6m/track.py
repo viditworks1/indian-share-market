@@ -66,8 +66,12 @@ def weekly_ema_posture(sym, span=30):
     if len(vals) > look_v and e[-1 - look_v]:
         ext_prior = (vals[-1 - look_v] - e[-1 - look_v]) / e[-1 - look_v] * 100.0
         accel = round(ext - ext_prior, 1)
+    # trend velocity of the EMA itself (Vikram Thermo/Novartis India post-mortem -- see
+    # weekly_technical()'s docstring in refresh.py for the full combination this belongs to).
+    slope_look = rf.CFG["technical"].get("slope_lookback_weeks", 8)
+    slope = round((e[-1] / e[-1 - slope_look] - 1) * 100.0, 1) if len(e) > slope_look and e[-1 - slope_look] else None
     return {"ext_pct": round(ext, 1), "ema": round(e[-1], 2), "below_2_weeks": below2,
-            "as_of": closed[-1][0].isoformat(), "accel_pct": accel}
+            "as_of": closed[-1][0].isoformat(), "accel_pct": accel, "ema_slope_pct": slope}
 
 
 def market_regime():
@@ -133,6 +137,15 @@ def mark_cohort(c, prev_snap, today):
         # comfortably positive -- fading momentum, well before any EMA break.
         if post and post.get("accel_pct") is not None and post["accel_pct"] <= tcfg["fading_alert_pct"]:
             flags.append(f"FADING ({post['accel_pct']:+.0f}pp ext/{rf.CFG['flags']['velocity_lookback_weeks']}wk)")
+        # Vikram Thermo/Novartis India post-mortem (refresh.py's weekly_technical() docstring):
+        # relative strength vs the broad market is a cleaner leadership read than Ext-vs-EMA
+        # alone -- a name can sit above its EMA while still quietly losing to the benchmark.
+        rs13 = rf.relative_strength_pct(sym)
+        fcfg = rf.CFG["flags"]
+        if rs13 is not None and rs13 <= fcfg["lagging_market_pct"]:
+            flags.append(f"LAGGING MARKET ({rs13:+.0f}pp vs benchmark/13wk)")
+        elif rs13 is not None and rs13 >= fcfg["leader_pct"]:
+            flags.append(f"LEADER (+{rs13:.0f}pp vs benchmark/13wk)")
         rows.append({
             "name": h["name"], "symbol": sym, "weight_pct": h["weight_pct"],
             "entry_price": h["entry_price"], "price": round(price, 2), "as_of": pdate.isoformat() if pdate else None,
@@ -140,6 +153,7 @@ def mark_cohort(c, prev_snap, today):
             "return_pct": round(ret_pct, 2), "day_change_pct": None if day_pct is None else round(day_pct, 2),
             "hard_stop": h["hard_stop"], "dist_to_stop_pct": round(dist_stop, 1),
             "ext_vs_30w_ema_pct": post["ext_pct"] if post else None,
+            "ema_slope_pct": post.get("ema_slope_pct") if post else None, "rel_strength_pct": rs13,
             "catalyst": h.get("catalyst", ""), "flags": flags,
         })
     cash = c["cash"]
@@ -225,11 +239,15 @@ def write_tracker(marked, hist):
       "`swing_screen.py`), sized once and then never rebalanced -- same append-only pattern as "
       "`paper-trading/cohorts.json`'s standard/concentrated series, just for the swing methodology. Each "
       "cohort carries its own 6-month horizon and per-holding -16% hard stops; this script never trades, "
-      "it only surfaces rule flags (STOP HIT / NEAR STOP / EMA BREAK / EXTENDED / THIN CUSHION / FADING) "
-      "for the monthly review or an ad-hoc call. `THIN CUSHION` (Dynamic Cables: sat at +1.3%/+1.7% vs its "
-      "30W EMA for weeks before breaking below it) and `FADING` (Venus Remedies: ext vs 30W EMA decayed "
-      "+24.9%→+17.8%→+10.6% over three straight weekly reads while still positive) are early-warning reads "
-      "on a name that hasn't tripped EMA BREAK or a stop yet. Reference: `SWING_6M_PORTFOLIO.md`.\n")
+      "it only surfaces rule flags (STOP HIT / NEAR STOP / EMA BREAK / EXTENDED / THIN CUSHION / FADING / "
+      "LEADER / LAGGING MARKET) for the monthly review or an ad-hoc call. `THIN CUSHION` (Dynamic Cables: "
+      "sat at +1.3%/+1.7% vs its 30W EMA for weeks before breaking below it) and `FADING` (Venus Remedies: "
+      "ext vs 30W EMA decayed +24.9%→+17.8%→+10.6% over three straight weekly reads while still positive) "
+      "are early-warning reads on a name that hasn't tripped EMA BREAK or a stop yet. `LEADER`/`LAGGING "
+      "MARKET` (Vikram Thermo +83pp / Novartis India +34pp vs the benchmark at the top; Venus Remedies "
+      "-17pp / Dynamic Cables -25pp at the bottom) check relative strength vs the Nifty Smallcap 250 -- a "
+      "name can sit above its 30W EMA while still quietly losing to the broad market. Reference: "
+      "`SWING_6M_PORTFOLIO.md`.\n")
     regime = marked[0].get("market_regime") if marked else None
     if regime and regime.get("available"):
         tag = "**DOWNTREND -- see section 5's market-regime overlay**" if regime["downtrend"] else "ok, no overlay"
@@ -256,16 +274,18 @@ def write_tracker(marked, hist):
         if b:
             a(f"Benchmark: {b['label']} ({b['symbol']}) {b['return_pct']:+.2f}% since entry -- "
               f"**alpha {m['alpha_pct']:+.2f} pp**.\n")
-        a("| Holding | Wt% | Entry | Price | Return | 1-Day | Value | Dist to stop | vs 30W EMA | Flags |")
-        a("|---|---|---|---|---|---|---|---|---|---|")
+        a("| Holding | Wt% | Entry | Price | Return | 1-Day | Value | Dist to stop | vs 30W EMA | 30W Slope | RS/13wk | Flags |")
+        a("|---|---|---|---|---|---|---|---|---|---|---|---|")
         for r in sorted(m["holdings"], key=lambda z: -z["return_pct"]):
             dd = "" if r["day_change_pct"] is None else f"{r['day_change_pct']:+.2f}%"
             st = " *" if r["stale"] else ""
+            slope = "—" if r.get("ema_slope_pct") is None else f"{r['ema_slope_pct']:+.1f}%"
+            rs = "—" if r.get("rel_strength_pct") is None else f"{r['rel_strength_pct']:+.1f}pp"
             a(f"| {r['name']}{st} | {r['weight_pct']} | {r['entry_price']:.2f} | {r['price']:.2f} | "
               f"{r['return_pct']:+.2f}% | {dd} | {r['value']:,.0f} | {r['dist_to_stop_pct']:+.1f}% | "
-              f"{r['ext_vs_30w_ema_pct']} | {', '.join(r['flags']) or '-'} |")
+              f"{r['ext_vs_30w_ema_pct']} | {slope} | {rs} | {', '.join(r['flags']) or '-'} |")
         a(f"| **Total** | | | | **{m['port_return_pct']:+.2f}%** | | **{m['invested_value']:,.0f}** + "
-          f"{m['cash']:,.0f} cash | | | |")
+          f"{m['cash']:,.0f} cash | | | | | |")
         if m["flags"]:
             a("\n**Rule flags active:** " + ", ".join(m["flags"]) + " -- act at the monthly review or ad hoc.")
         a("")
