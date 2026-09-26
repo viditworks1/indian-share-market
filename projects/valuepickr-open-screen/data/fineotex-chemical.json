@@ -3,13 +3,34 @@
   "tagline": "DUPLICATE SEED of slug 'fcl' (Fineotex Chemical Ltd, NSE: FCL) - same listed company, seeded independently via a different untrusted X handle. Mirrors fcl's verdict verbatim; integrator should merge/dedupe in state.json.",
   "business_overview": "This slug (fineotex-chemical) and the existing slug 'fcl' both resolve to the same listed entity: Fineotex Chemical Ltd (NSE: FCL, BSE: 533333), Mumbai-based speciality-chemicals maker for textiles, construction, water treatment, fertilizer, leather and paint industries. 'fcl' was already researched in this project (seeded via @JakeraChoudhury, untrusted X). This slug was seeded independently via @RupakRoyC (also untrusted X), same-day (2026-09-13), pointing at the same company under a different name string. DUPLICATE - not re-researched from scratch; disposition mirrors fcl exactly. See data/fcl.json for the full write-up.",
   "fundamentals_table": [
-    ["Market cap", "~Rs 6,722 Cr (per one aggregator source - not independently cross-verified; see fcl.json)"],
-    ["Revenue / Profit (FY26)", "~Rs 1,012 Cr / ~Rs 148 Cr"],
-    ["ROE (FY26)", "~13.3%, vs 5-year median ~21.2%"],
-    ["ROCE (FY26)", "~16.5%, vs 5-year median ~27.3%"],
-    ["Revenue growth (FY26)", "~-9.6% YoY, vs 5-year CAGR ~25.1%"],
-    ["52-week range", "~Rs 18.98 - Rs 44.45"],
-    ["Promoter holding", "~62.3%, 0% pledged"]
+    [
+      "Market cap",
+      "~Rs 6,722 Cr (per one aggregator source - not independently cross-verified; see fcl.json)"
+    ],
+    [
+      "Revenue / Profit (FY26)",
+      "~Rs 1,012 Cr / ~Rs 148 Cr"
+    ],
+    [
+      "ROE (FY26)",
+      "~13.3%, vs 5-year median ~21.2%"
+    ],
+    [
+      "ROCE (FY26)",
+      "~16.5%, vs 5-year median ~27.3%"
+    ],
+    [
+      "Revenue growth (FY26)",
+      "~-9.6% YoY, vs 5-year CAGR ~25.1%"
+    ],
+    [
+      "52-week range",
+      "~Rs 18.98 - Rs 44.45"
+    ],
+    [
+      "Promoter holding",
+      "~62.3%, 0% pledged"
+    ]
   ],
   "fundamentals_narrative": "Duplicate of fcl - see data/fcl.json for the full fundamentals narrative (FY26 revenue contraction ~-9.6% YoY and ROE/ROCE both well below 5-year medians, despite a strong historical track record).",
   "technical_read": "Duplicate of fcl - not independently pulled for this slug.",
@@ -45,5 +66,6 @@
     "note": "Mirrors fcl.json exactly: FY26 revenue contraction (-9.6% YoY) and ROE/ROCE both well below their 5-year medians indicate a business decelerating, not inflecting - hard-neither band."
   },
   "value_chain": null,
-  "duplicate_of": "fcl"
+  "duplicate_of": "fcl",
+  "last_post_number_analyzed": 0
 }

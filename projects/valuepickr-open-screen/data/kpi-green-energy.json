@@ -72,7 +72,7 @@
     "moat": "weak",
     "valuation": "weak",
     "score": 3.0,
-    "note": "3.61 GW order book + ~4.64 GW under execution + management's 10GW-by-2030 target is a real renewable-IPP tailwind and tam against a ~Rs5,526cr market cap; no distinct moat for a commodity solar/wind IPP-EPC model — weak; stock near a 52-wk low after a ~48% correction but the ~12x P/E is compensation for now-confirmed leverage risk (D/E ~1.5-1.7x, borrowings ~4x'd in FY26) and a 44.7%-pledged promoter stake, not a clean mispricing — valuation weak."
+    "note": "3.61 GW order book + ~4.64 GW under execution + management's 10GW-by-2030 target is a real renewable-IPP tailwind and tam against a ~Rs5,526cr market cap; no distinct moat for a commodity solar/wind IPP-EPC model \u2014 weak; stock near a 52-wk low after a ~48% correction but the ~12x P/E is compensation for now-confirmed leverage risk (D/E ~1.5-1.7x, borrowings ~4x'd in FY26) and a 44.7%-pledged promoter stake, not a clean mispricing \u2014 valuation weak."
   },
   "market_expectation": {
     "as_of": "2026-09-19",
@@ -91,31 +91,113 @@
     "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   },
   "commitments": [
-    { "area": "capacity", "text": "Reach 10 GW renewable capacity by 2030", "specifics": "vs ~4.74 GW company-level / ~8.52 GW KP-Group-level installed+under-execution as of Mar 2026", "timeline_bucket": "beyond", "quality_stage": "expectation", "source": "FY26 results presentation / investor commentary (May 2026)", "dependency": "continued access to debt/equity funding given already-elevated leverage", "single_point_of_failure": "further capital-raise capacity while D/E is already ~1.5-1.7x and part of the promoter stake is pledged", "thesis_critical": true },
-    { "area": "orders", "text": "3.61 GW order book provides multi-year revenue visibility", "specifics": "3.61 GW order book disclosed with FY26 results", "timeline_bucket": "FY28", "quality_stage": "commercial", "source": "FY26 results presentation (May 2026)", "dependency": "project execution/commissioning timeline", "single_point_of_failure": "", "thesis_critical": true },
-    { "area": "capacity", "text": "~4.64 GW under execution to come online, ramping revenue and diluting the finance-cost drag", "specifics": "installed ~1.62 GW + ~4.64 GW under execution as of Mar 2026", "timeline_bucket": "12M", "quality_stage": "operational", "source": "FY26 results presentation", "dependency": "commissioning schedule, grid connectivity, input-cost environment", "single_point_of_failure": "execution timing (echoes the VP forum's Paulbiplab comment that timing, not fundamentals, explains the correction)", "thesis_critical": true },
-    { "area": "margin", "text": "PAT growth to reconnect with revenue/EBITDA growth as new capacity's revenue ramps and finance-cost drag eases", "specifics": "Q1 FY27 PAT -14% YoY on higher depreciation/finance costs despite EBITDA margin holding ~35-37%", "timeline_bucket": "6M", "quality_stage": "expectation", "source": "Q1 FY27 results commentary (Aug/Sep 2026)", "dependency": "new capacity monetising on schedule; steel/cable/logistics input costs normalising", "single_point_of_failure": "", "thesis_critical": true },
-    { "area": "balance_sheet", "text": "Promoter pledge (44.7% of the ~49% stake) to be released", "specifics": "SBI sanction states release by March 2027 on completion of current projects", "timeline_bucket": "beyond", "quality_stage": "expectation", "source": "lender sanction letter commentary (2026)", "dependency": "on-schedule project completion and refinancing", "single_point_of_failure": "project completion timeline", "thesis_critical": false }
+    {
+      "area": "capacity",
+      "text": "Reach 10 GW renewable capacity by 2030",
+      "specifics": "vs ~4.74 GW company-level / ~8.52 GW KP-Group-level installed+under-execution as of Mar 2026",
+      "timeline_bucket": "beyond",
+      "quality_stage": "expectation",
+      "source": "FY26 results presentation / investor commentary (May 2026)",
+      "dependency": "continued access to debt/equity funding given already-elevated leverage",
+      "single_point_of_failure": "further capital-raise capacity while D/E is already ~1.5-1.7x and part of the promoter stake is pledged",
+      "thesis_critical": true
+    },
+    {
+      "area": "orders",
+      "text": "3.61 GW order book provides multi-year revenue visibility",
+      "specifics": "3.61 GW order book disclosed with FY26 results",
+      "timeline_bucket": "FY28",
+      "quality_stage": "commercial",
+      "source": "FY26 results presentation (May 2026)",
+      "dependency": "project execution/commissioning timeline",
+      "single_point_of_failure": "",
+      "thesis_critical": true
+    },
+    {
+      "area": "capacity",
+      "text": "~4.64 GW under execution to come online, ramping revenue and diluting the finance-cost drag",
+      "specifics": "installed ~1.62 GW + ~4.64 GW under execution as of Mar 2026",
+      "timeline_bucket": "12M",
+      "quality_stage": "operational",
+      "source": "FY26 results presentation",
+      "dependency": "commissioning schedule, grid connectivity, input-cost environment",
+      "single_point_of_failure": "execution timing (echoes the VP forum's Paulbiplab comment that timing, not fundamentals, explains the correction)",
+      "thesis_critical": true
+    },
+    {
+      "area": "margin",
+      "text": "PAT growth to reconnect with revenue/EBITDA growth as new capacity's revenue ramps and finance-cost drag eases",
+      "specifics": "Q1 FY27 PAT -14% YoY on higher depreciation/finance costs despite EBITDA margin holding ~35-37%",
+      "timeline_bucket": "6M",
+      "quality_stage": "expectation",
+      "source": "Q1 FY27 results commentary (Aug/Sep 2026)",
+      "dependency": "new capacity monetising on schedule; steel/cable/logistics input costs normalising",
+      "single_point_of_failure": "",
+      "thesis_critical": true
+    },
+    {
+      "area": "balance_sheet",
+      "text": "Promoter pledge (44.7% of the ~49% stake) to be released",
+      "specifics": "SBI sanction states release by March 2027 on completion of current projects",
+      "timeline_bucket": "beyond",
+      "quality_stage": "expectation",
+      "source": "lender sanction letter commentary (2026)",
+      "dependency": "on-schedule project completion and refinancing",
+      "single_point_of_failure": "project completion timeline",
+      "thesis_critical": false
+    }
   ],
   "earnings_chain": {
-    "chain": ["order book (3.61 GW) + capacity under execution (~4.64 GW)", "commissioning/COD on schedule", "revenue growth (IPP tariff + EPC billing)", "operating leverage vs input-cost & finance-cost drag", "EBITDA margin ~35-37%", "PAT"],
+    "chain": [
+      "order book (3.61 GW) + capacity under execution (~4.64 GW)",
+      "commissioning/COD on schedule",
+      "revenue growth (IPP tariff + EPC billing)",
+      "operating leverage vs input-cost & finance-cost drag",
+      "EBITDA margin ~35-37%",
+      "PAT"
+    ],
     "bottleneck_link": "commissioning schedule vs finance-cost/depreciation drag from the FY26 debt-funded capex build",
-    "operating_leverage": "unclear — EBITDA margin has held/expanded YoY (Q1 FY27 ~35-37% vs ~34-35% a year earlier) but PAT fell 14% YoY as depreciation and interest costs from the debt-funded build-out outpaced revenue growth",
-    "evidenced_links": ["order book (3.61 GW)", "capacity under execution (~4.64 GW)", "revenue growth", "EBITDA margin holding YoY"],
-    "assumed_links": ["operating leverage translating to PAT growth", "pledge release by March 2027"]
+    "operating_leverage": "unclear \u2014 EBITDA margin has held/expanded YoY (Q1 FY27 ~35-37% vs ~34-35% a year earlier) but PAT fell 14% YoY as depreciation and interest costs from the debt-funded build-out outpaced revenue growth",
+    "evidenced_links": [
+      "order book (3.61 GW)",
+      "capacity under execution (~4.64 GW)",
+      "revenue growth",
+      "EBITDA margin holding YoY"
+    ],
+    "assumed_links": [
+      "operating leverage translating to PAT growth",
+      "pledge release by March 2027"
+    ]
   },
-  "catalyst": { "event": "Q2/Q3 FY27 results showing whether PAT growth reconnects with revenue/EBITDA growth (resolving the temporary-vs-structural question) plus visible progress toward the March 2027 promoter-pledge release", "expected_window_months": 6, "window_start": "2026-09-19", "evidence_quality": "med", "is_dated": false, "status": "pending" },
+  "catalyst": {
+    "event": "Q2/Q3 FY27 results showing whether PAT growth reconnects with revenue/EBITDA growth (resolving the temporary-vs-structural question) plus visible progress toward the March 2027 promoter-pledge release",
+    "expected_window_months": 6,
+    "window_start": "2026-09-19",
+    "evidence_quality": "med",
+    "is_dated": false,
+    "status": "pending"
+  },
   "value_chain": {
     "theme": "renewable (solar/wind) IPP + EPC, riding India's national capacity build-out",
     "position": "develops, builds and operates solar/wind projects both as an independent power producer (long-term PPA revenue) and as an EPC/CPP contractor for third parties",
     "bottleneck_node": "land + grid-connectivity approvals, module/BOS input-cost cycle, and access to further debt/equity capital at an already-elevated leverage level",
     "supply_side_status": "adding",
-    "adjacent_peers": ["Adani Green Energy", "ReNew Energy Global", "Waaree Renewable Technologies", "Sterling and Wilson Renewable Energy"],
+    "adjacent_peers": [
+      "Adani Green Energy",
+      "ReNew Energy Global",
+      "Waaree Renewable Technologies",
+      "Sterling and Wilson Renewable Energy"
+    ],
     "note": "The whole sector (KPI included, at both company- and KP-Group-level ~8.52 GW) is adding capacity aggressively toward national 2030 renewable targets; competitive IPP tariffs and rising module/BOS/logistics input costs mean no single player has obvious pricing power, consistent with the moat:weak call."
   },
   "earnings_quality": {
     "margin_driver": "mixed",
-    "drivers": ["long-term PPA tariffs (structural, IPP segment)", "EPC billing/execution volume (cyclical/lumpy)", "steel/cable/module-mounting/logistics input-cost cycle (cyclical, management cited 'geopolitical' pressure)", "depreciation/finance costs from the FY26 debt-funded capacity build (structural drag until new capacity ramps)"],
+    "drivers": [
+      "long-term PPA tariffs (structural, IPP segment)",
+      "EPC billing/execution volume (cyclical/lumpy)",
+      "steel/cable/module-mounting/logistics input-cost cycle (cyclical, management cited 'geopolitical' pressure)",
+      "depreciation/finance costs from the FY26 debt-funded capacity build (structural drag until new capacity ramps)"
+    ],
     "peak_margin_risk": false,
     "normalised_note": "Reported EBITDA margin (~35-37%) is not obviously above a defensible through-cycle level and actually held/expanded YoY in Q1 FY27; the reported PAT weakness is a below-the-line (depreciation + finance cost) effect of the debt-funded capex ramp, not evidence of margin normalisation from a peak."
   },
@@ -196,5 +278,6 @@
       "No RPT-specific disclosure was reviewed this pass (rpt_trend left 'unclear') - a fuller annual-report RPT-schedule read would sharpen this"
     ],
     "conviction_update": "Low-Medium -> Low-Medium. This pass converts the pre-dive's vague 'margin pressure' concern into harder, more specific and in some ways worse facts (leverage roughly quadrupled in FY26, a freshly-disclosed 44.7% promoter pledge, two straight years of ROCE decline, a Q1 FY27 PAT miss) while also surfacing one mitigating nuance (EBITDA margin itself held/expanded YoY, so the PAT miss reads more like capex-cycle timing than structural margin collapse) and one positive (a real, delivered 56% FY26 growth print, not just a target). Net effect is confirmatory rather than a clear upgrade or downgrade - conviction held at Low-Medium, thesis_fit held at 10x-in-2-3-years (four_box score 3.0 permits it) pending 1-2 more quarters of clarity."
-  }
+  },
+  "last_post_number_analyzed": 0
 }

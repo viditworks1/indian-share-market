@@ -3,12 +3,30 @@
   "tagline": "A sports-tech/esports narrative wrapped around a computer-hardware-and-securities-trading business, trading at an ~607x P/E on ~Rs 69 Cr revenue - a story stock, not a value case.",
   "business_overview": "Colab Platforms Ltd (formerly Colab Cloud Platforms, renamed Feb 2025; BSE 542866, NSE: COLAB) describes itself as providing IT, esports and gaming-related services (sports marketplace, smart stadiums, sports IP management), but its formal line of business per screener data is 'computer hardware and software processing job-work and trading of shares & securities.' Seeded via untrusted-X triage (@rajuidesai, 2026-09-13, no thesis detail given).",
   "fundamentals_table": [
-    ["Market cap", "~Rs 2,810-2,866 Cr"],
-    ["Revenue (FY25)", "~Rs 69 Cr"],
-    ["P/E", "~607x"],
-    ["Book value", "Rs 1.44/share"],
-    ["ROCE / ROE", "24.3% / 17.5%"],
-    ["Debt", "Almost debt-free (D/E ~0)"]
+    [
+      "Market cap",
+      "~Rs 2,810-2,866 Cr"
+    ],
+    [
+      "Revenue (FY25)",
+      "~Rs 69 Cr"
+    ],
+    [
+      "P/E",
+      "~607x"
+    ],
+    [
+      "Book value",
+      "Rs 1.44/share"
+    ],
+    [
+      "ROCE / ROE",
+      "24.3% / 17.5%"
+    ],
+    [
+      "Debt",
+      "Almost debt-free (D/E ~0)"
+    ]
   ],
   "fundamentals_narrative": "The disclosed ROCE/ROE look attractive but sit on a tiny Rs 69 Cr revenue base against a ~Rs 2,800+ Cr market cap and a P/E near 607x - an extreme disconnect that flags this as a narrative-driven small-cap rather than a business the numbers support. The gap between the promotional esports/sports-infrastructure story and the company's own stated 'job-work and securities trading' business line is itself a caution sign, though it does not meet the defined AVOID/EXCLUDE/HIGH CAUTION criteria (no negative net worth, no SEBI action, no promoter or auditor red flag found this pass).",
   "technical_read": "Not pulled this pass - the write-up turns on the valuation/business-description mismatch, not chart position.",
@@ -43,5 +61,6 @@
     "score": 1.0,
     "note": "Extreme P/E (~607x) on tiny revenue base; esports narrative doesn't match the company's own stated business line."
   },
-  "value_chain": null
+  "value_chain": null,
+  "last_post_number_analyzed": 0
 }

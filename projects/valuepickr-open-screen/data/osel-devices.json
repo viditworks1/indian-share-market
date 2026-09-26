@@ -3,13 +3,34 @@
   "tagline": "LED display / hearing-aid / Philips-branded feature-phone SME with a genuine LED-outdoor moat, but flagged HIGH CAUTION: two trusted users independently caught the company misclassifying short-term borrowings as operating cash flow (inflating FY26 OCF from an actual -Rs 40 Cr to a reported +Rs 10 Cr), plus unverified promoter-background concerns tied to its IPO manager",
   "business_overview": "Established 2006, Osel Devices began as a trading company, moved to manufacturing in 2019. Produces LED display systems (outdoor advertising/billboards/command centres, ~36% of FY24 revenue) and hearing aids (imported white-labelled devices, government-tender B2G business, ~64% of FY24 revenue), and since 2025 has diversified further into Philips-branded feature phones and smartphones, plus an infrastructure venture at JNPT. Facility in Greater Noida. (Source: external-lead, @ankitbahuguna84, untrusted X triage, first_seen 2026-09-04.)",
   "fundamentals_table": [
-    ["Market cap", "~Rs 798 Cr (up 35.9% in 1yr per one source; community post cites ~Rs 900 Cr)"],
-    ["52-week range", "Rs 196.75 - Rs 835"],
-    ["ROCE / ROE", "31.01% / 30.09%"],
-    ["Revenue growth", "~45.6%/yr average; FY24 revenue Rs 132.25 Cr, PAT margin rose 6.14% -> 9.19%"],
-    ["Debt/Equity", "0.46"],
-    ["Reported vs actual FY26 OCF", "Reported +Rs 10 Cr; actual per community recalculation -Rs 40 Cr (short-term borrowings of Rs 50 Cr misclassified under Operating rather than Financing activities)"],
-    ["Reported vs actual FY25 OCF", "Reported -Rs 38.22 Cr; actual per community recalculation -Rs 68.65 Cr"]
+    [
+      "Market cap",
+      "~Rs 798 Cr (up 35.9% in 1yr per one source; community post cites ~Rs 900 Cr)"
+    ],
+    [
+      "52-week range",
+      "Rs 196.75 - Rs 835"
+    ],
+    [
+      "ROCE / ROE",
+      "31.01% / 30.09%"
+    ],
+    [
+      "Revenue growth",
+      "~45.6%/yr average; FY24 revenue Rs 132.25 Cr, PAT margin rose 6.14% -> 9.19%"
+    ],
+    [
+      "Debt/Equity",
+      "0.46"
+    ],
+    [
+      "Reported vs actual FY26 OCF",
+      "Reported +Rs 10 Cr; actual per community recalculation -Rs 40 Cr (short-term borrowings of Rs 50 Cr misclassified under Operating rather than Financing activities)"
+    ],
+    [
+      "Reported vs actual FY25 OCF",
+      "Reported -Rs 38.22 Cr; actual per community recalculation -Rs 68.65 Cr"
+    ]
   ],
   "fundamentals_narrative": "Headline growth and returns look strong (45.6%/yr revenue growth, 30%+ ROCE/ROE), and the LED-display segment appears to have a genuine niche moat per community discussion. But this is overshadowed by a serious, independently-corroborated accounting-integrity issue: the company classified a Rs 50 Cr increase in short-term borrowings under Cash Flow from Operating Activities instead of Financing Activities, which inflated reported FY26 OCF from an actual -Rs 40 Cr to a reported +Rs 10 Cr (and a similar restatement applies to FY25: -Rs 68.65 Cr actual vs -Rs 38.22 Cr reported). This was caught independently by two trusted ValuePickr users and is not a one-off - it recurs across two fiscal years.",
   "technical_read": "Not pulled - HIGH CAUTION accounting concern took priority over technical escalation.",
@@ -65,5 +86,6 @@
     "valuation": "no",
     "score": 1.5,
     "note": "Genuine LED-segment moat offset by a recurring, independently-corroborated cash-flow misclassification across two fiscal years - no valuation comfort possible given the accounting-integrity concern"
-  }
+  },
+  "last_post_number_analyzed": 0
 }

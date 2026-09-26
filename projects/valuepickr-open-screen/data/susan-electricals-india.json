@@ -69,11 +69,11 @@
     "note": "Requires industry structure analysis"
   },
   "four_box": {
-    "tailwind": "mixed",
-    "tam": "moderate",
-    "moat": "unknown",
-    "valuation": "fair",
-    "score": 2.0
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "no",
+    "valuation": "weak",
+    "score": 1.5
   },
   "track_record_na": true,
   "quality_metrics": {
@@ -132,5 +132,6 @@
   },
   "commitments": [],
   "earnings_chain": null,
-  "catalyst": null
+  "catalyst": null,
+  "last_post_number_analyzed": 0
 }

@@ -30,8 +30,8 @@
   ],
   "fundamentals_narrative": "No ValuePickr thread was found for this company. Independent quality-rating research explicitly assessed it as a 'below average quality company' with a 'weak' price trend over the past decade. The eye-catching 5,300% profit jump is off a near-zero base (Rs ~0.02 Cr to Rs 1.04 Cr) and is not a meaningful growth signal at this scale. The FY26 audited results carried a qualified audit opinion, which is a genuine caution flag though not confirmed as a going-concern or negative-net-worth issue.",
   "technical_read": "Price trend independently assessed as weak, consistent with a below-average-quality, thinly-traded micro-cap.",
-  "sentiment_summary": "No ValuePickr thread found for this company — proceeded on fundamentals and news only, per the task's honesty requirement.",
-  "community_signal": "No ValuePickr community signal available — no verified thread found.",
+  "sentiment_summary": "No ValuePickr thread found for this company \u2014 proceeded on fundamentals and news only, per the task's honesty requirement.",
+  "community_signal": "No ValuePickr community signal available \u2014 no verified thread found.",
   "bse_notes": "No confirmed SEBI/regulatory enforcement action or confirmed negative net worth found, but the FY26 audited results carried a qualified audit opinion, which independently warrants caution even though it does not meet this screen's formal AVOID/EXCLUDE bar without further confirmation.",
   "bull_case": [
     "Improving debtor days (142 to 44.6) suggests some working-capital discipline improvement",
@@ -40,13 +40,13 @@
   ],
   "bear_case": [
     "Independently rated a below-average quality company with a weak price trend over 10 years",
-    "Headline 5,300% profit growth is a statistical artifact of a near-zero base, not real operating momentum — fails the 'real, not cosmetic' growth quality gate",
+    "Headline 5,300% profit growth is a statistical artifact of a near-zero base, not real operating momentum \u2014 fails the 'real, not cosmetic' growth quality gate",
     "Qualified audit opinion on FY26 results is a genuine caution signal",
     "No ValuePickr community discussion exists to cross-check the thesis"
   ],
   "market_cap_tier": "Micro-cap (~Rs 22.9 Cr)",
   "thesis_fit": "neither",
-  "verdict_headline": "Below-average-quality micro-cap with a qualified audit opinion — does not clear the quality gate",
+  "verdict_headline": "Below-average-quality micro-cap with a qualified audit opinion \u2014 does not clear the quality gate",
   "verdict_reasoning": [
     "Independent quality assessment and this run's own review both point to below-average fundamentals despite a headline-grabbing but cosmetic profit growth number",
     "A qualified audit opinion combined with no available community discussion to cross-check the story is enough to keep this off the list without deeper primary-source diligence",
@@ -61,5 +61,6 @@
     "valuation": "weak",
     "score": 1.5,
     "note": "Verdict explicit: 'below-average fundamentals despite a headline-grabbing but cosmetic profit growth number' (tailwind=no); 'a qualified audit opinion combined with no available community discussion' leaves quality unverifiable."
-  }
+  },
+  "last_post_number_analyzed": 0
 }

@@ -138,32 +138,82 @@
     "conviction_update": "Medium -> Medium-High. The FY24 margin step-up has now repeated for two more full years and debtor days have improved rather than worsened, which resolves the two biggest concerns from the initial write-up. Kept below High pending a primary-filing read of FY26 balance sheet detail and a longer public guidance track record."
   },
   "commitments": [
-    { "area": "growth", "text": "FY27 revenue growth 40-50%, reiterated at Q1", "specifics": "vs Q1 FY27 actual +60% YoY to Rs 40.4 Cr",
-      "timeline_bucket": "FY27", "quality_stage": "financial", "source": "Q1 FY27 results/concall",
-      "dependency": "continued order execution", "single_point_of_failure": "", "thesis_critical": true },
-    { "area": "growth", "text": "Rs 500 Cr revenue by FY29 (~40% CAGR from Rs 182 Cr FY26)", "specifics": "management-stated 3-year target",
-      "timeline_bucket": "beyond", "quality_stage": "expectation", "source": "FY26 results commentary",
-      "dependency": "sustained 40%+ growth for 3 more years", "single_point_of_failure": "co-op/BFSI segment demand + delivery capacity", "thesis_critical": true },
-    { "area": "orders", "text": "Order book doubled YoY to Rs 145.5 Cr, giving forward revenue visibility", "specifics": "Rs 111.6 Cr (FY26-end) -> Rs 145.5 Cr (Q1 FY27)",
-      "timeline_bucket": "12M", "quality_stage": "commercial", "source": "Q1 FY27 results",
-      "dependency": "on-schedule execution/billing of signed orders", "single_point_of_failure": "", "thesis_critical": true },
-    { "area": "new_business", "text": "First international wins - Botswana + Zimbabwe contracts", "specifics": "USD 1.1M (Botswana) + USD 550k (Zimbabwe)",
-      "timeline_bucket": "12M", "quality_stage": "commercial", "source": "Q1 FY27 announcements",
-      "dependency": "execution + repeat/follow-on international orders", "single_point_of_failure": "single-customer per geography currently", "thesis_critical": true }
+    {
+      "area": "growth",
+      "text": "FY27 revenue growth 40-50%, reiterated at Q1",
+      "specifics": "vs Q1 FY27 actual +60% YoY to Rs 40.4 Cr",
+      "timeline_bucket": "FY27",
+      "quality_stage": "financial",
+      "source": "Q1 FY27 results/concall",
+      "dependency": "continued order execution",
+      "single_point_of_failure": "",
+      "thesis_critical": true
+    },
+    {
+      "area": "growth",
+      "text": "Rs 500 Cr revenue by FY29 (~40% CAGR from Rs 182 Cr FY26)",
+      "specifics": "management-stated 3-year target",
+      "timeline_bucket": "beyond",
+      "quality_stage": "expectation",
+      "source": "FY26 results commentary",
+      "dependency": "sustained 40%+ growth for 3 more years",
+      "single_point_of_failure": "co-op/BFSI segment demand + delivery capacity",
+      "thesis_critical": true
+    },
+    {
+      "area": "orders",
+      "text": "Order book doubled YoY to Rs 145.5 Cr, giving forward revenue visibility",
+      "specifics": "Rs 111.6 Cr (FY26-end) -> Rs 145.5 Cr (Q1 FY27)",
+      "timeline_bucket": "12M",
+      "quality_stage": "commercial",
+      "source": "Q1 FY27 results",
+      "dependency": "on-schedule execution/billing of signed orders",
+      "single_point_of_failure": "",
+      "thesis_critical": true
+    },
+    {
+      "area": "new_business",
+      "text": "First international wins - Botswana + Zimbabwe contracts",
+      "specifics": "USD 1.1M (Botswana) + USD 550k (Zimbabwe)",
+      "timeline_bucket": "12M",
+      "quality_stage": "commercial",
+      "source": "Q1 FY27 announcements",
+      "dependency": "execution + repeat/follow-on international orders",
+      "single_point_of_failure": "single-customer per geography currently",
+      "thesis_critical": true
+    }
   ],
   "earnings_chain": {
-    "chain": ["new order wins (domestic co-op + international)", "revenue growth", "asset-light SaaS/licence operating leverage", "EBITDA margin ~46%", "PAT"],
+    "chain": [
+      "new order wins (domestic co-op + international)",
+      "revenue growth",
+      "asset-light SaaS/licence operating leverage",
+      "EBITDA margin ~46%",
+      "PAT"
+    ],
     "bottleneck_link": "delivery/implementation capacity to execute the doubled order book without margin dilution",
-    "operating_leverage": "yes — EBITDA margin has held ~46% through 50-60% revenue growth for two consecutive years",
-    "evidenced_links": ["new order wins", "revenue growth", "EBITDA margin ~46% (FY25, FY26)"],
-    "assumed_links": ["margin holds as scale/services mix increases further", "Rs 500 Cr FY29 target"]
+    "operating_leverage": "yes \u2014 EBITDA margin has held ~46% through 50-60% revenue growth for two consecutive years",
+    "evidenced_links": [
+      "new order wins",
+      "revenue growth",
+      "EBITDA margin ~46% (FY25, FY26)"
+    ],
+    "assumed_links": [
+      "margin holds as scale/services mix increases further",
+      "Rs 500 Cr FY29 target"
+    ]
   },
   "market_expectation": {
-    "as_of": "2026-09-05", "price": null, "current_pe": 10.5, "current_ev_ebitda": null, "valuation_tool": "P/E",
+    "as_of": "2026-09-05",
+    "price": null,
+    "current_pe": 10.5,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
     "implied_growth_cagr": "~10x TTM earnings implies a low-single-digit to flat growth assumption; a 22-25x steady-compounder exit multiple would need only ~high-single-digit EPS CAGR FY26-28 to justify today's price - far below the 40-50% guided",
     "our_fy27_estimate": "revenue +40-50% (guided, tracking ahead at +60% in Q1), margin roughly steady ~45-46%, PAT growth broadly tracking revenue",
     "our_fy28_estimate": "continued order-book conversion + international scale-up (Botswana/Zimbabwe follow-on) toward the FY29 Rs 500 Cr path",
-    "gap_direction": "underestimated", "gap_type": "volume",
+    "gap_direction": "underestimated",
+    "gap_type": "volume",
     "gap_magnitude_pct": null,
     "gap_basis": "market multiple (~10x) prices near-zero growth; guided/delivered growth is 40-60% with margin already proven at scale for 2 years - a material gap if the SME-exchange discount narrows or growth merely continues",
     "evidence_quality": "strong",
@@ -171,11 +221,19 @@
   },
   "catalyst": {
     "event": "Q2/Q3 FY27 results confirming order-book-to-revenue conversion and margin holding as international + BFSI mix scales further",
-    "expected_window_months": 6, "window_start": "2026-09-05", "evidence_quality": "med", "is_dated": false, "status": "pending"
+    "expected_window_months": 6,
+    "window_start": "2026-09-05",
+    "evidence_quality": "med",
+    "is_dated": false,
+    "status": "pending"
   },
   "earnings_quality": {
     "margin_driver": "mixed",
-    "drivers": ["asset-light SaaS/licence + AMC recurring mix (~42% of revenue)", "operating leverage on a fixed core-banking product base", "unresolved FY24 capitalised-interest caveat per screener.in"],
+    "drivers": [
+      "asset-light SaaS/licence + AMC recurring mix (~42% of revenue)",
+      "operating leverage on a fixed core-banking product base",
+      "unresolved FY24 capitalised-interest caveat per screener.in"
+    ],
     "peak_margin_risk": false,
     "normalised_note": "46% EBITDA margin has now held for FY25 and FY26 (two years), arguing it is closer to the new normal than a cyclical peak - but the FY24 step-up itself was never independently verified against a primary filing this pass."
   },
@@ -202,5 +260,6 @@
     "margin_trend": "stable",
     "capex_efficiency": "unclear",
     "assessment": "positive"
-  }
+  },
+  "last_post_number_analyzed": 0
 }

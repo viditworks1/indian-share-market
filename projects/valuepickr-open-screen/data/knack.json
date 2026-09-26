@@ -3,13 +3,34 @@
   "tagline": "Recently-listed (July 2026) small-cap maker of printed/laminated woven polypropylene (PLWPP) bags - strong ROCE/ROE and fast revenue growth, but a commodity-adjacent packaging business at a full valuation with no clear structural moat.",
   "business_overview": "Knack Packaging (NSE: KNACK) is an integrated packaging solutions provider manufacturing value-added printed and laminated woven polypropylene (PLWPP) bags for domestic and export markets (used for cement, food grain, fertiliser and similar bulk-packaging applications). Listed on the NSE/BSE mainboard in July 2026 (IPO priced Rs 161-170, listed at an ~11% premium). Identification note: state.json's seed name was 'Knack (Knack Life Sciences)' from untrusted X triage (@ChintanParikh10); no listed entity called 'Knack Life Sciences' could be found - the only plausible match for a ticker/company named 'Knack' is Knack Packaging Ltd, a recent, retail-chatter-heavy IPO. This write-up proceeds on that identification; flagging for confirmation.",
   "fundamentals_table": [
-    ["Market cap", "~Rs 2,500-2,630 Cr"],
-    ["52-week range", "~Rs 180 - Rs 222 (NSE/BSE, short trading history since July 2026 listing)"],
-    ["ROCE", "~27.9-35.3% (sources vary)"],
-    ["ROE", "~33-43.6% (sources vary)"],
-    ["P/E", "~25-36x (sources vary)"],
-    ["Debt/equity", "~0.88 (moderate, working-capital-driven)"],
-    ["Revenue growth", "Q1 FY27 revenue +41% YoY to ~Rs 264.8 Cr; capacity crossed 48,000 MT"]
+    [
+      "Market cap",
+      "~Rs 2,500-2,630 Cr"
+    ],
+    [
+      "52-week range",
+      "~Rs 180 - Rs 222 (NSE/BSE, short trading history since July 2026 listing)"
+    ],
+    [
+      "ROCE",
+      "~27.9-35.3% (sources vary)"
+    ],
+    [
+      "ROE",
+      "~33-43.6% (sources vary)"
+    ],
+    [
+      "P/E",
+      "~25-36x (sources vary)"
+    ],
+    [
+      "Debt/equity",
+      "~0.88 (moderate, working-capital-driven)"
+    ],
+    [
+      "Revenue growth",
+      "Q1 FY27 revenue +41% YoY to ~Rs 264.8 Cr; capacity crossed 48,000 MT"
+    ]
   ],
   "fundamentals_narrative": "Genuinely strong return ratios (ROCE/ROE in the high-20s to 40s%) and fast top-line growth (+41% YoY in the latest quarter) off a rapid capacity build. However this is a recently-IPO'd, thinly-traded (2 months of listed history) small-cap in a packaging-manufacturing business that is typically commodity-adjacent (PP woven bags for bulk-goods packaging) - differentiation claims ('value-added', 'integrated') were not independently verified against a specific moat this pass. Debt/equity of ~0.88 is moderate, consistent with working-capital needs of a scaling manufacturer, not a red flag on its own.",
   "technical_read": "Very short listed history (since July 2026); 52-week range effectively is its post-listing trading range (~Rs 180-222). No meaningful weekly-EMA technical read possible yet.",
@@ -46,5 +67,6 @@
     "score": 1.5,
     "note": "Real recent growth (+41% YoY) and strong return ratios, but no named structural tailwind, a niche/commodity-adjacent TAM, no evidenced moat, and a full valuation (P/E ~25-36x) for the business quality on offer. Hard 'neither' per the score<=1.5 rule."
   },
-  "value_chain": null
+  "value_chain": null,
+  "last_post_number_analyzed": 0
 }

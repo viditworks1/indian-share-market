@@ -3,14 +3,38 @@
   "tagline": "Tata-Group-backed Indian telecom/optical-networking equipment maker riding the domestic-manufacturing (PLI/Make-in-India) tailwind on paper - but posting deeply negative ROE/ROCE and a startling ~1,077-day debtor cycle, mainly tied to delayed government (BSNL) receivables.",
   "business_overview": "Tejas Networks designs and manufactures optical and data networking equipment (routers, switches, 4G/5G RAN gear) sold mainly to Indian telcos and government/PSU customers, notably BSNL's 4G rollout. Tata Sons is the controlling promoter (post its 2022 stake acquisition). Confirmed via screener.in/tickertape as the exact listed entity (NSE: TEJASNET) matching the state.json name. Seeded via untrusted X triage (@nathanit2014 +1, 2026-09-13).",
   "fundamentals_table": [
-    ["Market cap", "~Rs 9,841 Cr"],
-    ["52-week range", "Rs 294 - Rs 644.75"],
-    ["ROE (3-yr avg)", "-4.01%"],
-    ["ROCE", "-30.56%"],
-    ["Revenue growth", "~15.94% CAGR (vs industry median 8.37%)"],
-    ["Debt / cash", "Gross debt ~Rs 4,866 Cr; cash ~Rs 589 Cr (Q1 FY27)"],
-    ["Debtor days", "~1,077 days - extreme working-capital stress"],
-    ["Interest coverage", "Low"]
+    [
+      "Market cap",
+      "~Rs 9,841 Cr"
+    ],
+    [
+      "52-week range",
+      "Rs 294 - Rs 644.75"
+    ],
+    [
+      "ROE (3-yr avg)",
+      "-4.01%"
+    ],
+    [
+      "ROCE",
+      "-30.56%"
+    ],
+    [
+      "Revenue growth",
+      "~15.94% CAGR (vs industry median 8.37%)"
+    ],
+    [
+      "Debt / cash",
+      "Gross debt ~Rs 4,866 Cr; cash ~Rs 589 Cr (Q1 FY27)"
+    ],
+    [
+      "Debtor days",
+      "~1,077 days - extreme working-capital stress"
+    ],
+    [
+      "Interest coverage",
+      "Low"
+    ]
   ],
   "fundamentals_narrative": "Headline revenue growth (~16% CAGR, ahead of industry) masks a business that is not converting sales into cash or profit: ROCE is deeply negative (-30.56%), ROE has averaged -4% over three years, and debtor days of ~1,077 (nearly three years) point to large, unresolved receivables - consistent with the well-documented delays in BSNL's 4G network payments to its equipment vendors. Gross debt (~Rs 4,866 Cr) dwarfs cash (~Rs 589 Cr), and interest coverage is low. This is a real operating business with genuine India-manufacturing tailwinds, but the P&L and balance sheet do not currently support a positive-return thesis.",
   "technical_read": "Trading well off its 52-week high (~Rs 645 vs current levels near/below Rs 550); not pursued further given the fundamentals disposition below.",
@@ -48,5 +72,6 @@
     "score": 2.0,
     "note": "Genuine PLI/Make-in-India telecom-equipment tailwind and above-industry revenue growth, but heavy customer concentration (BSNL/government), deeply negative ROE/ROCE, ~1,077-day debtors and debt exceeding cash mean valuation and moat cannot be scored positively at current fundamentals."
   },
-  "value_chain": null
+  "value_chain": null,
+  "last_post_number_analyzed": 0
 }

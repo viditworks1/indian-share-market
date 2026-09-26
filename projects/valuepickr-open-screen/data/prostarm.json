@@ -3,13 +3,34 @@
   "tagline": "Small-cap energy-storage and power-conditioning equipment maker (batteries, UPS, EV-charging adjacent) with genuine TAM breadth but deteriorating working-capital metrics - four_box score 2.5 defaults to 'neither'.",
   "business_overview": "Prostarm Info Systems designs, manufactures and sells energy-storage and power-conditioning equipment (UPS systems, batteries, related power electronics), incorporated January 2008 and recently IPO'd. Seeded 2026-09-13 via untrusted X triage (@ChintanParikh10, bullish, high conviction claimed).",
   "fundamentals_table": [
-    ["Market cap", "~Rs 817 Cr (down ~-33% over 1 year)"],
-    ["Revenue / Profit", "Revenue ~Rs 403 Cr; Profit ~Rs 38.2 Cr"],
-    ["ROE / ROCE", "~11.5% / ~16.5%"],
-    ["Revenue growth", "3-yr CAGR ~18.8%"],
-    ["52-week range", "Rs 114.64 - Rs 237 (stock well off its high)"],
-    ["Working capital", "Debtor days ~246; working-capital days risen from ~112 to ~192 - a real deterioration"],
-    ["Promoter holding", "~72.8%"]
+    [
+      "Market cap",
+      "~Rs 817 Cr (down ~-33% over 1 year)"
+    ],
+    [
+      "Revenue / Profit",
+      "Revenue ~Rs 403 Cr; Profit ~Rs 38.2 Cr"
+    ],
+    [
+      "ROE / ROCE",
+      "~11.5% / ~16.5%"
+    ],
+    [
+      "Revenue growth",
+      "3-yr CAGR ~18.8%"
+    ],
+    [
+      "52-week range",
+      "Rs 114.64 - Rs 237 (stock well off its high)"
+    ],
+    [
+      "Working capital",
+      "Debtor days ~246; working-capital days risen from ~112 to ~192 - a real deterioration"
+    ],
+    [
+      "Promoter holding",
+      "~72.8%"
+    ]
   ],
   "fundamentals_narrative": "Historically strong revenue growth (~18.8% 3-yr CAGR) and a decent ROCE (~16.5%) in a genuinely broad energy-storage/power-conditioning category (backup power, renewables-adjacent, data-center demand), but working-capital quality has deteriorated meaningfully - debtor days ~246 and total working-capital days nearly doubling (~112 to ~192) - which tempers confidence in the growth's cash-conversion quality. The stock is down ~33% over the past year, consistent with the market re-rating this concern rather than a name discovery opportunity.",
   "technical_read": "Trading close to its 52-week low (Rs 114.64) against a Rs 237 high - a steep drawdown, not checked further for a base/breakout this pass given the 'neither' four_box outcome.",
@@ -46,5 +67,6 @@
     "score": 2.5,
     "note": "Genuine TAM breadth (energy storage/power conditioning) supports a 'yes' on tam, but working-capital deterioration (debtor days ~246, WC days ~112->192) undercuts moat/quality confidence. Score sits in the 2.0-2.5 default-to-neither band; no exception written given the working-capital caution."
   },
-  "value_chain": null
+  "value_chain": null,
+  "last_post_number_analyzed": 0
 }

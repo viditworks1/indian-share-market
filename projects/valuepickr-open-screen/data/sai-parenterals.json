@@ -3,12 +3,30 @@
   "tagline": "Small-cap generic injectables/parenteral formulations manufacturer with weak return ratios and high leverage - fundamentals too weak to support a thesis_fit call beyond 'neither'.",
   "business_overview": "Sai Parenterals is a pharmaceutical formulations company engaged in R&D, manufacturing and commercialisation of injectable/parenteral products for domestic and international markets. Seeded via untrusted X triage (@ParthaAwe, bullish/medium conviction, 2026-09-13).",
   "fundamentals_table": [
-    ["Market cap", "~Rs 2,275 Cr (price ~Rs 515)"],
-    ["52-week range", "~Rs 400 - Rs 706"],
-    ["ROCE / ROE (screener.in)", "ROCE ~5.3%, ROE ~4.9%"],
-    ["ROCE / ROE (Zerodha, conflicting)", "ROCE ~29.1%, ROE ~15.2% - source discrepancy not resolved this pass"],
-    ["Debt / equity", "~2.18 - high leverage; low interest coverage"],
-    ["Working capital", "Debtor days improved 253 -> 173 days but still elevated"]
+    [
+      "Market cap",
+      "~Rs 2,275 Cr (price ~Rs 515)"
+    ],
+    [
+      "52-week range",
+      "~Rs 400 - Rs 706"
+    ],
+    [
+      "ROCE / ROE (screener.in)",
+      "ROCE ~5.3%, ROE ~4.9%"
+    ],
+    [
+      "ROCE / ROE (Zerodha, conflicting)",
+      "ROCE ~29.1%, ROE ~15.2% - source discrepancy not resolved this pass"
+    ],
+    [
+      "Debt / equity",
+      "~2.18 - high leverage; low interest coverage"
+    ],
+    [
+      "Working capital",
+      "Debtor days improved 253 -> 173 days but still elevated"
+    ]
   ],
   "fundamentals_narrative": "Sources disagree sharply on Sai Parenterals' return ratios (screener.in shows ROCE ~5.3%/ROE ~4.9%; Zerodha shows ROCE ~29.1%/ROE ~15.2%), a discrepancy not resolved this pass and itself a data-quality caution. What is consistent across sources is meaningful leverage (debt/equity ~2.18) with a flagged low interest-coverage ratio, and debtor days that, while improving (253 -> 173 days), remain elevated for a generic parenteral manufacturer with limited pricing power. This combination of high leverage and either weak-to-moderate returns is not a fundamentals profile that supports a constructive thesis at this pass.",
   "technical_read": "Not pulled this pass.",
@@ -44,5 +62,6 @@
     "score": 1.0,
     "note": "High leverage (D/E ~2.18) with low interest coverage; return ratios weak-to-conflicting across sources; no differentiation moat in generic parenteral manufacturing."
   },
-  "value_chain": null
+  "value_chain": null,
+  "last_post_number_analyzed": 0
 }

@@ -3,12 +3,30 @@
   "tagline": "Confirmed as an independently listed large-cap (NSE: VAML, BSE: 544780) following Vedanta Ltd's May-June 2026 four-way demerger - India's largest aluminium/alumina producer with a named capacity-doubling plan, but currently posting negative TTM earnings against an extremely rich ~34x P/B.",
   "business_overview": "Vedanta Aluminium Metal Ltd (VAML) is India's largest aluminium and alumina producer and the world's third-largest aluminium producer ex-China, operating the world's largest single-location aluminium smelter (Jharsuguda, Odisha). It began independent trading on NSE/BSE on 15 June 2026 after the demerger of Vedanta Ltd into four listed entities (Aluminium, Oil & Gas, Power, Iron & Steel), effective 1 May 2026. This resolves the state.json uncertainty: 'Vedanta Aluminium' is NOT merely an internal division - it is now a distinct, confirmed listed entity (VAML).",
   "fundamentals_table": [
-    ["Market cap", "~Rs 1,71,588 Cr (as of 7-Sep-2026) - large-cap"],
-    ["ROE / ROCE", "~0% - TTM earnings are negative post-listing"],
-    ["P/B", "~34.1x - a very large premium to the peer median (~1.64x)"],
-    ["Debt / Equity", "~-0.8 (unusual, reflecting the newly-carved-out post-demerger capital structure) with a flagged low interest-coverage ratio"],
-    ["Capacity plan", "Named structural inflection: smelting capacity targeted to double from ~3 MTPA to 6 MTPA"],
-    ["Listing history", "Independently listed only since 15 June 2026 - limited standalone trading/financial history"]
+    [
+      "Market cap",
+      "~Rs 1,71,588 Cr (as of 7-Sep-2026) - large-cap"
+    ],
+    [
+      "ROE / ROCE",
+      "~0% - TTM earnings are negative post-listing"
+    ],
+    [
+      "P/B",
+      "~34.1x - a very large premium to the peer median (~1.64x)"
+    ],
+    [
+      "Debt / Equity",
+      "~-0.8 (unusual, reflecting the newly-carved-out post-demerger capital structure) with a flagged low interest-coverage ratio"
+    ],
+    [
+      "Capacity plan",
+      "Named structural inflection: smelting capacity targeted to double from ~3 MTPA to 6 MTPA"
+    ],
+    [
+      "Listing history",
+      "Independently listed only since 15 June 2026 - limited standalone trading/financial history"
+    ]
   ],
   "fundamentals_narrative": "VAML is unambiguously a scale leader - the world's largest single-location smelter and India's #1 aluminium/alumina producer - and it does carry a specific, named structural inflection (the 3 MTPA -> 6 MTPA capacity doubling). But the numbers available this soon after the demerger are hard to read as an entry case: TTM earnings are negative (likely a mix of global aluminium-price cyclicality and finance costs from the debt allocated in the demerger), and the ~34x P/B is a steep premium to peers for a business with ~0% current ROE/ROCE. Some of this distortion is mechanical (a freshly carved-out equity base, thin post-listing history), but there is not enough here to call it undervalued.",
   "technical_read": "Not pulled this pass - trading history is only ~3 months old since the 15 June 2026 listing, so technical reads are not yet meaningful.",
@@ -47,5 +65,6 @@
     "note": "Tailwind weak: generic global aluminium demand (EV/renewables/infra), no company-specific catalyst beyond scale. Tam weak: named capacity doubling (3->6 MTPA) is a real, specific commitment, but standard commodity capex rather than a differentiated inflection. Moat weak: world's largest single-location smelter gives cost-curve advantage. Valuation no: negative TTM earnings against a ~34x P/B premium to peers - no valuation support currently."
   },
   "conviction": "Low",
-  "value_chain": null
+  "value_chain": null,
+  "last_post_number_analyzed": 0
 }

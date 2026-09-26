@@ -3,20 +3,53 @@
   "tagline": "Accelerating B2C/retail diagnostics growth undercut by an auditor-flagged receivables red flag and two CXO exits",
   "business_overview": "Krsnaa Diagnostics operates radiology (CT/MRI) and pathology diagnostic centers, primarily via government (B2G) PPP contracts across 18 Indian states, with a newer, rapidly scaling retail B2C segment (RPL).",
   "fundamentals_table": [
-    ["Market Cap", "~Rs 1,783 Cr"],
-    ["ROCE / ROE", "13.09% / 9.34% (3yr)"],
-    ["Revenue growth", "Poor 5yr CAGR (~11.8%) but recent YoY acceleration to ~27.2%"],
-    ["Debt/Equity", "0.23"],
-    ["52-week range", "Rs 515 - 894 (varies by source/period)"]
+    [
+      "Market Cap",
+      "~Rs 1,783 Cr"
+    ],
+    [
+      "ROCE / ROE",
+      "13.09% / 9.34% (3yr)"
+    ],
+    [
+      "Revenue growth",
+      "Poor 5yr CAGR (~11.8%) but recent YoY acceleration to ~27.2%"
+    ],
+    [
+      "Debt/Equity",
+      "0.23"
+    ],
+    [
+      "52-week range",
+      "Rs 515 - 894 (varies by source/period)"
+    ]
   ],
   "fundamentals_narrative": "A real recent-quarter growth inflection (revenue accelerating to ~27% YoY vs a weak ~12% 5yr trailing CAGR) driven by rapid retail/B2C pathology lab scaling (6 to 33 reference labs within a year), but this sits alongside a genuine, auditor-flagged working-capital deterioration.",
   "technical_read": "Not independently charted this pass.",
   "sentiment_summary": "Read the most recent 50 of 460 fetched posts (2025-02 to 2026-08), single batch (first-time read, most active/recent window only given the very long 460-post thread). Sentiment has been persistently split between growth-focused trusted trackers (ranvir) delivering positive quarterly concall summaries and a more skeptical trusted voice (VALUE2017) who explicitly exited the position and has flagged a worsening pattern: ballooning receivables, two consecutive CXO resignations (CFO, then Head of IR), and a promoter who rarely speaks on concalls. The FY25 Annual Report's own statutory auditor flagged trade receivables (which grew 3.6x faster than revenue) as a formal Key Audit Matter -- a credible, documented red flag rather than mere forum speculation.",
   "community_signal": "ranvir (trusted, elevated) has consistently delivered detailed, well-received quarterly concall summaries through Q1 FY27 (Aug 2026), tracking real segment growth (retail centers, Rajasthan tender execution). VALUE2017 (trusted, elevated, exited) raised the most serious concerns: working-capital borrowings up from Rs 5.5 Cr (Mar-23) to Rs 147 Cr (Mar-25), receivables nearly tripling in step with sales, CFO resignation (Feb 2026) followed by Head of Investor Relations resignation, and persistent criticism that promoter Rajendra Mutha almost never speaks on calls. StonePitbull (trusted, elevated) independently corroborated the auditor's Key Audit Matter flag on receivables from the FY25 Annual Report, and separately flagged a promoter-group warrant issue (16.21 lakh warrants at Rs 565) that would raise promoter stake from ~27.1% toward 30.6%.",
   "trusted_signals": [
-    {"date": "2026-02-14", "username": "VALUE2017", "thread": "Krsnaa Diagnostics", "note": "CFO resigned; flagged promoter Rajendra Mutha as barely speaking on concalls despite 27% stake, with Yash Mutha (no personal stake) actually running the business.", "superseded": false},
-    {"date": "2025-10-19", "username": "StonePitbull", "thread": "Krsnaa Diagnostics", "note": "FY25 Annual Report's statutory auditor flagged ballooning trade receivables (grew 3.6x faster than revenue) as a formal Key Audit Matter.", "superseded": false},
-    {"date": "2026-03-31", "username": "VALUE2017", "thread": "Krsnaa Diagnostics", "note": "Following the CFO resignation, the Head of Investor Relations also resigned -- a second consecutive senior-finance/IR departure.", "superseded": false}
+    {
+      "date": "2026-02-14",
+      "username": "VALUE2017",
+      "thread": "Krsnaa Diagnostics",
+      "note": "CFO resigned; flagged promoter Rajendra Mutha as barely speaking on concalls despite 27% stake, with Yash Mutha (no personal stake) actually running the business.",
+      "superseded": false
+    },
+    {
+      "date": "2025-10-19",
+      "username": "StonePitbull",
+      "thread": "Krsnaa Diagnostics",
+      "note": "FY25 Annual Report's statutory auditor flagged ballooning trade receivables (grew 3.6x faster than revenue) as a formal Key Audit Matter.",
+      "superseded": false
+    },
+    {
+      "date": "2026-03-31",
+      "username": "VALUE2017",
+      "thread": "Krsnaa Diagnostics",
+      "note": "Following the CFO resignation, the Head of Investor Relations also resigned -- a second consecutive senior-finance/IR departure.",
+      "superseded": false
+    }
   ],
   "bse_notes": "Not independently checked this pass.",
   "bull_case": [
@@ -39,5 +72,6 @@
     "Low-Medium conviction: genuine growth engine, but credible, multi-pronged governance/working-capital concerns from engaged trusted voices keep this from a higher conviction absent management addressing the receivables issue directly"
   ],
   "red_flag_tier": "HIGH CAUTION",
-  "red_flag_reason": "FY25 statutory auditor formally flagged ballooning trade receivables (growing 3.6x faster than revenue) as a Key Audit Matter, compounded by consecutive CFO and Head-of-IR resignations within months and a trusted, previously invested user's explicit exit citing management-bandwidth and promoter-communication concerns."
+  "red_flag_reason": "FY25 statutory auditor formally flagged ballooning trade receivables (growing 3.6x faster than revenue) as a Key Audit Matter, compounded by consecutive CFO and Head-of-IR resignations within months and a trusted, previously invested user's explicit exit citing management-bandwidth and promoter-communication concerns.",
+  "last_post_number_analyzed": 0
 }

@@ -551,7 +551,7 @@
   },
   "darjeeling-industries": {
     "bucket": "avoid",
-    "headline": "CONFIRMED active SEBI ex-parte interim order (30 Jun 2026) — MD and 9 others barred from trading over alleged circular funding and stock-price manipulation; company allegedly not found at its registered addresses.",
+    "headline": "CONFIRMED active SEBI ex-parte interim order (30 Jun 2026) \u2014 MD and 9 others barred from trading over alleged circular funding and stock-price manipulation; company allegedly not found at its registered addresses.",
     "tagline": null,
     "doc": "docs/Darjeeling Industries.docx",
     "as_of": "2026-08-15",
@@ -657,7 +657,7 @@
   },
   "technvision-ventures-ltd": {
     "bucket": "avoid",
-    "headline": "P/E of 1,161x and ROE of just 1.93% — current earnings do not remotely support the market valuation. Stock already down >50% from its 52-week high.",
+    "headline": "P/E of 1,161x and ROE of just 1.93% \u2014 current earnings do not remotely support the market valuation. Stock already down >50% from its 52-week high.",
     "tagline": null,
     "doc": "docs/TechNVision Ventures Ltd.docx",
     "as_of": "2026-08-15",
@@ -677,7 +677,7 @@
   },
   "alan-scott-enterprises-ltd": {
     "bucket": "avoid",
-    "headline": "Loss-making every one of the last 4 quarters, ROE -45.8%, negative free cash flow, actively raising capital via rights issue — the strong technical uptrend is disconnected from deeply negative fundamentals.",
+    "headline": "Loss-making every one of the last 4 quarters, ROE -45.8%, negative free cash flow, actively raising capital via rights issue \u2014 the strong technical uptrend is disconnected from deeply negative fundamentals.",
     "tagline": null,
     "doc": "docs/Alan Scott Enterprises Ltd.docx",
     "as_of": "2026-08-15",
@@ -771,5 +771,6 @@
     ],
     "old_json": "research/scripts/data/vaxfab-enterprises.json"
   },
-  "_readme": "Frozen 2026-08-15 verdicts from the original 108-stock screen, moved out of state.json by migrate_legacy_verdicts.py. Keyed by state.json slug. Read-only reference for vpscreen-scan Step 3.05; re-derive conviction fresh, never copy these."
+  "_readme": "Frozen 2026-08-15 verdicts from the original 108-stock screen, moved out of state.json by migrate_legacy_verdicts.py. Keyed by state.json slug. Read-only reference for vpscreen-scan Step 3.05; re-derive conviction fresh, never copy these.",
+  "last_post_number_analyzed": 0
 }

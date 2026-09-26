@@ -3,13 +3,34 @@
   "tagline": "Tiny (~Rs 141-146 Cr market cap) SEBI-licensed debenture/security/AIF trustee with real bond-market and AIF-industry tailwinds - but this pass surfaces three material new cautions the original light-forum-only read missed: a March 2024 SEBI due-diligence-failure penalty, a June 2026 internal-auditor resignation, and a ~30% dilutive related-party merger absorbing three promoter-group entities with an unverified swap ratio.",
   "business_overview": "Beacon Trusteeship Ltd (NSE: BEACON) is a SEBI-registered trustee providing Debenture Trusteeship, Security Trusteeship, AIF Trusteeship, ESOP Trusteeship, Securitization Trusteeship, Bond Trusteeship and Escrow Agent services - a licensed, capital-light, annuity-fee business. Per a single analyst source (unverified independently this pass), it ranks #1 for PSU bond-market issues and is the 4th-largest debenture trustee overall as of Feb 2025, with recent large mandate wins including REC (Rs 11,620 Cr issuance) and PFC (Rs 10,785 Cr issuance). The regulated-license structure limits the field to a handful of players (Beacon, IDBI Trusteeship, Axis Trustee, Catalyst Trusteeship, Vistra). The Board has approved amalgamating three promoter-group entities - Beacon Payroll & Benefits, Codium Techlabs and Kratos Capital Advisors - into the listed company (NCLT hearing Aug 12, 2026), and separately approved (Aug 17, 2026) an MOA object-clause expansion into new financial-services lines plus a Dubai wholly-owned-subsidiary incorporation, both subject to approvals. Seeded via untrusted X triage (@SanaSecurities, 2026-09-13).",
   "fundamentals_table": [
-    ["Market cap", "~Rs 141-146 Cr (price ~Rs 78)"],
-    ["Stock P/E", "~20.2-20.9x trailing"],
-    ["ROCE / ROE", "ROCE 23.36% (FY24) -> 19.76% (FY25), declining; ROE 18% (FY24) -> 14.5% (FY26)"],
-    ["PAT trend", "FY24 Rs 5.18 Cr -> FY25 Rs 5.43 Cr (+4.8%, near-stall) -> FY26 Rs 6.88-6.98 Cr (+27-28%, reaccelerated)"],
-    ["Revenue growth", "5-yr sales CAGR 44%; 3-yr sales CAGR 31% - medium-term deceleration even as FY26 PAT reaccelerated"],
-    ["Debt", "Net cash (~Rs 4.29 Cr net cash as of Mar 2026)"],
-    ["52-week range", "~Rs 50.0 - Rs 125"]
+    [
+      "Market cap",
+      "~Rs 141-146 Cr (price ~Rs 78)"
+    ],
+    [
+      "Stock P/E",
+      "~20.2-20.9x trailing"
+    ],
+    [
+      "ROCE / ROE",
+      "ROCE 23.36% (FY24) -> 19.76% (FY25), declining; ROE 18% (FY24) -> 14.5% (FY26)"
+    ],
+    [
+      "PAT trend",
+      "FY24 Rs 5.18 Cr -> FY25 Rs 5.43 Cr (+4.8%, near-stall) -> FY26 Rs 6.88-6.98 Cr (+27-28%, reaccelerated)"
+    ],
+    [
+      "Revenue growth",
+      "5-yr sales CAGR 44%; 3-yr sales CAGR 31% - medium-term deceleration even as FY26 PAT reaccelerated"
+    ],
+    [
+      "Debt",
+      "Net cash (~Rs 4.29 Cr net cash as of Mar 2026)"
+    ],
+    [
+      "52-week range",
+      "~Rs 50.0 - Rs 125"
+    ]
   ],
   "fundamentals_narrative": "A licensed, capital-light, annuity-fee business riding two real structural India tailwinds (corporate bond-market issuance growth and AIF-industry AUM expansion) that it doesn't have to create itself. However, this deep-dive pass surfaces a materially different picture than the original light-forum-only read: (1) ROCE has fallen from 23.36% (FY24) to 19.76% (FY25), and ROE from 18% (FY24) to 14.5% (FY26), even as absolute PAT grew - consistent with IPO-proceeds cash sitting largely undeployed (net cash ~Rs 4.29 Cr) rather than a demand problem; (2) a March 2024 SEBI adjudication order penalized Beacon Rs 8 lakh (jointly with SKI Capital) for a due-diligence failure in the 'Shares Bazaar AIF' registration - Beacon submitted 'fit and proper' undertakings to SEBI without disclosing the AIF sponsor's prior BSE expulsion, a direct hit to the core claim that a SEBI trustee license itself signals rigorous diligence; (3) Beacon's internal auditor (M/s. Sudhir Kedia & Co.) resigned effective June 22, 2026 (stated reason: time constraints), with M/s. Jain Vijendra & Co LLP appointed for FY27; and (4) the Board has approved amalgamating three promoter-group entities (Beacon Payroll & Benefits, Codium Techlabs, Kratos Capital Advisors) into the listed company via a scheme now before the NCLT (hearing Aug 12, 2026), reportedly issuing ~5.4 million new shares against an existing base of ~18.1 million shares - roughly 30% dilution - with the swap-ratio fairness (valuation reports exist per a registered merchant banker, dated 31.08.2025, but the actual ratio was not accessible this pass) not independently verified. None of this individually is disqualifying, but together they are a real governance-quality and dilution risk the original 18-post, light-scan-only forum thread did not surface.",
   "sentiment_summary": "VP forum thread 'Beacon Trusteeship Ltd' (topic_id 184111) resolved via search.json - a small thread (18 posts, opened Jan 2025, last bumped Jun 2026). Original post (Prateek Sen) laid out the AIF/Securities-Trustee market-share business case. One later post (Gaurav, Apr 2026, cross-posted from a Borana Weaves thread) raised the promoter-side-business caution - which this deep-dive pass now confirms is materialising as an actual ~30% dilutive amalgamation, not just a governance risk on paper.",
@@ -222,5 +243,6 @@
       "Current status/resolution of the March 2024 SEBI penalty (paid, appealed, or otherwise) not confirmed - treated as a resolved historical penalty for HIGH CAUTION purposes, not an active ongoing matter, but not independently confirmed as closed."
     ],
     "conviction_update": "Medium -> Low-Medium. The original call was based on a light, forum-thread-only scan that found 'no red flags.' This pass's primary-document research (screener.in financials, SEBI enforcement records, BSE corporate filings) found three concrete new facts the light scan missed: a SEBI due-diligence-failure penalty, an internal-auditor resignation, and a large, imperfectly-verified dilutive related-party merger - together meeting the HIGH CAUTION bar and capping conviction at Low-Medium per protocol, regardless of the four_box mechanics."
-  }
+  },
+  "last_post_number_analyzed": 0
 }

@@ -3,13 +3,34 @@
   "tagline": "Hyderabad-based automotive embedded software/telematics subsidiary of US-based Danlaw Inc, showing strong recent numbers (revenue +20.75%, PAT +112.95% YoY) but a near-silent VP thread flags real opacity: no clear articulation of the parent-subsidiary relationship, no proactive investor communication, and an unclear TAM beyond FASTags",
   "business_overview": "Incorporated 1992, Danlaw Technologies India provides engineering and software development consulting services and industrial electronics to the automotive and aerospace industries - connected-car/telematics, embedded/V2X testing software. ISO 9001:2015 and IATF 16949 certified. Subsidiary of Danlaw Inc. (US, founded 1984). Manufacturing facility in Goa, HQ Hyderabad. (Source: external-lead, @ankitbahuguna84, untrusted X triage, first_seen 2026-09-04 - flagged for a strong price run.)",
   "fundamentals_table": [
-    ["Market cap", "~Rs 712 Cr"],
-    ["52-week range", "Rs 428 - Rs 1,500"],
-    ["ROCE / ROE", "27.2% / 26.1%"],
-    ["Stock P/E", "~28.0x"],
-    ["Revenue (TTM)", "~Rs 244 Cr; 9M-FY26 net sales Rs 207.18 Cr (+20.75% YoY)"],
-    ["Profit growth", "Operating profit +54.81% YoY; net profit +112.95% YoY"],
-    ["Debt", "Debt/EBITDA ~0.76x - manageable"]
+    [
+      "Market cap",
+      "~Rs 712 Cr"
+    ],
+    [
+      "52-week range",
+      "Rs 428 - Rs 1,500"
+    ],
+    [
+      "ROCE / ROE",
+      "27.2% / 26.1%"
+    ],
+    [
+      "Stock P/E",
+      "~28.0x"
+    ],
+    [
+      "Revenue (TTM)",
+      "~Rs 244 Cr; 9M-FY26 net sales Rs 207.18 Cr (+20.75% YoY)"
+    ],
+    [
+      "Profit growth",
+      "Operating profit +54.81% YoY; net profit +112.95% YoY"
+    ],
+    [
+      "Debt",
+      "Debt/EBITDA ~0.76x - manageable"
+    ]
   ],
   "fundamentals_narrative": "Genuinely strong recent numbers - revenue +20.75%, operating profit +54.81%, net profit +112.95% YoY - on a clean-ish balance sheet (Debt/EBITDA 0.76x). But the community's only substantive thread (4 posts total, all Dec 2024) raised real, unaddressed governance-transparency questions: an 'ordinary and almost non-communicative' annual report for a supposedly modern-tech company, unclear structural/commercial relationship to the US parent Danlaw Inc (related-party/transfer-pricing risk by implication), and an unresolved TAM question beyond FASTag products given large in-house competitors (Tata group entities) serve similar OEM needs.",
   "technical_read": "Not pulled - thin community coverage argued against escalating to technicals.",
@@ -49,5 +70,6 @@
     "valuation": "weak",
     "score": 2.0,
     "note": "Strong recent numbers, but unclear subsidiary relationship to US parent and unresolved TAM-beyond-FASTag question keep every box at weak; ~28x P/E isn't cheap enough to offset the opacity"
-  }
+  },
+  "last_post_number_analyzed": 0
 }

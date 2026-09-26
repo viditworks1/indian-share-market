@@ -3,15 +3,33 @@
   "tagline": "Fast-growing B2B construction-materials marketplace but currently posting negative returns on capital",
   "business_overview": "SG Mart is a tech-enabled B2B marketplace focused on construction materials trading.",
   "fundamentals_table": [
-    ["Market Cap", "Rs 10,134 Cr"],
-    ["ROE", "-1.29%"],
-    ["ROCE", "-1.22%"],
-    ["TTM Revenue", "Rs 5,302 Cr"],
-    ["Debt", "Recently reduced"],
-    ["52-week range", "Rs 290 - 447 (older data; some sources show recent levels near Rs 817, unreconciled)"]
+    [
+      "Market Cap",
+      "Rs 10,134 Cr"
+    ],
+    [
+      "ROE",
+      "-1.29%"
+    ],
+    [
+      "ROCE",
+      "-1.22%"
+    ],
+    [
+      "TTM Revenue",
+      "Rs 5,302 Cr"
+    ],
+    [
+      "Debt",
+      "Recently reduced"
+    ],
+    [
+      "52-week range",
+      "Rs 290 - 447 (older data; some sources show recent levels near Rs 817, unreconciled)"
+    ]
   ],
-  "fundamentals_narrative": "Large and growing top line for a trading-model business, but both ROE and ROCE are currently negative — typical of thin-margin B2B trading at scale, but it fails this screen's quality gate outright with no turnaround signal found in a preliminary web search.",
-  "technical_read": "Not checked — filtered out at the preliminary stage.",
+  "fundamentals_narrative": "Large and growing top line for a trading-model business, but both ROE and ROCE are currently negative \u2014 typical of thin-margin B2B trading at scale, but it fails this screen's quality gate outright with no turnaround signal found in a preliminary web search.",
+  "technical_read": "Not checked \u2014 filtered out at the preliminary stage.",
   "sentiment_summary": "Filtered out at the preliminary fundamentals stage, no ValuePickr deep-dive performed.",
   "community_signal": "Filtered out at the preliminary fundamentals stage, no ValuePickr deep-dive performed.",
   "bse_notes": "Not checked.",
@@ -19,7 +37,7 @@
     "Large and growing revenue base (Rs 5,302 Cr TTM) in a scaling B2B trading platform, with recent debt reduction"
   ],
   "bear_case": [
-    "Both ROE and ROCE currently negative — fails the quality gate with no catalyst identified for a near-term turn to profitability"
+    "Both ROE and ROCE currently negative \u2014 fails the quality gate with no catalyst identified for a near-term turn to profitability"
   ],
   "market_cap_tier": "Mid-cap (~Rs 10,134 Cr)",
   "thesis_fit": "neither",
@@ -28,5 +46,6 @@
     "ROE/ROCE both negative fails the quality gate with no stated catalyst for improvement"
   ],
   "red_flag_tier": null,
-  "red_flag_reason": null
+  "red_flag_reason": null,
+  "last_post_number_analyzed": 0
 }

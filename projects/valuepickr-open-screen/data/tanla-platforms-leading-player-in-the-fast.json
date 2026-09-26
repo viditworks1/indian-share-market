@@ -30,11 +30,11 @@
   "growth_trajectory": null,
   "management_quality": null,
   "four_box": {
-    "tailwind": "unknown",
-    "tam": "unknown",
-    "moat": "unknown",
-    "valuation": "unknown",
-    "score": null
+    "tailwind": "no",
+    "tam": "no",
+    "moat": "no",
+    "valuation": "no",
+    "score": 0.0
   },
   "track_record": {
     "years_checked": 0,
@@ -50,5 +50,6 @@
     "margin_trend": "unknown",
     "capex_efficiency": "unknown",
     "assessment": "unverified"
-  }
+  },
+  "last_post_number_analyzed": 0
 }

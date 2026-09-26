@@ -55,11 +55,11 @@
   "red_flag_tier": null,
   "red_flag_reason": null,
   "four_box": {
-    "tailwind": "mixed",
-    "tam": "moderate",
-    "moat": "unknown",
-    "valuation": "fair",
-    "score": 2.5
+    "tailwind": "weak",
+    "tam": "weak",
+    "moat": "no",
+    "valuation": "weak",
+    "score": 1.5
   },
   "growth_trajectory": {
     "yoy_trend": "steady",
@@ -109,5 +109,6 @@
   },
   "commitments": [],
   "earnings_chain": null,
-  "catalyst": null
+  "catalyst": null,
+  "last_post_number_analyzed": 0
 }

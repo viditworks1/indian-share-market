@@ -12,7 +12,7 @@
     "ValuePickr community conviction, including verified high-conviction calls from top-reputation contributors (see top-contributors.md) - weighted as a qualitative signal, not a hard input"
   ],
   "methodology_note": "This is the ongoing, open ValuePickr-wide screen (all active company threads, not a pre-curated list) - separate from, and does not modify, the original 108-stock docs/00_FINAL_RANKING.docx. India-listed only. Treat as a living, incrementally-built first-pass screen; before sizing a real position, do a fresh check of current numbers and re-read the underlying thread. Stocks researched but not fitting the 10x/2-3yr or 100x/10yr thesis, with no red flags, are screened out into the list below rather than force-placed into a caution bucket.",
-  "methodology_fix_2026_08_22": "An audit found a systematic past-performance bias: several small/mid-cap stocks with a real, specific catalyst and a confirmed or plausible recent-quarter inflection (Ujjivan SFB: PAT +207% YoY with already-healthy current ROE/ROCE; Deep Industries: dated CBM gas-grid catalyst; Ugro/Satin/Arman: MFI-sector-stress reversal plays; Borosil Renewables: solar-glass tailwind) were being screened to 'neither' purely because a TRAILING 3-5yr average metric looked weak - which is definitionally true of any inflection story, since the average includes the pre-inflection period. Rain Industries (also weak 3yr ROE, also a recent-quarter inflection) had correctly landed in Tier C rather than screenedOut, showing the methodology COULD handle this right but was being applied inconsistently. Fixed: these stocks moved from screenedOut to Tier C with explicit 'unconfirmed, watch for 1-2 more quarters' framing (not upgraded to high conviction - the point is visibility for monitoring, not premature confidence). Going forward, thesis_fit should weigh the recent-quarter trend + catalyst credibility for small/mid-cap names, not default to 'neither' on a weak multi-year average alone. Genuinely large-cap 'neither' calls (HDFC Bank, IDFC First Bank, Laurus Labs, Manappuram Finance, Natco Pharma, Caplin Point, IEX, BSE, Hindustan Copper) are unaffected - those are legitimate size/return-magnitude math, not a trailing-average artifact, and a catalyst doesn't change that a company already too large to plausibly 10x stays too large. UPDATE (2026-08-22, manual-override rerun): tier placement is now driven mechanically by scripts/compute_conviction_score.py's conviction_score (see scripts/CONVICTION_SCORE_METHODOLOGY.md) rather than free-form per-stock judgment, to fix inconsistent tiering of similar situations across research runs. Rule: red_flag_tier set -> highCaution/avoid/exclude regardless of score; no red flag + thesis_fit=='neither' -> screenedOut regardless of score; no red flag + thesis fits + score>=60 -> tierA; 35<=score<60 -> tierB; score<35 -> tierC. This run also caught up 30 previously-researched stocks that had never been placed into any bucket (screen-ranking.json was stale relative to state.json) and moved 6 stocks across tier boundaries (Venus Remedies tierB->tierA on a fresh trusted-thread corroboration bonus; Frontier Springs, South West Pinnacle Exploration, Rain Industries, Ugro Capital, Ujjivan Small Finance Bank tierC->tierB as their scores landed in the 35-59 band) - see each entry's rationale for the specific score. UPDATE (2026-08-23, manual-override rerun): caught up 58 newly-researched stocks (169 total researched, up from 111) into the score-driven buckets. One boundary crossing: Alembic Pharmaceuticals Ltd moved screenedOut -> tierB (conviction_score 42.32) on a thesis-fit re-read - see its rationale. All new entries use the score-driven bucket rule (see the 2026-08-22 note above for the exact thresholds). UPDATE (2026-08-25, score-driven rerank): caught up 29 previously-researched-but-unplaced stocks (234 total researched, up from 205 in the prior file) into the score-driven buckets - 4 to tierB (Jeena Sikho Lifecare, Shilpa Medicare, Quality Power, Senores Pharma), 12 to tierC, 9 to screenedOut, 4 to highCaution (Raymond Lifestyle, Supriya Lifescience, Ramkrishna Forgings, Cohance Life Sciences - all red-flagged). Zero boundary crossings found among the 219 already-placed stocks whose scores were re-checked this run - the score-driven methodology is holding stable. UPDATE (2026-08-26, score-driven rerank): caught up 15 previously-unplaced stocks (264 researched, up from 259) — 5 to tierB (Apollo Micro Systems, Goldiam International, Alpex Solar, Kernex Microsystems, DDev Plastiks Industries, all score 38), 2 to tierC (Graphite Electrode/HEG, Rapicut Carbides, both score 22), 7 to screenedOut (Avenue Supermarts, Polycab, Mahindra & Mahindra, Reliance Industries, BCL Industries, Windlas Biotech, Jindal Drilling — all thesis_fit='neither', no red flag), 1 to highCaution (Genesys International — 'high-caution' red flag tier, treated as HIGH CAUTION-equivalent per compute_conviction_score.py's handling of the unrecognized tier label). No boundary crossings among previously-placed stocks this run. UPDATE (2026-08-29, score-driven rerank): placed the 15-stock 'Scan run 2026-08-29' batch (extract_recent.py missed it — those entries carry no '### YYYY-MM-DD' sub-header, so they were cross-referenced directly against state.json / conviction-scores.json instead). Buckets follow the score rule: 1 to tierB (Grand Continent Hotels, score 46, thesis fits), 8 to screenedOut (Sona BLW score 32 + Go Fashion / Gujarat Containers / The Hi-Tech Gears / High Energy Batteries / Samkrg Pistons & Rings / Empire Industries / Repro India, all score 8, all thesis_fit='neither', no red flag), 3 to highCaution (Ind-Swift Laboratories — red-flag tier overrides an unconfirmed 10x inflection read; Galaxy Supermarket; TechNVision Ventures), 3 to avoid (JITF Infra Logistics, Kerala Ayurveda, Vaxfab Enterprises — all red-flag tier AVOID). Zero boundary crossings among previously-placed stocks whose refreshed scores were re-checked this run. UPDATE (2026-08-29, second score-driven rerank of the day, ~14:30 UTC): conviction_score refreshed for all 422 researched stocks; extract_recent.py found no new analysis.md entries since the 10:38 UTC run. Re-checked every previously-placed Tier A/B/C stock against its refreshed score - zero boundary crossings. No new stocks to place. Tiered ranking carried forward unchanged; only the max-returns ranking and mechanical lists were regenerated. UPDATE (2026-08-30, score-driven rerank): conviction_score refreshed for all 452 scored stocks; extract_recent.py found no dated analysis.md entries on/after 2026-08-30, so newly-researched stocks were cross-referenced directly against state.json / conviction-scores.json. Placed 14 previously-unplaced researched stocks: 2 to tierB (Muthoot Microfin score 46, Vivid Electromech score 38 — both thesis-fit, no red flag), 11 to screenedOut (Globus Spirits, Leap India, P&G Hygiene, Indus Towers, CESC, Crizac, D-Link, Kennametal India, Bosch Home Comfort, Restaurant Brands Asia/Burger King, Blue Dart — all thesis_fit='neither', no red flag), 1 to avoid (SpiceJet — red-flag AVOID). ONE boundary crossing among previously-placed stocks: Yash Highvoltage Ltd moved tierA -> tierB as its refreshed score fell 62.0 -> 54.0 (recency decay of the phreakv6 hold and the cross-concall bushing-shortage corroboration — corroboration_bonus and distinct_trusted_users both decayed to 0); documented in its rationale. Also de-duplicated three stale double-entries (Grand Continent Hotels, Galaxy Supermarket, Ind-Swift Laboratories). tierA now has 3 names (<5) so the portfolio step stays skipped. UPDATE (2026-08-30, second score-driven rerank of the day, ~17:30 UTC): placed the afternoon 'vpscreen-scan run 2026-08-30 (batch of 15)' - 6 trusted-X + 3 global-proxy + 6 discovery names. conviction_score refreshed for all 482 scored stocks. Buckets follow the score rule: 1 to tierB (OBSC Perfection, score 38, thesis fits); 2 to tierC (Bliss GVS Pharma score 30, Divgi TorqTransfer score 22 - both thesis-fit, no red flag, score <35); 12 to screenedOut (Sansera Engineering 24, Cummins India 32, Kirloskar Oil Engines 24, Transformer & Rectifier India 16, Nephrocare Health 24, Sudeep Pharma 24, Jupiter Wagons 16, Midwest 16, Aatmaj Healthcare 8, Prataap Snacks 8, Diamond Power Infrastructure 8, Advanced Enzyme Technologies 8 - all thesis_fit='neither', no formal red flag; Sansera / Kirloskar Oil Engines additionally flagged for the max-returns ranking as named structural-inflection exceptions). Re-checked every previously-placed Tier A/B/C stock against its refreshed score including today's trusted-thread forward-checks (Suprajit 58.3, Entero 58.3, Shilpa 53.0, Nesco, Vinati, Ajanta) and trusted-X signals - zero boundary crossings this run (Yash Highvoltage's tierA->tierB move was already booked in the 12:36 UTC run). tierA unchanged at 3 names (Venus Remedies 80, Aeroflex 72, L. T. Elevators 61) so the portfolio step stays skipped. UPDATE (2026-09-17, vpscreen-rerank, full mechanical rebuild): the external-lead (x-handle-triage) backlog was fully cleared this week (~201 candidates across 4 rounds, see analysis.md) and several existing entries had gone stale (Cantabil India and Inox India had drifted to thesis_fit='neither' weeks ago but were still sitting in tierB; both corrected to screenedOut this run). Given the scale of change (886 scored stocks vs 699 previously placed), screenedOut/tierC/highCaution/avoid/exclude were rebuilt directly from conviction-scores.json + each stock's own notes_short (mechanical, score-driven, no free-form judgment) rather than hand-diffed entry by entry; tierA carried forward unchanged (score-driven bucket membership didn't move) and tierB got 14 hand-verified changes (4 entries in from tierC with fresh tagline/rationale: Unicommerce Esolutions, Recode Studios, Concord Control Systems, Prevest Denpro; 10 out to screenedOut: Apollo Micro Systems, Cantabil Retail India, Fredun Pharmaceuticals, Goldiam International, Jubilant Agri & Consumer Products, Samvardhana Motherson International, Surya Roshni, Tube Investments of India, Vaibhav Global, Inox India; 7 out to tierC: 20 Microns, Alufluoride [deduped from two rows to one], Electronics Mart India, Emerald Finance, Orchid Pharma, RNIT AI Solutions, Ugro Capital). Also dropped 7 confirmed duplicate-slug mirror rows (indo-mim/indomim, fcl/fineotex-chemical, rossell-india/rossell-techsys, gvpil/ge-power-india, tcs/tata-consultancy-services, kernex-microsystems/kernex-tcas-..., zaggle-prepaid/zaggle-a-platform-...) that would otherwise have shown as visible duplicate rows. dimensions/primary_screen_reason left for classify_screen_dimensions.py to backstop-fill mechanically in the same run (see script docstring).",
+  "methodology_fix_2026_08_22": "An audit found a systematic past-performance bias: several small/mid-cap stocks with a real, specific catalyst and a confirmed or plausible recent-quarter inflection (Ujjivan SFB: PAT +207% YoY with already-healthy current ROE/ROCE; Deep Industries: dated CBM gas-grid catalyst; Ugro/Satin/Arman: MFI-sector-stress reversal plays; Borosil Renewables: solar-glass tailwind) were being screened to 'neither' purely because a TRAILING 3-5yr average metric looked weak - which is definitionally true of any inflection story, since the average includes the pre-inflection period. Rain Industries (also weak 3yr ROE, also a recent-quarter inflection) had correctly landed in Tier C rather than screenedOut, showing the methodology COULD handle this right but was being applied inconsistently. Fixed: these stocks moved from screenedOut to Tier C with explicit 'unconfirmed, watch for 1-2 more quarters' framing (not upgraded to high conviction - the point is visibility for monitoring, not premature confidence). Going forward, thesis_fit should weigh the recent-quarter trend + catalyst credibility for small/mid-cap names, not default to 'neither' on a weak multi-year average alone. Genuinely large-cap 'neither' calls (HDFC Bank, IDFC First Bank, Laurus Labs, Manappuram Finance, Natco Pharma, Caplin Point, IEX, BSE, Hindustan Copper) are unaffected - those are legitimate size/return-magnitude math, not a trailing-average artifact, and a catalyst doesn't change that a company already too large to plausibly 10x stays too large. UPDATE (2026-08-22, manual-override rerun): tier placement is now driven mechanically by scripts/compute_conviction_score.py's conviction_score (see scripts/CONVICTION_SCORE_METHODOLOGY.md) rather than free-form per-stock judgment, to fix inconsistent tiering of similar situations across research runs. Rule: red_flag_tier set -> highCaution/avoid/exclude regardless of score; no red flag + thesis_fit=='neither' -> screenedOut regardless of score; no red flag + thesis fits + score>=60 -> tierA; 35<=score<60 -> tierB; score<35 -> tierC. This run also caught up 30 previously-researched stocks that had never been placed into any bucket (screen-ranking.json was stale relative to state.json) and moved 6 stocks across tier boundaries (Venus Remedies tierB->tierA on a fresh trusted-thread corroboration bonus; Frontier Springs, South West Pinnacle Exploration, Rain Industries, Ugro Capital, Ujjivan Small Finance Bank tierC->tierB as their scores landed in the 35-59 band) - see each entry's rationale for the specific score. UPDATE (2026-08-23, manual-override rerun): caught up 58 newly-researched stocks (169 total researched, up from 111) into the score-driven buckets. One boundary crossing: Alembic Pharmaceuticals Ltd moved screenedOut -> tierB (conviction_score 42.32) on a thesis-fit re-read - see its rationale. All new entries use the score-driven bucket rule (see the 2026-08-22 note above for the exact thresholds). UPDATE (2026-08-25, score-driven rerank): caught up 29 previously-researched-but-unplaced stocks (234 total researched, up from 205 in the prior file) into the score-driven buckets - 4 to tierB (Jeena Sikho Lifecare, Shilpa Medicare, Quality Power, Senores Pharma), 12 to tierC, 9 to screenedOut, 4 to highCaution (Raymond Lifestyle, Supriya Lifescience, Ramkrishna Forgings, Cohance Life Sciences - all red-flagged). Zero boundary crossings found among the 219 already-placed stocks whose scores were re-checked this run - the score-driven methodology is holding stable. UPDATE (2026-08-26, score-driven rerank): caught up 15 previously-unplaced stocks (264 researched, up from 259) \u2014 5 to tierB (Apollo Micro Systems, Goldiam International, Alpex Solar, Kernex Microsystems, DDev Plastiks Industries, all score 38), 2 to tierC (Graphite Electrode/HEG, Rapicut Carbides, both score 22), 7 to screenedOut (Avenue Supermarts, Polycab, Mahindra & Mahindra, Reliance Industries, BCL Industries, Windlas Biotech, Jindal Drilling \u2014 all thesis_fit='neither', no red flag), 1 to highCaution (Genesys International \u2014 'high-caution' red flag tier, treated as HIGH CAUTION-equivalent per compute_conviction_score.py's handling of the unrecognized tier label). No boundary crossings among previously-placed stocks this run. UPDATE (2026-08-29, score-driven rerank): placed the 15-stock 'Scan run 2026-08-29' batch (extract_recent.py missed it \u2014 those entries carry no '### YYYY-MM-DD' sub-header, so they were cross-referenced directly against state.json / conviction-scores.json instead). Buckets follow the score rule: 1 to tierB (Grand Continent Hotels, score 46, thesis fits), 8 to screenedOut (Sona BLW score 32 + Go Fashion / Gujarat Containers / The Hi-Tech Gears / High Energy Batteries / Samkrg Pistons & Rings / Empire Industries / Repro India, all score 8, all thesis_fit='neither', no red flag), 3 to highCaution (Ind-Swift Laboratories \u2014 red-flag tier overrides an unconfirmed 10x inflection read; Galaxy Supermarket; TechNVision Ventures), 3 to avoid (JITF Infra Logistics, Kerala Ayurveda, Vaxfab Enterprises \u2014 all red-flag tier AVOID). Zero boundary crossings among previously-placed stocks whose refreshed scores were re-checked this run. UPDATE (2026-08-29, second score-driven rerank of the day, ~14:30 UTC): conviction_score refreshed for all 422 researched stocks; extract_recent.py found no new analysis.md entries since the 10:38 UTC run. Re-checked every previously-placed Tier A/B/C stock against its refreshed score - zero boundary crossings. No new stocks to place. Tiered ranking carried forward unchanged; only the max-returns ranking and mechanical lists were regenerated. UPDATE (2026-08-30, score-driven rerank): conviction_score refreshed for all 452 scored stocks; extract_recent.py found no dated analysis.md entries on/after 2026-08-30, so newly-researched stocks were cross-referenced directly against state.json / conviction-scores.json. Placed 14 previously-unplaced researched stocks: 2 to tierB (Muthoot Microfin score 46, Vivid Electromech score 38 \u2014 both thesis-fit, no red flag), 11 to screenedOut (Globus Spirits, Leap India, P&G Hygiene, Indus Towers, CESC, Crizac, D-Link, Kennametal India, Bosch Home Comfort, Restaurant Brands Asia/Burger King, Blue Dart \u2014 all thesis_fit='neither', no red flag), 1 to avoid (SpiceJet \u2014 red-flag AVOID). ONE boundary crossing among previously-placed stocks: Yash Highvoltage Ltd moved tierA -> tierB as its refreshed score fell 62.0 -> 54.0 (recency decay of the phreakv6 hold and the cross-concall bushing-shortage corroboration \u2014 corroboration_bonus and distinct_trusted_users both decayed to 0); documented in its rationale. Also de-duplicated three stale double-entries (Grand Continent Hotels, Galaxy Supermarket, Ind-Swift Laboratories). tierA now has 3 names (<5) so the portfolio step stays skipped. UPDATE (2026-08-30, second score-driven rerank of the day, ~17:30 UTC): placed the afternoon 'vpscreen-scan run 2026-08-30 (batch of 15)' - 6 trusted-X + 3 global-proxy + 6 discovery names. conviction_score refreshed for all 482 scored stocks. Buckets follow the score rule: 1 to tierB (OBSC Perfection, score 38, thesis fits); 2 to tierC (Bliss GVS Pharma score 30, Divgi TorqTransfer score 22 - both thesis-fit, no red flag, score <35); 12 to screenedOut (Sansera Engineering 24, Cummins India 32, Kirloskar Oil Engines 24, Transformer & Rectifier India 16, Nephrocare Health 24, Sudeep Pharma 24, Jupiter Wagons 16, Midwest 16, Aatmaj Healthcare 8, Prataap Snacks 8, Diamond Power Infrastructure 8, Advanced Enzyme Technologies 8 - all thesis_fit='neither', no formal red flag; Sansera / Kirloskar Oil Engines additionally flagged for the max-returns ranking as named structural-inflection exceptions). Re-checked every previously-placed Tier A/B/C stock against its refreshed score including today's trusted-thread forward-checks (Suprajit 58.3, Entero 58.3, Shilpa 53.0, Nesco, Vinati, Ajanta) and trusted-X signals - zero boundary crossings this run (Yash Highvoltage's tierA->tierB move was already booked in the 12:36 UTC run). tierA unchanged at 3 names (Venus Remedies 80, Aeroflex 72, L. T. Elevators 61) so the portfolio step stays skipped. UPDATE (2026-09-17, vpscreen-rerank, full mechanical rebuild): the external-lead (x-handle-triage) backlog was fully cleared this week (~201 candidates across 4 rounds, see analysis.md) and several existing entries had gone stale (Cantabil India and Inox India had drifted to thesis_fit='neither' weeks ago but were still sitting in tierB; both corrected to screenedOut this run). Given the scale of change (886 scored stocks vs 699 previously placed), screenedOut/tierC/highCaution/avoid/exclude were rebuilt directly from conviction-scores.json + each stock's own notes_short (mechanical, score-driven, no free-form judgment) rather than hand-diffed entry by entry; tierA carried forward unchanged (score-driven bucket membership didn't move) and tierB got 14 hand-verified changes (4 entries in from tierC with fresh tagline/rationale: Unicommerce Esolutions, Recode Studios, Concord Control Systems, Prevest Denpro; 10 out to screenedOut: Apollo Micro Systems, Cantabil Retail India, Fredun Pharmaceuticals, Goldiam International, Jubilant Agri & Consumer Products, Samvardhana Motherson International, Surya Roshni, Tube Investments of India, Vaibhav Global, Inox India; 7 out to tierC: 20 Microns, Alufluoride [deduped from two rows to one], Electronics Mart India, Emerald Finance, Orchid Pharma, RNIT AI Solutions, Ugro Capital). Also dropped 7 confirmed duplicate-slug mirror rows (indo-mim/indomim, fcl/fineotex-chemical, rossell-india/rossell-techsys, gvpil/ge-power-india, tcs/tata-consultancy-services, kernex-microsystems/kernex-tcas-..., zaggle-prepaid/zaggle-a-platform-...) that would otherwise have shown as visible duplicate rows. dimensions/primary_screen_reason left for classify_screen_dimensions.py to backstop-fill mechanically in the same run (see script docstring).",
   "screenedOut_intro": "Researched and found fundamentally sound, but no plausible path to 10x in 2-3 years or 100x in 10 years at current size/valuation - not a red flag, just doesn't fit this screen's return bar. Full detail in analysis.md/state.json.",
   "screenedOut": [
     {
@@ -701,7 +701,7 @@
     },
     {
       "name": "Ashutosh Fibre Ltd",
-      "reason": "Just-IPO'd technical-yarn SME; EBITDA margin 15->26%, ROCE 27%, P/E 13 — but FY26 revenue FLAT (+2%), PAT growth is margin-only, no listed history. four_box 1.5 -> neither.",
+      "reason": "Just-IPO'd technical-yarn SME; EBITDA margin 15->26%, ROCE 27%, P/E 13 \u2014 but FY26 revenue FLAT (+2%), PAT growth is margin-only, no listed history. four_box 1.5 -> neither.",
       "dimensions": {
         "thesis": "unknown",
         "recent_fundamentals": "unknown",
@@ -773,7 +773,7 @@
     },
     {
       "name": "Atharva Polyplast Ltd",
-      "reason": "SME injection-moulding job-shop for furniture/appliance/auto; ROE 35%, EBITDA 20%, PAT Rs0.7->5.3cr FY23-25 — tiny base, customer concentration, no listed history, P/E ~25. four_box 1.0 -> neither.",
+      "reason": "SME injection-moulding job-shop for furniture/appliance/auto; ROE 35%, EBITDA 20%, PAT Rs0.7->5.3cr FY23-25 \u2014 tiny base, customer concentration, no listed history, P/E ~25. four_box 1.0 -> neither.",
       "dimensions": {
         "thesis": "unknown",
         "recent_fundamentals": "unknown",
@@ -3257,7 +3257,7 @@
     },
     {
       "name": "IRCTC: a necessity, a monopoly",
-      "reason": "Govt-granted monopoly (e-ticketing fee, Rail Neer, catering, tourism), ROE ~37%, debt-free — but genuine ~Rs 38,000 Cr large-cap growing ~11%, fee economics regulator-set, no named inflection. Filtered out at Step 3. four_box 1.5 -> neither.",
+      "reason": "Govt-granted monopoly (e-ticketing fee, Rail Neer, catering, tourism), ROE ~37%, debt-free \u2014 but genuine ~Rs 38,000 Cr large-cap growing ~11%, fee economics regulator-set, no named inflection. Filtered out at Step 3. four_box 1.5 -> neither.",
       "dimensions": {
         "thesis": "neither",
         "recent_fundamentals": "unknown",
@@ -3616,7 +3616,7 @@
       "primary_screen_reason": "unclassified"
     },
     {
-      "name": "Jubilant Agri and Consumer Products Ltd (JACPL) — A Hidden Gem from the Jubilant Group?",
+      "name": "Jubilant Agri and Consumer Products Ltd (JACPL) \u2014 A Hidden Gem from the Jubilant Group?",
       "reason": "High-ROCE (32-37%) deleveraged niche polymer business, peer-cheap at ~26x P/E, on-track NCLT demerger (meeting held 5-Sep-2026, 1:1 into Jubilant Agri Solutions).",
       "dimensions": {
         "thesis": "unknown",
@@ -3689,7 +3689,7 @@
     },
     {
       "name": "KPIT Technologies Ltd",
-      "reason": "Excellent ROCE/ROE/growth, down ~55% from 52wk high — value/recovery angle but too large for 10x/100x bar",
+      "reason": "Excellent ROCE/ROE/growth, down ~55% from 52wk high \u2014 value/recovery angle but too large for 10x/100x bar",
       "dimensions": {
         "thesis": "neither",
         "recent_fundamentals": "unknown",
@@ -4193,7 +4193,7 @@
     },
     {
       "name": "MIRC Electronics Ltd (Onida Electronics)",
-      "reason": "Negative ROE, declining revenue, D/E 80.9% — fails quality gate; no VP thread",
+      "reason": "Negative ROE, declining revenue, D/E 80.9% \u2014 fails quality gate; no VP thread",
       "dimensions": {
         "thesis": "unknown",
         "recent_fundamentals": "unknown",
@@ -4505,7 +4505,7 @@
     },
     {
       "name": "Monolithish Ltd",
-      "reason": "Largest domestic ramming-mass maker, ROCE 33%, debt-free, PAT CAGR 88%, 3.5x capacity by Sep-26 — but product self-described (T11) as commoditised/freight-limited, P/E ~37. four_box 1.5 -> neither; Low-Medium on quality.",
+      "reason": "Largest domestic ramming-mass maker, ROCE 33%, debt-free, PAT CAGR 88%, 3.5x capacity by Sep-26 \u2014 but product self-described (T11) as commoditised/freight-limited, P/E ~37. four_box 1.5 -> neither; Low-Medium on quality.",
       "dimensions": {
         "thesis": "unknown",
         "recent_fundamentals": "unknown",
@@ -6281,7 +6281,7 @@
     },
     {
       "name": "Shivalik Bimetal Controls Ltd (SBCL)",
-      "reason": "Strong ROCE/ROE, PAT growth outpacing revenue, but mcap +93% 1yr vs ~12% growth — re-rating already largely done",
+      "reason": "Strong ROCE/ROE, PAT growth outpacing revenue, but mcap +93% 1yr vs ~12% growth \u2014 re-rating already largely done",
       "dimensions": {
         "thesis": "neither",
         "recent_fundamentals": "unknown",
@@ -7816,7 +7816,7 @@
       "primary_screen_reason": "size"
     },
     {
-      "name": "“Polyplex Corporation “ Are Good Days Ahead?",
+      "name": "\u201cPolyplex Corporation \u201c Are Good Days Ahead?",
       "reason": "Global BOPET/BOPP films maker at a cyclical trough (ROE <1%). Dominant issue is governance: Dubai partner AGP tendering for Polyplex Thailand minority below independent fair value, minority SEBI SCORES complaints, Nov-2026 AGP-Saraf put/call. Cycle-turn + First Water Fund accumulation are the only bull tells; no trusted-user conviction.",
       "dimensions": {
         "thesis": "unknown",
@@ -7857,16 +7857,16 @@
     {
       "name": "Venus Remedies",
       "tagline": "Trusted investor's fresh valuation-gap thesis with a disclosed position",
-      "rationale": "phreakv6 (trusted) disclosed a new position, arguing Venus generates the same revenue as peer Orchid Pharma at 4x the EBITDA while trading at ~1/5th the market cap; PAT trajectory Rs 28→45→103 Cr, ~Rs 250 Cr net cash, zero debt. Caveat: 5-yr sales growth is weak (7.18%) and the thread itself flags FY27 durability and no-concalls as real risks - medium conviction, watch 1-2 quarters. [Score-driven reclassification 2026-08-22: conviction_score 80.0 moves this from tierB to tierA under the new mechanical scoring methodology.]"
+      "rationale": "phreakv6 (trusted) disclosed a new position, arguing Venus generates the same revenue as peer Orchid Pharma at 4x the EBITDA while trading at ~1/5th the market cap; PAT trajectory Rs 28\u219245\u2192103 Cr, ~Rs 250 Cr net cash, zero debt. Caveat: 5-yr sales growth is weak (7.18%) and the thread itself flags FY27 durability and no-concalls as real risks - medium conviction, watch 1-2 quarters. [Score-driven reclassification 2026-08-22: conviction_score 80.0 moves this from tierB to tierA under the new mechanical scoring methodology.]"
     },
     {
       "name": "Aeroflex Industries Ltd",
-      "tagline": "AI data-center liquid-cooling pivot (Vertiv supplier) — score 72, but priced for perfection",
-      "rationale": "AI data-center liquid-cooling pivot (Vertiv supplier); phreakv6's primary holding; ROCE anomaly is capex-timing not deterioration. conviction_score 72.0 (base 32 + thesis 14 + trust 18 + corroboration 8). Caveat: ~122x P/E per a trusted user and the expectation-gap score flags it over-optimistic / no-edge — the growth is priced for near-perfect execution, so this is a watchlist name at current levels, not a fresh buy."
+      "tagline": "AI data-center liquid-cooling pivot (Vertiv supplier) \u2014 score 72, but priced for perfection",
+      "rationale": "AI data-center liquid-cooling pivot (Vertiv supplier); phreakv6's primary holding; ROCE anomaly is capex-timing not deterioration. conviction_score 72.0 (base 32 + thesis 14 + trust 18 + corroboration 8). Caveat: ~122x P/E per a trusted user and the expectation-gap score flags it over-optimistic / no-edge \u2014 the growth is priced for near-perfect execution, so this is a watchlist name at current levels, not a fresh buy."
     },
     {
       "name": "Macpower CNC Machines",
-      "tagline": "Four straight quarters of inflection on a self-funded capacity roadmap — score crossed to 60",
+      "tagline": "Four straight quarters of inflection on a self-funded capacity roadmap \u2014 score crossed to 60",
       "rationale": "conviction_score 60.0 (base 40 + thesis 14 + management +6: deepdive rates management positive, guidance credibility mixed). Growth inflection now confirmed across four straight quarters (Q1FY27 revenue +56% YoY), FY26 delivered within guidance, capacity expansion self-funded. ~52x P/E and 48% cash conversion are the constraints, and the expectation-gap score is only 30 (margin upside partially priced), so this is not cheap. Crosses into Tier A this run on the strength and duration of the operating turn; moved up from Tier B as the score reached 60."
     },
     {
@@ -7882,37 +7882,37 @@
     {
       "name": "Entero Healthcare Solutions Ltd",
       "tagline": "5 consecutive quarters of confirmed EBITDA margin expansion (2.8%->4.5%)",
-      "rationale": "5 consecutive quarters of confirmed EBITDA margin expansion (2.8%->4.5%); mcap below TTM sales. Strongest-confirmed methodology-fix case in batch. [conviction_score 50.8] [Score-driven reclassification 2026-09-11: conviction_score refreshed to 61.42 (broader deepdive/quality-data coverage lifted quality_lift) crosses the tierA (>=60) threshold — moved tierB -> tierA.]"
+      "rationale": "5 consecutive quarters of confirmed EBITDA margin expansion (2.8%->4.5%); mcap below TTM sales. Strongest-confirmed methodology-fix case in batch. [conviction_score 50.8] [Score-driven reclassification 2026-09-11: conviction_score refreshed to 61.42 (broader deepdive/quality-data coverage lifted quality_lift) crosses the tierA (>=60) threshold \u2014 moved tierB -> tierA.]"
     },
     {
       "name": "HBL Engineering",
       "tagline": "Kavach order-book story w/ excellent trailing returns; hitesh2710 (elevated-tier) top-h...",
-      "rationale": "Kavach order-book story w/ excellent trailing returns; hitesh2710 (elevated-tier) top-holding call; Q1 FY27 miss + Tonbo JV uncertainty live headwind; re-verified, conviction independently earned. [2026-08-22 backfill: independent elevated-tier corroborating 'high' signal from Ghonarbochon's own portfolio thread ('high conviction bets..hence additions to HBL', post #184, 2025-11-27) applied a further one-notch bump.] [conviction_score 58.32] (refreshed: independent re-verification, Q1 FY27 miss confirmed not-floor-derived) [Score-driven reclassification 2026-09-11: conviction_score refreshed to 65.75 (broader deepdive/quality-data coverage lifted quality_lift) crosses the tierA (>=60) threshold — moved tierB -> tierA.]"
+      "rationale": "Kavach order-book story w/ excellent trailing returns; hitesh2710 (elevated-tier) top-holding call; Q1 FY27 miss + Tonbo JV uncertainty live headwind; re-verified, conviction independently earned. [2026-08-22 backfill: independent elevated-tier corroborating 'high' signal from Ghonarbochon's own portfolio thread ('high conviction bets..hence additions to HBL', post #184, 2025-11-27) applied a further one-notch bump.] [conviction_score 58.32] (refreshed: independent re-verification, Q1 FY27 miss confirmed not-floor-derived) [Score-driven reclassification 2026-09-11: conviction_score refreshed to 65.75 (broader deepdive/quality-data coverage lifted quality_lift) crosses the tierA (>=60) threshold \u2014 moved tierB -> tierA.]"
     },
     {
       "name": "Raymond Realty Ltd",
       "tagline": "Trailing metrics hide a real embedded-value gap in Thane redevelopment, tempered by leverage",
-      "rationale": "#1 Thane West market share confirmed by multiple trusted elevated users (gaurav, Maheshcm, vikas_sinha, Pujan_Shah, Aloysius_De_Sa); Q1 FY27 revenue +37%/EBITDA +70% YoY; promoter open-market buying; Rs 8,500 Cr JDA signed; institutional stake entry; estimated project surplus >Rs 14,000 Cr per Aug 2026 investor presentation. Caveat: trailing ROCE only 6.28% (RE-accounting distorted), D/E 9.81 (leveraged); Q1FY27 PAT dip defended by community as seasonal, not structural. [conviction_score 46.0] [Score-driven reclassification 2026-09-11: conviction_score refreshed to 61.79 (broader deepdive/quality-data coverage lifted quality_lift) crosses the tierA (>=60) threshold — moved tierB -> tierA.]"
+      "rationale": "#1 Thane West market share confirmed by multiple trusted elevated users (gaurav, Maheshcm, vikas_sinha, Pujan_Shah, Aloysius_De_Sa); Q1 FY27 revenue +37%/EBITDA +70% YoY; promoter open-market buying; Rs 8,500 Cr JDA signed; institutional stake entry; estimated project surplus >Rs 14,000 Cr per Aug 2026 investor presentation. Caveat: trailing ROCE only 6.28% (RE-accounting distorted), D/E 9.81 (leveraged); Q1FY27 PAT dip defended by community as seasonal, not structural. [conviction_score 46.0] [Score-driven reclassification 2026-09-11: conviction_score refreshed to 61.79 (broader deepdive/quality-data coverage lifted quality_lift) crosses the tierA (>=60) threshold \u2014 moved tierB -> tierA.]"
     },
     {
       "name": "Matrimony.com Ltd",
       "tagline": "Hated, cheap category leader with margins starting to inflect",
-      "rationale": "Category leader earning ~100% of industry profits at EV ex-cash ~Rs 500 Cr, with easing competition, a buying promoter and operating leverage inflecting (PAT +127% YoY). Conviction score 38 - the re-rate case is real but unconfirmed until margins hold for 2-3 more quarters. [Score-driven reclassification 2026-09-11: conviction_score refreshed to 60.25 (broader deepdive/quality-data coverage lifted quality_lift) crosses the tierA (>=60) threshold — moved tierB -> tierA.]"
+      "rationale": "Category leader earning ~100% of industry profits at EV ex-cash ~Rs 500 Cr, with easing competition, a buying promoter and operating leverage inflecting (PAT +127% YoY). Conviction score 38 - the re-rate case is real but unconfirmed until margins hold for 2-3 more quarters. [Score-driven reclassification 2026-09-11: conviction_score refreshed to 60.25 (broader deepdive/quality-data coverage lifted quality_lift) crosses the tierA (>=60) threshold \u2014 moved tierB -> tierA.]"
     },
     {
       "name": "Vivid Electromech Ltd",
-      "tagline": "score 38 — SME electrical-panel builder on the India data-centre capex wave",
-      "rationale": "Conviction score 38 (base 24 + thesis 14; 1 trusted sighting, no floor). SME panel-builder supplying the India data-centre / hyperscaler capex cycle: ~58% ROCE, ABB and Hitachi tie-ups, a PDU product ramp that roughly doubles addressable market, and 35-40% guided growth. Satishwe (elevated-trusted) laid out a detailed bull thesis on the 13-post thread. Held to tierB (low end) by SME liquidity/disclosure risk, rich valuation at ~Rs 1,360 Cr and an unconfirmed 10x frame. Revisit in 30 days on order intake and PDU ramp execution. [Score-driven reclassification 2026-09-11: conviction_score refreshed to 62.09 (broader deepdive/quality-data coverage lifted quality_lift) crosses the tierA (>=60) threshold — moved tierB -> tierA.]"
+      "tagline": "score 38 \u2014 SME electrical-panel builder on the India data-centre capex wave",
+      "rationale": "Conviction score 38 (base 24 + thesis 14; 1 trusted sighting, no floor). SME panel-builder supplying the India data-centre / hyperscaler capex cycle: ~58% ROCE, ABB and Hitachi tie-ups, a PDU product ramp that roughly doubles addressable market, and 35-40% guided growth. Satishwe (elevated-trusted) laid out a detailed bull thesis on the 13-post thread. Held to tierB (low end) by SME liquidity/disclosure risk, rich valuation at ~Rs 1,360 Cr and an unconfirmed 10x frame. Revisit in 30 days on order intake and PDU ramp execution. [Score-driven reclassification 2026-09-11: conviction_score refreshed to 62.09 (broader deepdive/quality-data coverage lifted quality_lift) crosses the tierA (>=60) threshold \u2014 moved tierB -> tierA.]"
     },
     {
       "name": "P.E. Analytics Ltd (PropEquity)",
-      "tagline": "score 46 — debt-free real-estate data-SaaS micro-cap with >30% ROCE and a large TAM runway",
-      "rationale": "Conviction score 46 (base 32 + thesis 14). PropEquity subscription analytics + Propedge valuations; ROCE ~35%, ROE ~26%, debt-free, ~40% margins, mgmt targeting Rs 500-1,000 Cr revenue off a ~Rs 231 Cr mcap base. harsh.beria93 (elevated) tracks it; 06-Aug-2026 update confirms valuation-division recovery and strong subscription growth. Caveat: micro-cap liquidity, single-vertical concentration. Unconfirmed. [Score-driven reclassification 2026-09-11: conviction_score refreshed to 61.05 (broader deepdive/quality-data coverage lifted quality_lift) crosses the tierA (>=60) threshold — moved tierB -> tierA.]"
+      "tagline": "score 46 \u2014 debt-free real-estate data-SaaS micro-cap with >30% ROCE and a large TAM runway",
+      "rationale": "Conviction score 46 (base 32 + thesis 14). PropEquity subscription analytics + Propedge valuations; ROCE ~35%, ROE ~26%, debt-free, ~40% margins, mgmt targeting Rs 500-1,000 Cr revenue off a ~Rs 231 Cr mcap base. harsh.beria93 (elevated) tracks it; 06-Aug-2026 update confirms valuation-division recovery and strong subscription growth. Caveat: micro-cap liquidity, single-vertical concentration. Unconfirmed. [Score-driven reclassification 2026-09-11: conviction_score refreshed to 61.05 (broader deepdive/quality-data coverage lifted quality_lift) crosses the tierA (>=60) threshold \u2014 moved tierB -> tierA.]"
     },
     {
       "name": "Dynamic Cables",
-      "tagline": "score 46 — power-cable maker on the T&D + solar capex super-cycle, ~30% growth confirmed across concalls",
-      "rationale": "Conviction score 46 (base 32 + thesis 14). ~30% growth confirmed across multiple concalls, ROCE ~27%, long-term debt repaid, UL 854 + PGCIL approvals opening export/utility demand. Tempered by a ~Rs 344 Cr Indokrates promoter-related guarantee and capex-timing slippage. Was legacy Tier A in the older screen. Small-cap ~Rs 2,200 Cr. [Score-driven reclassification 2026-09-11: conviction_score refreshed to 60.18 (broader deepdive/quality-data coverage lifted quality_lift) crosses the tierA (>=60) threshold — moved tierB -> tierA.]"
+      "tagline": "score 46 \u2014 power-cable maker on the T&D + solar capex super-cycle, ~30% growth confirmed across concalls",
+      "rationale": "Conviction score 46 (base 32 + thesis 14). ~30% growth confirmed across multiple concalls, ROCE ~27%, long-term debt repaid, UL 854 + PGCIL approvals opening export/utility demand. Tempered by a ~Rs 344 Cr Indokrates promoter-related guarantee and capex-timing slippage. Was legacy Tier A in the older screen. Small-cap ~Rs 2,200 Cr. [Score-driven reclassification 2026-09-11: conviction_score refreshed to 60.18 (broader deepdive/quality-data coverage lifted quality_lift) crosses the tierA (>=60) threshold \u2014 moved tierB -> tierA.]"
     }
   ],
   "tierB_intro": "Real positives, but with a specific caveat (valuation richness, unproven trend, thinner catalyst, or a larger size making the return math harder) that keeps conviction moderate.",
@@ -7930,7 +7930,7 @@
     {
       "name": "Alpex Solar Ltd",
       "tagline": "Exceptional headline growth, but rising leverage is funding the capex",
-      "rationale": "Headline growth/returns look exceptional, but forum diligence reveals D/E has risen to ~0.96x funding a large capex program — more current than the low D/E some screeners still show. Non-trusted community debate is unusually adversarial and informative: vikas_chandrawat (1.5yr holder) flags receivables outgrowing revenue and rising interest costs; a live Aug 2026 dispute over whether the new cell facility's environmental clearance covers 1.6GW or the company-claimed 2.2GW remains unresolved. No trusted user has weighed in yet. [conviction_score 38.0]"
+      "rationale": "Headline growth/returns look exceptional, but forum diligence reveals D/E has risen to ~0.96x funding a large capex program \u2014 more current than the low D/E some screeners still show. Non-trusted community debate is unusually adversarial and informative: vikas_chandrawat (1.5yr holder) flags receivables outgrowing revenue and rising interest costs; a live Aug 2026 dispute over whether the new cell facility's environmental clearance covers 1.6GW or the company-claimed 2.2GW remains unresolved. No trusted user has weighed in yet. [conviction_score 38.0]"
     },
     {
       "name": "Aries Agro Ltd",
@@ -7949,7 +7949,7 @@
     },
     {
       "name": "Bansal Roofing Products Ltd",
-      "tagline": "score 30 — rare microcap combo of ~34% ROCE, near-zero debt and a concrete capacity-doubling runway",
+      "tagline": "score 30 \u2014 rare microcap combo of ~34% ROCE, near-zero debt and a concrete capacity-doubling runway",
       "rationale": "FY26 rev +59.6%/PAT +90.4% delivered the ramp that was 'unconfirmed' a year ago, ~34% ROCE, near-zero debt; weak PEB pricing power now visible in a cooling Q1. Expectation-gap: priced-in. [conviction_score 48.0]"
     },
     {
@@ -7980,7 +7980,7 @@
     {
       "name": "DDev Plastiks Industries Ltd",
       "tagline": "High-ROCE compounder moving into BESS assembly, prior red flag resolved",
-      "rationale": "ROCE 30%+, debt-free, but core volume growth has stalled (Q1FY27 production +0.08% YoY) even as exports/EBITDA-per-ton improve. pranavpallod12 (trusted, invested) has covered the thread in depth across 8+ posts and confirmed the prior related-party royalty concern (KKalpana Industries) has shrunk from 9% to 2.4% of PAT — 'no other red flags.' kdjolly (trusted) separately detailed the new BESS-assembly vertical's sourcing strategy. [conviction_score 38.0]"
+      "rationale": "ROCE 30%+, debt-free, but core volume growth has stalled (Q1FY27 production +0.08% YoY) even as exports/EBITDA-per-ton improve. pranavpallod12 (trusted, invested) has covered the thread in depth across 8+ posts and confirmed the prior related-party royalty concern (KKalpana Industries) has shrunk from 9% to 2.4% of PAT \u2014 'no other red flags.' kdjolly (trusted) separately detailed the new BESS-assembly vertical's sourcing strategy. [conviction_score 38.0]"
     },
     {
       "name": "Deep Industries",
@@ -8004,8 +8004,8 @@
     },
     {
       "name": "Grand Continent Hotels Ltd",
-      "tagline": "score 46 — asset-light budget-hotel roll-out compounding revenue ~130%+ off a ~Rs 318 Cr base, lease-margin risk already showing",
-      "rationale": "Conviction score 46 (base 8 + thesis 14 + community anchor; no red-flag tier). Micro-cap ~Rs 318 Cr, listed Mar 2025, revenue +130%+ YoY with an asset-light model (10-15yr leases + Regenta/Golden Tulip franchise), promoter ~54.8%, institutional holders Niveshaay/Negen and some Jaisinghani (Polycab) family stake. The real caveat: H1 FY26 lease rent rose ~3x against ~+75% revenue, so lease-cost-as-%-of-revenue is climbing ~15%→>20% faster than ARR — member Kedar_Kailaje flags 'a key risk has played out'. Thread-starter Ashar_Mann (elevated tier, invested/biased) is informational only, no conviction floor. Fits the 10x frame at this base; held to Tier B / medium-high by the visible margin compression and <2 years of history. Unconfirmed — revisit in 30 days tracking lease cost as a % of revenue vs room additions."
+      "tagline": "score 46 \u2014 asset-light budget-hotel roll-out compounding revenue ~130%+ off a ~Rs 318 Cr base, lease-margin risk already showing",
+      "rationale": "Conviction score 46 (base 8 + thesis 14 + community anchor; no red-flag tier). Micro-cap ~Rs 318 Cr, listed Mar 2025, revenue +130%+ YoY with an asset-light model (10-15yr leases + Regenta/Golden Tulip franchise), promoter ~54.8%, institutional holders Niveshaay/Negen and some Jaisinghani (Polycab) family stake. The real caveat: H1 FY26 lease rent rose ~3x against ~+75% revenue, so lease-cost-as-%-of-revenue is climbing ~15%\u2192>20% faster than ARR \u2014 member Kedar_Kailaje flags 'a key risk has played out'. Thread-starter Ashar_Mann (elevated tier, invested/biased) is informational only, no conviction floor. Fits the 10x frame at this base; held to Tier B / medium-high by the visible margin compression and <2 years of history. Unconfirmed \u2014 revisit in 30 days tracking lease cost as a % of revenue vs room additions."
     },
     {
       "name": "Gufic BioSciences Ltd",
@@ -8014,12 +8014,12 @@
     },
     {
       "name": "Harshdeep Hortico Ltd (SME)",
-      "tagline": "score 38 — BSE-SME garden-decor micro-cap, ~25% ROE, near debt-free, H1FY26 rev +31% / PAT +35%",
+      "tagline": "score 38 \u2014 BSE-SME garden-decor micro-cap, ~25% ROE, near debt-free, H1FY26 rev +31% / PAT +35%",
       "rationale": "Conviction score 38 (base 24 + thesis 14). Design + distribution edge in gardening/outdoor lifestyle; abhicnr (elevated) authored the thesis. Caveat: negative FCF from working-capital lock-up, sub-Rs 150 Cr SME liquidity. Unconfirmed."
     },
     {
       "name": "Indo Tech Transformers Ltd",
-      "tagline": "score 38 — ~38% ROCE, debt-free transformer maker riding the T&D capex cycle",
+      "tagline": "score 38 \u2014 ~38% ROCE, debt-free transformer maker riding the T&D capex cycle",
       "rationale": "ROCE ~38%, ROE ~28%, debt-free, exponential FY25 revenue/PAT growth on large transformer orders moderating to mid-to-high-teens in early FY26. Trusted user Mohit_baid tracks DII entry and rebutted a CEO-exit concern with filings; Prabhat_Mohanty still calls the CEO's abrupt resignation 'fishy'. vnktshb/richbandit cite 7-8yr demand visibility and 20%+ renewable-segment CAGR. Score 38 -> Tier B."
     },
     {
@@ -8044,7 +8044,7 @@
     },
     {
       "name": "KMC Speciality Hospitals (India) Ltd",
-      "tagline": "score 46 — single-campus Trichy hospital, operating leverage kicking in post-capex",
+      "tagline": "score 46 \u2014 single-campus Trichy hospital, operating leverage kicking in post-capex",
       "rationale": "ROCE/ROE ~26.7%, low debt, Q3 FY26 revenue +33% / Q4 +35% YoY, EBITDA margin 31%+ as the new block ramps (beds ~250 -> ~450, employee cost down to ~19.4% of revenue). Trusted user Rahul_Behera is progressively positive each quarter. Conviction capped by single-asset concentration and ~Rs 80-98 Cr corporate guarantees / RPTs with the unlisted parent (which plans its own listing). Score 46 -> Tier B; 30-day revisit."
     },
     {
@@ -8060,12 +8060,12 @@
     {
       "name": "Kernex Microsystems (India) Ltd",
       "tagline": "Kavach/TCAS order book looks cheap against FY27 topline math",
-      "rationale": "kartik_bhat (trusted) posted a granular order-book breakdown: Rs 3,641 Cr outstanding, CLW order 45% complete (Rs 1,300 Cr balance), implying ~Rs 2,800-2,900 Cr FY27 revenue against a Rs 3,305 Cr market cap — genuinely cheap if execution holds. Countervailing point: revenue recognition may run on 'supplied' rather than 'installed & commissioned' units, which could overstate near-term completion. Stock already at 13.3x book value. [conviction_score 38.0]"
+      "rationale": "kartik_bhat (trusted) posted a granular order-book breakdown: Rs 3,641 Cr outstanding, CLW order 45% complete (Rs 1,300 Cr balance), implying ~Rs 2,800-2,900 Cr FY27 revenue against a Rs 3,305 Cr market cap \u2014 genuinely cheap if execution holds. Countervailing point: revenue recognition may run on 'supplied' rather than 'installed & commissioned' units, which could overstate near-term completion. Stock already at 13.3x book value. [conviction_score 38.0]"
     },
     {
       "name": "L. T. Elevators: Can they lift investors",
       "tagline": "SME lift + parking maker doubling revenue, but score fell 61->47 as management component turned negative",
-      "rationale": "conviction_score 47.0 (base 24 + thesis 14 + corroboration 15 from three constructive elevated-tier users — raj1968 invested, Prdnt_investor, Satishwe — minus a 6-point management penalty). FY26 consolidated topline ~Rs 111 Cr / net profit ~Rs 17 Cr, both ~+100% YoY, into an elevator+parking market growing ~10%+. Was tierA on a score of 61; the score now clears only the tierB threshold after the management deduction, and operating cash flow has been negative three straight years (FY26 -Rs 14.4 Cr) with promoter stake diluted to 56.8%. Score-driven move A->B."
+      "rationale": "conviction_score 47.0 (base 24 + thesis 14 + corroboration 15 from three constructive elevated-tier users \u2014 raj1968 invested, Prdnt_investor, Satishwe \u2014 minus a 6-point management penalty). FY26 consolidated topline ~Rs 111 Cr / net profit ~Rs 17 Cr, both ~+100% YoY, into an elevator+parking market growing ~10%+. Was tierA on a score of 61; the score now clears only the tierB threshold after the management deduction, and operating cash flow has been negative three straight years (FY26 -Rs 14.4 Cr) with promoter stake diluted to 56.8%. Score-driven move A->B."
     },
     {
       "name": "Marine Electricals",
@@ -8080,7 +8080,7 @@
     {
       "name": "Neetu Yoshi Ltd",
       "tagline": "SME railway Class-A foundry, ROCE ~32%, capacity doubling Sep-2026",
-      "rationale": "conviction_score 46.0 (base 24 + thesis 14 + multi-trusted corroboration +8, 2 distinct trusted users). SME-listed 2025 railway Class-A foundry; ROCE ~32%, FY26 revenue +54%; RDSO bogie/coupler approval plus a Haridwar plant doubling capacity in Sep-2026. Held back by no moat, SME-tier disclosure and a thin (~Rs 170 Cr) order book — the 10x-in-2-3-years path is unconfirmed. Newly added to the ranking this run."
+      "rationale": "conviction_score 46.0 (base 24 + thesis 14 + multi-trusted corroboration +8, 2 distinct trusted users). SME-listed 2025 railway Class-A foundry; ROCE ~32%, FY26 revenue +54%; RDSO bogie/coupler approval plus a Haridwar plant doubling capacity in Sep-2026. Held back by no moat, SME-tier disclosure and a thin (~Rs 170 Cr) order book \u2014 the 10x-in-2-3-years path is unconfirmed. Newly added to the ranking this run."
     },
     {
       "name": "Northern Arc Capital Ltd",
@@ -8090,7 +8090,7 @@
     {
       "name": "OBSC Perfection Ltd",
       "tagline": "Rs 1,200 Cr order book on ~Rs 190 Cr revenue, defence/marine mix-shift + first in-house forging plant",
-      "rationale": "Rs 1,200 Cr order book vs ~Rs 190 Cr revenue, ~18% ROCE / ~25% growth; defence/marine mix shift, first in-house forging plant, and now a near-in AS9100D aerospace certification (mgmt guided this ~6 months ago, already in talks with prospective aerospace customers per @LearningEleven on X) as the stacked catalyst. Unresolved: implausibly low employee cost (heavy outsourced job-work vs genuine in-house machining), ~12x sales, annual-only concall. Expectation-gap score is 'priced-in' and the trusted holder himself calls it 'obviously quite expensive' — watchlist framing, the order book / cert are the credible catalysts. [conviction_score 38.0]"
+      "rationale": "Rs 1,200 Cr order book vs ~Rs 190 Cr revenue, ~18% ROCE / ~25% growth; defence/marine mix shift, first in-house forging plant, and now a near-in AS9100D aerospace certification (mgmt guided this ~6 months ago, already in talks with prospective aerospace customers per @LearningEleven on X) as the stacked catalyst. Unresolved: implausibly low employee cost (heavy outsourced job-work vs genuine in-house machining), ~12x sales, annual-only concall. Expectation-gap score is 'priced-in' and the trusted holder himself calls it 'obviously quite expensive' \u2014 watchlist framing, the order book / cert are the credible catalysts. [conviction_score 38.0]"
     },
     {
       "name": "Prevest Denpro Limited",
@@ -8109,7 +8109,7 @@
     },
     {
       "name": "Repono Ltd",
-      "tagline": "score 38 — cheap, high-ROCE industrial-storage SME with a Reliance credential, flagship revenue ~3 years out",
+      "tagline": "score 38 \u2014 cheap, high-ROCE industrial-storage SME with a Reliance credential, flagship revenue ~3 years out",
       "rationale": "Conviction score 38 (base 8 + thesis 14 + anchor; thin 6-post thread, no trusted-roster user). BSE-SME micro-cap ~Rs 79 Cr, ROCE ~27.4% / ROE ~22.4%, FY26 revenue +29% to ~Rs 66.5 Cr (~27% 5-yr CAGR), near debt-free, P/E ~11.7, listed Aug 2025. A Reliance Industries agreement is a strong credential but revenue impact is ~2029; deepakreads notes the current rally may be trader-driven while promoters chase a second large contract. The legacy Tier A call still fits the frame; held to Tier B / medium conviction by BSE-SME liquidity, ~1 year of public history and the ~3-year lag on the flagship contract. No red-flag tier. Unconfirmed."
     },
     {
@@ -8134,7 +8134,7 @@
     },
     {
       "name": "Sika Interplant Systems Ltd",
-      "tagline": "score 46 — consistent ~35% ROCE aerospace / defence engineering with HEICO and HAL optionality",
+      "tagline": "score 46 \u2014 consistent ~35% ROCE aerospace / defence engineering with HEICO and HAL optionality",
       "rationale": "Conviction score 46 (base 8 + thesis 14, no trusted corroboration this pass). ROCE ~35% / ROE ~22-26%, revenue +37.3% FY25 (5-yr CAGR ~18%), PAT CAGR ~25%, near debt-free and asset-light; AGM guidance ~1.5x FY26 revenue over 6-24 months. Catalysts: an April-2025 authorised repair-station appointment for HEICO-group Radiant Power (a large-order channel), a HAL MoU for airborne SAR / medevac / firefighting, and defence / MRO tailwinds (fleet expansion, GST on MRO cut 18% -> 5%, offsets). Held below Tier A by a double-digit price-to-sales multiple, no concalls / occasional filing errors, a long-standing moat debate (Tier-2/3 clients, thin Indian MRO economics) and lumpy milestone-driven quarters. Base case 2-4x. Unconfirmed. Revisit ~30 days."
     },
     {
@@ -8180,12 +8180,12 @@
     {
       "name": "Wockhardt Ltd",
       "tagline": "Zaynich cleared full US FDA approval; margin turnaround now confirmed multi-quarter",
-      "rationale": "Zaynich went from Indian marketing authorization + fast-track acceptance to FULL US FDA approval (29-May-2026, Priority Review + Fast Track + QIDP) - first NCE fully developed & commercialised by an Indian pharma co to win full US approval. Margin turnaround confirmed multi-quarter, not one-off: FY26 EBITDA margin 13.8%->18.7%, PAT margin -1.9%->+5.9%, Q1 FY27 extended it (EBITDA +86% YoY). Promoter pledge fell to 18.8% (from 52.9% FY24), ICRA upgraded twice in a year. But valuation re-rated in lockstep (trailing P/E ~85x) and expectation-gap scoring flags this over-optimistic/no-edge: reverse-P/E implies ~80%+ EPS CAGR FY26-28 at a 25x exit, well above our base case since no global (ex-India/ex-US) licensing deal is signed yet. Fresh Rs1,000cr capital-raise resolution (10-Aug-2026) adds dilution risk. Real catalyst, but priced in - not a fresh buy signal. [conviction_score 61.32] [Score-driven reclassification 2026-09-11: conviction_score refreshed to 55.86 (down from 61.32) drops below the tierA (>=60) threshold — moved tierA -> tierB. Underlying thesis (Zaynich full US FDA approval, multi-quarter margin turnaround) unchanged; the drop is mechanical recency decay on the trusted-signal component plus a modest quality_lift recompute, not new negative news.]"
+      "rationale": "Zaynich went from Indian marketing authorization + fast-track acceptance to FULL US FDA approval (29-May-2026, Priority Review + Fast Track + QIDP) - first NCE fully developed & commercialised by an Indian pharma co to win full US approval. Margin turnaround confirmed multi-quarter, not one-off: FY26 EBITDA margin 13.8%->18.7%, PAT margin -1.9%->+5.9%, Q1 FY27 extended it (EBITDA +86% YoY). Promoter pledge fell to 18.8% (from 52.9% FY24), ICRA upgraded twice in a year. But valuation re-rated in lockstep (trailing P/E ~85x) and expectation-gap scoring flags this over-optimistic/no-edge: reverse-P/E implies ~80%+ EPS CAGR FY26-28 at a 25x exit, well above our base case since no global (ex-India/ex-US) licensing deal is signed yet. Fresh Rs1,000cr capital-raise resolution (10-Aug-2026) adds dilution risk. Real catalyst, but priced in - not a fresh buy signal. [conviction_score 61.32] [Score-driven reclassification 2026-09-11: conviction_score refreshed to 55.86 (down from 61.32) drops below the tierA (>=60) threshold \u2014 moved tierA -> tierB. Underlying thesis (Zaynich full US FDA approval, multi-quarter margin turnaround) unchanged; the drop is mechanical recency decay on the trusted-signal component plus a modest quality_lift recompute, not new negative news.]"
     },
     {
       "name": "Yash Highvoltage Ltd",
-      "tagline": "score 54 (was 62) — phreakv6 small-position bushing-shortage pick, trusted signal aging",
-      "rationale": "Moved tierA -> tierB this run: refreshed conviction_score is 54.0 (base 32 + thesis 14 + trust 8), down from 62.0 at last placement, so it now sits in the 35-59 tierB band. The drop is recency decay — the phreakv6 hold and the cross-concall bushing-shortage corroboration have aged past the score's recency weighting, so the corroboration bonus fell to 0 and distinct_trusted_users to 0. Underlying thesis unchanged: global high-voltage bushing shortage independently referenced across 3 unrelated companies' concalls, phreakv6's own small position. Still the cleanest catalyst case among the ex-tierA batch; re-crosses to tierA if a fresh trusted mention or a confirmed order/margin step-up lands."
+      "tagline": "score 54 (was 62) \u2014 phreakv6 small-position bushing-shortage pick, trusted signal aging",
+      "rationale": "Moved tierA -> tierB this run: refreshed conviction_score is 54.0 (base 32 + thesis 14 + trust 8), down from 62.0 at last placement, so it now sits in the 35-59 tierB band. The drop is recency decay \u2014 the phreakv6 hold and the cross-concall bushing-shortage corroboration have aged past the score's recency weighting, so the corroboration bonus fell to 0 and distinct_trusted_users to 0. Underlying thesis unchanged: global high-voltage bushing shortage independently referenced across 3 unrelated companies' concalls, phreakv6's own small position. Still the cleanest catalyst case among the ex-tierA batch; re-crosses to tierA if a fresh trusted mention or a confirmed order/margin step-up lands."
     },
     {
       "name": "RNIT AI Solutions Ltd",
@@ -8746,7 +8746,7 @@
       "primary_screen_reason": "unclassified"
     },
     {
-      "name": "Modern Insulators Ltd: A Porcelain Insulator Opportunity Insulating the Power Cycle while Riding India’s Transmission Boom",
+      "name": "Modern Insulators Ltd: A Porcelain Insulator Opportunity Insulating the Power Cycle while Riding India\u2019s Transmission Boom",
       "reason": "Live printed margin inflection (OPM 10->17%) intact; but FY26 QUALIFIED audit opinion on unprovided tax, no concalls, Rs25cr AIF, no capex for FY28 leg -> conviction down",
       "dimensions": {
         "thesis": "unknown",
@@ -8783,7 +8783,7 @@
     },
     {
       "name": "Oval Projects Engineering Ltd",
-      "reason": "Oil&gas EPC/O&M BSE-SME; FY26 rev +50%, PAT +59%, ROCE 23%, order book ~5x, P/E ~10 — competitive-bid EPC, one listed year. four_box 2.0 + valuation-box exception; Low-Medium unconfirmed.",
+      "reason": "Oil&gas EPC/O&M BSE-SME; FY26 rev +50%, PAT +59%, ROCE 23%, order book ~5x, P/E ~10 \u2014 competitive-bid EPC, one listed year. four_box 2.0 + valuation-box exception; Low-Medium unconfirmed.",
       "dimensions": {
         "thesis": "unknown",
         "recent_fundamentals": "unknown",
@@ -9385,7 +9385,7 @@
     },
     {
       "name": "International Gemmological Institute (India) Ltd",
-      "reason": "Near-monopoly diamond certification, 57%/yr revenue growth, 41.6% ROE — but 2 independent community posts document Blackstone's IPO exit as a near-pure PE flip with explicit governance-risk warning",
+      "reason": "Near-monopoly diamond certification, 57%/yr revenue growth, 41.6% ROE \u2014 but 2 independent community posts document Blackstone's IPO exit as a near-pure PE flip with explicit governance-risk warning",
       "dimensions": {
         "thesis": "unknown",
         "recent_fundamentals": "unknown",
@@ -9744,7 +9744,7 @@
       "primary_screen_reason": "thesis"
     },
     {
-      "name": "The Leela Palaces — New Promoter, Legacy Hotels, New Playbook",
+      "name": "The Leela Palaces \u2014 New Promoter, Legacy Hotels, New Playbook",
       "reason": "Real luxury-hotel growth but ~76% promoter share pledge (HIGH CAUTION), already large-cap rich valuation",
       "dimensions": {
         "thesis": "neither",
@@ -10037,7 +10037,7 @@
     },
     {
       "name": "Man Industries (India) Limited",
-      "reason": "Active SEBI order (Sept 2025) for financial misrepresentation FY16-FY21, under SAT stay not cleared — overrides strong Q1 FY27 results and trusted mention."
+      "reason": "Active SEBI order (Sept 2025) for financial misrepresentation FY16-FY21, under SAT stay not cleared \u2014 overrides strong Q1 FY27 results and trusted mention."
     },
     {
       "name": "Rajesh Exports Ltd",
@@ -10051,5 +10051,6 @@
       "name": "V-Marc India Ltd",
       "reason": "EXCLUDED (re-verified 2026-09-02): SEBI confirmatory order 26-Jul-2024 for promoter/MD stock manipulation still stands; Q1FY27 beat (+102% rev/+163% PAT YoY) does not override. conviction_needs_reverification cleared."
     }
-  ]
+  ],
+  "last_post_number_analyzed": 0
 }

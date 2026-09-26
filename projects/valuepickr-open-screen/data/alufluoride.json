@@ -116,29 +116,71 @@
     "conviction_update": "Medium -> Low-Medium. The TAM/tailwind case is intact, but this pass uncovered that the moat's core input (cheap FSA feedstock) has a chronic, since-inception reliability problem with the primary contracted supplier, which just caused a ~40% quarterly revenue decline. That is a materially different and more serious risk than the 'margin compression from raw-material price volatility' framing in the existing write-up, and it remains unresolved as of the latest data found."
   },
   "commitments": [
-    { "area": "capacity", "text": "24,000 TPA capacity expansion completed", "specifics": "12,000 -> 16,000 -> 18,000 -> 24,000 TPA, completed Aug 2026",
-      "timeline_bucket": "3M", "quality_stage": "operational", "source": "Aug 2026 BSE announcement",
-      "dependency": "adequate FSA feedstock supply to actually utilise the expanded capacity", "single_point_of_failure": "Coromandel FSA supply reliability", "thesis_critical": true },
-    { "area": "capacity", "text": "Management expects FSA feedstock supply/production to recover 'from the current quarter'", "specifics": "Coromandel contracted for 4,000 TPA (has chronically under-delivered since inception); balance sourced from Odisha",
-      "timeline_bucket": "3M", "quality_stage": "expectation", "source": "Q1 FY27 results commentary",
-      "dependency": "Coromandel plant ramp-up or continued/expanded Odisha alternate sourcing", "single_point_of_failure": "Coromandel is the intended low-cost byproduct source; Odisha alternate may be costlier/less reliable", "thesis_critical": true },
-    { "area": "capex", "text": "Alumina Hydrate backward-integration project, Phase 1", "specifics": "Rs 40-50 Cr Phase 1 capex, 30,000-50,000 TPA, aimed at input-cost volatility",
-      "timeline_bucket": "12M", "quality_stage": "action", "source": "kdjolly trusted-user writeup, Jan 2026",
-      "dependency": "execution/go-live timeline not yet disclosed with specifics; targets cost volatility, not the separate Coromandel supply-volume shortfall", "single_point_of_failure": "", "thesis_critical": true }
+    {
+      "area": "capacity",
+      "text": "24,000 TPA capacity expansion completed",
+      "specifics": "12,000 -> 16,000 -> 18,000 -> 24,000 TPA, completed Aug 2026",
+      "timeline_bucket": "3M",
+      "quality_stage": "operational",
+      "source": "Aug 2026 BSE announcement",
+      "dependency": "adequate FSA feedstock supply to actually utilise the expanded capacity",
+      "single_point_of_failure": "Coromandel FSA supply reliability",
+      "thesis_critical": true
+    },
+    {
+      "area": "capacity",
+      "text": "Management expects FSA feedstock supply/production to recover 'from the current quarter'",
+      "specifics": "Coromandel contracted for 4,000 TPA (has chronically under-delivered since inception); balance sourced from Odisha",
+      "timeline_bucket": "3M",
+      "quality_stage": "expectation",
+      "source": "Q1 FY27 results commentary",
+      "dependency": "Coromandel plant ramp-up or continued/expanded Odisha alternate sourcing",
+      "single_point_of_failure": "Coromandel is the intended low-cost byproduct source; Odisha alternate may be costlier/less reliable",
+      "thesis_critical": true
+    },
+    {
+      "area": "capex",
+      "text": "Alumina Hydrate backward-integration project, Phase 1",
+      "specifics": "Rs 40-50 Cr Phase 1 capex, 30,000-50,000 TPA, aimed at input-cost volatility",
+      "timeline_bucket": "12M",
+      "quality_stage": "action",
+      "source": "kdjolly trusted-user writeup, Jan 2026",
+      "dependency": "execution/go-live timeline not yet disclosed with specifics; targets cost volatility, not the separate Coromandel supply-volume shortfall",
+      "single_point_of_failure": "",
+      "thesis_critical": true
+    }
   ],
   "earnings_chain": {
-    "chain": ["FSA (feedstock) supply availability", "production volume", "revenue", "operating leverage on the new 24,000 TPA capacity", "EBITDA margin", "PAT"],
+    "chain": [
+      "FSA (feedstock) supply availability",
+      "production volume",
+      "revenue",
+      "operating leverage on the new 24,000 TPA capacity",
+      "EBITDA margin",
+      "PAT"
+    ],
     "bottleneck_link": "FSA feedstock supply - primary contracted supplier Coromandel has chronically under-delivered since inception, forcing costlier/uncertain Odisha sourcing and directly causing the Q1 FY27 ~40% revenue decline",
-    "operating_leverage": "unclear — the new 24,000 TPA capacity can't be assessed for operating leverage until feedstock supply is reliable enough to actually run it",
-    "evidenced_links": ["Q1 FY27 revenue -39.5% YoY tied to reduced production from the feedstock shortfall", "24,000 TPA capacity completed Aug 2026"],
-    "assumed_links": ["FSA supply recovery 'from the current quarter' (management hope, not yet evidenced)", "Alumina Hydrate backward integration fixing input-cost volatility (does not directly address the Coromandel volume shortfall)"]
+    "operating_leverage": "unclear \u2014 the new 24,000 TPA capacity can't be assessed for operating leverage until feedstock supply is reliable enough to actually run it",
+    "evidenced_links": [
+      "Q1 FY27 revenue -39.5% YoY tied to reduced production from the feedstock shortfall",
+      "24,000 TPA capacity completed Aug 2026"
+    ],
+    "assumed_links": [
+      "FSA supply recovery 'from the current quarter' (management hope, not yet evidenced)",
+      "Alumina Hydrate backward integration fixing input-cost volatility (does not directly address the Coromandel volume shortfall)"
+    ]
   },
   "market_expectation": {
-    "as_of": "2026-09-05", "price": 499, "current_pe": 15.8, "current_ev_ebitda": null, "valuation_tool": "P/E",
+    "as_of": "2026-09-05",
+    "price": 499,
+    "current_pe": 15.8,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
     "implied_growth_cagr": "15.8x P/E (market cap ~Rs390Cr, well off the Rs615 52-week high but not fully cratered) suggests the market has priced in some caution post-Q4 FY26 margin compression, but likely not the full structural (since-inception) nature of the Coromandel feedstock shortfall behind the Q1 FY27 revenue collapse",
     "our_fy27_estimate": "revenue recovery highly conditional on Coromandel/Odisha feedstock normalising; if it doesn't, FY27 could see a second consecutive weak quarter and full-year growth well below FY26's +10.7%",
     "our_fy28_estimate": "if the Alumina Hydrate backward-integration project (or an alternate FSA source) resolves the feedstock constraint, the 24,000 TPA capacity could drive a genuine step-up - but this is unproven and undated",
-    "gap_direction": "partially-priced", "gap_type": "volume",
+    "gap_direction": "partially-priced",
+    "gap_type": "volume",
     "gap_magnitude_pct": null,
     "gap_basis": "the stock is already well off its highs (some caution priced), but the chronic/structural framing of the Coromandel shortfall (vs a one-quarter blip) may not be fully reflected if the market is anchored to the Jan-2026 bull narrative",
     "evidence_quality": "moderate",
@@ -146,19 +188,31 @@
   },
   "catalyst": {
     "event": "Q2 FY27 results confirming whether Coromandel FSA supply has actually normalised and production/revenue recovers, versus a second consecutive weak quarter",
-    "expected_window_months": 3, "window_start": "2026-09-05", "evidence_quality": "low", "is_dated": false, "status": "pending"
+    "expected_window_months": 3,
+    "window_start": "2026-09-05",
+    "evidence_quality": "low",
+    "is_dated": false,
+    "status": "pending"
   },
   "value_chain": {
     "theme": "Aluminium Fluoride (AlF3) - critical aluminium-smelter flux, waste-to-wealth import substitution",
     "position": "one of only two Indian AlF3 producers using the low-cost, Alusuisse-licensed Hydrofluosilicic-Acid (byproduct) route; ~20-25% domestic market share",
     "bottleneck_node": "FSA (Hydrofluosilicic Acid) feedstock supply - primary contracted supplier Coromandel has chronically under-delivered since inception, forcing costlier/uncertain alternate sourcing from Odisha",
     "supply_side_status": "consolidating",
-    "adjacent_peers": ["Greenstar (India's other domestic AlF3 producer)", "imported AlF3 suppliers", "Gujarat Fluorochemicals", "Navin Fluorine"],
+    "adjacent_peers": [
+      "Greenstar (India's other domestic AlF3 producer)",
+      "imported AlF3 suppliers",
+      "Gujarat Fluorochemicals",
+      "Navin Fluorine"
+    ],
     "note": "The product-market structure (2 domestic producers vs 80,000 TPA demand, ~23,000 TPA domestic supply) still strongly favours import substitution, but Q1 FY27 shows the real near-term constraint isn't market demand - it's whether Alufluoride can reliably secure its own low-cost feedstock at the volumes needed to run its newly-expanded 24,000 TPA capacity."
   },
   "earnings_quality": {
     "margin_driver": "cyclical",
-    "drivers": ["FSA/Alumina Hydrate feedstock cost and availability volatility", "reduced production volume from the Coromandel supply shortfall (Q1 FY27)"],
+    "drivers": [
+      "FSA/Alumina Hydrate feedstock cost and availability volatility",
+      "reduced production volume from the Coromandel supply shortfall (Q1 FY27)"
+    ],
     "peak_margin_risk": false,
     "normalised_note": "This is not a peak-margin/reversion risk - margins and revenue are currently compressed, not elevated. The risk is input-supply reliability, not a cyclical margin peak unwinding."
   },
@@ -190,5 +244,6 @@
     "margin_trend": "contracting",
     "capex_efficiency": "unclear",
     "assessment": "neutral"
-  }
+  },
+  "last_post_number_analyzed": 0
 }

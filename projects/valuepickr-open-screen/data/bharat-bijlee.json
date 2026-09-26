@@ -86,7 +86,12 @@
     "position": "domestic transformer + LT/HT motor + servo-drives manufacturer, mid-tier scale vs MNC and larger domestic peers",
     "bottleneck_node": "input-cost pass-through lag (copper/CRGO) and a structurally higher unit labour-cost base vs peers",
     "supply_side_status": "adding",
-    "adjacent_peers": ["Voltamp Transformers", "Transformers and Rectifiers (India)", "CG Power", "Siemens Energy India"],
+    "adjacent_peers": [
+      "Voltamp Transformers",
+      "Transformers and Rectifiers (India)",
+      "CG Power",
+      "Siemens Energy India"
+    ],
     "note": "BBL and the broader domestic transformer sector are adding capacity together into a still-tight market (BBL alone 18k->35k MVA) - a real near-term tailwind but a supply-side glut risk 2-3 years out if demand growth doesn't keep pace with sector-wide capacity adds."
   },
   "earnings_quality": {
@@ -164,11 +169,25 @@
     }
   ],
   "earnings_chain": {
-    "chain": ["transformer demand tailwind", "capacity expansion 18k->35k MVA", "revenue growth", "input-cost pass-through / margin recovery", "operating leverage", "PAT/FCF"],
+    "chain": [
+      "transformer demand tailwind",
+      "capacity expansion 18k->35k MVA",
+      "revenue growth",
+      "input-cost pass-through / margin recovery",
+      "operating leverage",
+      "PAT/FCF"
+    ],
     "bottleneck_link": "input-cost pass-through / margin recovery",
     "operating_leverage": "unclear - revenue has grown double-digit for two straight years but PAT has fallen in both, so operating leverage is not yet showing up in reported numbers",
-    "evidenced_links": ["transformer demand tailwind", "capacity expansion 18k->35k MVA", "revenue growth"],
-    "assumed_links": ["input-cost pass-through / margin recovery", "operating leverage"]
+    "evidenced_links": [
+      "transformer demand tailwind",
+      "capacity expansion 18k->35k MVA",
+      "revenue growth"
+    ],
+    "assumed_links": [
+      "input-cost pass-through / margin recovery",
+      "operating leverage"
+    ]
   },
   "market_expectation": {
     "as_of": "2026-09-18",
@@ -195,13 +214,44 @@
     "status": "pending"
   },
   "sector_kpis": [
-    { "metric": "Transformer capacity (MVA)", "value": "28,000 MVA live (Phase 1, from ~Q1 FY27), building to 35,000 MVA (Phase 2, Rs 65 Cr approved Aug-2025)", "trend": "improving", "note": "up from an 18,000 MVA base" },
-    { "metric": "Pre-expansion capacity utilisation", "value": "~80% cited on the original 18,000 MVA base per press/forum commentary", "trend": "improving", "note": "cited as the rationale for both expansion phases" }
+    {
+      "metric": "Transformer capacity (MVA)",
+      "value": "28,000 MVA live (Phase 1, from ~Q1 FY27), building to 35,000 MVA (Phase 2, Rs 65 Cr approved Aug-2025)",
+      "trend": "improving",
+      "note": "up from an 18,000 MVA base"
+    },
+    {
+      "metric": "Pre-expansion capacity utilisation",
+      "value": "~80% cited on the original 18,000 MVA base per press/forum commentary",
+      "trend": "improving",
+      "note": "cited as the rationale for both expansion phases"
+    }
   ],
   "scenario_analysis": {
-    "bull": { "revenue_cagr_fy26_28_pct": 15, "fy28_margin_pct": 7.5, "fy28_eps": 118, "exit_multiple": 19, "implied_price": 2242, "pct_vs_cmp": 2 },
-    "base": { "revenue_cagr_fy26_28_pct": 10, "fy28_margin_pct": 6.0, "fy28_eps": 88, "exit_multiple": 18, "implied_price": 1584, "pct_vs_cmp": -28 },
-    "bear": { "revenue_cagr_fy26_28_pct": 6, "fy28_margin_pct": 4.5, "fy28_eps": 62, "exit_multiple": 15, "implied_price": 930, "pct_vs_cmp": -58 },
+    "bull": {
+      "revenue_cagr_fy26_28_pct": 15,
+      "fy28_margin_pct": 7.5,
+      "fy28_eps": 118,
+      "exit_multiple": 19,
+      "implied_price": 2242,
+      "pct_vs_cmp": 2
+    },
+    "base": {
+      "revenue_cagr_fy26_28_pct": 10,
+      "fy28_margin_pct": 6.0,
+      "fy28_eps": 88,
+      "exit_multiple": 18,
+      "implied_price": 1584,
+      "pct_vs_cmp": -28
+    },
+    "bear": {
+      "revenue_cagr_fy26_28_pct": 6,
+      "fy28_margin_pct": 4.5,
+      "fy28_eps": 62,
+      "exit_multiple": 15,
+      "implied_price": 930,
+      "pct_vs_cmp": -58
+    },
     "closest_to": "bull",
     "note": "CMP (~Rs 2,200-2,500) already sits close to the bull case (margin recovering to ~7.5% off the FY26/Q1 FY27 trough of 5.3-7.2%, on continued double-digit revenue growth) with no management guidance to anchor that recovery. Base (a slower, partial margin recovery) implies ~28% downside; bear (margin stays trough-level as copper/CRGO pressure persists) implies ~58% downside. All figures are this pass's own estimates, not broker consensus."
   },
@@ -253,5 +303,6 @@
     ],
     "conviction_update": "Medium -> Low-Medium. The tailwind and capacity-expansion story are confirmed as real, but the fresh filings read shows the bear case (margin compression, peer-cost disadvantage) is an active, worsening two-year trend rather than a one-off, and the capex is now partly debt-funded rather than purely self-funded as earlier assumed - the 'cheap value + asset play' thesis is intact directionally but the near-term earnings trajectory has deteriorated enough to lower conviction a notch."
   },
-  "conviction": "Low-Medium"
+  "conviction": "Low-Medium",
+  "last_post_number_analyzed": 0
 }

@@ -3,13 +3,34 @@
   "tagline": "India's oldest listed e-waste recycler with headline 25%+ ROCE and zero debt - but the ValuePickr thread documents an auditor-resignation pattern, a management that stopped holding concalls, a 660-day cash conversion cycle and a fixed-asset base that does not match the capacity-expansion story",
   "business_overview": "Eco Recycling Ltd (BSE/NSE: ECORECO), promoted by B K Soni, provides e-waste collection, dismantling/shredding, data destruction, IT asset disposition (ITAD), lamp recycling, precious-metal recovery and EPR compliance services, plus mobile 'Recycling on Wheels' units. Stated recycling capacity ~31,200 MTPA. Promoter-managed; the company has repeatedly failed to attract institutional investors.",
   "fundamentals_table": [
-    ["Market Cap", "~Rs 915 Cr (micro/small-cap)"],
-    ["Revenue / PAT (annualised, recent run-rate)", "Revenue ~Rs 60-75 Cr; PAT ~Rs 30-36 Cr"],
-    ["Reported ROE / ROCE", "~69% / ~25% (on a small equity base)"],
-    ["Debt", "Zero-debt (reported)"],
-    ["EBITDA margin", "~50-70% reported - unusually high; has been compressing (73% -> 50% -> 58%)"],
-    ["Cash conversion cycle", "~660 days (highest in 10+ years) per thread analysis"],
-    ["Sovrenn trigger", "2026-04-28: Q4FY26 sales +90% YoY to Rs 18.6 Cr, net profit +250% YoY to Rs 7 Cr, OPM ~69%; QoQ sales +215%, PAT +248%"]
+    [
+      "Market Cap",
+      "~Rs 915 Cr (micro/small-cap)"
+    ],
+    [
+      "Revenue / PAT (annualised, recent run-rate)",
+      "Revenue ~Rs 60-75 Cr; PAT ~Rs 30-36 Cr"
+    ],
+    [
+      "Reported ROE / ROCE",
+      "~69% / ~25% (on a small equity base)"
+    ],
+    [
+      "Debt",
+      "Zero-debt (reported)"
+    ],
+    [
+      "EBITDA margin",
+      "~50-70% reported - unusually high; has been compressing (73% -> 50% -> 58%)"
+    ],
+    [
+      "Cash conversion cycle",
+      "~660 days (highest in 10+ years) per thread analysis"
+    ],
+    [
+      "Sovrenn trigger",
+      "2026-04-28: Q4FY26 sales +90% YoY to Rs 18.6 Cr, net profit +250% YoY to Rs 7 Cr, OPM ~69%; QoQ sales +215%, PAT +248%"
+    ]
   ],
   "fundamentals_narrative": "On screener the company looks pristine - ~25% ROCE, ~69% ROE, zero debt, 50%+ EBITDA margins, and a Q4FY26 that jumped +90% revenue / +250% PAT. The ValuePickr thread pulls that apart. The Q4 spike is a bounce off collapsed Sep/Dec-2025 quarters; on a full-year / annualised basis a thread contributor calculates sales DOWN ~11% while listed peers grew, with EBITDA margin down from ~71% to ~58%. The cash conversion cycle has blown out to ~660 days - a decade high - and the reported ~50-70% margins on what is largely a collection-and-sell-to-smelter operation are contested. Most seriously, the thread documents (i) three auditor resignations in six years, one just 33 days before FY-end followed by a quick reappointment; (ii) no investor concall since August 2024, with promoters not responding to shareholder emails; (iii) a Plant & Machinery base that barely moved while capacity was claimed to rise ~400% (spend went into Land & Buildings); and (iv) the most-liked post in the thread (18 likes) showing management gave two contradictory accounts of a January-2025 factory fire - 'small, quickly resumed' in one concall, then 'a month of lost sales' when the next quarter missed.",
   "technical_read": "Not pulled. Stock had a sharp fall into early 2026 on the weak results / governance concerns.",
@@ -28,7 +49,12 @@
     "position": "Collection, dismantling, shredding, data destruction and ITAD; sells recovered plastics/metals onward - does not appear to do full downstream smelting / refining in-house",
     "bottleneck_node": "EPR-certificate issuance capacity and utility/OEM empanelment; downstream metal value accrues to smelters/refiners",
     "supply_side_status": "adding",
-    "adjacent_peers": ["Gravita India", "Namo eWaste Management", "Gem Enviro Management", "Attero (unlisted)"],
+    "adjacent_peers": [
+      "Gravita India",
+      "Namo eWaste Management",
+      "Gem Enviro Management",
+      "Attero (unlisted)"
+    ],
     "note": "E-waste formalisation under tightening EPR rules is a genuine multi-year tailwind, but it is drawing in capacity fast and the economics favour players that actually do downstream metal recovery. Peers (Namo, Gravita) grew while Ecoreco's revenue slipped - a company-specific execution / governance problem, not a sector problem."
   },
   "growth_trajectory": {
@@ -60,5 +86,6 @@
   ],
   "red_flag_tier": "HIGH CAUTION",
   "red_flag_reason": "Auditor resignation pattern (three in six years, one ~33 days before FY-end with rapid reappointment) plus governance/disclosure breakdown (no investor concall since Aug 2024, unresponsive promoters), a ~660-day cash conversion cycle, and a Plant & Machinery base inconsistent with the claimed ~400% capacity expansion. Contradictory management statements on the Jan-2025 factory fire further undermine concall credibility.",
-  "trusted_signals": []
+  "trusted_signals": [],
+  "last_post_number_analyzed": 0
 }

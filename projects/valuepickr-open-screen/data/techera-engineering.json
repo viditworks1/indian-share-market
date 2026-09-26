@@ -3,13 +3,34 @@
   "tagline": "Small-cap precision tooling/components maker for aerospace and defence riding the Make-in-India import-substitution theme, but currently expensive (P/E ~114) against weak return ratios (ROCE 7.6%, ROE 4.4%) - not a clean entry.",
   "business_overview": "Techera Engineering (India) Ltd provides precision tooling, components and automation solutions for the aerospace and defence sectors. Recently reported ~38% revenue growth and turned profitable in recent quarters, but at a very small base. Seeded 2026-09-13 via untrusted X triage (@rishithegreat41, high conviction claimed).",
   "fundamentals_table": [
-    ["Market cap", "~Rs 256 Cr"],
-    ["Price / 52-week range", "~Rs 155 (range ~Rs 128 - Rs 326)"],
-    ["ROCE / ROE", "7.59% / 4.40%"],
-    ["P/E", "~114x (trailing)"],
-    ["Book value", "~Rs 31.9"],
-    ["Revenue growth", "~38% (recent quarter), company turned profitable recently"],
-    ["Working capital", "High debtor days (~178 days)"]
+    [
+      "Market cap",
+      "~Rs 256 Cr"
+    ],
+    [
+      "Price / 52-week range",
+      "~Rs 155 (range ~Rs 128 - Rs 326)"
+    ],
+    [
+      "ROCE / ROE",
+      "7.59% / 4.40%"
+    ],
+    [
+      "P/E",
+      "~114x (trailing)"
+    ],
+    [
+      "Book value",
+      "~Rs 31.9"
+    ],
+    [
+      "Revenue growth",
+      "~38% (recent quarter), company turned profitable recently"
+    ],
+    [
+      "Working capital",
+      "High debtor days (~178 days)"
+    ]
   ],
   "fundamentals_narrative": "Revenue growth (~38%) and a recent swing to profitability are positive, and the aerospace/defence precision-tooling niche has a genuine import-substitution tailwind. But current return ratios are weak (ROCE 7.6%, ROE 4.4%) for a stock trading at ~114x trailing earnings, and debtor days are high (~178 days), suggesting working-capital strain and/or customer concentration in a still-small, recently-profitable business. The valuation is pricing in a scale-up that hasn't shown up in returns yet.",
   "technical_read": "Trading well off its 52-week high (~Rs 326) near ~Rs 155, close to the 52-week low band (~Rs 128) - not pulled in detail, not decision-relevant given the fundamentals verdict.",
@@ -47,5 +68,6 @@
     "score": 2.0,
     "note": "Genuine defence/aerospace import-substitution tailwind, but TAM and moat are unproven at this scale and the 114x P/E is not supported by current 7.6% ROCE / 4.4% ROE - defaults to 'neither', no exception written."
   },
-  "value_chain": null
+  "value_chain": null,
+  "last_post_number_analyzed": 0
 }

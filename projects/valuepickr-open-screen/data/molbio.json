@@ -22,7 +22,7 @@
     [
       "Debt",
       "Gross borrowings roughly tripled to ~Rs 450 Cr in FY26 (from ~Rs 147 Cr FY25, ~Rs 184 Cr FY24); cash+short-term investments estimated ~Rs 370 Cr by one third-party source (not independently confirmed from a primary filing this pass) - implies mild NET DEBT (~Rs 80 Cr) rather than the net-cash position asserted by the prior pass; flagged as an open question"
-      ],
+    ],
     [
       "Valuation",
       "TTM P/E ~59-60x (screener.in, price ~Rs 1,288, 18-Sep-26), down from ~79x trailing P/E at listing as Q1 FY27's strong print entered trailing EPS - still rich"
@@ -72,12 +72,21 @@
     "position": "only Indian WHO-prequalified rapid molecular diagnostics OEM; razor/razor-blade device+consumable model",
     "bottleneck_node": "device placement rate + public-health tender cycles (drives quarterly lumpiness)",
     "supply_side_status": "balanced",
-    "adjacent_peers": ["Cepheid (Danaher)", "Abbott Diagnostics", "3B BlackBio (Tata MD)", "Trivitron Healthcare"],
+    "adjacent_peers": [
+      "Cepheid (Danaher)",
+      "Abbott Diagnostics",
+      "3B BlackBio (Tata MD)",
+      "Trivitron Healthcare"
+    ],
     "note": "WHO TB pre-qualification + ICMR certification is the real moat versus domestic peers; global players (Cepheid) compete in export markets. Consumables (test-chip) razor-blade economics support recurring revenue once devices are placed."
   },
   "earnings_quality": {
     "margin_driver": "mixed",
-    "drivers": ["consumables mix shift as installed base grows", "R&D spend as a controllable swing factor (pre-R&D margin 28.6% vs reported 22.6% FY26)", "public-health tender timing causes quarterly lumpiness/non-linearity"],
+    "drivers": [
+      "consumables mix shift as installed base grows",
+      "R&D spend as a controllable swing factor (pre-R&D margin 28.6% vs reported 22.6% FY26)",
+      "public-health tender timing causes quarterly lumpiness/non-linearity"
+    ],
     "peak_margin_risk": false,
     "normalised_note": "Mgmt itself flags margin should be read annually, not quarterly, given tender-driven revenue recognition. FY26's dip to 22.6% and Q1 FY27's recovery to 24.6% both look like recognition timing within the guided 24-25% band, not a change in underlying unit economics."
   },
@@ -158,11 +167,24 @@
     }
   ],
   "earnings_chain": {
-    "chain": ["disease-test menu expansion + export reach", "device placements + consumable pull-through", "revenue growth (device+kit volumes)", "operating leverage on pre-R&D EBITDA", "EBITDA margin 24-25%", "PAT"],
+    "chain": [
+      "disease-test menu expansion + export reach",
+      "device placements + consumable pull-through",
+      "revenue growth (device+kit volumes)",
+      "operating leverage on pre-R&D EBITDA",
+      "EBITDA margin 24-25%",
+      "PAT"
+    ],
     "bottleneck_link": "device placement pace / public-health tender timing (lumpy, non-linear quarter to quarter)",
-    "operating_leverage": "yes — pre-R&D EBITDA margin 28.6% vs reported 22.6% FY26; R&D spend is the swing factor management can flex",
-    "evidenced_links": ["revenue growth", "EBITDA margin recovery (Q1 FY27 24.6% print)"],
-    "assumed_links": ["sustained 24-25% margin band through the rest of FY27", "international expansion contribution"]
+    "operating_leverage": "yes \u2014 pre-R&D EBITDA margin 28.6% vs reported 22.6% FY26; R&D spend is the swing factor management can flex",
+    "evidenced_links": [
+      "revenue growth",
+      "EBITDA margin recovery (Q1 FY27 24.6% print)"
+    ],
+    "assumed_links": [
+      "sustained 24-25% margin band through the rest of FY27",
+      "international expansion contribution"
+    ]
   },
   "catalyst": {
     "event": "FY27 full-year print confirming the 24-25% EBITDA margin band holds + first revenue contribution from the new R&D facility / US-Europe expansion",
@@ -217,5 +239,6 @@
       "No RPT, auditor-history or promoter-pledge-trend review possible yet (pre-IPO private-company disclosures not sourced this pass)"
     ],
     "conviction_update": "Medium -> Medium. Thesis intact and modestly de-risked (margin-recovery guidance is now evidenced in Q1 FY27 rather than just promised, and TTM valuation has compressed from ~79x to ~59-60x), but the previously-asserted 'net cash' balance-sheet position could not be re-confirmed with primary-source certainty this pass (found conflicting cash/investments figures pointing to possible mild net debt instead) - net effect is a wash, conviction held at Medium pending a firmer cash reconciliation."
-  }
+  },
+  "last_post_number_analyzed": 0
 }

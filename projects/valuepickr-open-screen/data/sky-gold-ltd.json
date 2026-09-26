@@ -167,11 +167,32 @@
     }
   ],
   "earnings_chain": {
-    "chain": ["retail-brand orders + exports", "gold throughput (volume) growth", "advance-gold / VAP mix up", "gross margin ~9-10%", "operating leverage on thin fixed base", "EBITDA ~8%", "working-capital release (debtor days down)", "positive operating cash flow", "debt reduction -> PAT/FCF"],
+    "chain": [
+      "retail-brand orders + exports",
+      "gold throughput (volume) growth",
+      "advance-gold / VAP mix up",
+      "gross margin ~9-10%",
+      "operating leverage on thin fixed base",
+      "EBITDA ~8%",
+      "working-capital release (debtor days down)",
+      "positive operating cash flow",
+      "debt reduction -> PAT/FCF"
+    ],
     "bottleneck_link": "working-capital release (debtor days down) / advance-gold adoption",
-    "operating_leverage": "yes — thin fixed-cost base, so volume growth and a small gross-margin gain drop through (Q1FY27 PAT +141% on revenue +78%)",
-    "evidenced_links": ["retail-brand orders + exports", "gold throughput (volume) growth", "advance-gold / VAP mix up", "gross margin ~9-10%", "working-capital release (debtor days down)", "positive operating cash flow"],
-    "assumed_links": ["operating leverage on thin fixed base", "EBITDA ~8%", "debt reduction -> PAT/FCF"]
+    "operating_leverage": "yes \u2014 thin fixed-cost base, so volume growth and a small gross-margin gain drop through (Q1FY27 PAT +141% on revenue +78%)",
+    "evidenced_links": [
+      "retail-brand orders + exports",
+      "gold throughput (volume) growth",
+      "advance-gold / VAP mix up",
+      "gross margin ~9-10%",
+      "working-capital release (debtor days down)",
+      "positive operating cash flow"
+    ],
+    "assumed_links": [
+      "operating leverage on thin fixed base",
+      "EBITDA ~8%",
+      "debt reduction -> PAT/FCF"
+    ]
   },
   "market_expectation": {
     "as_of": "2026-09-08",
@@ -202,12 +223,21 @@
     "position": "large B2B contract manufacturer to organised jewellery retailers; asset-light making-charge model",
     "bottleneck_node": "working-capital funding (gold inventory + receivables) - being eased by the advance-gold model",
     "supply_side_status": "consolidating",
-    "adjacent_peers": ["Rajesh Exports", "Kalyan Jewellers (in-house mfg)", "Titan (Caratlane/in-house)", "Uni Design Jewellery / RBZ Jewellers"],
+    "adjacent_peers": [
+      "Rajesh Exports",
+      "Kalyan Jewellers (in-house mfg)",
+      "Titan (Caratlane/in-house)",
+      "Uni Design Jewellery / RBZ Jewellers"
+    ],
     "note": "Organised retailers increasingly outsource manufacturing to a few scaled players; SkyGold is among the largest, but it is a price-taker on making charges with thin margins - scale and WC discipline are the edge, not pricing power."
   },
   "earnings_quality": {
     "margin_driver": "mixed",
-    "drivers": ["volume/scale operating leverage on a thin fixed base", "advance-gold and value-added-product mix lifting gross margin", "MCX hedging + 15-day repricing removing most gold-price P&L noise"],
+    "drivers": [
+      "volume/scale operating leverage on a thin fixed base",
+      "advance-gold and value-added-product mix lifting gross margin",
+      "MCX hedging + 15-day repricing removing most gold-price P&L noise"
+    ],
     "peak_margin_risk": false,
     "normalised_note": "EBITDA margin ~7.8% and gross margin ~9.3% are near the low end for the model, not a peak; the risk is the opposite - that margins stay structurally thin and WC-sensitive rather than expanding as guided."
   },
@@ -239,7 +269,9 @@
     "margin_trend": "expanding",
     "capex_efficiency": "neutral",
     "assessment": "neutral",
-    "open_questions": ["Trailing 3y FCF conversion is negative (FY25 OCF -Rs 273 Cr) despite high headline ROCE; Q1FY27's first positive OCF must persist for several quarters before quality_metrics can be rated positive"]
+    "open_questions": [
+      "Trailing 3y FCF conversion is negative (FY25 OCF -Rs 273 Cr) despite high headline ROCE; Q1FY27's first positive OCF must persist for several quarters before quality_metrics can be rated positive"
+    ]
   },
   "four_box": {
     "tailwind": "weak",
@@ -248,5 +280,6 @@
     "valuation": "weak",
     "score": 2.5,
     "note": "tailwind weak - outsourced jewellery manufacturing is a real formalisation trend but SkyGold is a thin-margin price-taker within it; tam yes - Rs ~8,100 Cr FY27 revenue guided rising to Rs 18,000-19,000 Cr by FY30, mcap Rs ~12,100 Cr; moat weak - scale and WC discipline, no pricing power; valuation weak - ~36x already prices the guided growth. Score 2.5. thesis_fit kept 10x-in-2-3-years only under phreak's un-ignorable-growth carve-out (revenue +78%, PAT +141% YoY), conviction capped at Medium."
-  }
+  },
+  "last_post_number_analyzed": 0
 }

@@ -167,11 +167,28 @@
     }
   ],
   "earnings_chain": {
-    "chain": ["CRGO/CRNO import-substitution capex (JSW etc.)", "large processing-line orders", "order book (~Rs 4,500 Cr)", "revenue execution", "project mix / value-added-services share", "EBITDA margin", "PAT/FCF"],
+    "chain": [
+      "CRGO/CRNO import-substitution capex (JSW etc.)",
+      "large processing-line orders",
+      "order book (~Rs 4,500 Cr)",
+      "revenue execution",
+      "project mix / value-added-services share",
+      "EBITDA margin",
+      "PAT/FCF"
+    ],
     "bottleneck_link": "EBITDA margin (project mix / early-stage execution)",
-    "operating_leverage": "unclear — revenue up 80%+ for two quarters with no margin flow-through so far",
-    "evidenced_links": ["CRGO/CRNO import-substitution capex (JSW etc.)", "large processing-line orders", "order book (~Rs 4,500 Cr)", "revenue execution"],
-    "assumed_links": ["project mix / value-added-services share", "EBITDA margin", "PAT/FCF"]
+    "operating_leverage": "unclear \u2014 revenue up 80%+ for two quarters with no margin flow-through so far",
+    "evidenced_links": [
+      "CRGO/CRNO import-substitution capex (JSW etc.)",
+      "large processing-line orders",
+      "order book (~Rs 4,500 Cr)",
+      "revenue execution"
+    ],
+    "assumed_links": [
+      "project mix / value-added-services share",
+      "EBITDA margin",
+      "PAT/FCF"
+    ]
   },
   "market_expectation": {
     "as_of": "2026-09-08",
@@ -213,7 +230,11 @@
   "disclaimer": "This is independent research for informational purposes only, not investment advice.",
   "earnings_quality": {
     "margin_driver": "cyclical",
-    "drivers": ["project mix (early-stage execution drags)", "one-time consolidation costs", "value-added-services share (the hoped-for lever)"],
+    "drivers": [
+      "project mix (early-stage execution drags)",
+      "one-time consolidation costs",
+      "value-added-services share (the hoped-for lever)"
+    ],
     "peak_margin_risk": false,
     "normalised_note": "The risk is the reverse of a peak - reported EBITDA margin is ~1-1.4%, far BELOW any defensible through-cycle level for the equipment business (historically mid-single-digit). Management asserts a recovery to H2 CY26; unproven."
   },
@@ -245,7 +266,9 @@
     "margin_trend": "contracting",
     "capex_efficiency": "unclear",
     "assessment": "concern",
-    "open_questions": ["fcf_conversion not derivable cleanly this pass - project-equipment cash flows swing with advances/milestones; the recent quarters' losses make trailing conversion unreliable rather than simply negative"]
+    "open_questions": [
+      "fcf_conversion not derivable cleanly this pass - project-equipment cash flows swing with advances/milestones; the recent quarters' losses make trailing conversion unreliable rather than simply negative"
+    ]
   },
   "four_box": {
     "tailwind": "yes",
@@ -254,5 +277,6 @@
     "valuation": "no",
     "score": 3.0,
     "note": "value_chain: CRGO/CRNO import-substitution is a real choke point, 'very few players build these lines' (moat=yes); consolidated order book ~Rs 4,500 Cr, ~1.5x mcap (tam=yes); tailwind=yes (India electrical-steel localisation + grid capex); P/E ~110x on ~1% EBITDA margin already discounts a big improvement (valuation=no). Score 3.0 permits the 10x label but conviction stays Low - trailing-average-vs-live-inflection rule, margins unproven over two quarters."
-  }
+  },
+  "last_post_number_analyzed": 0
 }

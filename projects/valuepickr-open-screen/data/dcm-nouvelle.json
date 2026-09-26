@@ -3,11 +3,26 @@
   "tagline": "Tiny, BCI/GOTS-certified cotton yarn exporter with weak trailing returns and no ValuePickr thread to validate the recent growth print",
   "business_overview": "A BCI, GOTS and OEKO-TEX certified manufacturer and exporter of 100% cotton carded and combed yarns (count range Ne 14s-40s). No dedicated ValuePickr thread was found -- a forum search returned only the unrelated Nitin Spinners thread and an unrelated portfolio-discussion thread.",
   "fundamentals_table": [
-    ["Market Cap", "Rs 293 Cr"],
-    ["Current Price / 52-week range", "Rs 157 / Rs 95.6 - 182"],
-    ["ROCE / ROE", "4.27-5.9% / 1.15-1.9% (sources vary, both weak)"],
-    ["Revenue growth", "+27.17% YoY (recent quarter)"],
-    ["Debt/Equity", "~0.2 (low)"]
+    [
+      "Market Cap",
+      "Rs 293 Cr"
+    ],
+    [
+      "Current Price / 52-week range",
+      "Rs 157 / Rs 95.6 - 182"
+    ],
+    [
+      "ROCE / ROE",
+      "4.27-5.9% / 1.15-1.9% (sources vary, both weak)"
+    ],
+    [
+      "Revenue growth",
+      "+27.17% YoY (recent quarter)"
+    ],
+    [
+      "Debt/Equity",
+      "~0.2 (low)"
+    ]
   ],
   "fundamentals_narrative": "Weak trailing returns (ROE near 1-2%, ROCE ~4-6%) at a very small scale (Rs293 Cr market cap), with a recent quarter showing +27% YoY revenue growth -- a real but modest inflection relative to peers in the same cotton-yarn-spread basket (e.g. GHCL Textiles' +52% YoY). Low leverage is the one clean positive.",
   "technical_read": "Not checked -- web-only pass.",
@@ -29,7 +44,7 @@
   "verdict_headline": "Weak returns, a modest (not un-ignorable) recent quarter, and zero community validation -- filtered out",
   "verdict_reasoning": [
     "Applying the trailing-average-vs-live-inflection rule conservatively: the recent-quarter growth here (+27% YoY) is real but not as strong as peers in the same basket, and with weak trailing ROE (~1-2%, weaker than GHCL Textiles') and no forum thread to corroborate quality or durability, the un-ignorable-growth exception is NOT invoked",
-      "Four-box score of 1.5 (tailwind weak, tam yes, moat no, valuation no) is a hard 'neither' per the decision table regardless",
+    "Four-box score of 1.5 (tailwind weak, tam yes, moat no, valuation no) is a hard 'neither' per the decision table regardless",
     "Theme match: 'Textile exports - bumper FY27 on weak base + FTAs' (priority 2)",
     "External-lead (untrusted X triage, @StocksAndStoics) source; topic_slug left null -- no confident ValuePickr thread match found"
   ],
@@ -43,5 +58,6 @@
     "score": 1.5,
     "note": "Priority-2 steady textile theme; large TAM; moat 'no' (commoditised, though certifications offer a mild premium-buyer edge); valuation 'no' given very weak trailing ROE (~1-2%) even after the recent quarter."
   },
-  "trusted_signals": []
+  "trusted_signals": [],
+  "last_post_number_analyzed": 0
 }

@@ -138,11 +138,23 @@
     }
   ],
   "earnings_chain": {
-    "chain": ["security-paper / anti-counterfeiting + biodegradable-packaging orders", "revenue (lumpy, order-timed)", "patent-protected pricing + operating leverage", "OPM 25-41% depending on mix/quarter", "PAT"],
+    "chain": [
+      "security-paper / anti-counterfeiting + biodegradable-packaging orders",
+      "revenue (lumpy, order-timed)",
+      "patent-protected pricing + operating leverage",
+      "OPM 25-41% depending on mix/quarter",
+      "PAT"
+    ],
     "bottleneck_link": "order timing/mix across Hightech (security films) vs Green Products (biodegradable films) -- the swing factor behind FY26's decline and Q1 FY27's rebound",
     "operating_leverage": "unclear",
-    "evidenced_links": ["patent-protected pricing (27 patents)", "PAT"],
-    "assumed_links": ["revenue (lumpy, order-timed)", "OPM sustaining near recent highs"]
+    "evidenced_links": [
+      "patent-protected pricing (27 patents)",
+      "PAT"
+    ],
+    "assumed_links": [
+      "revenue (lumpy, order-timed)",
+      "OPM sustaining near recent highs"
+    ]
   },
   "market_expectation": {
     "as_of": "2026-09-17",
@@ -173,12 +185,19 @@
     "position": "Holding company built on cast water-soluble film manufacturing + patent/royalty income; supplies security-paper/anti-counterfeiting film technology (holograms, colour-shift/security fibre films) and Watersol-branded biodegradable packaging film",
     "bottleneck_node": "Patent portfolio (27 patents) as the entry barrier; order timing/mix across the two segments as the near-term swing factor",
     "supply_side_status": "unclear",
-    "adjacent_peers": ["Uflex (specialty/security films)", "Cosmo First (specialty films)", "Polyplex (specialty packaging films)"],
+    "adjacent_peers": [
+      "Uflex (specialty/security films)",
+      "Cosmo First (specialty films)",
+      "Polyplex (specialty packaging films)"
+    ],
     "note": "The security-film/anti-counterfeiting niche is genuinely patent-gated (20-yr exclusivity on newly granted patents); the biodegradable-packaging niche rides the broader anti-single-use-plastic tailwind but is the smaller of the two segments."
   },
   "earnings_quality": {
     "margin_driver": "mixed",
-    "drivers": ["patent-protected pricing on security-film technology (structural)", "order/mix timing across Hightech vs Green Products (cyclical/lumpy)"],
+    "drivers": [
+      "patent-protected pricing on security-film technology (structural)",
+      "order/mix timing across Hightech vs Green Products (cyclical/lumpy)"
+    ],
     "peak_margin_risk": true,
     "normalised_note": "OPM has swung from ~25% (Q4 FY26) to ~41% (Q1 FY27) in consecutive quarters -- the patent-protected base supports an elevated through-cycle level, but any single quarter's print (including the current Q1 FY27 high) should be read cautiously given this volatility."
   },
@@ -210,5 +229,6 @@
     "years_checked": 4,
     "years_cleared": 3,
     "note": "FY23 (+220% growth off a COVID-hit base, ROCE 21%), FY24 (+37% growth, ROCE 35%) and FY25 (+63% growth, ROCE 53%) each cleared BOTH >=10% revenue growth and >=15% ROCE; FY26 broke the streak on growth (-17.6%) despite ROCE still a healthy 30% -- a genuine 3-year run followed by a real down year, not yet re-confirmed by a full FY27."
-  }
+  },
+  "last_post_number_analyzed": 0
 }

@@ -59,7 +59,7 @@
     "A genuine second growth leg: Aluminium Windows & Facade division has a Rs56Cr+ order backlog (first named wins include a Godrej Properties external-facade order) guided to contribute Rs40-50Cr revenue in FY27, on top of an overall order book at an all-time high (Rs200Cr+)",
     "Structural drivers intact: uPVC-window penetration vs wood/aluminium, the fluted/soffit wall-panel decor trend, real-estate completions, and import substitution (BIS certification, ADD on resin, hoped-for ADD on finished profiles)",
     "Cheap at ~15.5-17x trailing for a ~26% ROCE/ROE, margin-expanding business that just initiated its first dividend (Rs0.70/share) -- the reverse-P/E math suggests the market is pricing in only modest growth versus the demonstrated PAT trajectory"
-    ],
+  ],
   "bear_case": [
     "Sub-scale (~Rs68Cr quarterly revenue) and only ~10-12% topline growth since FY25 -- no credible 10x path even if order-book conversion normalizes",
     "Competes with cheap Chinese profile imports and with Kaka Industries / Fenesta / aluminium systems specialists; 'Polywood' brand recall is regional",
@@ -237,20 +237,63 @@
     "pledge_pct_trend": "stable",
     "fii_dii_pct": 2.0,
     "fii_dii_pct_trend": "stable",
-    "quarters_checked": ["Sep2025", "Dec2025", "Mar2026", "Jun2026"],
+    "quarters_checked": [
+      "Sep2025",
+      "Dec2025",
+      "Mar2026",
+      "Jun2026"
+    ],
     "concurrent_red_flag": false,
     "note": "Promoter holding has been flat at ~67.8% for the last four quarters (after declining from 74.22% in Mar-2023 to 67.75% by late 2024) -- a stabilized, not falling, trend. Pledge has been 0.0% in every recent quarter. FII+DII holding is small (~2.0%) and roughly stable. Ashish Kacholia's position is a genuine open question: one source (rakesh-jhunjhunwala.in) reports he fully exited via Surya Vanshi Pvt Ltd with Abakkus Fund/Sunil Singhania stepping in, but Trendlyne's Jun-2026 shareholding disclosure still shows him holding ~5.32% -- not resolved this pass, treat as unclear rather than a confirmed exit."
   },
   "sector_kpis": [
-    { "metric": "Order book (project business)", "value": "Rs 200 Cr+, all-time high", "trend": "improving" },
-    { "metric": "Aluminium Windows & Facade order backlog", "value": "Rs 56 Cr+, guided to deliver Rs40-50 Cr FY27 revenue", "trend": "improving", "note": "new segment, FY27 is its first full contribution year" },
-    { "metric": "EBITDA margin", "value": "23.07% Q1 FY27 vs 19.90% Q1 FY26 (+317bps)", "trend": "improving" },
-    { "metric": "PVC resin price (key input)", "value": "stable-to-favourable through FY25-FY26, possibly near a cycle bottom", "trend": "stable" }
+    {
+      "metric": "Order book (project business)",
+      "value": "Rs 200 Cr+, all-time high",
+      "trend": "improving"
+    },
+    {
+      "metric": "Aluminium Windows & Facade order backlog",
+      "value": "Rs 56 Cr+, guided to deliver Rs40-50 Cr FY27 revenue",
+      "trend": "improving",
+      "note": "new segment, FY27 is its first full contribution year"
+    },
+    {
+      "metric": "EBITDA margin",
+      "value": "23.07% Q1 FY27 vs 19.90% Q1 FY26 (+317bps)",
+      "trend": "improving"
+    },
+    {
+      "metric": "PVC resin price (key input)",
+      "value": "stable-to-favourable through FY25-FY26, possibly near a cycle bottom",
+      "trend": "stable"
+    }
   ],
   "scenario_analysis": {
-    "bull": { "revenue_cagr_fy26_28_pct": 20, "fy28_margin_pct": 24, "fy28_eps": 42.0, "exit_multiple": 18, "implied_price": 756, "pct_vs_cmp": 63 },
-    "base": { "revenue_cagr_fy26_28_pct": 13, "fy28_margin_pct": 22, "fy28_eps": 31.0, "exit_multiple": 15, "implied_price": 465, "pct_vs_cmp": 0 },
-    "bear": { "revenue_cagr_fy26_28_pct": 6, "fy28_margin_pct": 19, "fy28_eps": 24.0, "exit_multiple": 12, "implied_price": 288, "pct_vs_cmp": -38 },
+    "bull": {
+      "revenue_cagr_fy26_28_pct": 20,
+      "fy28_margin_pct": 24,
+      "fy28_eps": 42.0,
+      "exit_multiple": 18,
+      "implied_price": 756,
+      "pct_vs_cmp": 63
+    },
+    "base": {
+      "revenue_cagr_fy26_28_pct": 13,
+      "fy28_margin_pct": 22,
+      "fy28_eps": 31.0,
+      "exit_multiple": 15,
+      "implied_price": 465,
+      "pct_vs_cmp": 0
+    },
+    "bear": {
+      "revenue_cagr_fy26_28_pct": 6,
+      "fy28_margin_pct": 19,
+      "fy28_eps": 24.0,
+      "exit_multiple": 12,
+      "implied_price": 288,
+      "pct_vs_cmp": -38
+    },
     "closest_to": "base",
     "note": "Bull needs the facade division to hit its Rs40-50Cr FY27 guidance and order-book conversion to normalize while margin keeps expanding toward 24%; bear assumes the FY25/FY26 pattern of deferred site execution recurs and resin-price tailwind reverses. Current price sits at the base case by construction; the analyst's own lean is toward bull given the demonstrated PAT/margin trajectory, consistent with market_expectation.gap_direction 'underestimated'."
   },
@@ -298,5 +341,6 @@
       "Whether the facade division's margin profile matches or dilutes the core business as it scales past its first orders"
     ],
     "conviction_update": "Medium -> Medium (no change, materially firmer evidence). ROCE rising to ~26%, PAT compounding at 35-67% YoY on genuine margin expansion, a second growth leg (Aluminium Windows & Facade) now with named orders won, and a maiden dividend initiated are real positives that firm up the existing Medium conviction rather than raising it further. Offsetting factors -- borrowings rising Rs53Cr->Rs76Cr to fund the new capex cycle (a reversal of the earlier deleveraging story), an unresolved discrepancy over Ashish Kacholia's current stake, and the still-sub-scale ~Rs68Cr quarterly revenue -- keep this a real quality small-cap rather than a re-rating candidate. four_box score unchanged at 2.5 (valuation yes, others weak); thesis_fit stays 'neither' as the return-magnitude exception, while technically available, continues not to be invoked given the honest ~2-3x multi-year return math."
-  }
+  },
+  "last_post_number_analyzed": 0
 }

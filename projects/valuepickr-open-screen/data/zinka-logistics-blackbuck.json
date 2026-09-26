@@ -242,20 +242,63 @@
     "pledge_pct_trend": "stable",
     "fii_dii_pct": 43.28,
     "fii_dii_pct_trend": "rising",
-    "quarters_checked": ["Mar2025", "Jun2025", "Sep2025", "Mar2026"],
+    "quarters_checked": [
+      "Mar2025",
+      "Jun2025",
+      "Sep2025",
+      "Mar2026"
+    ],
     "concurrent_red_flag": false,
     "note": "Promoter holding fell from 27.70% (Mar-2025) to 25.05% (Mar-2026) via a Nov-2025 founder block deal (~2% stake, Rs676/share) plus earlier mid-2025 early-investor (Flipkart/Accel/Peak XV) exits; no pledge disclosed (concurrent_red_flag false since pledge is stable at 0, not rising). FII+DII holding rose from ~21.85% to ~43.28% over the same window, absorbing the supply -- a genuine but not yet alarming promoter-selling trend."
   },
   "sector_kpis": [
-    { "metric": "Transacting customers", "value": "883,386, +13% YoY (Q1 FY27)", "trend": "improving" },
-    { "metric": "Tolling GTV growth", "value": "~24% YoY vs ~15% industry (FY26)", "trend": "improving", "note": "implies market-share gains" },
-    { "metric": "SuperLoads city coverage", "value": "14 cities, up from 4 (reached by Mar-Apr 2026)", "trend": "improving" },
-    { "metric": "SuperLoads sequential growth", "value": "~50% QoQ, up from ~23-24% in prior quarters", "trend": "improving" }
+    {
+      "metric": "Transacting customers",
+      "value": "883,386, +13% YoY (Q1 FY27)",
+      "trend": "improving"
+    },
+    {
+      "metric": "Tolling GTV growth",
+      "value": "~24% YoY vs ~15% industry (FY26)",
+      "trend": "improving",
+      "note": "implies market-share gains"
+    },
+    {
+      "metric": "SuperLoads city coverage",
+      "value": "14 cities, up from 4 (reached by Mar-Apr 2026)",
+      "trend": "improving"
+    },
+    {
+      "metric": "SuperLoads sequential growth",
+      "value": "~50% QoQ, up from ~23-24% in prior quarters",
+      "trend": "improving"
+    }
   ],
   "scenario_analysis": {
-    "bull": { "revenue_cagr_fy26_28_pct": 42, "fy28_margin_pct": 32, "fy28_eps": 18.0, "exit_multiple": 55, "implied_price": 990, "pct_vs_cmp": 60 },
-    "base": { "revenue_cagr_fy26_28_pct": 26, "fy28_margin_pct": 28, "fy28_eps": 14.0, "exit_multiple": 45, "implied_price": 630, "pct_vs_cmp": 2 },
-    "bear": { "revenue_cagr_fy26_28_pct": 9, "fy28_margin_pct": 22, "fy28_eps": 10.5, "exit_multiple": 30, "implied_price": 315, "pct_vs_cmp": -49 },
+    "bull": {
+      "revenue_cagr_fy26_28_pct": 42,
+      "fy28_margin_pct": 32,
+      "fy28_eps": 18.0,
+      "exit_multiple": 55,
+      "implied_price": 990,
+      "pct_vs_cmp": 60
+    },
+    "base": {
+      "revenue_cagr_fy26_28_pct": 26,
+      "fy28_margin_pct": 28,
+      "fy28_eps": 14.0,
+      "exit_multiple": 45,
+      "implied_price": 630,
+      "pct_vs_cmp": 2
+    },
+    "bear": {
+      "revenue_cagr_fy26_28_pct": 9,
+      "fy28_margin_pct": 22,
+      "fy28_eps": 10.5,
+      "exit_multiple": 30,
+      "implied_price": 315,
+      "pct_vs_cmp": -49
+    },
     "closest_to": "base",
     "note": "Bull needs SuperLoads margin to re-inflect toward 30%+ on take-rate/scale while sustaining 40%+ growth; bear assumes margin compression continues (mix dilution wins) and growth decelerates toward the mid-teens as the base normalizes. Current price sits close to the base case, consistent with market_expectation.gap_direction 'priced-in'."
   },
@@ -302,5 +345,6 @@
       "Working-capital (receivable/payable days) not sourced this pass -- left absent rather than guessed"
     ],
     "conviction_update": "Low-Medium -> Medium. FY26 was BlackBuck's first full profitable year (revenue +53%, adjusted EBITDA +84%, PAT Rs160Cr) and SuperLoads is scaling faster than guided (50% sequential growth, 14 cities, halfway to its load-volume target) -- real, evidenced progress on the core optionality thesis, and valuation has de-rated from ~84x to ~65-67x P/E as earnings caught up. Against this: EBITDA margin has actually compressed YoY (29%->24.9%) on SuperLoads mix dilution rather than expanding as previously assumed, promoter holding keeps falling (27.70%->25.05% over four quarters plus a Nov-2025 founder block deal), a new ~Rs22Cr tax dispute surfaced, and the FASTag-vs-GNSS regulatory transition remains unresolved. Four-box score stays at 2.5, which caps conviction at Medium per the quickref's decision table; thesis_fit stays '10x-in-2-3-years' via the mid-cap live-inflection exception (SuperLoads acceleration), with an unconfirmed caveat retained."
-  }
+  },
+  "last_post_number_analyzed": 0
 }

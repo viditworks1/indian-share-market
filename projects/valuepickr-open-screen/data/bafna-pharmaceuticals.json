@@ -3,11 +3,26 @@
   "tagline": "Small-cap pharma formulations exporter with decent (not exceptional) returns trading at a rich ~90x trailing P/E - valuation doesn't support the fundamentals.",
   "business_overview": "Bafna Pharmaceuticals (incorporated 1981) manufactures finished pharmaceutical formulations, with over 336 licensed formulations and 78 globally registered products. Seeded via an untrusted X tip (@rajuidesai, bullish, 2026-09-13).",
   "fundamentals_table": [
-    ["Market cap", "~Rs 700 Cr (price ~Rs 296)"],
-    ["52-week range", "~Rs 94.8 - 318"],
-    ["ROCE / ROE", "ROCE ~11.9%, ROE ~12.3%"],
-    ["Valuation", "Stock P/E ~89.8x trailing; Book value ~Rs 40.6"],
-    ["Dividend yield", "0%"]
+    [
+      "Market cap",
+      "~Rs 700 Cr (price ~Rs 296)"
+    ],
+    [
+      "52-week range",
+      "~Rs 94.8 - 318"
+    ],
+    [
+      "ROCE / ROE",
+      "ROCE ~11.9%, ROE ~12.3%"
+    ],
+    [
+      "Valuation",
+      "Stock P/E ~89.8x trailing; Book value ~Rs 40.6"
+    ],
+    [
+      "Dividend yield",
+      "0%"
+    ]
   ],
   "fundamentals_narrative": "Returns are middling for a pharma formulations business (ROCE ~11.9%, ROE ~12.3%) - decent but not exceptional, and not obviously margin-expanding or compounding based on the data found this pass. Against that, the stock trades at a rich ~90x trailing P/E, implying the market is pricing in a growth/margin re-rating story that isn't evidenced in the current return metrics. The global product registrations (78) give some regulatory-moat character, but nothing found points to a specific named inflection (new large export contract, capacity step-change, margin re-rating already in motion) that would justify the current multiple.",
   "technical_read": "Not pulled - stock is well off its 52-week high (~Rs 318 vs current ~Rs 296 is actually close; not independently verified this pass) - valuation is the binding constraint regardless of chart position.",
@@ -41,5 +56,6 @@
     "valuation": "no",
     "score": 1.5,
     "note": "Generic pharma-export tailwind and 78 global product registrations give weak tailwind/tam/moat credit, but ~90x trailing P/E against only ~12% ROCE/ROE leaves valuation firmly 'no'."
-  }
+  },
+  "last_post_number_analyzed": 0
 }

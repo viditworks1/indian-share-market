@@ -51,7 +51,7 @@
     "Near debt-free (D/E ~0.08x), ROCE ~21.5%, ROE ~19-23% depending on window",
     "Order book of Rs 590 Cr (mid-Aug 2026) covers ~2x the company's own conservative FY27 revenue guidance (Rs 250-300 Cr), with 80-85% of the book protected by price-variation clauses against commodity swings",
     "Management guidance is conservative relative to the order book (a good under-promise signal), and product mix skews toward higher-margin power transformers (76.9% of orders)",
-    "Potential differentiation in the 220kV segment, where competitors (Shilchar, Voltamp) are largely under-represented (mostly ≤132kV) - a genuine niche if it holds at scale",
+    "Potential differentiation in the 220kV segment, where competitors (Shilchar, Voltamp) are largely under-represented (mostly \u2264132kV) - a genuine niche if it holds at scale",
     "Debtor days improved from 130 to 87 - a real working-capital discipline improvement alongside the growth"
   ],
   "bear_case": [
@@ -84,7 +84,7 @@
   },
   "value_chain": {
     "theme": "Indian power-transformer manufacturing - grid capex + renewables (solar/wind) buildout",
-    "position": "Small-cap manufacturer of power, generator and windmill transformers, expanding into the 220kV segment where the dominant listed peers (Shilchar, Voltamp) are largely under-represented (mostly ≤132kV)",
+    "position": "Small-cap manufacturer of power, generator and windmill transformers, expanding into the 220kV segment where the dominant listed peers (Shilchar, Voltamp) are largely under-represented (mostly \u2264132kV)",
     "bottleneck_node": "New Kanpur facility utilisation ramp (currently 20-28%) and skilled-labour training (250+ new workers vs 60-80 at the existing unit)",
     "supply_side_status": "adding",
     "adjacent_peers": [
@@ -313,5 +313,6 @@
     ],
     "conviction_update": "Medium -> Medium (unchanged). The fresh filings read confirms the core growth and balance-sheet strengths (31%+ revenue growth, near-zero debt, a real and mostly-complete capacity expansion, a well-covered order book) but surfaces two genuine new watch-items not visible in the prior light pass - persistent PAT-vs-revenue growth lag from new-plant overhead absorption, and a flagged FY28 equity-dilution/land-constraint risk - that offset the positive findings (price-variation-clause protection on 80-85% of the order book, conservative guidance discipline, improving debtor days). Net effect broadly cancels out, so conviction stays at Medium rather than moving in either direction; four_box score is unchanged at 2.5 (valuation component re-confirmed as 'weak' rather than upgraded, given the unresolved margin-ramp uncertainty)."
   },
-  "conviction": "Medium"
+  "conviction": "Medium",
+  "last_post_number_analyzed": 0
 }
