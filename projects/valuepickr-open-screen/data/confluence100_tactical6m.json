@@ -36,7 +36,7 @@
       "not_ready_reason": "",
       "in_current_portfolio": true,
       "tactical_score": 84,
-      "weight_pct": 8.97
+      "weight_pct": 9.01
     },
     {
       "rank": 22,
@@ -71,7 +71,7 @@
       "not_ready_reason": "",
       "in_current_portfolio": false,
       "tactical_score": 84,
-      "weight_pct": 8.97
+      "weight_pct": 9.01
     },
     {
       "rank": 27,
@@ -106,7 +106,7 @@
       "not_ready_reason": "",
       "in_current_portfolio": false,
       "tactical_score": 84,
-      "weight_pct": 8.97
+      "weight_pct": 9.01
     },
     {
       "rank": 28,
@@ -141,7 +141,7 @@
       "not_ready_reason": "",
       "in_current_portfolio": false,
       "tactical_score": 84,
-      "weight_pct": 8.97
+      "weight_pct": 9.01
     },
     {
       "rank": 76,
@@ -176,42 +176,7 @@
       "not_ready_reason": "",
       "in_current_portfolio": false,
       "tactical_score": 84,
-      "weight_pct": 8.97
-    },
-    {
-      "rank": 77,
-      "name": "Greaves Cotton",
-      "slug": "greaves-cotton",
-      "confidence": 47,
-      "master_score": 22.0,
-      "conviction_score": 44.0,
-      "quality_score": 0,
-      "expectation_gap_score": null,
-      "asymmetry_score": null,
-      "four_box_score": 2.5,
-      "weight_coverage": 0.5,
-      "conviction_label": "Medium-High",
-      "market_cap_tier": null,
-      "thesis_fit": "10x-in-2-3-years",
-      "thesis_eligible": true,
-      "tagline": "",
-      "symbol": "GREAVESCOT.NS",
-      "technical": "Above 30W-EMA +17.1% (cross 2w ago)",
-      "relative_strength": "RS +6.6pp vs Nifty 500 (13w)",
-      "rs_pct": 6.6,
-      "momentum": "+3.6% (13w) / +77.8% (26w)",
-      "ret_13w_pct": 3.6,
-      "ret_26w_pct": 77.8,
-      "fundamental_score": 30.4,
-      "technical_score": 90,
-      "momentum_score": 79,
-      "above_ema": true,
-      "pct_vs_ema": 17.1,
-      "investable_now": false,
-      "not_ready_reason": "needs quality/consistency data (thin master-score coverage)",
-      "in_current_portfolio": false,
-      "tactical_score": 84,
-      "weight_pct": 8.97
+      "weight_pct": 9.01
     },
     {
       "rank": 4,
@@ -246,7 +211,7 @@
       "not_ready_reason": "",
       "in_current_portfolio": true,
       "tactical_score": 80,
-      "weight_pct": 8.54
+      "weight_pct": 8.59
     },
     {
       "rank": 10,
@@ -281,7 +246,7 @@
       "not_ready_reason": "",
       "in_current_portfolio": false,
       "tactical_score": 80,
-      "weight_pct": 8.54
+      "weight_pct": 8.59
     },
     {
       "rank": 11,
@@ -316,7 +281,7 @@
       "not_ready_reason": "",
       "in_current_portfolio": false,
       "tactical_score": 80,
-      "weight_pct": 8.54
+      "weight_pct": 8.59
     },
     {
       "rank": 13,
@@ -351,12 +316,47 @@
       "not_ready_reason": "",
       "in_current_portfolio": false,
       "tactical_score": 80,
-      "weight_pct": 8.54
+      "weight_pct": 8.59
+    },
+    {
+      "rank": 16,
+      "name": "Aeroflex Industries",
+      "slug": "aeroflex-industries",
+      "confidence": 60,
+      "master_score": 52.4,
+      "conviction_score": 84.62,
+      "quality_score": 63.0,
+      "expectation_gap_score": 0,
+      "asymmetry_score": 20.0,
+      "four_box_score": 2.0,
+      "weight_coverage": 1.0,
+      "conviction_label": "High",
+      "market_cap_tier": "Small/Mid-cap (~Rs 7,174 Cr)",
+      "thesis_fit": "10x-in-2-3-years",
+      "thesis_eligible": true,
+      "tagline": "Flexible-hose maker whose AI data-center liquid-cooling pivot is now confirmed in the numbers (Q1 FY27 revenue +72%, skids 23% of mix) and is a core-trusted inv",
+      "symbol": "AEROFLEX.NS",
+      "technical": "Above 30W-EMA +24.7%",
+      "relative_strength": "RS +18.2pp vs Nifty 500 (13w)",
+      "rs_pct": 18.2,
+      "momentum": "+15.2% (13w) / +108.0% (26w)",
+      "ret_13w_pct": 15.2,
+      "ret_26w_pct": 108.0,
+      "fundamental_score": 52.4,
+      "technical_score": 68,
+      "momentum_score": 93,
+      "above_ema": true,
+      "pct_vs_ema": 24.7,
+      "investable_now": true,
+      "not_ready_reason": "",
+      "in_current_portfolio": false,
+      "tactical_score": 80,
+      "weight_pct": 8.59
     }
   ],
-  "cash_pct": 12.02,
+  "cash_pct": 12.0,
   "cash_floor_pct": 12,
-  "pool_size": 86,
+  "pool_size": 85,
   "insufficient": false,
   "market_regime": {
     "resolved": true,

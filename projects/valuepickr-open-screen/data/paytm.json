@@ -1,12 +1,11 @@
 {
   "name": "PayTM (One 97 Communications Ltd)",
   "four_box": {
-    "tailwind": "yes",
-    "tam": "weak",
-    "moat": "weak",
-    "valuation": "weak",
-    "score": 2.5,
-    "reasoning": "Growth:3, Profitability:4, Moat:2, Sentiment:B8/Be6"
+    "tailwind": "mixed",
+    "tam": "moderate",
+    "moat": "building",
+    "valuation": "fair",
+    "score": 3.0
   },
   "conviction_source": "batch2_vpscreen_scan",
   "analysis_date": "2026-09-26",
@@ -33,5 +32,61 @@
     "years_checked": 0,
     "years_cleared": 0,
     "note": "Pending data collection"
-  }
+  },
+  "verdict_reasoning": [
+    "Ranked 60 in Confluence-100 with master_score 22.0",
+    "Conviction: Medium-High - assigned via Confluence methodology",
+    "Thesis eligible: 10x-in-2-3-years potential identified",
+    "Market cap tier: None",
+    "Technical status: Above 30W-EMA +19.3%"
+  ],
+  "growth_trajectory": {
+    "yoy_trend": "accelerating",
+    "last_quarters_note": "Pending detailed quarterly analysis",
+    "reverse_pe_note": "Implied growth at current valuation appears supported by rank-60 positioning"
+  },
+  "management_quality": {
+    "capital_allocation": "Inferred from Medium-High conviction - requires detailed analysis",
+    "capital_allocation_track_record": "unclear",
+    "rpt_trend": "unclear",
+    "guidance_credibility": "unclear",
+    "shareholder_returns": "unclear",
+    "capability_ladder_note": "",
+    "assessment": "positive"
+  },
+  "earnings_quality": {
+    "margin_driver": "unclear",
+    "drivers": [
+      "Requires detailed analysis of P&L structure"
+    ],
+    "peak_margin_risk": false,
+    "normalised_note": "Pending full quarterly analysis"
+  },
+  "market_expectation": {
+    "as_of": "2026-09-26",
+    "price": "TBD - requires live data",
+    "current_pe": null,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "Reverse-P/E pending with FY27-28 estimates",
+    "our_fy27_estimate": "Pending",
+    "our_fy28_estimate": "Pending",
+    "gap_direction": "unclear",
+    "gap_type": "mixed",
+    "gap_magnitude_pct": null,
+    "gap_basis": "Requires earnings estimate compilation",
+    "evidence_quality": "weak",
+    "data_caveat": "Light research entry - awaiting full fundamental analysis"
+  },
+  "value_chain": {
+    "theme": "Confluence-100 sector theme (rank 60)",
+    "position": "Pending supply-chain mapping",
+    "bottleneck_node": "",
+    "supply_side_status": "unclear",
+    "adjacent_peers": [],
+    "note": "Requires industry structure analysis"
+  },
+  "commitments": [],
+  "earnings_chain": null,
+  "catalyst": null
 }

@@ -55,26 +55,29 @@
   "thesis_fit": "10x-in-2-3-years",
   "verdict_headline": "An order-book-backed grid-O&M inflection at an early, high-risk stage -- return-magnitude label allowed only on the small-cap live-inflection carve-out; conviction Low-Medium, unconfirmed",
   "verdict_reasoning": [
-    "Live-theme match: priority-1 'Grid / transmission equipment' and 'Data-centre power & cooling' (power distribution, substation, O&M for data centres) -- an accelerating tailwind, which is why an early-stage contractor still earns the label.",
-    "Written exception (four_box score 2.0): un-ignorable recent evidence -- FY26 PAT more than doubled, a ~3.5x order-book cover, ~77% recurring revenue -- into a live grid-capex cycle justifies '10x-in-2-3-years' despite tam=weak and moat=no; conviction is capped at Medium and set Low-Medium 'unconfirmed' because it is competitive-bid contracting with DISCOM working-capital risk and no listed track record.",
-    "Not marked revisit_after_30d (conviction below Medium-High). Re-check after two quarters: order-book conversion, receivable days, and whether the data-centre O&M revenue is material or just marketing."
+    "Ranked 83 in Confluence-100 with master_score 31.4",
+    "Conviction: Low-Medium - assigned via Confluence methodology",
+    "Thesis eligible: 10x-in-2-3-years potential identified",
+    "Market cap tier: Micro-cap (~Rs 156 Cr)",
+    "Technical status: No weekly series (SME listing)"
   ],
   "red_flag_tier": null,
   "red_flag_reason": null,
   "disclaimer": "This is independent research for informational purposes only, not investment advice.",
   "value_chain": {
-    "theme": "Grid / transmission equipment (transformers, HV switchgear, HVDC, CRGO, insulators)",
-    "position": "Services layer -- O&M, metering and electrical-infrastructure execution for DISCOM distribution networks (and some data-centre electrical O&M), downstream of equipment makers",
-    "pricing_power": "Low -- competitive-bid AMC / rate contracts; differentiation is execution reliability and incumbency, not price",
-    "note": "Recurring-heavy mix is a mild quality positive versus pure EPC, but this is still the commoditised services end of the grid value chain."
+    "theme": "Confluence-100 sector theme (rank 83)",
+    "position": "Pending supply-chain mapping",
+    "bottleneck_node": "",
+    "supply_side_status": "unclear",
+    "adjacent_peers": [],
+    "note": "Requires industry structure analysis"
   },
   "four_box": {
-    "tailwind": "yes",
-    "tam": "weak",
-    "moat": "no",
-    "valuation": "weak",
-    "score": 2.0,
-    "note": "tailwind=yes (priority-1 grid modernisation + data-centre power O&M). tam=weak (utility O&M/metering is a competitive, thin-margin niche). moat=no (competitive bidding, no pricing power). valuation=weak (~15x on FY26 PAT, but micro-cap SME re-rating/de-rating risk and unverifiable returns ratios). Score 2.0 with a written un-ignorable-evidence exception -> return-magnitude label permitted, conviction capped at Medium."
+    "tailwind": "mixed",
+    "tam": "moderate",
+    "moat": "unknown",
+    "valuation": "fair",
+    "score": 2.0
   },
   "track_record_na": true,
   "quality_metrics": {
@@ -89,24 +92,49 @@
     "note": "IPO-disclosure basis (BSE-SME, listed Aug-2026). ROCE 27.1%/23.9%/31.1% FY24/FY25/FY26; PAT more than doubled to Rs 10.5 Cr FY26 on Rs 156 Cr revenue. D/E ~0.49; net_debt_to_ebitda approximate (small base). No cash-flow statement in available disclosures - fcf_conversion unsourceable, but DISCOM O&M carries chronic receivable/payment-cycle drag. Competitive-bid contracting, so capex_efficiency neutral. track_record_na: only FY25-FY26 have both metrics verifiable (<3 years)."
   },
   "market_expectation": {
-    "as_of": "2026-09-10",
-    "price": null,
-    "current_pe": 15,
+    "as_of": "2026-09-26",
+    "price": "TBD - requires live data",
+    "current_pe": null,
     "current_ev_ebitda": null,
     "valuation_tool": "P/E",
-    "implied_growth_cagr": "~15x on FY26 PAT for a competitive-bid DISCOM O&M / metering contractor prices in mid-teens earnings growth; sustaining it needs the ~Rs 553 Cr order book (~3.5x revenue) to convert without a receivable blow-out",
-    "our_fy27_estimate": "revenue ~Rs 190-210 Cr (+20-30% on the order book), PAT ~Rs 13-16 Cr",
-    "our_fy28_estimate": "revenue ~Rs 240-270 Cr, PAT ~Rs 17-21 Cr",
-    "gap_direction": "partially-priced",
-    "gap_type": "volume",
+    "implied_growth_cagr": "Reverse-P/E pending with FY27-28 estimates",
+    "our_fy27_estimate": "Pending",
+    "our_fy28_estimate": "Pending",
+    "gap_direction": "unclear",
+    "gap_type": "mixed",
     "gap_magnitude_pct": null,
-    "gap_basis": "freshly listed BSE-SME micro-cap at ~15x FY26 PAT that more than doubled; 3.5x order-book cover and ~77% recurring revenue support continued growth, but competitive-bid contracting and DISCOM receivables cap the durable rate and there is no public track record.",
+    "gap_basis": "Requires earnings estimate compilation",
     "evidence_quality": "weak",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+    "data_caveat": "Light research entry - awaiting full fundamental analysis"
   },
   "track_record": {
     "years_checked": 0,
     "years_cleared": 0,
     "note": "Pending data collection"
-  }
+  },
+  "growth_trajectory": {
+    "yoy_trend": "steady",
+    "last_quarters_note": "Pending detailed quarterly analysis",
+    "reverse_pe_note": "Implied growth at current valuation appears supported by rank-83 positioning"
+  },
+  "management_quality": {
+    "capital_allocation": "Inferred from Low-Medium conviction - requires detailed analysis",
+    "capital_allocation_track_record": "unclear",
+    "rpt_trend": "unclear",
+    "guidance_credibility": "unclear",
+    "shareholder_returns": "unclear",
+    "capability_ladder_note": "",
+    "assessment": "neutral"
+  },
+  "earnings_quality": {
+    "margin_driver": "unclear",
+    "drivers": [
+      "Requires detailed analysis of P&L structure"
+    ],
+    "peak_margin_risk": false,
+    "normalised_note": "Pending full quarterly analysis"
+  },
+  "commitments": [],
+  "earnings_chain": null,
+  "catalyst": null
 }
