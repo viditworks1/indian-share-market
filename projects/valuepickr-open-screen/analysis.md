@@ -8368,3 +8368,6 @@ Also confirmed via direct Yahoo Finance checks that ~21 remaining technical-unre
 - Cleared 4 pending Confluence-100 stocks (never-dived, tier 0): Oval Projects Engineering, TruAlt Bioenergy, Vikram Solar, Sudeep Pharma.
 - These stocks had potential_score at the floor (40.0–47.5) and no conviction/thesis signals to prioritize.
 - Marked as "done" for pass 1 to advance rotation; no deep research performed (batch skip).
+
+## Sansera Engineering — trusted-X signal [2026-09-22]
+- LearningEleven (cluster), sentiment on FAI/semiconductor traction (2026-09-22): "Going by the flurry of international brokerage coverage and price action, maybe the FAI went well and perhaps more traction on semiconductor segment!" — implicit positive lean on fundamentals-driven signal. trusted_signals + .docx updated.

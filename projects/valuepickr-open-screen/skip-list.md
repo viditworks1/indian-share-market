@@ -527,7 +527,18 @@ Generated: 2026-09-26
 | RBL Bank | 2026-09-16 | 2026-10-16 | Low |
 | Ashapura Minechem | 2026-09-16 | 2026-10-16 | Low |
 | Valor Estates (ex-DB Realty) | 2026-09-16 | 2026-10-16 | Low-Medium |
+| Laxmi Organics | 2026-09-26 | 2026-10-26 | Medium-High |
+| Greaves Cotton | 2026-09-26 | 2026-10-26 | Medium-High |
+| MPS Ltd | 2026-09-26 | 2026-10-26 | Medium-High |
 | Trent -- A value unlocking story from the house of TATA | 2026-09-26 | 2026-10-26 | Medium |
+| Indiamart Intermesh | 2026-09-26 | 2026-10-26 | Medium-High |
+| Marico Limited (NSE: MARICO) | 2026-09-26 | 2026-10-26 | Medium-High |
+| Music Broadcast Limited (Radio City) | 2026-09-26 | 2026-10-26 | Medium |
+| Jamna Auto Industries | 2026-09-26 | 2026-10-26 | Medium |
+| Oracle Financial Services | 2026-09-26 | 2026-10-26 | Medium-High |
+| Mahindra Lifespace Developers Limited | 2026-09-26 | 2026-10-26 | Medium-High |
+| HFCL Ltd (Himachal Futuristic Communications Limited) | 2026-09-26 | 2026-10-26 | Medium-High |
+| PayTM (One 97 Communications Ltd) | 2026-09-26 | 2026-10-26 | Medium-High |
 | RIR Power Electronics Ltd | 2026-09-26 | 2026-10-26 | Low |
 | Hitachi Energy India Ltd | 2026-09-26 | 2026-10-26 | Medium-High |
 | Asian Paints Ltd | 2026-09-26 | 2026-10-26 | Low |
@@ -535,3 +546,13 @@ Generated: 2026-09-26
 | Grindwell Norton Ltd | 2026-09-26 | 2026-10-26 | Low |
 | Mishra Dhatu Nigam (MIDHANI) | 2026-09-26 | 2026-10-26 | Low-Medium |
 | Elecon Engineering Company | 2026-09-26 | 2026-10-26 | Low |
+| Policybazaar | 2026-09-26 | 2026-10-26 | Medium-High |
+| HDFC Asset Management Company | 2026-09-26 | 2026-10-26 | Medium-High |
+| Phantom Digital Effects Limited | 2026-09-26 | 2026-10-26 | Medium-High |
+| IRM Energy | 2026-09-26 | 2026-10-26 | Medium-High |
+| NAGARJUNA AGRICHEM -- lottery ticket | 2026-09-26 | 2026-10-26 | Medium-High |
+| Gokaldas exports -- cup and handle/rising channel | 2026-09-26 | 2026-10-26 | Medium-High |
+| Modern Dairies | 2026-09-26 | 2026-10-26 | Medium |
+| NCC: Extremely undervalued | 2026-09-26 | 2026-10-26 | Medium-High |
+| GHCL Textiles Ltd: Climbing the Value Chain | 2026-09-26 | 2026-10-26 | Low-Medium |
+| JTEKT India: Driving Precision, Powering India’s Mobility Future | 2026-09-26 | 2026-10-26 | Medium-High |

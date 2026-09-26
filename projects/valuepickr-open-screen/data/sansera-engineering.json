@@ -69,7 +69,15 @@
   ],
   "red_flag_tier": null,
   "red_flag_reason": null,
-  "trusted_signals": [],
+  "trusted_signals": [
+    {
+      "date": "2026-09-22",
+      "username": "LearningEleven (X)",
+      "thread": "X / @LearningEleven",
+      "note": "Going by intl brokerage coverage + price action, FAI went well & more traction on semiconductor segment",
+      "superseded": false
+    }
+  ],
   "global_signal_check": {
     "bellwether": "ASML",
     "theme": "AI/semiconductor capex - fab equipment / EUV litho",
