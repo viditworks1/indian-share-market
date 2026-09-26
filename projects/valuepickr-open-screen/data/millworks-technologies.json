@@ -3,12 +3,30 @@
   "tagline": "A four-year-old, freshly-listed SME precision-machining shop with eye-watering ratios (81% ROCE) selling mission-critical components into defence, railways, aerospace and semiconductor - a genuine tailwind, but a tiny base, a ~55x multiple and 340 debtor-days keep the 10x call unconfirmed.",
   "business_overview": "Incorporated November 2021; SME IPO listed July 2026. Designs and manufactures high-precision machined components, sheet-metal parts and integrated assemblies for mission-critical applications across Defence, Railways, Aerospace and Semiconductor equipment. FY26: revenue Rs 148.77 Cr, PAT Rs 37.06 Cr. Seeded as an external lead from X triage (@BeatTheStreet10, untrusted) which ran a bullish business deep-dive framing it as a precision engineer for missiles/drones/semiconductors.",
   "fundamentals_table": [
-    ["Market cap", "~Rs 2,020 Cr (SME / micro-cap)"],
-    ["Current price / 52-wk range", "~Rs 1,147 / Rs 1,234 - Rs 629 (listed Jul-2026)"],
-    ["ROCE / ROE", "~81% ROCE / ~70% ROE (FY26, tiny-base ratios)"],
-    ["Revenue / PAT (FY26)", "Rs 148.77 Cr / Rs 37.06 Cr (~25% PAT margin)"],
-    ["Debt", "Low; pre-IPO working-capital borrowings"],
-    ["Working capital", "Debtor days ~340 - a material quality concern"]
+    [
+      "Market cap",
+      "~Rs 2,020 Cr (SME / micro-cap)"
+    ],
+    [
+      "Current price / 52-wk range",
+      "~Rs 1,147 / Rs 1,234 - Rs 629 (listed Jul-2026)"
+    ],
+    [
+      "ROCE / ROE",
+      "~81% ROCE / ~70% ROE (FY26, tiny-base ratios)"
+    ],
+    [
+      "Revenue / PAT (FY26)",
+      "Rs 148.77 Cr / Rs 37.06 Cr (~25% PAT margin)"
+    ],
+    [
+      "Debt",
+      "Low; pre-IPO working-capital borrowings"
+    ],
+    [
+      "Working capital",
+      "Debtor days ~340 - a material quality concern"
+    ]
   ],
   "fundamentals_narrative": "On the reported numbers Millworks looks exceptional - ~25% net margin, 80%+ ROCE, revenue and profit scaling fast into four of the hottest end-markets in Indian manufacturing (defence, aerospace, railways, semiconductor equipment). But the entire operating history is ~4 years, the company listed only in July 2026, and receivables of ~340 days are extraordinary for a components maker and cast doubt on earnings quality / cash conversion. The ~55x trailing P/E and ~13x sales already capitalise a long runway. This is a plausible multi-year compounder IF the order book, margins and cash collection hold through scale - none of which is yet demonstrated in public filings.",
   "technical_read": "Recently listed SME; traded between ~Rs 629 and ~Rs 1,234 since listing, currently mid-band. No weekly/monthly structure worth reading yet.",
@@ -54,7 +72,12 @@
     "position": "Tier-2/3 precision-machined components, sheet-metal and integrated assemblies into defence, railways, aerospace and semiconductor-equipment OEMs",
     "bottleneck_node": "Qualified precision-machining and assembly capacity for mission-critical, low-volume high-mix parts",
     "supply_side_status": "adding",
-    "adjacent_peers": ["MTAR Technologies", "Azad Engineering", "Dynamic Cables (unrelated)", "Sansera Engineering"],
+    "adjacent_peers": [
+      "MTAR Technologies",
+      "Azad Engineering",
+      "Dynamic Cables (unrelated)",
+      "Sansera Engineering"
+    ],
     "note": "Real bottleneck exposure on paper, but Millworks is a very small, very new entrant; whether it holds approved-vendor share and pricing as it scales is the open question."
   },
   "quality_metrics": {
@@ -85,5 +108,36 @@
     "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   },
   "track_record_na": true,
-  "track_record_na_note": "2026-09-18 light-lane pass: only FY24 (+350% growth, ROCE 39%) and FY25 (+144% growth, ROCE 81%) have both a confirmed revenue-growth figure and a confirmed ROCE - 2 years, below the 3-year minimum for a Coffee-Can check. Company incorporated Nov-2021, IPO'd Jul-2026; FY23 and earlier are too small/early to be meaningful (FY23 revenue ~Rs 2 Cr). Revisit once FY26/FY27 add clean data points."
+  "track_record_na_note": "2026-09-18 light-lane pass: only FY24 (+350% growth, ROCE 39%) and FY25 (+144% growth, ROCE 81%) have both a confirmed revenue-growth figure and a confirmed ROCE - 2 years, below the 3-year minimum for a Coffee-Can check. Company incorporated Nov-2021, IPO'd Jul-2026; FY23 and earlier are too small/early to be meaningful (FY23 revenue ~Rs 2 Cr). Revisit once FY26/FY27 add clean data points.",
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-26",
+    "sources_reviewed": [
+      "Company financial results (pending detailed review)",
+      "ValuePickr forum discussions (if available)",
+      "Basic online research"
+    ],
+    "research_status": "Light research scaffold - pending full deep-dive",
+    "note": "Stock ranked in Confluence-100; detailed research (earnings chain, competitive analysis, catalyst timeline) pending fuller investigation"
+  },
+  "growth_trajectory": {
+    "yoy_trend": "unclear",
+    "last_quarters_note": "Pending detailed quarterly analysis",
+    "reverse_pe_note": "Valuation unclear pending full earnings estimate"
+  },
+  "management_quality": {
+    "capital_allocation": "Pending analysis",
+    "capital_allocation_track_record": "unclear",
+    "rpt_trend": "unclear",
+    "guidance_credibility": "unclear",
+    "shareholder_returns": "unclear",
+    "capability_ladder_note": "",
+    "assessment": "neutral"
+  },
+  "earnings_quality": {
+    "margin_driver": "unclear",
+    "drivers": [],
+    "peak_margin_risk": false,
+    "normalised_note": "Pending detailed analysis"
+  }
 }

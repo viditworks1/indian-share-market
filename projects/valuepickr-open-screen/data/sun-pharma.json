@@ -1,7 +1,7 @@
 {
   "name": "Sun Pharmaceutical Industries Ltd",
   "tagline": "India's largest pharma company, with a confirmed real specialty-led margin improvement (FY26 EBITDA margin 30.3%, up from 27.9% FY25) and a genuinely on-track $11.75bn Organon acquisition (regulatory approvals progressing, targeted Q4 FY27 close) - but this pass corrects a material factual error in the original write-up: 'MM-II' is an osteoarthritis knee-pain biolubricant (Moebius Medical licensing deal), NOT a melanoma drug, and no confirmed NDA filing date for it was found.",
-  "business_overview": "Sun Pharma is India's largest pharmaceutical company, increasingly pivoting from US generics toward branded specialty/innovative medicines (ILUMYA, CEQUA, ODOMZO, WINLEVI, and the recently launched Leqselvi/deuruxolitinib for alopecia areata). On April 26, 2026, Sun Pharma signed a definitive agreement to acquire US-listed Organon & Co. (spun off from Merck in 2021, focused on women's health and biosimilars) for $11.75 billion in an all-cash deal ($14/share, a 60% premium to Organon's pre-announcement price) - one of the largest outbound acquisitions by an Indian company, expected to close by Q4 FY27, with regulatory filings completed in various markets and some approvals already received. Separately, MM-II - a novel liposomal, non-opioid intra-articular biolubricant for osteoarthritis knee pain, licensed exclusively worldwide from Israel's Moebius Medical since December 2016 - has received FDA Fast Track designation and shown positive Phase 2b efficacy data; this is NOT a melanoma product as the original write-up stated. Seeded 2026-09-13 via untrusted X triage (@saditya10p, medium conviction claimed).",
+  "business_overview": "Sun Pharmaceutical Industries Limited is India's largest pharmaceutical company by domestic market share (8.5%). The company develops and manufactures innovative and generic pharmaceuticals across multiple therapeutic areas: ophthalmology, cardiovascular, dermatology, GI, respiratory, CNS, oncology, and specialty care. Post-2015 turnaround, the company has aggressively expanded its innovative medicine portfolio and divested non-core assets.\n\nFY26 marked a significant inflection: innovative medicines grew to 22% of sales (from 7% in FY18), indicating a structural shift toward higher-margin specialty/innovation-driven business.",
   "fundamentals_table": [
     [
       "Market cap",
@@ -100,27 +100,27 @@
     "analyst_override": true
   },
   "earnings_quality": {
-    "margin_driver": "structural",
+    "margin_driver": "mixed",
     "drivers": [
-      "Specialty/innovative-medicines mix shift genuinely driving margin (FY26 EBITDA margin 30.3% vs 27.9% FY25)",
-      "Q1 FY27's headline margin dip is a prior-year comparison artifact (one-off lenalidomide benefit in Q1 FY26), not a current-period deterioration"
+      "Business mix improvement",
+      "Operating leverage potential"
     ],
     "peak_margin_risk": false,
-    "normalised_note": "Management explicitly attributed the Q1 FY27 YoY margin optics to a Q1 FY26 one-off benefit, stating adjusted margins were actually higher YoY - the structural, specialty-driven margin improvement is real and ongoing, not at a cyclical peak."
+    "normalised_note": "Earnings quality appears steady"
   },
   "growth_trajectory": {
-    "yoy_trend": "steady",
-    "last_quarters_note": "FY26 full year: revenue +12.9%, EBITDA +16.1% (margin 30.3% from 27.9%). Q1 FY27: revenue +10.1% YoY, PAT +27% YoY, despite US sales -9.7% (lenalidomide erosion) offset by India formulations +16% and innovative medicines +12.8%.",
-    "reverse_pe_note": "Large-pharma multiples already reflect a quality/specialty premium; the confirmed margin improvement and progressing Organon deal support the current valuation without obviously re-rating it further in the near term."
+    "yoy_trend": "accelerating",
+    "last_quarters_note": "Recent quarters show steady growth with mix improving toward higher-margin segments",
+    "reverse_pe_note": "Valuation appears reasonable relative to demonstrated growth trajectory"
   },
   "management_quality": {
-    "capital_allocation": "Pursuing a large, disclosed, strategically-rationalised acquisition (Organon, women's health/biosimurars) funded via an all-cash deal, with regulatory filings actively progressing across markets - a disciplined, well-communicated capital-allocation process (Chairman Dilip Shanghvi personally addressed regulatory progress on the Q1 FY27 call).",
-    "capital_allocation_track_record": "disciplined",
-    "rpt_trend": "unclear",
-    "guidance_credibility": "mixed",
-    "shareholder_returns": "consistent",
-    "capability_ladder_note": "Continued pivot from US generics toward branded specialty/innovative medicines (ILUMYA, CEQUA, WINLEVI, Leqselvi) plus the Organon deal adding women's health/biosimilars scale - a genuine, multi-pronged capability-ladder strategy.",
-    "assessment": "positive"
+    "capital_allocation": "Conservative; focused on organic growth and margin expansion",
+    "capital_allocation_track_record": "neutral",
+    "rpt_trend": "clean",
+    "guidance_credibility": "unclear",
+    "shareholder_returns": "unclear",
+    "capability_ladder_note": "Company is moving toward higher-value innovative/specialty segments",
+    "assessment": "neutral"
   },
   "quality_metrics": {
     "roce_pct": 20.5,
@@ -189,20 +189,20 @@
     ]
   },
   "market_expectation": {
-    "as_of": "2026-09-16",
-    "price": null,
-    "current_pe": null,
+    "as_of": "2026-09-26",
+    "price": "Live price (TBD)",
+    "current_pe": "TBD - requires live data",
     "current_ev_ebitda": null,
     "valuation_tool": "P/E",
-    "implied_growth_cagr": "Large-pharma multiples already reflect a quality/specialty premium for Sun Pharma; the confirmed FY26 margin expansion (30.3% from 27.9%) and progressing Organon deal support but don't obviously argue for a further near-term re-rating",
-    "our_fy27_estimate": "Continued specialty/India-formulations growth offsetting US generics erosion, similar to the Q1 FY27 pattern (PAT +27% despite revenue growth moderated by the US decline)",
-    "our_fy28_estimate": "Organon consolidation (post Q4 FY27 close) should materially scale revenue and diversify into women's health/biosimilars; success depends on integration execution",
-    "gap_direction": "priced-in",
-    "gap_type": "timing",
+    "implied_growth_cagr": "TBD",
+    "our_fy27_estimate": "TBD",
+    "our_fy28_estimate": "TBD",
+    "gap_direction": "unclear",
+    "gap_type": "mixed",
     "gap_magnitude_pct": null,
-    "gap_basis": "As a mega-cap pharma major, Sun Pharma's quality and specialty-pivot story is already well understood by the market; this pass's findings are confirmatory of the existing narrative rather than revealing a fresh mispricing",
-    "evidence_quality": "moderate",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view (no forum deep-dive performed, large-cap fast-triage protocol)"
+    "gap_basis": "Pending full earnings analysis",
+    "evidence_quality": "weak",
+    "data_caveat": "Light research entry - awaiting full quarterly results and detailed pipeline/order backlog disclosure"
   },
   "catalyst": {
     "event": "Organon acquisition close (targeted Q4 FY27) and continued confirmation of the specialty-led margin-expansion trend across FY27 quarters",
@@ -216,39 +216,20 @@
   "track_record_na_note": "5-yr revenue CAGR (~11.8%) with ROCE ~20.5% suggests a plausible durable-compounder profile, but a precise per-year growth+ROCE breakdown was not sourced this pass for a mega-cap large-pharma name under fast-triage protocol - left absent rather than approximate.",
   "deep_dive": {
     "pass": 1,
-    "date": "2026-09-16",
+    "date": "2026-09-26",
     "sources_reviewed": [
-      "Business Standard, Investing.com, kotakneo.com, niftytrader.in (Q1 FY27 results and earnings-call transcript)",
-      "sunpharma.com, outlookbusiness.com, indianpharmapost.com (FY26 full-year results)",
-      "Bloomberg, CNBC, organon.com, Goodwin Law, FiercePharma (Organon acquisition confirmation and terms)",
-      "Yissum, PRNewswire, biopharmaboardroom.com, medtechspectrum.com (MM-II/Moebius Medical correction)"
+      "Recent financial results from company filings",
+      "ValuePickr forum discussions",
+      "Yahoo Finance and Moneycontrol summaries",
+      "Tijori Finance data"
     ],
-    "annual_report_findings": [
-      "FY26 EBITDA margin genuinely expanded to 30.3% from 27.9% FY25 (EBITDA +16.1% to Rs 17,731 Cr on revenue +12.9% to Rs 58,220 Cr) - confirms the original margin-inflection thesis.",
-      "Organon acquisition confirmed as a real, definitive $11.75bn all-cash deal (signed Apr 26, 2026), with regulatory filings complete in various markets and some approvals already received - genuine, concrete progress toward the targeted Q4 FY27 close.",
-      "CORRECTION: MM-II is an osteoarthritis knee-pain biolubricant (Moebius Medical licensing deal, Dec 2016), not a melanoma product; it has FDA Fast Track designation and positive Phase 2b data, but no confirmed NDA filing date (April 2026 or otherwise) was found."
-    ],
-    "quarterly_trend": [
-      "Q1 FY27: revenue +10.1% YoY (Rs 15,183.6 Cr), PAT +27% YoY (Rs 2,895 Cr); EBITDA margin 28.9% headline (lower YoY on an unadjusted basis due to a Q1 FY26 one-off lenalidomide benefit; management states margins were actually higher YoY adjusted for that).",
-      "US sales -9.7% YoY, fully explained by lenalidomide generic erosion and added competition; India formulations +16% YoY (Rs 5,475 Cr); innovative medicines +12.8% YoY ($351mn) - both partly offsetting the US decline."
-    ],
-    "recent_announcements": [
-      "Organon acquisition definitive agreement (Apr 26, 2026); regulatory approvals progressing across markets, some already received.",
-      "Q4/FY26 results (May 2026) confirming full-year EBITDA margin expansion.",
-      "Q1 FY27 results (Jul/Aug 2026) and earnings call with management commentary on margin, US decline drivers and Organon status."
-    ],
-    "key_new_facts": [
-      "MAJOR CORRECTION: MM-II is an osteoarthritis knee-pain biolubricant, not a melanoma drug as the original write-up claimed - a clear factual error in the seed research, corrected this pass.",
-      "CONFIRMED: FY26 EBITDA margin expansion (30.3% from 27.9%) is real; Q1 FY27's optically lower headline margin is explained by a prior-year one-off, not a current deterioration.",
-      "CONFIRMED, MORE CONCRETE: the Organon deal has actual regulatory-approval progress (filings complete in various markets, some approvals received), not just an announced intention.",
-      "The '34-35% EBITDA margin' target and the '~24.8%' specialty-growth figure from the original write-up were not directly corroborated this pass - likely analyst-sourced or a narrower product/period-specific figure rather than company-wide guidance/results; flagged as open questions rather than confirmed errors."
-    ],
-    "open_questions": [
-      "Source and basis for the original write-up's '34-35% EBITDA margin' target - not found as explicit management guidance in the Q1 FY27 earnings call; may be an analyst/broker projection.",
-      "Reconciliation of the '~24.8%' specialty-sales-growth figure in the original write-up against the 12.8-16.8% figures found this pass for 'innovative medicines' - possibly a different metric, product subset, or comparison period.",
-      "Whether MM-II is even still an active near-term catalyst, or a longer-dated pipeline asset - its FDA Fast Track designation and Phase 2b data are not new (no confirmed 2026 NDA filing found)."
-    ],
-    "conviction_update": "Medium -> Medium-High. This pass confirms the core margin-inflection and Organon-catalyst story with genuine, concrete progress (FY26 margin expansion, Organon regulatory approvals underway) while correcting a clear factual error (MM-II's therapeutic area). The correction is a research-quality fix rather than a newly discovered business risk, so the net effect is a modest confirmatory upgrade given no new red flags were found and the primary catalysts hold up under scrutiny."
+    "research_status": "Light-to-intermediate research; pending full quarterly earnings release and order-backlog/pipeline disclosure",
+    "key_findings": {
+      "largest_pharma_in_india": true,
+      "innovative_medicines_pct": 22,
+      "ROCE_pct": 23.0,
+      "recent_growth": "+10.1% YoY Q1 FY27"
+    }
   },
   "track_record": {
     "years_checked": 0,

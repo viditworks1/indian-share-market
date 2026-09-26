@@ -1,8 +1,8 @@
 {
   "date_compiled": "2026-09-26",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
-  "scored_count": 285,
-  "not_assessed_count": 670,
+  "scored_count": 296,
+  "not_assessed_count": 659,
   "ranked": [
     {
       "slug": "deepak-fertilizers-and-petrochemicals",
@@ -952,37 +952,6 @@
       }
     },
     {
-      "slug": "unicommerce-esolutions",
-      "name": "Unicommerce Esolutions",
-      "expectation_gap_score": 40.27,
-      "conviction_score": 48.4,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "red_flag_tier": null,
-      "market_cap_tier": "Small-cap (~Rs 945 Cr)",
-      "gap_direction": "partially-priced",
-      "gap_type": "duration",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "strong",
-      "catalyst_event": "Q4 FY27 print showing Shipway growth above 20% and Uniware sustaining above 15%, confirming the churn-resolution thesis across multiple quarters",
-      "catalyst_window_months": 6,
-      "catalyst_window_start": "2026-09-14",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": true,
-      "risk_open_spof_count": 0,
-      "risk_open_spofs": [],
-      "flags": [],
-      "score_breakdown": {
-        "gap_points": 18.0,
-        "gap_frac": 0.45,
-        "evidence_q": 1.0,
-        "catalyst_q": 0.65,
-        "timing_q": 1.0,
-        "risk_q": 1.0,
-        "quality": 0.895
-      }
-    },
-    {
       "slug": "nlc-india",
       "name": "NLC India",
       "expectation_gap_score": 37.48,
@@ -1082,39 +1051,6 @@
         "timing_q": 1.0,
         "risk_q": 0.4,
         "quality": 0.823
-      }
-    },
-    {
-      "slug": "engineers-india",
-      "name": "Engineers India (EIL)",
-      "expectation_gap_score": 36.0,
-      "conviction_score": 56.25,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "Large-cap (~Rs 14,655 Cr) - PSU",
-      "gap_direction": "partially-priced",
-      "gap_type": "mix",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "strong",
-      "catalyst_event": "Continued consultancy-mix-driven margin expansion across FY27, and confirmation of Dangote contract execution milestones",
-      "catalyst_window_months": 9,
-      "catalyst_window_start": "2026-09-16",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 1,
-      "risk_open_spofs": [
-        "single large overseas client/project concentration"
-      ],
-      "flags": [],
-      "score_breakdown": {
-        "gap_points": 18.0,
-        "gap_frac": 0.45,
-        "evidence_q": 1.0,
-        "catalyst_q": 0.6,
-        "timing_q": 0.75,
-        "risk_q": 0.8,
-        "quality": 0.8
       }
     },
     {
@@ -1730,6 +1666,40 @@
         "timing_q": 0.75,
         "risk_q": 0.8,
         "quality": 0.463
+      }
+    },
+    {
+      "slug": "engineers-india",
+      "name": "Engineers India (EIL)",
+      "expectation_gap_score": 29.36,
+      "conviction_score": 56.25,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Large-cap (~Rs 14,655 Cr) - PSU",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": "+15-20% (market has not fully priced the structural margin-expansion story)",
+      "evidence_quality": "moderate",
+      "catalyst_event": "Continued consultancy-mix-driven margin expansion across FY27, and confirmation of Dangote contract execution milestones",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-16",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "depends on major clients (iocl, ntpc, gail) continuing capex",
+        "shift back to higher-lstk revenue would compress margins"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.6,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.653
       }
     },
     {
@@ -4483,41 +4453,6 @@
       }
     },
     {
-      "slug": "sun-pharma",
-      "name": "Sun Pharma",
-      "expectation_gap_score": 8.82,
-      "conviction_score": 50.25,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "Large/mega-cap (~Rs 4,41,478 Cr)",
-      "gap_direction": "priced-in",
-      "gap_type": "timing",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "moderate",
-      "catalyst_event": "Organon acquisition close (targeted Q4 FY27) and continued confirmation of the specialty-led margin-expansion trend across FY27 quarters",
-      "catalyst_window_months": 6,
-      "catalyst_window_start": "2026-09-16",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": true,
-      "risk_open_spof_count": 1,
-      "risk_open_spofs": [
-        "regulatory approval in any key jurisdiction"
-      ],
-      "flags": [
-        "priced-in"
-      ],
-      "score_breakdown": {
-        "gap_points": 4.0,
-        "gap_frac": 0.1,
-        "evidence_q": 0.75,
-        "catalyst_q": 1.0,
-        "timing_q": 1.0,
-        "risk_q": 0.8,
-        "quality": 0.882
-      }
-    },
-    {
       "slug": "v2-retail",
       "name": "V2 Retail",
       "expectation_gap_score": 8.05,
@@ -4725,6 +4660,41 @@
         "timing_q": 1.0,
         "risk_q": 0.4,
         "quality": 0.718
+      }
+    },
+    {
+      "slug": "sun-pharma",
+      "name": "Sun Pharma",
+      "expectation_gap_score": 7.07,
+      "conviction_score": 41.25,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Large/mega-cap (~Rs 4,41,478 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "mixed",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "Organon acquisition close (targeted Q4 FY27) and continued confirmation of the specialty-led margin-expansion trend across FY27 quarters",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-16",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "regulatory approval in any key jurisdiction"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 1.0,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.707
       }
     },
     {
@@ -5051,6 +5021,39 @@
         "timing_q": 0.75,
         "risk_q": 0.2,
         "quality": 0.637
+      }
+    },
+    {
+      "slug": "unicommerce-esolutions",
+      "name": "Unicommerce Esolutions",
+      "expectation_gap_score": 6.33,
+      "conviction_score": 47.4,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 945 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "mixed",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "Q4 FY27 print showing Shipway growth above 20% and Uniware sustaining above 15%, confirming the churn-resolution thesis across multiple quarters",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-14",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.65,
+        "timing_q": 1.0,
+        "risk_q": 1.0,
+        "quality": 0.632
       }
     },
     {
@@ -6187,6 +6190,74 @@
       }
     },
     {
+      "slug": "multi-commodity-exchange-of-india",
+      "name": "Multi Commodity Exchange of India Ltd",
+      "expectation_gap_score": 3.63,
+      "conviction_score": 1.65,
+      "conviction": null,
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Large-cap",
+      "gap_direction": "priced-in",
+      "gap_type": "mixed",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-26",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
+      "slug": "valiant-organics",
+      "name": "Valiant Organics",
+      "expectation_gap_score": 3.63,
+      "conviction_score": 0,
+      "conviction": null,
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 909 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "mixed",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-26",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
       "slug": "laxmi-dental",
       "name": "Laxmi Dental Ltd",
       "expectation_gap_score": 3.63,
@@ -6195,6 +6266,40 @@
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
       "market_cap_tier": "Small-cap (~Rs 1,074 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "mixed",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-26",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
+      "slug": "va-tech-wabag",
+      "name": "Va Tech Wabag",
+      "expectation_gap_score": 3.63,
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid/Large-cap (~Rs 13,470 Cr)",
       "gap_direction": "priced-in",
       "gap_type": "mixed",
       "gap_magnitude_pct": null,
@@ -6697,6 +6802,74 @@
       }
     },
     {
+      "slug": "shanti-gold-international",
+      "name": "Shanti Gold International Ltd",
+      "expectation_gap_score": 3.63,
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 1,894 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "mixed",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-26",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
+      "slug": "shriram-amc",
+      "name": "Shriram AMC",
+      "expectation_gap_score": 3.63,
+      "conviction_score": 8.17,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Micro-cap (~Rs 470 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "mixed",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-26",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
       "slug": "earkart",
       "name": "Earkart Ltd",
       "expectation_gap_score": 3.63,
@@ -6746,6 +6919,40 @@
       "catalyst_event": null,
       "catalyst_window_months": null,
       "catalyst_window_start": "2026-09-09",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
+      "slug": "bhagwati-autocast",
+      "name": "Bhagwati Autocast Ltd",
+      "expectation_gap_score": 3.63,
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Micro-cap (~Rs 207 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "mixed",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-26",
       "catalyst_status_effective": null,
       "catalyst_is_dated": false,
       "risk_open_spof_count": 0,
@@ -6911,6 +7118,142 @@
       "market_cap_tier": "Micro-cap",
       "gap_direction": "priced-in",
       "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-26",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
+      "slug": "igi-india",
+      "name": "IGI (Lab Grown Diamond certification)",
+      "expectation_gap_score": 3.63,
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Large-cap (~Rs 15,000 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "mixed",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-26",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
+      "slug": "bajaj-housing-finance",
+      "name": "Bajaj Housing Finance",
+      "expectation_gap_score": 3.63,
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Large-cap (~Rs 70,083 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "mixed",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-26",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
+      "slug": "gvpil",
+      "name": "GVPIL",
+      "expectation_gap_score": 3.63,
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 4,400 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "mixed",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-26",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
+      "slug": "power-grid",
+      "name": "Power Grid",
+      "expectation_gap_score": 3.63,
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mega-cap PSU (~Rs 2.6 lakh Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "mixed",
       "gap_magnitude_pct": null,
       "evidence_quality": "weak",
       "catalyst_event": null,
@@ -7429,6 +7772,41 @@
         "timing_q": 1.0,
         "risk_q": 0.2,
         "quality": 0.381
+      }
+    },
+    {
+      "slug": "aimco-pesticides-ltd",
+      "name": "Aimco Pesticides Ltd",
+      "expectation_gap_score": 1.81,
+      "conviction_score": 0,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "red_flag_tier": "HIGH CAUTION",
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "mixed",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-26",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "high-caution",
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
       }
     },
     {
@@ -11236,13 +11614,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "shanti-gold-international",
-      "name": "Shanti Gold International Ltd",
-      "conviction_score": 16.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "greenlam-industries",
       "name": "Greenlam Industries Ltd",
       "conviction_score": 16.0,
@@ -11308,13 +11679,6 @@
     {
       "slug": "premier-polyfilm",
       "name": "Premier Polyfilm Ltd",
-      "conviction_score": 16.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "bhagwati-autocast",
-      "name": "Bhagwati Autocast Ltd",
       "conviction_score": 16.0,
       "conviction": "Low-Medium",
       "thesis_fit": "neither"
@@ -11593,13 +11957,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "igi-india",
-      "name": "IGI (Lab Grown Diamond certification)",
-      "conviction_score": 16.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "divis-laboratories",
       "name": "Divi's Labs",
       "conviction_score": 16.0,
@@ -11777,13 +12134,6 @@
     {
       "slug": "igl",
       "name": "Indraprastha Gas (IGL)",
-      "conviction_score": 16.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "power-grid",
-      "name": "Power Grid",
       "conviction_score": 16.0,
       "conviction": "Low-Medium",
       "thesis_fit": "neither"
@@ -12370,13 +12720,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "shriram-amc",
-      "name": "Shriram AMC",
-      "conviction_score": 8.17,
-      "conviction": "Low",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "five-star-business-finance",
       "name": "Five Star Business Finance",
       "conviction_score": 8.14,
@@ -12526,13 +12869,6 @@
     {
       "slug": "macfos",
       "name": "Macfos Limited- A niche E-commerce Company",
-      "conviction_score": 8.0,
-      "conviction": "Low",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "va-tech-wabag",
-      "name": "Va Tech Wabag",
       "conviction_score": 8.0,
       "conviction": "Low",
       "thesis_fit": "neither"
@@ -13476,13 +13812,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "bajaj-housing-finance",
-      "name": "Bajaj Housing Finance",
-      "conviction_score": 8.0,
-      "conviction": "Low",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "ifci-ltd",
       "name": "IFCI",
       "conviction_score": 8.0,
@@ -13541,13 +13870,6 @@
     {
       "slug": "asahi-songwon-colors",
       "name": "Asahi Songwon Colors",
-      "conviction_score": 8.0,
-      "conviction": "Low",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "gvpil",
-      "name": "GVPIL",
       "conviction_score": 8.0,
       "conviction": "Low",
       "thesis_fit": "neither"
@@ -13882,13 +14204,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "multi-commodity-exchange-of-india",
-      "name": "Multi Commodity Exchange of India Ltd",
-      "conviction_score": 1.65,
-      "conviction": null,
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "abbott-india-mnc-pharma-play-on-increased-consumer-spending",
       "name": "Abbott India: MNC pharma play on increased consumer spending",
       "conviction_score": 1.65,
@@ -14045,13 +14360,6 @@
     {
       "slug": "jubilant-ingrevia",
       "name": "Jubilant Ingrevia",
-      "conviction_score": 0,
-      "conviction": null,
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "valiant-organics",
-      "name": "Valiant Organics",
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": "neither"
@@ -14283,13 +14591,6 @@
     {
       "slug": "lincoln-pharma-ltd",
       "name": "Lincoln Pharma Ltd",
-      "conviction_score": 0,
-      "conviction": "Low",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "aimco-pesticides-ltd",
-      "name": "Aimco Pesticides Ltd",
       "conviction_score": 0,
       "conviction": "Low",
       "thesis_fit": "neither"
@@ -15343,8 +15644,8 @@
       "window_months": 6,
       "is_dated": true,
       "status_effective": "pending",
-      "expectation_gap_score": 40.27,
-      "conviction_score": 48.4
+      "expectation_gap_score": 6.33,
+      "conviction_score": 47.4
     },
     {
       "slug": "eppelton",
@@ -15376,8 +15677,8 @@
       "window_months": 6,
       "is_dated": true,
       "status_effective": "pending",
-      "expectation_gap_score": 8.82,
-      "conviction_score": 50.25
+      "expectation_gap_score": 7.07,
+      "conviction_score": 41.25
     },
     {
       "slug": "deepa-jewellers",
@@ -16476,7 +16777,7 @@
       "window_months": 9,
       "is_dated": false,
       "status_effective": "pending",
-      "expectation_gap_score": 36.0,
+      "expectation_gap_score": 29.36,
       "conviction_score": 56.25
     },
     {

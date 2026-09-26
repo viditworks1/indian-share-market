@@ -258,33 +258,6 @@
       }
     },
     {
-      "slug": "engineers-india",
-      "name": "Engineers India (EIL)",
-      "master_score": 61.72,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 56.25,
-        "quality_score": 87.0,
-        "expectation_gap_score": 36.0,
-        "consistency_score": null,
-        "asymmetry_score": 63.0,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
       "slug": "vinati-organics",
       "name": "Vinati Organics Ltd",
       "master_score": 61.22,
@@ -397,6 +370,33 @@
       }
     },
     {
+      "slug": "engineers-india",
+      "name": "Engineers India (EIL)",
+      "master_score": 59.57,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 56.25,
+        "quality_score": 87.0,
+        "expectation_gap_score": 29.36,
+        "consistency_score": null,
+        "asymmetry_score": 59.68,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
       "slug": "aries-agro",
       "name": "Aries Agro Ltd",
       "master_score": 58.41,
@@ -478,33 +478,6 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "unicommerce-esolutions",
-      "name": "Unicommerce Esolutions",
-      "master_score": 56.38,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 48.4,
-        "quality_score": 69.0,
-        "expectation_gap_score": 40.27,
-        "consistency_score": null,
-        "asymmetry_score": 70.14,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
       }
     },
     {
@@ -1459,6 +1432,33 @@
       }
     },
     {
+      "slug": "unicommerce-esolutions",
+      "name": "Unicommerce Esolutions",
+      "master_score": 45.11,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 47.4,
+        "quality_score": 69.0,
+        "expectation_gap_score": 6.33,
+        "consistency_score": null,
+        "asymmetry_score": 53.16,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
       "slug": "capacit-e-infraprojects",
       "name": "Capacit'e Infraprojects",
       "master_score": 45.1,
@@ -1931,33 +1931,6 @@
       }
     },
     {
-      "slug": "sun-pharma",
-      "name": "Sun Pharma",
-      "master_score": 41.75,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 50.25,
-        "quality_score": 67.0,
-        "expectation_gap_score": 8.82,
-        "consistency_score": null,
-        "asymmetry_score": 29.41,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
       "slug": "raymond-realty",
       "name": "Raymond Realty Ltd",
       "master_score": 41.72,
@@ -2423,6 +2396,33 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "sun-pharma",
+      "name": "Sun Pharma",
+      "master_score": 38.54,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 41.25,
+        "quality_score": 67.0,
+        "expectation_gap_score": 7.07,
+        "consistency_score": null,
+        "asymmetry_score": 28.54,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
       }
     },
     {
@@ -9517,26 +9517,6 @@
       }
     },
     {
-      "slug": "shanti-gold-international",
-      "name": "Shanti Gold International Ltd",
-      "master_score": 16.0,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 16.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "greenlam-industries",
       "name": "Greenlam Industries Ltd",
       "master_score": 16.0,
@@ -9719,26 +9699,6 @@
     {
       "slug": "premier-polyfilm",
       "name": "Premier Polyfilm Ltd",
-      "master_score": 16.0,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 16.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "bhagwati-autocast",
-      "name": "Bhagwati Autocast Ltd",
       "master_score": 16.0,
       "red_flag_tier": null,
       "conviction": "Low-Medium",
@@ -10537,26 +10497,6 @@
       }
     },
     {
-      "slug": "igi-india",
-      "name": "IGI (Lab Grown Diamond certification)",
-      "master_score": 16.0,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 16.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "divis-laboratories",
       "name": "Divi's Labs",
       "master_score": 16.0,
@@ -11059,26 +10999,6 @@
     {
       "slug": "igl",
       "name": "Indraprastha Gas (IGL)",
-      "master_score": 16.0,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 16.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "power-grid",
-      "name": "Power Grid",
       "master_score": 16.0,
       "red_flag_tier": null,
       "conviction": "Low-Medium",
@@ -13212,6 +13132,90 @@
       }
     },
     {
+      "slug": "shanti-gold-international",
+      "name": "Shanti Gold International Ltd",
+      "master_score": 10.5,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 16.0,
+        "quality_score": null,
+        "expectation_gap_score": 3.63,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "expectation_gap_score"
+        ],
+        "weight_coverage": 0.45
+      }
+    },
+    {
+      "slug": "bhagwati-autocast",
+      "name": "Bhagwati Autocast Ltd",
+      "master_score": 10.5,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 16.0,
+        "quality_score": null,
+        "expectation_gap_score": 3.63,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "expectation_gap_score"
+        ],
+        "weight_coverage": 0.45
+      }
+    },
+    {
+      "slug": "igi-india",
+      "name": "IGI (Lab Grown Diamond certification)",
+      "master_score": 10.5,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 16.0,
+        "quality_score": null,
+        "expectation_gap_score": 3.63,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "expectation_gap_score"
+        ],
+        "weight_coverage": 0.45
+      }
+    },
+    {
+      "slug": "power-grid",
+      "name": "Power Grid",
+      "master_score": 10.5,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 16.0,
+        "quality_score": null,
+        "expectation_gap_score": 3.63,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "expectation_gap_score"
+        ],
+        "weight_coverage": 0.45
+      }
+    },
+    {
       "slug": "all-e-technologies-making-businesses-ready-for-ai",
       "name": "All E Technologies, making businesses ready for AI",
       "master_score": 10.49,
@@ -14304,26 +14308,6 @@
       }
     },
     {
-      "slug": "shriram-amc",
-      "name": "Shriram AMC",
-      "master_score": 8.17,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 8.17,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "five-star-business-finance",
       "name": "Five Star Business Finance",
       "master_score": 8.14,
@@ -14767,26 +14751,6 @@
     {
       "slug": "macfos",
       "name": "Macfos Limited- A niche E-commerce Company",
-      "master_score": 8.0,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 8.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "va-tech-wabag",
-      "name": "Va Tech Wabag",
       "master_score": 8.0,
       "red_flag_tier": null,
       "conviction": "Low",
@@ -17485,26 +17449,6 @@
       }
     },
     {
-      "slug": "bajaj-housing-finance",
-      "name": "Bajaj Housing Finance",
-      "master_score": 8.0,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 8.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "ifci-ltd",
       "name": "IFCI",
       "master_score": 8.0,
@@ -17667,26 +17611,6 @@
     {
       "slug": "asahi-songwon-colors",
       "name": "Asahi Songwon Colors",
-      "master_score": 8.0,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 8.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "gvpil",
-      "name": "GVPIL",
       "master_score": 8.0,
       "red_flag_tier": null,
       "conviction": "Low",
@@ -18552,6 +18476,27 @@
       }
     },
     {
+      "slug": "shriram-amc",
+      "name": "Shriram AMC",
+      "master_score": 6.15,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 8.17,
+        "quality_score": null,
+        "expectation_gap_score": 3.63,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "expectation_gap_score"
+        ],
+        "weight_coverage": 0.45
+      }
+    },
+    {
       "slug": "garuda-construction",
       "name": "Garuda Construction",
       "master_score": 6.13,
@@ -18572,6 +18517,69 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "va-tech-wabag",
+      "name": "Va Tech Wabag",
+      "master_score": 6.06,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": null,
+        "expectation_gap_score": 3.63,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "expectation_gap_score"
+        ],
+        "weight_coverage": 0.45
+      }
+    },
+    {
+      "slug": "bajaj-housing-finance",
+      "name": "Bajaj Housing Finance",
+      "master_score": 6.06,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": null,
+        "expectation_gap_score": 3.63,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "expectation_gap_score"
+        ],
+        "weight_coverage": 0.45
+      }
+    },
+    {
+      "slug": "gvpil",
+      "name": "GVPIL",
+      "master_score": 6.06,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": null,
+        "expectation_gap_score": 3.63,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "expectation_gap_score"
+        ],
+        "weight_coverage": 0.45
       }
     },
     {
@@ -18845,6 +18853,27 @@
       }
     },
     {
+      "slug": "multi-commodity-exchange-of-india",
+      "name": "Multi Commodity Exchange of India Ltd",
+      "master_score": 2.53,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 1.65,
+        "quality_score": null,
+        "expectation_gap_score": 3.63,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "expectation_gap_score"
+        ],
+        "weight_coverage": 0.45
+      }
+    },
+    {
       "slug": "til",
       "name": "TIL",
       "master_score": 2.5,
@@ -19018,26 +19047,6 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "multi-commodity-exchange-of-india",
-      "name": "Multi Commodity Exchange of India Ltd",
-      "master_score": 1.65,
-      "red_flag_tier": null,
-      "conviction": null,
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 1.65,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
       }
     },
     {
@@ -19221,6 +19230,27 @@
       }
     },
     {
+      "slug": "valiant-organics",
+      "name": "Valiant Organics",
+      "master_score": 1.61,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": 3.63,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "expectation_gap_score"
+        ],
+        "weight_coverage": 0.45
+      }
+    },
+    {
       "slug": "banco-products",
       "name": "Banco Products",
       "master_score": 1.12,
@@ -19258,6 +19288,27 @@
           "conviction_score"
         ],
         "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "aimco-pesticides-ltd",
+      "name": "Aimco Pesticides Ltd",
+      "master_score": 0.8,
+      "red_flag_tier": "HIGH CAUTION",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": 1.81,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "expectation_gap_score"
+        ],
+        "weight_coverage": 0.45
       }
     },
     {
@@ -19483,26 +19534,6 @@
     {
       "slug": "jubilant-ingrevia",
       "name": "Jubilant Ingrevia",
-      "master_score": 0,
-      "red_flag_tier": null,
-      "conviction": null,
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "valiant-organics",
-      "name": "Valiant Organics",
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
@@ -20143,26 +20174,6 @@
     {
       "slug": "lincoln-pharma-ltd",
       "name": "Lincoln Pharma Ltd",
-      "master_score": 0,
-      "red_flag_tier": "HIGH CAUTION",
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "aimco-pesticides-ltd",
-      "name": "Aimco Pesticides Ltd",
       "master_score": 0,
       "red_flag_tier": "HIGH CAUTION",
       "conviction": "Low",

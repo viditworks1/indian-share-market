@@ -1081,9 +1081,9 @@
       "distinct_trusted_users": 0,
       "management_quality": {
         "assessment": "positive",
-        "guidance_credibility": "reliable",
+        "guidance_credibility": "unclear",
         "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "unclear",
+        "rpt_trend": "clean",
         "shareholder_returns": "consistent"
       }
     }
@@ -1983,51 +1983,6 @@
     }
   },
   {
-    "slug": "sun-pharma",
-    "name": "Sun Pharma",
-    "conviction_score": 50.25,
-    "own_conviction": 50.25,
-    "trusted_lift": 0.0,
-    "conviction": "Medium-High",
-    "thesis_fit": "neither",
-    "quality_score": 67.0,
-    "market_cap_tier": "Large/mega-cap (~Rs 4,41,478 Cr)",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 50.25,
-      "trusted_lift": 0.0,
-      "base_anchor": 35,
-      "thesis_bonus": 0,
-      "quality_lift": 4.25,
-      "management_component": 11.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "consistent"
-      }
-    }
-  },
-  {
     "slug": "laxmi-organics",
     "name": "Laxmi Organics",
     "conviction_score": 50.0,
@@ -2826,51 +2781,6 @@
     }
   },
   {
-    "slug": "unicommerce-esolutions",
-    "name": "Unicommerce Esolutions",
-    "conviction_score": 48.4,
-    "own_conviction": 46.75,
-    "trusted_lift": 1.65,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 69.0,
-    "market_cap_tier": "Small-cap (~Rs 945 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 46.75,
-      "trusted_lift": 1.65,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": 4.75,
-      "management_component": 3.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 1.65,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 1.65,
-        "pos_raw": 1.65,
-        "pos_capped": 1.65,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "fallback-scalar"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "unclear",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
-      }
-    }
-  },
-  {
     "slug": "aries-agro",
     "name": "Aries Agro Ltd",
     "conviction_score": 48.0,
@@ -2957,6 +2867,51 @@
         "capital_allocation_track_record": null,
         "rpt_trend": "unclear",
         "shareholder_returns": null
+      }
+    }
+  },
+  {
+    "slug": "unicommerce-esolutions",
+    "name": "Unicommerce Esolutions",
+    "conviction_score": 47.4,
+    "own_conviction": 45.75,
+    "trusted_lift": 1.65,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 69.0,
+    "market_cap_tier": "Small-cap (~Rs 945 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 45.75,
+      "trusted_lift": 1.65,
+      "base_anchor": 25,
+      "thesis_bonus": 14,
+      "quality_lift": 4.75,
+      "management_component": 2.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 1.65,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 1.65,
+        "pos_raw": 1.65,
+        "pos_capped": 1.65,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "fallback-scalar"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "clean",
+        "shareholder_returns": "unclear"
       }
     }
   },
@@ -3875,7 +3830,13 @@
         "source": "ledger"
       },
       "distinct_trusted_users": 1,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
+      }
     }
   },
   {
@@ -4100,6 +4061,51 @@
         "capital_allocation_track_record": "neutral",
         "rpt_trend": "unclear",
         "shareholder_returns": "initiated"
+      }
+    }
+  },
+  {
+    "slug": "sun-pharma",
+    "name": "Sun Pharma",
+    "conviction_score": 41.25,
+    "own_conviction": 41.25,
+    "trusted_lift": 0.0,
+    "conviction": "Medium-High",
+    "thesis_fit": "neither",
+    "quality_score": 67.0,
+    "market_cap_tier": "Large/mega-cap (~Rs 4,41,478 Cr)",
+    "red_flag_tier": null,
+    "source": "external-lead",
+    "score_breakdown": {
+      "own_conviction": 41.25,
+      "trusted_lift": 0.0,
+      "base_anchor": 35,
+      "thesis_bonus": 0,
+      "quality_lift": 4.25,
+      "management_component": 2.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "clean",
+        "shareholder_returns": "unclear"
       }
     }
   },
@@ -7094,7 +7100,13 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
+      }
     }
   },
   {
@@ -14948,7 +14960,13 @@
         "source": "ledger"
       },
       "distinct_trusted_users": 2,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
+      }
     }
   },
   {
@@ -17762,7 +17780,13 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
+      }
     }
   },
   {
@@ -18191,7 +18215,13 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
+      }
     }
   },
   {
@@ -19751,7 +19781,13 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
+      }
     }
   },
   {
@@ -20804,7 +20840,13 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
+      }
     }
   },
   {
@@ -25199,7 +25241,13 @@
         "source": "ledger"
       },
       "distinct_trusted_users": 1,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
+      }
     }
   },
   {
@@ -26096,7 +26144,13 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
+      }
     }
   },
   {
@@ -31361,7 +31415,13 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
+      }
     }
   },
   {
@@ -31751,7 +31811,13 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
+      }
     }
   },
   {
@@ -33899,7 +33965,13 @@
         "source": "fallback-scalar"
       },
       "distinct_trusted_users": 1,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
+      }
     }
   },
   {
@@ -34835,7 +34907,13 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
+      }
     }
   },
   {
@@ -36212,7 +36290,13 @@
         "source": "ledger"
       },
       "distinct_trusted_users": 1,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
+      }
     }
   },
   {

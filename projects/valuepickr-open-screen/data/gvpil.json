@@ -3,12 +3,30 @@
   "tagline": "Duplicate seed of GE Power India Ltd (see data/ge-power-india.json, slug 'ge-power-india') under its NSE ticker GVPIL - CORRECTED after the initial triage pass fabricated a net-worth crisis that independent verification disproved.",
   "business_overview": "GE Power India Ltd (GVPIL, NSE: GEPIL) executes engineering-procurement-construction and supplies key equipment (boilers, turbines, generators) for thermal and hydro power plants in India, historically as an Alstom/GE-affiliated player. GVPIL is the company's NSE ticker and was seeded as a separate state.json candidate from the full-name seed 'ge-power-india' - both slugs refer to the SAME listed company.",
   "fundamentals_table": [
-    ["Market cap", "~Rs 4,388 Cr"],
-    ["ROCE (TTM)", "64-77% depending on source"],
-    ["ROE (3-yr avg)", "43.6-61%"],
-    ["Revenue growth", "-17.6% over 5 years (declining legacy order-book unwind)"],
-    ["Debt", "Almost debt-free"],
-    ["Corporate action", "Scheme of arrangement to demerge the Durgapur boiler/pressure-vessel/coal-mill unit to JSW Energy - NCLT Mumbai cleared first motion; shareholders get 10 JSW Energy shares per 139 GVPIL shares held, appointed date 2025-07-01"]
+    [
+      "Market cap",
+      "~Rs 4,388 Cr"
+    ],
+    [
+      "ROCE (TTM)",
+      "64-77% depending on source"
+    ],
+    [
+      "ROE (3-yr avg)",
+      "43.6-61%"
+    ],
+    [
+      "Revenue growth",
+      "-17.6% over 5 years (declining legacy order-book unwind)"
+    ],
+    [
+      "Debt",
+      "Almost debt-free"
+    ],
+    [
+      "Corporate action",
+      "Scheme of arrangement to demerge the Durgapur boiler/pressure-vessel/coal-mill unit to JSW Energy - NCLT Mumbai cleared first motion; shareholders get 10 JSW Energy shares per 139 GVPIL shares held, appointed date 2025-07-01"
+    ]
   ],
   "fundamentals_narrative": "CORRECTION NOTE: an earlier triage pass on this slug (dated 2026-09-15) reported deeply negative ROE (~-95.7%) and ROCE (~-98.5%) and framed the Durgapur/JSW Energy scheme as evidence of a 'self-acknowledged net-worth problem' requiring an AVOID red flag. That was independently re-verified via web search against screener.in/Yahoo Finance/TipRanks and found to be FABRICATED - the company's actual ROCE/ROE are exceptional (64-77% / 43-61%), consistent with the already-researched 'ge-power-india' slug. The Durgapur-to-JSW-Energy demerger is a real, confirmed corporate action (NCLT-cleared scheme of arrangement, share-swap terms disclosed), but it reads as a strategic portfolio/vertical-integration deal for JSW Energy, not a distress-driven asset sale - no going-concern or negative-net-worth language was found anywhere in the actual filings or coverage. Financial substance otherwise matches 'ge-power-india': high legacy capital efficiency on a shrinking revenue base (-17.6% over 5 years), no company-specific inflection found to justify a re-rating thesis.",
   "technical_read": "Not independently re-pulled - see 'ge-power-india' for the same underlying stock.",
@@ -45,5 +63,52 @@
     "score": 1.5,
     "note": "Same assessment as 'ge-power-india' - high capital efficiency is a shrinking-base artefact against a 5-year revenue decline; no named inflection found. The Durgapur/JSW Energy demerger is real but its effect on the surviving entity is not yet clear enough to change this."
   },
-  "value_chain": null
+  "value_chain": null,
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-26",
+    "sources_reviewed": [
+      "Company financial results (pending detailed review)",
+      "ValuePickr forum discussions (if available)",
+      "Basic online research"
+    ],
+    "research_status": "Light research scaffold - pending full deep-dive",
+    "note": "Stock ranked in Confluence-100; detailed research (earnings chain, competitive analysis, catalyst timeline) pending fuller investigation"
+  },
+  "growth_trajectory": {
+    "yoy_trend": "unclear",
+    "last_quarters_note": "Pending detailed quarterly analysis",
+    "reverse_pe_note": "Valuation unclear pending full earnings estimate"
+  },
+  "management_quality": {
+    "capital_allocation": "Pending analysis",
+    "capital_allocation_track_record": "unclear",
+    "rpt_trend": "unclear",
+    "guidance_credibility": "unclear",
+    "shareholder_returns": "unclear",
+    "capability_ladder_note": "",
+    "assessment": "neutral"
+  },
+  "earnings_quality": {
+    "margin_driver": "unclear",
+    "drivers": [],
+    "peak_margin_risk": false,
+    "normalised_note": "Pending detailed analysis"
+  },
+  "market_expectation": {
+    "as_of": "2026-09-26",
+    "price": "Live price (TBD)",
+    "current_pe": null,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "TBD",
+    "our_fy27_estimate": "TBD",
+    "our_fy28_estimate": "TBD",
+    "gap_direction": "unclear",
+    "gap_type": "mixed",
+    "gap_magnitude_pct": null,
+    "gap_basis": "Pending full analysis",
+    "evidence_quality": "weak",
+    "data_caveat": "Light research entry - detailed deepdive pending"
+  }
 }

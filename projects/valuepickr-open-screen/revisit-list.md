@@ -107,10 +107,10 @@ _(none)_
 | Airfloa Rail Technology | 2027-03-14 | ~6M | pending | 28.78 | Q2/Q3 FY27 prints showing FY27 Rs500cr guidance progress, a margin-recovery inflection (vs the FY26 -500bps compression), and A&D order flow (Big Bang Boom J... |
 | Shaily Engineering Plastics Ltd | 2027-03-14 | ~6M | pending | 0 | Q2/Q3 FY27 prints testing whether the Q1FY27 deceleration (+14%) was a one-off cost/timing issue (management's claim) or a genuine growth-rate reset, plus wh... |
 | Carysil (earlier Acrysil) | 2027-03-16 | ~6M | pending | 43.65 | Quartz capacity expansion (1.25m units) commissioning + the FY27 exit-quarter margin print |
-| Unicommerce Esolutions | 2027-03-16 | ~6M | pending | 40.27 | Q4 FY27 print showing Shipway growth above 20% and Uniware sustaining above 15%, confirming the churn-resolution thesis across multiple quarters |
+| Unicommerce Esolutions | 2027-03-16 | ~6M | pending | 6.33 | Q4 FY27 print showing Shipway growth above 20% and Uniware sustaining above 15%, confirming the churn-resolution thesis across multiple quarters |
 | Eppelton (EEPL) | 2027-03-18 | ~6M | pending | 28.78 | AMISP empanelment confirmation + the next 1-2 quarters of cash-flow/working-capital data |
 | Sri Lotus Developers | 2027-03-18 | ~6M | pending | 22.98 | Q2/Q3 FY27 results confirming whether the EBITDA margin contraction reverses and whether the guided 55-60% revenue/PAT growth and Rs 1,800-2,000 Cr pre-sales... |
-| Sun Pharma | 2027-03-18 | ~6M | pending | 8.82 | Organon acquisition close (targeted Q4 FY27) and continued confirmation of the specialty-led margin-expansion trend across FY27 quarters |
+| Sun Pharma | 2027-03-18 | ~6M | pending | 7.07 | Organon acquisition close (targeted Q4 FY27) and continued confirmation of the specialty-led margin-expansion trend across FY27 quarters |
 | Deepa Jewellers | 2027-03-18 | ~6M | pending | 5.24 | In-house manufacturing facility commissioning + the first full quarter of post-listing disclosure (Q2/Q3 FY27), confirming whether margin improves and cash c... |
 | Garuda Construction | 2027-03-18 | ~6M | pending | 3.5 | Next 1-2 quarters of cash-flow/working-capital disclosure, and any further promoter pledge or release activity - the key tests of whether the Jul 2026 pledge... |
 | Archit Nuwood Industries | 2027-03-18 | ~6M | pending | 0 | FY26 annual report / cash-flow statement - the key test of whether the 9M FY26 margin recovery is accompanied by normalised operating cash flow and working-c... |
@@ -210,7 +210,7 @@ _(none)_
 | Exicom Tele-Services: A Key Player in the Booming EV Sector | 2027-06-09 | ~9M | pending | 0 | A quarter of positive consolidated EBITDA plus Tritium visibly approaching its Q4 FY27 breakeven target |
 | Recode Studios Ltd | 2027-06-13 | ~9M | pending | 29.23 | FY27 quarterly prints showing whether the May-2026 Rs 12 Cr/month run-rate holds, and whether Aflairza's stalled growth reverses post-integration |
 | Steelcast Ltd | 2027-06-15 | ~9M | pending | 33.16 | New railroad-casting-component approval decision (currently in field trials, management ~85%+ confidence) - a real, currently-excluded-from-guidance upside c... |
-| Engineers India (EIL) | 2027-06-17 | ~9M | pending | 36.0 | Continued consultancy-mix-driven margin expansion across FY27, and confirmation of Dangote contract execution milestones |
+| Engineers India (EIL) | 2027-06-17 | ~9M | pending | 29.36 | Continued consultancy-mix-driven margin expansion across FY27, and confirmation of Dangote contract execution milestones |
 | Lohia Corp | 2027-06-17 | ~9M | pending | 7.67 | Continued order-book-to-revenue conversion and margin sustainability across the next 2-3 quarters, confirming Q1 FY27 is the start of a trend rather than a o... |
 | Dhabriya Polywood Ltd | 2027-06-19 | ~9M | pending | 45.29 | Aluminium Windows & Facade division delivering its guided Rs40-50Cr FY27 revenue as the Rs56Cr+ backlog converts, alongside continued EBITDA margin expansion... |
 | NLC India | 2027-06-19 | ~9M | pending | 37.48 | NIRL (NLC India Renewables) DRHP filing / IPO listing (~Rs 4,000cr raise) as the renewable-arm value-unlock event |

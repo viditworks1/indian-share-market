@@ -1225,9 +1225,10 @@
       "revisit_after_30d": false,
       "conviction_score": 1.65,
       "last_post_number_analyzed": 487,
-      "master_score": 1.65,
+      "master_score": 2.53,
       "own_conviction_score": 0.0,
-      "trusted_lift": 1.65
+      "trusted_lift": 1.65,
+      "expectation_gap_score": 3.63
     },
     "bls-international": {
       "name": "BLS International",
@@ -1485,9 +1486,10 @@
       "revisit_after_30d": false,
       "last_post_number_analyzed": 375,
       "conviction_score": 0,
-      "master_score": 0,
+      "master_score": 1.61,
       "own_conviction_score": 0.0,
-      "trusted_lift": 0.0
+      "trusted_lift": 0.0,
+      "expectation_gap_score": 3.63
     },
     "aimtron-electronics": {
       "name": "Aimtron Electronics Ltd (EMS China+1 Global Play)",
@@ -2644,15 +2646,15 @@
       "red_flag_tier": null,
       "thesis_fit": "10x-in-2-3-years",
       "revisit_after_30d": false,
-      "conviction_score": 48.4,
+      "conviction_score": 47.4,
       "last_post_number_analyzed": 8,
-      "master_score": 56.38,
+      "master_score": 45.11,
       "guidance_backfill_date": "2026-09-09",
       "guidance_backfill_result": "done",
-      "expectation_gap_score": 40.27,
+      "expectation_gap_score": 6.33,
       "quality_score": 69.0,
-      "asymmetry_score": 70.14,
-      "own_conviction_score": 46.75,
+      "asymmetry_score": 53.16,
+      "own_conviction_score": 45.75,
       "trusted_lift": 1.65,
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-14"
@@ -5061,9 +5063,10 @@
       "revisit_after_30d": false,
       "last_post_number_analyzed": 315,
       "conviction_score": 8.0,
-      "master_score": 8.0,
+      "master_score": 6.06,
       "own_conviction_score": 8.0,
-      "trusted_lift": 0.0
+      "trusted_lift": 0.0,
+      "expectation_gap_score": 3.63
     },
     "modern-insulators-ltd-a-porcelain-insulator-opportunity-insulating-the-power-cycle-while-riding-india-s-transmission-boom": {
       "name": "Modern Insulators Ltd: A Porcelain Insulator Opportunity Insulating the Power Cycle while Riding India\u2019s Transmission Boom",
@@ -12682,9 +12685,10 @@
       "last_post_number_analyzed": 139,
       "revisit_after_30d": false,
       "conviction_score": 0,
-      "master_score": 0,
+      "master_score": 0.8,
       "own_conviction_score": -17.0,
-      "trusted_lift": 0.21
+      "trusted_lift": 0.21,
+      "expectation_gap_score": 1.81
     },
     "sharda-cropchem-ltd": {
       "name": "Sharda Cropchem Ltd",
@@ -18268,9 +18272,10 @@
       "topic_slug": "shanti-gold-sky-gold-in-making",
       "category_id": 1,
       "conviction_score": 16.0,
-      "master_score": 16.0,
+      "master_score": 10.5,
       "own_conviction_score": 16.0,
-      "trusted_lift": 0.0
+      "trusted_lift": 0.0,
+      "expectation_gap_score": 3.63
     },
     "kse": {
       "name": "KSE Limited --- Interesting Business",
@@ -18670,9 +18675,10 @@
       "red_flag_tier": null,
       "revisit_after_30d": false,
       "conviction_score": 8.17,
-      "master_score": 8.17,
+      "master_score": 6.15,
       "own_conviction_score": 8.0,
-      "trusted_lift": 0.17
+      "trusted_lift": 0.17,
+      "expectation_gap_score": 3.63
     },
     "satkartar-life-d2c-ayurveda-pivoting-to-specialized-asset": {
       "name": "Satkartar Life: D2C Ayurveda Pivoting to Specialized Asset-Light Hospitals",
@@ -19281,9 +19287,10 @@
       "revisit_after_30d": false,
       "topic_slug": null,
       "conviction_score": 16.0,
-      "master_score": 16.0,
+      "master_score": 10.5,
       "own_conviction_score": 16.0,
-      "trusted_lift": 0.0
+      "trusted_lift": 0.0,
+      "expectation_gap_score": 3.63
     },
     "dhabriya-polywood": {
       "name": "Dhabriya Polywood Ltd",
@@ -23390,7 +23397,8 @@
       "conviction_score": 16.0,
       "own_conviction_score": 16.0,
       "trusted_lift": 0.0,
-      "master_score": 16.0
+      "master_score": 10.5,
+      "expectation_gap_score": 3.63
     },
     "divis-laboratories": {
       "name": "Divi's Labs",
@@ -23516,7 +23524,8 @@
       "conviction_score": 8.0,
       "own_conviction_score": 8.0,
       "trusted_lift": 0.0,
-      "master_score": 8.0
+      "master_score": 6.06,
+      "expectation_gap_score": 3.63
     },
     "hdfc-bank-ltd": {
       "name": "HDFC Bank",
@@ -24072,7 +24081,8 @@
       "conviction_score": 8.0,
       "own_conviction_score": 8.0,
       "trusted_lift": 0.0,
-      "master_score": 8.0
+      "master_score": 6.06,
+      "expectation_gap_score": 3.63
     },
     "trejhara-solutions": {
       "name": "Trejhara Solutions",
@@ -25082,15 +25092,15 @@
       "last_analyzed_date": "2026-09-13",
       "red_flag_tier": null,
       "revisit_after_30d": false,
-      "conviction_score": 50.25,
-      "own_conviction_score": 50.25,
+      "conviction_score": 41.25,
+      "own_conviction_score": 41.25,
       "trusted_lift": 0.0,
-      "master_score": 41.75,
+      "master_score": 38.54,
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-16",
-      "expectation_gap_score": 8.82,
+      "expectation_gap_score": 7.07,
       "quality_score": 67.0,
-      "asymmetry_score": 29.41
+      "asymmetry_score": 28.54
     },
     "ireda": {
       "name": "IREDA",
@@ -25153,12 +25163,12 @@
       "conviction_score": 56.25,
       "own_conviction_score": 56.25,
       "trusted_lift": 0.0,
-      "master_score": 61.72,
+      "master_score": 59.57,
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-16",
-      "expectation_gap_score": 36.0,
+      "expectation_gap_score": 29.36,
       "quality_score": 87.0,
-      "asymmetry_score": 63.0
+      "asymmetry_score": 59.68
     },
     "tata-motors-passenger-vehicles": {
       "name": "Tata Motors Passenger Vehicles",
@@ -25464,7 +25474,8 @@
       "conviction_score": 16.0,
       "own_conviction_score": 16.0,
       "trusted_lift": 0.0,
-      "master_score": 16.0
+      "master_score": 10.5,
+      "expectation_gap_score": 3.63
     },
     "ntpc": {
       "name": "NTPC",
