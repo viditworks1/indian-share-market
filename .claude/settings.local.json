@@ -168,7 +168,13 @@
       "Bash(python3 projects/valuepickr-open-screen/scripts/refresh_derived.py --scores)",
       "Bash(python3 projects/valuepickr-open-screen/scripts/audit_recency.py --count)",
       "Bash(date -j -f \"%Y-%m-%d\" \"2026-09-11\" \"+%A\")",
-      "Bash(python3 projects/valuepickr-open-screen/scripts/discover.py --limit 40)"
+      "Bash(python3 projects/valuepickr-open-screen/scripts/discover.py --limit 40)",
+      "Bash(python3 projects/valuepickr-open-screen/scripts/get_stock.py siddhika-coating --fields trusted_conviction_floor_active,red_flag_tier,source,market_cap_tier,revisit_after_30d)",
+      "Bash(python3 -c \"import json; json.load\\(open\\('projects/valuepickr-open-screen/data/siddhika-coating.json'\\)\\); print\\('OK'\\)\")",
+      "Bash(python3 projects/valuepickr-open-screen/scripts/get_stock.py marksans-pharma --fields trusted_conviction_floor_active,red_flag_tier,source,market_cap_tier,revisit_after_30d)",
+      "Bash(date -j -f \"%Y-%m-%d\" \"2026-09-21\" +%A)",
+      "Bash(date -j -f \"%Y-%m-%d\" \"2026-09-24\" \"+%A\")",
+      "Bash(python3 -c \"import json,sys;d=json.load\\(sys.stdin\\);print\\(json.dumps\\(d\\)[:1500]\\)\")"
     ]
   }
 }
