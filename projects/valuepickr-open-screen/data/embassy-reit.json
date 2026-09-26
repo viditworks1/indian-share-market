@@ -3,12 +3,30 @@
   "tagline": "India's largest listed office REIT with strong FY26 operating momentum (94% occupancy, NOI +15%, DPU +10%, NAV +16% YoY) - a solid income/total-return vehicle, but structurally not a 10x/100x equity-style thesis.",
   "business_overview": "Embassy Office Parks REIT (NSE: EMBASSY) owns and operates a large portfolio of Grade-A office parks (~43.5 msf operational portfolio) across Bengaluru, Pune, Mumbai, NCR and Chennai, distributing the bulk of net distributable cash flow to unitholders. Seeded via untrusted X triage (@rdkriplani, bullish view, medium conviction, 2026-09-13). Distinct entity from Embassy Developments Ltd (a separate listed real-estate developer, data/embassy-developments.json) - confirmed via name and business-model differences (REIT vs. developer).",
   "fundamentals_table": [
-    ["Occupancy", "94% by value (FY2026), up from prior year, on 6.4 msf leased at 17% higher spreads"],
-    ["NOI growth", "+15% YoY (FY2026)"],
-    ["DPU growth", "+10% YoY; FY2026 cumulative distribution Rs 25.28/unit (~Rs 2,396 Cr)"],
-    ["Distribution yield", "~6.6% (on IPO price of Rs 300)"],
-    ["NAV growth", "+16% YoY"],
-    ["Portfolio", "~43.5 msf operational, record 3.3 msf delivered in FY2026; guiding to double-digit NOI/DPU growth again in FY2027"]
+    [
+      "Occupancy",
+      "94% by value (FY2026), up from prior year, on 6.4 msf leased at 17% higher spreads"
+    ],
+    [
+      "NOI growth",
+      "+15% YoY (FY2026)"
+    ],
+    [
+      "DPU growth",
+      "+10% YoY; FY2026 cumulative distribution Rs 25.28/unit (~Rs 2,396 Cr)"
+    ],
+    [
+      "Distribution yield",
+      "~6.6% (on IPO price of Rs 300)"
+    ],
+    [
+      "NAV growth",
+      "+16% YoY"
+    ],
+    [
+      "Portfolio",
+      "~43.5 msf operational, record 3.3 msf delivered in FY2026; guiding to double-digit NOI/DPU growth again in FY2027"
+    ]
   ],
   "fundamentals_narrative": "Embassy REIT posted a genuinely strong FY2026: occupancy climbed to 94% with positive leasing spreads (+17%), NOI grew 15% and DPU grew 10% YoY to a record Rs 25.28/unit for the year, while NAV rose 16%. Management has guided to double-digit NOI/DPU growth again in FY2027 - a real, named forward guide, but it is routine portfolio-level leasing and rent-reversion momentum rather than a one-off structural inflection (new asset class entry, major M&A, regulatory unlock, etc.). As a REIT, ~90% of distributable cash flow is paid out by structure, so equity-style compounding and 10x/100x return framing do not apply; the appropriate lens is distribution yield plus NAV/unit-price appreciation, both of which are currently healthy.",
   "technical_read": "Not pulled this pass - REIT unit price moves are typically driven by distribution yield relative to bond yields rather than a technical breakout thesis.",
@@ -45,5 +63,20 @@
     "score": 2.5,
     "note": "Bengaluru/major-metro Grade-A office demand tailwind is real (94% occupancy, positive leasing spreads); large-cap-equivalent fast path defaults tam to 'no' absent a named structural inflection; scale/quality of the portfolio is a real moat; valuation (distribution yield vs. bond yields) is a fair, not obviously cheap, trade-off. Four-box framing is illustrative only - REIT structure, not this score, drives thesis_fit."
   },
-  "value_chain": null
+  "value_chain": null,
+  "quality_metrics": {
+    "roce_pct": null,
+    "roce_trend": "unknown",
+    "net_debt_to_ebitda": null,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "unknown",
+    "capex_efficiency": "unknown",
+    "assessment": "unverified"
+  },
+  "track_record": {
+    "years_checked": 0,
+    "years_cleared": 0,
+    "note": "Pending data collection"
+  }
 }

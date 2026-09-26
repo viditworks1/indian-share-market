@@ -3,12 +3,30 @@
   "tagline": "Rs ~110 Cr BSE-SME oil & gas infrastructure EPC and O&M contractor -- FY26 revenue +50%, PAT +59%, ROCE ~23%, a ~Rs 780 Cr order book (~5x sales) and a ~10x multiple -- but competitive-bid EPC is a low-moat, working-capital-heavy model with no listed track record",
   "business_overview": "Oval Projects Engineering (BSE-SME, IPO Aug-Sep 2025) executes EPC and O&M for the oil & gas sector -- upstream/midstream/downstream facility development: processing plants, pipeline laying, horizontal directional drilling, terminal stations, city-gas-distribution (CGD) work, and O&M of PNG networks -- plus some specialised infrastructure/civil projects.",
   "fundamentals_table": [
-    ["Market Cap", "~Rs 110 Cr (micro-cap / BSE-SME)"],
-    ["ROE / ROCE", "~20.8% / ~22.8%"],
-    ["FY26 revenue", "~Rs 153 Cr, +50% YoY (FY25 ~Rs 102 Cr)"],
-    ["FY26 PAT", "~Rs 14.8 Cr, +59% YoY (FY25 ~Rs 9.3 Cr)"],
-    ["Order book", "~Rs 780 Cr (~5x FY26 revenue)"],
-    ["Stock P/E", "~10x on FY26 PAT"]
+    [
+      "Market Cap",
+      "~Rs 110 Cr (micro-cap / BSE-SME)"
+    ],
+    [
+      "ROE / ROCE",
+      "~20.8% / ~22.8%"
+    ],
+    [
+      "FY26 revenue",
+      "~Rs 153 Cr, +50% YoY (FY25 ~Rs 102 Cr)"
+    ],
+    [
+      "FY26 PAT",
+      "~Rs 14.8 Cr, +59% YoY (FY25 ~Rs 9.3 Cr)"
+    ],
+    [
+      "Order book",
+      "~Rs 780 Cr (~5x FY26 revenue)"
+    ],
+    [
+      "Stock P/E",
+      "~10x on FY26 PAT"
+    ]
   ],
   "fundamentals_narrative": "On the surface this ticks a lot of boxes -- ~50% revenue growth, ~23% ROCE, a 5x order-book cover, and a cheap ~10x multiple. The offsetting reality is model quality: competitive-bid oil & gas EPC/O&M has no pricing power, is working-capital and mobilisation-cash-intensive, carries execution and client-concentration risk, and is exposed to the lumpiness of CGD and pipeline award cycles. It is a freshly listed BSE-SME with one year of public numbers and a low-quality (untrusted X) origination.",
   "technical_read": "Not pulled -- newly listed SME.",
@@ -53,5 +71,20 @@
     "valuation": "yes",
     "score": 2.0,
     "note": "tailwind=weak (priority-2 oilfield/CGD-capex theme, pending bellwether read; steady not accelerating). tam=weak (EPC/O&M contracting niche). moat=no (competitive bid, no pricing power). valuation=yes (~10x FY26 earnings, ~50% growth, ~5x order-book cover -- genuinely cheap). Score 2.0 with the valuation-box-yes written exception -> return-magnitude label permitted, conviction capped at Medium."
+  },
+  "quality_metrics": {
+    "roce_pct": null,
+    "roce_trend": "unknown",
+    "net_debt_to_ebitda": null,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "unknown",
+    "capex_efficiency": "unknown",
+    "assessment": "unverified"
+  },
+  "track_record": {
+    "years_checked": 0,
+    "years_cleared": 0,
+    "note": "Pending data collection"
   }
 }

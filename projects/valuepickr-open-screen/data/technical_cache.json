@@ -662,11 +662,13 @@
     "solex-energy": {
       "status": "ok",
       "symbol": "SOLEX.NS",
-      "pct_vs_ema": -32.2,
+      "pct_vs_ema": -26.3,
       "above": false,
       "cross_weeks_ago": null,
-      "rs_pct": -37.2,
-      "fetched_at": "2026-09-16"
+      "ret_13w_pct": -33.4,
+      "rs_pct": -30.4,
+      "ret_26w_pct": -30.6,
+      "fetched_at": "2026-09-26"
     },
     "jasch-industries": {
       "status": "ok",
@@ -2596,6 +2598,72 @@
       "cross_weeks_ago": 1,
       "ret_13w_pct": -26.7,
       "rs_pct": -23.7,
+      "ret_26w_pct": -18.3,
+      "fetched_at": "2026-09-26"
+    },
+    "globus-spirits": {
+      "status": "ok",
+      "symbol": "GLOBUSSPR.NS",
+      "pct_vs_ema": -7.7,
+      "above": false,
+      "cross_weeks_ago": null,
+      "ret_13w_pct": -8.6,
+      "rs_pct": -5.6,
+      "ret_26w_pct": -3.8,
+      "fetched_at": "2026-09-26"
+    },
+    "muthoot-microfin-limited-is-it-next-jp-morgan": {
+      "status": "ok",
+      "symbol": "MUTHOOTMF.NS",
+      "pct_vs_ema": -7.8,
+      "above": false,
+      "cross_weeks_ago": 3,
+      "ret_13w_pct": -18.0,
+      "rs_pct": -15.0,
+      "ret_26w_pct": 18.8,
+      "fetched_at": "2026-09-26"
+    },
+    "solar-industries-india": {
+      "status": "ok",
+      "symbol": "SOLARINDS.NS",
+      "pct_vs_ema": 9.9,
+      "above": true,
+      "cross_weeks_ago": null,
+      "ret_13w_pct": 6.6,
+      "rs_pct": 9.6,
+      "ret_26w_pct": 50.6,
+      "fetched_at": "2026-09-26"
+    },
+    "apcotex-industries-monopoly-in-synthetic-rubber": {
+      "status": "ok",
+      "symbol": "APCOTEXIND.NS",
+      "pct_vs_ema": 12.9,
+      "above": true,
+      "cross_weeks_ago": null,
+      "ret_13w_pct": 14.1,
+      "rs_pct": 17.0,
+      "ret_26w_pct": 70.3,
+      "fetched_at": "2026-09-26"
+    },
+    "himadri-speciality-chemical": {
+      "status": "ok",
+      "symbol": "HSCL.NS",
+      "pct_vs_ema": 6.1,
+      "above": true,
+      "cross_weeks_ago": null,
+      "ret_13w_pct": -0.3,
+      "rs_pct": 2.7,
+      "ret_26w_pct": 51.5,
+      "fetched_at": "2026-09-26"
+    },
+    "natco-pharma-focusing-on-complex-products": {
+      "status": "ok",
+      "symbol": "NATCOPHARM.NS",
+      "pct_vs_ema": -8.0,
+      "above": false,
+      "cross_weeks_ago": 11,
+      "ret_13w_pct": -9.9,
+      "rs_pct": -6.9,
       "ret_26w_pct": -18.3,
       "fetched_at": "2026-09-26"
     }
