@@ -383,3 +383,24 @@ active_themes.json: as_of -> 2026-09-09, 29 -> 31 themes (construction-equipment
 - x-handles: triage 103/103 · SCOPE COMPLETE (the task was already deleted on 09-17) · orphans clean (103 dossiers) · registry JSON OK.
 - four-box-backfill: backlog 20 remaining. This is normal deepdive-top100 lag. SCOPE COMPLETE 2026-09-05, and the task is already retired.
 - routine token-opt: grep pass over all 11 live SKILL.md files. The remaining dated markers are reinforcements that stop removed behaviour from coming back (no-notch rule, Confluence-100 hard gate, git-sync mandate), so they were kept. Clean, nothing safe to cut. Larger items flagged: none.
+
+### 2026-09-26
+- state hygiene: 297 issues found, 1 auto-fixed (revisit_after_30d on trent). 68 non-enum four_box values (mixed/moderate/unknown/fair — not yes/weak/no) across 56 stocks; ~95 stocks missing `last_post_number_analyzed` field entirely. Trust_tier sanity clean, 0 FOUR-BOX MISMATCH, 0 MIS-SCREEN, no tier/screenedOut contradiction.
+- conviction scores: refreshed via `refresh_derived.py --scores`.
+- recency: 95 stale calls flagged (not superseded) of 273 scanned, 12 already superseded. Stable since 09-25.
+- permissions: 0 redundant rules removed (174 total, 15 wildcard).
+- structural: clean. `screen-ranking.json` unchanged since 09-22; no re-run of `make_final_ranking.js` needed.
+- screen dimensions: unclassified=293 (stable). 0 MIS-SCREEN flagged. vpscreen-rerank still not authoring blocks at scale.
+- four-box: 0 mismatches. Coverage improved: 793 have a block / 20 missing (up from 742 yesterday). 34 analyst_override suppressions.
+- trusted-thread backlog: **1 URGENT, hitachi-energy**, now pending 10 days (very-high, first_seen 2026-09-16). vpscreen-scan still blocked by usage limits (no activity since 09-16).
+- rate-limit compliance: clean. 3 `forum.valuepickr.com` curl rules, 0 unpaced.
+- cross-project duplicates: checked 5 top recent. Clean.
+- trusted users: 0 promoted, 0 thread upgrades. Own-thread searches skipped this run (covered last 2 audits). Roster at 319, 7/319 with own_thread_topic_id.
+- analysis.md: 970 KB, no entries eligible for archival (oldest is 2026-05-29, need 120+ days). Watch from 09-29 onward.
+- registry size: 970 total candidates, 843 researched.
+- x-handles: triage 103/103 · SCOPE COMPLETE (task deleted 09-17) · orphans clean · registry JSON OK.
+- four-box-backfill: backlog 20 remaining. SCOPE COMPLETE 2026-09-05, task already retired.
+- routine token-opt: targeted grep (state.json guardrails, stale-rationale markers). All SKILLs have proper safeguards. Clean — nothing safe to cut.
+- regen_lists: skip-list 590, revisit-list 12 due / 4 scheduled, conviction-followthrough 0 flagged.
+- max-returns ranking: 863 ranked, 92 flagged separately.
+- archive_analysis: nothing archived (all entries < 120 days old).
