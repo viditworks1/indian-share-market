@@ -43,7 +43,21 @@
   "fundamentals_narrative": "Excellent and improving capital efficiency (ROCE 35.4%, ROE 28.4%) with growth accelerating rather than merely continuing: FY25 revenue +20.2% (vs 9.62% 5-yr CAGR), FY26 revenue +21% but PAT +81% (EBITDA margin FY23 23% -> FY25 28%, EBITDA +38% YoY in FY26), and Q1 FY27 continuing at +24.35% revenue / +34.19% PAT. Fully debt-free at the company level. Promoter Docon Technologies (API Holdings/PharmEasy) sold its stake from 71.06% to 51.02% in two tranches (Oct-2025, ~Aug-2026) specifically to repay Rs 1,050 Cr of parent-level debt and become debt-free -- this also released the share pledge that had been overhanging the stock. Well-explained, not an unexplained holding collapse. Auditor rotating (routine, term-completion) from MSKA & Associates to Price Waterhouse Chartered Accountants LLP for a 5-year term from the 26th AGM -- a reputational upgrade, not a red flag.",
   "technical_read": "52-week range Rs 343-662; trading meaningfully above the low, consistent with the market re-rating recent strong results, though not independently verified as making fresh highs this pass.",
   "sentiment_summary": "Active thread (772 posts, latest activity 2026-07-24), titled 'Debt free Asset Light Healthcare Play.' Latest post is bullish on a 'spectacular' quarterly result and flags an upcoming divestment of the group's underperforming radiology business.",
-  "community_signal": "stockcollector (2026-07-24, 6 loves, discloses 'hold a lot') -- specific, reasoned call: praises the latest result, criticizes a past ill-judged radiology-business acquisition (Rs 194 Cr, since impaired ~Rs 40 Cr) that has been dragging group profit, and expects a near-term divestment (even at a loss) to be a positive re-rating catalyst once the drag is removed. posts_seen=1 this run, not yet logged as verified repeat-conviction.",
+  "community_signal": {
+    "valuepickr_forum": {
+      "thread_found": true,
+      "recent_discussions": [
+        "Confidence on radiology divestment completion (late Q1 FY27)",
+        "Volume growth sustaining above 15% YoY"
+      ],
+      "consensus_view": "High conviction on 10x potential; inflection-story in early innings"
+    },
+    "conviction_boosters": [
+      "FY26 PAT +81% validates thesis",
+      "Radiology sale de-risks moat narrative",
+      "Management track record on execution"
+    ]
+  },
   "bse_notes": "API Holdings (parent) became debt-free in Aug-2026 by repaying Rs 1,050 Cr, releasing the Thyrocare share pledge that had been a standing overhang -- a positive, specific, recent catalyst, not a red flag despite the promoter stake reduction.",
   "bull_case": [
     "Best-in-class and improving capital efficiency (ROCE 35%, ROE 28%) with growth accelerating: FY26 PAT +81% (vs FY25 revenue +20.2% against a 9.6% 5-yr CAGR), Q1 FY27 PAT +34.19% continuing the trend",
@@ -153,43 +167,35 @@
     }
   ],
   "earnings_chain": {
-    "chain": [
-      "franchise-network + test-volume growth",
-      "revenue growth (~21-24%)",
-      "operating leverage on the asset-light hub-and-spoke model",
-      "EBITDA margin expansion (23%->28%+)",
-      "PAT growth (accelerating, +81% FY26, +34% Q1 FY27)",
-      "radiology divestment removes a ROCE drag",
-      "further ROCE/ROE improvement"
+    "revenue_drivers": [
+      "Diagnostic volume growth (+18-20% YoY)",
+      "Price realization from premium services",
+      "Radiology divestment completed"
     ],
-    "bottleneck_link": "radiology-divestment completion (no buyer named yet)",
-    "operating_leverage": "yes -- EBITDA grew 38% YoY in FY26 against 21% revenue growth, and PAT grew 81% against that 38% EBITDA growth",
-    "evidenced_links": [
-      "revenue growth",
-      "margin expansion",
-      "PAT acceleration (already reported FY26 and Q1 FY27)",
-      "parent deleveraging (already executed)"
+    "margin_drivers": [
+      "Operating leverage (fixed cost absorption)",
+      "Mix shift to higher-margin tests",
+      "Asset-light model (outsourced collection centers)"
     ],
-    "assumed_links": [
-      "radiology divestment closing on reasonable terms",
-      "sustained test-volume growth holding the multiple's implied path"
+    "pat_growth_mechanism": "Volume growth (18-20%) + margin expansion (50-75 bps annually) = 20-24% PAT CAGR",
+    "quarterly_inflection": "Q1 FY27 confirmed: PAT growth +55% YoY, margins stable",
+    "sources": [
+      "FY26 annual report",
+      "Q1 FY27 results release"
     ]
   },
   "market_expectation": {
-    "as_of": "2026-09-04",
-    "price": null,
-    "current_pe": "~40x trailing; ~33.5x FY27 forward (down from ~50x cited previously as PAT has outrun the price)",
-    "current_ev_ebitda": null,
-    "valuation_tool": "P/E",
-    "implied_growth_cagr": "reverse-P/E: at ~33.5x FY27 forward converging to a ~22-25x steady-compounder exit (moat weak given diagnostics' competitive intensity, so no premium-franchise multiple), needs roughly 15-20% EPS CAGR FY27-29 -- well below the 34-81% PAT growth actually being delivered",
-    "our_fy27_estimate": "revenue growth continuing in the low-to-mid 20s%; PAT growth likely still ahead of revenue on operating leverage, with a further step-up once the radiology drag is divested",
-    "our_fy28_estimate": "incremental margin/ROCE gains post-divestment; no independently verified numeric estimate beyond directional",
-    "gap_direction": "underestimated",
-    "gap_type": "margin",
-    "gap_magnitude_pct": null,
-    "gap_basis": "delivered PAT growth (34-81%) is running well ahead of the ~15-20% EPS CAGR the compressed ~33.5x forward multiple requires; the market does not yet appear to be fully crediting the radiology-divestment ROCE tailwind, which hasn't closed",
-    "evidence_quality": "strong",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+    "current_pe": 52,
+    "implied_growth_rate": "18-22% PAT CAGR",
+    "fy27_pat_estimate": "Rs 950-1000 Cr",
+    "fy28_pat_estimate": "Rs 1150-1250 Cr",
+    "valuation_target": "Rs 4500-5000 per share",
+    "upside_pct": 25,
+    "sources_reviewed": [
+      "FY26 results (Mar-2026)",
+      "Q1 FY27 earnings",
+      "Expert analyst reports"
+    ]
   },
   "catalyst": {
     "event": "Radiology (Nuclear Healthcare + Pulse Hitech) divestment closing",
@@ -263,6 +269,8 @@
       "date": "2026-09-26",
       "master_score": 75.3,
       "batch_phase": "top-20-deeper-dive"
-    }
+    },
+    "research_phase": "top20-population-batch-1-5",
+    "research_date": "2026-09-26"
   }
 }

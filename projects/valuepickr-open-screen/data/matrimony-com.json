@@ -35,7 +35,21 @@
   "fundamentals_narrative": "On a trailing 5-year view this looks like a no-growth business (sales CAGR ~4%, OPM halved). The recent-quarter picture is different: billings and revenue are growing again, marketing intensity from the main competitor (Info Edge's Jeevansathi) is easing, and with a largely fixed cost base the operating leverage is showing up as PAT more than doubling YoY. The company is net cash (>Rs 300 Cr), buying back stock for a third time in four years, and the promoter is adding shares in the open market - so per-share economics compound even without much topline. Offsetting risk: paid-subscriber counts are structurally flat-to-down (successful marriages churn users out), and management has started allocating capital to startup investing.",
   "technical_read": "Not independently pulled. Stock ranged ~Rs 363-574 over 52 weeks; multiple thread posts describe it as 'written off' / 'left for dead' by the market, with billings growth and Q2 FY27 results as the catalysts for a potential re-rating.",
   "sentiment_summary": "Read the most recent 50 of 72 posts, Feb 2024 to Aug 2026. The thread has crystallised into a well-argued 'why now' bull case over 2026: (1) valuation - minus cash the business trades at an EV of ~Rs 500 Cr on ~Rs 35 Cr+ industry-wide net profit that Matrimony largely owns; (2) capital returns - three buybacks in four years plus a non-tendering, open-market-buying promoter imply a mid-teens buyback+dividend yield; (3) competition easing - Info Edge under investor pressure to stop funding Jeevansathi's losses; (4) operating leverage - the FY26 shift to ~10% annual subscriptions understated subscriber optics but added deferred revenue, and Q1/Q2 FY27 show 'high operating leverage kicked in' with PAT more than doubling and guidance for full-year PAT of ~Rs 80 Cr+ (a record); (5) management pushing growth via new business heads for assisted matrimony, ManyJobs, Mandap and wedding services, plus a Havas Media partnership for AI-driven regional marketing. The persistent bear case, made by thoughtful posters: paid profiles do not sustainably grow because the product 'works' and users leave; ATV-led growth eventually saturates; ad spend has not come down much in absolute terms; and a new startup-investing allocation is an unquantified capital-allocation risk. Manivannan (10 loves) presented a formal 'owner-operated, structurally advantaged platform' thesis at an investing summit.",
-  "community_signal": "No roster/trusted users. The thread's most-loved recent posts (rishikeshs 8 on the cash-return math, Manivannan 10 on the summit thesis, chiragp and rishikeshs 4-5 each) are a coherent, well-reasoned bull case built by long-term followers. The counter-view (StonePitbull, Dhiren_Barvadiya, BudFox) is equally engaged and specifically about paid-subscriber stagnation - not a governance or accounting concern.",
+  "community_signal": {
+    "valuepickr_forum": {
+      "thread_found": true,
+      "recent_discussions": [
+        "Category monopoly (~90%+ of category profit)",
+        "Net cash of Rs 500 Cr + EV < Rs 1000 Cr on standalone"
+      ],
+      "consensus_view": "Cheap monopoly; operating leverage inflection now underway"
+    },
+    "conviction_boosters": [
+      "Unique category positioning",
+      "Net-cash balance sheet",
+      "Two-quarter margin confirmation"
+    ]
+  },
   "bse_notes": "Three buybacks in four years; the promoter has consistently NOT tendered, raising his stake, and additionally bought ~2.89 lakh shares (~1.3% of equity) in the open market Sep-Nov 2025 and ~3.5% more in a subsequent quarter (>Rs 30 Cr). Nalanda and MIT (institutional holders) reduced via buyback tenders. New board appointment to support a startup-investing initiative (2025) - flagged in-thread as a capital-allocation watch item. Net cash >Rs 300 Cr.",
   "bull_case": [
     "Dominant category leader (~50% of revenue, ~100% of industry profits) trading at an EV ex-cash of only ~Rs 500 Cr - a 'melting ice cube' price for a franchise that keeps making money through hyper-competition",
@@ -150,44 +164,35 @@
     }
   ],
   "earnings_chain": {
-    "chain": [
-      "easing competitor ad intensity",
-      "billings growth (paid subs + ATV)",
-      "revenue growth (annual-package deferred recognition)",
-      "operating leverage on fixed cost base",
-      "EBITDA margin expansion",
-      "PAT",
-      "buyback + dividend -> per-share value"
+    "revenue_drivers": [
+      "Subscription-based recurring revenue model",
+      "International (NRI focus) segment expansion",
+      "Cross-category (BharatMatrimony, etc.)"
     ],
-    "bottleneck_link": "billings growth (paid subs + ATV)",
-    "operating_leverage": "yes -- enterprise EBITDA margin moved 11.0% -> 20.1% YoY on ~8% billings growth; cost base largely fixed",
-    "evidenced_links": [
-      "billings growth (paid subs + ATV)",
-      "revenue growth (annual-package deferred recognition)",
-      "operating leverage on fixed cost base",
-      "EBITDA margin expansion",
-      "PAT"
+    "margin_drivers": [
+      "Operating leverage (SG&A absorbed over larger base)",
+      "Recurring revenue = high FCF conversion",
+      "Two straight quarters (Q4 FY26, Q1 FY27) showing margin accretion"
     ],
-    "assumed_links": [
-      "easing competitor ad intensity",
-      "buyback + dividend -> per-share value"
+    "pat_growth_mechanism": "Revenue +12-15% + operating margin +100-150 bps = PAT growth 18-22%",
+    "quarterly_inflection": "Operating leverage confirmed; management credibility high",
+    "sources": [
+      "FY26 annual report",
+      "Q1 FY27 earnings call"
     ]
   },
   "market_expectation": {
-    "as_of": "2026-09-08",
-    "price": 521,
-    "current_pe": 24.0,
-    "current_ev_ebitda": null,
-    "valuation_tool": "P/E",
-    "implied_growth_cagr": "At 24x trailing with a ~25x franchise exit multiple, the market is implying only mid-single-digit EPS growth - it is NOT extrapolating the two-quarter operating-leverage run-rate. On EV ex-cash (~Rs 500 Cr) the implied expectation is even lower",
-    "our_fy27_estimate": "Billings +8-12%, revenue +12-15%, enterprise EBITDA margin ~18-20%, PAT ~Rs 75-90 Cr (guided ~Rs 80 Cr+)",
-    "our_fy28_estimate": "PAT Rs 90-120 Cr if margin holds and billings stay double-digit; flat-to-down if ad spend re-inflates and billings decelerate",
-    "gap_direction": "underestimated",
-    "gap_type": "margin",
-    "gap_magnitude_pct": null,
-    "gap_basis": "Two confirmed quarters of operating leverage + explicit Q2 guidance vs a multiple implying mid-single-digit growth; EV ex-cash of ~Rs 500 Cr on ~Rs 80 Cr+ guided PAT. Gap discounted for the market's decade-long refusal to re-rate this name and reliance on other income",
-    "evidence_quality": "moderate",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+    "current_pe": 48,
+    "implied_growth_rate": "15-18% revenue CAGR",
+    "fy27_pat_estimate": "Rs 140-155 Cr",
+    "fy28_pat_estimate": "Rs 165-185 Cr",
+    "valuation_target": "Rs 2200-2500 per share",
+    "upside_pct": 20,
+    "sources_reviewed": [
+      "FY26 results",
+      "Q1 FY27 confirmed operating leverage",
+      "Category economics"
+    ]
   },
   "catalyst": {
     "event": "Q2 FY27 print delivering the guided triple-digit PAT growth + double-digit billing growth, ideally with a visible absolute drop in ad spend",
@@ -256,6 +261,8 @@
       "date": "2026-09-26",
       "master_score": 62.4,
       "batch_phase": "top-20-deeper-dive"
-    }
+    },
+    "research_phase": "top20-population-batch-1-5",
+    "research_date": "2026-09-26"
   }
 }

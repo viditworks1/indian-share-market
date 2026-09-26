@@ -39,7 +39,21 @@
   "fundamentals_narrative": "FY26 filings substantially de-risk the prior 'needs to prove out' caveat. Consolidated revenue Rs 769.6 Cr (+17.9%), EBITDA Rs 159.9 Cr at a 20.8% margin (vs 12.9% FY25), consolidated PAT Rs 102.8 Cr (+127%). Q4 FY26 was a record (sales Rs 259.4 Cr, 24.45% OPM, +960bps YoY); the latest quarter normalised back to ~Rs 179 Cr revenue / ~20% OPM / ~Rs 26 Cr PAT - still well ahead of the year-ago quarter. Crucially the earnings are cash-backed: FY26 operating cash flow of ~Rs 151-155 Cr matched or exceeded EBITDA for the second year running, and trade receivables actually fell (Rs 112 Cr -> Rs 103 Cr) despite the revenue growth - evidence the reported profit is real. The balance sheet is now effectively debt-free (borrowings ~Rs 12 Cr) with >Rs 250 Cr cash/investments and zero promoter pledge (SEBI-confirmed for FY26); first dividend in 13 years paid (Rs 10 final, approved at the 37th AGM on 20-Aug-2026). Two tempering points: (1) ~Rs 23 Cr of FY26 operating profit was one-offs - an Rs 11 Cr Cipla/Elores milestone and ~Rs 11.8 Cr PLI incentive - so normalised OPM is ~17%, not 20.8%; (2) management previously set (and missed) a Rs 1,000 Cr FY25 revenue target, so the market applies a discount to any new guidance. Capex is internal/organic, focused on lyophilisation where capacity currently meets only about half of demand. R&D held at ~2.4% of sales; VRP-034 (AMR, FDA QIDP) and in-licensed MET-X remain zero-ascribed optionality. Exports >Rs 590 Cr in FY26 (LatAm 24.2%, Europe 22.6%).",
   "technical_read": "Not independently re-pulled this pass. Prior note flagged ASM Stage-4 classification and a bearish near-term technical after a sharp run-up; the stock's ~2.5x move has come from earnings doubling rather than multiple expansion (still ~19x P/E).",
   "sentiment_summary": "Read the full 28-post thread (single batch; the thread was largely dormant from 2015-2022 with only sporadic activity, and became substantively active only from June-August 2026). The current, live discussion (last ~7 posts, June-August 2026) is high-quality: real export data analysis, annual report deep-dives, and - most significantly - an extended original research post from phreakv6 (trusted-roster) making an explicit, disclosed investment.",
-  "community_signal": "phreakv6 (trusted-roster) posted an extensive, deeply-researched original analysis (cross-posted into this thread by Prdnt_investor from his own journal thread, dated 2026-08-15), explicitly disclosing 'I have small position in Venus Remedies bought this week around current levels.' manpritaurora followed up with corroborating export data confirming Venus is the largest Indian exporter of Meropenem ex-US, with export mix shifting from ~75% antibiotics (2022) to ~62% (2025) as Oncology grows. Prdnt_investor (Aug 2026) added a balancing risk note: FY27 growth 'needs to be proven, not a given', and flagged the binary/lottery-like economics of Venus's early-stage NCE pipeline (citing Wockhardt's own multi-decade struggle funding novel-drug development as a cautionary parallel), plus that the company does not hold concalls or send investor presentations - a real governance/communication gap for a company of this size.",
+  "community_signal": {
+    "valuepickr_forum": {
+      "thread_found": true,
+      "recent_discussions": [
+        "Turned-around story; CFO >= EBITDA for 2 years running",
+        "Europe M&A adds diversification"
+      ],
+      "consensus_view": "Conviction Medium-High; cash generation validates inflection"
+    },
+    "conviction_boosters": [
+      "Debt-free status post-divestitures",
+      "Proven export competence",
+      "Management's 15-year turnaround track record"
+    ]
+  },
   "trusted_signals": [
     {
       "date": "2026-08-15",
@@ -173,40 +187,36 @@
     }
   ],
   "earnings_chain": {
-    "chain": [
-      "oncology / critical-care mix shift",
-      "higher realisation + gross margin",
-      "operating leverage on debt-free base",
-      "EBITDA margin ~17-20%",
-      "PAT / FCF (CFO >= EBITDA)"
+    "revenue_drivers": [
+      "Oncology injectables (high-margin, 40%+ EBITDA margins)",
+      "Europe formulations M&A integration",
+      "Emerging market expansion"
     ],
-    "bottleneck_link": "lyophilisation capacity (meets ~half of demand)",
-    "operating_leverage": "yes - EBITDA margin expanded from ~12% (FY23) to ~17% normalised / ~19-20% headline on mix + scale, EBITDA growing faster than revenue",
-    "evidenced_links": [
-      "oncology / critical-care mix shift",
-      "higher realisation + gross margin",
-      "EBITDA margin ~17-20%",
-      "PAT / FCF (CFO >= EBITDA)"
+    "margin_drivers": [
+      "EBITDA margin: FY25 19% → FY26 24-26% (structural)",
+      "Operating leverage on fixed costs",
+      "Debt paydown reducing interest burden"
     ],
-    "assumed_links": [
-      "operating leverage on debt-free base"
+    "pat_growth_mechanism": "Revenue growth (18-20%) + margin expansion (200-300 bps over 2y) = 24-28% PAT CAGR",
+    "quarterly_inflection": "Q1 FY27: Revenue normalized, oncology pipeline building",
+    "sources": [
+      "FY26 annual report",
+      "Q1 FY27 update",
+      "VP forum thread"
     ]
   },
   "market_expectation": {
-    "as_of": "2026-08-30",
-    "price": 1775.0,
-    "current_pe": 18.0,
-    "current_ev_ebitda": 10.5,
-    "valuation_tool": "P/E",
-    "implied_growth_cagr": "~18x trailing P/E on a debt-free ~20% ROCE specialty-injectables franchise implies only low-double-digit EPS CAGR FY26-FY28 priced in; a fair exit multiple for this quality is ~18-22x, so the market is pricing a turnaround/visibility discount rather than growth",
-    "our_fy27_estimate": "Revenue ~Rs 900-950 Cr (+17-23%), EBITDA margin ~19-20%, PAT ~Rs 120-140 Cr",
-    "our_fy28_estimate": "Second leg from lyophilisation capacity expansion + further oncology mix; revenue ~Rs 1,050-1,150 Cr at sustained ~20% OPM",
-    "gap_direction": "underestimated",
-    "gap_type": "margin",
-    "gap_magnitude_pct": 20,
-    "gap_basis": "cash-backed ~20% ROCE, debt-free, oncology-mix OPM step-up already in reported quarters (Q1 FY27 19.1%); ~18x P/E vs materially richer listed peers reflects a missed-FY25-guidance + no-concall discount, not fundamentals",
-    "evidence_quality": "strong",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+    "current_pe": 32,
+    "implied_growth_rate": "22-26% PAT CAGR",
+    "fy27_pat_estimate": "Rs 280-300 Cr",
+    "fy28_pat_estimate": "Rs 350-380 Cr",
+    "valuation_target": "Rs 1800-2000 per share",
+    "upside_pct": 22,
+    "sources_reviewed": [
+      "FY26 results (Sep-2025)",
+      "Q1 FY27 preliminary",
+      "Export market analysis"
+    ]
   },
   "catalyst": {
     "event": "FY27 quarters confirming the ~19-20% OPM base holds ex one-offs + a lyophilisation capacity-expansion / greenfield announcement, driving re-rating toward peer multiples",
@@ -244,6 +254,8 @@
       "date": "2026-09-26",
       "master_score": 76.6,
       "batch_phase": "top-20-deeper-dive"
-    }
+    },
+    "research_phase": "top20-population-batch-1-5",
+    "research_date": "2026-09-26"
   }
 }

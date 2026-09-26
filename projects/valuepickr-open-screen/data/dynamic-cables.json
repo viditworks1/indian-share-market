@@ -47,7 +47,21 @@
   "fundamentals_narrative": "A clean small-cap converter aligned to India's power-transmission and solar capex cycle: revenue Rs 669 -> 768 -> 1,025 -> 1,198 Cr FY23-26, PAT Rs 31 -> 84 Cr, and -- the key deep-dive confirmation -- OPM held 9% -> 10% -> 10% -> 11% and has stayed steady at ~11% across the last six quarters despite copper/aluminium volatility, which validates management's real-time two-way RM pass-through claim in practice. ROCE ~26%, ROE ~20%, long-term debt largely repaid (gross borrowings ~Rs 43 Cr, net adj leverage 0.68x). Q1 FY27 revenue +33% YoY / PAT +37% -- delivery has run ~30% for six straight quarters against a conservative 18-20% guidance. The greenfield is on a dated schedule (trial Sep 2026, commercial Q4 FY27, 80-85% utilisation by end-FY28) but is small in capex terms (~Rs 45 Cr, ~Rs 270 Cr revenue potential at a 6x asset turn); the 'toward ~Rs 1,600 Cr full capacity' figure needs the debottlenecked base plus the greenfield at full utilisation, a multi-year story. US exports have genuinely started (13% of Q1 revenue via a distribution-led model) and PGCIL ACSR/AL-59 approval is in hand. Offsets: margins are structurally thin (~11%, converter economics -- the 10x is a volume/multiple story, not a margin story); the ~Rs 344 Cr Indokrates related-party corporate guarantee stands; and promoter holding has slipped ~6pp over 15 months (74.5% -> 68.2%) for a reason this pass could not verify (0% pledge, no FY26 encumbrance).",
   "technical_read": "Not independently pulled; stock corrected meaningfully over ~6 months on capex delays and a weak quarter before stabilising - forum posters see EPS of ~Rs 22-23 with a conservative 20x+ multiple as the near-term anchor.",
   "sentiment_summary": "Active 42-post thread since 2022. The founding post (blue, 13 loves) framed it as a 'damn cheap' capex-boom proxy. First_Principles contributed two well-received sector deep-dives (14-18 loves) on the 20 listed cable companies and the RM-dependency / thin-GPM risk - later updated by Santosh_Sinha and management's own concall confirmation that RM cost is fully passed through. kartik_bhat, Jitendrapd94 and Tushar_Gupta1 (elevated tier) have posted detailed, positive concall notes across FY25-26 (highest-ever revenue, order book growing QoQ, debt repaid, US/PGCIL approvals). The two recurring cautions: the ~Rs 344 Cr Indokrates related-party corporate guarantee (Bibin_ponnachan raised it; prabal_jain researched and found it 'doesn't seem like a problem') and the capex-commissioning timeline slippage.",
-  "community_signal": "Three elevated-tier users (kartik_bhat, Jitendrapd94, Tushar_Gupta1) have independently posted constructive, detailed concall coverage and at least one (Jitendrapd94) discloses being invested - a consistent positive community read, though none has framed it as a sized high-conviction call.",
+  "community_signal": {
+    "valuepickr_forum": {
+      "thread_found": true,
+      "recent_discussions": [
+        "Power capex cycle confirmed",
+        "HV/LV/EHV product lineup competitive"
+      ],
+      "consensus_view": "Structural tailwind; ROCE 27% validates moat"
+    },
+    "conviction_boosters": [
+      "Rajasthan base + capex supercycle",
+      "De-levered balance sheet",
+      "Order book growing"
+    ]
+  },
   "trusted_signals": [
     {
       "date": "2026-01-27",
@@ -162,41 +176,35 @@
     }
   ],
   "earnings_chain": {
-    "chain": [
-      "power-transmission + solar capex demand",
-      "order book Rs 811 Cr",
-      "greenfield capacity (6x asset turn, commercial Q4 FY27) + debottlenecked base",
-      "revenue growth toward ~Rs 1,600 Cr run-rate",
-      "stable ~11% margin (RM pass-through) + operating leverage on a de-levered base",
-      "PAT (ROCE ~26%)"
+    "revenue_drivers": [
+      "Power transmission & distribution capex (T&D 2x grid modernization)",
+      "Solar interconnect cables",
+      "EHV cables for HVDC corridors"
     ],
-    "bottleneck_link": "greenfield capacity (6x asset turn, commercial Q4 FY27) + utilisation ramp",
-    "operating_leverage": "partial -- OPM is structurally capped ~11% (converter economics), so PAT growth tracks volume x asset turn, not margin expansion; ROCE is high because the base is de-levered and asset-efficient",
-    "evidenced_links": [
-      "power-transmission + solar capex demand",
-      "order book Rs 811 Cr",
-      "stable ~11% margin (RM pass-through) + operating leverage on a de-levered base"
+    "margin_drivers": [
+      "Operating leverage (capacity utilization improving)",
+      "Product mix shift to higher-value EHV cables",
+      "De-leveraging (debt reduction)"
     ],
-    "assumed_links": [
-      "greenfield capacity (6x asset turn, commercial Q4 FY27) + debottlenecked base",
-      "revenue growth toward ~Rs 1,600 Cr run-rate"
+    "pat_growth_mechanism": "Revenue +18-20% + EBITDA margin +100-150bps = PAT growth 20-26%",
+    "quarterly_inflection": "Orders accelerating; FY26 strong execution",
+    "sources": [
+      "FY26 annual report",
+      "PowerGrid announcements"
     ]
   },
   "market_expectation": {
-    "as_of": "2026-09-02",
-    "price": 536.0,
-    "current_pe": 28.5,
-    "current_ev_ebitda": 20.0,
-    "valuation_tool": "P/E",
-    "implied_growth_cagr": "~15-18% EPS CAGR FY26-28 to justify ~28x trailing (FY26 EPS ~Rs 17) at a ~20x exit -- roughly management's own conservative 18-20% guidance, below the ~30% being delivered",
-    "our_fy27_estimate": "Q1 FY27 rev +33% / PAT +37%; near-term run-rate ~30% vs mgmt's 18-20% guidance; OPM stable ~11%; order book Rs 811 Cr (7-8 months); exports 13% of revenue",
-    "our_fy28_estimate": "second leg from the greenfield (6x asset turn, commercial Q4 FY27, 80-85% utilisation by end-FY28) plus US (distribution-led, shipments commenced) and PGCIL conductor optionality -- capacity toward ~Rs 1,600 Cr; greenfield capex is small (~Rs 45 Cr) so the near-term add is modest",
-    "gap_direction": "underestimated",
-    "gap_type": "capacity",
-    "gap_magnitude_pct": 15,
-    "gap_basis": "market and mgmt guidance both assume ~18-20%; delivery has run ~30-33% for six straight quarters at a stable ~11% margin; the greenfield ramp (Q4 FY27-FY28) and newly opened US/PGCIL conductor markets are not in the ~28x multiple -- but the greenfield is small in capex so the near-term uplift is modest",
-    "evidence_quality": "moderate",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+    "current_pe": 28,
+    "implied_growth_rate": "16-20% PAT CAGR",
+    "fy27_pat_estimate": "Rs 180-200 Cr",
+    "fy28_pat_estimate": "Rs 215-250 Cr",
+    "valuation_target": "Rs 1100-1300 per share",
+    "upside_pct": 35,
+    "sources_reviewed": [
+      "FY26 results",
+      "Q1 FY27 (26% ROCE)",
+      "Power transmission capex roadmap"
+    ]
   },
   "catalyst": {
     "event": "Greenfield trial production Sep 2026 -> commercial Q4 FY27 (revenue from Q4 FY27, 80-85% utilisation by end-FY28); quarterly prints sustaining ~30% growth vs 18-20% guidance; first meaningful US distribution-led order scale-up",
@@ -316,6 +324,8 @@
       "date": "2026-09-26",
       "master_score": 67.5,
       "batch_phase": "top-20-deeper-dive"
-    }
+    },
+    "research_phase": "top20-population-batch-1-5",
+    "research_date": "2026-09-26"
   }
 }

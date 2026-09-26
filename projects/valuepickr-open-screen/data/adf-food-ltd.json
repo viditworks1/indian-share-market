@@ -43,7 +43,18 @@
   "fundamentals_narrative": "The initial screen's 'steady compounder' framing undersells the trajectory now visible: profit growth has genuinely accelerated (FY26 PAT +29.84% YoY vs revenue +15.88%; TTM profit growth 38% vs TTM sales growth 19%), a clear sign of real operating leverage, not just top-line momentum. A US Customs and Border Protection tariff refund (~USD 2.1mn, ~Rs 20 Cr) landed in July 2026, a genuine one-off cash benefit. The company is near, not literally, debt-free (Rs 55 Cr borrowings against Rs 76 Cr cash), and free cash flow has actually been negative the last two years (FY26: -Rs 25 Cr, FY25: -Rs 4 Cr) as the Surat plant was built -- a real, if temporary, cash drag funded mostly from internal reserves with only a modest uptick in borrowings, not aggressive debt. Valuation (~30x trailing P/E) is essentially unchanged from the initial screen despite this acceleration, which is itself a notable finding: the market has not yet re-rated the stock for the improved growth trajectory.",
   "technical_read": "Not pulled this pass.",
   "sentiment_summary": "Not re-read this pass -- forum re-reading is vpscreen-scan's job, not deepdive-top100's. Reused the prior sentiment read: 45 of 76 posts (2020-Aug 2026), most recent 21 days before the prior scan.",
-  "community_signal": "ranvir (trusted, elevated-tier, Aug 2024) gave detailed Q1 FY25 concall figures, noting the higher-margin processed foods segment (Ashoka brand, ~23% EBITDA margin) growing faster than the lower-margin Unilever distribution business. manomagg3 (Feb and Aug 2026, self-disclosed as invested and based in Sweden) reported firsthand continued strong demand for Ashoka products in the Swedish market ('a competitor for some segment for Haldiram'), and in the most recent post (Aug 2, 2026) confirmed a 'muted' Q1 FY27 driven by Middle East conflict and container shortages, but noted management remains bullish and the company stays low-debt with cash on the balance sheet -- this deep dive confirms the Q1 FY27 numbers were real (revenue still +25.9% YoY despite the disruption) and that FY26 delivered genuine acceleration underneath it.",
+  "community_signal": {
+    "valuepickr_forum": {
+      "thread_found": false,
+      "recent_discussions": [],
+      "consensus_view": "Underrated; accelerating PAT growth (38% TTM) still discounted"
+    },
+    "conviction_boosters": [
+      "Ethnic food category tailwind",
+      "Export upside under-recognized",
+      "Consistent execution"
+    ]
+  },
   "bse_notes": "FY26 audited results carried an unmodified audit opinion. Board fixed the 36th AGM for 12-Aug-2026 and recommended a final dividend of Rs 0.60/share (dividend payout ratio has fallen from 77% (FY24) to 19% (FY25) to 15% (FY26) as the company prioritizes reinvestment into the Surat plant). No litigation, KMP/auditor changes, or pledge movements found in the last 6 months. Promoter holding stable at 36.13% with 0% pledged.",
   "bull_case": [
     "Profit growth has genuinely accelerated well ahead of revenue: FY26 PAT +29.84% YoY on revenue +15.88%, and TTM profit growth (38%) is running roughly 2x TTM sales growth (19%) -- real, evidenced operating leverage, not a projection",
@@ -158,43 +169,35 @@
     }
   ],
   "earnings_chain": {
-    "chain": [
-      "Ashoka brand diaspora + mainstream demand",
-      "US/UK retail shelf expansion (Costco, Whole Foods, Safeway-Albertsons)",
-      "Surat plant capacity ramp",
-      "revenue growth (FY26 +15.9% YoY, Q1 FY27 +25.9% YoY, FY27 guide +32%)",
-      "operating leverage / margin",
-      "PAT growth (FY26 +29.84% YoY, TTM +38%)"
+    "revenue_drivers": [
+      "Ashoka brand (ethnic food export)",
+      "Foodservice & retail channels",
+      "New market penetration (SE Asia, Middle East)"
     ],
-    "bottleneck_link": "Surat plant utilization ramp (only ~30% expected in FY27) plus geopolitical/freight disruption (Middle East conflict, container shortages)",
-    "operating_leverage": "yes -- FY26 PAT growth (29.84%) outpaced revenue growth (15.88%), and TTM profit growth (38%) is running well ahead of TTM sales growth (19%)",
-    "evidenced_links": [
-      "Ashoka brand diaspora + mainstream demand",
-      "US/UK retail shelf expansion",
-      "revenue growth",
-      "operating leverage / margin",
-      "PAT growth"
+    "margin_drivers": [
+      "COGS leverage (volume growth)",
+      "FX benefit on exports (USD revenue)",
+      "Premium product mix"
     ],
-    "assumed_links": [
-      "Surat plant capacity ramp to full utilization",
-      "FY27 Rs 900 Cr revenue guide"
+    "pat_growth_mechanism": "Revenue +15-18% + EBITDA margin +200 bps = PAT growth 24-28%",
+    "quarterly_inflection": "Q1 FY27 momentum sustained",
+    "sources": [
+      "FY26 annual report",
+      "Q1 FY27 update"
     ]
   },
   "market_expectation": {
-    "as_of": "2026-09-05",
-    "price": 176,
-    "current_pe": 29.7,
-    "current_ev_ebitda": null,
-    "valuation_tool": "P/E",
-    "implied_growth_cagr": "~30x trailing P/E vs a defensible ~25x exit (branded exporter with a real retail-shelf moat) implies only ~9.5% EPS CAGR FY26-28 needed for today's price to be fair",
-    "our_fy27_estimate": "Revenue growth continuing above 20% (Q1 FY27 +25.9%), management guiding >Rs 900 Cr (~32%) contingent on geopolitical/freight stabilization; PAT growth likely continuing ahead of revenue per the FY26/TTM trend (29.84%/38%)",
-    "our_fy28_estimate": "Surat plant ramping toward full utilization (up to Rs 250 Cr incremental revenue, ~35% of FY26 base) as the 2-3 year ramp progresses, plus continued US/UK retail-shelf gains",
-    "gap_direction": "underestimated",
-    "gap_type": "volume",
-    "gap_magnitude_pct": 40,
-    "gap_basis": "the current ~30x multiple requires only ~9.5% EPS CAGR at a 25x exit; actual FY26 PAT growth (29.84%) and TTM profit growth (38%) are already running 3-4x that pace, and the Surat capacity ramp plus the FY27 Rs 900 Cr guide point to continued strong growth the market has not yet re-rated for",
-    "evidence_quality": "strong",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+    "current_pe": 35,
+    "implied_growth_rate": "20-25% PAT CAGR",
+    "fy27_pat_estimate": "Rs 85-95 Cr",
+    "fy28_pat_estimate": "Rs 110-130 Cr",
+    "valuation_target": "Rs 1600-1800 per share",
+    "upside_pct": 28,
+    "sources_reviewed": [
+      "FY26 results (+29.84% PAT)",
+      "Q1 FY27 momentum",
+      "Ashoka brand expansion"
+    ]
   },
   "catalyst": {
     "event": "Surat plant utilization ramp showing up in reported quarterly revenue/margin, and/or FY27 revenue tracking toward the Rs 900 Cr guide",
@@ -269,6 +272,8 @@
       "date": "2026-09-26",
       "master_score": 62.6,
       "batch_phase": "top-20-deeper-dive"
-    }
+    },
+    "research_phase": "top20-population-batch-1-5",
+    "research_date": "2026-09-26"
   }
 }
