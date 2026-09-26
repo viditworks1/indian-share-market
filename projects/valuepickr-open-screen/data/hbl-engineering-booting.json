@@ -29,5 +29,41 @@
     "years_checked": 0,
     "years_cleared": 0,
     "note": "Pending data collection"
+  },
+  "market_expectation": {
+    "status": "to_be_enhanced",
+    "research_date": "2026-09-26",
+    "current_pe": null,
+    "implied_growth_rate": null,
+    "fy27_pat_estimate": null,
+    "fy28_pat_estimate": null,
+    "valuation_target": null,
+    "upside_pct": null,
+    "sources_reviewed": []
+  },
+  "earnings_chain": {
+    "status": "to_be_detailed",
+    "revenue_drivers": [],
+    "margin_drivers": [],
+    "pat_growth_mechanism": null,
+    "quarterly_inflection": null,
+    "sources": []
+  },
+  "community_signal": {
+    "status": "to_be_researched",
+    "valuepickr_forum": {
+      "thread_found": false,
+      "recent_discussions": [],
+      "consensus_view": null
+    },
+    "x_trusted_mentions": [],
+    "conviction_boosters": []
+  },
+  "research_metadata": {
+    "top20_enhanced_pass": {
+      "date": "2026-09-26",
+      "master_score": 49.0,
+      "batch_phase": "top-20-deeper-dive"
+    }
   }
 }
