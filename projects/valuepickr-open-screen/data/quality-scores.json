@@ -665,7 +665,7 @@
       "slug": "acutaas-chemicals",
       "name": "Acutaas Chemicals Ltd (Erst. Ami Organics Ltd)",
       "quality_score": 75.0,
-      "conviction_score": 39.27,
+      "conviction_score": 44.47,
       "red_flag_tier": null,
       "roce_pct": 31.6,
       "roce_trend": "improving",
@@ -1255,7 +1255,7 @@
       "slug": "privi-speciality-chemicals-ltd",
       "name": "Privi Speciality Chemicals Ltd",
       "quality_score": 68.0,
-      "conviction_score": 43.15,
+      "conviction_score": 45.62,
       "red_flag_tier": null,
       "roce_pct": 21.6,
       "roce_trend": "stable",
@@ -1715,7 +1715,7 @@
       "slug": "gayatri-rubber-and-chemicals",
       "name": "Gayatri Rubber and Chemicals",
       "quality_score": 63.0,
-      "conviction_score": 28.25,
+      "conviction_score": 11.25,
       "red_flag_tier": null,
       "roce_pct": 37.86,
       "roce_trend": "improving",
@@ -2207,7 +2207,7 @@
       "slug": "south-west-pinnacle-exploration",
       "name": "South West Pinnacle Exploration",
       "quality_score": 55.0,
-      "conviction_score": 40.25,
+      "conviction_score": 31.25,
       "red_flag_tier": null,
       "roce_pct": 15.15,
       "roce_trend": "improving",
@@ -3038,7 +3038,7 @@
       "slug": "harshdeep-hortico",
       "name": "Harshdeep Hortico Ltd (SME)",
       "quality_score": 48.0,
-      "conviction_score": 42.8,
+      "conviction_score": 41.48,
       "red_flag_tier": null,
       "roce_pct": 24.0,
       "roce_trend": "stable",
@@ -3502,7 +3502,7 @@
       "slug": "sambhv-steel-tubes",
       "name": "Sambhv Steel Tubes",
       "quality_score": 43.0,
-      "conviction_score": 57.95,
+      "conviction_score": 59.62,
       "red_flag_tier": null,
       "roce_pct": 19.0,
       "roce_trend": "improving",
@@ -3948,7 +3948,7 @@
       "slug": "kernex-tcas-led-multi-year-growth-story",
       "name": "Kernex: TCAS led multi year growth story",
       "quality_score": 40.0,
-      "conviction_score": 39.8,
+      "conviction_score": 37.05,
       "red_flag_tier": null,
       "roce_pct": 47.8,
       "roce_trend": "improving",
@@ -4029,7 +4029,7 @@
       "slug": "kernex-microsystems",
       "name": "Kernex Microsystems",
       "quality_score": 40.0,
-      "conviction_score": 39.8,
+      "conviction_score": 37.05,
       "red_flag_tier": null,
       "roce_pct": 47.8,
       "roce_trend": "improving",
@@ -4356,7 +4356,7 @@
       "slug": "sona-blw-precision-forgings",
       "name": "Sona BLW Precision Forgings Ltd",
       "quality_score": 36.0,
-      "conviction_score": 25.22,
+      "conviction_score": 23.9,
       "red_flag_tier": null,
       "roce_pct": 17.8,
       "roce_trend": "stable",
@@ -5017,7 +5017,7 @@
       "slug": "axiscades-engineering",
       "name": "Axiscades Engineering",
       "quality_score": 28.0,
-      "conviction_score": 19.04,
+      "conviction_score": 18.09,
       "red_flag_tier": null,
       "roce_pct": 13.8,
       "roce_trend": "stable",
@@ -5655,7 +5655,7 @@
       "slug": "sg-finserve",
       "name": "SG Finserve Ltd",
       "quality_score": 19.0,
-      "conviction_score": 13.81,
+      "conviction_score": 12.65,
       "red_flag_tier": null,
       "roce_pct": 9.32,
       "roce_trend": "stable",
@@ -6165,7 +6165,7 @@
       "slug": "bhagyanagar-india",
       "name": "Bhagyanagar India Ltd",
       "quality_score": 9.0,
-      "conviction_score": 16.38,
+      "conviction_score": 15.02,
       "red_flag_tier": null,
       "roce_pct": null,
       "roce_trend": "unclear",
@@ -6864,6 +6864,12 @@
       "red_flag_tier": null
     },
     {
+      "slug": "nuvama-wealth-management",
+      "name": "Nuvama Wealth Management Ltd",
+      "conviction_score": 43.59,
+      "red_flag_tier": ""
+    },
+    {
       "slug": "yatharth-hospital-trauma-care-services",
       "name": "Yatharth Hospital & Trauma Care Services Limited",
       "conviction_score": 42.35,
@@ -6894,21 +6900,9 @@
       "red_flag_tier": null
     },
     {
-      "slug": "nuvama-wealth-management",
-      "name": "Nuvama Wealth Management Ltd",
-      "conviction_score": 35.55,
-      "red_flag_tier": ""
-    },
-    {
       "slug": "manorama-industries-creating-wealth-from-waste",
       "name": "Manorama Industries: Creating Wealth from Waste",
       "conviction_score": 35.35,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "bajaj-consumer-care",
-      "name": "Bajaj Consumer Care Ltd",
-      "conviction_score": 35.0,
       "red_flag_tier": null
     },
     {
@@ -6918,15 +6912,15 @@
       "red_flag_tier": null
     },
     {
-      "slug": "kirloskar-pneumatic",
-      "name": "Kirloskar Pneumatic Co Ltd (KPCL)",
-      "conviction_score": 32.0,
+      "slug": "bajaj-consumer-care",
+      "name": "Bajaj Consumer Care Ltd",
+      "conviction_score": 32.25,
       "red_flag_tier": null
     },
     {
-      "slug": "transrail-lighting",
-      "name": "Transrail Lighting Ltd",
-      "conviction_score": 31.65,
+      "slug": "kirloskar-pneumatic",
+      "name": "Kirloskar Pneumatic Co Ltd (KPCL)",
+      "conviction_score": 32.0,
       "red_flag_tier": null
     },
     {
@@ -7032,6 +7026,12 @@
       "red_flag_tier": null
     },
     {
+      "slug": "garware-hi-tech-films-ltd",
+      "name": "Garware Hi-Tech Films Ltd",
+      "conviction_score": 27.12,
+      "red_flag_tier": null
+    },
+    {
       "slug": "avanti-feeds",
       "name": "Avanti Feeds Ltd",
       "conviction_score": 27.06,
@@ -7046,6 +7046,12 @@
     {
       "slug": "vikram-thermo",
       "name": "Vikram Thermo",
+      "conviction_score": 26.65,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "transrail-lighting",
+      "name": "Transrail Lighting Ltd",
       "conviction_score": 26.65,
       "red_flag_tier": null
     },
@@ -7072,6 +7078,12 @@
       "name": "Globus Spirits",
       "conviction_score": 25.83,
       "red_flag_tier": null
+    },
+    {
+      "slug": "uno-minda",
+      "name": "Uno Minda Ltd",
+      "conviction_score": 25.49,
+      "red_flag_tier": ""
     },
     {
       "slug": "tips-industries",
@@ -7494,12 +7506,6 @@
       "red_flag_tier": null
     },
     {
-      "slug": "garware-hi-tech-films-ltd",
-      "name": "Garware Hi-Tech Films Ltd",
-      "conviction_score": 24.65,
-      "red_flag_tier": null
-    },
-    {
       "slug": "shilpa-medicare-ias2026",
       "name": "Shilpa Medicare",
       "conviction_score": 24.61,
@@ -7515,6 +7521,12 @@
       "slug": "eldeco-housing-ltd",
       "name": "Eldeco Housing Ltd",
       "conviction_score": 23.19,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "timex-group",
+      "name": "Timex Group (TGIL)",
+      "conviction_score": 23.12,
       "red_flag_tier": null
     },
     {
@@ -7557,12 +7569,6 @@
       "slug": "jnk-india-ltd",
       "name": "JNK India ltd",
       "conviction_score": 20.79,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "timex-group",
-      "name": "Timex Group (TGIL)",
-      "conviction_score": 20.65,
       "red_flag_tier": null
     },
     {
@@ -7660,12 +7666,6 @@
       "name": "Stallion India Fluorochemicals : Aggressive Capex",
       "conviction_score": 16.81,
       "red_flag_tier": "HIGH CAUTION"
-    },
-    {
-      "slug": "uno-minda",
-      "name": "Uno Minda Ltd",
-      "conviction_score": 16.41,
-      "red_flag_tier": ""
     },
     {
       "slug": "godfrey-phillips-india",
@@ -8490,12 +8490,6 @@
       "red_flag_tier": null
     },
     {
-      "slug": "shadowfax-valuation-model",
-      "name": "ShadowFax Valuation Model",
-      "conviction_score": 11.3,
-      "red_flag_tier": null
-    },
-    {
       "slug": "central-depository-services",
       "name": "Central Depository Services (India) Ltd (CDSL)",
       "conviction_score": 11.3,
@@ -8588,6 +8582,12 @@
     {
       "slug": "polyplex-corporation-are-good-days-ahead",
       "name": "\u201cPolyplex Corporation \u201c Are Good Days Ahead?",
+      "conviction_score": 9.98,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "shadowfax-valuation-model",
+      "name": "ShadowFax Valuation Model",
       "conviction_score": 9.98,
       "red_flag_tier": null
     },
@@ -8697,6 +8697,12 @@
       "slug": "hcl-technologies-ltd",
       "name": "HCL Technologies Ltd",
       "conviction_score": 9.65,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "shriram-pistons-rings",
+      "name": "Shriram Pistons & Rings Ltd",
+      "conviction_score": 9.49,
       "red_flag_tier": null
     },
     {
@@ -10088,12 +10094,6 @@
     {
       "slug": "bcl-industries",
       "name": "BCL Industries",
-      "conviction_score": 0.83,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "shriram-pistons-rings",
-      "name": "Shriram Pistons & Rings Ltd",
       "conviction_score": 0.83,
       "red_flag_tier": null
     },

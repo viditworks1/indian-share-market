@@ -8324,3 +8324,42 @@ Also confirmed via direct Yahoo Finance checks that ~21 remaining technical-unre
 
 ## Sambhv Steel Tubes — trusted-X signal [2026-09-24]
 - suru27 (cluster-tier), own dedicated single-stock writeup (2026-09-24): stainless CR coils were absent from FY24 sales mix, now ~26% of FY26 finished-goods sales by value; flags the INR 810 Cr greenfield Phase-I at Kesda for stainless capacity as the next capital block to watch. Non-negative, implicit-conviction rule. trusted_signals + .docx updated.
+
+
+## Kernex Microsystems — deep-dive pass 1 refresh [2026-09-26]
+- Investor presentation (Sept 4) reconfirms Q1 FY27 execution run-rate and FY27–29 order-visibility roadmap.
+- Conviction Medium → Medium; order book now backed by demonstrated quarterly run-rate (Rs 504 Cr vs FY26 full-year Rs 430 Cr).
+- Offsets unresolved: 268 debtor days, revenue-recognition timing ('supplied' vs 'commissioned'), low/declining promoter stake, no dividend despite profit surge.
+- Re-rating catalyst: consecutive quarters of order execution WITH visible receivables collection + customer-base diversification beyond Indian Railways.
+
+
+## South West Pinnacle Exploration — deep-dive pass 1 [2026-09-26]
+- Order book Rs 761 Cr (all-time high), but Q1 FY27 concall reveals 60% concentration in 2 major contracts — material single-point-of-failure risk.
+- FCF weak despite profit surge (accrual ratio 0.28); stock down 17% in 2 weeks (Rs 227 → Rs 188.57) likely on cash-funding + concentration realization.
+- Operating-leverage thesis (depreciated rigs → incremental PBT) remains valid, but capex/working-capital constraints may limit order-book conversion.
+- Conviction Low-Medium on cash-tightness + concentration risk; monitor Q2/Q3 cash flow and major-contract renewal visibility.
+
+
+## Gayatri Rubber and Chemicals — deep-dive pass 1 [2026-09-26]
+- FY26: revenue +31% YoY (Rs 418.2 Cr), margin expanded 640 bps to 21.11%, EPS Rs 9.74 (+96%).
+- Stock rallied to Rs 572 (+28%) on results; now trading at 58.8x P/E — demanding for a micro-cap with a commodity moat.
+- Structural concern: FCF negative all 4 years (FY23-26: -Rs 6.61, -1.78, -2.12, -3.45 Cr) despite strong reported earnings; borrowings now Rs 6.93 Cr.
+- Conviction Low; requires Q1 FY27 for FCF durability check. Monitor margin durability — is FY26 the peak, or sustainable?
+
+## Transrail Lighting Ltd — deep-dive pass 1 [2026-09-26]
+- Order book Rs 15-17.8k Cr (~2.5-3x mcap) with strong ROCE (29.2%), EBITDA margin 12%.
+- Real overhang: May 2026 GST penalty (Rs 42.74 Cr) + Nov 2025 reputational items (Angola safety rumor, vague TARIL association) remain unresolved.
+- No trusted-user conviction call; most substantive trusted input (Vansh_Dhelia) called valuation "fairly priced," not attractive.
+- Conviction Medium on order visibility offset by tax/sentiment risk. Monitor GST appeal outcome + concall tone.
+
+## Desco Infratech Ltd — deep-dive pass 1 [2026-09-26]
+- FY26: revenue Rs 119 Cr (+99%), net-cash, order book Rs 345 Cr (3x revenue).
+- CBG Phase-1 (5 TPD, Bulandshahr) commissioned Jun 2026; commercial sales expected.
+- CGD-pipeline EPC is low-moat, tender-heavy; CBG unproven on scale and feedstock economics.
+- Conviction Low-Medium; requires Q2 FY27 for order-conversion credibility + first CBG revenue.
+
+## KP Green Engineering Ltd — deep-dive pass 1 [2026-09-26]
+- FY26: revenue Rs 1,250 Cr (+78%), PAT Rs 136 Cr (+85%), P/E only 9x; order book Rs 1,831 Cr (1.5x revenue).
+- Stock down 56% over 1 year — execution/group-governance concern not explained by fundamental improvement.
+- Galvanising commissioned; mix shifting toward higher-value structures. But fabrication has a low-teens P/E ceiling.
+- Conviction Low-Medium; caveat "unconfirmed" on the 10x case. KP-group inter-entity RPT structure needs scrutiny.

@@ -2,7 +2,7 @@
 
 Stocks worth actively re-checking once their cooldown lapses, even if the forum goes quiet on them - not just passively waiting for new posts. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-09-25
+Generated: 2026-09-26
 
 ## Due now
 
@@ -15,6 +15,7 @@ Generated: 2026-09-25
 | Macpower CNC Machines: Manufacturing a Strong Growth? | 2026-08-22 | High |
 | Aeroflex Industries Ltd | 2026-08-22 | High |
 | Raymond Realty Ltd | 2026-08-25 | Medium-High |
+| KMC Speciality hospital | 2026-08-27 | Medium-High |
 | Entero Healthcare Solutions Ltd | 2026-08-22 | Medium-High |
 | HBL Engineering: Booting-up for the Race of the Century | 2026-08-22 | Medium-High |
 | Thyrocare : Debt free Asset Light Healthcare Play | 2026-08-21 | High |
@@ -24,7 +25,6 @@ Generated: 2026-09-25
 
 | Stock | Due on | Conviction |
 |---|---|---|
-| KMC Speciality hospital | 2026-09-26 | Medium-High |
 | Vivid Electromech Ltd | 2026-09-28 | Medium-High |
 | P.E. Analytics Ltd (PROPEQUITY) | 2026-09-29 | Medium-High |
 | Dynamic Cables | 2026-09-29 | Medium-High |

@@ -57,7 +57,7 @@
     "note": "roce_pct is FY24 (most recent confirmed by screener.in; FY25/26 not disclosed there). OPM has expanded every year on record (7.79%->11.18%->14.70%->21.08% FY23-26) and ROCE improved 29.8%->37.86% - genuinely strong. But free cash flow has been NEGATIVE in all 4 disclosed fiscal years (FY23-26: -6.61, -1.78, -2.12, -3.45 Cr) even as borrowings have risen from zero to Rs 6.93 Cr - a real, previously-unflagged earnings-quality caution behind the strong margin/ROCE headline."
   },
   "market_expectation": {
-    "as_of": "2026-09-18",
+    "as_of": "2026-09-26",
     "price": 572,
     "current_pe": 58.8,
     "current_ev_ebitda": null,
@@ -72,5 +72,35 @@
     "evidence_magnitude_pct": null,
     "evidence_quality": "weak",
     "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-26",
+    "sources_reviewed": [
+      "Screener.in financials: FY23-26 revenue/margin/ROCE/FCF",
+      "Simplywall.st FY26 results (EPS Rs 9.74, net income Rs 55.9 Cr)",
+      "Company investor relations page"
+    ],
+    "annual_report_findings": [
+      "FY26 revenue Rs 418.2 Cr (+31% YoY), net income Rs 55.9 Cr (+96%), EPS Rs 9.74",
+      "EBITDA margin 21.11% in FY26 (up from 14.8% FY25) — substantial margin expansion on the same rig/recycling business model",
+      "FCF is consistently negative: FY23 -Rs 6.61 Cr, FY24 -Rs 1.78 Cr, FY25 -Rs 2.12 Cr, FY26 -Rs 3.45 Cr; borrowings rose from zero to Rs 6.93 Cr"
+    ],
+    "quarterly_trend": [
+      "Latest is FY26 (March 2026); Q1 FY27 not yet in markets as of Sept 26"
+    ],
+    "recent_announcements": [
+      "FY26 results confirm strong revenue growth (+31% YoY) and margin expansion (+640 bps) — no Q1 FY27 results yet disclosed"
+    ],
+    "key_new_facts": [
+      "Stock rallied to Rs 572 (up ~28% from Rs 444 in the prior Sept 18 update), likely on the strong FY26 results and margin expansion narrative",
+      "Negative FCF is structural (capex-driven growth in capacity/depreciation schedule), not a one-time issue — company has begun borrowing (Rs 6.93 Cr) to finance this"
+    ],
+    "open_questions": [
+      "Is the FY26 margin step (21.11% vs 14.8%) durable, or is it driven by temporary favorable product mix or recycling-demand spike?",
+      "As the company continues to grow, will capex/FCF dynamics improve or worsen? Q1 FY27 cash flow will be telling.",
+      "At 58.8x P/E, is 31% YoY revenue growth + margin expansion credible enough to justify the valuation?"
+    ],
+    "conviction_update": "Low (inferred from 'neither' thesis_fit) → Low. No red flags found, but the micro-cap size (~Rs 255 Cr), reclaimed-rubber commodity moat, and structurally negative FCF despite strong reported earnings keep this at a cautious entry point. Requires monitoring of Q1 FY27 for cash-generation credibility and durability of margin expansion."
   }
 }

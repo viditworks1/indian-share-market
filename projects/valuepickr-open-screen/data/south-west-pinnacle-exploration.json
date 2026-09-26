@@ -66,10 +66,10 @@
     "note": "India energy self-reliance policy tailwind and order-book at all-time high (Rs 761cr, rigs fully deployed) support tailwind/tam; no moat discussed for a rig-services business; no valuation/market_expectation data recorded; unresolved accounting question + cash-tightness flag are separate risks."
   },
   "market_expectation": {
-    "as_of": "2026-09-09",
-    "price": 227,
-    "current_pe": 18.5,
-    "current_ev_ebitda": 9,
+    "as_of": "2026-09-26",
+    "price": 188.57,
+    "current_pe": 15.2,
+    "current_ev_ebitda": 7.6,
     "valuation_tool": "P/E",
     "implied_growth_cagr": "~18-19x trailing earnings on a cyclical drilling-services contractor; against a ~12-14x through-cycle multiple this needs ~20-25% EPS CAGR FY26-28 to be fair -- the market is partly pricing the order-book-led operating-leverage step-up",
     "our_fy27_estimate": "revenue +25-35% on the Rs 761 Cr all-time-high order book and full rig deployment (plus hired rigs); margins expand toward mid-20s% OPM as depreciated rigs drop incremental revenue to PBT; PAT +30-40% but FCF likely still negative on fleet capex",
@@ -95,5 +95,38 @@
     "years_checked": 9,
     "years_cleared": 2,
     "note": "Per screener.in consolidated (FY18-FY26): only FY25 (+35% revenue / ROCE 20%) is a clean pass; FY26 (+35% revenue, ROCE ~15% per company Q1 FY27 update, not yet on screener) is a marginal pass. FY18-FY24 all had ROCE 8-13%, below the 15% bar, even in years revenue grew >10% (FY21 +21%, FY22 +14%). The operating-leverage inflection is FY25-onwards only."
+  },
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-26",
+    "sources_reviewed": [
+      "Q1 FY27 concall transcript (July 2026) — all-time-high order book Rs 761 Cr, concentration risk (2 contracts = 60% OB)",
+      "Yahoo Finance / Hindu Business Line Q1 FY27 coverage",
+      "Simplywall.st: accrual ratio 0.28 (weak FCF conversion)"
+    ],
+    "annual_report_findings": [
+      "Order book Rs 761 Cr (all-time high) with 25% oil/gas, rest metals/coal; 60% concentrated in 2 major contracts",
+      "Q1 FY27 revenue Rs 61.7 Cr (+53% YoY), profit nearly 4x, but FCF weak (accrual ratio 0.28)",
+      "Operating leverage story real (depreciated rigs -> incremental revenue to PBT), but capex still required to service the order book"
+    ],
+    "quarterly_trend": [
+      "Q1 FY26: revenue Rs 40.2 Cr",
+      "Q1 FY27: revenue Rs 61.7 Cr (+53% YoY), profit jumped"
+    ],
+    "recent_announcements": [
+      "Q1 FY27 order book at all-time high Rs 761 Cr (July 2026 update)",
+      "Stock down 17% from Rs 227 (Sept 9) to Rs 188.57 (Sept 25) on cash-tightness + concentration-risk realization"
+    ],
+    "key_new_facts": [
+      "Concentration risk newly quantified: 2 contracts = 60% of Rs 761 Cr order book (Q1 concall)",
+      "Price pullback suggests market re-rating the cash/capex funding risk despite order-book strength",
+      "FCF genuinely negative/weak (accrual ratio 0.28) even with profit surge — execution risk is real"
+    ],
+    "open_questions": [
+      "How will capex/working capital be funded if the order book continues to grow? Bank lines adequate?",
+      "Do the 2 major contracts (60% of OB) have renewal/extension visibility, or does the company face a cliff in FY28?",
+      "Can the company maintain 77:23 private:government mix, or does private-client ramp stall on capex constraints?"
+    ],
+    "conviction_update": "Low-Medium (no prior explicit field set) → Low-Medium. Order book strength and operating-leverage mechanism are real, but concentration (60% in 2 contracts), negative FCF despite profit surge, and recent 17% price pullback on cash-tightness realization all support a cautious stance. Close monitoring of next 1-2 quarters' cash flow needed."
   }
 }

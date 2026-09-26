@@ -2937,51 +2937,6 @@
     }
   },
   {
-    "slug": "harshdeep-hortico",
-    "name": "Harshdeep Hortico Ltd (SME)",
-    "conviction_score": 42.8,
-    "own_conviction": 39.5,
-    "trusted_lift": 3.3,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 48.0,
-    "market_cap_tier": "Micro-cap / SME (~Rs 130 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 39.5,
-      "trusted_lift": 3.3,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": -0.5,
-      "management_component": 1.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 3.3,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 3.3,
-        "pos_raw": 3.3,
-        "pos_capped": 3.3,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "no-track-record",
-        "capital_allocation_track_record": "neutral",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "initiated"
-      }
-    }
-  },
-  {
     "slug": "suprajit-engineering-ltd",
     "name": "Suprajit Engineering Ltd",
     "conviction_score": 42.51,
@@ -3162,6 +3117,51 @@
     }
   },
   {
+    "slug": "harshdeep-hortico",
+    "name": "Harshdeep Hortico Ltd (SME)",
+    "conviction_score": 41.48,
+    "own_conviction": 39.5,
+    "trusted_lift": 1.98,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 48.0,
+    "market_cap_tier": "Micro-cap / SME (~Rs 130 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 39.5,
+      "trusted_lift": 1.98,
+      "base_anchor": 25,
+      "thesis_bonus": 14,
+      "quality_lift": -0.5,
+      "management_component": 1.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 1.98,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 1.98,
+        "pos_raw": 1.98,
+        "pos_capped": 1.98,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "no-track-record",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "initiated"
+      }
+    }
+  },
+  {
     "slug": "samhi-hotels",
     "name": "Samhi Hotels",
     "conviction_score": 41.23,
@@ -3294,45 +3294,6 @@
         "rpt_trend": "unclear",
         "shareholder_returns": null
       }
-    }
-  },
-  {
-    "slug": "south-west-pinnacle-exploration",
-    "name": "South West Pinnacle Exploration",
-    "conviction_score": 40.25,
-    "own_conviction": 40.25,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 55.0,
-    "market_cap_tier": "Small-cap (~Rs 771 Cr)",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 40.25,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": 1.25,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": null
     }
   },
   {
@@ -4013,7 +3974,7 @@
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "quality_score": 40.0,
-    "market_cap_tier": "Small-cap (~Rs 2,914 Cr)",
+    "market_cap_tier": "Small-cap",
     "red_flag_tier": null,
     "source": "external-lead",
     "score_breakdown": {
@@ -5436,45 +5397,6 @@
     }
   },
   {
-    "slug": "transrail-lighting",
-    "name": "Transrail Lighting Ltd",
-    "conviction_score": 31.65,
-    "own_conviction": 30.0,
-    "trusted_lift": 1.65,
-    "conviction": "Low-Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": null,
-    "market_cap_tier": "Small-cap (~Rs 6,176 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 30.0,
-      "trusted_lift": 1.65,
-      "base_anchor": 16,
-      "thesis_bonus": 14,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 1.65,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 1.65,
-        "pos_raw": 1.65,
-        "pos_capped": 1.65,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "fallback-scalar"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "kwality-pharmaceuticals",
     "name": "Kwality Pharmaceuticals",
     "conviction_score": 31.58,
@@ -5537,6 +5459,45 @@
       "base_anchor": 16,
       "thesis_bonus": 14,
       "quality_lift": 1.5,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "south-west-pinnacle-exploration",
+    "name": "South West Pinnacle Exploration",
+    "conviction_score": 31.25,
+    "own_conviction": 31.25,
+    "trusted_lift": 0.0,
+    "conviction": "Low-Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 55.0,
+    "market_cap_tier": "Small-cap",
+    "red_flag_tier": null,
+    "source": "external-lead",
+    "score_breakdown": {
+      "own_conviction": 31.25,
+      "trusted_lift": 0.0,
+      "base_anchor": 16,
+      "thesis_bonus": 14,
+      "quality_lift": 1.25,
       "management_component": 0.0,
       "red_flag_penalty": 0,
       "red_flag_forced_zero": false,
@@ -6173,7 +6134,7 @@
     "conviction": "Low-Medium",
     "thesis_fit": "10x-in-2-3-years",
     "quality_score": null,
-    "market_cap_tier": "Small-cap (~Rs 1,258 Cr)",
+    "market_cap_tier": "Small-cap",
     "red_flag_tier": null,
     "source": "sovrenn-news",
     "score_breakdown": {
@@ -6218,7 +6179,7 @@
     "conviction": "Low-Medium",
     "thesis_fit": "10x-in-2-3-years",
     "quality_score": null,
-    "market_cap_tier": "Micro-cap (~Rs 163 Cr)",
+    "market_cap_tier": "Micro-cap",
     "red_flag_tier": null,
     "source": "sovrenn-news",
     "score_breakdown": {
@@ -7287,45 +7248,6 @@
     }
   },
   {
-    "slug": "gayatri-rubber-and-chemicals",
-    "name": "Gayatri Rubber and Chemicals",
-    "conviction_score": 28.25,
-    "own_conviction": 28.25,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": 63.0,
-    "market_cap_tier": "Micro-cap (~Rs 255 Cr)",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 28.25,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 3.25,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "sterlite-technologies",
     "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
     "conviction_score": 28.21,
@@ -7950,6 +7872,45 @@
         "rpt_trend": "unclear",
         "shareholder_returns": null
       }
+    }
+  },
+  {
+    "slug": "transrail-lighting",
+    "name": "Transrail Lighting Ltd",
+    "conviction_score": 26.65,
+    "own_conviction": 25.0,
+    "trusted_lift": 1.65,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Small-cap",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 25.0,
+      "trusted_lift": 1.65,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 1.65,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 1.65,
+        "pos_raw": 1.65,
+        "pos_capped": 1.65,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "fallback-scalar"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": null
     }
   },
   {
@@ -13005,51 +12966,6 @@
     }
   },
   {
-    "slug": "axiscades-engineering",
-    "name": "Axiscades Engineering",
-    "conviction_score": 19.04,
-    "own_conviction": 17.0,
-    "trusted_lift": 2.04,
-    "conviction": "Low",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 28.0,
-    "market_cap_tier": "mid-cap",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 17.0,
-      "trusted_lift": 2.04,
-      "base_anchor": 8,
-      "thesis_bonus": 14,
-      "quality_lift": -5.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 2.04,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 2.04,
-        "pos_raw": 2.04,
-        "pos_capped": 2.04,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 2,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "neutral",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
-      }
-    }
-  },
-  {
     "slug": "aimtron-electronics",
     "name": "Aimtron Electronics Ltd (EMS China+1 Global Play)",
     "conviction_score": 19.0,
@@ -13388,6 +13304,51 @@
         "capital_allocation_track_record": "unclear",
         "rpt_trend": "rising",
         "shareholder_returns": "consistent"
+      }
+    }
+  },
+  {
+    "slug": "axiscades-engineering",
+    "name": "Axiscades Engineering",
+    "conviction_score": 18.09,
+    "own_conviction": 17.0,
+    "trusted_lift": 1.09,
+    "conviction": "Low",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 28.0,
+    "market_cap_tier": "mid-cap",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 17.0,
+      "trusted_lift": 1.09,
+      "base_anchor": 8,
+      "thesis_bonus": 14,
+      "quality_lift": -5.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 1.09,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 1.09,
+        "pos_raw": 1.09,
+        "pos_capped": 1.09,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 2,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
       }
     }
   },
@@ -14265,51 +14226,6 @@
       },
       "distinct_trusted_users": 1,
       "management_quality": null
-    }
-  },
-  {
-    "slug": "bhagyanagar-india",
-    "name": "Bhagyanagar India Ltd",
-    "conviction_score": 16.38,
-    "own_conviction": 13.0,
-    "trusted_lift": 3.38,
-    "conviction": "Low-Medium",
-    "thesis_fit": "neither",
-    "quality_score": 9.0,
-    "market_cap_tier": "Small-cap (~Rs 1,244 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 13.0,
-      "trusted_lift": 3.38,
-      "base_anchor": 16,
-      "thesis_bonus": 0,
-      "quality_lift": -5.0,
-      "management_component": 2.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 3.38,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 3.38,
-        "pos_raw": 3.38,
-        "pos_capped": 3.38,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "reliable",
-        "capital_allocation_track_record": "unclear",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "unclear"
-      }
     }
   },
   {
@@ -19380,6 +19296,51 @@
     }
   },
   {
+    "slug": "bhagyanagar-india",
+    "name": "Bhagyanagar India Ltd",
+    "conviction_score": 15.02,
+    "own_conviction": 13.0,
+    "trusted_lift": 2.02,
+    "conviction": "Low-Medium",
+    "thesis_fit": "neither",
+    "quality_score": 9.0,
+    "market_cap_tier": "Small-cap (~Rs 1,244 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 13.0,
+      "trusted_lift": 2.02,
+      "base_anchor": 16,
+      "thesis_bonus": 0,
+      "quality_lift": -5.0,
+      "management_component": 2.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 2.02,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 2.02,
+        "pos_raw": 2.02,
+        "pos_capped": 2.02,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "reliable",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
+      }
+    }
+  },
+  {
     "slug": "orchid-pharma-ltd",
     "name": "Orchid Pharma Ltd",
     "conviction_score": 15.0,
@@ -19650,45 +19611,6 @@
     }
   },
   {
-    "slug": "sg-finserve",
-    "name": "SG Finserve Ltd",
-    "conviction_score": 13.81,
-    "own_conviction": 11.0,
-    "trusted_lift": 2.81,
-    "conviction": "Low-Medium",
-    "thesis_fit": "neither",
-    "quality_score": 19.0,
-    "market_cap_tier": "Small-cap (~Rs 4,460 Cr)",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 11.0,
-      "trusted_lift": 2.81,
-      "base_anchor": 16,
-      "thesis_bonus": 0,
-      "quality_lift": -5.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 2.81,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 2.81,
-        "pos_raw": 2.81,
-        "pos_capped": 2.81,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 3,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 3,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 3,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "satin-creditcare-network",
     "name": "Satin Creditcare Network Ltd",
     "conviction_score": 13.75,
@@ -19892,6 +19814,45 @@
         "source": "ledger"
       },
       "distinct_trusted_users": 2,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "sg-finserve",
+    "name": "SG Finserve Ltd",
+    "conviction_score": 12.65,
+    "own_conviction": 11.0,
+    "trusted_lift": 1.65,
+    "conviction": "Low-Medium",
+    "thesis_fit": "neither",
+    "quality_score": 19.0,
+    "market_cap_tier": "Small-cap (~Rs 4,460 Cr)",
+    "red_flag_tier": null,
+    "source": "external-lead",
+    "score_breakdown": {
+      "own_conviction": 11.0,
+      "trusted_lift": 1.65,
+      "base_anchor": 16,
+      "thesis_bonus": 0,
+      "quality_lift": -5.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 1.65,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 1.65,
+        "pos_raw": 1.65,
+        "pos_capped": 1.65,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 3,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 3,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 3,
       "management_quality": null
     }
   },
@@ -20385,6 +20346,45 @@
         "rpt_trend": "unclear",
         "shareholder_returns": "none"
       }
+    }
+  },
+  {
+    "slug": "gayatri-rubber-and-chemicals",
+    "name": "Gayatri Rubber and Chemicals",
+    "conviction_score": 11.25,
+    "own_conviction": 11.25,
+    "trusted_lift": 0.0,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 63.0,
+    "market_cap_tier": "Micro-cap",
+    "red_flag_tier": null,
+    "source": "external-lead",
+    "score_breakdown": {
+      "own_conviction": 11.25,
+      "trusted_lift": 0.0,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 3.25,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": null
     }
   },
   {

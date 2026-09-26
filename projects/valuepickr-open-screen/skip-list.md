@@ -2,67 +2,10 @@
 
 Stocks analyzed recently enough that their thread should NOT be re-opened by the scan job yet, regardless of new forum activity. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-09-25
+Generated: 2026-09-26
 
 | Stock | Last analyzed | Eligible again on | Conviction |
 |---|---|---|---|
-| AksharChem (India) | 2026-08-27 | 2026-09-26 | None |
-| Yatharth Hospital & Trauma Care Services Limited | 2026-08-27 | 2026-09-26 | Medium-High |
-| Dishman Carbogen Amcis Ltd | 2026-08-27 | 2026-09-26 | Low |
-| Shriram Pistons & Rings Ltd | 2026-08-27 | 2026-09-26 | None |
-| Phillips Carbon Black | 2026-08-27 | 2026-09-26 | Low |
-| Mitsu Chem Plast Ltd | 2026-08-27 | 2026-09-26 | Low |
-| Manorama Industries: Creating Wealth from Waste | 2026-08-27 | 2026-09-26 | Medium-High |
-| Kamat Hotels (India) Ltd- A Possible Turnaround Story! | 2026-08-27 | 2026-09-26 | Low |
-| KMC Speciality hospital | 2026-08-27 | 2026-09-26 | Medium-High |
-| MSTC Ltd.: Growth through to E-Commerce | 2026-08-27 | 2026-09-26 | Low |
-| “Polyplex Corporation “ Are Good Days Ahead? | 2026-08-27 | 2026-09-26 | Low |
-| Viyash Scientific (old name Sequent Scientific ) | 2026-08-27 | 2026-09-26 | Low |
-| Eris Lifesciences | 2026-08-27 | 2026-09-26 | Low |
-| Fredun Pharmaceuticals | 2026-08-27 | 2026-09-26 | Medium |
-| Accent Microcell Limited | 2026-08-27 | 2026-09-26 | Low |
-| Nitco ltd | 2026-08-27 | 2026-09-26 | Low |
-| SMC -Global Securities Ltd. -- Moneywise Long Term | 2026-08-27 | 2026-09-26 | Low |
-| Concord Biotech | 2026-08-27 | 2026-09-26 | Low |
-| L. T. Elevators: Can they lift investors | 2026-08-27 | 2026-09-26 | Medium |
-| Shree Ganesh Remedies Limited (SGRL) | 2026-08-27 | 2026-09-26 | Low |
-| Pennar Industries Limited | 2026-08-27 | 2026-09-26 | Low-Medium |
-| JNK India ltd | 2026-08-27 | 2026-09-26 | Medium |
-| Anant Raj Limited | 2026-08-27 | 2026-09-26 | Low |
-| Gsm Foils:Secular growth play | 2026-08-27 | 2026-09-26 | Low |
-| Apollo Hospital : The one stop healthcare service | 2026-08-27 | 2026-09-26 | Low |
-| Northern Arc | 2026-08-27 | 2026-09-26 | Medium-High |
-| Samhi Hotels | 2026-08-27 | 2026-09-26 | Medium |
-| Finolex Cables | 2026-08-27 | 2026-09-26 | Low |
-| Gujarat Energy ( Formerly Gujarat gas) Improving outlook on volumes | 2026-08-27 | 2026-09-26 | Low |
-| I G Petrochemicals Ltd | 2026-08-27 | 2026-09-26 | Low |
-| Walchandnagar Industries | Return of a Golden Era | 2026-08-27 | 2026-09-26 | Low-Medium |
-| Akums | 2026-08-27 | 2026-09-26 | Low |
-| Paramount Communication | 2026-08-27 | 2026-09-26 | Low |
-| MAS Financial Services | 2026-08-27 | 2026-09-26 | Low |
-| Advent Hotels International Limited | 2026-08-27 | 2026-09-26 | Low |
-| Sika Interplant Systems Ltd | 2026-08-27 | 2026-09-26 | Medium |
-| Macfos Limited- A niche E-commerce Company | 2026-08-27 | 2026-09-26 | Low |
-| Aaron Industries Ltd- The Elevator Play | 2026-08-27 | 2026-09-26 | Low |
-| Va Tech Wabag | 2026-08-27 | 2026-09-26 | Low |
-| Central Depository Services (India) Ltd (CDSL) | 2026-08-27 | 2026-09-26 | Low |
-| Tata Power Limited | 2026-08-27 | 2026-09-26 | Low |
-| Rategain | 2026-08-27 | 2026-09-26 | Low |
-| Protean EGov Technologies Ltd | 2026-08-27 | 2026-09-26 | Low |
-| Bansal Roofing Products Ltd | 2026-08-27 | 2026-09-26 | Medium |
-| Asahi Songwon Colors Ltd | 2026-08-27 | 2026-09-26 | Low |
-| Bajaj Steel Industries Ltd | 2026-08-27 | 2026-09-26 | Low |
-| Capital Small Finance Bank Ltd | 2026-08-27 | 2026-09-26 | Low |
-| Aarti Surfactants Ltd | 2026-08-27 | 2026-09-26 | Low |
-| Accel Ltd | 2026-08-27 | 2026-09-26 | Low |
-| Darjeeling Industries | 2026-08-27 | 2026-09-26 | Low |
-| AVI Polymers Ltd | 2026-08-27 | 2026-09-26 | Low |
-| Alan Scott Enterprises Ltd | 2026-08-27 | 2026-09-26 | Low |
-| SIS Ltd | 2026-08-27 | 2026-09-26 | Low |
-| Kirloskar Brothers Ltd | 2026-08-27 | 2026-09-26 | Low |
-| Syngene International Ltd | 2026-08-27 | 2026-09-26 | Low |
-| Olectra Greentech Ltd | 2026-08-27 | 2026-09-26 | Low |
-| Wendt (India) Ltd | 2026-08-27 | 2026-09-26 | Low |
 | RNIT AI Solutions Ltd | 2026-08-28 | 2026-09-27 | Medium |
 | GPT Healthcare Ltd | 2026-08-28 | 2026-09-27 | Low |
 | Novartis India Ltd | 2026-08-28 | 2026-09-27 | Medium |
@@ -409,7 +352,7 @@ Generated: 2026-09-25
 | Techera Engineering | 2026-09-13 | 2026-10-13 | Low-Medium |
 | Rappid Valves | 2026-09-13 | 2026-10-13 | Low-Medium |
 | Univastu India | 2026-09-13 | 2026-10-13 | Medium |
-| Gayatri Rubber and Chemicals | 2026-09-13 | 2026-10-13 | Medium |
+| Gayatri Rubber and Chemicals | 2026-09-13 | 2026-10-13 | Low |
 | Rossell Techsys | 2026-09-13 | 2026-10-13 | Low-Medium |
 | Asian Energy Services | 2026-09-13 | 2026-10-13 | Low-Medium |
 | GTT Data Solutions | 2026-09-13 | 2026-10-13 | Low |

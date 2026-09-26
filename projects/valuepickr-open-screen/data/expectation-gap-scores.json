@@ -1,5 +1,5 @@
 {
-  "date_compiled": "2026-09-24",
+  "date_compiled": "2026-09-26",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
   "scored_count": 265,
   "not_assessed_count": 621,
@@ -818,7 +818,7 @@
       "slug": "harshdeep-hortico",
       "name": "Harshdeep Hortico Ltd (SME)",
       "expectation_gap_score": 42.66,
-      "conviction_score": 42.8,
+      "conviction_score": 41.48,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
@@ -1459,7 +1459,7 @@
       "slug": "kernex-tcas-led-multi-year-growth-story",
       "name": "Kernex: TCAS led multi year growth story",
       "expectation_gap_score": 31.34,
-      "conviction_score": 39.8,
+      "conviction_score": 37.05,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
@@ -1495,11 +1495,11 @@
       "slug": "kernex-microsystems",
       "name": "Kernex Microsystems",
       "expectation_gap_score": 31.34,
-      "conviction_score": 39.8,
+      "conviction_score": 37.05,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Small-cap (~Rs 2,914 Cr)",
+      "market_cap_tier": "Small-cap",
       "gap_direction": "underestimated",
       "gap_type": "timing",
       "gap_magnitude_pct": null,
@@ -2424,18 +2424,18 @@
       "slug": "south-west-pinnacle-exploration",
       "name": "South West Pinnacle Exploration",
       "expectation_gap_score": 24.19,
-      "conviction_score": 40.25,
-      "conviction": "Medium",
+      "conviction_score": 31.25,
+      "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Small-cap (~Rs 771 Cr)",
+      "market_cap_tier": "Small-cap",
       "gap_direction": "partially-priced",
       "gap_type": "margin",
       "gap_magnitude_pct": null,
       "evidence_quality": "moderate",
       "catalyst_event": null,
       "catalyst_window_months": null,
-      "catalyst_window_start": "2026-09-09",
+      "catalyst_window_start": "2026-09-26",
       "catalyst_status_effective": null,
       "catalyst_is_dated": false,
       "risk_open_spof_count": 0,
@@ -2658,7 +2658,7 @@
       "slug": "sambhv-steel-tubes",
       "name": "Sambhv Steel Tubes",
       "expectation_gap_score": 23.34,
-      "conviction_score": 57.95,
+      "conviction_score": 59.62,
       "conviction": "Medium-High",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
@@ -5658,7 +5658,7 @@
       "slug": "sona-blw-precision-forgings",
       "name": "Sona BLW Precision Forgings Ltd",
       "expectation_gap_score": 5.38,
-      "conviction_score": 25.22,
+      "conviction_score": 23.9,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -6114,7 +6114,7 @@
       "slug": "timex-group",
       "name": "Timex Group (TGIL)",
       "expectation_gap_score": 4.06,
-      "conviction_score": 20.65,
+      "conviction_score": 23.12,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -6392,18 +6392,18 @@
       "slug": "gayatri-rubber-and-chemicals",
       "name": "Gayatri Rubber and Chemicals",
       "expectation_gap_score": 3.63,
-      "conviction_score": 28.25,
-      "conviction": "Medium",
+      "conviction_score": 11.25,
+      "conviction": "Low",
       "thesis_fit": "neither",
       "red_flag_tier": null,
-      "market_cap_tier": "Micro-cap (~Rs 255 Cr)",
+      "market_cap_tier": "Micro-cap",
       "gap_direction": "priced-in",
       "gap_type": "margin",
       "gap_magnitude_pct": null,
       "evidence_quality": "weak",
       "catalyst_event": null,
       "catalyst_window_months": null,
-      "catalyst_window_start": "2026-09-18",
+      "catalyst_window_start": "2026-09-26",
       "catalyst_status_effective": null,
       "catalyst_is_dated": false,
       "risk_open_spof_count": 0,
@@ -6499,7 +6499,7 @@
       "slug": "privi-speciality-chemicals-ltd",
       "name": "Privi Speciality Chemicals Ltd",
       "expectation_gap_score": 3.54,
-      "conviction_score": 43.15,
+      "conviction_score": 45.62,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -7040,6 +7040,40 @@
       }
     },
     {
+      "slug": "acutaas-chemicals",
+      "name": "Acutaas Chemicals Ltd (Erst. Ami Organics Ltd)",
+      "expectation_gap_score": 0,
+      "conviction_score": 44.47,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Large-cap (~Rs 25,900 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "new_business",
+      "gap_magnitude_pct": -14,
+      "evidence_quality": "moderate",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-09",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "no-edge",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.537
+      }
+    },
+    {
       "slug": "yatharth-hospital-trauma-care-services",
       "name": "Yatharth Hospital & Trauma Care Services Limited",
       "expectation_gap_score": 0,
@@ -7110,40 +7144,6 @@
         "timing_q": 0.75,
         "risk_q": 0.4,
         "quality": 0.589
-      }
-    },
-    {
-      "slug": "acutaas-chemicals",
-      "name": "Acutaas Chemicals Ltd (Erst. Ami Organics Ltd)",
-      "expectation_gap_score": 0,
-      "conviction_score": 39.27,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "Large-cap (~Rs 25,900 Cr)",
-      "gap_direction": "over-optimistic",
-      "gap_type": "new_business",
-      "gap_magnitude_pct": -14,
-      "evidence_quality": "moderate",
-      "catalyst_event": null,
-      "catalyst_window_months": null,
-      "catalyst_window_start": "2026-09-09",
-      "catalyst_status_effective": null,
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 0,
-      "risk_open_spofs": [],
-      "flags": [
-        "no-edge",
-        "no-catalyst"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.75,
-        "catalyst_q": 0.15,
-        "timing_q": 0.4,
-        "risk_q": 1.0,
-        "quality": 0.537
       }
     },
     {
@@ -7652,6 +7652,43 @@
       }
     },
     {
+      "slug": "garware-hi-tech-films-ltd",
+      "name": "Garware Hi-Tech Films Ltd",
+      "expectation_gap_score": 0,
+      "conviction_score": 27.12,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 16,700 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": -15,
+      "evidence_quality": "moderate",
+      "catalyst_event": "TPU line commissioning (Q3FY27) plus a Q2/Q3FY27 print showing the tariff-normalised margin and new PPF line utilisation recovery",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-01",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "commissioning slippage",
+        "execution + scf demand",
+        "us tariff re-escalation"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 1.0,
+        "timing_q": 1.0,
+        "risk_q": 0.2,
+        "quality": 0.792
+      }
+    },
+    {
       "slug": "sbcl",
       "name": "SBCL",
       "expectation_gap_score": 0,
@@ -8000,43 +8037,6 @@
       }
     },
     {
-      "slug": "garware-hi-tech-films-ltd",
-      "name": "Garware Hi-Tech Films Ltd",
-      "expectation_gap_score": 0,
-      "conviction_score": 24.65,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap (~Rs 16,700 Cr)",
-      "gap_direction": "over-optimistic",
-      "gap_type": "margin",
-      "gap_magnitude_pct": -15,
-      "evidence_quality": "moderate",
-      "catalyst_event": "TPU line commissioning (Q3FY27) plus a Q2/Q3FY27 print showing the tariff-normalised margin and new PPF line utilisation recovery",
-      "catalyst_window_months": 6,
-      "catalyst_window_start": "2026-09-01",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": true,
-      "risk_open_spof_count": 3,
-      "risk_open_spofs": [
-        "commissioning slippage",
-        "execution + scf demand",
-        "us tariff re-escalation"
-      ],
-      "flags": [
-        "no-edge"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.75,
-        "catalyst_q": 1.0,
-        "timing_q": 1.0,
-        "risk_q": 0.2,
-        "quality": 0.792
-      }
-    },
-    {
       "slug": "gravita-india-success-story",
       "name": "Gravita India success story",
       "expectation_gap_score": 0,
@@ -8246,44 +8246,6 @@
       }
     },
     {
-      "slug": "axiscades-engineering",
-      "name": "Axiscades Engineering",
-      "expectation_gap_score": 0,
-      "conviction_score": 19.04,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "red_flag_tier": null,
-      "market_cap_tier": "mid-cap",
-      "gap_direction": "over-optimistic",
-      "gap_type": "timing",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "moderate",
-      "catalyst_event": "Q2/Q3 FY27 prints from the pure-play continuing entity showing defence revenue +75% and margin recovering off 11.8%, plus Devanahalli Atmanirbhar Complex Phase 1 commissioning",
-      "catalyst_window_months": 6,
-      "catalyst_window_start": "2026-09-08",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 4,
-      "risk_open_spofs": [
-        "commissioning timeline slippage",
-        "manufacturing margin proof",
-        "manufacturing ramp speed",
-        "pace of drdo/dpsu order flow"
-      ],
-      "flags": [
-        "no-edge"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.75,
-        "catalyst_q": 0.39,
-        "timing_q": 1.0,
-        "risk_q": 0.2,
-        "quality": 0.609
-      }
-    },
-    {
       "slug": "archit-nuwood-industries",
       "name": "Archit Nuwood Industries",
       "expectation_gap_score": 0,
@@ -8389,6 +8351,44 @@
         "timing_q": 0.75,
         "risk_q": 0.2,
         "quality": 0.331
+      }
+    },
+    {
+      "slug": "axiscades-engineering",
+      "name": "Axiscades Engineering",
+      "expectation_gap_score": 0,
+      "conviction_score": 18.09,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "mid-cap",
+      "gap_direction": "over-optimistic",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2/Q3 FY27 prints from the pure-play continuing entity showing defence revenue +75% and margin recovering off 11.8%, plus Devanahalli Atmanirbhar Complex Phase 1 commissioning",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 4,
+      "risk_open_spofs": [
+        "commissioning timeline slippage",
+        "manufacturing margin proof",
+        "manufacturing ramp speed",
+        "pace of drdo/dpsu order flow"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.2,
+        "quality": 0.609
       }
     },
     {
@@ -8564,41 +8564,6 @@
       }
     },
     {
-      "slug": "bhagyanagar-india",
-      "name": "Bhagyanagar India Ltd",
-      "expectation_gap_score": 0,
-      "conviction_score": 16.38,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "Small-cap (~Rs 1,244 Cr)",
-      "gap_direction": "over-optimistic",
-      "gap_type": "margin",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "monitor",
-      "catalyst_event": "Completion of the NCLT Composite Scheme of Arrangement and separate listing of Tieramet Ltd (copper business demerger)",
-      "catalyst_window_months": 6,
-      "catalyst_window_start": "2026-09-05",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 1,
-      "risk_open_spofs": [
-        "regulatory/listing timeline slippage"
-      ],
-      "flags": [
-        "no-edge"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.5,
-        "catalyst_q": 0.6,
-        "timing_q": 1.0,
-        "risk_q": 0.8,
-        "quality": 0.675
-      }
-    },
-    {
       "slug": "john-cockerill-india-a-case-study-on-decarbonisation-of-steel",
       "name": "John Cockerill India: A Case Study on Decarbonisation of Steel",
       "expectation_gap_score": 0,
@@ -8708,6 +8673,41 @@
       }
     },
     {
+      "slug": "bhagyanagar-india",
+      "name": "Bhagyanagar India Ltd",
+      "expectation_gap_score": 0,
+      "conviction_score": 15.02,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 1,244 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "monitor",
+      "catalyst_event": "Completion of the NCLT Composite Scheme of Arrangement and separate listing of Tieramet Ltd (copper business demerger)",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-05",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "regulatory/listing timeline slippage"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.5,
+        "catalyst_q": 0.6,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.675
+      }
+    },
+    {
       "slug": "bhadora-industries",
       "name": "Bhadora Industries Ltd",
       "expectation_gap_score": 0,
@@ -8780,7 +8780,7 @@
       "slug": "sg-finserve",
       "name": "SG Finserve Ltd",
       "expectation_gap_score": 0,
-      "conviction_score": 13.81,
+      "conviction_score": 12.65,
       "conviction": "Low-Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -9282,14 +9282,7 @@
     {
       "slug": "nuvama-wealth-management",
       "name": "Nuvama Wealth Management Ltd",
-      "conviction_score": 35.55,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "bajaj-consumer-care",
-      "name": "Bajaj Consumer Care Ltd",
-      "conviction_score": 35.0,
+      "conviction_score": 43.59,
       "conviction": "Medium-High",
       "thesis_fit": "neither"
     },
@@ -9301,18 +9294,18 @@
       "thesis_fit": "neither"
     },
     {
+      "slug": "bajaj-consumer-care",
+      "name": "Bajaj Consumer Care Ltd",
+      "conviction_score": 32.25,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither"
+    },
+    {
       "slug": "kirloskar-pneumatic",
       "name": "Kirloskar Pneumatic Co Ltd (KPCL)",
       "conviction_score": 32.0,
       "conviction": "Medium",
       "thesis_fit": "neither"
-    },
-    {
-      "slug": "transrail-lighting",
-      "name": "Transrail Lighting Ltd",
-      "conviction_score": 31.65,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
     },
     {
       "slug": "trualt-bioenergy",
@@ -9413,6 +9406,13 @@
       "thesis_fit": "neither"
     },
     {
+      "slug": "transrail-lighting",
+      "name": "Transrail Lighting Ltd",
+      "conviction_score": 26.65,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
       "slug": "gokul-agro-resources-ltd",
       "name": "Gokul Agro Resources Ltd",
       "conviction_score": 26.65,
@@ -9431,6 +9431,13 @@
       "name": "Globus Spirits",
       "conviction_score": 25.83,
       "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "uno-minda",
+      "name": "Uno Minda Ltd",
+      "conviction_score": 25.49,
+      "conviction": "Low-Medium",
       "thesis_fit": "neither"
     },
     {
@@ -10069,13 +10076,6 @@
       "conviction_score": 16.81,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "uno-minda",
-      "name": "Uno Minda Ltd",
-      "conviction_score": 16.41,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither"
     },
     {
       "slug": "godfrey-phillips-india",
@@ -11030,13 +11030,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "shadowfax-valuation-model",
-      "name": "ShadowFax Valuation Model",
-      "conviction_score": 11.3,
-      "conviction": "Low",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "central-depository-services",
       "name": "Central Depository Services (India) Ltd (CDSL)",
       "conviction_score": 11.3,
@@ -11151,6 +11144,13 @@
     {
       "slug": "polyplex-corporation-are-good-days-ahead",
       "name": "\u201cPolyplex Corporation \u201c Are Good Days Ahead?",
+      "conviction_score": 9.98,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "shadowfax-valuation-model",
+      "name": "ShadowFax Valuation Model",
       "conviction_score": 9.98,
       "conviction": "Low",
       "thesis_fit": "neither"
@@ -11279,6 +11279,13 @@
       "name": "HCL Technologies Ltd",
       "conviction_score": 9.65,
       "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "shriram-pistons-rings",
+      "name": "Shriram Pistons & Rings Ltd",
+      "conviction_score": 9.49,
+      "conviction": null,
       "thesis_fit": "neither"
     },
     {
@@ -12934,13 +12941,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "shriram-pistons-rings",
-      "name": "Shriram Pistons & Rings Ltd",
-      "conviction_score": 0.83,
-      "conviction": null,
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "jindal-drilling",
       "name": "Jindal Drilling",
       "conviction_score": 0.17,
@@ -13725,7 +13725,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 42.66,
-      "conviction_score": 42.8
+      "conviction_score": 41.48
     },
     {
       "slug": "freshara-agro-exports",
@@ -13923,7 +13923,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 0,
-      "conviction_score": 24.65
+      "conviction_score": 27.12
     },
     {
       "slug": "modison-ltd",
@@ -14088,7 +14088,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 0,
-      "conviction_score": 16.38
+      "conviction_score": 15.02
     },
     {
       "slug": "jg-chemicals-ltd",
@@ -14110,7 +14110,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 31.34,
-      "conviction_score": 39.8
+      "conviction_score": 37.05
     },
     {
       "slug": "kernex-microsystems",
@@ -14121,7 +14121,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 31.34,
-      "conviction_score": 39.8
+      "conviction_score": 37.05
     },
     {
       "slug": "gufic-biosciences",
@@ -14242,7 +14242,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 0,
-      "conviction_score": 19.04
+      "conviction_score": 18.09
     },
     {
       "slug": "john-cockerill-india-a-case-study-on-decarbonisation-of-steel",
@@ -14792,7 +14792,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 4.06,
-      "conviction_score": 20.65
+      "conviction_score": 23.12
     },
     {
       "slug": "frontier-springs",
@@ -15309,7 +15309,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 3.54,
-      "conviction_score": 43.15
+      "conviction_score": 45.62
     },
     {
       "slug": "obsc-perfection",
@@ -15881,7 +15881,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 23.34,
-      "conviction_score": 57.95
+      "conviction_score": 59.62
     },
     {
       "slug": "emmvee-photovoltaic-power",

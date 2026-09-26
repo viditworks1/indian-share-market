@@ -859,34 +859,6 @@
       }
     },
     {
-      "slug": "harshdeep-hortico",
-      "name": "Harshdeep Hortico Ltd (SME)",
-      "master_score": 52.43,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 3,
-        "note": "FY24, FY25 and FY26 each combined revenue growth >=20% with ROE/ROCE >=23%. Only ~3 years of public filings as a Feb-2024 BSE-SME listing, so a short verifiable base - not a decade-long Coffee Can record."
-      },
-      "score_breakdown": {
-        "conviction_score": 42.8,
-        "quality_score": 48.0,
-        "expectation_gap_score": 42.66,
-        "consistency_score": 100,
-        "asymmetry_score": 41.33,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "aeroflex-industries",
       "name": "Aeroflex Industries Ltd",
       "master_score": 52.36,
@@ -932,6 +904,34 @@
         "expectation_gap_score": 30.04,
         "consistency_score": 40,
         "asymmetry_score": 49.02,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "harshdeep-hortico",
+      "name": "Harshdeep Hortico Ltd (SME)",
+      "master_score": 52.1,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 3,
+        "note": "FY24, FY25 and FY26 each combined revenue growth >=20% with ROE/ROCE >=23%. Only ~3 years of public filings as a Feb-2024 BSE-SME listing, so a short verifiable base - not a decade-long Coffee Can record."
+      },
+      "score_breakdown": {
+        "conviction_score": 41.48,
+        "quality_score": 48.0,
+        "expectation_gap_score": 42.66,
+        "consistency_score": 100,
+        "asymmetry_score": 41.33,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -1335,6 +1335,34 @@
       }
     },
     {
+      "slug": "sambhv-steel-tubes",
+      "name": "Sambhv Steel Tubes",
+      "master_score": 45.95,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 4,
+        "note": "screener.in FY22-FY26: revenue growth >=10% every year (+71/+14/+37/+17/+60%); ROCE >=15% in FY22 (23%), FY23 (22%), FY25 (19%), FY26 (19%) but only 14% in FY24 during the steel-cycle PAT dip. 4 of 5 years clear both. Pre-IPO base (listed 2025); FY21 ROCE 37% excluded as no prior-year growth rate."
+      },
+      "score_breakdown": {
+        "conviction_score": 59.62,
+        "quality_score": 43.0,
+        "expectation_gap_score": 23.34,
+        "consistency_score": 80,
+        "asymmetry_score": 24.17,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "jubilant-agri-and-consumer-products-ltd-a-hidden-gem-from-the-jubilant-group",
       "name": "Jubilant Agri and Consumer Products Ltd (JACPL) \u2014 A Hidden Gem from the Jubilant Group?",
       "master_score": 45.85,
@@ -1352,34 +1380,6 @@
         "expectation_gap_score": 7.78,
         "consistency_score": 67,
         "asymmetry_score": 37.89,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "sambhv-steel-tubes",
-      "name": "Sambhv Steel Tubes",
-      "master_score": 45.53,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 4,
-        "note": "screener.in FY22-FY26: revenue growth >=10% every year (+71/+14/+37/+17/+60%); ROCE >=15% in FY22 (23%), FY23 (22%), FY25 (19%), FY26 (19%) but only 14% in FY24 during the steel-cycle PAT dip. 4 of 5 years clear both. Pre-IPO base (listed 2025); FY21 ROCE 37% excluded as no prior-year growth rate."
-      },
-      "score_breakdown": {
-        "conviction_score": 57.95,
-        "quality_score": 43.0,
-        "expectation_gap_score": 23.34,
-        "consistency_score": 80,
-        "asymmetry_score": 24.17,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -2666,34 +2666,6 @@
       }
     },
     {
-      "slug": "south-west-pinnacle-exploration",
-      "name": "South West Pinnacle Exploration",
-      "master_score": 36.76,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 9,
-        "years_cleared": 2,
-        "note": "Per screener.in consolidated (FY18-FY26): only FY25 (+35% revenue / ROCE 20%) is a clean pass; FY26 (+35% revenue, ROCE ~15% per company Q1 FY27 update, not yet on screener) is a marginal pass. FY18-FY24 all had ROCE 8-13%, below the 15% bar, even in years revenue grew >10% (FY21 +21%, FY22 +14%). The operating-leverage inflection is FY25-onwards only."
-      },
-      "score_breakdown": {
-        "conviction_score": 40.25,
-        "quality_score": 55.0,
-        "expectation_gap_score": 24.19,
-        "consistency_score": 22,
-        "asymmetry_score": 32.09,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "goodluck-india",
       "name": "Goodluck India Ltd",
       "master_score": 36.37,
@@ -3018,6 +2990,34 @@
       }
     },
     {
+      "slug": "south-west-pinnacle-exploration",
+      "name": "South West Pinnacle Exploration",
+      "master_score": 34.51,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 9,
+        "years_cleared": 2,
+        "note": "Per screener.in consolidated (FY18-FY26): only FY25 (+35% revenue / ROCE 20%) is a clean pass; FY26 (+35% revenue, ROCE ~15% per company Q1 FY27 update, not yet on screener) is a marginal pass. FY18-FY24 all had ROCE 8-13%, below the 15% bar, even in years revenue grew >10% (FY21 +21%, FY22 +14%). The operating-leverage inflection is FY25-onwards only."
+      },
+      "score_breakdown": {
+        "conviction_score": 31.25,
+        "quality_score": 55.0,
+        "expectation_gap_score": 24.19,
+        "consistency_score": 22,
+        "asymmetry_score": 32.09,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "pitti-engineering",
       "name": "Pitti Engineering Ltd",
       "master_score": 34.3,
@@ -3204,34 +3204,6 @@
       }
     },
     {
-      "slug": "sona-blw-precision-forgings",
-      "name": "Sona BLW Precision Forgings Ltd",
-      "master_score": 32.98,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 8,
-        "years_cleared": 7,
-        "note": "Per screener.in consolidated (FY19-FY26): every year except FY25 cleared both >=10% revenue growth and >=15% ROCE. FY19-FY24 ran ROCE 18-24% on 14-51% revenue growth; FY25 dipped to +11% revenue / ROCE 14% on the EV-demand air-pocket; FY26 recovered to +25.5% revenue with ROCE ~17-18%. A genuine Coffee-Can-grade consistency record."
-      },
-      "score_breakdown": {
-        "conviction_score": 25.22,
-        "quality_score": 36.0,
-        "expectation_gap_score": 5.38,
-        "consistency_score": 88,
-        "asymmetry_score": 22.69,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "mtar-technologies",
       "name": "MTAR Technologies Ltd",
       "master_score": 32.92,
@@ -3325,6 +3297,34 @@
         "expectation_gap_score": 31.34,
         "consistency_score": 33,
         "asymmetry_score": 15.67,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "sona-blw-precision-forgings",
+      "name": "Sona BLW Precision Forgings Ltd",
+      "master_score": 32.65,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 8,
+        "years_cleared": 7,
+        "note": "Per screener.in consolidated (FY19-FY26): every year except FY25 cleared both >=10% revenue growth and >=15% ROCE. FY19-FY24 ran ROCE 18-24% on 14-51% revenue growth; FY25 dipped to +11% revenue / ROCE 14% on the EV-demand air-pocket; FY26 recovered to +25.5% revenue with ROCE ~17-18%. A genuine Coffee-Can-grade consistency record."
+      },
+      "score_breakdown": {
+        "conviction_score": 23.9,
+        "quality_score": 36.0,
+        "expectation_gap_score": 5.38,
+        "consistency_score": 88,
+        "asymmetry_score": 22.69,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -3572,26 +3572,6 @@
       }
     },
     {
-      "slug": "transrail-lighting",
-      "name": "Transrail Lighting Ltd",
-      "master_score": 31.65,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 31.65,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "kamat-hotels",
       "name": "Kamat Hotels (India) Ltd- A Possible Turnaround Story!",
       "master_score": 31.63,
@@ -3617,29 +3597,6 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "gayatri-rubber-and-chemicals",
-      "name": "Gayatri Rubber and Chemicals",
-      "master_score": 31.54,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 28.25,
-        "quality_score": 63.0,
-        "expectation_gap_score": 3.63,
-        "consistency_score": null,
-        "asymmetry_score": 21.82,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
       }
     },
     {
@@ -4924,6 +4881,26 @@
       }
     },
     {
+      "slug": "transrail-lighting",
+      "name": "Transrail Lighting Ltd",
+      "master_score": 26.65,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 26.65,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
       "slug": "gokul-agro-resources-ltd",
       "name": "Gokul Agro Resources Ltd",
       "master_score": 26.65,
@@ -4941,6 +4918,29 @@
           "conviction_score"
         ],
         "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "gayatri-rubber-and-chemicals",
+      "name": "Gayatri Rubber and Chemicals",
+      "master_score": 26.54,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 11.25,
+        "quality_score": 63.0,
+        "expectation_gap_score": 3.63,
+        "consistency_score": null,
+        "asymmetry_score": 21.82,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
       }
     },
     {
@@ -10874,34 +10874,6 @@
       }
     },
     {
-      "slug": "axiscades-engineering",
-      "name": "Axiscades Engineering",
-      "master_score": 15.51,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 0,
-        "note": "5-yr sales CAGR ~0.27%; ROCE has stayed in a 12-14% band, below the 15% bar; no year in the last 5 cleared both revenue growth >=10% and ROCE >=15% in the same year. The defence pivot is explicitly a bet on breaking from this record."
-      },
-      "score_breakdown": {
-        "conviction_score": 19.04,
-        "quality_score": 28.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 0,
-        "asymmetry_score": 25.0,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "i-g-petrochemicals",
       "name": "I G Petrochemicals Ltd",
       "master_score": 15.43,
@@ -10919,6 +10891,34 @@
         "expectation_gap_score": 16.31,
         "consistency_score": 22,
         "asymmetry_score": 10.15,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "axiscades-engineering",
+      "name": "Axiscades Engineering",
+      "master_score": 15.27,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 0,
+        "note": "5-yr sales CAGR ~0.27%; ROCE has stayed in a 12-14% band, below the 15% bar; no year in the last 5 cleared both revenue growth >=10% and ROCE >=15% in the same year. The defence pivot is explicitly a bet on breaking from this record."
+      },
+      "score_breakdown": {
+        "conviction_score": 18.09,
+        "quality_score": 28.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 0,
+        "asymmetry_score": 25.0,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -11437,26 +11437,6 @@
       }
     },
     {
-      "slug": "shadowfax-valuation-model",
-      "name": "ShadowFax Valuation Model",
-      "master_score": 11.3,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 11.3,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "central-depository-services",
       "name": "Central Depository Services (India) Ltd (CDSL)",
       "master_score": 11.3,
@@ -11875,6 +11855,26 @@
     {
       "slug": "polyplex-corporation-are-good-days-ahead",
       "name": "\u201cPolyplex Corporation \u201c Are Good Days Ahead?",
+      "master_score": 9.98,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 9.98,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "shadowfax-valuation-model",
+      "name": "ShadowFax Valuation Model",
       "master_score": 9.98,
       "red_flag_tier": null,
       "conviction": "Low",
@@ -12617,34 +12617,6 @@
           "conviction_score"
         ],
         "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "sg-finserve",
-      "name": "SG Finserve Ltd",
-      "master_score": 8.2,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 0,
-        "note": "NBFC -- profitability leg on ROE. Per screener.in, revenue scaled fast (FY24 +363%, FY26 +96%) but ROE stuck at 9-11% (FY24 11% / FY25 9% / FY26 10%), never near 15%; FY25 revenue actually declined 11%. Pre-FY24 revenue was negligible (~Rs 2 Cr). Zero years cleared both tests -- a capital-hungry sub-scale model."
-      },
-      "score_breakdown": {
-        "conviction_score": 13.81,
-        "quality_score": 19.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 0,
-        "asymmetry_score": 0,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
       }
     },
     {
@@ -16617,6 +16589,34 @@
       }
     },
     {
+      "slug": "sg-finserve",
+      "name": "SG Finserve Ltd",
+      "master_score": 7.91,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 0,
+        "note": "NBFC -- profitability leg on ROE. Per screener.in, revenue scaled fast (FY24 +363%, FY26 +96%) but ROE stuck at 9-11% (FY24 11% / FY25 9% / FY26 10%), never near 15%; FY25 revenue actually declined 11%. Pre-FY24 revenue was negligible (~Rs 2 Cr). Zero years cleared both tests -- a capital-hungry sub-scale model."
+      },
+      "score_breakdown": {
+        "conviction_score": 12.65,
+        "quality_score": 19.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 0,
+        "asymmetry_score": 0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "krsnaa-diagnostics",
       "name": "Krsnaa Diagnostics",
       "master_score": 7.79,
@@ -16685,29 +16685,6 @@
       }
     },
     {
-      "slug": "bhagyanagar-india",
-      "name": "Bhagyanagar India Ltd",
-      "master_score": 7.46,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 16.38,
-        "quality_score": 9.0,
-        "expectation_gap_score": 0,
-        "consistency_score": null,
-        "asymmetry_score": 0,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
       "slug": "permanent-magnets",
       "name": "Permanent Magnets",
       "master_score": 7.22,
@@ -16733,6 +16710,29 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "bhagyanagar-india",
+      "name": "Bhagyanagar India Ltd",
+      "master_score": 7.06,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 15.02,
+        "quality_score": 9.0,
+        "expectation_gap_score": 0,
+        "consistency_score": null,
+        "asymmetry_score": 0,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
       }
     },
     {

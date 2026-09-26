@@ -44,7 +44,7 @@
     "As an EPC business, one non-trusted but reasonable poster noted the company has no real structural moat versus larger peers (KEC, KPIL)"
   ],
   "market_cap_tier": "Small-cap (~Rs 6,176 Cr)",
-  "thesis_fit": "10x-in-2-3-years",
+  "thesis_fit": "neither",
   "verdict_headline": "Strong underlying execution and order book undercut by a real tax penalty and a cluster of unresolved sentiment overhangs the community itself couldn't explain away",
   "verdict_reasoning": [
     "Fundamentals (ROCE, order book, margins, clean promoter holding) support a genuine small-cap growth case",
@@ -61,5 +61,16 @@
     "valuation": "weak",
     "score": 2.0,
     "note": "T&D EPC order book (~Rs15,000-17,800cr incl L1, ~2.5-3x mkt cap) gives real multi-year revenue visibility (tam yes); one poster explicitly notes no structural moat vs larger peers (KEC, KPIL) — no; GST penalty (Rs42.74cr) + unresolved Nov-2025 reputational rumors are separate risks; most-engaged trusted participant called valuation 'fair' not attractive — weak."
+  },
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-09-26",
+    "sources_reviewed": ["VP forum thread (50 of 67 posts, Feb 2025-Jul 2026)", "Company fundamentals: Rs 15k-17.8k Cr order book vs Rs 6.1k Cr mcap"],
+    "annual_report_findings": ["FY26 revenue Rs 6.88k Cr (+30% YoY), ROCE 29.2%, EBITDA margin 12%", "Order book Rs 15-17.8k Cr (incl. L1) provides 2.5-3x revenue visibility"],
+    "quarterly_trend": ["Consistent strong execution, no downside surprise in recent results"],
+    "recent_announcements": ["May 2026 GST Authority order: Rs 8.23 Cr unpaid tax + Rs 42.74 Cr penalty (outcome unresolved)"],
+    "key_new_facts": ["Stock pulled back to near-IPO levels (~Rs 450 area) despite unchanged fundamentals", "Tax penalty + Nov 2025 reputational items (Angola safety rumor, TARIL association) remain unresolved"],
+    "open_questions": ["What is the outcome of the GST penalty appeal?", "Are the Nov 2025 rumors material or sectoral noise?"],
+    "conviction_update": "Medium (inferred from thread consensus) → Medium. Order book + execution are strong, but unresolved tax penalty (Rs 42.74 Cr) and lingering Nov 2025 sentiment overhangs (Angola incident, TARIL association) argue for caution. No trusted-user conviction call exists. Monitor tax resolution + concall tone for clarity."
   }
 }
