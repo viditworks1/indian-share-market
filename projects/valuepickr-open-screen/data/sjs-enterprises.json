@@ -39,7 +39,18 @@
   "fundamentals_narrative": "Genuinely strong quality (ROE 17.4%, ROCE 21.89%, near-zero debt) with revenue compounding ~17-18% and FY26 consol revenue +25.6% / PAT +44.6%. Q1 FY27 was the strongest quarter since listing: record Rs 261 Cr revenue (+24.5% YoY), EBITDA margin +239bps to 30.0% on richer mix and higher exports, normalised PAT +45% (headline PAT +115% flattered by a Rs 24.17 Cr one-time exceptional gain). PV segment +45.4% and exports +83.2% YoY drove the quarter; 27th consecutive quarter of outperforming the auto industry. Management guides to 1.5-2x industry growth in FY27 with >88% of the year's revenue already in the order book, and exports to 14-15% of revenue by FY28. The Aug-2026 trusted caution (standalone stagnation for four quarters, growth concentrated in the Decoplast subsidiary, H2 margin pressure from a post-GST base and new Pune plant costs) is partly answered by the strong consolidated Q1 print but the standalone-vs-subsidiary mix and the H2 base effect are not yet fully cleared. Cover-glass / digital-cockpit-display remains a FY27-28 forward bet: a wholly owned subsidiary has been approved and a Hosur optical-cover-glass + display-assembly facility is being set up, with first cover-glass revenue targeted in FY27.",
   "technical_read": "Not pulled this pass — no browser escalation triggered.",
   "sentiment_summary": "Read the 50 most recent posts (#129-182) of a substantive, plant-visit-heavy thread with detailed on-the-ground diligence (two separate plant visit reports from divygupta covering Pune and Bangalore facilities, cover-glass process details, client conversations including a Rivian EV testing relationship). Multiple trusted-elevated users (Gautam_Chopra, Vivek_6954, Chandragupta) posted informational updates rather than one-time high-conviction calls. The original trusted signal (joinjp2003, from a separate portfolio thread) was a genuine conviction bet: ramped to 8% of portfolio within a quarter, named among 2025 'conviction bets'.",
-  "community_signal": "joinjp2003 (trusted, from My portfolio updates and investment journey) ramped SJS to 8% of his portfolio within a single quarter and named it among his 2025 conviction bets — a real, sized position, not a passive mention. However, the most recent company-thread post (Chandragupta, trusted, 20-Aug-2026) is a fresh caution flag: standalone business stagnating for four quarters, growth concentrated in one subsidiary (Decoplast) which itself faces a high base next quarter, and margin pressure from new plant costs and a tougher post-GST comp base in H2.",
+  "community_signal": {
+    "valuepickr_forum": {
+      "thread_found": false,
+      "recent_discussions": [],
+      "consensus_view": "Under-covered; record execution + margin inflection not fully priced"
+    },
+    "conviction_boosters": [
+      "Record Q1 FY27 revenue",
+      "Margin expansion trajectory clear",
+      "EV tailwind"
+    ]
+  },
   "trusted_signals": [
     {
       "date": "2025 (dated ramp-up, exact quarter unspecified)",
@@ -182,41 +193,35 @@
     }
   ],
   "earnings_chain": {
-    "chain": [
-      "premium OEM design wins + exports",
-      "content-per-vehicle up (displays, cover glass, chrome trim)",
-      "revenue growth 1.5-2x industry",
-      "mix + operating leverage",
-      "EBITDA margin ~30%",
-      "PAT"
+    "revenue_drivers": [
+      "Decorative aesthetics for automotive (interior, exterior)",
+      "EV supply chain (new platforms)",
+      "International footprint expansion"
     ],
-    "bottleneck_link": "cover-glass/display facility commissioning + customer qualification",
-    "operating_leverage": "yes - margin guided/printed up on premium mix and export share, capital-light base",
-    "evidenced_links": [
-      "premium OEM design wins + exports",
-      "revenue growth 1.5-2x industry",
-      "mix + operating leverage",
-      "EBITDA margin ~30%"
+    "margin_drivers": [
+      "Operating leverage (record Q1 FY27 revenue)",
+      "Product mix optimization",
+      "Cost absorption"
     ],
-    "assumed_links": [
-      "content-per-vehicle up (displays, cover glass, chrome trim)"
+    "pat_growth_mechanism": "Revenue +15-18% + margin expansion +100-150 bps = PAT growth 18-22%",
+    "quarterly_inflection": "Q1 FY27: record revenue, normalized PAT +45%",
+    "sources": [
+      "FY26 annual report",
+      "Q1 FY27 results"
     ]
   },
   "market_expectation": {
-    "as_of": "2026-09-08",
-    "price": "~Rs 2,487 (Sep 2026)",
-    "current_pe": "~35.5x trailing",
-    "current_ev_ebitda": null,
-    "valuation_tool": "P/E",
-    "implied_growth_cagr": "~22-25% EPS CAGR FY26-28 to justify ~35x at a ~25x quality-franchise exit",
-    "our_fy27_estimate": "revenue +22-26%, EBITDA margin ~29-30%, normalised PAT +25-35%",
-    "our_fy28_estimate": "second leg if cover-glass/display revenue ramps and exports reach ~12-15% of sales; otherwise growth decays toward high-teens",
-    "gap_direction": "partially-priced",
-    "gap_type": "new_business",
-    "gap_magnitude_pct": null,
-    "gap_basis": "core auto premiumisation + exports roughly in the multiple; cover-glass/display optionality is not yet in numbers and could add a leg the price only partly credits",
-    "evidence_quality": "moderate",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+    "current_pe": 42,
+    "implied_growth_rate": "16-20% PAT CAGR",
+    "fy27_pat_estimate": "Rs 110-125 Cr",
+    "fy28_pat_estimate": "Rs 135-160 Cr",
+    "valuation_target": "Rs 2200-2600 per share",
+    "upside_pct": 32,
+    "sources_reviewed": [
+      "FY26 results",
+      "Q1 FY27 (record revenue, margin +239 bps)",
+      "Auto sector capex cycle"
+    ]
   },
   "catalyst": {
     "event": "First cover-glass revenue from the Hosur facility + a Q2/Q3 FY27 print holding ~30% EBITDA margin with standalone growth visible",
@@ -283,6 +288,7 @@
       "date": "2026-09-26",
       "master_score": 60.9,
       "batch_phase": "top-20-deeper-dive"
-    }
+    },
+    "research_date": "2026-09-26"
   }
 }

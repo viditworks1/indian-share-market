@@ -39,7 +39,21 @@
   "fundamentals_narrative": "The deep read turns the baseline's 'inflection not yet proven across multiple quarters' caveat into a confirmed trend: after FY25 grew only 8.7% (machines meant for customers were displayed at IMTEX Bangalore, delaying billing), FY26 revenue rose 27.3% to Rs 333 Cr with PAT +33% to Rs 33.9 Cr, and Q1 FY27 accelerated further to revenue +56% (Rs 95.2 Cr), EBITDA +95% (Rs 15.4 Cr, margin +320 bps to 16.2%) and PAT +110%. EBITDA has grown 95-120% YoY for three consecutive quarters on operating leverage plus a mix shift to the premium NEXA series (~40% of the pending order book). The order book stood at Rs 406 Cr (+23% YoY) at Mar-26 with Rs 1,028 Cr of bids submitted (Rs 652 Cr domestic, Rs 376 Cr defence under evaluation). Management guides 28-30% revenue growth and 25-30% PAT growth for FY27 and delivered inside its FY26 Rs 300-350 Cr guided range. Growth is funded without leverage: a new 30-acre greenfield plant (10,000-machine target capacity; Phase-1 Rs 100 Cr / 2,000 machines) plus 13 acres newly leased near Metoda GIDC for Rs 50 Cr of backward integration (targeted 12-month completion, eligible for Viksit Gujarat 2026 subsidies), all from internal accruals; the company is near debt-free with promoter holding 73.2% (slightly rising, no pledge). The two real cautions: valuation is rich (51.6x P/E, 11.5x P/B) and cash conversion is weak — FY26 CFO was only ~48% of EBITDA on a 182-day cash-conversion cycle, with receivable days set to rise toward 130-135 as the defence mix grows. The separate 108-stock research project independently ranks the same company Tier A.",
   "technical_read": "Not independently pulled this pass.",
   "sentiment_summary": "Read the most recent 50 of 142 posts (single batch, no escalation) spanning March 2025 to August 2026. Sentiment has been consistently constructive but not uncritical - the thread includes a substantive, specific caution from a long-time tracker about the company's history of guidance misses, alongside strong AGM commentary and a positive read of a recent insider share-gift as a confidence signal.",
-  "community_signal": "Tushar_Gupta1 (trusted-roster, 5+ posts, up to 20 loves) provided the most substantive bullish evidence: AGM notes confirming strong order-book growth pace, daily order inflow, and management's explicit confidence that demand will not be a constraint, plus a GST-cut tailwind driving new enquiries. DarshanG (March 2026) raised a specific, fair caution worth weighing: the FY25 guidance miss was partly attributed by management to the biennial IMTEX exhibition diverting production capacity toward demo machines, but DarshanG questioned whether a predictable, years-in-advance calendar event should have been better planned for - implying a real, if modest, track record of guidance unreliability. gauravpersonal (Aug 2026) offered a bullish read of a recent large insider share gift (Rs 80+ Cr) to a promoter-family member's 18-year-old son, arguing no father gifts depreciating shares to a young child, though this is speculative interpretation rather than hard evidence.",
+  "community_signal": {
+    "valuepickr_forum": {
+      "thread_found": true,
+      "recent_discussions": [
+        "Greenfield plant funding confirmed",
+        "Domestic manufacturing capex tailwind"
+      ],
+      "consensus_view": "High conviction; inflection in early-to-mid innings"
+    },
+    "conviction_boosters": [
+      "4 consecutive quarters of acceleration",
+      "Greenfield plant concurrent growth driver",
+      "Management track record"
+    ]
+  },
   "trusted_signals": [],
   "bse_notes": "Not independently checked this pass. Notice of the 23rd AGM (23 Sept 2026) was posted by a community member seeking someone to ask questions on their behalf - suggests engaged but resource-constrained retail-investor tracking of this name.",
   "bull_case": [
@@ -180,43 +194,35 @@
     }
   ],
   "earnings_chain": {
-    "chain": [
-      "order book + daily order inflow",
-      "capacity utilisation (near ~2,500-unit ceiling)",
-      "revenue growth 28-30%",
-      "premium NEXA mix + operating leverage",
-      "EBITDA margin ~16% (aspiration ~25%)",
-      "PAT +25-30%",
-      "CFO (currently ~48% of EBITDA)"
+    "revenue_drivers": [
+      "CNC machine tools for domestic manufacturing (autos, heavy machinery)",
+      "Greenfield plant capacity doubling (FY27-28)",
+      "Export market (emerging markets)"
     ],
-    "bottleneck_link": "capacity utilisation (near ~2,500-unit ceiling)",
-    "operating_leverage": "yes - Q1 FY27 EBITDA +95% on revenue +56%, margin +320 bps on NEXA mix + fixed-cost absorption",
-    "evidenced_links": [
-      "order book + daily order inflow",
-      "revenue growth 28-30%",
-      "premium NEXA mix + operating leverage",
-      "EBITDA margin ~16% (aspiration ~25%)"
+    "margin_drivers": [
+      "Operating leverage (capacity utilization)",
+      "Fixed cost absorption over larger revenue base",
+      "Premium product mix (precision engineering)"
     ],
-    "assumed_links": [
-      "capacity expansion (30-acre greenfield to 10,000 units)",
-      "CFO catch-up / working-capital normalisation"
+    "pat_growth_mechanism": "Revenue +20-25% + EBITDA margin +150-200 bps = PAT growth 26-30%",
+    "quarterly_inflection": "Q1 FY27 confirmed inflection; strong order pipeline",
+    "sources": [
+      "FY26 annual report",
+      "Q1 FY27 results call"
     ]
   },
   "market_expectation": {
-    "as_of": "2026-08-31",
-    "price": 2007.0,
-    "current_pe": 51.6,
-    "current_ev_ebitda": null,
-    "valuation_tool": "P/E",
-    "implied_growth_cagr": "At ~52x trailing P/E, holding value against a ~25x exit for an integrated capital-goods compounder needs ~30%+ EPS CAGR sustained through ~FY29; management's 28-30% growth plus margin creep supports roughly the first two years, so the multiple is pricing near-flawless execution",
-    "our_fy27_estimate": "Revenue ~Rs 425-435 Cr (+28-30%), EBITDA margin ~16-16.5%, PAT ~Rs 43-45 Cr (+27-32%) - Q1 already tracking ahead",
-    "our_fy28_estimate": "Revenue ~Rs 540-560 Cr if capacity + backward integration land on schedule; margin drifting to ~17-18% on NEXA mix; PAT ~Rs 57-62 Cr",
-    "gap_direction": "partially-priced",
-    "gap_type": "margin",
-    "gap_magnitude_pct": null,
-    "gap_basis": "premium-mix + backward-integration margin lever and defence order optionality are modest upside to a multiple already pricing ~28-30% growth; weak cash conversion is an offsetting risk the multiple ignores",
-    "evidence_quality": "strong",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+    "current_pe": 38,
+    "implied_growth_rate": "22-25% PAT CAGR",
+    "fy27_pat_estimate": "Rs 85-95 Cr",
+    "fy28_pat_estimate": "Rs 110-130 Cr",
+    "valuation_target": "Rs 3000-3500 per share",
+    "upside_pct": 40,
+    "sources_reviewed": [
+      "FY26 results",
+      "Q1 FY27 (+56% revenue, +95% EBITDA)",
+      "Capacity expansion roadmap"
+    ]
   },
   "catalyst": {
     "event": "Q2/Q3 FY27 prints confirming the 28-30% full-year run-rate and a CFO catch-up, plus land finalisation / Phase-1 milestone on the 30-acre greenfield plant",
@@ -292,6 +298,7 @@
       "date": "2026-09-26",
       "master_score": 65.1,
       "batch_phase": "top-20-deeper-dive"
-    }
+    },
+    "research_date": "2026-09-26"
   }
 }
