@@ -1,6 +1,6 @@
 {
   "method": "Composite of conviction_score/quality_score/expectation_gap_score/consistency_score/asymmetry_score, weighted 0.25/0.25/0.20/0.15/0.15 and renormalized over whichever are present. Formula + investor research in MASTER_SCORE_METHODOLOGY.md.",
-  "scored_count": 886,
+  "scored_count": 894,
   "not_assessed_count": 0,
   "consistency_score_coverage": 192,
   "asymmetry_score_coverage": 242,
@@ -971,6 +971,26 @@
       }
     },
     {
+      "slug": "hitachi-energy",
+      "name": "Hitachi Energy India Ltd",
+      "master_score": 51.06,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 51.06,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
       "slug": "cff-fluid-control",
       "name": "CFF Fluid Control Ltd",
       "master_score": 50.65,
@@ -1472,6 +1492,26 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "trent",
+      "name": "Trent -- A value unlocking story from the house of TATA",
+      "master_score": 45.0,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "100x-in-10-years",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 45.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
       }
     },
     {
@@ -10803,6 +10843,46 @@
       }
     },
     {
+      "slug": "shyam-metalics-and-energy",
+      "name": "Shyam Metalics and Energy Ltd",
+      "master_score": 16.0,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 16.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "midhani",
+      "name": "Mishra Dhatu Nigam (MIDHANI)",
+      "master_score": 16.0,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 16.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
       "slug": "morepen-labs",
       "name": "Morepen Labs",
       "master_score": 15.76,
@@ -12338,6 +12418,26 @@
     {
       "slug": "nalco-lowest-cost-producer-of-alumina-and-bauxite",
       "name": "National Aluminium Company Ltd (NALCO)",
+      "master_score": 9.03,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 9.03,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "asian-paints",
+      "name": "Asian Paints Ltd",
       "master_score": 9.03,
       "red_flag_tier": null,
       "conviction": "Low",
@@ -15329,6 +15429,26 @@
       }
     },
     {
+      "slug": "rir-power-electronics",
+      "name": "RIR Power Electronics Ltd",
+      "master_score": 8.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
       "slug": "zee-entertainment",
       "name": "Zee Entertainment",
       "master_score": 8.0,
@@ -16571,6 +16691,46 @@
     {
       "slug": "rbl-bank",
       "name": "RBL Bank",
+      "master_score": 8.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "grindwell-norton",
+      "name": "Grindwell Norton Ltd",
+      "master_score": 8.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "elecon-engineering",
+      "name": "Elecon Engineering Company",
       "master_score": 8.0,
       "red_flag_tier": null,
       "conviction": "Low",

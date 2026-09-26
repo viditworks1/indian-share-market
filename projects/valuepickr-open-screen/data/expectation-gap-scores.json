@@ -2,7 +2,7 @@
   "date_compiled": "2026-09-26",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
   "scored_count": 265,
-  "not_assessed_count": 621,
+  "not_assessed_count": 629,
   "ranked": [
     {
       "slug": "deepak-fertilizers-and-petrochemicals",
@@ -9280,6 +9280,20 @@
   ],
   "not_assessed": [
     {
+      "slug": "hitachi-energy",
+      "name": "Hitachi Energy India Ltd",
+      "conviction_score": 51.06,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years"
+    },
+    {
+      "slug": "trent",
+      "name": "Trent -- A value unlocking story from the house of TATA",
+      "conviction_score": 45.0,
+      "conviction": "Medium",
+      "thesis_fit": "100x-in-10-years"
+    },
+    {
       "slug": "nuvama-wealth-management",
       "name": "Nuvama Wealth Management Ltd",
       "conviction_score": 43.59,
@@ -10946,6 +10960,20 @@
       "thesis_fit": "neither"
     },
     {
+      "slug": "shyam-metalics-and-energy",
+      "name": "Shyam Metalics and Energy Ltd",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "midhani",
+      "name": "Mishra Dhatu Nigam (MIDHANI)",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
       "slug": "international-gemmological-institute-india-ltd",
       "name": "International Gemmological Institute (India) Ltd",
       "conviction_score": 15.65,
@@ -11305,6 +11333,13 @@
     {
       "slug": "nalco-lowest-cost-producer-of-alumina-and-bauxite",
       "name": "National Aluminium Company Ltd (NALCO)",
+      "conviction_score": 9.03,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "asian-paints",
+      "name": "Asian Paints Ltd",
       "conviction_score": 9.03,
       "conviction": "Low",
       "thesis_fit": "neither"
@@ -12318,6 +12353,13 @@
       "thesis_fit": "neither"
     },
     {
+      "slug": "rir-power-electronics",
+      "name": "RIR Power Electronics Ltd",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
       "slug": "zee-entertainment",
       "name": "Zee Entertainment",
       "conviction_score": 8.0,
@@ -12754,6 +12796,20 @@
     {
       "slug": "rbl-bank",
       "name": "RBL Bank",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "grindwell-norton",
+      "name": "Grindwell Norton Ltd",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "elecon-engineering",
+      "name": "Elecon Engineering Company",
       "conviction_score": 8.0,
       "conviction": "Low",
       "thesis_fit": "neither"

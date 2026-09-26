@@ -1,7 +1,7 @@
 {
   "method": "the user's stated screening framework (2026-09-04): growth + margins + ROCE + debt + capex + free cash flow + competitive advantage + management quality. This score covers the four legs (ROCE, debt, FCF, capex) that had no numeric home before. Formula in this script's docstring and scripts/QUALITY_SCORE_METHODOLOGY.md.",
   "scored_count": 249,
-  "not_assessed_count": 637,
+  "not_assessed_count": 645,
   "ranked": [
     {
       "slug": "venus-remedies",
@@ -6858,9 +6858,21 @@
   ],
   "not_assessed": [
     {
+      "slug": "hitachi-energy",
+      "name": "Hitachi Energy India Ltd",
+      "conviction_score": 51.06,
+      "red_flag_tier": null
+    },
+    {
       "slug": "nesco-ltd",
       "name": "Nesco Ltd",
       "conviction_score": 47.43,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "trent",
+      "name": "Trent -- A value unlocking story from the house of TATA",
+      "conviction_score": 45.0,
       "red_flag_tier": null
     },
     {
@@ -8412,6 +8424,18 @@
       "red_flag_tier": null
     },
     {
+      "slug": "shyam-metalics-and-energy",
+      "name": "Shyam Metalics and Energy Ltd",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "midhani",
+      "name": "Mishra Dhatu Nigam (MIDHANI)",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
       "slug": "international-gemmological-institute-india-ltd",
       "name": "International Gemmological Institute (India) Ltd",
       "conviction_score": 15.65,
@@ -8720,6 +8744,12 @@
     {
       "slug": "nalco-lowest-cost-producer-of-alumina-and-bauxite",
       "name": "National Aluminium Company Ltd (NALCO)",
+      "conviction_score": 9.03,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "asian-paints",
+      "name": "Asian Paints Ltd",
       "conviction_score": 9.03,
       "red_flag_tier": null
     },
@@ -9588,6 +9618,12 @@
       "red_flag_tier": null
     },
     {
+      "slug": "rir-power-electronics",
+      "name": "RIR Power Electronics Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
       "slug": "zee-entertainment",
       "name": "Zee Entertainment",
       "conviction_score": 8.0,
@@ -9962,6 +9998,18 @@
     {
       "slug": "rbl-bank",
       "name": "RBL Bank",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "grindwell-norton",
+      "name": "Grindwell Norton Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "elecon-engineering",
+      "name": "Elecon Engineering Company",
       "conviction_score": 8.0,
       "red_flag_tier": null
     },

@@ -528,3 +528,10 @@ Generated: 2026-09-26
 | Ashapura Minechem | 2026-09-16 | 2026-10-16 | Low |
 | Valor Estates (ex-DB Realty) | 2026-09-16 | 2026-10-16 | Low-Medium |
 | Trent -- A value unlocking story from the house of TATA | 2026-09-26 | 2026-10-26 | Medium |
+| RIR Power Electronics Ltd | 2026-09-26 | 2026-10-26 | Low |
+| Hitachi Energy India Ltd | 2026-09-26 | 2026-10-26 | Medium-High |
+| Asian Paints Ltd | 2026-09-26 | 2026-10-26 | Low |
+| Shyam Metalics and Energy Ltd | 2026-09-26 | 2026-10-26 | Low-Medium |
+| Grindwell Norton Ltd | 2026-09-26 | 2026-10-26 | Low |
+| Mishra Dhatu Nigam (MIDHANI) | 2026-09-26 | 2026-10-26 | Low-Medium |
+| Elecon Engineering Company | 2026-09-26 | 2026-10-26 | Low |
