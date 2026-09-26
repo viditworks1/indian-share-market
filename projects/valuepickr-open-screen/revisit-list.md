@@ -28,6 +28,7 @@ Generated: 2026-09-26
 | Vivid Electromech Ltd | 2026-09-28 | Medium-High |
 | P.E. Analytics Ltd (PROPEQUITY) | 2026-09-29 | Medium-High |
 | Dynamic Cables | 2026-09-29 | Medium-High |
+| Trent -- A value unlocking story from the house of TATA | 2026-10-26 | Medium |
 
 ---
 

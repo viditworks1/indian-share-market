@@ -1,5 +1,5 @@
 {
-  "date_compiled": "2026-09-25",
+  "date_compiled": "2026-09-26",
   "total_researched": 886,
   "intro": "This is a SECOND, criteria-free ranking of every researched stock - it does NOT apply the main screen's 10x-in-2-3-years / 100x-in-10-years thesis-fit gate. It exists as a hedge in case that return-magnitude bar is too strict and is excluding genuinely good opportunities (e.g. a high-quality large-cap with a real catalyst that just can't mathematically 10x). Ranked purely by conviction - the same fundamentals/technicals/community assessment used everywhere else in this project, just without the extreme-return filter. Cross-check against docs/00_SCREEN_RANKING.docx (the thesis-gated view) before acting - a stock ranked highly here but absent there is exactly the case this document is meant to catch.",
   "ranked": [
@@ -401,13 +401,6 @@
       "thesis_fit": "neither",
       "market_cap_tier": "Mid/Large-cap (~Rs 18,109 Cr)",
       "reason": "Quality steam turbine maker, real Q1FY27 margin/order-booking miss, emerging unproven US AI-data-center demand catalyst"
-    },
-    {
-      "name": "South West Pinnacle Exploration",
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap (~Rs 771 Cr)",
-      "reason": "Order book at all-time high (Rs 761 Cr), rig-depreciation operating leverage story, real India energy-self-reliance tailwind; Chandragupta (trusted) raised an unresolved accounting question, cash/capex flagged as tight."
     },
     {
       "name": "V2 Retail",
@@ -891,6 +884,13 @@
       "thesis_fit": "neither",
       "market_cap_tier": "Small/Mid-cap (~Rs 7,800 Cr)",
       "reason": "FY26 down year (rev -14%, PAT -36%); CDMO pivot debt-funded, FCF -Rs 186 Cr, borrowings +83%; group guide only 15-18% CAGR; Q1 FY27 rebounded"
+    },
+    {
+      "name": "Transrail Lighting Ltd",
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Small-cap",
+      "reason": "Order book Rs 15-17.8k Cr strong; GST penalty Rs 42.74 Cr unresolved; Nov 2025 sentiment items unclear."
     },
     {
       "name": "Zinka Logistics Solutions Ltd (BlackBuck)",
@@ -1453,13 +1453,6 @@
       "reason": "Confirmed Rs1,021cr+ order book (L&T, IRCON) upgrades moat/TAM to score 3.5, but debtor days to 121 days caps conviction."
     },
     {
-      "name": "Gayatri Rubber and Chemicals",
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "market_cap_tier": "Micro-cap (~Rs 255 Cr)",
-      "reason": "Strong ROCE/ROE/low debt but commodity-adjacent reclaimed-rubber, thin moat; four_box 2.5 (band, no exception) -> neither."
-    },
-    {
       "name": "Kody Technolabs",
       "conviction": "Medium",
       "thesis_fit": "neither",
@@ -1652,8 +1645,8 @@
       "name": "Kernex Microsystems",
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap (~Rs 2,914 Cr)",
-      "reason": "DUPLICATE of slug 'kernex-tcas-led-multi-year-growth-story' - same entity (Kernex Microsystems India Ltd), already fully deep-dived. Mirrors its verdict (conviction Medium, four_box permits label)."
+      "market_cap_tier": "Small-cap",
+      "reason": "Investor presentation Sept 4 reaffirms FY27\u201329 roadmap; no conviction change."
     },
     {
       "name": "Embassy REIT",
@@ -1766,6 +1759,13 @@
       "thesis_fit": "neither",
       "market_cap_tier": "Small-cap (~Rs 2,123 Cr)",
       "reason": "FY26 consolidated loss WIDENED (-Rs30.86cr); Q1FY27 +66% growth mostly inorganic (TCPL); TCPL bought from promoter-affiliate"
+    },
+    {
+      "name": "South West Pinnacle Exploration",
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Small-cap",
+      "reason": "Order book Rs 761 Cr all-time high, but 60% concentrated in 2 contracts; FCF negative; down 17% in 2 weeks."
     },
     {
       "name": "SJS Enterprises Ltd",
@@ -2090,13 +2090,6 @@
       "reason": "Now large mid-cap, rich 10.7x book valuation, ROCE only 11%; trusted signal stale (2019-20 Harita-merger era); thread now quiet; re-verified down from Medium-High."
     },
     {
-      "name": "Transrail Lighting Ltd",
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap (~Rs 6,176 Cr)",
-      "reason": "Strong T&D order book/execution but a confirmed Rs 42.74 Cr GST penalty and a cluster of unresolved Nov 2025 sentiment overhangs (Angola rumor, TARIL-fiasco association, short thesis) kept the stock at near-IPO levels."
-    },
-    {
       "name": "SML Isuzu Ltd",
       "conviction": "Low-Medium",
       "thesis_fit": "neither",
@@ -2289,8 +2282,8 @@
       "name": "KP Green Engineering Ltd",
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap (~Rs 1,258 Cr)",
-      "reason": "Sovrenn-news tier 4.65 (web-only; no dedicated thread). KP-group fabrication (lattice/transmission towers, solar structures, PEB, galvanising), FY26 rev +78% to ~Rs 1,250 Cr, PAT +85% to ~Rs 136 Cr, ~20% EBITDA margin, ~9x after ~56% drawdown, order book ~Rs 1,831 Cr. Sovrenn ~Rs 508 Cr orders hold. Dual priority-1 theme (fabrication + grid towers). Caps: fabrication P/E ceiling, KP-group RPT overhang, peak_margin_risk. thesis_fit 10x-in-2-3-years (unconfirmed) at Low-Medium."
+      "market_cap_tier": "Small-cap",
+      "reason": "FY26 +78% revenue, 9x P/E, Rs 1,831 Cr order book. Stock down 56% 1yr; fabrication ceiling + group-governance overhang."
     },
     {
       "name": "KP Energy Ltd",
@@ -2331,8 +2324,8 @@
       "name": "Desco Infratech Ltd",
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Micro-cap (~Rs 163 Cr)",
-      "reason": "Sovrenn-news tier 4.65. No VP thread - web/filings only; Step 3.05 found no topic. Sovrenn trigger (5 TPD Bulandshahr CBG plant Phase-1 commissioned Jun 2026) holds. Tiny CGD-pipeline EPC-services contractor with a real FY26 inflection: revenue ~+99% to ~Rs 119 Cr, ~25% ROE, essentially net-cash, order book ~Rs 345 Cr (~3x rev) + ~Rs 650 Cr tender pipeline. CBG is a genuine forward-integration step-up. Trailing-vs-inflection: thesis_fit 10x-in-2-3-years UNCONFIRMED (CBG not yet material, low-moat EPC layer, SME liquidity), conviction Low-Medium. No live-theme match. value_chain added."
+      "market_cap_tier": "Micro-cap",
+      "reason": "FY26 revenue +99% (Rs 119 Cr), net-cash, order book Rs 345 Cr (3x). CBG Phase-1 commissioned; commercial sales TBD."
     },
     {
       "name": "Vinyas Innovative Technologies Ltd",
@@ -4888,6 +4881,13 @@
       "thesis_fit": "neither",
       "market_cap_tier": "Small/mid-cap (~Rs 9,841 Cr)",
       "reason": "Real PLI/Make-in-India tailwind but deeply negative ROE/ROCE, ~1,077-day debtors (govt receivables); four_box 2.0."
+    },
+    {
+      "name": "Gayatri Rubber and Chemicals",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Micro-cap",
+      "reason": "FY26 margin/growth strong but FCF negative every year; price up 28% to Rs 572 on results; 58.8x P/E."
     },
     {
       "name": "GTT Data Solutions",

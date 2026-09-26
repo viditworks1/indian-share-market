@@ -527,3 +527,4 @@ Generated: 2026-09-26
 | RBL Bank | 2026-09-16 | 2026-10-16 | Low |
 | Ashapura Minechem | 2026-09-16 | 2026-10-16 | Low |
 | Valor Estates (ex-DB Realty) | 2026-09-16 | 2026-10-16 | Low-Medium |
+| Trent -- A value unlocking story from the house of TATA | 2026-09-26 | 2026-10-26 | Medium |
