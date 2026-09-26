@@ -63,7 +63,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -109,7 +109,7 @@
         "originality": 0,
         "volume": 1
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -176,7 +176,7 @@
         "volume": 0,
         "refuses_names_cap": 45
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -201,7 +201,7 @@
         "volume": 0,
         "refuses_names_cap": 45
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -288,7 +288,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -355,7 +355,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -379,7 +379,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -466,7 +466,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -490,7 +490,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -514,7 +514,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -664,7 +664,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -835,7 +835,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -1112,7 +1112,7 @@
         "originality": 0,
         "volume": 10
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "hold"
     },
     {
@@ -1138,7 +1138,7 @@
         "volume": 2,
         "refuses_names_cap": 45
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "hold"
     },
     {
@@ -1162,7 +1162,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -1187,7 +1187,7 @@
         "originality": 0,
         "volume": 3
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "hold"
     },
     {
@@ -1227,10 +1227,14 @@
       "n_conviction_calls": 0,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 30.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0,
+        "cadence": -10
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "reachanandl",
@@ -1255,7 +1259,7 @@
         "volume": 3,
         "refuses_names_cap": 45
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "hold"
     },
     {
@@ -1281,7 +1285,7 @@
         "since_call": 15.0,
         "volume": 10
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "hold"
     },
     {
@@ -1307,7 +1311,7 @@
         "since_call": -0.5,
         "volume": 10
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "hold"
     },
     {
@@ -1326,13 +1330,14 @@
       "n_conviction_calls": 24,
       "n_watch_names": 17,
       "n_new_seeded": 20,
-      "x_handle_score": 40.0,
+      "x_handle_score": 62.0,
       "score_components": {
-        "originality": 0,
-        "volume": 0
+        "corroboration": 0.0,
+        "originality": 12,
+        "volume": 10
       },
-      "last_scored_date": "2026-09-12",
-      "promotion_state": "drop-candidate"
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "hold"
     },
     {
       "handle": "unseenvalue",
@@ -1378,7 +1383,7 @@
         "volume": 1,
         "refuses_names_cap": 45
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -1404,7 +1409,7 @@
         "cadence": -10,
         "refuses_names_cap": 45
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -1423,10 +1428,13 @@
       "n_conviction_calls": 2,
       "n_watch_names": 0,
       "n_new_seeded": 2,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "AAstrogann",
@@ -1465,10 +1473,13 @@
       "n_conviction_calls": 4,
       "n_watch_names": 0,
       "n_new_seeded": 3,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "chetanshahrare",
@@ -1486,10 +1497,13 @@
       "n_conviction_calls": 0,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "Chins1729",
@@ -1513,7 +1527,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -1532,10 +1546,14 @@
       "n_conviction_calls": 23,
       "n_watch_names": 4,
       "n_new_seeded": 13,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 35.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0,
+        "disclaimer": -5
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "AnandableAnand",
@@ -1616,10 +1634,13 @@
       "n_conviction_calls": 4,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "AmitabhJha3",
@@ -1721,10 +1742,13 @@
       "n_conviction_calls": 3,
       "n_watch_names": 0,
       "n_new_seeded": 1,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "dhavalp",
@@ -1847,10 +1871,13 @@
       "n_conviction_calls": 10,
       "n_watch_names": 2,
       "n_new_seeded": 3,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "Goyal4Gagan",
@@ -1868,10 +1895,13 @@
       "n_conviction_calls": 0,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "gaurang_19",
@@ -1889,10 +1919,14 @@
       "n_conviction_calls": 0,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 30.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0,
+        "cadence": -10
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "gokulr",
@@ -1973,13 +2007,14 @@
       "n_conviction_calls": 4,
       "n_watch_names": 0,
       "n_new_seeded": 2,
-      "x_handle_score": 40.0,
+      "x_handle_score": 41.9,
       "score_components": {
+        "corroboration": -2.1,
         "originality": 0,
-        "volume": 0
+        "volume": 4
       },
-      "last_scored_date": "2026-09-12",
-      "promotion_state": "drop-candidate"
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "hold"
     },
     {
       "handle": "rishithegreat41",
@@ -1997,10 +2032,13 @@
       "n_conviction_calls": 17,
       "n_watch_names": 3,
       "n_new_seeded": 8,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "Investor_Ankur",
@@ -2024,7 +2062,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2043,10 +2081,13 @@
       "n_conviction_calls": 19,
       "n_watch_names": 3,
       "n_new_seeded": 17,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "jitenkparmar",
@@ -2069,7 +2110,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2088,10 +2129,13 @@
       "n_conviction_calls": 0,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "KevalAshar",
@@ -2193,10 +2237,13 @@
       "n_conviction_calls": 0,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "manojgupta1979",
@@ -2214,13 +2261,14 @@
       "n_conviction_calls": 2,
       "n_watch_names": 0,
       "n_new_seeded": 1,
-      "x_handle_score": 40.0,
+      "x_handle_score": 42.0,
       "score_components": {
+        "corroboration": 0.0,
         "originality": 0,
-        "volume": 0
+        "volume": 2
       },
-      "last_scored_date": "2026-09-12",
-      "promotion_state": "drop-candidate"
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "hold"
     },
     {
       "handle": "MeetshahV",
@@ -2301,10 +2349,14 @@
       "n_conviction_calls": 2,
       "n_watch_names": 1,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 30.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0,
+        "cadence": -10
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "Vita_Wealth",
@@ -2411,7 +2463,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2493,10 +2545,13 @@
       "n_conviction_calls": 0,
       "n_watch_names": 2,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "ParthaAwe",
@@ -2514,10 +2569,13 @@
       "n_conviction_calls": 30,
       "n_watch_names": 0,
       "n_new_seeded": 9,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "long_positional",
@@ -2577,10 +2635,13 @@
       "n_conviction_calls": 1,
       "n_watch_names": 2,
       "n_new_seeded": 1,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "PRATIKBULANI555",
@@ -2598,10 +2659,13 @@
       "n_conviction_calls": 34,
       "n_watch_names": 29,
       "n_new_seeded": 16,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "pgodhani",
@@ -2619,10 +2683,14 @@
       "n_conviction_calls": 0,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 30.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0,
+        "cadence": -10
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "StocksResearch",
@@ -2640,10 +2708,13 @@
       "n_conviction_calls": 28,
       "n_watch_names": 46,
       "n_new_seeded": 10,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "Accuracy_Invst",
@@ -2661,13 +2732,14 @@
       "n_conviction_calls": 2,
       "n_watch_names": 0,
       "n_new_seeded": 1,
-      "x_handle_score": 40.0,
+      "x_handle_score": 42.0,
       "score_components": {
+        "corroboration": 0.0,
         "originality": 0,
-        "volume": 0
+        "volume": 2
       },
-      "last_scored_date": "2026-09-12",
-      "promotion_state": "drop-candidate"
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "hold"
     },
     {
       "handle": "Priyaanshu06",
@@ -2685,10 +2757,14 @@
       "n_conviction_calls": 0,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 30.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0,
+        "cadence": -10
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "Masterji_UPWale",
@@ -2811,10 +2887,13 @@
       "n_conviction_calls": 42,
       "n_watch_names": 15,
       "n_new_seeded": 26,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "r_laroia",
@@ -2832,10 +2911,13 @@
       "n_conviction_calls": 20,
       "n_watch_names": 2,
       "n_new_seeded": 9,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "Ramanjan91",
@@ -2895,10 +2977,13 @@
       "n_conviction_calls": 2,
       "n_watch_names": 4,
       "n_new_seeded": 2,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "Coolfundoo",
@@ -3005,7 +3090,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3030,7 +3115,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3091,10 +3176,13 @@
       "n_conviction_calls": 16,
       "n_watch_names": 3,
       "n_new_seeded": 5,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "Team_IPOMantra",
@@ -3133,10 +3221,13 @@
       "n_conviction_calls": 7,
       "n_watch_names": 0,
       "n_new_seeded": 6,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "TheFan55555",
@@ -3222,7 +3313,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3262,13 +3353,14 @@
       "n_conviction_calls": 2,
       "n_watch_names": 1,
       "n_new_seeded": 0,
-      "x_handle_score": 40.0,
+      "x_handle_score": 33.7,
       "score_components": {
+        "corroboration": -8.3,
         "originality": 0,
-        "volume": 0
+        "volume": 2
       },
-      "last_scored_date": "2026-09-12",
-      "promotion_state": "drop-candidate"
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "hold"
     },
     {
       "handle": "Random_Gyan",
@@ -3328,10 +3420,13 @@
       "n_conviction_calls": 14,
       "n_watch_names": 10,
       "n_new_seeded": 8,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "oldschoolinvest",
@@ -3370,10 +3465,13 @@
       "n_conviction_calls": 7,
       "n_watch_names": 5,
       "n_new_seeded": 4,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "VMK100",
@@ -3417,7 +3515,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3499,10 +3597,13 @@
       "n_conviction_calls": 0,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "aashkaatrivedi",
@@ -3541,10 +3642,14 @@
       "n_conviction_calls": 0,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 30.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0,
+        "cadence": -10
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "theHarshFolio",
@@ -3568,7 +3673,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3587,10 +3692,14 @@
       "n_conviction_calls": 0,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 30.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0,
+        "cadence": -10
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "saditya10p",
@@ -3608,10 +3717,14 @@
       "n_conviction_calls": 38,
       "n_watch_names": 5,
       "n_new_seeded": 18,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 35.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0,
+        "disclaimer": -5
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "a_basumallick",
@@ -3650,12 +3763,13 @@
       "n_conviction_calls": 1,
       "n_watch_names": 0,
       "n_new_seeded": 1,
-      "x_handle_score": 40.0,
+      "x_handle_score": 41.0,
       "score_components": {
+        "corroboration": 0.0,
         "originality": 0,
-        "volume": 0
+        "volume": 1
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3679,7 +3793,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3698,12 +3812,13 @@
       "n_conviction_calls": 1,
       "n_watch_names": 1,
       "n_new_seeded": 0,
-      "x_handle_score": 40.0,
+      "x_handle_score": 41.0,
       "score_components": {
+        "corroboration": 0.0,
         "originality": 0,
-        "volume": 0
+        "volume": 1
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3727,7 +3842,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3746,13 +3861,14 @@
       "n_conviction_calls": 2,
       "n_watch_names": 1,
       "n_new_seeded": 1,
-      "x_handle_score": 40.0,
+      "x_handle_score": 42.0,
       "score_components": {
+        "corroboration": 0.0,
         "originality": 0,
-        "volume": 0
+        "volume": 2
       },
-      "last_scored_date": "2026-09-12",
-      "promotion_state": "drop-candidate"
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "hold"
     },
     {
       "handle": "Capeeyush91",
@@ -3770,10 +3886,13 @@
       "n_conviction_calls": 0,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "Rahul_Invest",
@@ -3791,12 +3910,13 @@
       "n_conviction_calls": 1,
       "n_watch_names": 4,
       "n_new_seeded": 1,
-      "x_handle_score": 40.0,
+      "x_handle_score": 41.0,
       "score_components": {
+        "corroboration": 0.0,
         "originality": 0,
-        "volume": 0
+        "volume": 1
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3815,10 +3935,13 @@
       "n_conviction_calls": 37,
       "n_watch_names": 5,
       "n_new_seeded": 24,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "Rishikesh_ADX",
@@ -3842,7 +3965,7 @@
         "volume": 0,
         "disclaimer": -5
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3867,7 +3990,7 @@
         "volume": 0,
         "refuses_names_cap": 45
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3886,10 +4009,13 @@
       "n_conviction_calls": 45,
       "n_watch_names": 9,
       "n_new_seeded": 21,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "UditSharma_IH",
@@ -3913,7 +4039,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3953,13 +4079,14 @@
       "n_conviction_calls": 2,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": 40.0,
+      "x_handle_score": 42.0,
       "score_components": {
+        "corroboration": 0.0,
         "originality": 0,
-        "volume": 0
+        "volume": 2
       },
-      "last_scored_date": "2026-09-12",
-      "promotion_state": "drop-candidate"
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "hold"
     },
     {
       "handle": "ishmohit1",
@@ -4045,7 +4172,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4069,7 +4196,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4114,7 +4241,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4133,10 +4260,13 @@
       "n_conviction_calls": 0,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "Moneylifers",
@@ -4196,10 +4326,14 @@
       "n_conviction_calls": 0,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 30.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0,
+        "cadence": -10
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "gvkreddi",
@@ -4306,7 +4440,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4325,14 +4459,15 @@
       "n_conviction_calls": 2,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": 35.0,
+      "x_handle_score": 43.2,
       "score_components": {
+        "corroboration": 6.2,
         "originality": 0,
-        "volume": 0,
+        "volume": 2,
         "disclaimer": -5
       },
-      "last_scored_date": "2026-09-12",
-      "promotion_state": "drop-candidate"
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "hold"
     },
     {
       "handle": "persistencecap",
@@ -4418,7 +4553,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4437,10 +4572,14 @@
       "n_conviction_calls": 0,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 30.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0,
+        "cadence": -10
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "vbomkara",
@@ -4458,12 +4597,13 @@
       "n_conviction_calls": 1,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": 40.0,
+      "x_handle_score": 41.0,
       "score_components": {
+        "corroboration": 0.0,
         "originality": 0,
-        "volume": 0
+        "volume": 1
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4482,10 +4622,13 @@
       "n_conviction_calls": 7,
       "n_watch_names": 0,
       "n_new_seeded": 3,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "virajmehta16",
@@ -4508,7 +4651,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4548,10 +4691,13 @@
       "n_conviction_calls": 4,
       "n_watch_names": 1,
       "n_new_seeded": 1,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "Abhay__Pandey",
@@ -5514,10 +5660,13 @@
       "n_conviction_calls": 1,
       "n_watch_names": 4,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "aditya_kondawar",
@@ -5535,10 +5684,13 @@
       "n_conviction_calls": 10,
       "n_watch_names": 8,
       "n_new_seeded": 3,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "AnshulThakkar_",
@@ -5577,10 +5729,14 @@
       "n_conviction_calls": 16,
       "n_watch_names": 4,
       "n_new_seeded": 6,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 35.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0,
+        "disclaimer": -5
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "BeatTheStreet10",
@@ -5598,13 +5754,14 @@
       "n_conviction_calls": 43,
       "n_watch_names": 12,
       "n_new_seeded": 27,
-      "x_handle_score": 40.0,
+      "x_handle_score": 65.8,
       "score_components": {
-        "originality": 0,
-        "volume": 0
+        "corroboration": 3.8,
+        "originality": 12,
+        "volume": 10
       },
-      "last_scored_date": "2026-09-12",
-      "promotion_state": "drop-candidate"
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "hold"
     },
     {
       "handle": "chartmojo",
@@ -5769,10 +5926,13 @@
       "n_conviction_calls": 7,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "MarketSmithIND",
@@ -5790,10 +5950,14 @@
       "n_conviction_calls": 7,
       "n_watch_names": 1,
       "n_new_seeded": 3,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 35.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0,
+        "disclaimer": -5
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "thenamanchandak",
@@ -5817,7 +5981,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-12",
+      "last_scored_date": "2026-09-26",
       "promotion_state": "drop-candidate"
     },
     {
@@ -5899,10 +6063,13 @@
       "n_conviction_calls": 12,
       "n_watch_names": 55,
       "n_new_seeded": 9,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "_soniashenoy",
@@ -5941,10 +6108,13 @@
       "n_conviction_calls": 9,
       "n_watch_names": 35,
       "n_new_seeded": 3,
-      "x_handle_score": null,
-      "score_components": null,
-      "last_scored_date": null,
-      "promotion_state": null
+      "x_handle_score": 40.0,
+      "score_components": {
+        "originality": 0,
+        "volume": 0
+      },
+      "last_scored_date": "2026-09-26",
+      "promotion_state": "drop-candidate"
     },
     {
       "handle": "StocktwitsIndia",

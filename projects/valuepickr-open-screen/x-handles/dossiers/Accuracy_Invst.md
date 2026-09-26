@@ -16,7 +16,7 @@
       "conviction": "medium",
       "quote": "Story of my second attempt in #Aequs. Even after such strong move the stock is not sustainable in this environment.",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     },
     {
@@ -27,7 +27,7 @@
       "conviction": "medium",
       "quote": "#INOXINDIA waited for this move since weeks... Finalyyy 10% move. This market is teaching patience.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     }
   ],

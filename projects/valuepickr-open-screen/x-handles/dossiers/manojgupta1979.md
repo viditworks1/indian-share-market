@@ -16,7 +16,7 @@
       "conviction": "high",
       "quote": "An overlooked niche manufacturing story? Manufactures Silver Electrical Contact Materials... critical component inside every switchgear",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     },
     {
@@ -27,7 +27,7 @@
       "conviction": "medium",
       "quote": "MSEI is showing some serious momentum! From just Rs1 Cr equity turnover in Jan 2026 to Rs534.66 Cr on Aug 21 -- 534X increase in 7 months",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     }
   ],

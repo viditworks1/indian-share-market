@@ -16,3 +16,13 @@ Dated block per run. Fills per-call `our_verdict` / `since_call_pct` in the doss
 - Notes: many drop candidates show "Resolved: 0" only because their dossiers weren't reached this run (60-call cap), not because they lack signal — don't archive @StocksAndStoics/@Accuracy_Invst/etc. next cycle purely off this baseline until their carried-over calls are actually resolved. `@1shankarsharma`, `@DesaiAmeet`, `@MunkThePunk`, `@VijayKedia1`, `@thesanjaydutt` appear on the scoreboard with 0 resolved but have no dossier file with unresolved calls found in this run's scan — likely dossiers with an empty `calls: []` array; worth a human check on whether triage produced anything for them at all.
 
 ---
+
+## 2026-09-26
+- Dossiers processed: 13 (StocksAndStoics, Accuracy_Invst, kanodiaankit12, manojgupta1979, soicfinance, tusharbohra, CongruenceA, MashraniVivek, Rahul_Invest, nareshbahrain, niveshaay, vbomkara, BeatTheStreet10 — oldest-first; 60 calls total, cap reached). Calls resolved this run: 60 (agree-strong 1, agree 8, mixed 37, disagree 2, red-flag 2, unverified 10).
+- Carried over: 513 calls remaining in 90 dossiers (oldest dossiers: ChintanParikh10, DEBU_NEOGI, DesaiAmeet, Disciplined_Inv, JakeraChoudhury, MarketSmithIND, MunkThePunk, PRATIKBULANI555, ParthaAwe, Prashanth_Krish, RupakRoyC, SanaSecurities, StocksResearch, SureshKBN, aditya_kondawar, ashwinidamani, bastionresearch, investor_vineet, mayank66333, mohan_koushik1, mystockedge, nathanit2014, nid_rockz, r_laroia, rajuidesai, rdkriplani, rishithegreat41, sab_maya_hai__, saditya10p, sudhir_bheda, AimInvestments, VineetGala, jeevanpatwa — next run).
+- Catch-up seeds: none (no call in this batch was unregistered + bull/very-high/high + new_to_screen).
+- Price checks (3/3 used): Apollo Pipes ~+50% since 2026-03-11; Reliance Industries ~-5% since 2026-03-05; Earkart ~-54% since 2026-03-16 (only Apollo Pipes update to dossier, others in untouched handles).
+- Scoreboard top 5: @StocksAndStoics 57.2, @AnirbanManna10 68.6, @ankitbahuguna84 49.1, @SpangleAdvisors 43.0, @arvind_kothari 41.0.
+- Promotion candidates: none (scoreboard has no state promotions). Drop candidates (~45, all first-cycle): many with 0 resolved calls in this run; none archived per 2-consecutive-cycle rule.
+- Notes: many drop? flags have 0 calls resolved this cycle because their dossiers weren't reached (60-call cap + oldest-first ordering). Do not archive until call-resolution backlog narrows and the drop flag persists across 2 runs. Next batch should handle ~70 calls from ChintanParikh10 et al.
+

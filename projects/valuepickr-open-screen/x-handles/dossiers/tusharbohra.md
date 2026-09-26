@@ -16,7 +16,7 @@
       "conviction": "high",
       "quote": "Presented MVEL at IAS2026 (8 Aug); disclosed 'we may have positions here' alongside a full deck.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -27,11 +27,13 @@
       "conviction": "medium",
       "quote": "'Sajal bhai your conviction on Laurus is just so infectious and inspiring' (reply, not own thesis).",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     }
   ],
-  "watch_only_names": ["IdeaForge"]
+  "watch_only_names": [
+    "IdeaForge"
+  ]
 }
 ```
 

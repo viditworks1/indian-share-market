@@ -8,7 +8,17 @@
   "discloses_names": true,
   "disclaimer_pattern": "light",
   "calls": [
-    { "stock": "Sansera Engineering", "slug": "sansera-engineering", "date": "2026-09-08", "direction": "bull", "conviction": "high", "quote": "CLSA on Sansera. Initiate coverage with target price of almost Rs 5000/sh. D: super duper biased, invested and advised.", "new_to_screen": false, "our_verdict": null, "since_call_pct": null }
+    {
+      "stock": "Sansera Engineering",
+      "slug": "sansera-engineering",
+      "date": "2026-09-08",
+      "direction": "bull",
+      "conviction": "high",
+      "quote": "CLSA on Sansera. Initiate coverage with target price of almost Rs 5000/sh. D: super duper biased, invested and advised.",
+      "new_to_screen": false,
+      "our_verdict": "mixed",
+      "since_call_pct": null
+    }
   ],
   "watch_only_names": []
 }

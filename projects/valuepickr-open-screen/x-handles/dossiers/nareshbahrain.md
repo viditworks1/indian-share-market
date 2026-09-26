@@ -16,7 +16,7 @@
       "conviction": "medium",
       "quote": "\"153 to 319 in 8 months & 23 days\" JINDALSAW - Low 153 (09 Dec 25), High 319 (01 Sep 26)",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     },
     {
@@ -27,11 +27,13 @@
       "conviction": "medium",
       "quote": "Already gave the HDFCBANK valuation zone with chart end-March 2026. Those valuations given are still holding.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     }
   ],
-  "watch_only_names": ["Engineers India (ENGINERSIN)"]
+  "watch_only_names": [
+    "Engineers India (ENGINERSIN)"
+  ]
 }
 ```
 

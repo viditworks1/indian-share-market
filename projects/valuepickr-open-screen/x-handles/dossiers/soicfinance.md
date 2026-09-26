@@ -16,7 +16,7 @@
       "conviction": "high",
       "quote": "Recovery in TMD order book, MTD machining centre push, new facility for ATC, order book scale up there",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "unverified",
       "since_call_pct": null
     },
     {
@@ -27,7 +27,7 @@
       "conviction": "high",
       "quote": "Capacity expansion to 16k machines, Doubling Huron Capacity, EMS ramp up, Export licence unlocking deferred revenue",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "red-flag",
       "since_call_pct": null
     },
     {
@@ -38,7 +38,7 @@
       "conviction": "high",
       "quote": "30-acre defence land greenfield, backward integration, JV/Tech partnership with German partner, 2,500-machine capacity operational",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "agree-strong",
       "since_call_pct": null
     },
     {
@@ -49,7 +49,7 @@
       "conviction": "medium",
       "quote": "Sterlite strong guidance of 20,000 crores revenue with 27% ebitda margins by FY29",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     }
   ],

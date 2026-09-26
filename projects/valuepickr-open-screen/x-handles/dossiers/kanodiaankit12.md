@@ -16,7 +16,7 @@
       "conviction": "medium",
       "quote": "Quote-tweeted a PSL DRHP-anomaly deep-dive with 'anomalies... contain the richest information' (Robert Greene).",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "unverified",
       "since_call_pct": null
     }
   ],

@@ -16,7 +16,7 @@
       "conviction": "high",
       "quote": "Great news for TD Power - Build-to-Print Manufacturing Framework Agreement with Siemens Energy... Had presented this last year at @alphaideas",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     },
     {
@@ -27,7 +27,7 @@
       "conviction": "medium",
       "quote": "Is HDFC Bank still Buy and Forget long term play?",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     }
   ],

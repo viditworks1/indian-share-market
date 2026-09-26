@@ -16,7 +16,7 @@
       "conviction": "high",
       "quote": "Beezaasan ATH - Recommended Beezaasan at Rs225/-, up 85% in less than 6 months",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     }
   ],

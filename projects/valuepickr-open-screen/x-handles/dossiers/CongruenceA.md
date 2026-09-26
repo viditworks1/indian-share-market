@@ -16,11 +16,13 @@
       "conviction": "high",
       "quote": "Antithesis: why we did NOT invest though we saw potential - sub-optimal OCF, M&A growth needs regular fund raises, dilution, valuation-cyclicality loop is risky",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     }
   ],
-  "watch_only_names": ["Redington Ltd"]
+  "watch_only_names": [
+    "Redington Ltd"
+  ]
 }
 ```
 

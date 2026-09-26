@@ -8,8 +8,28 @@
   "discloses_names": true,
   "disclaimer_pattern": "heavy",
   "calls": [
-    { "stock": "ESDS Software Solutions", "slug": "esds-software", "date": "2026-09-04", "direction": "bull", "conviction": "high", "quote": "Long before cloud and AI infrastructure became boardroom buzzwords in India, Niveshaay backed ESDS Software Solutions through the Niveshaay Hedgehogs.", "new_to_screen": false, "our_verdict": null, "since_call_pct": null },
-    { "stock": "Ather Energy", "slug": "ather-energy-pioneering-india-s-ev-revolution", "date": "2026-09-05", "direction": "bull", "conviction": "medium", "quote": "Ather didn't just drop a new scooter - they dropped a blueprint. Charger integrated inside the scooter, 37-second teardown built to clear service bays.", "new_to_screen": false, "our_verdict": null, "since_call_pct": null }
+    {
+      "stock": "ESDS Software Solutions",
+      "slug": "esds-software",
+      "date": "2026-09-04",
+      "direction": "bull",
+      "conviction": "high",
+      "quote": "Long before cloud and AI infrastructure became boardroom buzzwords in India, Niveshaay backed ESDS Software Solutions through the Niveshaay Hedgehogs.",
+      "new_to_screen": false,
+      "our_verdict": "agree",
+      "since_call_pct": null
+    },
+    {
+      "stock": "Ather Energy",
+      "slug": "ather-energy-pioneering-india-s-ev-revolution",
+      "date": "2026-09-05",
+      "direction": "bull",
+      "conviction": "medium",
+      "quote": "Ather didn't just drop a new scooter - they dropped a blueprint. Charger integrated inside the scooter, 37-second teardown built to clear service bays.",
+      "new_to_screen": false,
+      "our_verdict": "mixed",
+      "since_call_pct": null
+    }
   ],
   "watch_only_names": []
 }
