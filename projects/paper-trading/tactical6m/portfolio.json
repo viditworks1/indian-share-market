@@ -2,92 +2,92 @@
   "_readme": "6-MONTH TACTICAL tracker. SEPARATE from paper-trading/cohorts.json (frozen weekly cohorts), swing-6m/cohorts.json (hand-curated, fundamentally-informed swing cohorts), and live-recommendation/ (the fundamentals-led Rs 1L allocation). This single book always mirrors the CURRENT allocation in valuepickr-open-screen/data/confluence100_tactical6m.json -- Confluence-100's purely technical/momentum ranking (no master_score term), auto-rebalancing at live prices whenever that list's holdings or weights change by more than a rounding amount. Script-owned -- do not hand-edit holdings/cash; it picks up the next weekly Confluence-100 rebuild automatically. An empty holdings list (insufficient pool) means all-cash, not an error.",
   "inception_date": "2026-09-22",
   "inception_capital": 100000,
-  "version": 1,
-  "effective_date": "2026-09-22",
-  "source_revision": "Confluence-100 tactical6m (22 Sep 2026, cash 12.03%)",
+  "version": 2,
+  "effective_date": "2026-09-26",
+  "source_revision": "Confluence-100 tactical6m (26 Sep 2026, cash 12.0%)",
   "holdings": [
     {
       "name": "Dynamic Cables",
       "symbol": "DYNAMIC.NS",
-      "weight_pct": 9.29,
-      "entry_price": 139.8,
-      "shares": 66,
-      "invested": 9226.8
+      "weight_pct": 9.01,
+      "entry_price": 139.95,
+      "shares": 63,
+      "invested": 8816.85
     },
     {
-      "name": "Thyrocare",
-      "symbol": "THYROCARE.NS",
-      "weight_pct": 8.84,
-      "entry_price": 577.5,
-      "shares": 15,
-      "invested": 8662.5
+      "name": "Greaves Cotton",
+      "symbol": "GREAVESCOT.NS",
+      "weight_pct": 9.01,
+      "entry_price": 234.78,
+      "shares": 38,
+      "invested": 8921.64
+    },
+    {
+      "name": "Dhabriya Polywood",
+      "symbol": "DHABRIYA.BO",
+      "weight_pct": 9.01,
+      "entry_price": 487.7,
+      "shares": 18,
+      "invested": 8778.6
+    },
+    {
+      "name": "Neuland Laboratories",
+      "symbol": "NEULANDLAB.NS",
+      "weight_pct": 9.01,
+      "entry_price": 21890.0,
+      "shares": 0,
+      "invested": 0.0
+    },
+    {
+      "name": "Raymond Realty",
+      "symbol": "RAYMONDREL.NS",
+      "weight_pct": 9.01,
+      "entry_price": 711.3,
+      "shares": 12,
+      "invested": 8535.6
     },
     {
       "name": "Matrimony.com",
       "symbol": "MATRIMONY.NS",
-      "weight_pct": 8.84,
-      "entry_price": 550.75,
-      "shares": 16,
-      "invested": 8812.0
+      "weight_pct": 8.59,
+      "entry_price": 535.4,
+      "shares": 15,
+      "invested": 8031.0
     },
     {
       "name": "Marksans Pharma",
       "symbol": "MARKSANS.NS",
-      "weight_pct": 8.84,
-      "entry_price": 332.95,
-      "shares": 26,
-      "invested": 8656.7
+      "weight_pct": 8.59,
+      "entry_price": 336.95,
+      "shares": 25,
+      "invested": 8423.75
     },
     {
       "name": "Univastu India",
       "symbol": "UNIVASTU.NS",
-      "weight_pct": 8.84,
-      "entry_price": 148.17,
-      "shares": 59,
-      "invested": 8742.03
+      "weight_pct": 8.59,
+      "entry_price": 138.08,
+      "shares": 61,
+      "invested": 8422.88
     },
     {
-      "name": "J.G. Chemicals",
-      "symbol": "JGCHEM.NS",
-      "weight_pct": 8.84,
-      "entry_price": 610.35,
-      "shares": 14,
-      "invested": 8544.9
+      "name": "Tinna rubber",
+      "symbol": "TINNARUBR.NS",
+      "weight_pct": 8.59,
+      "entry_price": 978.1,
+      "shares": 8,
+      "invested": 7824.8
     },
     {
-      "name": "Engineers India",
-      "symbol": "ENGINERSIN.NS",
-      "weight_pct": 8.62,
-      "entry_price": 302.55,
-      "shares": 28,
-      "invested": 8471.4
-    },
-    {
-      "name": "Valiant Communications",
-      "symbol": "VALIANT.BO",
-      "weight_pct": 8.62,
-      "entry_price": 1428.75,
-      "shares": 6,
-      "invested": 8572.5
-    },
-    {
-      "name": "Aries Agro",
-      "symbol": "ARIES.NS",
-      "weight_pct": 8.62,
-      "entry_price": 469.95,
-      "shares": 18,
-      "invested": 8459.1
-    },
-    {
-      "name": "Sona BLW Precision Forgings",
-      "symbol": "SONACOMS.NS",
-      "weight_pct": 8.62,
-      "entry_price": 809.0,
-      "shares": 10,
-      "invested": 8090.0
+      "name": "KSH International",
+      "symbol": "KSHINTL.NS",
+      "weight_pct": 8.59,
+      "entry_price": 1035.5,
+      "shares": 8,
+      "invested": 8284.0
     }
   ],
-  "cash": 13762.07,
+  "cash": 23233.87,
   "rebalance_log": [
     {
       "date": "2026-09-22",
@@ -106,6 +106,12 @@
         "Aries Agro": 8.62,
         "Sona BLW Precision Forgings": 8.62
       }
+    },
+    {
+      "date": "2026-09-26",
+      "version": 2,
+      "reason": "added Dhabriya Polywood, Greaves Cotton, KSH International, Neuland Laboratories, Raymond Realty, Tinna rubber; dropped Aries Agro, Engineers India, J.G. Chemicals, Sona BLW Precision Forgings, Thyrocare, Valiant Communications",
+      "nav": 99272.99
     }
   ]
 }
