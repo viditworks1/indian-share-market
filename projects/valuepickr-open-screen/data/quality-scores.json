@@ -1,7 +1,7 @@
 {
   "method": "the user's stated screening framework (2026-09-04): growth + margins + ROCE + debt + capex + free cash flow + competitive advantage + management quality. This score covers the four legs (ROCE, debt, FCF, capex) that had no numeric home before. Formula in this script's docstring and scripts/QUALITY_SCORE_METHODOLOGY.md.",
   "scored_count": 249,
-  "not_assessed_count": 645,
+  "not_assessed_count": 706,
   "ranked": [
     {
       "slug": "venus-remedies",
@@ -2708,7 +2708,7 @@
       "slug": "sansera-engineering",
       "name": "Sansera Engineering Ltd",
       "quality_score": 51.0,
-      "conviction_score": 25.25,
+      "conviction_score": 27.95,
       "red_flag_tier": null,
       "roce_pct": 15,
       "roce_trend": "stable",
@@ -6858,9 +6858,141 @@
   ],
   "not_assessed": [
     {
+      "slug": "tinna-rubber",
+      "name": "Tinna rubber",
+      "conviction_score": 55.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "salzer-electronics",
+      "name": "Salzer Electronics",
+      "conviction_score": 55.0,
+      "red_flag_tier": null
+    },
+    {
       "slug": "hitachi-energy",
       "name": "Hitachi Energy India Ltd",
       "conviction_score": 51.06,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "canara-robeco-amc-the-quiet-operating-leverage-story-hiding-in-plain-sight",
+      "name": "Canara Robeco AMC: The Quiet Operating Leverage Story Hiding in Plain Sight",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "laxmi-organics",
+      "name": "Laxmi Organics",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "greaves-cotton",
+      "name": "Greaves Cotton",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "mps",
+      "name": "MPS Ltd",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "indiamart-intermesh",
+      "name": "Indiamart Intermesh",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "marico",
+      "name": "Marico Limited (NSE: MARICO)",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "creditaccess-grameen-traditional-mfi-model-efficiently-operating-at-scale",
+      "name": "CreditAccess Grameen: Traditional MFI model, efficiently operating at scale",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "oracle-financial-services",
+      "name": "Oracle Financial Services",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "mahindra-lifespace-developers",
+      "name": "Mahindra Lifespace Developers Limited",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "hfcl",
+      "name": "HFCL Ltd (Himachal Futuristic Communications Limited)",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "paytm",
+      "name": "PayTM (One 97 Communications Ltd)",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "policybazaar",
+      "name": "Policybazaar",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bess-solar-hybrid-phs",
+      "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "hdfc-asset-management-company",
+      "name": "HDFC Asset Management Company",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "phantom-digital-effects",
+      "name": "Phantom Digital Effects Limited",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "irm-energy",
+      "name": "IRM Energy",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "nagarjuna-agrichem",
+      "name": "NAGARJUNA AGRICHEM -- lottery ticket",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "gokaldas-exports",
+      "name": "Gokaldas exports -- cup and handle/rising channel",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ncc-extremely-undervalued",
+      "name": "NCC: Extremely undervalued",
+      "conviction_score": 49.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "jtekt-india-driving-precision-powering-india-s-mobility-future",
+      "name": "JTEKT India: Driving Precision, Powering India\u2019s Mobility Future",
+      "conviction_score": 49.0,
       "red_flag_tier": null
     },
     {
@@ -6870,8 +7002,56 @@
       "red_flag_tier": null
     },
     {
+      "slug": "vst-industries-puff-full-of-power",
+      "name": "VST Industries: Puff full of power?",
+      "conviction_score": 45.0,
+      "red_flag_tier": null
+    },
+    {
       "slug": "trent",
       "name": "Trent -- A value unlocking story from the house of TATA",
+      "conviction_score": 45.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "senco-gold-upcoming-gold-story",
+      "name": "Senco Gold: Upcoming gold story!",
+      "conviction_score": 45.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "yash-pakka",
+      "name": "Yash Pakka",
+      "conviction_score": 45.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "wpil",
+      "name": "WPIL Ltd",
+      "conviction_score": 45.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "tanla-platforms-leading-player-in-the-fast",
+      "name": "Tanla Platforms ~ Leading player in the fast-growing CPaaS market",
+      "conviction_score": 45.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "rajratan-global",
+      "name": "Rajratan Global",
+      "conviction_score": 45.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "taurian-mps-ltd-crushing-opportunities",
+      "name": "Taurian MPS Ltd, Crushing opportunities?",
+      "conviction_score": 45.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "tci-express",
+      "name": "TCI Express",
       "conviction_score": 45.0,
       "red_flag_tier": null
     },
@@ -6885,6 +7065,48 @@
       "slug": "yatharth-hospital-trauma-care-services",
       "name": "Yatharth Hospital & Trauma Care Services Limited",
       "conviction_score": 42.35,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "danish-power",
+      "name": "Danish Power Ltd",
+      "conviction_score": 39.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "beta-drugs",
+      "name": "Beta Drugs Limited",
+      "conviction_score": 39.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "enviro-infra-engineers",
+      "name": "Enviro Infra Engineers Limited",
+      "conviction_score": 39.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "music-broadcast",
+      "name": "Music Broadcast Limited (Radio City)",
+      "conviction_score": 39.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "jamna-auto-industries",
+      "name": "Jamna Auto Industries",
+      "conviction_score": 39.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bajaj-healthcare",
+      "name": "Bajaj Healthcare",
+      "conviction_score": 39.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "modern-dairies",
+      "name": "Modern Dairies",
+      "conviction_score": 39.0,
       "red_flag_tier": null
     },
     {
@@ -6903,6 +7125,30 @@
       "slug": "inox-india-a-story-worth-looking",
       "name": "Inox India, a story worth looking?",
       "conviction_score": 36.21,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "tamilnad-mercantile-bank",
+      "name": "Tamilnad Mercantile Bank Ltd (TMB Ltd)",
+      "conviction_score": 36.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "sakar-healthcare",
+      "name": "Sakar Healthcare",
+      "conviction_score": 36.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "taal-enterprise",
+      "name": "TAAL Enterprise",
+      "conviction_score": 36.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ztech",
+      "name": "Ztech (India) Limited",
+      "conviction_score": 36.0,
       "red_flag_tier": null
     },
     {
@@ -6948,6 +7194,24 @@
       "red_flag_tier": null
     },
     {
+      "slug": "brand-concept",
+      "name": "Brand concept",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "antelopus-selan-oil-exploration",
+      "name": "Antelopus Selan Oil Exploration",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "gandhar-oil-refinery",
+      "name": "Gandhar Oil Refinery Limited",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
       "slug": "vikram-solar",
       "name": "Vikram Solar- One of the oldest Solar module manufacturer",
       "conviction_score": 30.0,
@@ -6968,6 +7232,48 @@
     {
       "slug": "oval-projects",
       "name": "Oval Projects Engineering Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "everest-kanto-cylinders",
+      "name": "Everest Kanto Cylinders Ltd.",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "epack-durable",
+      "name": "Epack Durable Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "brigade-hotel-ventures",
+      "name": "Brigade Hotel Ventures Ltd",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "agi-greenpac",
+      "name": "AGI Greenpac- on the cusp of growth?",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "e",
+      "name": "E-pack durables",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "arihant-foundations-and-housing",
+      "name": "Arihant Foundations and Housing",
+      "conviction_score": 30.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ashiana-housing",
+      "name": "Ashiana Housing",
       "conviction_score": 30.0,
       "red_flag_tier": null
     },
@@ -7770,6 +8076,12 @@
       "red_flag_tier": null
     },
     {
+      "slug": "au-small-finance-bank",
+      "name": "AU Small finance bank",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
       "slug": "transformer-rectifier-india",
       "name": "Transformer & Rectifier India Limited",
       "conviction_score": 16.0,
@@ -7778,6 +8090,12 @@
     {
       "slug": "asian-oilfields",
       "name": "Asian oilfields",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "brainbees-firstcry",
+      "name": "Brainbees' FirstCry",
       "conviction_score": 16.0,
       "red_flag_tier": null
     },
@@ -8432,6 +8750,12 @@
     {
       "slug": "midhani",
       "name": "Mishra Dhatu Nigam (MIDHANI)",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "ghcl-textiles-ltd-climbing-the-value-chain",
+      "name": "GHCL Textiles Ltd: Climbing the Value Chain",
       "conviction_score": 16.0,
       "red_flag_tier": null
     },
@@ -9174,8 +9498,32 @@
       "red_flag_tier": null
     },
     {
+      "slug": "connplex-cinema",
+      "name": "CONNPLEX CINEMA",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "suryoday-small-finance-bank",
+      "name": "Suryoday small finance bank",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "spandana-sphoorty-financial",
+      "name": "Spandana Sphoorty Financial Limited",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
       "slug": "ambika-cotton-mills",
       "name": "Ambika Cotton Mills",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "tcc-concept",
+      "name": "TCC Concept Ltd.- An Unexplored Data Center Play",
       "conviction_score": 8.0,
       "red_flag_tier": null
     },
@@ -10010,6 +10358,24 @@
     {
       "slug": "elecon-engineering",
       "name": "Elecon Engineering Company",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "aditya-birla-fashion-and-retail",
+      "name": "Aditya Birla Fashion and Retail Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "tamboli-capital-its-a-casting-company",
+      "name": "Tamboli Capital: Its a Casting Company!",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "saatvik-green",
+      "name": "Saatvik green-can the company bloom with the sun",
       "conviction_score": 8.0,
       "red_flag_tier": null
     },
