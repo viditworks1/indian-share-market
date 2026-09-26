@@ -58,7 +58,16 @@ def weekly_ema_posture(sym, span=30):
     e = rf.ema(vals, span)
     ext = (vals[-1] - e[-1]) / e[-1] * 100.0
     below2 = len(vals) >= 2 and vals[-1] < e[-1] and vals[-2] < e[-2]
-    return {"ext_pct": round(ext, 1), "ema": round(e[-1], 2), "below_2_weeks": below2, "as_of": closed[-1][0].isoformat()}
+    # velocity: points of ext_pct gained/lost over the trailing lookback (same rf.CFG["flags"]
+    # window paper-trading's composite uses) -- lets FADING below catch a cushion that's
+    # eroding (Venus Remedies: +24.9%->+17.8%->+10.6%) even while still comfortably positive.
+    look_v = rf.CFG["flags"]["velocity_lookback_weeks"]
+    accel = None
+    if len(vals) > look_v and e[-1 - look_v]:
+        ext_prior = (vals[-1 - look_v] - e[-1 - look_v]) / e[-1 - look_v] * 100.0
+        accel = round(ext - ext_prior, 1)
+    return {"ext_pct": round(ext, 1), "ema": round(e[-1], 2), "below_2_weeks": below2,
+            "as_of": closed[-1][0].isoformat(), "accel_pct": accel}
 
 
 def market_regime():
@@ -114,6 +123,16 @@ def mark_cohort(c, prev_snap, today):
             flags.append("EMA BREAK (2 wk < 30W EMA)")
         if post and post["ext_pct"] is not None and post["ext_pct"] > 45:
             flags.append(f"EXTENDED (+{post['ext_pct']:.0f}% vs 30W EMA)")
+        # Dynamic Cables sat at +1.3%/+1.7% vs its 30W EMA for weeks -- a razor-thin cushion --
+        # before breaking below it and getting excluded from the paper-trading pool. Flag that
+        # same thinness here too, on the SWING book's own existing holdings.
+        tcfg = rf.CFG["technical"]
+        if post and post["ext_pct"] is not None and 0 < post["ext_pct"] < tcfg["thin_cushion_pct"]:
+            flags.append(f"THIN CUSHION ({post['ext_pct']:+.1f}% vs 30W EMA)")
+        # Venus Remedies's ext vs 30W EMA visibly decayed (+24.9%->+17.8%->+10.6%) while still
+        # comfortably positive -- fading momentum, well before any EMA break.
+        if post and post.get("accel_pct") is not None and post["accel_pct"] <= tcfg["fading_alert_pct"]:
+            flags.append(f"FADING ({post['accel_pct']:+.0f}pp ext/{rf.CFG['flags']['velocity_lookback_weeks']}wk)")
         rows.append({
             "name": h["name"], "symbol": sym, "weight_pct": h["weight_pct"],
             "entry_price": h["entry_price"], "price": round(price, 2), "as_of": pdate.isoformat() if pdate else None,
@@ -206,8 +225,11 @@ def write_tracker(marked, hist):
       "`swing_screen.py`), sized once and then never rebalanced -- same append-only pattern as "
       "`paper-trading/cohorts.json`'s standard/concentrated series, just for the swing methodology. Each "
       "cohort carries its own 6-month horizon and per-holding -16% hard stops; this script never trades, "
-      "it only surfaces rule flags (STOP HIT / NEAR STOP / EMA BREAK / EXTENDED) for the monthly review or "
-      "an ad-hoc call. Reference: `SWING_6M_PORTFOLIO.md`.\n")
+      "it only surfaces rule flags (STOP HIT / NEAR STOP / EMA BREAK / EXTENDED / THIN CUSHION / FADING) "
+      "for the monthly review or an ad-hoc call. `THIN CUSHION` (Dynamic Cables: sat at +1.3%/+1.7% vs its "
+      "30W EMA for weeks before breaking below it) and `FADING` (Venus Remedies: ext vs 30W EMA decayed "
+      "+24.9%→+17.8%→+10.6% over three straight weekly reads while still positive) are early-warning reads "
+      "on a name that hasn't tripped EMA BREAK or a stop yet. Reference: `SWING_6M_PORTFOLIO.md`.\n")
     regime = marked[0].get("market_regime") if marked else None
     if regime and regime.get("available"):
         tag = "**DOWNTREND -- see section 5's market-regime overlay**" if regime["downtrend"] else "ok, no overlay"

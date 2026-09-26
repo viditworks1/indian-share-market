@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26 16:24",
+  "generated_at": "2026-09-26 22:02",
   "as_of_date": "2026-09-26",
   "capital": 100000,
   "composite_weights": {
@@ -1633,6 +1633,14 @@
       "ema_monthly": 1276.59,
       "monthly_close": 1624.8,
       "tech_as_of_monthly": "2026-08-31",
+      "accel_pct": -3.1,
+      "from_52w_hi_pct": -14.3,
+      "ema50_ext_pct": 0.2,
+      "ema50_slope_pct": -3.3,
+      "flags": [
+        "PEAKED (-14.3% off 52W hi)",
+        "DECELERATING"
+      ],
       "composite": 78.41,
       "in_pool": true,
       "excluded": false,
@@ -1671,6 +1679,13 @@
       "ema_monthly": 1320.71,
       "monthly_close": 1971.4,
       "tech_as_of_monthly": "2026-08-31",
+      "accel_pct": 18.3,
+      "from_52w_hi_pct": -17.8,
+      "ema50_ext_pct": 10.3,
+      "ema50_slope_pct": 16.2,
+      "flags": [
+        "PEAKED (-17.8% off 52W hi)"
+      ],
       "composite": 20.84,
       "in_pool": true,
       "excluded": false,
@@ -1709,6 +1724,11 @@
       "ema_monthly": 316.07,
       "monthly_close": 388.0,
       "tech_as_of_monthly": "2026-08-31",
+      "accel_pct": 3.0,
+      "from_52w_hi_pct": 0.0,
+      "ema50_ext_pct": 13.7,
+      "ema50_slope_pct": 8.0,
+      "flags": [],
       "composite": 21.34,
       "in_pool": true,
       "excluded": false,
@@ -1747,6 +1767,11 @@
       "ema_monthly": 149.92,
       "monthly_close": 161.73,
       "tech_as_of_monthly": "2026-08-31",
+      "accel_pct": 4.1,
+      "from_52w_hi_pct": -5.4,
+      "ema50_ext_pct": 2.2,
+      "ema50_slope_pct": 2.0,
+      "flags": [],
       "composite": 37.0,
       "in_pool": true,
       "excluded": false,
@@ -1785,6 +1810,11 @@
       "ema_monthly": 767.36,
       "monthly_close": 1056.4,
       "tech_as_of_monthly": "2026-08-31",
+      "accel_pct": 2.3,
+      "from_52w_hi_pct": 0.0,
+      "ema50_ext_pct": 11.5,
+      "ema50_slope_pct": 6.1,
+      "flags": [],
       "composite": 53.64,
       "in_pool": true,
       "excluded": false,
@@ -1823,6 +1853,11 @@
       "ema_monthly": 1412.62,
       "monthly_close": 2061.1,
       "tech_as_of_monthly": "2026-08-31",
+      "accel_pct": -13.9,
+      "from_52w_hi_pct": -2.0,
+      "ema50_ext_pct": 15.6,
+      "ema50_slope_pct": 13.1,
+      "flags": [],
       "composite": 61.42,
       "in_pool": true,
       "excluded": false,
@@ -1861,6 +1896,11 @@
       "ema_monthly": 142.25,
       "monthly_close": 149.0,
       "tech_as_of_monthly": "2026-08-31",
+      "accel_pct": 1.0,
+      "from_52w_hi_pct": -22.6,
+      "ema50_ext_pct": -3.9,
+      "ema50_slope_pct": -3.1,
+      "flags": [],
       "composite": 60.62,
       "in_pool": false,
       "excluded": false,
@@ -1899,6 +1939,11 @@
       "ema_monthly": 118.0,
       "monthly_close": 145.3,
       "tech_as_of_monthly": "2026-08-31",
+      "accel_pct": -1.1,
+      "from_52w_hi_pct": -0.6,
+      "ema50_ext_pct": 8.3,
+      "ema50_slope_pct": 7.8,
+      "flags": [],
       "composite": 23.65,
       "in_pool": true,
       "excluded": false,
@@ -1937,6 +1982,11 @@
       "ema_monthly": 132.96,
       "monthly_close": 160.0,
       "tech_as_of_monthly": "2026-08-31",
+      "accel_pct": 0.7,
+      "from_52w_hi_pct": 0.0,
+      "ema50_ext_pct": 16.7,
+      "ema50_slope_pct": 11.0,
+      "flags": [],
       "composite": 54.25,
       "in_pool": true,
       "excluded": false,
@@ -1962,8 +2012,8 @@
       "fundamental_basis": "VP-open tierA",
       "red_flag_tier": null,
       "red_flag_penalty": 0,
-      "technical": 71.2,
-      "weekly_technical": 66.0,
+      "technical": 65.2,
+      "weekly_technical": 56.0,
       "ext_pct": 26.9,
       "fresh_cross": false,
       "ema": 414.22,
@@ -1975,12 +2025,19 @@
       "ema_monthly": 387.41,
       "monthly_close": 527.2,
       "tech_as_of_monthly": "2026-08-31",
-      "composite": 57.09,
+      "accel_pct": -16.6,
+      "from_52w_hi_pct": -6.8,
+      "ema50_ext_pct": 5.1,
+      "ema50_slope_pct": 8.3,
+      "flags": [
+        "FADING (-17pp ext/4wk)"
+      ],
+      "composite": 55.59,
       "in_pool": true,
       "excluded": false,
       "contrib": {
         "master": 39.3,
-        "technical": 17.79
+        "technical": 16.29
       },
       "composite_rank": 3,
       "conviction_rank": 2,
@@ -2013,6 +2070,11 @@
       "ema_monthly": 1396.51,
       "monthly_close": 1852.2,
       "tech_as_of_monthly": "2026-08-31",
+      "accel_pct": -12.5,
+      "from_52w_hi_pct": -0.3,
+      "ema50_ext_pct": 14.4,
+      "ema50_slope_pct": 19.7,
+      "flags": [],
       "composite": 44.8,
       "in_pool": true,
       "excluded": false,
@@ -2051,6 +2113,13 @@
       "ema_monthly": null,
       "monthly_close": null,
       "tech_as_of_monthly": null,
+      "accel_pct": -9.5,
+      "from_52w_hi_pct": -11.2,
+      "ema50_ext_pct": 4.9,
+      "ema50_slope_pct": 9.7,
+      "flags": [
+        "PEAKED (-11.2% off 52W hi)"
+      ],
       "composite": 37.47,
       "in_pool": true,
       "excluded": false,
@@ -2094,13 +2163,13 @@
       "name": "Aeroflex Industries",
       "symbol": "AEROFLEX.NS",
       "weight_pct": 20,
-      "composite": 57.09,
+      "composite": 55.59,
       "master": 52.4,
       "conviction": 84.6,
       "gap": 0.0,
       "fundamental": 90,
-      "technical": 71.2,
-      "weekly_technical": 66.0,
+      "technical": 65.2,
+      "weekly_technical": 56.0,
       "monthly_technical": 78.9
     },
     {
@@ -2155,7 +2224,8 @@
       "alpha_pct": 13.41,
       "flags": [
         "EXTENDED (+52% vs 30W EMA)",
-        "EXTENDED (+74% vs 30W EMA)"
+        "EXTENDED (+74% vs 30W EMA)",
+        "FADING (-17pp ext/4wk)"
       ],
       "holdings": [
         {
@@ -2194,7 +2264,9 @@
           "dist_to_stop_pct": 12.8,
           "ext_vs_30w_ema_pct": 11.4,
           "catalyst": "Rolling ANDA approvals + Q2 FY27 results ~Nov 2026",
-          "flags": []
+          "flags": [
+            "FADING (-17pp ext/4wk)"
+          ]
         },
         {
           "name": "Unimech Aerospace",
@@ -2928,14 +3000,14 @@
   },
   "tactical6m": {
     "inception_date": "2026-09-22",
-    "version": 2,
+    "version": 3,
     "source_revision": "Confluence-100 tactical6m (26 Sep 2026, cash 12.0%)",
     "as_of": "2026-09-26",
     "nav": 99272.99,
     "return_pct": -0.73,
     "day_change_pct": -0.43,
-    "invested_value": 76039.12,
-    "cash": 23233.87,
+    "invested_value": 76095.48,
+    "cash": 23177.51,
     "holdings": [
       {
         "name": "Dynamic Cables",
@@ -2948,19 +3020,6 @@
         "as_of": "2026-09-25",
         "stale": true,
         "value": 8816.85,
-        "return_pct": -0.0
-      },
-      {
-        "name": "Greaves Cotton",
-        "symbol": "GREAVESCOT.NS",
-        "weight_pct": 9.01,
-        "entry_price": 234.78,
-        "shares": 38,
-        "invested": 8921.64,
-        "price": 234.78,
-        "as_of": "2026-09-25",
-        "stale": true,
-        "value": 8921.64,
         "return_pct": -0.0
       },
       {
@@ -3003,6 +3062,19 @@
         "return_pct": -0.0
       },
       {
+        "name": "Apcotex Industries",
+        "symbol": "APCOTEXIND.NS",
+        "weight_pct": 9.01,
+        "entry_price": 599.4,
+        "shares": 14,
+        "invested": 8391.6,
+        "price": 599.4,
+        "as_of": "2026-09-25",
+        "stale": true,
+        "value": 8391.6,
+        "return_pct": 0.0
+      },
+      {
         "name": "Matrimony.com",
         "symbol": "MATRIMONY.NS",
         "weight_pct": 8.59,
@@ -3042,19 +3114,6 @@
         "return_pct": 0.0
       },
       {
-        "name": "Tinna rubber",
-        "symbol": "TINNARUBR.NS",
-        "weight_pct": 8.59,
-        "entry_price": 978.1,
-        "shares": 8,
-        "invested": 7824.8,
-        "price": 978.1,
-        "as_of": "2026-09-25",
-        "stale": true,
-        "value": 7824.8,
-        "return_pct": -0.0
-      },
-      {
         "name": "KSH International",
         "symbol": "KSHINTL.NS",
         "weight_pct": 8.59,
@@ -3065,6 +3124,19 @@
         "as_of": "2026-09-25",
         "stale": true,
         "value": 8284.0,
+        "return_pct": 0.0
+      },
+      {
+        "name": "Aeroflex Industries",
+        "symbol": "AEROFLEX.NS",
+        "weight_pct": 8.59,
+        "entry_price": 525.7,
+        "shares": 16,
+        "invested": 8411.2,
+        "price": 525.7,
+        "as_of": "2026-09-25",
+        "stale": true,
+        "value": 8411.2,
         "return_pct": 0.0
       }
     ],
@@ -3091,6 +3163,12 @@
         "date": "2026-09-26",
         "version": 2,
         "reason": "added Dhabriya Polywood, Greaves Cotton, KSH International, Neuland Laboratories, Raymond Realty, Tinna rubber; dropped Aries Agro, Engineers India, J.G. Chemicals, Sona BLW Precision Forgings, Thyrocare, Valiant Communications",
+        "nav": 99272.99
+      },
+      {
+        "date": "2026-09-26",
+        "version": 3,
+        "reason": "added Aeroflex Industries, Apcotex Industries; dropped Greaves Cotton, Tinna rubber",
         "nav": 99272.99
       }
     ],

@@ -429,13 +429,13 @@
     },
     {
       "date": "2026-09-26",
-      "version": 2,
-      "rebalanced_today": true,
+      "version": 3,
+      "rebalanced_today": false,
       "nav": 99272.99,
       "return_pct": -0.73,
       "day_change_pct": -0.43,
-      "invested_value": 76039.12,
-      "cash": 23233.87,
+      "invested_value": 76095.48,
+      "cash": 23177.51,
       "holdings": [
         {
           "name": "Dynamic Cables",
@@ -448,19 +448,6 @@
           "as_of": "2026-09-25",
           "stale": true,
           "value": 8816.85,
-          "return_pct": -0.0
-        },
-        {
-          "name": "Greaves Cotton",
-          "symbol": "GREAVESCOT.NS",
-          "weight_pct": 9.01,
-          "entry_price": 234.78,
-          "shares": 38,
-          "invested": 8921.64,
-          "price": 234.78,
-          "as_of": "2026-09-25",
-          "stale": true,
-          "value": 8921.64,
           "return_pct": -0.0
         },
         {
@@ -503,6 +490,19 @@
           "return_pct": -0.0
         },
         {
+          "name": "Apcotex Industries",
+          "symbol": "APCOTEXIND.NS",
+          "weight_pct": 9.01,
+          "entry_price": 599.4,
+          "shares": 14,
+          "invested": 8391.6,
+          "price": 599.4,
+          "as_of": "2026-09-25",
+          "stale": true,
+          "value": 8391.6,
+          "return_pct": 0.0
+        },
+        {
           "name": "Matrimony.com",
           "symbol": "MATRIMONY.NS",
           "weight_pct": 8.59,
@@ -542,19 +542,6 @@
           "return_pct": 0.0
         },
         {
-          "name": "Tinna rubber",
-          "symbol": "TINNARUBR.NS",
-          "weight_pct": 8.59,
-          "entry_price": 978.1,
-          "shares": 8,
-          "invested": 7824.8,
-          "price": 978.1,
-          "as_of": "2026-09-25",
-          "stale": true,
-          "value": 7824.8,
-          "return_pct": -0.0
-        },
-        {
           "name": "KSH International",
           "symbol": "KSHINTL.NS",
           "weight_pct": 8.59,
@@ -565,6 +552,19 @@
           "as_of": "2026-09-25",
           "stale": true,
           "value": 8284.0,
+          "return_pct": 0.0
+        },
+        {
+          "name": "Aeroflex Industries",
+          "symbol": "AEROFLEX.NS",
+          "weight_pct": 8.59,
+          "entry_price": 525.7,
+          "shares": 16,
+          "invested": 8411.2,
+          "price": 525.7,
+          "as_of": "2026-09-25",
+          "stale": true,
+          "value": 8411.2,
           "return_pct": 0.0
         }
       ]

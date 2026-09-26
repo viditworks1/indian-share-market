@@ -56,6 +56,24 @@ def slope_pct(evals, n=8):
         return None
     return (evals[-1] / evals[-1 - n] - 1) * 100
 
+def ext_pct_at(vals, emavals, idx):
+    """(close - ema)/ema*100 at a given index, so acceleration can look back N bars
+    on the SAME already-computed EMA series -- no extra fetch needed."""
+    if -idx > len(vals) or emavals[idx] == 0:
+        return None
+    return (vals[idx] - emavals[idx]) / emavals[idx] * 100
+
+# How many points of EMA-extension were gained over the trailing lookback -- an
+# early tell for a move that's ACCELERATING (extension building fast), independent of
+# how extended it already is. This is what caught Novartis India too late in the main
+# paper-trading composite (it went +28% -> +81.5% ext vs its 30W EMA in ~1 week, but
+# that only showed up as a static "overextended" penalty once the level was already
+# extreme). Scoring the velocity directly lets a fast-building move score well while
+# it's still early -- low absolute extension, high acceleration -- rather than only
+# ever being rewarded once (or penalised after) it's already blown off.
+ACCEL_LOOKBACK_WEEKS = 4   # weekly 30W-EMA extension, vs 4 completed weekly bars ago
+ACCEL_LOOKBACK_DAYS = 10   # daily 50-day EMA extension, vs 10 trading days ago (~2 weeks)
+
 rows = []
 for name, (sym, bucket, note) in CANDS.items():
     try:
@@ -73,40 +91,83 @@ for name, (sym, bucket, note) in CANDS.items():
     from_hi = (last_p / hi52 - 1) * 100
     # weekly 30W EMA
     wk = rf.weekly_closes(sym)
-    ext30 = ema30slope = None
+    ext30 = ema30slope = accel30 = None
     if wk and len(wk) > 32:
         wd = [d for d, c in wk]; wv = [c for d, c in wk]
         e30 = rf.ema(wv, 30)
         ext30 = (wv[-1] - e30[-1]) / e30[-1] * 100
         ema30slope = slope_pct(e30, 8)
+        if len(wv) > ACCEL_LOOKBACK_WEEKS:
+            ext30_prior = ext_pct_at(wv, e30, -1 - ACCEL_LOOKBACK_WEEKS)
+            accel30 = None if ext30_prior is None else ext30 - ext30_prior
     # daily 10W EMA (~50 trading days) via daily series
     dv = [p for d, p in dseries]
     e50 = rf.ema(dv, 50) if len(dv) > 55 else None
     ext10w = (dv[-1] / e50[-1] - 1) * 100 if e50 else None
     ema10wslope = slope_pct(e50, 20) if e50 else None
+    accel10w = None
+    if e50 and len(dv) > 55 + ACCEL_LOOKBACK_DAYS:
+        ext10w_prior = ext_pct_at(dv, e50, -1 - ACCEL_LOOKBACK_DAYS)
+        accel10w = None if ext10w_prior is None else ext10w - ext10w_prior
     rows.append(dict(name=name, sym=sym, bucket=bucket, note=note, last=last_p, last_d=last_d,
                      r1=r1, r3=r3, r6=r6, r12=r12, from_hi=from_hi, ext30=ext30, s30=ema30slope,
-                     ext10w=ext10w, s10w=ema10wslope))
+                     ext10w=ext10w, s10w=ema10wslope, accel30=accel30, accel10w=accel10w))
 
 def sc(x, lo, hi):
     if x is None: return 0.0
     return max(0.0, min(1.0, (x - lo) / (hi - lo)))
 
-print(f"\n{'name':<24}{'bkt':<11}{'last':>9}{'1m%':>7}{'3m%':>7}{'6m%':>7}{'12m%':>8}{'<hi%':>7}{'ext30':>7}{'s30':>6}{'ext10w':>8}{'s10w':>7}{'SCORE':>7}")
+# Dynamic Cables sat at ext30 +1.3%/+1.7% for weeks -- the OLD posture formula (1 - sc(ext30,25,55))
+# scored that as a perfect 1.0, same as a healthy 15-20% cushion, since it only ever penalised the
+# TOP end (overextension). It broke below its 30W EMA a few weeks later. Reusing paper-trading's own
+# thin_cushion_pct/ext_cushion_knee_pct thresholds (single source of truth, refresh.py's config.json)
+# so a razor-thin cushion now scores near 0 here too, not just in the composite table's Tech score.
+_TCFG = rf.CFG["technical"]
+THIN_PCT, KNEE_PCT = _TCFG["thin_cushion_pct"], _TCFG["ext_cushion_knee_pct"]
+FADING_PCT = _TCFG["fading_alert_pct"]
+
+def posture_score(ext30):
+    """Sweet-spot, not one-sided: thin/near-zero cushion is discounted just like overextension is."""
+    if ext30 is None or ext30 <= 0:
+        return 0.0
+    if ext30 < THIN_PCT:
+        return 0.6 * (ext30 / THIN_PCT)          # razor-thin -- was Dynamic Cables' zone
+    if ext30 <= KNEE_PCT:
+        return 0.6 + 0.4 * sc(ext30, THIN_PCT, KNEE_PCT)  # building a real cushion
+    if ext30 <= 25:
+        return 1.0                                # healthy, established cushion -- sweet spot
+    return max(0.0, 1.0 - sc(ext30, 25, 55))      # decays into the overextension zone
+
+print(f"\n{'name':<24}{'bkt':<11}{'last':>9}{'1m%':>7}{'3m%':>7}{'6m%':>7}{'12m%':>8}{'<hi%':>7}{'ext30':>7}{'s30':>6}{'ext10w':>8}{'s10w':>7}{'acc30':>7}{'acc10w':>8}{'SCORE':>7}  flags")
 scored = []
 for r in rows:
-    # 6-month swing score: momentum sweet-spot + trend confirmation, penalise over-extension & far-from-high
+    # 6-month swing score: momentum sweet-spot + trend confirmation, penalise over-extension &
+    # far-from-high, reward early acceleration (extension building fast, not just already built).
     mom3 = sc(r['r3'], -5, 35)
     mom6 = sc(r['r6'], 0, 70)
     trend = 0.5 * sc(r['s30'], 0, 12) + 0.5 * sc(r['s10w'], 0, 15)      # rising EMAs
-    posture = 1.0 - sc(r['ext30'], 25, 55)                              # not blown off
+    posture = posture_score(r['ext30'])                                 # not blown off, not paper-thin either
     nearhi = sc(r['from_hi'], -30, -2)                                  # close to 52w high
+    # early-acceleration bonus: how fast ext30/ext10w are BUILDING, not their level.
+    # Catches a move in its first 1-2 weeks (low ext, high accel) same as posture would
+    # reward it, but ALSO gives credit to a move that's still building even once ext30
+    # has crossed into posture's penalty zone -- deliberately, since the Novartis/Vikram
+    # Thermo pattern shows the fastest-accelerating names are exactly the ones that go
+    # on to the best returns, so acceleration and overextension are scored as separate
+    # (partially offsetting) dimensions rather than one collapsing into the other.
+    accel = 0.5 * sc(r['accel30'], 0, 30) + 0.5 * sc(r['accel10w'], 0, 20)
     notdump = 0.0 if (r['r3'] is not None and r['r3'] < -12) else 1.0   # exclude fresh breakdowns
-    score = notdump * (0.28*mom3 + 0.22*mom6 + 0.25*trend + 0.15*posture + 0.10*nearhi) * 100
+    score = notdump * (0.24*mom3 + 0.18*mom6 + 0.22*trend + 0.13*posture + 0.08*nearhi + 0.15*accel) * 100
     r['score'] = score
+    flags = []
+    if r['ext30'] is not None and 0 < r['ext30'] < THIN_PCT:
+        flags.append(f"THIN CUSHION ({r['ext30']:+.1f}% vs 30W EMA)")
+    if r['accel30'] is not None and r['accel30'] <= FADING_PCT:
+        flags.append(f"FADING ({r['accel30']:+.0f}pp ext30/{ACCEL_LOOKBACK_WEEKS}wk)")
+    r['flags'] = flags
     scored.append(r)
 
 for r in sorted(scored, key=lambda z: -z['score']):
     f = lambda v, w=7, p=1: (f"{v:>{w}.{p}f}" if v is not None else " " * (w-1) + "-")
-    print(f"{r['name']:<24}{r['bucket']:<11}{f(r['last'],9,1)}{f(r['r1'])}{f(r['r3'])}{f(r['r6'])}{f(r['r12'],8)}{f(r['from_hi'])}{f(r['ext30'])}{f(r['s30'],6)}{f(r['ext10w'],8)}{f(r['s10w'])}{f(r['score'],7,1)}")
+    print(f"{r['name']:<24}{r['bucket']:<11}{f(r['last'],9,1)}{f(r['r1'])}{f(r['r3'])}{f(r['r6'])}{f(r['r12'],8)}{f(r['from_hi'])}{f(r['ext30'])}{f(r['s30'],6)}{f(r['ext10w'],8)}{f(r['s10w'])}{f(r['accel30'])}{f(r['accel10w'],8)}{f(r['score'],7,1)}  {', '.join(r['flags'])}")
     print(f"    {r['sym']:<14} {r['note']}")

@@ -143,18 +143,79 @@ def weekly_technical(symbol):
         if vals[i - 1] <= e[i - 1] and vals[i] > e[i]:
             fresh = True
             break
+    # velocity: how many points of ext_pct were gained/lost over the trailing lookback.
+    # A big POSITIVE reading flags a blow-off IN PROGRESS (Novartis went +28%->+81.5% ext
+    # in ~1 week); a sustained NEGATIVE reading (Venus Remedies: +24.9%->+17.8%->+10.6%
+    # over three straight weekly reads) flags a cushion that's quietly eroding even while
+    # still comfortably positive -- the static overextended_pct/knee mechanics never touch
+    # either case until the level itself is already extreme. Computed before scoring so the
+    # fading case below can discount the score, not just annotate it.
+    look_v = CFG["flags"]["velocity_lookback_weeks"]
+    accel = None
+    if len(vals) > look_v:
+        prior_close, prior_ema = vals[-1 - look_v], e[-1 - look_v]
+        if prior_ema:
+            ext_prior = (prior_close - prior_ema) / prior_ema * 100.0
+            accel = round(ext - ext_prior, 1)
     if ext <= 0:
         score = None  # disqualified from the candidate pool
     else:
         base = 100 - max(0.0, ext - tcfg["ext_cushion_knee_pct"]) * tcfg["ext_decay_per_pct"]
         base = max(tcfg["base_floor"], min(100.0, base))
+        # thin cushion: Dynamic Cables sat at ext +1.3%/+1.7% for weeks -- inside the knee, so
+        # the un-discounted formula above scored it full marks right up to the week it broke.
+        # Scale the base score down toward 0 as ext approaches 0, full marks restored at the
+        # thin_cushion_pct threshold (comfortably inside the knee, so healthy names are unaffected).
+        thin = tcfg.get("thin_cushion_pct", 0)
+        if thin and ext < thin:
+            base *= max(0.0, ext) / thin
         if fresh:
             base += tcfg["fresh_cross_bonus"]
         if ext > tcfg["overextended_pct"]:
             base -= tcfg["overextended_penalty"]
+        # fading: extension has been SHRINKING even though it's still positive -- the Venus
+        # Remedies pattern. A fixed penalty, distinct from the thin-cushion discount above
+        # (which only fires near zero) and from the overextended penalty (which only fires
+        # near the top) -- this fires on the *trend* of ext_pct, regardless of its level.
+        if accel is not None and accel <= tcfg["fading_alert_pct"]:
+            base -= tcfg["fading_penalty"]
         score = max(0.0, min(100.0, base))
     return {"ext_pct": round(ext, 1), "fresh_cross": fresh, "score": None if score is None else round(score, 1),
-            "ema": round(last_ema, 2), "close": round(last_close, 2), "as_of": dates[-1].isoformat(), "note": ""}
+            "ema": round(last_ema, 2), "close": round(last_close, 2), "as_of": dates[-1].isoformat(), "note": "",
+            "accel_pct": accel}
+
+def high_drawdown_pct(symbol):
+    """% off the trailing N-week high (completed weekly closes only), N = flags.high_lookback_weeks
+    (default 52 -- a genuine 52-week high, unlike a short daily window). Purely informational: a name
+    can already be well off its high while still comfortably above its 30W EMA -- an earlier 'this
+    move has cracked' tell than waiting for the EMA cushion itself to erode."""
+    look = CFG["flags"]["high_lookback_weeks"]
+    rows = weekly_closes(symbol)
+    if len(rows) < 5:
+        return None
+    closed = _drop_in_progress_period(rows, "week")
+    vals = [r[1] for r in closed][-look:]
+    if not vals:
+        return None
+    hi = max(vals)
+    return round((vals[-1] / hi - 1) * 100.0, 1) if hi else None
+
+def fast_ema_posture(symbol):
+    """Daily EMA(flags.ema_fast_span_days) extension + its slope over the trailing
+    ema_fast_slope_lookback_days -- a materially faster-reacting trend read than the weekly
+    30-week EMA, since it updates every day off daily closes rather than waiting for a
+    completed weekly/monthly bar. Mirrors swing_screen.py's ext10w/s10w. Purely informational
+    here -- does not feed the composite score or gate the pool."""
+    fcfg = CFG["flags"]
+    span, look = fcfg["ema_fast_span_days"], fcfg["ema_fast_slope_lookback_days"]
+    rows = daily_series(symbol)
+    if len(rows) < span + 5:  # same convention as weekly_technical's span+5 floor
+        return {"ext_pct": None, "slope_pct": None}
+    vals = [r[1] for r in rows]
+    e = ema(vals, span)
+    ext = (vals[-1] - e[-1]) / e[-1] * 100.0
+    slope = (e[-1] / e[-1 - look] - 1) * 100.0 if len(e) > look else None
+    return {"ext_pct": round(ext, 1), "slope_pct": None if slope is None else round(slope, 1)}
 
 def monthly_technical(symbol):
     """Last completed monthly close vs the 10-month EMA -- a slower regime filter
@@ -181,18 +242,35 @@ def monthly_technical(symbol):
         if vals[i - 1] <= e[i - 1] and vals[i] > e[i]:
             fresh = True
             break
+    look_v = CFG["flags"]["velocity_lookback_months"]
+    accel = None
+    if len(vals) > look_v:
+        prior_close, prior_ema = vals[-1 - look_v], e[-1 - look_v]
+        if prior_ema:
+            ext_prior = (prior_close - prior_ema) / prior_ema * 100.0
+            accel = round(ext - ext_prior, 1)
     if ext <= 0:
         score = tcfg["base_floor"]  # below the monthly regime line -- soft floor, not a gate
     else:
         base = 100 - max(0.0, ext - tcfg["ext_cushion_knee_pct"]) * tcfg["ext_decay_per_pct"]
         base = max(tcfg["base_floor"], min(100.0, base))
+        # thin cushion / fading -- same Dynamic Cables / Venus Remedies rationale as weekly_technical()
+        # above, scoped to the monthly regime line. Deliberately allowed to push below base_floor
+        # (unlike a plain weekly pullback, a monthly cushion that's razor-thin or actively eroding is
+        # exactly the slower-regime deterioration this timeframe exists to catch).
+        thin = tcfg.get("thin_cushion_pct", 0)
+        if thin and ext < thin:
+            base *= max(0.0, ext) / thin
         if fresh:
             base += tcfg["fresh_cross_bonus"]
         if ext > tcfg["overextended_pct"]:
             base -= tcfg["overextended_penalty"]
+        if accel is not None and accel <= tcfg["fading_alert_pct"]:
+            base -= tcfg["fading_penalty"]
         score = max(0.0, min(100.0, base))
     return {"ext_pct": round(ext, 1), "fresh_cross": fresh, "score": round(max(0.0, min(100.0, score)), 1),
-            "ema": round(last_ema, 2), "close": round(last_close, 2), "as_of": dates[-1].isoformat(), "note": ""}
+            "ema": round(last_ema, 2), "close": round(last_close, 2), "as_of": dates[-1].isoformat(), "note": "",
+            "accel_pct": accel}
 
 # --------------------------------------------------------------------------- #
 # Fundamental screen-tier sub-score                                          #
@@ -297,9 +375,27 @@ def score_universe():
         mo = monthly_technical(sym)
         fund = fundamental(name, slug, rft)
         excluded = name in CFG["hard_excluded"]
+        from_hi = high_drawdown_pct(sym)
+        fast = fast_ema_posture(sym)
         # the weekly EMA break remains the ONLY technical pool gate -- monthly is a
         # regime overlay on the score, never a disqualifier (see monthly_technical docstring)
         in_pool = (wk["score"] is not None) and not excluded
+        flags = []
+        fcfg = CFG["flags"]
+        tcfg_wk = CFG["technical"]
+        if wk["ext_pct"] is not None and wk["ext_pct"] > 0:
+            if from_hi is not None and from_hi <= fcfg["peaked_drawdown_pct"]:
+                flags.append(f"PEAKED ({from_hi:+.1f}% off 52W hi)")
+            if wk.get("accel_pct") is not None and wk["accel_pct"] >= fcfg["velocity_alert_pct"]:
+                flags.append(f"FAST-EXTENDING (+{wk['accel_pct']:.0f}pp ext/{fcfg['velocity_lookback_weeks']}wk)")
+            if wk["ext_pct"] < tcfg_wk.get("thin_cushion_pct", 0):
+                flags.append(f"THIN CUSHION ({wk['ext_pct']:+.1f}% vs 30W EMA)")
+            if wk.get("accel_pct") is not None and wk["accel_pct"] <= tcfg_wk["fading_alert_pct"]:
+                flags.append(f"FADING ({wk['accel_pct']:+.0f}pp ext/{fcfg['velocity_lookback_weeks']}wk)")
+            if fast["ext_pct"] is not None and fast["ext_pct"] <= 0:
+                flags.append("EMA50 BREAK")
+            elif fast["slope_pct"] is not None and fast["slope_pct"] < 0:
+                flags.append("DECELERATING")
         wk_for_blend = wk["score"] if wk["score"] is not None else 0.0
         mo_for_blend = mo["score"] if mo["score"] is not None else 0.0
         tech_blend = tw["weekly"] * wk_for_blend + tw["monthly"] * mo_for_blend
@@ -316,6 +412,9 @@ def score_universe():
             "ema": wk["ema"], "weekly_close": wk["close"], "tech_as_of": wk.get("as_of"),
             "monthly_technical": mo["score"], "ext_pct_monthly": mo["ext_pct"], "fresh_cross_monthly": mo["fresh_cross"],
             "ema_monthly": mo["ema"], "monthly_close": mo["close"], "tech_as_of_monthly": mo.get("as_of"),
+            "accel_pct": wk.get("accel_pct"), "from_52w_hi_pct": from_hi,
+            "ema50_ext_pct": fast["ext_pct"], "ema50_slope_pct": fast["slope_pct"],
+            "flags": flags,
             "composite": round(composite, 2),
             "in_pool": in_pool, "excluded": excluded,
             "contrib": {
@@ -783,19 +882,21 @@ def write_tracker(data, cohorts_doc):
     a("Scored fresh each run from live weekly + monthly technicals + the current `master_score` "
       "(all of which other scheduled tasks keep updating). Conv/Gap/Fund columns are informational "
       "context only — they feed `master_score` upstream, not this composite directly.\n")
-    a("| # | Name | Composite | Master | Conv | Gap | Fund | Tech (wk/mo) | Ext vs 30W EMA | Ext vs 10M EMA | Conv-only rank | Δ |")
-    a("|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|")
+    a("| # | Name | Composite | Master | Conv | Gap | Fund | Tech (wk/mo) | Ext vs 30W EMA | Ext vs 10M EMA | vs 52W Hi | Conv-only rank | Δ | Flags |")
+    a("|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|")
     pool = sorted([r for r in data["universe"] if r["in_pool"]], key=lambda r: r["composite_rank"])
     for r in pool:
         ext = "—" if r["ext_pct"] is None else f"{r['ext_pct']:+.1f}%"
         ext_mo = "—" if r["ext_pct_monthly"] is None else f"{r['ext_pct_monthly']:+.1f}%"
         wk_mo = f"{r['weekly_technical']:.0f}/{r['monthly_technical']:.0f}" if r["weekly_technical"] is not None else "—"
+        hi = "—" if r["from_52w_hi_pct"] is None else f"{r['from_52w_hi_pct']:+.1f}%"
         dd = r["rank_delta"]
         darr = "—" if dd is None else (f"▲{dd}" if dd > 0 else (f"▼{-dd}" if dd < 0 else "0"))
         star = " ★" if r["composite_rank"] <= len(CFG["concentrated_rank_weights_by_slot"]) else ""
+        flagtxt = ", ".join(r["flags"]) if r["flags"] else "-"
         a(f"| {r['composite_rank']}{star} | {r['name']} | **{r['composite']:.1f}** | {r['master']:.0f} | "
           f"{r['conviction']:.0f} | {r['gap']:.0f} | {r['fundamental']:.0f} | {wk_mo} | "
-          f"{ext} | {ext_mo} | {r['conviction_rank']} | {darr} |")
+          f"{ext} | {ext_mo} | {hi} | {r['conviction_rank']} | {darr} | {flagtxt} |")
     out = [r for r in data["universe"] if not r["in_pool"]]
     if out:
         a("")
@@ -804,6 +905,36 @@ def write_tracker(data, cohorts_doc):
             for r in out))
     a(f"\n★ = would be in next Monday's concentrated cohort at "
       f"{'/'.join(map(str, CFG['concentrated_rank_weights_by_slot']))}% by rank.\n")
+    fcfg = CFG["flags"]
+    tcfg_wk = CFG["technical"]
+    a("**Flags.** None of these gate the pool or the frozen cohorts above; the weekly ext≤0 break stays "
+      "the only hard exclusion. `THIN CUSHION` and `FADING` are also baked directly into the Tech (wk/mo) "
+      "score itself (see below) — the other three are advisory-only annotations on top of the score. Added "
+      "after two post-mortems: Novartis India peaked 2026-09-10 and rolled over ~19% while its Ext/Tech "
+      "columns, gated to the *last completed* weekly/monthly close, didn't reflect it until the following "
+      "Monday; Dynamic Cables sat at a paper-thin +1.3%/+1.7% vs its 30W EMA for weeks — inside the old "
+      "formula's full-marks cushion — before breaking below it; Venus Remedies's Ext vs 30W EMA visibly "
+      "decayed (+24.9%→+17.8%→+10.6% over three straight weekly reads) while still comfortably positive.")
+    a(f"- `THIN CUSHION` *(affects the Tech score)* — Ext vs 30W EMA is positive but under "
+      f"{tcfg_wk['thin_cushion_pct']}% — the old formula scored anything inside the "
+      f"{tcfg_wk['ext_cushion_knee_pct']}% cushion as full marks; this discounts the score toward 0 as "
+      "ext approaches 0, restoring full marks at the threshold, so a razor-thin cushion no longer looks as "
+      "safe as a comfortable one right up until the week it breaks.")
+    a(f"- `FADING` *(affects the Tech score)* — Ext vs 30W EMA has *shrunk* by "
+      f"{-tcfg_wk['fading_alert_pct']}pp or more over the trailing {fcfg['velocity_lookback_weeks']} weeks "
+      f"(a fixed {tcfg_wk['fading_penalty']}-point score penalty) — the cushion is eroding even though it's "
+      "still comfortably positive, the opposite case from `FAST-EXTENDING` below.")
+    a(f"- `PEAKED` — price is already {fcfg['peaked_drawdown_pct']}% or more off its trailing "
+      f"{fcfg['high_lookback_weeks']}-week high even though it's still above its 30W EMA — the name has "
+      "cracked before the EMA cushion itself has eroded.")
+    a(f"- `FAST-EXTENDING` — Ext vs 30W EMA has gained {fcfg['velocity_alert_pct']}pp or more in the "
+      f"trailing {fcfg['velocity_lookback_weeks']} weeks — a blow-off in progress, independent of the "
+      "absolute extension level (Novartis went +28%→+81.5% in ~1 week).")
+    a(f"- `EMA50 BREAK` — the *daily* {fcfg['ema_fast_span_days']}-day EMA has already been broken, "
+      "well before the slower weekly 30W EMA hard gate would trip.")
+    a(f"- `DECELERATING` — the daily {fcfg['ema_fast_span_days']}-day EMA's own slope (trailing "
+      f"{fcfg['ema_fast_slope_lookback_days']} days) has turned negative — the short-term trend is rolling "
+      "over even though price is still above both EMAs.\n")
     a("---\n")
     for c in data["cohorts"]:
         a(f"## Cohort: {c['week_id']} ({c['series']})\n")

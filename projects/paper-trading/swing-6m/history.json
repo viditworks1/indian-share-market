@@ -3372,7 +3372,8 @@
       "alpha_pct": 13.41,
       "flags": [
         "EXTENDED (+52% vs 30W EMA)",
-        "EXTENDED (+74% vs 30W EMA)"
+        "EXTENDED (+74% vs 30W EMA)",
+        "FADING (-17pp ext/4wk)"
       ],
       "holdings": [
         {
@@ -3411,7 +3412,9 @@
           "dist_to_stop_pct": 12.8,
           "ext_vs_30w_ema_pct": 11.4,
           "catalyst": "Rolling ANDA approvals + Q2 FY27 results ~Nov 2026",
-          "flags": []
+          "flags": [
+            "FADING (-17pp ext/4wk)"
+          ]
         },
         {
           "name": "Unimech Aerospace",

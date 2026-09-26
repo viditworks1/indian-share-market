@@ -2,7 +2,7 @@
   "_readme": "6-MONTH TACTICAL tracker. SEPARATE from paper-trading/cohorts.json (frozen weekly cohorts), swing-6m/cohorts.json (hand-curated, fundamentally-informed swing cohorts), and live-recommendation/ (the fundamentals-led Rs 1L allocation). This single book always mirrors the CURRENT allocation in valuepickr-open-screen/data/confluence100_tactical6m.json -- Confluence-100's purely technical/momentum ranking (no master_score term), auto-rebalancing at live prices whenever that list's holdings or weights change by more than a rounding amount. Script-owned -- do not hand-edit holdings/cash; it picks up the next weekly Confluence-100 rebuild automatically. An empty holdings list (insufficient pool) means all-cash, not an error.",
   "inception_date": "2026-09-22",
   "inception_capital": 100000,
-  "version": 2,
+  "version": 3,
   "effective_date": "2026-09-26",
   "source_revision": "Confluence-100 tactical6m (26 Sep 2026, cash 12.0%)",
   "holdings": [
@@ -13,14 +13,6 @@
       "entry_price": 139.95,
       "shares": 63,
       "invested": 8816.85
-    },
-    {
-      "name": "Greaves Cotton",
-      "symbol": "GREAVESCOT.NS",
-      "weight_pct": 9.01,
-      "entry_price": 234.78,
-      "shares": 38,
-      "invested": 8921.64
     },
     {
       "name": "Dhabriya Polywood",
@@ -47,6 +39,14 @@
       "invested": 8535.6
     },
     {
+      "name": "Apcotex Industries",
+      "symbol": "APCOTEXIND.NS",
+      "weight_pct": 9.01,
+      "entry_price": 599.4,
+      "shares": 14,
+      "invested": 8391.6
+    },
+    {
       "name": "Matrimony.com",
       "symbol": "MATRIMONY.NS",
       "weight_pct": 8.59,
@@ -71,23 +71,23 @@
       "invested": 8422.88
     },
     {
-      "name": "Tinna rubber",
-      "symbol": "TINNARUBR.NS",
-      "weight_pct": 8.59,
-      "entry_price": 978.1,
-      "shares": 8,
-      "invested": 7824.8
-    },
-    {
       "name": "KSH International",
       "symbol": "KSHINTL.NS",
       "weight_pct": 8.59,
       "entry_price": 1035.5,
       "shares": 8,
       "invested": 8284.0
+    },
+    {
+      "name": "Aeroflex Industries",
+      "symbol": "AEROFLEX.NS",
+      "weight_pct": 8.59,
+      "entry_price": 525.7,
+      "shares": 16,
+      "invested": 8411.2
     }
   ],
-  "cash": 23233.87,
+  "cash": 23177.51,
   "rebalance_log": [
     {
       "date": "2026-09-22",
@@ -111,6 +111,12 @@
       "date": "2026-09-26",
       "version": 2,
       "reason": "added Dhabriya Polywood, Greaves Cotton, KSH International, Neuland Laboratories, Raymond Realty, Tinna rubber; dropped Aries Agro, Engineers India, J.G. Chemicals, Sona BLW Precision Forgings, Thyrocare, Valiant Communications",
+      "nav": 99272.99
+    },
+    {
+      "date": "2026-09-26",
+      "version": 3,
+      "reason": "added Aeroflex Industries, Apcotex Industries; dropped Greaves Cotton, Tinna rubber",
       "nav": 99272.99
     }
   ]
