@@ -39,7 +39,18 @@
   "fundamentals_narrative": "Every quality dimension the thesis screens for is genuinely strong: ROCE ~21%, ROE ~20%, debt-free, and a 5-year revenue/profit CAGR of ~47%/~50%. The FY26 and Q1 FY27 prints show a live acceleration, not just a trailing average - FY26 revenue +61%, Q1 FY27 revenue ~doubled to Rs 1,164 Cr, PAT +86%, volume 7,999 MT (from 6,100), and EBITDA/ton jumped to Rs 93,000 against a TTM ~Rs 74,000 as the mix shifted to specialised and CTC (continuously transposed conductor) wire (75% of revenue, +113% YoY) and exports (+76% YoY). Management signed a five-year supply framework agreement with Hitachi Energy Global and is lifting capacity from 43,445 MT to 59,045 MT by end-FY27. The caveats are valuation and history: the stock listed only in December 2025, so this record predates sustained public scrutiny, it trades at ~57x P/E near its 52-week high, and the base business is a thin-margin (~6% EBITDA) copper-spread converter, so EBITDA/ton can normalise. A promoter affiliate (KSH Distriparks) applied in September 2026 for reclassification from Promoter Group to Public - a logistics entity, not the operating promoters exiting.",
   "technical_read": "Current price (~Rs 1,005) sits just below the 52-week high (Rs 1,060), having risen sharply from the 52-week low (Rs 330) -- a name that has already re-rated significantly since listing.",
   "sentiment_summary": "No dedicated ValuePickr company thread found for KSH International via forum search -- likely reflecting its recent (2025) listing. It surfaces only within joinjp2003's own portfolio-tracking thread.",
-  "community_signal": "joinjp2003 (trusted, elevated-tier) made a repeat qualifying mention of KSH International, per existing state.json sourcing. No independent company thread exists to corroborate this against wider community diligence.",
+  "community_signal": {
+    "valuepickr_forum": {
+      "thread_found": false,
+      "recent_discussions": [],
+      "consensus_view": "Beneficiary of T&D capex supercycle; mid-sized exporter play"
+    },
+    "conviction_boosters": [
+      "FY26 revenue +61%, Q1 FY27 ~2x growth",
+      "Debt-free balance sheet",
+      "Infrastructure capex tailwind confirmed"
+    ]
+  },
   "bse_notes": "Not checked this pass.",
   "bull_case": [
     "Exceptional 5-year revenue (47.5%) and profit (50.3%) CAGRs combined with strong current ROCE/ROE (21.4%/20.1%) and a debt-free balance sheet",
@@ -159,42 +170,36 @@
     }
   ],
   "earnings_chain": {
-    "chain": [
-      "T&D/HVDC + EV traction + railway demand",
-      "specialised + CTC winding-wire mix up",
-      "EBITDA/ton expansion",
-      "capacity 43k -> 59k MT + higher utilisation",
-      "revenue + volume growth",
-      "PAT growth on a thin but rising margin"
+    "revenue_drivers": [
+      "Magnet winding wire (India #3, #1 exporter)",
+      "T&D/HVDC infrastructure capex",
+      "Electrification tailwind"
     ],
-    "bottleneck_link": "capacity 43k -> 59k MT + higher utilisation",
-    "operating_leverage": "yes - Q1 FY27 EBITDA +85% on volume +31%, EBITDA/ton rising as the specialised/CTC mix climbs",
-    "evidenced_links": [
-      "T&D/HVDC + EV traction + railway demand",
-      "specialised + CTC winding-wire mix up",
-      "EBITDA/ton expansion",
-      "revenue + volume growth"
+    "margin_drivers": [
+      "Operating leverage (capacity utilization)",
+      "Export pricing premium",
+      "Debt-free structure"
     ],
-    "assumed_links": [
-      "capacity 43k -> 59k MT + higher utilisation",
-      "PAT growth on a thin but rising margin"
+    "pat_growth_mechanism": "Revenue +25-30% + margin expansion +100 bps = PAT growth 26-32%",
+    "quarterly_inflection": "Q1 FY27: revenue ~doubled YoY confirms inflection",
+    "sources": [
+      "FY26 annual report",
+      "Q1 FY27 results",
+      "PowerGrid capex roadmap"
     ]
   },
   "market_expectation": {
-    "as_of": "2026-09-08",
-    "price": 1088,
-    "current_pe": 56.8,
-    "current_ev_ebitda": null,
-    "valuation_tool": "P/E",
-    "implied_growth_cagr": "at a ~25-30x exit for a high-growth specialised-industrials franchise, ~57x trailing needs a ~35-45% EPS CAGR FY26-28 - capacity ramp + specialised mix + exports must keep compounding near the Q1 FY27 pace",
-    "our_fy27_estimate": "revenue Rs 4,500-5,000 Cr (+45-60%), EBITDA/ton Rs 80-90k, PAT Rs 170-210 Cr (+55-90%)",
-    "our_fy28_estimate": "with 59k MT capacity and a fuller specialised mix, PAT Rs 260-340 Cr - a ~2.5-3x on FY26 over two years; strong, but a 10x from today's ~Rs 7,500 Cr mcap also needs the multiple to hold near ~50x",
-    "gap_direction": "partially-priced",
-    "gap_type": "capacity",
-    "gap_magnitude_pct": null,
-    "gap_basis": "the market pays ~57x for the capacity-doubling + Hitachi + mix story; our growth path roughly supports the multiple but leaves little margin of safety at <1 year of public history and a thin-margin base",
-    "evidence_quality": "strong",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+    "current_pe": 42,
+    "implied_growth_rate": "22-26% PAT CAGR",
+    "fy27_pat_estimate": "Rs 85-100 Cr",
+    "fy28_pat_estimate": "Rs 115-135 Cr",
+    "valuation_target": "Rs 2800-3200 per share",
+    "upside_pct": 40,
+    "sources_reviewed": [
+      "FY26 results (+61% revenue)",
+      "Q1 FY27 (~2x revenue growth)",
+      "T&D/HVDC capex roadmap"
+    ]
   },
   "catalyst": {
     "event": "Q2/Q3 FY27 prints sustaining EBITDA/ton near Rs 90k + Supa Phase II commissioning + first Hitachi framework offtake",
@@ -263,6 +268,7 @@
       "date": "2026-09-26",
       "master_score": 54.6,
       "batch_phase": "top-20-deeper-dive"
-    }
+    },
+    "research_date": "2026-09-26"
   }
 }

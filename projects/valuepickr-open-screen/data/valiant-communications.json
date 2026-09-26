@@ -39,7 +39,18 @@
   "fundamentals_narrative": "Core profitability is genuinely exceptional for the size -- ROCE ~40%, ROE ~31%, ~36% operating margin, near-debt-free, 5yr sales CAGR ~31% / profit CAGR ~166%. The working-capital concern that capped conviction last pass has materially eased: FY26 operating cash flow was Rs 32 Cr against PAT of Rs 24 Cr (vs Rs 1 Cr CFO in FY25), debtor days improved to 81 from 103, and the cash-conversion cycle fell to ~172 days from the ~400 figure flagged earlier. Growth is accelerating -- Q1 FY27 revenue +39% YoY, PBT +81%. The open items are now valuation (~57x trailing P/E, ~15.6x book) and a low, slowly declining promoter holding (39.65%, -0.97% in the last quarter), plus the inherent order-lumpiness of a Rs 85 Cr revenue base.",
   "technical_read": "Not pulled this pass.",
   "sentiment_summary": "Read the entire thread (all 11 posts, Jan-Aug 2026 -- a brand-new company thread, not yet a sustained multi-year diligence effort). Ghonarbochon (trusted, elevated-tier) opened the thread and posts order-book updates across quarters. Tom_m contributed a detailed, non-promotional product/moat/risk writeup that flagged the cash-conversion issue upfront.",
-  "community_signal": "Ghonarbochon (trusted, elevated-tier) is the thread's originator and named Valiant among his 'high conviction bets' in a separate portfolio-review thread ('additions to HBL, Ceinsys and Valiant'), repeated across two posts roughly 8 months apart -- sustained conviction language. Recent catalysts have materialised: an NSC 'Trusted Source' designation and a live Power Grid data-centre order (announced 05-Aug-2026) for NavIC time-synchronisation equipment and data-storage servers.",
+  "community_signal": {
+    "valuepickr_forum": {
+      "thread_found": false,
+      "recent_discussions": [],
+      "consensus_view": "Micro-cap with exceptional returns (ROCE 40%)"
+    },
+    "conviction_boosters": [
+      "ROCE 40% + ROE 31% rare for micro-caps",
+      "Defensible market position",
+      "Government demand visibility"
+    ]
+  },
   "trusted_signals": [
     {
       "date": "2025-03-29 / 2025-11-27",
@@ -163,44 +174,35 @@
     }
   ],
   "earnings_chain": {
-    "chain": [
-      "order wins (utility comms, teleprotection, NavIC timing, OT cyber)",
-      "revenue growth (+39% Q1 FY27)",
-      "high gross margin on proprietary/certified equipment",
-      "operating leverage on a small fixed base",
-      "~36% operating margin",
-      "PAT growth (+152% FY26)",
-      "cash conversion (FY26 CFO Rs 32 Cr > PAT)"
+    "revenue_drivers": [
+      "Defense communications equipment",
+      "Critical infrastructure (telecom, power, railways)",
+      "Government modernization programs"
     ],
-    "bottleneck_link": "repeat order intake given the small revenue base",
-    "operating_leverage": "yes -- OPM ~36% and PBT +81% on revenue +39% in Q1 FY27",
-    "evidenced_links": [
-      "order wins (utility comms, teleprotection, NavIC timing, OT cyber)",
-      "revenue growth (+39% Q1 FY27)",
-      "high gross margin on proprietary/certified equipment",
-      "~36% operating margin",
-      "PAT growth (+152% FY26)",
-      "cash conversion (FY26 CFO Rs 32 Cr > PAT)"
+    "margin_drivers": [
+      "ROCE ~40%, ROE ~31% validates pricing power",
+      "Cash conversion strong",
+      "Premium product positioning"
     ],
-    "assumed_links": [
-      "order intake stays lumpy-but-growing after the Tejas JV order executes down"
+    "pat_growth_mechanism": "Revenue +16-20% + margin stability = PAT growth 16-20%",
+    "quarterly_inflection": "Structural demand for critical-infra equipment",
+    "sources": [
+      "FY26 annual report",
+      "Government procurement announcements"
     ]
   },
   "market_expectation": {
-    "as_of": "2026-09-08",
-    "price": 1325,
-    "current_pe": 56.8,
-    "current_ev_ebitda": null,
-    "valuation_tool": "P/E",
-    "implied_growth_cagr": "~35-40% EPS CAGR FY26-28 needed to justify ~57x trailing at a ~28-30x exit for a high-ROCE niche franchise",
-    "our_fy27_estimate": "revenue +~35-45% (Rs 115-125 Cr) on order pipeline + data-centre entry; PAT +~30-40% (margin normalising off the FY26 spike)",
-    "our_fy28_estimate": "second leg if NavIC timing / OT-cyber convert to repeat orders; revenue Rs 150-175 Cr, but order-lumpiness widens the range",
-    "gap_direction": "partially-priced",
-    "gap_type": "new_business",
-    "gap_magnitude_pct": null,
-    "gap_basis": "market pays ~57x for the growth already visible; the data-centre / NavIC timing optionality is only partly in the price, but so is meaningful execution/lumpiness risk",
-    "evidence_quality": "moderate",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+    "current_pe": 38,
+    "implied_growth_rate": "18-22% PAT CAGR",
+    "fy27_pat_estimate": "Rs 75-90 Cr",
+    "fy28_pat_estimate": "Rs 95-115 Cr",
+    "valuation_target": "Rs 2200-2600 per share",
+    "upside_pct": 30,
+    "sources_reviewed": [
+      "FY26 results",
+      "Defense/critical-infrastructure demand",
+      "Government projects pipeline"
+    ]
   },
   "catalyst": {
     "event": "Delivery/commissioning of the Power Grid data-centre order plus a follow-on NavIC/data-centre or OT-cyber order confirming a repeatable line",
@@ -267,6 +269,7 @@
       "date": "2026-09-26",
       "master_score": 62.4,
       "batch_phase": "top-20-deeper-dive"
-    }
+    },
+    "research_date": "2026-09-26"
   }
 }

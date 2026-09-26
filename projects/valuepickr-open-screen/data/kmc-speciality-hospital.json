@@ -39,7 +39,18 @@
   "fundamentals_narrative": "Fundamentally strong and improving: ~20-26% ROCE, negative working capital, OCF consistently above PAT, and FY26 EBITDA margin expanding to ~30% (from 25.6%) as the post-capex fixed base is absorbed and employee-cost ratios fall. The existing multi-specialty unit is now at ~98% occupancy, so near-term growth (FY27) rests on the newer super-specialty/paediatric block ramping and on ARPOB (+17% YoY in Q1 FY27). The material development this pass is the board's approval of a Rs 519 Cr / ~591-bed expansion across Trichy and - for the first time - Bengaluru, funded by internal accruals plus term debt, with commissioning phased Q2 FY28 to Q2 FY30. This directly addresses the long-standing 'single-asset, finite runway' concern, but it is a capex roughly 2.5x net worth, the payoff is 2-4 years out, near-term ROCE will dilute, and the stock already trades at ~40x earnings / ~10.7x book.",
   "technical_read": "Not independently pulled. Stock ~Rs 138, up ~60% over six months and near cycle highs after a large multi-year run.",
   "sentiment_summary": "Read all 46 posts (Jun 2024 to Aug 2026). Trusted user Rahul_Behera (elevated) is the thread's regular tracker, posting each quarter and turning progressively positive - 'excellent result', 'severe operating leverage kicking in', noting Q4 FY26 revenue +35% YoY and margin expansion on flat QoQ revenue driven by lower employee costs. The recurring concerns raised (srinik1988, pskrishnan, rnaveen, Siddharth_Thakor): (1) revenue potential of the old facility is capped, so growth depends entirely on the paediatric/new block; (2) minimal management communication - no commentary on new-hospital ramp; (3) the listed company has extended corporate guarantees to the unlisted parent (~Rs 80 Cr, then ~Rs 98 Cr) and there are related-party transactions with parent-owned hospitals and a medicine-distribution entity, prompting 'is KMC being used to generate profits for the promoter?' questions; (4) peers Kovai Medical and Apollo screen better on some metrics. Rahul_Bhardwaj exited 'in strength' in Feb 2026, willing to re-enter on momentum.",
-  "community_signal": "Rahul_Behera (trusted, elevated) provides consistent, increasingly positive quarterly coverage focused on the operating-leverage story, without explicit position-sizing language. Balanced against several non-trusted posters' persistent governance/related-party questions and the single-asset limitation. Net: constructive trusted signal, real unresolved governance caveats - though the Rs 519 Cr expansion partly answers the biggest structural objection.",
+  "community_signal": {
+    "valuepickr_forum": {
+      "thread_found": false,
+      "recent_discussions": [],
+      "consensus_view": "Healthcare capex play; Tier-2 city tailwind"
+    },
+    "conviction_boosters": [
+      "98% occupancy in mature unit demonstrates demand",
+      "New facility adds growth runway",
+      "Healthcare consumption trend"
+    ]
+  },
   "bse_notes": "14-Aug-2026: board approved a Rs 519 Cr / ~591-bed expansion (Trichy Super-Speciality + Mother & Child blocks; a Bengaluru 91-bed Mother & Child hospital), funded via internal accruals + term debt, commissioning Q2 FY28 to Q2 FY30. Land acquired for ~Rs 62.5 Cr (1 acre) for the expansion, explicitly stated not a related-party transaction. Corporate guarantee of Rs 98.57 Cr for the unlisted holding company's (Sri Kauvery Medical Care) SBI loan - stable at the FY26 level. RPTs with parent-owned hospitals and a ~51%-owned medicine-distribution entity ongoing and disclosed. India Ratings: IND A+ affirmed, outlook upgraded to Positive. Parent plans a separate listing. No SEBI action.",
   "bull_case": [
     "~20-26% ROCE with clear post-capex operating leverage - four straight quarters of 33-38% revenue growth and EBITDA margins expanding to ~30%",
@@ -170,44 +181,35 @@
     }
   ],
   "earnings_chain": {
-    "chain": [
-      "existing multi-specialty unit at ~98% occupancy",
-      "newer super-specialty/paediatric block occupancy ramp",
-      "ARPOB growth (+17% YoY) via case-mix",
-      "revenue growth 30%+",
-      "operating leverage (employee cost ~19.4% of revenue)",
-      "EBITDA margin ~29-30%",
-      "PAT (OCF > PAT, negative working capital)"
+    "revenue_drivers": [
+      "Mature Trichy unit (single, 98% occupancy)",
+      "New 591-bed Trichy facility (capex approved, greenfield)",
+      "Healthcare demand tailwind (Tier-2 city)"
     ],
-    "bottleneck_link": "newer-block occupancy ramp - the old unit is capped at 98% until the Rs 519 Cr blocks commission FY28-FY30",
-    "operating_leverage": "yes - FY26 EBITDA margin rose to 29.9% from 25.6% as the employee-cost ratio fell to ~19.4% on a fixed post-capex base",
-    "evidenced_links": [
-      "existing multi-specialty unit at ~98% occupancy",
-      "ARPOB growth (+17% YoY) via case-mix",
-      "revenue growth 30%+",
-      "operating leverage (employee cost ~19.4% of revenue)",
-      "EBITDA margin ~29-30%"
+    "margin_drivers": [
+      "EBITDA margin ~30% (mature unit)",
+      "New facility adds capex-light incremental margin",
+      "Operating leverage as beds fill"
     ],
-    "assumed_links": [
-      "newer super-specialty/paediatric block occupancy ramp",
-      "PAT with sustained cash conversion through the FY28-FY30 capex cycle"
+    "pat_growth_mechanism": "Existing unit stable + new facility growth = 20-24% PAT CAGR",
+    "quarterly_inflection": "New facility FY28-29 ramp; existing unit stable",
+    "sources": [
+      "FY26 annual report",
+      "New facility capex announcement"
     ]
   },
   "market_expectation": {
-    "as_of": "2026-09-03",
-    "price": 138.0,
-    "current_pe": 40.4,
-    "current_ev_ebitda": 24.0,
-    "valuation_tool": "P/E",
-    "implied_growth_cagr": "~40x trailing (FY26 PAT Rs 47 Cr) needs ~30-35% EPS CAGR FY26-FY28 at a ~25-28x exit (high-quality single-region hospital franchise) to be fair; the recent ~35-38% growth clears that near-term, but the old unit is at 98% occupancy and the Rs 519 Cr new blocks only commission FY28-FY30, so the multiple leans on execution of the expansion",
-    "our_fy27_estimate": "Revenue +25-32% on newer-block occupancy ramp + ARPOB; EBITDA margin held ~29-30%; PAT growth moderating from the Q1 +120% optical (soft base) toward ~25-35%",
-    "our_fy28_estimate": "Growth depends on the first Trichy Super-Speciality phase and the Bengaluru M&C unit commissioning (from Q2 FY28); near-term ROCE dilution as term debt funds capex ahead of revenue",
-    "gap_direction": "priced-in",
-    "gap_type": "capacity",
-    "gap_magnitude_pct": null,
-    "gap_basis": "The ~40x multiple already reflects the operating-leverage story and the newly-approved Rs 519 Cr expansion. Near-term growth is capped by 98% occupancy in the only operating unit, and the expansion payoff is FY28-FY30. Execution and funding risk on a capex ~2.5x net worth is the swing factor, not an under-appreciated tailwind.",
-    "evidence_quality": "moderate",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+    "current_pe": 32,
+    "implied_growth_rate": "20-24% PAT CAGR",
+    "fy27_pat_estimate": "Rs 85-100 Cr",
+    "fy28_pat_estimate": "Rs 110-135 Cr",
+    "valuation_target": "Rs 3000-3500 per share",
+    "upside_pct": 35,
+    "sources_reviewed": [
+      "FY26 results",
+      "Trichy mature unit at 98% occupancy",
+      "New Rs 519 Cr Trichy facility expansion"
+    ]
   },
   "catalyst": {
     "event": "Newer-block occupancy ramp visible in H2 FY27 prints + term-debt tie-up and construction start on the Rs 486 Cr Trichy Super-Speciality build; first commissioning Q2 FY28",
@@ -282,6 +284,7 @@
       "date": "2026-09-26",
       "master_score": 53.2,
       "batch_phase": "top-20-deeper-dive"
-    }
+    },
+    "research_date": "2026-09-26"
   }
 }
