@@ -27416,21 +27416,66 @@
     "deepdive_date": "2026-09-26",
     "deepdive_pass": 1,
     "conviction": "Unrated",
-    "thesis_fit": "neither"
+    "thesis_fit": "neither",
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "quality_metrics": {
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified"
+    }
   },
   "trualt-bioenergy": {
     "name": "TruAlt Bioenergy",
     "deepdive_date": "2026-09-26",
     "deepdive_pass": 1,
     "conviction": "Unrated",
-    "thesis_fit": "neither"
+    "thesis_fit": "neither",
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "quality_metrics": {
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified"
+    }
   },
   "vikram-solar": {
     "name": "Vikram Solar- One of the oldest Solar module manufacturer",
     "deepdive_date": "2026-09-26",
     "deepdive_pass": 1,
     "conviction": "Unrated",
-    "thesis_fit": "neither"
+    "thesis_fit": "neither",
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "quality_metrics": {
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified"
+    }
   },
   "sudeep-pharma": {
     "name": "Sudeep Pharma Ltd",
@@ -27443,565 +27488,2162 @@
     "conviction": "Medium-High",
     "deepdive_date": "2026-09-04",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 35,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.5,
+      "interest_coverage": 53,
+      "fcf_conversion_pct": 76,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "note": "roce_pct is FY25 (FY26 not separately shown; OPM 28%->32% and ROE 28% suggest FY26 ROCE held/rose). Effectively net cash -- Rs 51cr borrowings (largely leases) vs Rs 260cr+ EBITDA and rising cash, so interest_coverage (~53x) is the fallback. FCF-conv ~76% (trailing 3y screener FCF Rs 451cr / EBITDA Rs 593cr); asset-light, capex falling as margins rise."
+    },
+    "track_record": {
+      "years_checked": 11,
+      "years_cleared": 8,
+      "note": "FY16-FY26 (screener consolidated): ROCE >=15% in every year (17-42%; dip to 17-18% FY22-23 around the Reliance-era acquisition, back to 35%+). Revenue growth >=10% in 8 of 11 (missed FY20 +8%, FY23 -11% on the COVID base, FY24 +9%). Both cleared 8 of 11 years; FY25 and FY26 both ~+20%."
+    },
+    "name": "Thyrocare"
   },
   "venus-remedies": {
     "conviction": "Medium-High",
     "deepdive_date": "2026-08-29",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 20.2,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -1.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 85,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive"
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 1,
+      "note": "FY22-FY26 (screener consolidated): ROCE stuck at 8-11% through FY25, reaching 22% only in FY26 on the R&D-licensing/margin inflection (OPM 10% -> 19%); revenue grew >=10% only in FY26 (+20%). 1 of 5 years cleared both -- the decade record is weak and FY26 is the first strong year, not yet a pattern."
+    },
+    "name": "Venus Remedies"
   },
   "dynamic-cables": {
     "conviction": "Low-Medium",
     "deepdive_date": "2026-09-02",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 26.2,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 0.68,
+      "interest_coverage": 11.3,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive"
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 5,
+      "note": "FY22-FY26 (screener DYCL + equitymaster/FY reports; screener 10y table was login-gated this pass): ROCE >=23% every year (23.8% FY22 rising to ~26.8% FY26; some sources show a FY24 spike to ~32%). Revenue grew every year 15-33% (FY23 +15%, FY24 +15%, FY25 +33%, FY26 +17%; FY22 ~+19%). Both metrics cleared 5 of 5; margins thin (OPM 9%->11%) but stable through metal-price volatility."
+    },
+    "name": "Dynamic Cables"
   },
   "matrimony-com": {
     "conviction": "Low",
     "deepdive_date": "2026-09-08",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 17.4,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -3.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 70,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "open_questions": "fcf_conversion is an estimate - the business is asset-light and cash-generative, but FY26 CFO was flattered/depressed by working-capital swings from the annual-package shift; net-debt/EBITDA is deeply negative (net cash >Rs 300 Cr)"
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 1,
+      "note": "Over FY22-FY26, only one year plausibly cleared BOTH revenue growth >=10% AND ROCE >=15% - the 5-yr revenue CAGR is ~4% and OPM was compressed by the ad-spend war for most of the window. ROCE mostly sat in the mid-teens. This is a monopoly with a poor growth record, now inflecting; the consistency score should be low."
+    },
+    "name": "Matrimony.com"
   },
   "macpower-cnc-machines-manufacturing-a-strong-growth": {
     "conviction": "Low",
     "deepdive_date": "2026-08-31",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 29.1,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 48,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive"
+    },
+    "track_record": {
+      "years_checked": 9,
+      "years_cleared": 5,
+      "note": "FY18-FY26 (screener standalone): revenue growth >=10% in 6 of 9 years (dips FY20 COVID -41%, FY23 +6%, FY25 +9%); ROCE >=15% in 7 of 9 (FY20-21 trough at 6-10%). Both cleared FY18, FY19, FY22, FY24, FY26 = 5/9; recent trend strong with ROCE 27-29% FY24-FY26."
+    },
+    "name": "Macpower CNC Machines"
   },
   "sjs-enterprises": {
     "conviction": "Low",
     "deepdive_date": "2026-09-08",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 21.89,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": -0.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 55,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 3,
+      "note": "FY24, FY25, FY26 each cleared both bars: revenue growth >=10% (FY26 +25.6%, prior years high-teens+) and ROCE >=15% (ran ~20-22% throughout). Consistent compounder profile."
+    },
+    "name": "SJS Enterprises"
   },
   "aries-agro": {
     "conviction": "Medium-High",
     "deepdive_date": "2026-09-08",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 21.2,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.8,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 35,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "open_questions": "FCF conversion is approximate \u2014 FY26 benefited from a one-time ~25-day working-capital release that will not repeat at the same scale; a clean multi-year (CFO-capex)/EBITDA read is needed. Net-debt/EBITDA estimated from D/E ~15% and mixed debt disclosures."
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 2,
+      "note": "Of FY22-FY26 (verifiable from recent filings): FY25 and FY26 clear the bar of BOTH revenue growth >=10% AND ROCE >=15% in the same year (FY26 revenue +18.9%, ROCE ~21%; FY25 similar). FY22-FY24 fail on ROCE (3-yr avg ROE only ~11.4%, ROCE below ~15% in the earlier years) and/or patchy growth \u2014 consistent with the 2019 forum critique of a decade of near-flat PAT. The pass rate is a recent-vintage improvement, not a long consistency record."
+    },
+    "name": "Aries Agro"
   },
   "univastu-india": {
     "conviction": "Medium",
     "deepdive_date": "2026-09-18",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 30,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.72,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 5,
+      "margin_trend": "stable",
+      "capex_efficiency": "unclear",
+      "assessment": "positive",
+      "note": "Materially upgrades the original 'no ROCE figure confirmed' framing: ROCE has been consistently strong and improving (17-30% across FY21-25), and the latest screener figure (30.0%) confirms the top end of that range holding into FY26. FCF conversion remains volatile and confirms the debtor-days concern already flagged - operating cash flow was negative in FY25 (-Rs6cr) before recovering to +Rs12cr in FY26; trailing conversion is weak (~5% of EBITDA average) despite the strong ROCE. Gross borrowings are still low in absolute terms (~Rs34cr, Mar-2026) but the board tripled the borrowing limit to ~Rs200cr this pass specifically to fund working capital as debtor days rose to ~121 - a genuine, fresh signal that the growth is currently outrunning cash generation."
+    },
+    "track_record": {
+      "years_checked": 10,
+      "years_cleared": 8,
+      "note": "FY17, FY18, FY19, FY22, FY23, FY24, FY25 and FY26 each cleared BOTH >=10% revenue growth AND >=15% ROCE (only FY20 and FY21 - COVID-disrupted years - did not); FY26 (confirmed this pass: +42% growth, ROCE 30%) extends the streak. An exceptionally strong Coffee-Can record for a small-cap."
+    },
+    "name": "Univastu India"
   },
   "valiant-communications": {
     "conviction": "Medium-High",
     "deepdive_date": "2026-09-08",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 39.7,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 45,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 3,
+      "note": "FY24-FY26: revenue growth cleared >=10% in every year (FY26 +67%, FY25 ~25-30%, FY24 mid-20s%) and ROCE was well above 15% each year (FY26 ~40%, prior two years also 20%+ on a small equity base). All three verifiable years pass the combined revenue-growth-AND-ROCE test. FY26 profit was boosted by a large one-order mix, so the pass is real but flattered."
+    },
+    "name": "Valiant Communications"
   },
   "ksh-international-ltd": {
     "conviction": "Medium",
     "deepdive_date": "2026-09-08",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 21.4,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.2,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "open_questions": "Capex-heavy capacity build (Supa) + <1 year of public cash-flow history - trailing FCF conversion is not cleanly derivable and is likely low or negative during the ramp; the FY26 cash-flow statement is needed."
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 3,
+      "note": "FY24-FY26 verifiable from the RHP/filings: revenue growth was well above 10% each year (5-yr CAGR ~47%) and ROCE ~20-21% each year - all three cleared. Public listing only since Dec 2025, so this is a pre-IPO record not yet tested under sustained public scrutiny."
+    },
+    "name": "KSH International"
   },
   "kmc-speciality-hospital": {
     "conviction": "Low",
     "deepdive_date": "2026-09-03",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 26,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.6,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 22,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "note": "roce_pct FY26 26% (dipped to 17% FY25 on the new-block capacity add, recovered). ND/EBITDA ~0.6x (gross borrowings Rs 84cr vs EBITDA ~Rs 100cr+; net lower) -- leverage low, coverage left null. FCF-conv ~22%: trailing 3y (CFO-capex) ~Rs 51cr / EBITDA ~Rs 230cr; FY24-FY25 capex-heavy for the new block, FY26 capex light. OPM up into the high-20s%, ROCE recovering, revenue +31% two years running -> positive."
+    },
+    "track_record": {
+      "years_checked": 11,
+      "years_cleared": 10,
+      "note": "FY16-FY26 (screener): ROCE >=15% in every year (17-35%); revenue growth >=10% in 10 of 11 (only FY21 +7% during COVID). Both metrics cleared 10 of 11 -- a rare clean multi-year hospital compounding record; FY25 and FY26 both ~+31%."
+    },
+    "name": "KMC Speciality hospital"
   },
   "aeroflex-industries": {
     "conviction": "Medium",
     "deepdive_date": "2026-08-30",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 18.9,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.1,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -5,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive"
+    },
+    "track_record": {
+      "years_checked": 6,
+      "years_cleared": 5,
+      "note": "FY21-FY26 (screener consolidated): revenue growth >=10% in 5 of 6 years (FY21 flat at 0%); ROCE >=15% every year (36% FY21 easing to ~18.9% FY26 as the skid capex builds). Both cleared FY22-FY26 = 5/6; only FY21 missed on the flat-revenue year."
+    },
+    "name": "Aeroflex Industries"
   },
   "arvind-smartspaces-ltd": {
     "conviction": "Medium-High",
     "deepdive_date": "2026-09-08",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 18.0,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 1.1,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 40,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "positive"
+    },
+    "track_record": {
+      "years_checked": 4,
+      "years_cleared": 2,
+      "note": "Of FY22-FY25 verifiable from filings, roughly 2 years cleared both revenue growth >=10% and ROCE >=15% (FY24 ~19% ROCE; FY25 dipped to ~12% on recognition; FY22-23 mixed). RERA lumpiness makes per-year screens noisy; the bookings CAGR (~27%) is the cleaner signal but is not what this metric measures."
+    },
+    "name": "Arvind SmartSpaces"
   },
   "p-e-analytics": {
     "conviction": "High",
     "deepdive_date": "2026-09-04",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 23,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -5.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 67,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "note": "roce_pct is FY25 23% (FY23 18% -> FY24 20% -> FY25 23%, improving; FY26 not separately shown, ~22-24%). Debt-free with ~Rs 113cr cash & investments (~half of book value) so ND/EBITDA deeply negative and interest coverage null. FCF-conv ~67%: asset-light subscription database, negligible capex (~Rs 1cr/yr), CFO Rs 6/8/10cr FY24-26. OPM ~38-47% (~40% pre-tax), stable. Positive on the model quality; the ~Rs 113cr idle cash + 0% payout drag blended ROE (~16-17%)."
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 2,
+      "note": "FY24-FY26 (screener PROPEQUITY view; note the data file uses a larger standalone revenue basis -- Rs 54cr FY26 vs screener Rs 30cr -- but the growth/ROCE pattern is the same): ROCE 18-23% every year (>=15%). Revenue growth ~+10% FY24, ~+9% FY25 (flat year), ~+21-25% FY26. Both cleared FY24 and FY26 = 2 of 3; FY25 missed on sub-10% growth."
+    },
+    "name": "P.E. Analytics"
   },
   "ngl-fine-chem-ltd": {
     "conviction": "Medium",
     "deepdive_date": "2026-09-08",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 16.7,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.6,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 25,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "open_questions": [
+        "Trailing 3y FCF conversion is modest because FY24-26 spanned a heavy capex cycle (Rs 210 Cr Tarapur + Macrotech) against trough-then-recovering EBITDA; conversion should improve as Phase II lands and capex intensity falls, but that is unproven"
+      ]
+    },
+    "track_record": {
+      "years_checked": 4,
+      "years_cleared": 2,
+      "note": "FY23-FY26 verifiable from the same filings. FY23 and FY26 combined >=10% revenue growth with ROCE ~16-18% -> pass. FY24 and FY25 were the downcycle \u2014 revenue soft and ROCE dipped below 15% -> miss. 2 of 4 years cleared both hurdles; the pattern is cyclical, as the community history shows."
+    },
+    "name": "NGL Fine"
   },
   "3b-blackbio-dx": {
     "conviction": "Medium-High",
     "deepdive_date": "2026-08-31",
     "thesis_fit": "100x-in-10-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 25,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": -0.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 68,
+      "margin_trend": "contracting",
+      "capex_efficiency": "neutral",
+      "assessment": "positive",
+      "note": "Effectively debt-free (borrowings ~Rs 3cr FY26; interest ~nil so coverage null), modest net cash. roce_pct FY26 25% (FY24 21% -> FY25 26% -> FY26 25%, stable). FCF-conv ~68%: trailing 3y FCF Rs 26/42/27cr vs EBITDA ~Rs 33/50/57cr; CFO/PAT ~0.87 FY26, clean. margin_trend contracting -- OPM 52% FY25 -> 40% FY26 on the lower-margin Coris consolidation (H1 FY27 Coris loss). Debt-free high-margin niche MDx compounder; Coris integration is the watch item."
+    },
+    "track_record": {
+      "years_checked": 9,
+      "years_cleared": 6,
+      "note": "FY18-FY26 (screener consolidated): ROCE >=19% every year (COVID spike to 162% FY21). Revenue lumpy -- +44% FY18, flat FY19, +26% FY20, COVID PCR spike +683% FY21, then -64%/-24% give-back FY22-FY23, recovering +19%/+30%/+48% FY24-FY26. Both metrics cleared 6 of 9 (FY18, FY20, FY21, FY24, FY25, FY26); FY21 is a COVID one-off and FY26 growth is mostly the Coris acquisition (organic MDx only ~+10%)."
+    },
+    "name": "3B Blackbio DX"
   },
   "raymond-realty": {
     "conviction": "Medium-High",
     "deepdive_date": "2026-08-31",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 30,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": 2.2,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -200,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "note": "Only two meaningful FYs (demerged from Raymond May 2025, listed Jul 2025; FY24 was a Rs 3cr shell). roce_pct is FY25 30% (FY26 not separately disclosed; FY26 ROE 36%). Asset-light JDA model so capex is minimal, but a developer in land-acquisition/build phase: CFO negative all three years (-Rs 226 / -237 / -910cr) on inventory/WIP, so fcf_conversion is deeply negative -- normal for the phase but a real cash-absorption signal. Gross borrowings Rs 1,014cr FY26 (ND/EBITDA ~2.2x). Trend fields 'unclear' on <3yr history."
+    },
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "Raymond Realty"
   },
   "bansal-roofing-products-ltd": {
     "conviction": "Medium",
     "deepdive_date": "2026-09-08",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 34.4,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 20,
+      "margin_trend": "contracting",
+      "capex_efficiency": "productive",
+      "assessment": "positive"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 2,
+      "note": "Of FY24-FY26 (verifiable from the same filings): FY24 revenue +14% with ROCE >15% -> pass; FY25 revenue -8.5% -> fail; FY26 revenue +60% with ROCE ~34% -> pass. FY23 growth not verifiable (FY22 base not in the same view)."
+    },
+    "name": "Bansal Roofing Products"
   },
   "sambhv-steel-tubes": {
     "conviction": "Medium-High",
     "deepdive_date": "2026-08-30",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 19.0,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 1.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -78,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "note": "FY26 ROCE ~19% (recovered from 14% FY24 cycle dip); borrowings Rs 378 Cr / EBITDA Rs 276 Cr ~1.3x (Rs 390 Cr repaid Jul-2026 not yet in this ratio). Trailing-3y (CFO-capex)/EBITDA is about -78% -- FY24-26 investing outflow ~Rs 945 Cr on Kesda + debottlenecking vs Rs 485 Cr cumulative CFO -- a capex-heavy mid-ramp, the negative conversion this field is meant to catch. OPM held ~10-12% FY24-26. Asset turn ~2.7x and ROCE ~19% keep capex 'neutral' rather than value-destructive, but a large slice (SS CWIP) is not yet earning."
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 4,
+      "note": "screener.in FY22-FY26: revenue growth >=10% every year (+71/+14/+37/+17/+60%); ROCE >=15% in FY22 (23%), FY23 (22%), FY25 (19%), FY26 (19%) but only 14% in FY24 during the steel-cycle PAT dip. 4 of 5 years clear both. Pre-IPO base (listed 2025); FY21 ROCE 37% excluded as no prior-year growth rate."
+    },
+    "name": "Sambhv Steel Tubes"
   },
   "hbl-engineering-booting": {
     "conviction": "Low-Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_date": "2026-09-26",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "HBL Engineering",
+    "quality_metrics": {
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified"
+    }
   },
   "gng-electronics": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-04"
+    "deepdive_date": "2026-09-04",
+    "quality_metrics": {
+      "roce_pct": 20,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 2.1,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -29,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "note": "roce_pct is FY25 20% (FY24 20%, FY22 22%; FY26 not disclosed, ~similar). ND/EBITDA ~2.1x (net debt ~Rs 406cr vs EBITDA ~Rs 189cr); PBT/interest only ~2-3.5x so coverage is thin -- left null as leverage is the binding metric. FCF-conv ~-29%: FY26 CFO was -Rs 215cr on a ~Rs 700cr inventory + receivables build; the model consumes cash as it scales. OPM expanded 2% -> 10% FY20-FY26. Returns fine but cash generation is the concern at ~48-50x earnings."
+    },
+    "track_record": {
+      "years_checked": 6,
+      "years_cleared": 6,
+      "note": "FY21-FY26 (screener consolidated, EBGNG): ROCE 20-22% every year FY21-FY25 (FY26 not separately shown; FY26 ROE ~27% and OPM up to 10% so ROCE almost certainly held >=15%). Revenue grew 24-72% every year (5yr CAGR 41%). Both metrics cleared 6 of 6 -- but this is a working-capital-heavy refurb/trading model (borrowings Rs 82cr -> Rs 433cr, FY26 CFO -Rs 215cr on the inventory build)."
+    },
+    "name": "GNG Electronics"
   },
   "frontier-springs": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-08-30"
+    "deepdive_date": "2026-08-30",
+    "quality_metrics": {
+      "roce_pct": 51,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -1,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "note": "Railways (LHB / Vande Bharat) spring and forging maker. ROCE 21%->42%->51% FY24-26; OPM 16%->22%->27%. Near-zero debt. Trailing-3y FCF conversion ~breakeven (CFO Rs65cr vs capex Rs67cr FY24-26) - capex stepped up to Rs37cr FY26 to add capacity for the Railways ramp; ROCE rising through the spend, so capex reads productive."
+    },
+    "track_record": {
+      "years_checked": 9,
+      "years_cleared": 6,
+      "note": "Screener FY18-FY26: rev growth >=10% AND ROCE >=15% both cleared in 6 of 9 (FY18 26%/17%, FY19 41%/26%, FY20 21%/35%, FY24 26%/21%, FY25 71%/42%, FY26 39%/51%). FY21 (-23%, COVID) and FY22 (+9%) missed on growth, FY23 on ROCE (14%). Railways-spring demand inflected hard FY25-26."
+    },
+    "name": "Frontier Springs"
   },
   "time-technoplast": {
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 18.9,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 45,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "positive"
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 2,
+      "note": "FY22-FY26 verifiable. Roughly FY25 and FY26 cleared both revenue growth >=10% and ROCE >=15% in the same year; FY21-FY23 had sub-10% revenue growth (COVID-affected demand) despite ROCE near 15%. Consistent with the weak trailing 5-yr revenue CAGR of 4.46% and a genuine recent inflection."
+    },
+    "name": "Time Technoplast"
   },
   "sika-interplant-systems": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-04"
+    "deepdive_date": "2026-09-04",
+    "quality_metrics": {
+      "roce_pct": 35.0,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 15,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive"
+    },
+    "track_record": {
+      "years_checked": 11,
+      "years_cleared": 6,
+      "note": "Per screener.in consolidated 10-yr table: FY20-FY22 and FY24-FY26 each cleared both >=10% revenue growth and >=15% ROCE (FY26 +43% / ROCE 35%). FY16-FY19 had ROCE 5-13%; FY23 revenue fell 39% on project-milestone timing. The recent 3-yr run (FY24-26) is a clean pass. Near debt-free, so leverage leg replaced by net-cash read."
+    },
+    "name": "Sika Interplant Systems"
   },
   "ultramarine-pigments-ltd": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 11,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -2,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 45,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 0,
+      "note": "FY24-FY26 verifiable. Revenue growth cleared 10% in FY25 (+24%) and FY26 (+12%) but ROCE was ~10-11% in every year - well short of 15% - so no year cleared both legs. Long-listed company, so the zero is an informative record of chronically sub-bar capital returns (a large idle investment book is part of the cause), not a young-company artefact. ROCE is now improving off the completed capex; FY27 could clear if the Q1 margin holds."
+    },
+    "name": "Ultramarine & Pigments"
   },
   "jasch-industries": {
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-07"
+    "deepdive_date": "2026-09-07",
+    "quality_metrics": {
+      "roce_pct": 19.2,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 1.1,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -35.0,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 10,
+      "years_cleared": 5,
+      "note": "Per screener.in 10-yr table (FY17-FY26): FY17-19 (rev +14-18% / ROCE 17-18%), FY22 (+59% / 33%) and FY26 (+24% / 19%) cleared both the >=10% revenue-growth and >=15% ROCE bars. FY20-21 and FY23-25 failed on sub-10% or negative revenue growth around the pre/post gauging-demerger dip; FY23 ROCE also fell to 6%."
+    },
+    "name": "Jasch Industries"
   },
   "rbz-jewellers": {
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 29,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 1.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -25,
+      "margin_trend": "contracting",
+      "capex_efficiency": "neutral",
+      "assessment": "concern"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 1,
+      "note": "FY24-FY26 assessable. FY26 clears both (revenue +20%, ROCE ~29%). FY25 revenue growth vs FY24 not precisely verified this pass though PAT +39% and rising ROCE suggest a likely clear. FY24 fails (PAT -3.4%, ROCE fell to 16.5%). Short listed history (~2 years) and negative operating cash flow every year weigh against the headline consistency.",
+      "caveat": "Only one year (FY26) is cleanly verified as clearing both bars; treat consistency as unproven."
+    },
+    "name": "RBZ Jewellers"
   },
   "gufic-biosciences": {
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 12.2,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 2.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 15,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 2,
+      "note": "FY21-FY22 (Covid-era injectables demand) likely cleared both revenue growth >=10% and ROCE >=15%; FY23-FY26 ROCE has sat ~12-14%, below the 15% bar, despite double-digit revenue growth. Roughly 2 of 5 verifiable years cleared both \u2014 the thesis is that the Indore operating-leverage ramp lifts ROCE back through 15%."
+    },
+    "name": "Gufic BioSciences"
   },
   "technocraft-industries-ias2026": {
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 16.0,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 1.3,
+      "interest_coverage": 7.0,
+      "fcf_conversion_pct": 16.0,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "positive"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 2,
+      "note": "FY24-FY26 verifiable from the same filings. FY24: revenue +10% and ROCE ~19% -> cleared. FY25: revenue +19% and ROCE ~16% -> cleared. FY26: revenue only +6% -> not cleared (ROCE ~16% would have passed). 2 of 3 years cleared both revenue growth >=10% and ROCE >=15%; the miss was a soft revenue year, not a returns problem."
+    },
+    "name": "Technocraft Industries"
   },
   "ddev-plastiks-industries": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 30.3,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 40,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "positive"
+    },
+    "track_record": {
+      "years_checked": 4,
+      "years_cleared": 2,
+      "note": "FY23-FY26 verifiable post-demerger. ROCE cleared >=15% in all four years (30%+ range). Revenue growth exceeded 10% in about two of the four (FY23 post-demerger ramp and FY26 +13.2%); FY24-FY25 were sub-10% on demand softness. So ~2 of 4 years passed BOTH tests."
+    },
+    "name": "DDev Plastiks Industries"
   },
   "capri-global-capital": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 19.1,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive"
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 2,
+      "note": "Revenue/AUM grew >10% every year, but ROE was sub-15% (low-to-mid teens) through the pre-inflection years FY23-FY25; the 15% ROE bar was only cleared in FY26 (ROAE 16.5%) and Q1 FY27 (19.1%). ~2 of 5 verifiable years cleared both bars - the consistency profile is early, not established."
+    },
+    "name": "Capri Global Capital"
   },
   "rnit-ai-solutions-ltd": {
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-18"
+    "deepdive_date": "2026-09-18",
+    "quality_metrics": {
+      "roce_pct": 20.2,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.6,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "note": "ROCE improved to ~20.2% (from ~12.2% at the last pull) and ROE to ~16.6%; OPM expanded 32%(FY25)\u219240%(FY26). net_debt_to_ebitda is a gross-debt approximation (~Rs18cr debt / ~Rs21cr FY26 EBITDA \u2248 0.6x) \u2014 likely lower net of cash from the two FY26 preferential allotments, but a clean net-cash figure was not sourced this pass. fcf_conversion_pct left null \u2014 FY26 operating cash flow was not separately disclosed in what this pass could source (genuinely not derivable, not avoided because it might be negative). capex_efficiency marked unclear because this is a light-asset SaaS-like business where the concept maps poorly. assessment stays 'concern' because of elevated working capital (debtor days 146, WC days 195), near-total government-customer concentration, and only ~2 years of real post-resolution operating history \u2014 despite the genuine ROCE/margin improvement."
+    },
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "RNIT AI Solutions"
   },
   "entero-healthcare-solutions": {
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-08-30"
+    "deepdive_date": "2026-08-30",
+    "quality_metrics": {
+      "roce_pct": 10.0,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 2.5,
+      "interest_coverage": 18.0,
+      "fcf_conversion_pct": 36,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 7,
+      "years_cleared": 0,
+      "note": "FY20-FY26 (screener consolidated): ROCE never above 10% (1% -> 10%; a distribution roll-up on ~4% OPM). Revenue compounding ~30%/yr but on wafer-thin margins and rising borrowings (Rs 385cr -> Rs 677cr). 0 of 7 years cleared the growth+ROCE bar -- volume without the capital-efficiency leg."
+    },
+    "name": "Entero Healthcare Solutions"
   },
   "goodluck-india": {
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 15.3,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 2.4,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -20,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 1,
+      "note": "FY24-26: ROCE hovered ~14-15% (at/just below the 15% bar), and revenue growth was ~17% (FY24), ~13% (FY25), then only ~4% (FY26). At most 1 of 3 verifiable years cleared BOTH the >=10% revenue growth AND >=15% ROCE bars in the same year."
+    },
+    "name": "Goodluck India"
   },
   "hind-rectifiers": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 24.2,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.6,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 15,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 2,
+      "note": "Prior to FY24 Hind Rectifiers was a sub-scale, low-ROCE company. In the FY25-FY26 upcycle both years cleared BOTH >=10% revenue growth AND >=15% ROCE (FY26 revenue +45% / ROCE ~24%); FY24 was a recovery year with ROCE around/just below the 15% bar -- 2 of 3 verifiable years cleared."
+    },
+    "name": "Hind Rectifiers"
   },
   "unicommerce-esolutions": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-14"
+    "deepdive_date": "2026-09-14",
+    "quality_metrics": {
+      "roce_pct": 21.1,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": -1.9,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 95,
+      "margin_trend": "contracting",
+      "capex_efficiency": "neutral",
+      "assessment": "positive"
+    },
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "Unicommerce Esolutions"
   },
   "marine-electricals-riding-the-waves-of-expansion": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 18,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.8,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -60,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 3,
+      "note": "FY22-FY26: revenue growth >=10% every year, but ROCE cleared 15% only in FY24 (15%), FY25 (16%), FY26 (18%); FY22 (12%) and FY23 (14%) missed. Improving trajectory - all three clears are the most recent three years."
+    },
+    "name": "Marine Electricals"
   },
   "20-microns-micronized-to-nano": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 17.3,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 1.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -10,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 2,
+      "note": "ROCE held >15% across FY24-26; revenue growth >=10% in FY24-25, but FY26 organic growth was <10% (reported +18% flattered by consolidation) and Q1 FY27 was flat -- so 2 of 3 verifiable years cleared BOTH the >=10% growth AND >=15% ROCE bars."
+    },
+    "name": "20 Microns"
   },
   "punjab-chemicals-crop-protection-ltd": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 31.0,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 0.5,
+      "interest_coverage": 12.0,
+      "fcf_conversion_pct": 45,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive"
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 2,
+      "note": "FY22-FY26 verifiable from the same filings. FY22 and FY26 combined >=10% revenue growth with ROCE >=15% -> pass. FY23-FY25 were the downcycle - revenue fell or was flat even though ROCE stayed ~25-31% -> fail the revenue-growth leg. 2 of 5 years cleared both hurdles; ROCE consistency is the redeeming feature the pass/fail count misses."
+    },
+    "name": "Punjab Chemicals & Crop Protection"
   },
   "zinka-logistics-blackbuck": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-18"
+    "deepdive_date": "2026-09-18",
+    "quality_metrics": {
+      "roce_pct": 13,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.25,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 70,
+      "margin_trend": "contracting",
+      "capex_efficiency": "productive",
+      "assessment": "neutral",
+      "note": "FY26 adjusted EBITDA margin (~27-29% depending on revenue base used) is actually below FY25's ~32.6% as SuperLoads scales in -- mix dilution from a fast-growing lower-margin new business, evidenced most recently in Q1 FY27 (24.9% vs 29% YoY). Net debt is negative (net cash ~Rs48Cr vs adjusted EBITDA Rs190Cr) after borrowings fell to Rs59Cr (FY26) from Rs184Cr (FY24). SuperLoads shows positive contribution margin from launch in new hubs (asset-light, opex-led rollout), supporting a 'productive' capex-efficiency read despite the core-margin dilution. fcf_conversion_pct retained from prior pass, not independently re-derived this run."
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 0,
+      "note": "FY24-FY26 verifiable (FY22-FY23 too loss-heavy for a meaningful ROCE read). Revenue growth cleared >=10% in every year checked (FY24 +69%, FY25 +44%, FY26 +53%), but ROCE never reached the 15% bar in the same window (FY24/FY25 loss-making or near-breakeven, FY26 ROCE ~13%) -- consistent with a business that has only just turned profitable, not yet a Coffee-Can pass."
+    },
+    "name": "Zinka Logistics Solutions"
   },
   "sri-lotus-developers": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-16"
+    "deepdive_date": "2026-09-16",
+    "quality_metrics": {
+      "roce_pct": 21.2,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": -2.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -169,
+      "margin_trend": "contracting",
+      "capex_efficiency": "unclear",
+      "assessment": "concern"
+    },
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "Sri Lotus Developers"
   },
   "bondada-engineering": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-12"
+    "deepdive_date": "2026-09-12",
+    "quality_metrics": {
+      "roce_pct": 39,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.8,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 5,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "note": "FY26 ROCE ~39% / ROE ~36%, OPM expanded 6%->12% FY22->FY26. Borrowings Rs 292 Cr vs EBITDA ~Rs 340 Cr FY26 (~0.8x). Cash conversion thin (CFO Rs 125 Cr FY26) because revenue is tripling and solar EPC is working-capital-heavy - trailing 3y (CFO-capex)/EBITDA barely positive. Asset-light EPC keeps ROCE high; empty VP thread means receivables/margin durability are unscrutinised."
+    },
+    "track_record": {
+      "years_checked": 7,
+      "years_cleared": 6,
+      "note": "FY20-FY26 screener (id 543971). Both revenue growth >=10% AND ROCE >=15% in the same FY: FY21, FY22, FY23, FY24, FY25, FY26 (ROCE 19-39%, growth 11-116%). Missed only FY20 (rev +2%). ROCE stepped up to ~39% from FY24 as the solar+telecom EPC ramp scaled."
+    },
+    "name": "Bondada Engineering"
   },
   "deep-industries": {
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-05"
+    "deepdive_date": "2026-09-05",
+    "quality_metrics": {
+      "roce_pct": null,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 8,
+      "years_cleared": 1,
+      "note": "screener.in FY19-FY26: only FY25 cleared both bars (revenue +34.9% YoY, ROCE 16%). FY26 revenue +54.7% but reported ROCE was negative on the one-off Rs208.28cr non-cash Kandla Energy legacy-receivables write-off. FY20-FY24 ROCE stuck at 8-12% through the O&G capex downcycle; FY19 ROCE was 34% but revenue grew only ~2%."
+    },
+    "name": "Deep Industries"
   },
   "kwality-pharmaceuticals": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-18"
+    "deepdive_date": "2026-09-18",
+    "quality_metrics": {
+      "roce_pct": 24,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 1.1,
+      "interest_coverage": 9.15,
+      "fcf_conversion_pct": -7,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "concern"
+    },
+    "track_record": {
+      "years_checked": 11,
+      "years_cleared": 8,
+      "note": "Per screener.in consolidated (FY16-FY26): 8 of 11 years cleared both >=10% revenue growth and >=15% ROCE (FY17-19, FY21-22, FY24-26). FY20 and FY23 saw revenue decline (-16%, -45%) -- a lumpy tender/export-order-driven injectables business, not a smooth compounder (FY22 ROCE 98% is a spike). FY24-26 (rev +21-36%/ROCE 16-24%) is a genuine clean stretch, though FY26 cash conversion (CFO Rs17cr vs PAT Rs67cr) is a new wrinkle in an otherwise clean run."
+    },
+    "name": "Kwality Pharmaceuticals"
   },
   "alufluoride": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-05"
+    "deepdive_date": "2026-09-05",
+    "quality_metrics": {
+      "roce_pct": 24,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": -0.2,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -85,
+      "margin_trend": "contracting",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 2,
+      "note": "ROCE cleared 15% in all 3 years reviewed (24%/25%/24%). Revenue growth is confirmed >=10% for FY26 (+10.7%) and the 9M-FY26 run-rate (+18.4%) - both clear. The third year's (~2 years prior) growth rate was not independently confirmed from the sources reviewed this pass, so it is treated conservatively as not cleared despite the strong ROCE that year."
+    },
+    "name": "Alufluoride"
   },
   "modern-insulators-ltd-a-porcelain-insulator-opportunity-insulating-the-power-cycle-while-riding-india-s-transmission-boom": {
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-03"
+    "deepdive_date": "2026-09-03",
+    "quality_metrics": {
+      "roce_pct": 20,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.6,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -22,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "concern"
+    },
+    "track_record": {
+      "years_checked": 11,
+      "years_cleared": 1,
+      "note": "Of FY16-FY26, only FY26 (+43.0%/20%) cleared both filters. The prior decade ran ROCE 6-13% (below cost of capital) with sub-10% revenue growth; FY26 is a single-year margin inflection on the T&D grid up-cycle, against a fresh FY26 qualified audit opinion."
+    },
+    "name": "Modern Insulators"
   },
   "sky-gold-ltd": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 27.0,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 1.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -25,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "open_questions": [
+        "Trailing 3y FCF conversion is negative (FY25 OCF -Rs 273 Cr) despite high headline ROCE; Q1FY27's first positive OCF must persist for several quarters before quality_metrics can be rated positive"
+      ]
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 1,
+      "note": "Of FY23-FY25 verifiable from filings, roughly 1 year cleared both revenue growth >=10% and ROCE >=15% cleanly - FY25 ROCE was strong on headline but OCF was -Rs 273 Cr, so earnings quality that year is questionable. The business only recently reached the scale where per-year screens are meaningful; treat with caution."
+    },
+    "name": "Sky Gold"
   },
   "jeena-sikho-lifecare": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-03"
+    "deepdive_date": "2026-09-03",
+    "quality_metrics": {
+      "roce_pct": 71,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.4,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 60,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive",
+      "note": "Asset-light Ayurveda hospital / clinic chain. ROCE 50%->71% FY24-25, ROE ~60%; OPM expanded to 44% FY26. Borrowings Rs127cr FY26 (rising, but only ~0.4x the ~Rs352cr EBITDA); interest Rs13cr vs Rs298cr PBT. FY26 CFO Rs262cr / FCF Rs231cr (~66% of EBITDA; CFO/OP 96%) - trailing-3y conversion estimated ~55-65%. Capex funds new centres at 50%+ incremental ROCE - productive."
+    },
+    "track_record": {
+      "years_checked": 7,
+      "years_cleared": 5,
+      "note": "Screener FY20-FY26: ROCE 38-71% every year; rev growth >=10% AND ROCE >=15% both cleared in 5 of 7 (FY21 45%/39%, FY23 40%/58%, FY24 59%/50%, FY25 45%/71%, FY26 71%/[ROCE not displayed but 38-71% in all seven prior years]). FY20 (-11%) and FY22 (+7%) missed on growth only."
+    },
+    "name": "Jeena Sikho Lifecare"
   },
   "prevest-denpro": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-12"
+    "deepdive_date": "2026-09-12",
+    "quality_metrics": {
+      "roce_pct": 52.16,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 53,
+      "margin_trend": "expanding",
+      "capex_efficiency": "productive",
+      "assessment": "positive"
+    },
+    "track_record": {
+      "years_checked": 7,
+      "years_cleared": 7,
+      "note": "Per screener.in (FY20-FY26): every year cleared both >=10% revenue growth and >=15% ROCE -- revenue +12-36% and ROCE 25-47% throughout on a debt-free base with 35-40% OPM. A genuine high-quality small-cap consistency record; the governance flag (directors' pay ~23% of PAT, rising) is separate from the mechanical track record."
+    },
+    "name": "Prevest Denpro"
   },
   "neetu-yoshi": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-03"
+    "deepdive_date": "2026-09-03",
+    "quality_metrics": {
+      "roce_pct": 31.8,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": -0.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -50,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "Neetu Yoshi"
   },
   "kamat-hotels": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 15.8,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 2.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "open_questions": "FCF conversion not cleanly derivable from snippets - capex on key additions is ramping and the FY26 cash-flow statement is needed to confirm CFO vs EBITDA and the debt-reduction glide path."
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 2,
+      "note": "FY22-FY26 checked for revenue growth >=10% AND ROCE >=15% in the same year. FY23 (post-COVID recovery) and FY25 (revenue +19%, ROCE ~15.8%) plausibly cleared both; FY22 was COVID-depressed, FY24 ROCE was borderline, FY26 revenue grew only ~8%. History is real but cyclically distorted by the pandemic."
+    },
+    "name": "Kamat Hotels"
   },
   "arman-financial-services": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 11.7,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 2,
+      "note": "FY22-FY23 cleared both bars (revenue growth >=10% and ROCE >=15% at Arman's historical ~20%+ ROE). FY24, FY25, FY26 failed the ROCE>=15% bar (ROE fell to 6-11%) during the sector-wide MFI asset-quality cycle, though operating income kept growing >10%. Q1 FY27 points back toward clearing it."
+    },
+    "name": "Arman Financial Services"
   },
   "kalyani-cast": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified"
+    },
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "Kalyani Cast"
   },
   "divgi-torqtransfer-systems": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 10,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -4,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "note": "EV-transmission supplier; IPO 2023. ROCE fell 20%->6% FY22-24 on a demand lull, back to ~10% FY25 with FY26 sales +61% and OPM recovered to 20%. Net cash (borrowings Rs2cr FY26). FCF conversion ~-4% on the one clean year available (FY24 CFO Rs41cr vs capex Rs43cr); FY25-26 cash-flow detail not pulled this pass. Capex reads neutral - returns collapsed then, rebound unproven."
+    },
+    "track_record": {
+      "years_checked": 6,
+      "years_cleared": 2,
+      "note": "Screener FY20-FY25: rev growth >=10% AND ROCE >=15% both cleared in 2 of 6 (FY21 18%/20%, FY22 25%/15%). FY23-25 fell away (ROCE 10%/6%/10%, sales down FY24-25 on customer-programme lulls). FY26 rebounded +61% but ROCE not yet displayed/restored."
+    },
+    "name": "Divgi TorqTransfer Systems"
   },
   "obsc-perfection": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 19.5,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 1.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -120,
+      "margin_trend": "stable",
+      "capex_efficiency": "productive",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 3,
+      "note": "FY24-FY26 each had revenue growth >=20% and ROCE ~18-20% (>=15%). FY22-FY23 pre-IPO figures are less reliable and FY23 OPM dipped to 10% with flat PAT, so not counted. The 3-year clean run is real but short, and the low-employee-cost anomaly is an open question over how 'real' the reported returns are."
+    },
+    "name": "OBSC Perfection"
   },
   "p-n-gadgil-jewellers": {
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 20.9,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 2.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -130.0,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "concern"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 2,
+      "note": "FY24-FY26 verifiable from the RHP + annual reports. FY24: revenue +35% but ROCE borderline (~14-16%, pre-scale) -> not cleared. FY25: revenue +25% and ROCE ~18-20% -> cleared. FY26: revenue +42% and ROCE ~21% -> cleared, but FY26 earnings are inflated by ~Rs 80-90 Cr of unhedged gold-price gains, so the 'cleared' count overstates underlying consistency. Only ~2 years of clean post-IPO history."
+    },
+    "name": "P N Gadgil Jewellers"
   },
   "northern-arc": {
     "conviction": "High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-04"
+    "deepdive_date": "2026-09-04",
+    "quality_metrics": {
+      "roce_pct": 11,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "contracting",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "note": "NBFC adaptation: leverage / interest-coverage / FCF not meaningful (null). roce_pct shows FY26 ROE 11% as the profitability proxy; ROE 15% FY24 -> 11% FY25 -> 11% FY26 as MFI-sector stress lifted credit costs and compressed spreads. Well-capitalised (CAR ~20%+ after the Sep-2024 IPO), diversified across direct lending + fund/placement book. Sub-cost-of-equity returns despite the strong balance sheet -> concern."
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 1,
+      "note": "NBFC adaptation: profitability leg uses ROE (ROCE not meaningful for a lender). FY22-FY26 total-income growth 34% / 43% / 45% / 24% / 15%; ROE 11% / 13% / 15% / 11% / 11%. Both cleared only FY24 (growth +45%, ROE 15%) = 1 of 5 -- ROE has sat below 15% through the MFI-sector stress."
+    },
+    "name": "Northern Arc"
   },
   "senores-pharma": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 15.1,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 1.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -110,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "open_questions": "fcf_conversion_pct is a rough trailing figure -- FY26 FCF was about -Rs 203 Cr against EBITDA of roughly Rs 170-180 Cr, i.e. deeply negative conversion while the company invests ahead of growth. Whether that capital earns back above cost of capital is not yet demonstrable (ROCE flat at ~15%)."
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 1,
+      "note": "Listed Dec 2024, so only FY24-FY26 are verifiable. FY25 and FY26 both had revenue growth well above 10%, but ROCE sat around 13-15% (3-yr ROE ~14%), so only FY26 clearly cleared BOTH revenue growth >=10% AND ROCE >=15%, and even that is right at the threshold. Short history -- do not over-weight a low consistency count for a company this young."
+    },
+    "name": "Senores Pharma"
   },
   "asm-technologies": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 27.0,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0.8,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -50.0,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 2,
+      "note": "FY24-FY26 verifiable from the same filings. FY24: revenue -8% and a net loss (OPM 2.8%) -> not cleared. FY25: revenue +43% and ROCE ~18-22% (OPM 16%) -> cleared. FY26: revenue +83% and ROCE ~27% (OPM 19%) -> cleared. 2 of 3 years cleared both tests, but only since the FY25 inflection -- a short, volatile history consistent with a recent step-change rather than a decade-long compounder."
+    },
+    "name": "ASM Technologies"
   },
   "emerald-finance": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 21.2,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 1,
+      "note": "NBFC -- profitability leg on ROE. Per screener.in, only FY26 (+41% revenue / ROE 16%, ROCE 21%) clears both bars. FY22-FY24 ROE was ~9%; FY25 (+69% revenue) ROE 14% just missed. The EWA-driven profitability step-up is one year old; revenue has risen 12 straight quarters but ROE only crossed 15% in FY26. No GNPA/NNPA/ECL disclosure is a governance gap."
+    },
+    "name": "Emerald Finance"
   },
   "izmo": {
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 13.0,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral",
+      "open_questions": "FCF conversion not reliably derivable from public snippets given ~142-day working-capital cycle and unaudited US books; needs the FY26 cash-flow statement to confirm CFO/EBITDA."
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 1,
+      "note": "FY22-FY26 checked for revenue growth >=10% AND ROCE >=15% in the same year. Revenue growth cleared 10% in most years, but ROCE has generally sat ~12-14%; only FY26 (revenue ~+26%, OPM ~18%, ROCE near ~14-15%) is a plausible clear, and even that is borderline. Consistency of the >=15% ROCE bar is not established."
+    },
+    "name": "IZMO"
   },
   "ghcl-textiles": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 6,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 0.8,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -17,
+      "margin_trend": "expanding",
+      "capex_efficiency": "value-destructive",
+      "assessment": "concern",
+      "note": "Cotton-yarn spinning demerged from GHCL, listed 2024. ROCE 6%/5%/6% FY24-26 - structurally below cost of capital; OPM improved 8%->11%->12% but off a trough. Borrowings Rs134cr FY26 vs ~Rs158cr EBITDA (~0.8x). Trailing-3y FCF conversion ~-17% (FCF -Rs13cr/+Rs4cr/-Rs54cr FY24-26) against Rs154cr FY25 capex; ROCE stuck at 5-6% so capex reads value-destructive. Cyclical commodity spinner."
+    },
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "GHCL Textiles"
   },
   "rapicut-carbides": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 11,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "improving",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "note": "Debt-free but sub-scale (Rs96cr sales FY26). ROCE -6% FY25 -> 11% FY26 off a very low base; OPM only 3.1%. EBITDA was negligible/negative across FY24-25 so FCF-conversion ratio is unstable - in absolute terms CFO ~Rs11cr over FY24-26 vs ~Rs2cr capex, so cash-generative but tiny. Capex negligible - not a capex story; a decade of weak returns is the concern."
+    },
+    "track_record": {
+      "years_checked": 9,
+      "years_cleared": 1,
+      "note": "Screener FY18-FY26: rev growth >=10% AND ROCE >=15% both cleared in only 1 of 9 (FY19 10%/15%). A decade of sub-scale, mostly negative-ROCE results (FY20-25 ROCE -6% to 4%); FY26 sales +129% but ROCE still only 11%. Tiny tungsten-carbide tools maker."
+    },
+    "name": "Rapicut Carbides ."
   },
   "virtual-galaxy-infotech": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-05"
+    "deepdive_date": "2026-09-05",
+    "quality_metrics": {
+      "roce_pct": null,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "stable",
+      "capex_efficiency": "unclear",
+      "assessment": "positive"
+    },
+    "track_record": {
+      "years_checked": 4,
+      "years_cleared": 2,
+      "note": "FY23 cleared revenue growth (+38%) but not ROCE (PAT margin only ~3%, ROCE well below 15%); FY24 cleared ROCE (34% per screener) but not revenue growth (+6%, below the 10% bar); FY25 and FY26 both cleared on delivered growth (roughly doubled, then +52%) with high margins/returns (ROE ~47.6% FY26) - 2 of the last 2 years verifiable this pass both clear."
+    },
+    "name": "Virtual Galaxy Infotech"
   },
   "wockhardt-ltd": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "Wockhardt",
+    "quality_metrics": {
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified"
+    }
   },
   "accent-microcell": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-07"
+    "deepdive_date": "2026-09-07",
+    "quality_metrics": {
+      "roce_pct": 24.9,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": -0.2,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 10,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "note": "Existing asset base earns ~25% ROCE, but fcf_conversion is an estimate: FY26 capacity build + working-capital growth absorbed operating cash and a Rs 40 Cr rights issue was needed for a Rs 60 Cr project, so (CFO-capex)/EBITDA is low/near-zero. Unit-III returns unproven and the project has slipped repeatedly - capex_efficiency neutral pending commissioning."
+    },
+    "track_record": {
+      "years_checked": 4,
+      "years_cleared": 4,
+      "note": "Of FY23-FY26 (cleanly verifiable via screener), each year had revenue growth >10% and ROCE >15% (ROCE has run ~20-25%, 5-yr profit CAGR ~54%). Pre-FY23 filings not reliably verifiable at this SME."
+    },
+    "name": "Accent Microcell"
   },
   "kusumgar": {
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 18.8,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": 1.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 30,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 2,
+      "note": "FY24-FY26 verifiable from the same filings. FY24: revenue +51%, ROCE >15% -> cleared. FY25: revenue +70%, ROCE >15% -> cleared. FY26: revenue -16% -> failed (ROCE still ~18-19%). 2 of 3 years cleared both revenue growth >=10% and ROCE >=15%; the miss is FY26's tender-deferral dip, not a structural quality break."
+    },
+    "name": "Kusumgar"
   },
   "alpex-solar": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 43.5,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 1.6,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -60,
+      "margin_trend": "contracting",
+      "capex_efficiency": "unclear",
+      "assessment": "concern"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 3,
+      "note": "FY24-FY26: revenue growth cleared >=10% every year by a wide margin (3yr sales CAGR ~125%) and ROCE was well above 15% each year (FY26 43.5%). All three verifiable years pass -- but the returns are policy/cycle-aided and FY26 was FCF-negative, so the clean pass overstates through-cycle quality."
+    },
+    "name": "Alpex Solar"
   },
   "jayaswal-neco": {
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 15,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 3.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "open_questions": "FCF conversion not cleanly derivable from secondary sources this pass \u2014 capex (Rs 720 Cr pellet plant) is front-loaded against improving CFO; net-debt/EBITDA ~3x on total borrowings ~Rs 4,100 Cr vs FY26 EBITDA Rs 1,341 Cr, falling as EBITDA rises and debt is repaid."
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 1,
+      "note": "FY24-FY26 verifiable from current filings. FY24: loss. FY25: PAT Rs 113 Cr, ROCE well below 15%. FY26: revenue +19% and ROCE ~15% as PAT jumped to Rs 463 Cr \u2014 the only year clearing both the >=10% revenue-growth and >=15% ROCE bars. Multi-year record is depressed by the 2018 NCLT reference and 2022 restructuring; the investable window is the FY26-onward turnaround, not the history."
+    },
+    "name": "Jayaswal Neco"
   },
   "capacit-e-infraprojects": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-22"
+    "deepdive_date": "2026-09-22",
+    "quality_metrics": {
+      "roce_pct": 15.5,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 1.1,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 25,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "note": "FY26 ROCE 15.5% / ROE ~10.4% (10.9% 3yr avg), OPM steady ~16-17% outside the Q1 FY27 provisioning quarter. Standalone Net Debt/Equity 0.25x, net operating cash flow Rs224cr FY26. High DISCOM/developer/government debtor days (151, vs historical 100-120) are a permanent working-capital drag, now compounded by a fresh auditor qualification on ~Rs66cr of receivables (CIRP-insolvent party + legal proceedings); ROCE has sat at a mid-teens plateau despite a 5x-revenue order book, so incremental capital is only earning its cost - capex_efficiency neutral."
+    },
+    "track_record": {
+      "years_checked": 10,
+      "years_cleared": 6,
+      "note": "FY17-FY26 screener consolidated. Both revenue growth >=10% AND ROCE >=15% in the same FY: FY17, FY18, FY19, FY23, FY25, FY26. FY20-FY21 collapsed on COVID (rev -15%, -42%); FY22 rebounded on revenue but ROCE only 10%; FY24 revenue grew just 7%. FY26 ROCE (15.5% per screener.in, Sep 2026) again just clears the 15% bar; recent ROCE has sat on a mid-teens plateau despite the 5x-revenue order book - EPC working-capital drag."
+    },
+    "name": "Capacit'e Infraprojects"
   },
   "wise-travel-india-wti-cabs": {
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-05"
+    "deepdive_date": "2026-09-05",
+    "quality_metrics": {
+      "roce_pct": 16,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 1.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -16,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 2,
+      "years_cleared": 1,
+      "note": "FY25: ROCE ~14.94%, narrowly missing the 15% bar despite plausible revenue growth - fails on the ROCE leg. FY26: revenue growth +51% and ROCE ~16% both clear. Company listed 2024, so only 2 fiscal years are verifiable from the sources reviewed this pass; a longer track record isn't available yet."
+    },
+    "name": "Wise Travel India"
   },
   "kiri-industries-loan-reduction-and-demand-surge": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "Kiri Industries",
+    "quality_metrics": {
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified"
+    }
   },
   "gv-electricals": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 31.1,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 1.2,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "note": "IPO-disclosure basis (BSE-SME, listed Aug-2026). ROCE 27.1%/23.9%/31.1% FY24/FY25/FY26; PAT more than doubled to Rs 10.5 Cr FY26 on Rs 156 Cr revenue. D/E ~0.49; net_debt_to_ebitda approximate (small base). No cash-flow statement in available disclosures - fcf_conversion unsourceable, but DISCOM O&M carries chronic receivable/payment-cycle drag. Competitive-bid contracting, so capex_efficiency neutral. track_record_na: only FY25-FY26 have both metrics verifiable (<3 years)."
+    },
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "GV Electricals"
   },
   "cosmic-crf-limited": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 13.6,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": 1.8,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -175,
+      "margin_trend": "stable",
+      "capex_efficiency": "unclear",
+      "assessment": "concern"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 0,
+      "note": "FY24 (+109%/14%), FY25 (+19%/9%) and FY26 (+11%/9%) each cleared the revenue-growth leg but missed ROCE >=15%. ROCE fell from 36% (FY23) to ~9% as the balance sheet geared up for the integrated-wagon roll-up - no year clears both filters."
+    },
+    "name": "COSMIC CRF"
   },
   "axiscades-engineering": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 13.8,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": -3.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -20,
+      "margin_trend": "contracting",
+      "capex_efficiency": "unclear",
+      "assessment": "concern"
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 0,
+      "note": "5-yr sales CAGR ~0.27%; ROCE has stayed in a 12-14% band, below the 15% bar; no year in the last 5 cleared both revenue growth >=10% and ROCE >=15% in the same year. The defence pivot is explicitly a bet on breaking from this record."
+    },
+    "name": "Axiscades Engineering"
   },
   "eppelton": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-16"
+    "deepdive_date": "2026-09-16",
+    "quality_metrics": {
+      "roce_pct": 18.5,
+      "roce_trend": "stable",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "concern"
+    },
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "Eppelton"
   },
   "freshara-agro-exports": {
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-07"
+    "deepdive_date": "2026-09-07",
+    "quality_metrics": {
+      "roce_pct": 20.9,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 2.6,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -50,
+      "margin_trend": "contracting",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "note": "Headline ROCE ~21% is solid, but (CFO-capex)/EBITDA has been deeply negative across the scale-up (FY24 OCF -Rs 21 Cr; FCF -Rs 23 to -Rs 43 Cr) - the fcf_conversion estimate reflects that. Margin trend is down (17% -> 15%), leverage is up (facilities Rs 128 -> Rs 175 Cr), and the second-unit + Spain returns are unproven, so capex_efficiency is neutral pending FY27 evidence."
+    },
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "Freshara Agro Exports"
   },
   "grand-continent-hotels": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-03"
+    "deepdive_date": "2026-09-03",
+    "quality_metrics": {
+      "roce_pct": 12.0,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 1.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -65,
+      "margin_trend": "contracting",
+      "capex_efficiency": "neutral",
+      "assessment": "concern"
+    },
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "Grand Continent Hotels"
   },
   "esds-software": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": null,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": 0,
+      "interest_coverage": 20,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 3,
+      "note": "FY22-FY26 screener (ESDS, listed Sep-2026). Both revenue growth >=10% AND ROCE >=15%: FY24 (+38%, ROCE 21%), FY25 (+26%, ROCE 30%), and FY26 (+31%; FY26 ROCE not yet on screener but inferred >15% from OPM 50% and a net-cash post-IPO balance sheet). FY22 (ROCE 1%) and FY23 (rev +7%) missed. Only two years are fully screener-verified on both metrics - short history."
+    },
+    "name": "ESDS Software Solution"
   },
   "i-g-petrochemicals": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 3,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 3.8,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 15,
+      "margin_trend": "unclear",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "note": "Phthalic-anhydride producer at a cyclical trough - ROCE ~3% FY25, ROE ~0.2% FY26; OPM whipsaws with PA spreads (5/10/5% FY24-26). Borrowings Rs362cr FY26 vs ~Rs96cr trough EBITDA (~3.8x). FY26 CFO Rs102cr vs capex Rs89cr (~+15% conversion) - mature assets, capex light - but on depressed EBITDA. Chinese PA oversupply the overhang; capex (maleic anhydride / downstream) yet to earn."
+    },
+    "track_record": {
+      "years_checked": 9,
+      "years_cleared": 2,
+      "note": "Screener FY18-FY26: rev growth >=10% AND ROCE >=15% both cleared in only 2 of 9 (FY18 10%/29%, FY22 68%/21%) - the phthalic-anhydride spread up-cycle years. ROCE swings wildly with PA spreads (45/29/5/29/33/21/5/11/3%); FY26 ROE ~0.2% (deep trough). Cyclical single-product commodity."
+    },
+    "name": "I G Petrochemicals"
   },
   "mitsu-chem-plast": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 10.8,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 2.9,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "neutral"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 0,
+      "note": "FY24-FY26 verifiable: none had both revenue growth >=10% and ROCE >=15% in the same year (FY26 revenue +5.4% at ROCE ~10.8%; FY25 weaker). The FY26/Q1FY27 profit surge is a margin event off a low base, not a track record of compounding."
+    },
+    "name": "Mitsu Chem Plast"
   },
   "john-cockerill-india-a-case-study-on-decarbonisation-of-steel": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 12.2,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": -1.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "contracting",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "open_questions": [
+        "fcf_conversion not derivable cleanly this pass - project-equipment cash flows swing with advances/milestones; the recent quarters' losses make trailing conversion unreliable rather than simply negative"
+      ]
+    },
+    "track_record": {
+      "years_checked": 4,
+      "years_cleared": 0,
+      "note": "FY22-FY25 verifiable: no single year cleared both revenue growth >=10% and ROCE >=15% - five-year sales CAGR ~0.9%, 3-yr ROE ~6%. This is an established under-performer, not a young company, so a zero count is a genuine signal. The entire bull case rests on a forward inflection, not the record."
+    },
+    "name": "John Cockerill India"
   },
   "aarti-surfactants-ltd": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 9,
+      "roce_trend": "unclear",
+      "net_debt_to_ebitda": 2.4,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 40,
+      "margin_trend": "contracting",
+      "capex_efficiency": "value-destructive",
+      "assessment": "concern",
+      "note": "ROCE volatile and low (13/7/11/15/8/9% FY20-25); OPM contracted 11%->6%->5% FY24-26. Borrowings Rs104cr FY26 vs ~Rs43cr EBITDA (~2.4x); FY26 interest cover only ~1.4x (PBT Rs17cr / interest Rs12cr). Trailing-3y FCF conversion ~+40% only because capex was starved (Rs16-46cr/yr) - not a quality signal given ROCE <10% and margins falling, so capex reads value-destructive."
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 0,
+      "note": "Screener FY21-FY25: never had both rev growth >=10% AND ROCE >=15% in the same year - ROCE structurally sub-15 (range 7-15%), and the one 15% ROCE year (FY23) had only 4% growth. 0 of 5 cleared."
+    },
+    "name": "Aarti Surfactants"
   },
   "desco-infratech": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-26"
+    "deepdive_date": "2026-09-26",
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "Desco Infratech",
+    "quality_metrics": {
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified"
+    }
   },
   "kernex-tcas-led-multi-year-growth-story": {
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 47.8,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "open_questions": "FCF conversion could not be reliably sourced for a clean trailing-3y average, but directionally very weak -- 268 debtor days and no dividend indicate reported PAT is not converting to cash; net-debt/EBITDA screens low only because the current EBITDA base is inflated by the execution spike"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 1,
+      "note": "Of FY24/FY25/FY26, only FY26 (and arguably FY25 on the low base) clearly cleared BOTH revenue growth >=10% AND ROCE >=15% in the same year -- prior years were loss-making / sub-scale. FY26 is the one unambiguous pass; FY25 borderline. This is a 1-2 year turnaround, not a consistent compounder."
+    },
+    "name": "Kernex"
   },
   "kernex-microsystems": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified"
+    },
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "Kernex Microsystems"
   },
   "susan-electricals-india": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": 29.1,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 1.8,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -25,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "note": "IPO-disclosure basis (BSE-SME). ROCE 9.5%/17.5%/29.1% FY24/FY25/FY26, but the 50-64% ROE band is a tiny-post-IPO-equity-base artefact set to compress as the balance sheet scales. FY26 revenue +98% was partly trading-led. IPO reviews flag rising debt funding working capital, so net_debt_to_ebitda and the negative fcf_conversion are approximate. Commodity winding-wire/conductor - realisation is LME metal pass-through plus a thin conversion spread, no pricing power. track_record_na: only FY25-FY26 clear both metrics (<3 verifiable years)."
+    },
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "Susan Electricals India"
   },
   "electronics-mart-india": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 7.5,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 3.3,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 45,
+      "margin_trend": "contracting",
+      "capex_efficiency": "neutral",
+      "assessment": "concern"
+    },
+    "track_record": {
+      "years_checked": 4,
+      "years_cleared": 0,
+      "note": "FY23-FY26 all verifiable from the same filings. Revenue growth cleared 10% in FY23-FY24 but not FY25-FY26; ROCE was ~8-13% every year and never reached 15%. So no year cleared BOTH the >=10% revenue-growth and >=15% ROCE bars - a structural feature of the thin-margin, leveraged retail format, not a young-company artifact (EMIL has a long operating history)."
+    },
+    "name": "Electronics Mart India"
   },
   "ratnaveer-precision-a-newly-headed-steel-company": {
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-08"
+    "deepdive_date": "2026-09-08",
+    "quality_metrics": {
+      "roce_pct": 12.3,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": 2.0,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -120,
+      "margin_trend": "stable",
+      "capex_efficiency": "unclear",
+      "assessment": "concern"
+    },
+    "track_record": {
+      "years_checked": 3,
+      "years_cleared": 1,
+      "note": "FY24-FY26 verifiable from the same filings. FY24: revenue +24% but ROCE ~14-15% (borderline, likely below 15) -> not cleared. FY25: revenue +50% and ROCE ~15-16% -> cleared. FY26: revenue +20% but ROCE 12.3% -> not cleared. Only 1 of 3 years cleared both revenue growth >=10% and ROCE >=15% -- the CCL capex + working-capital build has kept returns below the bar."
+    },
+    "name": "Ratnaveer precision a newly headed steel company"
   },
   "shalimar-paints": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": -8,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "improving",
+      "capex_efficiency": "value-destructive",
+      "assessment": "concern",
+      "note": "Decorative-paint turnaround that has not turned: FY26 net loss -Rs65cr, 3-yr ROE -21%, ROCE ~-8%; OPM -10%/-10%/-4% FY24-26 (losses narrowing toward breakeven). EBITDA negative so leverage / FCF-conversion ratios are not meaningful; FY26 CFO +Rs23cr but 3-yr FCF negative. Promoters have pledged 70.5% of their holding. Years of losses have consumed capital."
+    },
+    "track_record": {
+      "years_checked": 5,
+      "years_cleared": 0,
+      "note": "FY22-FY26: operating margin negative every year (-10% to -4%), ROCE negative, sales flat-to-declining. 0 of 5 years cleared the rev-growth>=10% + ROCE>=15% double. Old company (est. 1902), not a young-listco omit - this is a genuine zero."
+    },
+    "name": "Shalimar Paints ."
   },
   "south-west-pinnacle-exploration": {
     "conviction": "Low-Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-26"
+    "deepdive_date": "2026-09-26",
+    "quality_metrics": {
+      "roce_pct": 15.15,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 1.0,
+      "interest_coverage": 6.5,
+      "fcf_conversion_pct": -19,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "concern"
+    },
+    "track_record": {
+      "years_checked": 9,
+      "years_cleared": 2,
+      "note": "Per screener.in consolidated (FY18-FY26): only FY25 (+35% revenue / ROCE 20%) is a clean pass; FY26 (+35% revenue, ROCE ~15% per company Q1 FY27 update, not yet on screener) is a marginal pass. FY18-FY24 all had ROCE 8-13%, below the 15% bar, even in years revenue grew >10% (FY21 +21%, FY22 +14%). The operating-leverage inflection is FY25-onwards only."
+    },
+    "name": "South West Pinnacle Exploration"
   },
   "kp-green-engineering": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-26"
+    "deepdive_date": "2026-09-26",
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "KP Green Engineering",
+    "quality_metrics": {
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified"
+    }
   },
   "eldeco-housing-ltd": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "Eldeco Housing",
+    "quality_metrics": {
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified"
+    }
   },
   "laxmi-dental": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "Laxmi Dental",
+    "quality_metrics": {
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified"
+    }
   },
   "borana-weaves": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "Borana Weaves",
+    "quality_metrics": {
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified"
+    }
   },
   "samhi-hotels": {
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
-    "deepdive_date": "2026-09-04"
+    "deepdive_date": "2026-09-04",
+    "quality_metrics": {
+      "roce_pct": 9,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": 4.2,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 48,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "neutral",
+      "note": "Acquisition-led branded-hotel owner (Marriott/IHG/Hyatt). ROCE -4%->7%->9%->9% FY21-25 - improving as occupancy/ARR recover, still below cost of capital; FY26 ROCE not displayed (headline ROE 24% is deferred-tax-inflated). OPM 28%->36%->35%. Borrowings de-levered Rs2,744cr->Rs1,854cr but still ~4.2x EBITDA. Trailing-3y FCF conversion ~+48% (CFO Rs1,039cr vs capex Rs509cr FY24-26) - genuinely cash-generative now; a further Rs750cr raise was approved Aug-2026."
+    },
+    "track_record": {
+      "years_checked": 7,
+      "years_cleared": 0,
+      "note": "Screener FY20-FY26: ROCE never above 9% (range -8% to 9%); rev growth cleared >=10% in most years but ROCE >=15% in none - 0 of 7. FY26 PAT Rs567cr is inflated by a ~Rs300cr deferred-tax credit (tax rate -112%), so FY26 ROE ~24% is not representative."
+    },
+    "name": "Samhi Hotels"
   },
   "ideaforge-technologies": {
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
-    "deepdive_pass": 1
+    "deepdive_pass": 1,
+    "quality_metrics": {
+      "roce_pct": -3,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "contracting",
+      "capex_efficiency": "value-destructive",
+      "assessment": "concern",
+      "note": "Drone (UAS) maker, IPO 2023. FY26 net loss -Rs17cr, OPM 2.6%, ROCE -3%, ROE -3.3% - down from profitability in FY24. EBITDA ~nil in FY26 so leverage / FCF-conversion ratios are not meaningful; CFO negative on a 204-day debtor cycle. QIP of Rs500cr completed and a Rs151cr defence order booked; Q1FY27 showed positive EBITDA - recovery claimed but unproven."
+    },
+    "track_record": {
+      "years_checked": 0,
+      "years_cleared": 0,
+      "note": "Awaiting data collection"
+    },
+    "name": "Ideaforge technologies"
   }
 }
