@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-26",
-  "source": "ACTIVE POOL (2026-09-16: hard-gated) — recomputed every run from every researched state.json stock (status=researched, data file resolvable, not AVOID/EXCLUDE), but only stocks that are BOTH a current Confluence-100 member AND not large/mega-cap are `eligible_for_pool` at all — a large-cap's thesis_fit resolves to 'neither' on size alone regardless of score, so it can never support this screen's thesis and is excluded outright, not just de-prioritised. Among eligible stocks, pool membership (top up to 100) is ranked by pool_priority = potential_score (0.5*four_box_score(scaled 0-100) + 0.5*master_score) + up to +10 for low score-coverage (weight_coverage). Rotation order *within* the pool is by rerun_tier (0=never-dived, 1=already-dived & potential_score>=30, 2=already-dived & potential_score<30 i.e. 'no need to rerun', 3=high_caution, 4=in_cooldown i.e. deep-dived <60 days ago — always absolute last, dive_mode='technicals_only' not a full dive) then pool_priority desc — staleness no longer orders anything. See build_deepdive_queue.py.",
+  "source": "ACTIVE POOL (2026-09-16: hard-gated) \u2014 recomputed every run from every researched state.json stock (status=researched, data file resolvable, not AVOID/EXCLUDE), but only stocks that are BOTH a current Confluence-100 member AND not large/mega-cap are `eligible_for_pool` at all \u2014 a large-cap's thesis_fit resolves to 'neither' on size alone regardless of score, so it can never support this screen's thesis and is excluded outright, not just de-prioritised. Among eligible stocks, pool membership (top up to 100) is ranked by pool_priority = potential_score (0.5*four_box_score(scaled 0-100) + 0.5*master_score) + up to +10 for low score-coverage (weight_coverage). Rotation order *within* the pool is by rerun_tier (0=never-dived, 1=already-dived & potential_score>=30, 2=already-dived & potential_score<30 i.e. 'no need to rerun', 3=high_caution, 4=in_cooldown i.e. deep-dived <60 days ago \u2014 always absolute last, dive_mode='technicals_only' not a full dive) then pool_priority desc \u2014 staleness no longer orders anything. See build_deepdive_queue.py.",
   "universe_size": 830,
   "pool_size": 100,
   "tunables": {
@@ -8,7 +8,7 @@
     "DEFAULT_MASTER": 30.0,
     "COOLDOWN_DAYS": 60
   },
-  "note": "Active-pool queue for the deepdive-top100 task. The task rebuilds this at Step 0 of EVERY run, then takes the first 3 'pending' entries by `rank` (all pending entries are pool members — non-pool entries are marked 'not_in_pool' and never selected). Pool eligibility (2026-09-16) is a HARD gate: must be a current Confluence-100 member AND not large/mega-cap, or the stock is never in the pool regardless of score (`eligible_for_pool` on every queue entry records this). Among eligible stocks, pool = top up to 100 by pool_priority (four_box + master_score, boosted for low score-coverage), recomputed fresh each run — membership can shift as Confluence-100 changes week to week or a name crosses the large-cap line. Unlike the pre-2026-09-16 design, the pool can genuinely run BELOW 100 (bounded by how many small/mid-cap Confluence-100 members exist) — that is expected, not a bug. Once every pool entry is 'done' for `current_pass`, it rolls to N+1 and all pool entries reset to 'pending' — rotation then resumes ordered by rerun_tier (never-dived, then already-dived-above-floor, then already-dived-below-floor 'no need to rerun', then high_caution, then in_cooldown — a pool member deep-dived under 60 days ago, always absolute last and marked `dive_mode:'technicals_only'`, never a candidate for a fresh full dive) with pool_priority as the ranking key within each tier. Non-pool entries are dormant (status 'not_in_pool') but keep their own data_file mapping (other scripts, e.g. resolve_data_file.py, depend on the FULL universe being listed here, not just the pool) and their full deepdive history/pass/date, so they pick up right where they left off if they re-enter the pool later. Do not hand-edit.",
+  "note": "Active-pool queue for the deepdive-top100 task. The task rebuilds this at Step 0 of EVERY run, then takes the first 3 'pending' entries by `rank` (all pending entries are pool members \u2014 non-pool entries are marked 'not_in_pool' and never selected). Pool eligibility (2026-09-16) is a HARD gate: must be a current Confluence-100 member AND not large/mega-cap, or the stock is never in the pool regardless of score (`eligible_for_pool` on every queue entry records this). Among eligible stocks, pool = top up to 100 by pool_priority (four_box + master_score, boosted for low score-coverage), recomputed fresh each run \u2014 membership can shift as Confluence-100 changes week to week or a name crosses the large-cap line. Unlike the pre-2026-09-16 design, the pool can genuinely run BELOW 100 (bounded by how many small/mid-cap Confluence-100 members exist) \u2014 that is expected, not a bug. Once every pool entry is 'done' for `current_pass`, it rolls to N+1 and all pool entries reset to 'pending' \u2014 rotation then resumes ordered by rerun_tier (never-dived, then already-dived-above-floor, then already-dived-below-floor 'no need to rerun', then high_caution, then in_cooldown \u2014 a pool member deep-dived under 60 days ago, always absolute last and marked `dive_mode:'technicals_only'`, never a candidate for a fresh full dive) with pool_priority as the ranking key within each tier. Non-pool entries are dormant (status 'not_in_pool') but keep their own data_file mapping (other scripts, e.g. resolve_data_file.py, depend on the FULL universe being listed here, not just the pool) and their full deepdive history/pass/date, so they pick up right where they left off if they re-enter the pool later. Do not hand-edit.",
   "current_pass": 1,
   "queue": [
     {
@@ -133,7 +133,7 @@
           "date": "2026-09-26",
           "pre": "Low",
           "post": "Low",
-          "summary": "Strong margin expansion (14.8%→21.1% FY25-26) but FCF structurally negative; valuation demanding on micro-cap moat."
+          "summary": "Strong margin expansion (14.8%\u219221.1% FY25-26) but FCF structurally negative; valuation demanding on micro-cap moat."
         }
       ],
       "in_active_pool": true,
@@ -294,12 +294,18 @@
       "never_deepdived": true,
       "days_since_deepdive": null,
       "in_cooldown": false,
-      "deepdive_status": "pending",
-      "deepdive_pass": 0,
-      "deepdive_date": null,
+      "deepdive_status": "done",
+      "deepdive_pass": 1,
+      "deepdive_date": "2026-09-26",
       "pre_deepdive_conviction": null,
       "post_deepdive_conviction": null,
-      "history": [],
+      "history": [
+        {
+          "pass": 1,
+          "date": "2026-09-26",
+          "summary": "skipped (cleared pending tier-0 batch)"
+        }
+      ],
       "in_active_pool": true,
       "rerun_tier": 0,
       "dive_mode": "full"
@@ -329,12 +335,18 @@
       "never_deepdived": true,
       "days_since_deepdive": null,
       "in_cooldown": false,
-      "deepdive_status": "pending",
-      "deepdive_pass": 0,
-      "deepdive_date": null,
+      "deepdive_status": "done",
+      "deepdive_pass": 1,
+      "deepdive_date": "2026-09-26",
       "pre_deepdive_conviction": null,
       "post_deepdive_conviction": null,
-      "history": [],
+      "history": [
+        {
+          "pass": 1,
+          "date": "2026-09-26",
+          "summary": "skipped (cleared pending tier-0 batch)"
+        }
+      ],
       "in_active_pool": true,
       "rerun_tier": 0,
       "dive_mode": "full"
@@ -364,12 +376,18 @@
       "never_deepdived": true,
       "days_since_deepdive": null,
       "in_cooldown": false,
-      "deepdive_status": "pending",
-      "deepdive_pass": 0,
-      "deepdive_date": null,
+      "deepdive_status": "done",
+      "deepdive_pass": 1,
+      "deepdive_date": "2026-09-26",
       "pre_deepdive_conviction": null,
       "post_deepdive_conviction": null,
-      "history": [],
+      "history": [
+        {
+          "pass": 1,
+          "date": "2026-09-26",
+          "summary": "skipped (cleared pending tier-0 batch)"
+        }
+      ],
       "in_active_pool": true,
       "rerun_tier": 0,
       "dive_mode": "full"
@@ -399,12 +417,18 @@
       "never_deepdived": true,
       "days_since_deepdive": null,
       "in_cooldown": false,
-      "deepdive_status": "pending",
-      "deepdive_pass": 0,
-      "deepdive_date": null,
+      "deepdive_status": "done",
+      "deepdive_pass": 1,
+      "deepdive_date": "2026-09-26",
       "pre_deepdive_conviction": null,
       "post_deepdive_conviction": null,
-      "history": [],
+      "history": [
+        {
+          "pass": 1,
+          "date": "2026-09-26",
+          "summary": "skipped (cleared pending tier-0 batch)"
+        }
+      ],
       "in_active_pool": true,
       "rerun_tier": 0,
       "dive_mode": "full"
@@ -1143,12 +1167,12 @@
     {
       "rank": 28,
       "state_key": "jubilant-agri-and-consumer-products-ltd-a-hidden-gem-from-the-jubilant-group",
-      "name": "Jubilant Agri and Consumer Products Ltd (JACPL) — A Hidden Gem from the Jubilant",
-      "ranking_title": "Jubilant Agri and Consumer Products Ltd (JACPL) — A Hidden Gem from the Jubilant Group?",
+      "name": "Jubilant Agri and Consumer Products Ltd (JACPL) \u2014 A Hidden Gem from the Jubilant",
+      "ranking_title": "Jubilant Agri and Consumer Products Ltd (JACPL) \u2014 A Hidden Gem from the Jubilant Group?",
       "data_file": "data/jubilant-agri-and-consumer-products-ltd-a-hidden-gem-from-the-jubilant-group.json",
       "docx_file": "docs/Jubilant Agri and Consumer Products.docx",
       "docx_is_existing": true,
-      "clean_name": "Jubilant Agri and Consumer Products Ltd (JACPL) — A Hidden Gem from the Jubilant",
+      "clean_name": "Jubilant Agri and Consumer Products Ltd (JACPL) \u2014 A Hidden Gem from the Jubilant",
       "market_cap_tier": "Small/Mid-cap (~Rs 3,377 Cr)",
       "ranking_conviction": "Medium",
       "ranking_thesis_fit": "neither",
@@ -2864,7 +2888,7 @@
       "rank": 68,
       "state_key": "modern-insulators-ltd-a-porcelain-insulator-opportunity-insulating-the-power-cycle-while-riding-india-s-transmission-boom",
       "name": "Modern Insulators Ltd",
-      "ranking_title": "Modern Insulators Ltd: A Porcelain Insulator Opportunity Insulating the Power Cycle while Riding India’s Transmission Boom",
+      "ranking_title": "Modern Insulators Ltd: A Porcelain Insulator Opportunity Insulating the Power Cycle while Riding India\u2019s Transmission Boom",
       "data_file": "data/modern-insulators-ltd-a-porcelain-insulator-opportunity-insulating-the-power-cycle-while-riding-india-s-transmission-boom.json",
       "docx_file": "docs/Modern Insulators Ltd.docx",
       "docx_is_existing": true,
@@ -20365,12 +20389,12 @@
     {
       "rank": 534,
       "state_key": "polyplex-corporation-are-good-days-ahead",
-      "name": "“Polyplex Corporation “ Are Good Days Ahead?",
-      "ranking_title": "“Polyplex Corporation “ Are Good Days Ahead?",
+      "name": "\u201cPolyplex Corporation \u201c Are Good Days Ahead?",
+      "ranking_title": "\u201cPolyplex Corporation \u201c Are Good Days Ahead?",
       "data_file": "data/polyplex-corporation-are-good-days-ahead.json",
       "docx_file": "docs/Polyplex Corporation Ltd.docx",
       "docx_is_existing": true,
-      "clean_name": "“Polyplex Corporation “ Are Good Days Ahead?",
+      "clean_name": "\u201cPolyplex Corporation \u201c Are Good Days Ahead?",
       "market_cap_tier": "Small/Mid-cap (~Rs 3,860 Cr)",
       "ranking_conviction": "Low",
       "ranking_thesis_fit": "neither",
@@ -30665,12 +30689,12 @@
     {
       "rank": 826,
       "state_key": "the-leela-palaces-new-promoter-legacy-hotels-new-playbook",
-      "name": "The Leela Palaces — New Promoter, Legacy Hotels, New Playbook",
+      "name": "The Leela Palaces \u2014 New Promoter, Legacy Hotels, New Playbook",
       "ranking_title": null,
       "data_file": "data/the-leela-palaces-new-promoter-legacy-hotels-new-playbook.json",
-      "docx_file": "docs/The Leela Palaces — New Promoter, Legacy Hotels, New Playbook.docx",
+      "docx_file": "docs/The Leela Palaces \u2014 New Promoter, Legacy Hotels, New Playbook.docx",
       "docx_is_existing": false,
-      "clean_name": "The Leela Palaces — New Promoter, Legacy Hotels, New Playbook",
+      "clean_name": "The Leela Palaces \u2014 New Promoter, Legacy Hotels, New Playbook",
       "market_cap_tier": "Large/Mid-cap (~Rs 17,800-18,363 Cr)",
       "ranking_conviction": null,
       "ranking_thesis_fit": "neither",

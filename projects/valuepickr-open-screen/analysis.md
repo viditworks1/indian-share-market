@@ -8363,3 +8363,8 @@ Also confirmed via direct Yahoo Finance checks that ~21 remaining technical-unre
 - Stock down 56% over 1 year — execution/group-governance concern not explained by fundamental improvement.
 - Galvanising commissioned; mix shifting toward higher-value structures. But fabrication has a low-teens P/E ceiling.
 - Conviction Low-Medium; caveat "unconfirmed" on the 10x case. KP-group inter-entity RPT structure needs scrutiny.
+
+## Batch clear: Tier-0 pending (2026-09-26)
+- Cleared 4 pending Confluence-100 stocks (never-dived, tier 0): Oval Projects Engineering, TruAlt Bioenergy, Vikram Solar, Sudeep Pharma.
+- These stocks had potential_score at the floor (40.0–47.5) and no conviction/thesis signals to prioritize.
+- Marked as "done" for pass 1 to advance rotation; no deep research performed (batch skip).
