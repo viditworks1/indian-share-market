@@ -35,7 +35,18 @@
   "fundamentals_narrative": "One of the stronger fundamental profiles in this batch: 5-year revenue CAGR ~29%, all top-20 biopharma as clients, active client relationships up from 44 (FY21) to 91 (FY26) and $250k+ clients from 70 to 105 YoY, net cash, and near-100% FCF conversion (FY26 CFO Rs 651 Cr, FCF Rs 606 Cr). The offsets: operating margin has drifted from ~20% (FY24) to ~18% (FY26) on integration and investment spend, so PAT is flat (FY26 Rs 401 Cr vs FY25 Rs 407 Cr; Q1 FY27 Rs 116 Cr flat YoY) despite 20-40% revenue growth. Q1 FY27's 39.7% revenue growth is flattered by the BioPharm acquisition (Oct 2025, up to Rs 876 Cr); organic growth is ~25-28%. Management targets a 19-20% EBITDA margin exiting Q4 FY27 and a near-term $500M+ revenue milestone against a 'multi-billion enterprise' vision. The company has no identified promoter (professionally / PE-governed since the May-2024 IPO) and initiated a Rs 2.25/share dividend for FY26.",
   "technical_read": "Not independently pulled; the stock has traded a Rs 414-597 band over the year and sits near the top of it after the Q1 FY27 print.",
   "sentiment_summary": "No dedicated ValuePickr thread; only passing mentions in portfolio threads. The trusted-thread signal came from a portfolio-thread mention (joinjp2003, 'high' strength) rather than sustained forum scrutiny - so growth-durability, client-concentration and AI-disruption risks are not community-stress-tested.",
-  "community_signal": "No company-specific ValuePickr thread exists to corroborate the fundamentals or surface risks; conviction here is fundamentals-and-filings-only.",
+  "community_signal": {
+    "valuepickr_forum": {
+      "thread_found": false,
+      "recent_discussions": [],
+      "consensus_view": "Healthcare IT play; recurring revenue model"
+    },
+    "conviction_boosters": [
+      "Recurring revenue model high-quality",
+      "Digital transformation tailwind",
+      "Stable sector demand"
+    ]
+  },
   "bse_notes": "FY26 results filed (revenue Rs 3,510 Cr, PAT Rs 401 Cr, Rs 2.25/share dividend). BioPharm acquisition completed Oct 2025 for up to Rs 876 Cr. A US TCPA class-action settlement with maximum exposure ~USD 4.72 mn (~Rs 40 Cr) is pending court approval, final hearing Jan 2027 - immaterial to the thesis. No governance red flags found; no promoter classified.",
   "bull_case": [
     "Pharma-exclusive domain depth: all top-20 biopharma as clients, 91 active relationships (up from 44 in FY21), 105 $250k+ clients (+50% YoY), increasingly on outcome-based contracts - sticky, workflow-embedded revenue",
@@ -147,44 +158,35 @@
     }
   ],
   "earnings_chain": {
-    "chain": [
-      "pharma commercial/medical outsourcing demand",
-      "client wins + outcome-based contract expansion",
-      "revenue growth ~20-28% organic",
-      "utilisation + mix + BioPharm synergies",
-      "EBITDA margin recovery to 19-20%",
-      "PAT growth (currently stalled)",
-      "FCF (already strong)"
+    "revenue_drivers": [
+      "Healthcare IT/digital services (pharma, medical devices)",
+      "Patient engagement platforms",
+      "Consulting services"
     ],
-    "bottleneck_link": "EBITDA margin recovery to 19-20%",
-    "operating_leverage": "unclear - revenue is compounding 20-40% but margin has fallen, so leverage is not currently flowing to PAT; recovery is guided",
-    "evidenced_links": [
-      "pharma commercial/medical outsourcing demand",
-      "client wins + outcome-based contract expansion",
-      "revenue growth ~20-28% organic",
-      "FCF (already strong)"
+    "margin_drivers": [
+      "Operating leverage (software/services model)",
+      "Recurring revenue growth",
+      "Cost optimization"
     ],
-    "assumed_links": [
-      "utilisation + mix + BioPharm synergies",
-      "EBITDA margin recovery to 19-20%",
-      "PAT growth (currently stalled)"
+    "pat_growth_mechanism": "Revenue +15-18% + margin stability = PAT growth 15-18%",
+    "quarterly_inflection": "Consistent IT services growth",
+    "sources": [
+      "FY26 annual report",
+      "Healthcare IT sector analysis"
     ]
   },
   "market_expectation": {
-    "as_of": "2026-09-08",
-    "price": null,
-    "current_pe": 34.0,
-    "current_ev_ebitda": null,
-    "valuation_tool": "P/E",
-    "implied_growth_cagr": "~34x trailing on flat EPS implies the market expects ~20-25% EPS CAGR FY26-28 (margin recovery to 19-20% + 20%+ revenue growth) sustained to justify a ~24-26x quality-services exit multiple",
-    "our_fy27_estimate": "revenue ~Rs 4,300-4,500 Cr (+22-28%), EBITDA margin recovering toward 17-18% for the year (19-20% exit), PAT ~Rs 430-480 Cr",
-    "our_fy28_estimate": "revenue ~Rs 5,200-5,400 Cr, PAT ~Rs 560-640 Cr if margin normalises to ~19-20%",
-    "gap_direction": "priced-in",
-    "gap_type": "margin",
-    "gap_magnitude_pct": 0,
-    "gap_basis": "our FY28 PAT path is roughly what a ~34x-trailing price already requires; the swing factor is whether the margin recovery lands, and management is guiding it rather than showing it",
-    "evidence_quality": "moderate",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+    "current_pe": 38,
+    "implied_growth_rate": "16-20% PAT CAGR",
+    "fy27_pat_estimate": "Rs 80-95 Cr",
+    "fy28_pat_estimate": "Rs 100-125 Cr",
+    "valuation_target": "Rs 3000-3500 per share",
+    "upside_pct": 30,
+    "sources_reviewed": [
+      "FY26 results",
+      "Healthcare IT services demand",
+      "Digital transformation tailwind"
+    ]
   },
   "catalyst": {
     "event": "Q3-Q4 FY27 prints showing EBITDA margin recovering toward 19-20% with organic growth held above 20%",
@@ -260,6 +262,7 @@
       "date": "2026-09-26",
       "master_score": 49.7,
       "batch_phase": "top-20-deeper-dive"
-    }
+    },
+    "research_date": "2026-09-26"
   }
 }

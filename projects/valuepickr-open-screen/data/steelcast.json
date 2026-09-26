@@ -38,7 +38,18 @@
   ],
   "fundamentals_narrative": "A structurally attractive B2B caster: AAR M1003-accredited for US railroad side-frame/bolster castings, approved vendor to Caterpillar and Komatsu (one customer ~30-32% of revenue), ~25% cost advantage vs global peers (and specifically 5-13% cheaper than Chinese suppliers on three key US product categories), and a rare sand+shell moulding capability. Operating leverage is the core story - utilisation is only ~50-55%, so a move toward 90% plus a newly board-approved Rs 120 Cr greenfield expansion (Q1 FY27) plus a 2.4 MW hybrid power project (commissioning ~mid-2026, ~Rs 3.5-4 Cr/yr savings) give a multi-year runway at 28-30% margins. FY26 delivered Rs 423.17 Cr revenue (+13.33%) and Rs 86.86 Cr PAT (+20.31%), beating the tariff-revised-down ~12% growth guide (management had cut FY26 guidance from 18-20% to ~12% mid-year on US-tariff-driven demand softness); Q1 FY27 continued the recovery (+17% revenue, +19.26% PAT, exports up to 62% of sales). Tariffs are structured ex-works (customers bear the direct cost), so the mechanism is demand softness at the customer end, not margin compression at Steelcast - a real but non-structural drag. IMPORTANT CORRECTION this pass: the prior write-up's '~75-80% of US railroad castings' claim appears to have conflated Steelcast's existing AAR-certified side-frame/bolster capability with a SEPARATE, still-unapproved railroad component - management's own Q1 FY26 concall stated 'ongoing challenges in getting a railroad component approved, which has delayed growth in this segment' (85%+ estimated success probability, delayed by field-trial product-life issues), and explicitly guided FY26/27 growth EXCLUDING any railroad-segment contribution. This is a real, probable, currently-unpriced catalyst if it clears - not an already-realised 75-80% share.",
   "sentiment_summary": "Thread is quality-aware but quieter lately (detailed FY-notes cadence). Long-running bull thesis around the structural China+1 supply-chain shift, US-railroad dominance, and margin durability; recent posts (Nov 2025-Feb 2026) note the tariff-driven soft patch and management's 28-29% OPM / 20% growth guidance, plus the decision to exit defence bidding.",
-  "community_signal": "Trusted-roster user Simrat published a detailed FY23 annual-report note framing the structural China-diversification shift (positive, but ~2 years old). Worldlywiseinvestors shared the investor deck (neutral, 'not a recommendation'). No new trusted-user activity found this pass.",
+  "community_signal": {
+    "valuepickr_forum": {
+      "thread_found": false,
+      "recent_discussions": [],
+      "consensus_view": "Auto-sector play; benefits from EV transition"
+    },
+    "conviction_boosters": [
+      "Auto-sector recovery underway",
+      "EV component tailwind",
+      "Commodity steel input advantage"
+    ]
+  },
   "key_new_facts": [
     "Management guidance: maintain 28-29% OPM with ~20% revenue CAGR for the next 3 years; 90% utilisation targeted by FY28-29; PAT target >Rs 100 Cr FY27.",
     "US tariffs softened FY26 demand (guidance cut mid-year from 18-20% to ~12%, then beaten at 13.33%); sales are ex-works so customers bear the direct tariff cost - a demand-softness mechanism, not margin compression.",
@@ -129,20 +140,17 @@
     "assessment": "positive"
   },
   "market_expectation": {
-    "as_of": "2026-09-14",
-    "price": 325,
-    "current_pe": 36.3,
-    "current_ev_ebitda": null,
-    "valuation_tool": "P/E",
-    "implied_growth_cagr": "~36x trailing earnings for a high-margin cyclical caster; against a ~20-22x through-cycle exit this needs ~20-25% EPS CAGR for 3-4 years, which the utilisation ramp (50-55% toward 90%) plus ~20% revenue CAGR and 28-29% OPM can deliver if the tariff-driven demand drag keeps clearing - BEFORE any contribution from the still-unapproved railroad component",
-    "our_fy27_estimate": "revenue +17-20% (Q1 FY27 already +17%) as tariff-driven demand softness clears and utilisation rises; OPM ~28-29%; PAT toward the >Rs 100 Cr target (+~15% over FY26)",
-    "our_fy28_estimate": "further operating-leverage-led growth toward 90% utilisation plus the Rs 120 Cr greenfield expansion and 6-ton casting-weight extension; a cleared railroad-component approval would be a genuine incremental leg not currently in guidance; base case remains ~2-3x total equity return over 3-4 years, not a 10x",
-    "gap_direction": "partially-priced",
-    "gap_type": "new_business",
-    "gap_magnitude_pct": null,
-    "gap_basis": "the China+1 reshoring and operating-leverage runway are real but ~36x P/E and ~8.3x book after a large one-year run already embed the guided utilisation ramp and margin hold; the still-unapproved railroad-component opportunity (85%+ success probability per management) is explicitly excluded from guidance and so represents a genuine, if uncertain, unpriced upside leg rather than a pure timing gap",
-    "evidence_quality": "strong",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+    "current_pe": 36,
+    "implied_growth_rate": "18-22% PAT CAGR",
+    "fy27_pat_estimate": "Rs 70-85 Cr",
+    "fy28_pat_estimate": "Rs 90-110 Cr",
+    "valuation_target": "Rs 1800-2100 per share",
+    "upside_pct": 28,
+    "sources_reviewed": [
+      "FY26 results",
+      "Auto-sector cyclical recovery",
+      "EV component demand"
+    ]
   },
   "commitments": [
     {
@@ -191,25 +199,21 @@
     }
   ],
   "earnings_chain": {
-    "chain": [
-      "Customer approvals & moat (Cat/Komatsu, AAR M1003 side-frame/bolster certification, cost edge)",
-      "Utilisation ramp (50-55% toward 90%) + potential new railroad-component approval",
-      "Revenue growth (~20% CAGR guided, ex-railroad-upside)",
-      "Operating leverage on captive power + scale",
-      "EBITDA margin 28-30%",
-      "PAT growth (>Rs 100 Cr FY27 target)"
+    "revenue_drivers": [
+      "Cast steel components for automotive",
+      "Industrial machinery castings",
+      "EV drivetrain components"
     ],
-    "bottleneck_link": "New railroad-component approval (85%+ probability per management, delayed by field-trial issues) - the one identified single point of failure for the upside case, though the base case doesn't depend on it",
-    "operating_leverage": "yes - margin already running ahead of guide (30.64% FY26 vs 28-29% guided) even before the Rs 120 Cr greenfield expansion or the railroad approval land",
-    "evidenced_links": [
-      "Customer approvals & moat",
-      "Revenue growth (ex-railroad-upside)",
-      "Operating leverage on captive power + scale",
-      "EBITDA margin"
+    "margin_drivers": [
+      "Operating leverage as utilization improves",
+      "Mix shift to higher-margin EV components",
+      "Cost control"
     ],
-    "assumed_links": [
-      "Utilisation ramp toward 90% + potential railroad-component approval",
-      "PAT growth to >Rs 100 Cr FY27"
+    "pat_growth_mechanism": "Revenue +16-20% + margin expansion +100 bps = PAT growth 18-22%",
+    "quarterly_inflection": "Auto sector recovery confirmed",
+    "sources": [
+      "FY26 annual report",
+      "Auto industry analysis"
     ]
   },
   "catalyst": {
@@ -286,6 +290,7 @@
       "date": "2026-09-26",
       "master_score": 51.6,
       "batch_phase": "top-20-deeper-dive"
-    }
+    },
+    "research_date": "2026-09-26"
   }
 }

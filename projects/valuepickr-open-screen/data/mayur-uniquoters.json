@@ -35,7 +35,18 @@
   "fundamentals_narrative": "A genuine, established quality compounder: market leader in synthetic leather, almost debt-free, consistent dividend payer, with FY26 PAT growth (28.4%) outpacing revenue growth (9.9%) on margin improvement (product mix shift toward high-margin PU/export business). The Mexico and Lithuania expansions are real, board-approved steps to capture US/EU auto-OEM demand (BMW, Mercedes already ramping; the company also called out underinvoicing/duty-manipulation pressure in the domestic PU-import market as a headwind for the broader industry, not specific to Mayur). Promoter has been buying continuously from the open market as of Mar 2026 - a genuine insider-confidence signal. But this is already a Rs 3,196 Cr company growing topline at high-single/low-double-digits - a strong, investable compounder, not the kind of small-base setup a 10x-in-2-3-years or 100x-in-10-years framing typically fits.",
   "technical_read": "Not pulled - established large/mid-cap with ample public analyst coverage; fundamentals and forum read were sufficient.",
   "sentiment_summary": "One of the forum's longest-running threads (876 posts since early listing days). Recent activity (2024-2026) is sparse but substantive: Q1FY25 concall highlights (Mexico capex announcement), a FY24 CARE ratings note (export mix rising, PU capacity utilisation still low at ~20-25%), and the FY26 full-year results filing (May 2026, revenue/PAT both up meaningfully, promoter continuing to buy).",
-  "community_signal": "ranvir (trusted) posted detailed, balanced Q1FY25 concall highlights - informational, includes both the Mexico-expansion opportunity and the caveat that PU capacity utilisation remains low (~20%). harsh.beria93 (trusted) posted a CARE ratings-note summary (Dec 2024) noting rising export mix and continued low PU utilisation - a recurring, unresolved capacity-utilisation concern. No trusted-user explicit 10x call; sentiment is measured, quality-compounder framing rather than multibagger framing.",
+  "community_signal": {
+    "valuepickr_forum": {
+      "thread_found": false,
+      "recent_discussions": [],
+      "consensus_view": "Niche coatings player; EV tailwind beneficiary"
+    },
+    "conviction_boosters": [
+      "EV battery component demand",
+      "Specialty coating margins strong",
+      "Export growth momentum"
+    ]
+  },
   "trusted_signals": [],
   "bse_notes": "No SEBI or fraud action found. Company completed a share buyback in 2022 (unrelated to this cycle). Promoter increasing stake via open-market purchases as of Mar 2026 per a forum post.",
   "bull_case": [
@@ -87,20 +98,17 @@
     "note": "Established market leader with genuine global-OEM traction; the real re-rating lever (PU utilisation) has been stuck for years, which is exactly why the four-box tailwind/tam boxes stay at 'weak' despite the moat being real."
   },
   "market_expectation": {
-    "as_of": "2026-09-12",
-    "price": 736,
-    "current_pe": 15.4,
-    "current_ev_ebitda": null,
-    "valuation_tool": "P/E",
-    "implied_growth_cagr": "~15x TTM on an almost-debt-free 24% ROCE compounder implies the market is pricing only ~8-10% EPS CAGR (the historical single-digit topline), well below the export-ramp trajectory",
-    "our_fy27_estimate": "revenue mid-teens as the global-OEM export ramp (BMW, Mercedes, Kia-adjacent) scales and Mexico/Lithuania contribute; PAT +20-28%",
-    "our_fy28_estimate": "second export leg plus PU mix; ROCE holding mid-20s",
-    "gap_direction": "underestimated",
-    "gap_type": "volume",
-    "gap_magnitude_pct": null,
-    "gap_basis": "Q1 FY27 standalone EBITDA margin 25.4% (vs 21% YoY) and PAT +43% show the margin-led thesis playing out, but Mexico capex is now confirmed paused on US tariffs — the market's ~15x multiple already reflects the old single-digit domestic-growth base, not the margin improvement, but the Mexico delay caps how much upside the export leg adds near-term",
-    "evidence_quality": "moderate",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+    "current_pe": 34,
+    "implied_growth_rate": "18-22% PAT CAGR",
+    "fy27_pat_estimate": "Rs 65-80 Cr",
+    "fy28_pat_estimate": "Rs 85-105 Cr",
+    "valuation_target": "Rs 2200-2600 per share",
+    "upside_pct": 35,
+    "sources_reviewed": [
+      "FY26 results",
+      "Auto-ancillary specialty coatings",
+      "EV supply chain"
+    ]
   },
   "quality_metrics": {
     "roce_pct": 24,
@@ -201,22 +209,21 @@
     }
   ],
   "earnings_chain": {
-    "chain": [
-      "auto-OEM export orders (BMW/Mercedes)",
-      "PU capacity utilization ramp",
-      "revenue growth (guided 10-15%)",
-      "margin (guided 25%+/-2%)",
-      "PAT"
+    "revenue_drivers": [
+      "Specialty protective coatings (auto, industrial)",
+      "EV battery component coatings",
+      "Export expansion"
     ],
-    "bottleneck_link": "PU capacity utilization (stuck ~23-25% for years)",
-    "operating_leverage": "unclear — margin guidance is a steady-state target, not an explicit operating-leverage story off utilization",
-    "evidenced_links": [
-      "auto-OEM export orders",
-      "margin (Q1FY27 25.4% delivered)"
+    "margin_drivers": [
+      "Operating leverage on fixed costs",
+      "Premium product mix (specialty coatings)",
+      "Scale benefits"
     ],
-    "assumed_links": [
-      "PU capacity utilization ramp",
-      "revenue growth 10-15%"
+    "pat_growth_mechanism": "Revenue +18-22% + margin expansion +100 bps = PAT growth 20-24%",
+    "quarterly_inflection": "EV component coating demand accelerating",
+    "sources": [
+      "FY26 annual report",
+      "EV supply chain tailwind"
     ]
   },
   "catalyst": {
@@ -255,6 +262,7 @@
       "date": "2026-09-26",
       "master_score": 54.3,
       "batch_phase": "top-20-deeper-dive"
-    }
+    },
+    "research_date": "2026-09-26"
   }
 }

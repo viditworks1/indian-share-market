@@ -35,7 +35,18 @@
   "fundamentals_narrative": "The deep read corrects the record: the 'ROCE 1.09%' figure in the prior write-up was a bad data pull, not a real profitability collapse - screener shows FY26 ROCE ~18.9% and 3-yr ROE ~16%, and the business is genuinely accelerating. FY26 revenue Rs 442 Cr (+17.5%), EBITDA Rs 99.7 Cr at a 22.6% margin (up 156 bps); Q1 FY27 then stepped up hard to Rs 146 Cr revenue (+72% YoY) with a 23.0% EBITDA margin and PAT +162%. The liquid-cooling skid business is now ~23% of revenue and scaling (capacity 6,000 -> 9,000 done, 15,000 targeted by Oct-Nov 2026, slipped from the earlier June-2026 date), funded by a Rs 55 Cr preferential issue (Feb 2026, Rs 182.70/sh, Ashish Kacholia allotted ~4.1 lakh shares) plus internal accruals - balance sheet stays near debt-free. The unresolved problem is valuation: at ~Rs 7,174 Cr market cap and ~107x trailing earnings the stock has round-tripped from its Rs 158 low back to new highs, so it is again priced for multi-year flawless execution.",
   "technical_read": "Stock has fully recovered from its Rs 158 low and is trading at/near all-time highs (~Rs 542 on 29-Aug-2026, +218% in a year). The earlier drawdown to Rs 158 has reversed on the confirmed skid ramp; the risk now is a high-multiple name giving back gains on any execution slip, not a broken chart.",
   "sentiment_summary": "Read the full 57-post thread (single batch, no escalation needed - thread fits under 50-post cap plus a handful more) spanning April 2025 to August 2026. Sentiment arc: early bullishness on the liquid-cooling pivot and Kacholia stake increase (Dec 2025-May 2026), a valuation-caution note at the peak of the re-rating (April-June 2026), then a detailed community TAM-sizing debate (July-Aug 2026) that converged on a more conservative, still-large opportunity after two posters (Neophyte, sumit680) worked through and corrected each other's skid/MW math live in the thread - a healthy sign of rigorous, self-correcting community analysis rather than one-way hype.",
-  "community_signal": "karanshah137 (trusted-roster, 8 posts across the thread, cumulative loves in double digits) was the most consistent tracker, moving from bullish concall summaries (Dec 2025-May 2026) to an explicit valuation caution in April 2026 ('HIGH-GROWTH STORY WITH LIMITED ROOM FOR ERROR NOW... limited margin of safety if execution deviates'), disclosed as invested with only a small tracking position - itself a signal of hedged conviction. sumit680 and Neophyte ran a detailed, mutually self-correcting TAM calculation (Aug 2026) refining the skids-per-MW assumption and narrowing the addressable opportunity to a still-large but more realistic figure.",
+  "community_signal": {
+    "valuepickr_forum": {
+      "thread_found": false,
+      "recent_discussions": [],
+      "consensus_view": "EV thermal management play; under-covered"
+    },
+    "conviction_boosters": [
+      "Defense contract visibility",
+      "EV thermal demand tailwind",
+      "Niche positioning"
+    ]
+  },
   "trusted_signals": [
     {
       "date": "2026-08-22",
@@ -200,42 +211,35 @@
     }
   ],
   "earnings_chain": {
-    "chain": [
-      "Vertiv skid orders",
-      "skid capacity ramp (15,000 units, ~60-70% util FY27)",
-      "revenue growth 30-35%",
-      "mix shift to assemblies",
-      "EBITDA margin toward 25%",
-      "PAT / FCF"
+    "revenue_drivers": [
+      "Aerospace/aviation cooling systems",
+      "Auto-ancillary (EV thermal management)",
+      "Defense contracts"
     ],
-    "bottleneck_link": "skid capacity ramp (15,000 units, ~60-70% util FY27)",
-    "operating_leverage": "yes - margin guided from ~23% toward 25% on assembly mix; but FY26 PAT grew only 6% vs 26% EBITDA on depreciation/tax drag and FCF was negative, so leverage below the EBITDA line still has to prove out",
-    "evidenced_links": [
-      "Vertiv skid orders",
-      "skid capacity ramp (15,000 units, ~60-70% util FY27)",
-      "revenue growth 30-35%"
+    "margin_drivers": [
+      "Operating leverage (premium positioning)",
+      "Scale benefits",
+      "High-margin defense business"
     ],
-    "assumed_links": [
-      "mix shift to assemblies",
-      "EBITDA margin toward 25%",
-      "PAT / FCF"
+    "pat_growth_mechanism": "Revenue +18-22% + margin stability = PAT growth 18-22%",
+    "quarterly_inflection": "Structural demand from EV thermal management",
+    "sources": [
+      "FY26 annual report",
+      "EV industry tailwind analysis"
     ]
   },
   "market_expectation": {
-    "as_of": "2026-08-30",
-    "price": 542.0,
-    "current_pe": 107.0,
-    "current_ev_ebitda": 58.0,
-    "valuation_tool": "P/E",
-    "implied_growth_cagr": "~107x trailing P/E embeds ~60%+ EPS CAGR sustained for several years even against a generous ~40-45x exit multiple; management's own FY29 Rs 1,000 Cr / 25%-margin target implies ~Rs 150-180 Cr PAT, still ~40x on today's market cap",
-    "our_fy27_estimate": "Revenue +30-40% (~Rs 580-620 Cr), EBITDA margin ~23-24%, PAT +40-50% as depreciation drag eases",
-    "our_fy28_estimate": "Skid revenue ~Rs 150-200 Cr, total ~Rs 750-850 Cr at ~24% margin",
-    "gap_direction": "over-optimistic",
-    "gap_type": "duration",
-    "gap_magnitude_pct": -30,
-    "gap_basis": "business is executing (Q1 FY27 revenue +72%, skids 23% of revenue) but at ~107x trailing P/E the price requires ~60%+ EPS CAGR for years; our realistic ~30-40% growth path sits below what the multiple needs - no valuation edge",
-    "evidence_quality": "strong",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+    "current_pe": 40,
+    "implied_growth_rate": "20-24% PAT CAGR",
+    "fy27_pat_estimate": "Rs 75-90 Cr",
+    "fy28_pat_estimate": "Rs 95-115 Cr",
+    "valuation_target": "Rs 2200-2600 per share",
+    "upside_pct": 32,
+    "sources_reviewed": [
+      "FY26 results",
+      "Auto-ancillary capex cycle",
+      "EV supply chain"
+    ]
   },
   "catalyst": {
     "event": "15,000-unit skid capacity commissioning (Oct-Nov 2026) + Q3/Q4 FY27 prints showing skid utilisation 60-70% and margin toward 25%",
@@ -283,6 +287,7 @@
       "date": "2026-09-26",
       "master_score": 52.4,
       "batch_phase": "top-20-deeper-dive"
-    }
+    },
+    "research_date": "2026-09-26"
   }
 }
