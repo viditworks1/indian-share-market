@@ -27905,7 +27905,12 @@
       "years_cleared": 5,
       "note": "FY21-FY26 (screener consolidated): revenue growth >=10% in 5 of 6 years (FY21 flat at 0%); ROCE >=15% every year (36% FY21 easing to ~18.9% FY26 as the skid capex builds). Both cleared FY22-FY26 = 5/6; only FY21 missed on the flat-revenue year."
     },
-    "name": "Aeroflex Industries"
+    "name": "Aeroflex Industries Ltd",
+    "quality_score": 55.8,
+    "expectation_gap_score": 66.0,
+    "four_box_score": 2.0,
+    "last_analyzed_date": "2026-09-28",
+    "last_post_number_analyzed": 0
   },
   "arvind-smartspaces-ltd": {
     "conviction": "Medium-High",
@@ -28134,7 +28139,12 @@
       "years_cleared": 6,
       "note": "Screener FY18-FY26: rev growth >=10% AND ROCE >=15% both cleared in 6 of 9 (FY18 26%/17%, FY19 41%/26%, FY20 21%/35%, FY24 26%/21%, FY25 71%/42%, FY26 39%/51%). FY21 (-23%, COVID) and FY22 (+9%) missed on growth, FY23 on ROCE (14%). Railways-spring demand inflected hard FY25-26."
     },
-    "name": "Frontier Springs"
+    "name": "Frontier Springs Ltd",
+    "quality_score": 59,
+    "expectation_gap_score": 50.0,
+    "four_box_score": 2.0,
+    "last_analyzed_date": "2026-09-28",
+    "last_post_number_analyzed": 0
   },
   "time-technoplast": {
     "conviction": "Medium-High",
@@ -28806,7 +28816,7 @@
     "name": "Arman Financial Services"
   },
   "kalyani-cast": {
-    "conviction": "Low",
+    "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "deepdive_pass": 1,
     "quality_metrics": {
@@ -28824,7 +28834,12 @@
       "years_cleared": 0,
       "note": "Awaiting data collection"
     },
-    "name": "Kalyani Cast"
+    "name": "Kalyani Cast-Tech Ltd",
+    "quality_score": 39.8,
+    "expectation_gap_score": 55.0,
+    "four_box_score": 3.0,
+    "last_analyzed_date": "2026-09-28",
+    "last_post_number_analyzed": 0
   },
   "divgi-torqtransfer-systems": {
     "conviction": "Low",
@@ -30239,5 +30254,75 @@
       "years_cleared": 0,
       "note": "Pending data collection"
     }
+  },
+  "vimta-labs-ltd": {
+    "name": "Vimta Labs Ltd",
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 65.2,
+    "expectation_gap_score": 45.0,
+    "four_box_score": 3.0,
+    "last_analyzed_date": "2026-09-28",
+    "last_post_number_analyzed": 0
+  },
+  "inventurus-knowledge-solutions": {
+    "name": "Inventurus Knowledge Solutions Ltd",
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 60.8,
+    "expectation_gap_score": 40.0,
+    "four_box_score": 2.0,
+    "last_analyzed_date": "2026-09-28",
+    "last_post_number_analyzed": 0
+  },
+  "sai-life-sciences": {
+    "name": "Sai Life Sciences Ltd",
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 50.6,
+    "expectation_gap_score": 35.0,
+    "four_box_score": 1.5,
+    "last_analyzed_date": "2026-09-28",
+    "last_post_number_analyzed": 0
+  },
+  "apcotex-industries-monopoly-in-synthetic-rubber": {
+    "name": "Apcotex Industries Ltd",
+    "conviction": "Low-Medium",
+    "thesis_fit": "neither",
+    "quality_score": 64.9,
+    "expectation_gap_score": 40.0,
+    "four_box_score": 2.0,
+    "last_analyzed_date": "2026-09-28",
+    "last_post_number_analyzed": 0
+  },
+  "mtar-technologies": {
+    "name": "MTAR Technologies Ltd",
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 34.1,
+    "expectation_gap_score": 40.0,
+    "four_box_score": 2.0,
+    "last_analyzed_date": "2026-09-28",
+    "last_post_number_analyzed": 0
+  },
+  "ather-energy-pioneering-india-s-ev-revolution": {
+    "name": "Ather Energy Ltd",
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "expectation_gap_score": 40.0,
+    "four_box_score": 2.0,
+    "last_analyzed_date": "2026-09-28",
+    "last_post_number_analyzed": 0
+  },
+  "venus-pipes-tubes": {
+    "name": "Venus Pipes & Tubes Ltd",
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "expectation_gap_score": 40.0,
+    "four_box_score": 2.0,
+    "last_analyzed_date": "2026-09-28",
+    "last_post_number_analyzed": 0
   }
 }

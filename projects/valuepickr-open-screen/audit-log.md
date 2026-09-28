@@ -404,3 +404,24 @@ active_themes.json: as_of -> 2026-09-09, 29 -> 31 themes (construction-equipment
 - regen_lists: skip-list 590, revisit-list 12 due / 4 scheduled, conviction-followthrough 0 flagged.
 - max-returns ranking: 863 ranked, 92 flagged separately.
 - archive_analysis: nothing archived (all entries < 120 days old).
+
+### 2026-09-28
+- state hygiene: 281 issues found, 0 auto-fixed (no non-canonical status/revisit/floor/dedup violations this run — trust_tier sanity clean, no tier/screenedOut contradiction). 240 stocks still missing `last_post_number_analyzed` entirely (vpscreen-scan falls back to first-time-read, no functional harm).
+- conviction scores: refreshed via `refresh_derived.py --scores`.
+- recency: 95 stale calls flagged (not superseded) of 273 scanned, 12 already superseded — stable vs 09-26 (no audit ran 09-27).
+- permissions: 0 redundant rules removed (175 total, 15 wildcard).
+- structural: `screen-ranking.json` changed since last check (touched by the 09-26 data-fixes commit) → re-ran `make_final_ranking.js`.
+- screen dimensions: primary_screen_reason — unclassified=293, size=142, long_term_fundamentals=73, governance=47, thesis=33, no_thread=25, technicals=17, recent_fundamentals=14, valuation=9. 0 MIS-SCREEN flagged. unclassified count stable, vpscreen-rerank still not authoring blocks at scale — flagged before, still true.
+- four-box: **37 mismatches flagged (36 overstated, 1 understated) — root-caused to a data-corruption bug, not 36 individual bad calls.** All 36 "overstated" entries share one exact signature: `last_analyzed_date: null` and no `note` field in `four_box`, and score exactly 0.0 (all-"no") or 1.5 (weak/weak/no/weak) — e.g. trent, danish-power, canara-robeco-amc, vst-industries, beta-drugs, tanla-platforms, and 30 others. Traced via git blame to commit `c2652fb` (2026-09-26, "standardize four_box enums") which mechanically remapped `"unknown"→"no"` and other non-enum placeholders (mixed/moderate/fair→"weak") **instead of leaving them unscored**, turning honest "not yet assessed" (`score: null`) into false-confident negative boxes. Their `thesis_fit` values (10x-in-2-3-years / 100x-in-10-years) predate that commit and reflect real earlier research (e.g. Trent has a genuine sujay85/Investor_No_1 trusted-thread call, `four_box` in the OLD state.json format shows 2.5, not 0.0). **Did NOT mass-edit thesis_fit → neither for these 36** — that would compound the corruption by discarding real conviction based on fabricated box data. Flagging for the user: these 36 stocks' `four_box` blocks in `data/<slug>.json` need re-derivation from real analysis (or reversion to null-score/unscored), not a blind enum fix. The 1 understated case (engineers-india, score 3.5 / neither) WAS fixed — added `four_box.analyst_override=true` with the large-cap-ceiling rationale already on record in analysis.md (2026-09-16 deep-dive) but never flagged on the data file. Coverage: 793 have a block / 20 missing (stable). 33 pre-existing analyst_override suppressions (unaffected).
+- trusted-thread backlog: clean. Prior URGENT (hitachi-energy) now researched (last_analyzed_date 2026-09-26) — backlog cleared.
+- rate-limit compliance: clean. 3 `forum.valuepickr.com` curl rules, 0 unpaced.
+- cross-project duplicates: checked 5 top recent (danish-power, canara-robeco-amc, brand-concept, laxmi-organics, au-small-finance-bank) against legacy-108-screen. Clean.
+- trusted users: 0 promoted, 0 thread upgrades. 2 own-thread searches attempted (karanshah137, Satishwe — both oldest-pending at promoted_date 2026-08-22): neither qualifies (no dedicated own thread ≥20 replies found). Roster at 319, 7/319 with own_thread_topic_id.
+- analysis.md: 970 KB, nothing archived (oldest entry 2026-05-31, still <120 days).
+- registry size: 970 total candidates, 955 researched.
+- x-handles: triage 103/103 · SCOPE COMPLETE (task deleted 09-17) · orphans clean (103 dossiers, all matched) · registry JSON OK.
+- four-box-backfill: backlog 20 remaining. SCOPE COMPLETE 2026-09-05, task already retired.
+- routine token-opt: grep pass over all 12 live SKILL.md files (per current `list_scheduled_tasks`) for the standard narrative markers ("2026-09-0X token pass", "An audit found…", "Historical note…") — none found outside already-retired files (x-handle-triage, four-box-backfill, guidance-backfill, technical-daily-refresh — all off the live schedule, out of Step 8.7 scope). Clean — nothing safe to cut.
+- regen_lists: skip-list 530 (down from 590 on 09-26 — consistent with 955 now researched vs 843, i.e. more screened-out names graduated to researched status), revisit-list 13 due / 3 scheduled, conviction-followthrough 0 flagged.
+- max-returns ranking: 863 ranked, 92 flagged separately (of 955 researched).
+- archive_analysis: nothing archived (all entries < 120 days old).
