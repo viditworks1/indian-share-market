@@ -6,62 +6,6 @@
   "asymmetry_score_coverage": 258,
   "ranked": [
     {
-      "slug": "venus-remedies",
-      "name": "Venus Remedies",
-      "master_score": 76.6,
-      "red_flag_tier": null,
-      "conviction": "High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 1,
-        "note": "FY22-FY26 (screener consolidated): ROCE stuck at 8-11% through FY25, reaching 22% only in FY26 on the R&D-licensing/margin inflection (OPM 10% -> 19%); revenue grew >=10% only in FY26 (+20%). 1 of 5 years cleared both -- the decade record is weak and FY26 is the first strong year, not yet a pattern."
-      },
-      "score_breakdown": {
-        "conviction_score": 91.37,
-        "quality_score": 96.0,
-        "expectation_gap_score": 70.02,
-        "consistency_score": 20,
-        "asymmetry_score": 85.01,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "thyrocare-debt-free-asset-light-healthcare-play",
-      "name": "Thyrocare : Debt free Asset Light Healthcare Play",
-      "master_score": 75.35,
-      "red_flag_tier": null,
-      "conviction": "High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 11,
-        "years_cleared": 8,
-        "note": "FY16-FY26 (screener consolidated): ROCE >=15% in every year (17-42%; dip to 17-18% FY22-23 around the Reliance-era acquisition, back to 35%+). Revenue growth >=10% in 8 of 11 (missed FY20 +8%, FY23 -11% on the COVID base, FY24 +9%). Both cleared 8 of 11 years; FY25 and FY26 both ~+20%."
-      },
-      "score_breakdown": {
-        "conviction_score": 75.0,
-        "quality_score": 95.0,
-        "expectation_gap_score": 55.09,
-        "consistency_score": 73,
-        "asymmetry_score": 72.55,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "p-e-analytics",
       "name": "P.E. Analytics Ltd (PROPEQUITY)",
       "master_score": 69.52,
@@ -79,34 +23,6 @@
         "expectation_gap_score": 58.95,
         "consistency_score": 67,
         "asymmetry_score": 74.47,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "dynamic-cables",
-      "name": "Dynamic Cables",
-      "master_score": 67.55,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 5,
-        "note": "FY22-FY26 (screener DYCL + equitymaster/FY reports; screener 10y table was login-gated this pass): ROCE >=23% every year (23.8% FY22 rising to ~26.8% FY26; some sources show a FY24 spike to ~32%). Revenue grew every year 15-33% (FY23 +15%, FY24 +15%, FY25 +33%, FY26 +17%; FY22 ~+19%). Both metrics cleared 5 of 5; margins thin (OPM 9%->11%) but stable through metal-price volatility."
-      },
-      "score_breakdown": {
-        "conviction_score": 60.18,
-        "quality_score": 67.0,
-        "expectation_gap_score": 64.57,
-        "consistency_score": 100,
-        "asymmetry_score": 52.28,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -146,191 +62,23 @@
       }
     },
     {
-      "slug": "macpower-cnc-machines-manufacturing-a-strong-growth",
-      "name": "Macpower CNC Machines: Manufacturing a Strong Growth?",
-      "master_score": 65.07,
+      "slug": "thyrocare-debt-free-asset-light-healthcare-play",
+      "name": "Thyrocare : Debt free Asset Light Healthcare Play",
+      "master_score": 61.08,
       "red_flag_tier": null,
       "conviction": "High",
       "thesis_fit": "10x-in-2-3-years",
       "track_record": {
-        "years_checked": 9,
-        "years_cleared": 5,
-        "note": "FY18-FY26 (screener standalone): revenue growth >=10% in 6 of 9 years (dips FY20 COVID -41%, FY23 +6%, FY25 +9%); ROCE >=15% in 7 of 9 (FY20-21 trough at 6-10%). Both cleared FY18, FY19, FY22, FY24, FY26 = 5/9; recent trend strong with ROCE 27-29% FY24-FY26."
-      },
-      "score_breakdown": {
-        "conviction_score": 80.75,
-        "quality_score": 89.0,
-        "expectation_gap_score": 30.47,
-        "consistency_score": 56,
-        "asymmetry_score": 54.23,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "adf-food-ltd",
-      "name": "ADF FOOD LTD",
-      "master_score": 62.64,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "track_record": {
         "years_checked": 11,
-        "years_cleared": 7,
-        "note": "FY16-FY26 (screener consolidated): flat-to-declining FY16-FY18 (ROCE 7-14%, ~no growth), then a clean run -- ROCE 17-28% and revenue +14-30% every year FY19-FY26 except FY23 (+7%). Both metrics cleared 7 of 11 (FY19, FY20, FY21, FY22, FY24, FY25, FY26); consistent ~37% dividend payout."
+        "years_cleared": 8,
+        "note": "FY16-FY26 (screener consolidated): ROCE >=15% in every year (17-42%; dip to 17-18% FY22-23 around the Reliance-era acquisition, back to 35%+). Revenue growth >=10% in 8 of 11 (missed FY20 +8%, FY23 -11% on the COVID base, FY24 +9%). Both cleared 8 of 11 years; FY25 and FY26 both ~+20%."
       },
       "score_breakdown": {
-        "conviction_score": 51.9,
-        "quality_score": 63.0,
-        "expectation_gap_score": 73.7,
-        "consistency_score": 64,
-        "asymmetry_score": 63.85,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "valiant-communications",
-      "name": "Valiant Communications Limited",
-      "master_score": 62.41,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 3,
-        "note": "FY24-FY26: revenue growth cleared >=10% in every year (FY26 +67%, FY25 ~25-30%, FY24 mid-20s%) and ROCE was well above 15% each year (FY26 ~40%, prior two years also 20%+ on a small equity base). All three verifiable years pass the combined revenue-growth-AND-ROCE test. FY26 profit was boosted by a large one-order mix, so the pass is real but flattered."
-      },
-      "score_breakdown": {
-        "conviction_score": 54.09,
-        "quality_score": 89.0,
-        "expectation_gap_score": 21.03,
-        "consistency_score": 100,
-        "asymmetry_score": 49.52,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "matrimony-com",
-      "name": "Matrimony.com Ltd",
-      "master_score": 62.39,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 1,
-        "note": "Over FY22-FY26, only one year plausibly cleared BOTH revenue growth >=10% AND ROCE >=15% - the 5-yr revenue CAGR is ~4% and OPM was compressed by the ad-spend war for most of the window. ROCE mostly sat in the mid-teens. This is a monopoly with a poor growth record, now inflecting; the consistency score should be low."
-      },
-      "score_breakdown": {
-        "conviction_score": 60.25,
-        "quality_score": 87.0,
-        "expectation_gap_score": 57.57,
-        "consistency_score": 20,
-        "asymmetry_score": 73.78,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "vinati-organics",
-      "name": "Vinati Organics Ltd",
-      "master_score": 61.22,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 6,
-        "years_cleared": 3,
-        "note": "FY21-FY26 (screener consolidated): ROCE consistently high (19-28%; ~17% latest) but revenue is cyclical on ATBS/IBB pricing -- grew >=10% only FY22 (+69%), FY23 (+28%) and FY25 (+18%); FY21, FY24, FY26 flat-to-down. Both cleared 3 of 6 years -- quality high, top-line lumpy."
-      },
-      "score_breakdown": {
-        "conviction_score": 62.46,
-        "quality_score": 76.0,
-        "expectation_gap_score": 44.94,
-        "consistency_score": 50,
-        "asymmetry_score": 67.47,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "sjs-enterprises",
-      "name": "SJS Enterprises Ltd",
-      "master_score": 60.9,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 3,
-        "note": "FY24, FY25, FY26 each cleared both bars: revenue growth >=10% (FY26 +25.6%, prior years high-teens+) and ROCE >=15% (ran ~20-22% throughout). Consistent compounder profile."
-      },
-      "score_breakdown": {
-        "conviction_score": 56.71,
-        "quality_score": 81.0,
-        "expectation_gap_score": 20.46,
-        "consistency_score": 100,
-        "asymmetry_score": 49.23,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "time-technoplast",
-      "name": "Time Technoplast",
-      "master_score": 60.63,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 2,
-        "note": "FY22-FY26 verifiable. Roughly FY25 and FY26 cleared both revenue growth >=10% and ROCE >=15% in the same year; FY21-FY23 had sub-10% revenue growth (COVID-affected demand) despite ROCE near 15%. Consistent with the weak trailing 5-yr revenue CAGR of 4.46% and a genuine recent inflection."
-      },
-      "score_breakdown": {
-        "conviction_score": 70.37,
-        "quality_score": 71.0,
-        "expectation_gap_score": 51.59,
-        "consistency_score": 40,
-        "asymmetry_score": 59.8,
+        "conviction_score": 73.75,
+        "quality_score": 95.0,
+        "expectation_gap_score": 4.32,
+        "consistency_score": 73,
+        "asymmetry_score": 47.16,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -370,78 +118,23 @@
       }
     },
     {
-      "slug": "engineers-india",
-      "name": "Engineers India (EIL)",
-      "master_score": 59.57,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 56.25,
-        "quality_score": 87.0,
-        "expectation_gap_score": 29.36,
-        "consistency_score": null,
-        "asymmetry_score": 59.68,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
-      "slug": "aries-agro",
-      "name": "Aries Agro Ltd",
-      "master_score": 58.41,
+      "slug": "valiant-communications",
+      "name": "Valiant Communications Limited",
+      "master_score": 57.79,
       "red_flag_tier": null,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 2,
-        "note": "Of FY22-FY26 (verifiable from recent filings): FY25 and FY26 clear the bar of BOTH revenue growth >=10% AND ROCE >=15% in the same year (FY26 revenue +18.9%, ROCE ~21%; FY25 similar). FY22-FY24 fail on ROCE (3-yr avg ROE only ~11.4%, ROCE below ~15% in the earlier years) and/or patchy growth \u2014 consistent with the 2019 forum critique of a decade of near-flat PAT. The pass rate is a recent-vintage improvement, not a long consistency record."
-      },
-      "score_breakdown": {
-        "conviction_score": 48.0,
-        "quality_score": 74.0,
-        "expectation_gap_score": 64.95,
-        "consistency_score": 40,
-        "asymmetry_score": 59.48,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "marksans-pharma",
-      "name": "Marksans Pharma",
-      "master_score": 58.35,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
       "track_record": {
         "years_checked": 3,
         "years_cleared": 3,
-        "note": "FY24 (+17.5% growth, ROCE 21%), FY25 (+20.5%, ROCE 20%) and FY26 (+12.5%, ROCE 19%) each cleared BOTH >=10% revenue growth AND >=15% ROCE - a clean, genuine Coffee-Can pass across every checkable year."
+        "note": "FY24-FY26: revenue growth cleared >=10% in every year (FY26 +67%, FY25 ~25-30%, FY24 mid-20s%) and ROCE was well above 15% each year (FY26 ~40%, prior two years also 20%+ on a small equity base). All three verifiable years pass the combined revenue-growth-AND-ROCE test. FY26 profit was boosted by a large one-order mix, so the pass is real but flattered."
       },
       "score_breakdown": {
-        "conviction_score": 52.75,
-        "quality_score": 73.0,
-        "expectation_gap_score": 24.79,
+        "conviction_score": 54.09,
+        "quality_score": 89.0,
+        "expectation_gap_score": 4.23,
         "consistency_score": 100,
-        "asymmetry_score": 46.39,
+        "asymmetry_score": 41.12,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -453,23 +146,23 @@
       }
     },
     {
-      "slug": "univastu-india",
-      "name": "Univastu India",
-      "master_score": 58.14,
+      "slug": "sjs-enterprises",
+      "name": "SJS Enterprises Ltd",
+      "master_score": 56.33,
       "red_flag_tier": null,
-      "conviction": "Medium",
+      "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
       "track_record": {
-        "years_checked": 10,
-        "years_cleared": 8,
-        "note": "FY17, FY18, FY19, FY22, FY23, FY24, FY25 and FY26 each cleared BOTH >=10% revenue growth AND >=15% ROCE (only FY20 and FY21 - COVID-disrupted years - did not); FY26 (confirmed this pass: +42% growth, ROCE 30%) extends the streak. An exceptionally strong Coffee-Can record for a small-cap."
+        "years_checked": 3,
+        "years_cleared": 3,
+        "note": "FY24, FY25, FY26 each cleared both bars: revenue growth >=10% (FY26 +25.6%, prior years high-teens+) and ROCE >=15% (ran ~20-22% throughout). Consistent compounder profile."
       },
       "score_breakdown": {
-        "conviction_score": 48.5,
-        "quality_score": 52.0,
-        "expectation_gap_score": 64.4,
-        "consistency_score": 80,
-        "asymmetry_score": 54.2,
+        "conviction_score": 56.71,
+        "quality_score": 81.0,
+        "expectation_gap_score": 3.82,
+        "consistency_score": 100,
+        "asymmetry_score": 40.91,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -565,6 +258,34 @@
       }
     },
     {
+      "slug": "cummins-india",
+      "name": "Cummins India Ltd",
+      "master_score": 55.5,
+      "red_flag_tier": null,
+      "conviction": "High",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 8,
+        "years_cleared": 6,
+        "note": "Screener 10y table FY19-FY26: both rev growth >=10% AND ROCE >=15% cleared in 6 of 8 years. Only FY20 (-8.9%) and FY21 (-16.0%) failed, on the covid revenue contraction; ROCE was 17-21% even then and has since risen to 40%."
+      },
+      "score_breakdown": {
+        "conviction_score": 55.0,
+        "quality_score": 95.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 75,
+        "asymmetry_score": 45.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "force-motors",
       "name": "Force Motors Ltd",
       "master_score": 55.32,
@@ -593,23 +314,23 @@
       }
     },
     {
-      "slug": "ksh-international-ltd",
-      "name": "KSH International Ltd",
-      "master_score": 54.62,
+      "slug": "vinati-organics",
+      "name": "Vinati Organics Ltd",
+      "master_score": 54.72,
       "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
+      "conviction": "Low",
+      "thesis_fit": "neither",
       "track_record": {
-        "years_checked": 3,
+        "years_checked": 6,
         "years_cleared": 3,
-        "note": "FY24-FY26 verifiable from the RHP/filings: revenue growth was well above 10% each year (5-yr CAGR ~47%) and ROCE ~20-21% each year - all three cleared. Public listing only since Dec 2025, so this is a pre-IPO record not yet tested under sustained public scrutiny."
+        "note": "FY21-FY26 (screener consolidated): ROCE consistently high (19-28%; ~17% latest) but revenue is cyclical on ATBS/IBB pricing -- grew >=10% only FY22 (+69%), FY23 (+28%) and FY25 (+18%); FY21, FY24, FY26 flat-to-down. Both cleared 3 of 6 years -- quality high, top-line lumpy."
       },
       "score_breakdown": {
-        "conviction_score": 46.31,
-        "quality_score": 71.0,
-        "expectation_gap_score": 23.78,
-        "consistency_score": 100,
-        "asymmetry_score": 36.89,
+        "conviction_score": 36.46,
+        "quality_score": 76.0,
+        "expectation_gap_score": 44.94,
+        "consistency_score": 50,
+        "asymmetry_score": 67.47,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -638,90 +359,6 @@
         "expectation_gap_score": 43.65,
         "consistency_score": 73,
         "asymmetry_score": 41.83,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "mayur-uniquoters",
-      "name": "Mayur Uniquoters Ltd",
-      "master_score": 54.26,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 4,
-        "years_cleared": 2,
-        "note": "Of FY22-FY25 (both metrics verifiable), FY22 (+27.9%/17%) and FY23 (+18.3%/19%) cleared both; FY24 (+3.5%) and FY25 (+9.6%) missed on revenue growth despite ROCE of 22-24%. The export ramp is lifting TTM growth to ~16% but not yet across a full fiscal year."
-      },
-      "score_breakdown": {
-        "conviction_score": 44.0,
-        "quality_score": 78.0,
-        "expectation_gap_score": 41.68,
-        "consistency_score": 50,
-        "asymmetry_score": 52.84,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "ajanta-pharma",
-      "name": "Ajanta Pharma Ltd",
-      "master_score": 53.88,
-      "red_flag_tier": null,
-      "conviction": "High",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 10,
-        "years_cleared": 8,
-        "note": "FY17-FY26 screener consolidated. Revenue growth >=10% AND ROCE >=15% in the same FY passed in FY17, FY20, FY21, FY22, FY23, FY24, FY25, FY26 (ROCE 23-52% throughout, growth 10-26%). Missed only FY18 (rev +7%) and FY19 (rev -3.5%). ROCE never below 23% in the window."
-      },
-      "score_breakdown": {
-        "conviction_score": 59.21,
-        "quality_score": 79.0,
-        "expectation_gap_score": 5.38,
-        "consistency_score": 80,
-        "asymmetry_score": 41.69,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "cummins-india",
-      "name": "Cummins India Ltd",
-      "master_score": 53.75,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 8,
-        "years_cleared": 6,
-        "note": "Screener 10y table FY19-FY26: both rev growth >=10% AND ROCE >=15% cleared in 6 of 8 years. Only FY20 (-8.9%) and FY21 (-16.0%) failed, on the covid revenue contraction; ROCE was 17-21% even then and has since risen to 40%."
-      },
-      "score_breakdown": {
-        "conviction_score": 48.0,
-        "quality_score": 95.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 75,
-        "asymmetry_score": 45.0,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -816,23 +453,23 @@
       }
     },
     {
-      "slug": "kmc-speciality-hospital",
-      "name": "KMC Speciality hospital",
-      "master_score": 53.2,
+      "slug": "ajanta-pharma",
+      "name": "Ajanta Pharma Ltd",
+      "master_score": 53.21,
       "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
+      "conviction": "High",
+      "thesis_fit": "neither",
       "track_record": {
-        "years_checked": 11,
-        "years_cleared": 10,
-        "note": "FY16-FY26 (screener): ROCE >=15% in every year (17-35%); revenue growth >=10% in 10 of 11 (only FY21 +7% during COVID). Both metrics cleared 10 of 11 -- a rare clean multi-year hospital compounding record; FY25 and FY26 both ~+31%."
+        "years_checked": 10,
+        "years_cleared": 8,
+        "note": "FY17-FY26 screener consolidated. Revenue growth >=10% AND ROCE >=15% in the same FY passed in FY17, FY20, FY21, FY22, FY23, FY24, FY25, FY26 (ROCE 23-52% throughout, growth 10-26%). Missed only FY18 (rev +7%) and FY19 (rev -3.5%). ROCE never below 23% in the window."
       },
       "score_breakdown": {
-        "conviction_score": 57.0,
-        "quality_score": 78.0,
-        "expectation_gap_score": 6.38,
-        "consistency_score": 91,
-        "asymmetry_score": 30.19,
+        "conviction_score": 59.21,
+        "quality_score": 79.0,
+        "expectation_gap_score": 2.92,
+        "consistency_score": 80,
+        "asymmetry_score": 40.46,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -844,23 +481,79 @@
       }
     },
     {
-      "slug": "aeroflex-industries",
-      "name": "Aeroflex Industries Ltd",
-      "master_score": 52.36,
+      "slug": "marksans-pharma",
+      "name": "Marksans Pharma",
+      "master_score": 52.73,
       "red_flag_tier": null,
-      "conviction": "High",
-      "thesis_fit": "10x-in-2-3-years",
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
       "track_record": {
-        "years_checked": 6,
-        "years_cleared": 5,
-        "note": "FY21-FY26 (screener consolidated): revenue growth >=10% in 5 of 6 years (FY21 flat at 0%); ROCE >=15% every year (36% FY21 easing to ~18.9% FY26 as the skid capex builds). Both cleared FY22-FY26 = 5/6; only FY21 missed on the flat-revenue year."
+        "years_checked": 3,
+        "years_cleared": 3,
+        "note": "FY24 (+17.5% growth, ROCE 21%), FY25 (+20.5%, ROCE 20%) and FY26 (+12.5%, ROCE 19%) each cleared BOTH >=10% revenue growth AND >=15% ROCE - a clean, genuine Coffee-Can pass across every checkable year."
       },
       "score_breakdown": {
-        "conviction_score": 84.62,
-        "quality_score": 63.0,
+        "conviction_score": 52.75,
+        "quality_score": 73.0,
+        "expectation_gap_score": 4.32,
+        "consistency_score": 100,
+        "asymmetry_score": 36.16,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "acutaas-chemicals",
+      "name": "Acutaas Chemicals Ltd (Erst. Ami Organics Ltd)",
+      "master_score": 52.66,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 9,
+        "years_cleared": 8,
+        "note": "Screener 10y table FY18-FY26: both rev growth >=10% AND ROCE >=15% cleared in 8 of 9 years; only FY20 failed (0.4% revenue growth). ROCE range 16-34% every year, revenue growth double-digit every year except FY20."
+      },
+      "score_breakdown": {
+        "conviction_score": 67.22,
+        "quality_score": 75.0,
         "expectation_gap_score": 0,
-        "consistency_score": 83,
-        "asymmetry_score": 20.0,
+        "consistency_score": 89,
+        "asymmetry_score": 25.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "kmc-speciality-hospital",
+      "name": "KMC Speciality hospital",
+      "master_score": 52.53,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 11,
+        "years_cleared": 10,
+        "note": "FY16-FY26 (screener): ROCE >=15% in every year (17-35%); revenue growth >=10% in 10 of 11 (only FY21 +7% during COVID). Both metrics cleared 10 of 11 -- a rare clean multi-year hospital compounding record; FY25 and FY26 both ~+31%."
+      },
+      "score_breakdown": {
+        "conviction_score": 57.0,
+        "quality_score": 78.0,
+        "expectation_gap_score": 3.93,
+        "consistency_score": 91,
+        "asymmetry_score": 28.96,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -928,23 +621,50 @@
       }
     },
     {
-      "slug": "steelcast",
-      "name": "Steelcast Ltd",
-      "master_score": 51.59,
+      "slug": "engineers-india",
+      "name": "Engineers India (EIL)",
+      "master_score": 51.39,
       "red_flag_tier": null,
       "conviction": "Medium-High",
       "thesis_fit": "neither",
       "track_record": {
-        "years_checked": 11,
-        "years_cleared": 5,
-        "note": "Per screener.in (FY16-FY26): FY18-19, FY22-23 and FY26 cleared both >=10% revenue growth and >=15% ROCE. Cyclical end-markets (mining/railroad/earth-moving) produced revenue declines in FY20-21 and FY24-25 even though ROCE stayed 30-40% (structural margin, captive power). A high-margin cyclical, not a steady compounder."
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
       },
       "score_breakdown": {
-        "conviction_score": 51.67,
-        "quality_score": 72.0,
-        "expectation_gap_score": 33.16,
-        "consistency_score": 45,
-        "asymmetry_score": 48.58,
+        "conviction_score": 56.25,
+        "quality_score": 87.0,
+        "expectation_gap_score": 4.08,
+        "consistency_score": null,
+        "asymmetry_score": 47.04,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "dynamic-cables",
+      "name": "Dynamic Cables",
+      "master_score": 51.06,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 5,
+        "note": "FY22-FY26 (screener DYCL + equitymaster/FY reports; screener 10y table was login-gated this pass): ROCE >=23% every year (23.8% FY22 rising to ~26.8% FY26; some sources show a FY24 spike to ~32%). Revenue grew every year 15-33% (FY23 +15%, FY24 +15%, FY25 +33%, FY26 +17%; FY22 ~+19%). Both metrics cleared 5 of 5; margins thin (OPM 9%->11%) but stable through metal-price volatility."
+      },
+      "score_breakdown": {
+        "conviction_score": 60.18,
+        "quality_score": 67.0,
+        "expectation_gap_score": 4.6,
+        "consistency_score": 100,
+        "asymmetry_score": 22.3,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -1012,23 +732,23 @@
       }
     },
     {
-      "slug": "indegene-ltd",
-      "name": "Indegene Ltd",
-      "master_score": 49.72,
+      "slug": "time-technoplast",
+      "name": "Time Technoplast",
+      "master_score": 50.38,
       "red_flag_tier": null,
-      "conviction": "Medium",
+      "conviction": "Low",
       "thesis_fit": "neither",
       "track_record": {
-        "years_checked": 4,
-        "years_cleared": 3,
-        "note": "FY23-FY26 verifiable from the same filings. FY23 (+33% revenue), FY24 (+12.3%) and FY26 (+23.6%) each combined >=10% revenue growth with ROCE ~18-20% -> pass. FY25 revenue grew only ~9.6% (ROCE fine) -> misses the 10% bar. 3 of 4 years cleared both hurdles."
+        "years_checked": 5,
+        "years_cleared": 2,
+        "note": "FY22-FY26 verifiable. Roughly FY25 and FY26 cleared both revenue growth >=10% and ROCE >=15% in the same year; FY21-FY23 had sub-10% revenue growth (COVID-affected demand) despite ROCE near 15%. Consistent with the weak trailing 5-yr revenue CAGR of 4.46% and a genuine recent inflection."
       },
       "score_breakdown": {
-        "conviction_score": 44.4,
-        "quality_score": 73.0,
-        "expectation_gap_score": 5.89,
-        "consistency_score": 75,
-        "asymmetry_score": 52.95,
+        "conviction_score": 29.37,
+        "quality_score": 71.0,
+        "expectation_gap_score": 51.59,
+        "consistency_score": 40,
+        "asymmetry_score": 59.8,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -1040,23 +760,51 @@
       }
     },
     {
-      "slug": "hbl-engineering-booting",
-      "name": "HBL Engineering: Booting-up for the Race of the Century",
-      "master_score": 49.04,
+      "slug": "ksh-international-ltd",
+      "name": "KSH International Ltd",
+      "master_score": 49.24,
       "red_flag_tier": null,
-      "conviction": "Medium-High",
+      "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
       "track_record": {
-        "years_checked": 11,
-        "years_cleared": 2,
-        "note": "FY16-FY26 (screener consolidated): a low-return battery/defence company until FY24 -- ROCE 4-14% and revenue shrinking FY19-FY21. The Kavach (train collision-avoidance) / DFCCIL order ramp lifted ROCE to 36% (FY24) and 58% (FY26). Both metrics cleared only FY24 and FY26 (FY25 revenue dipped -12% on order timing) = 2 of 11; the last three years are the real story."
+        "years_checked": 3,
+        "years_cleared": 3,
+        "note": "FY24-FY26 verifiable from the RHP/filings: revenue growth was well above 10% each year (5-yr CAGR ~47%) and ROCE ~20-21% each year - all three cleared. Public listing only since Dec 2025, so this is a pre-IPO record not yet tested under sustained public scrutiny."
       },
       "score_breakdown": {
-        "conviction_score": 65.75,
-        "quality_score": 69.0,
-        "expectation_gap_score": 24.19,
-        "consistency_score": 18,
-        "asymmetry_score": 52.09,
+        "conviction_score": 46.31,
+        "quality_score": 71.0,
+        "expectation_gap_score": 4.23,
+        "consistency_score": 100,
+        "asymmetry_score": 27.12,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "indegene-ltd",
+      "name": "Indegene Ltd",
+      "master_score": 49.05,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 4,
+        "years_cleared": 3,
+        "note": "FY23-FY26 verifiable from the same filings. FY23 (+33% revenue), FY24 (+12.3%) and FY26 (+23.6%) each combined >=10% revenue growth with ROCE ~18-20% -> pass. FY25 revenue grew only ~9.6% (ROCE fine) -> misses the 10% bar. 3 of 4 years cleared both hurdles."
+      },
+      "score_breakdown": {
+        "conviction_score": 44.4,
+        "quality_score": 73.0,
+        "expectation_gap_score": 3.45,
+        "consistency_score": 75,
+        "asymmetry_score": 51.73,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -1152,19 +900,103 @@
       }
     },
     {
-      "slug": "3b-blackbio-dx",
-      "name": "3B Blackbio DX Ltd",
-      "master_score": 47.15,
+      "slug": "aeroflex-industries",
+      "name": "Aeroflex Industries Ltd",
+      "master_score": 48.41,
       "red_flag_tier": null,
       "conviction": "Medium",
-      "thesis_fit": "100x-in-10-years",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 6,
+        "years_cleared": 5,
+        "note": "FY21-FY26 (screener consolidated): revenue growth >=10% in 5 of 6 years (FY21 flat at 0%); ROCE >=15% every year (36% FY21 easing to ~18.9% FY26 as the skid capex builds). Both cleared FY22-FY26 = 5/6; only FY21 missed on the flat-revenue year."
+      },
+      "score_breakdown": {
+        "conviction_score": 62.82,
+        "quality_score": 63.0,
+        "expectation_gap_score": 5.48,
+        "consistency_score": 83,
+        "asymmetry_score": 22.74,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "matrimony-com",
+      "name": "Matrimony.com Ltd",
+      "master_score": 48.15,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 1,
+        "note": "Over FY22-FY26, only one year plausibly cleared BOTH revenue growth >=10% AND ROCE >=15% - the 5-yr revenue CAGR is ~4% and OPM was compressed by the ad-spend war for most of the window. ROCE mostly sat in the mid-teens. This is a monopoly with a poor growth record, now inflecting; the consistency score should be low."
+      },
+      "score_breakdown": {
+        "conviction_score": 60.25,
+        "quality_score": 87.0,
+        "expectation_gap_score": 5.78,
+        "consistency_score": 20,
+        "asymmetry_score": 47.89,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "emmvee-photovoltaic-power",
+      "name": "Emmvee Photovoltaic Power Ltd",
+      "master_score": 47.25,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 4,
+        "years_cleared": 3,
+        "note": "FY24 (+54%/28%), FY25 (+146%/45%) and FY26 (+116%, ROCE well above 15% on a 34% OPM) each cleared both filters; FY23 (+11%/7%) missed on ROCE. The record is a 3-year ALMM List-II policy super-cycle off a Rs 9 Cr FY23 PAT base, not a long history."
+      },
+      "score_breakdown": {
+        "conviction_score": 61.0,
+        "quality_score": 71.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 75,
+        "asymmetry_score": 20.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "3b-blackbio-dx",
+      "name": "3B Blackbio DX Ltd",
+      "master_score": 46.84,
+      "red_flag_tier": null,
+      "conviction": "High",
+      "thesis_fit": "High-risk/high-return",
       "track_record": {
         "years_checked": 9,
         "years_cleared": 6,
         "note": "FY18-FY26 (screener consolidated): ROCE >=19% every year (COVID spike to 162% FY21). Revenue lumpy -- +44% FY18, flat FY19, +26% FY20, COVID PCR spike +683% FY21, then -64%/-24% give-back FY22-FY23, recovering +19%/+30%/+48% FY24-FY26. Both metrics cleared 6 of 9 (FY18, FY20, FY21, FY24, FY25, FY26); FY21 is a COVID one-off and FY26 growth is mostly the Coris acquisition (organic MDx only ~+10%)."
       },
       "score_breakdown": {
-        "conviction_score": 49.5,
+        "conviction_score": 48.25,
         "quality_score": 68.0,
         "expectation_gap_score": 3.54,
         "consistency_score": 67,
@@ -1182,7 +1014,7 @@
     {
       "slug": "vimta-labs-ltd",
       "name": "Vimta Labs Ltd",
-      "master_score": 46.98,
+      "master_score": 46.8,
       "red_flag_tier": null,
       "conviction": "Medium",
       "thesis_fit": "neither",
@@ -1192,39 +1024,11 @@
         "note": "FY24-FY26 each cleared BOTH revenue growth >=10% and ROCE >=15% - FY26 was +19.5% revenue / 24.24% ROCE, and FY24-FY25 ran ~20% revenue growth with ROCE in the low-to-mid 20s (aggregate support: 5-yr profit CAGR ~30%, consistently high ROCE). FY22-FY23 per-year figures not separately verified this pass. A consistent high-return compounder on the record available."
       },
       "score_breakdown": {
-        "conviction_score": 40.71,
+        "conviction_score": 40.01,
         "quality_score": 68.0,
         "expectation_gap_score": 0,
         "consistency_score": 100,
         "asymmetry_score": 32.0,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "acutaas-chemicals",
-      "name": "Acutaas Chemicals Ltd (Erst. Ami Organics Ltd)",
-      "master_score": 46.97,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 9,
-        "years_cleared": 8,
-        "note": "Screener 10y table FY18-FY26: both rev growth >=10% AND ROCE >=15% cleared in 8 of 9 years; only FY20 failed (0.4% revenue growth). ROCE range 16-34% every year, revenue growth double-digit every year except FY20."
-      },
-      "score_breakdown": {
-        "conviction_score": 44.47,
-        "quality_score": 75.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 89,
-        "asymmetry_score": 25.0,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -1320,34 +1124,6 @@
       }
     },
     {
-      "slug": "sambhv-steel-tubes",
-      "name": "Sambhv Steel Tubes",
-      "master_score": 45.95,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 4,
-        "note": "screener.in FY22-FY26: revenue growth >=10% every year (+71/+14/+37/+17/+60%); ROCE >=15% in FY22 (23%), FY23 (22%), FY25 (19%), FY26 (19%) but only 14% in FY24 during the steel-cycle PAT dip. 4 of 5 years clear both. Pre-IPO base (listed 2025); FY21 ROCE 37% excluded as no prior-year growth rate."
-      },
-      "score_breakdown": {
-        "conviction_score": 59.62,
-        "quality_score": 43.0,
-        "expectation_gap_score": 23.34,
-        "consistency_score": 80,
-        "asymmetry_score": 24.17,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "jubilant-agri-and-consumer-products-ltd-a-hidden-gem-from-the-jubilant-group",
       "name": "Jubilant Agri and Consumer Products Ltd (JACPL) \u2014 A Hidden Gem from the Jubilant Group?",
       "master_score": 45.85,
@@ -1365,34 +1141,6 @@
         "expectation_gap_score": 7.78,
         "consistency_score": 67,
         "asymmetry_score": 37.89,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "kovai-medical-center-and-hospital",
-      "name": "Kovai Medical Center and Hospital",
-      "master_score": 45.71,
-      "red_flag_tier": "",
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 9,
-        "years_cleared": 7,
-        "note": "FY18-FY26 screener consolidated. Revenue growth >=10% AND ROCE >=15% in the same FY passed FY18, FY20, FY22, FY23, FY24, FY25, FY26 (ROCE 15-24%, growth 11-31%). Missed FY19 (rev +7%) and FY21 (COVID, rev -3%). ROCE has been a steady 23% FY24-FY26."
-      },
-      "score_breakdown": {
-        "conviction_score": 45.91,
-        "quality_score": 68.0,
-        "expectation_gap_score": 5.38,
-        "consistency_score": 78,
-        "asymmetry_score": 29.69,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -1449,6 +1197,34 @@
         "expectation_gap_score": 20.22,
         "consistency_score": 75,
         "asymmetry_score": 49.11,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "venus-remedies",
+      "name": "Venus Remedies",
+      "master_score": 45.27,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 1,
+        "note": "FY22-FY26 (screener consolidated): ROCE stuck at 8-11% through FY25, reaching 22% only in FY26 on the R&D-licensing/margin inflection (OPM 10% -> 19%); revenue grew >=10% only in FY26 (+20%). 1 of 5 years cleared both -- the decade record is weak and FY26 is the first strong year, not yet a pattern."
+      },
+      "score_breakdown": {
+        "conviction_score": 38.87,
+        "quality_score": 96.0,
+        "expectation_gap_score": 3.82,
+        "consistency_score": 20,
+        "asymmetry_score": 51.91,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -1571,79 +1347,23 @@
       }
     },
     {
-      "slug": "inventurus-knowledge-solutions",
-      "name": "Inventurus Knowledge Solutions",
-      "master_score": 44.81,
-      "red_flag_tier": "",
-      "conviction": "Medium",
+      "slug": "macpower-cnc-machines-manufacturing-a-strong-growth",
+      "name": "Macpower CNC Machines: Manufacturing a Strong Growth?",
+      "master_score": 44.32,
+      "red_flag_tier": null,
+      "conviction": "Low",
       "thesis_fit": "neither",
       "track_record": {
-        "years_checked": 6,
+        "years_checked": 9,
         "years_cleared": 5,
-        "note": "FY21-FY26 screener. Both revenue growth >=10% AND ROCE >=15%: FY22 (+38%, ROCE 50%), FY23 (+35%, 30%), FY24 (+76%, 27%), FY25 (+47%, 32%), FY26 (+20%; FY26 ROCE not yet on screener but ROE 31% and FY25 was 32%, so >15% clearly). Missed only FY21 (rev +5%). ROCE stepped down from ~50% pre-scale but has held high-20s/low-30s."
+        "note": "FY18-FY26 (screener standalone): revenue growth >=10% in 6 of 9 years (dips FY20 COVID -41%, FY23 +6%, FY25 +9%); ROCE >=15% in 7 of 9 (FY20-21 trough at 6-10%). Both cleared FY18, FY19, FY22, FY24, FY26 = 5/9; recent trend strong with ROCE 27-29% FY24-FY26."
       },
       "score_breakdown": {
-        "conviction_score": 32.44,
-        "quality_score": 73.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 83,
-        "asymmetry_score": 40.0,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "td-power-systems",
-      "name": "TD Power Systems",
-      "master_score": 44.79,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 11,
-        "years_cleared": 4,
-        "note": "FY16-FY26 (screener consolidated): a decade-long turnaround -- ROCE below 15% every year FY15-FY21 and revenue shrinking FY16-FY17. Both metrics cleared only from FY22: FY22, FY24, FY25, FY26 = 4 of 11 (FY23 missed on 9.4% growth). Last 4 of 5 years clean; ROCE now 34%, OPM 18%."
-      },
-      "score_breakdown": {
-        "conviction_score": 56.27,
-        "quality_score": 77.0,
-        "expectation_gap_score": 7.37,
-        "consistency_score": 36,
-        "asymmetry_score": 30.68,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "kalyani-cast",
-      "name": "Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing",
-      "master_score": 44.27,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 6,
-        "years_cleared": 4,
-        "note": "FY21-FY26 (screener 544023): ROCE >=17% every year (17% FY21, then 83% FY22 one-off, 30-35% FY23-FY25, ~29% TTM FY26). Revenue growth -15% FY21, +346% FY22 (tiny base), +29% FY23, +49% FY24, +40% FY25, +8% FY26. Both cleared FY22-FY25 = 4 of 6; FY21 missed on the contraction, FY26 on the +8% slowdown."
-      },
-      "score_breakdown": {
-        "conviction_score": 56.87,
-        "quality_score": 65.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 67,
-        "asymmetry_score": 25.0,
+        "conviction_score": 27.5,
+        "quality_score": 89.0,
+        "expectation_gap_score": 3.45,
+        "consistency_score": 56,
+        "asymmetry_score": 40.73,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -1683,6 +1403,34 @@
       }
     },
     {
+      "slug": "inventurus-knowledge-solutions",
+      "name": "Inventurus Knowledge Solutions",
+      "master_score": 44.05,
+      "red_flag_tier": "",
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 6,
+        "years_cleared": 5,
+        "note": "FY21-FY26 screener. Both revenue growth >=10% AND ROCE >=15%: FY22 (+38%, ROCE 50%), FY23 (+35%, 30%), FY24 (+76%, 27%), FY25 (+47%, 32%), FY26 (+20%; FY26 ROCE not yet on screener but ROE 31% and FY25 was 32%, so >15% clearly). Missed only FY21 (rev +5%). ROCE stepped down from ~50% pre-scale but has held high-20s/low-30s."
+      },
+      "score_breakdown": {
+        "conviction_score": 29.39,
+        "quality_score": 73.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 83,
+        "asymmetry_score": 40.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "ultramarine-pigments-ltd",
       "name": "Ultramarine & Pigments Ltd",
       "master_score": 43.88,
@@ -1711,9 +1459,93 @@
       }
     },
     {
+      "slug": "mayur-uniquoters",
+      "name": "Mayur Uniquoters Ltd",
+      "master_score": 43.7,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 4,
+        "years_cleared": 2,
+        "note": "Of FY22-FY25 (both metrics verifiable), FY22 (+27.9%/17%) and FY23 (+18.3%/19%) cleared both; FY24 (+3.5%) and FY25 (+9.6%) missed on revenue growth despite ROCE of 22-24%. The export ramp is lifting TTM growth to ~16% but not yet across a full fiscal year."
+      },
+      "score_breakdown": {
+        "conviction_score": 44.0,
+        "quality_score": 78.0,
+        "expectation_gap_score": 3.28,
+        "consistency_score": 50,
+        "asymmetry_score": 33.64,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "steelcast",
+      "name": "Steelcast Ltd",
+      "master_score": 43.52,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 11,
+        "years_cleared": 5,
+        "note": "Per screener.in (FY16-FY26): FY18-19, FY22-23 and FY26 cleared both >=10% revenue growth and >=15% ROCE. Cyclical end-markets (mining/railroad/earth-moving) produced revenue declines in FY20-21 and FY24-25 even though ROCE stayed 30-40% (structural margin, captive power). A high-margin cyclical, not a steady compounder."
+      },
+      "score_breakdown": {
+        "conviction_score": 51.67,
+        "quality_score": 72.0,
+        "expectation_gap_score": 3.82,
+        "consistency_score": 45,
+        "asymmetry_score": 33.91,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "adf-food-ltd",
+      "name": "ADF FOOD LTD",
+      "master_score": 43.43,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 11,
+        "years_cleared": 7,
+        "note": "FY16-FY26 (screener consolidated): flat-to-declining FY16-FY18 (ROCE 7-14%, ~no growth), then a clean run -- ROCE 17-28% and revenue +14-30% every year FY19-FY26 except FY23 (+7%). Both metrics cleared 7 of 11 (FY19, FY20, FY21, FY22, FY24, FY25, FY26); consistent ~37% dividend payout."
+      },
+      "score_breakdown": {
+        "conviction_score": 51.9,
+        "quality_score": 63.0,
+        "expectation_gap_score": 3.82,
+        "consistency_score": 64,
+        "asymmetry_score": 28.91,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "frontier-springs",
       "name": "Frontier Springs",
-      "master_score": 43.86,
+      "master_score": 42.86,
       "red_flag_tier": null,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
@@ -1723,7 +1555,7 @@
         "note": "Screener FY18-FY26: rev growth >=10% AND ROCE >=15% both cleared in 6 of 9 (FY18 26%/17%, FY19 41%/26%, FY20 21%/35%, FY24 26%/21%, FY25 71%/42%, FY26 39%/51%). FY21 (-23%, COVID) and FY22 (+9%) missed on growth, FY23 on ROCE (14%). Railways-spring demand inflected hard FY25-26."
       },
       "score_breakdown": {
-        "conviction_score": 45.25,
+        "conviction_score": 41.25,
         "quality_score": 75.0,
         "expectation_gap_score": 0,
         "consistency_score": 67,
@@ -1875,6 +1707,34 @@
       }
     },
     {
+      "slug": "univastu-india",
+      "name": "Univastu India",
+      "master_score": 41.98,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 10,
+        "years_cleared": 8,
+        "note": "FY17, FY18, FY19, FY22, FY23, FY24, FY25 and FY26 each cleared BOTH >=10% revenue growth AND >=15% ROCE (only FY20 and FY21 - COVID-disrupted years - did not); FY26 (confirmed this pass: +42% growth, ROCE 30%) extends the streak. An exceptionally strong Coffee-Can record for a small-cap."
+      },
+      "score_breakdown": {
+        "conviction_score": 48.5,
+        "quality_score": 52.0,
+        "expectation_gap_score": 5.65,
+        "consistency_score": 80,
+        "asymmetry_score": 24.82,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "concord-control-systems",
       "name": "Concord Control Systems",
       "master_score": 41.84,
@@ -1891,34 +1751,6 @@
         "quality_score": 59.0,
         "expectation_gap_score": 0,
         "consistency_score": 100,
-        "asymmetry_score": 20.0,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "emmvee-photovoltaic-power",
-      "name": "Emmvee Photovoltaic Power Ltd",
-      "master_score": 41.81,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 4,
-        "years_cleared": 3,
-        "note": "FY24 (+54%/28%), FY25 (+146%/45%) and FY26 (+116%, ROCE well above 15% on a 34% OPM) each cleared both filters; FY23 (+11%/7%) missed on ROCE. The record is a 3-year ALMM List-II policy super-cycle off a Rs 9 Cr FY23 PAT base, not a long history."
-      },
-      "score_breakdown": {
-        "conviction_score": 39.25,
-        "quality_score": 71.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 75,
         "asymmetry_score": 20.0,
         "components_used": [
           "asymmetry_score",
@@ -1955,6 +1787,62 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "aries-agro",
+      "name": "Aries Agro Ltd",
+      "master_score": 41.6,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 2,
+        "note": "Of FY22-FY26 (verifiable from recent filings): FY25 and FY26 clear the bar of BOTH revenue growth >=10% AND ROCE >=15% in the same year (FY26 revenue +18.9%, ROCE ~21%; FY25 similar). FY22-FY24 fail on ROCE (3-yr avg ROE only ~11.4%, ROCE below ~15% in the earlier years) and/or patchy growth \u2014 consistent with the 2019 forum critique of a decade of near-flat PAT. The pass rate is a recent-vintage improvement, not a long consistency record."
+      },
+      "score_breakdown": {
+        "conviction_score": 48.0,
+        "quality_score": 74.0,
+        "expectation_gap_score": 3.82,
+        "consistency_score": 40,
+        "asymmetry_score": 28.91,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "shaily-engineering",
+      "name": "Shaily Engineering Plastics Ltd",
+      "master_score": 41.55,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 1,
+        "note": "Of FY23-FY25 (both metrics verifiable), only FY25 (+22.2%/29%) cleared. FY23 (+6.9%/14%) and FY24 (+6.1%/20%) missed - FY23-24 revenue growth was ~6%. The GLP-1 device ramp lifted FY25-26 growth to 22-26%; FY26 ROCE not yet disclosed."
+      },
+      "score_breakdown": {
+        "conviction_score": 60.2,
+        "quality_score": 73.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 33,
+        "asymmetry_score": 22.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
       }
     },
     {
@@ -2069,6 +1957,34 @@
       }
     },
     {
+      "slug": "kalyani-cast",
+      "name": "Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing",
+      "master_score": 40.19,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 6,
+        "years_cleared": 4,
+        "note": "FY21-FY26 (screener 544023): ROCE >=17% every year (17% FY21, then 83% FY22 one-off, 30-35% FY23-FY25, ~29% TTM FY26). Revenue growth -15% FY21, +346% FY22 (tiny base), +29% FY23, +49% FY24, +40% FY25, +8% FY26. Both cleared FY22-FY25 = 4 of 6; FY21 missed on the contraction, FY26 on the +8% slowdown."
+      },
+      "score_breakdown": {
+        "conviction_score": 40.57,
+        "quality_score": 65.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 67,
+        "asymmetry_score": 25.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "chamunda-electricals",
       "name": "Chamunda Electricals Ltd",
       "master_score": 40.05,
@@ -2109,34 +2025,6 @@
         "expectation_gap_score": 41.68,
         "consistency_score": 60,
         "asymmetry_score": 45.84,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "bliss-gvs-pharma",
-      "name": "Bliss GVS Pharma Ltd",
-      "master_score": 39.54,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 4,
-        "years_cleared": 2,
-        "note": "Genuine 2-year inflection: FY26 clears both tests (revenue +18.25%, ROCE ~16.9%) and FY25 roughly clears (EPS +11%, ROCE ~15%). Earlier years mixed \u2014 the 2018-21 period included the Africa-clinic-sale profit reset. Roughly 2 of the last 4 verifiable years cleared both revenue growth >=10% and ROCE >=15%."
-      },
-      "score_breakdown": {
-        "conviction_score": 31.75,
-        "quality_score": 73.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 50,
-        "asymmetry_score": 39.0,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -2204,6 +2092,34 @@
       }
     },
     {
+      "slug": "kovai-medical-center-and-hospital",
+      "name": "Kovai Medical Center and Hospital",
+      "master_score": 39.21,
+      "red_flag_tier": "",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 9,
+        "years_cleared": 7,
+        "note": "FY18-FY26 screener consolidated. Revenue growth >=10% AND ROCE >=15% in the same FY passed FY18, FY20, FY22, FY23, FY24, FY25, FY26 (ROCE 15-24%, growth 11-31%). Missed FY19 (rev +7%) and FY21 (COVID, rev -3%). ROCE has been a steady 23% FY24-FY26."
+      },
+      "score_breakdown": {
+        "conviction_score": 19.91,
+        "quality_score": 68.0,
+        "expectation_gap_score": 5.38,
+        "consistency_score": 78,
+        "asymmetry_score": 29.69,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "technocraft-industries-ias2026",
       "name": "Technocraft Industries",
       "master_score": 39.13,
@@ -2221,6 +2137,61 @@
         "expectation_gap_score": 7.0,
         "consistency_score": 67,
         "asymmetry_score": 18.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "raghav-productivity-solutions",
+      "name": "Raghav Productivity Solutions",
+      "master_score": 39.12,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 50.0,
+        "quality_score": 71.0,
+        "expectation_gap_score": 0,
+        "consistency_score": null,
+        "asymmetry_score": 20.0,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "hind-rectifiers",
+      "name": "Hind Rectifiers Ltd (HIRECT)",
+      "master_score": 39.1,
+      "red_flag_tier": null,
+      "conviction": "High",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 2,
+        "note": "Prior to FY24 Hind Rectifiers was a sub-scale, low-ROCE company. In the FY25-FY26 upcycle both years cleared BOTH >=10% revenue growth AND >=15% ROCE (FY26 revenue +45% / ROCE ~24%); FY24 was a recovery year with ROCE around/just below the 15% bar -- 2 of 3 verifiable years cleared."
+      },
+      "score_breakdown": {
+        "conviction_score": 48.0,
+        "quality_score": 55.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 67,
+        "asymmetry_score": 22.0,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -2344,6 +2315,34 @@
       }
     },
     {
+      "slug": "hbl-engineering-booting",
+      "name": "HBL Engineering: Booting-up for the Race of the Century",
+      "master_score": 38.73,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 11,
+        "years_cleared": 2,
+        "note": "FY16-FY26 (screener consolidated): a low-return battery/defence company until FY24 -- ROCE 4-14% and revenue shrinking FY19-FY21. The Kavach (train collision-avoidance) / DFCCIL order ramp lifted ROCE to 36% (FY24) and 58% (FY26). Both metrics cleared only FY24 and FY26 (FY25 revenue dipped -12% on order timing) = 2 of 11; the last three years are the real story."
+      },
+      "score_breakdown": {
+        "conviction_score": 24.5,
+        "quality_score": 69.0,
+        "expectation_gap_score": 24.19,
+        "consistency_score": 18,
+        "asymmetry_score": 52.09,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "rnit-ai-solutions-ltd",
       "name": "RNIT AI Solutions Ltd",
       "master_score": 38.65,
@@ -2454,6 +2453,34 @@
       }
     },
     {
+      "slug": "bliss-gvs-pharma",
+      "name": "Bliss GVS Pharma Ltd",
+      "master_score": 38.16,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 4,
+        "years_cleared": 2,
+        "note": "Genuine 2-year inflection: FY26 clears both tests (revenue +18.25%, ROCE ~16.9%) and FY25 roughly clears (EPS +11%, ROCE ~15%). Earlier years mixed \u2014 the 2018-21 period included the Africa-clinic-sale profit reset. Roughly 2 of the last 4 verifiable years cleared both revenue growth >=10% and ROCE >=15%."
+      },
+      "score_breakdown": {
+        "conviction_score": 26.25,
+        "quality_score": 73.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 50,
+        "asymmetry_score": 39.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "sunlite",
       "name": "Sunlite",
       "master_score": 37.71,
@@ -2533,23 +2560,23 @@
       }
     },
     {
-      "slug": "sai-life-sciences",
-      "name": "Sai Life Sciences Ltd",
-      "master_score": 37.46,
+      "slug": "td-power-systems",
+      "name": "TD Power Systems",
+      "master_score": 37.17,
       "red_flag_tier": null,
-      "conviction": "Medium-High",
+      "conviction": "Low",
       "thesis_fit": "neither",
       "track_record": {
-        "years_checked": 7,
-        "years_cleared": 2,
-        "note": "FY20-FY26 screener consolidated. Both revenue growth >=10% AND ROCE >=15% in the same FY: FY25 (rev +15.7%, ROCE 20%) and FY26 (rev +29%, ROCE ~19.6%). FY22-FY24 cleared the growth bar but ROCE was 6-14% (pre-scale). FY20-FY21 failed both."
+        "years_checked": 11,
+        "years_cleared": 4,
+        "note": "FY16-FY26 (screener consolidated): a decade-long turnaround -- ROCE below 15% every year FY15-FY21 and revenue shrinking FY16-FY17. Both metrics cleared only from FY22: FY22, FY24, FY25, FY26 = 4 of 11 (FY23 missed on 9.4% growth). Last 4 of 5 years clean; ROCE now 34%, OPM 18%."
       },
       "score_breakdown": {
-        "conviction_score": 65.43,
-        "quality_score": 55.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 29,
-        "asymmetry_score": 20.0,
+        "conviction_score": 25.77,
+        "quality_score": 77.0,
+        "expectation_gap_score": 7.37,
+        "consistency_score": 36,
+        "asymmetry_score": 30.68,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -2561,23 +2588,23 @@
       }
     },
     {
-      "slug": "entero-healthcare-solutions",
-      "name": "Entero Healthcare Solutions Ltd",
-      "master_score": 37.4,
+      "slug": "sambhv-steel-tubes",
+      "name": "Sambhv Steel Tubes",
+      "master_score": 36.95,
       "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
+      "conviction": "Low",
+      "thesis_fit": "neither",
       "track_record": {
-        "years_checked": 7,
-        "years_cleared": 0,
-        "note": "FY20-FY26 (screener consolidated): ROCE never above 10% (1% -> 10%; a distribution roll-up on ~4% OPM). Revenue compounding ~30%/yr but on wafer-thin margins and rising borrowings (Rs 385cr -> Rs 677cr). 0 of 7 years cleared the growth+ROCE bar -- volume without the capital-efficiency leg."
+        "years_checked": 5,
+        "years_cleared": 4,
+        "note": "screener.in FY22-FY26: revenue growth >=10% every year (+71/+14/+37/+17/+60%); ROCE >=15% in FY22 (23%), FY23 (22%), FY25 (19%), FY26 (19%) but only 14% in FY24 during the steel-cycle PAT dip. 4 of 5 years clear both. Pre-IPO base (listed 2025); FY21 ROCE 37% excluded as no prior-year growth rate."
       },
       "score_breakdown": {
-        "conviction_score": 61.42,
-        "quality_score": 45.0,
-        "expectation_gap_score": 32.72,
-        "consistency_score": 0,
-        "asymmetry_score": 28.36,
+        "conviction_score": 23.62,
+        "quality_score": 43.0,
+        "expectation_gap_score": 23.34,
+        "consistency_score": 80,
+        "asymmetry_score": 24.17,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -2719,34 +2746,6 @@
         "expectation_gap_score": 9.31,
         "consistency_score": 100,
         "asymmetry_score": 17.16,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "deep-industries",
-      "name": "Deep Industries (DIL)",
-      "master_score": 36.16,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 8,
-        "years_cleared": 1,
-        "note": "screener.in FY19-FY26: only FY25 cleared both bars (revenue +34.9% YoY, ROCE 16%). FY26 revenue +54.7% but reported ROCE was negative on the one-off Rs208.28cr non-cash Kandla Energy legacy-receivables write-off. FY20-FY24 ROCE stuck at 8-12% through the O&G capex downcycle; FY19 ROCE was 34% but revenue grew only ~2%."
-      },
-      "score_breakdown": {
-        "conviction_score": 36.37,
-        "quality_score": 31.0,
-        "expectation_gap_score": 63.7,
-        "consistency_score": 12,
-        "asymmetry_score": 31.85,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -2919,34 +2918,6 @@
       }
     },
     {
-      "slug": "hind-rectifiers",
-      "name": "Hind Rectifiers Ltd (HIRECT)",
-      "master_score": 34.91,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 2,
-        "note": "Prior to FY24 Hind Rectifiers was a sub-scale, low-ROCE company. In the FY25-FY26 upcycle both years cleared BOTH >=10% revenue growth AND >=15% ROCE (FY26 revenue +45% / ROCE ~24%); FY24 was a recovery year with ROCE around/just below the 15% bar -- 2 of 3 verifiable years cleared."
-      },
-      "score_breakdown": {
-        "conviction_score": 31.25,
-        "quality_score": 55.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 67,
-        "asymmetry_score": 22.0,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "20-microns-micronized-to-nano",
       "name": "20 Microns : micronized to nano-sized minerals",
       "master_score": 34.85,
@@ -2995,6 +2966,34 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "sai-life-sciences",
+      "name": "Sai Life Sciences Ltd",
+      "master_score": 34.68,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 7,
+        "years_cleared": 2,
+        "note": "FY20-FY26 screener consolidated. Both revenue growth >=10% AND ROCE >=15% in the same FY: FY25 (rev +15.7%, ROCE 20%) and FY26 (rev +29%, ROCE ~19.6%). FY22-FY24 cleared the growth bar but ROCE was 6-14% (pre-scale). FY20-FY21 failed both."
+      },
+      "score_breakdown": {
+        "conviction_score": 54.33,
+        "quality_score": 55.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 29,
+        "asymmetry_score": 20.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
       }
     },
     {
@@ -3110,34 +3109,6 @@
       }
     },
     {
-      "slug": "shaily-engineering",
-      "name": "Shaily Engineering Plastics Ltd",
-      "master_score": 33.86,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 1,
-        "note": "Of FY23-FY25 (both metrics verifiable), only FY25 (+22.2%/29%) cleared. FY23 (+6.9%/14%) and FY24 (+6.1%/20%) missed - FY23-24 revenue growth was ~6%. The GLP-1 device ramp lifted FY25-26 growth to 22-26%; FY26 ROCE not yet disclosed."
-      },
-      "score_breakdown": {
-        "conviction_score": 29.45,
-        "quality_score": 73.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 33,
-        "asymmetry_score": 22.0,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "recode-studios",
       "name": "Recode Studios Ltd",
       "master_score": 33.72,
@@ -3206,61 +3177,6 @@
         "expectation_gap_score": 5.38,
         "consistency_score": 88,
         "asymmetry_score": 22.69,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "raghav-productivity-solutions",
-      "name": "Raghav Productivity Solutions",
-      "master_score": 33.01,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 29.25,
-        "quality_score": 71.0,
-        "expectation_gap_score": 0,
-        "consistency_score": null,
-        "asymmetry_score": 20.0,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
-      "slug": "mtar-technologies",
-      "name": "MTAR Technologies Ltd",
-      "master_score": 32.92,
-      "red_flag_tier": null,
-      "conviction": "High",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 4,
-        "years_cleared": 1,
-        "note": "FY23-FY26 (screener discloses ROCE only from FY23): ROCE 11% / 10% / 15% / ~11-13% (FY26 not separately shown; est. low-teens as borrowings rose to Rs 377cr). Revenue growth 78% / 1% / 16% / 30%. Both cleared only FY25 (rev +16%, ROCE 15%) = 1 of 4; defence-mix normalisation cut ROCE from the FY20-22 era."
-      },
-      "score_breakdown": {
-        "conviction_score": 63.0,
-        "quality_score": 45.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 25,
-        "asymmetry_score": 14.5,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -3365,34 +3281,6 @@
         "expectation_gap_score": 6.3,
         "consistency_score": 67,
         "asymmetry_score": 30.15,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "sudeep-pharma",
-      "name": "Sudeep Pharma Ltd",
-      "master_score": 32.44,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 3,
-        "note": "Screener FY21-FY25: rev growth >=10% AND ROCE >=15% both cleared in 3 of 5 (FY21 75%/36%, FY22 59%/33%, FY23 25%/49%); FY24 (7%) and FY25 (9%) missed on growth though ROCE held 28-36%. FY26 ROCE not displayed. ROCE 28-49% every verifiable year."
-      },
-      "score_breakdown": {
-        "conviction_score": 25.75,
-        "quality_score": 53.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 60,
-        "asymmetry_score": 25.0,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -3528,23 +3416,23 @@
       }
     },
     {
-      "slug": "apcotex-industries-monopoly-in-synthetic-rubber",
-      "name": "Apcotex Industries Ltd",
-      "master_score": 31.8,
+      "slug": "sudeep-pharma",
+      "name": "Sudeep Pharma Ltd",
+      "master_score": 31.81,
       "red_flag_tier": null,
-      "conviction": "Low-Medium",
+      "conviction": "Medium",
       "thesis_fit": "neither",
       "track_record": {
-        "years_checked": 3,
-        "years_cleared": 0,
-        "note": "FY24-FY26 verifiable from the same P&L. FY24: revenue +4% and OPM 10% (ROCE ~10%) -> not cleared. FY25: revenue +24% but OPM 9% (ROCE ~9-10%) -> not cleared. FY26: revenue +3%, OPM 12% (ROCE ~16%) -> not cleared (revenue). 0 of 3 years cleared both revenue growth >=10% and ROCE >=15% -- this was the trough/early-recovery phase of the NBR spread cycle, not a company-quality failure, but it confirms the earnings are cyclical."
+        "years_checked": 5,
+        "years_cleared": 3,
+        "note": "Screener FY21-FY25: rev growth >=10% AND ROCE >=15% both cleared in 3 of 5 (FY21 75%/36%, FY22 59%/33%, FY23 25%/49%); FY24 (7%) and FY25 (9%) missed on growth though ROCE held 28-36%. FY26 ROCE not displayed. ROCE 28-49% every verifiable year."
       },
       "score_breakdown": {
-        "conviction_score": 30.81,
-        "quality_score": 73.0,
+        "conviction_score": 23.25,
+        "quality_score": 53.0,
         "expectation_gap_score": 0,
-        "consistency_score": 0,
-        "asymmetry_score": 39.0,
+        "consistency_score": 60,
+        "asymmetry_score": 25.0,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -3716,6 +3604,34 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "apcotex-industries-monopoly-in-synthetic-rubber",
+      "name": "Apcotex Industries Ltd",
+      "master_score": 31.3,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 0,
+        "note": "FY24-FY26 verifiable from the same P&L. FY24: revenue +4% and OPM 10% (ROCE ~10%) -> not cleared. FY25: revenue +24% but OPM 9% (ROCE ~9-10%) -> not cleared. FY26: revenue +3%, OPM 12% (ROCE ~16%) -> not cleared (revenue). 0 of 3 years cleared both revenue growth >=10% and ROCE >=15% -- this was the trough/early-recovery phase of the NBR spread cycle, not a company-quality failure, but it confirms the earnings are cyclical."
+      },
+      "score_breakdown": {
+        "conviction_score": 28.79,
+        "quality_score": 73.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 0,
+        "asymmetry_score": 39.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
       }
     },
     {
@@ -4210,6 +4126,34 @@
       }
     },
     {
+      "slug": "deep-industries",
+      "name": "Deep Industries (DIL)",
+      "master_score": 29.41,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 8,
+        "years_cleared": 1,
+        "note": "screener.in FY19-FY26: only FY25 cleared both bars (revenue +34.9% YoY, ROCE 16%). FY26 revenue +54.7% but reported ROCE was negative on the one-off Rs208.28cr non-cash Kandla Energy legacy-receivables write-off. FY20-FY24 ROCE stuck at 8-12% through the O&G capex downcycle; FY19 ROCE was 34% but revenue grew only ~2%."
+      },
+      "score_breakdown": {
+        "conviction_score": 9.37,
+        "quality_score": 31.0,
+        "expectation_gap_score": 63.7,
+        "consistency_score": 12,
+        "asymmetry_score": 31.85,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "sbcl",
       "name": "SBCL",
       "master_score": 29.4,
@@ -4494,6 +4438,34 @@
       }
     },
     {
+      "slug": "entero-healthcare-solutions",
+      "name": "Entero Healthcare Solutions Ltd",
+      "master_score": 28.09,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 7,
+        "years_cleared": 0,
+        "note": "FY20-FY26 (screener consolidated): ROCE never above 10% (1% -> 10%; a distribution roll-up on ~4% OPM). Revenue compounding ~30%/yr but on wafer-thin margins and rising borrowings (Rs 385cr -> Rs 677cr). 0 of 7 years cleared the growth+ROCE bar -- volume without the capital-efficiency leg."
+      },
+      "score_breakdown": {
+        "conviction_score": 24.17,
+        "quality_score": 45.0,
+        "expectation_gap_score": 32.72,
+        "consistency_score": 0,
+        "asymmetry_score": 28.36,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "izmo",
       "name": "IZMO- bet on new technologies in Auto retail & defence",
       "master_score": 28.08,
@@ -4547,26 +4519,6 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "venus-pipes-tubes",
-      "name": "Venus Pipes & Tubes Ltd",
-      "master_score": 28.0,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 28.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
       }
     },
     {
@@ -4743,6 +4695,34 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "mtar-technologies",
+      "name": "MTAR Technologies Ltd",
+      "master_score": 27.25,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 4,
+        "years_cleared": 1,
+        "note": "FY23-FY26 (screener discloses ROCE only from FY23): ROCE 11% / 10% / 15% / ~11-13% (FY26 not separately shown; est. low-teens as borrowings rose to Rs 377cr). Revenue growth 78% / 1% / 16% / 30%. Both cleared only FY25 (rev +16%, ROCE 15%) = 1 of 4; defence-mix normalisation cut ROCE from the FY20-22 era."
+      },
+      "score_breakdown": {
+        "conviction_score": 40.28,
+        "quality_score": 45.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 25,
+        "asymmetry_score": 14.5,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
       }
     },
     {
@@ -5030,26 +5010,6 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
-      }
-    },
-    {
-      "slug": "ather-energy-pioneering-india-s-ev-revolution",
-      "name": "Ather Energy: Pioneering India's EV Revolution",
-      "master_score": 25.93,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 25.93,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
       }
     },
     {
@@ -8525,6 +8485,27 @@
       }
     },
     {
+      "slug": "venus-pipes-tubes",
+      "name": "Venus Pipes & Tubes Ltd",
+      "master_score": 16.85,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 28.0,
+        "quality_score": null,
+        "expectation_gap_score": 2.92,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "expectation_gap_score"
+        ],
+        "weight_coverage": 0.45
+      }
+    },
+    {
       "slug": "shree-pushkar-chemicals",
       "name": "Shree Pushkar Chemicals Ltd",
       "master_score": 16.83,
@@ -11666,6 +11647,27 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "ather-energy-pioneering-india-s-ev-revolution",
+      "name": "Ather Energy: Pioneering India's EV Revolution",
+      "master_score": 15.7,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 25.93,
+        "quality_score": null,
+        "expectation_gap_score": 2.92,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "expectation_gap_score"
+        ],
+        "weight_coverage": 0.45
       }
     },
     {

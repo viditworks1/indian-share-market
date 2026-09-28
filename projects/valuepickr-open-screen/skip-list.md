@@ -53,13 +53,10 @@ Generated: 2026-09-28
 | Digikore Studios Ltd | 2026-08-30 | 2026-09-29 | Low |
 | Transformer & Rectifier India Limited | 2026-08-30 | 2026-09-29 | Low-Medium |
 | Exicom Tele-Services: A Key Player in the Booming EV Sector | 2026-08-30 | 2026-09-29 | Low |
-| Sudeep Pharma Ltd | 2026-08-30 | 2026-09-29 | Medium |
 | OBSC Perfection Ltd | 2026-08-30 | 2026-09-29 | Medium |
 | Divgi TorqTransfer Systems Ltd | 2026-08-30 | 2026-09-29 | Low |
-| Bliss GVS Pharma Ltd | 2026-08-30 | 2026-09-29 | Medium |
 | Nephrocare Health Services Ltd | 2026-08-30 | 2026-09-29 | Medium |
 | Sansera Engineering Ltd | 2026-08-30 | 2026-09-29 | Medium |
-| Cummins India Ltd | 2026-08-30 | 2026-09-29 | Medium-High |
 | Kirloskar Oil Engines Ltd (KOEL) | 2026-08-30 | 2026-09-29 | Medium |
 | HCC | 2026-08-30 | 2026-09-29 | Low |
 | Swastika Castal Ltd | 2026-08-31 | 2026-09-30 | Low-Medium |
@@ -96,7 +93,6 @@ Generated: 2026-09-28
 | EPACK PREFAB TECHNOLOGIES (A Rising Star) | 2026-09-02 | 2026-10-02 | Low |
 | COSMIC CRF LIMITED | 2026-09-02 | 2026-10-02 | Low-Medium |
 | Marine Electricals: Riding the Waves of Expansion | 2026-09-02 | 2026-10-02 | Medium |
-| Acutaas Chemicals Ltd (Erst. Ami Organics Ltd) | 2026-09-02 | 2026-10-02 | Medium |
 | V-Marc India Ltd | 2026-09-02 | 2026-10-02 | Low |
 | ABS Marine Services Ltd | 2026-09-02 | 2026-10-02 | Low-Medium |
 | CarTrade Tech Ltd | 2026-09-02 | 2026-10-02 | Medium |
@@ -160,7 +156,6 @@ Generated: 2026-09-28
 | Msafe Equipments Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
 | SG Finserve Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
 | Tata Capital Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
-| Emmvee Photovoltaic Power Ltd | 2026-09-04 | 2026-10-04 | Medium |
 | Workmates Core2Cloud Solution Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
 | Shree Pushkar Chemicals Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
 | GNG Electronics Ltd | 2026-09-04 | 2026-10-04 | Medium |
@@ -207,7 +202,6 @@ Generated: 2026-09-28
 | Aequs | 2026-09-05 | 2026-10-05 | Low-Medium |
 | Purple Style Labs | 2026-09-05 | 2026-10-05 | Low |
 | Asian oilfields | 2026-09-07 | 2026-10-07 | Low-Medium |
-| Shaily Engineering Plastics Ltd | 2026-09-07 | 2026-10-07 | Low-Medium |
 | Pitti Engineering Ltd | 2026-09-07 | 2026-10-07 | Low-Medium |
 | Beezaasan Explotech | 2026-09-07 | 2026-10-07 | Low-Medium |
 | Jindal Saw | 2026-09-07 | 2026-10-07 | Low-Medium |
@@ -448,7 +442,6 @@ Generated: 2026-09-28
 | Suzlon | 2026-09-16 | 2026-10-16 | Medium |
 | Supreme (transformer maker) | 2026-09-16 | 2026-10-16 | Medium |
 | Shilchar Technologies | 2026-09-16 | 2026-10-16 | Medium |
-| Raghav Productivity Solutions | 2026-09-16 | 2026-10-16 | Medium |
 | Zaggle Prepaid Ocean Services | 2026-09-16 | 2026-10-16 | Low |
 | Vishnu Chemicals | 2026-09-16 | 2026-10-16 | Low-Medium |
 | GE Shipping | 2026-09-16 | 2026-10-16 | Low-Medium |
@@ -536,3 +529,33 @@ Generated: 2026-09-28
 | JTEKT India: Driving Precision, Powering India’s Mobility Future | 2026-09-26 | 2026-10-26 | Medium-High |
 | Taurian MPS Ltd, Crushing opportunities? | 2026-09-26 | 2026-10-26 | Medium |
 | TCI Express | 2026-09-26 | 2026-10-26 | Medium |
+| Frontier Springs | 2026-09-28 | 2026-10-28 | Medium |
+| Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing | 2026-09-28 | 2026-10-28 | Medium |
+| Venus Remedies | 2026-09-28 | 2026-10-28 | Low |
+| Sambhv Steel Tubes | 2026-09-28 | 2026-10-28 | Low |
+| Macpower CNC Machines: Manufacturing a Strong Growth? | 2026-09-28 | 2026-10-28 | Low |
+| Aeroflex Industries Ltd | 2026-09-28 | 2026-10-28 | Medium |
+| 3B Blackbio DX Ltd | 2026-09-28 | 2026-10-28 | High |
+| TD Power Systems | 2026-09-28 | 2026-10-28 | Low |
+| Time Technoplast | 2026-09-28 | 2026-10-28 | Low |
+| Venus Pipes & Tubes Ltd | 2026-09-28 | 2026-10-28 | Medium |
+| Hind Rectifiers Ltd (HIRECT) | 2026-09-28 | 2026-10-28 | High |
+| Entero Healthcare Solutions Ltd | 2026-09-28 | 2026-10-28 | Low |
+| Deep Industries (DIL) | 2026-09-28 | 2026-10-28 | Low |
+| HBL Engineering: Booting-up for the Race of the Century | 2026-09-28 | 2026-10-28 | Low |
+| Kovai Medical Center and Hospital | 2026-09-28 | 2026-10-28 | Low |
+| Inventurus Knowledge Solutions | 2026-09-28 | 2026-10-28 | Medium |
+| Ather Energy: Pioneering India's EV Revolution | 2026-09-28 | 2026-10-28 | Medium |
+| MTAR Technologies Ltd | 2026-09-28 | 2026-10-28 | Medium |
+| Thyrocare : Debt free Asset Light Healthcare Play | 2026-09-28 | 2026-10-28 | High |
+| Vinati Organics Ltd | 2026-09-28 | 2026-10-28 | Low |
+| Sai Life Sciences Ltd | 2026-09-28 | 2026-10-28 | Medium |
+| Acutaas Chemicals Ltd (Erst. Ami Organics Ltd) | 2026-09-28 | 2026-10-28 | Medium-High |
+| Apcotex Industries Ltd | 2026-09-28 | 2026-10-28 | Low-Medium |
+| Vimta Labs Ltd | 2026-09-28 | 2026-10-28 | Medium |
+| Sudeep Pharma Ltd | 2026-09-28 | 2026-10-28 | Medium |
+| Bliss GVS Pharma Ltd | 2026-09-28 | 2026-10-28 | Medium |
+| Cummins India Ltd | 2026-09-28 | 2026-10-28 | High |
+| Emmvee Photovoltaic Power Ltd | 2026-09-28 | 2026-10-28 | Medium-High |
+| Shaily Engineering Plastics Ltd | 2026-09-28 | 2026-10-28 | Medium-High |
+| Raghav Productivity Solutions | 2026-09-28 | 2026-10-28 | Medium-High |

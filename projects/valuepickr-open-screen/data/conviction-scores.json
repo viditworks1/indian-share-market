@@ -1,145 +1,22 @@
 [
   {
-    "slug": "venus-remedies",
-    "name": "Venus Remedies",
-    "conviction_score": 91.37,
-    "own_conviction": 69.0,
-    "trusted_lift": 22.37,
-    "conviction": "High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 96.0,
-    "market_cap_tier": "Mid-cap (~Rs 2,174 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 69.0,
-      "trusted_lift": 22.37,
-      "base_anchor": 45,
-      "thesis_bonus": 14,
-      "quality_lift": 10.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 22.37,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 22.37,
-        "pos_raw": 22.37,
-        "pos_capped": 22.37,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 3,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": null
-    }
-  },
-  {
-    "slug": "aeroflex-industries",
-    "name": "Aeroflex Industries Ltd",
-    "conviction_score": 84.62,
-    "own_conviction": 62.25,
-    "trusted_lift": 22.37,
-    "conviction": "High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 63.0,
-    "market_cap_tier": "Small/Mid-cap (~Rs 7,174 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 62.25,
-      "trusted_lift": 22.37,
-      "base_anchor": 45,
-      "thesis_bonus": 14,
-      "quality_lift": 3.25,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 22.37,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 22.37,
-        "pos_raw": 22.37,
-        "pos_capped": 22.37,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 3,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": null
-    }
-  },
-  {
-    "slug": "macpower-cnc-machines-manufacturing-a-strong-growth",
-    "name": "Macpower CNC Machines: Manufacturing a Strong Growth?",
-    "conviction_score": 80.75,
-    "own_conviction": 80.75,
-    "trusted_lift": 0.0,
-    "conviction": "High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 89.0,
-    "market_cap_tier": "Small-cap (~Rs 2,008 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 80.75,
-      "trusted_lift": 0.0,
-      "base_anchor": 45,
-      "thesis_bonus": 14,
-      "quality_lift": 9.75,
-      "management_component": 12.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "clean",
-        "shareholder_returns": "initiated"
-      }
-    }
-  },
-  {
     "slug": "thyrocare-debt-free-asset-light-healthcare-play",
     "name": "Thyrocare : Debt free Asset Light Healthcare Play",
-    "conviction_score": 75.0,
-    "own_conviction": 75.0,
+    "conviction_score": 73.75,
+    "own_conviction": 73.75,
     "trusted_lift": 0.0,
     "conviction": "High",
     "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 95.0,
+    "quality_score": 85,
     "market_cap_tier": "Small-cap (~Rs 9,029 Cr)",
     "red_flag_tier": null,
     "source": null,
     "score_breakdown": {
-      "own_conviction": 75.0,
+      "own_conviction": 73.75,
       "trusted_lift": 0.0,
       "base_anchor": 45,
       "thesis_bonus": 14,
-      "quality_lift": 10.0,
+      "quality_lift": 8.75,
       "management_component": 6.0,
       "red_flag_penalty": 0,
       "red_flag_forced_zero": false,
@@ -164,51 +41,6 @@
         "capital_allocation_track_record": null,
         "rpt_trend": "unclear",
         "shareholder_returns": null
-      }
-    }
-  },
-  {
-    "slug": "time-technoplast",
-    "name": "Time Technoplast",
-    "conviction_score": 70.37,
-    "own_conviction": 66.25,
-    "trusted_lift": 4.12,
-    "conviction": "Medium-High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 71.0,
-    "market_cap_tier": "Small-cap (~Rs 9,233 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 66.25,
-      "trusted_lift": 4.12,
-      "base_anchor": 35,
-      "thesis_bonus": 14,
-      "quality_lift": 5.25,
-      "management_component": 12.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 4.12,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 4.12,
-        "pos_raw": 4.12,
-        "pos_capped": 4.12,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "flat",
-        "shareholder_returns": "consistent"
       }
     }
   },
@@ -258,161 +90,32 @@
     }
   },
   {
-    "slug": "hbl-engineering-booting",
-    "name": "HBL Engineering: Booting-up for the Race of the Century",
-    "conviction_score": 65.75,
-    "own_conviction": 53.75,
-    "trusted_lift": 12.0,
+    "slug": "acutaas-chemicals",
+    "name": "Acutaas Chemicals Ltd (Erst. Ami Organics Ltd)",
+    "conviction_score": 67.22,
+    "own_conviction": 54.0,
+    "trusted_lift": 13.22,
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 69.0,
-    "market_cap_tier": "Mid-large cap (~Rs 18,686 Cr)",
+    "quality_score": 70,
+    "market_cap_tier": "Large-cap (~Rs 25,900 Cr)",
     "red_flag_tier": null,
     "source": "trusted-thread",
     "score_breakdown": {
-      "own_conviction": 53.75,
-      "trusted_lift": 12.0,
+      "own_conviction": 54.0,
+      "trusted_lift": 13.22,
       "base_anchor": 35,
       "thesis_bonus": 14,
-      "quality_lift": 4.75,
+      "quality_lift": 5.0,
       "management_component": 0.0,
       "red_flag_penalty": 0,
       "red_flag_forced_zero": false,
-      "trusted_signal_component": 12.0,
+      "trusted_signal_component": 13.22,
       "trusted_lift_neg_floor_applied": false,
       "trusted_signal_detail": {
-        "value": 12.0,
-        "pos_raw": 12.0,
-        "pos_capped": 12.0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 4,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": null
-    }
-  },
-  {
-    "slug": "sai-life-sciences",
-    "name": "Sai Life Sciences Ltd",
-    "conviction_score": 65.43,
-    "own_conviction": 46.25,
-    "trusted_lift": 19.18,
-    "conviction": "Medium-High",
-    "thesis_fit": "neither",
-    "quality_score": 55.0,
-    "market_cap_tier": "Large-cap (~Rs 32,231 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 46.25,
-      "trusted_lift": 19.18,
-      "base_anchor": 35,
-      "thesis_bonus": 0,
-      "quality_lift": 1.25,
-      "management_component": 10.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 19.18,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 19.18,
-        "pos_raw": 19.18,
-        "pos_capped": 19.18,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 2,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "reliable",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "clean",
-        "shareholder_returns": null
-      }
-    }
-  },
-  {
-    "slug": "mtar-technologies",
-    "name": "MTAR Technologies Ltd",
-    "conviction_score": 63.0,
-    "own_conviction": 45.75,
-    "trusted_lift": 17.25,
-    "conviction": "High",
-    "thesis_fit": "neither",
-    "quality_score": 45.0,
-    "market_cap_tier": "Mid/Large-cap (~Rs 21,400 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 45.75,
-      "trusted_lift": 17.25,
-      "base_anchor": 45,
-      "thesis_bonus": 0,
-      "quality_lift": -1.25,
-      "management_component": 2.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 17.25,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 17.25,
-        "pos_raw": 17.25,
-        "pos_capped": 17.25,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 2,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "clean",
-        "shareholder_returns": null
-      }
-    }
-  },
-  {
-    "slug": "vinati-organics",
-    "name": "Vinati Organics Ltd",
-    "conviction_score": 62.46,
-    "own_conviction": 46.5,
-    "trusted_lift": 15.96,
-    "conviction": "Medium-High",
-    "thesis_fit": "neither",
-    "quality_score": 76.0,
-    "market_cap_tier": "Mid-cap (~Rs 13,600 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 46.5,
-      "trusted_lift": 15.96,
-      "base_anchor": 35,
-      "thesis_bonus": 0,
-      "quality_lift": 6.5,
-      "management_component": 5.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 15.96,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 15.96,
-        "pos_raw": 15.96,
-        "pos_capped": 15.96,
+        "value": 13.22,
+        "pos_raw": 13.22,
+        "pos_capped": 13.22,
         "neg_raw": 0.0,
         "neg_capped": 0.0,
         "n_positive_signals": 3,
@@ -422,13 +125,46 @@
         "source": "ledger"
       },
       "distinct_trusted_users": 3,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "consistent"
-      }
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "aeroflex-industries",
+    "name": "Aeroflex Industries Ltd",
+    "conviction_score": 62.82,
+    "own_conviction": 40.45,
+    "trusted_lift": 22.37,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 55.8,
+    "market_cap_tier": "Small/Mid-cap (~Rs 7,174 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 40.45,
+      "trusted_lift": 22.37,
+      "base_anchor": 25,
+      "thesis_bonus": 14,
+      "quality_lift": 1.45,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 22.37,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 22.37,
+        "pos_raw": 22.37,
+        "pos_capped": 22.37,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 3,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
+      "management_quality": null
     }
   },
   {
@@ -567,51 +303,6 @@
     }
   },
   {
-    "slug": "entero-healthcare-solutions",
-    "name": "Entero Healthcare Solutions Ltd",
-    "conviction_score": 61.42,
-    "own_conviction": 47.75,
-    "trusted_lift": 13.67,
-    "conviction": "Medium-High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 45.0,
-    "market_cap_tier": "Small-cap (~Rs 7,800 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 47.75,
-      "trusted_lift": 13.67,
-      "base_anchor": 35,
-      "thesis_bonus": 14,
-      "quality_lift": -1.25,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 13.67,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 13.67,
-        "pos_raw": 13.67,
-        "pos_capped": 13.67,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 3,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": {
-        "assessment": "Above-average management quality; proven M&A integration; shareholder-friendly dividend policy",
-        "guidance_credibility": "Conservative guidance; Q1 FY27 revenue +38% YoY vs expectations, margins guided 4.0%+ achievable",
-        "capital_allocation_track_record": "Acquired ~40+ regional distributors/pharmacies in FY25-26; demonstrated ability to integrate and improve margins",
-        "rpt_trend": "Shareholder returns via dividends (~2% yield); no buyback; focus on reinvestment",
-        "shareholder_returns": "Dividend initiated post strong profitability; minority interest managed at ~20-25% of consolidated profits"
-      }
-    }
-  },
-  {
     "slug": "p-e-analytics",
     "name": "P.E. Analytics Ltd (PROPEQUITY)",
     "conviction_score": 61.05,
@@ -653,6 +344,51 @@
         "capital_allocation_track_record": null,
         "rpt_trend": "unclear",
         "shareholder_returns": null
+      }
+    }
+  },
+  {
+    "slug": "emmvee-photovoltaic-power",
+    "name": "Emmvee Photovoltaic Power Ltd",
+    "conviction_score": 61.0,
+    "own_conviction": 61.0,
+    "trusted_lift": 0.0,
+    "conviction": "Medium-High",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 62,
+    "market_cap_tier": "Mid-cap",
+    "red_flag_tier": null,
+    "source": "external-lead",
+    "score_breakdown": {
+      "own_conviction": 61.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 35,
+      "thesis_bonus": 14,
+      "quality_lift": 3.0,
+      "management_component": 9.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "positive",
+        "guidance_credibility": "no-track-record",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
       }
     }
   },
@@ -702,6 +438,51 @@
     }
   },
   {
+    "slug": "shaily-engineering",
+    "name": "Shaily Engineering Plastics Ltd",
+    "conviction_score": 60.2,
+    "own_conviction": 57.5,
+    "trusted_lift": 2.7,
+    "conviction": "Medium-High",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 64,
+    "market_cap_tier": "Mid-cap (~Rs 15,000 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-x",
+    "score_breakdown": {
+      "own_conviction": 57.5,
+      "trusted_lift": 2.7,
+      "base_anchor": 35,
+      "thesis_bonus": 14,
+      "quality_lift": 3.5,
+      "management_component": 5.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 2.7,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 2.7,
+        "pos_raw": 2.7,
+        "pos_capped": 2.7,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "flat",
+        "shareholder_returns": "initiated"
+      }
+    }
+  },
+  {
     "slug": "dynamic-cables",
     "name": "Dynamic Cables",
     "conviction_score": 60.18,
@@ -743,51 +524,6 @@
         "capital_allocation_track_record": "disciplined",
         "rpt_trend": "flat",
         "shareholder_returns": "unclear"
-      }
-    }
-  },
-  {
-    "slug": "sambhv-steel-tubes",
-    "name": "Sambhv Steel Tubes",
-    "conviction_score": 59.62,
-    "own_conviction": 55.25,
-    "trusted_lift": 4.37,
-    "conviction": "Medium-High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 43.0,
-    "market_cap_tier": "Small-cap (~Rs 3,750 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 55.25,
-      "trusted_lift": 4.37,
-      "base_anchor": 35,
-      "thesis_bonus": 14,
-      "quality_lift": -1.75,
-      "management_component": 8.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 4.37,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 4.37,
-        "pos_raw": 4.37,
-        "pos_capped": 4.37,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 2,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "reliable",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "unclear",
-        "shareholder_returns": null
       }
     }
   },
@@ -921,45 +657,6 @@
     }
   },
   {
-    "slug": "kalyani-cast",
-    "name": "Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing",
-    "conviction_score": 56.87,
-    "own_conviction": 52.75,
-    "trusted_lift": 4.12,
-    "conviction": "Medium-High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 65.0,
-    "market_cap_tier": "Micro-cap (~Rs 739 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 52.75,
-      "trusted_lift": 4.12,
-      "base_anchor": 35,
-      "thesis_bonus": 14,
-      "quality_lift": 3.75,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 4.12,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 4.12,
-        "pos_raw": 4.12,
-        "pos_capped": 4.12,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "sjs-enterprises",
     "name": "SJS Enterprises Ltd",
     "conviction_score": 56.71,
@@ -1001,51 +698,6 @@
         "capital_allocation_track_record": "disciplined",
         "rpt_trend": "clean",
         "shareholder_returns": "initiated"
-      }
-    }
-  },
-  {
-    "slug": "td-power-systems",
-    "name": "TD Power Systems",
-    "conviction_score": 56.27,
-    "own_conviction": 43.75,
-    "trusted_lift": 12.52,
-    "conviction": "Medium-High",
-    "thesis_fit": "neither",
-    "quality_score": 77.0,
-    "market_cap_tier": "Mid/Large-cap (~Rs 24,278 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 43.75,
-      "trusted_lift": 12.52,
-      "base_anchor": 35,
-      "thesis_bonus": 0,
-      "quality_lift": 6.75,
-      "management_component": 2.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 12.52,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 12.52,
-        "pos_raw": 12.52,
-        "pos_capped": 12.52,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 3,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 3,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 3,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "reliable",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "unclear",
-        "shareholder_returns": null
       }
     }
   },
@@ -1226,6 +878,96 @@
         "capital_allocation_track_record": "neutral",
         "rpt_trend": "flat",
         "shareholder_returns": "consistent"
+      }
+    }
+  },
+  {
+    "slug": "cummins-india",
+    "name": "Cummins India Ltd",
+    "conviction_score": 55.0,
+    "own_conviction": 55.0,
+    "trusted_lift": 0.0,
+    "conviction": "High",
+    "thesis_fit": "neither",
+    "quality_score": 78,
+    "market_cap_tier": "Large-cap (~Rs 1,43,000 Cr)",
+    "red_flag_tier": null,
+    "source": "global-proxy",
+    "score_breakdown": {
+      "own_conviction": 55.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 45,
+      "thesis_bonus": 0,
+      "quality_lift": 7.0,
+      "management_component": 3.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "constructive",
+        "guidance_credibility": "high - management's commentary on DC power demand, lead-times, and customer pre-buying is corroborated by global peers (Bloom Energy, CAT) and visible in Q1 FY27 numbers",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "Parent is Cummins Inc (US); no unusual RPT flagged beyond the parent tech pipeline (green hydrogen/electrolyser optionality)",
+        "shareholder_returns": "not highlighted"
+      }
+    }
+  },
+  {
+    "slug": "sai-life-sciences",
+    "name": "Sai Life Sciences Ltd",
+    "conviction_score": 54.33,
+    "own_conviction": 35.15,
+    "trusted_lift": 19.18,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 50.6,
+    "market_cap_tier": "Large-cap (~Rs 32,231 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 35.15,
+      "trusted_lift": 19.18,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 0.15,
+      "management_component": 10.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 19.18,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 19.18,
+        "pos_raw": 19.18,
+        "pos_capped": 19.18,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 2,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
+      "management_quality": {
+        "assessment": "positive",
+        "guidance_credibility": "reliable",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "clean",
+        "shareholder_returns": null
       }
     }
   },
@@ -2349,6 +2091,51 @@
     }
   },
   {
+    "slug": "raghav-productivity-solutions",
+    "name": "Raghav Productivity Solutions",
+    "conviction_score": 50.0,
+    "own_conviction": 50.0,
+    "trusted_lift": 0.0,
+    "conviction": "Medium-High",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 58,
+    "market_cap_tier": "Mid-cap (~Rs 7,950-8,000 Cr, screener.in Sept 2026)",
+    "red_flag_tier": null,
+    "source": "external-lead",
+    "score_breakdown": {
+      "own_conviction": 50.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 35,
+      "thesis_bonus": 14,
+      "quality_lift": 2.0,
+      "management_component": -1.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "rising",
+        "shareholder_returns": "initiated"
+      }
+    }
+  },
+  {
     "slug": "phantom-digital-effects",
     "name": "Phantom Digital Effects Limited",
     "conviction_score": 50.0,
@@ -2568,51 +2355,6 @@
     }
   },
   {
-    "slug": "3b-blackbio-dx",
-    "name": "3B Blackbio DX Ltd",
-    "conviction_score": 49.5,
-    "own_conviction": 49.5,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "100x-in-10-years",
-    "quality_score": 68.0,
-    "market_cap_tier": "Micro-cap (~Rs 1,245 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 49.5,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 20,
-      "quality_lift": 4.5,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "unclear",
-        "shareholder_returns": null
-      }
-    }
-  },
-  {
     "slug": "yash-highvoltage",
     "name": "Yash Highvoltage Ltd",
     "conviction_score": 49.38,
@@ -2787,24 +2529,24 @@
     }
   },
   {
-    "slug": "cummins-india",
-    "name": "Cummins India Ltd",
-    "conviction_score": 48.0,
-    "own_conviction": 48.0,
+    "slug": "3b-blackbio-dx",
+    "name": "3B Blackbio DX Ltd",
+    "conviction_score": 48.25,
+    "own_conviction": 48.25,
     "trusted_lift": 0.0,
-    "conviction": "Medium-High",
-    "thesis_fit": "neither",
-    "quality_score": 95.0,
-    "market_cap_tier": "Large-cap (~Rs 1,43,000 Cr)",
+    "conviction": "High",
+    "thesis_fit": "High-risk/high-return",
+    "quality_score": 63,
+    "market_cap_tier": "Micro-cap (~Rs 1,245 Cr)",
     "red_flag_tier": null,
-    "source": "global-proxy",
+    "source": null,
     "score_breakdown": {
-      "own_conviction": 48.0,
+      "own_conviction": 48.25,
       "trusted_lift": 0.0,
-      "base_anchor": 35,
+      "base_anchor": 45,
       "thesis_bonus": 0,
-      "quality_lift": 10.0,
-      "management_component": 3.0,
+      "quality_lift": 3.25,
+      "management_component": 0.0,
       "red_flag_penalty": 0,
       "red_flag_forced_zero": false,
       "trusted_signal_component": 0.0,
@@ -2823,11 +2565,56 @@
       },
       "distinct_trusted_users": 0,
       "management_quality": {
-        "assessment": "constructive",
-        "guidance_credibility": "high - management's commentary on DC power demand, lead-times, and customer pre-buying is corroborated by global peers (Bloom Energy, CAT) and visible in Q1 FY27 numbers",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "Parent is Cummins Inc (US); no unusual RPT flagged beyond the parent tech pipeline (green hydrogen/electrolyser optionality)",
-        "shareholder_returns": "not highlighted"
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "unclear",
+        "shareholder_returns": null
+      }
+    }
+  },
+  {
+    "slug": "hind-rectifiers",
+    "name": "Hind Rectifiers Ltd (HIRECT)",
+    "conviction_score": 48.0,
+    "own_conviction": 48.0,
+    "trusted_lift": 0.0,
+    "conviction": "High",
+    "thesis_fit": "neither",
+    "quality_score": 62,
+    "market_cap_tier": "Small/Mid-cap (~Rs 4,425 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 48.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 45,
+      "thesis_bonus": 0,
+      "quality_lift": 3.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "unclear"
       }
     }
   },
@@ -3102,51 +2889,6 @@
     }
   },
   {
-    "slug": "kovai-medical-center-and-hospital",
-    "name": "Kovai Medical Center and Hospital",
-    "conviction_score": 45.91,
-    "own_conviction": 45.5,
-    "trusted_lift": 0.41,
-    "conviction": "Medium-High",
-    "thesis_fit": "neither",
-    "quality_score": 68.0,
-    "market_cap_tier": "mid-cap",
-    "red_flag_tier": "",
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 45.5,
-      "trusted_lift": 0.41,
-      "base_anchor": 35,
-      "thesis_bonus": 0,
-      "quality_lift": 4.5,
-      "management_component": 6.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.41,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.41,
-        "pos_raw": 0.41,
-        "pos_capped": 0.41,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "high",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "stable",
-        "shareholder_returns": null
-      }
-    }
-  },
-  {
     "slug": "privi-speciality-chemicals-ltd",
     "name": "Privi Speciality Chemicals Ltd",
     "conviction_score": 45.62,
@@ -3189,90 +2931,6 @@
         "rpt_trend": "flat",
         "shareholder_returns": "initiated"
       }
-    }
-  },
-  {
-    "slug": "frontier-springs",
-    "name": "Frontier Springs",
-    "conviction_score": 45.25,
-    "own_conviction": 45.25,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 75.0,
-    "market_cap_tier": "Micro/Small-cap (~Rs 1,505 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 45.25,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": 6.25,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "unclear",
-        "shareholder_returns": null
-      }
-    }
-  },
-  {
-    "slug": "acutaas-chemicals",
-    "name": "Acutaas Chemicals Ltd (Erst. Ami Organics Ltd)",
-    "conviction_score": 44.47,
-    "own_conviction": 31.25,
-    "trusted_lift": 13.22,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": 75.0,
-    "market_cap_tier": "Large-cap (~Rs 25,900 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 31.25,
-      "trusted_lift": 13.22,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 6.25,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 13.22,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 13.22,
-        "pos_raw": 13.22,
-        "pos_capped": 13.22,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 3,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 3,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 3,
-      "management_quality": null
     }
   },
   {
@@ -4128,6 +3786,51 @@
     }
   },
   {
+    "slug": "frontier-springs",
+    "name": "Frontier Springs",
+    "conviction_score": 41.25,
+    "own_conviction": 41.25,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 59,
+    "market_cap_tier": "Micro/Small-cap (~Rs 1,505 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 41.25,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 14,
+      "quality_lift": 2.25,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "unclear",
+        "shareholder_returns": null
+      }
+    }
+  },
+  {
     "slug": "sun-pharma",
     "name": "Sun Pharma",
     "conviction_score": 41.25,
@@ -4173,32 +3876,32 @@
     }
   },
   {
-    "slug": "vimta-labs-ltd",
-    "name": "Vimta Labs Ltd",
-    "conviction_score": 40.71,
-    "own_conviction": 40.5,
-    "trusted_lift": 0.21,
+    "slug": "kalyani-cast",
+    "name": "Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing",
+    "conviction_score": 40.57,
+    "own_conviction": 36.45,
+    "trusted_lift": 4.12,
     "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": 68.0,
-    "market_cap_tier": "Small-cap (~Rs 2,814 Cr)",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 39.8,
+    "market_cap_tier": "Micro-cap (~Rs 739 Cr)",
     "red_flag_tier": null,
     "source": "trusted-thread",
     "score_breakdown": {
-      "own_conviction": 40.5,
-      "trusted_lift": 0.21,
+      "own_conviction": 36.45,
+      "trusted_lift": 4.12,
       "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 4.5,
-      "management_component": 11.0,
+      "thesis_bonus": 14,
+      "quality_lift": -2.55,
+      "management_component": 0.0,
       "red_flag_penalty": 0,
       "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.21,
+      "trusted_signal_component": 4.12,
       "trusted_lift_neg_floor_applied": false,
       "trusted_signal_detail": {
-        "value": 0.21,
-        "pos_raw": 0.21,
-        "pos_capped": 0.21,
+        "value": 4.12,
+        "pos_raw": 4.12,
+        "pos_capped": 4.12,
         "neg_raw": 0.0,
         "neg_capped": 0.0,
         "n_positive_signals": 1,
@@ -4208,13 +3911,7 @@
         "source": "ledger"
       },
       "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "consistent"
-      }
+      "management_quality": null
     }
   },
   {
@@ -4263,6 +3960,51 @@
     }
   },
   {
+    "slug": "mtar-technologies",
+    "name": "MTAR Technologies Ltd",
+    "conviction_score": 40.28,
+    "own_conviction": 23.03,
+    "trusted_lift": 17.25,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 34.1,
+    "market_cap_tier": "Mid/Large-cap (~Rs 21,400 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 23.03,
+      "trusted_lift": 17.25,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": -3.97,
+      "management_component": 2.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 17.25,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 17.25,
+        "pos_raw": 17.25,
+        "pos_capped": 17.25,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 2,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "clean",
+        "shareholder_returns": null
+      }
+    }
+  },
+  {
     "slug": "samhi-hotels",
     "name": "Samhi Hotels",
     "conviction_score": 40.08,
@@ -4304,6 +4046,51 @@
         "capital_allocation_track_record": null,
         "rpt_trend": "unclear",
         "shareholder_returns": null
+      }
+    }
+  },
+  {
+    "slug": "vimta-labs-ltd",
+    "name": "Vimta Labs Ltd",
+    "conviction_score": 40.01,
+    "own_conviction": 39.8,
+    "trusted_lift": 0.21,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 65.2,
+    "market_cap_tier": "Small-cap (~Rs 2,814 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 39.8,
+      "trusted_lift": 0.21,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 3.8,
+      "management_component": 11.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.21,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.21,
+        "pos_raw": 0.21,
+        "pos_capped": 0.21,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "positive",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "consistent"
       }
     }
   },
@@ -4839,51 +4626,6 @@
     }
   },
   {
-    "slug": "emmvee-photovoltaic-power",
-    "name": "Emmvee Photovoltaic Power Ltd",
-    "conviction_score": 39.25,
-    "own_conviction": 39.25,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": 71.0,
-    "market_cap_tier": "Mid-cap",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 39.25,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 5.25,
-      "management_component": 9.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "no-track-record",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
-      }
-    }
-  },
-  {
     "slug": "jayaswal-neco",
     "name": "Jayaswal Neco- Integrated Steel Player",
     "conviction_score": 39.23,
@@ -4971,6 +4713,45 @@
         "rpt_trend": "unclear",
         "shareholder_returns": "unclear"
       }
+    }
+  },
+  {
+    "slug": "venus-remedies",
+    "name": "Venus Remedies",
+    "conviction_score": 38.87,
+    "own_conviction": 16.5,
+    "trusted_lift": 22.37,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 84,
+    "market_cap_tier": "Mid-cap (~Rs 2,174 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 16.5,
+      "trusted_lift": 22.37,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 8.5,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 22.37,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 22.37,
+        "pos_raw": 22.37,
+        "pos_capped": 22.37,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 3,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
+      "management_quality": null
     }
   },
   {
@@ -5412,6 +5193,51 @@
     }
   },
   {
+    "slug": "vinati-organics",
+    "name": "Vinati Organics Ltd",
+    "conviction_score": 36.46,
+    "own_conviction": 20.5,
+    "trusted_lift": 15.96,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 80,
+    "market_cap_tier": "Mid-cap (~Rs 13,600 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 20.5,
+      "trusted_lift": 15.96,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 7.5,
+      "management_component": 5.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 15.96,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 15.96,
+        "pos_raw": 15.96,
+        "pos_capped": 15.96,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 3,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 3,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 3,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "consistent"
+      }
+    }
+  },
+  {
     "slug": "dhabriya-polywood",
     "name": "Dhabriya Polywood Ltd",
     "conviction_score": 36.42,
@@ -5498,51 +5324,6 @@
         "capital_allocation_track_record": null,
         "rpt_trend": "unclear",
         "shareholder_returns": null
-      }
-    }
-  },
-  {
-    "slug": "deep-industries",
-    "name": "Deep Industries (DIL)",
-    "conviction_score": 36.37,
-    "own_conviction": 32.25,
-    "trusted_lift": 4.12,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 31.0,
-    "market_cap_tier": "Small-mid-cap (~Rs 5,030 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 32.25,
-      "trusted_lift": 4.12,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": -4.75,
-      "management_component": -2.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 4.12,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 4.12,
-        "pos_raw": 4.12,
-        "pos_capped": 4.12,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "neutral",
-        "rpt_trend": "rising",
-        "shareholder_returns": "unclear"
       }
     }
   },
@@ -6831,45 +6612,6 @@
     }
   },
   {
-    "slug": "inventurus-knowledge-solutions",
-    "name": "Inventurus Knowledge Solutions",
-    "conviction_score": 32.44,
-    "own_conviction": 30.75,
-    "trusted_lift": 1.69,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": 73.0,
-    "market_cap_tier": "large-cap",
-    "red_flag_tier": "",
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 30.75,
-      "trusted_lift": 1.69,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 5.75,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 1.69,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 1.69,
-        "pos_raw": 1.69,
-        "pos_capped": 1.69,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "bajaj-consumer-care",
     "name": "Bajaj Consumer Care Ltd",
     "conviction_score": 32.25,
@@ -6950,51 +6692,6 @@
         "capital_allocation_track_record": null,
         "rpt_trend": "flat",
         "shareholder_returns": null
-      }
-    }
-  },
-  {
-    "slug": "bliss-gvs-pharma",
-    "name": "Bliss GVS Pharma Ltd",
-    "conviction_score": 31.75,
-    "own_conviction": 31.75,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": 73.0,
-    "market_cap_tier": "Small/Mid-cap (~Rs 7,100 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-x",
-    "score_breakdown": {
-      "own_conviction": 31.75,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 5.75,
-      "management_component": 1.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "no-track-record",
-        "capital_allocation_track_record": "neutral",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "initiated"
       }
     }
   },
@@ -7170,51 +6867,6 @@
       },
       "distinct_trusted_users": 0,
       "management_quality": null
-    }
-  },
-  {
-    "slug": "hind-rectifiers",
-    "name": "Hind Rectifiers Ltd (HIRECT)",
-    "conviction_score": 31.25,
-    "own_conviction": 31.25,
-    "trusted_lift": 0.0,
-    "conviction": "Low-Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 55.0,
-    "market_cap_tier": "Small/Mid-cap (~Rs 4,425 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 31.25,
-      "trusted_lift": 0.0,
-      "base_anchor": 16,
-      "thesis_bonus": 14,
-      "quality_lift": 1.25,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "neutral",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "unclear"
-      }
     }
   },
   {
@@ -7461,51 +7113,6 @@
       },
       "distinct_trusted_users": 0,
       "management_quality": null
-    }
-  },
-  {
-    "slug": "apcotex-industries-monopoly-in-synthetic-rubber",
-    "name": "Apcotex Industries Ltd",
-    "conviction_score": 30.81,
-    "own_conviction": 28.75,
-    "trusted_lift": 2.06,
-    "conviction": "Low-Medium",
-    "thesis_fit": "neither",
-    "quality_score": 73.0,
-    "market_cap_tier": "Small-cap (~Rs 3,175 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 28.75,
-      "trusted_lift": 2.06,
-      "base_anchor": 16,
-      "thesis_bonus": 0,
-      "quality_lift": 5.75,
-      "management_component": 7.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 2.06,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 2.06,
-        "pos_raw": 2.06,
-        "pos_capped": 2.06,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "fallback-scalar"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "reliable",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "consistent"
-      }
     }
   },
   {
@@ -8211,51 +7818,6 @@
     }
   },
   {
-    "slug": "shaily-engineering",
-    "name": "Shaily Engineering Plastics Ltd",
-    "conviction_score": 29.45,
-    "own_conviction": 26.75,
-    "trusted_lift": 2.7,
-    "conviction": "Low-Medium",
-    "thesis_fit": "neither",
-    "quality_score": 73.0,
-    "market_cap_tier": "Mid-cap (~Rs 15,000 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-x",
-    "score_breakdown": {
-      "own_conviction": 26.75,
-      "trusted_lift": 2.7,
-      "base_anchor": 16,
-      "thesis_bonus": 0,
-      "quality_lift": 5.75,
-      "management_component": 5.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 2.7,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 2.7,
-        "pos_raw": 2.7,
-        "pos_capped": 2.7,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "flat",
-        "shareholder_returns": "initiated"
-      }
-    }
-  },
-  {
     "slug": "piccadily-agro-industries",
     "name": "Piccadily Agro Industries Ltd",
     "conviction_score": 29.41,
@@ -8301,6 +7863,90 @@
     }
   },
   {
+    "slug": "inventurus-knowledge-solutions",
+    "name": "Inventurus Knowledge Solutions",
+    "conviction_score": 29.39,
+    "own_conviction": 27.7,
+    "trusted_lift": 1.69,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 60.8,
+    "market_cap_tier": "large-cap",
+    "red_flag_tier": "",
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 27.7,
+      "trusted_lift": 1.69,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 2.7,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 1.69,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 1.69,
+        "pos_raw": 1.69,
+        "pos_capped": 1.69,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "time-technoplast",
+    "name": "Time Technoplast",
+    "conviction_score": 29.37,
+    "own_conviction": 25.25,
+    "trusted_lift": 4.12,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 71,
+    "market_cap_tier": "Small-cap (~Rs 9,233 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 25.25,
+      "trusted_lift": 4.12,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 5.25,
+      "management_component": 12.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 4.12,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 4.12,
+        "pos_raw": 4.12,
+        "pos_capped": 4.12,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "positive",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "flat",
+        "shareholder_returns": "consistent"
+      }
+    }
+  },
+  {
     "slug": "sunlite",
     "name": "Sunlite",
     "conviction_score": 29.25,
@@ -8340,51 +7986,6 @@
         "assessment": "neutral",
         "guidance_credibility": "no-track-record",
         "capital_allocation_track_record": "neutral",
-        "rpt_trend": "rising",
-        "shareholder_returns": "initiated"
-      }
-    }
-  },
-  {
-    "slug": "raghav-productivity-solutions",
-    "name": "Raghav Productivity Solutions",
-    "conviction_score": 29.25,
-    "own_conviction": 29.25,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": 71.0,
-    "market_cap_tier": "Mid-cap (~Rs 7,950-8,000 Cr, screener.in Sept 2026)",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 29.25,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 5.25,
-      "management_component": -1.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "unclear",
-        "capital_allocation_track_record": "unclear",
         "rpt_trend": "rising",
         "shareholder_returns": "initiated"
       }
@@ -8823,6 +8424,51 @@
     }
   },
   {
+    "slug": "apcotex-industries-monopoly-in-synthetic-rubber",
+    "name": "Apcotex Industries Ltd",
+    "conviction_score": 28.79,
+    "own_conviction": 26.73,
+    "trusted_lift": 2.06,
+    "conviction": "Low-Medium",
+    "thesis_fit": "neither",
+    "quality_score": 64.9,
+    "market_cap_tier": "Small-cap (~Rs 3,175 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 26.73,
+      "trusted_lift": 2.06,
+      "base_anchor": 16,
+      "thesis_bonus": 0,
+      "quality_lift": 3.73,
+      "management_component": 7.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 2.06,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 2.06,
+        "pos_raw": 2.06,
+        "pos_capped": 2.06,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "fallback-scalar"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "reliable",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "consistent"
+      }
+    }
+  },
+  {
     "slug": "quality-power-electrical-equipments",
     "name": "Quality Power Electrical Equipments Ltd (QPOWER)",
     "conviction_score": 28.6,
@@ -9037,7 +8683,7 @@
     "trusted_lift": 0.0,
     "conviction": "Medium",
     "thesis_fit": "neither",
-    "quality_score": null,
+    "quality_score": "None",
     "market_cap_tier": "Small-cap (~Rs 3,434 Cr)",
     "red_flag_tier": null,
     "source": null,
@@ -9240,6 +8886,51 @@
       },
       "distinct_trusted_users": 1,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "macpower-cnc-machines-manufacturing-a-strong-growth",
+    "name": "Macpower CNC Machines: Manufacturing a Strong Growth?",
+    "conviction_score": 27.5,
+    "own_conviction": 27.5,
+    "trusted_lift": 0.0,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 80,
+    "market_cap_tier": "Small-cap (~Rs 2,008 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 27.5,
+      "trusted_lift": 0.0,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 7.5,
+      "management_component": 12.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "positive",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "clean",
+        "shareholder_returns": "initiated"
+      }
     }
   },
   {
@@ -9831,6 +9522,51 @@
     }
   },
   {
+    "slug": "bliss-gvs-pharma",
+    "name": "Bliss GVS Pharma Ltd",
+    "conviction_score": 26.25,
+    "own_conviction": 26.25,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 51,
+    "market_cap_tier": "Small/Mid-cap (~Rs 7,100 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-x",
+    "score_breakdown": {
+      "own_conviction": 26.25,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 0.25,
+      "management_component": 1.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "no-track-record",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "initiated"
+      }
+    }
+  },
+  {
     "slug": "esds-software",
     "name": "ESDS Software Solution Ltd",
     "conviction_score": 26.25,
@@ -9973,7 +9709,7 @@
     "trusted_lift": 0.93,
     "conviction": "Medium",
     "thesis_fit": "neither",
-    "quality_score": null,
+    "quality_score": "None",
     "market_cap_tier": "Large-cap (~Rs 57,152-60,219 Cr)",
     "red_flag_tier": null,
     "source": null,
@@ -10050,47 +9786,47 @@
     }
   },
   {
-    "slug": "sudeep-pharma",
-    "name": "Sudeep Pharma Ltd",
-    "conviction_score": 25.75,
-    "own_conviction": 25.75,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
+    "slug": "td-power-systems",
+    "name": "TD Power Systems",
+    "conviction_score": 25.77,
+    "own_conviction": 13.25,
+    "trusted_lift": 12.52,
+    "conviction": "Low",
     "thesis_fit": "neither",
-    "quality_score": 53.0,
-    "market_cap_tier": "Mid-cap (~Rs 13,096 Cr)",
+    "quality_score": 63,
+    "market_cap_tier": "Mid/Large-cap (~Rs 24,278 Cr)",
     "red_flag_tier": null,
-    "source": "trusted-x",
+    "source": "trusted-thread",
     "score_breakdown": {
-      "own_conviction": 25.75,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
+      "own_conviction": 13.25,
+      "trusted_lift": 12.52,
+      "base_anchor": 8,
       "thesis_bonus": 0,
-      "quality_lift": 0.75,
-      "management_component": 0.0,
+      "quality_lift": 3.25,
+      "management_component": 2.0,
       "red_flag_penalty": 0,
       "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
+      "trusted_signal_component": 12.52,
       "trusted_lift_neg_floor_applied": false,
       "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
+        "value": 12.52,
+        "pos_raw": 12.52,
+        "pos_capped": 12.52,
         "neg_raw": 0.0,
         "neg_capped": 0.0,
-        "n_positive_signals": 0,
+        "n_positive_signals": 3,
         "n_exit_signals": 0,
         "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
+        "distinct_trusted_users": 3,
+        "source": "ledger"
       },
-      "distinct_trusted_users": 0,
+      "distinct_trusted_users": 3,
       "management_quality": {
-        "assessment": "constructive",
-        "guidance_credibility": "moderate - recent IPO limits public guidance history; concalls suggest management is capital-discipline-conscious",
-        "capital_allocation_track_record": "unproven-but-credible (recent IPO, capex is productive per ROCE 28-35% range maintained)",
-        "rpt_trend": "not flagged",
-        "shareholder_returns": "not applicable (in growth capex phase)"
+        "assessment": "neutral",
+        "guidance_credibility": "reliable",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "unclear",
+        "shareholder_returns": null
       }
     }
   },
@@ -13587,6 +13323,45 @@
     }
   },
   {
+    "slug": "hbl-engineering-booting",
+    "name": "HBL Engineering: Booting-up for the Race of the Century",
+    "conviction_score": 24.5,
+    "own_conviction": 12.5,
+    "trusted_lift": 12.0,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 68,
+    "market_cap_tier": "Mid-large cap (~Rs 18,686 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 12.5,
+      "trusted_lift": 12.0,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 4.5,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 12.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 12.0,
+        "pos_raw": 12.0,
+        "pos_capped": 12.0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 4,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
+      "management_quality": null
+    }
+  },
+  {
     "slug": "navin-fluorine-international",
     "name": "Navin Fluorine International Ltd",
     "conviction_score": 24.25,
@@ -13623,6 +13398,51 @@
       },
       "distinct_trusted_users": 1,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "entero-healthcare-solutions",
+    "name": "Entero Healthcare Solutions Ltd",
+    "conviction_score": 24.17,
+    "own_conviction": 10.5,
+    "trusted_lift": 13.67,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 60,
+    "market_cap_tier": "Small-cap (~Rs 7,800 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 10.5,
+      "trusted_lift": 13.67,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 2.5,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 13.67,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 13.67,
+        "pos_raw": 13.67,
+        "pos_capped": 13.67,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 3,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
+      "management_quality": {
+        "assessment": "Above-average management quality; proven M&A integration; shareholder-friendly dividend policy",
+        "guidance_credibility": "Conservative guidance; Q1 FY27 revenue +38% YoY vs expectations, margins guided 4.0%+ achievable",
+        "capital_allocation_track_record": "Acquired ~40+ regional distributors/pharmacies in FY25-26; demonstrated ability to integrate and improve margins",
+        "rpt_trend": "Shareholder returns via dividends (~2% yield); no buyback; focus on reinvestment",
+        "shareholder_returns": "Dividend initiated post strong profitability; minority interest managed at ~20-25% of consolidated profits"
+      }
     }
   },
   {
@@ -13667,6 +13487,51 @@
         "capital_allocation_track_record": "neutral",
         "rpt_trend": "unclear",
         "shareholder_returns": "initiated"
+      }
+    }
+  },
+  {
+    "slug": "sambhv-steel-tubes",
+    "name": "Sambhv Steel Tubes",
+    "conviction_score": 23.62,
+    "own_conviction": 19.25,
+    "trusted_lift": 4.37,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 63,
+    "market_cap_tier": "Small-cap (~Rs 3,750 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 19.25,
+      "trusted_lift": 4.37,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 3.25,
+      "management_component": 8.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 4.37,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 4.37,
+        "pos_raw": 4.37,
+        "pos_capped": 4.37,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 2,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
+      "management_quality": {
+        "assessment": "positive",
+        "guidance_credibility": "reliable",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "unclear",
+        "shareholder_returns": null
       }
     }
   },
@@ -13752,6 +13617,51 @@
       },
       "distinct_trusted_users": 2,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "sudeep-pharma",
+    "name": "Sudeep Pharma Ltd",
+    "conviction_score": 23.25,
+    "own_conviction": 23.25,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 43,
+    "market_cap_tier": "Mid-cap (~Rs 13,096 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-x",
+    "score_breakdown": {
+      "own_conviction": 23.25,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": -1.75,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "constructive",
+        "guidance_credibility": "moderate - recent IPO limits public guidance history; concalls suggest management is capital-discipline-conscious",
+        "capital_allocation_track_record": "unproven-but-credible (recent IPO, capex is productive per ROCE 28-35% range maintained)",
+        "rpt_trend": "not flagged",
+        "shareholder_returns": "not applicable (in growth capex phase)"
+      }
     }
   },
   {
@@ -14988,6 +14898,51 @@
       },
       "distinct_trusted_users": 0,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "kovai-medical-center-and-hospital",
+    "name": "Kovai Medical Center and Hospital",
+    "conviction_score": 19.91,
+    "own_conviction": 19.5,
+    "trusted_lift": 0.41,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 72,
+    "market_cap_tier": "mid-cap",
+    "red_flag_tier": "",
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 19.5,
+      "trusted_lift": 0.41,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 5.5,
+      "management_component": 6.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.41,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.41,
+        "pos_raw": 0.41,
+        "pos_capped": 0.41,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "positive",
+        "guidance_credibility": "high",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "stable",
+        "shareholder_returns": null
+      }
     }
   },
   {
@@ -24483,6 +24438,51 @@
       },
       "distinct_trusted_users": 1,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "deep-industries",
+    "name": "Deep Industries (DIL)",
+    "conviction_score": 9.37,
+    "own_conviction": 5.25,
+    "trusted_lift": 4.12,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 47,
+    "market_cap_tier": "Small-mid-cap (~Rs 5,030 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 5.25,
+      "trusted_lift": 4.12,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": -0.75,
+      "management_component": -2.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 4.12,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 4.12,
+        "pos_raw": 4.12,
+        "pos_capped": 4.12,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "rising",
+        "shareholder_returns": "unclear"
+      }
     }
   },
   {
