@@ -118,5 +118,43 @@
     "evidence_quality": "moderate",
     "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   },
+  "earnings_chain": {
+    "chain": [
+      "Data-centre capex pace and India datacenter-power buildout (behind-the-meter power)",
+      "Cummins' share of DC genset orders (currently ~80%, ~40% of powergen revenue)",
+      "Powergen segment sales volume and ASP",
+      "Powergen EBITDA margin (currently ~21-22%, CPCB IV+ transition complete)",
+      "Operating leverage on the powergen ramp",
+      "OPM expansion (OPM has risen 14%->21% FY21-FY26)",
+      "PAT growth"
+    ],
+    "bottleneck_link": "Data-centre genset supply availability and Cummins' share capture; currently demand-constrained (customers pre-buying, lead-time/supply-constrained, not price-sensitive)",
+    "operating_leverage": "High once the capex is deployed - PG segment +50% YoY with ROCE improving to 40% means strong returns on incremental capacity; OPM expansion is evidence of this",
+    "evidenced_links": [
+      "Q1 FY27 powergen segment +50% YoY; data centres now 40% of PG revenue (up from 23% a year earlier)",
+      "OPM expanded 14%->21% FY21-FY26 on CPCB IV+ transition and powergen mix shift",
+      "Customers pre-buying / supply-constrained rather than price-sensitive (management commentary)",
+      "ROCE improved 21%->40% FY21-FY26"
+    ],
+    "assumed_links": [
+      "Data-centre capex wave sustains at current pace for 2-3 years (macro-dependent risk)",
+      "BESS substitution remains a niche edge-case for 3-5 years, not a mainstream threat (long-term structural risk, not near-term)",
+      "Cummins maintains ~80% share of DC genset market (competitive risk if new entrant scales)"
+    ]
+  },
+  "management_quality": {
+    "capital_allocation": "Conservative capex (trailing-3y FCF conversion ~61% of EBITDA despite powergen +50% ramp suggests disciplined investment, not aggressive capex-driven growth); debt-free (net cash); voluntary retirement/separation program in 2023 to cut operating costs",
+    "capital_allocation_track_record": "disciplined",
+    "rpt_trend": "Parent is Cummins Inc (US); no unusual RPT flagged beyond the parent tech pipeline (green hydrogen/electrolyser optionality)",
+    "guidance_credibility": "high - management's commentary on DC power demand, lead-times, and customer pre-buying is corroborated by global peers (Bloom Energy, CAT) and visible in Q1 FY27 numbers",
+    "shareholder_returns": "not highlighted",
+    "capability_ladder_note": "Cummins has demonstrated execution through the CPCB IV+ transition (margin-accretive), the powergen segment ramp (+50% YoY), and moving up the value chain into full DC-power solutions; the BESS launch is a defensive move against long-run substitution risk",
+    "assessment": "constructive"
+  },
+  "growth_trajectory": {
+    "yoy_trend": "accelerating (powergen +50% YoY, Q1 FY27 +18% topline)",
+    "last_quarters_note": "FY26 revenue +18% YoY, PAT +24% YoY; Q1 FY27 revenue +18% YoY; powergen segment +50% YoY with data centres now 40% of PG revenue (up from 23% a year earlier) - evidence of accelerating DC tailwind",
+    "reverse_pe_note": "~59x P/E on a high-teens revenue CAGR is full for a large-cap even with strong tailwinds; the next 2-3 years of 20%+ growth could sustain this, but any slowdown (macro, competition, or BESS adoption faster than expected) would compress the multiple sharply"
+  },
   "last_post_number_analyzed": 0
 }

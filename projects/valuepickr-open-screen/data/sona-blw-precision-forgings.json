@@ -112,5 +112,41 @@
     "years_cleared": 7,
     "note": "Per screener.in consolidated (FY19-FY26): every year except FY25 cleared both >=10% revenue growth and >=15% ROCE. FY19-FY24 ran ROCE 18-24% on 14-51% revenue growth; FY25 dipped to +11% revenue / ROCE 14% on the EV-demand air-pocket; FY26 recovered to +25.5% revenue with ROCE ~17-18%. A genuine Coffee-Can-grade consistency record."
   },
+  "earnings_chain": {
+    "chain": [
+      "OEM-level EV adoption and content-per-vehicle (motor power, traction efficiency)",
+      "Sona's market-share gains in traction motors, differentials, and powertrains",
+      "Railway component order intake (new business leg)",
+      "Operating leverage on the capex for advanced robotics and Denso JV production",
+      "Gross margin vs raw-material/logistics costs",
+      "Operating expense ratio on rising revenue",
+      "PAT"
+    ],
+    "bottleneck_link": "OEM demand for EV driveline components and content expansion; EV-market demand choppiness (especially Europe, ~25% of revenue) is the near-term constraint",
+    "operating_leverage": "Moderate - fixed R&D and capex are being amortised over a growing revenue base (FY26 +25.5%), but gross-margin compression (vehicle-mix pressure, lower-priced EV platforms) offsets some operating leverage",
+    "evidenced_links": [
+      "FY26 revenue +25.5% YoY with ROCE ~17.8%, confirming growth without sharp margin compression",
+      "Railway component revenue growing as a new leg",
+      "Q2 FY26 showed +24% topline / +20% bottomline, demonstrating operational gearing"
+    ],
+    "assumed_links": [
+      "Railway/robotics/Denso JV orders convert from MoU to commercial revenue within 2-3 years (not yet evidenced; multiple MoUs remain in development per elevated-tier member feedback)",
+      "Europe EV-demand choppiness does not further compress OPM beyond current +300-500 bps pressure (risk to be monitored)"
+    ]
+  },
+  "management_quality": {
+    "capital_allocation": "Heavy-capex phase for advanced robotics (Jun 2026 announcement) and Denso JV; proactively reduced order book by ~Rs 2,500 Cr due to low confidence in certain programs (governance positive, demand-signal caution); dividend policy not highlighted",
+    "capital_allocation_track_record": "disciplined",
+    "rpt_trend": "Denso JV is a new RPT, terms/stage not detailed",
+    "guidance_credibility": "moderate - management's guidance on railway/robotics ramps is largely unproven; MoU-to-commercial conversion timeline is not explicit",
+    "shareholder_returns": "not highlighted (in growth/capex phase)",
+    "capability_ladder_note": "Sona has proven execution on auto-tech through the EV-demand air-pocket (FY25) and recovered to +25.5% FY26 growth; the rare-earth-free ferrite motor is a genuine tech differentiator; but the cascade of new business legs (railway, robotics, Denso JV) are largely unproven at scale and remain MoU-stage per community feedback",
+    "assessment": "cautious-optimistic"
+  },
+  "growth_trajectory": {
+    "yoy_trend": "recovering (after EV-demand air-pocket in FY25)",
+    "last_quarters_note": "FY25 dipped to +11% revenue / ROCE 14% (EV-demand choppy), but FY26 recovered to +25.5% revenue with ROCE ~17.8%; Q2 FY26 +24% topline / +20% bottomline; margin compression ongoing (OPM pressure) but growth rate is healthy for a large-cap",
+    "reverse_pe_note": "~50x P/E (post-Sep-2026) on an 82% one-year stock run leaves no margin for disappointment; any delay in railway/robotics/Denso conversion or further Europe EV-demand weakness would compress the forward multiple sharply"
+  },
   "last_post_number_analyzed": 0
 }

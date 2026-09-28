@@ -103,5 +103,43 @@
     "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   },
   "commitments": [],
+  "earnings_chain": {
+    "chain": [
+      "Indian OEM EV and 4WD-SUV capex pace",
+      "Divgi's programme win rate and market share in EV transmissions",
+      "Production ramp-up (Indonesia 4WD export, domestic EV platforms)",
+      "COGS reduction as volumes scale (currently OPM ~20%)",
+      "Export revenue mix (higher margin, lower risk-of-obsolescence)",
+      "OPM realization (target 20-22%)",
+      "PAT growth"
+    ],
+    "bottleneck_link": "OEM programme order intake and production capacity utilization; currently demand-driven (small scale, ~Rs 375 Cr FY26 revenue)",
+    "operating_leverage": "Significant once proven - OPM recovered to ~20% in FY26 after FY23-25 lull; if EV-transmission ramp sustains, fixed costs should absorb >60% of incremental revenue",
+    "evidenced_links": [
+      "FY26 revenue +56% YoY (Rs 375 Cr) after 3-year decline (FY23-FY25)",
+      "OPM recovered to ~20% in FY26 (vs ~6% in FY24)",
+      "Indonesia 4WD export win (>50% recurring) validates export competitiveness",
+      "EV-transmission order pipeline growing (domestic OEM programs)"
+    ],
+    "assumed_links": [
+      "Domestic EV-transmission programmes scale to Rs 150-200 Cr+ revenue contribution by FY28 (currently embedded in order book but unproven execution)",
+      "Export model extends beyond Indonesia to other geographies (first win does not guarantee diversified franchise)",
+      "ROCE recovers to 15%+ by FY27-28 (currently at 10%, not yet a quality gate pass)"
+    ]
+  },
+  "management_quality": {
+    "capital_allocation": "Debt-free, growth funded from operations/equity; small capex during the demand lull (FY23-FY25) suggests discipline, though FCF conversion was negative; Indonesia export model suggests capability to negotiate global OEM programs",
+    "capital_allocation_track_record": "mixed - the capex discipline during the lull is positive, but ROCE fell 20%->6% FY22-24 suggesting either competitive pressure or suboptimal programme profitability",
+    "rpt_trend": "not flagged",
+    "guidance_credibility": "low - the company is small, listed in 2023 (post-IPO), and has only 1 clear quarter of recovery evidence; Indonesia export validation helps but execution track record at scale is TBD",
+    "shareholder_returns": "not applicable (pre-profitability recovery)",
+    "capability_ladder_note": "The company demonstrated transmission-systems design and qualification capability through the OEM cycles; the Indonesia export win shows ability to compete on cost at a global level; but restoring ROCE to 15%+ at scale is unproven",
+    "assessment": "cautious"
+  },
+  "growth_trajectory": {
+    "yoy_trend": "recovering (from a 3-year decline, FY26 +56% YoY)",
+    "last_quarters_note": "FY26 revenue +56% YoY (Rs 375 Cr) after FY23-FY25 decline; OPM recovered to ~20%; Indonesia 4WD export win announced (first concrete external catalyst); ROCE still at ~10% (not yet a quality gate pass, but recovering from 6%)",
+    "reverse_pe_note": "~56x P/E on a single quarter of recovery and unproven ROCE restoration is aggressive; a second quarter (Q1 FY27) of sustained growth would be confidence-building"
+  },
   "last_post_number_analyzed": 0
 }

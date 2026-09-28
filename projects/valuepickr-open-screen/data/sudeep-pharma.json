@@ -109,5 +109,42 @@
     "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   },
   "commitments": [],
+  "earnings_chain": {
+    "chain": [
+      "Pharma/food/nutraceutical volume growth and pricing power (specialty excipients)",
+      "Product-mix shift toward higher-margin specialized/directly-compressible products",
+      "Export revenue contribution and margin premium (international customers)",
+      "COGS reduction from capacity scale (phosphate/specialty capacity commissioned FY26)",
+      "Operating leverage on higher-margin excipient mix",
+      "OPM realization (currently 35% but declining from 40% in FY23)",
+      "PAT growth"
+    ],
+    "bottleneck_link": "Customer volume growth and adoption rate of specialty excipients; currently demand-driven (no supply bottleneck, no COGS volatility signaled)",
+    "operating_leverage": "Emerging - the FY26 capex (Rs 327 Cr for specialty-excipient + phosphate capacity) is just coming online; should enable margin recovery if volume scales",
+    "evidenced_links": [
+      "FY26 revenue +31% YoY (Rs 676 Cr) with 27% net margin (very high quality)",
+      "1,100+ customers and 100+ SKUs reduce customer concentration risk",
+      "ROCE 35% / ROE 28% sustained across multiple years (quality signal)"
+    ],
+    "assumed_links": [
+      "Pharma customer base continues to adopt specialty excipients at 25-30%+ CAGR (small base, large addressable market)",
+      "Margin rebound from 35% back toward 40% as new capacity utilization improves (FY26 capex is fresh)",
+      "Battery-materials optionality remains a call option (not in base case), but provides upside if phosphate demand accelerates"
+    ]
+  },
+  "management_quality": {
+    "capital_allocation": "Heavy capex phase (Rs 327 Cr in FY26 for capacity expansion); post-IPO, cash-generative (ROCE 35%); no debt. Dividend policy not highlighted; focus on growth capex",
+    "capital_allocation_track_record": "unproven-but-credible (recent IPO, capex is productive per ROCE 28-35% range maintained)",
+    "rpt_trend": "not flagged",
+    "guidance_credibility": "moderate - recent IPO limits public guidance history; concalls suggest management is capital-discipline-conscious",
+    "shareholder_returns": "not applicable (in growth capex phase)",
+    "capability_ladder_note": "Sudeep has demonstrated scaling of specialty-excipient manufacturing with 1,100+ customer relationships and 100+ SKU portfolio; the phosphate chemistry expansion is a capability-ladder move into adjacent battery-materials feedstocks (unproven at scale)",
+    "assessment": "constructive"
+  },
+  "growth_trajectory": {
+    "yoy_trend": "accelerating (FY26 +31% YoY after FY24/FY25 mid-teens misses)",
+    "last_quarters_note": "FY26 revenue +31% YoY (Rs 676 Cr) after FY24 (7%) and FY25 (9%) growth misses; margin at 27% net (strong); ROCE/ROE held 28-35% throughout, confirming quality; recent IPO re-rating reflects this quality recovery",
+    "reverse_pe_note": "~79x P/E on a ~25-30% FY27-28 growth base is priced for perfection; any growth disappointment or margin compression (from current 35% OPM peak) would compress the multiple sharply"
+  },
   "last_post_number_analyzed": 0
 }
