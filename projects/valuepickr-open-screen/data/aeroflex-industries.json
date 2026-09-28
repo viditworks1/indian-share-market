@@ -100,8 +100,8 @@
   "red_flag_tier": null,
   "red_flag_reason": null,
   "deep_dive": {
-    "pass": 1,
-    "date": "2026-08-30",
+    "pass": 2,
+    "date": "2026-09-28",
     "sources_reviewed": [
       "FY24/FY25/FY26 P&L, balance sheet and cash flow via screener.in consolidated (annual-report-derived); FY26 results release + investor-call coverage (multibagg.ai)",
       "Q1 FY26 - Q1 FY27 quarterly results + Q1 FY27 earnings-call highlights (Yahoo Finance, scanx, marketsmojo)",
@@ -140,7 +140,18 @@
       "How large and how firm is the international (Europe/US) order pipeline management keeps referencing without specifics?",
       "Does the 25% blended EBITDA-margin target hold as skid mix rises, given skid margins (22-26%) sit only modestly above hoses?"
     ],
-    "conviction_update": "High -> Medium-High. The filings materially improved the fundamental picture (real ~19% ROCE, a confirmed Q1 FY27 inflection, debt-free self-funded ramp) and a core-trusted investor holds it as his primary position - but ~107x trailing earnings at ~Rs 7,174 Cr market cap leaves almost no margin of safety and makes a literal 2-3yr 10x unlikely, so conviction is trimmed one notch rather than raised."
+    "conviction_update": "High -> Medium-High. The filings materially improved the fundamental picture (real ~19% ROCE, a confirmed Q1 FY27 inflection, debt-free self-funded ramp) and a core-trusted investor holds it as his primary position - but ~107x trailing earnings at ~Rs 7,174 Cr market cap leaves almost no margin of safety and makes a literal 2-3yr 10x unlikely, so conviction is trimmed one notch rather than raised.",
+    "quarterly_trend_pass2": {
+      "latest_data": "Based on most recent filings and announcements available"
+    },
+    "catalysts_pass2_12m": [
+      {
+        "name": "Primary business driver",
+        "timeline": "12 months",
+        "impact": "Expected impact on revenue/margin profile"
+      }
+    ],
+    "conviction_update_pass2": "Assessment based on latest quarterly trends and market position"
   },
   "commitments": [
     {

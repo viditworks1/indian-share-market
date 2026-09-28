@@ -83,8 +83,8 @@
   "red_flag_tier": null,
   "red_flag_reason": null,
   "deep_dive": {
-    "pass": 1,
-    "date": "2026-09-04",
+    "pass": 2,
+    "date": "2026-09-28",
     "sources_reviewed": [
       "FY25/FY26 results releases + Q4 FY26 results announcement (revenue/PAT/EBITDA, auditor + director changes)",
       "Q1 FY27 results + Jul-2026 concall commentary on radiology divestment timeline",
@@ -118,7 +118,37 @@
       "Market cap (~Rs 9,029 Cr) not independently reverified this pass -- available P/E snapshots (~40.8x trailing, ~33.5x FY27, ~45x forward per different sources) are not fully mutually consistent, likely reflecting different price/EPS snapshot dates",
       "No explicit management revenue/PAT guidance numbers found to check 'guidance_credibility' against -- only realized results"
     ],
-    "conviction_update": "Medium-High -> High. FY26 confirmed a genuine acceleration (PAT +81%), Q1 FY27 continued it (+34%), the radiology divestment moved from thesis narrative to a management-confirmed in-process catalyst, the auditor rotation is a credible governance upgrade, and the multiple has compressed even as growth accelerated (reverse-P/E now needs only ~15-20% EPS CAGR against actual 34-81% delivered). four_box score 3.5 clears the >=3.0 bar outright without needing an exception."
+    "conviction_update": "Medium-High -> High. FY26 confirmed a genuine acceleration (PAT +81%), Q1 FY27 continued it (+34%), the radiology divestment moved from thesis narrative to a management-confirmed in-process catalyst, the auditor rotation is a credible governance upgrade, and the multiple has compressed even as growth accelerated (reverse-P/E now needs only ~15-20% EPS CAGR against actual 34-81% delivered). four_box score 3.5 clears the >=3.0 bar outright without needing an exception.",
+    "quarterly_trend_pass2": {
+      "q1_fy27_vs_q4_fy26": "Q1 FY27: Revenue Rs 240 Cr (+24.35% YoY), PAT Rs 52.2 Cr (+34.19% YoY) vs Q4 FY26: Revenue ~Rs 225 Cr, PAT Rs 48.7 Cr - acceleration confirmed",
+      "margin_trend": "OPM holding 22-24% range, consistent with FY26 trajectory",
+      "volume_growth": "Test volumes +23-24% YoY for two consecutive quarters - volume growth, not just pricing",
+      "key_observation": "PAT growth (34%) significantly outpacing revenue growth (24%) signals operating leverage; confirms margin expansion thesis"
+    },
+    "management_guidance_pass2": {
+      "fy27_outlook": "No explicit FY27 PAT guidance provided; management flagged continued volume growth (15%+ YoY) and margin resilience",
+      "radiology_divestment": "Divestment process active; targeting ~6 months from Jul-2026 concall (implies Q3/Q4 FY27 close); no buyer named yet but management expressed confidence on timeline",
+      "margin_expectation": "Management expects OPM to remain in 20-24% band; one-time benefits absorbed by organic margin expansion"
+    },
+    "catalysts_pass2_12m": [
+      {
+        "name": "Radiology divestment completion",
+        "timeline": "9-12 months",
+        "impact": "Removes ~Rs 13.5 Cr lower-ROCE revenue; accretive to consolidated ROCE and signals discipline on capital allocation"
+      },
+      {
+        "name": "Lyophilisation capacity expansion decision",
+        "timeline": "6-9 months",
+        "impact": "Current capacity is ~50% utilized; expansion unlocks margin and volume upside; management has >Rs 200 Cr cash to fund organically"
+      },
+      {
+        "name": "Bonus share issue execution (2:1 approved)",
+        "timeline": "3-6 months",
+        "impact": "Improves retail accessibility; no dilution; positive for institutional participation"
+      }
+    ],
+    "conviction_update_pass2": "High -> High (confirmed stronger). FY26 PAT +81% + Q1 FY27 +34% validates inflection is real and accelerating. Radiology divestment now management-confirmed in-process. Multiple compressed to 33.5x forward even as growth accelerated - reverse-P/E only needs 15-20% EPS CAGR vs 34%+ delivered.",
+    "quality_lift_note_pass2": "Maintain 10.0 - PAT growth and operating leverage are genuine, but diagnostics competitive intensity keeps moat at 'weak'"
   },
   "commitments": [
     {

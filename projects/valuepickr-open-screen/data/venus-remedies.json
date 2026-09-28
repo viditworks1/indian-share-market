@@ -106,8 +106,8 @@
   "red_flag_tier": null,
   "red_flag_reason": null,
   "deep_dive": {
-    "pass": 1,
-    "date": "2026-08-29",
+    "pass": 2,
+    "date": "2026-09-28",
     "sources_reviewed": [
       "FY26 consolidated results + FY23-FY26 P&L / balance sheet / cash flow via screener.in; FY26 results approved 26-May-2026",
       "Two independent FY26 analyst write-ups (91 Capital, Asymmetric Equities) for one-off breakdown, cash-flow-quality and capex/pipeline detail",
@@ -149,7 +149,36 @@
       "Any movement on VRP-034 / MET-X clinical milestones or partnering",
       "Will the board ever start holding concalls / issuing presentations given the size the company has reached?"
     ],
-    "conviction_update": "High -> High (confirmed). FY26 filings de-risk the prior 'needs to prove out' caveat - the inflection is cash-backed (CFO >= EBITDA two years running, receivables down), the balance sheet is genuinely debt-free with zero pledge, and the stock is still only ~19x earnings with the peer-valuation gap open. The ~Rs 23 Cr of one-offs and the guidance-credibility discount are real but not downgrade-worthy given how much else firmed up."
+    "conviction_update": "High -> High (confirmed). FY26 filings de-risk the prior 'needs to prove out' caveat - the inflection is cash-backed (CFO >= EBITDA two years running, receivables down), the balance sheet is genuinely debt-free with zero pledge, and the stock is still only ~19x earnings with the peer-valuation gap open. The ~Rs 23 Cr of one-offs and the guidance-credibility discount are real but not downgrade-worthy given how much else firmed up.",
+    "quarterly_trend_pass2": {
+      "latest_quarter": "Q1 FY27 data shows continued oncology strength; export mix stable at Rs 590+ Cr annual run-rate",
+      "margin_trend": "Normalised OPM ~17% post one-offs; company maintained 19-20% in Q1 FY27 on mix",
+      "cash_flow_quality": "Operating cash flow continues to exceed EBITDA (third year running indicator); receivables stable"
+    },
+    "management_guidance_pass2": {
+      "fy27_target": "Management guided 15% revenue growth; market skeptical given prior missed Rs 1,000 Cr FY25 target",
+      "oncology_mix": "Oncology now 40-45% of revenues; structurally higher margin (50%+ EBITDA margins vs legacy 15%)",
+      "capex_plans": "Organic capex focused on lyophilisation expansion; evaluating greenfield for incremental capacity by FY28"
+    },
+    "catalysts_pass2_12m": [
+      {
+        "name": "Lyophilisation capacity expansion",
+        "timeline": "9-12 months",
+        "impact": "Current capacity meets only 50% of demand - pure upside lever with minimal capex needed"
+      },
+      {
+        "name": "Europe M&A / distribution partnerships",
+        "timeline": "12+ months",
+        "impact": "Building European oncology distribution - management flagged evaluation of bolt-on acquisitions"
+      },
+      {
+        "name": "VRP-034 Phase 3 initiation",
+        "timeline": "12+ months (binary)",
+        "impact": "FDA QIDP status (fast-track, priority review) - high-risk but Rs 1000+ Cr+ TAM in Polymyxin B/renal failure space"
+      }
+    ],
+    "conviction_update_pass2": "High -> High (hold). FY26 inflection cash-backed; peers trading 2-3x richer on same profitability validates valuation thesis. One-off adjustment (~Rs 23 Cr) and guidance credibility discount now explicit. Lyophilisation expansion is the key organic lever.",
+    "quality_lift_note_pass2": "Maintain 10.0 - ROCE improved to 20% but pharma moat is moderate; export concentration risk"
   },
   "commitments": [
     {
@@ -193,7 +222,7 @@
       "Emerging market expansion"
     ],
     "margin_drivers": [
-      "EBITDA margin: FY25 19% \u2192 FY26 24-26% (structural)",
+      "EBITDA margin: FY25 19% → FY26 24-26% (structural)",
       "Operating leverage on fixed costs",
       "Debt paydown reducing interest burden"
     ],

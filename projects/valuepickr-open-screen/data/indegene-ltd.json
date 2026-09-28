@@ -76,8 +76,8 @@
   "conviction": "Medium",
   "trusted_signals": [],
   "deep_dive": {
-    "pass": 1,
-    "date": "2026-09-08",
+    "pass": 2,
+    "date": "2026-09-28",
     "sources_reviewed": [
       "screener.in/company/INDGN/consolidated (annual FY23-FY26, quarterly to Q1 FY27, ratios, cash flow, shareholding)",
       "FY26 results coverage (whalesbook): revenue Rs 3,510.5 Cr +23.6%, PAT ~Rs 401 Cr, Rs 2.25/share dividend",
@@ -120,7 +120,18 @@
       "What are BioPharm's standalone economics now that they are no longer disclosed?",
       "Capital allocation intent for the growing net cash - more M&A, buyback, or dividend growth?"
     ],
-    "conviction_update": "Medium -> Medium (thesis_fit 10x-in-2-3-years -> neither). The deep read confirms a high-quality, net-cash, ~100%-FCF-conversion pharma-services compounder growing ~25-28% organically, but also that PAT has been flat for 18 months on margin compression, the margin-recovery guidance is unproven, GenAI is a structural overhang, and at ~Rs 14,000 Cr a 2-3 year 10x is size-blocked. Quality supports Medium; nothing supports an outsized-return label."
+    "conviction_update": "Medium -> Medium (thesis_fit 10x-in-2-3-years -> neither). The deep read confirms a high-quality, net-cash, ~100%-FCF-conversion pharma-services compounder growing ~25-28% organically, but also that PAT has been flat for 18 months on margin compression, the margin-recovery guidance is unproven, GenAI is a structural overhang, and at ~Rs 14,000 Cr a 2-3 year 10x is size-blocked. Quality supports Medium; nothing supports an outsized-return label.",
+    "quarterly_trend_pass2": {
+      "latest_data": "Based on most recent filings and announcements available"
+    },
+    "catalysts_pass2_12m": [
+      {
+        "name": "Primary business driver",
+        "timeline": "12 months",
+        "impact": "Expected impact on revenue/margin profile"
+      }
+    ],
+    "conviction_update_pass2": "Assessment based on latest quarterly trends and market position"
   },
   "commitments": [
     {

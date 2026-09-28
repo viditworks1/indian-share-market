@@ -117,5 +117,37 @@
     "evidence_quality": "moderate",
     "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   },
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "earnings_chain": {
+    "chain": [
+      "Merger consideration (LVPEI stake acquisition) completing FY27",
+      "Post-merger: LVPEI patient base + surgical volumes",
+      "Combined operating leverage on admin/IT/procurement",
+      "EBITDA margin normalization post-integration",
+      "PAT growth post-integration + minority interest impact"
+    ],
+    "bottleneck_link": "Merger integration success + LVPEI volume ramp post-acquisition",
+    "operating_leverage": "Moderate - post-merger integration complexity; but opportunity to consolidate 2 large regional chains",
+    "evidenced_links": [
+      "Merger announced with LVPEI (L V Prasad Eye Institute); consideration ~Rs 120-130 Cr stake + working capital"
+    ],
+    "assumed_links": [
+      "Post-merger EBITDA margin improves to 18-20% from current 14-15% via cost synergies",
+      "Combined patient volumes support volume CAGR 10-12% through FY28"
+    ]
+  },
+  "management_quality": {
+    "capital_allocation": "Merger-focused in FY26-27; disciplined on capex; focused on integrating newly acquired LVPEI stake",
+    "capital_allocation_track_record": "Historic: Steady expansion of eye-care centers across India; focused on high-volume model",
+    "rpt_trend": "Dividend minimal due to merger activity; post-merger will evaluate capital return policy",
+    "guidance_credibility": "Management conservative on timelines; merger integration risk higher than standalone operations",
+    "shareholder_returns": "Minimal shareholder distributions during merger phase",
+    "capability_ladder_note": "Promoter group experienced in eye-care; execution on multi-center operations and supply chain proven",
+    "assessment": "Merger arbitrage play; management quality good but execution risk around LVPEI integration"
+  },
+  "growth_trajectory": {
+    "yoy_trend": "lumpy",
+    "last_quarters_note": "Merger activity dominates outlook; FY27 shows transition quarter with merger-related costs. Post-merger (FY28E) expects accelerating volumes from combined patient base",
+    "reverse_pe_note": "High uncertainty due to merger; current valuation reflects merger completion + 12-15% post-merger consolidated PAT growth assumption"
+  }
 }

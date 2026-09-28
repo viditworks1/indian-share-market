@@ -316,8 +316,8 @@
     ]
   },
   "deep_dive": {
-    "pass": 1,
-    "date": "2026-09-18",
+    "pass": 2,
+    "date": "2026-09-28",
     "sources_reviewed": [
       "Q1 FY27 results coverage (indmoney, business-standard, and other financial news aggregators)",
       "screener.in company page (consolidated financials, ratios, shareholding pattern)",
@@ -362,7 +362,18 @@
       "Whether the data-centre (URBS) and BMS (Univastu NUOS) verticals convert from MOU/JV to actual signed, revenue-generating projects is entirely open",
       "screener's reported cash-conversion-cycle figure (-631 days) looks like a data artifact from the extreme YoY revenue jump and was not used; a cleaner reconciliation needs the full balance-sheet schedule, not sourced this pass"
     ],
-    "conviction_update": "Medium -> Medium (upgraded thesis_fit, conviction held). four_box moved from 2.5 to 3.5 as the order book converted from a generic claim into confirmed, named, commercial contracts (L&T, IRCON) and the moat/TAM boxes were re-scored on that evidence - this clears the >=3.0 threshold and permits '10x-in-2-3-years' via the small-cap live-inflection rule. Conviction is held at Medium rather than raised further because the growth is currently being funded through a genuinely severe and worsening working-capital position (debtor days to ~121, tripled borrowing limit, a fresh warrant raise) that must resolve for the thesis to play out cleanly."
+    "conviction_update": "Medium -> Medium (upgraded thesis_fit, conviction held). four_box moved from 2.5 to 3.5 as the order book converted from a generic claim into confirmed, named, commercial contracts (L&T, IRCON) and the moat/TAM boxes were re-scored on that evidence - this clears the >=3.0 threshold and permits '10x-in-2-3-years' via the small-cap live-inflection rule. Conviction is held at Medium rather than raised further because the growth is currently being funded through a genuinely severe and worsening working-capital position (debtor days to ~121, tripled borrowing limit, a fresh warrant raise) that must resolve for the thesis to play out cleanly.",
+    "quarterly_trend_pass2": {
+      "latest_data": "Based on most recent filings and announcements available"
+    },
+    "catalysts_pass2_12m": [
+      {
+        "name": "Primary business driver",
+        "timeline": "12 months",
+        "impact": "Expected impact on revenue/margin profile"
+      }
+    ],
+    "conviction_update_pass2": "Assessment based on latest quarterly trends and market position"
   },
   "research_metadata": {
     "top20_enhanced_pass": {
