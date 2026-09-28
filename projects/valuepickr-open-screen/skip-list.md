@@ -472,7 +472,7 @@ Generated: 2026-09-28
 | Trent -- A value unlocking story from the house of TATA | 2026-09-26 | 2026-10-26 | Medium |
 | Antelopus Selan Oil Exploration | 2026-09-26 | 2026-10-26 | Low-Medium |
 | Senco Gold: Upcoming gold story! | 2026-09-26 | 2026-10-26 | Medium |
-| Yash Pakka | 2026-09-26 | 2026-10-26 | Medium |
+| Yash Pakka | 2026-09-26 | 2026-10-26 | Low-Medium |
 | Indiamart Intermesh | 2026-09-26 | 2026-10-26 | Medium-High |
 | Tamilnad Mercantile Bank Ltd (TMB Ltd) | 2026-09-26 | 2026-10-26 | Low-Medium |
 | Sakar Healthcare | 2026-09-26 | 2026-10-26 | Low-Medium |
@@ -513,7 +513,6 @@ Generated: 2026-09-28
 | Everest Kanto Cylinders Ltd. | 2026-09-26 | 2026-10-26 | Low-Medium |
 | Tamboli Capital: Its a Casting Company! | 2026-09-26 | 2026-10-26 | Low |
 | Salzer Electronics | 2026-09-26 | 2026-10-26 | Medium-High |
-| Epack Durable Ltd | 2026-09-26 | 2026-10-26 | Low-Medium |
 | Brigade Hotel Ventures Ltd | 2026-09-26 | 2026-10-26 | Low-Medium |
 | Gokaldas exports -- cup and handle/rising channel | 2026-09-26 | 2026-10-26 | Medium-High |
 | AGI Greenpac- on the cusp of growth? | 2026-09-26 | 2026-10-26 | Low-Medium |

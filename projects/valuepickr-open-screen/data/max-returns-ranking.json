@@ -1,6 +1,6 @@
 {
   "date_compiled": "2026-09-28",
-  "total_researched": 955,
+  "total_researched": 954,
   "intro": "This is a SECOND, criteria-free ranking of every researched stock - it does NOT apply the main screen's 10x-in-2-3-years / 100x-in-10-years thesis-fit gate. It exists as a hedge in case that return-magnitude bar is too strict and is excluding genuinely good opportunities (e.g. a high-quality large-cap with a real catalyst that just can't mathematically 10x). Ranked purely by conviction - the same fundamentals/technicals/community assessment used everywhere else in this project, just without the extreme-return filter. Cross-check against docs/00_SCREEN_RANKING.docx (the thesis-gated view) before acting - a stock ranked highly here but absent there is exactly the case this document is meant to catch.",
   "ranked": [
     {
@@ -936,13 +936,6 @@
     },
     {
       "name": "Senco Gold: Upcoming gold story!",
-      "conviction": "Medium",
-      "thesis_fit": "100x-in-10-years",
-      "market_cap_tier": "",
-      "reason": ""
-    },
-    {
-      "name": "Yash Pakka",
       "conviction": "Medium",
       "thesis_fit": "100x-in-10-years",
       "market_cap_tier": "",
@@ -3470,13 +3463,6 @@
     },
     {
       "name": "Everest Kanto Cylinders Ltd.",
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "",
-      "reason": ""
-    },
-    {
-      "name": "Epack Durable Ltd",
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
       "market_cap_tier": "",
@@ -6421,6 +6407,14 @@
       "thesis_fit": "neither",
       "market_cap_tier": "Nano-cap (~Rs 45-46 Cr)",
       "reason": "Nano-cap VFX outsourcing (US/Canada films/OTT); claims FY26 turnaround but negative TTM EPS, ~0% multi-yr rev growth, ~370-day debtors, ~86.5% promoter pledge (HIGH CAUTION). GenAI automates the commodity roto/tracking work it sells. neither, Low.",
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "name": "Yash Pakka",
+      "conviction": "Low-Medium",
+      "thesis_fit": "100x-in-10-years",
+      "market_cap_tier": "",
+      "reason": "Genuine Q1 FY27 growth inflection (rev +42%, PBT +34% YoY, highest-ever quarter) but promoters have pledged 76.9% of their holding (screener.in) - HIGH CAUTION, unresolved governance concern",
       "red_flag_tier": "HIGH CAUTION"
     },
     {
