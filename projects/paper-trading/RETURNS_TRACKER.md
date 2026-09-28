@@ -6,7 +6,7 @@ This is a **forward-testing** journal, not a backtest. Every Monday a brand-new,
 - **standard** — mirrors the recommendation's current allocation as-is (~10 diversified positions).
 - **concentrated** — top-5 of the candidate universe by a **2-factor composite** (`master_score` 75% + technical 25%, technical itself weekly EMA 60% / monthly EMA 40%), sized 25/20/20/17/13. `master_score` (valuepickr-open-screen, built from studying real high-return investors' documented methods) is itself a renormalized blend of conviction + quality + expectation-gap + consistency + asymmetry — see `valuepickr-open-screen/scripts/MASTER_SCORE_METHODOLOGY.md`. Before 2026-09-05 this was a 4-factor composite (conviction 30% + gap 30% + fundamental screen-tier 25% + weekly technical 15%); before 2026-09-01 it ranked on conviction score alone. Conviction/gap/fundamental-tier are still shown per-name for context, just no longer weighted separately into the composite (they'd double-count against `master_score`).
 
-**Last updated:** 2026-09-26 (generated 2026-09-26 23:14). Daily history: 18 day(s) recorded.
+**Last updated:** 2026-09-28 (generated 2026-09-28 21:48). Daily history: 19 day(s) recorded.
 
 ---
 
@@ -14,18 +14,20 @@ This is a **forward-testing** journal, not a backtest. Every Monday a brand-new,
 
 | Cohort | Series | Decided | Entry Basis | Days Live | Current Value (Rs) | 1-Day | Return % |
 |---|---|---|---|---:|---:|---:|---:|
-| 2026-W35-inaugural | standard | 2026-08-25 | 2026-08-21 | 36 | 110,346.03 | +0.42% | **+10.35%** |
-| 2026-W36 | standard | 2026-08-31 | 2026-08-28 | 29 | 106,936.95 | +0.30% | **+6.94%** |
-| 2026-W36 | concentrated | 2026-08-31 | 2026-08-28 | 29 | 100,996.70 | -0.42% | **+1.00%** |
-| 2026-W37 | standard | 2026-09-07 | 2026-09-04 | 22 | 104,205.90 | +0.01% | **+4.21%** |
-| 2026-W37 | concentrated | 2026-09-07 | 2026-09-04 | 22 | 102,374.15 | -1.04% | **+2.37%** |
-| 2026-W39 | standard | 2026-09-21 | 2026-09-18 | 8 | 101,140.44 | +0.03% | **+1.14%** |
-| 2026-W39 | concentrated | 2026-09-21 | 2026-09-18 | 8 | 102,059.60 | +0.25% | **+2.06%** |
+| 2026-W35-inaugural | standard | 2026-08-25 | 2026-08-21 | 38 | 109,875.44 | -0.43% | **+9.88%** |
+| 2026-W36 | standard | 2026-08-31 | 2026-08-28 | 31 | 106,049.27 | -0.83% | **+6.05%** |
+| 2026-W36 | concentrated | 2026-08-31 | 2026-08-28 | 31 | 100,398.80 | -0.59% | **+0.40%** |
+| 2026-W37 | standard | 2026-09-07 | 2026-09-04 | 24 | 103,347.53 | -0.82% | **+3.35%** |
+| 2026-W37 | concentrated | 2026-09-07 | 2026-09-04 | 24 | 102,380.25 | +0.01% | **+2.38%** |
+| 2026-W39 | standard | 2026-09-21 | 2026-09-18 | 10 | 100,229.31 | -0.90% | **+0.23%** |
+| 2026-W39 | concentrated | 2026-09-21 | 2026-09-18 | 10 | 101,878.55 | -0.18% | **+1.88%** |
+| 2026-W40 | standard | 2026-09-28 | 2026-09-25 | 3 | 98,770.45 | — | **-1.23%** |
+| 2026-W40 | concentrated | 2026-09-28 | 2026-09-25 | 3 | 99,599.35 | — | **-0.40%** |
 
-*Concentrated series: 3 cohort(s), average return **+1.81%**.*
-*Standard series: 4 cohort(s), average return **+5.66%**.*
+*Concentrated series: 4 cohort(s), average return **+1.06%**.*
+*Standard series: 5 cohort(s), average return **+3.66%**.*
 
-**Age-matched:** ~1wk old: standard +1.14% vs concentrated +2.06%; ~3wk old: standard +4.21% vs concentrated +2.37%; ~4wk old: standard +6.94% vs concentrated +1.00%.
+**Age-matched:** ~0wk old: standard -1.23% vs concentrated -0.40%; ~1wk old: standard +0.23% vs concentrated +1.88%; ~3wk old: standard +3.35% vs concentrated +2.38%; ~4wk old: standard +6.05% vs concentrated +0.40%.
 
 ---
 
@@ -35,17 +37,17 @@ Scored fresh each run from live weekly + monthly technicals + the current `maste
 
 | # | Name | Composite | Master | Conv | Gap | Fund | Tech (wk/mo) | Ext vs 30W EMA | Ext vs 10M EMA | 30W Slope | vs 52W Hi | RS/13wk | Conv-only rank | Δ | Flags |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| 1 ★ | Venus Remedies | **79.6** | 77 | 91 | 70 | 90 | 86/94 | +18.4% | +27.3% | +14.0% | -14.3% | -16.9pp | 1 | 0 | PEAKED (-14.3% off 52W hi), DECELERATING, LAGGING MARKET (-17pp vs benchmark/13wk) |
-| 2 ★ | Macpower CNC Machines | **64.7** | 65 | 81 | 30 | 90 | 53/79 | +42.5% | +45.9% | +30.0% | -2.0% | +76.1pp | 3 | ▲1 | LEADER (+76pp vs benchmark/13wk) |
-| 3 ★ | Aeroflex Industries | **57.5** | 52 | 85 | 0 | 90 | 63/88 | +26.9% | +36.1% | +20.2% | -6.8% | +10.1pp | 2 | ▼1 | FADING (-17pp ext/4wk) |
-| 4 ★ | Yash Highvoltage | **56.0** | 50 | 49 | 37 | 70 | 63/87 | +33.8% | +37.7% | +17.9% | +0.0% | +21.3pp | 6 | ▲2 | - |
-| 5 ★ | Bansal Roofing Products | **56.0** | 46 | 53 | 6 | 88 | 74/100 | +26.9% | +20.3% | +10.1% | +0.0% | +33.1pp | 5 | 0 | LEADER (+33pp vs benchmark/13wk) |
-| 6 | Entero Healthcare Solutions | **47.3** | 37 | 61 | 33 | 90 | 68/90 | +32.1% | +32.6% | +17.0% | -0.3% | +51.8pp | 4 | ▼2 | LEADER (+52pp vs benchmark/13wk) |
-| 7 | L. T. Elevators | **38.7** | 35 | 36 | 24 | 70 | 75/15 | +26.7% | — | +22.9% | -11.2% | +25.1pp | 7 | 0 | PEAKED (-11.2% off 52W hi) |
-| 8 | GPT Healthcare | **37.0** | 16 | 3 | 45 | 88 | 100/100 | +6.9% | +7.9% | +3.6% | -5.4% | +6.8pp | 10 | ▲2 | - |
-| 9 | Haldyn Glass | **25.4** | 4 | 3 | 45 | 88 | 84/98 | +21.1% | +23.1% | +12.2% | -0.6% | +20.5pp | 11 | ▲2 | - |
-| 10 | Asahi Songwon Colors | **23.0** | 3 | 3 | 45 | 88 | 72/100 | +29.9% | +22.8% | +16.7% | +0.0% | +54.8pp | 9 | ▼1 | LEADER (+55pp vs benchmark/13wk) |
-| 11 | Novartis India | **23.0** | 10 | 20 | 45 | 88 | 54/74 | +38.5% | +49.3% | +23.5% | -17.8% | +34.4pp | 8 | ▼3 | PEAKED (-17.8% off 52W hi), LEADER (+34pp vs benchmark/13wk) |
+| 1 ★ | Venus Remedies | **79.6** | 77 | 91 | 70 | 90 | 86/94 | +18.4% | +27.3% | +14.0% | -14.3% | -17.0pp | 1 | 0 | PEAKED (-14.3% off 52W hi), EMA50 BREAK, LAGGING MARKET (-17pp vs benchmark/13wk) |
+| 2 ★ | Macpower CNC Machines | **64.7** | 65 | 81 | 30 | 90 | 53/79 | +42.5% | +45.9% | +30.0% | -2.0% | +65.1pp | 3 | ▲1 | LEADER (+65pp vs benchmark/13wk) |
+| 3 ★ | Aeroflex Industries | **57.5** | 52 | 85 | 0 | 90 | 62/88 | +26.9% | +36.1% | +20.2% | -6.8% | +8.1pp | 2 | ▼1 | FADING (-17pp ext/4wk) |
+| 4 ★ | Yash Highvoltage | **56.0** | 50 | 49 | 37 | 70 | 63/87 | +33.8% | +37.7% | +17.9% | +0.0% | +22.1pp | 6 | ▲2 | - |
+| 5 ★ | Bansal Roofing Products | **56.0** | 46 | 53 | 6 | 88 | 74/100 | +26.9% | +20.3% | +10.1% | +0.0% | +30.9pp | 5 | 0 | LEADER (+31pp vs benchmark/13wk) |
+| 6 | Entero Healthcare Solutions | **47.2** | 37 | 61 | 33 | 90 | 68/90 | +32.1% | +32.6% | +17.0% | -0.3% | +47.8pp | 4 | ▼2 | LEADER (+48pp vs benchmark/13wk) |
+| 7 | L. T. Elevators | **38.7** | 35 | 36 | 24 | 70 | 74/15 | +26.7% | — | +22.9% | -11.2% | +22.9pp | 7 | 0 | PEAKED (-11.2% off 52W hi) |
+| 8 | GPT Healthcare | **37.0** | 16 | 3 | 45 | 88 | 100/100 | +6.9% | +7.9% | +3.6% | -5.4% | +5.0pp | 10 | ▲2 | EMA50 BREAK |
+| 9 | Haldyn Glass | **25.6** | 4 | 3 | 45 | 88 | 85/98 | +21.1% | +23.1% | +12.2% | -0.6% | +31.5pp | 11 | ▲2 | LEADER (+32pp vs benchmark/13wk) |
+| 10 | Asahi Songwon Colors | **23.0** | 3 | 3 | 45 | 88 | 72/100 | +29.9% | +22.8% | +16.7% | +0.0% | +53.9pp | 9 | ▼1 | LEADER (+54pp vs benchmark/13wk) |
+| 11 | Novartis India | **23.0** | 10 | 20 | 45 | 88 | 54/74 | +38.5% | +49.3% | +23.5% | -17.8% | +33.0pp | 8 | ▼3 | PEAKED (-17.8% off 52W hi), LEADER (+33pp vs benchmark/13wk) |
 
 *Out of pool:* Dynamic Cables (below 30W EMA -0.2%)
 
@@ -66,134 +68,168 @@ Scored fresh each run from live weekly + monthly technicals + the current `maste
 
 ## Cohort: 2026-W35-inaugural (standard)
 
-Decided 2026-08-25, entry-priced off 2026-08-21 close. 36 days live. Invested Rs 84,544.37 / cash Rs 15,455.63.
+Decided 2026-08-25, entry-priced off 2026-08-21 close. 38 days live. Invested Rs 84,544.37 / cash Rs 15,455.63.
 
 | Holding | Wt % | Entry | Shares | Invested | Price | As of | 1-Day | Return % | Contrib pp |
 |---|---:|---:|---:|---:|---:|---|---:|---:|---:|
-| Novartis India | 11 | 1,418.90 | 7 | 9,932.30 | 1,965.60 | 2026-09-25* | -0.29% | +38.53% | +3.83 |
-| Yash Highvoltage | 9 | 912.20 | 9 | 8,209.80 | 1,086.40 | 2026-09-25* | -3.25% | +19.10% | +1.57 |
-| Bansal Roofing Products | 6 | 136.55 | 43 | 5,871.65 | 167.10 | 2026-09-25* | +5.53% | +22.37% | +1.31 |
-| RNIT AI Solutions | 5 | 87.65 | 57 | 4,996.05 | 106.47 | 2026-09-25* | +6.04% | +21.47% | +1.07 |
-| Macpower CNC Machines | 11 | 1,874.80 | 5 | 9,374.00 | 2,062.50 | 2026-09-25* | +0.07% | +10.01% | +0.94 |
-| Asahi Songwon Colors | 10 | 368.00 | 27 | 9,936.00 | 402.75 | 2026-09-25* | +5.18% | +9.44% | +0.94 |
-| Haldyn Glass | 6 | 132.25 | 45 | 5,951.25 | 146.65 | 2026-09-25* | -0.34% | +10.89% | +0.65 |
-| GPT Healthcare | 8 | 150.64 | 53 | 7,983.92 | 161.27 | 2026-09-25* | -0.28% | +7.06% | +0.56 |
-| Dynamic Cables | 12 | 141.20 | 84 | 11,860.80 | 139.95 | 2026-09-25* | -5.22% | -0.89% | -0.11 |
-| Venus Remedies | 12 | 1,738.10 | 6 | 10,428.60 | 1,668.40 | 2026-09-25* | +2.68% | -4.01% | -0.42 |
+| Novartis India | 11 | 1,418.90 | 7 | 9,932.30 | 1,935.00 | 2026-09-28 | -1.56% | +36.37% | +3.61 |
+| Macpower CNC Machines | 11 | 1,874.80 | 5 | 9,374.00 | 2,194.60 | 2026-09-28 | +6.40% | +17.06% | +1.60 |
+| Yash Highvoltage | 9 | 912.20 | 9 | 8,209.80 | 1,058.70 | 2026-09-28 | -2.55% | +16.06% | +1.32 |
+| Bansal Roofing Products | 6 | 136.55 | 43 | 5,871.65 | 165.05 | 2026-09-28 | -1.23% | +20.87% | +1.23 |
+| RNIT AI Solutions | 5 | 87.65 | 57 | 4,996.05 | 108.38 | 2026-09-28 | +1.79% | +23.65% | +1.18 |
+| Haldyn Glass | 6 | 132.25 | 45 | 5,951.25 | 152.00 | 2026-09-28 | +3.65% | +14.93% | +0.89 |
+| Asahi Songwon Colors | 10 | 368.00 | 27 | 9,936.00 | 387.20 | 2026-09-28 | -3.86% | +5.22% | +0.52 |
+| GPT Healthcare | 8 | 150.64 | 53 | 7,983.92 | 156.10 | 2026-09-28 | -3.21% | +3.62% | +0.29 |
+| Dynamic Cables | 12 | 141.20 | 84 | 11,860.80 | 139.95 | 2026-09-25* | -0.00% | -0.89% | -0.11 |
+| Venus Remedies | 12 | 1,738.10 | 6 | 10,428.60 | 1,629.20 | 2026-09-28 | -2.35% | -6.27% | -0.65 |
 | **Cash** | | | | 15,455.63 | | | | — | 0.00 |
-| **Total** | | | | **100,000.00** | | | +0.42% | **+10.35%** | +10.35 |
+| **Total** | | | | **100,000.00** | | | -0.43% | **+9.88%** | +9.88 |
 
-\* price carried forward — data source has not yet posted a 2026-09-26 close (Asahi Songwon Colors, Bansal Roofing Products, Dynamic Cables, GPT Healthcare, Haldyn Glass, Macpower CNC Machines, Novartis India, RNIT AI Solutions, Venus Remedies, Yash Highvoltage).
+\* price carried forward — data source has not yet posted a 2026-09-28 close (Dynamic Cables).
 
 ## Cohort: 2026-W36 (standard)
 
-Decided 2026-08-31, entry-priced off 2026-08-28 close. 29 days live. Invested Rs 71,356.63 / cash Rs 28,643.37.
+Decided 2026-08-31, entry-priced off 2026-08-28 close. 31 days live. Invested Rs 71,356.63 / cash Rs 28,643.37.
 
 | Holding | Wt % | Entry | Shares | Invested | Price | As of | 1-Day | Return % | Contrib pp |
 |---|---:|---:|---:|---:|---:|---|---:|---:|---:|
-| Novartis India | 11 | 1,486.30 | 7 | 10,404.10 | 1,965.60 | 2026-09-25* | -0.29% | +32.25% | +3.36 |
-| Asahi Songwon Colors | 10 | 366.70 | 27 | 9,900.90 | 402.75 | 2026-09-25* | +5.18% | +9.83% | +0.97 |
-| Yash Highvoltage | 9 | 986.10 | 9 | 8,874.90 | 1,086.40 | 2026-09-25* | -3.25% | +10.17% | +0.90 |
-| GPT Healthcare | 9 | 151.72 | 59 | 8,951.48 | 161.27 | 2026-09-25* | -0.28% | +6.29% | +0.56 |
-| Haldyn Glass | 6 | 138.85 | 43 | 5,970.55 | 146.65 | 2026-09-25* | -0.34% | +5.62% | +0.34 |
-| Venus Remedies | 12 | 1,626.70 | 7 | 11,386.90 | 1,668.40 | 2026-09-25* | +2.68% | +2.56% | +0.29 |
-| Bansal Roofing Products | 4 | 156.50 | 25 | 3,912.50 | 167.10 | 2026-09-25* | +5.53% | +6.77% | +0.27 |
-| Macpower CNC Machines | 8 | 2,007.10 | 3 | 6,021.30 | 2,062.50 | 2026-09-25* | +0.07% | +2.76% | +0.17 |
-| Dynamic Cables | 6 | 138.00 | 43 | 5,934.00 | 139.95 | 2026-09-25* | -5.22% | +1.41% | +0.08 |
+| Novartis India | 11 | 1,486.30 | 7 | 10,404.10 | 1,935.00 | 2026-09-28 | -1.56% | +30.19% | +3.14 |
+| Yash Highvoltage | 9 | 986.10 | 9 | 8,874.90 | 1,058.70 | 2026-09-28 | -2.55% | +7.36% | +0.65 |
+| Haldyn Glass | 6 | 138.85 | 43 | 5,970.55 | 152.00 | 2026-09-28 | +3.65% | +9.47% | +0.57 |
+| Macpower CNC Machines | 8 | 2,007.10 | 3 | 6,021.30 | 2,194.60 | 2026-09-28 | +6.40% | +9.34% | +0.56 |
+| Asahi Songwon Colors | 10 | 366.70 | 27 | 9,900.90 | 387.20 | 2026-09-28 | -3.86% | +5.59% | +0.55 |
+| GPT Healthcare | 9 | 151.72 | 59 | 8,951.48 | 156.10 | 2026-09-28 | -3.21% | +2.89% | +0.26 |
+| Bansal Roofing Products | 4 | 156.50 | 25 | 3,912.50 | 165.05 | 2026-09-28 | -1.23% | +5.46% | +0.21 |
+| Dynamic Cables | 6 | 138.00 | 43 | 5,934.00 | 139.95 | 2026-09-25* | -0.00% | +1.41% | +0.08 |
+| Venus Remedies | 12 | 1,626.70 | 7 | 11,386.90 | 1,629.20 | 2026-09-28 | -2.35% | +0.15% | +0.02 |
 | **Cash** | | | | 28,643.37 | | | | — | 0.00 |
-| **Total** | | | | **100,000.00** | | | +0.30% | **+6.94%** | +6.94 |
+| **Total** | | | | **100,000.00** | | | -0.83% | **+6.05%** | +6.05 |
 
-\* price carried forward — data source has not yet posted a 2026-09-26 close (Asahi Songwon Colors, Bansal Roofing Products, Dynamic Cables, GPT Healthcare, Haldyn Glass, Macpower CNC Machines, Novartis India, Venus Remedies, Yash Highvoltage).
+\* price carried forward — data source has not yet posted a 2026-09-28 close (Dynamic Cables).
 
 ## Cohort: 2026-W36 (concentrated)
 
-Decided 2026-08-31, entry-priced off 2026-08-28 close. 29 days live. Invested Rs 92,319.10 / cash Rs 7,680.90.
+Decided 2026-08-31, entry-priced off 2026-08-28 close. 31 days live. Invested Rs 92,319.10 / cash Rs 7,680.90.
 
 | Holding | Wt % | Entry | Shares | Invested | Price | As of | 1-Day | Return % | Contrib pp |
 |---|---:|---:|---:|---:|---:|---|---:|---:|---:|
-| Venus Remedies | 25 | 1,626.70 | 15 | 24,400.50 | 1,668.40 | 2026-09-25* | +2.68% | +2.56% | +0.63 |
-| Macpower CNC Machines | 17 | 2,007.10 | 8 | 16,056.80 | 2,062.50 | 2026-09-25* | +0.07% | +2.76% | +0.44 |
-| L. T. Elevators | 20 | 328.10 | 60 | 19,686.00 | 335.20 | 2026-09-25* | -3.94% | +2.16% | +0.43 |
-| Entero Healthcare Solutions | 13 | 1,808.60 | 7 | 12,660.20 | 1,821.80 | 2026-09-25* | -1.64% | +0.73% | +0.09 |
-| Aeroflex Industries | 20 | 542.10 | 36 | 19,515.60 | 525.70 | 2026-09-25* | -0.28% | -3.03% | -0.59 |
+| Macpower CNC Machines | 17 | 2,007.10 | 8 | 16,056.80 | 2,194.60 | 2026-09-28 | +6.40% | +9.34% | +1.50 |
+| Venus Remedies | 25 | 1,626.70 | 15 | 24,400.50 | 1,629.20 | 2026-09-28 | -2.35% | +0.15% | +0.04 |
+| L. T. Elevators | 20 | 328.10 | 60 | 19,686.00 | 328.50 | 2026-09-28 | -2.00% | +0.12% | +0.02 |
+| Entero Healthcare Solutions | 13 | 1,808.60 | 7 | 12,660.20 | 1,790.10 | 2026-09-28 | -1.74% | -1.02% | -0.13 |
+| Aeroflex Industries | 20 | 542.10 | 36 | 19,515.60 | 513.40 | 2026-09-28 | -2.34% | -5.29% | -1.03 |
 | **Cash** | | | | 7,680.90 | | | | — | 0.00 |
-| **Total** | | | | **100,000.00** | | | -0.42% | **+1.00%** | +1.00 |
+| **Total** | | | | **100,000.00** | | | -0.59% | **+0.40%** | +0.40 |
 
-\* price carried forward — data source has not yet posted a 2026-09-26 close (Aeroflex Industries, Entero Healthcare Solutions, L. T. Elevators, Macpower CNC Machines, Venus Remedies).
 
 ## Cohort: 2026-W37 (standard)
 
-Decided 2026-09-07, entry-priced off 2026-09-04 close. 22 days live. Invested Rs 82,850.92 / cash Rs 17,149.08.
+Decided 2026-09-07, entry-priced off 2026-09-04 close. 24 days live. Invested Rs 82,850.92 / cash Rs 17,149.08.
 
 | Holding | Wt % | Entry | Shares | Invested | Price | As of | 1-Day | Return % | Contrib pp |
 |---|---:|---:|---:|---:|---:|---|---:|---:|---:|
-| Novartis India | 11 | 1,646.70 | 6 | 9,880.20 | 1,965.60 | 2026-09-25* | -0.29% | +19.37% | +1.91 |
-| Yash Highvoltage | 9 | 950.65 | 9 | 8,555.85 | 1,086.40 | 2026-09-25* | -3.25% | +14.28% | +1.22 |
-| Asahi Songwon Colors | 10 | 372.65 | 26 | 9,688.90 | 402.75 | 2026-09-25* | +5.18% | +8.08% | +0.78 |
-| Macpower CNC Machines | 8 | 1,904.90 | 4 | 7,619.60 | 2,062.50 | 2026-09-25* | +0.07% | +8.27% | +0.63 |
-| Bansal Roofing Products | 4 | 157.05 | 25 | 3,926.25 | 167.10 | 2026-09-25* | +5.53% | +6.40% | +0.25 |
-| GPT Healthcare | 9 | 158.17 | 56 | 8,857.52 | 161.27 | 2026-09-25* | -0.28% | +1.96% | +0.17 |
-| Haldyn Glass | 6 | 146.40 | 40 | 5,856.00 | 146.65 | 2026-09-25* | -0.34% | +0.17% | +0.01 |
-| Thyrocare Technologies | 5 | 576.15 | 8 | 4,609.20 | 566.85 | 2026-09-25* | +0.02% | -1.61% | -0.07 |
-| Venus Remedies | 12 | 1,694.40 | 7 | 11,860.80 | 1,668.40 | 2026-09-25* | +2.68% | -1.53% | -0.18 |
-| Dynamic Cables | 12 | 146.30 | 82 | 11,996.60 | 139.95 | 2026-09-25* | -5.22% | -4.34% | -0.52 |
+| Novartis India | 11 | 1,646.70 | 6 | 9,880.20 | 1,935.00 | 2026-09-28 | -1.56% | +17.51% | +1.73 |
+| Macpower CNC Machines | 8 | 1,904.90 | 4 | 7,619.60 | 2,194.60 | 2026-09-28 | +6.40% | +15.21% | +1.16 |
+| Yash Highvoltage | 9 | 950.65 | 9 | 8,555.85 | 1,058.70 | 2026-09-28 | -2.55% | +11.37% | +0.97 |
+| Asahi Songwon Colors | 10 | 372.65 | 26 | 9,688.90 | 387.20 | 2026-09-28 | -3.86% | +3.90% | +0.38 |
+| Haldyn Glass | 6 | 146.40 | 40 | 5,856.00 | 152.00 | 2026-09-28 | +3.65% | +3.83% | +0.22 |
+| Bansal Roofing Products | 4 | 157.05 | 25 | 3,926.25 | 165.05 | 2026-09-28 | -1.23% | +5.09% | +0.20 |
+| GPT Healthcare | 9 | 158.17 | 56 | 8,857.52 | 156.10 | 2026-09-28 | -3.21% | -1.31% | -0.12 |
+| Thyrocare Technologies | 5 | 576.15 | 8 | 4,609.20 | 548.30 | 2026-09-28 | -3.27% | -4.83% | -0.22 |
+| Venus Remedies | 12 | 1,694.40 | 7 | 11,860.80 | 1,629.20 | 2026-09-28 | -2.35% | -3.85% | -0.46 |
+| Dynamic Cables | 12 | 146.30 | 82 | 11,996.60 | 139.95 | 2026-09-25* | -0.00% | -4.34% | -0.52 |
 | **Cash** | | | | 17,149.08 | | | | — | 0.00 |
-| **Total** | | | | **100,000.00** | | | +0.01% | **+4.21%** | +4.21 |
+| **Total** | | | | **100,000.00** | | | -0.82% | **+3.35%** | +3.35 |
 
-\* price carried forward — data source has not yet posted a 2026-09-26 close (Asahi Songwon Colors, Bansal Roofing Products, Dynamic Cables, GPT Healthcare, Haldyn Glass, Macpower CNC Machines, Novartis India, Thyrocare Technologies, Venus Remedies, Yash Highvoltage).
+\* price carried forward — data source has not yet posted a 2026-09-28 close (Dynamic Cables).
 
 ## Cohort: 2026-W37 (concentrated)
 
-Decided 2026-09-07, entry-priced off 2026-09-04 close. 22 days live. Invested Rs 91,727.25 / cash Rs 8,272.75.
+Decided 2026-09-07, entry-priced off 2026-09-04 close. 24 days live. Invested Rs 91,727.25 / cash Rs 8,272.75.
 
 | Holding | Wt % | Entry | Shares | Invested | Price | As of | 1-Day | Return % | Contrib pp |
 |---|---:|---:|---:|---:|---:|---|---:|---:|---:|
-| Yash Highvoltage | 17 | 950.65 | 17 | 16,161.05 | 1,086.40 | 2026-09-25* | -3.25% | +14.28% | +2.31 |
-| Macpower CNC Machines | 20 | 1,904.90 | 10 | 19,049.00 | 2,062.50 | 2026-09-25* | +0.07% | +8.27% | +1.58 |
-| Aeroflex Industries | 13 | 537.45 | 24 | 12,898.80 | 525.70 | 2026-09-25* | -0.28% | -2.19% | -0.28 |
-| Venus Remedies | 25 | 1,694.40 | 14 | 23,721.60 | 1,668.40 | 2026-09-25* | +2.68% | -1.53% | -0.36 |
-| Dynamic Cables | 20 | 146.30 | 136 | 19,896.80 | 139.95 | 2026-09-25* | -5.22% | -4.34% | -0.86 |
+| Macpower CNC Machines | 20 | 1,904.90 | 10 | 19,049.00 | 2,194.60 | 2026-09-28 | +6.40% | +15.21% | +2.90 |
+| Yash Highvoltage | 17 | 950.65 | 17 | 16,161.05 | 1,058.70 | 2026-09-28 | -2.55% | +11.37% | +1.84 |
+| Aeroflex Industries | 13 | 537.45 | 24 | 12,898.80 | 513.40 | 2026-09-28 | -2.34% | -4.47% | -0.58 |
+| Dynamic Cables | 20 | 146.30 | 136 | 19,896.80 | 139.95 | 2026-09-25* | -0.00% | -4.34% | -0.86 |
+| Venus Remedies | 25 | 1,694.40 | 14 | 23,721.60 | 1,629.20 | 2026-09-28 | -2.35% | -3.85% | -0.91 |
 | **Cash** | | | | 8,272.75 | | | | — | 0.00 |
-| **Total** | | | | **100,000.00** | | | -1.04% | **+2.37%** | +2.37 |
+| **Total** | | | | **100,000.00** | | | +0.01% | **+2.38%** | +2.38 |
 
-\* price carried forward — data source has not yet posted a 2026-09-26 close (Aeroflex Industries, Dynamic Cables, Macpower CNC Machines, Venus Remedies, Yash Highvoltage).
+\* price carried forward — data source has not yet posted a 2026-09-28 close (Dynamic Cables).
 
 ## Cohort: 2026-W39 (standard)
 
-Decided 2026-09-21, entry-priced off 2026-09-18 close. 8 days live. Invested Rs 81,052.54 / cash Rs 18,947.46.
+Decided 2026-09-21, entry-priced off 2026-09-18 close. 10 days live. Invested Rs 81,052.54 / cash Rs 18,947.46.
 
 | Holding | Wt % | Entry | Shares | Invested | Price | As of | 1-Day | Return % | Contrib pp |
 |---|---:|---:|---:|---:|---:|---|---:|---:|---:|
-| Asahi Songwon Colors | 10 | 372.80 | 26 | 9,692.80 | 402.75 | 2026-09-25* | +5.18% | +8.03% | +0.78 |
-| Venus Remedies | 12 | 1,582.20 | 7 | 11,075.40 | 1,668.40 | 2026-09-25* | +2.68% | +5.45% | +0.60 |
-| Bansal Roofing Products | 4 | 156.30 | 25 | 3,907.50 | 167.10 | 2026-09-25* | +5.53% | +6.91% | +0.27 |
-| Yash Highvoltage | 9 | 1,059.20 | 8 | 8,473.60 | 1,086.40 | 2026-09-25* | -3.25% | +2.57% | +0.22 |
-| Haldyn Glass | 6 | 141.80 | 42 | 5,955.60 | 146.65 | 2026-09-25* | -0.34% | +3.42% | +0.20 |
-| Thyrocare Technologies | 5 | 555.80 | 8 | 4,446.40 | 566.85 | 2026-09-25* | +0.02% | +1.99% | +0.09 |
-| Macpower CNC Machines | 8 | 2,104.50 | 3 | 6,313.50 | 2,062.50 | 2026-09-25* | +0.07% | -2.00% | -0.13 |
-| Dynamic Cables | 12 | 142.60 | 84 | 11,978.40 | 139.95 | 2026-09-25* | -5.22% | -1.86% | -0.22 |
-| GPT Healthcare | 9 | 166.21 | 54 | 8,975.34 | 161.27 | 2026-09-25* | -0.28% | -2.97% | -0.27 |
-| Novartis India | 11 | 2,046.80 | 5 | 10,234.00 | 1,965.60 | 2026-09-25* | -0.29% | -3.97% | -0.41 |
+| Haldyn Glass | 6 | 141.80 | 42 | 5,955.60 | 152.00 | 2026-09-28 | +3.65% | +7.19% | +0.43 |
+| Asahi Songwon Colors | 10 | 372.80 | 26 | 9,692.80 | 387.20 | 2026-09-28 | -3.86% | +3.86% | +0.37 |
+| Venus Remedies | 12 | 1,582.20 | 7 | 11,075.40 | 1,629.20 | 2026-09-28 | -2.35% | +2.97% | +0.33 |
+| Macpower CNC Machines | 8 | 2,104.50 | 3 | 6,313.50 | 2,194.60 | 2026-09-28 | +6.40% | +4.28% | +0.27 |
+| Bansal Roofing Products | 4 | 156.30 | 25 | 3,907.50 | 165.05 | 2026-09-28 | -1.23% | +5.60% | +0.22 |
+| Yash Highvoltage | 9 | 1,059.20 | 8 | 8,473.60 | 1,058.70 | 2026-09-28 | -2.55% | -0.05% | -0.00 |
+| Thyrocare Technologies | 5 | 555.80 | 8 | 4,446.40 | 548.30 | 2026-09-28 | -3.27% | -1.35% | -0.06 |
+| Dynamic Cables | 12 | 142.60 | 84 | 11,978.40 | 139.95 | 2026-09-25* | -0.00% | -1.86% | -0.22 |
+| GPT Healthcare | 9 | 166.21 | 54 | 8,975.34 | 156.10 | 2026-09-28 | -3.21% | -6.08% | -0.55 |
+| Novartis India | 11 | 2,046.80 | 5 | 10,234.00 | 1,935.00 | 2026-09-28 | -1.56% | -5.46% | -0.56 |
 | **Cash** | | | | 18,947.46 | | | | — | 0.00 |
-| **Total** | | | | **100,000.00** | | | +0.03% | **+1.14%** | +1.14 |
+| **Total** | | | | **100,000.00** | | | -0.90% | **+0.23%** | +0.23 |
 
-\* price carried forward — data source has not yet posted a 2026-09-26 close (Asahi Songwon Colors, Bansal Roofing Products, Dynamic Cables, GPT Healthcare, Haldyn Glass, Macpower CNC Machines, Novartis India, Thyrocare Technologies, Venus Remedies, Yash Highvoltage).
+\* price carried forward — data source has not yet posted a 2026-09-28 close (Dynamic Cables).
 
 ## Cohort: 2026-W39 (concentrated)
 
-Decided 2026-09-21, entry-priced off 2026-09-18 close. 8 days live. Invested Rs 93,431.00 / cash Rs 6,569.00.
+Decided 2026-09-21, entry-priced off 2026-09-18 close. 10 days live. Invested Rs 93,431.00 / cash Rs 6,569.00.
 
 | Holding | Wt % | Entry | Shares | Invested | Price | As of | 1-Day | Return % | Contrib pp |
 |---|---:|---:|---:|---:|---:|---|---:|---:|---:|
-| Venus Remedies | 25 | 1,582.20 | 15 | 23,733.00 | 1,668.40 | 2026-09-25* | +2.68% | +5.45% | +1.29 |
-| Bansal Roofing Products | 13 | 156.30 | 83 | 12,972.90 | 167.10 | 2026-09-25* | +5.53% | +6.91% | +0.90 |
-| Aeroflex Industries | 20 | 510.90 | 39 | 19,925.10 | 525.70 | 2026-09-25* | -0.28% | +2.90% | +0.58 |
-| Macpower CNC Machines | 17 | 2,104.50 | 8 | 16,836.00 | 2,062.50 | 2026-09-25* | +0.07% | -2.00% | -0.34 |
-| Dynamic Cables | 20 | 142.60 | 140 | 19,964.00 | 139.95 | 2026-09-25* | -5.22% | -1.86% | -0.37 |
+| Bansal Roofing Products | 13 | 156.30 | 83 | 12,972.90 | 165.05 | 2026-09-28 | -1.23% | +5.60% | +0.73 |
+| Macpower CNC Machines | 17 | 2,104.50 | 8 | 16,836.00 | 2,194.60 | 2026-09-28 | +6.40% | +4.28% | +0.72 |
+| Venus Remedies | 25 | 1,582.20 | 15 | 23,733.00 | 1,629.20 | 2026-09-28 | -2.35% | +2.97% | +0.70 |
+| Aeroflex Industries | 20 | 510.90 | 39 | 19,925.10 | 513.40 | 2026-09-28 | -2.34% | +0.49% | +0.10 |
+| Dynamic Cables | 20 | 142.60 | 140 | 19,964.00 | 139.95 | 2026-09-25* | -0.00% | -1.86% | -0.37 |
 | **Cash** | | | | 6,569.00 | | | | — | 0.00 |
-| **Total** | | | | **100,000.00** | | | +0.25% | **+2.06%** | +2.06 |
+| **Total** | | | | **100,000.00** | | | -0.18% | **+1.88%** | +1.88 |
 
-\* price carried forward — data source has not yet posted a 2026-09-26 close (Aeroflex Industries, Bansal Roofing Products, Dynamic Cables, Macpower CNC Machines, Venus Remedies).
+\* price carried forward — data source has not yet posted a 2026-09-28 close (Dynamic Cables).
+
+## Cohort: 2026-W40 (standard)
+
+Decided 2026-09-28, entry-priced off 2026-09-25 close. 3 days live. Invested Rs 82,912.50 / cash Rs 17,087.50.
+
+| Holding | Wt % | Entry | Shares | Invested | Price | As of | 1-Day | Return % | Contrib pp |
+|---|---:|---:|---:|---:|---:|---|---:|---:|---:|
+| Macpower CNC Machines | 8.43 | 2,062.50 | 4 | 8,250.00 | 2,194.60 | 2026-09-28 | — | +6.40% | +0.53 |
+| Engineers India | 8.43 | 315.65 | 26 | 8,206.90 | 313.90 | 2026-09-28 | — | -0.55% | -0.05 |
+| Aries Agro | 8.17 | 473.30 | 17 | 8,046.10 | 470.50 | 2026-09-28 | — | -0.59% | -0.05 |
+| ADF FOOD | 8.56 | 270.60 | 31 | 8,388.60 | 266.60 | 2026-09-28 | — | -1.48% | -0.12 |
+| SJS Enterprises | 8.43 | 2,317.60 | 3 | 6,952.80 | 2,261.70 | 2026-09-28 | — | -2.41% | -0.17 |
+| Venus Remedies | 9.83 | 1,668.40 | 5 | 8,342.00 | 1,629.20 | 2026-09-28 | — | -2.35% | -0.20 |
+| Valiant Communications | 8.43 | 1,476.85 | 5 | 7,384.25 | 1,436.65 | 2026-09-28 | — | -2.72% | -0.20 |
+| Matrimony.com | 8.69 | 535.40 | 16 | 8,566.40 | 521.35 | 2026-09-28 | — | -2.62% | -0.22 |
+| Thyrocare | 9.83 | 566.85 | 17 | 9,636.45 | 548.30 | 2026-09-28 | — | -3.27% | -0.32 |
+| Dynamic Cables | 9.2 | 456.95 | 20 | 9,139.00 | 435.15 | 2026-09-28 | — | -4.77% | -0.44 |
+| **Cash** | | | | 17,087.50 | | | | — | 0.00 |
+| **Total** | | | | **100,000.00** | | | — | **-1.23%** | -1.23 |
+
+
+## Cohort: 2026-W40 (concentrated)
+
+Decided 2026-09-28, entry-priced off 2026-09-25 close. 3 days live. Invested Rs 91,059.40 / cash Rs 8,940.60.
+
+| Holding | Wt % | Entry | Shares | Invested | Price | As of | 1-Day | Return % | Contrib pp |
+|---|---:|---:|---:|---:|---:|---|---:|---:|---:|
+| Macpower CNC Machines | 20 | 2,062.50 | 9 | 18,562.50 | 2,194.60 | 2026-09-28 | — | +6.40% | +1.19 |
+| Bansal Roofing Products | 13 | 167.10 | 77 | 12,866.70 | 165.05 | 2026-09-28 | — | -1.23% | -0.16 |
+| Yash Highvoltage | 17 | 1,086.40 | 15 | 16,296.00 | 1,058.70 | 2026-09-28 | — | -2.55% | -0.42 |
+| Aeroflex Industries | 20 | 525.70 | 38 | 19,976.60 | 513.40 | 2026-09-28 | — | -2.34% | -0.47 |
+| Venus Remedies | 25 | 1,668.40 | 14 | 23,357.60 | 1,629.20 | 2026-09-28 | — | -2.35% | -0.55 |
+| **Cash** | | | | 8,940.60 | | | | — | 0.00 |
+| **Total** | | | | **100,000.00** | | | — | **-0.40%** | -0.40 |
+
 
 ---
 

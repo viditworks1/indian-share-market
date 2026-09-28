@@ -568,6 +568,148 @@
           "return_pct": 0.0
         }
       ]
+    },
+    {
+      "date": "2026-09-28",
+      "version": 3,
+      "rebalanced_today": false,
+      "nav": 97249.75,
+      "return_pct": -2.75,
+      "day_change_pct": -2.04,
+      "invested_value": 74072.24,
+      "cash": 23177.51,
+      "holdings": [
+        {
+          "name": "Dynamic Cables",
+          "symbol": "DYNAMIC.NS",
+          "weight_pct": 9.01,
+          "entry_price": 139.95,
+          "shares": 63,
+          "invested": 8816.85,
+          "price": 139.95,
+          "as_of": "2026-09-25",
+          "stale": true,
+          "value": 8816.85,
+          "return_pct": -0.0
+        },
+        {
+          "name": "Dhabriya Polywood",
+          "symbol": "DHABRIYA.BO",
+          "weight_pct": 9.01,
+          "entry_price": 487.7,
+          "shares": 18,
+          "invested": 8778.6,
+          "price": 482.0,
+          "as_of": "2026-09-28",
+          "stale": false,
+          "value": 8676.0,
+          "return_pct": -1.17
+        },
+        {
+          "name": "Neuland Laboratories",
+          "symbol": "NEULANDLAB.NS",
+          "weight_pct": 9.01,
+          "entry_price": 21890.0,
+          "shares": 0,
+          "invested": 0.0,
+          "price": 21440.0,
+          "as_of": "2026-09-28",
+          "stale": false,
+          "value": 0.0,
+          "return_pct": -2.06
+        },
+        {
+          "name": "Raymond Realty",
+          "symbol": "RAYMONDREL.NS",
+          "weight_pct": 9.01,
+          "entry_price": 711.3,
+          "shares": 12,
+          "invested": 8535.6,
+          "price": 672.95,
+          "as_of": "2026-09-28",
+          "stale": false,
+          "value": 8075.4,
+          "return_pct": -5.39
+        },
+        {
+          "name": "Apcotex Industries",
+          "symbol": "APCOTEXIND.NS",
+          "weight_pct": 9.01,
+          "entry_price": 599.4,
+          "shares": 14,
+          "invested": 8391.6,
+          "price": 586.0,
+          "as_of": "2026-09-28",
+          "stale": false,
+          "value": 8204.0,
+          "return_pct": -2.24
+        },
+        {
+          "name": "Matrimony.com",
+          "symbol": "MATRIMONY.NS",
+          "weight_pct": 8.59,
+          "entry_price": 535.4,
+          "shares": 15,
+          "invested": 8031.0,
+          "price": 521.35,
+          "as_of": "2026-09-28",
+          "stale": false,
+          "value": 7820.25,
+          "return_pct": -2.62
+        },
+        {
+          "name": "Marksans Pharma",
+          "symbol": "MARKSANS.NS",
+          "weight_pct": 8.59,
+          "entry_price": 336.95,
+          "shares": 25,
+          "invested": 8423.75,
+          "price": 331.55,
+          "as_of": "2026-09-28",
+          "stale": false,
+          "value": 8288.75,
+          "return_pct": -1.6
+        },
+        {
+          "name": "Univastu India",
+          "symbol": "UNIVASTU.NS",
+          "weight_pct": 8.59,
+          "entry_price": 138.08,
+          "shares": 61,
+          "invested": 8422.88,
+          "price": 132.79,
+          "as_of": "2026-09-28",
+          "stale": false,
+          "value": 8100.19,
+          "return_pct": -3.83
+        },
+        {
+          "name": "KSH International",
+          "symbol": "KSHINTL.NS",
+          "weight_pct": 8.59,
+          "entry_price": 1035.5,
+          "shares": 8,
+          "invested": 8284.0,
+          "price": 984.55,
+          "as_of": "2026-09-28",
+          "stale": false,
+          "value": 7876.4,
+          "return_pct": -4.92
+        },
+        {
+          "name": "Aeroflex Industries",
+          "symbol": "AEROFLEX.NS",
+          "weight_pct": 8.59,
+          "entry_price": 525.7,
+          "shares": 16,
+          "invested": 8411.2,
+          "price": 513.4,
+          "as_of": "2026-09-28",
+          "stale": false,
+          "value": 8214.4,
+          "return_pct": -2.34
+        }
+      ]
     }
   ]
 }
