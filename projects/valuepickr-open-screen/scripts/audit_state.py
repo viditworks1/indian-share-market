@@ -26,7 +26,12 @@ DATA_DIR = os.path.join(BASE, "data")
 VALID_STATUS = {"candidate", "researched", "excluded", "avoid", "not-a-stock"}
 VALID_THESIS = {None, "10x-in-2-3-years", "100x-in-10-years", "neither"}
 RETURN_LABELS = {"10x-in-2-3-years", "100x-in-10-years"}
-FOUR_BOX_ENUM = {"yes": 1.0, "weak": 0.5, "no": 0.0}
+FOUR_BOX_ENUM = {"yes": 1.0, "weak": 0.5, "no": 0.0, "unknown": 0.5}
+# "unknown" = box genuinely not yet assessed (never a substitute for a real "no" - see
+# 2026-09-28 four_box data-corruption incident, DEEPDIVE_QUICKREF.md). Scores as the
+# midpoint so an unassessed box can't masquerade as evidence either way; a block
+# containing ANY "unknown" box is excluded from the thesis-fit MISMATCH check below
+# (its score isn't a real verdict yet) and counted separately for follow-up instead.
 STATUS_ALIASES = {"analyzed": "researched", "done": "researched", "complete": "researched"}
 
 # Fields treated as a "trusted-thread signal" - preserved across a merge regardless of which
@@ -241,6 +246,7 @@ def main():
     fb_missing = 0
     fb_checked = 0
     fb_override_kept = 0
+    fb_unknown_boxes = 0  # stocks with >=1 "unknown" box - excluded from MISMATCH, flagged separately
     for slug, e in stocks.items():
         if e.get("status") != "researched" or e.get("red_flag_tier"):
             continue
@@ -260,7 +266,7 @@ def main():
         bad = [f"{k}={v!r}" for k, v in boxes.items() if v not in FOUR_BOX_ENUM]
         if bad:
             report.append(f"four_box: {slug} has non-enum box value(s) {', '.join(bad)} "
-                          f"(want yes/weak/no) - needs a look")
+                          f"(want yes/weak/no/unknown) - needs a look")
             continue
         want_score = sum(FOUR_BOX_ENUM[v] for v in boxes.values())
         have_score = fb.get("score")
@@ -268,6 +274,12 @@ def main():
             report.append(f"four_box: {slug} score is {have_score!r} but the boxes sum to "
                           f"{want_score} - needs a look")
             have_score = want_score  # judge the mismatch below on the true sum
+        if "unknown" in boxes.values():
+            # Not a real verdict yet - never run it through the thesis-fit decision table
+            # (that's exactly how the 2026-09-26 data-corruption incident happened: a
+            # placeholder score got judged as if it were a real one). Flag for research instead.
+            fb_unknown_boxes += 1
+            continue
         t = e.get("thesis_fit")
         if have_score >= 3.0 and t == "neither":
             # score >= 3.0 only PERMITS a return label (DEEPDIVE_QUICKREF decision table),
@@ -295,6 +307,12 @@ def main():
         report.append(f"four_box: {fb_override_kept} name(s) keep thesis_fit='neither' at "
                       f"score>=3.0 via analyst_override (deliberate size/return-magnitude calls) "
                       f"- suppressed from the understated-mismatch list, not a defect.")
+    if fb_unknown_boxes:
+        report.append(f"four_box: {fb_unknown_boxes} name(s) carry >=1 'unknown' box - real "
+                      f"assessment still needed (deepdive-top100/a manual re-check should "
+                      f"resolve these to yes/weak/no); excluded from the MISMATCH check above "
+                      f"until then. A persistently non-shrinking count means nothing is picking "
+                      f"them up.")
 
     # --- 3. revisit_after_30d 3-part rule (mechanical, safe to auto-fix) ---
     for slug, e in stocks.items():

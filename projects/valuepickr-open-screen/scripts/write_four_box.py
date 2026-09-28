@@ -10,6 +10,14 @@ contradicts the existing thesis_fit per the decision table, that's for
 audit_state.py's four-box check (run daily by vpscreen-audit) to catch and
 reconcile, not this script.
 
+"unknown" (2026-09-28) is a genuine box value, NOT a synonym for "no" - use it only when
+a box truly could not be assessed from the material read (data unavailable, not "didn't
+look"). It scores as the 0.5 midpoint (never a false "no"=0.0) and audit_state.py excludes
+any block carrying it from the thesis-fit MISMATCH check, flagging it for follow-up instead
+until a real yes/weak/no replaces it. Never bulk-map a non-enum placeholder (e.g. "mixed"/
+"moderate"/"fair") to "no" - that is exactly what caused the 2026-09-28 data-corruption
+incident (commit c2652fb); map it to "unknown" and let a real re-read resolve it.
+
 USAGE
   write_four_box.py <slug> --tailwind yes --tam weak --moat weak --valuation no \
       --note "one line naming the weak/no boxes and why"
@@ -25,7 +33,7 @@ from resolve_data_file import resolve_data_path
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE, "data")
 
-BOX_VALUES = {"yes": 1.0, "weak": 0.5, "no": 0.0}
+BOX_VALUES = {"yes": 1.0, "weak": 0.5, "no": 0.0, "unknown": 0.5}
 
 
 def main():

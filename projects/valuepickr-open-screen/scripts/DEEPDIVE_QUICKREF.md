@@ -117,14 +117,29 @@ reads it from there.
 
 ```jsonc
 "four_box": {
-  "tailwind":  "yes" | "weak" | "no",   // structural multi-year demand driver, not a cyclical bounce
-  "tam":       "yes" | "weak" | "no",   // headroom to support the REQUIRED multiple off today's revenue/mcap
-  "moat":      "yes" | "weak" | "no",   // pricing power / switching cost / structural cost edge that survives the growth
-  "valuation": "yes" | "weak" | "no",   // room to pay — NOT "cheap", just "not already pricing the thesis in"
-  "score": 2.5,                          // yes=1, weak=0.5, no=0  → 0..4 (compute it, don't eyeball)
+  "tailwind":  "yes" | "weak" | "no" | "unknown",   // structural multi-year demand driver, not a cyclical bounce
+  "tam":       "yes" | "weak" | "no" | "unknown",   // headroom to support the REQUIRED multiple off today's revenue/mcap
+  "moat":      "yes" | "weak" | "no" | "unknown",   // pricing power / switching cost / structural cost edge that survives the growth
+  "valuation": "yes" | "weak" | "no" | "unknown",   // room to pay — NOT "cheap", just "not already pricing the thesis in"
+  "score": 2.5,                          // yes=1, weak=0.5, no=0, unknown=0.5  → 0..4 (compute it, don't eyeball)
   "note": "one line naming the weak/no boxes and why"
 }
 ```
+
+**`unknown` (added 2026-09-28) is a real box value, not a synonym for `no`.** Use it ONLY when a
+box genuinely could not be assessed from the material actually read — never as a lazy default and
+never as a stand-in for "didn't look." It scores at the 0.5 midpoint (same as `weak`, so it can't
+masquerade as either positive or negative evidence), and `audit_state.py` **excludes any block
+containing `unknown` from the thesis-fit MISMATCH check** — an unassessed box has no business being
+judged against the decision table — and instead counts it separately as needing a real follow-up
+read. **Never bulk-remap a non-enum placeholder (`"mixed"`/`"moderate"`/`"fair"`/`"unknown"` as
+free text) to `"no"`.** That is precisely what caused the 2026-09-28 data-corruption incident
+(commit `c2652fb`, "standardize four_box enums"): 36 stocks with real, independently-established
+`thesis_fit` calls got a fabricated `score: 0.0` from a mechanical `unknown→no` remap, which then
+misread as 36 "overstated thesis" mismatches the next audit ran. If a value needs normalizing and a
+real re-read isn't happening in the same pass, map it to the `unknown` enum value instead — it stays
+honest about what is and isn't actually known, and the audit's follow-up counter makes sure it gets
+picked up.
 
 Decision table — the allowed `thesis_fit` given `four_box.score`:
 
