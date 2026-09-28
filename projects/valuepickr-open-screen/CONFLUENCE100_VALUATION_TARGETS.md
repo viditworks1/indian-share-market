@@ -1,6 +1,6 @@
 # Confluence-100 Valuation Targets
 
-*Regenerated 28 Sep 2026 against the settled post-rebuild ranking. This file is a point-in-time snapshot — Confluence-100 rebuilds weekly and rankings/scores shift materially between runs (see `FINAL_PORTFOLIO_RECOMMENDATION.md` Section 3A for a worked example: Venus Remedies moved from rank 2 to rank 40 between two rebuilds on the same day). Re-run this extraction rather than trusting an old copy.*
+*Regenerated 28 Sep 2026 from `rows_overall` (the single canonical top-100-by-fundamentals ranking) — NOT from the top-level `rows` field, which is a union of `rows_overall` and `rows_thesis` (a separate thesis-eligibility ranking) deduped by slug but keeping whichever list's rank number it saw first. Two different stocks can share the same `rows[].rank` value under two different numbering systems; `rows_overall` and `rows_thesis` each have their own clean, unambiguous 1-100 ranks. This file is still a point-in-time snapshot — Confluence-100 rebuilds regularly (see `FINAL_PORTFOLIO_RECOMMENDATION.md` Section 3A for how much a single day's rebuild can move things).*
 
 | Rank | Stock | Symbol | Master | Conviction | P/E | Upside | 12m Target | Status |
 |---|---|---|---:|---:|---|---|---|---|
@@ -56,51 +56,51 @@
 | 50 | Mayur Uniquoters | MAYURUNIQ.NS | 43.7 | 44.0 | 34 | 35 | Rs 2200-2600 per share | Quantified |
 | 51 | Lumax Industries | LUMAXIND.NS | 41.4 | 30.2 | 26.6 | N/A | N/A | To review |
 | 52 | HBL Engineering | HBLENGINE.NS | 38.7 | 24.5 | 39 | 28 | Rs 2600-3000 per share | Quantified |
-| 53 | Emerald Finance | EMERALD.BO | 24.9 | 26.8 | 14.4 | N/A | N/A | To review |
-| 54 | Unicommerce Esolutions | UNIECOM.NS | 45.1 | 47.4 | TBD - requires live data | N/A | N/A | To review |
-| 55 | Kalyani Cast | 544023.BO | 40.2 | 40.6 | 41 | N/A | N/A | To review |
-| 56 | IZMO | IZMO.NS | 28.1 | 11.2 | 25.3 | N/A | N/A | To review |
-| 57 | Rapicut Carbides . | RAPICUT.BO | 24.4 | 19.2 | 16.2 | N/A | N/A | To review |
-| 58 | Virtual Galaxy Infotech | N/A | 38.8 | 53.0 | 10.5 | N/A | N/A | To review |
-| 59 | Wockhardt | WOCKPHARMA.NS | 25.0 | 55.9 | N/A | N/A | N/A | To review |
-| 60 | Accent Microcell | N/A | 37.5 | 15.1 | 34.1 | N/A | N/A | To review |
-| 61 | Kusumgar | N/A | 37.5 | 29.8 | 47.0 | N/A | N/A | To review |
-| 62 | Alpex Solar | N/A | 36.2 | 36.2 | 11.9 | N/A | N/A | To review |
-| 63 | Jayaswal Neco | JAYNECOIND.NS | 39.3 | 39.2 | 15 | N/A | N/A | To review |
-| 64 | Tinna rubber | TINNARUBR.NS | 17.6 | 56.0 | None | N/A | N/A | To review |
-| 65 | Greaves Cotton | GREAVESCOT.NS | 15.9 | 50.0 | None | N/A | N/A | To review |
-| 66 | Capacit'e Infraprojects | CAPACITE.NS | 45.1 | 29.0 | 9.0 | N/A | N/A | To review |
-| 67 | Wise Travel India | N/A | 31.0 | 38.5 | 8.4 | N/A | N/A | To review |
-| 68 | Kiri Industries | KIRIINDUS.NS | 20.8 | 25.0 | N/A | N/A | N/A | To review |
-| 69 | GHCL Textiles | GHCLTEXTIL.NS | 18.2 | 12.0 | None | N/A | N/A | To review |
-| 70 | Laxmi Organics | LXCHEM.NS | 15.9 | 50.0 | None | N/A | N/A | To review |
-| 71 | Marico | MARICO.NS | 15.9 | 50.0 | None | N/A | N/A | To review |
-| 72 | COSMIC CRF | COSMICCRF.BO | 14.9 | 19.0 | 22.4 | N/A | N/A | To review |
-| 73 | Hitachi Energy India | POWERINDIA.NS | 16.5 | 52.1 | None | N/A | N/A | To review |
-| 74 | MPS | MPSLTD.NS | 15.9 | 50.0 | None | N/A | N/A | To review |
-| 75 | Oracle Financial Services | OFSS.NS | 15.9 | 50.0 | None | N/A | N/A | To review |
-| 76 | HFCL | HFCL.NS | 15.9 | 50.0 | None | N/A | N/A | To review |
-| 77 | PayTM | PAYTM.NS | 15.9 | 50.0 | None | N/A | N/A | To review |
-| 78 | Axiscades Engineering | AXISCADES.NS | 15.3 | 18.1 | ~80x normalised FY26 PAT (Rs 83 Cr); ~94x reported (Rs 72 Cr) | N/A | N/A | To review |
-| 79 | Eppelton | N/A | 25.2 | 25.0 | 14.0 | N/A | N/A | To review |
-| 80 | Freshara Agro Exports | N/A | 26.1 | 26.7 | 28.0 | N/A | N/A | To review |
-| 81 | Grand Continent Hotels | N/A | 27.2 | 35.8 | 19.8 | N/A | N/A | To review |
-| 82 | ESDS Software Solution | N/A | 28.1 | 26.2 | 106 | N/A | N/A | To review |
-| 83 | I G Petrochemicals | IGPL.NS | 15.4 | 20.4 | 21.0 | N/A | N/A | To review |
-| 84 | Mitsu Chem Plast | MITSU.BO | 14.4 | 23.6 | ~10x on a Q1 FY27-annualised run-rate; ~15x trailing FY26 EPS Rs 11.50 | N/A | N/A | To review |
-| 85 | Kernex | KERNEX.NS | 32.8 | 37.0 | 15.3 | N/A | N/A | To review |
-| 86 | Kernex Microsystems | KERNEX.NS | 32.8 | 37.0 | N/A | N/A | N/A | To review |
-| 87 | Susan Electricals India | N/A | 27.3 | 30.2 | None | N/A | N/A | To review |
-| 88 | GV Electricals | N/A | 27.3 | 30.2 | None | N/A | N/A | To review |
-| 89 | Electronics Mart India | EMIL.NS | 16.4 | 29.1 | 36.0 | N/A | N/A | To review |
-| 90 | Ratnaveer precision a newly head | RATNAVEER.NS | 19.1 | 25.0 | 36.9 | N/A | N/A | To review |
-| 91 | South West Pinnacle Exploration | SOUTHWEST.NS | 34.5 | 31.2 | 15.2 | N/A | N/A | To review |
-| 92 | Borosil Renewables | BORORENEW.NS | 31.0 | 40.0 | 20 | N/A | N/A | To review |
-| 93 | Indiamart Intermesh | INDIAMART.NS | 22.0 | 44.0 | N/A | N/A | N/A | To review |
-| 94 | HDFC Asset Management Company | HDFCAMC.NS | 22.0 | 44.0 | N/A | N/A | N/A | To review |
-| 95 | Gokaldas exports | GOKEX.NS | 22.0 | 44.0 | N/A | N/A | N/A | To review |
-| 96 | JTEKT India | JTEKTINDIA.NS | 22.0 | 44.0 | N/A | N/A | N/A | To review |
-| 97 | Brigade Hotel Ventures | BRIGHOTEL.NS | 30.0 | 30.0 | N/A | N/A | N/A | To review |
-| 98 | CSL Finance | CSLFINANCE.NS | 29.1 | 28.0 | 6.33 | N/A | N/A | To review |
-| 99 | Samhi Hotels | SAMHI.NS | 27.6 | 40.1 | 10 | N/A | N/A | To review |
-| 100 | Morepen Labs | MOREPENLAB.NS | 15.8 | 22.4 | 54.5 | N/A | N/A | To review |
+| 53 | Kovai Medical Center and Hospita | KOVAI.NS | 39.2 | 19.9 | 26.2 | N/A | N/A | To review |
+| 54 | Capri Global Capital | CGCL.NS | 36.9 | 53.2 | ~24x TTM; ~18x on Q1 FY27 annualised | N/A | N/A | To review |
+| 55 | RNIT AI Solutions | RNITAI.BO | 38.6 | 39.5 | 61.4 | N/A | N/A | To review |
+| 56 | Dr Agarwal's Eye Hospital | AGARWALEYE.NS | 38.9 | 27.8 | N/A | N/A | N/A | To review |
+| 57 | EPL | EPL.NS | 38.8 | 31.0 | 18.2 | N/A | N/A | To review |
+| 58 | Suprajit Engineering | SUPRAJIT.NS | 38.6 | 42.5 | 36.9 | N/A | N/A | To review |
+| 59 | TD Power Systems | TDPOWERSYS.NS | 37.2 | 25.8 | 88.3 | N/A | N/A | To review |
+| 60 | Sambhv Steel Tubes | SAMBHV.NS | 37.0 | 23.6 | 22.6 | N/A | N/A | To review |
+| 61 | Maharashtra seamless | MAHSEAMLES.NS | 36.8 | 28.4 | 13.0 | N/A | N/A | To review |
+| 62 | Goodluck India | GOODLUCK.NS | 36.4 | 43.8 | 26 | N/A | N/A | To review |
+| 63 | Marine Electricals | MARINE.NS | 39.3 | 39.2 | 90 | N/A | N/A | To review |
+| 64 | Raghav Productivity Solutions | RPEL.NS | 39.1 | 50.0 | 127 | N/A | N/A | To review |
+| 65 | 20 Microns | 20MICRONS.NS | 34.9 | 30.0 | 12.5 | N/A | N/A | To review |
+| 66 | Cummins India | CUMMINSIND.NS | 55.5 | 55.0 | 58.6 | N/A | N/A | To review |
+| 67 | Carysil | CARYSIL.NS | 54.5 | 51.1 | 30.7 | N/A | N/A | To review |
+| 68 | Punjab Chemicals & Crop Protecti | PUNJABCHEM.NS | 52.2 | 50.4 | 21.0 | N/A | N/A | To review |
+| 69 | Zinka Logistics Solutions | BLACKBUCK.NS | 35.6 | 43.9 | 66 | N/A | N/A | To review |
+| 70 | Sai Life Sciences | SAILIFE.NS | 34.7 | 54.3 | 87.6 | N/A | N/A | To review |
+| 71 | Pitti Engineering | PITTIENG.NS | 34.3 | 16.1 | 35.0 | N/A | N/A | To review |
+| 72 | Chaman Lal Setia Exports | CLSEL.NS | 33.5 | 26.1 | 11.68 | 33-53% | N/A | To review |
+| 73 | Sri Lotus Developers | LOTUSDEV.NS | 30.4 | 29.0 | 41.4 | N/A | N/A | To review |
+| 74 | Rajratan Global | RAJRATAN.NS | 20.0 | 40.0 | N/A | N/A | N/A | To review |
+| 75 | Bondada Engineering | BONDADA.BO | 55.9 | 29.8 | 14.8 | N/A | N/A | To review |
+| 76 | Force Motors | FORCEMOT.NS | 55.3 | 68.0 | 20.9 | N/A | N/A | To review |
+| 77 | Vinati Organics | VINATIORGA.NS | 54.7 | 36.5 | 27.2 | N/A | N/A | To review |
+| 78 | Prevest Denpro | PREVEST.BO | 53.5 | 35.8 | 20.6 | N/A | N/A | To review |
+| 79 | Pix Transmissions | PIXTRANS.NS | 36.1 | 21.6 | 20.3 | N/A | N/A | To review |
+| 80 | Kwality Pharmaceuticals | KPL.BO | 35.9 | 31.6 | 45.0 | N/A | N/A | To review |
+| 81 | Alufluoride | ALUFLUOR.BO | 35.5 | 32.6 | 15.8 | N/A | N/A | To review |
+| 82 | Modern Insulators | MODINSU.BO | 34.0 | 32.5 | ~21.5x trailing reported (screener.in); ~28-30x on a fully-taxed / normalised basis; ~18x on the Q1 FY27 annualised run-rate | N/A | N/A | To review |
+| 83 | Sona BLW Precision Forgings | SONACOMS.NS | 33.4 | 26.9 | 68.7 | N/A | N/A | To review |
+| 84 | J.G. Chemicals | JGCHEM.NS | 32.6 | 11.9 | 30.3 | N/A | N/A | To review |
+| 85 | Tamilnad Mercantile Bank | TMB.NS | 15.5 | 31.0 | N/A | N/A | N/A | To review |
+| 86 | Sky Gold | SKYGOLD.NS | 31.7 | 40.0 | 36 | N/A | N/A | To review |
+| 87 | Time Technoplast | TIMETECHNO.NS | 50.4 | 29.4 | 18.8 | N/A | N/A | To review |
+| 88 | Neetu Yoshi | NEETUYOSHI.BO | 40.3 | 38.0 | ~27.5x trailing (FY26 PAT Rs 25 Cr); ~13x on the FY27 management guide | N/A | N/A | To review |
+| 89 | Kamat Hotels | KAMATHOTEL.NS | 31.6 | 13.6 | 16.2 | N/A | N/A | To review |
+| 90 | Arman Financial Services | ARMANFIN.NS | 31.5 | 43.0 | ~48x trailing (trough EPS); ~11-15x on Q1 FY27 annualised run-rate | N/A | N/A | To review |
+| 91 | Jeena Sikho Lifecare | JSLL.NS | 53.6 | 52.2 | 26.4 | N/A | N/A | To review |
+| 92 | Divgi TorqTransfer Systems | DIVGIITTS.NS | 30.6 | 21.5 | 55.8 | N/A | N/A | To review |
+| 93 | OBSC Perfection | N/A | 42.8 | 42.5 | 69 | N/A | N/A | To review |
+| 94 | Bliss GVS Pharma | BLISSGVS.NS | 38.2 | 26.2 | ~53x trailing FY26 EPS (~Rs 12.7); ~35x on Q1 FY27 annualised | N/A | N/A | To review |
+| 95 | Sudeep Pharma | SUDEEPPHRM.NS | 31.8 | 23.2 | 79.1 | N/A | N/A | To review |
+| 96 | P N Gadgil Jewellers | PNGJL.NS | 30.0 | 14.4 | 20.6 | N/A | N/A | To review |
+| 97 | Northern Arc | NORTHARC.NS | 28.8 | 52.0 | 11.0 | N/A | N/A | To review |
+| 98 | Senores Pharma | SENORES.NS | 27.4 | 38.0 | 54.8 | N/A | N/A | To review |
+| 99 | ASM Technologies | ASMTEC.BO | 35.7 | 34.5 | 127.0 | N/A | N/A | To review |
+| 100 | Beta Drugs | BETA.NS | 17.0 | 34.0 | N/A | N/A | N/A | To review |
