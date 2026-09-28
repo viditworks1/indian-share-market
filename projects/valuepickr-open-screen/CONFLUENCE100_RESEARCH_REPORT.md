@@ -2,6 +2,8 @@
 
 *Research archive covering 100 deep-researched stocks from the ValuePickr open-screen universe, generated 28 Sep 2026*
 
+> **Data-snapshot notice (added 28 Sep 2026, later same day):** This report's coverage/quality metrics (Sections 1-7) describe the research archive itself and remain accurate. But its rank/score citations (Sections 8-9) were pulled from a Confluence-100 snapshot that a routine scheduled rebuild reshuffled within hours — Venus Remedies alone moved from rank 2/conviction 91.4 to rank 40/conviction 38.9 between two rebuilds the same day. Confluence-100 rebuilds on its own weekly cadence, so any rank/score citation here should be treated as a point-in-time snapshot, not a live reference — re-pull from `data/confluence100.json` before acting on it. Section 9 below has been corrected against the settled post-rebuild state as of this notice; Section 8's specific rank citations have not been individually re-verified and should be read with the same caveat. See `FINAL_PORTFOLIO_RECOMMENDATION.md` Section 3A for the fuller writeup of what changed and why.
+
 ---
 
 ## 1. Executive Summary
@@ -17,9 +19,11 @@
 |--------|-------|-----------|
 | Fully investable (coverage ≥ 85%) | 84 | 84% |
 | 10x-potential thesis eligible | 54 | 54% |
-| In current portfolio holdings | 10 | 10% |
+| Rs 1L portfolio holdings found in this universe | 6 of 11 | 6% |
 | Above 30W EMA (technical strength) | 86 | 86% |
 | High-conviction (≥75 score) | 8 | 8% |
+
+*Correction: the original count of 10 counted `confluence100.json`'s own `in_current_portfolio` flag, which tracks a different, separate mechanical allocation (`confluence100_allocation.json`, feeding `paper-trading/live-recommendation/`) — not this document's actual 11-holding Rs 1L portfolio. Matched against the real holdings list (Section 3 of `FINAL_PORTFOLIO_RECOMMENDATION.md`), only 6 of 11 holdings exist in the Confluence-100 universe at all; the other 5 come from the separate original-108-screen research stream.*
 
 ### Quality Baseline
 
@@ -226,62 +230,59 @@ Small and mid-cap dominate, reflecting ValuePickr's discovery strength in under-
 
 ## 9. Recommendations for Portfolio Decisions
 
-### Top 5 for Immediate Consideration (Master Score + Technical Ready)
+*Corrected 28 Sep 2026 against the settled post-rebuild `confluence100.json`. "Holding" below means an actual position in `FINAL_PORTFOLIO_RECOMMENDATION.md`'s 11-stock Rs 1L portfolio — not the same thing as this ranking's own `in_current_portfolio` flag, which tracks a separate mechanical allocation (see that document's Section 3A for why).*
 
-1. **Rank 2 – Venus Remedies** (Master 76.6, Conviction 91.4, Quality 96.0)
-   - Thesis: 10x-in-2-3-years via FY27 OPM stabilization
-   - Technical: +17.0% above 30W EMA, strong asymmetry
-   - Entry: Already in portfolio
+### Top 5 by Master Score (Current Ranking)
 
-2. **Rank 1 – Thyrocare** (Master 75.3, Conviction 75.0, Quality 95.0)
+1. **Rank 9 – P.E. Analytics** (Master 69.5, Conviction 61.0, Quality 85.0, Gap 59.0)
+   - Thesis: 10x via BPO margin expansion + new verticals; by far the strongest expectation-gap edge of any name in the top-20
+   - Technical: Below 30W EMA (-8.4%, crossed 2 weeks ago) — **not investable_now**
+   - Caveat: prior cycles flagged this stock's Yahoo feed as internally inconsistent (mutual-fund mislabel, price above its own 52-week high). This rebuild shows a resolved technical read, which may mean the data issue was fixed — but that hasn't been independently re-verified, so treat this technical read with some caution until confirmed.
+   - Entry: Watchlist, not held
+
+2. **Rank 37 – Vaibhav Global** (Master 65.4, Conviction 47.0, Quality 91.0, Gap 70.0)
+   - Thesis: Neither-thesis but strong balance sheet + e-commerce leverage; highest gap score in the top-40
+   - Technical: Below 30W EMA (-11.8%, crossed 7 weeks ago) — not investable_now
+   - Entry: Watchlist, not held
+
+3. **Rank 1 – Thyrocare** (Master 61.1, Conviction 73.8, Quality 95.0, Gap 4.3)
    - Thesis: 10x via PAT acceleration + radiology divestment
-   - Technical: +9.2% above EMA, +5% RS vs Nifty
-   - Entry: Portfolio holding
+   - Technical: Above EMA, investable_now — the only top-5-by-master-score name that's both a real holding and technically clear
+   - Entry: **Portfolio holding**
 
-3. **Rank 3 – Dynamic Cables** (Master 67.5, Conviction 60.2, Quality 67.0)
-   - Thesis: 10x via power capex super-cycle
-   - Technical: +14.9% above EMA, +28.9% RS (strongest momentum)
-   - Entry: Portfolio holding
+4. **Rank 49 – DDev Plastiks Industries** (Master 60.1, Conviction 53.2, Quality 79.0, Gap 49.9)
+   - Technical: Below 30W EMA (-5.3%, crossed 3 weeks ago) — not investable_now
+   - Entry: Watchlist, not held, not previously flagged in this report
 
-4. **Rank 23 – P.E. Analytics** (Master 69.5, Conviction 61.0, Quality 81.0)
-   - Thesis: 10x via BPO margin expansion + new verticals
-   - Technical: Near-term pullback (slight below EMA), good entry risk/reward
-   - Entry: Watchlist
+5. **Rank 2 – Valiant Communications** (Master 57.8, Conviction 54.1, Quality 89.0, Gap 4.2)
+   - Technical: Above EMA, investable_now
+   - Entry: Not a holding (belongs to the separate mechanical allocation's cohort, not this portfolio)
 
-5. **Rank 6 – Macpower CNC** (Master 65.1, Conviction 80.8, Quality 73.0)
-   - Thesis: 10x via margin inflection in FY27-28
-   - Technical: Steady trend, moderate RS
-   - Entry: Portfolio holding
-
-### Top 5 Watchlist (Good Fundamentals, Awaiting Technical Entry)
-
-1. **Rank 16 – Aeroflex Industries** (Conviction 84.6, Quality 82.0) — Below EMA, high conviction when it rebounds
-2. **Rank 41 – Time Technoplast** (Conviction 70.4, Quality 80.0) — Net-debt-free catalyst pending, technical reset opportunity
-3. **Rank 20 – HBL Engineering** (Conviction 65.8, Quality 78.0) — Awaiting Q3 prints, entry below 30W EMA
-4. **Rank 12 – Valiant Communications** (Conviction 54.1, Quality 71.0) — Telecom growth play, medium conviction, good entry on pullback
-5. **Rank 35 – Vaibhav Global** (Conviction 47.0, Quality 68.0) — Neither thesis, but strong balance sheet + e-commerce leverage
+**Note the shape of this list:** 4 of the top 5 are *not* portfolio holdings and 3 of 5 currently fail the technical gate — this ranking's top-5-by-master-score is a research/discovery list, not a ready-to-buy list. Only Thyrocare is both top-ranked and immediately actionable.
 
 ### Highest Conviction, Weakest Technicals (Pullback Entry Candidates)
 
-These 5 stocks have strong research-backed conviction but are currently below 30W EMA, representing the best risk/reward for patient accumulation:
+Stocks with real conviction (≥45) currently below their 30W EMA — the group most likely to offer entries if timing improves:
 
-1. **Aeroflex Industries** – Conviction 84.6, Quality 82.0, currently below EMA
-2. **Astra Microwave** (Rank 24) – Conviction 58.3, Quality 92.0, below trend
-3. **Kovai Medical Center** (Rank 39) – Conviction 50.5, Quality 74.0, below trend
-4. **Deep Industries** (Rank 78) – Conviction 45.2, Quality 72.0, below trend
-5. **Sona BLW Precision** (Rank 83) – Conviction 42.1, Quality 65.0, below trend
+1. **P.E. Analytics** (Rank 9) — Conviction 61.0, Quality 85.0, -8.4% below EMA (subject to the data-quality caveat above)
+2. **DDev Plastiks Industries** (Rank 49) — Conviction 53.2, Quality 79.0, -5.3% below EMA
+3. **Unicommerce Esolutions** (Rank 54) — Conviction 47.4, Quality 69.0, -8.3% below EMA
+4. **Vaibhav Global** (Rank 37) — Conviction 47.0, Quality 91.0, -11.8% below EMA
 
-### Highest-Quality Defensive Holdings (Quality Score ≥ 85)
+Only 4 names met this screen at conviction ≥45 in the current rebuild (vs 5 previously cited, several of which — Aeroflex, Astra Microwave, HBL Engineering — no longer meet it after the reshuffle).
 
-| Rank | Stock | Quality | Master | Four-Box |
-|------|-------|---------|--------|----------|
-| 2 | Venus Remedies | 96.0 | 76.6 | 3.0 |
-| 1 | Thyrocare | 95.0 | 75.3 | 3.5 |
-| 88 | Cummins India | 95.0 | 54.1 | 2.5 |
-| 24 | Astra Microwave | 92.0 | 58.2 | 3.5 |
-| 46 | Lohia Corp | 92.0 | 57.8 | 3.0 |
+### Highest-Quality Names (Quality Score ≥ 85)
 
-These represent defensive anchor positions with best-in-class business quality (ROCE, margins, FCF generation, debt profiles).
+| Rank | Stock | Quality | Master | Four-Box | Holding? |
+|------|-------|---------|--------|----------|---|
+| 40 | Venus Remedies | 96.0 | 45.3 | 3.0 | **Yes** |
+| 1 | Thyrocare | 95.0 | 61.1 | 3.5 | **Yes** |
+| 16 | Astra Microwave | 92.0 | 49.0 | 2.5 | No |
+| 38 | Lohia Corp | 92.0 | 53.4 | 4.0 | No |
+| 37 | Vaibhav Global | 91.0 | 65.4 | 2.5 | No |
+| 2 | Valiant Communications | 89.0 | 57.8 | 3.0 | No |
+
+Quality scores (business-quality metrics: ROCE, margins, FCF, debt) are far more stable across rebuilds than master/conviction/gap scores, which are price- and technicals-sensitive — this table changed only in rank numbers, not membership, versus the pre-rebuild version. Venus Remedies keeping its 96.0 quality score despite its large conviction/gap drop is a useful confirmation that the drop is in the price/technical-sensitive inputs, not a reassessment of the underlying business.
 
 ### Strongest Sector Clusters by Conviction
 
@@ -370,7 +371,7 @@ These represent defensive anchor positions with best-in-class business quality (
 
 1. **Cross-reference with FINAL_PORTFOLIO_RECOMMENDATION.md**
    - Integrate top-20 deepdive insights into existing portfolio strategy
-   - Review the 10 portfolio holdings that appear in top-100 for thesis re-validation
+   - Review the 6 portfolio holdings that appear in top-100 (Thyrocare, Dynamic Cables, Raymond Realty, Bansal Roofing, Venus Remedies, Macpower) for thesis re-validation — the other 5 holdings aren't tracked in this universe
    - Identify 3-5 new candidates for allocation from top-100 non-holdings
 
 2. **Use confluence100_valuation_targets.csv for screening**
@@ -420,7 +421,7 @@ These represent defensive anchor positions with best-in-class business quality (
 All 100 stocks have been researched to the project specification:
 - Six research blocks per stock (market expectation, community signal, earnings chain, management quality, growth trajectory, deep dive)
 - Data validated (JSON, slugs, score ranges)
-- Integration with existing portfolio established (10 of 11 current holdings in top-100)
+- Integration with existing portfolio established (6 of 11 current holdings found in the Confluence-100 universe — corrected 28 Sep 2026; see notice at top of this report)
 - Next phases identified (valuation targets, conviction refresh, portfolio recommendations)
 
 **Deliverables:**

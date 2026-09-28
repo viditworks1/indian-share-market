@@ -1,162 +1,79 @@
 {
   "project": "Confluence-100 Deepdive Research",
   "completion_date": "2026-09-28",
+  "last_corrected": "2026-09-28 (post-rebuild reshuffle + echo-chamber conviction fix)",
   "total_stocks": 100,
-  "research_coverage": {
-    "market_expectation": "100%",
-    "community_signal": "100%",
-    "earnings_chain": "95%",
-    "management_quality": "93%",
-    "growth_trajectory": "93%",
-    "deep_dive": "89%"
-  },
-  "portfolio_readiness": {
-    "investable_now": 84,
-    "thesis_eligible_10x": 54,
-    "in_current_portfolio": 10
-  },
-  "top_10_conviction": [
+  "note": "master_score/conviction_score/expectation_gap_score rebuild weekly and shift materially between runs; this file is a point-in-time snapshot, re-derive from confluence100.json rather than trusting an old copy",
+  "top_10_by_master_score": [
     {
-      "rank": 2,
-      "name": "Venus Remedies",
-      "master_score": 76.6,
-      "conviction_score": 91.37,
-      "valuation_target": "TBD (Venus Remedies)",
+      "rank": 9,
+      "name": "P.E. Analytics",
+      "master_score": 69.5,
+      "conviction_score": 61.05,
       "thesis": "10x-in-2-3-years"
+    },
+    {
+      "rank": 37,
+      "name": "Vaibhav Global",
+      "master_score": 65.4,
+      "conviction_score": 47.0,
+      "thesis": "neither"
     },
     {
       "rank": 1,
       "name": "Thyrocare",
-      "master_score": 75.3,
-      "conviction_score": 75.0,
-      "valuation_target": "TBD (Thyrocare)",
+      "master_score": 61.1,
+      "conviction_score": 73.75,
       "thesis": "10x-in-2-3-years"
     },
     {
-      "rank": 23,
-      "name": "P.E. Analytics",
-      "master_score": 69.5,
-      "conviction_score": 61.05,
-      "valuation_target": "TBD (P.E. Analytics)",
+      "rank": 49,
+      "name": "DDev Plastiks Industries",
+      "master_score": 60.1,
+      "conviction_score": 53.18,
+      "thesis": "10x-in-2-3-years"
+    },
+    {
+      "rank": 2,
+      "name": "Valiant Communications",
+      "master_score": 57.8,
+      "conviction_score": 54.09,
       "thesis": "10x-in-2-3-years"
     },
     {
       "rank": 3,
-      "name": "Dynamic Cables",
-      "master_score": 67.5,
-      "conviction_score": 60.18,
-      "valuation_target": "TBD (Dynamic Cables)",
+      "name": "SJS Enterprises",
+      "master_score": 56.3,
+      "conviction_score": 56.71,
       "thesis": "10x-in-2-3-years"
     },
     {
-      "rank": 35,
-      "name": "Vaibhav Global",
-      "master_score": 65.4,
-      "conviction_score": 47.0,
-      "valuation_target": "TBD (Vaibhav Global)",
-      "thesis": "neither"
-    },
-    {
-      "rank": 6,
-      "name": "Macpower CNC Machines",
-      "master_score": 65.1,
-      "conviction_score": 80.75,
-      "valuation_target": "TBD (Macpower CNC Machines)",
-      "thesis": "10x-in-2-3-years"
-    },
-    {
-      "rank": 5,
-      "name": "ADF FOOD",
-      "master_score": 62.6,
-      "conviction_score": 51.9,
-      "valuation_target": "TBD (ADF FOOD)",
+      "rank": 38,
+      "name": "Lohia Corp",
+      "master_score": 53.4,
+      "conviction_score": 54.0,
       "thesis": "neither"
     },
     {
       "rank": 4,
-      "name": "Matrimony.com",
-      "master_score": 62.4,
-      "conviction_score": 60.25,
-      "valuation_target": "TBD (Matrimony.com)",
-      "thesis": "10x-in-2-3-years"
-    },
-    {
-      "rank": 12,
-      "name": "Valiant Communications",
-      "master_score": 62.4,
-      "conviction_score": 54.09,
-      "valuation_target": "TBD (Valiant Communications)",
-      "thesis": "10x-in-2-3-years"
-    },
-    {
-      "rank": 53,
-      "name": "Vinati Organics",
-      "master_score": 61.2,
-      "conviction_score": 62.46,
-      "valuation_target": "TBD (Vinati Organics)",
+      "name": "Ajanta Pharma",
+      "master_score": 53.2,
+      "conviction_score": 59.21,
       "thesis": "neither"
-    }
-  ],
-  "next_steps": [
-    {
-      "step": 1,
-      "title": "Update Portfolio Recommendation",
-      "action": "Refresh FINAL_PORTFOLIO_RECOMMENDATION.md with top-20 deepdive insights",
-      "files": [
-        "portfolio/FINAL_PORTFOLIO_RECOMMENDATION.md"
-      ],
-      "priority": "HIGH",
-      "effort": "2-3 hours"
     },
     {
-      "step": 2,
-      "title": "Generate Confluence-100 Valuation Summary",
-      "action": "Create reference doc with 12m/24m valuation targets for all 100 stocks",
-      "files": [
-        "data/confluence100_valuation_targets.csv"
-      ],
-      "priority": "HIGH",
-      "effort": "1 hour"
+      "rank": 7,
+      "name": "Marksans Pharma",
+      "master_score": 52.7,
+      "conviction_score": 52.75,
+      "thesis": "neither"
     },
     {
-      "step": 3,
-      "title": "Conviction Score Refresh",
-      "action": "Recalculate conviction scores with latest research + community signals",
-      "files": [
-        "scripts/update_confluence_conviction.py"
-      ],
-      "priority": "MEDIUM",
-      "effort": "2 hours"
-    },
-    {
-      "step": 4,
-      "title": "Research Completeness Report",
-      "action": "Generate markdown report: coverage %, block distribution, data quality metrics",
-      "files": [
-        "docs/confluence100_research_report.md"
-      ],
-      "priority": "MEDIUM",
-      "effort": "1 hour"
-    },
-    {
-      "step": 5,
-      "title": "Top-20 Deep Dive Artifact",
-      "action": "Create interactive artifact: top-20 stocks with earnings, catalysts, conviction",
-      "files": [
-        "confluence100_top20_deepdive.artifact.html"
-      ],
-      "priority": "LOW",
-      "effort": "2-3 hours"
-    },
-    {
-      "step": 6,
-      "title": "Scheduled Tasks Update",
-      "action": "Review deepdive-top100 task: adjust frequency/scope based on full coverage",
-      "files": [
-        ".claude/agents/deepdive-top100.md"
-      ],
-      "priority": "LOW",
-      "effort": "1 hour"
+      "rank": 8,
+      "name": "Acutaas Chemicals",
+      "master_score": 52.7,
+      "conviction_score": 67.22,
+      "thesis": "10x-in-2-3-years"
     }
   ]
 }
