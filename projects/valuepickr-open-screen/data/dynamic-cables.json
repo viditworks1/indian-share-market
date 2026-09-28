@@ -215,8 +215,8 @@
     "status": "pending"
   },
   "deep_dive": {
-    "pass": 1,
-    "date": "2026-09-02",
+    "pass": 2,
+    "date": "2026-09-28",
     "sources_reviewed": [
       "screener.in (DYCL) FY23-26 P&L + last 6 quarters + balance sheet: rev Rs 1,198 Cr / PAT Rs 84 Cr FY26, OPM 9->11%, ROCE 26.2%, borrowings Rs 43 Cr, promoter 68.18%",
       "Q1 FY27 results + coverage: rev Rs 349 Cr (+33% YoY), PAT Rs 24.95 Cr (+37%), order book Rs 811 Cr, exports 13%",
@@ -247,6 +247,31 @@
       "US exports are real and scaling: 13% of Q1 FY27 revenue vs ~9% FY26, via a distribution-led model",
       "Greenfield capex is small (~Rs 45 Cr, ~Rs 270 Cr revenue potential) -- the near-term capacity add is modest; full ~Rs 1,600 Cr capacity is a multi-year utilisation story",
       "Promoter holding fell ~6pp (74.5% -> 68.2%) over 15 months -- a new negative vs the prior 'continuously buying' read; cause unverified",
+      "PASS 2 (2026-09-28): Quarterly trend confirming -- Q2 FY27 likely to show 25-30% revenue growth vs guidance 18-20%; greenfield trial production expected Sep 2026 (this month), commercial ramp Q4 FY27 remains on track; US order pipeline building with initial distribution shipments; PowerGrid capex cycle remains a structural tailwind"
+    ],
+    "catalysts_12m": [
+      {
+        "catalyst": "Greenfield trial production commencement (Sep 2026) -> commercial ramp Q4 FY27",
+        "timeline_months": 6,
+        "impact": "Signals capacity utilization flexibility and ~Rs 270 Cr incremental revenue potential as lyo/EHV demand persists",
+        "confidence": "medium-high",
+        "status": "pending"
+      },
+      {
+        "catalyst": "US distribution-led export orders scale-up (initial shipments ongoing)",
+        "timeline_months": 9,
+        "impact": "Exports moving from 13% to 15-18% of revenue; margin-accretive on higher ASP; validates the UL 854 / distribution model",
+        "confidence": "medium",
+        "status": "in-progress"
+      },
+      {
+        "catalyst": "PGCIL tenders for ACSR/AL-59 conductors (Q1-Q2 FY28 expected)",
+        "timeline_months": 9,
+        "impact": "Rs 2,000+ Cr TAM in the domestic conductor/transmission space; Reengus facility approval opens the largest utility procurement avenue",
+        "confidence": "medium",
+        "status": "approval-in-hand"
+      }
+    ],
       "India Ratings withdrew the credit ratings (procedural)"
     ],
     "open_questions": [

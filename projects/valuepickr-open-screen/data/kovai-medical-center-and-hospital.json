@@ -86,6 +86,41 @@
     "assessment": "positive",
     "note": "FY26 ROCE 23% / ROE 20.5%, OPM steady ~28% for four years. Borrowings Rs 403 Cr vs EBITDA ~Rs 444 Cr FY26 (~0.7x, comfortably serviced by Rs 362 Cr CFO). Cash conversion currently absorbed by the ~Rs 300 Cr Chennai facility build (18-24 month), hence trailing conversion ~25%. ROCE held at 23% right through the Coimbatore expansion - capex has been productive."
   },
+  "growth_trajectory": {
+    "yoy_trend": "stable",
+    "last_quarters_note": "Revenue growth has held steady at 12-16% YoY across FY25-FY26, with EBITDA margin stable at ~28-29% and PAT margin at ~15% for multiple years. Growth is consistent and reliable rather than accelerating or decelerating. The recent Q1 FY27 showed +16% revenue growth, confirming the steady mid-teens momentum.",
+    "reverse_pe_note": "At ~26x trailing P/E on a steady ~14-15% revenue compounder with stable ~28% EBITDA and ~15% PAT margins, the market implies ~14-16% EPS CAGR through FY28, which is precisely the level the business has demonstrated. The multiple already prices in the guided steady-state performance, with no margin-expansion tailwind and no acceleration expected."
+  },
+  "management_quality": {
+    "capital_allocation": "Conservative and disciplined -- ROE/ROCE have been maintained at 20%+ through the multi-year Coimbatore campus expansion and now into the Chennai capex cycle (~Rs 300 Cr); cash generation consistently supports dividend distributions (100% payout some years)",
+    "rpt_trend": "stable",
+    "guidance_credibility": "high",
+    "capability_ladder_note": "Demonstrated capability to execute large capex projects (Coimbatore campus expansion sustained high returns) and maintain operational quality through expansion cycles; no formal guidance on timing/margins but AGM commentary has been realistic",
+    "assessment": "positive"
+  },
+  "earnings_chain": {
+    "chain": [
+      "existing-hospital patient volume growth (OPD/IPD ramp)",
+      "revenue growth (12-16% YoY)",
+      "operating leverage / stable scale efficiencies",
+      "EBITDA margin holds at ~28-29%",
+      "PAT growth aligned with revenue growth (~14-15% PAT CAGR)",
+      "FCF generation funds the Chennai capex expansion"
+    ],
+    "bottleneck_link": "Chennai capex execution timeline (18-24 month build) and ramp-up rate post-opening (estimated to contribute modestly in FY28)",
+    "operating_leverage": "modest -- margins are stable rather than expanding; any improvement is offset by higher depreciation on the Chennai facility capex",
+    "evidenced_links": [
+      "existing-hospital OPD occupancy + community reputation corroborated by site visits and social posts",
+      "revenue growth held steady across four years (FY22-FY26)",
+      "EBITDA margin stability across multiple years"
+    ],
+    "assumed_links": [
+      "Chennai facility completes on timeline (18-24 months from start)",
+      "Chennai facility ramps to profitability (18-24 months post-opening)",
+      "regional market share maintained through the expansion phase",
+      "no major competitive entry into Coimbatore / Western TN region"
+    ]
+  },
   "market_expectation": {
     "as_of": "2026-09-10",
     "price": 6150,
