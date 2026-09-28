@@ -3645,6 +3645,8 @@ Stocks are ordered alphabetically by slug.
 - Thesis fit: 10x-in-2-3-years (unconfirmed recent-quarter inflection) — Conviction: Low
 - Source: [GMM Pfaudler: A safe way to play the Pharma/Chemical cycle](https://forum.valuepickr.com/t/20389) (external-lead, IAS 2026)
 
+## GMM Pfaudler — trusted-X signal [2026-09-26]
+- @suru27: Order-mix diversifying into oil & gas, defence, nuclear, mining (higher-margin sectors beyond traditional pharma/chemical capex cycle)
 
 ## Shilpa Medicare Ltd
 
@@ -4227,6 +4229,9 @@ Stocks are ordered alphabetically by slug.
 - Community signal: sumit680 (trusted, elevated) gave the most recent and critical update (May 2026), flagging the CFO seat still vacant after 19 months with the promoter self-signing as "Interim CFO." VALUE2017 (trusted) called frequent CFO turnover "the biggest red flag" back in 2022. DEBASHISH (trusted) gave a well-received business-overview acknowledging a structural margin gap versus peers like Hatsun.
 - Thesis fit: neither -- Conviction: Low
 - Source: discover.py web-news-first discovery
+
+## Parag Milk Foods — trusted-X signal [2026-09-27]
+- @a_basumallick: Regulatory tailwind on analogue paneer; Parag expanding paneer capacity 4x to capture market shift
 
 ## TGV SRAAC Ltd
 

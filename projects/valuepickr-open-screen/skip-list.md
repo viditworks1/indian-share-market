@@ -2,70 +2,10 @@
 
 Stocks analyzed recently enough that their thread should NOT be re-opened by the scan job yet, regardless of new forum activity. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-09-26
+Generated: 2026-09-28
 
 | Stock | Last analyzed | Eligible again on | Conviction |
 |---|---|---|---|
-| RNIT AI Solutions Ltd | 2026-08-28 | 2026-09-27 | Medium |
-| GPT Healthcare Ltd | 2026-08-28 | 2026-09-27 | Low |
-| Novartis India Ltd | 2026-08-28 | 2026-09-27 | Medium |
-| Tatva Chintan Pharma Chem Ltd | 2026-08-28 | 2026-09-27 | Low |
-| Repono Ltd | 2026-08-28 | 2026-09-27 | Medium |
-| Haldyn Glass Ltd | 2026-08-28 | 2026-09-27 | Low |
-| Unihealth Hospitals Ltd | 2026-08-28 | 2026-09-27 | Low |
-| TPL Plastech Ltd | 2026-08-28 | 2026-09-27 | Low |
-| Vistar Amar Ltd | 2026-08-28 | 2026-09-27 | Low |
-| Devson Catalyst Ltd | 2026-08-28 | 2026-09-27 | Low |
-| Fluidomat Ltd | 2026-08-28 | 2026-09-27 | Low |
-| Trejhara Solutions Ltd | 2026-08-28 | 2026-09-27 | Low |
-| MV Electrosystems Ltd | 2026-08-28 | 2026-09-27 | Low |
-| Glen Industries Ltd | 2026-08-28 | 2026-09-27 | Low |
-| Pyramid Technoplast Ltd | 2026-08-28 | 2026-09-27 | Low |
-| Larsen & Toubro Ltd | 2026-08-29 | 2026-09-28 | Low |
-| Bharti Airtel | 2026-08-29 | 2026-09-28 | Low |
-| Research on Ind Swift Laboratories Ltd | 2026-08-29 | 2026-09-28 | Low |
-| Borana Weaves | 2026-08-29 | 2026-09-28 | Low |
-| Uniparts India Limited | 2026-08-29 | 2026-09-28 | Low |
-| Sedemac Mechatronics Ltd | 2026-08-29 | 2026-09-28 | Medium |
-| NRB Bearings | 2026-08-29 | 2026-09-28 | Low |
-| KPR mills | 2026-08-29 | 2026-09-28 | Low |
-| Anlon Technology Solutions Ltd | 2026-08-29 | 2026-09-28 | Low |
-| Matrimony.com Ltd | 2026-08-29 | 2026-09-28 | Medium |
-| Ideaforge technologies | 2026-08-29 | 2026-09-28 | Low |
-| SpiceJet Ltd: From Turbulence to Triumph! | 2026-08-29 | 2026-09-28 | Low |
-| Venus Pipes & Tubes Ltd | 2026-08-29 | 2026-09-28 | Medium |
-| Hind Rectifiers Ltd (HIRECT) | 2026-08-29 | 2026-09-28 | Low-Medium |
-| Sumeet Industries | 2026-08-29 | 2026-09-28 | Low |
-| Procter & Gamble Hygiene and Health Care Ltd | 2026-08-29 | 2026-09-28 | Low |
-| Five Star Business Finance | 2026-08-29 | 2026-09-28 | Low |
-| Indus Towers Limited | 2026-08-29 | 2026-09-28 | Low |
-| CESC LTD Demerger | 2026-08-29 | 2026-09-28 | Low |
-| Lumax Auto Technologies | 2026-08-29 | 2026-09-28 | Low |
-| Crizac | 2026-08-29 | 2026-09-28 | Low |
-| Vivid Electromech Ltd | 2026-08-29 | 2026-09-28 | Medium-High |
-| Rashi Peripherals Ltd (RPTECH) | 2026-08-29 | 2026-09-28 | Low |
-| Azad Engineering | 2026-08-29 | 2026-09-28 | Low |
-| DLINK: Small Company with a Big Brand | 2026-08-29 | 2026-09-28 | Low |
-| NMDC-Value or Cyclical? | 2026-08-29 | 2026-09-28 | Low |
-| Kennametal india | 2026-08-29 | 2026-09-28 | Low |
-| Bosch Home comfort ( older name | 2026-08-29 | 2026-09-28 | Low |
-| C2C Advanced Systems: Specialized Defence Play | 2026-08-29 | 2026-09-28 | Low |
-| Sona BLW Precision Forgings Ltd | 2026-08-29 | 2026-09-28 | Medium |
-| Gujarat Containers Ltd | 2026-08-29 | 2026-09-28 | Low |
-| Go Fashion (India) Ltd | 2026-08-29 | 2026-09-28 | Low |
-| Hi-Tech Gears Ltd | 2026-08-29 | 2026-09-28 | Low |
-| Kerala Ayurveda Ltd | 2026-08-29 | 2026-09-28 | Low |
-| Galaxy Supermarket Ltd (Galaxy Cloud Kitchens) | 2026-08-29 | 2026-09-28 | Low |
-| JITF Infra Logistics Ltd | 2026-08-29 | 2026-09-28 | Low |
-| TechNVision Ventures Ltd | 2026-08-29 | 2026-09-28 | Low |
-| Samkrg Pistons & Rings Ltd | 2026-08-29 | 2026-09-28 | Low |
-| High Energy Batteries (India) Ltd | 2026-08-29 | 2026-09-28 | Low |
-| Vaxfab Enterprises Ltd | 2026-08-29 | 2026-09-28 | Low |
-| Empire Industries | 2026-08-29 | 2026-09-28 | Low |
-| Grand Continent Hotels | 2026-08-29 | 2026-09-28 | Medium |
-| Repro india limited | 2026-08-29 | 2026-09-28 | Low |
-| Waaree Energies Ltd. | 2026-08-29 | 2026-09-28 | Medium |
-| Embassy Developments Ltd | 2026-08-29 | 2026-09-28 | Low |
 | Leap India Ltd- Leap of faith for long-term value? | 2026-08-30 | 2026-09-29 | Low-Medium |
 | Positron Energy | 2026-08-30 | 2026-09-29 | Low |
 | Religare Enterprises | 2026-08-30 | 2026-09-29 | Low |
