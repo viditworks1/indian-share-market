@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28 21:48",
+  "generated_at": "2026-09-28 21:50",
   "as_of_date": "2026-09-28",
   "capital": 100000,
   "composite_weights": {
@@ -1952,11 +1952,11 @@
       "name": "Venus Remedies",
       "symbol": "VENUSREM.NS",
       "slug": "venus-remedies",
-      "master": 76.6,
+      "master": 58.4,
       "master_basis": "ranked",
       "conviction": 91.4,
       "conviction_basis": "numeric",
-      "gap": 70.0,
+      "gap": 3.8,
       "gap_basis": "ranked",
       "fundamental": 90,
       "fundamental_basis": "VP-open tierA",
@@ -1986,11 +1986,11 @@
         "EMA50 BREAK",
         "LAGGING MARKET (-17pp vs benchmark/13wk)"
       ],
-      "composite": 79.63,
+      "composite": 65.98,
       "in_pool": true,
       "excluded": false,
       "contrib": {
-        "master": 57.45,
+        "master": 43.8,
         "technical": 22.18
       },
       "composite_rank": 1,
@@ -2180,19 +2180,19 @@
         "master": 37.88,
         "technical": 18.17
       },
-      "composite_rank": 4,
+      "composite_rank": 3,
       "conviction_rank": 6,
-      "rank_delta": 2
+      "rank_delta": 3
     },
     {
       "name": "Macpower CNC Machines",
       "symbol": "MACPOWER.NS",
       "slug": "macpower-cnc-machines-manufacturing-a-strong-growth",
-      "master": 65.1,
+      "master": 57.6,
       "master_basis": "ranked",
       "conviction": 80.8,
       "conviction_basis": "numeric",
-      "gap": 30.5,
+      "gap": 3.5,
       "gap_basis": "ranked",
       "fundamental": 90,
       "fundamental_basis": "VP-open tierA",
@@ -2220,26 +2220,26 @@
       "flags": [
         "LEADER (+65pp vs benchmark/13wk)"
       ],
-      "composite": 64.67,
+      "composite": 59.05,
       "in_pool": true,
       "excluded": false,
       "contrib": {
-        "master": 48.82,
+        "master": 43.2,
         "technical": 15.84
       },
       "composite_rank": 2,
-      "conviction_rank": 3,
-      "rank_delta": 1
+      "conviction_rank": 2,
+      "rank_delta": 0
     },
     {
       "name": "Dynamic Cables",
       "symbol": "DYNAMIC.NS",
       "slug": "dynamic-cables",
-      "master": 67.5,
+      "master": 51.1,
       "master_basis": "ranked",
       "conviction": 60.2,
       "conviction_basis": "numeric",
-      "gap": 64.6,
+      "gap": 4.6,
       "gap_basis": "ranked",
       "fundamental": 90,
       "fundamental_basis": "VP-open tierA",
@@ -2265,11 +2265,11 @@
       "ema_slope_pct": -0.0,
       "rel_strength_pct": -19.9,
       "flags": [],
-      "composite": 60.62,
+      "composite": 48.33,
       "in_pool": false,
       "excluded": false,
       "contrib": {
-        "master": 50.62,
+        "master": 38.33,
         "technical": 10.0
       },
       "composite_rank": null,
@@ -2366,20 +2366,20 @@
         "master": 34.88,
         "technical": 21.09
       },
-      "composite_rank": 5,
+      "composite_rank": 4,
       "conviction_rank": 5,
-      "rank_delta": 0
+      "rank_delta": 1
     },
     {
       "name": "Aeroflex Industries",
       "symbol": "AEROFLEX.NS",
       "slug": "aeroflex-industries",
-      "master": 52.4,
+      "master": 48.4,
       "master_basis": "ranked",
-      "conviction": 84.6,
+      "conviction": 62.8,
       "conviction_basis": "numeric",
-      "gap": 0.0,
-      "gap_basis": "no-edge flag",
+      "gap": 5.5,
+      "gap_basis": "ranked",
       "fundamental": 90,
       "fundamental_basis": "VP-open tierA",
       "red_flag_tier": null,
@@ -2406,16 +2406,16 @@
       "flags": [
         "FADING (-17pp ext/4wk)"
       ],
-      "composite": 57.45,
+      "composite": 54.45,
       "in_pool": true,
       "excluded": false,
       "contrib": {
-        "master": 39.3,
+        "master": 36.3,
         "technical": 18.15
       },
-      "composite_rank": 3,
-      "conviction_rank": 2,
-      "rank_delta": -1
+      "composite_rank": 5,
+      "conviction_rank": 3,
+      "rank_delta": -2
     },
     {
       "name": "Entero Healthcare Solutions",
@@ -2517,10 +2517,10 @@
       "name": "Venus Remedies",
       "symbol": "VENUSREM.NS",
       "weight_pct": 25,
-      "composite": 79.63,
-      "master": 76.6,
+      "composite": 65.98,
+      "master": 58.4,
       "conviction": 91.4,
-      "gap": 70.0,
+      "gap": 3.8,
       "fundamental": 90,
       "technical": 88.7,
       "weekly_technical": 85.5,
@@ -2530,32 +2530,19 @@
       "name": "Macpower CNC Machines",
       "symbol": "MACPOWER.NS",
       "weight_pct": 20,
-      "composite": 64.67,
-      "master": 65.1,
+      "composite": 59.05,
+      "master": 57.6,
       "conviction": 80.8,
-      "gap": 30.5,
+      "gap": 3.5,
       "fundamental": 90,
       "technical": 63.4,
       "weekly_technical": 52.9,
       "monthly_technical": 79.1
     },
     {
-      "name": "Aeroflex Industries",
-      "symbol": "AEROFLEX.NS",
-      "weight_pct": 20,
-      "composite": 57.45,
-      "master": 52.4,
-      "conviction": 84.6,
-      "gap": 0.0,
-      "fundamental": 90,
-      "technical": 72.6,
-      "weekly_technical": 62.5,
-      "monthly_technical": 87.7
-    },
-    {
       "name": "Yash Highvoltage",
       "symbol": "YASHHV.BO",
-      "weight_pct": 17,
+      "weight_pct": 20,
       "composite": 56.05,
       "master": 50.5,
       "conviction": 49.4,
@@ -2568,7 +2555,7 @@
     {
       "name": "Bansal Roofing Products",
       "symbol": "BRPL.BO",
-      "weight_pct": 13,
+      "weight_pct": 17,
       "composite": 55.96,
       "master": 46.5,
       "conviction": 53.2,
@@ -2577,6 +2564,19 @@
       "technical": 84.3,
       "weekly_technical": 73.9,
       "monthly_technical": 100.0
+    },
+    {
+      "name": "Aeroflex Industries",
+      "symbol": "AEROFLEX.NS",
+      "weight_pct": 13,
+      "composite": 54.45,
+      "master": 48.4,
+      "conviction": 62.8,
+      "gap": 5.5,
+      "fundamental": 90,
+      "technical": 72.6,
+      "weekly_technical": 62.5,
+      "monthly_technical": 87.7
     }
   ],
   "history_points": 19,
