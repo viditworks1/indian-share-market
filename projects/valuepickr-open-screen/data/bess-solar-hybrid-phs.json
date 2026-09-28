@@ -30,11 +30,12 @@
   "growth_trajectory": null,
   "management_quality": null,
   "four_box": {
-    "tailwind": "no",
-    "tam": "no",
-    "moat": "no",
-    "valuation": "no",
-    "score": 0.0
+    "tailwind": "yes",
+    "tam": "unknown",
+    "moat": "unknown",
+    "valuation": "unknown",
+    "score": 2.5,
+    "note": "Thematic/basket forum entry (CEA targets 411GWh storage by FY32, Rs9,100cr VGF) = real structural tailwind, but data file has no single pinned company (name field just 'BESS'; thread discusses ACME Solar, Pace Digitek, KPI Green, Inox, Enviro Infra as separate proxies) so tam/moat/valuation can't be judged for one entity -- needs resolution to a specific ticker before a real 4-box call."
   },
   "track_record": {
     "years_checked": 0,

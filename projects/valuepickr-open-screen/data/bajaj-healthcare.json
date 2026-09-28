@@ -30,11 +30,12 @@
   "growth_trajectory": null,
   "management_quality": null,
   "four_box": {
-    "tailwind": "no",
-    "tam": "no",
-    "moat": "no",
+    "tailwind": "yes",
+    "tam": "yes",
+    "moat": "weak",
     "valuation": "no",
-    "score": 0.0
+    "score": 2.5,
+    "note": "China+1/PLI bulk-drug structural tailwind confirmed by Bajaj's own API export +51.6% YoY FY26 (small-cap live inflection despite poor -1.44% 5yr sales CAGR, counts per interaction rule); formulations +12.6%, PAT margin 7.9%->8.8%; but ROE only 3.48% (3yr avg), mcap 1,122cr at P/E 47-64x already rich for unproven turnaround - no valuation exception, score 2.5 without one = neither (screener.in, business-standard, PLI bulk-drug scheme data)"
   },
   "track_record": {
     "years_checked": 0,

@@ -531,12 +531,12 @@ Generated: 2026-09-28
 | TCI Express | 2026-09-26 | 2026-10-26 | Medium |
 | Frontier Springs | 2026-09-28 | 2026-10-28 | Medium |
 | Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing | 2026-09-28 | 2026-10-28 | Medium |
-| Venus Remedies | 2026-09-28 | 2026-10-28 | Low |
+| Venus Remedies | 2026-09-28 | 2026-10-28 | Medium-High |
 | Sambhv Steel Tubes | 2026-09-28 | 2026-10-28 | Low |
 | Macpower CNC Machines: Manufacturing a Strong Growth? | 2026-09-28 | 2026-10-28 | Low |
-| Aeroflex Industries Ltd | 2026-09-28 | 2026-10-28 | Medium |
+| Aeroflex Industries Ltd | 2026-09-28 | 2026-10-28 | Medium-High |
 | 3B Blackbio DX Ltd | 2026-09-28 | 2026-10-28 | High |
-| TD Power Systems | 2026-09-28 | 2026-10-28 | Low |
+| TD Power Systems | 2026-09-28 | 2026-10-28 | Medium-High |
 | Time Technoplast | 2026-09-28 | 2026-10-28 | Low |
 | Venus Pipes & Tubes Ltd | 2026-09-28 | 2026-10-28 | Medium |
 | Hind Rectifiers Ltd (HIRECT) | 2026-09-28 | 2026-10-28 | High |
@@ -546,10 +546,10 @@ Generated: 2026-09-28
 | Kovai Medical Center and Hospital | 2026-09-28 | 2026-10-28 | Low |
 | Inventurus Knowledge Solutions | 2026-09-28 | 2026-10-28 | Medium |
 | Ather Energy: Pioneering India's EV Revolution | 2026-09-28 | 2026-10-28 | Medium |
-| MTAR Technologies Ltd | 2026-09-28 | 2026-10-28 | Medium |
+| MTAR Technologies Ltd | 2026-09-28 | 2026-10-28 | Medium-High |
 | Thyrocare : Debt free Asset Light Healthcare Play | 2026-09-28 | 2026-10-28 | High |
 | Vinati Organics Ltd | 2026-09-28 | 2026-10-28 | Low |
-| Sai Life Sciences Ltd | 2026-09-28 | 2026-10-28 | Medium |
+| Sai Life Sciences Ltd | 2026-09-28 | 2026-10-28 | Medium-High |
 | Acutaas Chemicals Ltd (Erst. Ami Organics Ltd) | 2026-09-28 | 2026-10-28 | Medium-High |
 | Apcotex Industries Ltd | 2026-09-28 | 2026-10-28 | Low-Medium |
 | Vimta Labs Ltd | 2026-09-28 | 2026-10-28 | Medium |

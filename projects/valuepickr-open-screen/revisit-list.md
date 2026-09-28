@@ -21,13 +21,6 @@ Generated: 2026-09-28
 | P.E. Analytics Ltd (PROPEQUITY) | 2026-09-29 | Medium-High |
 | Dynamic Cables | 2026-09-29 | Medium-High |
 | Hitachi Energy India Ltd | 2026-10-26 | Medium-High |
-| Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing | 2026-10-28 | Medium |
-| Venus Remedies | 2026-10-28 | Low |
-| Sambhv Steel Tubes | 2026-10-28 | Low |
-| Macpower CNC Machines: Manufacturing a Strong Growth? | 2026-10-28 | Low |
-| Aeroflex Industries Ltd | 2026-10-28 | Medium |
-| Entero Healthcare Solutions Ltd | 2026-10-28 | Low |
-| HBL Engineering: Booting-up for the Race of the Century | 2026-10-28 | Low |
 | Thyrocare : Debt free Asset Light Healthcare Play | 2026-10-28 | High |
 
 ---

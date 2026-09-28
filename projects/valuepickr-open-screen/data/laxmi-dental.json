@@ -53,11 +53,12 @@
   "red_flag_tier": null,
   "red_flag_reason": null,
   "four_box": {
-    "tailwind": "weak",
-    "tam": "weak",
-    "moat": "no",
+    "tailwind": "yes",
+    "tam": "yes",
+    "moat": "weak",
     "valuation": "weak",
-    "score": 1.5
+    "score": 3.0,
+    "note": "Q1 FY27 record rev +13.9% YoY, PAT +23.8%, aligners +28.6%/intl labs +37.4% YoY (co filings); India ortho/aligner penetration ~0.1% vs US 3%, mkt to ~USD 1-2bn by FY30-35 (industry reports) -> tailwind+tam; but distant #3 in aligners (7-8% share vs Invisalign 70%/AMPA 15-20%) and WC days worsened 73->182d, P/E 30x on 15% ROCE (screener.in) -> moat+valuation only weak."
   },
   "growth_trajectory": {
     "yoy_trend": "unclear",

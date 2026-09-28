@@ -69,11 +69,12 @@
     "note": "Requires industry structure analysis"
   },
   "four_box": {
-    "tailwind": "weak",
-    "tam": "weak",
+    "tailwind": "yes",
+    "tam": "yes",
     "moat": "no",
-    "valuation": "weak",
-    "score": 1.5
+    "valuation": "no",
+    "score": 2.0,
+    "note": "Grid/DISCOM T&D capex is a genuine structural multi-year theme (tailwind=yes). Q1FY27 confirms live small-cap inflection: rev +254% YoY (Rs95.4cr), PAT turned positive from a loss, margin 4.18%->11.9%, capacity expanding 60% (7,500->12,000km/yr, commercial Feb 2027), order book Rs292cr -> tam=yes on carve-out. Winding-wire/conductor remains a commodity, LME metal pass-through, no pricing power -> moat=no (unchanged). P/E re-rated 26x->36.1x since last pass (screener/Sept 2026), mkt cap ~Rs607-658cr -> valuation=no, growth increasingly priced in. Score 2.0: 'un-ignorable growth' written exception keeps 10x-in-2-3-years, conviction capped Low-Medium/unconfirmed as already set."
   },
   "track_record_na": true,
   "quality_metrics": {

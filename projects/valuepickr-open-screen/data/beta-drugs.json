@@ -30,11 +30,12 @@
   "growth_trajectory": null,
   "management_quality": null,
   "four_box": {
-    "tailwind": "no",
-    "tam": "no",
-    "moat": "no",
+    "tailwind": "yes",
+    "tam": "yes",
+    "moat": "weak",
     "valuation": "no",
-    "score": 0.0
+    "score": 2.5,
+    "note": "FY26 rev Rs410cr, PAT Rs46.3cr; branded oncology +20% YoY; but 3yr profit CAGR only 11% vs 19% revenue CAGR (margin drag), ROCE 19.2%, P/E 49.6x on Rs2262cr mkt cap (screener.in) -> valuation=no, already pricing in a lot. Oncology demand + India generics/CDMO/export headroom genuine (tailwind+tam=yes). Moat only weak: real barriers (sterile-injectable complexity, backward-integrated API, one novel-molecule Phase 3 asset per public research notes) but not yet showing up as pricing power in margins/ROCE, and promoter holding fell sharply 66.7%->59.1% (Jun'26) - a real conviction flag. Score 2.5, no valid exception (valuation is no, growth is decelerating not un-ignorable, not large-cap)."
   },
   "track_record": {
     "years_checked": 0,
