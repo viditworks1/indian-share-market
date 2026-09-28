@@ -322,3 +322,21 @@ columns collapse to the same value — treat "6m %" as "since ~start of window".
   30W EMA (close 18,339.90 vs EMA 17,415.22 as of the week of 2026-09-06) — flag does not fire.
   Same rule also added to `portfolio-rs1l-revision`'s SKILL.md (Step 3.5) and
   `FINAL_PORTFOLIO_RECOMMENDATION.md` (Section 8H) for the fundamentals-driven book.
+- **2026-09-28 — data-gap audit: 3 missed weekday MTM snapshots found (2026-09-15,
+  2026-09-16, 2026-09-23), no stop-loss consequence.** `daily_history.json` has zero entries
+  for these three dates despite `paper-trading-weekly` being scheduled every weekday —
+  confirmed via the scheduler's own run log: 09-15 "succeeded" in 3 seconds (almost certainly
+  a silent no-op), 09-16 ran for ~14 real minutes but produced no commit or snapshot (a
+  genuine failure the scheduler didn't flag), 09-23 has no run recorded at all (a missed
+  cron fire). **Not backfilled** — `daily_history.json`'s own rule is "never hand-edit past
+  snapshots," and reconstructing the auto-rebalancing books' (live-recommendation/tactical6m)
+  historical state retroactively would need historical `confluence100_allocation.json`
+  snapshots this project doesn't reliably keep; better to leave an honest 3-point gap in the
+  chart than a hand-guessed one. **Safety check (the part that matters for this book):**
+  fetched real Yahoo Finance historical closes for every 2026-W36-inaugural and 2026-W39
+  holding on all three missing dates and checked against each cohort's −16% hard stop from
+  its entry price — **no holding was within even 20 percentage points of its stop on any of
+  the three days** (all were flat-to-up; the EXTENDED flags seen later in the week confirm
+  the trend), so the gap cost no missed stop-loss trigger. If a future gap check ever finds a
+  holding that WAS near or through its stop on a missing day, that is the case to treat
+  urgently (a stop may have been missed for real), unlike this one.
