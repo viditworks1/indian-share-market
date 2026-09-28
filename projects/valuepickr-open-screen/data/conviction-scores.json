@@ -602,7 +602,13 @@
         "source": "ledger"
       },
       "distinct_trusted_users": 2,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "Above-average management quality; proven M&A integration; shareholder-friendly dividend policy",
+        "guidance_credibility": "Conservative guidance; Q1 FY27 revenue +38% YoY vs expectations, margins guided 4.0%+ achievable",
+        "capital_allocation_track_record": "Acquired ~40+ regional distributors/pharmacies in FY25-26; demonstrated ability to integrate and improve margins",
+        "rpt_trend": "Shareholder returns via dividends (~2% yield); no buyback; focus on reinvestment",
+        "shareholder_returns": "Dividend initiated post strong profitability; minority interest managed at ~20-25% of consolidated profits"
+      }
     }
   },
   {
@@ -2781,6 +2787,51 @@
     }
   },
   {
+    "slug": "cummins-india",
+    "name": "Cummins India Ltd",
+    "conviction_score": 48.0,
+    "own_conviction": 48.0,
+    "trusted_lift": 0.0,
+    "conviction": "Medium-High",
+    "thesis_fit": "neither",
+    "quality_score": 95.0,
+    "market_cap_tier": "Large-cap (~Rs 1,43,000 Cr)",
+    "red_flag_tier": null,
+    "source": "global-proxy",
+    "score_breakdown": {
+      "own_conviction": 48.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 35,
+      "thesis_bonus": 0,
+      "quality_lift": 10.0,
+      "management_component": 3.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "constructive",
+        "guidance_credibility": "high - management's commentary on DC power demand, lead-times, and customer pre-buying is corroborated by global peers (Bloom Energy, CAT) and visible in Q1 FY27 numbers",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "Parent is Cummins Inc (US); no unusual RPT flagged beyond the parent tech pipeline (green hydrogen/electrolyser optionality)",
+        "shareholder_returns": "not highlighted"
+      }
+    }
+  },
+  {
     "slug": "aries-agro",
     "name": "Aries Agro Ltd",
     "conviction_score": 48.0,
@@ -3051,6 +3102,51 @@
     }
   },
   {
+    "slug": "kovai-medical-center-and-hospital",
+    "name": "Kovai Medical Center and Hospital",
+    "conviction_score": 45.91,
+    "own_conviction": 45.5,
+    "trusted_lift": 0.41,
+    "conviction": "Medium-High",
+    "thesis_fit": "neither",
+    "quality_score": 68.0,
+    "market_cap_tier": "mid-cap",
+    "red_flag_tier": "",
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 45.5,
+      "trusted_lift": 0.41,
+      "base_anchor": 35,
+      "thesis_bonus": 0,
+      "quality_lift": 4.5,
+      "management_component": 6.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.41,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.41,
+        "pos_raw": 0.41,
+        "pos_capped": 0.41,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "positive",
+        "guidance_credibility": "high",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "stable",
+        "shareholder_returns": null
+      }
+    }
+  },
+  {
     "slug": "privi-speciality-chemicals-ltd",
     "name": "Privi Speciality Chemicals Ltd",
     "conviction_score": 45.62,
@@ -3131,46 +3227,13 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
-      "management_quality": null
-    }
-  },
-  {
-    "slug": "cummins-india",
-    "name": "Cummins India Ltd",
-    "conviction_score": 45.0,
-    "own_conviction": 45.0,
-    "trusted_lift": 0.0,
-    "conviction": "Medium-High",
-    "thesis_fit": "neither",
-    "quality_score": 95.0,
-    "market_cap_tier": "Large-cap (~Rs 1,43,000 Cr)",
-    "red_flag_tier": null,
-    "source": "global-proxy",
-    "score_breakdown": {
-      "own_conviction": 45.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 35,
-      "thesis_bonus": 0,
-      "quality_lift": 10.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "unclear",
+        "shareholder_returns": null
+      }
     }
   },
   {
@@ -4110,51 +4173,6 @@
     }
   },
   {
-    "slug": "samhi-hotels",
-    "name": "Samhi Hotels",
-    "conviction_score": 41.23,
-    "own_conviction": 39.25,
-    "trusted_lift": 1.98,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 43.0,
-    "market_cap_tier": "Small/Mid-cap (~Rs 3,400 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 39.25,
-      "trusted_lift": 1.98,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": -1.75,
-      "management_component": 2.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 1.98,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 1.98,
-        "pos_raw": 1.98,
-        "pos_capped": 1.98,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "reliable",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "unclear",
-        "shareholder_returns": null
-      }
-    }
-  },
-  {
     "slug": "vimta-labs-ltd",
     "name": "Vimta Labs Ltd",
     "conviction_score": 40.71,
@@ -4238,6 +4256,51 @@
       "management_quality": {
         "assessment": "neutral",
         "guidance_credibility": "no-track-record",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "unclear",
+        "shareholder_returns": null
+      }
+    }
+  },
+  {
+    "slug": "samhi-hotels",
+    "name": "Samhi Hotels",
+    "conviction_score": 40.08,
+    "own_conviction": 39.25,
+    "trusted_lift": 0.83,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 43.0,
+    "market_cap_tier": "Small/Mid-cap (~Rs 3,400 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 39.25,
+      "trusted_lift": 0.83,
+      "base_anchor": 25,
+      "thesis_bonus": 14,
+      "quality_lift": -1.75,
+      "management_component": 2.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.83,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.83,
+        "pos_raw": 0.83,
+        "pos_capped": 0.83,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "reliable",
         "capital_allocation_track_record": null,
         "rpt_trend": "unclear",
         "shareholder_returns": null
@@ -4683,45 +4746,6 @@
         "rpt_trend": "unclear",
         "shareholder_returns": "none"
       }
-    }
-  },
-  {
-    "slug": "kovai-medical-center-and-hospital",
-    "name": "Kovai Medical Center and Hospital",
-    "conviction_score": 39.91,
-    "own_conviction": 39.5,
-    "trusted_lift": 0.41,
-    "conviction": "Medium-High",
-    "thesis_fit": "neither",
-    "quality_score": 68.0,
-    "market_cap_tier": "mid-cap",
-    "red_flag_tier": "",
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 39.5,
-      "trusted_lift": 0.41,
-      "base_anchor": 35,
-      "thesis_bonus": 0,
-      "quality_lift": 4.5,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.41,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.41,
-        "pos_raw": 0.41,
-        "pos_capped": 0.41,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": null
     }
   },
   {
@@ -9006,6 +9030,51 @@
     }
   },
   {
+    "slug": "venus-pipes-tubes",
+    "name": "Venus Pipes & Tubes Ltd",
+    "conviction_score": 28.0,
+    "own_conviction": 28.0,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Small-cap (~Rs 3,434 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 28.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 3.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "constructive",
+        "guidance_credibility": "moderate - consistent ~20% revenue CAGR guidance is credible, but margin expansion to 18%+ target (currently ~16%) is trailing despite operational efficiency improvements; data-centre timing/conversion credibility TBD",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "not flagged",
+        "shareholder_returns": "not yet (in capex/growth phase)"
+      }
+    }
+  },
+  {
     "slug": "csl-finance",
     "name": "CSL Finance Limited",
     "conviction_score": 28.0,
@@ -9125,7 +9194,13 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "Merger arbitrage play; management quality good but execution risk around LVPEI integration",
+        "guidance_credibility": "Management conservative on timelines; merger integration risk higher than standalone operations",
+        "capital_allocation_track_record": "Historic: Steady expansion of eye-care centers across India; focused on high-volume model",
+        "rpt_trend": "Dividend minimal due to merger activity; post-merger will evaluate capital return policy",
+        "shareholder_returns": "Minimal shareholder distributions during merger phase"
+      }
     }
   },
   {
@@ -9164,45 +9239,6 @@
         "source": "ledger"
       },
       "distinct_trusted_users": 1,
-      "management_quality": null
-    }
-  },
-  {
-    "slug": "emerald-finance",
-    "name": "Emerald Finance",
-    "conviction_score": 27.34,
-    "own_conviction": 20.25,
-    "trusted_lift": 7.09,
-    "conviction": "Low",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 43.0,
-    "market_cap_tier": "Micro-cap (~Rs 175-180 Cr)",
-    "red_flag_tier": null,
-    "source": "web-discovery",
-    "score_breakdown": {
-      "own_conviction": 20.25,
-      "trusted_lift": 7.09,
-      "base_anchor": 8,
-      "thesis_bonus": 14,
-      "quality_lift": -1.75,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 7.09,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 7.09,
-        "pos_raw": 7.09,
-        "pos_capped": 7.09,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 4,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 4,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 4,
       "management_quality": null
     }
   },
@@ -9365,6 +9401,90 @@
         "source": "fallback-scalar"
       },
       "distinct_trusted_users": 1,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "sona-blw-precision-forgings",
+    "name": "Sona BLW Precision Forgings Ltd",
+    "conviction_score": 26.9,
+    "own_conviction": 24.5,
+    "trusted_lift": 2.4,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 36.0,
+    "market_cap_tier": "Large-cap (~Rs 51,000 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 24.5,
+      "trusted_lift": 2.4,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": -3.5,
+      "management_component": 3.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 2.4,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 2.4,
+        "pos_raw": 2.4,
+        "pos_capped": 2.4,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 2,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
+      "management_quality": {
+        "assessment": "cautious-optimistic",
+        "guidance_credibility": "moderate - management's guidance on railway/robotics ramps is largely unproven; MoU-to-commercial conversion timeline is not explicit",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "Denso JV is a new RPT, terms/stage not detailed",
+        "shareholder_returns": "not highlighted (in growth/capex phase)"
+      }
+    }
+  },
+  {
+    "slug": "emerald-finance",
+    "name": "Emerald Finance",
+    "conviction_score": 26.83,
+    "own_conviction": 20.25,
+    "trusted_lift": 6.58,
+    "conviction": "Low",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 43.0,
+    "market_cap_tier": "Micro-cap (~Rs 175-180 Cr)",
+    "red_flag_tier": null,
+    "source": "web-discovery",
+    "score_breakdown": {
+      "own_conviction": 20.25,
+      "trusted_lift": 6.58,
+      "base_anchor": 8,
+      "thesis_bonus": 14,
+      "quality_lift": -1.75,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 6.58,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 6.58,
+        "pos_raw": 6.58,
+        "pos_capped": 6.58,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 4,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 4,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 4,
       "management_quality": null
     }
   },
@@ -9791,7 +9911,13 @@
         "source": "ledger"
       },
       "distinct_trusted_users": 2,
-      "management_quality": null
+      "management_quality": {
+        "assessment": null,
+        "guidance_credibility": null,
+        "capital_allocation_track_record": null,
+        "rpt_trend": null,
+        "shareholder_returns": "Low dividend payout historically; opted for capex reinvestment and cash retention - appropriate for growth stage"
+      }
     }
   },
   {
@@ -9875,7 +10001,13 @@
         "source": "ledger"
       },
       "distinct_trusted_users": 2,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "constructive-but-unproven",
+        "guidance_credibility": "moderate - loss-narrowing trajectory and capacity constraints are credibly stated, but EBITDA-neutral timing (originally FY29, pulled forward to FY28) requires monitoring",
+        "capital_allocation_track_record": "unproven (pre-profitability company)",
+        "rpt_trend": "Hero MotoCorp's ~40% stake + concurrent Vida brand competition is an unresolved strategic alignment question, not a standard RPT issue",
+        "shareholder_returns": "none yet (pre-profitability)"
+      }
     }
   },
   {
@@ -9953,7 +10085,13 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "constructive",
+        "guidance_credibility": "moderate - recent IPO limits public guidance history; concalls suggest management is capital-discipline-conscious",
+        "capital_allocation_track_record": "unproven-but-credible (recent IPO, capex is productive per ROCE 28-35% range maintained)",
+        "rpt_trend": "not flagged",
+        "shareholder_returns": "not applicable (in growth capex phase)"
+      }
     }
   },
   {
@@ -10737,45 +10875,6 @@
     "thesis_fit": "neither",
     "quality_score": null,
     "market_cap_tier": "Mid-cap (~Rs 13,612 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 25.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": null
-    }
-  },
-  {
-    "slug": "venus-pipes-tubes",
-    "name": "Venus Pipes & Tubes Ltd",
-    "conviction_score": 25.0,
-    "own_conviction": 25.0,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Small-cap (~Rs 3,434 Cr)",
     "red_flag_tier": null,
     "source": null,
     "score_breakdown": {
@@ -13527,45 +13626,6 @@
     }
   },
   {
-    "slug": "sona-blw-precision-forgings",
-    "name": "Sona BLW Precision Forgings Ltd",
-    "conviction_score": 23.9,
-    "own_conviction": 21.5,
-    "trusted_lift": 2.4,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": 36.0,
-    "market_cap_tier": "Large-cap (~Rs 51,000 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 21.5,
-      "trusted_lift": 2.4,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": -3.5,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 2.4,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 2.4,
-        "pos_raw": 2.4,
-        "pos_capped": 2.4,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 2,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "iifl-finance",
     "name": "IIFL Finance",
     "conviction_score": 23.7,
@@ -14306,7 +14366,13 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "cautious",
+        "guidance_credibility": "low - the company is small, listed in 2023 (post-IPO), and has only 1 clear quarter of recovery evidence; Indonesia export validation helps but execution track record at scale is TBD",
+        "capital_allocation_track_record": "mixed - the capex discipline during the lull is positive, but ROCE fell 20%->6% FY22-24 suggesting either competitive pressure or suboptimal programme profitability",
+        "rpt_trend": "not flagged",
+        "shareholder_returns": "not applicable (pre-profitability recovery)"
+      }
     }
   },
   {
@@ -22389,6 +22455,45 @@
     }
   },
   {
+    "slug": "parag-milk-foods",
+    "name": "Parag Milk Foods",
+    "conviction_score": 11.99,
+    "own_conviction": 8.0,
+    "trusted_lift": 3.99,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Small-cap (~Rs 3,140 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 8.0,
+      "trusted_lift": 3.99,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 3.99,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 3.99,
+        "pos_raw": 3.99,
+        "pos_capped": 3.99,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 3,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 3,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 3,
+      "management_quality": null
+    }
+  },
+  {
     "slug": "jg-chemicals-ltd",
     "name": "J.G. Chemicals Ltd",
     "conviction_score": 11.9,
@@ -23520,45 +23625,6 @@
         "rpt_trend": "unclear",
         "shareholder_returns": "none"
       }
-    }
-  },
-  {
-    "slug": "parag-milk-foods",
-    "name": "Parag Milk Foods",
-    "conviction_score": 10.08,
-    "own_conviction": 8.0,
-    "trusted_lift": 2.08,
-    "conviction": "Low",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Small-cap (~Rs 3,140 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 8.0,
-      "trusted_lift": 2.08,
-      "base_anchor": 8,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 2.08,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 2.08,
-        "pos_raw": 2.08,
-        "pos_capped": 2.08,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 2,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": null
     }
   },
   {
@@ -24696,6 +24762,51 @@
       },
       "distinct_trusted_users": 1,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "gmm-pfaudler-ias2026",
+    "name": "GMM Pfaudler",
+    "conviction_score": 8.8,
+    "own_conviction": 6.0,
+    "trusted_lift": 2.8,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 9.0,
+    "market_cap_tier": "Small/Mid-cap (~Rs 5,731 Cr)",
+    "red_flag_tier": null,
+    "source": "external-lead",
+    "score_breakdown": {
+      "own_conviction": 6.0,
+      "trusted_lift": 2.8,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": -5.0,
+      "management_component": 3.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 2.8,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 2.8,
+        "pos_raw": 2.8,
+        "pos_capped": 2.8,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 2,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "flat",
+        "shareholder_returns": "consistent"
+      }
     }
   },
   {
@@ -33108,45 +33219,6 @@
     }
   },
   {
-    "slug": "krsnaa-diagnostics",
-    "name": "Krsnaa Diagnostics",
-    "conviction_score": 7.79,
-    "own_conviction": 5.0,
-    "trusted_lift": 2.79,
-    "conviction": "Low-Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": null,
-    "market_cap_tier": "Small-cap (~Rs 1,783 Cr)",
-    "red_flag_tier": "HIGH CAUTION",
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 5.0,
-      "trusted_lift": 2.79,
-      "base_anchor": 16,
-      "thesis_bonus": 14,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 25,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 2.79,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 2.79,
-        "pos_raw": 2.79,
-        "pos_capped": 2.79,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 3,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "abs-marine-services",
     "name": "ABS Marine Services Ltd",
     "conviction_score": 7.48,
@@ -33315,6 +33387,45 @@
     }
   },
   {
+    "slug": "krsnaa-diagnostics",
+    "name": "Krsnaa Diagnostics",
+    "conviction_score": 6.46,
+    "own_conviction": 5.0,
+    "trusted_lift": 1.46,
+    "conviction": "Low-Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": null,
+    "market_cap_tier": "Small-cap (~Rs 1,783 Cr)",
+    "red_flag_tier": "HIGH CAUTION",
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 5.0,
+      "trusted_lift": 1.46,
+      "base_anchor": 16,
+      "thesis_bonus": 14,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 25,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 1.46,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 1.46,
+        "pos_raw": 1.46,
+        "pos_capped": 1.46,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 3,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
+      "management_quality": null
+    }
+  },
+  {
     "slug": "permanent-magnets",
     "name": "Permanent Magnets",
     "conviction_score": 6.4,
@@ -33396,51 +33507,6 @@
       },
       "distinct_trusted_users": 2,
       "management_quality": null
-    }
-  },
-  {
-    "slug": "gmm-pfaudler-ias2026",
-    "name": "GMM Pfaudler",
-    "conviction_score": 6.17,
-    "own_conviction": 6.0,
-    "trusted_lift": 0.17,
-    "conviction": "Low",
-    "thesis_fit": "neither",
-    "quality_score": 9.0,
-    "market_cap_tier": "Small/Mid-cap (~Rs 5,731 Cr)",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 6.0,
-      "trusted_lift": 0.17,
-      "base_anchor": 8,
-      "thesis_bonus": 0,
-      "quality_lift": -5.0,
-      "management_component": 3.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.17,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.17,
-        "pos_raw": 0.17,
-        "pos_capped": 0.17,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "unclear",
-        "rpt_trend": "flat",
-        "shareholder_returns": "consistent"
-      }
     }
   },
   {
