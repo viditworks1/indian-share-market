@@ -2,7 +2,7 @@
 
 Stocks worth actively re-checking once their cooldown lapses, even if the forum goes quiet on them - not just passively waiting for new posts. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-09-28
+Generated: 2026-09-29
 
 ## Due now
 
@@ -12,14 +12,14 @@ Generated: 2026-09-28
 | Raymond Realty Ltd | 2026-08-25 | Medium-High |
 | KMC Speciality hospital | 2026-08-27 | Medium-High |
 | Vivid Electromech Ltd | 2026-08-29 | Medium-High |
+| P.E. Analytics Ltd (PROPEQUITY) | 2026-08-30 | Medium-High |
+| Dynamic Cables | 2026-08-30 | Medium-High |
 | Yash Highvoltage Ltd | 2026-08-22 | Medium-High |
 
 ## Scheduled (not yet due)
 
 | Stock | Due on | Conviction |
 |---|---|---|
-| P.E. Analytics Ltd (PROPEQUITY) | 2026-09-29 | Medium-High |
-| Dynamic Cables | 2026-09-29 | Medium-High |
 | Hitachi Energy India Ltd | 2026-10-26 | Medium-High |
 | Thyrocare : Debt free Asset Light Healthcare Play | 2026-10-28 | High |
 

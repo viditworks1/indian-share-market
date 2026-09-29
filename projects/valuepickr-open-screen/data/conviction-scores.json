@@ -387,51 +387,6 @@
     }
   },
   {
-    "slug": "vivid-electromech",
-    "name": "Vivid Electromech Ltd",
-    "conviction_score": 62.09,
-    "own_conviction": 52.5,
-    "trusted_lift": 9.59,
-    "conviction": "Medium-High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 64.0,
-    "market_cap_tier": "Small-cap / SME (~Rs 1,400 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 52.5,
-      "trusted_lift": 9.59,
-      "base_anchor": 35,
-      "thesis_bonus": 14,
-      "quality_lift": 3.5,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 9.59,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 9.59,
-        "pos_raw": 9.59,
-        "pos_capped": 9.59,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 2,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "no-track-record",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "unclear",
-        "shareholder_returns": null
-      }
-    }
-  },
-  {
     "slug": "raymond-realty",
     "name": "Raymond Realty Ltd",
     "conviction_score": 61.79,
@@ -472,6 +427,51 @@
         "guidance_credibility": "reliable",
         "capital_allocation_track_record": null,
         "rpt_trend": "flat",
+        "shareholder_returns": null
+      }
+    }
+  },
+  {
+    "slug": "vivid-electromech",
+    "name": "Vivid Electromech Ltd",
+    "conviction_score": 61.26,
+    "own_conviction": 52.5,
+    "trusted_lift": 8.76,
+    "conviction": "Medium-High",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 64.0,
+    "market_cap_tier": "Small-cap / SME (~Rs 1,400 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 52.5,
+      "trusted_lift": 8.76,
+      "base_anchor": 35,
+      "thesis_bonus": 14,
+      "quality_lift": 3.5,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 8.76,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 8.76,
+        "pos_raw": 8.76,
+        "pos_capped": 8.76,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 2,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "no-track-record",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "unclear",
         "shareholder_returns": null
       }
     }
@@ -8841,45 +8841,6 @@
     }
   },
   {
-    "slug": "emerald-finance",
-    "name": "Emerald Finance",
-    "conviction_score": 26.83,
-    "own_conviction": 20.25,
-    "trusted_lift": 6.58,
-    "conviction": "Low",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 43.0,
-    "market_cap_tier": "Micro-cap (~Rs 175-180 Cr)",
-    "red_flag_tier": null,
-    "source": "web-discovery",
-    "score_breakdown": {
-      "own_conviction": 20.25,
-      "trusted_lift": 6.58,
-      "base_anchor": 8,
-      "thesis_bonus": 14,
-      "quality_lift": -1.75,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 6.58,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 6.58,
-        "pos_raw": 6.58,
-        "pos_capped": 6.58,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 4,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 4,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 4,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "sbcl",
     "name": "SBCL",
     "conviction_score": 26.75,
@@ -9309,6 +9270,45 @@
         "rpt_trend": null,
         "shareholder_returns": "Low dividend payout historically; opted for capex reinvestment and cash retention - appropriate for growth stage"
       }
+    }
+  },
+  {
+    "slug": "emerald-finance",
+    "name": "Emerald Finance",
+    "conviction_score": 26.01,
+    "own_conviction": 20.25,
+    "trusted_lift": 5.76,
+    "conviction": "Low",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 43.0,
+    "market_cap_tier": "Micro-cap (~Rs 175-180 Cr)",
+    "red_flag_tier": null,
+    "source": "web-discovery",
+    "score_breakdown": {
+      "own_conviction": 20.25,
+      "trusted_lift": 5.76,
+      "base_anchor": 8,
+      "thesis_bonus": 14,
+      "quality_lift": -1.75,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 5.76,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 5.76,
+        "pos_raw": 5.76,
+        "pos_capped": 5.76,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 4,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 4,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 4,
+      "management_quality": null
     }
   },
   {
@@ -35929,7 +35929,7 @@
     "name": "C2C Advanced Systems: Specialized Defence Play",
     "conviction_score": 0.0,
     "own_conviction": 8.0,
-    "trusted_lift": 2.7,
+    "trusted_lift": 1.62,
     "conviction": "Low",
     "thesis_fit": "neither",
     "quality_score": null,
@@ -35938,19 +35938,19 @@
     "source": null,
     "score_breakdown": {
       "own_conviction": 8.0,
-      "trusted_lift": 2.7,
+      "trusted_lift": 1.62,
       "base_anchor": 8,
       "thesis_bonus": 0,
       "quality_lift": 0.0,
       "management_component": 0.0,
       "red_flag_penalty": 0,
       "red_flag_forced_zero": true,
-      "trusted_signal_component": 2.7,
+      "trusted_signal_component": 1.62,
       "trusted_lift_neg_floor_applied": false,
       "trusted_signal_detail": {
-        "value": 2.7,
-        "pos_raw": 2.7,
-        "pos_capped": 2.7,
+        "value": 1.62,
+        "pos_raw": 1.62,
+        "pos_capped": 1.62,
         "neg_raw": 0.0,
         "neg_capped": 0.0,
         "n_positive_signals": 1,

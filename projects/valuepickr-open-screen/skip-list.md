@@ -2,63 +2,10 @@
 
 Stocks analyzed recently enough that their thread should NOT be re-opened by the scan job yet, regardless of new forum activity. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-09-28
+Generated: 2026-09-29
 
 | Stock | Last analyzed | Eligible again on | Conviction |
 |---|---|---|---|
-| Leap India Ltd- Leap of faith for long-term value? | 2026-08-30 | 2026-09-29 | Low-Medium |
-| Positron Energy | 2026-08-30 | 2026-09-29 | Low |
-| Religare Enterprises | 2026-08-30 | 2026-09-29 | Low |
-| Apollo Pipes Ltd. ~ From the house of APL Apollo (Erstwhile Amulya Leasing & Finance) | 2026-08-30 | 2026-09-29 | Low |
-| Moldtek Technologies | 2026-08-30 | 2026-09-29 | Low |
-| ShadowFax Valuation Model | 2026-08-30 | 2026-09-29 | Low |
-| Burger King ~ Whopper of an Opportunity | 2026-08-30 | 2026-09-29 | Low |
-| Globus Spirits | 2026-08-30 | 2026-09-29 | Medium |
-| The Anup Engineering Ltd | 2026-08-30 | 2026-09-29 | Medium |
-| ASM Technologies | 2026-08-30 | 2026-09-29 | Medium |
-| Muthoot Microfin Limited is it next JP Morgan? | 2026-08-30 | 2026-09-29 | Medium-High |
-| IZMO- bet on new technologies in Auto retail & defence | 2026-08-30 | 2026-09-29 | Low |
-| P.E. Analytics Ltd (PROPEQUITY) | 2026-08-30 | 2026-09-29 | Medium-High |
-| Blue Dart Express | 2026-08-30 | 2026-09-29 | Low |
-| Muthoot Finance | 2026-08-30 | 2026-09-29 | Low |
-| Bajaj Auto | 2026-08-30 | 2026-09-29 | Low |
-| Praveg Ltd: Play on Indian Tourism Industry! | 2026-08-30 | 2026-09-29 | Low |
-| Harshdeep Hortico Ltd (SME) | 2026-08-30 | 2026-09-29 | Medium |
-| Savita Oil Technologies Ltd: Undervalued midcap in a competitive space? | 2026-08-30 | 2026-09-29 | Medium |
-| Avalon Technologies Ltd | 2026-08-30 | 2026-09-29 | Medium |
-| Elantas Beck India Ltd | 2026-08-30 | 2026-09-29 | Medium |
-| Bharat bijlee Ltd | 2026-08-30 | 2026-09-29 | Low-Medium |
-| Dynamic Cables | 2026-08-30 | 2026-09-29 | Medium-High |
-| United food brands ( Barbeque nation ) Ltd | 2026-08-30 | 2026-09-29 | Low |
-| Waaree Renewable Technologies Ltd | 2026-08-30 | 2026-09-29 | Medium |
-| Sanghvi Movers | 2026-08-30 | 2026-09-29 | Medium |
-| Priti International Ltd | 2026-08-30 | 2026-09-29 | Low |
-| Syrma SGS an Export Substitution opportunity in EMS sector | 2026-08-30 | 2026-09-29 | Medium |
-| Thangmayil jewellers ltd | 2026-08-30 | 2026-09-29 | Medium |
-| Midwest Ltd | 2026-08-30 | 2026-09-29 | Low-Medium |
-| Jupiter Wagons Ltd (previously CEBBCO) | 2026-08-30 | 2026-09-29 | Low-Medium |
-| Aatmaj Healthcare | 2026-08-30 | 2026-09-29 | Low |
-| Prataap Snacks Ltd | 2026-08-30 | 2026-09-29 | Low |
-| Diamond Power Infrastructure Ltd | 2026-08-30 | 2026-09-29 | Low |
-| Advanced Enzyme Technologies Ltd | 2026-08-30 | 2026-09-29 | Low |
-| Dodla Dairy | 2026-08-30 | 2026-09-29 | Low |
-| V-guard | 2026-08-30 | 2026-09-29 | Low |
-| Aptus Value Housing : Is valuation justified or just another HFC? | 2026-08-30 | 2026-09-29 | Low |
-| Emerald Finance | 2026-08-30 | 2026-09-29 | Low |
-| Fermenta Biotech Limited (Old Name DIL | 2026-08-30 | 2026-09-29 | Low |
-| Ramco system | 2026-08-30 | 2026-09-29 | Low |
-| Neetu Yoshi Ltd | 2026-08-30 | 2026-09-29 | Medium |
-| 20 Microns : micronized to nano-sized minerals | 2026-08-30 | 2026-09-29 | Low-Medium |
-| Globalspace Technologies | 2026-08-30 | 2026-09-29 | Low |
-| Digikore Studios Ltd | 2026-08-30 | 2026-09-29 | Low |
-| Transformer & Rectifier India Limited | 2026-08-30 | 2026-09-29 | Low-Medium |
-| Exicom Tele-Services: A Key Player in the Booming EV Sector | 2026-08-30 | 2026-09-29 | Low |
-| OBSC Perfection Ltd | 2026-08-30 | 2026-09-29 | Medium |
-| Divgi TorqTransfer Systems Ltd | 2026-08-30 | 2026-09-29 | Low |
-| Nephrocare Health Services Ltd | 2026-08-30 | 2026-09-29 | Medium |
-| Sansera Engineering Ltd | 2026-08-30 | 2026-09-29 | Medium |
-| Kirloskar Oil Engines Ltd (KOEL) | 2026-08-30 | 2026-09-29 | Medium |
-| HCC | 2026-08-30 | 2026-09-29 | Low |
 | Swastika Castal Ltd | 2026-08-31 | 2026-09-30 | Low-Medium |
 | Venkys India Ltd | 2026-08-31 | 2026-09-30 | None |
 | Dr Agarwal's Eye Hospital Ltd (DAEHL) | 2026-08-31 | 2026-09-30 | Medium |
