@@ -2,9 +2,9 @@
   "_readme": "6-MONTH TACTICAL tracker. SEPARATE from paper-trading/cohorts.json (frozen weekly cohorts), swing-6m/cohorts.json (hand-curated, fundamentally-informed swing cohorts), and live-recommendation/ (the fundamentals-led Rs 1L allocation). This single book always mirrors the CURRENT allocation in valuepickr-open-screen/data/confluence100_tactical6m.json -- Confluence-100's purely technical/momentum ranking (no master_score term), auto-rebalancing at live prices whenever that list's holdings or weights change by more than a rounding amount. Script-owned -- do not hand-edit holdings/cash; it picks up the next weekly Confluence-100 rebuild automatically. An empty holdings list (insufficient pool) means all-cash, not an error.",
   "inception_date": "2026-09-22",
   "inception_capital": 100000,
-  "version": 3,
-  "effective_date": "2026-09-26",
-  "source_revision": "Confluence-100 tactical6m (26 Sep 2026, cash 12.0%)",
+  "version": 4,
+  "effective_date": "2026-09-29",
+  "source_revision": "Confluence-100 tactical6m (29 Sep 2026, cash 12.0%)",
   "holdings": [
     {
       "name": "Dynamic Cables",
@@ -18,15 +18,15 @@
       "name": "Dhabriya Polywood",
       "symbol": "DHABRIYA.BO",
       "weight_pct": 9.01,
-      "entry_price": 487.7,
+      "entry_price": 479.2,
       "shares": 18,
-      "invested": 8778.6
+      "invested": 8625.6
     },
     {
       "name": "Neuland Laboratories",
       "symbol": "NEULANDLAB.NS",
       "weight_pct": 9.01,
-      "entry_price": 21890.0,
+      "entry_price": 21375.0,
       "shares": 0,
       "invested": 0.0
     },
@@ -34,60 +34,60 @@
       "name": "Raymond Realty",
       "symbol": "RAYMONDREL.NS",
       "weight_pct": 9.01,
-      "entry_price": 711.3,
-      "shares": 12,
-      "invested": 8535.6
+      "entry_price": 672.55,
+      "shares": 13,
+      "invested": 8743.15
     },
     {
       "name": "Apcotex Industries",
       "symbol": "APCOTEXIND.NS",
       "weight_pct": 9.01,
-      "entry_price": 599.4,
+      "entry_price": 595.45,
       "shares": 14,
-      "invested": 8391.6
-    },
-    {
-      "name": "Matrimony.com",
-      "symbol": "MATRIMONY.NS",
-      "weight_pct": 8.59,
-      "entry_price": 535.4,
-      "shares": 15,
-      "invested": 8031.0
-    },
-    {
-      "name": "Marksans Pharma",
-      "symbol": "MARKSANS.NS",
-      "weight_pct": 8.59,
-      "entry_price": 336.95,
-      "shares": 25,
-      "invested": 8423.75
-    },
-    {
-      "name": "Univastu India",
-      "symbol": "UNIVASTU.NS",
-      "weight_pct": 8.59,
-      "entry_price": 138.08,
-      "shares": 61,
-      "invested": 8422.88
-    },
-    {
-      "name": "KSH International",
-      "symbol": "KSHINTL.NS",
-      "weight_pct": 8.59,
-      "entry_price": 1035.5,
-      "shares": 8,
-      "invested": 8284.0
+      "invested": 8336.3
     },
     {
       "name": "Aeroflex Industries",
       "symbol": "AEROFLEX.NS",
       "weight_pct": 8.59,
-      "entry_price": 525.7,
+      "entry_price": 539.6,
+      "shares": 15,
+      "invested": 8094.0
+    },
+    {
+      "name": "KSH International",
+      "symbol": "KSHINTL.NS",
+      "weight_pct": 8.59,
+      "entry_price": 1028.4,
+      "shares": 8,
+      "invested": 8227.2
+    },
+    {
+      "name": "Indegene",
+      "symbol": "INDGN.NS",
+      "weight_pct": 8.59,
+      "entry_price": 605.15,
+      "shares": 13,
+      "invested": 7866.95
+    },
+    {
+      "name": "Matrimony.com",
+      "symbol": "MATRIMONY.NS",
+      "weight_pct": 8.59,
+      "entry_price": 519.25,
       "shares": 16,
-      "invested": 8411.2
+      "invested": 8308.0
+    },
+    {
+      "name": "3B Blackbio DX",
+      "symbol": "3BBLACKBIO.BO",
+      "weight_pct": 8.59,
+      "entry_price": 1625.1,
+      "shares": 5,
+      "invested": 8125.5
     }
   ],
-  "cash": 23177.51,
+  "cash": 23379.49,
   "rebalance_log": [
     {
       "date": "2026-09-22",
@@ -118,6 +118,12 @@
       "version": 3,
       "reason": "added Aeroflex Industries, Apcotex Industries; dropped Greaves Cotton, Tinna rubber",
       "nav": 99272.99
+    },
+    {
+      "date": "2026-09-29",
+      "version": 4,
+      "reason": "added 3B Blackbio DX, Indegene; dropped Marksans Pharma, Univastu India",
+      "nav": 98523.04
     }
   ]
 }
