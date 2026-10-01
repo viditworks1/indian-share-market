@@ -489,3 +489,6 @@ Generated: 2026-10-01
 | National Stock Exchange Of India Ltd (NSE): The Exchange at the Heart of India’s Financialisation | 2026-10-01 | 2026-10-31 | High |
 | Prima Plastics | 2026-10-01 | 2026-10-31 | Low-Medium |
 | Great Eastern Shipping (GE Shipping) | 2026-10-01 | 2026-10-31 | Medium |
+| Vardhman Special Steels Ltd (VSSL) | 2026-10-01 | 2026-10-31 | Low |
+| Sunflag Iron & Steel | 2026-10-01 | 2026-10-31 | Low |
+| Thirumalai Chemicals | 2026-10-01 | 2026-10-31 | Low |

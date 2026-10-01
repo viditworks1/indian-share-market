@@ -1,7 +1,7 @@
 {
   "method": "the user's stated screening framework (2026-09-04): growth + margins + ROCE + debt + capex + free cash flow + competitive advantage + management quality. This score covers the four legs (ROCE, debt, FCF, capex) that had no numeric home before. Formula in this script's docstring and scripts/QUALITY_SCORE_METHODOLOGY.md.",
   "scored_count": 323,
-  "not_assessed_count": 640,
+  "not_assessed_count": 641,
   "ranked": [
     {
       "slug": "venus-remedies",
@@ -959,7 +959,7 @@
       "slug": "antelopus-selan-oil-exploration",
       "name": "Antelopus Selan Oil Exploration",
       "quality_score": 71.0,
-      "conviction_score": 45.0,
+      "conviction_score": 55.25,
       "red_flag_tier": null,
       "roce_pct": 21,
       "roce_trend": "improving",
@@ -10447,6 +10447,12 @@
       "red_flag_tier": null
     },
     {
+      "slug": "bess-solar-hybrid-phs",
+      "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
       "slug": "ghcl-textiles-ltd-climbing-the-value-chain",
       "name": "GHCL Textiles Ltd: Climbing the Value Chain",
       "conviction_score": 16.0,
@@ -10557,12 +10563,6 @@
     {
       "slug": "kitex-garments",
       "name": "Kitex Garments Ltd",
-      "conviction_score": 11.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "bess-solar-hybrid-phs",
-      "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
       "conviction_score": 11.0,
       "red_flag_tier": null
     },
@@ -12773,6 +12773,12 @@
       "name": "Ganesh Benzoplast",
       "conviction_score": 0,
       "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "slug": "vardhman-special-steels",
+      "name": "Vardhman Special Steels Ltd (VSSL)",
+      "conviction_score": 0,
+      "red_flag_tier": "none"
     }
   ]
 }

@@ -1146,6 +1146,51 @@
     }
   },
   {
+    "slug": "antelopus-selan-oil-exploration",
+    "name": "Antelopus Selan Oil Exploration",
+    "conviction_score": 55.25,
+    "own_conviction": 55.25,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 71.0,
+    "market_cap_tier": "Small-cap",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 55.25,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 14,
+      "quality_lift": 5.25,
+      "management_component": 11.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "positive",
+        "guidance_credibility": "reliable",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
+      }
+    }
+  },
+  {
     "slug": "ngl-fine-chem-ltd",
     "name": "NGL Fine-Chem Ltd",
     "conviction_score": 54.33,
@@ -3200,51 +3245,6 @@
         "capital_allocation_track_record": "disciplined",
         "rpt_trend": "unclear",
         "shareholder_returns": "initiated"
-      }
-    }
-  },
-  {
-    "slug": "antelopus-selan-oil-exploration",
-    "name": "Antelopus Selan Oil Exploration",
-    "conviction_score": 45.0,
-    "own_conviction": 45.0,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 0,
-    "market_cap_tier": "Small-cap",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 45.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": -5.0,
-      "management_component": 11.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "reliable",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
       }
     }
   },
@@ -21204,6 +21204,45 @@
     }
   },
   {
+    "slug": "bess-solar-hybrid-phs",
+    "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
+    "conviction_score": 16.0,
+    "own_conviction": 16.0,
+    "trusted_lift": 0.0,
+    "conviction": "Low-Medium",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "N/A (thematic/basket entry, not a single listed entity)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 16.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 16,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": null
+    }
+  },
+  {
     "slug": "ghcl-textiles-ltd-climbing-the-value-chain",
     "name": "GHCL Textiles Ltd: Climbing the Value Chain",
     "conviction_score": 16.0,
@@ -23012,45 +23051,6 @@
     "market_cap_tier": "mid-cap",
     "red_flag_tier": null,
     "source": "trusted-x",
-    "score_breakdown": {
-      "own_conviction": 11.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 16,
-      "thesis_bonus": 0,
-      "quality_lift": -5.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": null
-    }
-  },
-  {
-    "slug": "bess-solar-hybrid-phs",
-    "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
-    "conviction_score": 11.0,
-    "own_conviction": 11.0,
-    "trusted_lift": 0.0,
-    "conviction": "Low-Medium",
-    "thesis_fit": "neither",
-    "quality_score": 0,
-    "market_cap_tier": "N/A (thematic/basket entry, not a single listed entity)",
-    "red_flag_tier": null,
-    "source": null,
     "score_breakdown": {
       "own_conviction": 11.0,
       "trusted_lift": 0.0,
@@ -39148,6 +39148,45 @@
     "quality_score": null,
     "market_cap_tier": "Small-cap (~Rs 992 Cr)",
     "red_flag_tier": "HIGH CAUTION",
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": -17.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 25,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "vardhman-special-steels",
+    "name": "Vardhman Special Steels Ltd (VSSL)",
+    "conviction_score": 0,
+    "own_conviction": -17.0,
+    "trusted_lift": 0.0,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "small-cap",
+    "red_flag_tier": "none",
     "source": null,
     "score_breakdown": {
       "own_conviction": -17.0,
