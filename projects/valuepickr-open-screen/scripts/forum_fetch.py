@@ -120,12 +120,15 @@ def cmd_probe(args):
                     + (", more available" if start > 0 else ", reached the start of the thread") + ")",
         }
     else:
-        # NOTE: positional slicing assumes stream position i <-> post_number i+1,
-        # which can drift if posts were deleted earlier in the thread (stream/
-        # posts_count can then run behind highest_post_number). This is the same
-        # assumption the pre-existing manual "stream entries with post_number >
-        # checkpoint" process made - mechanized here, not newly introduced.
-        new_ids = stream[args.checkpoint:]
+        # Post-number-safe tail (fixed 2026-10-01): deleted posts make the
+        # stream shorter than highest_post_number, so positional slicing
+        # stream[checkpoint:] silently dropped real new posts on any thread
+        # with deletions. Every post_number > checkpoint must lie within the
+        # LAST (highest - checkpoint) stream entries; that tail may also
+        # include a few already-seen posts, so pass --after <checkpoint> to
+        # `posts` to filter them out by real post_number.
+        gap = max(0, highest - args.checkpoint)
+        new_ids = stream[-gap:] if gap else []
         new_count = len(new_ids)
         if new_count == 0:
             out = {
@@ -164,6 +167,8 @@ def cmd_posts(args):
     posts = data.get("post_stream", {}).get("posts", data.get("posts", []))
     out = []
     for p in posts:
+        if args.after is not None and (p.get("post_number") or 0) <= args.after:
+            continue
         love = 0
         for a in (p.get("actions_summary") or []):
             if a.get("id") == 2:
@@ -202,6 +207,8 @@ def main():
     p_posts = sub.add_parser("posts")
     p_posts.add_argument("topic_id")
     p_posts.add_argument("--ids", required=True, help="comma-separated post ids")
+    p_posts.add_argument("--after", type=int, default=None,
+                          help="drop posts with post_number <= this (pair with probe --checkpoint)")
     p_posts.set_defaults(func=cmd_posts)
 
     args = ap.parse_args()
