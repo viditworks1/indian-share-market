@@ -1,28 +1,10 @@
 {
   "generated": "2026-10-01",
   "selection": "status=researched, no red flag, thesis_fit!=neither, conviction_score>=35, MISSING >=1 of ['market_expectation', 'quality_metrics', 'track_record']. Sorted by Confluence-100 membership, then conviction_score desc. deepdive-top100's light lane drains this, writing only the blocks named in each entry's `missing`; entries drop off once all three exist (here or a full deep pass).",
-  "total": 19,
-  "pending": 19,
-  "confluence100_pending": 12,
+  "total": 15,
+  "pending": 15,
+  "confluence100_pending": 9,
   "queue": [
-    {
-      "slug": "salzer-electronics",
-      "state_key": "salzer-electronics",
-      "name": "Salzer Electronics",
-      "data_file": "data/salzer-electronics.json",
-      "conviction_score": 50.0,
-      "conviction": "Medium-High",
-      "thesis_fit": "100x-in-10-years",
-      "market_cap_tier": null,
-      "in_confluence100": true,
-      "missing": [
-        "market_expectation"
-      ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 1
-    },
     {
       "slug": "bess-solar-hybrid-phs",
       "state_key": "bess-solar-hybrid-phs",
@@ -39,61 +21,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 2
-    },
-    {
-      "slug": "rajratan-global",
-      "state_key": "rajratan-global",
-      "name": "Rajratan Global",
-      "data_file": "data/rajratan-global.json",
-      "conviction_score": 40.0,
-      "conviction": "Medium",
-      "thesis_fit": "100x-in-10-years",
-      "market_cap_tier": null,
-      "in_confluence100": true,
-      "missing": [
-        "market_expectation"
-      ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 3
-    },
-    {
-      "slug": "senco-gold-upcoming-gold-story",
-      "state_key": "senco-gold-upcoming-gold-story",
-      "name": "Senco Gold: Upcoming gold story!",
-      "data_file": "data/senco-gold-upcoming-gold-story.json",
-      "conviction_score": 40.0,
-      "conviction": "Medium",
-      "thesis_fit": "100x-in-10-years",
-      "market_cap_tier": null,
-      "in_confluence100": true,
-      "missing": [
-        "market_expectation"
-      ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 4
-    },
-    {
-      "slug": "taurian-mps-ltd-crushing-opportunities",
-      "state_key": "taurian-mps-ltd-crushing-opportunities",
-      "name": "Taurian MPS Ltd, Crushing opportunities?",
-      "data_file": "data/taurian-mps-ltd-crushing-opportunities.json",
-      "conviction_score": 40.0,
-      "conviction": "Medium",
-      "thesis_fit": "100x-in-10-years",
-      "market_cap_tier": null,
-      "in_confluence100": true,
-      "missing": [
-        "market_expectation"
-      ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 5
+      "rank": 1
     },
     {
       "slug": "danish-power",
@@ -111,16 +39,16 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 6
+      "rank": 2
     },
     {
-      "slug": "tamilnad-mercantile-bank",
-      "state_key": "tamilnad-mercantile-bank",
-      "name": "Tamilnad Mercantile Bank Ltd (TMB Ltd)",
-      "data_file": "data/tamilnad-mercantile-bank.json",
-      "conviction_score": 31.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "100x-in-10-years",
+      "slug": "enviro-infra-engineers",
+      "state_key": "enviro-infra-engineers",
+      "name": "Enviro Infra Engineers Limited",
+      "data_file": "data/enviro-infra-engineers.json",
+      "conviction_score": 34.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
       "market_cap_tier": null,
       "in_confluence100": true,
       "missing": [
@@ -129,7 +57,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 7
+      "rank": 3
     },
     {
       "slug": "ztech",
@@ -147,7 +75,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 8
+      "rank": 4
     },
     {
       "slug": "agi-greenpac",
@@ -165,13 +93,13 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 9
+      "rank": 5
     },
     {
-      "slug": "arihant-foundations-and-housing",
-      "state_key": "arihant-foundations-and-housing",
-      "name": "Arihant Foundations and Housing",
-      "data_file": "data/arihant-foundations-and-housing.json",
+      "slug": "antelopus-selan-oil-exploration",
+      "state_key": "antelopus-selan-oil-exploration",
+      "name": "Antelopus Selan Oil Exploration",
+      "data_file": "data/antelopus-selan-oil-exploration.json",
       "conviction_score": 25.0,
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
@@ -183,7 +111,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 10
+      "rank": 6
     },
     {
       "slug": "ashiana-housing",
@@ -201,7 +129,27 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 11
+      "rank": 7
+    },
+    {
+      "slug": "avalon-technologies",
+      "state_key": "avalon-technologies",
+      "name": "Avalon Technologies Ltd",
+      "data_file": "data/avalon-technologies.json",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Mid-cap (~Rs 14,900 Cr)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 8
     },
     {
       "slug": "gandhar-oil-refinery",
@@ -219,7 +167,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 12
+      "rank": 9
     },
     {
       "slug": "gokaldas-exports",
@@ -237,7 +185,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 13
+      "rank": 10
     },
     {
       "slug": "hdfc-asset-management-company",
@@ -255,7 +203,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 14
+      "rank": 11
     },
     {
       "slug": "indiamart-intermesh",
@@ -273,7 +221,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 15
+      "rank": 12
     },
     {
       "slug": "jtekt-india-driving-precision-powering-india-s-mobility-future",
@@ -291,7 +239,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 16
+      "rank": 13
     },
     {
       "slug": "policybazaar",
@@ -309,7 +257,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 17
+      "rank": 14
     },
     {
       "slug": "trent",
@@ -327,25 +275,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 18
-    },
-    {
-      "slug": "kernex-microsystems",
-      "state_key": "kernex-microsystems",
-      "name": "Kernex Microsystems",
-      "data_file": "data/kernex-microsystems.json",
-      "conviction_score": 37.05,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap",
-      "in_confluence100": false,
-      "missing": [
-        "market_expectation"
-      ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 19
+      "rank": 15
     }
   ]
 }
