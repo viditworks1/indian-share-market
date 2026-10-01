@@ -19,7 +19,7 @@ function h(text, level = HeadingLevel.HEADING_1) {
   return new Paragraph({ text, heading: level, spacing: { before: 280, after: 120 } });
 }
 function p(text, opts = {}) {
-  return new Paragraph({ children: [new TextRun({ text, ...opts })], spacing: { after: 120 } });
+  return new Paragraph({ children: [new TextRun({ text: text ?? "Not assessed.", ...opts })], spacing: { after: 120 } });
 }
 function bullet(text) {
   return new Paragraph({ text, bullet: { level: 0 }, spacing: { after: 60 } });

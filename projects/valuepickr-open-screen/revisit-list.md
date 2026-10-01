@@ -2,7 +2,7 @@
 
 Stocks worth actively re-checking once their cooldown lapses, even if the forum goes quiet on them - not just passively waiting for new posts. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-09-29
+Generated: 2026-10-01
 
 ## Due now
 
@@ -38,6 +38,7 @@ _(none)_
 | Stock | Target date | Window | Status | Gap score | Event |
 |---|---|---|---|---|---|
 | Raghav Productivity Solutions | 2026-10-22 | ~1M | pending | 0 | Organic 120,000 MTPA line commissioning (targeted Oct-2026), followed by early Odisha JV construction/ramp milestones |
+| Tamilnad Mercantile Bank Ltd (TMB Ltd) | 2026-10-31 | ~1M | pending | 44.59 | Q2 FY27 results/concall confirming whether NIM holds >4% and cost-to-income normalises as guided (Q2 FY27 business update already printed: total business Rs1... |
 | GNG Electronics Ltd | 2026-11-04 | ~2M | pending | 35.41 | Q2 FY27 results/concall showing whether margin expansion continues and whether inventory-turnover deterioration stabilises |
 | Devson Catalyst Ltd | 2026-11-18 | ~2M | pending | 0 | Q2 FY27 (Jul-Sep 2026) results — first quarterly print as a listed company; plus any disclosed Ammonia Decomposition Catalyst order value or repeat-order cad... |
 | L. T. Elevators: Can they lift investors | 2026-12-01 | ~3M | pending | 24.41 | H1 FY27 result (~Nov 2026) showing the growth run-rate WITH operating cash flow tracking profit; plus DYPC close (by ~30 Sep 2026) and West Bengal commission... |
@@ -62,6 +63,8 @@ _(none)_
 | Yash Highvoltage Ltd | 2027-03-01 | ~6M | pending | 37.01 | Greenfield Vadodara commissioning + trial production (H1 FY27), first commercial RIP output from October (H2 FY27), and the H1 FY27 print showing the Rs 360-... |
 | Entero Healthcare Solutions Ltd | 2027-03-01 | ~6M | pending | 32.72 | Q2/Q3 FY27 prints showing EBITDA margin sustained above 5% with operating cash flow staying positive despite continued M&A, and MedTech crossing Rs 1,000 Cr ... |
 | Aeroflex Industries Ltd | 2027-03-01 | ~6M | pending | 5.48 | 15,000-unit skid capacity commissioning (Oct-Nov 2026) + Q3/Q4 FY27 prints showing skid utilisation 60-70% and margin toward 25% |
+| Salzer Electronics | 2027-03-02 | ~5M | pending | 18.56 | Saudi plant commissioning (Sep-Oct 2026) + a Q3/Q4 FY27 EBITDA margin print showing recovery toward the 8-8.5% guided range |
+| Taurian MPS Ltd, Crushing opportunities? | 2027-03-02 | ~5M | pending | 0 | Execution of the ~Rs83.85cr order book (Jul-2026, 4-5 month window) converting to FY27 revenue and, critically, to actual cash collection, alongside resoluti... |
 | Yatharth Hospital & Trauma Care Services Limited | 2027-03-03 | ~6M | pending | 0 | Resolution of the Advent/Aster controlling-stake reports (a firm deal or a clear end to talks); plus Gurugram commissioning Q1 FY28 and the Model Town breake... |
 | Garware Hi-Tech Films Ltd | 2027-03-03 | ~6M | pending | 0 | TPU line commissioning (Q3FY27) plus a Q2/Q3FY27 print showing the tariff-normalised margin and new PPF line utilisation recovery |
 | Modison Ltd | 2027-03-04 | ~6M | pending | 6.39 | Q2/Q3 FY27 prints showing whether ~18-20% OPM holds as silver moderates and whether operating cash flow turns positive; visible ramp of HV-contact exports to... |
@@ -81,10 +84,8 @@ _(none)_
 | Bhagyanagar India Ltd | 2027-03-07 | ~6M | pending | 0 | Completion of the NCLT Composite Scheme of Arrangement and separate listing of Tieramet Ltd (copper business demerger) |
 | J.G. Chemicals Ltd | 2027-03-09 | ~6M | pending | 6.3 | Dahej commissioning (Nov-2026) + first 1-2 quarters of ramp showing whether core EBITDA margin moves toward 13-14% and non-rubber share climbs |
 | Kernex: TCAS led multi year growth story | 2027-03-10 | ~6M | pending | 31.34 | A Q2/Q3 FY27 print showing sustained execution WITH visible receivables collection / positive operating cash flow (plus continued Kavach award cadence) |
-| Kernex Microsystems | 2027-03-10 | ~6M | pending | 31.34 | A Q2/Q3 FY27 print showing sustained execution WITH visible receivables collection / positive operating cash flow (plus continued Kavach award cadence) |
 | Gufic BioSciences Ltd | 2027-03-10 | ~6M | pending | 27.43 | EU-GMP certificate issuance for Indore + a Q2/Q3 FY27 print showing GLP-1/Hetero CMO revenue + Indore utilisation reaching 40-45% |
 | Zaggle_A platform to address pain points for enterprises | 2027-03-10 | ~6M | pending | 10.27 | A Q2/Q3 FY27 print showing program-fee growth re-accelerating and adj EBITDA margin back toward 10% with receivables flat-to-down |
-| Zaggle Prepaid Ocean Services | 2027-03-10 | ~6M | pending | 10.27 | A Q2/Q3 FY27 print showing program-fee growth re-accelerating and adj EBITDA margin back toward 10% with receivables flat-to-down |
 | Jubilant Agri and Consumer Products Ltd (JACPL) — A Hidden Gem from the Jubilant Group? | 2027-03-10 | ~6M | pending | 7.78 | NCLT Second Motion sanction, record date and separate listing of Jubilant Agri Solutions Ltd; first standalone disclosures for the retained polymers/adhesive... |
 | Alembic Pharmaceuticals Ltd | 2027-03-10 | ~6M | pending | 7.18 | Q2 FY27 (and H2) results showing the US formulations inflection persisting beyond one quarter, with PAT growth catching up to revenue |
 | Technocraft Industries | 2027-03-10 | ~6M | pending | 7.0 | Q2/Q3 FY27 prints showing whether the elevated (~22%) consolidated margin holds as drum-closure EBIT normalises off 43%, plus defense repeat orders and any P... |
@@ -136,11 +137,12 @@ _(none)_
 | Capacit'e Infraprojects | 2027-03-24 | ~6M | pending | 52.45 | Q3/Q4 FY27 print showing the Rs10cr commodity-provision reversal and FY27 order-inflow guidance (Rs4,500-5,000cr) tracking on schedule, confirming the margin... |
 | KP Energy Ltd | 2027-03-24 | ~6M | pending | 16.44 | Q2/Q3 FY27 prints showing whether the ROW/input-cost margin compression seen in Q1 FY27 is transient or a new structural lower-margin regime, alongside deliv... |
 | Solex Energy Ltd | 2027-03-24 | ~6M | pending | 12.99 | H2FY27 execution against the Rs 845.84 Cr near-term order pipeline (targeted by 31-Dec-2026) plus cell-line structured-debt financial close and commissioning... |
+| Rajratan Global | 2027-04-02 | ~6M | pending | 43.65 | Q2/Q3 FY27 prints confirming margin durability beyond the single Q1 FY27 confirming quarter, plus Chennai Phase-2 (60,000 TPA) full ramp and steel-cord pilot... |
+| Senco Gold: Upcoming gold story! | 2027-04-02 | ~6M | pending | 19.28 | H2 FY27 festive/wedding-season margin print showing recovery toward the guided 7.5-7.8% EBITDA margin band |
 | Unimech Aerospace and Manufacturing Ltd | 2027-04-02 | ~7M | pending | 0 | First nuclear-order execution prints in H2FY27 + full-quarter Hobel contribution from Q2 + QIP completion / MPS sell-down clearing the overhang |
 | Dynamic Cables | 2027-04-03 | ~7M | pending | 4.6 | Greenfield trial production Sep 2026 -> commercial Q4 FY27 (revenue from Q4 FY27, 80-85% utilisation by end-FY28); quarterly prints sustaining ~30% growth vs... |
 | MTAR Technologies Ltd | 2027-04-03 | ~7M | pending | 0 | Fuel-cell Phase 2 capacity live (Oct 2026) then Phase 3 (Mar 2027); H2 FY27 nuclear execution ramp; Q2/Q3 FY27 prints confirming the +80% FY27 path |
 | Supreme (transformer maker) | 2027-04-19 | ~7M | pending | 26.1 | Kanpur facility utilisation reaching the guided 30-50% band by Q4 FY27, alongside a quarter where PAT growth catches up to revenue growth (confirming the ove... |
-| Deepak Fertilizers and Petrochemicals | 2027-05-31 | ~9M | pending | 77.25 | Gopalpur TAN + Hazira nitric acid commissioning (Q2 FY27) and the Q3 FY27 print showing new-capacity + sustained-margin contribution, plus NCLT / regulatory ... |
 | Stylam Industries Ltd | 2027-05-31 | ~9M | pending | 33.35 | Panchkula plant commercial start (Sep 2026) plus Q2/Q3 FY27 prints showing new-capacity revenue, sustained ~20% margins, and the domestic segment swinging to... |
 | Timex Group (TGIL) | 2027-05-31 | ~9M | pending | 4.06 | H2 FY27 prints showing whether revenue growth re-accelerates toward 40% or settles near 30%, plus confirmation the promoter sell-down is genuinely over (no f... |
 | Frontier Springs | 2027-05-31 | ~9M | pending | 0 | Q2/Q3 FY27 results showing whether railway dispatch pace re-accelerates toward the Rs 500 Cr guidance, plus FIBA on-train trial completion and a first commer... |
@@ -241,6 +243,7 @@ _(none)_
 | Skipper | 2027-09-18 | ~12M | pending | 25.65 | FY27 execution of the record Rs9,217cr order book plus delivery against the raised export/order-inflow guidance (Rs1,500cr export, Rs7,500cr total), with EBI... |
 | Univastu India | 2027-09-18 | ~12M | pending | 5.65 | Execution ramp of the Rs1,021cr+ order book (L&T Metro Line 4/4A, IRCON Mumbai Metro, Pune Metro) converting to revenue over FY27-28, plus a first material r... |
 | Vishnu Chemicals | 2027-09-18 | ~12M | pending | 3.85 | FY27 capex commissioning across DMSO plant / chromium-derivative capacity / barium backward integration, plus the first quarterly prints showing whether EBIT... |
+| Arihant Foundations and Housing | 2027-10-01 | ~12M | pending | 33.17 | Padi/Canopy Living JV project launch (first-phase bookings) + continued pre-sales momentum print in Q2/Q3 FY27 results |
 | Sambhv Steel Tubes | 2027-10-30 | ~14M | pending | 23.34 | Kesda stainless Phase-1 commissioning (targeted end-FY27) + first FY28 quarters showing SS contribution and post-deleverage interest savings, alongside proof... |
 | Emmvee Photovoltaic Power Ltd | 2027-12-19 | ~15M | pending | 0 | 6 GW integrated TOPCon module line commissioning (Dec-2026) and first cell-line ramp quarter (Mar-2027), plus any visible module/cell ASP softening as indust... |
 

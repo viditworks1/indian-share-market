@@ -2,35 +2,10 @@
 
 Stocks analyzed recently enough that their thread should NOT be re-opened by the scan job yet, regardless of new forum activity. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-09-29
+Generated: 2026-10-01
 
 | Stock | Last analyzed | Eligible again on | Conviction |
 |---|---|---|---|
-| Swastika Castal Ltd | 2026-08-31 | 2026-09-30 | Low-Medium |
-| Venkys India Ltd | 2026-08-31 | 2026-09-30 | None |
-| Dr Agarwal's Eye Hospital Ltd (DAEHL) | 2026-08-31 | 2026-09-30 | Medium |
-| West coast paper mills ltd | 2026-08-31 | 2026-09-30 | Low |
-| Artemis Medicare Services Ltd | 2026-08-31 | 2026-09-30 | Medium |
-| Dhoot Transmission: High Share, Higher Content | 2026-08-31 | 2026-09-30 | Low |
-| Sasken Technologies Ltd | 2026-08-31 | 2026-09-30 | Low-Medium |
-| Computer Age Management Services Ltd (CAMS) | 2026-08-31 | 2026-09-30 | Low |
-| KFin Technologies Ltd | 2026-08-31 | 2026-09-30 | Low |
-| Mazagon Dock Shipbuilders Ltd | 2026-08-31 | 2026-09-30 | Low |
-| Cochin Shipyard Ltd | 2026-08-31 | 2026-09-30 | Low |
-| Cyient Ltd | 2026-08-31 | 2026-09-30 | Low |
-| Dixon Technologies (India) Ltd | 2026-08-31 | 2026-09-30 | Low |
-| Venky India | 2026-08-31 | 2026-09-30 | Medium |
-| Zydus Lifesciences Ltd | 2026-09-01 | 2026-10-01 | Low |
-| BEML Ltd | 2026-09-01 | 2026-10-01 | Low-Medium |
-| KSB Ltd | 2026-09-01 | 2026-10-01 | Low |
-| Bluspring Enterprises Ltd | 2026-09-01 | 2026-10-01 | Low |
-| GE Vernova T&D India Ltd | 2026-09-01 | 2026-10-01 | Low-Medium |
-| GEE Ltd | 2026-09-01 | 2026-10-01 | Low |
-| Kama Holdings Limited | 2026-09-01 | 2026-10-01 | Medium |
-| Krishival Foods Ltd | 2026-09-01 | 2026-10-01 | Low-Medium |
-| ITC: "Will"(s) "Gold Flake" assist "Ashirwad" to win "Bingo!"? | 2026-09-01 | 2026-10-01 | Low-Medium |
-| Astra Micro Huge Growth Ahead in Offset Space | 2026-09-01 | 2026-10-01 | Low-Medium |
-| John Cockerill India: A Case Study on Decarbonisation of Steel | 2026-09-01 | 2026-10-01 | Low |
 | Apsis Aerocom Ltd | 2026-09-02 | 2026-10-02 | Low |
 | Aimtron Electronics Ltd (EMS China+1 Global Play) | 2026-09-02 | 2026-10-02 | Low-Medium |
 | Zaggle_A platform to address pain points for enterprises | 2026-09-02 | 2026-10-02 | Low |
@@ -421,7 +396,7 @@ Generated: 2026-09-29
 | Senco Gold: Upcoming gold story! | 2026-09-26 | 2026-10-26 | Medium |
 | Yash Pakka | 2026-09-26 | 2026-10-26 | Low-Medium |
 | Indiamart Intermesh | 2026-09-26 | 2026-10-26 | Medium-High |
-| Tamilnad Mercantile Bank Ltd (TMB Ltd) | 2026-09-26 | 2026-10-26 | Low-Medium |
+| Tamilnad Mercantile Bank Ltd (TMB Ltd) | 2026-09-26 | 2026-10-26 | Medium-High |
 | Sakar Healthcare | 2026-09-26 | 2026-10-26 | Low-Medium |
 | Marico Limited (NSE: MARICO) | 2026-09-26 | 2026-10-26 | Medium-High |
 | CONNPLEX CINEMA | 2026-09-26 | 2026-10-26 | Low |
@@ -450,7 +425,7 @@ Generated: 2026-09-29
 | Mishra Dhatu Nigam (MIDHANI) | 2026-09-26 | 2026-10-26 | Low-Medium |
 | Elecon Engineering Company | 2026-09-26 | 2026-10-26 | Low |
 | Policybazaar | 2026-09-26 | 2026-10-26 | Medium-High |
-| Rajratan Global | 2026-09-26 | 2026-10-26 | Medium |
+| Rajratan Global | 2026-09-26 | 2026-10-26 | Medium-High |
 | BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom? | 2026-09-26 | 2026-10-26 | Medium-High |
 | HDFC Asset Management Company | 2026-09-26 | 2026-10-26 | Medium-High |
 | Phantom Digital Effects Limited | 2026-09-26 | 2026-10-26 | Medium-High |
@@ -459,21 +434,21 @@ Generated: 2026-09-29
 | NAGARJUNA AGRICHEM -- lottery ticket | 2026-09-26 | 2026-10-26 | Medium-High |
 | Everest Kanto Cylinders Ltd. | 2026-09-26 | 2026-10-26 | Low-Medium |
 | Tamboli Capital: Its a Casting Company! | 2026-09-26 | 2026-10-26 | Low |
-| Salzer Electronics | 2026-09-26 | 2026-10-26 | Medium-High |
+| Salzer Electronics | 2026-09-26 | 2026-10-26 | Medium |
 | Brigade Hotel Ventures Ltd | 2026-09-26 | 2026-10-26 | Low-Medium |
 | Gokaldas exports -- cup and handle/rising channel | 2026-09-26 | 2026-10-26 | Medium-High |
 | AGI Greenpac- on the cusp of growth? | 2026-09-26 | 2026-10-26 | Low-Medium |
 | Modern Dairies | 2026-09-26 | 2026-10-26 | Medium |
 | TAAL Enterprise | 2026-09-26 | 2026-10-26 | Low-Medium |
 | E-pack durables | 2026-09-26 | 2026-10-26 | Low-Medium |
-| Arihant Foundations and Housing | 2026-09-26 | 2026-10-26 | Low-Medium |
+| Arihant Foundations and Housing | 2026-09-26 | 2026-10-26 | Medium |
 | Ashiana Housing | 2026-09-26 | 2026-10-26 | Low-Medium |
 | Saatvik green-can the company bloom with the sun | 2026-09-26 | 2026-10-26 | Low |
 | Ztech (India) Limited | 2026-09-26 | 2026-10-26 | Low-Medium |
 | NCC: Extremely undervalued | 2026-09-26 | 2026-10-26 | Medium-High |
 | GHCL Textiles Ltd: Climbing the Value Chain | 2026-09-26 | 2026-10-26 | Low-Medium |
 | JTEKT India: Driving Precision, Powering India’s Mobility Future | 2026-09-26 | 2026-10-26 | Medium-High |
-| Taurian MPS Ltd, Crushing opportunities? | 2026-09-26 | 2026-10-26 | Medium |
+| Taurian MPS Ltd, Crushing opportunities? | 2026-09-26 | 2026-10-26 | Low-Medium |
 | TCI Express | 2026-09-26 | 2026-10-26 | Medium |
 | Frontier Springs | 2026-09-28 | 2026-10-28 | Medium |
 | Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing | 2026-09-28 | 2026-10-28 | Medium |

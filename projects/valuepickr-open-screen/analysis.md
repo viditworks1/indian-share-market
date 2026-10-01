@@ -8376,3 +8376,49 @@ Also confirmed via direct Yahoo Finance checks that ~21 remaining technical-unre
 
 ## Sansera Engineering — trusted-X signal [2026-09-22]
 - LearningEleven (cluster), sentiment on FAI/semiconductor traction (2026-09-22): "Going by the flurry of international brokerage coverage and price action, maybe the FAI went well and perhaps more traction on semiconductor segment!" — implicit positive lean on fundamentals-driven signal. trusted_signals + .docx updated.
+
+## Salzer Electronics — deep-dive pass 1 [2026-10-01]
+- FY26 revenue Rs1,758cr (+24% YoY, 5yr CAGR 23%), but EBITDA margin compressed to 8.36% from 9.44%; Q1 FY27 PAT fell 52% YoY on copper/silver/aluminium cost inflation.
+- Management cut EBITDA margin guidance twice in 2026 (10% -> 9-9.5% -> 8-8.5%); smart-meter plant (~Rs25cr invested, 4M-unit capacity) still generating only ~Rs25-26cr/yr 2+ years in.
+- ROCE 11.2% and declining per independent forensic read; working-capital-funded debt (short-term borrowings Rs503cr FY26) growing faster than EBITDA — Coffee-Can track-record test fails on capital efficiency despite strong revenue growth.
+- Saudi plant (Sep-Oct 2026) and BBMP/Effilume municipal-energy ramp are real optionality but commissioning has already slipped twice.
+- Conviction Medium-High -> Medium. Four-box score 3.0 keeps thesis_fit at 100x-in-10-years, but margin/guidance-credibility concerns cap conviction.
+
+## Senco Gold — deep-dive pass 1 [2026-10-01]
+- FY26 revenue Rs8,430cr (+33% YoY) but PAT surged 3.6x to Rs574cr (ROCE 22.5%/ROE 25.7%) — a gold-price/hedging-gain-driven windfall, not pure operating improvement.
+- Already reversing: Q1 FY27 EBITDA margin fell to 7.0% from 10.0% YoY (PAT margin 3.3% vs 5.7%) on the customs-duty hike (6%->15%) forcing discounting; gold hedging only ~50% of inventory value vs a 75-80% target.
+- On FY27's own guided PAT margin (4.0-4.5%), normalized PAT (~Rs424-454cr) is below FY26's reported Rs574cr — trailing 8.9x P/E understates the real forward multiple (~11-12x).
+- Credit profile genuinely improving (3 separate CARE/ICRA upgrades to A+ through 2026) despite elevated debt/EBITDA (~4.6x, working-capital gold-metal-loan leverage); no pledge, no auditor/SEBI red flags.
+- Four-box score 3.0 technically permits a 10x label, but mcap already Rs5,180cr + single-digit margins make that return magnitude unrealistic — thesis_fit downgraded to neither via analyst override ("Nesco logic").
+- conviction Medium -> Medium (thesis_fit 100x-in-10-years -> neither).
+
+## Taurian MPS Ltd, Crushing opportunities? — deep-dive pass 1 [2026-10-01]
+- Crushing/screening equipment maker (Roorkee, single-site): revenue scaled Rs11cr(FY23)->38cr(FY24,+245%)->74cr(FY25,+95%)->~100cr(FY26,+35%) — strong but sharply decelerating; ~Rs84cr order book (Jul-2026) and 25+ country dealer network remain genuine positives.
+- HIGH CAUTION red flag: statutory auditor BDG & CO LLP resigned 14-Apr-2026 (~7 months post-IPO), replaced via casual vacancy — confirmed via direct BSE/NSE filing search.
+- FY26 operating cash flow -Rs37cr despite Rs16cr reported profit; working-capital days nearly doubled 108->227, debtor days to 181 — growth not converting to cash.
+- Two dilutive capital raises within a year (Sep-2025 IPO + Aug-2026 preferential/warrants, further EGM Sep-2026) cut promoter holding from ~89% to 63.8%.
+- Four-box score 2.5 (valuation "no" at 32x trailing P/E on decelerating growth) independently lands in "neither"; HIGH CAUTION separately forces thesis_fit to neither and caps conviction.
+- conviction Medium -> Low-Medium (thesis_fit 100x-in-10-years -> neither).
+
+## Rajratan Global — deep-dive pass 1 [2026-10-01]
+- 42-43% India bead-wire market share (largest domestic maker) + sole Thailand manufacturer + 1-3yr/3-5yr OEM qualification barriers = a genuine, verified moat (85% revenue from 5+yr-tenure customers).
+- EBITDA margin fell from 20.3% (FY22) to 12.1% (FY26) on commodity cost pass-through lag (unhedged wire-rod, ~62% of revenue) + Chennai capex drag; management guided recovery every year FY22-FY25 and missed every year.
+- Q1 FY27 finally delivered: EBITDA margin ~13.1% matching guidance, EBITDA +35% YoY, PAT +70% YoY — the first confirming quarter in four years.
+- Promoter holding 65.2% (Jun 2026), no pledge; capital allocation debt-preferred over dilution, Chennai Phase-1 broke even and hit 85-90% utilisation ahead of schedule.
+- Valuation re-rated to ~29-31x trailing, reclassified "expensive" by automated screens late Sept 2026.
+- Conviction Medium -> Medium-High. Four-box score 3.0 keeps thesis_fit at 100x-in-10-years; capped below High pending a second confirming margin quarter.
+
+## Tamilnad Mercantile Bank Ltd (TMB Ltd) — deep-dive pass 1 [2026-10-01]
+- GNPA fell every single quarter for three straight years (1.56%->0.69%, Jun-23 to Jun-26, decade low); NIM expanded to 4.29% (Q1 FY27) and FY27 guidance raised across advances (21-22%), NIM, ROA, ROE after beating the prior ask.
+- CRAR 32.33%/Tier-1 31.30% (~3x regulatory minimum) funds 60 new FY27 branches without dilution; CRISIL reaffirmed A+/Stable in Jun-2026.
+- Trades at 9.57x trailing P/E / 1.3x book vs a 14-20x private-bank peer range despite comparable-or-better ROE, largely explained by 37.6% of equity still tied up in a decades-old ownership dispute between rival shareholder blocs (bank has no identified promoter group; won an ED appeal Jul-2026).
+- Four-box score 3.5 clears the bar, but at Rs13,820cr market cap with bank-like ROE economics neither 10x-in-2-3-years nor 100x-in-10-years is realistic even bull-case — thesis_fit set to "neither" via analyst_override (return-magnitude mismatch, not a thesis-quality problem).
+- conviction Low-Medium -> Medium-High.
+
+## Arihant Foundations and Housing — deep-dive pass 1 [2026-10-01]
+- 2026 JV with Prestige Estates (Canopy Living LLP) for a 16.33-acre Padi (Chennai) parcel carries ~Rs5,000cr GDV potential — multiples of AFHL's own Rs928cr market cap and Rs420cr FY26 revenue; still pre-revenue (land acquired, no launch date/profit-share disclosed).
+- FY26 record pre-sales Rs513.70cr (+28% YoY); Q1 FY27 pre-sales +69% YoY and PAT +47% YoY — real, accelerating demand off a ~2.96mn sqft, 15+ project JDA pipeline.
+- Borrowings more than tripled in FY26 (Rs149cr->Rs478cr) against ~Rs371cr net worth (net debt/EBITDA ~4.9x); OPM swung 8%-31% quarter to quarter on project-completion timing — analysts independently flagged margin compression.
+- Nov-2024 Rs109cr preferential allotment to marquee investors (Madhusudan Kela's Lotus Family Trust, CaratLane founders) cut promoter holding 42.87%->37.29% (pledge 0% throughout) — a one-time strategic raise, not a sell-down.
+- Four-box score 3.5 supports thesis_fit 10x-in-2-3-years with an "unconfirmed" caveat (per the live-inflection convention) since the Padi JV hasn't yet converted to bookings.
+- conviction Low-Medium -> Medium.

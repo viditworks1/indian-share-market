@@ -3,7 +3,7 @@
   "scored_count": 954,
   "not_assessed_count": 0,
   "consistency_score_coverage": 192,
-  "asymmetry_score_coverage": 258,
+  "asymmetry_score_coverage": 260,
   "ranked": [
     {
       "slug": "p-e-analytics",
@@ -316,7 +316,7 @@
     {
       "slug": "force-motors",
       "name": "Force Motors Ltd",
-      "master_score": 55.32,
+      "master_score": 54.49,
       "red_flag_tier": null,
       "conviction": "High",
       "thesis_fit": "neither",
@@ -326,7 +326,7 @@
         "note": "FY23 rev +55%/ROCE 5% fails (post-COVID low-base recovery year, ROCE<15%); FY24 rev +39%/ROCE 24%, FY25 rev +15.4%/ROCE 30%, FY26 rev +12.2%/ROCE 36% all clear the >=10% growth + >=15% ROCE bar -- 3 of 4 checkable years pass."
       },
       "score_breakdown": {
-        "conviction_score": 68.0,
+        "conviction_score": 64.7,
         "quality_score": 69.0,
         "expectation_gap_score": 22.06,
         "consistency_score": 75,
@@ -398,34 +398,6 @@
       }
     },
     {
-      "slug": "time-technoplast",
-      "name": "Time Technoplast",
-      "master_score": 53.88,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 2,
-        "note": "FY22-FY26 verifiable. Roughly FY25 and FY26 cleared both revenue growth >=10% and ROCE >=15% in the same year; FY21-FY23 had sub-10% revenue growth (COVID-affected demand) despite ROCE near 15%. Consistent with the weak trailing 5-yr revenue CAGR of 4.46% and a genuine recent inflection."
-      },
-      "score_breakdown": {
-        "conviction_score": 43.37,
-        "quality_score": 71.0,
-        "expectation_gap_score": 51.59,
-        "consistency_score": 40,
-        "asymmetry_score": 59.8,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "jeena-sikho-lifecare",
       "name": "Jeena Sikho Lifecare",
       "master_score": 53.59,
@@ -471,6 +443,34 @@
         "expectation_gap_score": 5.38,
         "consistency_score": 100,
         "asymmetry_score": 41.69,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "time-technoplast",
+      "name": "Time Technoplast",
+      "master_score": 53.47,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 2,
+        "note": "FY22-FY26 verifiable. Roughly FY25 and FY26 cleared both revenue growth >=10% and ROCE >=15% in the same year; FY21-FY23 had sub-10% revenue growth (COVID-affected demand) despite ROCE near 15%. Consistent with the weak trailing 5-yr revenue CAGR of 4.46% and a genuine recent inflection."
+      },
+      "score_breakdown": {
+        "conviction_score": 41.73,
+        "quality_score": 71.0,
+        "expectation_gap_score": 51.59,
+        "consistency_score": 40,
+        "asymmetry_score": 59.8,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -1683,29 +1683,6 @@
       }
     },
     {
-      "slug": "garden-reach-shipbuilders-engineers",
-      "name": "Garden Reach Shipbuilders & Engineers Ltd (GRSE)",
-      "master_score": 42.62,
-      "red_flag_tier": null,
-      "conviction": "High",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 62.37,
-        "quality_score": 55.0,
-        "expectation_gap_score": 25.04,
-        "consistency_score": null,
-        "asymmetry_score": 12.52,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
       "slug": "hind-rectifiers",
       "name": "Hind Rectifiers Ltd (HIRECT)",
       "master_score": 42.16,
@@ -1731,6 +1708,29 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "garden-reach-shipbuilders-engineers",
+      "name": "Garden Reach Shipbuilders & Engineers Ltd (GRSE)",
+      "master_score": 42.14,
+      "red_flag_tier": null,
+      "conviction": "High",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 60.73,
+        "quality_score": 55.0,
+        "expectation_gap_score": 25.04,
+        "consistency_score": null,
+        "asymmetry_score": 12.52,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
       }
     },
     {
@@ -1847,34 +1847,6 @@
       }
     },
     {
-      "slug": "kalyani-cast",
-      "name": "Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing",
-      "master_score": 41.77,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 6,
-        "years_cleared": 4,
-        "note": "FY21-FY26 (screener 544023): ROCE >=17% every year (17% FY21, then 83% FY22 one-off, 30-35% FY23-FY25, ~29% TTM FY26). Revenue growth -15% FY21, +346% FY22 (tiny base), +29% FY23, +49% FY24, +40% FY25, +8% FY26. Both cleared FY22-FY25 = 4 of 6; FY21 missed on the contraction, FY26 on the +8% slowdown."
-      },
-      "score_breakdown": {
-        "conviction_score": 46.87,
-        "quality_score": 65.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 67,
-        "asymmetry_score": 25.0,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "raymond-realty",
       "name": "Raymond Realty Ltd",
       "master_score": 41.72,
@@ -1919,6 +1891,34 @@
         "expectation_gap_score": 3.82,
         "consistency_score": 40,
         "asymmetry_score": 28.91,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "rajratan-global",
+      "name": "Rajratan Global",
+      "master_score": 41.5,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "100x-in-10-years",
+      "track_record": {
+        "years_checked": 4,
+        "years_cleared": 2,
+        "note": "FY22-FY26: revenue/volume growth cleared 10% in most years (FY26 +24% revenue/+18% volume). ROCE was not individually sourced per fiscal year this pass -- estimated from the EBITDA-margin trend (20.3% FY22 -> 12.1% FY26) that FY22-FY23 likely cleared the 15% ROCE bar (margins were far higher then) while FY25-FY26 (ROCE currently 13.2%, declining) did not. This is a directional estimate, not individually verified per-year ROCE data."
+      },
+      "score_breakdown": {
+        "conviction_score": 61.0,
+        "quality_score": 24.0,
+        "expectation_gap_score": 43.65,
+        "consistency_score": 50,
+        "asymmetry_score": 26.82,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -1975,34 +1975,6 @@
         "expectation_gap_score": 22.9,
         "consistency_score": 100,
         "asymmetry_score": 16.45,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "deepak-fertilizers-and-petrochemicals",
-      "name": "Deepak Fertilizers and Petrochemicals",
-      "master_score": 40.9,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 10,
-        "years_cleared": 2,
-        "note": "screener.in FY17-FY26: only FY22 (rev +32%, ROCE 19%) and FY23 (rev +48%, ROCE 25%) cleared both bars - the ammonia/TAN price up-cycle. ROCE was 6-9% FY17-FY20, 14% FY21, then fell back to ~11-13% FY24-FY26. Revenue is lumpy and cyclical (FY20 -31%, FY24 -23%). FY26 rev +12% but ROCE only ~11%."
-      },
-      "score_breakdown": {
-        "conviction_score": 34.12,
-        "quality_score": 25.0,
-        "expectation_gap_score": 77.25,
-        "consistency_score": 20,
-        "asymmetry_score": 51.12,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -2259,34 +2231,6 @@
       }
     },
     {
-      "slug": "crompton-greaves-consumer-product-brand-revival",
-      "name": "Crompton Greaves Consumer Product: Brand Revival",
-      "master_score": 39.02,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 8,
-        "years_cleared": 2,
-        "note": "Screener 10y table FY19-FY26: both rev growth >=10% AND ROCE >=15% cleared only FY22 (12.3%/16%) and FY23 (27.4%/16%). FY19-21 failed on growth; FY24-26 failed on growth (6.4%/7.5%/3.0%) despite ROCE 18-19%."
-      },
-      "score_breakdown": {
-        "conviction_score": 42.87,
-        "quality_score": 65.0,
-        "expectation_gap_score": 2.92,
-        "consistency_score": 25,
-        "asymmetry_score": 51.46,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "kovai-medical-center-and-hospital",
       "name": "Kovai Medical Center and Hospital",
       "master_score": 38.96,
@@ -2371,34 +2315,6 @@
       }
     },
     {
-      "slug": "hbl-engineering-booting",
-      "name": "HBL Engineering: Booting-up for the Race of the Century",
-      "master_score": 38.79,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 11,
-        "years_cleared": 2,
-        "note": "FY16-FY26 (screener consolidated): a low-return battery/defence company until FY24 -- ROCE 4-14% and revenue shrinking FY19-FY21. The Kavach (train collision-avoidance) / DFCCIL order ramp lifted ROCE to 36% (FY24) and 58% (FY26). Both metrics cleared only FY24 and FY26 (FY25 revenue dipped -12% on order timing) = 2 of 11; the last three years are the real story."
-      },
-      "score_breakdown": {
-        "conviction_score": 24.75,
-        "quality_score": 69.0,
-        "expectation_gap_score": 24.19,
-        "consistency_score": 18,
-        "asymmetry_score": 52.09,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "virtual-galaxy-infotech",
       "name": "Virtual Galaxy Infotech Ltd",
       "master_score": 38.75,
@@ -2451,6 +2367,34 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "crompton-greaves-consumer-product-brand-revival",
+      "name": "Crompton Greaves Consumer Product: Brand Revival",
+      "master_score": 38.61,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 8,
+        "years_cleared": 2,
+        "note": "Screener 10y table FY19-FY26: both rev growth >=10% AND ROCE >=15% cleared only FY22 (12.3%/16%) and FY23 (27.4%/16%). FY19-21 failed on growth; FY24-26 failed on growth (6.4%/7.5%/3.0%) despite ROCE 18-19%."
+      },
+      "score_breakdown": {
+        "conviction_score": 41.23,
+        "quality_score": 65.0,
+        "expectation_gap_score": 2.92,
+        "consistency_score": 25,
+        "asymmetry_score": 51.46,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
       }
     },
     {
@@ -2813,6 +2757,34 @@
       }
     },
     {
+      "slug": "arihant-foundations-and-housing",
+      "name": "Arihant Foundations and Housing",
+      "master_score": 35.92,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 4,
+        "years_cleared": 2,
+        "note": "FY23-FY26 checked (consolidated revenue growth >=10% AND ROCE >=15%): FY23 revenue -23% (fails growth), ROCE 9% (fails); FY24 revenue +94% (passes) but ROCE 11% (fails); FY25 revenue +66% (passes) and ROCE 20% (passes) \u2014 cleared; FY26 revenue +104% (passes) and ROCE 16% (passes) \u2014 cleared. FY25 and FY26 both cleared simultaneously as the Prestige-linked project pipeline scaled \u2014 a genuine 2-year inflection, not yet a 3+-year trend; FY23 was a pre-ramp, low-base year."
+      },
+      "score_breakdown": {
+        "conviction_score": 34.0,
+        "quality_score": 39.0,
+        "expectation_gap_score": 33.17,
+        "consistency_score": 50,
+        "asymmetry_score": 23.59,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "kwality-pharmaceuticals",
       "name": "Kwality Pharmaceuticals",
       "master_score": 35.86,
@@ -3132,34 +3104,6 @@
       }
     },
     {
-      "slug": "chaman-lal-setia-exports-ltd-clse",
-      "name": "Chaman Lal Setia Exports Ltd",
-      "master_score": 33.51,
-      "red_flag_tier": "",
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 11,
-        "years_cleared": 3,
-        "note": "Of FY16-FY26, only FY18 (+51.5%/29%), FY23 (+48.8%/26%) and FY25 (+10.3%/17%) cleared both filters. ROCE is consistently 17-46% but basmati-price cyclicality keeps revenue growth above 10% in only 3 of 11 years."
-      },
-      "score_breakdown": {
-        "conviction_score": 26.05,
-        "quality_score": 52.0,
-        "expectation_gap_score": 24.19,
-        "consistency_score": 27,
-        "asymmetry_score": 34.09,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "sona-blw-precision-forgings",
       "name": "Sona BLW Precision Forgings Ltd",
       "master_score": 33.4,
@@ -3177,6 +3121,34 @@
         "expectation_gap_score": 5.38,
         "consistency_score": 88,
         "asymmetry_score": 22.69,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "tamilnad-mercantile-bank",
+      "name": "Tamilnad Mercantile Bank Ltd (TMB Ltd)",
+      "master_score": 33.26,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 0,
+        "note": "FY22-FY26 checked (revenue growth >=10% AND ROE >=15%, using ROE as the bank-sector equivalent of ROCE): FY22 ROE 17% but revenue +6.2% (fails growth); FY23 ROE 17% but revenue +6.4% (fails growth); FY24 revenue +18.8% but ROE 14% (fails ROE); FY25 revenue +9.1% and ROE 14% (fails both, narrowly); FY26 revenue +10.0% (passes, narrowly) but ROE 14% (fails). 0 of 5 years cleared both simultaneously \u2014 revenue growth and ROE moved in offsetting cycles. FY26-27's acceleration (Q1 FY27 PAT +35% YoY, ROE 15.93%, GNPA at a decade low) is the first sign of both metrics moving together \u2014 a potential inflection, not yet a proven multi-year trend."
+      },
+      "score_breakdown": {
+        "conviction_score": 42.0,
+        "quality_score": 42.0,
+        "expectation_gap_score": 44.59,
+        "consistency_score": 0,
+        "asymmetry_score": 22.3,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -3236,31 +3208,30 @@
       }
     },
     {
-      "slug": "kernex-microsystems",
-      "name": "Kernex Microsystems",
-      "master_score": 32.83,
+      "slug": "kalyani-cast",
+      "name": "Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing",
+      "master_score": 32.72,
       "red_flag_tier": null,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "track_record": {
-        "years_checked": 3,
-        "years_cleared": 1,
-        "note": "Of FY24/FY25/FY26, only FY26 (and arguably FY25 on the low base) clearly cleared BOTH revenue growth >=10% AND ROCE >=15% in the same year -- prior years were loss-making / sub-scale. FY26 is the one unambiguous pass; FY25 borderline. This is a 1-2 year turnaround, not a consistent compounder."
+        "years_checked": 2,
+        "years_cleared": 2,
+        "note": "FY24/25 revenue CAGR was 40%+ (multiple of 10x+ over 2 years); ROCE held at 31% in recent years (high quality). FY26 growth stalled to +8%, breaking the track record; FY27-28 execution on capex is the re-validation point."
       },
       "score_breakdown": {
-        "conviction_score": 37.05,
-        "quality_score": 40.0,
-        "expectation_gap_score": 31.34,
-        "consistency_score": 33,
-        "asymmetry_score": 15.67,
+        "conviction_score": 46.13,
+        "quality_score": 43.0,
+        "expectation_gap_score": 5.38,
+        "consistency_score": null,
+        "asymmetry_score": 29.69,
         "components_used": [
           "asymmetry_score",
-          "consistency_score",
           "conviction_score",
           "expectation_gap_score",
           "quality_score"
         ],
-        "weight_coverage": 1.0
+        "weight_coverage": 0.85
       }
     },
     {
@@ -3528,34 +3499,6 @@
       }
     },
     {
-      "slug": "kamat-hotels",
-      "name": "Kamat Hotels (India) Ltd- A Possible Turnaround Story!",
-      "master_score": 31.63,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 2,
-        "note": "FY22-FY26 checked for revenue growth >=10% AND ROCE >=15% in the same year. FY23 (post-COVID recovery) and FY25 (revenue +19%, ROCE ~15.8%) plausibly cleared both; FY22 was COVID-depressed, FY24 ROCE was borderline, FY26 revenue grew only ~8%. History is real but cyclically distorted by the pandemic."
-      },
-      "score_breakdown": {
-        "conviction_score": 13.58,
-        "quality_score": 49.0,
-        "expectation_gap_score": 29.48,
-        "consistency_score": 40,
-        "asymmetry_score": 27.24,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "gravita-india-success-story",
       "name": "Gravita India success story",
       "master_score": 31.47,
@@ -3573,6 +3516,34 @@
         "expectation_gap_score": 0,
         "consistency_score": 62,
         "asymmetry_score": 27.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "kamat-hotels",
+      "name": "Kamat Hotels (India) Ltd- A Possible Turnaround Story!",
+      "master_score": 31.46,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 2,
+        "note": "FY22-FY26 checked for revenue growth >=10% AND ROCE >=15% in the same year. FY23 (post-COVID recovery) and FY25 (revenue +19%, ROCE ~15.8%) plausibly cleared both; FY22 was COVID-depressed, FY24 ROCE was borderline, FY26 revenue grew only ~8%. History is real but cyclically distorted by the pandemic."
+      },
+      "score_breakdown": {
+        "conviction_score": 12.92,
+        "quality_score": 49.0,
+        "expectation_gap_score": 29.48,
+        "consistency_score": 40,
+        "asymmetry_score": 27.24,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -3909,34 +3880,6 @@
       }
     },
     {
-      "slug": "see-the-bright-sun-aditya-vision",
-      "name": "See the bright Sun: Aditya Vision",
-      "master_score": 30.48,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 8,
-        "years_cleared": 7,
-        "note": "FY19-FY26 screener (ticker AVL). Revenue growth >=10% AND ROCE >=15% in the same FY passed FY19, FY20, FY22, FY23, FY24, FY25, FY26 (ROCE 17-51%, growth 18-47%). Missed only FY21 (COVID, rev -6%). ROCE has drifted down 25%->17% FY23->FY26 as working-capital debt rose but stayed above the bar."
-      },
-      "score_breakdown": {
-        "conviction_score": 36.12,
-        "quality_score": 30.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 88,
-        "asymmetry_score": 5.0,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "millworks-technologies",
       "name": "Millworks Technologies Ltd",
       "master_score": 30.44,
@@ -4015,6 +3958,34 @@
       }
     },
     {
+      "slug": "see-the-bright-sun-aditya-vision",
+      "name": "See the bright Sun: Aditya Vision",
+      "master_score": 30.07,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 8,
+        "years_cleared": 7,
+        "note": "FY19-FY26 screener (ticker AVL). Revenue growth >=10% AND ROCE >=15% in the same FY passed FY19, FY20, FY22, FY23, FY24, FY25, FY26 (ROCE 17-51%, growth 18-47%). Missed only FY21 (COVID, rev -6%). ROCE has drifted down 25%->17% FY23->FY26 as working-capital debt rose but stayed above the bar."
+      },
+      "score_breakdown": {
+        "conviction_score": 34.48,
+        "quality_score": 30.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 88,
+        "asymmetry_score": 5.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "nephrocare-health",
       "name": "Nephrocare Health Services Ltd",
       "master_score": 30.06,
@@ -4068,46 +4039,6 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "brand-concept",
-      "name": "Brand concept",
-      "master_score": 30.0,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 30.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "brigade-hotel-ventures",
-      "name": "Brigade Hotel Ventures Ltd",
-      "master_score": 30.0,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 30.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
       }
     },
     {
@@ -4238,26 +4169,6 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "surya-roshni-ltd",
-      "name": "Surya roshni ltd",
-      "master_score": 29.12,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 29.12,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
       }
     },
     {
@@ -4621,6 +4532,26 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "surya-roshni-ltd",
+      "name": "Surya roshni ltd",
+      "master_score": 27.48,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 27.48,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
       }
     },
     {
@@ -5298,26 +5229,6 @@
     {
       "slug": "milky-mist-dairy-food",
       "name": "Milky Mist Dairy Food Ltd- Taste meets Valuations?",
-      "master_score": 25.0,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "shanthi-gears-shanti-gears",
-      "name": "Shanthi Gears/Shanti Gears",
       "master_score": 25.0,
       "red_flag_tier": null,
       "conviction": "Medium",
@@ -6116,26 +6027,6 @@
       }
     },
     {
-      "slug": "rossell-india",
-      "name": "Rossell India / Rossell Techsys",
-      "master_score": 25.0,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "indian-metals-ferro-alloys",
       "name": "Indian Metals & Ferro Alloys (IMFA)",
       "master_score": 25.0,
@@ -6476,31 +6367,6 @@
       }
     },
     {
-      "slug": "salzer-electronics",
-      "name": "Salzer Electronics",
-      "master_score": 25.0,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "100x-in-10-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 50.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
-      }
-    },
-    {
       "slug": "wockhardt-ltd",
       "name": "Wockhardt Ltd",
       "master_score": 24.96,
@@ -6606,79 +6472,23 @@
       }
     },
     {
-      "slug": "emerald-finance",
-      "name": "Emerald Finance",
-      "master_score": 24.74,
+      "slug": "senco-gold-upcoming-gold-story",
+      "name": "Senco Gold: Upcoming gold story!",
+      "master_score": 24.55,
       "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 1,
-        "note": "NBFC -- profitability leg on ROE. Per screener.in, only FY26 (+41% revenue / ROE 16%, ROCE 21%) clears both bars. FY22-FY24 ROE was ~9%; FY25 (+69% revenue) ROE 14% just missed. The EWA-driven profitability step-up is one year old; revenue has risen 12 straight quarters but ROE only crossed 15% in FY26. No GNPA/NNPA/ECL disclosure is a governance gap."
-      },
-      "score_breakdown": {
-        "conviction_score": 26.01,
-        "quality_score": 43.0,
-        "expectation_gap_score": 16.31,
-        "consistency_score": 20,
-        "asymmetry_score": 8.15,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "zaggle-prepaid",
-      "name": "Zaggle Prepaid Ocean Services",
-      "master_score": 24.72,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 1,
-        "note": "FY24-FY26 verifiable. Revenue growth exceeded 10% in all three years, but ROCE has hovered ~13-15% (FY26 ~14%), clearing the 15% bar in at most one year. Company listed Sept 2023, so the pre-listing base is thin."
-      },
-      "score_breakdown": {
-        "conviction_score": 20.8,
-        "quality_score": 32.0,
-        "expectation_gap_score": 10.27,
-        "consistency_score": 33,
-        "asymmetry_score": 30.13,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "ramco-system",
-      "name": "Ramco system",
-      "master_score": 24.51,
-      "red_flag_tier": null,
-      "conviction": "Low",
+      "conviction": "Medium",
       "thesis_fit": "neither",
       "track_record": {
         "years_checked": 5,
-        "years_cleared": 1,
-        "note": "FY22-FY26 checked for revenue growth >=10% AND ROCE >=15% in the same year. Only FY26 plausibly cleared both (revenue +13%, TTM ROCE ~20%), and that on a just-turned base. FY22-FY25 were loss-making with negative ROCE. A one-year pass, not a consistency record."
+        "years_cleared": 2,
+        "note": "FY24 (rev +29%, ROCE 21%) and FY26 (rev +33%, ROCE 22.5%) both clear the growth+ROCE hurdles; FY22 (ROCE 14%) and FY23 (ROCE 10%) fall short despite decent revenue growth; FY25 ROCE not cleanly verifiable from sources reviewed this pass, and FY25 PAT actually declined YoY (Rs159cr vs Rs181cr FY24), suggesting ROCE likely dipped below 15% -- treated conservatively as not cleared."
       },
       "score_breakdown": {
-        "conviction_score": 15.04,
-        "quality_score": 59.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 20,
-        "asymmetry_score": 20.0,
+        "conviction_score": 25.0,
+        "quality_score": 28.0,
+        "expectation_gap_score": 19.28,
+        "consistency_score": 40,
+        "asymmetry_score": 9.64,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -6707,6 +6517,34 @@
         "expectation_gap_score": 16.31,
         "consistency_score": 11,
         "asymmetry_score": 33.16,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "emerald-finance",
+      "name": "Emerald Finance",
+      "master_score": 24.41,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 1,
+        "note": "NBFC -- profitability leg on ROE. Per screener.in, only FY26 (+41% revenue / ROE 16%, ROCE 21%) clears both bars. FY22-FY24 ROE was ~9%; FY25 (+69% revenue) ROE 14% just missed. The EWA-driven profitability step-up is one year old; revenue has risen 12 straight quarters but ROE only crossed 15% in FY26. No GNPA/NNPA/ECL disclosure is a governance gap."
+      },
+      "score_breakdown": {
+        "conviction_score": 24.69,
+        "quality_score": 43.0,
+        "expectation_gap_score": 16.31,
+        "consistency_score": 20,
+        "asymmetry_score": 8.15,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -6789,9 +6627,37 @@
       }
     },
     {
+      "slug": "ramco-system",
+      "name": "Ramco system",
+      "master_score": 24.13,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 1,
+        "note": "FY22-FY26 checked for revenue growth >=10% AND ROCE >=15% in the same year. Only FY26 plausibly cleared both (revenue +13%, TTM ROCE ~20%), and that on a just-turned base. FY22-FY25 were loss-making with negative ROCE. A one-year pass, not a consistency record."
+      },
+      "score_breakdown": {
+        "conviction_score": 13.53,
+        "quality_score": 59.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 20,
+        "asymmetry_score": 20.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "shree-refrigerations",
       "name": "Shree Refrigerations",
-      "master_score": 24.1,
+      "master_score": 24.0,
       "red_flag_tier": null,
       "conviction": "Low",
       "thesis_fit": "10x-in-2-3-years",
@@ -6801,7 +6667,7 @@
         "note": "Per screener.in (FY21-FY26): only FY23 (+13% revenue / ROCE 25%) and FY24 (+57% / ROCE 18%) cleared both bars; FY22 and FY25-FY26 had ROCE 13-14% despite strong revenue growth (working-capital-heavy, ~251 debtor days, ~377-day cycle). Listed only Aug 2025, so pre-IPO figures are DRHP-sourced."
       },
       "score_breakdown": {
-        "conviction_score": 21.59,
+        "conviction_score": 21.18,
         "quality_score": 43.0,
         "expectation_gap_score": 0,
         "consistency_score": 33,
@@ -7011,27 +6877,6 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "manorama-industries-creating-wealth-from-waste",
-      "name": "Manorama Industries: Creating Wealth from Waste",
-      "master_score": 22.26,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 35.35,
-        "quality_score": null,
-        "expectation_gap_score": 5.89,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "expectation_gap_score"
-        ],
-        "weight_coverage": 0.45
       }
     },
     {
@@ -7270,6 +7115,27 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "manorama-industries-creating-wealth-from-waste",
+      "name": "Manorama Industries: Creating Wealth from Waste",
+      "master_score": 21.8,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 34.53,
+        "quality_score": null,
+        "expectation_gap_score": 5.89,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "expectation_gap_score"
+        ],
+        "weight_coverage": 0.45
       }
     },
     {
@@ -7542,81 +7408,6 @@
     {
       "slug": "trent",
       "name": "Trent -- A value unlocking story from the house of TATA",
-      "master_score": 20.0,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "100x-in-10-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 40.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
-      }
-    },
-    {
-      "slug": "senco-gold-upcoming-gold-story",
-      "name": "Senco Gold: Upcoming gold story!",
-      "master_score": 20.0,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "100x-in-10-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 40.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
-      }
-    },
-    {
-      "slug": "rajratan-global",
-      "name": "Rajratan Global",
-      "master_score": 20.0,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "100x-in-10-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 40.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
-      }
-    },
-    {
-      "slug": "taurian-mps-ltd-crushing-opportunities",
-      "name": "Taurian MPS Ltd, Crushing opportunities?",
       "master_score": 20.0,
       "red_flag_tier": null,
       "conviction": "Medium",
@@ -7929,6 +7720,31 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "kernex-microsystems",
+      "name": "Kernex Microsystems",
+      "master_score": 18.25,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Awaiting data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 36.5,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
       }
     },
     {
@@ -8412,17 +8228,17 @@
       }
     },
     {
-      "slug": "shilpa-medicare-ias2026",
-      "name": "Shilpa Medicare",
-      "master_score": 16.64,
-      "red_flag_tier": null,
+      "slug": "chaman-lal-setia-exports-ltd-clse",
+      "name": "Chaman Lal Setia Exports Ltd",
+      "master_score": 16.61,
+      "red_flag_tier": "",
       "conviction": "Medium",
       "thesis_fit": "neither",
       "track_record": null,
       "score_breakdown": {
-        "conviction_score": 24.61,
+        "conviction_score": 27.56,
         "quality_score": null,
-        "expectation_gap_score": 6.68,
+        "expectation_gap_score": 2.92,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
@@ -8500,34 +8316,6 @@
       }
     },
     {
-      "slug": "electronics-mart-india",
-      "name": "Electronics Mart India Limited- EMIL",
-      "master_score": 16.39,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 4,
-        "years_cleared": 0,
-        "note": "FY23-FY26 all verifiable from the same filings. Revenue growth cleared 10% in FY23-FY24 but not FY25-FY26; ROCE was ~8-13% every year and never reached 15%. So no year cleared BOTH the >=10% revenue-growth and >=15% ROCE bars - a structural feature of the thin-margin, leveraged retail format, not a young-company artifact (EMIL has a long operating history)."
-      },
-      "score_breakdown": {
-        "conviction_score": 29.12,
-        "quality_score": 21.0,
-        "expectation_gap_score": 6.39,
-        "consistency_score": 0,
-        "asymmetry_score": 17.2,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "piccadily-agro-industries",
       "name": "Piccadily Agro Industries Ltd",
       "master_score": 16.34,
@@ -8586,6 +8374,27 @@
           "conviction_score"
         ],
         "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "shilpa-medicare-ias2026",
+      "name": "Shilpa Medicare",
+      "master_score": 16.24,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 23.89,
+        "quality_score": null,
+        "expectation_gap_score": 6.68,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "expectation_gap_score"
+        ],
+        "weight_coverage": 0.45
       }
     },
     {
@@ -8686,6 +8495,34 @@
           "conviction_score"
         ],
         "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "salzer-electronics",
+      "name": "Salzer Electronics",
+      "master_score": 16.1,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "100x-in-10-years",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 0,
+        "note": "FY24-FY26: revenue growth cleared 10% in every year (FY25 +21.6%, FY26 +24.0%), but ROCE (currently 11.2%, independently flagged as declining) has not cleared the 15% bar in any of these years despite strong top-line growth -- the Coffee-Can persistence test fails on the capital-efficiency leg."
+      },
+      "score_breakdown": {
+        "conviction_score": 32.0,
+        "quality_score": 9.0,
+        "expectation_gap_score": 18.56,
+        "consistency_score": 0,
+        "asymmetry_score": 14.28,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
       }
     },
     {
@@ -8832,26 +8669,6 @@
       }
     },
     {
-      "slug": "au-small-finance-bank",
-      "name": "AU Small finance bank",
-      "master_score": 16.0,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 16.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "transformer-rectifier-india",
       "name": "Transformer & Rectifier India Limited",
       "master_score": 16.0,
@@ -8874,26 +8691,6 @@
     {
       "slug": "asian-oilfields",
       "name": "Asian oilfields",
-      "master_score": 16.0,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 16.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "brainbees-firstcry",
-      "name": "Brainbees' FirstCry",
       "master_score": 16.0,
       "red_flag_tier": null,
       "conviction": "Low-Medium",
@@ -10993,26 +10790,6 @@
       }
     },
     {
-      "slug": "shyam-metalics-and-energy",
-      "name": "Shyam Metalics and Energy Ltd",
-      "master_score": 16.0,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 16.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "midhani",
       "name": "Mishra Dhatu Nigam (MIDHANI)",
       "master_score": 16.0,
@@ -11050,6 +10827,34 @@
           "conviction_score"
         ],
         "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "electronics-mart-india",
+      "name": "Electronics Mart India Limited- EMIL",
+      "master_score": 15.98,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 4,
+        "years_cleared": 0,
+        "note": "FY23-FY26 all verifiable from the same filings. Revenue growth cleared 10% in FY23-FY24 but not FY25-FY26; ROCE was ~8-13% every year and never reached 15%. So no year cleared BOTH the >=10% revenue-growth and >=15% ROCE bars - a structural feature of the thin-margin, leveraged retail format, not a young-company artifact (EMIL has a long operating history)."
+      },
+      "score_breakdown": {
+        "conviction_score": 27.48,
+        "quality_score": 21.0,
+        "expectation_gap_score": 6.39,
+        "consistency_score": 0,
+        "asymmetry_score": 17.2,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
       }
     },
     {
@@ -11426,6 +11231,31 @@
       }
     },
     {
+      "slug": "deepak-fertilizers-and-petrochemicals",
+      "name": "Deepak Fertilizers and Petrochemicals",
+      "master_score": 15.68,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 31.35,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
       "slug": "international-gemmological-institute-india-ltd",
       "name": "International Gemmological Institute (India) Ltd",
       "master_score": 15.65,
@@ -11487,31 +11317,6 @@
           "expectation_gap_score"
         ],
         "weight_coverage": 0.45
-      }
-    },
-    {
-      "slug": "tamilnad-mercantile-bank",
-      "name": "Tamilnad Mercantile Bank Ltd (TMB Ltd)",
-      "master_score": 15.5,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "100x-in-10-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 31.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
       }
     },
     {
@@ -11662,12 +11467,62 @@
       }
     },
     {
+      "slug": "brand-concept",
+      "name": "Brand concept",
+      "master_score": 15.0,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 30.0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
       "slug": "creditaccess-grameen-traditional-mfi-model-efficiently-operating-at-scale",
       "name": "CreditAccess Grameen: Traditional MFI model, efficiently operating at scale",
       "master_score": 15.0,
       "red_flag_tier": null,
       "conviction": "Medium-High",
       "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 30.0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "brigade-hotel-ventures",
+      "name": "Brigade Hotel Ventures Ltd",
+      "master_score": 15.0,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
       "track_record": {
         "years_checked": 0,
         "years_cleared": 0,
@@ -11806,6 +11661,34 @@
       }
     },
     {
+      "slug": "taurian-mps-ltd-crushing-opportunities",
+      "name": "Taurian MPS Ltd, Crushing opportunities?",
+      "master_score": 14.3,
+      "red_flag_tier": "HIGH CAUTION",
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 2,
+        "note": "FY24 (rev +245%, ROCE 39%) and FY25 (rev +95%, ROCE 30%) both clear the growth+ROCE hurdles comfortably. FY26 (rev +35%) ROCE not cleanly disclosed in sources reviewed this pass (ROE was 27%, but leverage/ROCE relationship not verifiable) -- conservatively not counted as cleared. FY23 (first scale year, revenue only Rs11cr, near-zero reported profit) excluded as pre-scale."
+      },
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": 9.5,
+        "expectation_gap_score": 0,
+        "consistency_score": 67,
+        "asymmetry_score": 12.5,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "agi-infra",
       "name": "AGI Infra Ltd",
       "master_score": 13.92,
@@ -11875,26 +11758,6 @@
       }
     },
     {
-      "slug": "v",
-      "name": "V-guard",
-      "master_score": 13.35,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 13.35,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "netweb-technologies",
       "name": "Netweb Technologies India Ltd",
       "master_score": 13.28,
@@ -11953,6 +11816,51 @@
           "conviction_score"
         ],
         "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "v",
+      "name": "V-guard",
+      "master_score": 12.53,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 12.53,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "shanthi-gears-shanti-gears",
+      "name": "Shanthi Gears/Shanti Gears",
+      "master_score": 12.5,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 25.0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
       }
     },
     {
@@ -12131,6 +12039,31 @@
       }
     },
     {
+      "slug": "rossell-india",
+      "name": "Rossell India / Rossell Techsys",
+      "master_score": 12.5,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 25.0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
       "slug": "everest-kanto-cylinders",
       "name": "Everest Kanto Cylinders Ltd.",
       "master_score": 12.5,
@@ -12158,31 +12091,6 @@
     {
       "slug": "agi-greenpac",
       "name": "AGI Greenpac- on the cusp of growth?",
-      "master_score": 12.5,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
-      }
-    },
-    {
-      "slug": "arihant-foundations-and-housing",
-      "name": "Arihant Foundations and Housing",
       "master_score": 12.5,
       "red_flag_tier": null,
       "conviction": "Low-Medium",
@@ -13825,6 +13733,31 @@
       }
     },
     {
+      "slug": "zaggle-prepaid",
+      "name": "Zaggle Prepaid Ocean Services",
+      "master_score": 8.75,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 17.5,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
       "slug": "lumax-auto-technologies",
       "name": "Lumax Auto Technologies",
       "master_score": 8.68,
@@ -15245,88 +15178,58 @@
       }
     },
     {
-      "slug": "connplex-cinema",
-      "name": "CONNPLEX CINEMA",
+      "slug": "au-small-finance-bank",
+      "name": "AU Small finance bank",
       "master_score": 8.0,
       "red_flag_tier": null,
-      "conviction": "Low",
+      "conviction": "Low-Medium",
       "thesis_fit": "neither",
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
-        "conviction_score": 8.0,
-        "quality_score": null,
+        "conviction_score": 16.0,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
-      "slug": "suryoday-small-finance-bank",
-      "name": "Suryoday small finance bank",
+      "slug": "brainbees-firstcry",
+      "name": "Brainbees' FirstCry",
       "master_score": 8.0,
       "red_flag_tier": null,
-      "conviction": "Low",
+      "conviction": "Low-Medium",
       "thesis_fit": "neither",
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
-        "conviction_score": 8.0,
-        "quality_score": null,
+        "conviction_score": 16.0,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "spandana-sphoorty-financial",
-      "name": "Spandana Sphoorty Financial Limited",
-      "master_score": 8.0,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 8.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
       "slug": "ambika-cotton-mills",
       "name": "Ambika Cotton Mills",
-      "master_score": 8.0,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 8.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "tcc-concept",
-      "name": "TCC Concept Ltd.- An Unexplored Data Center Play",
       "master_score": 8.0,
       "red_flag_tier": null,
       "conviction": "Low",
@@ -16805,26 +16708,6 @@
       }
     },
     {
-      "slug": "rir-power-electronics",
-      "name": "RIR Power Electronics Ltd",
-      "master_score": 8.0,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 8.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "zee-entertainment",
       "name": "Zee Entertainment",
       "master_score": 8.0,
@@ -18045,88 +17928,33 @@
       }
     },
     {
-      "slug": "grindwell-norton",
-      "name": "Grindwell Norton Ltd",
+      "slug": "shyam-metalics-and-energy",
+      "name": "Shyam Metalics and Energy Ltd",
       "master_score": 8.0,
       "red_flag_tier": null,
-      "conviction": "Low",
+      "conviction": "Low-Medium",
       "thesis_fit": "neither",
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
-        "conviction_score": 8.0,
-        "quality_score": null,
+        "conviction_score": 16.0,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "elecon-engineering",
-      "name": "Elecon Engineering Company",
-      "master_score": 8.0,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 8.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "aditya-birla-fashion-and-retail",
-      "name": "Aditya Birla Fashion and Retail Ltd",
-      "master_score": 8.0,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 8.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
       "slug": "tamboli-capital-its-a-casting-company",
       "name": "Tamboli Capital: Its a Casting Company!",
-      "master_score": 8.0,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 8.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "saatvik-green",
-      "name": "Saatvik green-can the company bloom with the sun",
       "master_score": 8.0,
       "red_flag_tier": null,
       "conviction": "Low",
@@ -18645,6 +18473,33 @@
       }
     },
     {
+      "slug": "hbl-engineering-booting",
+      "name": "HBL Engineering: Booting-up for the Race of the Century",
+      "master_score": 5.3,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 14.81,
+        "quality_score": 0,
+        "expectation_gap_score": 2.92,
+        "consistency_score": null,
+        "asymmetry_score": 1.46,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
       "slug": "ideaforge-technologies",
       "name": "Ideaforge technologies",
       "master_score": 5.0,
@@ -18717,6 +18572,106 @@
       }
     },
     {
+      "slug": "connplex-cinema",
+      "name": "CONNPLEX CINEMA",
+      "master_score": 4.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "suryoday-small-finance-bank",
+      "name": "Suryoday small finance bank",
+      "master_score": 4.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "spandana-sphoorty-financial",
+      "name": "Spandana Sphoorty Financial Limited",
+      "master_score": 4.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "tcc-concept",
+      "name": "TCC Concept Ltd.- An Unexplored Data Center Play",
+      "master_score": 4.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
       "slug": "haldyn-glass-ltd",
       "name": "Haldyn Glass Ltd",
       "master_score": 4.0,
@@ -18727,6 +18682,131 @@
       "score_breakdown": {
         "conviction_score": 3.0,
         "quality_score": 5.0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "rir-power-electronics",
+      "name": "RIR Power Electronics Ltd",
+      "master_score": 4.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "grindwell-norton",
+      "name": "Grindwell Norton Ltd",
+      "master_score": 4.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "elecon-engineering",
+      "name": "Elecon Engineering Company",
+      "master_score": 4.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "aditya-birla-fashion-and-retail",
+      "name": "Aditya Birla Fashion and Retail Ltd",
+      "master_score": 4.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "saatvik-green",
+      "name": "Saatvik green-can the company bloom with the sun",
+      "master_score": 4.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
@@ -19230,26 +19310,6 @@
           "expectation_gap_score"
         ],
         "weight_coverage": 0.45
-      }
-    },
-    {
-      "slug": "banco-products",
-      "name": "Banco Products",
-      "master_score": 1.12,
-      "red_flag_tier": "HIGH CAUTION",
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 1.12,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
       }
     },
     {
@@ -19963,6 +20023,26 @@
       "track_record": null,
       "score_breakdown": {
         "conviction_score": 0.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "banco-products",
+      "name": "Banco Products",
+      "master_score": 0,
+      "red_flag_tier": "HIGH CAUTION",
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
         "quality_score": null,
         "expectation_gap_score": null,
         "consistency_score": null,
