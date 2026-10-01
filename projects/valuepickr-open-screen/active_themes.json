@@ -1,6 +1,6 @@
 {
-  "_doc": "Live theme list used by vpscreen-scan to PRIORITISE which forum-discovery candidates get researched first when the Step 0.5 trusted/elevated priority queue is drained. A discovery thread whose title/slug/excerpt matches a theme's keywords is researched ahead of a non-matching ('random') discovery candidate; priority-1 themes ahead of priority-2; within a bucket, most-recent first (the existing recency rule). This does NOT change the discovery MECHANISM (still discover.py, recency-sorted, not reply-count) — it re-ranks the shortlist by theme relevance. Method: playbook/ishmohit-soic-style.md. | priority 1 = accelerating global tailwind (research first), 2 = steady / human-set / secondary, 3 = dormant (cooling; global-proxy-scan sets this after 2 decelerating reads — deprioritise but do not drop).",
-  "as_of": "2026-09-16",
+  "_doc": "Live theme list used by vpscreen-scan to PRIORITISE which forum-discovery candidates get researched first when the Step 0.5 trusted/elevated priority queue is drained. A discovery thread whose title/slug/excerpt matches a theme's keywords is researched ahead of a non-matching ('random') discovery candidate; priority-1 themes ahead of priority-2; within a bucket, most-recent first (the existing recency rule). This does NOT change the discovery MECHANISM (still discover.py, recency-sorted, not reply-count) \u2014 it re-ranks the shortlist by theme relevance. Method: playbook/ishmohit-soic-style.md. | priority 1 = accelerating global tailwind (research first), 2 = steady / human-set / secondary, 3 = dormant (cooling; global-proxy-scan sets this after 2 decelerating reads \u2014 deprioritise but do not drop).",
+  "as_of": "2026-09-29",
   "maintained_by": "seeded 2026-08-30 from global_bellwethers.json (accelerating tailwinds) + playbook/ishmohit-soic-style.md section 3; global-proxy-scan light-refreshes priority/as_of on themes it re-reads; a human can add/retire entries here directly; 2026-08-31 two themes (capital-markets financialisation, shipbuilding & maritime) added by user-directed x-cluster expansion.",
   "match_rule": "case-insensitive substring match of any keyword against the discovery thread's title + slug + excerpt (and the candidate company name). A hit on ANY keyword = a match for that theme.",
   "themes": [
@@ -30,7 +30,7 @@
       "notes": "Indian angle is precision-engineered parts / consumables into fab & equipment (e.g. Sansera ADS), not chips themselves."
     },
     {
-      "theme": "Memory shortage (DRAM / HBM / NAND) — distributors & refurb",
+      "theme": "Memory shortage (DRAM / HBM / NAND) \u2014 distributors & refurb",
       "keywords": [
         "memory",
         "DRAM",
@@ -156,7 +156,7 @@
       "notes": "Europe forging plants closing on power costs; business shifting to India."
     },
     {
-      "theme": "Humanoids / robotics — bearings, precision engineering, actuators",
+      "theme": "Humanoids / robotics \u2014 bearings, precision engineering, actuators",
       "keywords": [
         "humanoid",
         "robot",
@@ -176,7 +176,7 @@
       "notes": "Indian bearing & forging cos may take export orders for humanoid joints."
     },
     {
-      "theme": "CDMO / specialty & aroma chemicals — peptides + oligonucleotides margin vector",
+      "theme": "CDMO / specialty & aroma chemicals \u2014 peptides + oligonucleotides margin vector",
       "keywords": [
         "CDMO",
         "CRAMS",
@@ -232,7 +232,7 @@
         "vertical software"
       ],
       "priority": 2,
-      "source": "global-bellwether (Salesforce accelerating — fastest bookings in 4 yrs) + ishmohit-playbook",
+      "source": "global-bellwether (Salesforce accelerating \u2014 fastest bookings in 4 yrs) + ishmohit-playbook",
       "as_of": "2026-09-12",
       "notes": "'most hated sector of last 2 years' thawing; select Indian product cos with above-index growth."
     },
@@ -268,7 +268,7 @@
         "mother and child"
       ],
       "priority": 2,
-      "source": "ishmohit-playbook (13/23 May 2026 — ROCE turned, diagnostics pricing turned FY26)",
+      "source": "ishmohit-playbook (13/23 May 2026 \u2014 ROCE turned, diagnostics pricing turned FY26)",
       "as_of": "2026-08-30",
       "notes": ""
     },
@@ -328,7 +328,7 @@
         "2W EV"
       ],
       "priority": 2,
-      "source": "ishmohit-playbook (24 Jul / 29 Aug 2026 — 2W EV on an S-curve)",
+      "source": "ishmohit-playbook (24 Jul / 29 Aug 2026 \u2014 2W EV on an S-curve)",
       "as_of": "2026-08-30",
       "notes": "'Where solar was in 2017-2019'; waiting on more govt policy."
     },
@@ -351,7 +351,7 @@
       "notes": "De-stocking base + multiple FTAs."
     },
     {
-      "theme": "Space sector (India — orders, demergers)",
+      "theme": "Space sector (India \u2014 orders, demergers)",
       "keywords": [
         "space",
         "satellite",
@@ -464,9 +464,9 @@
         "photonics"
       ],
       "priority": 1,
-      "source": "global-bellwether (Arista Networks — new theme 2026-08-31)",
+      "source": "global-bellwether (Arista Networks \u2014 new theme 2026-08-31)",
       "as_of": "2026-09-12",
-      "notes": "AI back-end cluster fabric bottleneck. India angle: optical fibre/cable (HFCL, STL) is indirect — confirm genuine AI-cluster-optics exposure before elevating."
+      "notes": "AI back-end cluster fabric bottleneck. India angle: optical fibre/cable (HFCL, STL) is indirect \u2014 confirm genuine AI-cluster-optics exposure before elevating."
     },
     {
       "theme": "Power semiconductors (SiC / GaN / IGBT)",
@@ -485,7 +485,7 @@
         "rectifier module"
       ],
       "priority": 1,
-      "source": "global-bellwether (Infineon — new theme 2026-08-31)",
+      "source": "global-bellwether (Infineon \u2014 new theme 2026-08-31)",
       "as_of": "2026-09-12",
       "notes": "Ishmohit playbook s3: 'next demand-supply mismatch'. No India listed pure-play; power-module assembly / EMS with power-electronics content is nearest. | 2026-09-12: seeded rir-power-electronics (NSE-listed legacy power-semi maker building India's first SiC fab in Odisha, Rs618cr, FY2027 target) via global-proxy-scan Stage B."
     },
@@ -507,7 +507,7 @@
         "oligonucleotide"
       ],
       "priority": 2,
-      "source": "global-bellwether (Eli Lilly — new theme 2026-08-31) + ishmohit-playbook (supply-side / commoditisation caution)",
+      "source": "global-bellwether (Eli Lilly \u2014 new theme 2026-08-31) + ishmohit-playbook (supply-side / commoditisation caution)",
       "as_of": "2026-09-16",
       "notes": "Study the SUPPLY side (peptide API capacity, contracts, semaglutide LOE generics from 2026), not the commoditising formulations end."
     },
@@ -527,7 +527,7 @@
         "aluminium conductor"
       ],
       "priority": 1,
-      "source": "global-bellwether (Freeport-McMoRan — new theme 2026-08-31)",
+      "source": "global-bellwether (Freeport-McMoRan \u2014 new theme 2026-08-31)",
       "as_of": "2026-09-16",
       "notes": "Grid + DC + EV pull on mined copper. India: HCL (mining) or wire & cable volume/price (Polycab, KEI, RR Kabel). Overlaps grid-transmission + China-beating-exporters."
     },
@@ -546,9 +546,9 @@
         "Cameco"
       ],
       "priority": 1,
-      "source": "global-bellwether (Cameco — new theme 2026-08-31)",
+      "source": "global-bellwether (Cameco \u2014 new theme 2026-08-31)",
       "as_of": "2026-09-12",
-      "notes": "AI-power + SMR narrative. India listed equity exposure thin (nuclear cap-goods: L&T, Walchandnagar, TRIL) — likely log-only unless a mid-cap surfaces."
+      "notes": "AI-power + SMR narrative. India listed equity exposure thin (nuclear cap-goods: L&T, Walchandnagar, TRIL) \u2014 likely log-only unless a mid-cap surfaces."
     },
     {
       "theme": "Factory automation / discrete electrification",
@@ -568,9 +568,9 @@
         "mega project"
       ],
       "priority": 2,
-      "source": "global-bellwether (Rockwell Automation — new theme 2026-08-31)",
+      "source": "global-bellwether (Rockwell Automation \u2014 new theme 2026-08-31)",
       "as_of": "2026-09-16",
-      "notes": "US/EU reshoring factory-buildout capex. India automation mostly MNC subs (ABB India, Honeywell Automation India) — human owns those; watch for a genuine mid-cap."
+      "notes": "US/EU reshoring factory-buildout capex. India automation mostly MNC subs (ABB India, Honeywell Automation India) \u2014 human owns those; watch for a genuine mid-cap."
     },
     {
       "theme": "Defence electronics / sensors (radar, EW, C4ISR)",
@@ -589,7 +589,7 @@
         "microwave"
       ],
       "priority": 1,
-      "source": "global-bellwether (Hensoldt — new theme 2026-09-02)",
+      "source": "global-bellwether (Hensoldt \u2014 new theme 2026-09-02)",
       "as_of": "2026-09-16",
       "notes": "Stage A4 discovery 2026-09-02 (Hensoldt/Elbit/IAI record backlogs). India pure-plays (Data Patterns, Astra Microwave, Apollo Micro, Paras Defence) already researched; theme's formal bellwether read + Stage B/C mapping happens next global-proxy-scan run. | 2026-09-04: first formal bellwether read (Hensoldt H1-26 order intake doubled to EUR2.81bn, backlog EUR10.36bn first >EUR10bn, BtB 2.4x) = ACCELERATING -> promoted to priority 1. Stage C on Data Patterns / Astra Microwave = partial (record order books + lifted guides, but Q1FY27 P&L not yet inflecting)."
     },
@@ -622,9 +622,9 @@
         "coiled tubing"
       ],
       "priority": 2,
-      "source": "x-cluster @a_basumallick (repeat signal 2026-09-08/09) — pending global-proxy-scan bellwether read",
+      "source": "x-cluster @a_basumallick (repeat signal 2026-09-08/09) \u2014 pending global-proxy-scan bellwether read",
       "as_of": "2026-09-09",
-      "notes": "Added from x-trusted-cluster review 2026-09-09: @a_basumallick tied 'oil on boil -> drilling & exploration activity should pick up' to a live #VINATIORGA concall (ATBS in oil-drilling polymers) + his intelsense 'stock story' proxy pick United Drilling Tools; repeat theme across recent posts. No active_themes entry existed for upstream E&P/oilfield-services demand. Registry already carries names in this space (Jindal Drilling, Asian Oilfields, United Drilling Tools [trusted-x-watch], Antelopus Selan [candidate], Selan Exploration) so this is a re-ranking theme only, NOT a new-candidate mint (no-self-discovery policy). Priority 2 pending a formal Stage A4 bellwether read (SLB / Halliburton / Baker Hughes global upstream-capex guidance) + sanctioned Stage B proxy mapping on the next global-proxy-scan run. | 2026-09-09: user-authorised one-time no-self-discovery bypass — seeded 6 external-lead candidates: ongc, oil-india, hindustan-oil-exploration, alphageo-india, aban-offshore (high-debt caution), dolphin-offshore-enterprises. Existing registry names in space: jindal-drilling, asian-oilfields, united-drilling-tools, antelopus-selan-oil-exploration."
+      "notes": "Added from x-trusted-cluster review 2026-09-09: @a_basumallick tied 'oil on boil -> drilling & exploration activity should pick up' to a live #VINATIORGA concall (ATBS in oil-drilling polymers) + his intelsense 'stock story' proxy pick United Drilling Tools; repeat theme across recent posts. No active_themes entry existed for upstream E&P/oilfield-services demand. Registry already carries names in this space (Jindal Drilling, Asian Oilfields, United Drilling Tools [trusted-x-watch], Antelopus Selan [candidate], Selan Exploration) so this is a re-ranking theme only, NOT a new-candidate mint (no-self-discovery policy). Priority 2 pending a formal Stage A4 bellwether read (SLB / Halliburton / Baker Hughes global upstream-capex guidance) + sanctioned Stage B proxy mapping on the next global-proxy-scan run. | 2026-09-09: user-authorised one-time no-self-discovery bypass \u2014 seeded 6 external-lead candidates: ongc, oil-india, hindustan-oil-exploration, alphageo-india, aban-offshore (high-debt caution), dolphin-offshore-enterprises. Existing registry names in space: jindal-drilling, asian-oilfields, united-drilling-tools, antelopus-selan-oil-exploration."
     },
     {
       "theme": "Construction & earthmoving equipment (cranes, concrete equipment, backhoe/compactors)",

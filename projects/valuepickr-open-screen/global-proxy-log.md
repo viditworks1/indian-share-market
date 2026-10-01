@@ -246,3 +246,45 @@ User asked why the universe was only 10 names, why runs keep re-researching the 
 - Search budget this run: 9 Stage-A2 reads (Eli Lilly, Danaher, BorgWarner, Freeport-McMoRan, Rockwell, Hensoldt, TSMC, GE Vernova, Siemens Energy — all clear on first pass) + 3 Stage-A4 discovery + 1 Stage-A4 follow-up (DAC clearance specifics) + 3 Stage-B2 geopolitical = 16 WebSearch. No Stage-B search needed beyond the new-theme check (existing names already researched, no open-tape search required). No Stage-C searches (nothing due).
 - No fabrication: every rate-of-change grade and the "no new quarter, unchanged" calls are backed by this run's search results; the new shipbuilding theme is backed by a quoted SFL earnings-call line.
 - config: global_bellwethers.json last_run_date -> 2026-09-16 (20 themes; 9 bellwethers' last_read_date -> 2026-09-16; fixed a stale null theme-level last_read_date on defense-electronics-sensors). active_themes.json as_of -> 2026-09-16 (7 global-bellwether-sourced theme entries light-refreshed: semiconductor/foundry, grid-transmission, GLP-1, copper, factory-automation, defense-electronics — all priorities unchanged since no rate_of_change actually flipped; the CDMO/bioprocessing entry left untouched since its active_themes.json source is ishmohit-playbook, not global-bellwether, per the E2 exception rule).
+
+## 2026-09-29
+### Stage A — global tailwinds
+- Read this run (rotation): semi-capex-litho (ASML), foundry-packaging (TSMC), memory-hbm (Micron/SK Hynix), dc-power-cooling (Vertiv), enterprise-saas (Salesforce), heavy-industry-reshoring (Caterpillar), power-semiconductors (Infineon), defense-munitions (Rheinmetall), commercial-aerospace-aftermarket (GE Aero), uranium-nuclear (Cameco), defense-electronics-sensors (Hensoldt), global-shipbuilding-capacity (HD Hyundai — first read), glp1-obesity-supply (Eli Lilly — first substantive read). Total: 13 bellwethers.
+- semi-capex-litho: accelerating — EUV capacity: +30% in 2027, investigating +30% 2028; Q2 EUR 9.3B sales (guidance raised 2x in 2026). [No change from 2026-09-12]
+- foundry-packaging: accelerating — 2nm ramp: Q2 EPS beat, Q3 guidance $44.6–45.8B strong. [No change from 2026-09-16]
+- memory-hbm: accelerating — HBM capacity: Micron Q3 FY26 $41.5B record (+346% YoY), HBM4 2x ramp vs HBM3E; SK Hynix Q2 record KRW 79.3T, HBM4 mass shipments + HBM4E samples to customers. [No change]
+- dc-power-cooling: accelerating — thermal management backlog: VRT Q2 $3.27B (+24% YoY), backlog $15B (+109% YoY), FY26 guide $14B. [No change]
+- enterprise-saas: steady [downgraded from accelerating on 2026-09-12; confirmed] — CRM Q2 FY27 cRPO $33.5B (+14% YoY, same pace as Q1 +14%); FY27 guidance raised to $46.4B. No re-acceleration.
+- heavy-industry-reshoring: accelerating — Caterpillar Q2 record $20.5B (+24% YoY), backlog $72B (+92% YoY), gas prime orders into 2028–2029. [No change]
+- power-semiconductors: accelerating — SiC/GaN capacity: IFX Q3 FY26 EUR 4.172B record, "very high demand" AI data centres. [No change]
+- defense-munitions: accelerating — Rheinmetall Q2 EUR 3.289B sales (+69% YoY), backlog EUR 80.5B (+44% YoY), BtB >3.0x, nomination EUR 11.37B (+476% YoY). [No change]
+- commercial-aerospace-aftermarket: accelerating — GE Aero Q2 $9.7B (+27%), services backlog $170B, spare-parts +25% but delinquencies +20% (supply constraint persists). [No change]
+- uranium-nuclear: accelerating — Cameco Q2 production guidance unchanged (19.5–21.5m lb) despite disruptions; contract book >28m lb/yr for next 5 years. [No change]
+- defense-electronics-sensors: accelerating — Hensoldt H1 2026 order intake EUR 2.8B (2x YoY), backlog EUR 10B, revenue +24%. [No change]
+- global-shipbuilding-capacity [NEWLY READ]: accelerating — HD Hyundai Heavy Q2 KRW 6.332T revenue (+19% YoY), operating profit +74% YoY; shipbuilding backlog >500 vessels = 3.5-yr lead time; strategic focus on high-value LNG/VLGC mix.
+- glp1-obesity-supply [FIRST SUBSTANTIVE READ]: steady (supply constraint **cleared**) — Eli Lilly Q2 $23.0B revenue (+48% YoY Mounjaro/Zepbound), FY26 guidance raised to $85–87B; supply "extremely well positioned," no gating of launches; capex expansion (Limerick, Indiana) ongoing.
+- Lifecycle: enterprise-saas rate_of_change confirmed `steady` (no change to status/cadence). GLP-1 supply constraint has lifted; demand still accelerating, but capacity is flowing — theme remains `active` but proxy work deprioritized (no bottleneck anymore).
+- New themes (Stage A4): none — all high-backlog announcements are extensions of existing themes (NVIDIA/Lumentum → ai-networking/memory, ERock → onsite-power, aircraft → no India play, LU-VE → dc-power-cooling). No overflow.
+### Stage B — proxy mapping (new / re-accelerating only)
+- Themes processed: global-shipbuilding-capacity only (newly read, accelerating, `hypothesis` proxy work outstanding).
+- New candidates (source:global-proxy): none — identified 4 India-listed shipbuilders (Mazagon Dock, Cochin Shipyard, GRSE, Swan Defence); all already in registry as `researched` (thesis_fit=neither). No new seeding per CRITICAL rule.
+- Other themes skipped (no new proxy work): ai-networking-optics, power-semiconductors (re-confirmed last 4 days ago; no new India-listed pure-plays emerged); glp1-obesity (supply constraint cleared, proxy work lower priority); enterprise-saas (theme down-prioritized, human exception rule).
+- Overflow past the 6-cap: none (0 of 6 used).
+### Stage B2 — geopolitical event scan
+- Events found: (1) Russia-Iran Sanctions Act signed Sep 18, 2026 — authorizes up to 100% tariffs on countries buying Russian oil (China/India prominent), but discretionary implementation, no named India-listed company link. (2) India Defence Acquisition Council approved ₹1.10 lakh crore (~$11.6B) procurement on Sep 7, 2026 — real, dated, sourced; includes Arudhra Radars (BEL manufacture), marine gas turbines (GE via HAL, Zorya for Russian ships; Bharat Forge setting up facility). AoN (in-principle), not yet named contract awards. (3) China+1 / friend-shoring trend — no specific Sep 2026 event with named company link.
+- New candidates (source:geopolitical-event): none — Sep 7 DAC procurement identified existing researched companies (BEL, Bharat Forge) as beneficiaries, but per CRITICAL rule, no status/conviction writes made.
+- Refreshed candidates: none.
+- Notes on researched/excluded/avoid names (no status change): Sep 7 DAC ₹1.1T procurement is a tailwind for BEL (Arudhra Radars for Navy) and Bharat Forge (marine gas turbine facility + GTG orders). Notes added to analysis.md (Section "Sep 7 DAC procurement tailwind"); no state.json write.
+- Overflow past the 3-cap: none.
+### Stage C — India-signal verification
+- Checked (await_india_check): none due — all 11 tracked proxies have `next_check_date` ≥ 2026-10-01, first batch due Oct 1 (transformer-rectifier-india, cummins-india, sansera-engineering, etc.). This is the first such check since C inception; no verdicts returned this run.
+- Verdicts: n/a.
+- revisit_after_30d set: none.
+### Stage D — portfolio hand-off
+- global-signal-alignment.md rows changed: none (table unchanged, 11 rows; verdicts remain in place).
+- `_As of:_` updated to 2026-09-29. Change log bullet added summarizing Stage A/A4/B/B2 activity.
+### Notes
+- Search budget this run: 13 Stage-A2 reads (all clear on first pass; TSMC/LLY/GLP-1 most material rate-of-change signals), 3 Stage-A4 discovery searches (no new themes), 1 Stage-B search (shipbuilding; no new proxies), 3 Stage-B2 searches (tariffs, defense deal, friend-shoring; no new geopolitical candidates) = ~20 WebSearch. No Stage-C searches (nothing due).
+- Key observations: GLP-1 supply bottleneck has **lifted** — capacity additions (Limerick, Indiana) are flowing, no customer gating. This reduces proxy action urgency for the theme. Global-shipbuilding-capacity (new theme entry) is solidly accelerating (3.5-yr lead times, high-value vessel mix) with no India-listed pure-play found yet (4 candidates already researched/excluded). Sep 7 DAC procurement is real but AoN (administrative step) — actual vendor contracts for marine turbines, CBRN vehicles, bridge systems, etc., will come later and may create new opportunities. Monitoring.
+- Config: global_bellwethers.json last_run_date → 2026-09-29; 13 bellwethers' last_read_date → 2026-09-29. active_themes.json as_of → 2026-09-29. No A3 lifecycle moves (no themes decel'd to dormant/harvested this run; enterprise-saas priority unchanged per human exception).
+- No fabrication: every rate_of_change grade backed by earnings results / management commentary from Sep 2026 or earlier. Proxy state.json unchanged (no new seeding; B2 tailwind on existing researched names noted in analysis.md only).

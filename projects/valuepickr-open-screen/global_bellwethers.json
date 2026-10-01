@@ -1,7 +1,7 @@
 {
   "_doc": "Config for the global-proxy-scan scheduled task (2x/week, Tue + Fri). Restructured 2026-08-31 (v2) into THEMES, each with its bellwether global concalls + the Indian listed proxy(ies) it points to + a lifecycle status. The task runs 4 stages: (A) global signal scan - rotating reads of the bellwether universe + open-tape search for NEW themes; (B) Indian-proxy mapping for new / re-accelerating themes only; (C) India-signal verification - for a proxy already researched under an accelerating tailwind (await_india_check=true), check the Indian company's OWN latest order book / capacity / guidance / pricing for the SAME signal the bellwether showed; (D) portfolio hand-off - write the alignment verdict to valuepickr-screen/global-signal-alignment.md, which portfolio-rs1l-revision consumes. Method + rationale: playbook/ishmohit-soic-style.md section 6. Edit this file to add/retire themes or bellwethers without touching the task prompt. New themes found by Stage A's discovery search are appended here by the task itself.",
   "version": 2,
-  "last_run_date": "2026-09-16",
+  "last_run_date": "2026-09-29",
   "run_config": {
     "cadence": "2x/week (Tue + Fri)",
     "bellwether_staleness_days": 12,
@@ -47,7 +47,7 @@
           "ticker": "ASML",
           "what_to_read": "latest quarterly results + bookings/backlog + 2026/2027/2028 Low-NA & High-NA EUV demand and China",
           "bottleneck_hint": "EUV/leading-edge litho capacity; long-lead subsystems",
-          "last_read_date": "2026-09-12"
+          "last_read_date": "2026-09-29"
         }
       ],
       "india_proxies": [
@@ -80,7 +80,7 @@
           "ticker": "TSM",
           "what_to_read": "latest quarterly results, capex guidance revision, HPC/AI revenue mix, CoWoS / advanced-packaging capacity, N2 ramp",
           "bottleneck_hint": "advanced-node capacity, CoWoS/advanced packaging",
-          "last_read_date": "2026-09-16"
+          "last_read_date": "2026-09-29"
         }
       ],
       "india_proxies": [
@@ -106,21 +106,21 @@
       "coverage_cadence_days": 12,
       "bottleneck": "HBM wafer capacity; DRAM bit supply (fixed near-term, cannot expand)",
       "one_line": "Micron Q3 FY26 guide ~$33.5bn rev, 81% GM; HBM4 for Vera Rubin ramping ~2x HBM3E pace; HBM TAM $35bn(2025)->~$100bn pulled forward to 2028; shortage across HBM/DRAM/NAND to persist well beyond CY2026. SK Hynix Q2 rev record W79.3T (+257% YoY); HBM4 mass shipments began Q2, ramping H2; HBM4E samples 2H, mass production 2027; LTAs with ~10 customers.",
-      "active_themes_json_key": "Memory shortage (DRAM / HBM / NAND) — distributors & refurb",
+      "active_themes_json_key": "Memory shortage (DRAM / HBM / NAND) \u2014 distributors & refurb",
       "bellwethers": [
         {
           "name": "Micron",
           "ticker": "MU",
           "what_to_read": "latest quarterly results, DRAM/HBM pricing, FY guidance, capex, 'tight into 20XX' language, start-up cost drag",
           "bottleneck_hint": "HBM capacity vs demand; DRAM bit supply",
-          "last_read_date": "2026-09-12"
+          "last_read_date": "2026-09-29"
         },
         {
           "name": "SK Hynix",
           "ticker": "000660.KS",
           "what_to_read": "latest quarterly results + CEO commentary on cycle length + HBM4/HBM4E capacity",
           "bottleneck_hint": "HBM wafer capacity",
-          "last_read_date": "2026-09-12"
+          "last_read_date": "2026-09-29"
         }
       ],
       "india_proxies": [
@@ -153,7 +153,7 @@
           "ticker": "VRT",
           "what_to_read": "latest quarterly results, orders/book-to-bill, backlog, liquid-cooling commentary, 2026 guidance",
           "bottleneck_hint": "liquid cooling, power distribution, prefabricated DC modules",
-          "last_read_date": "2026-09-12"
+          "last_read_date": "2026-09-29"
         }
       ],
       "india_proxies": [
@@ -228,7 +228,7 @@
       "last_read_date": "2026-09-16",
       "coverage_cadence_days": 12,
       "bottleneck": "large power transformers, HV switchgear, HVDC, gas-turbine slots",
-      "one_line": "GEV Q2-26 total company backlog now $176bn, orders +88% organic to $24.2bn, DC orders >$5bn YTD; gas backlog still 100->116 GW (target 125 by YE). Siemens Energy Q3 FY26 record quarterly order intake €17.9bn, total backlog €162bn; Grid Technologies segment backlog a record €51bn (orders +28% YoY to €5.4bn) on large-power-transformer demand; transformer/GIS capacity expansion (+50%) not fully online until 2030 — lead times staying long.",
+      "one_line": "GEV Q2-26 total company backlog now $176bn, orders +88% organic to $24.2bn, DC orders >$5bn YTD; gas backlog still 100->116 GW (target 125 by YE). Siemens Energy Q3 FY26 record quarterly order intake \u20ac17.9bn, total backlog \u20ac162bn; Grid Technologies segment backlog a record \u20ac51bn (orders +28% YoY to \u20ac5.4bn) on large-power-transformer demand; transformer/GIS capacity expansion (+50%) not fully online until 2030 \u2014 lead times staying long.",
       "active_themes_json_key": "Grid / transmission equipment (transformers, HV switchgear, HVDC, CRGO, insulators)",
       "bellwethers": [
         {
@@ -278,7 +278,7 @@
       "last_read_date": "2026-09-12",
       "coverage_cadence_days": 12,
       "bottleneck": "n/a - demand signal (enterprise SaaS re-acceleration), not a supply bottleneck",
-      "one_line": "Salesforce Q2 FY27 rev $11.3bn (+11%), cRPO $33.5bn +14% YoY — same 14% YoY pace as Q1 FY27's $33.6bn, not a further re-acceleration; RPO $66.3bn +11% YoY. Demand signal steady, not accelerating further this run.",
+      "one_line": "Salesforce Q2 FY27 rev $11.3bn (+11%), cRPO $33.5bn +14% YoY \u2014 same 14% YoY pace as Q1 FY27's $33.6bn, not a further re-acceleration; RPO $66.3bn +11% YoY. Demand signal steady, not accelerating further this run.",
       "active_themes_json_key": "US + Indian software / product-SaaS turn",
       "bellwethers": [
         {
@@ -286,7 +286,7 @@
           "ticker": "CRM",
           "what_to_read": "latest quarterly results, cRPO/RPO growth, guidance revision, Agentforce contribution, margin trajectory",
           "bottleneck_hint": "n/a (demand signal, not a supply bottleneck)",
-          "last_read_date": "2026-09-12"
+          "last_read_date": "2026-09-29"
         }
       ],
       "india_proxies": [
@@ -319,7 +319,7 @@
           "ticker": "CAT",
           "what_to_read": "latest quarterly results, Energy & Transportation (gensets for DCs), dealer inventory, backlog, order commentary out-years",
           "bottleneck_hint": "large forgings, castings, engine components; European forging capacity shutting on power costs",
-          "last_read_date": "2026-09-12"
+          "last_read_date": "2026-09-29"
         }
       ],
       "india_proxies": [
@@ -344,7 +344,7 @@
       "last_read_date": "2026-09-12",
       "coverage_cadence_days": 12,
       "bottleneck": "800G/1.6T optics + AI-fabric switch silicon; EML/CW-laser & optical-alignment component supply",
-      "one_line": "Arista Q2-26 first $3.036bn quarter (+37.7% YoY); FY26 guide raised again by $1.1bn to ~$12.6bn; multi-year purchase commitments nearly tripled to $9.7bn; 1.6T liquid-cooled AI-fabric platforms launched. Broader tape: Broadcom backlog extends to 2028 (10GW OpenAI XPU order into 2029), Ciena backlog into 2028 with component LTAs through 2029 — bottleneck still widening, not just at Arista.",
+      "one_line": "Arista Q2-26 first $3.036bn quarter (+37.7% YoY); FY26 guide raised again by $1.1bn to ~$12.6bn; multi-year purchase commitments nearly tripled to $9.7bn; 1.6T liquid-cooled AI-fabric platforms launched. Broader tape: Broadcom backlog extends to 2028 (10GW OpenAI XPU order into 2029), Ciena backlog into 2028 with component LTAs through 2029 \u2014 bottleneck still widening, not just at Arista.",
       "active_themes_json_key": "AI networking / optical interconnect",
       "bellwethers": [
         {
@@ -364,7 +364,7 @@
           "signal_alignment": null,
           "await_india_check": false,
           "next_check_date": null,
-          "last_alignment_note": "2026-09-12 (Stage B re-check): confirmed still no genuine India-listed AI-cluster-optics pure-play — named beneficiaries (Coherent, Lumentum, Applied Optoelectronics) are all US-listed. HFCL/Sterlite Tech remain telco/DC-fibre, not 800G/1.6T transceiver/laser exposure. Stays hypothesis / log-only."
+          "last_alignment_note": "2026-09-12 (Stage B re-check): confirmed still no genuine India-listed AI-cluster-optics pure-play \u2014 named beneficiaries (Coherent, Lumentum, Applied Optoelectronics) are all US-listed. HFCL/Sterlite Tech remain telco/DC-fibre, not 800G/1.6T transceiver/laser exposure. Stays hypothesis / log-only."
         }
       ]
     },
@@ -385,7 +385,7 @@
           "ticker": "IFX.DE",
           "what_to_read": "latest quarterly results, auto + green-industrial power segments, SiC ramp, book-to-bill, inventory correction status, guidance",
           "bottleneck_hint": "SiC/GaN wafer capacity; IGBT modules",
-          "last_read_date": "2026-09-12"
+          "last_read_date": "2026-09-29"
         }
       ],
       "india_proxies": [
@@ -428,7 +428,7 @@
           "ticker": "LLY",
           "what_to_read": "latest quarterly results, incretin (Mounjaro/Zepbound) demand vs supply, capacity build, oral GLP-1 progress, LOE timelines, guidance",
           "bottleneck_hint": "peptide API + sterile fill-finish capacity; injector devices",
-          "last_read_date": "2026-09-16"
+          "last_read_date": "2026-09-29"
         }
       ],
       "india_proxies": [
@@ -454,7 +454,7 @@
       "coverage_cadence_days": 12,
       "bottleneck": "bioprocessing consumables + chromatography resin capacity; peptide/oligo CDMO capacity",
       "one_line": "Danaher Q2-26 bioprocessing ORDERS +mid-teens YoY (consumables + equipment), underlying demand 'very healthy'; revenue still lags (core +low-single-digit), ~$100m resin revenue pushed to 2027; FY26 EPS guide nudged up - the bioprocessing equipment cycle has turned on the leading indicator.",
-      "active_themes_json_key": "CDMO / specialty & aroma chemicals — peptides + oligonucleotides margin vector",
+      "active_themes_json_key": "CDMO / specialty & aroma chemicals \u2014 peptides + oligonucleotides margin vector",
       "bellwethers": [
         {
           "name": "Danaher",
@@ -494,7 +494,7 @@
           "ticker": "RHM.DE",
           "what_to_read": "latest quarterly results, order backlog / book-to-bill, ammunition capacity expansion, Europe rearmament budgets, guidance to 2030",
           "bottleneck_hint": "artillery ammunition, propellant, medium-calibre, air defence",
-          "last_read_date": "2026-09-12"
+          "last_read_date": "2026-09-29"
         }
       ],
       "india_proxies": [
@@ -527,7 +527,7 @@
           "ticker": "GE",
           "what_to_read": "latest quarterly results, LEAP output & spare-parts (aftermarket) growth, departures trend, supply-chain constraint commentary, guidance",
           "bottleneck_hint": "engine hot-section castings/forgings, LEAP ramp, shop-visit capacity",
-          "last_read_date": "2026-09-12"
+          "last_read_date": "2026-09-29"
         }
       ],
       "india_proxies": [
@@ -626,7 +626,7 @@
           "ticker": "CCJ",
           "what_to_read": "latest quarterly results, term-contract volume & price, production guidance, Westinghouse commentary, utility demand from DC/AI, SMR pipeline",
           "bottleneck_hint": "mined uranium + conversion/enrichment capacity",
-          "last_read_date": "2026-09-12"
+          "last_read_date": "2026-09-29"
         }
       ],
       "india_proxies": [
@@ -692,7 +692,7 @@
           "ticker": "HAG.DE",
           "what_to_read": "H1/quarterly results, order intake & backlog, radar/optronics/EW segment growth, European defence-budget commentary, guidance to 2030",
           "bottleneck_hint": "radar/EW subsystems, GaN T/R modules, qualified sensor-electronics capacity",
-          "last_read_date": "2026-09-16"
+          "last_read_date": "2026-09-29"
         }
       ],
       "india_proxies": [
@@ -725,7 +725,7 @@
           "ticker": "329180.KS",
           "what_to_read": "latest quarterly results, newbuild orderbook / years-of-coverage, vessel-type mix (LNG carriers, container ships, car carriers, naval), newbuild pricing index trend",
           "bottleneck_hint": "global shipyard berth/slot capacity - orderbooks booked years out",
-          "last_read_date": null
+          "last_read_date": "2026-09-29"
         }
       ],
       "india_proxies": [
