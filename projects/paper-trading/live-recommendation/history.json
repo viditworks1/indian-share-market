@@ -1562,6 +1562,148 @@
           "return_pct": -0.0
         }
       ]
+    },
+    {
+      "date": "2026-10-01",
+      "version": 4,
+      "rebalanced_today": false,
+      "nav": 102496.67,
+      "return_pct": 2.5,
+      "day_change_pct": -1.41,
+      "invested_value": 83485.2,
+      "cash": 19011.47,
+      "holdings": [
+        {
+          "name": "Thyrocare",
+          "symbol": "THYROCARE.NS",
+          "weight_pct": 9.51,
+          "entry_price": 547.1,
+          "shares": 18,
+          "invested": 9847.8,
+          "price": 533.6,
+          "as_of": "2026-10-01",
+          "stale": false,
+          "value": 9604.8,
+          "return_pct": -2.47
+        },
+        {
+          "name": "SJS Enterprises",
+          "symbol": "SJS.NS",
+          "weight_pct": 9.07,
+          "entry_price": 2309.8,
+          "shares": 4,
+          "invested": 9239.2,
+          "price": 2159.8,
+          "as_of": "2026-10-01",
+          "stale": false,
+          "value": 8639.2,
+          "return_pct": -6.49
+        },
+        {
+          "name": "Venus Remedies",
+          "symbol": "VENUSREM.NS",
+          "weight_pct": 8.79,
+          "entry_price": 1710.6,
+          "shares": 5,
+          "invested": 8553.0,
+          "price": 1796.7,
+          "as_of": "2026-10-01",
+          "stale": false,
+          "value": 8983.5,
+          "return_pct": 5.03
+        },
+        {
+          "name": "Ajanta Pharma",
+          "symbol": "AJANTPHARM.NS",
+          "weight_pct": 8.79,
+          "entry_price": 3557.5,
+          "shares": 2,
+          "invested": 7115.0,
+          "price": 3581.0,
+          "as_of": "2026-10-01",
+          "stale": false,
+          "value": 7162.0,
+          "return_pct": 0.66
+        },
+        {
+          "name": "Dynamic Cables",
+          "symbol": "DYNAMIC.NS",
+          "weight_pct": 8.79,
+          "entry_price": 139.95,
+          "shares": 65,
+          "invested": 9096.75,
+          "price": 133.95,
+          "as_of": "2026-09-30",
+          "stale": true,
+          "value": 8706.75,
+          "return_pct": -4.29
+        },
+        {
+          "name": "Valiant Communications",
+          "symbol": "VALIANT.BO",
+          "weight_pct": 8.64,
+          "entry_price": 1652.1,
+          "shares": 5,
+          "invested": 8260.5,
+          "price": 1686.35,
+          "as_of": "2026-10-01",
+          "stale": false,
+          "value": 8431.75,
+          "return_pct": 2.07
+        },
+        {
+          "name": "Engineers India",
+          "symbol": "ENGINERSIN.NS",
+          "weight_pct": 8.64,
+          "entry_price": 310.2,
+          "shares": 28,
+          "invested": 8685.6,
+          "price": 312.75,
+          "as_of": "2026-10-01",
+          "stale": false,
+          "value": 8757.0,
+          "return_pct": 0.82
+        },
+        {
+          "name": "Acutaas Chemicals",
+          "symbol": "ACUTAAS.NS",
+          "weight_pct": 8.64,
+          "entry_price": 3304.1,
+          "shares": 2,
+          "invested": 6608.2,
+          "price": 3196.5,
+          "as_of": "2026-10-01",
+          "stale": false,
+          "value": 6393.0,
+          "return_pct": -3.26
+        },
+        {
+          "name": "Marksans Pharma",
+          "symbol": "MARKSANS.NS",
+          "weight_pct": 8.64,
+          "entry_price": 342.75,
+          "shares": 26,
+          "invested": 8911.5,
+          "price": 325.6,
+          "as_of": "2026-10-01",
+          "stale": false,
+          "value": 8465.6,
+          "return_pct": -5.0
+        },
+        {
+          "name": "Aeroflex Industries",
+          "symbol": "AEROFLEX.NS",
+          "weight_pct": 8.5,
+          "entry_price": 539.6,
+          "shares": 16,
+          "invested": 8633.6,
+          "price": 521.35,
+          "as_of": "2026-10-01",
+          "stale": false,
+          "value": 8341.6,
+          "return_pct": -3.38
+        }
+      ]
     }
   ]
 }
