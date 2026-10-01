@@ -142,6 +142,7 @@ _(none)_
 | Ztech (India) Limited | 2027-04-02 | ~6M | pending | 24.41 | FY27 results showing execution against the Rs250-260cr revenue / 15-park / 50-lakh-footfall / Rs40-42cr annuity-revenue guidance, alongside evidence that rec... |
 | Senco Gold: Upcoming gold story! | 2027-04-02 | ~6M | pending | 19.28 | H2 FY27 festive/wedding-season margin print showing recovery toward the guided 7.5-7.8% EBITDA margin band |
 | Enviro Infra Engineers Limited | 2027-04-02 | ~6M | pending | 6.39 | Q2/Q3 FY27 results showing EBITDA margin trajectory toward the guided 19-22% and working-capital days normalizing toward ~90 |
+| Antelopus Selan Oil Exploration | 2027-04-02 | ~6M | pending | 0 | FY27 production ramp to the 2,500 boepd exit target plus first sustained commercial confirmation at Duarmara and a fuller Dangeru ramp, with resulting revenu... |
 | Unimech Aerospace and Manufacturing Ltd | 2027-04-02 | ~7M | pending | 0 | First nuclear-order execution prints in H2FY27 + full-quarter Hobel contribution from Q2 + QIP completion / MPS sell-down clearing the overhang |
 | Dynamic Cables | 2027-04-03 | ~7M | pending | 4.6 | Greenfield trial production Sep 2026 -> commercial Q4 FY27 (revenue from Q4 FY27, 80-85% utilisation by end-FY28); quarterly prints sustaining ~30% growth vs... |
 | MTAR Technologies Ltd | 2027-04-03 | ~7M | pending | 0 | Fuel-cell Phase 2 capacity live (Oct 2026) then Phase 3 (Mar 2027); H2 FY27 nuclear execution ramp; Q2/Q3 FY27 prints confirming the +80% FY27 path |

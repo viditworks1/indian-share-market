@@ -165,12 +165,20 @@
       "never_deepdived": true,
       "days_since_deepdive": null,
       "in_cooldown": false,
-      "deepdive_status": "pending",
-      "deepdive_pass": 0,
-      "deepdive_date": null,
-      "pre_deepdive_conviction": null,
-      "post_deepdive_conviction": null,
-      "history": [],
+      "deepdive_status": "done",
+      "deepdive_pass": 1,
+      "deepdive_date": "2026-10-01",
+      "pre_deepdive_conviction": "Low-Medium",
+      "post_deepdive_conviction": "Medium",
+      "history": [
+        {
+          "pass": 1,
+          "date": "2026-10-01",
+          "pre": "Low-Medium",
+          "post": "Medium",
+          "summary": "Duarmara oil discovery + DSF-IV blocks + PSC extension are real, but revenue/volume growth decoupled in FY26 and scenario build shows price at/above bull case; four_box 2.5 via growth exception"
+        }
+      ],
       "in_active_pool": true,
       "rerun_tier": 0,
       "dive_mode": "full"
@@ -243,12 +251,20 @@
       "never_deepdived": true,
       "days_since_deepdive": null,
       "in_cooldown": false,
-      "deepdive_status": "pending",
-      "deepdive_pass": 0,
-      "deepdive_date": null,
-      "pre_deepdive_conviction": null,
-      "post_deepdive_conviction": null,
-      "history": [],
+      "deepdive_status": "done",
+      "deepdive_pass": 1,
+      "deepdive_date": "2026-10-01",
+      "pre_deepdive_conviction": "Medium-High",
+      "post_deepdive_conviction": "Low-Medium",
+      "history": [
+        {
+          "pass": 1,
+          "date": "2026-10-01",
+          "pre": "Medium-High",
+          "post": "Low-Medium",
+          "summary": "Confirmed real BESS sector tailwind via primary-document research, but entry remains an unresolved 5-company basket -- thesis_fit corrected to neither"
+        }
+      ],
       "in_active_pool": true,
       "rerun_tier": 0,
       "dive_mode": "full"

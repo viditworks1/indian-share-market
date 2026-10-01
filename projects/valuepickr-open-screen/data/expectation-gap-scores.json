@@ -1,8 +1,8 @@
 {
   "date_compiled": "2026-10-01",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
-  "scored_count": 305,
-  "not_assessed_count": 658,
+  "scored_count": 306,
+  "not_assessed_count": 657,
   "ranked": [
     {
       "slug": "vaibhav-global-vertically-integrated-value-e",
@@ -3476,7 +3476,7 @@
       "slug": "danish-power",
       "name": "Danish Power Ltd",
       "expectation_gap_score": 15.92,
-      "conviction_score": 44.0,
+      "conviction_score": 45.0,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
@@ -8613,6 +8613,42 @@
       }
     },
     {
+      "slug": "antelopus-selan-oil-exploration",
+      "name": "Antelopus Selan Oil Exploration",
+      "expectation_gap_score": 0,
+      "conviction_score": 45.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap",
+      "gap_direction": "over-optimistic",
+      "gap_type": "volume",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "monitor",
+      "catalyst_event": "FY27 production ramp to the 2,500 boepd exit target plus first sustained commercial confirmation at Duarmara and a fuller Dangeru ramp, with resulting revenue/PAT (excluding the FY26 one-off accounting benefit) showing whether volume growth finally converts into proportional revenue growth",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-10-01",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "sustained crude realization above breakeven needed to self-fund without fresh borrowing",
+        "unconfirmed commercial flow rates over a sustained period"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.5,
+        "catalyst_q": 0.65,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.63
+      }
+    },
+    {
       "slug": "yatharth-hospital-trauma-care-services",
       "name": "Yatharth Hospital & Trauma Care Services Limited",
       "expectation_gap_score": 0,
@@ -10698,13 +10734,6 @@
       "thesis_fit": "10x-in-2-3-years"
     },
     {
-      "slug": "bess-solar-hybrid-phs",
-      "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
-      "conviction_score": 44.0,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
       "slug": "hdfc-asset-management-company",
       "name": "HDFC Asset Management Company",
       "conviction_score": 44.0,
@@ -11015,13 +11044,6 @@
     {
       "slug": "brand-concept",
       "name": "Brand concept",
-      "conviction_score": 25.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "antelopus-selan-oil-exploration",
-      "name": "Antelopus Selan Oil Exploration",
       "conviction_score": 25.0,
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years"
@@ -12632,6 +12654,13 @@
     {
       "slug": "shyam-metalics-and-energy",
       "name": "Shyam Metalics and Energy Ltd",
+      "conviction_score": 11.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "bess-solar-hybrid-phs",
+      "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
       "conviction_score": 11.0,
       "conviction": "Low-Medium",
       "thesis_fit": "neither"
@@ -16440,6 +16469,17 @@
       "conviction_score": 25.0
     },
     {
+      "slug": "antelopus-selan-oil-exploration",
+      "name": "Antelopus Selan Oil Exploration",
+      "event": "FY27 production ramp to the 2,500 boepd exit target plus first sustained commercial confirmation at Duarmara and a fuller Dangeru ramp, with resulting revenue/PAT (excluding the FY26 one-off accounting benefit) showing whether volume growth finally converts into proportional revenue growth",
+      "target_date": "2027-04-02",
+      "window_months": 6,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 45.0
+    },
+    {
       "slug": "unimech-aerospace-and-manufacturing-ltd",
       "name": "Unimech Aerospace and Manufacturing Ltd",
       "event": "First nuclear-order execution prints in H2FY27 + full-quarter Hobel contribution from Q2 + QIP completion / MPS sell-down clearing the overhang",
@@ -17262,7 +17302,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 15.92,
-      "conviction_score": 44.0
+      "conviction_score": 45.0
     },
     {
       "slug": "see-the-bright-sun-aditya-vision",

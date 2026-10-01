@@ -3,7 +3,7 @@
   "scored_count": 963,
   "not_assessed_count": 0,
   "consistency_score_coverage": 195,
-  "asymmetry_score_coverage": 264,
+  "asymmetry_score_coverage": 265,
   "ranked": [
     {
       "slug": "p-e-analytics",
@@ -1619,6 +1619,34 @@
       }
     },
     {
+      "slug": "danish-power",
+      "name": "Danish Power Ltd",
+      "master_score": 42.88,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 5,
+        "note": "FY22-FY26 all cleared both tests (revenue growth >=10%, ROCE >=15%): growth ranged 22-77% YoY and ROCE ranged 23-70% (FY23 IPO-year figure likely an outlier high, but even the lowest recent years, ~23-24% FY25/26, comfortably clear 15%). A genuinely strong, verified Coffee-Can persistence signal."
+      },
+      "score_breakdown": {
+        "conviction_score": 45.0,
+        "quality_score": 34.0,
+        "expectation_gap_score": 15.92,
+        "consistency_score": 100,
+        "asymmetry_score": 32.96,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "jasch-industries",
       "name": "Jasch Industries Ltd",
       "master_score": 42.81,
@@ -1692,34 +1720,6 @@
         "expectation_gap_score": 3.63,
         "consistency_score": 67,
         "asymmetry_score": 28.82,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "danish-power",
-      "name": "Danish Power Ltd",
-      "master_score": 42.63,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 5,
-        "note": "FY22-FY26 all cleared both tests (revenue growth >=10%, ROCE >=15%): growth ranged 22-77% YoY and ROCE ranged 23-70% (FY23 IPO-year figure likely an outlier high, but even the lowest recent years, ~23-24% FY25/26, comfortably clear 15%). A genuinely strong, verified Coffee-Can persistence signal."
-      },
-      "score_breakdown": {
-        "conviction_score": 44.0,
-        "quality_score": 34.0,
-        "expectation_gap_score": 15.92,
-        "consistency_score": 100,
-        "asymmetry_score": 32.96,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -2491,6 +2491,29 @@
         "expectation_gap_score": 7.07,
         "consistency_score": null,
         "asymmetry_score": 28.54,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "antelopus-selan-oil-exploration",
+      "name": "Antelopus Selan Oil Exploration",
+      "master_score": 38.53,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 45.0,
+        "quality_score": 71.0,
+        "expectation_gap_score": 0,
+        "consistency_score": null,
+        "asymmetry_score": 25.0,
         "components_used": [
           "asymmetry_score",
           "conviction_score",
@@ -7134,31 +7157,6 @@
     {
       "slug": "policybazaar",
       "name": "Policybazaar",
-      "master_score": 22.0,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 44.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
-      }
-    },
-    {
-      "slug": "bess-solar-hybrid-phs",
-      "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
       "master_score": 22.0,
       "red_flag_tier": null,
       "conviction": "Medium-High",
@@ -11971,31 +11969,6 @@
       }
     },
     {
-      "slug": "antelopus-selan-oil-exploration",
-      "name": "Antelopus Selan Oil Exploration",
-      "master_score": 12.5,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
-      }
-    },
-    {
       "slug": "gandhar-oil-refinery",
       "name": "Gandhar Oil Refinery Limited",
       "master_score": 12.5,
@@ -12535,6 +12508,26 @@
       "master_score": 11.0,
       "red_flag_tier": null,
       "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 11.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "bess-solar-hybrid-phs",
+      "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
+      "master_score": 11.0,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
       "thesis_fit": "neither",
       "track_record": null,
       "score_breakdown": {

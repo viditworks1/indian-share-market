@@ -392,7 +392,7 @@ Generated: 2026-10-01
 | VST Industries: Puff full of power? | 2026-09-26 | 2026-10-26 | Medium |
 | Beta Drugs Limited | 2026-09-26 | 2026-10-26 | Medium |
 | Trent -- A value unlocking story from the house of TATA | 2026-09-26 | 2026-10-26 | Medium |
-| Antelopus Selan Oil Exploration | 2026-09-26 | 2026-10-26 | Low-Medium |
+| Antelopus Selan Oil Exploration | 2026-09-26 | 2026-10-26 | Medium |
 | Senco Gold: Upcoming gold story! | 2026-09-26 | 2026-10-26 | Medium |
 | Yash Pakka | 2026-09-26 | 2026-10-26 | Low-Medium |
 | Indiamart Intermesh | 2026-09-26 | 2026-10-26 | Medium-High |
@@ -426,7 +426,7 @@ Generated: 2026-10-01
 | Elecon Engineering Company | 2026-09-26 | 2026-10-26 | Low |
 | Policybazaar | 2026-09-26 | 2026-10-26 | Medium-High |
 | Rajratan Global | 2026-09-26 | 2026-10-26 | Medium-High |
-| BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom? | 2026-09-26 | 2026-10-26 | Medium-High |
+| BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom? | 2026-09-26 | 2026-10-26 | Low-Medium |
 | HDFC Asset Management Company | 2026-09-26 | 2026-10-26 | Medium-High |
 | Phantom Digital Effects Limited | 2026-09-26 | 2026-10-26 | Medium-High |
 | Aditya Birla Fashion and Retail Ltd | 2026-09-26 | 2026-10-26 | Low |
