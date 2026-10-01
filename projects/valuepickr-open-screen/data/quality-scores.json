@@ -3418,7 +3418,7 @@
       "slug": "kalyani-cast",
       "name": "Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing",
       "quality_score": 43.0,
-      "conviction_score": 46.13,
+      "conviction_score": 40.63,
       "red_flag_tier": null,
       "roce_pct": 31,
       "roce_trend": "stable",
@@ -3694,7 +3694,7 @@
       "slug": "tamilnad-mercantile-bank",
       "name": "Tamilnad Mercantile Bank Ltd (TMB Ltd)",
       "quality_score": 42.0,
-      "conviction_score": 42.0,
+      "conviction_score": 45.0,
       "red_flag_tier": null,
       "roce_pct": 14.0,
       "roce_trend": "improving",
@@ -4079,7 +4079,7 @@
       "slug": "arihant-foundations-and-housing",
       "name": "Arihant Foundations and Housing",
       "quality_score": 39.0,
-      "conviction_score": 34.0,
+      "conviction_score": 36.25,
       "red_flag_tier": null,
       "roce_pct": 16.4,
       "roce_trend": "improving",
@@ -6927,34 +6927,6 @@
       }
     },
     {
-      "slug": "kernex-microsystems",
-      "name": "Kernex Microsystems",
-      "quality_score": 0,
-      "conviction_score": 36.5,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
       "slug": "danish-power",
       "name": "Danish Power Ltd",
       "quality_score": 0,
@@ -7013,6 +6985,34 @@
     {
       "slug": "music-broadcast",
       "name": "Music Broadcast Limited (Radio City)",
+      "quality_score": 0,
+      "conviction_score": 34.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "kernex-microsystems",
+      "name": "Kernex Microsystems",
       "quality_score": 0,
       "conviction_score": 34.0,
       "red_flag_tier": null,
@@ -7153,94 +7153,10 @@
       }
     },
     {
-      "slug": "brand-concept",
-      "name": "Brand concept",
-      "quality_score": 0,
-      "conviction_score": 30.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
       "slug": "creditaccess-grameen-traditional-mfi-model-efficiently-operating-at-scale",
       "name": "CreditAccess Grameen: Traditional MFI model, efficiently operating at scale",
       "quality_score": 0,
       "conviction_score": 30.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "brigade-hotel-ventures",
-      "name": "Brigade Hotel Ventures Ltd",
-      "quality_score": 0,
-      "conviction_score": 30.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "shanthi-gears-shanti-gears",
-      "name": "Shanthi Gears/Shanti Gears",
-      "quality_score": 0,
-      "conviction_score": 25.0,
       "red_flag_tier": null,
       "roce_pct": null,
       "roce_trend": "unknown",
@@ -7319,6 +7235,34 @@
         "margin_component": 0,
         "capex_component": 0,
         "raw": 20,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "brand-concept",
+      "name": "Brand concept",
+      "quality_score": 0,
+      "conviction_score": 25.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
         "red_flag_multiplier": 1.0
       }
     },
@@ -7491,8 +7435,8 @@
       }
     },
     {
-      "slug": "rossell-india",
-      "name": "Rossell India / Rossell Techsys",
+      "slug": "everest-kanto-cylinders",
+      "name": "Everest Kanto Cylinders Ltd.",
       "quality_score": 0,
       "conviction_score": 25.0,
       "red_flag_tier": null,
@@ -7519,8 +7463,8 @@
       }
     },
     {
-      "slug": "everest-kanto-cylinders",
-      "name": "Everest Kanto Cylinders Ltd.",
+      "slug": "brigade-hotel-ventures",
+      "name": "Brigade Hotel Ventures Ltd",
       "quality_score": 0,
       "conviction_score": 25.0,
       "red_flag_tier": null,
@@ -7635,6 +7579,34 @@
       "name": "Solar Industries India Ltd",
       "quality_score": 0,
       "conviction_score": 20.17,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "shanthi-gears-shanti-gears",
+      "name": "Shanthi Gears/Shanti Gears",
+      "quality_score": 0,
+      "conviction_score": 20.0,
       "red_flag_tier": null,
       "roce_pct": null,
       "roce_trend": "unknown",
@@ -7855,6 +7827,34 @@
       }
     },
     {
+      "slug": "rossell-india",
+      "name": "Rossell India / Rossell Techsys",
+      "quality_score": 0,
+      "conviction_score": 20.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "embassy-reit",
       "name": "Embassy REIT",
       "quality_score": 0,
@@ -7943,34 +7943,6 @@
       "name": "TCI Express",
       "quality_score": 0,
       "conviction_score": 20.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "zaggle-prepaid",
-      "name": "Zaggle Prepaid Ocean Services",
-      "quality_score": 0,
-      "conviction_score": 17.5,
       "red_flag_tier": null,
       "roce_pct": null,
       "roce_trend": "unknown",
@@ -8109,6 +8081,34 @@
       }
     },
     {
+      "slug": "zaggle-prepaid",
+      "name": "Zaggle Prepaid Ocean Services",
+      "quality_score": 0,
+      "conviction_score": 17.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "walchandnagar-industries",
       "name": "Walchandnagar Industries | Return of a Golden Era",
       "quality_score": 22.0,
@@ -8167,90 +8167,6 @@
       }
     },
     {
-      "slug": "au-small-finance-bank",
-      "name": "AU Small finance bank",
-      "quality_score": 0,
-      "conviction_score": 16.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "brainbees-firstcry",
-      "name": "Brainbees' FirstCry",
-      "quality_score": 0,
-      "conviction_score": 16.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "shyam-metalics-and-energy",
-      "name": "Shyam Metalics and Energy Ltd",
-      "quality_score": 0,
-      "conviction_score": 16.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
       "slug": "orchid-pharma-ltd",
       "name": "Orchid Pharma Ltd",
       "quality_score": 4.0,
@@ -8277,34 +8193,6 @@
         "margin_component": 0,
         "capex_component": 0,
         "raw": 4,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "hbl-engineering-booting",
-      "name": "HBL Engineering: Booting-up for the Race of the Century",
-      "quality_score": 0,
-      "conviction_score": 14.81,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
         "red_flag_multiplier": 1.0
       }
     },
@@ -8397,8 +8285,64 @@
       }
     },
     {
+      "slug": "au-small-finance-bank",
+      "name": "AU Small finance bank",
+      "quality_score": 0,
+      "conviction_score": 11.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "sakar-healthcare",
       "name": "Sakar Healthcare",
+      "quality_score": 0,
+      "conviction_score": 11.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "brainbees-firstcry",
+      "name": "Brainbees' FirstCry",
       "quality_score": 0,
       "conviction_score": 11.0,
       "red_flag_tier": null,
@@ -8441,6 +8385,34 @@
       "flags": [
         "no-roce-data",
         "margin-contracting"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "shyam-metalics-and-energy",
+      "name": "Shyam Metalics and Energy Ltd",
+      "quality_score": 0,
+      "conviction_score": 11.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
       ],
       "score_breakdown": {
         "roce_component": 0,
@@ -8539,258 +8511,6 @@
       }
     },
     {
-      "slug": "connplex-cinema",
-      "name": "CONNPLEX CINEMA",
-      "quality_score": 0,
-      "conviction_score": 8.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "suryoday-small-finance-bank",
-      "name": "Suryoday small finance bank",
-      "quality_score": 0,
-      "conviction_score": 8.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "spandana-sphoorty-financial",
-      "name": "Spandana Sphoorty Financial Limited",
-      "quality_score": 0,
-      "conviction_score": 8.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "tcc-concept",
-      "name": "TCC Concept Ltd.- An Unexplored Data Center Play",
-      "quality_score": 0,
-      "conviction_score": 8.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "rir-power-electronics",
-      "name": "RIR Power Electronics Ltd",
-      "quality_score": 0,
-      "conviction_score": 8.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "grindwell-norton",
-      "name": "Grindwell Norton Ltd",
-      "quality_score": 0,
-      "conviction_score": 8.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "elecon-engineering",
-      "name": "Elecon Engineering Company",
-      "quality_score": 0,
-      "conviction_score": 8.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "aditya-birla-fashion-and-retail",
-      "name": "Aditya Birla Fashion and Retail Ltd",
-      "quality_score": 0,
-      "conviction_score": 8.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "saatvik-green",
-      "name": "Saatvik green-can the company bloom with the sun",
-      "quality_score": 0,
-      "conviction_score": 8.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
       "slug": "bharat-bijlee",
       "name": "Bharat bijlee Ltd",
       "quality_score": 0,
@@ -8848,6 +8568,146 @@
       }
     },
     {
+      "slug": "hbl-engineering-booting",
+      "name": "HBL Engineering: Booting-up for the Race of the Century",
+      "quality_score": 0,
+      "conviction_score": 5.06,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "connplex-cinema",
+      "name": "CONNPLEX CINEMA",
+      "quality_score": 0,
+      "conviction_score": 3.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "suryoday-small-finance-bank",
+      "name": "Suryoday small finance bank",
+      "quality_score": 0,
+      "conviction_score": 3.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "spandana-sphoorty-financial",
+      "name": "Spandana Sphoorty Financial Limited",
+      "quality_score": 0,
+      "conviction_score": 3.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "tcc-concept",
+      "name": "TCC Concept Ltd.- An Unexplored Data Center Play",
+      "quality_score": 0,
+      "conviction_score": 3.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "asahi-songwon-colors-ltd",
       "name": "Asahi Songwon Colors Ltd",
       "quality_score": 3.0,
@@ -8872,6 +8732,146 @@
         "margin_component": 0,
         "capex_component": 0,
         "raw": 3,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "rir-power-electronics",
+      "name": "RIR Power Electronics Ltd",
+      "quality_score": 0,
+      "conviction_score": 3.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "grindwell-norton",
+      "name": "Grindwell Norton Ltd",
+      "quality_score": 0,
+      "conviction_score": 3.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "elecon-engineering",
+      "name": "Elecon Engineering Company",
+      "quality_score": 0,
+      "conviction_score": 3.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "aditya-birla-fashion-and-retail",
+      "name": "Aditya Birla Fashion and Retail Ltd",
+      "quality_score": 0,
+      "conviction_score": 3.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "saatvik-green",
+      "name": "Saatvik green-can the company bloom with the sun",
+      "quality_score": 0,
+      "conviction_score": 3.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
         "red_flag_multiplier": 1.0
       }
     },
@@ -9091,12 +9091,6 @@
       "red_flag_tier": null
     },
     {
-      "slug": "chaman-lal-setia-exports-ltd-clse",
-      "name": "Chaman Lal Setia Exports Ltd",
-      "conviction_score": 27.56,
-      "red_flag_tier": ""
-    },
-    {
       "slug": "surya-roshni-ltd",
       "name": "Surya roshni ltd",
       "conviction_score": 27.48,
@@ -9107,6 +9101,12 @@
       "name": "Garware Hi-Tech Films Ltd",
       "conviction_score": 27.12,
       "red_flag_tier": null
+    },
+    {
+      "slug": "chaman-lal-setia-exports-ltd-clse",
+      "name": "Chaman Lal Setia Exports Ltd",
+      "conviction_score": 27.06,
+      "red_flag_tier": ""
     },
     {
       "slug": "avanti-feeds",

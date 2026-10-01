@@ -1,5 +1,5 @@
 {
-  "date_compiled": "2026-09-29",
+  "date_compiled": "2026-10-01",
   "total_researched": 954,
   "intro": "This is a SECOND, criteria-free ranking of every researched stock - it does NOT apply the main screen's 10x-in-2-3-years / 100x-in-10-years thesis-fit gate. It exists as a hedge in case that return-magnitude bar is too strict and is excluding genuinely good opportunities (e.g. a high-quality large-cap with a real catalyst that just can't mathematically 10x). Ranked purely by conviction - the same fundamentals/technicals/community assessment used everywhere else in this project, just without the extreme-return filter. Cross-check against docs/00_SCREEN_RANKING.docx (the thesis-gated view) before acting - a stock ranked highly here but absent there is exactly the case this document is meant to catch.",
   "ranked": [
@@ -228,6 +228,13 @@
       "reason": ""
     },
     {
+      "name": "Tamilnad Mercantile Bank Ltd (TMB Ltd)",
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Mid-cap (~Rs 13,820 Cr)",
+      "reason": "Decade-low GNPA 0.69%, CRAR 32%, raised FY27 guidance; 37.6% equity in legacy ownership dispute caps return-magnitude label"
+    },
+    {
       "name": "Marico Limited (NSE: MARICO)",
       "conviction": "Medium-High",
       "thesis_fit": "10x-in-2-3-years",
@@ -445,6 +452,13 @@
       "reason": ""
     },
     {
+      "name": "Rajratan Global",
+      "conviction": "Medium-High",
+      "thesis_fit": "100x-in-10-years",
+      "market_cap_tier": "small-cap",
+      "reason": "Verified moat (42-43% India share, sole Thailand maker), first confirming margin print in 4yrs, but rich ~30x valuation"
+    },
+    {
       "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
       "conviction": "Medium-High",
       "thesis_fit": "10x-in-2-3-years",
@@ -476,13 +490,6 @@
       "name": "NAGARJUNA AGRICHEM -- lottery ticket",
       "conviction": "Medium-High",
       "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "",
-      "reason": ""
-    },
-    {
-      "name": "Salzer Electronics",
-      "conviction": "Medium-High",
-      "thesis_fit": "100x-in-10-years",
       "market_cap_tier": "",
       "reason": ""
     },
@@ -937,9 +944,9 @@
     {
       "name": "Senco Gold: Upcoming gold story!",
       "conviction": "Medium",
-      "thesis_fit": "100x-in-10-years",
-      "market_cap_tier": "",
-      "reason": ""
+      "thesis_fit": "neither",
+      "market_cap_tier": "Small-cap (~Rs 5,180 Cr)",
+      "reason": "FY26 PAT 3.6x surge gold-gain-inflated, reversing Q1FY27; 8.9x P/E not cheap on normalized FY27 margins (~11-12x)"
     },
     {
       "name": "Sona BLW Precision Forgings Ltd",
@@ -1936,11 +1943,11 @@
       "reason": "Named inflection found (Unichem synergy realization guided FY27); large-cap size rules out 10x."
     },
     {
-      "name": "Rajratan Global",
+      "name": "Salzer Electronics",
       "conviction": "Medium",
       "thesis_fit": "100x-in-10-years",
-      "market_cap_tier": "",
-      "reason": ""
+      "market_cap_tier": "small-cap",
+      "reason": "Two EBITDA guidance cuts in 2026, declining ROCE, debt-funded WC growth, underutilised smart-meter plant"
     },
     {
       "name": "Modern Dairies",
@@ -1950,11 +1957,11 @@
       "reason": ""
     },
     {
-      "name": "Taurian MPS Ltd, Crushing opportunities?",
+      "name": "Arihant Foundations and Housing",
       "conviction": "Medium",
-      "thesis_fit": "100x-in-10-years",
-      "market_cap_tier": "",
-      "reason": ""
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Small-cap (~Rs 928 Cr)",
+      "reason": "Rs5,000cr-GDV Prestige/Padi JV vs Rs928cr mcap, record presales; FY26 debt tripled, margin volatile, JV unconfirmed"
     },
     {
       "name": "TCI Express",
@@ -2249,13 +2256,6 @@
       "thesis_fit": "neither",
       "market_cap_tier": "Small-cap",
       "reason": "Turnaround upstream energy-services (seismic->O&M/coal-handling); order book ~8x revenue, FY26 rev +70% but acquisition-led (Kuiper), standalone flat, management missed own 'exceptional growth' guide. Oilmax merger = equity dilution, promoter to ~47%, swap on subjective field valuations. Near 52wk high ~32-38x. four_box 1.5 -> neither hard."
-    },
-    {
-      "name": "Tamilnad Mercantile Bank Ltd (TMB Ltd)",
-      "conviction": "Low-Medium",
-      "thesis_fit": "100x-in-10-years",
-      "market_cap_tier": "",
-      "reason": ""
     },
     {
       "name": "Sakar Healthcare",
@@ -3493,13 +3493,6 @@
       "name": "E-pack durables",
       "conviction": "Low-Medium",
       "thesis_fit": "neither",
-      "market_cap_tier": "",
-      "reason": ""
-    },
-    {
-      "name": "Arihant Foundations and Housing",
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
       "market_cap_tier": "",
       "reason": ""
     },
@@ -6775,6 +6768,14 @@
       "thesis_fit": "10x-in-2-3-years",
       "market_cap_tier": "Small-cap (~Rs 570 Cr)",
       "reason": "Confirmed statutory auditor NBT and Co resigned mid-term (5yr term to 2028); ROCE improving 7pct to 12pct, OCF/FCF turned positive FY26, FY28 target raised",
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "name": "Taurian MPS Ltd, Crushing opportunities?",
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Micro-cap (~Rs 523 Cr)",
+      "reason": "Auditor resigned Apr-2026; FY26 OCF -Rs37cr on WC blowout; 2 dilutive raises in a year; HIGH CAUTION caps conviction",
       "red_flag_tier": "HIGH CAUTION"
     }
   ]
