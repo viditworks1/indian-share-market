@@ -6,9 +6,7 @@ Generated: 2026-10-01
 
 ## Pending research (queue, oldest first)
 
-| Stock | First seen | Trusted user(s) | Snippet / why tracked |
-|---|---|---|---|
-| Titagarh Rail Systems | 2026-09-24 | a_basumallick | Named in a_basumallick shipbuilding-update digest (2026-09-24): "also looking to upgrade" alongside CSL/Elecon/Marine Electricals shipbuilding capex cycle. |
+_(none pending)_
 
 ## Already researched (exited the queue)
 
@@ -30,3 +28,4 @@ Generated: 2026-10-01
 | IIFL Finance | 2026-09-10 | neither | Medium | a_basumallick |
 | Elecon Engineering Company | 2026-09-26 | neither | Low | a_basumallick |
 | Grindwell Norton Ltd | 2026-09-26 | neither | Low | unseenvalue |
+| Titagarh Rail Systems | 2026-10-01 | neither | Low | a_basumallick |

@@ -400,7 +400,7 @@ Generated: 2026-10-01
 | Sakar Healthcare | 2026-09-26 | 2026-10-26 | Low-Medium |
 | Marico Limited (NSE: MARICO) | 2026-09-26 | 2026-10-26 | Medium-High |
 | CONNPLEX CINEMA | 2026-09-26 | 2026-10-26 | Low |
-| Enviro Infra Engineers Limited | 2026-09-26 | 2026-10-26 | Medium |
+| Enviro Infra Engineers Limited | 2026-09-26 | 2026-10-26 | Low-Medium |
 | WPIL Ltd | 2026-09-26 | 2026-10-26 | Medium |
 | Tinna rubber | 2026-09-26 | 2026-10-26 | Medium-High |
 | Brainbees' FirstCry | 2026-09-26 | 2026-10-26 | Low-Medium |
@@ -442,9 +442,9 @@ Generated: 2026-10-01
 | TAAL Enterprise | 2026-09-26 | 2026-10-26 | Low-Medium |
 | E-pack durables | 2026-09-26 | 2026-10-26 | Low-Medium |
 | Arihant Foundations and Housing | 2026-09-26 | 2026-10-26 | Medium |
-| Ashiana Housing | 2026-09-26 | 2026-10-26 | Low-Medium |
+| Ashiana Housing | 2026-09-26 | 2026-10-26 | Medium |
 | Saatvik green-can the company bloom with the sun | 2026-09-26 | 2026-10-26 | Low |
-| Ztech (India) Limited | 2026-09-26 | 2026-10-26 | Low-Medium |
+| Ztech (India) Limited | 2026-09-26 | 2026-10-26 | Medium |
 | NCC: Extremely undervalued | 2026-09-26 | 2026-10-26 | Medium-High |
 | GHCL Textiles Ltd: Climbing the Value Chain | 2026-09-26 | 2026-10-26 | Low-Medium |
 | JTEKT India: Driving Precision, Powering India’s Mobility Future | 2026-09-26 | 2026-10-26 | Medium-High |
@@ -480,3 +480,12 @@ Generated: 2026-10-01
 | Emmvee Photovoltaic Power Ltd | 2026-09-28 | 2026-10-28 | Medium-High |
 | Shaily Engineering Plastics Ltd | 2026-09-28 | 2026-10-28 | Medium-High |
 | Raghav Productivity Solutions | 2026-09-28 | 2026-10-28 | Medium-High |
+| Titagarh Rail Systems | 2026-10-01 | 2026-10-31 | Low |
+| JM Financial | 2026-10-01 | 2026-10-31 | Low-Medium |
+| L&T Finance Holdings | 2026-10-01 | 2026-10-31 | Medium |
+| Epack Durable Ltd | 2026-10-01 | 2026-10-31 | Low |
+| Ganesh Benzoplast | 2026-10-01 | 2026-10-31 | Low |
+| Datamatics global | 2026-10-01 | 2026-10-31 | Low-Medium |
+| National Stock Exchange Of India Ltd (NSE): The Exchange at the Heart of India’s Financialisation | 2026-10-01 | 2026-10-31 | High |
+| Prima Plastics | 2026-10-01 | 2026-10-31 | Low-Medium |
+| Great Eastern Shipping (GE Shipping) | 2026-10-01 | 2026-10-31 | Medium |

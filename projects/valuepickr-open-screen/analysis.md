@@ -8422,3 +8422,47 @@ Also confirmed via direct Yahoo Finance checks that ~21 remaining technical-unre
 - Nov-2024 Rs109cr preferential allotment to marquee investors (Madhusudan Kela's Lotus Family Trust, CaratLane founders) cut promoter holding 42.87%->37.29% (pledge 0% throughout) — a one-time strategic raise, not a sell-down.
 - Four-box score 3.5 supports thesis_fit 10x-in-2-3-years with an "unconfirmed" caveat (per the live-inflection convention) since the Padi JV hasn't yet converted to bookings.
 - conviction Low-Medium -> Medium.
+
+## Enviro Infra Engineers Limited — deep-dive pass 1 [2026-10-01]
+- Order book surged 242% YoY to Rs6,813.6cr (~6.4x FY26 revenue), split water/wastewater (~Rs3,694cr) and a new renewables/BESS leg (~Rs3,027cr, incl. first BESS orders from NTPC Rs1,070cr Mar-2026 and Tata Power Rs190cr Sep-2026) via the Suyog Urja platform.
+- ROCE has declined every year since listing: 59% (FY22) -> 47% (FY23) -> 32% (FY24) -> ~20% (FY25/26); Q4 FY26 EBITDA margin fell to 18.70% from 25.31% YoY, triggering an exchange Reg.33 clarification request (company response pending).
+- Working-capital cycle stretched from 24 days (FY24) to 137-166 days (FY26) on unbilled revenue (195 days) tied to delayed AMRUT fund releases; operating cash flow negative two straight years (-Rs59cr FY25, -Rs63cr FY26) despite reported profits; borrowings up 80% to Rs422cr; no dividend ever paid.
+- FII+DII combined holding fell from ~6.6% to ~1.4% over roughly six quarters even as promoter holding stayed flat (70.0%->70.2%, no pledge).
+- Four-box score 3.0 (tailwind yes, tam yes, moat weak, valuation weak) keeps thesis_fit at 10x-in-2-3-years.
+- conviction Medium -> Low-Medium.
+
+## Danish Power Ltd — deep-dive pass 1 [2026-10-01]
+- Genuine 5-year Coffee-Can track record: every fiscal year FY22-FY26 cleared both revenue growth >=10% and ROCE >=15% (ROCE ranged 23-70%, 3yr avg ~45%); essentially debt-free (borrowings ~Rs2cr) with CRISIL upgrading to BBB+/Positive/A2 and the company initiating its first dividend (Rs2/share, Sep 2026).
+- Corrected a material error from the light-pass note: the actual order book (~Rs500cr confirmed + ~Rs400cr unexecuted, ~1.7x FY26 revenue) is far smaller than the ~EUR500mn (~9x revenue) figure previously recorded.
+- Growth has decelerated every year since the FY24 spike (+77% -> +28% -> +22%), EBITDA margin dipped to ~17% FY26 from 19% FY25 on capacity-expansion cost drag, and working capital stretched (78->102 days) with negative FY25 operating cash flow (-Rs20cr).
+- Listed on NSE SME (not mainboard); 220kV EHV revenue realistically a FY28 story pending type-testing/customer-audit validation (6-8 months); export ambitions (30% by FY28) look aggressive absent US UL certification.
+- Four-box score 3.0 (tailwind yes, tam yes, moat weak, valuation weak) keeps thesis_fit at 10x-in-2-3-years.
+- conviction Medium -> Medium (strong quality/track-record upgrade offset by the order-book correction and WC/margin dip).
+
+## Ztech (India) Limited — deep-dive pass 1 [2026-10-01]
+- FY26 revenue +65% YoY to Rs155.8cr, PAT +83% to Rs35.86cr, scaling from 4 to 11 operational "Waste-to-Wonder" parks (circular-economy EPC + industrial wastewater via proprietary GEIST tech + geotech services) with FY27 guidance of Rs250-260cr revenue / 15 parks / 50 lakh footfall.
+- Explicit, funded pivot from lumpy EPC revenue to a recurring annuity model (Zing Parks: ticketing/F&B/events) — annuity revenue guided to scale 5x (Rs8cr -> Rs40-42cr) in FY27.
+- Trade receivables nearly doubled in FY26 (Rs48.9cr -> Rs94.0cr) against 65% revenue growth, and screener data shows a sharply negative FY25 operating cash flow; management attributes this to parks being commissioned ahead of collecting EPC payments — the key risk to monitor.
+- CFO resignation (May 2026) mid-scale-up, plus materially conflicting third-party disclosures on debt levels (near-debt-free claims vs a reported ~Rs75cr in borrowings) that need resolving against the actual annual report.
+- Nil promoter pledge confirmed FY26; promoter holding declining (~60.75% to ~52% over ~2 years, plausibly dilution-driven). Four-box score 3.0 supports thesis_fit 10x-in-2-3-years (downgraded from the light-pass 100x-in-10-years label — moat unproven, no guided-vs-delivered track record yet).
+- conviction Low-Medium -> Medium.
+
+## Ashiana Housing — deep-dive pass 1 [2026-10-01]
+- Senior-living pivot is real, not just narrative: 41% of Q1 FY27 bookings (up from ~25%+ a year earlier, target ~50%), FY26 bookings ~+25% YoY to a record, collections +40% YoY to Rs1,484cr, FY27 presales guidance Rs2,200cr already tracking (YTD Rs859cr by late Jul-2026).
+- Debt-light, internally-funded growth: D/E 0.30, Debt/CFO ~0.5x (ICRA), zero promoter pledge, both ICRA (Sep-2025) and CARE (Dec-2025) reaffirmed stable ratings; new senior-living land (Pune 28.55 acres ~Rs1,800cr potential, Chennai MWC lease ~Rs1,200cr potential) funded largely off internal accruals.
+- ROCE has historically been weak: FY23-25 3-yr average just 6.2% (median 3.7%, screener.in); FY26's 14.0% is a genuine but still single-year inflection, just short of the 15% Coffee-Can hurdle (track_record: 0/4 years cleared).
+- P&L revenue is severely lumpy under completion accounting (Q1 FY27 revenue fell to Rs107cr from Rs293cr YoY despite bookings/collections growth) -- bookings/collections are the real demand signal, not quarterly P&L.
+- Already fairly valued at ~32.5x trailing P/E / ~4.4x P/B; moat is weak (premium pricing real but PE-backed entrants Antara/Columbia Pacific/Primus could erode it). Four-box score 3.0 keeps thesis_fit at 10x-in-2-3-years.
+- conviction Low-Medium -> Medium.
+
+## vpscreen-scan — 2026-10-01 batch (9 stocks)
+- **Titagarh Rail Systems** (trusted-x-watch snippet, tier 4.8): weak trend (TTM revenue -10%, ROE 6.78%), no company-specific catalyst beyond a peer-group shipbuilding-capex mention. VP thread found outside watched categories. Filtered out, conviction Low, thesis_fit neither.
+- **Epack Durable**: room-AC ODM, net loss TTM, ROE ~0%, growth trailing industry, zero forum engagement. Filtered out, conviction Low, thesis_fit neither.
+- **National Stock Exchange of India (NSE)**: exceptional monopoly exchange (40.6% ROCE, debt-free, 66.85% margin) fresh off its IPO — but at Rs 4.36 lakh Cr mcap, the large-cap-inflection exception is explicitly rejected on size math (100x would require becoming worth multiples of India's GDP). Conviction High (business quality), thesis_fit neither. Fresh SEBI self-listing-governance scrutiny (2026-09-28) to monitor.
+- **JM Financial**: genuine de-risking turnaround (winding down wholesale real-estate book) undercut by two serious regulatory actions in 18 months (SEBI 2024 debt-offering ban, RBI 2025-09 restrictions -19% day) plus wealth-management losing share to Nuvama/Motilal. HIGH CAUTION, conviction Low-Medium, thesis_fit neither.
+- **Ganesh Benzoplast**: subsidiary fraud finding + FIR against Directors/KMPs (2025) + cancelled flagship LPG JV + JNPT lease-cost shock, culminating in a 2026-09-29 slump-sale of the core tank/terminal business the "cash rich...tank king" thesis was built on. HIGH CAUTION, conviction Low, thesis_fit neither — thesis effectively discontinued.
+- **Datamatics Global**: decent returns (ROCE 20.4%, ROE 16%), growth reaccelerated to 9.9% YoY, but thin/dormant thread and an unresolved community moat question. Conviction Low-Medium, thesis_fit neither (four-box 2.0, no exception case).
+- **Prima Plastics**: no red flags, reasonable ROCE 14.3%, but explicitly commodity-plastics with weak 6.07% 5yr growth. A founder-backed spin-off (Prima Innovations) is a fresh, unconfirmed watch item. Conviction Low-Medium, thesis_fit neither.
+- **Great Eastern Shipping**: debt-free, disciplined cyclical shipping compounder trading near book value (~30% of mcap net cash) — a genuine large-cap deep-value/NAV hold per the community's own framing, not a multiplier thesis. 2026-09-28 fleet expansion at cycle-high prices is a mild capital-discipline flag to watch. Conviction Medium, thesis_fit neither.
+- **L&T Finance Holdings**: Lakshya 2026 management turnaround was genuine and demonstrated (targets met 2yr early) but is now complete and priced in — growth normalised to 6.05% 5yr at Rs 66,017cr mcap. A fresh, unconfirmed drought-impact risk surfaced today (2026-10-01) — watch item, didn't move the verdict. Conviction Medium, thesis_fit neither.
+- Batch theme: 0/9 stocks cleared the thesis-fit bar this run — two are genuine mega/large-cap quality names where the multiplier math simply doesn't work (NSE, GE Shipping, L&T Finance), two carry serious governance red flags (JM Financial, Ganesh Benzoplast — the latter's core business is being divested as of 2 days ago), and the rest are decent-but-unremarkable small/micro-caps with no catalyst.

@@ -1,9 +1,9 @@
 {
   "method": "Composite of conviction_score/quality_score/expectation_gap_score/consistency_score/asymmetry_score, weighted 0.25/0.25/0.20/0.15/0.15 and renormalized over whichever are present. Formula + investor research in MASTER_SCORE_METHODOLOGY.md.",
-  "scored_count": 954,
+  "scored_count": 963,
   "not_assessed_count": 0,
-  "consistency_score_coverage": 192,
-  "asymmetry_score_coverage": 260,
+  "consistency_score_coverage": 195,
+  "asymmetry_score_coverage": 264,
   "ranked": [
     {
       "slug": "p-e-analytics",
@@ -1319,6 +1319,26 @@
       }
     },
     {
+      "slug": "national-stock-exchange-of-india-ltd-the-exchange-at-the-heart-of-india-s-financialisation",
+      "name": "National Stock Exchange Of India Ltd (NSE): The Exchange at the Heart of India\u2019s Financialisation",
+      "master_score": 45.0,
+      "red_flag_tier": null,
+      "conviction": "High",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 45.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
       "slug": "sika-interplant-systems",
       "name": "Sika Interplant Systems Ltd",
       "master_score": 44.89,
@@ -1672,6 +1692,34 @@
         "expectation_gap_score": 3.63,
         "consistency_score": 67,
         "asymmetry_score": 28.82,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "danish-power",
+      "name": "Danish Power Ltd",
+      "master_score": 42.63,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 5,
+        "note": "FY22-FY26 all cleared both tests (revenue growth >=10%, ROCE >=15%): growth ranged 22-77% YoY and ROCE ranged 23-70% (FY23 IPO-year figure likely an outlier high, but even the lowest recent years, ~23-24% FY25/26, comfortably clear 15%). A genuinely strong, verified Coffee-Can persistence signal."
+      },
+      "score_breakdown": {
+        "conviction_score": 44.0,
+        "quality_score": 34.0,
+        "expectation_gap_score": 15.92,
+        "consistency_score": 100,
+        "asymmetry_score": 32.96,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -4664,6 +4712,34 @@
       }
     },
     {
+      "slug": "enviro-infra-engineers",
+      "name": "Enviro Infra Engineers Limited",
+      "master_score": 27.13,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 4,
+        "years_cleared": 3,
+        "note": "FY23-FY25 cleared both tests (revenue growth >=10%, ROCE >=15%); FY26 revenue growth slowed to 7.5% (just below the 10% bar) even as ROCE held ~20% -- order-book-driven lumpiness, not a structural break. FY22 excluded for lack of a prior-year base to measure growth against."
+      },
+      "score_breakdown": {
+        "conviction_score": 25.0,
+        "quality_score": 24.0,
+        "expectation_gap_score": 6.39,
+        "consistency_score": 75,
+        "asymmetry_score": 15.7,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "wonderla-holidays",
       "name": "Wonderla Holidays",
       "master_score": 27.12,
@@ -6367,6 +6443,46 @@
       }
     },
     {
+      "slug": "l-t-finance-holdings",
+      "name": "L&T Finance Holdings",
+      "master_score": 25.0,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 25.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "great-eastern-shipping",
+      "name": "Great Eastern Shipping (GE Shipping)",
+      "master_score": 25.0,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 25.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
       "slug": "wockhardt-ltd",
       "name": "Wockhardt Ltd",
       "master_score": 24.96,
@@ -6749,6 +6865,57 @@
         "expectation_gap_score": 11.57,
         "consistency_score": 60,
         "asymmetry_score": 5.79,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "ztech",
+      "name": "Ztech (India) Limited",
+      "master_score": 23.19,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 34.0,
+        "quality_score": 18.0,
+        "expectation_gap_score": 24.41,
+        "consistency_score": null,
+        "asymmetry_score": 12.21,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "ashiana-housing",
+      "name": "Ashiana Housing",
+      "master_score": 23.16,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 4,
+        "years_cleared": 0,
+        "note": "FY23-25 3-yr avg ROCE ~6.2% (median 3.7%, screener.in) never reached the 15% hurdle despite strong revenue growth in FY23/FY24; FY25 also failed the revenue-growth leg outright (-44%). FY26's 14.0% ROCE (on +116% revenue growth) is the closest miss -- just under the 15% bar -- a real but still-unconfirmed single-year inflection. Real-estate completion accounting makes per-year ROCE a volatile, imperfect read for this business model."
+      },
+      "score_breakdown": {
+        "conviction_score": 46.0,
+        "quality_score": 12.0,
+        "expectation_gap_score": 31.48,
+        "consistency_score": 0,
+        "asymmetry_score": 15.74,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -7953,56 +8120,6 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
-      }
-    },
-    {
-      "slug": "danish-power",
-      "name": "Danish Power Ltd",
-      "master_score": 17.0,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 34.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
-      }
-    },
-    {
-      "slug": "enviro-infra-engineers",
-      "name": "Enviro Infra Engineers Limited",
-      "master_score": 17.0,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 34.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
       }
     },
     {
@@ -10830,6 +10947,46 @@
       }
     },
     {
+      "slug": "datamatics-global",
+      "name": "Datamatics global",
+      "master_score": 16.0,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 16.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "prima-plastics",
+      "name": "Prima Plastics",
+      "master_score": 16.0,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 16.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
       "slug": "electronics-mart-india",
       "name": "Electronics Mart India Limited- EMIL",
       "master_score": 15.98,
@@ -11317,31 +11474,6 @@
           "expectation_gap_score"
         ],
         "weight_coverage": 0.45
-      }
-    },
-    {
-      "slug": "ztech",
-      "name": "Ztech (India) Limited",
-      "master_score": 15.5,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "100x-in-10-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 31.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
       }
     },
     {
@@ -12041,31 +12173,6 @@
     {
       "slug": "agi-greenpac",
       "name": "AGI Greenpac- on the cusp of growth?",
-      "master_score": 12.5,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
-      }
-    },
-    {
-      "slug": "ashiana-housing",
-      "name": "Ashiana Housing",
       "master_score": 12.5,
       "red_flag_tier": null,
       "conviction": "Low-Medium",
@@ -17878,8 +17985,48 @@
       }
     },
     {
+      "slug": "titagarh-rail-systems",
+      "name": "Titagarh Rail Systems",
+      "master_score": 8.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
       "slug": "tamboli-capital-its-a-casting-company",
       "name": "Tamboli Capital: Its a Casting Company!",
+      "master_score": 8.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "epack-durable",
+      "name": "Epack Durable Ltd",
       "master_score": 8.0,
       "red_flag_tier": null,
       "conviction": "Low",
@@ -21286,6 +21433,46 @@
       "track_record": null,
       "score_breakdown": {
         "conviction_score": 0.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "jm-financial",
+      "name": "JM Financial",
+      "master_score": 0,
+      "red_flag_tier": "HIGH CAUTION",
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "ganesh-benzoplast",
+      "name": "Ganesh Benzoplast",
+      "master_score": 0,
+      "red_flag_tier": "HIGH CAUTION",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
         "quality_score": null,
         "expectation_gap_score": null,
         "consistency_score": null,

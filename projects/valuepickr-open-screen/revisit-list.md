@@ -138,7 +138,10 @@ _(none)_
 | KP Energy Ltd | 2027-03-24 | ~6M | pending | 16.44 | Q2/Q3 FY27 prints showing whether the ROW/input-cost margin compression seen in Q1 FY27 is transient or a new structural lower-margin regime, alongside deliv... |
 | Solex Energy Ltd | 2027-03-24 | ~6M | pending | 12.99 | H2FY27 execution against the Rs 845.84 Cr near-term order pipeline (targeted by 31-Dec-2026) plus cell-line structured-debt financial close and commissioning... |
 | Rajratan Global | 2027-04-02 | ~6M | pending | 43.65 | Q2/Q3 FY27 prints confirming margin durability beyond the single Q1 FY27 confirming quarter, plus Chennai Phase-2 (60,000 TPA) full ramp and steel-cord pilot... |
+| Ashiana Housing | 2027-04-02 | ~6M | pending | 31.48 | H1 FY27 presales exit print (~Rs1,050-1,100cr guided) + Pune/Chennai senior-living project launch |
+| Ztech (India) Limited | 2027-04-02 | ~6M | pending | 24.41 | FY27 results showing execution against the Rs250-260cr revenue / 15-park / 50-lakh-footfall / Rs40-42cr annuity-revenue guidance, alongside evidence that rec... |
 | Senco Gold: Upcoming gold story! | 2027-04-02 | ~6M | pending | 19.28 | H2 FY27 festive/wedding-season margin print showing recovery toward the guided 7.5-7.8% EBITDA margin band |
+| Enviro Infra Engineers Limited | 2027-04-02 | ~6M | pending | 6.39 | Q2/Q3 FY27 results showing EBITDA margin trajectory toward the guided 19-22% and working-capital days normalizing toward ~90 |
 | Unimech Aerospace and Manufacturing Ltd | 2027-04-02 | ~7M | pending | 0 | First nuclear-order execution prints in H2FY27 + full-quarter Hobel contribution from Q2 + QIP completion / MPS sell-down clearing the overhang |
 | Dynamic Cables | 2027-04-03 | ~7M | pending | 4.6 | Greenfield trial production Sep 2026 -> commercial Q4 FY27 (revenue from Q4 FY27, 80-85% utilisation by end-FY28); quarterly prints sustaining ~30% growth vs... |
 | MTAR Technologies Ltd | 2027-04-03 | ~7M | pending | 0 | Fuel-cell Phase 2 capacity live (Oct 2026) then Phase 3 (Mar 2027); H2 FY27 nuclear execution ramp; Q2/Q3 FY27 prints confirming the +80% FY27 path |
@@ -213,6 +216,7 @@ _(none)_
 | Omnitech | 2027-06-23 | ~9M | pending | 18.57 | FY27 capex commissioning (new machine-hour capacity) plus continued execution of the energy-heavy order book, with Q2/Q3 FY27 prints showing whether EBITDA m... |
 | Wonderla Holidays | 2027-07-01 | ~10M | pending | 5.89 | Formal announcement of the next 1-2 large park locations with capex and timeline (management guided 'before end-FY27'), plus H2 FY27 prints confirming mature... |
 | Aarti Pharmalabs Ltd | 2027-07-02 | ~10M | pending | 25.18 | H2 FY27 CDMO revenue ramp toward the USD 100 mn / +40-50% guide; Atali Block 2 commissioning; xanthine pricing recovery sustaining; FDA Form 483 (Unit IV Tar... |
+| Danish Power Ltd | 2027-07-02 | ~9M | pending | 15.92 | 220kV type-testing completion + first EHV customer order, plus Q2/Q3 FY27 results confirming margin recovery toward the guided ~19% |
 | See the bright Sun: Aditya Vision | 2027-07-02 | ~10M | pending | 0 | MP/WB/Chhattisgarh store rollout through FY27 plus the Q1FY28 (peak-summer) print showing whether SSSG + new states hold ~25% growth |
 | Venus Remedies | 2027-08-30 | ~12M | pending | 3.82 | FY27 quarters confirming the ~19-20% OPM base holds ex one-offs + a lyophilisation capacity-expansion / greenfield announcement, driving re-rating toward pee... |
 | TD Power Systems | 2027-08-31 | ~12M | pending | 7.37 | Formal value/timing on the >100MW large-generator deal and Siemens Energy framework call-offs, plus evidence that operating cash flow starts converging with ... |

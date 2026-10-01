@@ -1,8 +1,8 @@
 {
   "date_compiled": "2026-10-01",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
-  "scored_count": 301,
-  "not_assessed_count": 653,
+  "scored_count": 305,
+  "not_assessed_count": 658,
   "ranked": [
     {
       "slug": "vaibhav-global-vertically-integrated-value-e",
@@ -1131,6 +1131,39 @@
       }
     },
     {
+      "slug": "ashiana-housing",
+      "name": "Ashiana Housing",
+      "expectation_gap_score": 31.48,
+      "conviction_score": 46.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 3,840 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "H1 FY27 presales exit print (~Rs1,050-1,100cr guided) + Pune/Chennai senior-living project launch",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-10-01",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "single large project concentration for that gdv slice"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.699
+      }
+    },
+    {
       "slug": "csl-finance",
       "name": "CSL Finance Limited",
       "expectation_gap_score": 31.36,
@@ -2012,6 +2045,40 @@
       "risk_open_spofs": [
         "cash conversion / sme reporting quality",
         "commissioning timeline"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.65,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.542
+      }
+    },
+    {
+      "slug": "ztech",
+      "name": "Ztech (India) Limited",
+      "expectation_gap_score": 24.41,
+      "conviction_score": 34.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap",
+      "gap_direction": "partially-priced",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": "FY27 results showing execution against the Rs250-260cr revenue / 15-park / 50-lakh-footfall / Rs40-42cr annuity-revenue guidance, alongside evidence that receivables are actually converting to cash",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-10-01",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "political/approval delays, explicitly flagged by the company itself",
+        "receivables collection pace"
       ],
       "flags": [],
       "score_breakdown": {
@@ -3406,6 +3473,42 @@
       }
     },
     {
+      "slug": "danish-power",
+      "name": "Danish Power Ltd",
+      "expectation_gap_score": 15.92,
+      "conviction_score": 44.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 1,878 Cr, NSE SME platform)",
+      "gap_direction": "partially-priced",
+      "gap_type": "capacity",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "220kV type-testing completion + first EHV customer order, plus Q2/Q3 FY27 results confirming margin recovery toward the guided ~19%",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-10-01",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "lack of us ul certification limits addressable export markets",
+        "type-testing/validation timeline (6-8 months)"
+      ],
+      "flags": [
+        "growth-decelerating"
+      ],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.589
+      }
+    },
+    {
       "slug": "wise-travel-india-wti-cabs",
       "name": "Wise Travel India Ltd (WTICabs)",
       "expectation_gap_score": 15.92,
@@ -4432,6 +4535,42 @@
       "risk_open_spofs": [
         "execution and working-capital cycle on large turnkey packages",
         "loss of share to larger electrical majors on big packages"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.639
+      }
+    },
+    {
+      "slug": "enviro-infra-engineers",
+      "name": "Enviro Infra Engineers Limited",
+      "expectation_gap_score": 6.39,
+      "conviction_score": 25.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 3,233 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2/Q3 FY27 results showing EBITDA margin trajectory toward the guided 19-22% and working-capital days normalizing toward ~90",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-10-01",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "government fund-release cycle, outside company's control",
+        "government fund-release timing"
       ],
       "flags": [
         "priced-in"
@@ -10538,6 +10677,13 @@
   ],
   "not_assessed": [
     {
+      "slug": "national-stock-exchange-of-india-ltd-the-exchange-at-the-heart-of-india-s-financialisation",
+      "name": "National Stock Exchange Of India Ltd (NSE): The Exchange at the Heart of India\u2019s Financialisation",
+      "conviction_score": 45.0,
+      "conviction": "High",
+      "thesis_fit": "neither"
+    },
+    {
       "slug": "indiamart-intermesh",
       "name": "Indiamart Intermesh",
       "conviction_score": 44.0,
@@ -10594,20 +10740,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "danish-power",
-      "name": "Danish Power Ltd",
-      "conviction_score": 34.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "enviro-infra-engineers",
-      "name": "Enviro Infra Engineers Limited",
-      "conviction_score": 34.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
       "slug": "music-broadcast",
       "name": "Music Broadcast Limited (Radio City)",
       "conviction_score": 34.0,
@@ -10648,13 +10780,6 @@
       "conviction_score": 31.35,
       "conviction": "Medium-High",
       "thesis_fit": "neither"
-    },
-    {
-      "slug": "ztech",
-      "name": "Ztech (India) Limited",
-      "conviction_score": 31.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "100x-in-10-years"
     },
     {
       "slug": "canara-robeco-amc-the-quiet-operating-leverage-story-hiding-in-plain-sight",
@@ -11259,11 +11384,18 @@
       "thesis_fit": "10x-in-2-3-years"
     },
     {
-      "slug": "ashiana-housing",
-      "name": "Ashiana Housing",
+      "slug": "l-t-finance-holdings",
+      "name": "L&T Finance Holdings",
       "conviction_score": 25.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
+      "conviction": "Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "great-eastern-shipping",
+      "name": "Great Eastern Shipping (GE Shipping)",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither"
     },
     {
       "slug": "navin-fluorine-international",
@@ -12346,6 +12478,20 @@
     {
       "slug": "ghcl-textiles-ltd-climbing-the-value-chain",
       "name": "GHCL Textiles Ltd: Climbing the Value Chain",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "datamatics-global",
+      "name": "Datamatics global",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "prima-plastics",
+      "name": "Prima Plastics",
       "conviction_score": 16.0,
       "conviction": "Low-Medium",
       "thesis_fit": "neither"
@@ -14185,8 +14331,22 @@
       "thesis_fit": "neither"
     },
     {
+      "slug": "titagarh-rail-systems",
+      "name": "Titagarh Rail Systems",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
       "slug": "tamboli-capital-its-a-casting-company",
       "name": "Tamboli Capital: Its a Casting Company!",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "epack-durable",
+      "name": "Epack Durable Ltd",
       "conviction_score": 8.0,
       "conviction": "Low",
       "thesis_fit": "neither"
@@ -15105,6 +15265,20 @@
       "slug": "ashapura-minechem",
       "name": "Ashapura Minechem",
       "conviction_score": 0.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "jm-financial",
+      "name": "JM Financial",
+      "conviction_score": 0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "ganesh-benzoplast",
+      "name": "Ganesh Benzoplast",
+      "conviction_score": 0,
       "conviction": "Low",
       "thesis_fit": "neither"
     }
@@ -16222,6 +16396,28 @@
       "conviction_score": 61.0
     },
     {
+      "slug": "ashiana-housing",
+      "name": "Ashiana Housing",
+      "event": "H1 FY27 presales exit print (~Rs1,050-1,100cr guided) + Pune/Chennai senior-living project launch",
+      "target_date": "2027-04-02",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 31.48,
+      "conviction_score": 46.0
+    },
+    {
+      "slug": "ztech",
+      "name": "Ztech (India) Limited",
+      "event": "FY27 results showing execution against the Rs250-260cr revenue / 15-park / 50-lakh-footfall / Rs40-42cr annuity-revenue guidance, alongside evidence that receivables are actually converting to cash",
+      "target_date": "2027-04-02",
+      "window_months": 6,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 24.41,
+      "conviction_score": 34.0
+    },
+    {
       "slug": "senco-gold-upcoming-gold-story",
       "name": "Senco Gold: Upcoming gold story!",
       "event": "H2 FY27 festive/wedding-season margin print showing recovery toward the guided 7.5-7.8% EBITDA margin band",
@@ -16230,6 +16426,17 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 19.28,
+      "conviction_score": 25.0
+    },
+    {
+      "slug": "enviro-infra-engineers",
+      "name": "Enviro Infra Engineers Limited",
+      "event": "Q2/Q3 FY27 results showing EBITDA margin trajectory toward the guided 19-22% and working-capital days normalizing toward ~90",
+      "target_date": "2027-04-02",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 6.39,
       "conviction_score": 25.0
     },
     {
@@ -17045,6 +17252,17 @@
       "status_effective": "pending",
       "expectation_gap_score": 25.18,
       "conviction_score": 25.21
+    },
+    {
+      "slug": "danish-power",
+      "name": "Danish Power Ltd",
+      "event": "220kV type-testing completion + first EHV customer order, plus Q2/Q3 FY27 results confirming margin recovery toward the guided ~19%",
+      "target_date": "2027-07-02",
+      "window_months": 9,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 15.92,
+      "conviction_score": 44.0
     },
     {
       "slug": "see-the-bright-sun-aditya-vision",

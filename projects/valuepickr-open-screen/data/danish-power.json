@@ -1,56 +1,224 @@
 {
   "name": "Danish Power",
-  "tagline": "Light research entry - Confluence-100 rank 97 (Danish Power)",
+  "tagline": "Debt-free transformer maker with a genuine 5-year Coffee-Can track record, but the order book is smaller than initially stated and the EHV ramp carries real execution risk",
   "thesis_fit": "10x-in-2-3-years",
-  "verdict_headline": "Light entry pending full deep-dive research",
+  "verdict_headline": "Exceptional 5-year Coffee-Can track record and a debt-free capacity-expansion story, tempered by a smaller-than-thought order book, SME-platform listing, and a near-term working-capital/margin dip",
   "verdict_reasoning": [
-    "Ranked 97 in Confluence-100",
-    "Conviction Medium assigned via Confluence methodology",
-    "Market cap tier: None"
+    "Four-box score 3.0 (tailwind yes, tam yes, moat weak, valuation weak) permits 10x-in-2-3-years, but conviction set separately",
+    "FY22-FY26 all five fiscal years cleared the Coffee-Can test (revenue growth >=10% AND ROCE >=15%) -- a genuinely strong, verified persistence signal, with the company also essentially debt-free (borrowings ~Rs2cr)",
+    "But the confirmed+unexecuted order book (~Rs900cr, ~1.7x FY26 revenue) is materially smaller than the EUR500mn/~9x-revenue figure in the prior light-pass note -- a meaningful correction to the growth-visibility thesis",
+    "Growth has decelerated every year since the FY24 spike (+77% FY24 -> +28% FY25 -> +22% FY26), EBITDA margin dipped to ~17% FY26 from 19% FY25 on capacity-expansion cost drag, and working capital stretched from 78 to 102 days with negative FY25 operating cash flow (-Rs20cr)",
+    "Listed on the NSE SME platform (not mainboard) with correspondingly thinner institutional access; 220kV EHV revenue realistically a FY28 story pending type-testing/customer-audit validation"
   ],
-  "business_overview": "Pending full research",
-  "fundamentals_table": null,
-  "fundamentals_narrative": null,
+  "business_overview": "Danish Power (Jaipur, founded 1985 by Dinesh Talwar, now led by second-generation MD Shivam Talwar) manufactures inverter-duty transformers (IDTs, ~70% of revenue) for solar/wind, plus distribution and power transformers up to 100 MVA, expanding into 220kV EHV. Listed on NSE SME in Oct 2024 (IPO raised Rs197.90cr). Early mover in IDTs with ~10-11% market share and 14GW of solar projects powered.",
+  "fundamentals_table": [
+    ["Market Cap (Rs cr)", "~1,878"],
+    ["CMP (Rs)", "954"],
+    ["P/E (trailing)", "26.8x"],
+    ["Book Value (Rs/share)", "232"],
+    ["ROCE", "~23-24% FY25/26 (down from a 70% FY23 IPO-year spike; 3yr avg ~45.2%)"],
+    ["ROE", "28.9%"],
+    ["Revenue FY26 (Rs cr)", "521.45 (+22.2% YoY)"],
+    ["EBITDA Margin FY26", "~17% (down from 19% FY25 on capacity-expansion cost drag)"],
+    ["PAT FY26 (Rs cr)", "68.98 (+~19% YoY)"],
+    ["Order Book (Rs cr)", "~500 confirmed (90% executable FY27) + ~400 unexecuted (Dec 2025) -- NOT the ~EUR500mn figure in the earlier light-pass note, which appears overstated"],
+    ["Transformer Capacity", "~8,500 MVA (Oct 2025, 96% utilization) -> ~11,000 MVA (Dec 2025 Phase 2) -> targeting 12,000-15,000 MVA, enabling 220kV EHV"],
+    ["Working Capital Days", "102 (up from 78 in prior period)"],
+    ["Borrowings (Rs cr)", "~2 (essentially debt-free)"],
+    ["Promoter Holding", "73.62% (Jul 2026), stable since IPO (73.55% post-listing), no pledge"],
+    ["Dividend", "Rs2/share declared, ex-date Sep 1 2026 (first since listing)"],
+    ["CRISIL Rating", "BBB+/Positive/A2 (upgraded from BBB/Positive/A3+)"],
+    ["Listing", "NSE SME platform (Oct 2024 IPO)"]
+  ],
+  "fundamentals_narrative": "Danish Power has compounded revenue from Rs118cr (FY21) to Rs521cr (FY26), a ~35% 5yr CAGR, with PAT growing faster still (~103% 5yr CAGR) as EBITDA margin structurally expanded from 3.6% to 17-19%. Every single fiscal year FY22-FY26 cleared both Coffee-Can bars (revenue growth >=10% and ROCE >=15%), including a 70% ROCE in the IPO year (FY23) that has since normalized to a still-healthy ~23-24%. The balance sheet is essentially debt-free (borrowings ~Rs2cr), capacity has nearly doubled (8,500 -> 11,000 MVA) funded without leverage, and the company initiated its first dividend in Sep 2026. But growth has decelerated every year since the FY24 spike (+77% -> +28% -> +22%), EBITDA margin dipped to ~17% in FY26 on capacity-expansion cost drag, working capital stretched from 78 to 102 days, and operating cash flow was negative in FY25 (-Rs20cr) against a heavy Rs73cr FY26 capex outflow. Crucially, the order book actually visible in filings (~Rs500cr confirmed + ~Rs400cr unexecuted, ~1.7x FY26 revenue) is far smaller than the ~EUR500mn figure cited in the prior light-pass four-box note -- that figure looks to have been an error or conflated with an industry-level opportunity size, and this pass corrects it. Management guides FY27 revenue above Rs700cr at ~19% EBITDA margin, with exports scaling toward 20% (FY27) and 30% (FY28), contingent on 220kV type-testing/customer-audit validation (6-8 months) that pushes meaningful EHV revenue to FY28.",
   "technical_read": null,
   "sentiment_summary": null,
   "community_signal": null,
-  "bse_notes": null,
-  "bull_case": null,
-  "bear_case": null,
-  "market_cap_tier": null,
+  "bse_notes": "May 2026: USD8.7mn export order for 66kV power transformers (1yr execution). Aug 2026: Rs37.17cr order for Ester-Filled Inverter Duty Transformers (5-6mo execution). Separately, Rs84cr export order for 66kV transformers and Rs48.77cr order for inverter-duty transformers reported in 2026. Sep 2026: first post-listing dividend (Rs2/share) declared.",
+  "bull_case": [
+    "Genuine 5-year Coffee-Can track record: every fiscal year FY22-FY26 cleared both revenue growth >=10% and ROCE >=15% (ROCE ranged 23-70%, 3yr avg ~45%) -- a rare, verified consistency signal",
+    "Early-mover moat in inverter-duty transformers (~70% of revenue): ~10-11% market share, 14GW of solar projects powered, 14 years of customer-qualification stickiness, BIS-certified quality seen as a natural barrier against Chinese imports",
+    "Capacity doubling from ~8,500 MVA to ~11,000 MVA (enabling 220kV EHV) funded almost entirely debt-free (borrowings ~Rs2cr), with management guiding FY27 revenue above Rs700cr (+34%+ YoY) and exports scaling to 20% (FY27) then 30% (FY28)",
+    "CRISIL upgraded the rating to BBB+/Positive/A2 in 2025 and the company just initiated its first dividend (Rs2/share, Sep 2026) -- external validation plus early signs of capital-allocation discipline from second-generation MD Shivam Talwar ('profitability over volume, customer quality over order quantity')"
+  ],
+  "bear_case": [
+    "The order book is materially smaller than the earlier light-pass note implied: ~Rs500cr confirmed + ~Rs400cr unexecuted (~1-1.7x FY26 revenue), not the ~EUR500mn/~9x-revenue figure cited previously -- a meaningful correction to the growth-visibility thesis",
+    "Growth has decelerated every year since the FY24 spike (revenue +77% FY24 -> +28% FY25 -> +22% FY26) while ROCE normalized from a 70% IPO-year peak to ~23-24%, and EBITDA margin dipped to ~17% FY26 from 19% FY25 on capacity-expansion cost drag",
+    "Working capital deteriorated (78 -> 102 days) and operating cash flow was negative in FY25 (-Rs20cr) despite profitability, with a heavy Rs73cr capex outflow in FY26; the 220kV EHV ramp (type-testing, customer audits, 6-8 month validation) adds further execution risk, realistically pushing full EHV revenue to FY28",
+    "Listed on the NSE SME platform (not mainboard) -- thinner institutional access/liquidity than a mainboard small-cap -- and the IDT segment (70% of revenue) faces rising competitive intensity that could pressure margins",
+    "Export ambitions (30% of revenue by FY28) look aggressive given tariff uncertainty and the company's lack of US UL certification"
+  ],
+  "market_cap_tier": "Small-cap (~Rs 1,878 Cr, NSE SME platform)",
   "red_flag_tier": "CLEAR",
   "red_flag_reason": "",
-  "deep_dive": null,
-  "commitments": [],
-  "earnings_chain": null,
-  "market_expectation": null,
-  "catalyst": null,
-  "value_chain": null,
-  "earnings_quality": null,
-  "growth_trajectory": null,
-  "management_quality": null,
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-10-01",
+    "sources_reviewed": [
+      "screener.in financials & shareholding (id/1285133)",
+      "valueeducator.substack.com deep-dive (business model, moat, capacity, risks)",
+      "NSE investor presentation H1 FY26 and investor-meet transcript (Nov 2025)",
+      "CRISIL rating rationale documents (Apr/May 2025)",
+      "tradebrains.in / electricalmirror.net order-win announcements (2026)",
+      "sahi.com: FY27 revenue/export guidance",
+      "IPO documentation (tiareconsilium.com note, chittorgarh.com, powerline.net.in listing coverage)"
+    ],
+    "annual_report_findings": [
+      "FY21-FY26 revenue grew Rs118cr -> Rs521cr (~35% 5yr CAGR); PAT Rs2cr -> Rs69cr (~103% 5yr CAGR); EBITDA margin expanded structurally from 3.6% (FY21) to 17-19% (FY25-26)",
+      "ROCE: 18% (FY21) -> 25% (FY22) -> 70% (FY23, IPO year) -> 36% (FY24) -> 23% (FY25) -> ~23.8% (FY26) -- normalizing off an unsustainable IPO-year peak, now stable at a still-healthy level",
+      "Essentially debt-free: borrowings ~Rs2cr as of Mar 2026; ~Rs73cr FY26 capex funded via IPO proceeds + internal accruals, not leverage",
+      "Promoter holding diluted from 99.99% (pre-IPO) to 73.55% (post-IPO, Oct 2024) and has been stable since, at 73.62% (Jul 2026); no pledge disclosed",
+      "CRISIL upgraded the rating to BBB+/Positive/A2 (from BBB/Positive/A3+) in 2025, reflecting the promoters' four-decade transformer-industry experience and customer/supplier relationships",
+      "First post-listing dividend declared: Rs2/share, ex-date Sep 1 2026"
+    ],
+    "quarterly_trend": [
+      "H1 FY26: revenue Rs211cr, PAT Rs29.31cr, order book ~Rs405cr -- broadly in line with the full-year FY26 trajectory (revenue Rs521cr, PAT Rs69cr)",
+      "FY26 EBITDA margin dipped to ~17% from 19% FY25, attributed to capacity-expansion-phase cost drag (Phase 2 commissioning, Dec 2025) rather than a structural margin break",
+      "Working capital days rose from 78 to 102; operating cash flow was negative in FY25 (-Rs20cr) despite profitability, and FY26 saw a heavy Rs73cr capex outflow",
+      "Revenue growth has decelerated every year since the FY24 spike: +77% (FY24) -> +28% (FY25) -> +22% (FY26), though still comfortably above a 10% bar"
+    ],
+    "recent_announcements": [
+      "May 2026: USD8.7mn export order for 66kV power transformers (1-year execution timeline)",
+      "Aug 2026: Rs37.17cr order for biodegradable Ester-Filled Inverter Duty Transformers (5-6 month execution) from a renewable EPC company",
+      "2026 (date unclear from sources): Rs84cr export order for 66kV transformers and a separate Rs48.77cr order for inverter-duty transformers",
+      "Sep 2026: first post-listing dividend (Rs2/share) declared"
+    ],
+    "key_new_facts": [
+      "The order book actually visible in filings/announcements (~Rs500cr confirmed + ~Rs400cr unexecuted, ~Rs900cr total, ~1.7x FY26 revenue) is far smaller than the ~EUR500mn (~9x revenue) figure cited in the prior light-pass four-box note -- this appears to have been an error or a conflation with an industry-level opportunity size, corrected this pass",
+      "All five verifiable fiscal years (FY22-FY26) independently clear the Coffee-Can persistence test (growth >=10% AND ROCE >=15%) -- a genuinely strong signal not previously captured in a structured way",
+      "220kV EHV capacity requires third-party type testing and customer audits (6-8 months) before meaningful volumes -- realistically a FY28 revenue contributor, not FY27 as the capacity-expansion headline might suggest"
+    ],
+    "open_questions": [
+      "What exactly drove the EUR500mn order-book figure in the light-pass note, and should other Confluence-100 entries be checked for the same conflation?",
+      "Will FY25's negative operating cash flow (-Rs20cr) persist as capex continues, or was it a one-off tied to the Phase 2 capacity build?",
+      "How much of the FY26 margin dip (19% -> 17%) is temporary capex-phase drag vs an early sign of IDT-segment competitive pressure?",
+      "No clean multi-quarter shareholding-pattern trend or sector-relative working-capital comparison was sourced this pass -- worth revisiting with a direct BSE shareholding filing pull"
+    ],
+    "conviction_update": "Medium -> Medium. The genuinely strong 5-year Coffee-Can track record (5/5 years cleared), debt-free balance sheet, CRISIL rating upgrade and first dividend are real positives that argue for holding conviction steady or higher. But this pass also corrected a materially overstated order-book figure from the light-pass note (actual ~Rs900cr vs the ~EUR500mn claimed), surfaced a working-capital/OCF deterioration and FY26 margin dip, and confirmed the NSE SME listing (not mainboard) -- these largely offset the quality upgrade, so conviction holds at Medium rather than moving up."
+  },
+  "commitments": [
+    { "area": "capacity", "text": "Transformer capacity expansion to ~11,000 MVA, enabling 220kV EHV production", "specifics": "8,500 MVA (Oct 2025, 96% utilization) -> 11,000 MVA (Dec 2025); further target 12,000-15,000 MVA up to 400kV", "timeline_bucket": "12M", "quality_stage": "operational", "source": "NSE investor presentation / investor-meet transcript, Nov 2025", "dependency": "220kV type testing + customer audits", "single_point_of_failure": "type-testing/validation timeline (6-8 months)", "thesis_critical": true },
+    { "area": "growth", "text": "FY27 revenue guidance above Rs700cr", "specifics": "+34%+ YoY vs FY26 Rs521cr", "timeline_bucket": "FY27", "quality_stage": "expectation", "source": "management guidance, 2026", "dependency": "EHV ramp + export scaling + continued IDT demand", "single_point_of_failure": "", "thesis_critical": true },
+    { "area": "new_business", "text": "Export share to scale to ~20% of revenue in FY27, ~30% by FY28", "specifics": "incl. confirmed USD8.7mn 66kV export order (1yr execution) + Rs84cr 66kV export order", "timeline_bucket": "FY28", "quality_stage": "commercial", "source": "company announcements 2026 / sahi.com guidance coverage", "dependency": "US UL certification (not yet obtained), tariff environment", "single_point_of_failure": "lack of US UL certification limits addressable export markets", "thesis_critical": true },
+    { "area": "margin", "text": "EBITDA margin guidance ~19% FY27, 20-21% long-term", "specifics": "vs FY26 actual ~17%", "timeline_bucket": "FY27", "quality_stage": "expectation", "source": "management guidance, 2026", "dependency": "capacity-utilization ramp + CRGO cost pass-through + export mix", "single_point_of_failure": "", "thesis_critical": true }
+  ],
+  "earnings_chain": {
+    "chain": ["IDT/EHV order intake", "capacity commissioning (8,500 -> 11,000 -> 15,000 MVA)", "220kV type-testing/customer-audit validation", "revenue execution", "EBITDA margin (CRGO pass-through + export mix)", "PAT"],
+    "bottleneck_link": "220kV EHV type-testing and customer-audit validation cycle",
+    "operating_leverage": "yes -- management guides margin expansion toward 19-21% as capacity utilization and export mix improve, though FY26 shows a near-term dip from capex-phase costs",
+    "evidenced_links": ["capacity commissioning (8,500 MVA at 96% utilization, Phase 2 live Dec 2025)", "confirmed export orders (USD8.7mn, Rs84cr 66kV)"],
+    "assumed_links": ["220kV EHV revenue materializing at scale", "margin recovery to 19-21%", "export share reaching 20-30%"]
+  },
+  "market_expectation": {
+    "as_of": "2026-10-01",
+    "price": 954,
+    "current_pe": 26.8,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~25-28% EPS CAGR FY26-28 needed to justify 26.8x against a ~20x steady-compounder exit multiple",
+    "our_fy27_estimate": "Revenue toward management's Rs700cr+ guide (+34% YoY) but EBITDA margin likely near the guided ~19% (vs FY26's ~17%), so PAT growth roughly 25-35% if capacity ramps on schedule",
+    "our_fy28_estimate": "Further leg from 220kV EHV revenue materializing plus export share rising toward 30%, contingent on type-testing/UL-certification timelines not slipping",
+    "gap_direction": "partially-priced",
+    "gap_type": "capacity",
+    "gap_magnitude_pct": null,
+    "gap_basis": "Market is already paying a growth multiple (26.8x) for the capacity story, but the EHV/export optionality (FY28-skewed) is not fully priced if execution holds; a slip in type-testing or export certification would likely compress the multiple faster than it would hit near-term earnings",
+    "evidence_quality": "moderate",
+    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+  },
+  "catalyst": {
+    "event": "220kV type-testing completion + first EHV customer order, plus Q2/Q3 FY27 results confirming margin recovery toward the guided ~19%",
+    "expected_window_months": 9,
+    "window_start": "2026-10-01",
+    "evidence_quality": "med",
+    "is_dated": false,
+    "status": "pending"
+  },
+  "value_chain": {
+    "theme": "power/renewable-energy transformer manufacturing (IDT, distribution, power, and emerging EHV up to 220kV)",
+    "position": "component/equipment manufacturer to solar/wind EPCs, grid operators and industrial clients -- early mover in inverter-duty transformers",
+    "bottleneck_node": "CRGO steel sourcing (import-dependent) + EHV type-testing/certification capacity",
+    "supply_side_status": "adding",
+    "adjacent_peers": ["Transformers & Rectifiers India (TARIL)", "Voltamp Transformers", "Hitachi Energy / Siemens Energy (EHV segment)"],
+    "note": "Global transformer lead times of 128-144 weeks and India's RE/data-centre buildout are genuine structural demand; Danish Power's capacity add targets this, but it is one of several Indian makers chasing the same shortage-driven opportunity -- limited pricing power beyond the shortage window."
+  },
+  "earnings_quality": {
+    "margin_driver": "mixed",
+    "drivers": [
+      "Scale/mix shift toward EHV + export (higher-margin) as capacity ramps",
+      "CRGO steel cost pass-through lag (import-dependent raw material)",
+      "FY26 capex-phase cost drag (Rs73cr capex) temporarily compressing margin"
+    ],
+    "peak_margin_risk": false,
+    "normalised_note": "Margin has structurally expanded from 3.6% (FY21) to ~17-19% (FY25-26) as scale and mix improved; FY26's dip to ~17% reads as a capex/ramp-phase cost drag rather than a cyclical peak, consistent with management's 19-21% guided range."
+  },
+  "growth_trajectory": {
+    "yoy_trend": "decelerating",
+    "last_quarters_note": "Revenue YoY: FY22 +26%, FY23 +26%, FY24 +77%, FY25 +28%, FY26 +22% -- growth has decelerated every year since the FY24 spike, though still well above a 10% bar; H1 FY26 revenue Rs211cr/PAT Rs29.31cr was in line with the full-year trajectory.",
+    "reverse_pe_note": "At 26.8x trailing P/E (EPS ~Rs35 on Rs69cr PAT), roughly a 25-28% EPS CAGR FY26-28 is needed to justify the multiple at a ~20x steady-state exit; FY27 guidance (revenue Rs700cr+, margin ~19%) implies PAT growth in a similar 25-35% range if execution holds -- a reasonably tight fit, not an obvious mispricing either way."
+  },
+  "management_quality": {
+    "capital_allocation": "Capacity expansion funded almost entirely without debt (borrowings ~Rs2cr); IPO proceeds + internal accruals funding the ~Rs73cr FY26 capex; no unrelated diversification",
+    "capital_allocation_track_record": "disciplined",
+    "rpt_trend": "unclear",
+    "guidance_credibility": "unclear",
+    "shareholder_returns": "initiated",
+    "capability_ladder_note": "Explicit move up the value chain from standard IDTs toward 220kV EHV transformers and export markets; management-articulated 'profitability over volume, customer quality over order quantity'",
+    "assessment": "positive"
+  },
+  "track_record": {
+    "years_checked": 5,
+    "years_cleared": 5,
+    "note": "FY22-FY26 all cleared both tests (revenue growth >=10%, ROCE >=15%): growth ranged 22-77% YoY and ROCE ranged 23-70% (FY23 IPO-year figure likely an outlier high, but even the lowest recent years, ~23-24% FY25/26, comfortably clear 15%). A genuinely strong, verified Coffee-Can persistence signal."
+  },
+  "quality_metrics": {
+    "roce_pct": 23.8,
+    "roce_trend": "declining",
+    "net_debt_to_ebitda": -0.02,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -15,
+    "margin_trend": "contracting",
+    "capex_efficiency": "unclear",
+    "assessment": "neutral"
+  },
   "four_box": {
     "tailwind": "yes",
     "tam": "yes",
     "moat": "weak",
     "valuation": "weak",
     "score": 3.0,
-    "note": "FY26 rev Rs521cr(+22% YoY)/PAT Rs69cr(+26%), ROCE 23.8%, P/E 26x (screener.in); order book >EUR500mn (~9x FY26 revenue) vs global transformer lead times 128-144wk, India targeting 500GW non-fossil by 2030 + data-centre demand (industry reports) -> tailwind+tam strong. moat only weak: capacity/execution edge among several qualified EHV transformer makers, not pricing power. valuation only weak: 26x P/E already reflects some of the widely-covered shortage narrative."
+    "note": "tailwind yes (global transformer shortage, 128-144wk lead times, India RE/data-centre + grid buildout -- structural, multi-year); tam yes (capacity near-doubling, export optionality, EHV segment entry); moat weak (IDT early-mover edge + customer stickiness real but several qualified Indian/global EHV makers compete, limited pricing power); valuation weak (26.8x P/E already prices a growth story against a corrected, smaller order book than previously assumed)."
   },
-  "track_record": {
-    "years_checked": 0,
-    "years_cleared": 0,
-    "note": "Pending data collection"
+  "shareholding_pattern": {
+    "promoter_pct": 73.62,
+    "promoter_pct_trend": "stable",
+    "pledge_pct": 0,
+    "pledge_pct_trend": "stable",
+    "fii_dii_pct": 4.28,
+    "fii_dii_pct_trend": "unclear",
+    "quarters_checked": ["Post-IPO (Nov 2024, promoter 73.55%)", "Current (Mar/Jul 2026, promoter 73.62%)"],
+    "concurrent_red_flag": false,
+    "note": "Only two clean data points sourced this pass (post-IPO and current), not a full quarterly trend -- promoter holding has been essentially flat since listing with no disclosed pledge. FII+DII combined ~4.28% as of Mar 2026 (FII 0.27%, DII 4.01%); no prior-quarter comparison sourced, so fii_dii_pct_trend is unclear rather than a real trend read."
   },
-  "quality_metrics": {
-    "roce_pct": null,
-    "roce_trend": "unknown",
-    "net_debt_to_ebitda": null,
-    "interest_coverage": null,
-    "fcf_conversion_pct": null,
-    "margin_trend": "unknown",
-    "capex_efficiency": "unknown",
-    "assessment": "unverified"
+  "working_capital": {
+    "inventory_days": null,
+    "receivable_days": null,
+    "payable_days": null,
+    "cash_conversion_cycle": 102,
+    "trend_3y": "elongating",
+    "sector_relative": "unclear",
+    "note": "Working-capital days rose from 78 to 102 (sources also cite a 78-day 'cash conversion cycle' figure that may reflect a prior period -- some inconsistency across sources). One independent source (CRISIL-referenced) flagged an expectation that debtor days could rise from 45-50 to 85-90 as the business scales. No clean peer (TARIL/Voltamp) comparison was sourced this pass, so sector_relative is left unclear rather than guessed."
+  },
+  "sector_kpis": [
+    { "metric": "Transformer capacity (MVA/year)", "value": "~8,500 MVA (96% utilization, Oct 2025) -> ~11,000 MVA (Dec 2025 Phase 2)", "trend": "improving", "note": "targeting 12,000-15,000 MVA up to 400kV longer-term" },
+    { "metric": "IDT market share", "value": "~10-11%, 14GW of solar projects powered", "trend": "stable", "note": "early-mover position, ~70% of current revenue" },
+    { "metric": "Export revenue share", "value": "targeting ~20% FY27, ~30% FY28", "trend": "improving", "note": "vs a low base; USD8.7mn + Rs84cr 66kV export orders won in 2026" }
+  ],
+  "scenario_analysis": {
+    "bull": { "revenue_cagr_fy26_28_pct": 35, "fy28_margin_pct": 21.0, "fy28_eps": 76.2, "exit_multiple": 28, "implied_price": 2134, "pct_vs_cmp": 124 },
+    "base": { "revenue_cagr_fy26_28_pct": 24, "fy28_margin_pct": 19.0, "fy28_eps": 55.0, "exit_multiple": 22, "implied_price": 1210, "pct_vs_cmp": 27 },
+    "bear": { "revenue_cagr_fy26_28_pct": 12, "fy28_margin_pct": 16.0, "fy28_eps": 33.0, "exit_multiple": 16, "implied_price": 528, "pct_vs_cmp": -45 },
+    "closest_to": "base",
+    "note": "Base case (FY26-28 revenue CAGR ~24% toward the Rs700cr+ FY27 guide, margin recovering to ~19%) implies ~27% upside -- CMP sits closer to base than to bull or bear, consistent with gap_direction 'partially-priced'. Bull needs the EHV/export ramp to execute cleanly with margin reaching 21%; bear assumes type-testing slips and IDT competition compresses margin toward 16%."
   },
   "last_post_number_analyzed": 0
 }
