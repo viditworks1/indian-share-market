@@ -8536,3 +8536,24 @@ Blockers:
 - Market cap tier validation (for category assignment)
 
 Resolution required before research can proceed.
+---
+
+## Light-lane coverage backfill — quality_metrics + track_record [2026-10-02]
+
+### Antelopus Selan Oil Exploration — track_record backfill COMPLETE
+- **Data source:** Screener.in full P&L + Ratios table (Mar 2015–Mar 2026, 12 years)
+- **Track_record:** years_checked=12, years_cleared=2
+- **Years meeting dual threshold (10%+ revenue growth, 15%+ ROCE):** FY19 (20.8% growth, 15% ROCE) and FY25 (55.4% growth, 20% ROCE)
+- **Context:** Post-merger entity (July 2025); pre-merger SETL historical data included. Recent flaw: FY26 revenue grew only 8.1% despite 38% 3-year production CAGR, falling short of the 10% revenue hurdle despite strong operational execution and 20% ROCE.
+
+### Ztech (India) Limited — track_record backfill COMPLETE
+- **Data source:** Screener.in standalone P&L + Ratios table (Mar 2021–Mar 2026, 6 years only)
+- **Track_record:** years_checked=6, years_cleared=3
+- **Years meeting dual threshold (10%+ revenue growth, 15%+ ROCE):** FY24 (157.7% growth, 61% ROCE), FY25 (40.3% growth, 28% ROCE), FY26 (65.9% growth, 20% ROCE)
+- **Context:** Youngest company on the light-lane backfill queue (IPO-stage, only 6 years of audited history available). Exceptional track record 3 of 3 recent years met both hurdles; strong operational inflection and sustained double-digit ROCE.
+
+### BESS~Solar~Hybrid~PHS thread — quality_metrics + track_record marked N/A
+- **Rationale:** Thematic basket entry spanning 5 listed companies (ACME Solar, KPI Green Energy, Pace Digitek, Enviro Infra Engineers, Inox Wind/Inox Clean Energy) with different business models (IPP/asset-owners vs EPC/equipment suppliers)
+- **Action:** Both fields populated with "N/A" notes; individual company quality_metrics and track_record assessment belongs on dedicated single-company entries, where 4 of 5 already exist
+- **Guidance:** See bess-solar-hybrid-phs.json open_questions for context on whether this basket entry should be retired now that coverage exists at the single-stock level
+

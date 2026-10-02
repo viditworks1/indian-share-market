@@ -21,10 +21,99 @@
   "red_flag_tier": "CLEAR",
   "red_flag_reason": "",
   "deep_dive": null,
-  "commitments": [],
-  "earnings_chain": null,
-  "market_expectation": null,
-  "catalyst": null,
+  "commitments": [
+    {
+      "area": "margin",
+      "text": "Sustain gross margin spread of Rs 28,145/kl (Q1 FY27 exceptional level) for 1-2 more quarters",
+      "specifics": "Q1 FY27: Rs 28,145/kl spread (vs Rs 8,274/kl Q1 FY26). Management: 'hopeful of margins remaining at this level or around this level' for most of the year, with sustenance for 1-2 more quarters",
+      "timeline_bucket": "FY27-Q1 FY28",
+      "quality_stage": "guidance",
+      "source": "Gandhar Oil Q1 FY27 concall (July 23, 2026)",
+      "dependency": "Geopolitical situation (Middle East) and supply chain normalization",
+      "single_point_of_failure": "Resumption of normal crude/base oil flows from Middle East; Hormuz Strait reopening",
+      "thesis_critical": true
+    },
+    {
+      "area": "volume",
+      "text": "8-10% annual volume growth (historical and forward guidance)",
+      "specifics": "Q1 FY27: volume +8% YoY (131,000 kl vs 121,000 kl); management confirmed '8-10% volume growth historically and anticipated for this year'",
+      "timeline_bucket": "FY27+",
+      "quality_stage": "operational",
+      "source": "Gandhar Oil Q1 FY27 concall, screener.in",
+      "dependency": "Continued demand from PHPO (personal care, pharma) and export markets",
+      "single_point_of_failure": "Slowdown in personal care or pharma demand",
+      "thesis_critical": false
+    },
+    {
+      "area": "expansion",
+      "text": "PHPO (personal care/health care/performance oil) to remain primary growth driver; PIO (process & insulating oil) strong secondary",
+      "specifics": "Q1 FY27: PHPO +18% YoY, PIO +28% YoY. Management: 'PHPO continues to be our primary growth engine'; expects continued strength in both categories",
+      "timeline_bucket": "FY27+",
+      "quality_stage": "operational",
+      "source": "Gandhar Oil Q1 FY27 concall",
+      "dependency": "Customer retention and new customer qualification (4,000+ existing customer base)",
+      "single_point_of_failure": "Loss of major PHPO or PIO customer",
+      "thesis_critical": true
+    },
+    {
+      "area": "geographic",
+      "text": "Export business growth and expansion to South Africa/new geographies",
+      "specifics": "Q1 FY27: export volumes +54% YoY, contributing 51% of revenue. South Africa entry being worked out; clarity in next 1-2 quarters",
+      "timeline_bucket": "FY28+",
+      "quality_stage": "pending",
+      "source": "Gandhar Oil Q1 FY27 concall",
+      "dependency": "Geopolitical risk (AGOA extension, tariffs), logistics normalization",
+      "single_point_of_failure": "Tariff reversals or trade restrictions on exports",
+      "thesis_critical": false
+    }
+  ],
+  "earnings_chain": {
+    "chain": [
+      "Global/Middle East base oil supply disruption (geopolitical)",
+      "Agile sourcing: switch to South Korea, domestic suppliers at opportunistic prices",
+      "Margin spread expansion: Rs 8,274 → Rs 28,145/kl (3.4x YoY)",
+      "PHPO +18%, PIO +28% growth on steady volume base",
+      "PAT Rs 26 cr → Rs 206 cr (+688% YoY, highest quarterly profit ever)",
+      "Debt-free balance sheet, 100% interim dividend declared"
+    ],
+    "bottleneck_link": "Geopolitical normalization and margin reversion to historical 5-8% EBITDA range (current 16.2% is peak cycle)",
+    "operating_leverage": "yes -- Q1 showed explosive operating leverage off base-oil sourcing skill; volume-agnostic growth as margins drive earnings",
+    "evidenced_links": [
+      "Q1 FY27: revenue +92% YoY to Rs 1,732 cr, PAT +688%",
+      "EBITDA margin: 16.2% (vs 5.1% Q1 FY26)",
+      "Volume growth: 8% YoY (121-131 kl) = margin, not volume story",
+      "Export +54% YoY (51% of revenue)"
+    ],
+    "assumed_links": [
+      "Gross margin spread sustains at Rs 28,145/kl for 1-2 quarters (management guidance)",
+      "Margin normalizes to 6-10% EBITDA range (historical average) in H2 FY27+",
+      "PHPO and PIO growth rates (18% / 28%) repeat"
+    ]
+  },
+  "market_expectation": {
+    "as_of": "2026-10-02",
+    "price": 1320,
+    "current_pe": 8.1,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "8.1x P/E on Q1 FY27 PAT (Rs 206 cr quarterly annualized Rs ~824 cr) implies market is pricing a dramatic margin reversion. Realistic trajectory: Q1 margin (16.2% EBITDA) → Q2 sustained → H2 normalizes to 7-10%",
+    "our_fy27_estimate": "FY27 PAT: Rs 350-400 cr (vs Rs 137 cr FY26, +155-190% growth driven by high Q1 + normalized margin path Q2-Q4)",
+    "our_fy28_estimate": "FY28 PAT: Rs 280-320 cr (volume +8-10%, margin normalized to 7-9% EBITDA, no geopolitical premium)",
+    "gap_direction": "over-pessimistic",
+    "gap_type": "margin",
+    "gap_magnitude_pct": -35,
+    "gap_basis": "8.1x trailing P/E on Rs 206 cr quarterly profit (peak-cycle quarter) assumes immediate margin normalization to near-zero; even conservative 7-9% EBITDA run-rate warrants 12-15x multiple on normalized earnings",
+    "evidence_quality": "medium",
+    "data_caveat": "Current P/E from Yahoo Finance Oct 2, 2026; management cautious on 'sustaining margins' for '1-2 quarters', implying half-year visibility; historical CRISIL industry margin 5-8% used as normalization anchor"
+  },
+  "catalyst": {
+    "event": "Q2 FY27 concall and margin print; geopolitical developments (Hormuz Strait reopening, peace talks); AGOA extension or South Africa entry announcement",
+    "expected_window_months": 12,
+    "window_start": "2026-10-02",
+    "evidence_quality": "high",
+    "is_dated": true,
+    "status": "pending"
+  },
   "value_chain": null,
   "earnings_quality": null,
   "growth_trajectory": null,

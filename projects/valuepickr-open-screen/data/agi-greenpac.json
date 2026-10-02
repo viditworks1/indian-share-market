@@ -21,10 +21,85 @@
   "red_flag_tier": "CLEAR",
   "red_flag_reason": "",
   "deep_dive": null,
-  "commitments": [],
-  "earnings_chain": null,
-  "market_expectation": null,
-  "catalyst": null,
+  "commitments": [
+    {
+      "area": "capacity",
+      "text": "New product capacity expansion for higher-margin items",
+      "specifics": "New machinery and product lines to shift portfolio toward specialty glass applications with 30%+ margin premium",
+      "timeline_bucket": "FY28-FY29",
+      "quality_stage": "pending",
+      "source": "Screener.in Q1 FY27 results, management guidance",
+      "dependency": "Investment execution and customer qualification",
+      "single_point_of_failure": "Delayed order intake from specialty segment",
+      "thesis_critical": true
+    },
+    {
+      "area": "margin",
+      "text": "ROCE expansion from 20-26% to 25%+ through operating leverage",
+      "specifics": "Current ROCE 20-26%, PAT growth 28% YoY on steady revenue base implies margin normalization path",
+      "timeline_bucket": "FY27-FY28",
+      "quality_stage": "operational",
+      "source": "Screener.in fundamentals, Q1 FY27 +25% revenue, +41% PAT",
+      "dependency": "Volume realization and cost discipline",
+      "single_point_of_failure": "Input cost inflation (soda ash, energy)",
+      "thesis_critical": true
+    },
+    {
+      "area": "growth",
+      "text": "15-20% revenue CAGR from FY27 onwards after new projects launch",
+      "specifics": "Management guidance: 8-10% annual growth until new projects; 15-20% growth post-launch (capex projects expected FY28-FY29)",
+      "timeline_bucket": "FY28+",
+      "quality_stage": "guidance",
+      "source": "AlphaSpread Q1 FY26 concall transcript",
+      "dependency": "Project execution on schedule and market demand",
+      "single_point_of_failure": "Capex overruns or project delays",
+      "thesis_critical": true
+    }
+  ],
+  "earnings_chain": {
+    "chain": [
+      "Steady glass-packaging demand (industrial growth, e-commerce)",
+      "2nd-largest India container-glass capacity by scale",
+      "High utilization + pricing discipline",
+      "28% PAT growth on modest revenue base = operating leverage intact",
+      "ROCE expansion to 25%+ sustainable"
+    ],
+    "bottleneck_link": "New capacity deployment and premium product mix achievement",
+    "operating_leverage": "yes -- current 14.1x P/E on 28% PAT growth suggests market is pricing sub-trend growth; leverage available if new projects deliver",
+    "evidenced_links": [
+      "Q1 FY27: revenue +25%, PAT +41% (2nd highest in India container-glass)",
+      "Steady demand from FMCG, pharmaceuticals, brewing",
+      "ROCE 20-26% already above cost of capital"
+    ],
+    "assumed_links": [
+      "New capacity ramp (FY28+) reaches target mix/utilization",
+      "Pricing holds despite second-largest player status"
+    ]
+  },
+  "market_expectation": {
+    "as_of": "2026-10-02",
+    "price": 826,
+    "current_pe": 14.2,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "14.2x P/E on 28% PAT growth (FY26 trailing) and 8-10% volume growth is undemanding; implies market is pricing a derating or a slowdown to mid-teens growth once new capex lands",
+    "our_fy27_estimate": "Revenue +12-15%, PAT +18-22%, driven by steady demand and cost discipline",
+    "our_fy28_estimate": "New capacity ramp contribution offset by mix/utilization risk; guide 15-20% revenue growth but ROCE normalization possible if capacity not fully utilized",
+    "gap_direction": "neutral",
+    "gap_type": "growth",
+    "gap_magnitude_pct": null,
+    "gap_basis": "14.2x on a 20-26% ROCE business with 28% PAT growth and 8-10% volume growth guidance is fair value for a steady-state mid-cap glass manufacturer; risk is execution on new capex and premium product mix",
+    "evidence_quality": "medium",
+    "data_caveat": "P/E and forward guidance from Screener.in and AlphaSpread Q1 FY26; current multiple (14.2x) from Yahoo Finance as of Oct 2, 2026"
+  },
+  "catalyst": {
+    "event": "New capacity ramp and first full quarter of premium-mix products contributing to revenue/margin; Q1-Q2 FY28 should show incremental traction",
+    "expected_window_months": 18,
+    "window_start": "2026-10-02",
+    "evidence_quality": "med",
+    "is_dated": true,
+    "status": "pending"
+  },
   "value_chain": null,
   "earnings_quality": null,
   "growth_trajectory": null,

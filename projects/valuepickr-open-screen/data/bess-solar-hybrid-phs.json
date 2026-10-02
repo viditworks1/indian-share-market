@@ -162,8 +162,21 @@
     "score": 2.5,
     "note": "Tailwind confirmed real this pass: CEA FY32 target 411.4 GWh total storage, VGF Tranche-2 (Rs5,400cr/30GWh, 14-May-2026) on top of Tranche-1 (Rs9,400cr, 2023), and genuine commissioning (ACME Solar 4.96 GWh operational). tam/moat/valuation remain unknown -- not because they weren't researched, but because the data file still represents 5 different companies (IPP asset-owners vs EPC suppliers) with no single entity to score. Score 2.5 maps to thesis_fit:neither per the decision table; no single-entity exception is available for a basket."
   },
-  "track_record": null,
-  "quality_metrics": null,
+  "track_record": {
+    "years_checked": 0,
+    "years_cleared": 0,
+    "note": "N/A -- thematic basket entry spanning 5 companies with different business models (IPP/asset-owners vs EPC/equipment suppliers). Track_record assessment belongs on the individual company entries (ACME Solar, KPI Green Energy, Pace Digitek, Enviro Infra Engineers, Inox Wind), where 4 of 5 already have dedicated data files. See open_questions in deep_dive for context."
+  },
+  "quality_metrics": {
+    "roce_pct": null,
+    "roce_trend": null,
+    "net_debt_to_ebitda": null,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": null,
+    "capex_efficiency": null,
+    "note": "N/A -- thematic basket entry. Quality metrics assessment belongs on the individual company entries (ACME Solar, KPI Green Energy, Pace Digitek, Enviro Infra Engineers, Inox Wind), where 4 of 5 already have dedicated data files. This thread entry is a sector-signal aggregate, not a single entity with a balance sheet."
+  },
   "last_post_number_analyzed": 0,
   "sector_kpis": [
     {

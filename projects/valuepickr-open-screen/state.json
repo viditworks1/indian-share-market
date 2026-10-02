@@ -19742,7 +19742,7 @@
     },
     "prizor-viztech": {
       "name": "Prizor Viztech Ltd",
-      "status": "candidate",
+      "status": "EXCLUDE",
       "source": "capacity-expansion",
       "x_untrusted": true,
       "x_source_user": "ankitbahuguna84",
@@ -19751,7 +19751,7 @@
       "topic_id": null,
       "notes_short": "CCTV/surveillance SME already +254% 1yr (~16.9x P/B), fully priced in, no VP thread, commodity hardware category. four_box 0.5, hard neither.",
       "topic_slug": null,
-      "conviction": "Low",
+      "conviction": "AVOID",
       "thesis_fit": "neither",
       "market_cap_tier": "Small-cap",
       "last_analyzed_date": "2026-09-05",
@@ -26879,7 +26879,9 @@
       "master_score": 16.0,
       "red_flag_tier": null,
       "deepdive_pass": 1,
-      "deepdive_date": "2026-10-01"
+      "deepdive_date": "2026-10-01",
+      "guidance_backfill_date": "2026-10-02",
+      "guidance_backfill_result": "done"
     },
     "hdfc-asset-management-company": {
       "name": "HDFC Asset Management Company",
@@ -28284,91 +28286,133 @@
       "source": "capacity-expansion",
       "status": "candidate",
       "market_cap_tier": "Small-cap",
-      "first_seen_date": "2026-10-02"
+      "first_seen_date": "2026-10-02",
+      "thesis_fit": "medium-term-10-15pct-ish",
+      "conviction": "Low-Medium",
+      "notes_short": "IT Services | Staffing | Small-cap | Tailwind: Moderate | Key: Commoditized space, moderate growth, need moat validation"
     },
     "oriana-power-ltd": {
       "source": "capacity-expansion",
       "status": "candidate",
       "market_cap_tier": "Mid-cap",
-      "first_seen_date": "2026-10-02"
+      "first_seen_date": "2026-10-02",
+      "thesis_fit": "medium-term-10-15pct-ish",
+      "conviction": "Low-Medium",
+      "notes_short": "Power | Power Gen/Dist | Mid-cap | Tailwind: Moderate | Key: Power sector cyclical, capex-heavy, check order book"
     },
     "bondada-engineer": {
       "source": "capacity-expansion",
       "status": "candidate",
       "market_cap_tier": "Mid-cap",
-      "first_seen_date": "2026-10-02"
+      "first_seen_date": "2026-10-02",
+      "thesis_fit": "10x-in-2-3-years",
+      "conviction": "Medium",
+      "notes_short": "EPC | Telecom+Solar EPC | Mid-cap | Tailwind: Good | Key: Large order backlog, execution track record key"
     },
     "value-360-communications": {
       "source": "capacity-expansion",
-      "status": "candidate",
+      "status": "EXCLUDE",
       "market_cap_tier": "Micro-cap",
-      "first_seen_date": "2026-10-02"
+      "first_seen_date": "2026-10-02",
+      "thesis_fit": "neither",
+      "notes_short": "Micro-cap (88Cr) - telecom micro-cap in competitive space"
     },
     "cospower-engineering": {
       "source": "capacity-expansion",
       "status": "candidate",
       "market_cap_tier": "Small-cap",
-      "first_seen_date": "2026-10-02"
+      "first_seen_date": "2026-10-02",
+      "thesis_fit": "medium-term-10-15pct-ish",
+      "conviction": "Low-Medium",
+      "notes_short": "Electrical Equipment | Electrical Mfg | Small-cap | Tailwind: Moderate | Key: SME electrical, need end-market visibility"
     },
     "rm-drip-and-springs": {
       "source": "capacity-expansion",
       "status": "candidate",
       "market_cap_tier": "Mid-cap",
-      "first_seen_date": "2026-10-02"
+      "first_seen_date": "2026-10-02",
+      "thesis_fit": "10x-in-2-3-years",
+      "conviction": "Medium",
+      "notes_short": "Agriculture | Drip Irrigation | Mid-cap | Tailwind: Good | Key: Agro-tech tailwind, margin structure key"
     },
     "gp-eco-solutions": {
       "source": "capacity-expansion",
       "status": "candidate",
       "market_cap_tier": "Small-cap",
-      "first_seen_date": "2026-10-02"
+      "first_seen_date": "2026-10-02",
+      "thesis_fit": "unproven",
+      "conviction": "Low",
+      "notes_short": "Environment | Eco Solutions | Small-cap | Tailwind: Uncertain | Key: Green theme, need real business validation"
     },
     "oswal-pumps": {
       "source": "capacity-expansion",
       "status": "candidate",
       "market_cap_tier": "Mid-cap",
-      "first_seen_date": "2026-10-02"
+      "first_seen_date": "2026-10-02",
+      "thesis_fit": "medium-term-10-15pct-ish",
+      "conviction": "Low-Medium",
+      "notes_short": "Industrial Equipment | Pumps Mfg | Mid-cap | Tailwind: Moderate | Key: Industrial equipment, check end-markets + export"
     },
     "dhanwel-hybrid": {
       "source": "capacity-expansion",
-      "status": "candidate",
+      "status": "EXCLUDE",
       "market_cap_tier": "Micro-cap",
-      "first_seen_date": "2026-10-02"
+      "first_seen_date": "2026-10-02",
+      "thesis_fit": "neither",
+      "notes_short": "Micro-cap (41Cr) - renewables micro-cap, execution risk too high"
     },
     "avana-electrosystems": {
       "source": "capacity-expansion",
       "status": "candidate",
       "market_cap_tier": "Small-cap",
-      "first_seen_date": "2026-10-02"
+      "first_seen_date": "2026-10-02",
+      "thesis_fit": "unproven",
+      "conviction": "Low",
+      "notes_short": "Electronics | Electronics/Energy | Small-cap | Tailwind: Uncertain | Key: Electronics sector, check R&D + product differentiation"
     },
     "solar-industries": {
       "source": "capacity-expansion",
       "status": "candidate",
       "market_cap_tier": "Mega-cap",
-      "first_seen_date": "2026-10-02"
+      "first_seen_date": "2026-10-02",
+      "thesis_fit": "neither",
+      "conviction": "Low",
+      "notes_short": "Mega-cap (175551Cr) - outside scale for outsized returns"
     },
     "gayatri-rubbers": {
       "source": "capacity-expansion",
       "status": "candidate",
       "market_cap_tier": "Small-cap",
-      "first_seen_date": "2026-10-02"
+      "first_seen_date": "2026-10-02",
+      "thesis_fit": "neither",
+      "conviction": "AVOID",
+      "notes_short": "Chemicals | Rubber Products | Small-cap | Tailwind: Weak | Key: Cyclical rubber, commodity margins, high debt risk"
     },
     "nisus-finance": {
       "source": "capacity-expansion",
       "status": "candidate",
       "market_cap_tier": "Small-cap",
-      "first_seen_date": "2026-10-02"
+      "first_seen_date": "2026-10-02",
+      "thesis_fit": "medium-term-10-15pct-ish",
+      "conviction": "Low-Medium",
+      "notes_short": "NBFC | NBFC | Small-cap | Tailwind: Moderate | Key: NBFC growth depends on AUM + cost of funds + asset quality"
     },
     "cash-ur-drive": {
       "source": "capacity-expansion",
-      "status": "candidate",
+      "status": "EXCLUDE",
       "market_cap_tier": "Micro-cap",
-      "first_seen_date": "2026-10-02"
+      "first_seen_date": "2026-10-02",
+      "thesis_fit": "neither",
+      "notes_short": "Micro-cap (189Cr) - mobility micro-cap, low-margin derivative play"
     },
     "prudent-corp": {
       "source": "capacity-expansion",
       "status": "candidate",
       "market_cap_tier": "Large-cap",
-      "first_seen_date": "2026-10-02"
+      "first_seen_date": "2026-10-02",
+      "thesis_fit": "neither",
+      "conviction": "Low",
+      "notes_short": "Large-cap (12915Cr) - outside scale for outsized returns"
     }
   },
   "oval-projects": {
