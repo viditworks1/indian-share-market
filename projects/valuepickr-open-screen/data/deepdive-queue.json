@@ -33562,6 +33562,13 @@
           "pre": "Low",
           "post": "Low",
           "summary": "Full deepdive pass 2: HIGH CAUTION. Explosive revenue growth masks margin implosion and working capital crisis. No 10x thesis; recommend AVOID pending turnaround signals."
+        },
+        {
+          "pass": 2,
+          "date": "2026-10-02",
+          "pre": "Low",
+          "post": "Low",
+          "summary": "Full deepdive pass 2: HIGH CAUTION. Explosive revenue growth masks margin implosion and working capital crisis. No 10x thesis; recommend AVOID pending turnaround signals."
         }
       ],
       "in_active_pool": false,
@@ -34090,12 +34097,20 @@
       "never_deepdived": true,
       "days_since_deepdive": null,
       "in_cooldown": false,
-      "deepdive_status": "pending",
-      "deepdive_pass": 0,
-      "deepdive_date": null,
-      "pre_deepdive_conviction": null,
-      "post_deepdive_conviction": null,
-      "history": [],
+      "deepdive_status": "done",
+      "deepdive_pass": 2,
+      "deepdive_date": "2026-10-02",
+      "pre_deepdive_conviction": "Low",
+      "post_deepdive_conviction": "Medium",
+      "history": [
+        {
+          "pass": 2,
+          "date": "2026-10-02",
+          "pre": "Low",
+          "post": "Medium",
+          "summary": "Strong 31% earnings CAGR with clean balance sheet; governance concerns and below-benchmark returns prevent higher conviction despite visible capacity expansion and export upside"
+        }
+      ],
       "in_active_pool": false,
       "rerun_tier": 0,
       "dive_mode": "full",
