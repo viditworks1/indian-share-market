@@ -1,7 +1,7 @@
 {
   "method": "the user's stated screening framework (2026-09-04): growth + margins + ROCE + debt + capex + free cash flow + competitive advantage + management quality. This score covers the four legs (ROCE, debt, FCF, capex) that had no numeric home before. Formula in this script's docstring and scripts/QUALITY_SCORE_METHODOLOGY.md.",
   "scored_count": 342,
-  "not_assessed_count": 653,
+  "not_assessed_count": 657,
   "ranked": [
     {
       "slug": "venus-remedies",
@@ -13382,6 +13382,30 @@
       "name": "Prudent Corp",
       "conviction_score": 0,
       "red_flag_tier": "scale"
+    },
+    {
+      "slug": "fascinate-textiles",
+      "name": "Fascinate Textiles",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "genxai-analytics",
+      "name": "GenXAI Analytics",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "australian-prem",
+      "name": "Australian Prem",
+      "conviction_score": 0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bse",
+      "name": "BSE",
+      "conviction_score": 0,
+      "red_flag_tier": null
     }
   ]
 }

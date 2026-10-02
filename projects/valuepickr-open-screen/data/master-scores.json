@@ -1,6 +1,6 @@
 {
   "method": "Composite of conviction_score/quality_score/expectation_gap_score/consistency_score/asymmetry_score, weighted 0.25/0.25/0.20/0.15/0.15 and renormalized over whichever are present. Formula + investor research in MASTER_SCORE_METHODOLOGY.md.",
-  "scored_count": 995,
+  "scored_count": 999,
   "not_assessed_count": 0,
   "consistency_score_coverage": 200,
   "asymmetry_score_coverage": 276,
@@ -22230,6 +22230,86 @@
       "red_flag_tier": "scale",
       "conviction": "Low",
       "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "fascinate-textiles",
+      "name": "Fascinate Textiles",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": "medium",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "genxai-analytics",
+      "name": "GenXAI Analytics",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": "watchlist",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "australian-prem",
+      "name": "Australian Prem",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": "medium",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "bse",
+      "name": "BSE",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": "watchlist",
       "track_record": null,
       "score_breakdown": {
         "conviction_score": 0,
