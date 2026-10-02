@@ -128,8 +128,17 @@ def cmd_probe(args):
         # include a few already-seen posts, so pass --after <checkpoint> to
         # `posts` to filter them out by real post_number.
         gap = max(0, highest - args.checkpoint)
-        new_ids = stream[-gap:] if gap else []
-        new_count = len(new_ids)
+        if gap > len(stream):
+            # Checkpoint is past stream end (gap too wide to index). Use embedded
+            # posts from topic.json instead. These are the ~20 latest posts.
+            embedded_posts = data.get("post_stream", {}).get("posts", [])
+            new_ids = [p.get("id") for p in embedded_posts
+                      if (p.get("post_number") or 0) > args.checkpoint]
+            new_count = len(new_ids)
+        else:
+            # Normal case: checkpoint is within stream bounds
+            new_ids = stream[-gap:] if gap else []
+            new_count = len(new_ids)
         if new_count == 0:
             out = {
                 "highest_post_number": highest,
