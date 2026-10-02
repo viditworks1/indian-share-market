@@ -108,10 +108,18 @@
         "quality_metrics",
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 4
+      "backfill_status": "done",
+      "backfill_date": "2026-10-02",
+      "attempts": 1,
+      "rank": 4,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "result": "done",
+          "summary": "Q1 FY27 light-lane: valuation P/E on 26-30% growth, margin guidance via box-build mix (60%), capex timeline for Chennai ramp + land expansion, catalysts (Kavach, aerospace volume, semiconductor equipment, new geographies)"
+        }
+      ]
     },
     {
       "slug": "gandhar-oil-refinery",
@@ -258,10 +266,18 @@
       "missing": [
         "market_expectation"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 10
+      "backfill_status": "done",
+      "backfill_date": "2026-10-02",
+      "attempts": 1,
+      "rank": 10,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "result": "done",
+          "summary": "Market expectation + 3 guidance blocks filled: 18-20x P/E on 11% growth (FY26); Rs 400-500 Cr incremental revenue FY27 from capacity ramp (CVJ, Brazil export); margin recovery to 8%+ via export growth, tariff relief, product mix normalization."
+        }
+      ]
     },
     {
       "slug": "policybazaar",
@@ -302,10 +318,18 @@
       "missing": [
         "market_expectation"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 12
+      "backfill_status": "done",
+      "backfill_date": "2026-10-02",
+      "attempts": 1,
+      "rank": 12,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "result": "done",
+          "summary": "Q1 FY27: 19% rev growth driven by Zudio tier-2/3 expansion (1,312 stores, 330 cities); LFL low-single-digit; valuation 75-90x P/E already pricing in re-rating; FY27E 18-22% growth with margin pressure"
+        }
+      ]
     }
   ]
 }
