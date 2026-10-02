@@ -8500,3 +8500,29 @@ Also confirmed via direct Yahoo Finance checks that ~21 remaining technical-unre
 - **Key finding:** Tier-1 EMS player (ROCE 23.4%, box-build 60% mix, Kavach rail cert, ISM 2.0 land acquisition), but mid-cap Rs 14.9k Cr at premium 4x fwd P/E leaves only 1.3–2x return at peer multiples, far short of 10x needed
 - **Verdict:** Strong business execution + sustained tailwinds, but valuation-constrained; fits 3–4yr compounder thesis (20–25% CAGR realistic), not portfolio's 10x-in-2–3yr mandate
 
+
+
+## Capacity Expansion Batch 41-60 Staging (2026-10-02)
+
+vpscreen-scan capacity-expansion: stocks 41-60 batch staging
+
+Status: READY (structure staged, 20 candidate entries added to state.json)
+
+Prepared:
+- 20 capacity-expansion-row-{41..60} entries added to state.json
+- source=capacity-expansion, status=candidate, first_seen_date=2026-10-02
+- Awaiting real company name/NSE slug resolution from Screener.in export
+
+Batch coverage:
+- Rows 1-16: deepdive queue (16 candidates, already researched)
+- Rows 17-20: not yet staged
+- Rows 21-40: previously staged (18 entries), research BLOCKED on data
+- Rows 41-60: CURRENT BATCH (20 entries), ready for stock-name resolution + vpscreen-scan
+- Rows 61-116: not yet staged
+
+Blockers:
+- Real company names from Screener.in Capacity Expansion screen (rows 41-60)
+- Sector classifications (required for conviction scoring gate)
+- Market cap tier validation (for category assignment)
+
+Resolution required before research can proceed.
