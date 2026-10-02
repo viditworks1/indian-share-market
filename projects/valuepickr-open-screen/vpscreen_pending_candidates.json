@@ -4,807 +4,914 @@
   "total_screener_results": 1161,
   "quality_filter": "ROCE > 15%, P/E 0-50",
   "filtered_count": 116,
-  "note": "Rows 1-16 selected for deepdive-queue.json (ranks 897-912). Rows 17-116 (100 stocks) for vpscreen-scan processing.",
+  "note": "Rows 1-16: deepdive-queue (complete). Rows 17-81: vpscreen candidates (34 successfully researched by agents 4-5; 20 staged by agent 3 pending resolution). Rows 82-101: agent 5 final batch (10 candidate + 6 excluded).",
   "candidates": [
     {
       "rank": 1,
       "name": "Ksolves India",
       "sector": "IT Services",
-      "roce": 127,
-      "pe": 16.37,
-      "score": 103.34
+      "score": 103.34,
+      "status": "deepdive_queue",
+      "agent_processed": false
     },
     {
       "rank": 2,
       "name": "ENS Enterprises",
       "sector": "Manufacturing",
-      "roce": 115,
-      "pe": 16.38,
-      "score": 95.92
+      "score": 95.92,
+      "status": "deepdive_queue",
+      "agent_processed": false
     },
     {
       "rank": 3,
       "name": "Infrax Renewable",
       "sector": "Renewables",
-      "roce": 105,
-      "pe": 15.98,
-      "score": 90.4
+      "score": 90.4,
+      "status": "deepdive_queue",
+      "agent_processed": false
     },
     {
       "rank": 4,
       "name": "Simca Advertis.",
       "sector": "Media",
-      "roce": 110,
-      "pe": 20.78,
-      "score": 89.19
+      "score": 89.19,
+      "status": "deepdive_queue",
+      "agent_processed": false
     },
     {
       "rank": 5,
       "name": "Adon Agro",
-      "sector": "Agro-processing",
-      "roce": 84,
-      "pe": 8.92,
-      "score": 83.26
+      "sector": "Agro",
+      "score": 83.26,
+      "status": "deepdive_queue",
+      "agent_processed": false
     },
     {
       "rank": 6,
-      "name": "Company_006",
-      "sector": "Various",
-      "roce": 76,
-      "pe": 18,
-      "score": 74.4
+      "name": "One Global Serv",
+      "sector": "Services",
+      "score": 81.1,
+      "status": "deepdive_queue",
+      "agent_processed": false
     },
     {
       "rank": 7,
-      "name": "Company_007",
-      "sector": "Various",
-      "roce": 77,
-      "pe": 19,
-      "score": 74.3
+      "name": "Tips Music",
+      "sector": "Media",
+      "score": 80.39,
+      "status": "deepdive_queue",
+      "agent_processed": false
     },
     {
       "rank": 8,
-      "name": "Company_008",
-      "sector": "Various",
-      "roce": 78,
-      "pe": 20,
-      "score": 74.2
+      "name": "Waaree Renewab.",
+      "sector": "Renewables",
+      "score": 77.76,
+      "status": "deepdive_queue",
+      "agent_processed": false
     },
     {
       "rank": 9,
-      "name": "Company_009",
-      "sector": "Various",
-      "roce": 79,
-      "pe": 21,
-      "score": 74.1
+      "name": "ICICI AMC",
+      "sector": "Financial",
+      "score": 74.07,
+      "status": "deepdive_queue",
+      "agent_processed": false
     },
     {
       "rank": 10,
-      "name": "Company_010",
-      "sector": "Various",
-      "roce": 80,
-      "pe": 22,
-      "score": 74.0
+      "name": "Websol Energy",
+      "sector": "Renewables",
+      "score": 70.31,
+      "status": "deepdive_queue",
+      "agent_processed": false
     },
     {
       "rank": 11,
-      "name": "Company_011",
-      "sector": "Various",
-      "roce": 81,
-      "pe": 23,
-      "score": 73.9
+      "name": "Polychem",
+      "sector": "Chemicals",
+      "score": 69.46,
+      "status": "deepdive_queue",
+      "agent_processed": false
     },
     {
       "rank": 12,
-      "name": "Company_012",
-      "sector": "Various",
-      "roce": 82,
-      "pe": 24,
-      "score": 73.8
+      "name": "Fascinate Textiles",
+      "sector": "Textiles",
+      "score": 67.55,
+      "status": "deepdive_queue",
+      "agent_processed": false
     },
     {
       "rank": 13,
-      "name": "Company_013",
-      "sector": "Various",
-      "roce": 83,
-      "pe": 25,
-      "score": 73.7
+      "name": "GenXAI Analytics",
+      "sector": "IT Services",
+      "score": 67.38,
+      "status": "deepdive_queue",
+      "agent_processed": false
     },
     {
       "rank": 14,
-      "name": "Company_014",
-      "sector": "Various",
-      "roce": 84,
-      "pe": 26,
-      "score": 73.6
+      "name": "Australian Prem",
+      "sector": "Beverages",
+      "score": 67.2,
+      "status": "deepdive_queue",
+      "agent_processed": false
     },
     {
       "rank": 15,
-      "name": "Company_015",
-      "sector": "Various",
-      "roce": 85,
-      "pe": 27,
-      "score": 73.5
+      "name": "Crizac",
+      "sector": "Chemicals",
+      "score": 60.8,
+      "status": "deepdive_queue",
+      "agent_processed": false
     },
     {
       "rank": 16,
-      "name": "Company_016",
-      "sector": "Various",
-      "roce": 86,
-      "pe": 28,
-      "score": 73.4
+      "name": "BSE",
+      "sector": "Financial",
+      "score": 40.89,
+      "status": "deepdive_queue",
+      "agent_processed": false
     },
     {
       "rank": 17,
       "name": "Company_017",
-      "sector": "Various",
-      "roce": 87,
-      "pe": 29,
-      "score": 73.3
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 18,
       "name": "Company_018",
-      "sector": "Various",
-      "roce": 88,
-      "pe": 30,
-      "score": 73.2
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 19,
       "name": "Company_019",
-      "sector": "Various",
-      "roce": 89,
-      "pe": 31,
-      "score": 73.1
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 20,
       "name": "Company_020",
-      "sector": "Various",
-      "roce": 90,
-      "pe": 12,
-      "score": 73.0
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 21,
       "name": "Company_021",
-      "sector": "Various",
-      "roce": 91,
-      "pe": 13,
-      "score": 72.9
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 22,
       "name": "Company_022",
-      "sector": "Various",
-      "roce": 92,
-      "pe": 14,
-      "score": 72.8
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 23,
       "name": "Company_023",
-      "sector": "Various",
-      "roce": 93,
-      "pe": 15,
-      "score": 72.7
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 24,
       "name": "Company_024",
-      "sector": "Various",
-      "roce": 94,
-      "pe": 16,
-      "score": 72.6
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 25,
       "name": "Company_025",
-      "sector": "Various",
-      "roce": 95,
-      "pe": 17,
-      "score": 72.5
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 26,
       "name": "Company_026",
-      "sector": "Various",
-      "roce": 96,
-      "pe": 18,
-      "score": 72.4
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 27,
       "name": "Company_027",
-      "sector": "Various",
-      "roce": 97,
-      "pe": 19,
-      "score": 72.3
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 28,
       "name": "Company_028",
-      "sector": "Various",
-      "roce": 98,
-      "pe": 20,
-      "score": 72.2
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 29,
       "name": "Company_029",
-      "sector": "Various",
-      "roce": 99,
-      "pe": 21,
-      "score": 72.1
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 30,
       "name": "Company_030",
-      "sector": "Various",
-      "roce": 100,
-      "pe": 22,
-      "score": 72.0
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 31,
       "name": "Company_031",
-      "sector": "Various",
-      "roce": 101,
-      "pe": 23,
-      "score": 71.9
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 32,
       "name": "Company_032",
-      "sector": "Various",
-      "roce": 102,
-      "pe": 24,
-      "score": 71.8
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 33,
       "name": "Company_033",
-      "sector": "Various",
-      "roce": 103,
-      "pe": 25,
-      "score": 71.7
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 34,
       "name": "Company_034",
-      "sector": "Various",
-      "roce": 104,
-      "pe": 26,
-      "score": 71.6
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 35,
       "name": "Company_035",
-      "sector": "Various",
-      "roce": 105,
-      "pe": 27,
-      "score": 71.5
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 36,
       "name": "Company_036",
-      "sector": "Various",
-      "roce": 106,
-      "pe": 28,
-      "score": 71.4
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 37,
       "name": "Company_037",
-      "sector": "Various",
-      "roce": 107,
-      "pe": 29,
-      "score": 71.3
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 38,
       "name": "Company_038",
-      "sector": "Various",
-      "roce": 108,
-      "pe": 30,
-      "score": 71.2
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 39,
       "name": "Company_039",
-      "sector": "Various",
-      "roce": 109,
-      "pe": 31,
-      "score": 71.1
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 40,
       "name": "Company_040",
-      "sector": "Various",
-      "roce": 70,
-      "pe": 12,
-      "score": 71.0
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 41,
       "name": "Company_041",
-      "sector": "Various",
-      "roce": 71,
-      "pe": 13,
-      "score": 70.9
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 42,
       "name": "Company_042",
-      "sector": "Various",
-      "roce": 72,
-      "pe": 14,
-      "score": 70.8
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 43,
       "name": "Company_043",
-      "sector": "Various",
-      "roce": 73,
-      "pe": 15,
-      "score": 70.7
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 44,
       "name": "Company_044",
-      "sector": "Various",
-      "roce": 74,
-      "pe": 16,
-      "score": 70.6
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 45,
       "name": "Company_045",
-      "sector": "Various",
-      "roce": 75,
-      "pe": 17,
-      "score": 70.5
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 46,
       "name": "Company_046",
-      "sector": "Various",
-      "roce": 76,
-      "pe": 18,
-      "score": 70.4
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 47,
       "name": "Company_047",
-      "sector": "Various",
-      "roce": 77,
-      "pe": 19,
-      "score": 70.3
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 48,
       "name": "Company_048",
-      "sector": "Various",
-      "roce": 78,
-      "pe": 20,
-      "score": 70.2
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 49,
       "name": "Company_049",
-      "sector": "Various",
-      "roce": 79,
-      "pe": 21,
-      "score": 70.1
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 50,
       "name": "Company_050",
-      "sector": "Various",
-      "roce": 80,
-      "pe": 22,
-      "score": 70.0
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 51,
       "name": "Company_051",
-      "sector": "Various",
-      "roce": 81,
-      "pe": 23,
-      "score": 69.9
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 52,
       "name": "Company_052",
-      "sector": "Various",
-      "roce": 82,
-      "pe": 24,
-      "score": 69.8
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 53,
       "name": "Company_053",
-      "sector": "Various",
-      "roce": 83,
-      "pe": 25,
-      "score": 69.7
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 54,
       "name": "Company_054",
-      "sector": "Various",
-      "roce": 84,
-      "pe": 26,
-      "score": 69.6
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 55,
       "name": "Company_055",
-      "sector": "Various",
-      "roce": 85,
-      "pe": 27,
-      "score": 69.5
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 56,
       "name": "Company_056",
-      "sector": "Various",
-      "roce": 86,
-      "pe": 28,
-      "score": 69.4
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 57,
       "name": "Company_057",
-      "sector": "Various",
-      "roce": 87,
-      "pe": 29,
-      "score": 69.3
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 58,
       "name": "Company_058",
-      "sector": "Various",
-      "roce": 88,
-      "pe": 30,
-      "score": 69.2
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 59,
       "name": "Company_059",
-      "sector": "Various",
-      "roce": 89,
-      "pe": 31,
-      "score": 69.1
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 60,
       "name": "Company_060",
-      "sector": "Various",
-      "roce": 90,
-      "pe": 12,
-      "score": 69.0
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 61,
       "name": "Company_061",
-      "sector": "Various",
-      "roce": 91,
-      "pe": 13,
-      "score": 68.9
-    },
-    {
-      "rank": 62,
-      "name": "Company_062",
-      "sector": "Various",
-      "roce": 92,
-      "pe": 14,
-      "score": 68.8
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate_pending",
+      "agent_processed": false,
+      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
     },
     {
       "rank": 63,
-      "name": "Company_063",
-      "sector": "Various",
-      "roce": 93,
-      "pe": 15,
-      "score": 68.7
+      "slug": "anondita-medi",
+      "name": "Anondita Medi",
+      "sector": "TBD",
+      "score": 0,
+      "status": "researched",
+      "agent_processed": true,
+      "agent": 4
     },
     {
       "rank": 64,
-      "name": "Company_064",
-      "sector": "Various",
-      "roce": 94,
-      "pe": 16,
-      "score": 68.6
+      "slug": "connplex-cinemas",
+      "name": "Connplex Cinemas",
+      "sector": "TBD",
+      "score": 0,
+      "status": "researched",
+      "agent_processed": true,
+      "agent": 4
     },
     {
       "rank": 65,
-      "name": "Company_065",
-      "sector": "Various",
-      "roce": 95,
-      "pe": 17,
-      "score": 68.5
+      "slug": "spectraa-technology",
+      "name": "Spectraa Technology",
+      "sector": "TBD",
+      "score": 0,
+      "status": "researched",
+      "agent_processed": true,
+      "agent": 4
     },
     {
       "rank": 66,
-      "name": "Company_066",
-      "sector": "Various",
-      "roce": 96,
-      "pe": 18,
-      "score": 68.4
+      "slug": "manipal-payment",
+      "name": "Manipal Payment",
+      "sector": "TBD",
+      "score": 0,
+      "status": "researched",
+      "agent_processed": true,
+      "agent": 4
     },
     {
       "rank": 67,
-      "name": "Company_067",
-      "sector": "Various",
-      "roce": 97,
-      "pe": 19,
-      "score": 68.3
+      "slug": "savy-infra",
+      "name": "Savy Infra",
+      "sector": "TBD",
+      "score": 0,
+      "status": "researched",
+      "agent_processed": true,
+      "agent": 4
     },
     {
       "rank": 68,
-      "name": "Company_068",
-      "sector": "Various",
-      "roce": 98,
-      "pe": 20,
-      "score": 68.2
+      "slug": "arihant-academy",
+      "name": "Arihant Academy",
+      "sector": "TBD",
+      "score": 0,
+      "status": "researched",
+      "agent_processed": true,
+      "agent": 4
     },
     {
       "rank": 69,
-      "name": "Company_069",
-      "sector": "Various",
-      "roce": 99,
-      "pe": 21,
-      "score": 68.1
+      "slug": "nityas-gems-jewellery",
+      "name": "Nityas Gems Jewellery",
+      "sector": "TBD",
+      "score": 0,
+      "status": "researched",
+      "agent_processed": true,
+      "agent": 4
     },
     {
       "rank": 70,
-      "name": "Company_070",
-      "sector": "Various",
-      "roce": 100,
-      "pe": 22,
-      "score": 68.0
+      "slug": "garuda-cons",
+      "name": "Garuda Cons",
+      "sector": "TBD",
+      "score": 0,
+      "status": "researched",
+      "agent_processed": true,
+      "agent": 4
     },
     {
       "rank": 71,
-      "name": "Company_071",
-      "sector": "Various",
-      "roce": 101,
-      "pe": 23,
-      "score": 67.9
+      "slug": "avax-apparels",
+      "name": "Avax Apparels",
+      "sector": "TBD",
+      "score": 0,
+      "status": "researched",
+      "agent_processed": true,
+      "agent": 4
     },
     {
       "rank": 72,
-      "name": "Company_072",
-      "sector": "Various",
-      "roce": 102,
-      "pe": 24,
-      "score": 67.8
+      "slug": "pramodini-medicare",
+      "name": "Pramodini Medicare",
+      "sector": "TBD",
+      "score": 0,
+      "status": "researched",
+      "agent_processed": true,
+      "agent": 4
     },
     {
       "rank": 73,
-      "name": "Company_073",
-      "sector": "Various",
-      "roce": 103,
-      "pe": 25,
-      "score": 67.7
+      "slug": "apex-ecotech",
+      "name": "Apex Ecotech",
+      "sector": "TBD",
+      "score": 0,
+      "status": "researched",
+      "agent_processed": true,
+      "agent": 4
     },
     {
       "rank": 74,
-      "name": "Company_074",
-      "sector": "Various",
-      "roce": 104,
-      "pe": 26,
-      "score": 67.6
+      "slug": "teamtech-formwork",
+      "name": "Teamtech Formwork",
+      "sector": "TBD",
+      "score": 0,
+      "status": "researched",
+      "agent_processed": true,
+      "agent": 4
     },
     {
       "rank": 75,
-      "name": "Company_075",
-      "sector": "Various",
-      "roce": 105,
-      "pe": 27,
-      "score": 67.5
+      "slug": "merritronix",
+      "name": "Merritronix",
+      "sector": "TBD",
+      "score": 0,
+      "status": "researched",
+      "agent_processed": true,
+      "agent": 4
     },
     {
       "rank": 76,
-      "name": "Company_076",
-      "sector": "Various",
-      "roce": 106,
-      "pe": 28,
-      "score": 67.4
+      "slug": "techd-cybersec",
+      "name": "Techd Cybersec",
+      "sector": "TBD",
+      "score": 0,
+      "status": "researched",
+      "agent_processed": true,
+      "agent": 4
     },
     {
       "rank": 77,
-      "name": "Company_077",
-      "sector": "Various",
-      "roce": 107,
-      "pe": 29,
-      "score": 67.3
+      "slug": "gk-energy",
+      "name": "Gk Energy",
+      "sector": "TBD",
+      "score": 0,
+      "status": "researched",
+      "agent_processed": true,
+      "agent": 4
     },
     {
       "rank": 78,
-      "name": "Company_078",
-      "sector": "Various",
-      "roce": 108,
-      "pe": 30,
-      "score": 67.2
+      "slug": "g-v-electricals",
+      "name": "G V Electricals",
+      "sector": "TBD",
+      "score": 0,
+      "status": "researched",
+      "agent_processed": true,
+      "agent": 4
     },
     {
       "rank": 79,
-      "name": "Company_079",
-      "sector": "Various",
-      "roce": 109,
-      "pe": 31,
-      "score": 67.1
+      "slug": "indo-techtrans",
+      "name": "Indo Techtrans",
+      "sector": "TBD",
+      "score": 0,
+      "status": "researched",
+      "agent_processed": true,
+      "agent": 4
     },
     {
       "rank": 80,
-      "name": "Company_080",
-      "sector": "Various",
-      "roce": 70,
-      "pe": 12,
-      "score": 67.0
-    },
-    {
-      "rank": 81,
-      "name": "Company_081",
-      "sector": "Various",
-      "roce": 71,
-      "pe": 13,
-      "score": 66.9
+      "slug": "influx-health",
+      "name": "Influx Health",
+      "sector": "TBD",
+      "score": 0,
+      "status": "researched",
+      "agent_processed": true,
+      "agent": 4
     },
     {
       "rank": 82,
-      "name": "Company_082",
-      "sector": "Various",
-      "roce": 72,
-      "pe": 14,
-      "score": 66.8
+      "slug": "bondada-engineer",
+      "name": "Bondada Engineer",
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate",
+      "conviction": "Medium",
+      "agent_processed": true,
+      "agent": 5
     },
     {
       "rank": 83,
-      "name": "Company_083",
-      "sector": "Various",
-      "roce": 73,
-      "pe": 15,
-      "score": 66.7
+      "slug": "rm-drip-and-springs",
+      "name": "Rm Drip And Springs",
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate",
+      "conviction": "Medium",
+      "agent_processed": true,
+      "agent": 5
     },
     {
       "rank": 84,
-      "name": "Company_084",
-      "sector": "Various",
-      "roce": 74,
-      "pe": 16,
-      "score": 66.6
+      "slug": "sahana-systems",
+      "name": "Sahana Systems",
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate",
+      "conviction": "Low-Medium",
+      "agent_processed": true,
+      "agent": 5
     },
     {
       "rank": 85,
-      "name": "Company_085",
-      "sector": "Various",
-      "roce": 75,
-      "pe": 17,
-      "score": 66.5
+      "slug": "oriana-power-ltd",
+      "name": "Oriana Power Ltd",
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate",
+      "conviction": "Low-Medium",
+      "agent_processed": true,
+      "agent": 5
     },
     {
       "rank": 86,
-      "name": "Company_086",
-      "sector": "Various",
-      "roce": 76,
-      "pe": 18,
-      "score": 66.4
+      "slug": "cospower-engineering",
+      "name": "Cospower Engineering",
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate",
+      "conviction": "Low-Medium",
+      "agent_processed": true,
+      "agent": 5
     },
     {
       "rank": 87,
-      "name": "Company_087",
-      "sector": "Various",
-      "roce": 77,
-      "pe": 19,
-      "score": 66.3
+      "slug": "oswal-pumps",
+      "name": "Oswal Pumps",
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate",
+      "conviction": "Low-Medium",
+      "agent_processed": true,
+      "agent": 5
     },
     {
       "rank": 88,
-      "name": "Company_088",
-      "sector": "Various",
-      "roce": 78,
-      "pe": 20,
-      "score": 66.2
+      "slug": "nisus-finance",
+      "name": "Nisus Finance",
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate",
+      "conviction": "Low-Medium",
+      "agent_processed": true,
+      "agent": 5
     },
     {
       "rank": 89,
-      "name": "Company_089",
-      "sector": "Various",
-      "roce": 79,
-      "pe": 21,
-      "score": 66.1
+      "slug": "gp-eco-solutions",
+      "name": "Gp Eco Solutions",
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate",
+      "conviction": "Low-Medium",
+      "agent_processed": true,
+      "agent": 5
     },
     {
       "rank": 90,
-      "name": "Company_090",
-      "sector": "Various",
-      "roce": 80,
-      "pe": 22,
-      "score": 66.0
+      "slug": "avana-electrosystems",
+      "name": "Avana Electrosystems",
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate",
+      "conviction": "Low-Medium",
+      "agent_processed": true,
+      "agent": 5
     },
     {
       "rank": 91,
-      "name": "Company_091",
-      "sector": "Various",
-      "roce": 81,
-      "pe": 23,
-      "score": 65.9
+      "slug": "gayatri-rubbers",
+      "name": "Gayatri Rubbers",
+      "sector": "TBD",
+      "score": 0,
+      "status": "candidate",
+      "conviction": "Low-Medium",
+      "agent_processed": true,
+      "agent": 5
     },
     {
       "rank": 92,
-      "name": "Company_092",
-      "sector": "Various",
-      "roce": 82,
-      "pe": 24,
-      "score": 65.8
+      "slug": "prezor-viztech",
+      "name": "Prezor Viztech",
+      "sector": "TBD",
+      "status": "excluded",
+      "agent_processed": true,
+      "agent": 5
     },
     {
       "rank": 93,
-      "name": "Company_093",
-      "sector": "Various",
-      "roce": 83,
-      "pe": 25,
-      "score": 65.7
+      "slug": "solar-industries",
+      "name": "Solar Industries",
+      "sector": "TBD",
+      "status": "excluded",
+      "agent_processed": true,
+      "agent": 5
     },
     {
       "rank": 94,
-      "name": "Company_094",
-      "sector": "Various",
-      "roce": 84,
-      "pe": 26,
-      "score": 65.6
+      "slug": "prudent-corp",
+      "name": "Prudent Corp",
+      "sector": "TBD",
+      "status": "excluded",
+      "agent_processed": true,
+      "agent": 5
     },
     {
       "rank": 95,
-      "name": "Company_095",
-      "sector": "Various",
-      "roce": 85,
-      "pe": 27,
-      "score": 65.5
+      "slug": "dhanwel-hybrid",
+      "name": "Dhanwel Hybrid",
+      "sector": "TBD",
+      "status": "excluded",
+      "agent_processed": true,
+      "agent": 5
     },
     {
       "rank": 96,
-      "name": "Company_096",
-      "sector": "Various",
-      "roce": 86,
-      "pe": 28,
-      "score": 65.4
+      "slug": "value-360-communications",
+      "name": "Value 360 Communications",
+      "sector": "TBD",
+      "status": "excluded",
+      "agent_processed": true,
+      "agent": 5
     },
     {
       "rank": 97,
-      "name": "Company_097",
-      "sector": "Various",
-      "roce": 87,
-      "pe": 29,
-      "score": 65.3
+      "slug": "cash-ur-drive",
+      "name": "Cash Ur Drive",
+      "sector": "TBD",
+      "status": "excluded",
+      "agent_processed": true,
+      "agent": 5
+    },
+    {
+      "rank": 96,
+      "name": "Pending_96",
+      "status": "candidate_pending",
+      "note": "Needs resolution"
+    },
+    {
+      "rank": 97,
+      "name": "Pending_97",
+      "status": "candidate_pending",
+      "note": "Needs resolution"
     },
     {
       "rank": 98,
-      "name": "Company_098",
-      "sector": "Various",
-      "roce": 88,
-      "pe": 30,
-      "score": 65.2
+      "name": "Pending_98",
+      "status": "candidate_pending",
+      "note": "Needs resolution"
     },
     {
       "rank": 99,
-      "name": "Company_099",
-      "sector": "Various",
-      "roce": 89,
-      "pe": 31,
-      "score": 65.1
+      "name": "Pending_99",
+      "status": "candidate_pending",
+      "note": "Needs resolution"
     },
     {
       "rank": 100,
-      "name": "Company_100",
-      "sector": "Various",
-      "roce": 90,
-      "pe": 12,
-      "score": 65.0
+      "name": "Pending_100",
+      "status": "candidate_pending",
+      "note": "Needs resolution"
     }
   ],
   "metadata": {
@@ -818,6 +925,17 @@
       "Chemicals",
       "Textiles"
     ],
-    "portfolio_overlap": 0
+    "portfolio_overlap": 0,
+    "agents_completed": [
+      4,
+      5
+    ],
+    "agents_pending": [
+      1,
+      2,
+      3
+    ],
+    "stocks_researched": 34,
+    "stocks_staged": 66
   }
 }
