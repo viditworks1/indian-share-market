@@ -2,8 +2,8 @@
   "method": "Composite of conviction_score/quality_score/expectation_gap_score/consistency_score/asymmetry_score, weighted 0.25/0.25/0.20/0.15/0.15 and renormalized over whichever are present. Formula + investor research in MASTER_SCORE_METHODOLOGY.md.",
   "scored_count": 981,
   "not_assessed_count": 0,
-  "consistency_score_coverage": 198,
-  "asymmetry_score_coverage": 269,
+  "consistency_score_coverage": 200,
+  "asymmetry_score_coverage": 272,
   "ranked": [
     {
       "slug": "p-e-analytics",
@@ -51,34 +51,6 @@
         "expectation_gap_score": 69.95,
         "consistency_score": 33,
         "asymmetry_score": 79.97,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "thyrocare-debt-free-asset-light-healthcare-play",
-      "name": "Thyrocare : Debt free Asset Light Healthcare Play",
-      "master_score": 61.39,
-      "red_flag_tier": null,
-      "conviction": "High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 11,
-        "years_cleared": 8,
-        "note": "FY16-FY26 (screener consolidated): ROCE >=15% in every year (17-42%; dip to 17-18% FY22-23 around the Reliance-era acquisition, back to 35%+). Revenue growth >=10% in 8 of 11 (missed FY20 +8%, FY23 -11% on the COVID base, FY24 +9%). Both cleared 8 of 11 years; FY25 and FY26 both ~+20%."
-      },
-      "score_breakdown": {
-        "conviction_score": 75.0,
-        "quality_score": 95.0,
-        "expectation_gap_score": 4.32,
-        "consistency_score": 73,
-        "asymmetry_score": 47.16,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -275,6 +247,34 @@
         "expectation_gap_score": 3.82,
         "consistency_score": 20,
         "asymmetry_score": 51.91,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "thyrocare-debt-free-asset-light-healthcare-play",
+      "name": "Thyrocare : Debt free Asset Light Healthcare Play",
+      "master_score": 55.39,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 11,
+        "years_cleared": 8,
+        "note": "FY16-FY26 (screener consolidated): ROCE >=15% in every year (17-42%; dip to 17-18% FY22-23 around the Reliance-era acquisition, back to 35%+). Revenue growth >=10% in 8 of 11 (missed FY20 +8%, FY23 -11% on the COVID base, FY24 +9%). Both cleared 8 of 11 years; FY25 and FY26 both ~+20%."
+      },
+      "score_breakdown": {
+        "conviction_score": 51.0,
+        "quality_score": 95.0,
+        "expectation_gap_score": 4.32,
+        "consistency_score": 73,
+        "asymmetry_score": 47.16,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -1811,34 +1811,6 @@
       }
     },
     {
-      "slug": "shaily-engineering",
-      "name": "Shaily Engineering Plastics Ltd",
-      "master_score": 42.11,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 1,
-        "note": "Of FY23-FY25 (both metrics verifiable), only FY25 (+22.2%/29%) cleared. FY23 (+6.9%/14%) and FY24 (+6.1%/20%) missed - FY23-24 revenue growth was ~6%. The GLP-1 device ramp lifted FY25-26 growth to 22-26%; FY26 ROCE not yet disclosed."
-      },
-      "score_breakdown": {
-        "conviction_score": 62.45,
-        "quality_score": 73.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 33,
-        "asymmetry_score": 22.0,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "univastu-india",
       "name": "Univastu India",
       "master_score": 41.98,
@@ -2749,6 +2721,34 @@
       }
     },
     {
+      "slug": "indo-techtrans",
+      "name": "indo-techtrans",
+      "master_score": 36.8,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 3,
+        "note": "FY24-FY26 verifiable from the same filings. FY24: revenue +36% and ROCE ~30% -> cleared. FY25: revenue +22% and ROCE ~35% -> cleared. FY26: revenue +28% and ROCE ~40% -> cleared. 3 of 3 years cleared both >=10% revenue growth and >=15% ROCE -- the operating consistency is genuinely strong; the concern is governance / promoter conduct, not the numbers."
+      },
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": 68.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 100,
+        "asymmetry_score": 32.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "arihant-foundations-and-housing",
       "name": "Arihant Foundations and Housing",
       "master_score": 36.48,
@@ -3174,6 +3174,34 @@
         "expectation_gap_score": 44.59,
         "consistency_score": 0,
         "asymmetry_score": 22.3,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "shaily-engineering",
+      "name": "Shaily Engineering Plastics Ltd",
+      "master_score": 33.86,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 1,
+        "note": "Of FY23-FY25 (both metrics verifiable), only FY25 (+22.2%/29%) cleared. FY23 (+6.9%/14%) and FY24 (+6.1%/20%) missed - FY23-24 revenue growth was ~6%. The GLP-1 device ramp lifted FY25-26 growth to 22-26%; FY26 ROCE not yet disclosed."
+      },
+      "score_breakdown": {
+        "conviction_score": 29.45,
+        "quality_score": 73.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 33,
+        "asymmetry_score": 22.0,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -4166,6 +4194,34 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "influx-health",
+      "name": "influx-health",
+      "master_score": 29.85,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 2,
+        "note": "FY24-FY26 (company financials; screener 10y table login-gated this pass): debt-free ~40%-ROCE model so ROCE >=15% every year. Revenue Rs 76cr (FY23) -> 100 (+32%, FY24) -> 105 (+5%, FY25) -> 147 (+40%, FY26). Both metrics cleared FY24 and FY26 = 2 of 3; FY25 missed on the +5% flat year."
+      },
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": 59.0,
+        "expectation_gap_score": 3.63,
+        "consistency_score": 67,
+        "asymmetry_score": 28.82,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
       }
     },
     {
@@ -12114,6 +12170,29 @@
       }
     },
     {
+      "slug": "garuda-cons",
+      "name": "garuda-cons",
+      "master_score": 12.26,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": 34.0,
+        "expectation_gap_score": 7.0,
+        "consistency_score": null,
+        "asymmetry_score": 3.5,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
       "slug": "parag-milk-foods",
       "name": "Parag Milk Foods",
       "master_score": 11.99,
@@ -17977,31 +18056,6 @@
       }
     },
     {
-      "slug": "bess-solar-hybrid-phs",
-      "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
-      "master_score": 8.0,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "N/A -- thematic basket entry spanning 5 companies with different business models (IPP/asset-owners vs EPC/equipment suppliers). Track_record assessment belongs on the individual company entries (ACME Solar, KPI Green Energy, Pace Digitek, Enviro Infra Engineers, Inox Wind), where 4 of 5 already have dedicated data files. See open_questions in deep_dive for context."
-      },
-      "score_breakdown": {
-        "conviction_score": 16.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
-      }
-    },
-    {
       "slug": "tamboli-capital-its-a-casting-company",
       "name": "Tamboli Capital: Its a Casting Company!",
       "master_score": 8.0,
@@ -18524,6 +18578,31 @@
         "years_checked": 0,
         "years_cleared": 0,
         "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 11.0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "bess-solar-hybrid-phs",
+      "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
+      "master_score": 5.5,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "N/A -- thematic basket entry spanning 5 companies with different business models (IPP/asset-owners vs EPC/equipment suppliers). Track_record assessment belongs on the individual company entries (ACME Solar, KPI Green Energy, Pace Digitek, Enviro Infra Engineers, Inox Wind), where 4 of 5 already have dedicated data files. See open_questions in deep_dive for context."
       },
       "score_breakdown": {
         "conviction_score": 11.0,
@@ -21512,17 +21591,22 @@
       "red_flag_tier": null,
       "conviction": null,
       "thesis_fit": null,
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -21532,17 +21616,22 @@
       "red_flag_tier": null,
       "conviction": null,
       "thesis_fit": null,
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -21552,17 +21641,22 @@
       "red_flag_tier": null,
       "conviction": null,
       "thesis_fit": null,
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -21572,17 +21666,22 @@
       "red_flag_tier": null,
       "conviction": null,
       "thesis_fit": null,
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -21612,17 +21711,22 @@
       "red_flag_tier": null,
       "conviction": null,
       "thesis_fit": null,
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -21632,37 +21736,22 @@
       "red_flag_tier": null,
       "conviction": null,
       "thesis_fit": null,
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "garuda-cons",
-      "name": "garuda-cons",
-      "master_score": 0,
-      "red_flag_tier": null,
-      "conviction": null,
-      "thesis_fit": null,
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -21672,17 +21761,22 @@
       "red_flag_tier": null,
       "conviction": null,
       "thesis_fit": null,
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -21692,17 +21786,22 @@
       "red_flag_tier": null,
       "conviction": null,
       "thesis_fit": null,
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -21712,17 +21811,22 @@
       "red_flag_tier": null,
       "conviction": null,
       "thesis_fit": null,
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -21732,17 +21836,22 @@
       "red_flag_tier": null,
       "conviction": null,
       "thesis_fit": null,
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -21752,17 +21861,22 @@
       "red_flag_tier": null,
       "conviction": null,
       "thesis_fit": null,
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -21772,17 +21886,22 @@
       "red_flag_tier": null,
       "conviction": null,
       "thesis_fit": null,
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -21792,17 +21911,22 @@
       "red_flag_tier": null,
       "conviction": null,
       "thesis_fit": null,
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -21812,57 +21936,22 @@
       "red_flag_tier": null,
       "conviction": null,
       "thesis_fit": null,
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "indo-techtrans",
-      "name": "indo-techtrans",
-      "master_score": 0,
-      "red_flag_tier": null,
-      "conviction": null,
-      "thesis_fit": null,
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "influx-health",
-      "name": "influx-health",
-      "master_score": 0,
-      "red_flag_tier": null,
-      "conviction": null,
-      "thesis_fit": null,
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     }
   ],

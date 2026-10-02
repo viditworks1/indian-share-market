@@ -429,7 +429,7 @@ Generated: 2026-10-02
 | Inventurus Knowledge Solutions | 2026-09-28 | 2026-10-28 | Medium |
 | Ather Energy: Pioneering India's EV Revolution | 2026-09-28 | 2026-10-28 | Medium |
 | MTAR Technologies Ltd | 2026-09-28 | 2026-10-28 | Medium-High |
-| Thyrocare : Debt free Asset Light Healthcare Play | 2026-09-28 | 2026-10-28 | High |
+| Thyrocare : Debt free Asset Light Healthcare Play | 2026-09-28 | 2026-10-28 | Medium-High |
 | Vinati Organics Ltd | 2026-09-28 | 2026-10-28 | Low |
 | Sai Life Sciences Ltd | 2026-09-28 | 2026-10-28 | Medium-High |
 | Acutaas Chemicals Ltd (Erst. Ami Organics Ltd) | 2026-09-28 | 2026-10-28 | Medium-High |
@@ -439,7 +439,7 @@ Generated: 2026-10-02
 | Bliss GVS Pharma Ltd | 2026-09-28 | 2026-10-28 | Medium |
 | Cummins India Ltd | 2026-09-28 | 2026-10-28 | High |
 | Emmvee Photovoltaic Power Ltd | 2026-09-28 | 2026-10-28 | Medium-High |
-| Shaily Engineering Plastics Ltd | 2026-09-28 | 2026-10-28 | Medium-High |
+| Shaily Engineering Plastics Ltd | 2026-09-28 | 2026-10-28 | Low-Medium |
 | Raghav Productivity Solutions | 2026-09-28 | 2026-10-28 | Medium-High |
 | Titagarh Rail Systems | 2026-10-01 | 2026-10-31 | Low |
 | JM Financial | 2026-10-01 | 2026-10-31 | Low-Medium |

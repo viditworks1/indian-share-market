@@ -1,8 +1,8 @@
 {
   "date_compiled": "2026-10-02",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
-  "scored_count": 310,
-  "not_assessed_count": 671,
+  "scored_count": 313,
+  "not_assessed_count": 668,
   "ranked": [
     {
       "slug": "vaibhav-global-vertically-integrated-value-e",
@@ -114,7 +114,7 @@
       "conviction": "Medium-High",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Micro-cap (~Rs 228 Cr)",
+      "market_cap_tier": "Micro-cap (~Rs 200 Cr)",
       "gap_direction": "underestimated",
       "gap_type": "new_business",
       "gap_magnitude_pct": 40,
@@ -148,7 +148,7 @@
       "conviction": "Medium-High",
       "thesis_fit": "neither",
       "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap (~Rs 9,619 Cr)",
+      "market_cap_tier": "Mid-cap (~Rs 9,363 Cr)",
       "gap_direction": "underestimated",
       "gap_type": "volume",
       "gap_magnitude_pct": null,
@@ -3516,7 +3516,7 @@
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Small-cap (~Rs 259 Cr)",
+      "market_cap_tier": "Small-cap (~Rs 226 Cr)",
       "gap_direction": "partially-priced",
       "gap_type": "margin",
       "gap_magnitude_pct": null,
@@ -4130,7 +4130,7 @@
       "conviction": "Medium-High",
       "thesis_fit": "neither",
       "red_flag_tier": null,
-      "market_cap_tier": "Small/Mid-cap (~Rs 5,770 Cr)",
+      "market_cap_tier": "Small/Mid-cap (~Rs 5,849 Cr)",
       "gap_direction": "priced-in",
       "gap_type": "duration",
       "gap_magnitude_pct": null,
@@ -4317,6 +4317,41 @@
       "risk_open_spof_count": 1,
       "risk_open_spofs": [
         "us demand cycle"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.699
+      }
+    },
+    {
+      "slug": "garuda-cons",
+      "name": "garuda-cons",
+      "expectation_gap_score": 7.0,
+      "conviction_score": 0,
+      "conviction": null,
+      "thesis_fit": null,
+      "red_flag_tier": null,
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "margin",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Next 1-2 quarters of cash-flow/working-capital disclosure, and any further promoter pledge or release activity - the key tests of whether the Jul 2026 pledge was a one-off financing choice or the start of a recurring pattern",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-16",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "working-capital/cash-flow management, evidenced as a live constraint by the promoter pledge"
       ],
       "flags": [
         "priced-in"
@@ -5754,11 +5789,11 @@
       "slug": "thyrocare-debt-free-asset-light-healthcare-play",
       "name": "Thyrocare : Debt free Asset Light Healthcare Play",
       "expectation_gap_score": 4.32,
-      "conviction_score": 75.0,
-      "conviction": "High",
-      "thesis_fit": "10x-in-2-3-years",
+      "conviction_score": 51.0,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
       "red_flag_tier": null,
-      "market_cap_tier": "Small-cap (~Rs 9,029 Cr)",
+      "market_cap_tier": "Mid-cap (~Rs 8,493 Cr)",
       "gap_direction": "priced-in",
       "gap_type": null,
       "gap_magnitude_pct": null,
@@ -7615,6 +7650,40 @@
       }
     },
     {
+      "slug": "influx-health",
+      "name": "influx-health",
+      "expectation_gap_score": 3.63,
+      "conviction_score": 0,
+      "conviction": null,
+      "thesis_fit": null,
+      "red_flag_tier": null,
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "weak",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-09-09",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.363
+      }
+    },
+    {
       "slug": "accent-microcell",
       "name": "Accent Microcell Limited",
       "expectation_gap_score": 3.6,
@@ -8475,42 +8544,6 @@
       }
     },
     {
-      "slug": "shaily-engineering",
-      "name": "Shaily Engineering Plastics Ltd",
-      "expectation_gap_score": 0,
-      "conviction_score": 62.45,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap (~Rs 15,000 Cr)",
-      "gap_direction": "over-optimistic",
-      "gap_type": "volume",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "moderate",
-      "catalyst_event": "Q2/Q3 FY27 prints testing whether the Q1FY27 deceleration (+14%) was a one-off cost/timing issue (management's claim) or a genuine growth-rate reset, plus whether gross margin actually normalises by Q3FY27 as guided",
-      "catalyst_window_months": 6,
-      "catalyst_window_start": "2026-09-12",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 2,
-      "risk_open_spofs": [
-        "23-24 partners must convert to volume, not just signed relationships",
-        "single new facility/geography"
-      ],
-      "flags": [
-        "no-edge"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.75,
-        "catalyst_q": 0.39,
-        "timing_q": 1.0,
-        "risk_q": 0.4,
-        "quality": 0.639
-      }
-    },
-    {
       "slug": "hind-rectifiers",
       "name": "Hind Rectifiers Ltd (HIRECT)",
       "expectation_gap_score": 0,
@@ -9155,6 +9188,42 @@
         "timing_q": 0.75,
         "risk_q": 0.8,
         "quality": 0.475
+      }
+    },
+    {
+      "slug": "shaily-engineering",
+      "name": "Shaily Engineering Plastics Ltd",
+      "expectation_gap_score": 0,
+      "conviction_score": 29.45,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 13,840 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "volume",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2/Q3 FY27 prints testing whether the Q1FY27 deceleration (+14%) was a one-off cost/timing issue (management's claim) or a genuine growth-rate reset, plus whether gross margin actually normalises by Q3FY27 as guided",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-12",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "23-24 partners must convert to volume, not just signed relationships",
+        "single new facility/geography"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.639
       }
     },
     {
@@ -10854,6 +10923,42 @@
         "timing_q": 1.0,
         "risk_q": 0.8,
         "quality": 0.775
+      }
+    },
+    {
+      "slug": "indo-techtrans",
+      "name": "indo-techtrans",
+      "expectation_gap_score": 0,
+      "conviction_score": 0,
+      "conviction": null,
+      "thesis_fit": null,
+      "red_flag_tier": null,
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "margin",
+      "gap_magnitude_pct": -20,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Conversion of the 400kV/BESS (NTPC) qualification and recent order wins into a disclosed order book, a Q2/Q3 FY27 margin print showing the ~14% EBITDA margin stabilising, and a material reduction of the promoter pledge",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-09-08",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "capex funding + asset turns",
+        "order conversion"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 0.75,
+        "risk_q": 0.4,
+        "quality": 0.589
       }
     }
   ],
@@ -12616,13 +12721,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "bess-solar-hybrid-phs",
-      "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
-      "conviction_score": 16.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "ghcl-textiles-ltd-climbing-the-value-chain",
       "name": "GHCL Textiles Ltd: Climbing the Value Chain",
       "conviction_score": 16.0,
@@ -12772,6 +12870,13 @@
     {
       "slug": "shyam-metalics-and-energy",
       "name": "Shyam Metalics and Energy Ltd",
+      "conviction_score": 11.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "bess-solar-hybrid-phs",
+      "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
       "conviction_score": 11.0,
       "conviction": "Low-Medium",
       "thesis_fit": "neither"
@@ -15479,13 +15584,6 @@
       "thesis_fit": null
     },
     {
-      "slug": "garuda-cons",
-      "name": "garuda-cons",
-      "conviction_score": 0,
-      "conviction": null,
-      "thesis_fit": null
-    },
-    {
       "slug": "avax-apparels",
       "name": "avax-apparels",
       "conviction_score": 0,
@@ -15537,20 +15635,6 @@
     {
       "slug": "g-v-electricals",
       "name": "g-v-electricals",
-      "conviction_score": 0,
-      "conviction": null,
-      "thesis_fit": null
-    },
-    {
-      "slug": "indo-techtrans",
-      "name": "indo-techtrans",
-      "conviction_score": 0,
-      "conviction": null,
-      "thesis_fit": null
-    },
-    {
-      "slug": "influx-health",
-      "name": "influx-health",
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": null
@@ -15764,7 +15848,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 4.32,
-      "conviction_score": 75.0
+      "conviction_score": 51.0
     },
     {
       "slug": "kwality-pharmaceuticals",
@@ -16237,7 +16321,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 0,
-      "conviction_score": 62.45
+      "conviction_score": 29.45
     },
     {
       "slug": "carysil",
@@ -16293,6 +16377,17 @@
       "status_effective": "pending",
       "expectation_gap_score": 7.07,
       "conviction_score": 41.25
+    },
+    {
+      "slug": "garuda-cons",
+      "name": "garuda-cons",
+      "event": "Next 1-2 quarters of cash-flow/working-capital disclosure, and any further promoter pledge or release activity - the key tests of whether the Jul 2026 pledge was a one-off financing choice or the start of a recurring pattern",
+      "target_date": "2027-03-18",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 7.0,
+      "conviction_score": 0
     },
     {
       "slug": "deepa-jewellers",
@@ -17412,6 +17507,17 @@
       "target_date": "2027-06-09",
       "window_months": 9,
       "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 0
+    },
+    {
+      "slug": "indo-techtrans",
+      "name": "indo-techtrans",
+      "event": "Conversion of the 400kV/BESS (NTPC) qualification and recent order wins into a disclosed order book, a Q2/Q3 FY27 margin print showing the ~14% EBITDA margin stabilising, and a material reduction of the promoter pledge",
+      "target_date": "2027-06-09",
+      "window_months": 9,
+      "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 0,
       "conviction_score": 0

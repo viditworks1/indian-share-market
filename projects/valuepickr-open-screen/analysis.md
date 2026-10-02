@@ -8596,3 +8596,58 @@ Resolution required before research can proceed.
 - **Key Risk**: SIP penetration strong (17% YoY growth despite market volatility) but "jury still out" on new cohort durability over extended market downturn (several quarters/years) — management language indicates cautious optimism on structural thesis, not certainty.
 - **Valuation**: 42.5x P/E on ~12% FY27 PAT growth is 3.5x the earnings growth rate. Justified only if alternatives reach 5-10% AUM by FY29 and SIP cohort proves structural. Peer AMCs typically 20-30x for similar models.
 - **Source**: HDFC AMC Q1 FY27 concall transcript (July 15, 2026), Yahoo Finance (Oct 2, 2026)
+
+## Maharashtra Seamless Ltd — technicals refresh [2026-10-02]
+
+### 2026-10-02 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Rs 699 (from Rs 718, -19 pts or -2.7%), P/E 12.7 (from 13.0); market cap Rs 9,363 Cr (from 9,619 Cr, -2.7%)
+- **No change**: Conviction remains Medium-High; thesis_fit remains neither (Nesco-logic: cyclical value play at Rs 9.6k Cr, not a 10x candidate)
+- **Market cap tier**: Confirmed Mid-cap, no tier change (Rs 9.3k Cr sits squarely in mid-cap range)
+- **Context**: Recent (~2 weeks ago) moat upgrade to 'weak' + demerger withdrawal resolved; order-book +31% QoQ + heavy promoter buying remain supportive. Modest P/E compression (+0.3x in 2 weeks) reflects market's continued caution on volume growth guidance (410k-430k tons, single-digit growth)
+- **Next catalyst**: Q2/Q3 FY27 dispatch print (guided 105k-110k tons Q2) + any fresh capital-allocation announcement on the ~Rs 2,900 Cr cash pile
+
+## Shaily Engineering Plastics Ltd — technicals refresh [2026-10-02]
+
+### 2026-10-02 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Rs 3,009 (from Rs 3,277, -268 pts or -8.2%), P/E 77.8 (from 85.25); market cap Rs 13,840 Cr (from ~14,000 Cr, -1.2%)
+- **No change**: Conviction remains Low-Medium; thesis_fit remains neither (valuation 'over-optimistic'; Q1FY27 revenue growth decelerated to +14% vs 27-34% prior quarters)
+- **Market cap tier**: Confirmed Mid-cap, no tier change (Rs 13.8k Cr is solidly mid-cap)
+- **Context**: Meaningful price correction (-8%) in ~3 weeks has improved the multiple from unsustainably rich (85x) toward more defensible (78x), though still well above peer median (~15x). Consumer segment decline (-24% Q1FY27) + margin pressure remain near-term headwinds. GLP-1 device opportunity intact but execution risk on Q2/Q3 FY27 prints now higher stakes
+- **Next catalyst**: Q2/Q3 FY27 results testing whether Q1's +14% growth was a one-off (per management) or a new regime; gross margin normalisation by Q3 FY27 as guided
+
+## Wise Travel India Ltd (WTICabs) — technicals refresh [2026-10-02]
+
+### 2026-10-02 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Rs 95.0 (from ~Rs 97.5, -2.5 pts or -2.6%), P/E 7.88 (from 8.4); market cap Rs 226 Cr (from 231 Cr, -2.2%)
+- **No change**: Conviction remains Medium; thesis_fit remains 10x-in-2-3-years (formalisation tailwind + capex-phase de-risking intact, but leverage/capex intensity now lived experience, not projection)
+- **Market cap tier**: Confirmed Small-cap, no tier change (Rs 226 Cr well below mid-cap floor)
+- **Context**: Continued modest de-rating (-2.6% in ~4 weeks) reflects market's skepticism on PAT growth lag vs revenue/EBITDA growth (FY26: rev +51%, EBITDA +67%, PAT only +26% due to D&A/finance burden from 795 net fleet additions). FY27 guidance cut to 32-35% (from FY26's 51%) is management's own de-escalation. H1 FY27 cash-conversion concern from original write-up resolved positively (OCF 179% of PAT), but new leverage risk (debt +444% YoY, FCF -31 Cr FY26) is now the focus
+- **Next catalyst**: Q1 FY27 print (not yet sourced) will clarify whether growth deceleration is already playing out or delayed to H2 FY27; cash-conversion quality (OCF/PAT) critical to track as fleet-capex continues
+
+
+## P.E. Analytics Ltd (PROPEQUITY) — technicals refresh [2026-10-02]
+
+### 2026-10-02 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Rs 184 (from Rs 210, -26 pts or -12.4%), P/E 12.8 (from 14.6); market cap Rs 200 Cr (from ~228 Cr, -12.4%)
+- **No change**: Conviction remains Medium-High; thesis_fit remains 10x-in-2-3-years; red flag tier remains none
+- **Market cap tier**: Confirmed Micro-cap, no tier change (Rs 200 Cr solidly micro-cap)
+- **Context**: 12% pullback in price suggests market reassessment after AGM (Sep 28, 2026) and trading window closure (Oct 1). Propedge recovery confirmed in Aug, HDFC Capital stake + AI term sheet remain positives, but idle cash drag and near-flat client adds continue to weigh. Ex-cash multiple improved from 7x to ~6x on the pullback
+- **Next catalyst**: Q2 FY27 results (expected late Oct/early Nov after trading window closure); watch client-count growth resuming (key bottleneck from pass 1)
+
+## Lohia Corp Ltd — technicals refresh [2026-10-02]
+
+### 2026-10-02 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Rs 554 (from Rs 545, +9 pts or +1.7%), P/E 23.6 (from 24.3); market cap Rs 5,849 Cr (from ~5,770 Cr, +1.4%)
+- **No change**: Conviction remains Medium-High; thesis_fit remains neither (size/return-magnitude); red flag tier remains none
+- **Market cap tier**: Confirmed Small/Mid-cap, no tier change (Rs 5,849 Cr in mid-cap range)
+- **Context**: Mild 1.7% price uptick since pass 1 (Sep 16). Order book doubled (Rs 1,778 Cr), 44% ROCE sustained, operating leverage confirmed (Q1 FY27 +840bps EBITDA margin). Stock near 52-week high (Rs 555), already re-rated post-IPO. No new catalyst since pass 1; execution on order-book conversion remains the watch
+- **Next catalyst**: Q2 FY27 results (likely Aug/Sep 2026 printed, should be disclosed by Oct/Nov) testing whether Q1's 295% PAT growth was sustainable or base-adjusted
+
+## Thyrocare Technologies Ltd — technicals refresh [2026-10-02]
+
+### 2026-10-02 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Rs 534 (from Rs 567, -33 pts or -5.8%), P/E 47.0 (from 52); market cap Rs 8,493 Cr (from ~9,029 Cr, -5.9%)
+- **No change**: Conviction remains Medium-High; thesis_fit remains neither (size/return-magnitude); red flag tier remains none
+- **Market cap tier**: Confirmed Mid-cap, no tier change (Rs 8.5k Cr in mid-cap range)
+- **Context**: 5.8% pullback in ~3-4 weeks since pass 1 (Sep 28 deep-dive). Radiology (NHL) divestment approved by Board (Sep 21, Rs 141.4 cr + property sale), subject to shareholder approval (postal ballot underway). Trading window closed Oct 1-2 (Q2 FY26 results pending, unusual timing — may indicate issue with prior period results). P/E compression (52x → 47x) is modest but reflects market's pause before radiology-deal completion
+- **Next catalyst**: Shareholder approval of NHL divestment; Q2 FY26 results release (timing uncertain given trading window); clarity on deal proceeds deployment (likely used to reduce parent Docon debt further)

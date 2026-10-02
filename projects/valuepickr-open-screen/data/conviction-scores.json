@@ -39,51 +39,6 @@
     }
   },
   {
-    "slug": "thyrocare-debt-free-asset-light-healthcare-play",
-    "name": "Thyrocare : Debt free Asset Light Healthcare Play",
-    "conviction_score": 75.0,
-    "own_conviction": 75.0,
-    "trusted_lift": 0.0,
-    "conviction": "High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 95.0,
-    "market_cap_tier": "Small-cap (~Rs 9,029 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 75.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 45,
-      "thesis_bonus": 14,
-      "quality_lift": 10.0,
-      "management_component": 6.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "unclear",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "unclear",
-        "shareholder_returns": null
-      }
-    }
-  },
-  {
     "slug": "aeroflex-industries",
     "name": "Aeroflex Industries Ltd",
     "conviction_score": 74.62,
@@ -297,51 +252,6 @@
     }
   },
   {
-    "slug": "shaily-engineering",
-    "name": "Shaily Engineering Plastics Ltd",
-    "conviction_score": 62.45,
-    "own_conviction": 59.75,
-    "trusted_lift": 2.7,
-    "conviction": "Medium-High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 73.0,
-    "market_cap_tier": "Mid-cap (~Rs 15,000 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-x",
-    "score_breakdown": {
-      "own_conviction": 59.75,
-      "trusted_lift": 2.7,
-      "base_anchor": 35,
-      "thesis_bonus": 14,
-      "quality_lift": 5.75,
-      "management_component": 5.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 2.7,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 2.7,
-        "pos_raw": 2.7,
-        "pos_capped": 2.7,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "flat",
-        "shareholder_returns": "initiated"
-      }
-    }
-  },
-  {
     "slug": "raymond-realty",
     "name": "Raymond Realty Ltd",
     "conviction_score": 61.79,
@@ -440,7 +350,7 @@
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "quality_score": 85.0,
-    "market_cap_tier": "Micro-cap (~Rs 228 Cr)",
+    "market_cap_tier": "Micro-cap (~Rs 200 Cr)",
     "red_flag_tier": null,
     "source": null,
     "score_breakdown": {
@@ -1289,7 +1199,7 @@
     "conviction": "Medium-High",
     "thesis_fit": "neither",
     "quality_score": 92.0,
-    "market_cap_tier": "Small/Mid-cap (~Rs 5,770 Cr)",
+    "market_cap_tier": "Small/Mid-cap (~Rs 5,849 Cr)",
     "red_flag_tier": null,
     "source": "external-lead",
     "score_breakdown": {
@@ -1946,6 +1856,51 @@
         "capital_allocation_track_record": "disciplined",
         "rpt_trend": "unclear",
         "shareholder_returns": "initiated"
+      }
+    }
+  },
+  {
+    "slug": "thyrocare-debt-free-asset-light-healthcare-play",
+    "name": "Thyrocare : Debt free Asset Light Healthcare Play",
+    "conviction_score": 51.0,
+    "own_conviction": 51.0,
+    "trusted_lift": 0.0,
+    "conviction": "Medium-High",
+    "thesis_fit": "neither",
+    "quality_score": 95.0,
+    "market_cap_tier": "Mid-cap (~Rs 8,493 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 51.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 35,
+      "thesis_bonus": 0,
+      "quality_lift": 10.0,
+      "management_component": 6.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "positive",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "unclear",
+        "shareholder_returns": null
       }
     }
   },
@@ -4829,7 +4784,7 @@
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "quality_score": 42.0,
-    "market_cap_tier": "Small-cap (~Rs 259 Cr)",
+    "market_cap_tier": "Small-cap (~Rs 226 Cr)",
     "red_flag_tier": null,
     "source": "external-lead",
     "score_breakdown": {
@@ -7617,6 +7572,51 @@
     }
   },
   {
+    "slug": "shaily-engineering",
+    "name": "Shaily Engineering Plastics Ltd",
+    "conviction_score": 29.45,
+    "own_conviction": 26.75,
+    "trusted_lift": 2.7,
+    "conviction": "Low-Medium",
+    "thesis_fit": "neither",
+    "quality_score": 73.0,
+    "market_cap_tier": "Mid-cap (~Rs 13,840 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-x",
+    "score_breakdown": {
+      "own_conviction": 26.75,
+      "trusted_lift": 2.7,
+      "base_anchor": 16,
+      "thesis_bonus": 0,
+      "quality_lift": 5.75,
+      "management_component": 5.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 2.7,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 2.7,
+        "pos_raw": 2.7,
+        "pos_capped": 2.7,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "flat",
+        "shareholder_returns": "initiated"
+      }
+    }
+  },
+  {
     "slug": "piccadily-agro-industries",
     "name": "Piccadily Agro Industries Ltd",
     "conviction_score": 29.41,
@@ -8102,7 +8102,7 @@
     "conviction": "Medium-High",
     "thesis_fit": "neither",
     "quality_score": 39.0,
-    "market_cap_tier": "Mid-cap (~Rs 9,619 Cr)",
+    "market_cap_tier": "Mid-cap (~Rs 9,363 Cr)",
     "red_flag_tier": null,
     "source": null,
     "score_breakdown": {
@@ -21159,45 +21159,6 @@
     }
   },
   {
-    "slug": "bess-solar-hybrid-phs",
-    "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
-    "conviction_score": 16.0,
-    "own_conviction": 16.0,
-    "trusted_lift": 0.0,
-    "conviction": "Low-Medium",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "N/A (thematic/basket entry, not a single listed entity)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 16.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 16,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "ghcl-textiles-ltd-climbing-the-value-chain",
     "name": "GHCL Textiles Ltd: Climbing the Value Chain",
     "conviction_score": 16.0,
@@ -22967,6 +22928,45 @@
     "market_cap_tier": "mid-cap",
     "red_flag_tier": null,
     "source": "trusted-x",
+    "score_breakdown": {
+      "own_conviction": 11.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 16,
+      "thesis_bonus": 0,
+      "quality_lift": -5.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "bess-solar-hybrid-phs",
+    "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
+    "conviction_score": 11.0,
+    "own_conviction": 11.0,
+    "trusted_lift": 0.0,
+    "conviction": "Low-Medium",
+    "thesis_fit": "neither",
+    "quality_score": 0,
+    "market_cap_tier": "N/A (thematic/basket entry, not a single listed entity)",
+    "red_flag_tier": null,
+    "source": null,
     "score_breakdown": {
       "own_conviction": 11.0,
       "trusted_lift": 0.0,
@@ -37878,20 +37878,20 @@
     "slug": "gv-electricals",
     "name": "GV Electricals Ltd",
     "conviction_score": 0,
-    "own_conviction": -2.75,
+    "own_conviction": -7.62,
     "trusted_lift": 0.0,
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 51.0,
+    "quality_score": 31.5,
     "market_cap_tier": "Micro-cap (~Rs 156 Cr)",
     "red_flag_tier": "HIGH CAUTION",
     "source": "external-lead",
     "score_breakdown": {
-      "own_conviction": -2.75,
+      "own_conviction": -7.62,
       "trusted_lift": 0.0,
       "base_anchor": 8,
       "thesis_bonus": 14,
-      "quality_lift": 0.25,
+      "quality_lift": -4.62,
       "management_component": 0.0,
       "red_flag_penalty": 25,
       "red_flag_forced_zero": false,
@@ -39141,20 +39141,20 @@
     "slug": "vardhman-special-steels",
     "name": "Vardhman Special Steels Ltd (VSSL)",
     "conviction_score": 0,
-    "own_conviction": -17.0,
+    "own_conviction": -22.0,
     "trusted_lift": 0.0,
     "conviction": "Low",
     "thesis_fit": "neither",
-    "quality_score": null,
+    "quality_score": 0,
     "market_cap_tier": "small-cap",
     "red_flag_tier": "none",
     "source": null,
     "score_breakdown": {
-      "own_conviction": -17.0,
+      "own_conviction": -22.0,
       "trusted_lift": 0.0,
       "base_anchor": 8,
       "thesis_bonus": 0,
-      "quality_lift": 0.0,
+      "quality_lift": -5.0,
       "management_component": 0.0,
       "red_flag_penalty": 25,
       "red_flag_forced_zero": false,
@@ -39453,7 +39453,7 @@
     "slug": "garuda-cons",
     "name": null,
     "conviction_score": 0,
-    "own_conviction": 0.0,
+    "own_conviction": -6.0,
     "trusted_lift": 0.0,
     "conviction": null,
     "thesis_fit": null,
@@ -39462,12 +39462,12 @@
     "red_flag_tier": null,
     "source": "capacity-expansion",
     "score_breakdown": {
-      "own_conviction": 0.0,
+      "own_conviction": -6.0,
       "trusted_lift": 0.0,
       "base_anchor": 0,
       "thesis_bonus": 0,
       "quality_lift": 0.0,
-      "management_component": 0.0,
+      "management_component": -6.0,
       "red_flag_penalty": 0,
       "red_flag_forced_zero": false,
       "trusted_signal_component": 0.0,
@@ -39485,7 +39485,13 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
-      "management_quality": null
+      "management_quality": {
+        "assessment": "concern",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
+      }
     }
   },
   {
@@ -39804,8 +39810,8 @@
     "slug": "indo-techtrans",
     "name": null,
     "conviction_score": 0,
-    "own_conviction": 0.0,
-    "trusted_lift": 0.0,
+    "own_conviction": -9.0,
+    "trusted_lift": 0.93,
     "conviction": null,
     "thesis_fit": null,
     "quality_score": null,
@@ -39813,30 +39819,36 @@
     "red_flag_tier": null,
     "source": "capacity-expansion",
     "score_breakdown": {
-      "own_conviction": 0.0,
-      "trusted_lift": 0.0,
+      "own_conviction": -9.0,
+      "trusted_lift": 0.93,
       "base_anchor": 0,
       "thesis_bonus": 0,
       "quality_lift": 0.0,
-      "management_component": 0.0,
+      "management_component": -9.0,
       "red_flag_penalty": 0,
       "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
+      "trusted_signal_component": 0.93,
       "trusted_lift_neg_floor_applied": false,
       "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
+        "value": 0.93,
+        "pos_raw": 0.93,
+        "pos_capped": 0.93,
         "neg_raw": 0.0,
         "neg_capped": 0.0,
-        "n_positive_signals": 0,
+        "n_positive_signals": 2,
         "n_exit_signals": 0,
         "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
+        "distinct_trusted_users": 2,
+        "source": "ledger"
       },
-      "distinct_trusted_users": 0,
-      "management_quality": null
+      "distinct_trusted_users": 2,
+      "management_quality": {
+        "assessment": "concern",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "concerning",
+        "shareholder_returns": "consistent"
+      }
     }
   },
   {
