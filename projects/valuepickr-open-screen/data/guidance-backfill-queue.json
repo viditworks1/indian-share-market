@@ -1,22 +1,22 @@
 {
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "selection": "status=researched, no red flag, thesis_fit!=neither, conviction_score>=35, MISSING >=1 of ['market_expectation', 'quality_metrics', 'track_record']. Sorted by Confluence-100 membership, then conviction_score desc. deepdive-top100's light lane drains this, writing only the blocks named in each entry's `missing`; entries drop off once all three exist (here or a full deep pass).",
-  "total": 15,
-  "pending": 15,
-  "confluence100_pending": 9,
+  "total": 12,
+  "pending": 12,
+  "confluence100_pending": 6,
   "queue": [
     {
-      "slug": "bess-solar-hybrid-phs",
-      "state_key": "bess-solar-hybrid-phs",
-      "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
-      "data_file": "data/bess-solar-hybrid-phs.json",
-      "conviction_score": 44.0,
-      "conviction": "Medium-High",
+      "slug": "antelopus-selan-oil-exploration",
+      "state_key": "antelopus-selan-oil-exploration",
+      "name": "Antelopus Selan Oil Exploration",
+      "data_file": "data/antelopus-selan-oil-exploration.json",
+      "conviction_score": 55.25,
+      "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": null,
+      "market_cap_tier": "Small-cap",
       "in_confluence100": true,
       "missing": [
-        "market_expectation"
+        "track_record"
       ],
       "backfill_status": "pending",
       "backfill_date": null,
@@ -24,58 +24,22 @@
       "rank": 1
     },
     {
-      "slug": "danish-power",
-      "state_key": "danish-power",
-      "name": "Danish Power Ltd",
-      "data_file": "data/danish-power.json",
+      "slug": "ztech",
+      "state_key": "ztech",
+      "name": "Ztech (India) Limited",
+      "data_file": "data/ztech.json",
       "conviction_score": 34.0,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": null,
+      "market_cap_tier": "Small-cap",
       "in_confluence100": true,
       "missing": [
-        "market_expectation"
+        "track_record"
       ],
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
       "rank": 2
-    },
-    {
-      "slug": "enviro-infra-engineers",
-      "state_key": "enviro-infra-engineers",
-      "name": "Enviro Infra Engineers Limited",
-      "data_file": "data/enviro-infra-engineers.json",
-      "conviction_score": 34.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": null,
-      "in_confluence100": true,
-      "missing": [
-        "market_expectation"
-      ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 3
-    },
-    {
-      "slug": "ztech",
-      "state_key": "ztech",
-      "name": "Ztech (India) Limited",
-      "data_file": "data/ztech.json",
-      "conviction_score": 31.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "100x-in-10-years",
-      "market_cap_tier": null,
-      "in_confluence100": true,
-      "missing": [
-        "market_expectation"
-      ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 4
     },
     {
       "slug": "agi-greenpac",
@@ -93,43 +57,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 5
-    },
-    {
-      "slug": "antelopus-selan-oil-exploration",
-      "state_key": "antelopus-selan-oil-exploration",
-      "name": "Antelopus Selan Oil Exploration",
-      "data_file": "data/antelopus-selan-oil-exploration.json",
-      "conviction_score": 25.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": null,
-      "in_confluence100": true,
-      "missing": [
-        "market_expectation"
-      ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 6
-    },
-    {
-      "slug": "ashiana-housing",
-      "state_key": "ashiana-housing",
-      "name": "Ashiana Housing",
-      "data_file": "data/ashiana-housing.json",
-      "conviction_score": 25.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": null,
-      "in_confluence100": true,
-      "missing": [
-        "market_expectation"
-      ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 7
+      "rank": 3
     },
     {
       "slug": "avalon-technologies",
@@ -149,7 +77,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 8
+      "rank": 4
     },
     {
       "slug": "gandhar-oil-refinery",
@@ -167,7 +95,27 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 9
+      "rank": 5
+    },
+    {
+      "slug": "bess-solar-hybrid-phs",
+      "state_key": "bess-solar-hybrid-phs",
+      "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
+      "data_file": "data/bess-solar-hybrid-phs.json",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "N/A (thematic/basket entry, not a single listed entity)",
+      "in_confluence100": true,
+      "missing": [
+        "market_expectation",
+        "quality_metrics",
+        "track_record"
+      ],
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 6
     },
     {
       "slug": "gokaldas-exports",
@@ -185,7 +133,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 10
+      "rank": 7
     },
     {
       "slug": "hdfc-asset-management-company",
@@ -203,7 +151,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 11
+      "rank": 8
     },
     {
       "slug": "indiamart-intermesh",
@@ -221,7 +169,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 12
+      "rank": 9
     },
     {
       "slug": "jtekt-india-driving-precision-powering-india-s-mobility-future",
@@ -239,7 +187,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 13
+      "rank": 10
     },
     {
       "slug": "policybazaar",
@@ -257,7 +205,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 14
+      "rank": 11
     },
     {
       "slug": "trent",
@@ -275,7 +223,7 @@
       "backfill_status": "pending",
       "backfill_date": null,
       "attempts": 0,
-      "rank": 15
+      "rank": 12
     }
   ]
 }

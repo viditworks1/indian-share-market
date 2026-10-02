@@ -8482,3 +8482,12 @@ Also confirmed via direct Yahoo Finance checks that ~21 remaining technical-unre
 - At ~43x trailing P/E, a numeric bull/base/bear scenario build shows the current price (~Rs1,088) sitting at or just above the bull case (~Rs1,027 implied); base case implies ~57% downside.
 - four_box score 2.5 (tailwind yes, tam yes, moat weak, valuation no) would default to "neither" — thesis_fit retained at 10x-in-2-3-years via the written "growth is un-ignorable" exception, conviction capped at Medium with an explicit unconfirmed/valuation caveat.
 - conviction Low-Medium -> Medium.
+
+## GV Electricals Ltd — deep-dive pass 1 [2026-10-02]
+
+- **Conviction:** Low-Medium → Low (working-capital stress emerged post-IPO; debtor days +33, FCF negative despite profit)
+- **Four-box:** 2.5/4 (tailwind ✓, TAM weak, moat ✗, valuation ✓)
+- **Red flag:** HIGH CAUTION (WC deterioration: debtor +33d, FCF -6Cr despite +₹10.5Cr profit, CFO/OP only 3%)
+- **Key finding:** FY26 margin inflection real (+485 bps EBITDA, +312 bps PAT), but order-book-backed thesis requires 3 confluences: (1) WC stabilization, (2) unproven data-centre traction, (3) DISCOM concentration (69% Odisha) & payment-cycle risk
+- **Thesis**: 10x-in-2-3-years remains live only as small-cap inflection carve-out (~20–25% probability)
+
