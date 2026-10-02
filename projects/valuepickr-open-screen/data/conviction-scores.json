@@ -29550,45 +29550,6 @@
     }
   },
   {
-    "slug": "prizor-viztech",
-    "name": "Prizor Viztech Ltd",
-    "conviction_score": 8.0,
-    "own_conviction": 8.0,
-    "trusted_lift": 0.0,
-    "conviction": "Low",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Small-cap",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 8.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 8,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "ajc-jewel-manufacturers",
     "name": "AJC Jewel Manufacturers Ltd",
     "conviction_score": 8.0,

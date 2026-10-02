@@ -59,7 +59,7 @@ Generated: 2026-10-02
 | CFF Fluid Control Ltd | 2026-09-05 | 2026-10-05 | Medium |
 | Megatherm Induction Ltd | 2026-09-05 | 2026-10-05 | Low-Medium |
 | Danlaw Technologies India Ltd | 2026-09-05 | 2026-10-05 | Low-Medium |
-| Prizor Viztech Ltd | 2026-09-05 | 2026-10-05 | Low |
+| Prizor Viztech Ltd | 2026-09-05 | 2026-10-05 | AVOID |
 | Pace Digitek Ltd | 2026-09-05 | 2026-10-05 | Low-Medium |
 | Solex Energy Ltd | 2026-09-05 | 2026-10-05 | Low |
 | Osel Devices Ltd | 2026-09-05 | 2026-10-05 | Low-Medium |
@@ -100,7 +100,7 @@ Generated: 2026-10-02
 | Susan Electricals India Ltd | 2026-09-09 | 2026-10-09 | Low-Medium |
 | Ashutosh Fibre Ltd | 2026-09-09 | 2026-10-09 | Low |
 | Indo Borax & Chemicals Ltd | 2026-09-09 | 2026-10-09 | Low-Medium |
-| GV Electricals Ltd | 2026-09-09 | 2026-10-09 | Low-Medium |
+| GV Electricals Ltd | 2026-09-09 | 2026-10-09 | Low |
 | Monolithish Ltd | 2026-09-09 | 2026-10-09 | Low-Medium |
 | Creative Newtech Ltd | 2026-09-09 | 2026-10-09 | Low-Medium |
 | Atharva Polyplast Ltd | 2026-09-09 | 2026-10-09 | Low |

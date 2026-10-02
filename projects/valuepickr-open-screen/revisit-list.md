@@ -249,6 +249,10 @@ _(none)_
 | Univastu India | 2027-09-18 | ~12M | pending | 5.65 | Execution ramp of the Rs1,021cr+ order book (L&T Metro Line 4/4A, IRCON Mumbai Metro, Pune Metro) converting to revenue over FY27-28, plus a first material r... |
 | Vishnu Chemicals | 2027-09-18 | ~12M | pending | 3.85 | FY27 capex commissioning across DMSO plant / chromium-derivative capacity / barium backward integration, plus the first quarterly prints showing whether EBIT... |
 | Arihant Foundations and Housing | 2027-10-01 | ~12M | pending | 33.17 | Padi/Canopy Living JV project launch (first-phase bookings) + continued pre-sales momentum print in Q2/Q3 FY27 results |
+| Gandhar Oil Refinery Limited | 2027-10-02 | ~12M | pending | 5.28 | Q2 FY27 concall and margin print; geopolitical developments (Hormuz Strait reopening, peace talks); AGOA extension or South Africa entry announcement |
+| Gokaldas exports -- cup and handle/rising channel | 2027-10-02 | ~12M | pending | 5.28 | Q2 FY27 concall (strong order book visibility, capacity ramp updates); AGOA extension announcement (expected Senate→House→President, likely Q4 2026); BTPL me... |
+| HDFC Asset Management Company | 2027-10-02 | ~12M | pending | 0 | Q2 FY27 AUM print (SIP flow sustainability post-Sept volatility); alternatives fund closing milestone; SIF product launch traction; FY27 annual report + FY28... |
 | Sambhv Steel Tubes | 2027-10-30 | ~14M | pending | 23.34 | Kesda stainless Phase-1 commissioning (targeted end-FY27) + first FY28 quarters showing SS contribution and post-deleverage interest savings, alongside proof... |
 | Emmvee Photovoltaic Power Ltd | 2027-12-19 | ~15M | pending | 0 | 6 GW integrated TOPCon module line commissioning (Dec-2026) and first cell-line ramp quarter (Mar-2027), plus any visible module/cell ASP softening as indust... |
+| AGI Greenpac- on the cusp of growth? | 2028-04-02 | ~18M | pending | 3.33 | New capacity ramp and first full quarter of premium-mix products contributing to revenue/margin; Q1-Q2 FY28 should show incremental traction |
 

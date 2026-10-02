@@ -34,5 +34,97 @@
     "years_cleared": 0,
     "note": "Pending data collection"
   },
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "commitments": [
+    {
+      "area": "capacity",
+      "text": "New capacity addition in Jharkhand and Karnataka (2,000-3,000 new machines by FY28)",
+      "specifics": "Total capex INR100 cr for both units; INR70-75 cr to be spent in FY27; each facility to add INR175-200 cr revenue in steady state; operational ramp FY28 H2, full contribution FY29",
+      "timeline_bucket": "FY28-FY29",
+      "quality_stage": "pending",
+      "source": "Gokaldas Q1 FY27 concall (Aug 12, 2026)",
+      "dependency": "Capex execution and customer orders for new facilities",
+      "single_point_of_failure": "Capex overruns or delayed order pickup",
+      "thesis_critical": true
+    },
+    {
+      "area": "margin",
+      "text": "Maintain/expand EBITDA margins despite wage inflation and logistics pressures",
+      "specifics": "Q1 FY27: absorbed INR20 cr wage cost increase (Haryana 35%, salary net effect 14-15%); offsetting via automation, efficiency, product mix shift to low-cost regions",
+      "timeline_bucket": "FY27+",
+      "quality_stage": "operational",
+      "source": "Gokaldas Q1 FY27 concall",
+      "dependency": "Continued automation success and tariff/incentive stability (RoSCTL at risk of 50% cut in India)",
+      "single_point_of_failure": "RoSCTL elimination or geopolitical tariff shocks (Hormuz, U.S. inflation)",
+      "thesis_critical": true
+    },
+    {
+      "area": "geographic",
+      "text": "BTPL fabric subsidiary merger (Q3 FY27) and ramp to profitability",
+      "specifics": "BTPL currently running 50-53 lakh m/month; Q1 FY27 EBITDA loss 7.5-8% due to chem+fuel cost; targeting Q3 EBITDA positive, Q4 PBT positive post-merger; capacity to grow 30% post-merger integr",
+      "timeline_bucket": "Q3-Q4 FY27",
+      "quality_stage": "operational",
+      "source": "Gokaldas Q1 FY27 concall",
+      "dependency": "Successful merger integration and continued chemical+fuel cost moderation",
+      "single_point_of_failure": "Post-merger synergy delays or customer attrition",
+      "thesis_critical": false
+    },
+    {
+      "area": "tariff/trade",
+      "text": "U.S. Section 301 tariff (India at parity with competing sources, advantage vs China/Vietnam) + UK FTA (parity with Bangladesh/Vietnam, advantage vs China)",
+      "specifics": "U.S.: India 10% vs China/Vietnam 12.5%. UK: India now parity with Bangladesh/Vietnam. U.K. FTA expected to boost customer confidence; early inquiries positive",
+      "timeline_bucket": "FY27+",
+      "quality_stage": "structural",
+      "source": "Gokaldas Q1 FY27 concall",
+      "dependency": "Trade policy stability; tariff reversals",
+      "single_point_of_failure": "U.S. tariff hikes or UK tariff renegotiation",
+      "thesis_critical": false
+    }
+  ],
+  "earnings_chain": {
+    "chain": [
+      "Apparel exports to U.S. / UK / Africa (Section 301 parity tariff + FTA support)",
+      "Order book visibility: Q1 +21% revenue, Q2-Q4 orders being booked with 'fairly good' projections",
+      "Volume growth: 3.4% formal volume (misleading due to product mix: Q1/Q2 high-value outerwear, Q3/Q4 simpler garments)",
+      "Africa AGOA renewal (extends to Dec, likely 2-year extension in Senate +bipartisan) enables $112-115 M FY27 revenue (vs $80M FY26, +40% path)",
+      "BTPL merger upside: 50-53 lakh m/month capacity, targeting mid-single-digit EBITDA post-merge"
+    ],
+    "bottleneck_link": "AGOA tariff certainty beyond Dec 2026; wage/logistics cost offset; BTPL profitability post-merger",
+    "operating_leverage": "yes -- Q1 revenue +21%, EBITDA +17% shows margin expansion despite headwinds; further upside from capacity ramp (Bhopal Ph2, Karnataka, Ranchi existing ramping by Q4) + BTPL integration",
+    "evidenced_links": [
+      "India business +16% YoY (Section 122 tariff benefit); Africa +45% YoY",
+      "Consolidated revenue +21% YoY",
+      "BTPL pre-merge revenue INR170 cr/quarter, capacity 50 lakh m/m, fabric orders in place",
+      "Existing capacity (MP Phase 2, Karnataka, Ranchi) ramping to full utilization by Q4"
+    ],
+    "assumed_links": [
+      "AGOA extended (Senate passed, House/President likely); tariff risk for H2 manageable",
+      "RoSCTL (incentive) sustained or only 50% cut (vs full elimination risk)",
+      "BTPL integration adds mid-to-high single-digit EBITDA margin by merger close"
+    ]
+  },
+  "market_expectation": {
+    "as_of": "2026-10-02",
+    "price": 1850,
+    "current_pe": 32.5,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "32.5x P/E on Q1 FY27 earnings implies market prices 15-20% revenue CAGR and/or multiple expansion; apparel sector multiple typically 20-25x for mid-teens growth; risk is AGOA/tariff cliff risk post-Dec 2026",
+    "our_fy27_estimate": "Revenue growth 15-20% (management confident); Africa $112-115M (up from $80M FY26, +40%), India tariff support holds; EBITDA margin 12-14% (squeezed by wages/logistics)",
+    "our_fy28_estimate": "Revenue +12-15% (capacity ramp contribution + BTPL full-year); EBITDA margin 14-15% as automation/cost offsets mature; BTPL merger accretion +2-3% margin if integrated successfully",
+    "gap_direction": "neutral",
+    "gap_type": "multiple",
+    "gap_magnitude_pct": null,
+    "gap_basis": "32.5x on ~15% FY27 revenue growth is a premium to historical apparel 20-25x for similar growth; justified only if AGOA extends, tariff benefits hold, and BTPL merger succeeds. Downside risk if AGOA expires Dec 2026 without extension.",
+    "evidence_quality": "medium",
+    "data_caveat": "Current P/E from Yahoo Finance Oct 2, 2026. Management guided 15-20% growth but explicitly said 'confident of beating 15%'; AGOA extension not yet formalized (Senate pass only); Africa capacity utilization still 80-85% (upside to $120M if execution tightens)"
+  },
+  "catalyst": {
+    "event": "Q2 FY27 concall (strong order book visibility, capacity ramp updates); AGOA extension announcement (expected Senate→House→President, likely Q4 2026); BTPL merger close (Q3 target, should show first full-quarter traction Q4)",
+    "expected_window_months": 12,
+    "window_start": "2026-10-02",
+    "evidence_quality": "high",
+    "is_dated": true,
+    "status": "pending"
+  }
 }

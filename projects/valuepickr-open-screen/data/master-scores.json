@@ -1,9 +1,9 @@
 {
   "method": "Composite of conviction_score/quality_score/expectation_gap_score/consistency_score/asymmetry_score, weighted 0.25/0.25/0.20/0.15/0.15 and renormalized over whichever are present. Formula + investor research in MASTER_SCORE_METHODOLOGY.md.",
-  "scored_count": 964,
+  "scored_count": 981,
   "not_assessed_count": 0,
-  "consistency_score_coverage": 195,
-  "asymmetry_score_coverage": 265,
+  "consistency_score_coverage": 198,
+  "asymmetry_score_coverage": 269,
   "ranked": [
     {
       "slug": "p-e-analytics",
@@ -1950,29 +1950,6 @@
       }
     },
     {
-      "slug": "antelopus-selan-oil-exploration",
-      "name": "Antelopus Selan Oil Exploration",
-      "master_score": 41.54,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 55.25,
-        "quality_score": 71.0,
-        "expectation_gap_score": 0,
-        "consistency_score": null,
-        "asymmetry_score": 25.0,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
       "slug": "rajratan-global",
       "name": "Rajratan Global",
       "master_score": 41.5,
@@ -2541,6 +2518,34 @@
         "expectation_gap_score": 3.63,
         "consistency_score": 100,
         "asymmetry_score": 26.82,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "antelopus-selan-oil-exploration",
+      "name": "Antelopus Selan Oil Exploration",
+      "master_score": 37.86,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 12,
+        "years_cleared": 2,
+        "note": "FY19 (20.8% revenue growth, 15% ROCE) and FY25 (55.4% revenue growth, 20% ROCE) met the dual threshold (revenue growth \u226510% AND ROCE \u226515%). Light-lane P&L + Ratios review: Mar 2015\u20132026 screener.in full-year series. Post-merger entity (July 2025), but pre-merger SETL track record included in historical scan."
+      },
+      "score_breakdown": {
+        "conviction_score": 55.25,
+        "quality_score": 71.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 17,
+        "asymmetry_score": 25.0,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -4681,33 +4686,6 @@
       }
     },
     {
-      "slug": "gv-electricals",
-      "name": "GV Electricals Ltd",
-      "master_score": 27.28,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 30.25,
-        "quality_score": 51.0,
-        "expectation_gap_score": 3.63,
-        "consistency_score": null,
-        "asymmetry_score": 14.31,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
       "slug": "grand-continent-hotels",
       "name": "Grand Continent Hotels",
       "master_score": 27.25,
@@ -4732,6 +4710,34 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "ztech",
+      "name": "Ztech (India) Limited",
+      "master_score": 27.21,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 6,
+        "years_cleared": 3,
+        "note": "FY24 (157.7% revenue growth, 61% ROCE), FY25 (40.3% revenue growth, 28% ROCE), and FY26 (65.9% revenue growth, 20% ROCE) met the dual threshold (revenue growth \u226510% AND ROCE \u226515%). Light-lane P&L + Ratios review: Mar 2021\u20132026 screener.in standalone series (oldest data available)."
+      },
+      "score_breakdown": {
+        "conviction_score": 34.0,
+        "quality_score": 18.0,
+        "expectation_gap_score": 24.41,
+        "consistency_score": 50,
+        "asymmetry_score": 12.21,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
       }
     },
     {
@@ -4942,6 +4948,34 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "gv-electricals",
+      "name": "GV Electricals Ltd",
+      "master_score": 26.28,
+      "red_flag_tier": "HIGH CAUTION",
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 3,
+        "note": "FY24-26 shows consistent profitability, rising margins, and order-book cover. Working-capital stress is new (FY26 only). No blow-up or missed guidance, but also no track record of navigating cash-flow pressure or new-market entry (data-centre). IPO is first capital-raise in 40 years, so financial disclosure rigor is new."
+      },
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": 31.5,
+        "expectation_gap_score": 1.46,
+        "consistency_score": 100,
+        "asymmetry_score": 20.73,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
       }
     },
     {
@@ -6899,29 +6933,6 @@
       }
     },
     {
-      "slug": "ztech",
-      "name": "Ztech (India) Limited",
-      "master_score": 23.19,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 34.0,
-        "quality_score": 18.0,
-        "expectation_gap_score": 24.41,
-        "consistency_score": null,
-        "asymmetry_score": 12.21,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
       "slug": "ashiana-housing",
       "name": "Ashiana Housing",
       "master_score": 23.16,
@@ -7157,56 +7168,6 @@
     {
       "slug": "policybazaar",
       "name": "Policybazaar",
-      "master_score": 22.0,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 44.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
-      }
-    },
-    {
-      "slug": "hdfc-asset-management-company",
-      "name": "HDFC Asset Management Company",
-      "master_score": 22.0,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 44.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
-      }
-    },
-    {
-      "slug": "gokaldas-exports",
-      "name": "Gokaldas exports -- cup and handle/rising channel",
       "master_score": 22.0,
       "red_flag_tier": null,
       "conviction": "Medium-High",
@@ -10925,26 +10886,6 @@
       }
     },
     {
-      "slug": "bess-solar-hybrid-phs",
-      "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
-      "master_score": 16.0,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 16.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "ghcl-textiles-ltd-climbing-the-value-chain",
       "name": "GHCL Textiles Ltd: Climbing the Value Chain",
       "master_score": 16.0,
@@ -11733,6 +11674,33 @@
       }
     },
     {
+      "slug": "gokaldas-exports",
+      "name": "Gokaldas exports -- cup and handle/rising channel",
+      "master_score": 14.65,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 44.0,
+        "quality_score": 0,
+        "expectation_gap_score": 5.28,
+        "consistency_score": null,
+        "asymmetry_score": 2.64,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
       "slug": "mitsu-chem-plast",
       "name": "Mitsu Chem Plast Ltd",
       "master_score": 14.4,
@@ -11919,6 +11887,33 @@
       }
     },
     {
+      "slug": "hdfc-asset-management-company",
+      "name": "HDFC Asset Management Company",
+      "master_score": 12.94,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 44.0,
+        "quality_score": 0,
+        "expectation_gap_score": 0,
+        "consistency_score": null,
+        "asymmetry_score": 0,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
       "slug": "trualt-bioenergy",
       "name": "TruAlt Bioenergy",
       "master_score": 12.5,
@@ -11946,31 +11941,6 @@
     {
       "slug": "brand-concept",
       "name": "Brand concept",
-      "master_score": 12.5,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
-      }
-    },
-    {
-      "slug": "gandhar-oil-refinery",
-      "name": "Gandhar Oil Refinery Limited",
       "master_score": 12.5,
       "red_flag_tier": null,
       "conviction": "Low-Medium",
@@ -12121,31 +12091,6 @@
     {
       "slug": "brigade-hotel-ventures",
       "name": "Brigade Hotel Ventures Ltd",
-      "master_score": 12.5,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
-      }
-    },
-    {
-      "slug": "agi-greenpac",
-      "name": "AGI Greenpac- on the cusp of growth?",
       "master_score": 12.5,
       "red_flag_tier": null,
       "conviction": "Low-Medium",
@@ -13692,6 +13637,33 @@
       }
     },
     {
+      "slug": "gandhar-oil-refinery",
+      "name": "Gandhar Oil Refinery Limited",
+      "master_score": 9.06,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 25.0,
+        "quality_score": 0,
+        "expectation_gap_score": 5.28,
+        "consistency_score": null,
+        "asymmetry_score": 2.64,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
       "slug": "hindustan-zinc-galvanize-capital-of-investors",
       "name": "Hindustan Zinc Ltd",
       "master_score": 9.03,
@@ -13918,6 +13890,33 @@
           "quality_score"
         ],
         "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "agi-greenpac",
+      "name": "AGI Greenpac- on the cusp of growth?",
+      "master_score": 8.43,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 25.0,
+        "quality_score": 0,
+        "expectation_gap_score": 3.33,
+        "consistency_score": null,
+        "asymmetry_score": 1.67,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
       }
     },
     {
@@ -16318,26 +16317,6 @@
       }
     },
     {
-      "slug": "prizor-viztech",
-      "name": "Prizor Viztech Ltd",
-      "master_score": 8.0,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 8.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "ajc-jewel-manufacturers",
       "name": "AJC Jewel Manufacturers Ltd",
       "master_score": 8.0,
@@ -17995,6 +17974,31 @@
           "conviction_score"
         ],
         "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "bess-solar-hybrid-phs",
+      "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
+      "master_score": 8.0,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "N/A -- thematic basket entry spanning 5 companies with different business models (IPP/asset-owners vs EPC/equipment suppliers). Track_record assessment belongs on the individual company entries (ACME Solar, KPI Green Energy, Pace Digitek, Enviro Infra Engineers, Inox Wind), where 4 of 5 already have dedicated data files. See open_questions in deep_dive for context."
+      },
+      "score_breakdown": {
+        "conviction_score": 16.0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
       }
     },
     {
@@ -21483,6 +21487,371 @@
       "red_flag_tier": "none",
       "conviction": "Low",
       "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "anondita-medi",
+      "name": "anondita-medi",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "connplex-cinemas",
+      "name": "connplex-cinemas",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "spectraa-technology",
+      "name": "spectraa-technology",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "manipal-payment",
+      "name": "manipal-payment",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "savy-infra",
+      "name": "savy-infra",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "arihant-academy",
+      "name": "arihant-academy",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "nityas-gems-jewellery",
+      "name": "nityas-gems-jewellery",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "garuda-cons",
+      "name": "garuda-cons",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "avax-apparels",
+      "name": "avax-apparels",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "pramodini-medicare",
+      "name": "pramodini-medicare",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "apex-ecotech",
+      "name": "apex-ecotech",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "teamtech-formwork",
+      "name": "teamtech-formwork",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "merritronix",
+      "name": "merritronix",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "techd-cybersec",
+      "name": "techd-cybersec",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "gk-energy",
+      "name": "gk-energy",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "g-v-electricals",
+      "name": "g-v-electricals",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "indo-techtrans",
+      "name": "indo-techtrans",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "influx-health",
+      "name": "influx-health",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
       "track_record": null,
       "score_breakdown": {
         "conviction_score": 0,

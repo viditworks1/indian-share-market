@@ -8557,3 +8557,42 @@ Resolution required before research can proceed.
 - **Action:** Both fields populated with "N/A" notes; individual company quality_metrics and track_record assessment belongs on dedicated single-company entries, where 4 of 5 already exist
 - **Guidance:** See bess-solar-hybrid-phs.json open_questions for context on whether this basket entry should be retired now that coverage exists at the single-stock level
 
+
+## AGI Greenpac - coverage backfill [2026-10-02]
+
+### 2026-10-02
+- **Management Guidance (Q1 FY27)**: Revenue +25% YoY (Rs 2,529 Cr), PAT +41% (Rs 322 Cr). Guidance: 8-10% annual volume growth until new projects launch; 15-20% YoY growth from FY27 onwards post-project completion.
+- **Capex Catalyst**: New product capacity expansion for higher-margin specialty glass applications expected FY28-FY29. Key thesis-critical commitment: ROCE expansion from current 20-26% to 25%+ via operating leverage.
+- **Valuation**: 14.2x P/E on 28% PAT growth is undemanding; implies market pricing near-term derating or mid-teens growth once capex lands. Neutral gap on fair value.
+- **Market Expectation**: Glass-packaging tailwind (e-commerce, FMCG) steady; 2nd-largest India container-glass player; pricing discipline intact. Risk: Input cost inflation (soda ash, energy).
+- **Source**: Screener.in Q1 FY27, AlphaSpread Q1 FY26 concall, Yahoo Finance current multiple (Oct 2, 2026)
+
+## Gandhar Oil Refinery - coverage backfill [2026-10-02]
+
+### 2026-10-02
+- **Management Guidance (Q1 FY27)**: Exceptional quarter: revenue +92% YoY (Rs 1,732 Cr), PAT +688% YoY (Rs 206 Cr, highest quarterly profit ever). Gross margin spread Rs 28,145/kl (vs Rs 8,274 Q1 FY26, 3.4x jump). Management: "hopeful of margins remaining at this level or around this level" for most of the year, sustaining for 1-2 more quarters.
+- **Key Driver**: Geopolitical supply chain disruption (Hormuz Strait, Middle East war) → agile base-oil sourcing (Saudi Arabia delayed, switched to South Korea + domestic producers) → massive margin expansion. PHPO +18%, PIO +28% growth.
+- **Margin Reversion Risk**: Peak-cycle quarter on exceptional geopolitical premium. Historical EBITDA margin 5-8%. Management cautious on durability → H2 FY27 should show normalization trajectory.
+- **Valuation**: 8.1x P/E on Q1 PAT (Rs 206 cr quarterly, annualized) is deeply pessimistic; assumes immediate margin collapse. Even conservative 7-9% EBITDA run-rate warrants 12-15x forward multiple.
+- **Source**: Gandhar Oil Q1 FY27 concall transcript (July 23, 2026), Screener.in, Yahoo Finance (Oct 2, 2026)
+
+## Gokaldas Exports - coverage backfill [2026-10-02]
+
+### 2026-10-02
+- **Management Guidance (Q1 FY27)**: Consolidated revenue +21% YoY, EBITDA +17% YoY. India +16% (Section 122 tariff benefit post-wind-down of earlier reciprocal tariff), Africa +45% (AGOA support). Management guidance: 15-20% FY27 revenue growth (confident of beating 15%); Africa $112-115M target (up from $80M FY26, +40% path, vs earlier $120M target).
+- **Capacity Expansion**: 2,000-3,000 new machines planned for FY28 (capex INR100 cr total, INR70-75 cr FY27 spend). New Jharkhand + Karnataka facilities to add INR175-200 cr revenue in steady state (ramp H2 FY28, full FY29). Plus BTPL fabric subsidiary merger (Q3 FY27 target): currently 50-53 lakh m/month capacity, targeting mid-single-digit EBITDA post-merge (up from current 7.5-8% EBITDA loss).
+- **Tariff Tailwinds**: U.S. Section 301 (India 10% vs China/Vietnam 12.5% = structural advantage), UK FTA (parity with Bangladesh/Vietnam = structural advantage). Management: tariff environment "removed structural disadvantage" from customers' sourcing decisions.
+- **Key Risk**: AGOA expires Dec 2026; extension likely (Senate bipartisan pass, House/President expected to follow) but timing uncertain. RoSCTL incentive at risk of 50% cut in India; wage inflation (Haryana +35% this quarter, net salary effect absorbed at +14-15%).
+- **Valuation**: 32.5x P/E on ~15% FY27 revenue growth is premium to historical apparel 20-25x for similar growth. Justified only if AGOA extends, tariff benefits hold, BTPL merge succeeds. Downside risk if AGOA expires Dec 2026 without extension.
+- **Source**: Gokaldas Q1 FY27 concall transcript (Aug 12, 2026), Yahoo Finance (Oct 2, 2026)
+
+## HDFC Asset Management Company - coverage backfill [2026-10-02]
+
+### 2026-10-02
+- **Management Guidance (Q1 FY27)**: Revenue +14% YoY (Rs 11 bn), PAT +12% YoY (Rs 8.4 bn). QAAUM Rs 9.35 tr (+13% YoY, market share 11.2%). Equity-oriented QAAUM Rs 5.74 tr (+16% YoY, 65.7% of mix vs 56.6% industry). Unique investors 17.1M (28% industry penetration, up from 25%); added 0.46M in quarter. SIP+STP flows Rs 48.1 bn (+20% YoY); industry SIP growth 17% YoY to Rs 318 bn/month.
+- **Margin Guidance**: Operating margin 35 bps of AUM (target 33-35 bps hold). Maintained margins despite regulatory change (TER→BER accounting, 5bps exit load removal) via commission optimization + cost discipline.
+- **Alternatives Scale**: AUM scaled to Rs 148 bn (up from Rs 60 bn YoY, +2.5x). Private credit fund closed Q1; approved 2nd VC/PE fund seeded by $50M global investor. Building team: 6 VC/PE + 6 private credit + 8 PMS investment professionals.
+- **Product Expansion**: SIF (Segregated Investment Fund) platform launched (Board approved H-SIF equity ex top-100 long-short fund, near-term launch). Full SIF suite planned. Passive/ETF + sector/thematic funds already launched.
+- **Key Risk**: SIP penetration strong (17% YoY growth despite market volatility) but "jury still out" on new cohort durability over extended market downturn (several quarters/years) — management language indicates cautious optimism on structural thesis, not certainty.
+- **Valuation**: 42.5x P/E on ~12% FY27 PAT growth is 3.5x the earnings growth rate. Justified only if alternatives reach 5-10% AUM by FY29 and SIP cohort proves structural. Peer AMCs typically 20-30x for similar models.
+- **Source**: HDFC AMC Q1 FY27 concall transcript (July 15, 2026), Yahoo Finance (Oct 2, 2026)

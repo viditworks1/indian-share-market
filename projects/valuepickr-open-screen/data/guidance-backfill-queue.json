@@ -80,10 +80,18 @@
       "missing": [
         "market_expectation"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 3
+      "backfill_status": "done",
+      "backfill_date": "2026-10-02",
+      "attempts": 1,
+      "rank": 3,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "result": "done",
+          "summary": "Market expectation + 3 guidance blocks filled: 14.2x P/E on 28% PAT growth; new capex catalyst FY28-29 (15-20% growth); ROCE expansion to 25%+"
+        }
+      ]
     },
     {
       "slug": "avalon-technologies",
@@ -118,10 +126,18 @@
       "missing": [
         "market_expectation"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 5
+      "backfill_status": "done",
+      "backfill_date": "2026-10-02",
+      "attempts": 1,
+      "rank": 5,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "result": "done",
+          "summary": "Market expectation + 3 guidance blocks filled: 8.1x P/E on exceptional Q1 (margin normalization risk); geopolitical dependence (Hormuz Strait); 1-2 quarters of sustained 16% EBITDA margin guidance"
+        }
+      ]
     },
     {
       "slug": "bess-solar-hybrid-phs",
@@ -164,10 +180,18 @@
       "missing": [
         "market_expectation"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 7
+      "backfill_status": "done",
+      "backfill_date": "2026-10-02",
+      "attempts": 1,
+      "rank": 7,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "result": "done",
+          "summary": "Market expectation + 3 guidance blocks filled: 32.5x P/E on 15-20% growth (tariff/AGOA-dependent); capacity ramp FY28-29; BTPL merger (Q3 close, +2-3% margin accretion FY28)"
+        }
+      ]
     },
     {
       "slug": "hdfc-asset-management-company",
@@ -182,10 +206,18 @@
       "missing": [
         "market_expectation"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 8
+      "backfill_status": "done",
+      "backfill_date": "2026-10-02",
+      "attempts": 1,
+      "rank": 8,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "result": "done",
+          "summary": "Market expectation + 3 guidance blocks filled: 42.5x P/E on 12% FY27 PAT growth (multiple expansion priced in); SIP penetration growth 25-34% CAGR; alternatives AUM scale from Rs 60→148bn"
+        }
+      ]
     },
     {
       "slug": "indiamart-intermesh",
