@@ -228,7 +228,6 @@ _(none)_
 | Krishna Defence & Allied Industries Ltd | 2027-09-01 | ~12M | pending | 0 | AUV 'JALKAPI' prototype water trials + first VABO composites Navy approval/order, plus a bookings print from the Rs 221 Cr tender pipeline |
 | Cantabil India | 2027-09-02 | ~12M | pending | 5.89 | FY27 quarters showing SSSG back toward 5-6% and the Rs 1,000 Cr revenue target being met, with disclosed new-geography store productivity |
 | AGI Infra Ltd | 2027-09-02 | ~12M | pending | 0 | FY26-30 pipeline launches landing on schedule plus a quarter showing reported revenue re-acceleration from ongoing-project handovers |
-| KMC Speciality hospital | 2027-09-03 | ~12M | pending | 3.93 | Newer-block occupancy ramp visible in H2 FY27 prints + term-debt tie-up and construction start on the Rs 486 Cr Trichy Super-Speciality build; first commissi... |
 | Sika Interplant Systems Ltd | 2027-09-04 | ~12M | pending | 6.77 | A dated HEICO/Radiant part-number MRO volume order, or a HAL MoU conversion, or an order-intake announcement materially above ~1.5x revenue |
 | Time Technoplast | 2027-09-08 | ~12M | pending | 51.59 | Net-debt-free milestone plus a quarter showing blended EBITDA-margin expansion from VAP mix; PESO-approved hydrogen / Type-IV cylinder order ramp |
 | Tube Investments Ltd ~ Diversified Engineering Company | 2027-09-08 | ~12M | pending | 41.68 | TI Clean Mobility approaching operational breakeven + a quarter where consolidated owner-PAT growth turns positive + any holdco-discount-narrowing trigger |
@@ -253,6 +252,7 @@ _(none)_
 | Arihant Foundations and Housing | 2027-10-01 | ~12M | pending | 33.17 | Padi/Canopy Living JV project launch (first-phase bookings) + continued pre-sales momentum print in Q2/Q3 FY27 results |
 | Gandhar Oil Refinery Limited | 2027-10-02 | ~12M | pending | 5.28 | Q2 FY27 concall and margin print; geopolitical developments (Hormuz Strait reopening, peace talks); AGOA extension or South Africa entry announcement |
 | Gokaldas exports -- cup and handle/rising channel | 2027-10-02 | ~12M | pending | 5.28 | Q2 FY27 concall (strong order book visibility, capacity ramp updates); AGOA extension announcement (expected Senate→House→President, likely Q4 2026); BTPL me... |
+| KMC Speciality hospital | 2027-10-02 | ~12M | pending | 3.93 | Newer-block occupancy ramp visible in H2 FY27 prints + term-debt tie-up and construction start on the Rs 486 Cr Trichy Super-Speciality build; first commissi... |
 | HDFC Asset Management Company | 2027-10-02 | ~12M | pending | 0 | Q2 FY27 AUM print (SIP flow sustainability post-Sept volatility); alternatives fund closing milestone; SIF product launch traction; FY27 annual report + FY28... |
 | Sambhv Steel Tubes | 2027-10-30 | ~14M | pending | 23.34 | Kesda stainless Phase-1 commissioning (targeted end-FY27) + first FY28 quarters showing SS contribution and post-deleverage interest savings, alongside proof... |
 | Emmvee Photovoltaic Power Ltd | 2027-12-19 | ~15M | pending | 0 | 6 GW integrated TOPCon module line commissioning (Dec-2026) and first cell-line ramp quarter (Mar-2027), plus any visible module/cell ASP softening as indust... |

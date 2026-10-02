@@ -1,8 +1,8 @@
 {
   "date_compiled": "2026-10-02",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
-  "scored_count": 313,
-  "not_assessed_count": 668,
+  "scored_count": 318,
+  "not_assessed_count": 663,
   "ranked": [
     {
       "slug": "vaibhav-global-vertically-integrated-value-e",
@@ -381,7 +381,7 @@
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Small/Mid-cap (~Rs 8,700 Cr)",
+      "market_cap_tier": "Small/Mid-cap (~Rs 9,000 Cr)",
       "gap_direction": "underestimated",
       "gap_type": "margin",
       "gap_magnitude_pct": 25,
@@ -1379,7 +1379,7 @@
       "conviction": "Low",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Small-cap (~Rs 678 Cr)",
+      "market_cap_tier": "Small-cap (~Rs 700 Cr)",
       "gap_direction": "partially-priced",
       "gap_type": "duration",
       "gap_magnitude_pct": 15,
@@ -2368,7 +2368,7 @@
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Small-cap (~Rs 2,071 Cr)",
+      "market_cap_tier": "Small-cap (~Rs 1,860.80 Cr)",
       "gap_direction": "partially-priced",
       "gap_type": "duration",
       "gap_magnitude_pct": null,
@@ -3552,7 +3552,7 @@
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Micro-cap (~Rs 390 Cr)",
+      "market_cap_tier": "Micro-cap (~Rs 496 Cr)",
       "gap_direction": "partially-priced",
       "gap_type": "volume",
       "gap_magnitude_pct": null,
@@ -4412,7 +4412,7 @@
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Small-cap (~Rs 2,100 Cr)",
+      "market_cap_tier": "Small-cap (~Rs 1,730 Cr)",
       "gap_direction": "priced-in",
       "gap_type": "duration",
       "gap_magnitude_pct": null,
@@ -4949,7 +4949,7 @@
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap (~Rs 6,925 Cr)",
+      "market_cap_tier": "Mid-cap (~Rs 6,415 Cr)",
       "gap_direction": "priced-in",
       "gap_type": "duration",
       "gap_magnitude_pct": null,
@@ -6082,14 +6082,14 @@
       "conviction": "Medium-High",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Small/Mid-cap (~Rs 2,251 Cr)",
+      "market_cap_tier": "Small/Mid-cap (~Rs 2,800 Cr)",
       "gap_direction": "priced-in",
       "gap_type": null,
       "gap_magnitude_pct": null,
       "evidence_quality": null,
       "catalyst_event": "Newer-block occupancy ramp visible in H2 FY27 prints + term-debt tie-up and construction start on the Rs 486 Cr Trichy Super-Speciality build; first commissioning Q2 FY28",
       "catalyst_window_months": 12,
-      "catalyst_window_start": "2026-09-03",
+      "catalyst_window_start": "2026-10-02",
       "catalyst_status_effective": "pending",
       "catalyst_is_dated": true,
       "risk_open_spof_count": 3,
@@ -8151,6 +8151,40 @@
       }
     },
     {
+      "slug": "avalon-technologies",
+      "name": "Avalon Technologies Ltd",
+      "expectation_gap_score": 2.92,
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 14,900 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": null,
+      "gap_magnitude_pct": null,
+      "evidence_quality": null,
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": null,
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.05,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.292
+      }
+    },
+    {
       "slug": "ather-energy-pioneering-india-s-ev-revolution",
       "name": "Ather Energy: Pioneering India's EV Revolution",
       "expectation_gap_score": 2.92,
@@ -8166,6 +8200,74 @@
       "catalyst_event": null,
       "catalyst_window_months": null,
       "catalyst_window_start": "2026-09-28",
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.05,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.292
+      }
+    },
+    {
+      "slug": "trent",
+      "name": "Trent -- A value unlocking story from the house of TATA",
+      "expectation_gap_score": 2.92,
+      "conviction_score": 40.0,
+      "conviction": "Medium",
+      "thesis_fit": "100x-in-10-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "large-cap",
+      "gap_direction": "priced-in",
+      "gap_type": null,
+      "gap_magnitude_pct": null,
+      "evidence_quality": null,
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": null,
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.05,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.292
+      }
+    },
+    {
+      "slug": "indiamart-intermesh",
+      "name": "Indiamart Intermesh",
+      "expectation_gap_score": 2.92,
+      "conviction_score": 44.0,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": null,
+      "gap_direction": "priced-in",
+      "gap_type": null,
+      "gap_magnitude_pct": null,
+      "evidence_quality": null,
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": null,
       "catalyst_status_effective": null,
       "catalyst_is_dated": false,
       "risk_open_spof_count": 0,
@@ -8227,6 +8329,74 @@
       "thesis_fit": "neither",
       "red_flag_tier": "",
       "market_cap_tier": "small-cap",
+      "gap_direction": "priced-in",
+      "gap_type": null,
+      "gap_magnitude_pct": null,
+      "evidence_quality": null,
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": null,
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.05,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.292
+      }
+    },
+    {
+      "slug": "policybazaar",
+      "name": "Policybazaar",
+      "expectation_gap_score": 2.92,
+      "conviction_score": 44.0,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": null,
+      "gap_direction": "priced-in",
+      "gap_type": null,
+      "gap_magnitude_pct": null,
+      "evidence_quality": null,
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": null,
+      "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.05,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.292
+      }
+    },
+    {
+      "slug": "jtekt-india-driving-precision-powering-india-s-mobility-future",
+      "name": "JTEKT India: Driving Precision, Powering India\u2019s Mobility Future",
+      "expectation_gap_score": 2.92,
+      "conviction_score": 44.0,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": null,
       "gap_direction": "priced-in",
       "gap_type": null,
       "gap_magnitude_pct": null,
@@ -8686,41 +8856,6 @@
       }
     },
     {
-      "slug": "raghav-productivity-solutions",
-      "name": "Raghav Productivity Solutions",
-      "expectation_gap_score": 0,
-      "conviction_score": 53.25,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap (~Rs 7,950-8,000 Cr, screener.in Sept 2026)",
-      "gap_direction": "over-optimistic",
-      "gap_type": "timing",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "moderate",
-      "catalyst_event": "Organic 120,000 MTPA line commissioning (targeted Oct-2026), followed by early Odisha JV construction/ramp milestones",
-      "catalyst_window_months": 1,
-      "catalyst_window_start": "2026-09-22",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": true,
-      "risk_open_spof_count": 1,
-      "risk_open_spofs": [
-        "jv partner alignment + new-geography execution risk"
-      ],
-      "flags": [
-        "no-edge"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.75,
-        "catalyst_q": 1.0,
-        "timing_q": 1.0,
-        "risk_q": 0.8,
-        "quality": 0.882
-      }
-    },
-    {
       "slug": "mtar-technologies",
       "name": "MTAR Technologies Ltd",
       "expectation_gap_score": 0,
@@ -8764,7 +8899,7 @@
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Micro/Small-cap (~Rs 1,505 Cr)",
+      "market_cap_tier": "Micro/Small-cap (~Rs 1,673 Cr)",
       "gap_direction": "over-optimistic",
       "gap_type": "volume",
       "gap_magnitude_pct": -20,
@@ -9126,7 +9261,7 @@
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
-      "market_cap_tier": "Small/Mid-cap (~Rs 7,100 Cr)",
+      "market_cap_tier": "Small/Mid-cap (~Rs 7,269 Cr)",
       "gap_direction": "over-optimistic",
       "gap_type": "duration",
       "gap_magnitude_pct": null,
@@ -9261,6 +9396,41 @@
         "timing_q": 1.0,
         "risk_q": 0.2,
         "quality": 0.434
+      }
+    },
+    {
+      "slug": "raghav-productivity-solutions",
+      "name": "Raghav Productivity Solutions",
+      "expectation_gap_score": 0,
+      "conviction_score": 29.25,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 8,353 Cr, screener.in Oct 2026)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "timing",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Organic 120,000 MTPA line commissioning (targeted Oct-2026), followed by early Odisha JV construction/ramp milestones",
+      "catalyst_window_months": 1,
+      "catalyst_window_start": "2026-09-22",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "jv partner alignment + new-geography execution risk"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 1.0,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.882
       }
     },
     {
@@ -10971,34 +11141,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "indiamart-intermesh",
-      "name": "Indiamart Intermesh",
-      "conviction_score": 44.0,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "policybazaar",
-      "name": "Policybazaar",
-      "conviction_score": 44.0,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "jtekt-india-driving-precision-powering-india-s-mobility-future",
-      "name": "JTEKT India: Driving Precision, Powering India\u2019s Mobility Future",
-      "conviction_score": 44.0,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
-      "slug": "trent",
-      "name": "Trent -- A value unlocking story from the house of TATA",
-      "conviction_score": 40.0,
-      "conviction": "Medium",
-      "thesis_fit": "100x-in-10-years"
-    },
-    {
       "slug": "nuvama-wealth-management",
       "name": "Nuvama Wealth Management Ltd",
       "conviction_score": 38.59,
@@ -11246,13 +11388,6 @@
     {
       "slug": "savita-oil-technologies-ltd-undervalued-midcap-in-a-competitive-space",
       "name": "Savita Oil Technologies Ltd: Undervalued midcap in a competitive space?",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "avalon-technologies",
-      "name": "Avalon Technologies Ltd",
       "conviction_score": 25.0,
       "conviction": "Medium",
       "thesis_fit": "neither"
@@ -15650,7 +15785,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 0,
-      "conviction_score": 53.25
+      "conviction_score": 29.25
     },
     {
       "slug": "tamilnad-mercantile-bank",
@@ -17743,17 +17878,6 @@
       "conviction_score": 25.06
     },
     {
-      "slug": "kmc-speciality-hospital",
-      "name": "KMC Speciality hospital",
-      "event": "Newer-block occupancy ramp visible in H2 FY27 prints + term-debt tie-up and construction start on the Rs 486 Cr Trichy Super-Speciality build; first commissioning Q2 FY28",
-      "target_date": "2027-09-03",
-      "window_months": 12,
-      "is_dated": true,
-      "status_effective": "pending",
-      "expectation_gap_score": 3.93,
-      "conviction_score": 57.0
-    },
-    {
       "slug": "sika-interplant-systems",
       "name": "Sika Interplant Systems Ltd",
       "event": "A dated HEICO/Radiant part-number MRO volume order, or a HAL MoU conversion, or an order-intake announcement materially above ~1.5x revenue",
@@ -18016,6 +18140,17 @@
       "status_effective": "pending",
       "expectation_gap_score": 5.28,
       "conviction_score": 44.0
+    },
+    {
+      "slug": "kmc-speciality-hospital",
+      "name": "KMC Speciality hospital",
+      "event": "Newer-block occupancy ramp visible in H2 FY27 prints + term-debt tie-up and construction start on the Rs 486 Cr Trichy Super-Speciality build; first commissioning Q2 FY28",
+      "target_date": "2027-10-02",
+      "window_months": 12,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 3.93,
+      "conviction_score": 57.0
     },
     {
       "slug": "hdfc-asset-management-company",

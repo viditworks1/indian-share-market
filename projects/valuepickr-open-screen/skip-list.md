@@ -440,7 +440,7 @@ Generated: 2026-10-02
 | Cummins India Ltd | 2026-09-28 | 2026-10-28 | High |
 | Emmvee Photovoltaic Power Ltd | 2026-09-28 | 2026-10-28 | Medium-High |
 | Shaily Engineering Plastics Ltd | 2026-09-28 | 2026-10-28 | Low-Medium |
-| Raghav Productivity Solutions | 2026-09-28 | 2026-10-28 | Medium-High |
+| Raghav Productivity Solutions | 2026-09-28 | 2026-10-28 | Medium |
 | Titagarh Rail Systems | 2026-10-01 | 2026-10-31 | Low |
 | JM Financial | 2026-10-01 | 2026-10-31 | Low-Medium |
 | L&T Finance Holdings | 2026-10-01 | 2026-10-31 | Medium |

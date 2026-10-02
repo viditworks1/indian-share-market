@@ -3,7 +3,7 @@
   "scored_count": 981,
   "not_assessed_count": 0,
   "consistency_score_coverage": 200,
-  "asymmetry_score_coverage": 272,
+  "asymmetry_score_coverage": 276,
   "ranked": [
     {
       "slug": "p-e-analytics",
@@ -2033,33 +2033,6 @@
       }
     },
     {
-      "slug": "raghav-productivity-solutions",
-      "name": "Raghav Productivity Solutions",
-      "master_score": 40.07,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 53.25,
-        "quality_score": 71.0,
-        "expectation_gap_score": 0,
-        "consistency_score": null,
-        "asymmetry_score": 20.0,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
       "slug": "chamunda-electricals",
       "name": "Chamunda Electricals Ltd",
       "master_score": 40.05,
@@ -3261,6 +3234,33 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "raghav-productivity-solutions",
+      "name": "Raghav Productivity Solutions",
+      "master_score": 33.01,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 29.25,
+        "quality_score": 71.0,
+        "expectation_gap_score": 0,
+        "consistency_score": null,
+        "asymmetry_score": 20.0,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
       }
     },
     {
@@ -5616,26 +5616,6 @@
       }
     },
     {
-      "slug": "avalon-technologies",
-      "name": "Avalon Technologies Ltd",
-      "master_score": 25.0,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "elantas-beck-india",
       "name": "Elantas Beck India Ltd",
       "master_score": 25.0,
@@ -7157,31 +7137,6 @@
       }
     },
     {
-      "slug": "indiamart-intermesh",
-      "name": "Indiamart Intermesh",
-      "master_score": 22.0,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 44.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
-      }
-    },
-    {
       "slug": "repco-home-finance-ias2026",
       "name": "Repco Home Finance",
       "master_score": 22.0,
@@ -7219,56 +7174,6 @@
           "conviction_score"
         ],
         "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "policybazaar",
-      "name": "Policybazaar",
-      "master_score": 22.0,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 44.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
-      }
-    },
-    {
-      "slug": "jtekt-india-driving-precision-powering-india-s-mobility-future",
-      "name": "JTEKT India: Driving Precision, Powering India\u2019s Mobility Future",
-      "master_score": 22.0,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 44.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
       }
     },
     {
@@ -7585,31 +7490,6 @@
           "conviction_score"
         ],
         "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "trent",
-      "name": "Trent -- A value unlocking story from the house of TATA",
-      "master_score": 20.0,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "100x-in-10-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 40.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
       }
     },
     {
@@ -11548,6 +11428,27 @@
       }
     },
     {
+      "slug": "avalon-technologies",
+      "name": "Avalon Technologies Ltd",
+      "master_score": 15.19,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 25.0,
+        "quality_score": null,
+        "expectation_gap_score": 2.92,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "expectation_gap_score"
+        ],
+        "weight_coverage": 0.45
+      }
+    },
+    {
       "slug": "india-pesticides-ltd",
       "name": "India Pesticides Ltd",
       "master_score": 15.19,
@@ -11862,6 +11763,87 @@
       }
     },
     {
+      "slug": "indiamart-intermesh",
+      "name": "Indiamart Intermesh",
+      "master_score": 13.89,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 44.0,
+        "quality_score": 0,
+        "expectation_gap_score": 2.92,
+        "consistency_score": null,
+        "asymmetry_score": 1.46,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "policybazaar",
+      "name": "Policybazaar",
+      "master_score": 13.89,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 44.0,
+        "quality_score": 0,
+        "expectation_gap_score": 2.92,
+        "consistency_score": null,
+        "asymmetry_score": 1.46,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "jtekt-india-driving-precision-powering-india-s-mobility-future",
+      "name": "JTEKT India: Driving Precision, Powering India\u2019s Mobility Future",
+      "master_score": 13.89,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 44.0,
+        "quality_score": 0,
+        "expectation_gap_score": 2.92,
+        "consistency_score": null,
+        "asymmetry_score": 1.46,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
       "slug": "satin-creditcare-network",
       "name": "Satin Creditcare Network Ltd",
       "master_score": 13.75,
@@ -11960,6 +11942,33 @@
         "expectation_gap_score": 0,
         "consistency_score": null,
         "asymmetry_score": 0,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "trent",
+      "name": "Trent -- A value unlocking story from the house of TATA",
+      "master_score": 12.71,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "100x-in-10-years",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 40.0,
+        "quality_score": 0,
+        "expectation_gap_score": 2.92,
+        "consistency_score": null,
+        "asymmetry_score": 1.46,
         "components_used": [
           "asymmetry_score",
           "conviction_score",

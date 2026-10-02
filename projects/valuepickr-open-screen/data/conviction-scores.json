@@ -704,7 +704,7 @@
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "quality_score": 78.0,
-    "market_cap_tier": "Small/Mid-cap (~Rs 2,251 Cr)",
+    "market_cap_tier": "Small/Mid-cap (~Rs 2,800 Cr)",
     "red_flag_tier": null,
     "source": "web-discovery",
     "score_breakdown": {
@@ -1322,51 +1322,6 @@
         "capital_allocation_track_record": "disciplined",
         "rpt_trend": "unclear",
         "shareholder_returns": "none"
-      }
-    }
-  },
-  {
-    "slug": "raghav-productivity-solutions",
-    "name": "Raghav Productivity Solutions",
-    "conviction_score": 53.25,
-    "own_conviction": 53.25,
-    "trusted_lift": 0.0,
-    "conviction": "Medium-High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 71.0,
-    "market_cap_tier": "Mid-cap (~Rs 7,950-8,000 Cr, screener.in Sept 2026)",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 53.25,
-      "trusted_lift": 0.0,
-      "base_anchor": 35,
-      "thesis_bonus": 14,
-      "quality_lift": 5.25,
-      "management_component": -1.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "unclear",
-        "capital_allocation_track_record": "unclear",
-        "rpt_trend": "rising",
-        "shareholder_returns": "initiated"
       }
     }
   },
@@ -3032,7 +2987,7 @@
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "quality_score": 77.0,
-    "market_cap_tier": "Small-cap (~Rs 2,100 Cr)",
+    "market_cap_tier": "Small-cap (~Rs 1,730 Cr)",
     "red_flag_tier": null,
     "source": null,
     "score_breakdown": {
@@ -3122,7 +3077,7 @@
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "quality_score": 75.0,
-    "market_cap_tier": "Micro/Small-cap (~Rs 1,505 Cr)",
+    "market_cap_tier": "Micro/Small-cap (~Rs 1,673 Cr)",
     "red_flag_tier": null,
     "source": null,
     "score_breakdown": {
@@ -3761,7 +3716,7 @@
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "quality_score": 34.0,
-    "market_cap_tier": "Small-cap (~Rs 2,071 Cr)",
+    "market_cap_tier": "Small-cap (~Rs 1,860.80 Cr)",
     "red_flag_tier": null,
     "source": null,
     "score_breakdown": {
@@ -4565,7 +4520,7 @@
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "quality_score": 43.0,
-    "market_cap_tier": "Small/Mid-cap (~Rs 8,700 Cr)",
+    "market_cap_tier": "Small/Mid-cap (~Rs 9,000 Cr)",
     "red_flag_tier": null,
     "source": null,
     "score_breakdown": {
@@ -4829,7 +4784,7 @@
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
     "quality_score": 38.0,
-    "market_cap_tier": "Mid-cap (~Rs 6,925 Cr)",
+    "market_cap_tier": "Mid-cap (~Rs 6,415 Cr)",
     "red_flag_tier": null,
     "source": null,
     "score_breakdown": {
@@ -6221,7 +6176,7 @@
     "conviction": "Low-Medium",
     "thesis_fit": "10x-in-2-3-years",
     "quality_score": 37.0,
-    "market_cap_tier": "Micro-cap (~Rs 390 Cr)",
+    "market_cap_tier": "Micro-cap (~Rs 496 Cr)",
     "red_flag_tier": null,
     "source": null,
     "score_breakdown": {
@@ -6569,7 +6524,7 @@
     "conviction": "Medium",
     "thesis_fit": "neither",
     "quality_score": 73.0,
-    "market_cap_tier": "Small/Mid-cap (~Rs 7,100 Cr)",
+    "market_cap_tier": "Small/Mid-cap (~Rs 7,269 Cr)",
     "red_flag_tier": null,
     "source": "trusted-x",
     "score_breakdown": {
@@ -7701,6 +7656,51 @@
         "assessment": "neutral",
         "guidance_credibility": "no-track-record",
         "capital_allocation_track_record": "neutral",
+        "rpt_trend": "rising",
+        "shareholder_returns": "initiated"
+      }
+    }
+  },
+  {
+    "slug": "raghav-productivity-solutions",
+    "name": "Raghav Productivity Solutions",
+    "conviction_score": 29.25,
+    "own_conviction": 29.25,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 71.0,
+    "market_cap_tier": "Mid-cap (~Rs 8,353 Cr, screener.in Oct 2026)",
+    "red_flag_tier": null,
+    "source": "external-lead",
+    "score_breakdown": {
+      "own_conviction": 29.25,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 5.25,
+      "management_component": -1.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "unclear",
+        "capital_allocation_track_record": "unclear",
         "rpt_trend": "rising",
         "shareholder_returns": "initiated"
       }
@@ -21980,7 +21980,7 @@
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "quality_score": 49.0,
-    "market_cap_tier": "Small-cap (~Rs 678 Cr)",
+    "market_cap_tier": "Small-cap (~Rs 700 Cr)",
     "red_flag_tier": null,
     "source": "web-discovery",
     "score_breakdown": {
