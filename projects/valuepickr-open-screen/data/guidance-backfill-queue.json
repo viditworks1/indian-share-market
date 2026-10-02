@@ -20,7 +20,7 @@
       ],
       "backfill_status": "done",
       "backfill_date": "2026-10-02",
-      "attempts": 1,
+      "attempts": 2,
       "rank": 1,
       "backfill_result": "done",
       "history": [
@@ -28,6 +28,11 @@
           "date": "2026-10-02",
           "result": "done",
           "summary": "track_record filled: years_checked=5, years_cleared=1; post-merger entity (Jul 2025), limited pre-merger public history"
+        },
+        {
+          "date": "2026-10-02",
+          "result": "done",
+          "summary": "track_record filled: 2/12 years met dual threshold (10%+ revenue growth, 15%+ ROCE). FY19 & FY25 cleared."
         }
       ]
     },
@@ -46,7 +51,7 @@
       ],
       "backfill_status": "done",
       "backfill_date": "2026-10-02",
-      "attempts": 1,
+      "attempts": 2,
       "rank": 2,
       "backfill_result": "done",
       "history": [
@@ -54,6 +59,11 @@
           "date": "2026-10-02",
           "result": "done",
           "summary": "track_record filled: years_checked=4, years_cleared=2 (FY24, FY25; revenue growth +158%/+40%, ROCE 67%/28%)"
+        },
+        {
+          "date": "2026-10-02",
+          "result": "done",
+          "summary": "track_record filled: 3/6 years met dual threshold (10%+ revenue growth, 15%+ ROCE). FY24, FY25, FY26 cleared. Only 6 years available (Mar 2021-2026); youngest company on light-lane queue."
         }
       ]
     },
@@ -128,10 +138,18 @@
         "quality_metrics",
         "track_record"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 6
+      "backfill_status": "done",
+      "backfill_date": "2026-10-02",
+      "attempts": 1,
+      "rank": 6,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "result": "done",
+          "summary": "quality_metrics + track_record marked N/A: thematic basket entry (5 companies). Individual company assessments belong on ACME Solar, KPI Green, Pace Digitek, Enviro Infra, Inox Wind entries, where 4/5 already have dedicated files."
+        }
+      ]
     },
     {
       "slug": "gokaldas-exports",

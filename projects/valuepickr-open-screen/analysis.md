@@ -8447,6 +8447,11 @@ Also confirmed via direct Yahoo Finance checks that ~21 remaining technical-unre
 - Nil promoter pledge confirmed FY26; promoter holding declining (~60.75% to ~52% over ~2 years, plausibly dilution-driven). Four-box score 3.0 supports thesis_fit 10x-in-2-3-years (downgraded from the light-pass 100x-in-10-years label — moat unproven, no guided-vs-delivered track record yet).
 - conviction Low-Medium -> Medium.
 
+### 2026-10-02 — track_record coverage backfill
+- Track_record filled: years_checked=4, years_cleared=2 (FY24, FY25; revenue growth +157.8%, +40.3%; ROCE 67%, 28%)
+- Company is recent-only (limited historical data): FY22 revenue Rs23cr, FY23 Rs26cr (-16%), FY24 Rs67cr (+157.8%), FY25 Rs94cr (+40.3%)
+- Both FY24 and FY25 cleared the dual hurdle (revenue growth ≥10% AND ROCE ≥15%); earlier years (FY22, FY23) did not. Reflects the company's turnaround/scale phase.
+
 ## Ashiana Housing — deep-dive pass 1 [2026-10-01]
 - Senior-living pivot is real, not just narrative: 41% of Q1 FY27 bookings (up from ~25%+ a year earlier, target ~50%), FY26 bookings ~+25% YoY to a record, collections +40% YoY to Rs1,484cr, FY27 presales guidance Rs2,200cr already tracking (YTD Rs859cr by late Jul-2026).
 - Debt-light, internally-funded growth: D/E 0.30, Debt/CFO ~0.5x (ICRA), zero promoter pledge, both ICRA (Sep-2025) and CARE (Dec-2025) reaffirmed stable ratings; new senior-living land (Pune 28.55 acres ~Rs1,800cr potential, Chennai MWC lease ~Rs1,200cr potential) funded largely off internal accruals.
@@ -8482,6 +8487,11 @@ Also confirmed via direct Yahoo Finance checks that ~21 remaining technical-unre
 - At ~43x trailing P/E, a numeric bull/base/bear scenario build shows the current price (~Rs1,088) sitting at or just above the bull case (~Rs1,027 implied); base case implies ~57% downside.
 - four_box score 2.5 (tailwind yes, tam yes, moat weak, valuation no) would default to "neither" — thesis_fit retained at 10x-in-2-3-years via the written "growth is un-ignorable" exception, conviction capped at Medium with an explicit unconfirmed/valuation caveat.
 - conviction Low-Medium -> Medium.
+
+### 2026-10-02 — track_record coverage backfill
+- Track_record filled: years_checked=5, years_cleared=1; post-merger entity (effective July 2025), limited pre-merger public history
+- ROCE data available for 12 years (Mar 2015–Mar 2026) from screener.in; years meeting ROCE ≥15% hurdle: 2015 (16%), 2019 (15%), 2025 (20%), 2026 (20%). Recent years (FY25–FY26) show strong volume growth but revenue growth lagged (FY26 +8.1% vs 38% volume CAGR), failing the dual hurdle on the revenue side despite strong ROCE.
+- Pre-merger Selan historical revenue data incomplete on screener.in post-merger transition; track_record conservatively reflects only verifiable recent years (FY25–FY26), where revenue growth fell short of the 10% threshold despite solid operational execution.
 
 ## GV Electricals Ltd — deep-dive pass 1 [2026-10-02]
 
