@@ -465,4 +465,3 @@ Generated: 2026-10-02
 | Gayatri Rubbers | 2026-10-02 | 2026-11-01 | AVOID |
 | Nisus Finance | 2026-10-02 | 2026-11-01 | Low-Medium |
 | Prudent Corp | 2026-10-02 | 2026-11-01 | Low |
-| Sigachi Industries Limited | 2026-10-02 | 2026-11-01 | Low |

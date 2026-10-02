@@ -21,7 +21,6 @@ Generated: 2026-10-02
 | Stock | Due on | Conviction |
 |---|---|---|
 | Hitachi Energy India Ltd | 2026-10-26 | Medium-High |
-| Thyrocare : Debt free Asset Light Healthcare Play | 2026-10-28 | Medium-High |
 
 ---
 

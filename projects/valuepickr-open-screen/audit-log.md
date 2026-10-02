@@ -438,3 +438,21 @@ active_themes.json: as_of -> 2026-09-09, 29 -> 31 themes (construction-equipment
 - **EPACK Durable duplicate merge:** `epack-durable` (topic_id 224828, reply_count 0, highest_post_number 1, no data file, stale unreconciled `thesis_fit: 10x-in-2-3-years` on the old numeric four_box format) merged into canonical `e` (topic_id 160492, "E-pack durables", reply_count 12, highest_post_number 36, real `data/e.json` with the freshly-researched `four_box`/`thesis_fit: neither` from this session's earlier pass) — same canonical-choice logic `audit_state.py`'s Step 4 uses for same-topic_id dupes (status tier tied, completeness tiebreak favors `e`). No `SIGNAL_FIELDS` (source/source_detail/trusted_conviction_strength) on the loser to carry over. Registry: 970 → 969. (Note: `e` is an ugly single-letter slug — a topic-slug-parsing artifact — but renaming it now touches more surfaces than the duplicate fix asked for; left as-is, flagged for awareness only.)
 - **Yash Pakka governance flag actioned:** set `red_flag_tier: "HIGH CAUTION"` (76.9% promoter pledge — same bar already used for `the-leela-palaces...`'s ~76% pledge and `kronox-lab-sciences`'s promoter-stake-sale precedent in this registry) and capped `conviction: "Low-Medium"` (was Medium) per the HIGH CAUTION rule in `DEEPDIVE_QUICKREF.md` ("keep researching, cap conviction Low-Medium, name the concern"). `notes_short` now names the concern explicitly. `thesis_fit` (`100x-in-10-years`, confirmed via real four_box in the earlier pass) is unchanged — HIGH CAUTION doesn't force `neither`, that's AVOID/EXCLUDE only.
 - Post-fix refresh: `refresh_derived.py --scores`, `regen_lists.py` (skip-list 552), `build_max_returns_ranking.py`+`make_max_returns_ranking.js` (861/93, of 954 researched — down from 863/92/955 after the merge), `make_final_ranking.js` re-run. `audit_state.py` re-confirmed clean: 0 FOUR-BOX mismatches, trust_tier sanity clean.
+
+### 2026-10-02
+- state hygiene: 303 issues found, 2 auto-fixed (1 duplicate topic_id merge: sigachi-industries; 1 revisit_after_30d fix: thyrocare). Registry 1047 total. 21 researched stocks missing `last_post_number_analyzed` entirely — not auto-fixed, vpscreen-scan will fall back to first-time-read. Unrecognized status/thesis_fit values: 7 entries reported, not auto-fixed. trust_tier sanity clean.
+- conviction scores: refreshed via refresh_derived.py --scores.
+- recency: 95 stale calls flagged (weight < 0.25, not superseded) of 273 scanned — stable/consistent with 09-09.
+- permissions: 175 total, 15 wildcard, 0 redundant — clean.
+- rate-limit compliance: 0 unpaced forum requests — clean.
+- structural: clean.
+- screen dimensions: unclassified=293 (risen from 96 on 09-09) — likely backlog buildup from scan/rerank + triage. Distribution: size=142, long_term_fundamentals=73, governance=47, thesis=33, no_thread=25, technicals=17, recent_fundamentals=14, valuation=9. 0 MIS-SCREEN flagged. Flag: watch whether vpscreen-rerank is authoring blocks faster than backlog grows.
+- four-box: 1 mismatch understated (thyrocare), 21 missing (deepdive-top100 backfills new). Coverage: 827 have block / 21 missing. Analyst_override blocks: 36 names kept 'neither' deliberately (size/return-magnitude calls).
+- trusted-thread backlog: clean.
+- cross-project duplicates: 5 spot-checks clean.
+- trusted users: 319 total, 0 promoted, roster stable.
+- analysis.md: 1005 KB, no archival (age threshold not met).
+- registry size: 1047 total, 827 researched, 220 candidate.
+- x-handles: 103/103 triaged · **SCOPE COMPLETE (2026-09-13) — safe to DELETE x-handle-triage task.** x-handle-ranking continues steady-state weekly.
+- four-box-backfill: 21 backlog · **SCOPE COMPLETE (2026-09-05) — safe to DELETE this task.** deepdive-top100 continues writing blocks for new research.
+- routine token-opt: all 12 stock routines skimmed. Result: **clean — nothing safe to cut** (prior 2026-09-09 pass already stripped redundancy; remaining prose is operational; bigger wins require structural change). Noted: deepdive-top100 `description` still says "3x/day" (stale metadata).
