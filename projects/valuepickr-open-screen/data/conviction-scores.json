@@ -22140,45 +22140,6 @@
     }
   },
   {
-    "slug": "v",
-    "name": "V-guard",
-    "conviction_score": 12.53,
-    "own_conviction": 8.0,
-    "trusted_lift": 4.53,
-    "conviction": "Low",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Large-cap (~Rs 14,450 Cr)",
-    "red_flag_tier": null,
-    "source": "web-discovery",
-    "score_breakdown": {
-      "own_conviction": 8.0,
-      "trusted_lift": 4.53,
-      "base_anchor": 8,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 4.53,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 4.53,
-        "pos_raw": 4.53,
-        "pos_capped": 4.53,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 2,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "ghcl-textiles",
     "name": "GHCL Textiles Ltd",
     "conviction_score": 12.0,
@@ -22554,45 +22515,6 @@
     }
   },
   {
-    "slug": "eris-lifesciences",
-    "name": "Eris Lifesciences",
-    "conviction_score": 11.3,
-    "own_conviction": 8.0,
-    "trusted_lift": 3.3,
-    "conviction": "Low",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Large-cap (~Rs 18,407 Cr)",
-    "red_flag_tier": null,
-    "source": "web-discovery",
-    "score_breakdown": {
-      "own_conviction": 8.0,
-      "trusted_lift": 3.3,
-      "base_anchor": 8,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 3.3,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 3.3,
-        "pos_raw": 3.3,
-        "pos_capped": 3.3,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "veefin-solutions",
     "name": "Veefin Solutions",
     "conviction_score": 11.3,
@@ -22790,6 +22712,45 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "v",
+    "name": "V-guard",
+    "conviction_score": 11.21,
+    "own_conviction": 8.0,
+    "trusted_lift": 3.21,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Large-cap (~Rs 14,450 Cr)",
+    "red_flag_tier": null,
+    "source": "web-discovery",
+    "score_breakdown": {
+      "own_conviction": 8.0,
+      "trusted_lift": 3.21,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 3.21,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 3.21,
+        "pos_raw": 3.21,
+        "pos_capped": 3.21,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 2,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
       "management_quality": null
     }
   },
@@ -23769,6 +23730,45 @@
     "thesis_fit": "neither",
     "quality_score": null,
     "market_cap_tier": "Small/Mid-cap (~Rs 3,860 Cr)",
+    "red_flag_tier": null,
+    "source": "web-discovery",
+    "score_breakdown": {
+      "own_conviction": 8.0,
+      "trusted_lift": 1.98,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 1.98,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 1.98,
+        "pos_raw": 1.98,
+        "pos_capped": 1.98,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "eris-lifesciences",
+    "name": "Eris Lifesciences",
+    "conviction_score": 9.98,
+    "own_conviction": 8.0,
+    "trusted_lift": 1.98,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Large-cap (~Rs 18,407 Cr)",
     "red_flag_tier": null,
     "source": "web-discovery",
     "score_breakdown": {

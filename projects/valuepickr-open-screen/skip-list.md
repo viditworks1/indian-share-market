@@ -2,49 +2,10 @@
 
 Stocks analyzed recently enough that their thread should NOT be re-opened by the scan job yet, regardless of new forum activity. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-10-01
+Generated: 2026-10-02
 
 | Stock | Last analyzed | Eligible again on | Conviction |
 |---|---|---|---|
-| Apsis Aerocom Ltd | 2026-09-02 | 2026-10-02 | Low |
-| Aimtron Electronics Ltd (EMS China+1 Global Play) | 2026-09-02 | 2026-10-02 | Low-Medium |
-| Zaggle_A platform to address pain points for enterprises | 2026-09-02 | 2026-10-02 | Low |
-| Oriana Power | 2026-09-02 | 2026-10-02 | Low |
-| Veefin Solutions | 2026-09-02 | 2026-10-02 | Low |
-| Websol energy system ltd | 2026-09-02 | 2026-10-02 | Low |
-| EPACK PREFAB TECHNOLOGIES (A Rising Star) | 2026-09-02 | 2026-10-02 | Low |
-| COSMIC CRF LIMITED | 2026-09-02 | 2026-10-02 | Low-Medium |
-| Marine Electricals: Riding the Waves of Expansion | 2026-09-02 | 2026-10-02 | Medium |
-| V-Marc India Ltd | 2026-09-02 | 2026-10-02 | Low |
-| ABS Marine Services Ltd | 2026-09-02 | 2026-10-02 | Low-Medium |
-| CarTrade Tech Ltd | 2026-09-02 | 2026-10-02 | Medium |
-| Sathlokhar Synergys E&C Global Ltd | 2026-09-02 | 2026-10-02 | Low |
-| Chamunda Electricals Ltd | 2026-09-02 | 2026-10-02 | Low-Medium |
-| Solarium Green Energy Ltd | 2026-09-02 | 2026-10-02 | Low |
-| Eco Recycling Ltd (Ecoreco) | 2026-09-02 | 2026-10-02 | Low |
-| Kirloskar Pneumatic Co Ltd (KPCL) | 2026-09-02 | 2026-10-02 | Medium |
-| Bondada Engineering Ltd | 2026-09-02 | 2026-10-02 | Low-Medium |
-| Servotech Renewable Power Ltd (erst. Servotech Power Systems) | 2026-09-02 | 2026-10-02 | Low |
-| Exhicon Events Media Solutions Ltd | 2026-09-02 | 2026-10-02 | Low |
-| KP Green Engineering Ltd | 2026-09-02 | 2026-10-02 | Low-Medium |
-| KP Energy Ltd | 2026-09-02 | 2026-10-02 | Low-Medium |
-| Ceigall India Ltd | 2026-09-02 | 2026-10-02 | Medium |
-| Safe Enterprises Retail Fixtures Ltd | 2026-09-02 | 2026-10-02 | Low-Medium |
-| Kaka Industries Ltd | 2026-09-02 | 2026-10-02 | Low-Medium |
-| Insolation Energy Ltd | 2026-09-02 | 2026-10-02 | Low |
-| Viviana Power Tech Ltd | 2026-09-02 | 2026-10-02 | Low |
-| Travel Food Services Ltd | 2026-09-02 | 2026-10-02 | Medium |
-| Sat Kartar Life Ltd | 2026-09-02 | 2026-10-02 | Low |
-| Winsol Engineers Ltd | 2026-09-02 | 2026-10-02 | Low |
-| KRM Ayurveda Ltd | 2026-09-02 | 2026-10-02 | Low-Medium |
-| Kilburn Engineering Ltd | 2026-09-02 | 2026-10-02 | Low-Medium |
-| Arham Technologies Ltd | 2026-09-02 | 2026-10-02 | Low |
-| Sonu Infratech Ltd | 2026-09-02 | 2026-10-02 | Low |
-| Maxvolt Energy Industries Ltd | 2026-09-02 | 2026-10-02 | Low |
-| Zelio E-Mobility Ltd | 2026-09-02 | 2026-10-02 | Low |
-| AVG Logistics Ltd | 2026-09-02 | 2026-10-02 | Low |
-| Greenlam Industries Ltd | 2026-09-02 | 2026-10-02 | Low-Medium |
-| RACL Geartech | 2026-09-02 | 2026-10-02 | Low-Medium |
 | Premier Explosives Ltd | 2026-09-03 | 2026-10-03 | Low-Medium |
 | Solar Industries India Ltd | 2026-09-03 | 2026-10-03 | Medium |
 | Desco Infratech Ltd | 2026-09-03 | 2026-10-03 | Low-Medium |
