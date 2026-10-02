@@ -232,10 +232,18 @@
       "missing": [
         "market_expectation"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 9
+      "backfill_status": "done",
+      "backfill_date": "2026-10-02",
+      "attempts": 1,
+      "rank": 9,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "result": "done",
+          "summary": "Filled market_expectation + management_guidance + guidance_history; 10-12% revenue growth guidance, 33% EBITDA target, 16% deferred revenue growth visibility"
+        }
+      ]
     },
     {
       "slug": "jtekt-india-driving-precision-powering-india-s-mobility-future",
@@ -268,10 +276,18 @@
       "missing": [
         "market_expectation"
       ],
-      "backfill_status": "pending",
-      "backfill_date": null,
-      "attempts": 0,
-      "rank": 11
+      "backfill_status": "done",
+      "backfill_date": "2026-10-02",
+      "attempts": 1,
+      "rank": 11,
+      "backfill_result": "done",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "result": "done",
+          "summary": "Earnings Q1 FY27 (1888 cr revenue, 51% CAGR); IRDAI commission cuts proposed Sep 2026 (10% cut = 10-12% earnings impact); insurance growth 40% YoY, health 60%, online protection 44%; management targets 15%+ PAT margin by FY28"
+        }
+      ]
     },
     {
       "slug": "trent",

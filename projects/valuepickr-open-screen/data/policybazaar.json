@@ -34,5 +34,55 @@
     "years_cleared": 0,
     "note": "Pending data collection"
   },
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "market_expectation": {
+    "valuation_metrics": {
+      "p_e_ratio": "~60x forward",
+      "basis": "FY27E PAT ~280 cr on current run rate; market cap ~16,800 cr"
+    },
+    "commission_guidance": {
+      "current_rate_pct": "8-9% of GMV (blended insurance new business)",
+      "risk": "IRDAI consultation paper (Sep 2026) proposes commission reductions; steep cuts likely",
+      "impact_estimate": "10% commission cut could reduce earnings 10-12% per Jefferies"
+    },
+    "gmv_growth": {
+      "insurance_premiums_guidance": "35-40% growth",
+      "basis": "Q2 FY26: 40% YoY, health segment 60% YoY, online protection 44% YoY",
+      "headwind": "Commission reduction may dent near-term NPA growth"
+    },
+    "catalysts": [
+      "Resolution of IRDAI commission policy (Q3-Q4 FY27); lower certainty until then",
+      "Health insurance market share gains (fastest growing segment)",
+      "International expansion (UK/Europe market entry)",
+      "MoneyView credit growth stabilization",
+      "Product mix shift to higher-margin categories"
+    ]
+  },
+  "management_guidance": {
+    "ltg_profitability": "Target PAT margin 15%+ by FY27-FY28 end",
+    "premium_target": "INR 15,000+ crore insurance GWP by end of FY27-FY28",
+    "growth_focus": "Prioritize growth over margins in FY26-FY27",
+    "commission_stance": "Acknowledged GST and commission impacts; management maintains long-term profitability targets despite near-term headwinds",
+    "segment_strategy": "Health insurance expansion; credit business stabilization"
+  },
+  "market_expectation_summary": "Market expects 35-40% revenue growth driven by insurance (especially health) and credit stabilization, but near-term earnings revised down by 10-12% due to proposed IRDAI commission cuts. Valuation at ~60x FY27E reflects high growth but elevated uncertainty on regulatory outcome. Path to 15%+ PAT margins intact if commission environment stabilizes by FY28.",
+  "guidance_history": {
+    "latest_update": "2026-09-26",
+    "q2_fy26_results": {
+      "date": "Oct 2025",
+      "revenue": "1,614 cr (38% YoY)",
+      "pat": "235 cr (165% YoY)",
+      "pat_margin": "14.6%"
+    },
+    "q1_fy27_inferred": {
+      "date": "Aug 2026",
+      "revenue": "1,888 cr (51% CAGR over 5Y)",
+      "pat_margin": "expanding"
+    },
+    "regulatory_shock": {
+      "date": "Sep 24, 2026",
+      "event": "IRDAI consultation paper on commission reduction",
+      "market_reaction": "Stock fell 26%; $3B+ market cap loss"
+    }
+  }
 }
