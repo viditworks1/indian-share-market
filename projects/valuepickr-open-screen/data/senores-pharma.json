@@ -5,7 +5,7 @@
   "fundamentals_table": [
     [
       "Market Cap",
-      "Rs 6,925 Cr (price ~Rs 1,504)"
+      "Rs 6,415 Cr (price ~Rs 1,417)"
     ],
     [
       "ROCE / ROE",
@@ -13,7 +13,7 @@
     ],
     [
       "Stock P/E",
-      "~54.8x trailing; ~33-35x on FY27 PAT if 50-60% growth guidance is met; P/B ~7.4x"
+      "~47.5x trailing; ~27.1x forward; ~29-31x on FY27 PAT if 50-60% growth guidance is met; P/B ~6.4x"
     ],
     [
       "Revenue / PAT (FY24 -> FY26)",
@@ -29,11 +29,11 @@
     ],
     [
       "52-week range",
-      "Rs 662 - 1,574 (currently near the high)"
+      "Rs 685 - 1,600 (recovered ~10% from Sep highs, still in upper half of range)"
     ]
   ],
   "fundamentals_narrative": "Genuinely exceptional topline execution: revenue nearly tripled FY24->FY26 (Rs 215 Cr -> Rs 633 Cr), PAT nearly quadrupled (Rs 33 Cr -> Rs 122 Cr), OPM expanded from 19% to 27%, and management has beaten its own aggressive guidance for multiple consecutive quarters (FY26 guided 50%/100% topline/bottomline growth, both exceeded). FY27 guidance reiterated at 30-40% revenue and 50-60% PAT growth 'with a similar trajectory thereafter'. The catch is quality and price: FY26 free cash flow was roughly -Rs 203 Cr as capex and working capital (debtor days ~187) absorbed the profits, borrowings rose to Rs 342 Cr, ROCE is only ~15%, there is no dividend, and the stock trades at ~55x trailing earnings near its 52-week high after a ~130% one-year re-rating. Q1 FY27 was strong YoY but roughly flat sequentially with a QoQ dip in the Emerging Market EBITDA margin (20% -> 14%).",
-  "technical_read": "Not checked this pass; stock near 52-week high after ~130% 1-yr move.",
+  "technical_read": "2026-10-02: Price recovered to Rs 1,417 (Sep 30 close) after dipping ~6% in late Sep; still ~12% below Sep 18-29 high of Rs 1,600; remains in upper half of 52-week range (Rs 685-1,600). P/E compressed to 47.5x from 54.8x as Sep-end close improved earnings estimates.",
   "sentiment_summary": "Read most recent 50 of only 20 posts fetched (thread activity is light but consistently positive; no escalation triggered).",
   "community_signal": "No trusted-roster users posted in this thread. Chandan_Sharma posted detailed, credible concall summaries for both Q4 FY26 (co outperformed its own 50%/100% topline/bottomline guidance, regulated markets 64% of revenue via the Apnar acquisition, turned CFO-positive with Rs 62 Cr) and Q1 FY27 (36% revenue growth, 56% PAT growth, 7 new ANDA approvals taking total to 58, FY27 growth guidance reiterated). hitesh_gangwani (Jun 2026) disclosed a small personal buy with an appropriate non-advisory disclaimer -- a minor positive-sentiment data point, not a substantive thesis contribution.",
   "trusted_signals": [],
@@ -173,20 +173,20 @@
     ]
   },
   "market_expectation": {
-    "as_of": "2026-09-08",
-    "price": 1504,
-    "current_pe": 54.8,
+    "as_of": "2026-10-02",
+    "price": 1417,
+    "current_pe": 47.5,
     "current_ev_ebitda": null,
     "valuation_tool": "P/E",
-    "implied_growth_cagr": "~55x trailing needs roughly 35-40% EPS CAGR FY26->FY28 to be fair against a ~28-30x high-growth-pharma exit multiple -- close to what management guides, so the market is pricing the guidance being substantially met",
-    "our_fy27_estimate": "Revenue Rs 820-880 Cr (+30-40%), PAT Rs 185-210 Cr (+50-60%) if guidance holds; forward P/E ~33-37x",
-    "our_fy28_estimate": "PAT Rs 280-320 Cr on a similar trajectory -> ~22-25x on today's price; sharply lower if FCF stress forces an equity raise or growth slows",
+    "implied_growth_cagr": "~47.5x trailing needs roughly 30-35% EPS CAGR FY26->FY28 to be fair against a ~28-30x high-growth-pharma exit multiple -- still close to management's 50-60% PAT guidance, suggesting continued re-rating if delivery holds",
+    "our_fy27_estimate": "Revenue Rs 820-880 Cr (+30-40%), PAT Rs 185-210 Cr (+50-60%) if guidance holds; forward P/E ~27.1x (per yfinance)",
+    "our_fy28_estimate": "PAT Rs 280-320 Cr on a similar trajectory -> ~19-22x on today's price; valuation more reasonable than Aug-Sep highs but still depends on flawless execution and FCF improvement",
     "gap_direction": "priced-in",
     "gap_type": "duration",
     "gap_magnitude_pct": null,
-    "gap_basis": "Our FY27-28 path roughly equals what a ~55x trailing multiple already requires; the debate is durability past FY28 and cash conversion, not near-term earnings level",
+    "gap_basis": "Sep dip cut P/E from 54.8x to 47.5x trailing, bringing it closer to fair value for the guidance path; the debate remains durability past FY28 and working-capital/debt management, not near-term earnings level",
     "evidence_quality": "moderate",
-    "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
+    "data_caveat": "yfinance trailing/forward P/E as of Oct 2; no broker consensus; implied path is reverse-P/E estimate + forward multiple + VP thread view"
   },
   "catalyst": {
     "event": "Two consecutive quarters delivering the guided PAT growth with free cash flow turning positive and the Emerging Market EBITDA margin recovering toward 18-20%",

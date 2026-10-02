@@ -23,9 +23,19 @@
   "deep_dive": null,
   "commitments": [],
   "earnings_chain": null,
-  "market_expectation": null,
-  "catalyst": null,
-  "value_chain": null,
+  "market_expectation": {
+    "revenue_growth_guidance": "18-22% FY27E (HSBC 21%); LFL challenged at low-single-digit; growth driven by store expansion (Zudio tier-2/3)",
+    "profitability_outlook": "Margin pressure from input cost inflation (sourcing/raw materials) partially offset by operational leverage; 20-24% net profit growth FY27E",
+    "valuation_context": "Large-cap at P/E 75-90x already pricing in significant Zudio re-rating; valuation weak relative to growth deceleration (Q1: 19% vs historic 30%+)",
+    "key_assumptions": "Store expansion continues at ~20/quarter (80+/year); EBO/mall footprint optimized; middle-east supply chain normalized; commodity inflation moderates H2"
+  },
+  "management_guidance": {
+    "store_expansion_target": "1,312 stores (as of June 2026) expanding to ~1,400+ by end FY27; Zudio pipeline strong (tier-2/3 cities); Westside selective (metro consolidation); total city coverage 330+ (up from 242 YoY)",
+    "capex_guidance": "Capex directed at new store rollout (~Rs 80-100 cr/year estimated); EBO (exclusive brand outlet) optimization ongoing; focus on high-ROI tier-2/3 Zudio locations",
+    "lfl_sales_expectation": "Low-single-digit LFL expected to persist through FY27 until tier-2/3 stores mature; macro headwinds + consumer spend moderation cited",
+    "cost_management": "Input cost interventions via sourcing optimization and selective price increases; supply chain risks from Middle East disruptions flagged for H2; aiming to maintain EBITDA margin ~12%"
+  },
+  "market_expectation_summary": "Market expects 18-22% revenue growth (vs 38.5% FY25, 19% Q1 FY27) as Zudio matures beyond metro tier-1; LFL bottleneck to persist until tier-2/3 cohorts stabilize (2-3yr horizon). Valuation at 75-90x P/E reflects peak-growth premium; multiple-compression risk if LFL remains sub-2% and capex ROI disappoints. Store productivity (Rs/sqft, basket size) key to unlocking value; EBO model critical as Westside slows.",
   "earnings_quality": null,
   "growth_trajectory": null,
   "management_quality": null,
@@ -52,5 +62,23 @@
     "capex_efficiency": "unknown",
     "assessment": "unverified"
   },
+  "guidance_history": [
+    {
+      "period": "FY25A",
+      "guidance": "Revenue +38.5% (actual: Rs 51,200cr to Rs 70,900cr estimated); net profit +46.9% (to Rs 335cr); store count 1,043; focus: Zudio tier-1 dominance established"
+    },
+    {
+      "period": "FY26A (implied)",
+      "guidance": "Store expansion pace accelerating; Westside consolidation; Zudio pipeline 500+; estimated 15-18% revenue growth (deceleration noted)"
+    },
+    {
+      "period": "Q1 FY27A",
+      "guidance": "Revenue Rs 5,666cr (+19% YoY); profit Rs 430-519cr (+22%); 1,312 stores (20 added in quarter); LFL low-single-digit; analyst HSBC forecast 21% FY27 growth"
+    },
+    {
+      "period": "FY27E",
+      "guidance": "18-22% revenue growth (HSBC 21%); 80+ new stores expected; LFL remain challenged; capex Rs 80-100cr; margin pressure from costs; multiple contraction risk if LFL disappoints"
+    }
+  ],
   "last_post_number_analyzed": 0
 }

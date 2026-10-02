@@ -3008,7 +3008,7 @@
       "deepdive_status": "pending",
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-04",
-      "pre_deepdive_conviction": "Medium-High",
+      "pre_deepdive_conviction": "Medium",
       "post_deepdive_conviction": "Medium",
       "history": [
         {
@@ -3017,6 +3017,14 @@
           "pre": "Medium-High",
           "post": "Medium",
           "summary": "FY26 improved the thesis (growth accelerated to +41%) but valuation (~61x) + thin disclosure cap it; four_box 2.5, Medium-High->Medium, 10x retained on un-ignorable growth"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-02",
+          "pre": "Medium",
+          "post": "Medium",
+          "summary": "Technicals-only touch: market repricing downward (13W -14.3%, RS vs Nifty -11.3%) narrows valuation multiple from 61x to 48x; conviction unchanged but margin of safety improved",
+          "mode": "technicals_only"
         }
       ],
       "in_active_pool": true,
@@ -4396,6 +4404,14 @@
           "pre": "Medium",
           "post": "Medium",
           "summary": "Recovery: Senores was already fully enriched for pass 1 (deep_dive dated 2026-09-08 present). Verified + docx regen only. Exceptional 2-yr topline (revenue ~3x, PAT ~4x) but FY26 FCF ~-Rs 203cr, rising debt, ROCE ~15%, ~55x P/E near 52wk high -> four_box 2.5, 10x label via growth carve-out, convicti"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-02",
+          "pre": "Medium",
+          "post": "Medium",
+          "summary": "Technicals refresh: P/E compression to 47.5x, 52-week range Rs 685-1,600",
+          "mode": "technicals_only"
         }
       ],
       "in_active_pool": true,

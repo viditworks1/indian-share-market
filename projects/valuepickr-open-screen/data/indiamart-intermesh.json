@@ -34,5 +34,70 @@
     "years_cleared": 0,
     "note": "Pending data collection"
   },
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "market_expectation": {
+    "revenue_growth_guidance_pct": "10-12",
+    "ebitda_margin_guidance_pct": "33",
+    "deferred_revenue_growth_pct": "16",
+    "user_growth_metric": "Supplier storefronts 8.8M (+5% YoY), paying suppliers 218K",
+    "key_catalysts": [
+      "Deferred revenue base of Rs 2,014 Cr provides 16% YoY growth visibility",
+      "AI-driven marketplace improvements (standardized cataloging, intelligent matchmaking)",
+      "Expansion of Busy Infotech subscription (+47% revenue growth in Q1 FY27)",
+      "Customer collections growing at 8% YoY (lagging supplier growth)",
+      "Strong cash generation (Rs 163 Cr operating CF in Q1) and balance sheet (Rs 3,553 Cr cash)"
+    ],
+    "commentary": "Market expects normalization to 10-12% revenue growth post-18% CAGR (FY23-FY26). Margin guidance of ~33% EBITDA reflects optimization focus; FY27 Q1 achieved 40% standalone margin. Deferred revenue at 2,014 Cr (+16% YoY) indicates accelerating subscription realization. Main headwind: supplier monetization growth (8% collections) lags marketplace expansion (5% storefronts), suggesting room to deepen unit economics."
+  },
+  "management_guidance": {
+    "q1_fy27_performance": {
+      "revenue_cr": 414,
+      "revenue_growth_pct": 11,
+      "standalone_revenue_cr": 376,
+      "standalone_growth_pct": 9,
+      "ebitda_margin_pct_standalone": 40,
+      "ebitda_margin_pct_consolidated": 35,
+      "net_profit_cr": 172,
+      "operating_cashflow_cr": 163,
+      "deferred_revenue_cr": 2014,
+      "deferred_revenue_growth_pct": 16
+    },
+    "forward_guidance": {
+      "revenue_growth_target_pct": "10-12",
+      "ebitda_margin_target_pct": "33",
+      "strategic_priorities": [
+        "Sustainable growth focused on marketplace quality and trust",
+        "AI deployment for user experience and operational efficiency",
+        "Monetization of buyer base and subscription services",
+        "Expansion of Busy and SuperProcure verticals"
+      ]
+    },
+    "unit_economics": {
+      "supplier_storefronts_millions": 8.8,
+      "supplier_growth_pct": 5,
+      "paying_suppliers_thousands": 218,
+      "customer_collections_cr": 463,
+      "collections_growth_pct": 8,
+      "unique_business_enquiries_millions": 26
+    }
+  },
+  "market_expectation_summary": "Indiamart guided for 10-12% revenue growth and ~33% EBITDA margins in FY27, a normalization from 18%+ historical growth. Market focus is on monetization efficiency (deferred revenue up 16% YoY implies higher subscription realization) and managing the gap between supply-side (storefronts +5%) and demand-side (collections +8%) growth. Strong 3,553 Cr cash balance and 163 Cr quarterly operating CF provide flexibility. Key watch: ability to sustainably grow both transaction volumes and margin profile, particularly as buyer monetization (OTP verification ~22-32% adoption) gains traction.",
+  "guidance_history": [
+    {
+      "period": "Q1 FY2027",
+      "date": "2026-07-21",
+      "revenue_guidance": "Targeting 10-12% annual revenue growth (stated in Q1 earnings call)",
+      "margin_guidance": "EBITDA margin target ~33% (vs 40% standalone achieved in Q1)",
+      "growth_drivers": "Deferred revenue +16% YoY, customer collections +8% YoY, supplier storefronts +5% YoY",
+      "commentary": "Q1 beat guidance expectations with 11% growth and 40% margin. Deferred revenue growth (16% YoY) outpacing revenue recognition (11% YoY) indicates accelerating subscription uptake. Collections lagging storefront growth suggests monetization headroom."
+    },
+    {
+      "period": "FY2026 Full Year",
+      "date": "2026-06-30",
+      "revenue_guidance": "Completed 13% YoY growth (Rs 1,569 Cr consolidated)",
+      "margin_guidance": "Maintained 35-40% EBITDA margin range",
+      "growth_drivers": "Consistent profitability with strong cash generation; Busy Infotech acquisition contributing to consolidated results",
+      "commentary": "Strong baseline for forward guidance; company transitioned to sustainable growth phase."
+    }
+  ]
 }

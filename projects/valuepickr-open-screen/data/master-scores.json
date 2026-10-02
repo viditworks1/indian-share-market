@@ -4035,6 +4035,34 @@
       }
     },
     {
+      "slug": "influx-health",
+      "name": "influx-health",
+      "master_score": 30.41,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 2,
+        "note": "FY24-FY26 (company financials; screener 10y table login-gated this pass): debt-free ~40%-ROCE model so ROCE >=15% every year. Revenue Rs 76cr (FY23) -> 100 (+32%, FY24) -> 105 (+5%, FY25) -> 147 (+40%, FY26). Both metrics cleared FY24 and FY26 = 2 of 3; FY25 missed on the +5% flat year."
+      },
+      "score_breakdown": {
+        "conviction_score": 2.25,
+        "quality_score": 59.0,
+        "expectation_gap_score": 3.63,
+        "consistency_score": 67,
+        "asymmetry_score": 28.82,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "sri-lotus-developers",
       "name": "Sri Lotus Developers",
       "master_score": 30.38,
@@ -4194,34 +4222,6 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
-      }
-    },
-    {
-      "slug": "influx-health",
-      "name": "influx-health",
-      "master_score": 29.85,
-      "red_flag_tier": null,
-      "conviction": null,
-      "thesis_fit": null,
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 2,
-        "note": "FY24-FY26 (company financials; screener 10y table login-gated this pass): debt-free ~40%-ROCE model so ROCE >=15% every year. Revenue Rs 76cr (FY23) -> 100 (+32%, FY24) -> 105 (+5%, FY25) -> 147 (+40%, FY26). Both metrics cleared FY24 and FY26 = 2 of 3; FY25 missed on the +5% flat year."
-      },
-      "score_breakdown": {
-        "conviction_score": 0,
-        "quality_score": 59.0,
-        "expectation_gap_score": 3.63,
-        "consistency_score": 67,
-        "asymmetry_score": 28.82,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
       }
     },
     {
