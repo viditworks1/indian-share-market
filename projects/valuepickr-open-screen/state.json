@@ -10,7 +10,7 @@
     "last_ranking_date": "2026-10-01",
     "discovery_theme_index": 3,
     "discovery_mode": "web-news-first",
-    "last_updated": "2026-10-01",
+    "last_updated": "2026-10-02",
     "last_ranking_timestamp": "2026-10-01T14:57:53.755443Z",
     "last_confluence100_refresh": "2026-10-01"
   },
@@ -11812,7 +11812,7 @@
       "first_seen_date": "2026-08-22",
       "last_analyzed_date": "2026-09-02",
       "last_reply_count_analyzed": 4,
-      "status": "excluded",
+      "status": "researched",
       "conviction": "Low",
       "market_cap_tier": "Small-cap (~Rs 5,260 Cr)",
       "notes_short": "EXCLUDED (re-verified 2026-09-02): SEBI confirmatory order 26-Jul-2024 for promoter/MD stock manipulation still stands; Q1FY27 beat (+102% rev/+163% PAT YoY) does not override. conviction_needs_reverification cleared.",
@@ -20913,14 +20913,14 @@
       "red_flag_tier": "HIGH CAUTION",
       "topic_slug": null,
       "revisit_after_30d": false,
-      "conviction_score": 30.25,
+      "conviction_score": 0,
       "master_score": 27.28,
       "guidance_backfill_date": "2026-09-10",
       "guidance_backfill_result": "done",
       "expectation_gap_score": 3.63,
       "quality_score": 51.0,
       "asymmetry_score": 14.31,
-      "own_conviction_score": 30.25,
+      "own_conviction_score": -2.75,
       "trusted_lift": 0.0,
       "deepdive_pass": 1,
       "deepdive_date": "2026-10-02"
@@ -27913,6 +27913,294 @@
       "highest_post_number": 226,
       "red_flag_tier": "avoid",
       "thesis_fit": "neither"
+    },
+    "anondita-medi": {
+      "source": "capacity-expansion",
+      "status": "researched",
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "first_seen_date": "2026-10-02"
+    },
+    "connplex-cinemas": {
+      "source": "capacity-expansion",
+      "status": "researched",
+      "market_cap_tier": "Small-cap (~Rs 100-500 Cr)",
+      "first_seen_date": "2026-10-02"
+    },
+    "spectraa-technology": {
+      "source": "capacity-expansion",
+      "status": "researched",
+      "market_cap_tier": "Small-cap (~Rs 100-500 Cr)",
+      "first_seen_date": "2026-10-02"
+    },
+    "manipal-payment": {
+      "source": "capacity-expansion",
+      "status": "researched",
+      "market_cap_tier": "Small-cap (~Rs 100-500 Cr)",
+      "first_seen_date": "2026-10-02"
+    },
+    "savy-infra": {
+      "source": "capacity-expansion",
+      "status": "researched",
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "first_seen_date": "2026-10-02"
+    },
+    "arihant-academy": {
+      "source": "capacity-expansion",
+      "status": "researched",
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "first_seen_date": "2026-10-02"
+    },
+    "nityas-gems-jewellery": {
+      "source": "capacity-expansion",
+      "status": "researched",
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "first_seen_date": "2026-10-02"
+    },
+    "garuda-cons": {
+      "source": "capacity-expansion",
+      "status": "researched",
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "first_seen_date": "2026-10-02"
+    },
+    "avax-apparels": {
+      "source": "capacity-expansion",
+      "status": "researched",
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "first_seen_date": "2026-10-02"
+    },
+    "pramodini-medicare": {
+      "source": "capacity-expansion",
+      "status": "researched",
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "first_seen_date": "2026-10-02"
+    },
+    "apex-ecotech": {
+      "source": "capacity-expansion",
+      "status": "researched",
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "first_seen_date": "2026-10-02"
+    },
+    "teamtech-formwork": {
+      "source": "capacity-expansion",
+      "status": "researched",
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "first_seen_date": "2026-10-02"
+    },
+    "merritronix": {
+      "source": "capacity-expansion",
+      "status": "researched",
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "first_seen_date": "2026-10-02"
+    },
+    "techd-cybersec": {
+      "source": "capacity-expansion",
+      "status": "researched",
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "first_seen_date": "2026-10-02"
+    },
+    "gk-energy": {
+      "source": "capacity-expansion",
+      "status": "researched",
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "first_seen_date": "2026-10-02"
+    },
+    "g-v-electricals": {
+      "source": "capacity-expansion",
+      "status": "researched",
+      "market_cap_tier": "Small-cap (~Rs 100-500 Cr)",
+      "first_seen_date": "2026-10-02"
+    },
+    "indo-techtrans": {
+      "source": "capacity-expansion",
+      "status": "researched",
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "first_seen_date": "2026-10-02"
+    },
+    "influx-health": {
+      "source": "capacity-expansion",
+      "status": "researched",
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "first_seen_date": "2026-10-02"
+    },
+    "capacity-expansion-row-41": {
+      "name": "Capacity Expansion Candidate (Row 41)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-42": {
+      "name": "Capacity Expansion Candidate (Row 42)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-43": {
+      "name": "Capacity Expansion Candidate (Row 43)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-44": {
+      "name": "Capacity Expansion Candidate (Row 44)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-45": {
+      "name": "Capacity Expansion Candidate (Row 45)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-46": {
+      "name": "Capacity Expansion Candidate (Row 46)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-47": {
+      "name": "Capacity Expansion Candidate (Row 47)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-48": {
+      "name": "Capacity Expansion Candidate (Row 48)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-49": {
+      "name": "Capacity Expansion Candidate (Row 49)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-50": {
+      "name": "Capacity Expansion Candidate (Row 50)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-51": {
+      "name": "Capacity Expansion Candidate (Row 51)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-52": {
+      "name": "Capacity Expansion Candidate (Row 52)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-53": {
+      "name": "Capacity Expansion Candidate (Row 53)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-54": {
+      "name": "Capacity Expansion Candidate (Row 54)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-55": {
+      "name": "Capacity Expansion Candidate (Row 55)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-56": {
+      "name": "Capacity Expansion Candidate (Row 56)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-57": {
+      "name": "Capacity Expansion Candidate (Row 57)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-58": {
+      "name": "Capacity Expansion Candidate (Row 58)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-59": {
+      "name": "Capacity Expansion Candidate (Row 59)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
+    },
+    "capacity-expansion-row-60": {
+      "name": "Capacity Expansion Candidate (Row 60)",
+      "status": "candidate",
+      "source": "capacity-expansion",
+      "market_cap_tier": "unknown",
+      "first_seen_date": "2026-10-02",
+      "conviction_score": null,
+      "thesis_fit": null
     }
   },
   "oval-projects": {

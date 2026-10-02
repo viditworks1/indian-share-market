@@ -8491,3 +8491,12 @@ Also confirmed via direct Yahoo Finance checks that ~21 remaining technical-unre
 - **Key finding:** FY26 margin inflection real (+485 bps EBITDA, +312 bps PAT), but order-book-backed thesis requires 3 confluences: (1) WC stabilization, (2) unproven data-centre traction, (3) DISCOM concentration (69% Odisha) & payment-cycle risk
 - **Thesis**: 10x-in-2-3-years remains live only as small-cap inflection carve-out (~20–25% probability)
 
+
+## Avalon Technologies Ltd — deep-dive pass 1 [2026-10-02]
+
+- **Conviction:** Medium (confirmed, but qualified: excellent execution + PLI tailwinds real, but mid-cap + 4x fwd P/E = 1.3–2x return max)
+- **Thesis:** "neither" (size constraint, not quality; strong 3–4yr compounder at 20–25% CAGR, not a 10x candidate)
+- **Four-box:** 2.0/4 (tailwind ✓, TAM ✗, moat ✓, valuation ✗)
+- **Key finding:** Tier-1 EMS player (ROCE 23.4%, box-build 60% mix, Kavach rail cert, ISM 2.0 land acquisition), but mid-cap Rs 14.9k Cr at premium 4x fwd P/E leaves only 1.3–2x return at peer multiples, far short of 10x needed
+- **Verdict:** Strong business execution + sustained tailwinds, but valuation-constrained; fits 3–4yr compounder thesis (20–25% CAGR realistic), not portfolio's 10x-in-2–3yr mandate
+
