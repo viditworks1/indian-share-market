@@ -1,941 +1,558 @@
 {
-  "source": "Screener.in Capacity Expansion Screen",
+  "source": "Screener.in Capacity Expansion Screen (54 entries from agents 4-5 + staging)",
   "date": "2026-10-02",
   "total_screener_results": 1161,
   "quality_filter": "ROCE > 15%, P/E 0-50",
-  "filtered_count": 116,
-  "note": "Rows 1-16: deepdive-queue (complete). Rows 17-81: vpscreen candidates (34 successfully researched by agents 4-5; 20 staged by agent 3 pending resolution). Rows 82-101: agent 5 final batch (10 candidate + 6 excluded).",
+  "filtered_count": 54,
+  "note": "All 54 capacity-expansion candidates indexed from state.json",
   "candidates": [
     {
       "rank": 1,
-      "name": "Ksolves India",
-      "sector": "IT Services",
-      "score": 103.34,
-      "status": "deepdive_queue",
-      "agent_processed": false
+      "slug": "anondita-medi",
+      "name": "Anondita Medi",
+      "status": "researched",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "source": "capacity-expansion"
     },
     {
       "rank": 2,
-      "name": "ENS Enterprises",
-      "sector": "Manufacturing",
-      "score": 95.92,
-      "status": "deepdive_queue",
-      "agent_processed": false
+      "slug": "apex-ecotech",
+      "name": "Apex Ecotech",
+      "status": "researched",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "source": "capacity-expansion"
     },
     {
       "rank": 3,
-      "name": "Infrax Renewable",
-      "sector": "Renewables",
-      "score": 90.4,
-      "status": "deepdive_queue",
-      "agent_processed": false
+      "slug": "arihant-academy",
+      "name": "Arihant Academy",
+      "status": "researched",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "source": "capacity-expansion"
     },
     {
       "rank": 4,
-      "name": "Simca Advertis.",
-      "sector": "Media",
-      "score": 89.19,
-      "status": "deepdive_queue",
-      "agent_processed": false
+      "slug": "avana-electrosystems",
+      "name": "Avana Electrosystems",
+      "status": "candidate",
+      "conviction": "Low",
+      "thesis_fit": "unproven",
+      "market_cap_tier": "Small-cap",
+      "source": "capacity-expansion"
     },
     {
       "rank": 5,
-      "name": "Adon Agro",
-      "sector": "Agro",
-      "score": 83.26,
-      "status": "deepdive_queue",
-      "agent_processed": false
+      "slug": "avax-apparels",
+      "name": "Avax Apparels",
+      "status": "researched",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "source": "capacity-expansion"
     },
     {
       "rank": 6,
-      "name": "One Global Serv",
-      "sector": "Services",
-      "score": 81.1,
-      "status": "deepdive_queue",
-      "agent_processed": false
+      "slug": "bondada-engineer",
+      "name": "Bondada Engineer",
+      "status": "candidate",
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Mid-cap",
+      "source": "capacity-expansion"
     },
     {
       "rank": 7,
-      "name": "Tips Music",
-      "sector": "Media",
-      "score": 80.39,
-      "status": "deepdive_queue",
-      "agent_processed": false
+      "slug": "capacity-expansion-row-41",
+      "name": "Capacity Expansion Candidate (Row 41)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 8,
-      "name": "Waaree Renewab.",
-      "sector": "Renewables",
-      "score": 77.76,
-      "status": "deepdive_queue",
-      "agent_processed": false
+      "slug": "capacity-expansion-row-42",
+      "name": "Capacity Expansion Candidate (Row 42)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 9,
-      "name": "ICICI AMC",
-      "sector": "Financial",
-      "score": 74.07,
-      "status": "deepdive_queue",
-      "agent_processed": false
+      "slug": "capacity-expansion-row-43",
+      "name": "Capacity Expansion Candidate (Row 43)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 10,
-      "name": "Websol Energy",
-      "sector": "Renewables",
-      "score": 70.31,
-      "status": "deepdive_queue",
-      "agent_processed": false
+      "slug": "capacity-expansion-row-44",
+      "name": "Capacity Expansion Candidate (Row 44)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 11,
-      "name": "Polychem",
-      "sector": "Chemicals",
-      "score": 69.46,
-      "status": "deepdive_queue",
-      "agent_processed": false
+      "slug": "capacity-expansion-row-45",
+      "name": "Capacity Expansion Candidate (Row 45)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 12,
-      "name": "Fascinate Textiles",
-      "sector": "Textiles",
-      "score": 67.55,
-      "status": "deepdive_queue",
-      "agent_processed": false
+      "slug": "capacity-expansion-row-46",
+      "name": "Capacity Expansion Candidate (Row 46)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 13,
-      "name": "GenXAI Analytics",
-      "sector": "IT Services",
-      "score": 67.38,
-      "status": "deepdive_queue",
-      "agent_processed": false
+      "slug": "capacity-expansion-row-47",
+      "name": "Capacity Expansion Candidate (Row 47)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 14,
-      "name": "Australian Prem",
-      "sector": "Beverages",
-      "score": 67.2,
-      "status": "deepdive_queue",
-      "agent_processed": false
+      "slug": "capacity-expansion-row-48",
+      "name": "Capacity Expansion Candidate (Row 48)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 15,
-      "name": "Crizac",
-      "sector": "Chemicals",
-      "score": 60.8,
-      "status": "deepdive_queue",
-      "agent_processed": false
+      "slug": "capacity-expansion-row-49",
+      "name": "Capacity Expansion Candidate (Row 49)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 16,
-      "name": "BSE",
-      "sector": "Financial",
-      "score": 40.89,
-      "status": "deepdive_queue",
-      "agent_processed": false
+      "slug": "capacity-expansion-row-50",
+      "name": "Capacity Expansion Candidate (Row 50)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 17,
-      "name": "Company_017",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "capacity-expansion-row-51",
+      "name": "Capacity Expansion Candidate (Row 51)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 18,
-      "name": "Company_018",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "capacity-expansion-row-52",
+      "name": "Capacity Expansion Candidate (Row 52)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 19,
-      "name": "Company_019",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "capacity-expansion-row-53",
+      "name": "Capacity Expansion Candidate (Row 53)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 20,
-      "name": "Company_020",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "capacity-expansion-row-54",
+      "name": "Capacity Expansion Candidate (Row 54)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 21,
-      "name": "Company_021",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "capacity-expansion-row-55",
+      "name": "Capacity Expansion Candidate (Row 55)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 22,
-      "name": "Company_022",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "capacity-expansion-row-56",
+      "name": "Capacity Expansion Candidate (Row 56)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 23,
-      "name": "Company_023",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "capacity-expansion-row-57",
+      "name": "Capacity Expansion Candidate (Row 57)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 24,
-      "name": "Company_024",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "capacity-expansion-row-58",
+      "name": "Capacity Expansion Candidate (Row 58)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 25,
-      "name": "Company_025",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "capacity-expansion-row-59",
+      "name": "Capacity Expansion Candidate (Row 59)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 26,
-      "name": "Company_026",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "capacity-expansion-row-60",
+      "name": "Capacity Expansion Candidate (Row 60)",
+      "status": "candidate",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "unknown",
+      "source": "capacity-expansion"
     },
     {
       "rank": 27,
-      "name": "Company_027",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "cash-ur-drive",
+      "name": "Cash Ur Drive",
+      "status": "EXCLUDE",
+      "conviction": null,
+      "thesis_fit": "neither",
+      "market_cap_tier": "Micro-cap",
+      "source": "capacity-expansion"
     },
     {
       "rank": 28,
-      "name": "Company_028",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "connplex-cinemas",
+      "name": "Connplex Cinemas",
+      "status": "researched",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "Small-cap (~Rs 100-500 Cr)",
+      "source": "capacity-expansion"
     },
     {
       "rank": 29,
-      "name": "Company_029",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "cospower-engineering",
+      "name": "Cospower Engineering",
+      "status": "candidate",
+      "conviction": "Low-Medium",
+      "thesis_fit": "medium-term-10-15pct-ish",
+      "market_cap_tier": "Small-cap",
+      "source": "capacity-expansion"
     },
     {
       "rank": 30,
-      "name": "Company_030",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "dhanwel-hybrid",
+      "name": "Dhanwel Hybrid",
+      "status": "EXCLUDE",
+      "conviction": null,
+      "thesis_fit": "neither",
+      "market_cap_tier": "Micro-cap",
+      "source": "capacity-expansion"
     },
     {
       "rank": 31,
-      "name": "Company_031",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "g-v-electricals",
+      "name": "G V Electricals",
+      "status": "researched",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "Small-cap (~Rs 100-500 Cr)",
+      "source": "capacity-expansion"
     },
     {
       "rank": 32,
-      "name": "Company_032",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "garuda-cons",
+      "name": "Garuda Cons",
+      "status": "researched",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "source": "capacity-expansion"
     },
     {
       "rank": 33,
-      "name": "Company_033",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "gayatri-rubbers",
+      "name": "Gayatri Rubbers",
+      "status": "candidate",
+      "conviction": "AVOID",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Small-cap",
+      "source": "capacity-expansion"
     },
     {
       "rank": 34,
-      "name": "Company_034",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "gk-energy",
+      "name": "Gk Energy",
+      "status": "researched",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "source": "capacity-expansion"
     },
     {
       "rank": 35,
-      "name": "Company_035",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "gp-eco-solutions",
+      "name": "Gp Eco Solutions",
+      "status": "candidate",
+      "conviction": "Low",
+      "thesis_fit": "unproven",
+      "market_cap_tier": "Small-cap",
+      "source": "capacity-expansion"
     },
     {
       "rank": 36,
-      "name": "Company_036",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "indo-techtrans",
+      "name": "Indo Techtrans",
+      "status": "researched",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "source": "capacity-expansion"
     },
     {
       "rank": 37,
-      "name": "Company_037",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "influx-health",
+      "name": "Influx Health",
+      "status": "researched",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "source": "capacity-expansion"
     },
     {
       "rank": 38,
-      "name": "Company_038",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "manipal-payment",
+      "name": "Manipal Payment",
+      "status": "researched",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "Small-cap (~Rs 100-500 Cr)",
+      "source": "capacity-expansion"
     },
     {
       "rank": 39,
-      "name": "Company_039",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "merritronix",
+      "name": "Merritronix",
+      "status": "researched",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "source": "capacity-expansion"
     },
     {
       "rank": 40,
-      "name": "Company_040",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "nisus-finance",
+      "name": "Nisus Finance",
+      "status": "candidate",
+      "conviction": "Low-Medium",
+      "thesis_fit": "medium-term-10-15pct-ish",
+      "market_cap_tier": "Small-cap",
+      "source": "capacity-expansion"
     },
     {
       "rank": 41,
-      "name": "Company_041",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "nityas-gems-jewellery",
+      "name": "Nityas Gems Jewellery",
+      "status": "researched",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "source": "capacity-expansion"
     },
     {
       "rank": 42,
-      "name": "Company_042",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "oriana-power-ltd",
+      "name": "Oriana Power Ltd",
+      "status": "candidate",
+      "conviction": "Low-Medium",
+      "thesis_fit": "medium-term-10-15pct-ish",
+      "market_cap_tier": "Mid-cap",
+      "source": "capacity-expansion"
     },
     {
       "rank": 43,
-      "name": "Company_043",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "oswal-pumps",
+      "name": "Oswal Pumps",
+      "status": "candidate",
+      "conviction": "Low-Medium",
+      "thesis_fit": "medium-term-10-15pct-ish",
+      "market_cap_tier": "Mid-cap",
+      "source": "capacity-expansion"
     },
     {
       "rank": 44,
-      "name": "Company_044",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "pramodini-medicare",
+      "name": "Pramodini Medicare",
+      "status": "researched",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "source": "capacity-expansion"
     },
     {
       "rank": 45,
-      "name": "Company_045",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "prizor-viztech",
+      "name": "Prizor Viztech Ltd",
+      "status": "EXCLUDE",
+      "conviction": "AVOID",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Small-cap",
+      "source": "capacity-expansion"
     },
     {
       "rank": 46,
-      "name": "Company_046",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "prudent-corp",
+      "name": "Prudent Corp",
+      "status": "candidate",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Large-cap",
+      "source": "capacity-expansion"
     },
     {
       "rank": 47,
-      "name": "Company_047",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "rm-drip-and-springs",
+      "name": "Rm Drip And Springs",
+      "status": "candidate",
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Mid-cap",
+      "source": "capacity-expansion"
     },
     {
       "rank": 48,
-      "name": "Company_048",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "sahana-systems",
+      "name": "Sahana Systems",
+      "status": "candidate",
+      "conviction": "Low-Medium",
+      "thesis_fit": "medium-term-10-15pct-ish",
+      "market_cap_tier": "Small-cap",
+      "source": "capacity-expansion"
     },
     {
       "rank": 49,
-      "name": "Company_049",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "savy-infra",
+      "name": "Savy Infra",
+      "status": "researched",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "source": "capacity-expansion"
     },
     {
       "rank": 50,
-      "name": "Company_050",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "solar-industries",
+      "name": "Solar Industries",
+      "status": "candidate",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Mega-cap",
+      "source": "capacity-expansion"
     },
     {
       "rank": 51,
-      "name": "Company_051",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "spectraa-technology",
+      "name": "Spectraa Technology",
+      "status": "researched",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "Small-cap (~Rs 100-500 Cr)",
+      "source": "capacity-expansion"
     },
     {
       "rank": 52,
-      "name": "Company_052",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "teamtech-formwork",
+      "name": "Teamtech Formwork",
+      "status": "researched",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "source": "capacity-expansion"
     },
     {
       "rank": 53,
-      "name": "Company_053",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
+      "slug": "techd-cybersec",
+      "name": "Techd Cybersec",
+      "status": "researched",
+      "conviction": null,
+      "thesis_fit": null,
+      "market_cap_tier": "Micro-cap (~Rs 50 Cr)",
+      "source": "capacity-expansion"
     },
     {
       "rank": 54,
-      "name": "Company_054",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
-    },
-    {
-      "rank": 55,
-      "name": "Company_055",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
-    },
-    {
-      "rank": 56,
-      "name": "Company_056",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
-    },
-    {
-      "rank": 57,
-      "name": "Company_057",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
-    },
-    {
-      "rank": 58,
-      "name": "Company_058",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
-    },
-    {
-      "rank": 59,
-      "name": "Company_059",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
-    },
-    {
-      "rank": 60,
-      "name": "Company_060",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
-    },
-    {
-      "rank": 61,
-      "name": "Company_061",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate_pending",
-      "agent_processed": false,
-      "note": "Agent 3 batch (41-60) \u2014 needs resolution from Screener.in"
-    },
-    {
-      "rank": 63,
-      "slug": "anondita-medi",
-      "name": "Anondita Medi",
-      "sector": "TBD",
-      "score": 0,
-      "status": "researched",
-      "agent_processed": true,
-      "agent": 4
-    },
-    {
-      "rank": 64,
-      "slug": "connplex-cinemas",
-      "name": "Connplex Cinemas",
-      "sector": "TBD",
-      "score": 0,
-      "status": "researched",
-      "agent_processed": true,
-      "agent": 4
-    },
-    {
-      "rank": 65,
-      "slug": "spectraa-technology",
-      "name": "Spectraa Technology",
-      "sector": "TBD",
-      "score": 0,
-      "status": "researched",
-      "agent_processed": true,
-      "agent": 4
-    },
-    {
-      "rank": 66,
-      "slug": "manipal-payment",
-      "name": "Manipal Payment",
-      "sector": "TBD",
-      "score": 0,
-      "status": "researched",
-      "agent_processed": true,
-      "agent": 4
-    },
-    {
-      "rank": 67,
-      "slug": "savy-infra",
-      "name": "Savy Infra",
-      "sector": "TBD",
-      "score": 0,
-      "status": "researched",
-      "agent_processed": true,
-      "agent": 4
-    },
-    {
-      "rank": 68,
-      "slug": "arihant-academy",
-      "name": "Arihant Academy",
-      "sector": "TBD",
-      "score": 0,
-      "status": "researched",
-      "agent_processed": true,
-      "agent": 4
-    },
-    {
-      "rank": 69,
-      "slug": "nityas-gems-jewellery",
-      "name": "Nityas Gems Jewellery",
-      "sector": "TBD",
-      "score": 0,
-      "status": "researched",
-      "agent_processed": true,
-      "agent": 4
-    },
-    {
-      "rank": 70,
-      "slug": "garuda-cons",
-      "name": "Garuda Cons",
-      "sector": "TBD",
-      "score": 0,
-      "status": "researched",
-      "agent_processed": true,
-      "agent": 4
-    },
-    {
-      "rank": 71,
-      "slug": "avax-apparels",
-      "name": "Avax Apparels",
-      "sector": "TBD",
-      "score": 0,
-      "status": "researched",
-      "agent_processed": true,
-      "agent": 4
-    },
-    {
-      "rank": 72,
-      "slug": "pramodini-medicare",
-      "name": "Pramodini Medicare",
-      "sector": "TBD",
-      "score": 0,
-      "status": "researched",
-      "agent_processed": true,
-      "agent": 4
-    },
-    {
-      "rank": 73,
-      "slug": "apex-ecotech",
-      "name": "Apex Ecotech",
-      "sector": "TBD",
-      "score": 0,
-      "status": "researched",
-      "agent_processed": true,
-      "agent": 4
-    },
-    {
-      "rank": 74,
-      "slug": "teamtech-formwork",
-      "name": "Teamtech Formwork",
-      "sector": "TBD",
-      "score": 0,
-      "status": "researched",
-      "agent_processed": true,
-      "agent": 4
-    },
-    {
-      "rank": 75,
-      "slug": "merritronix",
-      "name": "Merritronix",
-      "sector": "TBD",
-      "score": 0,
-      "status": "researched",
-      "agent_processed": true,
-      "agent": 4
-    },
-    {
-      "rank": 76,
-      "slug": "techd-cybersec",
-      "name": "Techd Cybersec",
-      "sector": "TBD",
-      "score": 0,
-      "status": "researched",
-      "agent_processed": true,
-      "agent": 4
-    },
-    {
-      "rank": 77,
-      "slug": "gk-energy",
-      "name": "Gk Energy",
-      "sector": "TBD",
-      "score": 0,
-      "status": "researched",
-      "agent_processed": true,
-      "agent": 4
-    },
-    {
-      "rank": 78,
-      "slug": "g-v-electricals",
-      "name": "G V Electricals",
-      "sector": "TBD",
-      "score": 0,
-      "status": "researched",
-      "agent_processed": true,
-      "agent": 4
-    },
-    {
-      "rank": 79,
-      "slug": "indo-techtrans",
-      "name": "Indo Techtrans",
-      "sector": "TBD",
-      "score": 0,
-      "status": "researched",
-      "agent_processed": true,
-      "agent": 4
-    },
-    {
-      "rank": 80,
-      "slug": "influx-health",
-      "name": "Influx Health",
-      "sector": "TBD",
-      "score": 0,
-      "status": "researched",
-      "agent_processed": true,
-      "agent": 4
-    },
-    {
-      "rank": 82,
-      "slug": "bondada-engineer",
-      "name": "Bondada Engineer",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate",
-      "conviction": "Medium",
-      "agent_processed": true,
-      "agent": 5
-    },
-    {
-      "rank": 83,
-      "slug": "rm-drip-and-springs",
-      "name": "Rm Drip And Springs",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate",
-      "conviction": "Medium",
-      "agent_processed": true,
-      "agent": 5
-    },
-    {
-      "rank": 84,
-      "slug": "sahana-systems",
-      "name": "Sahana Systems",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate",
-      "conviction": "Low-Medium",
-      "agent_processed": true,
-      "agent": 5
-    },
-    {
-      "rank": 85,
-      "slug": "oriana-power-ltd",
-      "name": "Oriana Power Ltd",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate",
-      "conviction": "Low-Medium",
-      "agent_processed": true,
-      "agent": 5
-    },
-    {
-      "rank": 86,
-      "slug": "cospower-engineering",
-      "name": "Cospower Engineering",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate",
-      "conviction": "Low-Medium",
-      "agent_processed": true,
-      "agent": 5
-    },
-    {
-      "rank": 87,
-      "slug": "oswal-pumps",
-      "name": "Oswal Pumps",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate",
-      "conviction": "Low-Medium",
-      "agent_processed": true,
-      "agent": 5
-    },
-    {
-      "rank": 88,
-      "slug": "nisus-finance",
-      "name": "Nisus Finance",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate",
-      "conviction": "Low-Medium",
-      "agent_processed": true,
-      "agent": 5
-    },
-    {
-      "rank": 89,
-      "slug": "gp-eco-solutions",
-      "name": "Gp Eco Solutions",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate",
-      "conviction": "Low-Medium",
-      "agent_processed": true,
-      "agent": 5
-    },
-    {
-      "rank": 90,
-      "slug": "avana-electrosystems",
-      "name": "Avana Electrosystems",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate",
-      "conviction": "Low-Medium",
-      "agent_processed": true,
-      "agent": 5
-    },
-    {
-      "rank": 91,
-      "slug": "gayatri-rubbers",
-      "name": "Gayatri Rubbers",
-      "sector": "TBD",
-      "score": 0,
-      "status": "candidate",
-      "conviction": "Low-Medium",
-      "agent_processed": true,
-      "agent": 5
-    },
-    {
-      "rank": 92,
-      "slug": "prezor-viztech",
-      "name": "Prezor Viztech",
-      "sector": "TBD",
-      "status": "excluded",
-      "agent_processed": true,
-      "agent": 5
-    },
-    {
-      "rank": 93,
-      "slug": "solar-industries",
-      "name": "Solar Industries",
-      "sector": "TBD",
-      "status": "excluded",
-      "agent_processed": true,
-      "agent": 5
-    },
-    {
-      "rank": 94,
-      "slug": "prudent-corp",
-      "name": "Prudent Corp",
-      "sector": "TBD",
-      "status": "excluded",
-      "agent_processed": true,
-      "agent": 5
-    },
-    {
-      "rank": 95,
-      "slug": "dhanwel-hybrid",
-      "name": "Dhanwel Hybrid",
-      "sector": "TBD",
-      "status": "excluded",
-      "agent_processed": true,
-      "agent": 5
-    },
-    {
-      "rank": 96,
       "slug": "value-360-communications",
       "name": "Value 360 Communications",
-      "sector": "TBD",
-      "status": "excluded",
-      "agent_processed": true,
-      "agent": 5
-    },
-    {
-      "rank": 97,
-      "slug": "cash-ur-drive",
-      "name": "Cash Ur Drive",
-      "sector": "TBD",
-      "status": "excluded",
-      "agent_processed": true,
-      "agent": 5
-    },
-    {
-      "rank": 96,
-      "name": "Pending_96",
-      "status": "candidate_pending",
-      "note": "Needs resolution"
-    },
-    {
-      "rank": 97,
-      "name": "Pending_97",
-      "status": "candidate_pending",
-      "note": "Needs resolution"
-    },
-    {
-      "rank": 98,
-      "name": "Pending_98",
-      "status": "candidate_pending",
-      "note": "Needs resolution"
-    },
-    {
-      "rank": 99,
-      "name": "Pending_99",
-      "status": "candidate_pending",
-      "note": "Needs resolution"
-    },
-    {
-      "rank": 100,
-      "name": "Pending_100",
-      "status": "candidate_pending",
-      "note": "Needs resolution"
+      "status": "EXCLUDE",
+      "conviction": null,
+      "thesis_fit": "neither",
+      "market_cap_tier": "Micro-cap",
+      "source": "capacity-expansion"
     }
   ],
   "metadata": {
     "avg_roce": 84.4,
     "avg_pe": 18.07,
-    "new_sectors": [
-      "Renewables",
-      "Agro",
-      "IT",
-      "Media",
-      "Chemicals",
-      "Textiles"
-    ],
-    "portfolio_overlap": 0,
-    "agents_completed": [
-      4,
-      5
-    ],
-    "agents_pending": [
-      1,
-      2,
-      3
-    ],
-    "stocks_researched": 34,
-    "stocks_staged": 66
+    "stocks_researched": 18,
+    "stocks_candidate": 32,
+    "stocks_excluded": 0,
+    "stocks_avoid": 0
   }
 }
