@@ -1,0 +1,139 @@
+{
+  "_readme": "Append-only log of weekly 1-MONTH TACTICAL cohorts. Each cohort is an independent Rs 1,00,000 paper portfolio, decided once (1-month momentum + technical uptrend screen, tactical_1m_screen.py) and priced off the Monday's close, then left FROZEN for its own 1-month horizon with per-holding -10% hard stops (tighter than 6M swing's -16%). Distinct from swing-6m/ (6-month) and live-recommendation/ (fundamentals rebalancing). NEVER edit an existing cohort's holdings/entry_price/shares/cash after creation. New cohorts are appended by the paper-trading-weekly scheduled task every Monday. Mark-to-market values live in TRACKER.md (regenerated) and history.json, not here.",
+  "cohorts": [
+    {
+      "week_id": "2026-W41-inaugural",
+      "series": "tactical-1m",
+      "decided_date": "2026-10-04",
+      "entry_price_date": "2026-10-07",
+      "horizon_end_date": "2026-11-06",
+      "capital": 100000,
+      "benchmark": "Nifty 500",
+      "rules": {
+        "composite": "0.25*mom5 + 0.25*mom10 + 0.20*mom20 + 0.15*trend + 0.10*posture + 0.05*nearhi",
+        "hard_stop_pct": -10,
+        "thesis_break_exit": "price below both 30D and 10D EMA on 2 consecutive days -> exit next session",
+        "review_cadence": "weekly (every Monday)",
+        "cash_band_pct": [
+          10
+        ]
+      },
+      "source": "Hand-curated from 1-month tactical screen (top 100 + ranks 101-200 Confluence universe)",
+      "holdings": [
+        {
+          "name": "Valiant Communications",
+          "symbol": "VALIANT.BO",
+          "weight_pct": 10.118099853515625,
+          "entry_price": 1686.35,
+          "entry_price_date": "2026-10-01",
+          "shares": 6,
+          "invested": 10118.1,
+          "hard_stop": 1517.71,
+          "score": 91.11646571695962,
+          "momentum_5d": 17.412061391817325,
+          "momentum_10d": 24.65403394081971,
+          "momentum_20d": 28.921933085501863
+        },
+        {
+          "name": "3B Blackbio DX",
+          "symbol": "3BBLACKBIO.BO",
+          "weight_pct": 9.928800292968749,
+          "entry_price": 1654.8,
+          "entry_price_date": "2026-10-01",
+          "shares": 6,
+          "invested": 9928.8,
+          "hard_stop": 1489.32,
+          "score": 77.4957619955843,
+          "momentum_5d": 15.691836311176122,
+          "momentum_10d": 27.597127752918162,
+          "momentum_20d": 17.059595950985873
+        },
+        {
+          "name": "Alufluoride Limited-conversion of waste into wealth",
+          "symbol": "ALUFLUOR.BO",
+          "weight_pct": 10.721050415039063,
+          "entry_price": 630.65,
+          "entry_price_date": "2026-10-01",
+          "shares": 17,
+          "invested": 10721.05,
+          "hard_stop": 567.59,
+          "score": 73.42449294009276,
+          "momentum_5d": 10.786126379281956,
+          "momentum_10d": 16.689797422463215,
+          "momentum_20d": 29.89701841690269
+        },
+        {
+          "name": "KMC Speciality hospital",
+          "symbol": "KMCSHIL.BO",
+          "weight_pct": 11.176749801635742,
+          "entry_price": 171.95,
+          "entry_price_date": "2026-10-01",
+          "shares": 65,
+          "invested": 11176.75,
+          "hard_stop": 154.75,
+          "score": 62.987264746045454,
+          "momentum_5d": 9.657812763198237,
+          "momentum_10d": 13.99601323537678,
+          "momentum_20d": 24.963557406579675
+        },
+        {
+          "name": "MTAR Technologies Ltd",
+          "symbol": "MTARTECH.NS",
+          "weight_pct": 7.797,
+          "entry_price": 7797.0,
+          "entry_price_date": "2026-10-01",
+          "shares": 1,
+          "invested": 7797.0,
+          "hard_stop": 7017.3,
+          "score": 48.42788165858577,
+          "momentum_5d": 12.99999999999999,
+          "momentum_10d": 11.139619414154378,
+          "momentum_20d": 6.625641025641027
+        },
+        {
+          "name": "Venus Remedies",
+          "symbol": "VENUSREM.NS",
+          "weight_pct": 10.780199707031251,
+          "entry_price": 1796.7,
+          "entry_price_date": "2026-10-01",
+          "shares": 6,
+          "invested": 10780.2,
+          "hard_stop": 1617.03,
+          "score": 39.746811886210814,
+          "momentum_5d": 7.654036759962457,
+          "momentum_10d": 13.519152510125853,
+          "momentum_20d": 10.583673782900615
+        },
+        {
+          "name": "Raymond Realty",
+          "symbol": "RAYMONDREL.NS",
+          "weight_pct": 11.02365020751953,
+          "entry_price": 648.45,
+          "entry_price_date": "2026-10-01",
+          "shares": 17,
+          "invested": 11023.65,
+          "hard_stop": 583.61,
+          "score": 39.55953927831322,
+          "momentum_5d": -5.813296259745315,
+          "momentum_10d": 13.878977750853917,
+          "momentum_20d": 17.1138932791121
+        },
+        {
+          "name": "Engineers India",
+          "symbol": "ENGINERSIN.NS",
+          "weight_pct": 10.946250000000001,
+          "entry_price": 312.75,
+          "entry_price_date": "2026-10-01",
+          "shares": 35,
+          "invested": 10946.25,
+          "hard_stop": 281.48,
+          "score": 39.454552966597255,
+          "momentum_5d": -0.9187371939045286,
+          "momentum_10d": 9.640666082383875,
+          "momentum_20d": 16.285549657924015
+        }
+      ],
+      "cash": 17508.2
+    }
+  ]
+}
