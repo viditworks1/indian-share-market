@@ -456,3 +456,20 @@ active_themes.json: as_of -> 2026-09-09, 29 -> 31 themes (construction-equipment
 - x-handles: 103/103 triaged · **SCOPE COMPLETE (2026-09-13) — safe to DELETE x-handle-triage task.** x-handle-ranking continues steady-state weekly.
 - four-box-backfill: 21 backlog · **SCOPE COMPLETE (2026-09-05) — safe to DELETE this task.** deepdive-top100 continues writing blocks for new research.
 - routine token-opt: all 12 stock routines skimmed. Result: **clean — nothing safe to cut** (prior 2026-09-09 pass already stripped redundancy; remaining prose is operational; bigger wins require structural change). Noted: deepdive-top100 `description` still says "3x/day" (stale metadata).
+
+### 2026-10-02 (follow-up run — post-W41 tactical cohort)
+- state hygiene: 303 issues found, 2 auto-fixed (1 duplicate topic_id merge: sigachi-industries; 1 revisit_after_30d fix: thyrocare). Registry 1047 total. 21 researched stocks missing `last_post_number_analyzed` entirely — vpscreen-scan will fall back to first-time-read. 7 unrecognized status/thesis_fit values reported (not auto-fixed, needs human review). Trust_tier sanity clean.
+- conviction scores: refreshed via refresh_derived.py --scores.
+- recency: 95 stale calls (weight < 0.25, not superseded) stable/consistent with prior audits.
+- permissions: 176 total, 15 wildcard, 0 redundant — clean.
+- rate-limit compliance: 0 unpaced forum requests — clean.
+- screen dimensions: **unclassified=293 (risen from 96 on 09-09)** — backlog buildup from scan/rerank activity. Distribution: size=142, long_term_fundamentals=73, governance=47, thesis=33, no_thread=25, technicals=17, recent_fundamentals=14, valuation=9. 0 MIS-SCREEN flagged. **Flag:** watch whether vpscreen-rerank is authoring blocks faster than backlog grows; if count keeps rising, may need rerank tuning.
+- four-box: 1 mismatch understated (thyrocare, 4-box.score 3.5 vs thesis_fit=neither). 21 missing (deepdive-top100 backfills new). Coverage: 827 have block / 21 missing. Analyst_override: 36 names kept 'neither' deliberately.
+- trusted-thread backlog: clean.
+- cross-project duplicates: 5 spot-checks clean.
+- trusted users: 319 total, 0 promoted this run, roster stable.
+- registry size: 1047 total, 827 researched, 220 candidate.
+- analysis.md: 1005 KB, no archival (no entries yet older than 2026-06-04; 120d threshold: ~2026-05-04).
+- x-handles: 103/103 triaged · **SCOPE COMPLETE (2026-09-13) — x-handle-triage safe for deletion; x-handle-ranking continues steady-state.**
+- four-box-backfill: 21 backlog · **SCOPE COMPLETE (2026-09-05) — four-box-backfill safe for deletion; deepdive-top100 continues.**
+- routine token-opt: all 12 stock routines reviewed. Result: **clean — nothing safe to cut** (prior 2026-09-09 pass removed redundancy; remaining prose is operational).
