@@ -252,7 +252,6 @@ Generated: 2026-10-02
 | Golkunda Diamond | 2026-09-15 | 2026-10-15 | Low-Medium |
 | GNRL Ltd | 2026-09-15 | 2026-10-15 | Low |
 | Bafna Pharma | 2026-09-15 | 2026-10-15 | Low |
-| Lelavoir Ltd | 2026-09-15 | 2026-10-15 | Low |
 | DIL | 2026-09-15 | 2026-10-15 | Low |
 | RKEC Infra | 2026-09-15 | 2026-10-15 | Low |
 | Jyoti Ltd | 2026-09-15 | 2026-10-15 | Low |
@@ -453,3 +452,17 @@ Generated: 2026-10-02
 | Vardhman Special Steels Ltd (VSSL) | 2026-10-01 | 2026-10-31 | Low |
 | Sunflag Iron & Steel | 2026-10-01 | 2026-10-31 | Low |
 | Thirumalai Chemicals | 2026-10-01 | 2026-10-31 | Low |
+| Lelavoir Ltd | 2026-10-02 | 2026-11-01 | Low |
+| Sahana Systems | 2026-10-02 | 2026-11-01 | Low-Medium |
+| Oriana Power Ltd | 2026-10-02 | 2026-11-01 | Low-Medium |
+| Bondada Engineer | 2026-10-02 | 2026-11-01 | Medium |
+| Cospower Engineering | 2026-10-02 | 2026-11-01 | Low-Medium |
+| Rm Drip And Springs | 2026-10-02 | 2026-11-01 | Medium |
+| Gp Eco Solutions | 2026-10-02 | 2026-11-01 | Low |
+| Oswal Pumps | 2026-10-02 | 2026-11-01 | Low-Medium |
+| Avana Electrosystems | 2026-10-02 | 2026-11-01 | Low |
+| Solar Industries | 2026-10-02 | 2026-11-01 | Low |
+| Gayatri Rubbers | 2026-10-02 | 2026-11-01 | AVOID |
+| Nisus Finance | 2026-10-02 | 2026-11-01 | Low-Medium |
+| Prudent Corp | 2026-10-02 | 2026-11-01 | Low |
+| Sigachi Industries Limited | 2026-10-02 | 2026-11-01 | Low |

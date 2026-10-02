@@ -104,7 +104,7 @@ _(none)_
 | Eppelton (EEPL) | 2027-03-18 | ~6M | pending | 28.78 | AMISP empanelment confirmation + the next 1-2 quarters of cash-flow/working-capital data |
 | Sri Lotus Developers | 2027-03-18 | ~6M | pending | 22.98 | Q2/Q3 FY27 results confirming whether the EBITDA margin contraction reverses and whether the guided 55-60% revenue/PAT growth and Rs 1,800-2,000 Cr pre-sales... |
 | Sun Pharma | 2027-03-18 | ~6M | pending | 7.07 | Organon acquisition close (targeted Q4 FY27) and continued confirmation of the specialty-led margin-expansion trend across FY27 quarters |
-| garuda-cons | 2027-03-18 | ~6M | pending | 7.0 | Next 1-2 quarters of cash-flow/working-capital disclosure, and any further promoter pledge or release activity - the key tests of whether the Jul 2026 pledge... |
+| Garuda Cons | 2027-03-18 | ~6M | pending | 7.0 | Next 1-2 quarters of cash-flow/working-capital disclosure, and any further promoter pledge or release activity - the key tests of whether the Jul 2026 pledge... |
 | Deepa Jewellers | 2027-03-18 | ~6M | pending | 5.24 | In-house manufacturing facility commissioning + the first full quarter of post-listing disclosure (Q2/Q3 FY27), confirming whether margin improves and cash c... |
 | Garuda Construction | 2027-03-18 | ~6M | pending | 3.5 | Next 1-2 quarters of cash-flow/working-capital disclosure, and any further promoter pledge or release activity - the key tests of whether the Jul 2026 pledge... |
 | Archit Nuwood Industries | 2027-03-18 | ~6M | pending | 0 | FY26 annual report / cash-flow statement - the key test of whether the 9M FY26 margin recovery is accompanied by normalised operating cash flow and working-c... |
@@ -207,7 +207,7 @@ _(none)_
 | Gujarat Themis Biosyn Ltd | 2027-06-09 | ~9M | pending | 0 | MBJ acquisition close (targeted Q2 FY27) + QIP pricing + first combined-entity quarter showing pro-forma revenue, margin and net debt |
 | Indotech | 2027-06-09 | ~9M | pending | 0 | Conversion of the 400kV/BESS (NTPC) qualification and recent order wins into a disclosed order book, a Q2/Q3 FY27 margin print showing the ~14% EBITDA margin... |
 | Exicom Tele-Services: A Key Player in the Booming EV Sector | 2027-06-09 | ~9M | pending | 0 | A quarter of positive consolidated EBITDA plus Tritium visibly approaching its Q4 FY27 breakeven target |
-| indo-techtrans | 2027-06-09 | ~9M | pending | 0 | Conversion of the 400kV/BESS (NTPC) qualification and recent order wins into a disclosed order book, a Q2/Q3 FY27 margin print showing the ~14% EBITDA margin... |
+| Indo Techtrans | 2027-06-09 | ~9M | pending | 0 | Conversion of the 400kV/BESS (NTPC) qualification and recent order wins into a disclosed order book, a Q2/Q3 FY27 margin print showing the ~14% EBITDA margin... |
 | Recode Studios Ltd | 2027-06-13 | ~9M | pending | 29.23 | FY27 quarterly prints showing whether the May-2026 Rs 12 Cr/month run-rate holds, and whether Aflairza's stalled growth reverses post-integration |
 | Steelcast Ltd | 2027-06-15 | ~9M | pending | 3.82 | New railroad-casting-component approval decision (currently in field trials, management ~85%+ confidence) - a real, currently-excluded-from-guidance upside c... |
 | Lohia Corp | 2027-06-17 | ~9M | pending | 7.67 | Continued order-book-to-revenue conversion and margin sustainability across the next 2-3 quarters, confirming Q1 FY27 is the start of a trend rather than a o... |

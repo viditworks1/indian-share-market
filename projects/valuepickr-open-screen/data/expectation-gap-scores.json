@@ -2,7 +2,7 @@
   "date_compiled": "2026-10-02",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
   "scored_count": 318,
-  "not_assessed_count": 663,
+  "not_assessed_count": 677,
   "ranked": [
     {
       "slug": "vaibhav-global-vertically-integrated-value-e",
@@ -4333,7 +4333,7 @@
     },
     {
       "slug": "garuda-cons",
-      "name": "garuda-cons",
+      "name": "Garuda Cons",
       "expectation_gap_score": 7.0,
       "conviction_score": 0,
       "conviction": null,
@@ -7651,7 +7651,7 @@
     },
     {
       "slug": "influx-health",
-      "name": "influx-health",
+      "name": "Influx Health",
       "expectation_gap_score": 3.63,
       "conviction_score": 2.25,
       "conviction": null,
@@ -11097,7 +11097,7 @@
     },
     {
       "slug": "indo-techtrans",
-      "name": "indo-techtrans",
+      "name": "Indo Techtrans",
       "expectation_gap_score": 0,
       "conviction_score": 0,
       "conviction": null,
@@ -11139,6 +11139,20 @@
       "conviction_score": 45.0,
       "conviction": "High",
       "thesis_fit": "neither"
+    },
+    {
+      "slug": "bondada-engineer",
+      "name": "Bondada Engineer",
+      "conviction_score": 39.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years"
+    },
+    {
+      "slug": "rm-drip-and-springs",
+      "name": "Rm Drip And Springs",
+      "conviction_score": 39.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years"
     },
     {
       "slug": "nuvama-wealth-management",
@@ -12875,6 +12889,34 @@
       "conviction_score": 16.0,
       "conviction": "Low-Medium",
       "thesis_fit": "neither"
+    },
+    {
+      "slug": "sahana-systems",
+      "name": "Sahana Systems",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "medium-term-10-15pct-ish"
+    },
+    {
+      "slug": "oriana-power-ltd",
+      "name": "Oriana Power Ltd",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "medium-term-10-15pct-ish"
+    },
+    {
+      "slug": "cospower-engineering",
+      "name": "Cospower Engineering",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "medium-term-10-15pct-ish"
+    },
+    {
+      "slug": "oswal-pumps",
+      "name": "Oswal Pumps",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "medium-term-10-15pct-ish"
     },
     {
       "slug": "international-gemmological-institute-india-ltd",
@@ -15551,13 +15593,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "lelavoir-ltd",
-      "name": "Lelavoir Ltd",
-      "conviction_score": 0,
-      "conviction": "Low",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "dil",
       "name": "DIL",
       "conviction_score": 0.0,
@@ -15671,108 +15706,171 @@
     },
     {
       "slug": "anondita-medi",
-      "name": "anondita-medi",
+      "name": "Anondita Medi",
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": null
     },
     {
       "slug": "connplex-cinemas",
-      "name": "connplex-cinemas",
+      "name": "Connplex Cinemas",
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": null
     },
     {
       "slug": "spectraa-technology",
-      "name": "spectraa-technology",
+      "name": "Spectraa Technology",
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": null
     },
     {
       "slug": "manipal-payment",
-      "name": "manipal-payment",
+      "name": "Manipal Payment",
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": null
     },
     {
       "slug": "savy-infra",
-      "name": "savy-infra",
+      "name": "Savy Infra",
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": null
     },
     {
       "slug": "arihant-academy",
-      "name": "arihant-academy",
+      "name": "Arihant Academy",
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": null
     },
     {
       "slug": "nityas-gems-jewellery",
-      "name": "nityas-gems-jewellery",
+      "name": "Nityas Gems Jewellery",
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": null
     },
     {
       "slug": "avax-apparels",
-      "name": "avax-apparels",
+      "name": "Avax Apparels",
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": null
     },
     {
       "slug": "pramodini-medicare",
-      "name": "pramodini-medicare",
+      "name": "Pramodini Medicare",
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": null
     },
     {
       "slug": "apex-ecotech",
-      "name": "apex-ecotech",
+      "name": "Apex Ecotech",
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": null
     },
     {
       "slug": "teamtech-formwork",
-      "name": "teamtech-formwork",
+      "name": "Teamtech Formwork",
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": null
     },
     {
       "slug": "merritronix",
-      "name": "merritronix",
+      "name": "Merritronix",
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": null
     },
     {
       "slug": "techd-cybersec",
-      "name": "techd-cybersec",
+      "name": "Techd Cybersec",
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": null
     },
     {
       "slug": "gk-energy",
-      "name": "gk-energy",
+      "name": "Gk Energy",
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": null
     },
     {
       "slug": "g-v-electricals",
-      "name": "g-v-electricals",
+      "name": "G V Electricals",
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": null
+    },
+    {
+      "slug": "value-360-communications",
+      "name": "Value 360 Communications",
+      "conviction_score": 0,
+      "conviction": null,
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "gp-eco-solutions",
+      "name": "Gp Eco Solutions",
+      "conviction_score": 0,
+      "conviction": "Low",
+      "thesis_fit": "unproven"
+    },
+    {
+      "slug": "dhanwel-hybrid",
+      "name": "Dhanwel Hybrid",
+      "conviction_score": 0,
+      "conviction": null,
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "avana-electrosystems",
+      "name": "Avana Electrosystems",
+      "conviction_score": 0,
+      "conviction": "Low",
+      "thesis_fit": "unproven"
+    },
+    {
+      "slug": "solar-industries",
+      "name": "Solar Industries",
+      "conviction_score": 0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "gayatri-rubbers",
+      "name": "Gayatri Rubbers",
+      "conviction_score": 0,
+      "conviction": "AVOID",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "nisus-finance",
+      "name": "Nisus Finance",
+      "conviction_score": 0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "medium-term-10-15pct-ish"
+    },
+    {
+      "slug": "cash-ur-drive",
+      "name": "Cash Ur Drive",
+      "conviction_score": 0,
+      "conviction": null,
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "prudent-corp",
+      "name": "Prudent Corp",
+      "conviction_score": 0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
     }
   ],
   "catalyst_calendar": [
@@ -16515,7 +16613,7 @@
     },
     {
       "slug": "garuda-cons",
-      "name": "garuda-cons",
+      "name": "Garuda Cons",
       "event": "Next 1-2 quarters of cash-flow/working-capital disclosure, and any further promoter pledge or release activity - the key tests of whether the Jul 2026 pledge was a one-off financing choice or the start of a recurring pattern",
       "target_date": "2027-03-18",
       "window_months": 6,
@@ -17648,7 +17746,7 @@
     },
     {
       "slug": "indo-techtrans",
-      "name": "indo-techtrans",
+      "name": "Indo Techtrans",
       "event": "Conversion of the 400kV/BESS (NTPC) qualification and recent order wins into a disclosed order book, a Q2/Q3 FY27 margin print showing the ~14% EBITDA margin stabilising, and a material reduction of the promoter pledge",
       "target_date": "2027-06-09",
       "window_months": 9,

@@ -1,6 +1,6 @@
 {
   "method": "Composite of conviction_score/quality_score/expectation_gap_score/consistency_score/asymmetry_score, weighted 0.25/0.25/0.20/0.15/0.15 and renormalized over whichever are present. Formula + investor research in MASTER_SCORE_METHODOLOGY.md.",
-  "scored_count": 981,
+  "scored_count": 995,
   "not_assessed_count": 0,
   "consistency_score_coverage": 200,
   "asymmetry_score_coverage": 276,
@@ -2224,6 +2224,46 @@
       }
     },
     {
+      "slug": "bondada-engineer",
+      "name": "Bondada Engineer",
+      "master_score": 39.0,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 39.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "rm-drip-and-springs",
+      "name": "Rm Drip And Springs",
+      "master_score": 39.0,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 39.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
       "slug": "kovai-medical-center-and-hospital",
       "name": "Kovai Medical Center and Hospital",
       "master_score": 38.96,
@@ -2695,7 +2735,7 @@
     },
     {
       "slug": "indo-techtrans",
-      "name": "indo-techtrans",
+      "name": "Indo Techtrans",
       "master_score": 36.8,
       "red_flag_tier": null,
       "conviction": null,
@@ -4036,7 +4076,7 @@
     },
     {
       "slug": "influx-health",
-      "name": "influx-health",
+      "name": "Influx Health",
       "master_score": 30.41,
       "red_flag_tier": null,
       "conviction": null,
@@ -10882,6 +10922,86 @@
       }
     },
     {
+      "slug": "sahana-systems",
+      "name": "Sahana Systems",
+      "master_score": 16.0,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "medium-term-10-15pct-ish",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 16.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "oriana-power-ltd",
+      "name": "Oriana Power Ltd",
+      "master_score": 16.0,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "medium-term-10-15pct-ish",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 16.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "cospower-engineering",
+      "name": "Cospower Engineering",
+      "master_score": 16.0,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "medium-term-10-15pct-ish",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 16.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "oswal-pumps",
+      "name": "Oswal Pumps",
+      "master_score": 16.0,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "medium-term-10-15pct-ish",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 16.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
       "slug": "electronics-mart-india",
       "name": "Electronics Mart India Limited- EMIL",
       "master_score": 15.98,
@@ -12180,7 +12300,7 @@
     },
     {
       "slug": "garuda-cons",
-      "name": "garuda-cons",
+      "name": "Garuda Cons",
       "master_score": 12.26,
       "red_flag_tier": null,
       "conviction": null,
@@ -21249,26 +21369,6 @@
       }
     },
     {
-      "slug": "lelavoir-ltd",
-      "name": "Lelavoir Ltd",
-      "master_score": 0,
-      "red_flag_tier": "HIGH CAUTION",
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "dil",
       "name": "DIL",
       "master_score": 0,
@@ -21595,7 +21695,7 @@
     },
     {
       "slug": "anondita-medi",
-      "name": "anondita-medi",
+      "name": "Anondita Medi",
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
@@ -21620,7 +21720,7 @@
     },
     {
       "slug": "connplex-cinemas",
-      "name": "connplex-cinemas",
+      "name": "Connplex Cinemas",
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
@@ -21645,7 +21745,7 @@
     },
     {
       "slug": "spectraa-technology",
-      "name": "spectraa-technology",
+      "name": "Spectraa Technology",
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
@@ -21670,7 +21770,7 @@
     },
     {
       "slug": "manipal-payment",
-      "name": "manipal-payment",
+      "name": "Manipal Payment",
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
@@ -21695,7 +21795,7 @@
     },
     {
       "slug": "savy-infra",
-      "name": "savy-infra",
+      "name": "Savy Infra",
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
@@ -21715,7 +21815,7 @@
     },
     {
       "slug": "arihant-academy",
-      "name": "arihant-academy",
+      "name": "Arihant Academy",
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
@@ -21740,7 +21840,7 @@
     },
     {
       "slug": "nityas-gems-jewellery",
-      "name": "nityas-gems-jewellery",
+      "name": "Nityas Gems Jewellery",
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
@@ -21765,7 +21865,7 @@
     },
     {
       "slug": "avax-apparels",
-      "name": "avax-apparels",
+      "name": "Avax Apparels",
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
@@ -21790,7 +21890,7 @@
     },
     {
       "slug": "pramodini-medicare",
-      "name": "pramodini-medicare",
+      "name": "Pramodini Medicare",
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
@@ -21815,7 +21915,7 @@
     },
     {
       "slug": "apex-ecotech",
-      "name": "apex-ecotech",
+      "name": "Apex Ecotech",
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
@@ -21840,7 +21940,7 @@
     },
     {
       "slug": "teamtech-formwork",
-      "name": "teamtech-formwork",
+      "name": "Teamtech Formwork",
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
@@ -21865,7 +21965,7 @@
     },
     {
       "slug": "merritronix",
-      "name": "merritronix",
+      "name": "Merritronix",
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
@@ -21890,7 +21990,7 @@
     },
     {
       "slug": "techd-cybersec",
-      "name": "techd-cybersec",
+      "name": "Techd Cybersec",
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
@@ -21915,7 +22015,7 @@
     },
     {
       "slug": "gk-energy",
-      "name": "gk-energy",
+      "name": "Gk Energy",
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
@@ -21940,7 +22040,7 @@
     },
     {
       "slug": "g-v-electricals",
-      "name": "g-v-electricals",
+      "name": "G V Electricals",
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
@@ -21961,6 +22061,186 @@
           "quality_score"
         ],
         "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "value-360-communications",
+      "name": "Value 360 Communications",
+      "master_score": 0,
+      "red_flag_tier": "scale",
+      "conviction": null,
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "gp-eco-solutions",
+      "name": "Gp Eco Solutions",
+      "master_score": 0,
+      "red_flag_tier": "caution",
+      "conviction": "Low",
+      "thesis_fit": "unproven",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "dhanwel-hybrid",
+      "name": "Dhanwel Hybrid",
+      "master_score": 0,
+      "red_flag_tier": "scale",
+      "conviction": null,
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "avana-electrosystems",
+      "name": "Avana Electrosystems",
+      "master_score": 0,
+      "red_flag_tier": "caution",
+      "conviction": "Low",
+      "thesis_fit": "unproven",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "solar-industries",
+      "name": "Solar Industries",
+      "master_score": 0,
+      "red_flag_tier": "scale",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "gayatri-rubbers",
+      "name": "Gayatri Rubbers",
+      "master_score": 0,
+      "red_flag_tier": "high",
+      "conviction": "AVOID",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "nisus-finance",
+      "name": "Nisus Finance",
+      "master_score": 0,
+      "red_flag_tier": "none",
+      "conviction": "Low-Medium",
+      "thesis_fit": "medium-term-10-15pct-ish",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "cash-ur-drive",
+      "name": "Cash Ur Drive",
+      "master_score": 0,
+      "red_flag_tier": "scale",
+      "conviction": null,
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "prudent-corp",
+      "name": "Prudent Corp",
+      "master_score": 0,
+      "red_flag_tier": "scale",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
       }
     }
   ],
