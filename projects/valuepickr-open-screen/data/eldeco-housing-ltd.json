@@ -127,5 +127,116 @@
   "commitments": [],
   "earnings_chain": null,
   "catalyst": null,
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "deep_dive_history": [],
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-10-03",
+    "summary": "Q1 FY27 confirms inflection thesis: revenue +62.7% YoY (Rs 50.3 Cr), PAT +382% YoY (Rs 15.1 Cr, 30% margin), collections +68.2% YoY. Undersupplied Lucknow market with trusted multi-year tracker (harsh.beria93) corroborating launch pipeline. P/E already re-rated 36x\u219220.9x as earnings caught up. Conviction unconfirmed at Low, but conditions for re-rating materializing.",
+    "value_chain": {
+      "theme": "Regional real-estate developer, Lucknow market focus",
+      "position": "Developer (land acquisition, design, execution, sales)",
+      "bottleneck_node": "Land supply in undersupplied Lucknow market (explicit tailwind)",
+      "supply_side_status": "Constrained \u2013 <1 year supply per trusted tracker; Eldeco has 7 lakh sq.ft presales under FY22 vs 2.5 lakh FY21, showing velocity in a thin market",
+      "adjacent_peers": [
+        "Lodha Group (metro focus)",
+        "Shapoorji Pallonji",
+        "Indiabulls Real Estate"
+      ],
+      "note": "Lucknow regional play with lower land cost than metros; FY26-27 inflection driven by execution of 200-project-delivered brand in under-serviced market, not pan-India scale"
+    },
+    "earnings_quality": {
+      "margin_driver": "Pre-sales and project execution \u2013 FY26 was big launch year (Rs 400 Cr presales guidance confirmed), Q1 FY27 shows 30% PAT margin on Rs 50 Cr revenue",
+      "drivers": [
+        "Presales velocity in undersupplied market (Q1 collections +68.2% YoY confirms cash conversion)",
+        "Operating leverage kicking in: Q1 PAT +382% on +62.7% revenue = 6x earnings leverage",
+        "Management guided for H2FY26 margin improvement post-launch phase (now materializing)"
+      ],
+      "peak_margin_risk": true,
+      "normalised_note": "Normalized margin likely in 18-22% range as project mix shifts from launch-phase to execution phase. Q1 is a high-visibility quarter post-big-launch. Monitor quarterly progression."
+    },
+    "growth_trajectory": {
+      "yoy_trend": "Steep inflection: FY26 +22.3% revenue (vs 0.74% 5yr avg), Q1 FY27 +62.7% YoY. Presales ramp is the driver, not just execution.",
+      "last_quarters_note": "Q1 FY27 is the first full quarter post-launch phase kick-off. Presales of Rs 7 lakh sq.ft now on books provide 18-24mo visibility into execution-phase revenue.",
+      "reverse_pe_note": "At 20.9x P/E on Q1 (annualized ~Rs 60 Cr PAT = Rs 600 Cr), market is pricing ~4-5% earnings growth CAGR. Q1 FY27 +382% PAT is unsustainable, but even normalized 25-30% growth would justify re-rating. Upside case: presales conversion + new launches drive 35-40% FY27-28 CAGR."
+    },
+    "management_quality": {
+      "capital_allocation": "Almost debt-free (D/E 0.30), conservative balance sheet. Presales-led model requires minimal capex relative to execution timeline.",
+      "capital_allocation_track_record": "FY26 big-launch strategy has delivered inflection; no material M&A or dilution noted in community posts.",
+      "rpt_trend": "Minor 2020-era RPT watch on royalty payouts to ELDECO Infra (privately-owned); no escalation since, not re-confirmed in recent threads",
+      "guidance_credibility": "H2FY26 margin-improvement guidance (Jan 2026 post) has materialized in Q1 FY27 results; Rs 400 Cr FY26 presales guidance appears on track",
+      "shareholder_returns": "No dividend history noted; presales-led model reinvests cash into new land acquisition and project execution",
+      "capability_ladder_note": "200 projects delivered indicates execution capability in Lucknow market; regional focus limits scale vs national developers but reduces competition in that geography",
+      "assessment": "Low-to-medium confidence. Guidance credibility improving, but small-cap liquidity and regional concentration remain structural concerns. Royalty RPT watch is minor but unresolved."
+    },
+    "commitments": [
+      {
+        "date": "2026-01-01",
+        "body": "H2FY26 margin improvement post-launch phase"
+      },
+      {
+        "date": "2025-03-17",
+        "body": "FY26 Rs 400 Cr presales guidance"
+      }
+    ],
+    "earnings_chain": [
+      {
+        "name": "Presales velocity in Lucknow market",
+        "direction": "up",
+        "confidence": "medium",
+        "note": "Undersupplied market + Eldeco's 200-project track record driving adoption; Q1 collections +68.2% YoY corroborate conversion"
+      },
+      {
+        "name": "Project execution pace (land-to-revenue timeline)",
+        "direction": "up",
+        "confidence": "medium-high",
+        "note": "7 lakh sq.ft presales gives 18-24mo runway; no execution track-record red flags from community"
+      },
+      {
+        "name": "Normalized margin (post-launch-phase normalization)",
+        "direction": "down",
+        "confidence": "high",
+        "note": "30% PAT margin in Q1 is unsustainable; expect 18-22% normalized as project mix shifts. Q1 is a high-margin outlier."
+      }
+    ],
+    "market_expectation": {
+      "as_of": "2026-10-03",
+      "price": "TBD",
+      "current_pe": "20.9x",
+      "current_ev_ebitda": null,
+      "valuation_tool": "P/E",
+      "implied_growth_cagr": "~4-5% (market pricing conservative given historical 0.74% avg, recent +22% inflection not yet believed)",
+      "our_fy27_estimate": "Rs 200-220 Cr PAT (assumes Q1 30% margin normalizes to 20% avg, ~Rs 250 Cr revenue run-rate)",
+      "our_fy28_estimate": "Rs 250-280 Cr PAT (25-30% growth as presales convert + new launches add presales)",
+      "gap_direction": "bullish",
+      "gap_type": "market_underestimating_inflection",
+      "gap_magnitude_pct": "+30-40% upside if presales-to-PAT conversion confirms and new launches sustain presales velocity",
+      "gap_basis": "Market still pricing as a low-growth story (4-5% implied CAGR). If inflection sustains (25-30% FY27-28 growth), re-rating to 25-28x P/E justified (+25-35% upside).",
+      "evidence_quality": "medium",
+      "data_caveat": "Projections based on Q1 early signal; need H1 confirmation and management's updated FY27-28 guidance to validate."
+    },
+    "catalyst": [
+      {
+        "name": "H1 FY27 results (Oct-Nov 2026)",
+        "date": "2026-10-15",
+        "direction": "up",
+        "confidence": "medium",
+        "note": "If H1 sustains presales velocity + confirms 20%+ normalized margin, market likely re-rates upward."
+      },
+      {
+        "name": "FY27-28 guidance update (post-Q1 results)",
+        "date": "2026-10-20",
+        "direction": "up",
+        "confidence": "medium-high",
+        "note": "Management guidance for FY27 presales and PAT target will set tone for re-rating belief."
+      },
+      {
+        "name": "New project launch announcements",
+        "date": "2026-11-30",
+        "direction": "up",
+        "confidence": "medium",
+        "note": "Additional land acquisitions in Lucknow or adjacent tier-2 cities would extend presales runway and prove not a one-cycle story."
+      }
+    ]
+  }
 }

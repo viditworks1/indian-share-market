@@ -79,12 +79,20 @@
       "never_deepdived": true,
       "days_since_deepdive": 7,
       "in_cooldown": false,
-      "deepdive_status": "pending",
-      "deepdive_pass": 0,
-      "deepdive_date": "2026-09-26",
-      "pre_deepdive_conviction": null,
-      "post_deepdive_conviction": null,
-      "history": [],
+      "deepdive_status": "done",
+      "deepdive_pass": 1,
+      "deepdive_date": "2026-10-03",
+      "pre_deepdive_conviction": "Low",
+      "post_deepdive_conviction": "Low",
+      "history": [
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low",
+          "post": "Low",
+          "summary": "Q1 FY27 confirms presales inflection (revenue +62.7%, PAT +382%); re-rating from 36x→20.9x P/E materializing. Undersupplied Lucknow market with trusted multi-year tracker. 25-30% FY27-28 growth case if new launches sustain presales velocity."
+        }
+      ],
       "in_active_pool": true,
       "rerun_tier": 0,
       "dive_mode": "full"
@@ -1069,6 +1077,14 @@
           "post": "Low-Medium",
           "summary": "price Rs 699; P/E 12.7x stable, no tier change",
           "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low-Medium",
+          "post": "Low-Medium",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
+          "mode": "technicals_only"
         }
       ],
       "in_active_pool": true,
@@ -1361,8 +1377,8 @@
       "deepdive_status": "pending",
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-05",
-      "pre_deepdive_conviction": "Low-Medium",
-      "post_deepdive_conviction": "Low-Medium",
+      "pre_deepdive_conviction": "Low",
+      "post_deepdive_conviction": "Low",
       "history": [
         {
           "pass": 1,
@@ -1385,6 +1401,14 @@
           "pre": "Low-Medium",
           "post": "Low-Medium",
           "summary": "price Rs 95; P/E 7.88x stable, no tier change",
+          "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low",
+          "post": "Low",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
           "mode": "technicals_only"
         }
       ],
@@ -1487,6 +1511,14 @@
           "pre": "Low-Medium",
           "post": "Low-Medium",
           "summary": "price Rs 3009; P/E 77.8x high but unchanged, no tier shift",
+          "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low-Medium",
+          "post": "Low-Medium",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
           "mode": "technicals_only"
         }
       ],
@@ -2081,8 +2113,8 @@
       "deepdive_status": "pending",
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-03",
-      "pre_deepdive_conviction": "Medium",
-      "post_deepdive_conviction": "Medium",
+      "pre_deepdive_conviction": "Low",
+      "post_deepdive_conviction": "Low",
       "history": [
         {
           "pass": 1,
@@ -2105,6 +2137,14 @@
           "pre": "Medium",
           "post": "Medium",
           "summary": "unchanged at Rs 481; P/E 25.3x stable",
+          "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low",
+          "post": "Low",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
           "mode": "technicals_only"
         }
       ],
@@ -2269,8 +2309,8 @@
       "deepdive_status": "pending",
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-03",
-      "pre_deepdive_conviction": "Medium",
-      "post_deepdive_conviction": "Medium",
+      "pre_deepdive_conviction": "Medium-High",
+      "post_deepdive_conviction": "Medium-High",
       "history": [
         {
           "pass": 1,
@@ -2293,6 +2333,14 @@
           "pre": "Medium",
           "post": "Medium",
           "summary": "price data incomplete; market-cap/tier unchanged",
+          "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Medium-High",
+          "post": "Medium-High",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
           "mode": "technicals_only"
         }
       ],

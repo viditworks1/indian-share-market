@@ -144,11 +144,11 @@
       "slug": "maharashtra-seamless",
       "name": "Maharashtra seamless-a value plus cyclical play",
       "expectation_gap_score": 55.09,
-      "conviction_score": 23.42,
+      "conviction_score": 9.42,
       "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
+      "thesis_fit": "neither",
       "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap",
+      "market_cap_tier": "small-cap",
       "gap_direction": "underestimated",
       "gap_type": "volume",
       "gap_magnitude_pct": null,
@@ -276,7 +276,7 @@
       "slug": "bondada-engineer",
       "name": "Bondada Engineer",
       "expectation_gap_score": 51.06,
-      "conviction_score": 24.0,
+      "conviction_score": 29.75,
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
@@ -3579,11 +3579,11 @@
       "slug": "wise-travel-india-wti-cabs",
       "name": "Wise Travel India Ltd (WTICabs)",
       "expectation_gap_score": 15.92,
-      "conviction_score": 29.46,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
+      "conviction_score": 7.46,
+      "conviction": "Low",
+      "thesis_fit": "neither",
       "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap",
+      "market_cap_tier": "small-cap",
       "gap_direction": "partially-priced",
       "gap_type": "margin",
       "gap_magnitude_pct": null,
@@ -6034,11 +6034,11 @@
       "slug": "jeena-sikho-lifecare",
       "name": "Jeena Sikho Lifecare",
       "expectation_gap_score": 4.12,
-      "conviction_score": 52.21,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
+      "conviction_score": 21.21,
+      "conviction": "Low",
+      "thesis_fit": "neither",
       "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap",
+      "market_cap_tier": "small-cap",
       "gap_direction": "priced-in",
       "gap_type": "mix",
       "gap_magnitude_pct": null,
@@ -6145,11 +6145,11 @@
       "slug": "kmc-speciality-hospital",
       "name": "KMC Speciality hospital",
       "expectation_gap_score": 3.93,
-      "conviction_score": 47.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
+      "conviction_score": 43.0,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
       "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap",
+      "market_cap_tier": "small-cap",
       "gap_direction": "priced-in",
       "gap_type": null,
       "gap_magnitude_pct": null,
@@ -7010,7 +7010,7 @@
       "conviction": "Low",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Small-cap (~Rs 841 Cr)",
+      "market_cap_tier": "small-cap",
       "gap_direction": "priced-in",
       "gap_type": "mixed",
       "gap_magnitude_pct": null,
@@ -9065,42 +9065,6 @@
       }
     },
     {
-      "slug": "shaily-engineering",
-      "name": "Shaily Engineering Plastics Ltd",
-      "expectation_gap_score": 0,
-      "conviction_score": 43.45,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap",
-      "gap_direction": "over-optimistic",
-      "gap_type": "volume",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "moderate",
-      "catalyst_event": "Q2/Q3 FY27 prints testing whether the Q1FY27 deceleration (+14%) was a one-off cost/timing issue (management's claim) or a genuine growth-rate reset, plus whether gross margin actually normalises by Q3FY27 as guided",
-      "catalyst_window_months": 6,
-      "catalyst_window_start": "2026-09-12",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 2,
-      "risk_open_spofs": [
-        "23-24 partners must convert to volume, not just signed relationships",
-        "single new facility/geography"
-      ],
-      "flags": [
-        "no-edge"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.75,
-        "catalyst_q": 0.39,
-        "timing_q": 1.0,
-        "risk_q": 0.4,
-        "quality": 0.639
-      }
-    },
-    {
       "slug": "yatharth-hospital-trauma-care-services",
       "name": "Yatharth Hospital & Trauma Care Services Limited",
       "expectation_gap_score": 0,
@@ -9461,6 +9425,42 @@
         "timing_q": 0.75,
         "risk_q": 0.8,
         "quality": 0.475
+      }
+    },
+    {
+      "slug": "shaily-engineering",
+      "name": "Shaily Engineering Plastics Ltd",
+      "expectation_gap_score": 0,
+      "conviction_score": 29.45,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "small-cap",
+      "gap_direction": "over-optimistic",
+      "gap_type": "volume",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2/Q3 FY27 prints testing whether the Q1FY27 deceleration (+14%) was a one-off cost/timing issue (management's claim) or a genuine growth-rate reset, plus whether gross margin actually normalises by Q3FY27 as guided",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-12",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "23-24 partners must convert to volume, not just signed relationships",
+        "single new facility/geography"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.639
       }
     },
     {
@@ -12993,20 +12993,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "sahana-systems",
-      "name": "Sahana Systems",
-      "conviction_score": 16.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "cospower-engineering",
-      "name": "Cospower Engineering",
-      "conviction_score": 16.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "oswal-pumps",
       "name": "Oswal Pumps",
       "conviction_score": 16.0,
@@ -13163,6 +13149,20 @@
     {
       "slug": "e",
       "name": "E-pack durables",
+      "conviction_score": 11.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "sahana-systems",
+      "name": "Sahana Systems",
+      "conviction_score": 11.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "cospower-engineering",
+      "name": "Cospower Engineering",
       "conviction_score": 11.0,
       "conviction": "Low-Medium",
       "thesis_fit": "neither"
@@ -16373,7 +16373,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 4.12,
-      "conviction_score": 52.21
+      "conviction_score": 21.21
     },
     {
       "slug": "samhi-hotels",
@@ -16659,7 +16659,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 51.06,
-      "conviction_score": 24.0
+      "conviction_score": 29.75
     },
     {
       "slug": "airfloa-rail-technology",
@@ -16681,7 +16681,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 0,
-      "conviction_score": 43.45
+      "conviction_score": 29.45
     },
     {
       "slug": "carysil",
@@ -16824,7 +16824,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 55.09,
-      "conviction_score": 23.42
+      "conviction_score": 9.42
     },
     {
       "slug": "nisus-finance",
@@ -17429,7 +17429,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 15.92,
-      "conviction_score": 29.46
+      "conviction_score": 7.46
     },
     {
       "slug": "adf-food-ltd",
@@ -18386,7 +18386,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 3.93,
-      "conviction_score": 47.0
+      "conviction_score": 43.0
     },
     {
       "slug": "hdfc-asset-management-company",

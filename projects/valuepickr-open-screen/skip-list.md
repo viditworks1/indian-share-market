@@ -56,7 +56,7 @@ Generated: 2026-10-03
 | AJC Jewel Manufacturers Ltd | 2026-09-05 | 2026-10-05 | Low |
 | Mayur Uniquoters Ltd | 2026-09-05 | 2026-10-05 | Medium |
 | Jasch Industries Ltd | 2026-09-05 | 2026-10-05 | Medium |
-| Wise Travel India Ltd (WTICabs) | 2026-09-05 | 2026-10-05 | Low-Medium |
+| Wise Travel India Ltd (WTICabs) | 2026-09-05 | 2026-10-05 | Low |
 | Nitin Spinners Ltd | 2026-09-05 | 2026-10-05 | Low-Medium |
 | GHCL Textiles Ltd | 2026-09-05 | 2026-10-05 | Low |
 | Sportking India Ltd | 2026-09-05 | 2026-10-05 | Low |
