@@ -1,12 +1,12 @@
 {
-  "date_compiled": "2026-10-02",
-  "total_researched": 999,
+  "date_compiled": "2026-10-03",
+  "total_researched": 1000,
   "intro": "This is a SECOND, criteria-free ranking of every researched stock - it does NOT apply the main screen's 10x-in-2-3-years / 100x-in-10-years thesis-fit gate. It exists as a hedge in case that return-magnitude bar is too strict and is excluding genuinely good opportunities (e.g. a high-quality large-cap with a real catalyst that just can't mathematically 10x). Ranked purely by conviction - the same fundamentals/technicals/community assessment used everywhere else in this project, just without the extreme-return filter. Cross-check against docs/00_SCREEN_RANKING.docx (the thesis-gated view) before acting - a stock ranked highly here but absent there is exactly the case this document is meant to catch.",
   "ranked": [
     {
       "name": "3B Blackbio DX Ltd",
       "conviction": "High",
-      "thesis_fit": "High-risk/high-return",
+      "thesis_fit": "50x-upside-but-high-risk",
       "market_cap_tier": "Micro-cap (~Rs 1,245 Cr)",
       "reason": "High-quality organic core (78% MDx EBITDA, 25% ROCE, debt-free) but headline growth acquisition-inflated; organic India MDx only ~10%, Coris drags H1, Q1FY27 PAT -29% YoY"
     },
@@ -265,7 +265,7 @@
     {
       "name": "Thyrocare : Debt free Asset Light Healthcare Play",
       "conviction": "Medium-High",
-      "thesis_fit": "neither",
+      "thesis_fit": "10x-in-2-3-years",
       "market_cap_tier": "Mid-cap (~Rs 8,493 Cr)",
       "reason": "technicals refresh only"
     },
@@ -3562,28 +3562,28 @@
     {
       "name": "Sahana Systems",
       "conviction": "Low-Medium",
-      "thesis_fit": "medium-term-10-15pct-ish",
+      "thesis_fit": "neither",
       "market_cap_tier": "Small-cap",
       "reason": "IT Services | Staffing | Small-cap | Tailwind: Moderate | Key: Commoditized space, moderate growth, need moat validation"
     },
     {
       "name": "Oriana Power Ltd",
       "conviction": "Low-Medium",
-      "thesis_fit": "medium-term-10-15pct-ish",
+      "thesis_fit": "neither",
       "market_cap_tier": "Mid-cap",
       "reason": "Power | Power Gen/Dist | Mid-cap | Tailwind: Moderate | Key: Power sector cyclical, capex-heavy, check order book"
     },
     {
       "name": "Cospower Engineering",
       "conviction": "Low-Medium",
-      "thesis_fit": "medium-term-10-15pct-ish",
+      "thesis_fit": "neither",
       "market_cap_tier": "Small-cap",
       "reason": "Electrical Equipment | Electrical Mfg | Small-cap | Tailwind: Moderate | Key: SME electrical, need end-market visibility"
     },
     {
       "name": "Oswal Pumps",
       "conviction": "Low-Medium",
-      "thesis_fit": "medium-term-10-15pct-ish",
+      "thesis_fit": "neither",
       "market_cap_tier": "Mid-cap",
       "reason": "Industrial Equipment | Pumps Mfg | Mid-cap | Tailwind: Moderate | Key: Industrial equipment, check end-markets + export"
     },
@@ -6229,28 +6229,28 @@
     {
       "name": "Fascinate Textiles",
       "conviction": "Unrated",
-      "thesis_fit": "medium",
+      "thesis_fit": "neither",
       "market_cap_tier": "",
       "reason": "Textiles with 94% revenue, 160% profit YoY growth at P/E 6.74. High returns (63% ROCE, 48% ROE). Concerns: negative operating cash flow (-11 Cr), working capital intensive (high receivables)."
     },
     {
       "name": "GenXAI Analytics",
       "conviction": "Unrated",
-      "thesis_fit": "watchlist",
+      "thesis_fit": "neither",
       "market_cap_tier": "",
       "reason": "Software services (34 Cr revenue, 25% NPM, 38% ROCE). Growth decelerating (30% revenue, 25% profit YoY). ROE down 50% from peak. Monitor for re-acceleration."
     },
     {
       "name": "Australian Prem",
       "conviction": "Unrated",
-      "thesis_fit": "medium",
+      "thesis_fit": "neither",
       "market_cap_tier": "",
       "reason": "Solar EPC/mfg: 59% revenue, 47% profit growth, 56% ROCE, P/E 8. Strong renewable tailwind. Concerns: 95 debtor days, -50 Cr FCF, debt rising from 8 to 44 Cr. Working capital mgmt risk."
     },
     {
       "name": "BSE",
       "conviction": "Unrated",
-      "thesis_fit": "watchlist",
+      "thesis_fit": "neither",
       "market_cap_tier": "",
       "reason": "Stock exchange: exceptional quality (60% ROCE, 46% ROE, 68% EBITDA, zero debt). Revenue/profit up 61%/79% TTM. P/E 43.88 expensive for mega-cap (128k Cr). Better hold than new buy."
     }
@@ -6954,6 +6954,14 @@
       "red_flag_tier": "HIGH CAUTION"
     },
     {
+      "name": "Lelavoir Ltd",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Nano-cap (~Rs 24.6 Cr)",
+      "reason": "Q1 FY27 margin collapse (41%-5.6%), negative FCF, MD resignation, AGM board rejections. Monitor for turnaround execution; High distress risk.",
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
       "name": "RKEC Infra",
       "conviction": "Low",
       "thesis_fit": "neither",
@@ -7028,7 +7036,7 @@
     {
       "name": "Gp Eco Solutions",
       "conviction": "Low",
-      "thesis_fit": "unproven",
+      "thesis_fit": "neither",
       "market_cap_tier": "Small-cap",
       "reason": "Environment | Eco Solutions | Small-cap | Tailwind: Uncertain | Key: Green theme, need real business validation",
       "red_flag_tier": "caution"
@@ -7036,7 +7044,7 @@
     {
       "name": "Avana Electrosystems",
       "conviction": "Low",
-      "thesis_fit": "unproven",
+      "thesis_fit": "neither",
       "market_cap_tier": "Small-cap",
       "reason": "Electronics | Electronics/Energy | Small-cap | Tailwind: Uncertain | Key: Electronics sector, check R&D + product differentiation",
       "red_flag_tier": "caution"
@@ -7060,7 +7068,7 @@
     {
       "name": "Nisus Finance",
       "conviction": "Low-Medium",
-      "thesis_fit": "medium-term-10-15pct-ish",
+      "thesis_fit": "neither",
       "market_cap_tier": "Small-cap",
       "reason": "NBFC | Revenue 570Cr, Profit 83.1Cr, 107% CAGR growth, good ROE | Moderate tailwind, need AUM depth validation",
       "red_flag_tier": "none"

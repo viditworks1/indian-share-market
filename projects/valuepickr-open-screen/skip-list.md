@@ -2,20 +2,10 @@
 
 Stocks analyzed recently enough that their thread should NOT be re-opened by the scan job yet, regardless of new forum activity. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-10-02
+Generated: 2026-10-03
 
 | Stock | Last analyzed | Eligible again on | Conviction |
 |---|---|---|---|
-| Premier Explosives Ltd | 2026-09-03 | 2026-10-03 | Low-Medium |
-| Solar Industries India Ltd | 2026-09-03 | 2026-10-03 | Medium |
-| Desco Infratech Ltd | 2026-09-03 | 2026-10-03 | Low-Medium |
-| Vinyas Innovative Technologies Ltd | 2026-09-03 | 2026-10-03 | Low-Medium |
-| Atmastco Ltd | 2026-09-03 | 2026-10-03 | Low-Medium |
-| Shanti Gold International Ltd | 2026-09-03 | 2026-10-03 | Low-Medium |
-| Virtual Galaxy Infotech Ltd | 2026-09-03 | 2026-10-03 | Medium-High |
-| Netweb Technologies India Ltd | 2026-09-03 | 2026-10-03 | Low-Medium |
-| Hi-Tech Pipes Ltd | 2026-09-03 | 2026-10-03 | Low |
-| Bhadora Industries Ltd | 2026-09-03 | 2026-10-03 | Low |
 | Sunteck Realty | 2026-09-04 | 2026-10-04 | Low-Medium |
 | Steelcast Ltd | 2026-09-04 | 2026-10-04 | Medium-High |
 | PTC Industries Ltd | 2026-09-04 | 2026-10-04 | Medium |

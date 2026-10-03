@@ -1,131 +1,35 @@
 {
-  "generated": "2026-10-02",
+  "generated": "2026-10-03",
   "selection": "status=researched, no red flag, thesis_fit!=neither, conviction_score>=35, MISSING >=1 of ['market_expectation', 'quality_metrics', 'track_record']. Sorted by Confluence-100 membership, then conviction_score desc. deepdive-top100's light lane drains this, writing only the blocks named in each entry's `missing`; entries drop off once all three exist (here or a full deep pass).",
-  "total": 12,
-  "pending": 12,
-  "confluence100_pending": 6,
+  "total": 2,
+  "pending": 2,
+  "confluence100_pending": 2,
   "queue": [
     {
-      "slug": "antelopus-selan-oil-exploration",
-      "state_key": "antelopus-selan-oil-exploration",
-      "name": "Antelopus Selan Oil Exploration",
-      "data_file": "data/antelopus-selan-oil-exploration.json",
-      "conviction_score": 55.25,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap",
-      "in_confluence100": true,
-      "missing": [
-        "track_record"
-      ],
-      "backfill_status": "done",
-      "backfill_date": "2026-10-02",
-      "attempts": 2,
-      "rank": 1,
-      "backfill_result": "done",
-      "history": [
-        {
-          "date": "2026-10-02",
-          "result": "done",
-          "summary": "track_record filled: years_checked=5, years_cleared=1; post-merger entity (Jul 2025), limited pre-merger public history"
-        },
-        {
-          "date": "2026-10-02",
-          "result": "done",
-          "summary": "track_record filled: 2/12 years met dual threshold (10%+ revenue growth, 15%+ ROCE). FY19 & FY25 cleared."
-        }
-      ]
-    },
-    {
-      "slug": "ztech",
-      "state_key": "ztech",
-      "name": "Ztech (India) Limited",
-      "data_file": "data/ztech.json",
-      "conviction_score": 34.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap",
-      "in_confluence100": true,
-      "missing": [
-        "track_record"
-      ],
-      "backfill_status": "done",
-      "backfill_date": "2026-10-02",
-      "attempts": 2,
-      "rank": 2,
-      "backfill_result": "done",
-      "history": [
-        {
-          "date": "2026-10-02",
-          "result": "done",
-          "summary": "track_record filled: years_checked=4, years_cleared=2 (FY24, FY25; revenue growth +158%/+40%, ROCE 67%/28%)"
-        },
-        {
-          "date": "2026-10-02",
-          "result": "done",
-          "summary": "track_record filled: 3/6 years met dual threshold (10%+ revenue growth, 15%+ ROCE). FY24, FY25, FY26 cleared. Only 6 years available (Mar 2021-2026); youngest company on light-lane queue."
-        }
-      ]
-    },
-    {
-      "slug": "agi-greenpac",
-      "state_key": "agi-greenpac",
-      "name": "AGI Greenpac- on the cusp of growth?",
-      "data_file": "data/agi-greenpac.json",
-      "conviction_score": 25.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": null,
-      "in_confluence100": true,
-      "missing": [
-        "market_expectation"
-      ],
-      "backfill_status": "done",
-      "backfill_date": "2026-10-02",
-      "attempts": 1,
-      "rank": 3,
-      "backfill_result": "done",
-      "history": [
-        {
-          "date": "2026-10-02",
-          "result": "done",
-          "summary": "Market expectation + 3 guidance blocks filled: 14.2x P/E on 28% PAT growth; new capex catalyst FY28-29 (15-20% growth); ROCE expansion to 25%+"
-        }
-      ]
-    },
-    {
-      "slug": "avalon-technologies",
-      "state_key": "avalon-technologies",
-      "name": "Avalon Technologies Ltd",
-      "data_file": "data/avalon-technologies.json",
-      "conviction_score": 25.0,
-      "conviction": "Medium",
+      "slug": "national-stock-exchange-of-india-ltd-the-exchange-at-the-heart-of-india-s-financialisation",
+      "state_key": "national-stock-exchange-of-india-ltd-the-exchange-at-the-heart-of-india-s-financialisation",
+      "name": "National Stock Exchange Of India Ltd (NSE): The Exchange at the Heart of India’s Financialisation",
+      "data_file": "data/national-stock-exchange-of-india-ltd-the-exchange-at-the-heart-of-india-s-financialisation.json",
+      "conviction_score": 45.0,
+      "conviction": "High",
       "thesis_fit": "neither",
-      "market_cap_tier": "Mid-cap (~Rs 14,900 Cr)",
+      "market_cap_tier": "Mega-cap (~Rs 4,36,355 Cr)",
       "in_confluence100": true,
       "missing": [
         "market_expectation",
         "quality_metrics",
         "track_record"
       ],
-      "backfill_status": "done",
-      "backfill_date": "2026-10-02",
-      "attempts": 1,
-      "rank": 4,
-      "backfill_result": "done",
-      "history": [
-        {
-          "date": "2026-10-02",
-          "result": "done",
-          "summary": "Q1 FY27 light-lane: valuation P/E on 26-30% growth, margin guidance via box-build mix (60%), capex timeline for Chennai ramp + land expansion, catalysts (Kavach, aerospace volume, semiconductor equipment, new geographies)"
-        }
-      ]
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 1
     },
     {
-      "slug": "gandhar-oil-refinery",
-      "state_key": "gandhar-oil-refinery",
-      "name": "Gandhar Oil Refinery Limited",
-      "data_file": "data/gandhar-oil-refinery.json",
+      "slug": "everest-kanto-cylinders",
+      "state_key": "everest-kanto-cylinders",
+      "name": "Everest Kanto Cylinders Ltd.",
+      "data_file": "data/everest-kanto-cylinders.json",
       "conviction_score": 25.0,
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
@@ -134,202 +38,10 @@
       "missing": [
         "market_expectation"
       ],
-      "backfill_status": "done",
-      "backfill_date": "2026-10-02",
-      "attempts": 1,
-      "rank": 5,
-      "backfill_result": "done",
-      "history": [
-        {
-          "date": "2026-10-02",
-          "result": "done",
-          "summary": "Market expectation + 3 guidance blocks filled: 8.1x P/E on exceptional Q1 (margin normalization risk); geopolitical dependence (Hormuz Strait); 1-2 quarters of sustained 16% EBITDA margin guidance"
-        }
-      ]
-    },
-    {
-      "slug": "bess-solar-hybrid-phs",
-      "state_key": "bess-solar-hybrid-phs",
-      "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
-      "data_file": "data/bess-solar-hybrid-phs.json",
-      "conviction_score": 16.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "market_cap_tier": "N/A (thematic/basket entry, not a single listed entity)",
-      "in_confluence100": true,
-      "missing": [
-        "market_expectation",
-        "quality_metrics",
-        "track_record"
-      ],
-      "backfill_status": "done",
-      "backfill_date": "2026-10-02",
-      "attempts": 1,
-      "rank": 6,
-      "backfill_result": "done",
-      "history": [
-        {
-          "date": "2026-10-02",
-          "result": "done",
-          "summary": "quality_metrics + track_record marked N/A: thematic basket entry (5 companies). Individual company assessments belong on ACME Solar, KPI Green, Pace Digitek, Enviro Infra, Inox Wind entries, where 4/5 already have dedicated files."
-        }
-      ]
-    },
-    {
-      "slug": "gokaldas-exports",
-      "state_key": "gokaldas-exports",
-      "name": "Gokaldas exports -- cup and handle/rising channel",
-      "data_file": "data/gokaldas-exports.json",
-      "conviction_score": 44.0,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": null,
-      "in_confluence100": false,
-      "missing": [
-        "market_expectation"
-      ],
-      "backfill_status": "done",
-      "backfill_date": "2026-10-02",
-      "attempts": 1,
-      "rank": 7,
-      "backfill_result": "done",
-      "history": [
-        {
-          "date": "2026-10-02",
-          "result": "done",
-          "summary": "Market expectation + 3 guidance blocks filled: 32.5x P/E on 15-20% growth (tariff/AGOA-dependent); capacity ramp FY28-29; BTPL merger (Q3 close, +2-3% margin accretion FY28)"
-        }
-      ]
-    },
-    {
-      "slug": "hdfc-asset-management-company",
-      "state_key": "hdfc-asset-management-company",
-      "name": "HDFC Asset Management Company",
-      "data_file": "data/hdfc-asset-management-company.json",
-      "conviction_score": 44.0,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": null,
-      "in_confluence100": false,
-      "missing": [
-        "market_expectation"
-      ],
-      "backfill_status": "done",
-      "backfill_date": "2026-10-02",
-      "attempts": 1,
-      "rank": 8,
-      "backfill_result": "done",
-      "history": [
-        {
-          "date": "2026-10-02",
-          "result": "done",
-          "summary": "Market expectation + 3 guidance blocks filled: 42.5x P/E on 12% FY27 PAT growth (multiple expansion priced in); SIP penetration growth 25-34% CAGR; alternatives AUM scale from Rs 60→148bn"
-        }
-      ]
-    },
-    {
-      "slug": "indiamart-intermesh",
-      "state_key": "indiamart-intermesh",
-      "name": "Indiamart Intermesh",
-      "data_file": "data/indiamart-intermesh.json",
-      "conviction_score": 44.0,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": null,
-      "in_confluence100": false,
-      "missing": [
-        "market_expectation"
-      ],
-      "backfill_status": "done",
-      "backfill_date": "2026-10-02",
-      "attempts": 1,
-      "rank": 9,
-      "backfill_result": "done",
-      "history": [
-        {
-          "date": "2026-10-02",
-          "result": "done",
-          "summary": "Filled market_expectation + management_guidance + guidance_history; 10-12% revenue growth guidance, 33% EBITDA target, 16% deferred revenue growth visibility"
-        }
-      ]
-    },
-    {
-      "slug": "jtekt-india-driving-precision-powering-india-s-mobility-future",
-      "state_key": "jtekt-india-driving-precision-powering-india-s-mobility-future",
-      "name": "JTEKT India: Driving Precision, Powering India’s Mobility Future",
-      "data_file": "data/jtekt-india-driving-precision-powering-india-s-mobility-future.json",
-      "conviction_score": 44.0,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": null,
-      "in_confluence100": false,
-      "missing": [
-        "market_expectation"
-      ],
-      "backfill_status": "done",
-      "backfill_date": "2026-10-02",
-      "attempts": 1,
-      "rank": 10,
-      "backfill_result": "done",
-      "history": [
-        {
-          "date": "2026-10-02",
-          "result": "done",
-          "summary": "Market expectation + 3 guidance blocks filled: 18-20x P/E on 11% growth (FY26); Rs 400-500 Cr incremental revenue FY27 from capacity ramp (CVJ, Brazil export); margin recovery to 8%+ via export growth, tariff relief, product mix normalization."
-        }
-      ]
-    },
-    {
-      "slug": "policybazaar",
-      "state_key": "policybazaar",
-      "name": "Policybazaar",
-      "data_file": "data/policybazaar.json",
-      "conviction_score": 44.0,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": null,
-      "in_confluence100": false,
-      "missing": [
-        "market_expectation"
-      ],
-      "backfill_status": "done",
-      "backfill_date": "2026-10-02",
-      "attempts": 1,
-      "rank": 11,
-      "backfill_result": "done",
-      "history": [
-        {
-          "date": "2026-10-02",
-          "result": "done",
-          "summary": "Earnings Q1 FY27 (1888 cr revenue, 51% CAGR); IRDAI commission cuts proposed Sep 2026 (10% cut = 10-12% earnings impact); insurance growth 40% YoY, health 60%, online protection 44%; management targets 15%+ PAT margin by FY28"
-        }
-      ]
-    },
-    {
-      "slug": "trent",
-      "state_key": "trent",
-      "name": "Trent -- A value unlocking story from the house of TATA",
-      "data_file": "data/trent.json",
-      "conviction_score": 40.0,
-      "conviction": "Medium",
-      "thesis_fit": "100x-in-10-years",
-      "market_cap_tier": "large-cap",
-      "in_confluence100": false,
-      "missing": [
-        "market_expectation"
-      ],
-      "backfill_status": "done",
-      "backfill_date": "2026-10-02",
-      "attempts": 1,
-      "rank": 12,
-      "backfill_result": "done",
-      "history": [
-        {
-          "date": "2026-10-02",
-          "result": "done",
-          "summary": "Q1 FY27: 19% rev growth driven by Zudio tier-2/3 expansion (1,312 stores, 330 cities); LFL low-single-digit; valuation 75-90x P/E already pricing in re-rating; FY27E 18-22% growth with margin pressure"
-        }
-      ]
+      "backfill_status": "pending",
+      "backfill_date": null,
+      "attempts": 0,
+      "rank": 2
     }
   ]
 }
