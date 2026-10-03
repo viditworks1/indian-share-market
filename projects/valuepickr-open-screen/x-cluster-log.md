@@ -309,3 +309,34 @@ Note: `x-handles/TRIAGE_STATUS.md` still says **IN PROGRESS** (50/103 deep-pass 
 - Overflow / skipped: none (well under caps).
 - Notes: Browser path only, no Apify needed, no login walls. ishmohit1: 0 new posts past last_seen (all replies/personal). unseenvalue: 7 new (multi-stock Laurus Labs Substack digest, Sansera contrarian bull call, Syngene probabilistic remark, philosophy/investing-approach posts) — Laurus already source:trusted-x, Sansera directionless snippet, rest no new convictions → no trusted_signals. itsTarH: 2 new (#TheWrap plug, US 10Y/Nasdaq commentary) — no named stocks. persistencecap: empty. LearningEleven: 0 new posts past last_seen. suru27: 2 new (Beta Drugs contract-manufacturing commentary, GMM Pfaudler order-mix diversification → above signal) — both already-researched, only Pfaudler carried directional view. srisiv1: 0 new. dhruvbajaj184: 4 new (GRT Jewellers/TBZ acquisition threads, portfolio construction musings) — all already-researched or non-stock; no conviction views added. prabhakarkudva: 1 new (blocked tweet, no content visible). Anand_shah07: 4 new (philosophy/emoji replies, no stocks). saket1974: 0 new. Finstor85: 3 new (Fractal/Laya JEV startup AI posts, curiosity-stack tooling) — no actionable Indian-listed stock signals. a_basumallick: 11 new (Gen-Z consumption trends, Dhamra Port renewable-energy milestone, Motherson/Rossell aerospace expansion, Parag Milk paneer regulatory tailwind → above signal, Marine Electricals facility expansion, Nasdaq revenue-diversification story, job-creation macro; Parag was the only conviction-bearing single-name writeup).
 - Mechanism: mcp__claude-in-chrome browser path, 2 batches of 5/8. No walls/errors. Apify not used.
+
+## 2026-10-03 — x-cluster-promotion proposal (monthly; NOT yet applied — user action required)
+
+**Mechanical scoreboard: empty.** `x-handles/x-handle-scoreboard.md` (generated 2026-09-26, 103/103 dossiers complete) shows all scores at baseline (40.0, 35.0, 30.0, 18.0) — zero resolved verdicts in any dossier. `x-handle-ranking` has not yet run. **No ADD proposals until `x-handle-ranking` resolves dossier verdicts.**
+
+### Propose ADD to x_cluster.json (tier: cluster)
+_(none — zero resolved-call handles to evaluate)_
+
+### Propose DROP (evidence from x-cluster-log.md full history, 2026-08-30 inception through 2026-09-28)
+
+- **@persistencecap** (cluster, since 2026-08-30) — lowest volume from day one (6 tweets / 30d); zero posts every run (08-31 → 09-28). Zero usable signals.
+  To apply: remove from `x_cluster.json.handles`.
+
+- **@srisiv1** (cluster, since 2026-08-30) — 3 tweets initial + one macro banks note (08-30, not a call). Zero new posts 09-01 → 09-28 (one 09-26 insurance-bearish post, no single stock named). Zero named-stock signal ever.
+  To apply: remove from `x_cluster.json.handles`.
+
+- **@dhruvbajaj184** (cluster, since 2026-08-30) — 29 tweets initial (macro/psychology). Zero new posts 09-01 → 09-26; 09-28 produced 4 posts (GRT/TBZ threads, portfolio philosophy) — already-researched, no business content ever. 
+  To apply: remove from `x_cluster.json.handles`.
+
+- **@prabhakarkudva** (cluster, since 2026-08-30) — 20 tweets initial, ~10 on 09-07 + 1 on 09-24 + 1 blocked 09-28. All portfolio-construction philosophy, zero named stocks. PEAD content never materialized.
+  To apply: remove from `x_cluster.json.handles`.
+
+- **@Anand_shah07** (cluster, since 2026-08-30) — steady posting (30, then 1-8/run typically; 12 on 09-22, 9 on 09-24, 2 on 09-26, 4 on 09-28) but every post is emoji reply/behavioural reflection, never a named stock. Zero signals in 4+ weeks despite volume.
+  To apply: remove from `x_cluster.json.handles`.
+
+### No change
+- **@saket1974** (cluster, since 2026-08-31) — 5 months history, low volume (5/30 initially, zero new posts all runs). No signals. Worth dropping next review if pattern holds.
+- **@Finstor85** (cluster, since 2026-08-31, Ameya) — low frequency. Produced 2 watch-list contributions + Midhani conviction candidate (09-24). Below conviction floor, not a drop.
+- **@itsTarH** (cluster, since 2026-08-30) — thin throughout. One conviction (bliss-gvs-pharma, 08-30) + already-researched touches. Recent (09-22 → 09-28) zero new posts or out-of-scope. Below floor but not "0 usable" yet.
+
+Full detail: `x-handles/PROMOTION_PROPOSAL_2026-10-03.md`.
