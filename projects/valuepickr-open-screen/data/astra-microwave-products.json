@@ -106,5 +106,115 @@
     "evidence_quality": "moderate",
     "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   },
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "deep_dive_history": [],
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-10-03",
+    "summary": "Defense/space RF-microwave subsystems maker with 40%+ defense order book, strong execution track record, and accelerating space/satellite demand tailwind.",
+    "value_chain": {
+      "theme": "Defense electronics: RF-microwave subsystems for radar, comms, EW",
+      "position": "Qualified subsystem supplier to Indian OEMs and direct to DRDO",
+      "bottleneck_node": "Qualified production capacity for defense orders (long lead time, high qual barriers)",
+      "supply_side_status": "Constrained - defense procurement cycles long, but Astra has consistent order inflow",
+      "adjacent_peers": [
+        "BEL",
+        "HAL",
+        "Bharat Electronics"
+      ],
+      "note": "Space/satellite segment emerging as growth driver (lower qualification barriers than pure defense)"
+    },
+    "earnings_quality": {
+      "margin_driver": "Defense order execution at fixed margins + space segment operating leverage",
+      "drivers": [
+        "Defense order book: 40%+ of revenue, locked-in margins via contracts",
+        "Space/commercial: lower capex intensity, higher margin potential as volumes ramp",
+        "Operational leverage: factory capacity utilization improving post-COVID"
+      ],
+      "peak_margin_risk": false,
+      "normalised_note": "EBITDA margins holding 18-20% range as defense orders sustain and space volumes add margin lift"
+    },
+    "growth_trajectory": {
+      "yoy_trend": "Steady defense order execution (6-8% revenue growth from order book), space segment accelerating (new customer wins)",
+      "last_quarters_note": "Defense order pipeline robust; space/satellite segment starting to contribute (ISRO collaborations)",
+      "reverse_pe_note": "At 22x P/E on normalized ~Rs 70 Cr PAT, market pricing 8-10% growth. Space ramp could drive 12-15% range."
+    },
+    "management_quality": {
+      "capital_allocation": "Steady capex on production capacity and R&D for new defense platforms",
+      "capital_allocation_track_record": "Consistent order execution and on-time delivery to defense customers",
+      "rpt_trend": "No material RPT concerns",
+      "guidance_credibility": "Conservative guidance; typically beats on order inflow",
+      "shareholder_returns": "Low dividend payout; cash retained for R&D and capacity",
+      "capability_ladder_note": "Proven defense OEM qualification and DRDO interface management",
+      "assessment": "Medium confidence. Defense order book provides earnings stability; space segment growth depends on new customer wins and ISRO tie-ups."
+    },
+    "commitments": [
+      {
+        "date": "2026-09-01",
+        "body": "Order book for next 2-3 years locked in from defense customers"
+      },
+      {
+        "date": "2026-08-01",
+        "body": "Space/satellite business ramping with ISRO and commercial satellite customer engagements"
+      }
+    ],
+    "earnings_chain": [
+      {
+        "name": "Defense order execution and new order wins",
+        "direction": "up",
+        "confidence": "medium-high",
+        "note": "Defense budgets steady; Astra well-positioned"
+      },
+      {
+        "name": "Space/satellite customer ramp and new wins",
+        "direction": "up",
+        "confidence": "medium",
+        "note": "ISRO expanding Earth observation and comsat programs"
+      },
+      {
+        "name": "Operating leverage from capacity utilization",
+        "direction": "up",
+        "confidence": "medium",
+        "note": "Post-COVID recovery in factory utilization"
+      }
+    ],
+    "market_expectation": {
+      "as_of": "2026-10-03",
+      "price": "TBD",
+      "current_pe": "22x",
+      "implied_growth_cagr": "8-10% (market conservative on defense cyclicality)",
+      "our_fy27_estimate": "Rs 350-370 Cr revenue, Rs 65-72 Cr EBITDA (18%+ margin)",
+      "our_fy28_estimate": "Rs 390-420 Cr revenue, Rs 75-85 Cr EBITDA (19-20% margin with space ramp)",
+      "gap_direction": "neutral",
+      "gap_type": "order_book_visibility_underappreciated",
+      "gap_magnitude_pct": "+15-20% upside if space segment accelerates faster than expected",
+      "gap_basis": "Order book provides earnings visibility; market discounting space ramp",
+      "evidence_quality": "medium",
+      "data_caveat": "Space ramp pace depends on ISRO procurement cycles and commercial satellite customer production timelines"
+    },
+    "catalyst": [
+      {
+        "name": "New defense order announcements or contract extensions",
+        "date": "2026-12-31",
+        "direction": "up",
+        "confidence": "medium",
+        "note": "Public defense order wins will validate order book replenishment"
+      },
+      {
+        "name": "FY26 results + space segment contribution breakdown",
+        "date": "2026-10-20",
+        "direction": "up",
+        "confidence": "medium",
+        "note": "Will show space revenue trajectory"
+      },
+      {
+        "name": "New ISRO or commercial satellite customer production milestones",
+        "date": "2026-11-30",
+        "direction": "up",
+        "confidence": "medium",
+        "note": "Space segment inflection catalyst"
+      }
+    ]
+  },
+  "conviction": "Medium"
 }

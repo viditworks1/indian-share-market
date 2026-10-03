@@ -86,7 +86,7 @@
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "quality_score": 75.0,
-    "market_cap_tier": "Large-cap (~Rs 25,900 Cr)",
+    "market_cap_tier": "large-cap",
     "red_flag_tier": null,
     "source": "trusted-thread",
     "score_breakdown": {
@@ -5126,7 +5126,7 @@
     "conviction": "Medium",
     "thesis_fit": "neither",
     "quality_score": 92.0,
-    "market_cap_tier": "Mid-to-large-cap (~Rs 15,956 Cr)",
+    "market_cap_tier": "large-cap",
     "red_flag_tier": null,
     "source": "external-lead",
     "score_breakdown": {
@@ -5664,6 +5664,51 @@
       },
       "distinct_trusted_users": 3,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "dr-agarwal-s-eye-hospital",
+    "name": "Dr Agarwal's Eye Hospital Ltd (DAEHL)",
+    "conviction_score": 32.75,
+    "own_conviction": 32.75,
+    "trusted_lift": 0.0,
+    "conviction": "Low-Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 61.0,
+    "market_cap_tier": "small-cap",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 32.75,
+      "trusted_lift": 0.0,
+      "base_anchor": 16,
+      "thesis_bonus": 14,
+      "quality_lift": 2.75,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "Merger arbitrage play; management quality good but execution risk around LVPEI integration",
+        "guidance_credibility": "Management conservative on timelines; merger integration risk higher than standalone operations",
+        "capital_allocation_track_record": "Historic: Steady expansion of eye-care centers across India; focused on high-volume model",
+        "rpt_trend": "Dividend minimal due to merger activity; post-merger will evaluate capital return policy",
+        "shareholder_returns": "Minimal shareholder distributions during merger phase"
+      }
     }
   },
   {
@@ -6449,6 +6494,51 @@
         "capital_allocation_track_record": "disciplined",
         "rpt_trend": "unclear",
         "shareholder_returns": "consistent"
+      }
+    }
+  },
+  {
+    "slug": "sudeep-pharma",
+    "name": "Sudeep Pharma Ltd",
+    "conviction_score": 30.75,
+    "own_conviction": 30.75,
+    "trusted_lift": 0.0,
+    "conviction": "Low-Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 53.0,
+    "market_cap_tier": "small-cap",
+    "red_flag_tier": null,
+    "source": "trusted-x",
+    "score_breakdown": {
+      "own_conviction": 30.75,
+      "trusted_lift": 0.0,
+      "base_anchor": 16,
+      "thesis_bonus": 14,
+      "quality_lift": 0.75,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "constructive",
+        "guidance_credibility": "moderate - recent IPO limits public guidance history; concalls suggest management is capital-discipline-conscious",
+        "capital_allocation_track_record": "unproven-but-credible (recent IPO, capex is productive per ROCE 28-35% range maintained)",
+        "rpt_trend": "not flagged",
+        "shareholder_returns": "not applicable (in growth capex phase)"
       }
     }
   },
@@ -8025,51 +8115,6 @@
     }
   },
   {
-    "slug": "dr-agarwal-s-eye-hospital",
-    "name": "Dr Agarwal's Eye Hospital Ltd (DAEHL)",
-    "conviction_score": 27.75,
-    "own_conviction": 27.75,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": 61.0,
-    "market_cap_tier": "Small/Mid-cap (~Rs 2,400 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 27.75,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 2.75,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "Merger arbitrage play; management quality good but execution risk around LVPEI integration",
-        "guidance_credibility": "Management conservative on timelines; merger integration risk higher than standalone operations",
-        "capital_allocation_track_record": "Historic: Steady expansion of eye-care centers across India; focused on high-volume model",
-        "rpt_trend": "Dividend minimal due to merger activity; post-merger will evaluate capital return policy",
-        "shareholder_returns": "Minimal shareholder distributions during merger phase"
-      }
-    }
-  },
-  {
     "slug": "rpg-life-sciences",
     "name": "RPG Life Sciences Ltd",
     "conviction_score": 27.7,
@@ -9003,51 +9048,6 @@
       },
       "distinct_trusted_users": 1,
       "management_quality": null
-    }
-  },
-  {
-    "slug": "sudeep-pharma",
-    "name": "Sudeep Pharma Ltd",
-    "conviction_score": 25.75,
-    "own_conviction": 25.75,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": 53.0,
-    "market_cap_tier": "Mid-cap (~Rs 13,096 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-x",
-    "score_breakdown": {
-      "own_conviction": 25.75,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 0.75,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "constructive",
-        "guidance_credibility": "moderate - recent IPO limits public guidance history; concalls suggest management is capital-discipline-conscious",
-        "capital_allocation_track_record": "unproven-but-credible (recent IPO, capex is productive per ROCE 28-35% range maintained)",
-        "rpt_trend": "not flagged",
-        "shareholder_returns": "not applicable (in growth capex phase)"
-      }
     }
   },
   {
@@ -13442,7 +13442,7 @@
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "quality_score": 48.0,
-    "market_cap_tier": "Small-cap (~Rs 3,594 Cr)",
+    "market_cap_tier": "small-cap",
     "red_flag_tier": null,
     "source": "trusted-x",
     "score_breakdown": {
@@ -14622,45 +14622,6 @@
         "rpt_trend": "rising",
         "shareholder_returns": "unclear"
       }
-    }
-  },
-  {
-    "slug": "rapicut-carbides",
-    "name": "Rapicut Carbides Ltd.",
-    "conviction_score": 19.25,
-    "own_conviction": 19.25,
-    "trusted_lift": 0.0,
-    "conviction": "Low",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 39.0,
-    "market_cap_tier": "Micro-cap (~Rs 134 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 19.25,
-      "trusted_lift": 0.0,
-      "base_anchor": 8,
-      "thesis_bonus": 14,
-      "quality_lift": -2.75,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": null
     }
   },
   {
@@ -33460,6 +33421,45 @@
       "quality_lift": -5.0,
       "management_component": 0.0,
       "red_flag_penalty": 25,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "rapicut-carbides",
+    "name": "Rapicut Carbides Ltd.",
+    "conviction_score": 5.25,
+    "own_conviction": 5.25,
+    "trusted_lift": 0.0,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 39.0,
+    "market_cap_tier": "small-cap",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 5.25,
+      "trusted_lift": 0.0,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": -2.75,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
       "red_flag_forced_zero": false,
       "trusted_signal_component": 0.0,
       "trusted_lift_neg_floor_applied": false,

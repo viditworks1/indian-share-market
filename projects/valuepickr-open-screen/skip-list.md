@@ -424,7 +424,7 @@ Generated: 2026-10-03
 | Acutaas Chemicals Ltd (Erst. Ami Organics Ltd) | 2026-09-28 | 2026-10-28 | Medium-High |
 | Apcotex Industries Ltd | 2026-09-28 | 2026-10-28 | Low-Medium |
 | Vimta Labs Ltd | 2026-09-28 | 2026-10-28 | Medium |
-| Sudeep Pharma Ltd | 2026-09-28 | 2026-10-28 | Medium |
+| Sudeep Pharma Ltd | 2026-09-28 | 2026-10-28 | Low-Medium |
 | Bliss GVS Pharma Ltd | 2026-09-28 | 2026-10-28 | Medium |
 | Cummins India Ltd | 2026-09-28 | 2026-10-28 | High |
 | Emmvee Photovoltaic Power Ltd | 2026-09-28 | 2026-10-28 | Medium-High |

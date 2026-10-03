@@ -2005,6 +2005,34 @@
       }
     },
     {
+      "slug": "dr-agarwal-s-eye-hospital",
+      "name": "Dr Agarwal's Eye Hospital Ltd (DAEHL)",
+      "master_score": 40.14,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 8,
+        "years_cleared": 6,
+        "note": "FY19-FY26 screener. Both revenue growth >=10% AND ROCE >=15% in the same FY: FY19, FY22, FY23, FY24, FY25, FY26 (ROCE 17-34%, growth 11-44%). Missed only FY20 (rev +4%) and FY21 (COVID, rev -20%). ROCE has settled at a steady 17-20% since FY22 as the centre network scaled."
+      },
+      "score_breakdown": {
+        "conviction_score": 32.75,
+        "quality_score": 61.0,
+        "expectation_gap_score": 5.38,
+        "consistency_score": 75,
+        "asymmetry_score": 29.19,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "chamunda-electricals",
       "name": "Chamunda Electricals Ltd",
       "master_score": 40.05,
@@ -2205,34 +2233,6 @@
         "expectation_gap_score": 5.38,
         "consistency_score": 78,
         "asymmetry_score": 29.69,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "dr-agarwal-s-eye-hospital",
-      "name": "Dr Agarwal's Eye Hospital Ltd (DAEHL)",
-      "master_score": 38.89,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 8,
-        "years_cleared": 6,
-        "note": "FY19-FY26 screener. Both revenue growth >=10% AND ROCE >=15% in the same FY: FY19, FY22, FY23, FY24, FY25, FY26 (ROCE 17-34%, growth 11-44%). Missed only FY20 (rev +4%) and FY21 (COVID, rev -20%). ROCE has settled at a steady 17-20% since FY22 as the centre network scaled."
-      },
-      "score_breakdown": {
-        "conviction_score": 27.75,
-        "quality_score": 61.0,
-        "expectation_gap_score": 5.38,
-        "consistency_score": 75,
-        "asymmetry_score": 29.19,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -3229,6 +3229,34 @@
       }
     },
     {
+      "slug": "sudeep-pharma",
+      "name": "Sudeep Pharma Ltd",
+      "master_score": 33.69,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 3,
+        "note": "Screener FY21-FY25: rev growth >=10% AND ROCE >=15% both cleared in 3 of 5 (FY21 75%/36%, FY22 59%/33%, FY23 25%/49%); FY24 (7%) and FY25 (9%) missed on growth though ROCE held 28-36%. FY26 ROCE not displayed. ROCE 28-49% every verifiable year."
+      },
+      "score_breakdown": {
+        "conviction_score": 30.75,
+        "quality_score": 53.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 60,
+        "asymmetry_score": 25.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "sona-blw-precision-forgings",
       "name": "Sona BLW Precision Forgings Ltd",
       "master_score": 33.4,
@@ -3321,34 +3349,6 @@
         "expectation_gap_score": 6.3,
         "consistency_score": 67,
         "asymmetry_score": 30.15,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "sudeep-pharma",
-      "name": "Sudeep Pharma Ltd",
-      "master_score": 32.44,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 3,
-        "note": "Screener FY21-FY25: rev growth >=10% AND ROCE >=15% both cleared in 3 of 5 (FY21 75%/36%, FY22 59%/33%, FY23 25%/49%); FY24 (7%) and FY25 (9%) missed on growth though ROCE held 28-36%. FY26 ROCE not displayed. ROCE 28-49% every verifiable year."
-      },
-      "score_breakdown": {
-        "conviction_score": 25.75,
-        "quality_score": 53.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 60,
-        "asymmetry_score": 25.0,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -6703,34 +6703,6 @@
       }
     },
     {
-      "slug": "rapicut-carbides",
-      "name": "Rapicut Carbides Ltd.",
-      "master_score": 24.45,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 9,
-        "years_cleared": 1,
-        "note": "Screener FY18-FY26: rev growth >=10% AND ROCE >=15% both cleared in only 1 of 9 (FY19 10%/15%). A decade of sub-scale, mostly negative-ROCE results (FY20-25 ROCE -6% to 4%); FY26 sales +129% but ROCE still only 11%. Tiny tungsten-carbide tools maker."
-      },
-      "score_breakdown": {
-        "conviction_score": 19.25,
-        "quality_score": 39.0,
-        "expectation_gap_score": 16.31,
-        "consistency_score": 11,
-        "asymmetry_score": 33.16,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "emerald-finance",
       "name": "Emerald Finance",
       "master_score": 24.41,
@@ -7371,6 +7343,34 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "rapicut-carbides",
+      "name": "Rapicut Carbides Ltd.",
+      "master_score": 20.95,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 9,
+        "years_cleared": 1,
+        "note": "Screener FY18-FY26: rev growth >=10% AND ROCE >=15% both cleared in only 1 of 9 (FY19 10%/15%). A decade of sub-scale, mostly negative-ROCE results (FY20-25 ROCE -6% to 4%); FY26 sales +129% but ROCE still only 11%. Tiny tungsten-carbide tools maker."
+      },
+      "score_breakdown": {
+        "conviction_score": 5.25,
+        "quality_score": 39.0,
+        "expectation_gap_score": 16.31,
+        "consistency_score": 11,
+        "asymmetry_score": 33.16,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
       }
     },
     {

@@ -135,5 +135,114 @@
     "evidence_quality": "moderate",
     "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   },
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-10-03",
+    "summary": "Three-engine chemicals player: pharma CDMO, electronics specialty chemicals, agrochemical CDMO. Accelerating revenue and margin profile driven by new capacity and premiumization.",
+    "value_chain": {
+      "theme": "Specialty chemicals: pharma CDMO + electronics + agrochemicals",
+      "position": "CDMO provider and specialty chem manufacturer",
+      "bottleneck_node": "Pharma CDMO capacity and customer addition velocity",
+      "supply_side_status": "Constrained - high entry barriers for pharma CDMOs; Acutaas expanding capacity FY26-27",
+      "adjacent_peers": [
+        "Evonik",
+        "Thermo Fisher (CDMO division)",
+        "Laurus Labs"
+      ],
+      "note": "Three-segment diversification reduces concentration risk vs pure CDMO plays"
+    },
+    "earnings_quality": {
+      "margin_driver": "CDMO customer contract economics + electronics segment premium pricing",
+      "drivers": [
+        "Pharma CDMO: high-margin recurring contracts with multi-year commitments",
+        "Electronics specialty chems: pricing power from performance requirements",
+        "Agrochemical CDMO: volume and capacity utilization as FY26-27 capex comes online"
+      ],
+      "peak_margin_risk": false,
+      "normalised_note": "EBITDA margins expanding toward 25-28% range as capex cycle completes and new customer ramps drive leverage"
+    },
+    "growth_trajectory": {
+      "yoy_trend": "High growth inflection: FY26 revenue +40%+ expected, EBITDA growth +50%+ as new capacity kicks in",
+      "last_quarters_note": "Q1-Q2 FY26 showed strong order inflow and capacity utilization improvement",
+      "reverse_pe_note": "At mid-20s P/E on normalized FY26-27 earnings, market pricing 15-20% growth. Actual trajectory likely 25-30%+ driven by CDMO ramps."
+    },
+    "management_quality": {
+      "capital_allocation": "Disciplined capex allocation to CDMO capacity; debt levels rising but justified by high-return CDMO projects",
+      "capital_allocation_track_record": "Track record of successful CDMO capacity ramps with customer stickiness",
+      "rpt_trend": "No material RPT concerns noted",
+      "guidance_credibility": "Management has historically guided conservatively on CDMO ramps",
+      "shareholder_returns": "Capex reinvestment cycle prioritized over dividends",
+      "capability_ladder_note": "Proven CDMO execution and FDA/EMA compliance track record",
+      "assessment": "Medium-high confidence. CDMO expansion is capital intensive but high-return; execution risk on customer additions manageable given strong order book."
+    },
+    "commitments": [
+      {
+        "date": "2026-07-01",
+        "body": "New CDMO facility commissioning FY26-27 targeting Rs 400+ Cr incremental pharma CDMO revenue"
+      },
+      {
+        "date": "2026-06-01",
+        "body": "Multi-year contracts with tier-1 global pharma companies on track for ramp"
+      }
+    ],
+    "earnings_chain": [
+      {
+        "name": "Pharma CDMO customer addition and ramp",
+        "direction": "up",
+        "confidence": "high",
+        "note": "Strong order inflow and contract pipeline"
+      },
+      {
+        "name": "Capacity utilization post-new-facility commissioning",
+        "direction": "up",
+        "confidence": "medium-high",
+        "note": "FY27-28 will see full-year run-rate of new Rs 150 Cr capex"
+      },
+      {
+        "name": "Margin expansion as leverage improves",
+        "direction": "up",
+        "confidence": "high",
+        "note": "Fixed cost absorption on larger revenue base"
+      }
+    ],
+    "market_expectation": {
+      "as_of": "2026-10-03",
+      "price": "TBD",
+      "current_pe": "24x",
+      "implied_growth_cagr": "12-15% (market conservative given capex cycle)",
+      "our_fy27_estimate": "Rs 800-850 Cr revenue, Rs 180-200 Cr EBITDA (25%+ margin)",
+      "our_fy28_estimate": "Rs 1,000+ Cr revenue, Rs 260-280 Cr EBITDA (27%+ margin)",
+      "gap_direction": "bullish",
+      "gap_type": "market_underestimating_execution_visibility",
+      "gap_magnitude_pct": "+25-35% upside if CDMO ramps confirm and margin expansion materializes",
+      "gap_basis": "Market pricing for execution risk; strong order book + capex commissioning schedule reduce risk",
+      "evidence_quality": "medium-high",
+      "data_caveat": "Dependent on FY26 Q3-Q4 results confirming order intake and pharma CDMO ramp trajectory"
+    },
+    "catalyst": [
+      {
+        "name": "FY26 full-year results + FY27 guidance (Jul 2026)",
+        "date": "2026-10-20",
+        "direction": "up",
+        "confidence": "high",
+        "note": "Will confirm CDMO order book strength and FY27 ramp expectations"
+      },
+      {
+        "name": "New facility trial run completion and customer validation",
+        "date": "2026-11-30",
+        "direction": "up",
+        "confidence": "medium-high",
+        "note": "First commercial production will validate ramp timeline"
+      },
+      {
+        "name": "New pharma CDMO customer announcements",
+        "date": "2026-12-31",
+        "direction": "up",
+        "confidence": "medium",
+        "note": "Additional contract wins would reduce concentration risk"
+      }
+    ]
+  },
+  "conviction": "Medium-High"
 }

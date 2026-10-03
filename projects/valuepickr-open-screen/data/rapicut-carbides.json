@@ -94,5 +94,43 @@
     "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   },
   "commitments": [],
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "deep_dive_history": [],
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-10-03",
+    "summary": "Micro-cap carbide tool maker. Cyclical, limited visibility. Industrial cycle dependent.",
+    "value_chain": {
+      "theme": "Industrial tools: carbide cutters",
+      "position": "Carbide tool manufacturer",
+      "note": "Micro-cap, cyclical"
+    },
+    "earnings_quality": {
+      "margin_driver": "Commodity pricing",
+      "drivers": [
+        "Industrial cycles"
+      ],
+      "peak_margin_risk": true
+    },
+    "growth_trajectory": {
+      "yoy_trend": "Cyclical",
+      "reverse_pe_note": "Micro-cap, illiquid"
+    },
+    "management_quality": {
+      "assessment": "Low confidence - micro-cap"
+    },
+    "market_expectation": {
+      "as_of": "2026-10-03",
+      "gap_direction": "neutral",
+      "gap_magnitude_pct": "High volatility"
+    },
+    "commitments": [],
+    "earnings_chain": [],
+    "catalyst": [
+      {
+        "name": "Industrial capex upturn",
+        "direction": "up"
+      }
+    ]
+  }
 }
