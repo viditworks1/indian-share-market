@@ -56,7 +56,7 @@ Generated: 2026-10-03
 | AJC Jewel Manufacturers Ltd | 2026-09-05 | 2026-10-05 | Low |
 | Mayur Uniquoters Ltd | 2026-09-05 | 2026-10-05 | Medium |
 | Jasch Industries Ltd | 2026-09-05 | 2026-10-05 | Medium |
-| Wise Travel India Ltd (WTICabs) | 2026-09-05 | 2026-10-05 | Medium |
+| Wise Travel India Ltd (WTICabs) | 2026-09-05 | 2026-10-05 | Low-Medium |
 | Nitin Spinners Ltd | 2026-09-05 | 2026-10-05 | Low-Medium |
 | GHCL Textiles Ltd | 2026-09-05 | 2026-10-05 | Low |
 | Sportking India Ltd | 2026-09-05 | 2026-10-05 | Low |
@@ -445,7 +445,7 @@ Generated: 2026-10-03
 | Lelavoir Ltd | 2026-10-02 | 2026-11-01 | Low |
 | Sahana Systems | 2026-10-02 | 2026-11-01 | Low-Medium |
 | Oriana Power Ltd | 2026-10-02 | 2026-11-01 | Low-Medium |
-| Bondada Engineer | 2026-10-02 | 2026-11-01 | Medium |
+| Bondada Engineer | 2026-10-02 | 2026-11-01 | Low-Medium |
 | Cospower Engineering | 2026-10-02 | 2026-11-01 | Low-Medium |
 | Rm Drip And Springs | 2026-10-02 | 2026-11-01 | Medium |
 | Gp Eco Solutions | 2026-10-02 | 2026-11-01 | Low |

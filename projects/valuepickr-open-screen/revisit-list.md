@@ -10,7 +10,7 @@ Generated: 2026-10-03
 |---|---|---|
 | Influx HealthTech ( SME ) B2B CDMO For nutraceuticals, cosmetics, ayurvedic products, veterinary feed supplements | 2026-08-22 | Medium-High |
 | Raymond Realty Ltd | 2026-08-25 | Medium-High |
-| KMC Speciality hospital | 2026-08-27 | Medium-High |
+| KMC Speciality hospital | 2026-08-27 | Medium |
 | Vivid Electromech Ltd | 2026-08-29 | Medium-High |
 | P.E. Analytics Ltd (PROPEQUITY) | 2026-08-30 | Medium-High |
 | Dynamic Cables | 2026-08-30 | Medium-High |
@@ -96,6 +96,7 @@ _(none)_
 | John Cockerill India: A Case Study on Decarbonisation of Steel | 2027-03-10 | ~6M | pending | 0 | H2 CY26 quarterly print showing an actual EBITDA-margin step-up (management's own guided window) |
 | Permanent Magnets | 2027-03-10 | ~6M | pending | 0 | REPM-scheme bid outcome (5 of 20 applicants selected) and/or Quantum Magnetics Phase-2 commissioning on the revised Q3 FY27 schedule |
 | Bondada Engineering Ltd | 2027-03-14 | ~6M | pending | 51.06 | FY27 quarterly margin prints testing the 11-12% EBITDA guidance against the mix shift toward BOS-scope and defence/aerospace orders; clarity on the RPT-vote ... |
+| Bondada Engineer | 2027-03-14 | ~6M | pending | 51.06 | FY27 quarterly margin prints testing the 11-12% EBITDA guidance against the mix shift toward BOS-scope and defence/aerospace orders; clarity on the RPT-vote ... |
 | Airfloa Rail Technology | 2027-03-14 | ~6M | pending | 28.78 | Q2/Q3 FY27 prints showing FY27 Rs500cr guidance progress, a margin-recovery inflection (vs the FY26 -500bps compression), and A&D order flow (Big Bang Boom J... |
 | Shaily Engineering Plastics Ltd | 2027-03-14 | ~6M | pending | 0 | Q2/Q3 FY27 prints testing whether the Q1FY27 deceleration (+14%) was a one-off cost/timing issue (management's claim) or a genuine growth-rate reset, plus wh... |
 | Carysil (earlier Acrysil) | 2027-03-16 | ~6M | pending | 43.65 | Quartz capacity expansion (1.25m units) commissioning + the FY27 exit-quarter margin print |
@@ -111,6 +112,7 @@ _(none)_
 | Lumax Industries | 2027-03-19 | ~6M | pending | 22.9 | Q2/Q3 FY27 results and Bangalore facility commissioning progress, testing whether EBITDA margin holds double-digit levels net of the flagged one-off tooling-... |
 | Arrow Greentech | 2027-03-19 | ~6M | pending | 20.22 | Q2/Q3 FY27 results confirming whether Q1 FY27's rebound (+111% revenue, +151% PAT YoY) is a sustained new run-rate or a one-off order-timing spike |
 | Maharashtra seamless-a value plus cyclical play | 2027-03-20 | ~6M | pending | 55.09 | Q2/Q3 FY27 dispatch print (105,000-110,000 tons guided) and any fresh capital-allocation announcement on the ~Rs2,900+ Cr cash pile now that the demerger is ... |
+| Nisus Finance | 2027-03-20 | ~6M | pending | 36.22 | Q3 FY27 first UAE asset exit plus first NiYAM AIF deployment tranche - a real test of whether the FY27 growth guidance is credible |
 | Pitti Engineering Ltd | 2027-03-20 | ~6M | pending | 28.78 | FY28 print testing whether net debt actually falls toward ~Rs300cr (from ~Rs633cr) and whether PAT margin recovers as the tax rate normalises / HVA mix offse... |
 | RNIT AI Solutions Ltd | 2027-03-20 | ~6M | pending | 25.36 | 1FC Technology project delivery/renewal signal (6-month project from Aug 2026) plus Q2/Q3 FY27 results showing whether the government project pipeline (Goa/L... |
 | Universal Cables | 2027-03-20 | ~6M | pending | 24.49 | Final 2 CCV lines commissioning (Aug/Sep 2026) plus a Q2/Q3 FY27 margin print showing the full capacity benefit net of rising interest cost |

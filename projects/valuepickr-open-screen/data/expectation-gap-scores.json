@@ -1,8 +1,8 @@
 {
   "date_compiled": "2026-10-03",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
-  "scored_count": 319,
-  "not_assessed_count": 681,
+  "scored_count": 321,
+  "not_assessed_count": 679,
   "ranked": [
     {
       "slug": "vaibhav-global-vertically-integrated-value-e",
@@ -144,11 +144,11 @@
       "slug": "maharashtra-seamless",
       "name": "Maharashtra seamless-a value plus cyclical play",
       "expectation_gap_score": 55.09,
-      "conviction_score": 28.42,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
+      "conviction_score": 23.42,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap (~Rs 9,363 Cr)",
+      "market_cap_tier": "Mid-cap",
       "gap_direction": "underestimated",
       "gap_type": "volume",
       "gap_magnitude_pct": null,
@@ -250,7 +250,40 @@
       "market_cap_tier": "Small-cap",
       "gap_direction": "underestimated",
       "gap_type": "duration",
-      "gap_magnitude_pct": 50,
+      "gap_magnitude_pct": 45,
+      "evidence_quality": "moderate",
+      "catalyst_event": "FY27 quarterly margin prints testing the 11-12% EBITDA guidance against the mix shift toward BOS-scope and defence/aerospace orders; clarity on the RPT-vote dissent and borrowing-limit usage",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-12",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 40,
+        "gap_frac": 1.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 1.0,
+        "quality": 0.729
+      }
+    },
+    {
+      "slug": "bondada-engineer",
+      "name": "Bondada Engineer",
+      "expectation_gap_score": 51.06,
+      "conviction_score": 24.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap",
+      "gap_direction": "underestimated",
+      "gap_type": "duration",
+      "gap_magnitude_pct": 45,
       "evidence_quality": "moderate",
       "catalyst_event": "FY27 quarterly margin prints testing the 11-12% EBITDA guidance against the mix shift toward BOS-scope and defence/aerospace orders; clarity on the RPT-vote dissent and borrowing-limit usage",
       "catalyst_window_months": 6,
@@ -821,6 +854,40 @@
         "timing_q": 1.0,
         "risk_q": 0.4,
         "quality": 0.823
+      }
+    },
+    {
+      "slug": "nisus-finance",
+      "name": "Nisus Finance",
+      "expectation_gap_score": 36.22,
+      "conviction_score": 0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": "none",
+      "market_cap_tier": "Small-cap",
+      "gap_direction": "partially-priced",
+      "gap_type": "mix",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "strong",
+      "catalyst_event": "Q3 FY27 first UAE asset exit plus first NiYAM AIF deployment tranche - a real test of whether the FY27 growth guidance is credible",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-18",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "epc execution risk - cost overruns or delays on a legacy construction business newly under nisus's capital umbrella",
+        "fundraising success - if lp commitments fall short the corpus/timeline guidance doesn't hold"
+      ],
+      "flags": [],
+      "score_breakdown": {
+        "gap_points": 18.0,
+        "gap_frac": 0.45,
+        "evidence_q": 1.0,
+        "catalyst_q": 0.65,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.805
       }
     },
     {
@@ -3512,11 +3579,11 @@
       "slug": "wise-travel-india-wti-cabs",
       "name": "Wise Travel India Ltd (WTICabs)",
       "expectation_gap_score": 15.92,
-      "conviction_score": 38.46,
-      "conviction": "Medium",
+      "conviction_score": 29.46,
+      "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Small-cap (~Rs 226 Cr)",
+      "market_cap_tier": "Mid-cap",
       "gap_direction": "partially-priced",
       "gap_type": "margin",
       "gap_magnitude_pct": null,
@@ -5971,7 +6038,7 @@
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap (~Rs 6,235 Cr)",
+      "market_cap_tier": "Mid-cap",
       "gap_direction": "priced-in",
       "gap_type": "mix",
       "gap_magnitude_pct": null,
@@ -6078,11 +6145,11 @@
       "slug": "kmc-speciality-hospital",
       "name": "KMC Speciality hospital",
       "expectation_gap_score": 3.93,
-      "conviction_score": 57.0,
-      "conviction": "Medium-High",
+      "conviction_score": 47.0,
+      "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Small/Mid-cap (~Rs 2,800 Cr)",
+      "market_cap_tier": "Mid-cap",
       "gap_direction": "priced-in",
       "gap_type": null,
       "gap_magnitude_pct": null,
@@ -8998,6 +9065,42 @@
       }
     },
     {
+      "slug": "shaily-engineering",
+      "name": "Shaily Engineering Plastics Ltd",
+      "expectation_gap_score": 0,
+      "conviction_score": 43.45,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap",
+      "gap_direction": "over-optimistic",
+      "gap_type": "volume",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2/Q3 FY27 prints testing whether the Q1FY27 deceleration (+14%) was a one-off cost/timing issue (management's claim) or a genuine growth-rate reset, plus whether gross margin actually normalises by Q3FY27 as guided",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-12",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "23-24 partners must convert to volume, not just signed relationships",
+        "single new facility/geography"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.639
+      }
+    },
+    {
       "slug": "yatharth-hospital-trauma-care-services",
       "name": "Yatharth Hospital & Trauma Care Services Limited",
       "expectation_gap_score": 0,
@@ -9358,42 +9461,6 @@
         "timing_q": 0.75,
         "risk_q": 0.8,
         "quality": 0.475
-      }
-    },
-    {
-      "slug": "shaily-engineering",
-      "name": "Shaily Engineering Plastics Ltd",
-      "expectation_gap_score": 0,
-      "conviction_score": 29.45,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap (~Rs 13,840 Cr)",
-      "gap_direction": "over-optimistic",
-      "gap_type": "volume",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "moderate",
-      "catalyst_event": "Q2/Q3 FY27 prints testing whether the Q1FY27 deceleration (+14%) was a one-off cost/timing issue (management's claim) or a genuine growth-rate reset, plus whether gross margin actually normalises by Q3FY27 as guided",
-      "catalyst_window_months": 6,
-      "catalyst_window_start": "2026-09-12",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 2,
-      "risk_open_spofs": [
-        "23-24 partners must convert to volume, not just signed relationships",
-        "single new facility/geography"
-      ],
-      "flags": [
-        "no-edge"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.75,
-        "catalyst_q": 0.39,
-        "timing_q": 1.0,
-        "risk_q": 0.4,
-        "quality": 0.639
       }
     },
     {
@@ -11176,13 +11243,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "bondada-engineer",
-      "name": "Bondada Engineer",
-      "conviction_score": 39.0,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years"
-    },
-    {
       "slug": "rm-drip-and-springs",
       "name": "Rm Drip And Springs",
       "conviction_score": 39.0,
@@ -11984,6 +12044,13 @@
       "slug": "mankind-pharma",
       "name": "Mankind Pharma",
       "conviction_score": 18.06,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "oriana-power-ltd",
+      "name": "Oriana Power Ltd",
+      "conviction_score": 17.98,
       "conviction": "Low-Medium",
       "thesis_fit": "neither"
     },
@@ -12928,13 +12995,6 @@
     {
       "slug": "sahana-systems",
       "name": "Sahana Systems",
-      "conviction_score": 16.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither"
-    },
-    {
-      "slug": "oriana-power-ltd",
-      "name": "Oriana Power Ltd",
       "conviction_score": 16.0,
       "conviction": "Low-Medium",
       "thesis_fit": "neither"
@@ -15887,13 +15947,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "nisus-finance",
-      "name": "Nisus Finance",
-      "conviction_score": 0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "cash-ur-drive",
       "name": "Cash Ur Drive",
       "conviction_score": 0,
@@ -16598,6 +16651,17 @@
       "conviction_score": 29.75
     },
     {
+      "slug": "bondada-engineer",
+      "name": "Bondada Engineer",
+      "event": "FY27 quarterly margin prints testing the 11-12% EBITDA guidance against the mix shift toward BOS-scope and defence/aerospace orders; clarity on the RPT-vote dissent and borrowing-limit usage",
+      "target_date": "2027-03-14",
+      "window_months": 6,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 51.06,
+      "conviction_score": 24.0
+    },
+    {
       "slug": "airfloa-rail-technology",
       "name": "Airfloa Rail Technology",
       "event": "Q2/Q3 FY27 prints showing FY27 Rs500cr guidance progress, a margin-recovery inflection (vs the FY26 -500bps compression), and A&D order flow (Big Bang Boom JV formalisation + HAL orders)",
@@ -16617,7 +16681,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 0,
-      "conviction_score": 29.45
+      "conviction_score": 43.45
     },
     {
       "slug": "carysil",
@@ -16760,7 +16824,18 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 55.09,
-      "conviction_score": 28.42
+      "conviction_score": 23.42
+    },
+    {
+      "slug": "nisus-finance",
+      "name": "Nisus Finance",
+      "event": "Q3 FY27 first UAE asset exit plus first NiYAM AIF deployment tranche - a real test of whether the FY27 growth guidance is credible",
+      "target_date": "2027-03-20",
+      "window_months": 6,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 36.22,
+      "conviction_score": 0
     },
     {
       "slug": "pitti-engineering",
@@ -17354,7 +17429,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 15.92,
-      "conviction_score": 38.46
+      "conviction_score": 29.46
     },
     {
       "slug": "adf-food-ltd",
@@ -18311,7 +18386,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 3.93,
-      "conviction_score": 57.0
+      "conviction_score": 47.0
     },
     {
       "slug": "hdfc-asset-management-company",

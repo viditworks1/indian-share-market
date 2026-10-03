@@ -36,9 +36,52 @@
       "never_deepdived": true,
       "days_since_deepdive": null,
       "in_cooldown": false,
+      "deepdive_status": "done",
+      "deepdive_pass": 1,
+      "deepdive_date": "2026-10-03",
+      "pre_deepdive_conviction": "Low-Medium",
+      "post_deepdive_conviction": "Low-Medium",
+      "history": [
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low-Medium",
+          "post": "Low-Medium",
+          "summary": "Q2 FY27 results show ordered growth (Rs 692 Cr rev, Rs 54 Cr PAT); new Sep orders (Rs 147 Cr) validate order momentum; 0% pledge confirmed; Low-Medium conviction maintained"
+        }
+      ],
+      "in_active_pool": true,
+      "rerun_tier": 0,
+      "dive_mode": "full"
+    },
+    {
+      "rank": 2,
+      "state_key": "eldeco-housing-ltd",
+      "name": "Eldeco Housing Ltd",
+      "ranking_title": "Eldeco Housing Ltd",
+      "data_file": "data/eldeco-housing-ltd.json",
+      "docx_file": "docs/Eldeco Housing Ltd.docx",
+      "docx_is_existing": false,
+      "clean_name": "Eldeco Housing Ltd",
+      "market_cap_tier": "Small-cap (~Rs 841 Cr)",
+      "ranking_conviction": "Low",
+      "ranking_thesis_fit": "10x-in-2-3-years",
+      "conviction_score": 17.19,
+      "master_score": 11.16,
+      "four_box_score": 3.0,
+      "potential_score": 43.08,
+      "in_confluence100": true,
+      "is_large_or_mega": false,
+      "eligible_for_pool": true,
+      "weight_coverage": 0.45,
+      "pool_priority": 48.58,
+      "high_caution": false,
+      "never_deepdived": true,
+      "days_since_deepdive": 7,
+      "in_cooldown": false,
       "deepdive_status": "pending",
       "deepdive_pass": 0,
-      "deepdive_date": null,
+      "deepdive_date": "2026-09-26",
       "pre_deepdive_conviction": null,
       "post_deepdive_conviction": null,
       "history": [],
@@ -47,7 +90,7 @@
       "dive_mode": "full"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "state_key": "p-e-analytics",
       "name": "P.E. Analytics Ltd (PROPEQUITY)",
       "ranking_title": "P.E. Analytics Ltd (PROPEQUITY)",
@@ -98,7 +141,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "state_key": "lohia-corp",
       "name": "Lohia Corp",
       "ranking_title": "Lohia Corp",
@@ -149,7 +192,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "state_key": "thyrocare-debt-free-asset-light-healthcare-play",
       "name": "Thyrocare",
       "ranking_title": "Thyrocare : Debt free Asset Light Healthcare Play",
@@ -200,7 +243,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "state_key": "adf-food-ltd",
       "name": "ADF FOOD LTD",
       "ranking_title": "ADF FOOD LTD",
@@ -243,7 +286,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "state_key": "carysil",
       "name": "Carysil (earlier Acrysil)",
       "ranking_title": "Carysil (earlier Acrysil)",
@@ -286,7 +329,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "state_key": "vinati-organics",
       "name": "Vinati Organics Ltd",
       "ranking_title": "Vinati Organics Ltd",
@@ -329,7 +372,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "state_key": "virtual-galaxy-infotech",
       "name": "Virtual Galaxy Infotech Ltd",
       "ranking_title": "Virtual Galaxy Infotech Ltd",
@@ -372,7 +415,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "state_key": "dynamic-cables",
       "name": "Dynamic Cables",
       "ranking_title": "Dynamic Cables",
@@ -415,7 +458,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "state_key": "unicommerce-esolutions",
       "name": "Unicommerce Esolutions",
       "ranking_title": "Unicommerce Esolutions",
@@ -458,7 +501,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "state_key": "ddev-plastiks-industries",
       "name": "DDev Plastiks Industries Ltd",
       "ranking_title": "DDev Plastiks Industries Ltd",
@@ -501,7 +544,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "state_key": "jubilant-agri-and-consumer-products-ltd-a-hidden-gem-from-the-jubilant-group",
       "name": "Jubilant Agri and Consumer Products Ltd (JACPL) — A Hidden Gem from the Jubilant",
       "ranking_title": "Jubilant Agri and Consumer Products Ltd (JACPL) — A Hidden Gem from the Jubilant Group?",
@@ -544,7 +587,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "state_key": "valiant-communications",
       "name": "Valiant Communications Limited",
       "ranking_title": "Valiant Communications Limited",
@@ -587,7 +630,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "state_key": "raymond-realty",
       "name": "Raymond Realty Ltd",
       "ranking_title": "Raymond Realty Ltd",
@@ -630,7 +673,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "state_key": "venus-remedies",
       "name": "Venus Remedies",
       "ranking_title": "Venus Remedies",
@@ -673,7 +716,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "state_key": "jasch-industries",
       "name": "Jasch Industries Ltd",
       "ranking_title": "Jasch Industries Ltd",
@@ -716,7 +759,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "state_key": "univastu-india",
       "name": "Univastu India",
       "ranking_title": "Univastu India",
@@ -759,7 +802,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "state_key": "gufic-biosciences",
       "name": "Gufic BioSciences Ltd",
       "ranking_title": "Gufic BioSciences Ltd",
@@ -802,7 +845,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "state_key": "prevest-denpro",
       "name": "Prevest Denpro Limited",
       "ranking_title": "Prevest Denpro Limited",
@@ -845,7 +888,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "state_key": "time-technoplast",
       "name": "Time Technoplast",
       "ranking_title": "Time Technoplast",
@@ -888,7 +931,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "state_key": "vaibhav-global-vertically-integrated-value-e",
       "name": "Vaibhav Global ~ Vertically integrated value e-tailer of Jewellery and Lifestyle",
       "ranking_title": "Vaibhav Global ~ Vertically integrated value e-tailer of Jewellery and Lifestyle Products",
@@ -931,7 +974,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "state_key": "sambhv-steel-tubes",
       "name": "Sambhv Steel Tubes",
       "ranking_title": "Sambhv Steel Tubes",
@@ -974,7 +1017,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "state_key": "maharashtra-seamless",
       "name": "Maharashtra seamless-a value plus cyclical play",
       "ranking_title": "Maharashtra seamless-a value plus cyclical play",
@@ -1001,8 +1044,8 @@
       "deepdive_status": "pending",
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-19",
-      "pre_deepdive_conviction": "Medium-High",
-      "post_deepdive_conviction": "Medium-High",
+      "pre_deepdive_conviction": "Low-Medium",
+      "post_deepdive_conviction": "Low-Medium",
       "history": [
         {
           "pass": 1,
@@ -1018,6 +1061,14 @@
           "post": "Medium-High",
           "summary": "price/P/E refreshed: Rs 699 (-19pts), P/E 12.7 (down from 13.0), market cap Rs 9.3k Cr (down 2.7%)",
           "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low-Medium",
+          "post": "Low-Medium",
+          "summary": "price Rs 699; P/E 12.7x stable, no tier change",
+          "mode": "technicals_only"
         }
       ],
       "in_active_pool": true,
@@ -1025,7 +1076,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "state_key": "arihant-foundations-and-housing",
       "name": "Arihant Foundations and Housing",
       "ranking_title": "Arihant Foundations and Housing",
@@ -1068,7 +1119,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "state_key": "arvind-smartspaces-ltd",
       "name": "Arvind SmartSpaces Ltd",
       "ranking_title": "Arvind SmartSpaces Ltd",
@@ -1111,7 +1162,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "state_key": "macpower-cnc-machines-manufacturing-a-strong-growth",
       "name": "Macpower CNC Machines",
       "ranking_title": "Macpower CNC Machines: Manufacturing a Strong Growth?",
@@ -1154,7 +1205,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "state_key": "matrimony-com",
       "name": "Matrimony.com Ltd",
       "ranking_title": "Matrimony.com Ltd",
@@ -1197,7 +1248,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "state_key": "3b-blackbio-dx",
       "name": "3B Blackbio DX Ltd",
       "ranking_title": "3B Blackbio DX Ltd",
@@ -1240,7 +1291,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "state_key": "vimta-labs-ltd",
       "name": "Vimta Labs Ltd",
       "ranking_title": "Vimta Labs Ltd",
@@ -1283,7 +1334,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "state_key": "wise-travel-india-wti-cabs",
       "name": "Wise Travel India Ltd (WTICabs)",
       "ranking_title": "Wise Travel India Ltd (WTICabs)",
@@ -1310,8 +1361,8 @@
       "deepdive_status": "pending",
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-05",
-      "pre_deepdive_conviction": "Medium",
-      "post_deepdive_conviction": "Medium",
+      "pre_deepdive_conviction": "Low-Medium",
+      "post_deepdive_conviction": "Low-Medium",
       "history": [
         {
           "pass": 1,
@@ -1327,6 +1378,14 @@
           "post": "Medium",
           "summary": "price/P/E refreshed: Rs 95 (-2.2pts), P/E 7.88 (down from 8.4), market cap Rs 226 Cr (down 12.8%)",
           "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low-Medium",
+          "post": "Low-Medium",
+          "summary": "price Rs 95; P/E 7.88x stable, no tier change",
+          "mode": "technicals_only"
         }
       ],
       "in_active_pool": true,
@@ -1334,7 +1393,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 31,
+      "rank": 32,
       "state_key": "tamilnad-mercantile-bank",
       "name": "Tamilnad Mercantile Bank Ltd (TMB Ltd)",
       "ranking_title": "Tamilnad Mercantile Bank Ltd (TMB Ltd)",
@@ -1377,7 +1436,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "state_key": "shaily-engineering",
       "name": "Shaily Engineering Plastics Ltd",
       "ranking_title": "Shaily Engineering Plastics Ltd",
@@ -1421,6 +1480,14 @@
           "post": "Low-Medium",
           "summary": "price/P/E refreshed: Rs 3009 (-8pts), P/E 77.8 (down from 85.25), market cap Rs 13.8k Cr (down 5%)",
           "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low-Medium",
+          "post": "Low-Medium",
+          "summary": "price Rs 3009; P/E 77.8x high but unchanged, no tier shift",
+          "mode": "technicals_only"
         }
       ],
       "in_active_pool": true,
@@ -1428,7 +1495,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "state_key": "arrow-greentech",
       "name": "Arrow Greentech",
       "ranking_title": "Arrow Greentech",
@@ -1471,7 +1538,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "state_key": "skipper",
       "name": "Skipper",
       "ranking_title": "Skipper",
@@ -1514,7 +1581,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 35,
+      "rank": 36,
       "state_key": "sjs-enterprises",
       "name": "SJS Enterprises Ltd",
       "ranking_title": "SJS Enterprises Ltd",
@@ -1557,7 +1624,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 36,
+      "rank": 37,
       "state_key": "mayur-uniquoters",
       "name": "Mayur Uniquoters Ltd",
       "ranking_title": "Mayur Uniquoters Ltd",
@@ -1600,7 +1667,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 37,
+      "rank": 38,
       "state_key": "steelcast",
       "name": "Steelcast Ltd",
       "ranking_title": "Steelcast Ltd",
@@ -1643,7 +1710,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 38,
+      "rank": 39,
       "state_key": "bondada-engineering",
       "name": "Bondada Engineering Ltd",
       "ranking_title": "Bondada Engineering Ltd",
@@ -1686,7 +1753,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 39,
+      "rank": 40,
       "state_key": "danish-power",
       "name": "Danish Power Ltd",
       "ranking_title": "Danish Power Ltd",
@@ -1729,7 +1796,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 40,
+      "rank": 41,
       "state_key": "hind-rectifiers",
       "name": "Hind Rectifiers Ltd (HIRECT)",
       "ranking_title": "Hind Rectifiers Ltd (HIRECT)",
@@ -1772,7 +1839,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 41,
+      "rank": 42,
       "state_key": "rbz-jewellers",
       "name": "RBZ Jewellers Ltd",
       "ranking_title": "RBZ Jewellers Ltd",
@@ -1815,7 +1882,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "state_key": "rnit-ai-solutions-ltd",
       "name": "RNIT AI Solutions Ltd",
       "ranking_title": "RNIT AI Solutions Ltd",
@@ -1858,7 +1925,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 43,
+      "rank": 44,
       "state_key": "aries-agro",
       "name": "Aries Agro Ltd",
       "ranking_title": "Aries Agro Ltd",
@@ -1901,7 +1968,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 44,
+      "rank": 45,
       "state_key": "rajratan-global",
       "name": "Rajratan Global",
       "ranking_title": "Rajratan Global",
@@ -1944,7 +2011,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 45,
+      "rank": 46,
       "state_key": "lumax-industries",
       "name": "Lumax Industries",
       "ranking_title": "Lumax Industries",
@@ -1987,7 +2054,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 46,
+      "rank": 47,
       "state_key": "jeena-sikho-lifecare",
       "name": "Jeena Sikho Lifecare",
       "ranking_title": "Jeena Sikho Lifecare",
@@ -2031,6 +2098,14 @@
           "post": "Medium",
           "summary": "Oct 1 technicals: Rs 481 (-4% from Sep 3), 52W high Rs 839, low Rs 474, P/E 25.3x",
           "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Medium",
+          "post": "Medium",
+          "summary": "unchanged at Rs 481; P/E 25.3x stable",
+          "mode": "technicals_only"
         }
       ],
       "in_active_pool": true,
@@ -2038,7 +2113,50 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 47,
+      "rank": 48,
+      "state_key": "sunlite",
+      "name": "Sunlite",
+      "ranking_title": "Sunlite",
+      "data_file": "data/sunlite.json",
+      "docx_file": "docs/Sunlite Recycling Industries Ltd (SUNLITE).docx",
+      "docx_is_existing": true,
+      "clean_name": "Sunlite",
+      "market_cap_tier": "Micro-cap (~Rs 890 Cr)",
+      "ranking_conviction": "Medium",
+      "ranking_thesis_fit": "neither",
+      "conviction_score": 29.25,
+      "master_score": 37.71,
+      "four_box_score": 3.0,
+      "potential_score": 56.36,
+      "in_confluence100": true,
+      "is_large_or_mega": false,
+      "eligible_for_pool": true,
+      "weight_coverage": 0.85,
+      "pool_priority": 57.86,
+      "high_caution": false,
+      "never_deepdived": false,
+      "days_since_deepdive": 14,
+      "in_cooldown": true,
+      "deepdive_status": "not_in_pool",
+      "deepdive_pass": 1,
+      "deepdive_date": "2026-09-19",
+      "pre_deepdive_conviction": "Medium",
+      "post_deepdive_conviction": "Medium",
+      "history": [
+        {
+          "pass": 1,
+          "date": "2026-09-19",
+          "pre": "Medium",
+          "post": "Medium",
+          "summary": "Deep dive corroborates ValuePickr moat caution with hard numbers: thin margins, weak cash conversion, promoter RPT; conviction held Medium"
+        }
+      ],
+      "in_active_pool": true,
+      "rerun_tier": 4,
+      "dive_mode": "technicals_only"
+    },
+    {
+      "rank": 49,
       "state_key": "eppelton",
       "name": "Eppelton (EEPL)",
       "ranking_title": "Eppelton (EEPL)",
@@ -2081,7 +2199,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 48,
+      "rank": 50,
       "state_key": "marksans-pharma",
       "name": "Marksans Pharma",
       "ranking_title": "Marksans Pharma",
@@ -2124,7 +2242,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 49,
+      "rank": 51,
       "state_key": "kmc-speciality-hospital",
       "name": "KMC Speciality hospital",
       "ranking_title": "KMC Speciality hospital",
@@ -2151,8 +2269,8 @@
       "deepdive_status": "pending",
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-03",
-      "pre_deepdive_conviction": "Medium-High",
-      "post_deepdive_conviction": "Medium-High",
+      "pre_deepdive_conviction": "Medium",
+      "post_deepdive_conviction": "Medium",
       "history": [
         {
           "pass": 1,
@@ -2168,6 +2286,14 @@
           "post": "Medium-High",
           "summary": "Technicals-only: price/P-E/52-week updated; conviction locked",
           "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Medium",
+          "post": "Medium",
+          "summary": "price data incomplete; market-cap/tier unchanged",
+          "mode": "technicals_only"
         }
       ],
       "in_active_pool": true,
@@ -2175,7 +2301,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 50,
+      "rank": 52,
       "state_key": "punjab-chemicals-crop-protection-ltd",
       "name": "Punjab Chemicals & Crop Protection Ltd",
       "ranking_title": "Punjab Chemicals & Crop Protection Ltd",
@@ -2218,7 +2344,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 51,
+      "rank": 53,
       "state_key": "jayaswal-neco",
       "name": "Jayaswal Neco- Integrated Steel Player",
       "ranking_title": "Jayaswal Neco- Integrated Steel Player",
@@ -2269,7 +2395,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 52,
+      "rank": 54,
       "state_key": "technocraft-industries-ias2026",
       "name": "Technocraft Industries",
       "ranking_title": "Technocraft Industries",
@@ -2312,50 +2438,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 53,
-      "state_key": "epl-limited",
-      "name": "EPL Ltd",
-      "ranking_title": "EPL Ltd",
-      "data_file": "data/epl-limited.json",
-      "docx_file": "docs/EPL Ltd.docx",
-      "docx_is_existing": true,
-      "clean_name": "EPL Ltd",
-      "market_cap_tier": "Mid-cap",
-      "ranking_conviction": "Medium",
-      "ranking_thesis_fit": "neither",
-      "conviction_score": 31.0,
-      "master_score": 38.83,
-      "four_box_score": 3.0,
-      "potential_score": 56.91,
-      "in_confluence100": true,
-      "is_large_or_mega": false,
-      "eligible_for_pool": true,
-      "weight_coverage": 1.0,
-      "pool_priority": 56.91,
-      "high_caution": false,
-      "never_deepdived": false,
-      "days_since_deepdive": 15,
-      "in_cooldown": true,
-      "deepdive_status": "done",
-      "deepdive_pass": 1,
-      "deepdive_date": "2026-09-18",
-      "pre_deepdive_conviction": "Medium",
-      "post_deepdive_conviction": "Medium",
-      "history": [
-        {
-          "pass": 1,
-          "date": "2026-09-18",
-          "pre": "Medium",
-          "post": "Medium",
-          "summary": "Indovida merger de-risked via CCI clearance + minority e-voting approval (~45% swap-value upside), but PAT growth stalled 2 quarters despite +25% revenue growth; treated as merger-arb not business-compounding thesis (analyst override)."
-        }
-      ],
-      "in_active_pool": true,
-      "rerun_tier": 4,
-      "dive_mode": "technicals_only"
-    },
-    {
-      "rank": 54,
+      "rank": 55,
       "state_key": "accent-microcell",
       "name": "Accent Microcell Limited",
       "ranking_title": "Accent Microcell Limited",
@@ -2398,7 +2481,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 55,
+      "rank": 56,
       "state_key": "kusumgar",
       "name": "Kusumgar Ltd",
       "ranking_title": "Kusumgar Ltd",
@@ -2441,7 +2524,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 56,
+      "rank": 57,
       "state_key": "indegene-ltd",
       "name": "Indegene Ltd",
       "ranking_title": "Indegene Ltd",
@@ -2484,7 +2567,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 57,
+      "rank": 58,
       "state_key": "goodluck-india",
       "name": "Goodluck India Ltd",
       "ranking_title": "Goodluck India Ltd",
@@ -2527,7 +2610,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 58,
+      "rank": 59,
       "state_key": "alufluoride",
       "name": "Alufluoride Limited-conversion of waste into wealth",
       "ranking_title": "Alufluoride Limited-conversion of waste into wealth",
@@ -2578,7 +2661,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 59,
+      "rank": 60,
       "state_key": "emmvee-photovoltaic-power",
       "name": "Emmvee Photovoltaic Power Ltd",
       "ranking_title": "Emmvee Photovoltaic Power Ltd",
@@ -2621,7 +2704,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 60,
+      "rank": 61,
       "state_key": "20-microns-micronized-to-nano",
       "name": "20 Microns",
       "ranking_title": "20 Microns : micronized to nano-sized minerals",
@@ -2664,7 +2747,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 61,
+      "rank": 62,
       "state_key": "kalyani-cast",
       "name": "Kalyani Cast-Tech Ltd",
       "ranking_title": "Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing",
@@ -2707,7 +2790,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 62,
+      "rank": 63,
       "state_key": "modern-insulators-ltd-a-porcelain-insulator-opportunity-insulating-the-power-cycle-while-riding-india-s-transmission-boom",
       "name": "Modern Insulators Ltd",
       "ranking_title": "Modern Insulators Ltd: A Porcelain Insulator Opportunity Insulating the Power Cycle while Riding India’s Transmission Boom",
@@ -2750,7 +2833,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 63,
+      "rank": 64,
       "state_key": "gng-electronics",
       "name": "GNG Electronics Ltd",
       "ranking_title": "GNG Electronics Ltd",
@@ -2793,7 +2876,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 64,
+      "rank": 65,
       "state_key": "dhabriya-polywood",
       "name": "Dhabriya Polywood Ltd",
       "ranking_title": "Dhabriya Polywood Ltd",
@@ -2836,7 +2919,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 65,
+      "rank": 66,
       "state_key": "sri-lotus-developers",
       "name": "Sri Lotus Developers",
       "ranking_title": "Sri Lotus Developers",
@@ -2879,7 +2962,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 66,
+      "rank": 67,
       "state_key": "privi-speciality-chemicals-ltd",
       "name": "Privi Speciality Chemicals Ltd",
       "ranking_title": "Privi Speciality Chemicals Ltd",
@@ -2922,7 +3005,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 67,
+      "rank": 68,
       "state_key": "kernex-tcas-led-multi-year-growth-story",
       "name": "Kernex",
       "ranking_title": "Kernex: TCAS led multi year growth story",
@@ -2973,7 +3056,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 68,
+      "rank": 69,
       "state_key": "capacit-e-infraprojects",
       "name": "Capacit'e Infraprojects",
       "ranking_title": "Capacit'e Infraprojects",
@@ -3016,7 +3099,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 69,
+      "rank": 70,
       "state_key": "sika-interplant-systems",
       "name": "Sika Interplant Systems Ltd",
       "ranking_title": "Sika Interplant Systems Ltd",
@@ -3067,7 +3150,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 70,
+      "rank": 71,
       "state_key": "deep-industries",
       "name": "Deep Industries (DIL)",
       "ranking_title": "Deep Industries (DIL)",
@@ -3110,7 +3193,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 71,
+      "rank": 72,
       "state_key": "ultramarine-pigments-ltd",
       "name": "Ultramarine & Pigments Ltd",
       "ranking_title": "Ultramarine & Pigments Ltd",
@@ -3153,7 +3236,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 72,
+      "rank": 73,
       "state_key": "neetu-yoshi",
       "name": "Neetu Yoshi Ltd",
       "ranking_title": "Neetu Yoshi Ltd",
@@ -3196,7 +3279,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 73,
+      "rank": 74,
       "state_key": "entero-healthcare-solutions",
       "name": "Entero Healthcare Solutions Ltd",
       "ranking_title": "Entero Healthcare Solutions Ltd",
@@ -3239,7 +3322,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 74,
+      "rank": 75,
       "state_key": "obsc-perfection",
       "name": "OBSC Perfection Ltd",
       "ranking_title": "OBSC Perfection Ltd",
@@ -3282,7 +3365,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 75,
+      "rank": 76,
       "state_key": "p-n-gadgil-jewellers",
       "name": "P N Gadgil Jewellers Ltd",
       "ranking_title": "P N Gadgil Jewellers Ltd",
@@ -3325,7 +3408,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 76,
+      "rank": 77,
       "state_key": "freshara-agro-exports",
       "name": "Freshara Agro Exports Ltd",
       "ranking_title": "Freshara Agro Exports Ltd",
@@ -3368,7 +3451,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 77,
+      "rank": 78,
       "state_key": "northern-arc",
       "name": "Northern Arc",
       "ranking_title": "Northern Arc",
@@ -3411,7 +3494,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 78,
+      "rank": 79,
       "state_key": "izmo",
       "name": "IZMO- bet on new technologies in Auto retail & defence",
       "ranking_title": "IZMO- bet on new technologies in Auto retail & defence",
@@ -3454,7 +3537,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 79,
+      "rank": 80,
       "state_key": "ztech",
       "name": "Ztech (India) Limited",
       "ranking_title": "Ztech (India) Limited",
@@ -3497,7 +3580,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 80,
+      "rank": 81,
       "state_key": "marine-electricals-riding-the-waves-of-expansion",
       "name": "Marine Electricals",
       "ranking_title": "Marine Electricals: Riding the Waves of Expansion",
@@ -3540,7 +3623,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 81,
+      "rank": 82,
       "state_key": "aeroflex-industries",
       "name": "Aeroflex Industries Ltd",
       "ranking_title": "Aeroflex Industries Ltd",
@@ -3583,7 +3666,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 82,
+      "rank": 83,
       "state_key": "antelopus-selan-oil-exploration",
       "name": "Antelopus Selan Oil Exploration",
       "ranking_title": "Antelopus Selan Oil Exploration",
@@ -3626,7 +3709,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 83,
+      "rank": 84,
       "state_key": "ksh-international-ltd",
       "name": "KSH International Ltd",
       "ranking_title": "KSH International Ltd",
@@ -3669,7 +3752,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 84,
+      "rank": 85,
       "state_key": "ngl-fine-chem-ltd",
       "name": "NGL Fine-Chem Ltd",
       "ranking_title": "NGL Fine-Chem Ltd",
@@ -3712,7 +3795,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 85,
+      "rank": 86,
       "state_key": "alpex-solar",
       "name": "Alpex Solar Ltd",
       "ranking_title": "Alpex Solar Ltd",
@@ -3755,7 +3838,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 86,
+      "rank": 87,
       "state_key": "pix-transmissions-ltd",
       "name": "Pix Transmissions Ltd",
       "ranking_title": "Pix Transmissions Ltd",
@@ -3798,7 +3881,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 87,
+      "rank": 88,
       "state_key": "asm-technologies",
       "name": "ASM Technologies",
       "ranking_title": "ASM Technologies",
@@ -3841,7 +3924,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 88,
+      "rank": 89,
       "state_key": "ashiana-housing",
       "name": "Ashiana Housing",
       "ranking_title": "Ashiana Housing",
@@ -3884,7 +3967,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 89,
+      "rank": 90,
       "state_key": "zinka-logistics-blackbuck",
       "name": "Zinka Logistics Solutions Ltd (BlackBuck)",
       "ranking_title": "Zinka Logistics Solutions Ltd (BlackBuck)",
@@ -3927,7 +4010,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 90,
+      "rank": 91,
       "state_key": "south-west-pinnacle-exploration",
       "name": "South West Pinnacle Exploration",
       "ranking_title": "South West Pinnacle Exploration",
@@ -3970,7 +4053,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 91,
+      "rank": 92,
       "state_key": "pitti-engineering",
       "name": "Pitti Engineering Ltd",
       "ranking_title": "Pitti Engineering Ltd",
@@ -4013,7 +4096,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 92,
+      "rank": 93,
       "state_key": "bansal-roofing-products-ltd",
       "name": "Bansal Roofing Products Ltd",
       "ranking_title": "Bansal Roofing Products Ltd",
@@ -4064,7 +4147,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 93,
+      "rank": 94,
       "state_key": "sudeep-pharma",
       "name": "Sudeep Pharma Ltd",
       "ranking_title": "Sudeep Pharma Ltd",
@@ -4105,7 +4188,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 94,
+      "rank": 95,
       "state_key": "sky-gold-ltd",
       "name": "Sky Gold Ltd",
       "ranking_title": "Sky Gold Ltd",
@@ -4156,7 +4239,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 95,
+      "rank": 96,
       "state_key": "ratnaveer-precision-a-newly-headed-steel-company",
       "name": "Ratnaveer precision a newly headed steel company",
       "ranking_title": "Ratnaveer precision a newly headed steel company",
@@ -4199,7 +4282,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 96,
+      "rank": 97,
       "state_key": "arman-financial-services",
       "name": "Arman Financial Services Ltd",
       "ranking_title": "Arman Financial Services Ltd",
@@ -4250,7 +4333,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 97,
+      "rank": 98,
       "state_key": "kamat-hotels",
       "name": "Kamat Hotels (India) Ltd- A Possible Turnaround Story!",
       "ranking_title": "Kamat Hotels (India) Ltd- A Possible Turnaround Story!",
@@ -4301,7 +4384,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 98,
+      "rank": 99,
       "state_key": "frontier-springs",
       "name": "Frontier Springs",
       "ranking_title": "Frontier Springs",
@@ -4352,7 +4435,7 @@
       "dive_mode": "technicals_only"
     },
     {
-      "rank": 99,
+      "rank": 100,
       "state_key": "borosil-renewables",
       "name": "Borosil Renewables",
       "ranking_title": "Borosil Renewables",
@@ -4388,49 +4471,6 @@
           "pre": "Low-Medium",
           "post": "Medium",
           "summary": "Confirmed four-quarter EBITDA-margin inflection (>33%, 35% Q1FY27), ASP up Rs138->160/sq.mm, ADD+CVD+ALMM protection, 600 TPD (+60%) expansion Q4 FY27; margin policy-boosted and above through-cycle."
-        }
-      ],
-      "in_active_pool": true,
-      "rerun_tier": 4,
-      "dive_mode": "technicals_only"
-    },
-    {
-      "rank": 100,
-      "state_key": "csl-finance",
-      "name": "CSL Finance Limited",
-      "ranking_title": "CSL Finance Limited",
-      "data_file": "data/csl-finance.json",
-      "docx_file": "docs/CSL Finance Ltd.docx",
-      "docx_is_existing": true,
-      "clean_name": "CSL Finance Limited",
-      "market_cap_tier": "Small-cap (~Rs 551 Cr)",
-      "ranking_conviction": "Low-Medium",
-      "ranking_thesis_fit": "10x-in-2-3-years",
-      "conviction_score": 28.0,
-      "master_score": 29.12,
-      "four_box_score": 2.5,
-      "potential_score": 45.81,
-      "in_confluence100": true,
-      "is_large_or_mega": false,
-      "eligible_for_pool": true,
-      "weight_coverage": 1.0,
-      "pool_priority": 45.81,
-      "high_caution": false,
-      "never_deepdived": false,
-      "days_since_deepdive": 25,
-      "in_cooldown": true,
-      "deepdive_status": "not_in_pool",
-      "deepdive_pass": 1,
-      "deepdive_date": "2026-09-08",
-      "pre_deepdive_conviction": "Low-Medium",
-      "post_deepdive_conviction": "Low-Medium",
-      "history": [
-        {
-          "pass": 1,
-          "date": "2026-09-08",
-          "pre": "Low-Medium",
-          "post": "Low-Medium",
-          "summary": "Deep read: keeps 10x via four_box valuation=yes exception (below-book, ~6.3x P/E); conviction held Low-Medium on decelerating PAT, softer asset quality, no community diligence; realistic re-rating math ~2-4x not 10x"
         }
       ],
       "in_active_pool": true,
@@ -4711,7 +4751,7 @@
       "master_score": 38.54,
       "four_box_score": 3.5,
       "potential_score": 63.02,
-      "in_confluence100": true,
+      "in_confluence100": false,
       "is_large_or_mega": true,
       "eligible_for_pool": false,
       "weight_coverage": 0.85,
@@ -4974,49 +5014,6 @@
     },
     {
       "rank": 114,
-      "state_key": "sunlite",
-      "name": "Sunlite",
-      "ranking_title": "Sunlite",
-      "data_file": "data/sunlite.json",
-      "docx_file": "docs/Sunlite Recycling Industries Ltd (SUNLITE).docx",
-      "docx_is_existing": true,
-      "clean_name": "Sunlite",
-      "market_cap_tier": "Micro-cap (~Rs 890 Cr)",
-      "ranking_conviction": "Medium",
-      "ranking_thesis_fit": "neither",
-      "conviction_score": 29.25,
-      "master_score": 37.71,
-      "four_box_score": 3.0,
-      "potential_score": 56.36,
-      "in_confluence100": false,
-      "is_large_or_mega": false,
-      "eligible_for_pool": false,
-      "weight_coverage": 0.85,
-      "pool_priority": 57.86,
-      "high_caution": false,
-      "never_deepdived": false,
-      "days_since_deepdive": 14,
-      "in_cooldown": true,
-      "deepdive_status": "not_in_pool",
-      "deepdive_pass": 1,
-      "deepdive_date": "2026-09-19",
-      "pre_deepdive_conviction": "Medium",
-      "post_deepdive_conviction": "Medium",
-      "history": [
-        {
-          "pass": 1,
-          "date": "2026-09-19",
-          "pre": "Medium",
-          "post": "Medium",
-          "summary": "Deep dive corroborates ValuePickr moat caution with hard numbers: thin margins, weak cash conversion, promoter RPT; conviction held Medium"
-        }
-      ],
-      "in_active_pool": false,
-      "rerun_tier": null,
-      "dive_mode": null
-    },
-    {
-      "rank": 115,
       "state_key": "acutaas-chemicals",
       "name": "Acutaas Chemicals Ltd (Erst. Ami Organics Ltd)",
       "ranking_title": "Acutaas Chemicals Ltd (Erst. Ami Organics Ltd)",
@@ -5051,7 +5048,7 @@
       "dive_mode": null
     },
     {
-      "rank": 116,
+      "rank": 115,
       "state_key": "tube-investments-ltd-diversified-engineering-company",
       "name": "Tube Investments Ltd ~ Diversified Engineering Company",
       "ranking_title": "Tube Investments Ltd ~ Diversified Engineering Company",
@@ -5094,7 +5091,7 @@
       "dive_mode": null
     },
     {
-      "rank": 117,
+      "rank": 116,
       "state_key": "nesco-ltd",
       "name": "Nesco Ltd",
       "ranking_title": "Nesco Ltd",
@@ -5130,6 +5127,49 @@
           "pre": "High",
           "post": "Medium-High",
           "summary": "Tower2 completion confirmed pushed to ~FY30/31 (guided timeline extended 48->60mo from commencement certificate); Q1FY27 standalone PAT +3.91% YoY / FY26 PAT +10% both lag revenue growth, a clear deceleration from prior 'TTM+30.8%' framing; WSA progressing more concretely (8/9 sites possessed). four_box 3.0 but thesis_fit kept 'neither' on timeframe mismatch. Conviction High -> Medium-High."
+        }
+      ],
+      "in_active_pool": false,
+      "rerun_tier": null,
+      "dive_mode": null
+    },
+    {
+      "rank": 117,
+      "state_key": "epl-limited",
+      "name": "EPL Ltd",
+      "ranking_title": "EPL Ltd",
+      "data_file": "data/epl-limited.json",
+      "docx_file": "docs/EPL Ltd.docx",
+      "docx_is_existing": true,
+      "clean_name": "EPL Ltd",
+      "market_cap_tier": "Mid-cap",
+      "ranking_conviction": "Medium",
+      "ranking_thesis_fit": "neither",
+      "conviction_score": 31.0,
+      "master_score": 38.83,
+      "four_box_score": 3.0,
+      "potential_score": 56.91,
+      "in_confluence100": false,
+      "is_large_or_mega": false,
+      "eligible_for_pool": false,
+      "weight_coverage": 1.0,
+      "pool_priority": 56.91,
+      "high_caution": false,
+      "never_deepdived": false,
+      "days_since_deepdive": 15,
+      "in_cooldown": true,
+      "deepdive_status": "not_in_pool",
+      "deepdive_pass": 1,
+      "deepdive_date": "2026-09-18",
+      "pre_deepdive_conviction": "Medium",
+      "post_deepdive_conviction": "Medium",
+      "history": [
+        {
+          "pass": 1,
+          "date": "2026-09-18",
+          "pre": "Medium",
+          "post": "Medium",
+          "summary": "Indovida merger de-risked via CCI clearance + minority e-voting approval (~45% swap-value upside), but PAT growth stalled 2 quarters despite +25% revenue growth; treated as merger-arb not business-compounding thesis (analyst override)."
         }
       ],
       "in_active_pool": false,
@@ -6816,41 +6856,6 @@
     },
     {
       "rank": 160,
-      "state_key": "eldeco-housing-ltd",
-      "name": "Eldeco Housing Ltd",
-      "ranking_title": "Eldeco Housing Ltd",
-      "data_file": "data/eldeco-housing-ltd.json",
-      "docx_file": "docs/Eldeco Housing Ltd.docx",
-      "docx_is_existing": false,
-      "clean_name": "Eldeco Housing Ltd",
-      "market_cap_tier": "Small-cap (~Rs 841 Cr)",
-      "ranking_conviction": "Low",
-      "ranking_thesis_fit": "10x-in-2-3-years",
-      "conviction_score": 17.19,
-      "master_score": 11.16,
-      "four_box_score": 3.0,
-      "potential_score": 43.08,
-      "in_confluence100": false,
-      "is_large_or_mega": false,
-      "eligible_for_pool": false,
-      "weight_coverage": 0.45,
-      "pool_priority": 48.58,
-      "high_caution": false,
-      "never_deepdived": true,
-      "days_since_deepdive": 7,
-      "in_cooldown": false,
-      "deepdive_status": "not_in_pool",
-      "deepdive_pass": 0,
-      "deepdive_date": "2026-09-26",
-      "pre_deepdive_conviction": null,
-      "post_deepdive_conviction": null,
-      "history": [],
-      "in_active_pool": false,
-      "rerun_tier": null,
-      "dive_mode": null
-    },
-    {
-      "rank": 161,
       "state_key": "supreme-transformer",
       "name": "Supreme (transformer maker)",
       "ranking_title": "Supreme (transformer maker)",
@@ -6893,7 +6898,7 @@
       "dive_mode": null
     },
     {
-      "rank": 162,
+      "rank": 161,
       "state_key": "garuda-construction",
       "name": "Garuda Construction",
       "ranking_title": null,
@@ -6936,7 +6941,7 @@
       "dive_mode": null
     },
     {
-      "rank": 163,
+      "rank": 162,
       "state_key": "laxmi-dental",
       "name": "Laxmi Dental Ltd",
       "ranking_title": "Laxmi Dental Ltd",
@@ -6971,7 +6976,7 @@
       "dive_mode": null
     },
     {
-      "rank": 164,
+      "rank": 163,
       "state_key": "tata-motors-commercial-vehicles",
       "name": "Tata Motors Commercial Vehicles (TMCV)",
       "ranking_title": "Tata Motors Commercial Vehicles (TMCV)",
@@ -7006,7 +7011,7 @@
       "dive_mode": null
     },
     {
-      "rank": 165,
+      "rank": 164,
       "state_key": "natco-pharma-focusing-on-complex-products",
       "name": "Natco Pharma",
       "ranking_title": "Natco Pharma: Focusing On Complex Products",
@@ -7041,7 +7046,7 @@
       "dive_mode": null
     },
     {
-      "rank": 166,
+      "rank": 165,
       "state_key": "sbcl",
       "name": "SBCL",
       "ranking_title": "SBCL",
@@ -7076,7 +7081,7 @@
       "dive_mode": null
     },
     {
-      "rank": 167,
+      "rank": 166,
       "state_key": "inventurus-knowledge-solutions",
       "name": "Inventurus Knowledge Solutions",
       "ranking_title": "Inventurus Knowledge Solutions",
@@ -7111,7 +7116,7 @@
       "dive_mode": null
     },
     {
-      "rank": 168,
+      "rank": 167,
       "state_key": "td-power-systems",
       "name": "TD Power Systems",
       "ranking_title": "TD Power Systems",
@@ -7154,7 +7159,7 @@
       "dive_mode": null
     },
     {
-      "rank": 169,
+      "rank": 168,
       "state_key": "proventus-agrocom",
       "name": "Proventus Agrocom",
       "ranking_title": null,
@@ -7197,7 +7202,7 @@
       "dive_mode": null
     },
     {
-      "rank": 170,
+      "rank": 169,
       "state_key": "vadilal-industries",
       "name": "Vadilal Industries",
       "ranking_title": null,
@@ -7240,7 +7245,7 @@
       "dive_mode": null
     },
     {
-      "rank": 171,
+      "rank": 170,
       "state_key": "solex-energy",
       "name": "Solex Energy Ltd",
       "ranking_title": "Solex Energy Ltd",
@@ -7283,7 +7288,7 @@
       "dive_mode": null
     },
     {
-      "rank": 172,
+      "rank": 171,
       "state_key": "rappid-valves",
       "name": "Rappid Valves",
       "ranking_title": null,
@@ -7326,7 +7331,7 @@
       "dive_mode": null
     },
     {
-      "rank": 173,
+      "rank": 172,
       "state_key": "asarfi-hospital-limited-sme-ipo",
       "name": "Asarfi Hospital Limited SME IPO (Asarfi Hospital IPO)",
       "ranking_title": "Asarfi Hospital Limited SME IPO (Asarfi Hospital IPO)",
@@ -7361,7 +7366,7 @@
       "dive_mode": null
     },
     {
-      "rank": 174,
+      "rank": 173,
       "state_key": "gravita-india-success-story",
       "name": "Gravita India success story",
       "ranking_title": "Gravita India success story",
@@ -7396,7 +7401,7 @@
       "dive_mode": null
     },
     {
-      "rank": 175,
+      "rank": 174,
       "state_key": "ebgng",
       "name": "EBGNG",
       "ranking_title": "EBGNG",
@@ -7439,7 +7444,7 @@
       "dive_mode": null
     },
     {
-      "rank": 176,
+      "rank": 175,
       "state_key": "lloyds-metal-energy",
       "name": "Lloyds Metal & Energy Ltd",
       "ranking_title": "Lloyds Metal & Energy Ltd",
@@ -7474,7 +7479,7 @@
       "dive_mode": null
     },
     {
-      "rank": 177,
+      "rank": 176,
       "state_key": "racl-geartech",
       "name": "RACL Geartech",
       "ranking_title": "RACL Geartech",
@@ -7509,7 +7514,7 @@
       "dive_mode": null
     },
     {
-      "rank": 178,
+      "rank": 177,
       "state_key": "megatherm-induction",
       "name": "Megatherm Induction Ltd",
       "ranking_title": "Megatherm Induction Ltd",
@@ -7544,7 +7549,7 @@
       "dive_mode": null
     },
     {
-      "rank": 179,
+      "rank": 178,
       "state_key": "control-print",
       "name": "Control Print",
       "ranking_title": "Control Print",
@@ -7587,7 +7592,7 @@
       "dive_mode": null
     },
     {
-      "rank": 180,
+      "rank": 179,
       "state_key": "aequs",
       "name": "Aequs",
       "ranking_title": "Aequs",
@@ -7622,7 +7627,7 @@
       "dive_mode": null
     },
     {
-      "rank": 181,
+      "rank": 180,
       "state_key": "coal-india",
       "name": "Coal India",
       "ranking_title": "Coal India",
@@ -7657,7 +7662,7 @@
       "dive_mode": null
     },
     {
-      "rank": 182,
+      "rank": 181,
       "state_key": "greenlam-industries",
       "name": "Greenlam Industries Ltd",
       "ranking_title": "Greenlam Industries Ltd",
@@ -7692,7 +7697,7 @@
       "dive_mode": null
     },
     {
-      "rank": 183,
+      "rank": 182,
       "state_key": "inox-green-energy-services",
       "name": "Inox Green Energy",
       "ranking_title": "Inox Green Energy",
@@ -7727,7 +7732,7 @@
       "dive_mode": null
     },
     {
-      "rank": 184,
+      "rank": 183,
       "state_key": "jupiter-wagons",
       "name": "Jupiter Wagons Ltd (previously CEBBCO)",
       "ranking_title": "Jupiter Wagons Ltd (previously CEBBCO)",
@@ -7762,7 +7767,7 @@
       "dive_mode": null
     },
     {
-      "rank": 185,
+      "rank": 184,
       "state_key": "kaka-industries",
       "name": "Kaka Industries Ltd",
       "ranking_title": "Kaka Industries Ltd",
@@ -7797,7 +7802,7 @@
       "dive_mode": null
     },
     {
-      "rank": 186,
+      "rank": 185,
       "state_key": "ongc",
       "name": "Oil & Natural Gas Corporation Ltd (ONGC)",
       "ranking_title": "Oil & Natural Gas Corporation Ltd (ONGC)",
@@ -7832,7 +7837,7 @@
       "dive_mode": null
     },
     {
-      "rank": 187,
+      "rank": 186,
       "state_key": "oil-india",
       "name": "Oil India Ltd",
       "ranking_title": "Oil India Ltd",
@@ -7867,7 +7872,7 @@
       "dive_mode": null
     },
     {
-      "rank": 188,
+      "rank": 187,
       "state_key": "pace-digitek",
       "name": "Pace Digitek Ltd",
       "ranking_title": "Pace Digitek Ltd",
@@ -7902,7 +7907,7 @@
       "dive_mode": null
     },
     {
-      "rank": 189,
+      "rank": 188,
       "state_key": "premier-explosives",
       "name": "Premier Explosives Ltd",
       "ranking_title": "Premier Explosives Ltd",
@@ -7937,7 +7942,7 @@
       "dive_mode": null
     },
     {
-      "rank": 190,
+      "rank": 189,
       "state_key": "prostarm",
       "name": "Prostarm Info Systems",
       "ranking_title": "Prostarm Info Systems",
@@ -7972,7 +7977,7 @@
       "dive_mode": null
     },
     {
-      "rank": 191,
+      "rank": 190,
       "state_key": "selan-exploration",
       "name": "Selan Exploration",
       "ranking_title": "Selan Exploration",
@@ -8007,7 +8012,7 @@
       "dive_mode": null
     },
     {
-      "rank": 192,
+      "rank": 191,
       "state_key": "sp-apparels",
       "name": "SP Apparels",
       "ranking_title": "SP Apparels",
@@ -8042,7 +8047,7 @@
       "dive_mode": null
     },
     {
-      "rank": 193,
+      "rank": 192,
       "state_key": "sunteck-realty",
       "name": "Sunteck Realty",
       "ranking_title": "Sunteck Realty",
@@ -8077,7 +8082,7 @@
       "dive_mode": null
     },
     {
-      "rank": 194,
+      "rank": 193,
       "state_key": "tata-elxsi",
       "name": "Tata Elxsi",
       "ranking_title": "Tata Elxsi",
@@ -8112,7 +8117,7 @@
       "dive_mode": null
     },
     {
-      "rank": 195,
+      "rank": 194,
       "state_key": "trishakti-industries",
       "name": "Trishakti Industries",
       "ranking_title": "Trishakti Industries",
@@ -8147,7 +8152,7 @@
       "dive_mode": null
     },
     {
-      "rank": 196,
+      "rank": 195,
       "state_key": "vst-tillers-and-tractors-limited",
       "name": "VST Tillers and Tractors limited",
       "ranking_title": "VST Tillers and Tractors limited",
@@ -8182,7 +8187,7 @@
       "dive_mode": null
     },
     {
-      "rank": 197,
+      "rank": 196,
       "state_key": "ixigo-le-travenues-technology",
       "name": "Le Travenues Technology Ltd (ixigo)",
       "ranking_title": "Le Travenues Technology Ltd (ixigo)",
@@ -8217,7 +8222,7 @@
       "dive_mode": null
     },
     {
-      "rank": 198,
+      "rank": 197,
       "state_key": "sterlite-technologies",
       "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
       "ranking_title": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
@@ -8252,7 +8257,7 @@
       "dive_mode": null
     },
     {
-      "rank": 199,
+      "rank": 198,
       "state_key": "eureka-forbes-a-high-margin-consumer-durable-company",
       "name": "Eureka Forbes Ltd",
       "ranking_title": "Eureka Forbes Ltd",
@@ -8295,7 +8300,7 @@
       "dive_mode": null
     },
     {
-      "rank": 200,
+      "rank": 199,
       "state_key": "nephrocare-health",
       "name": "Nephrocare Health Services Ltd",
       "ranking_title": "Nephrocare Health Services Ltd",
@@ -8330,7 +8335,7 @@
       "dive_mode": null
     },
     {
-      "rank": 201,
+      "rank": 200,
       "state_key": "poly-medicure",
       "name": "Poly Medicure Ltd",
       "ranking_title": "Poly Medicure Ltd",
@@ -8365,7 +8370,7 @@
       "dive_mode": null
     },
     {
-      "rank": 202,
+      "rank": 201,
       "state_key": "sacheerome",
       "name": "Sacheerome Ltd",
       "ranking_title": "Sacheerome Ltd",
@@ -8408,7 +8413,7 @@
       "dive_mode": null
     },
     {
-      "rank": 203,
+      "rank": 202,
       "state_key": "gayatri-rubber-and-chemicals",
       "name": "Gayatri Rubber and Chemicals",
       "ranking_title": "Gayatri Rubber and Chemicals",
@@ -8451,7 +8456,7 @@
       "dive_mode": null
     },
     {
-      "rank": 204,
+      "rank": 203,
       "state_key": "modison-ltd",
       "name": "Modison Ltd",
       "ranking_title": "Modison Ltd",
@@ -8494,7 +8499,7 @@
       "dive_mode": null
     },
     {
-      "rank": 205,
+      "rank": 204,
       "state_key": "sanghvi-movers",
       "name": "Sanghvi Movers",
       "ranking_title": "Sanghvi Movers",
@@ -8529,7 +8534,7 @@
       "dive_mode": null
     },
     {
-      "rank": 206,
+      "rank": 205,
       "state_key": "transrail-lighting",
       "name": "Transrail Lighting Ltd",
       "ranking_title": "Transrail Lighting Ltd",
@@ -8565,6 +8570,49 @@
           "pre": "Medium",
           "post": "Medium",
           "summary": "Strong order book but unresolved tax penalty and reputational overhangs; no trusted-user conviction."
+        }
+      ],
+      "in_active_pool": false,
+      "rerun_tier": null,
+      "dive_mode": null
+    },
+    {
+      "rank": 206,
+      "state_key": "csl-finance",
+      "name": "CSL Finance Limited",
+      "ranking_title": "CSL Finance Limited",
+      "data_file": "data/csl-finance.json",
+      "docx_file": "docs/CSL Finance Ltd.docx",
+      "docx_is_existing": true,
+      "clean_name": "CSL Finance Limited",
+      "market_cap_tier": "Small-cap (~Rs 551 Cr)",
+      "ranking_conviction": "Low-Medium",
+      "ranking_thesis_fit": "10x-in-2-3-years",
+      "conviction_score": 28.0,
+      "master_score": 29.12,
+      "four_box_score": 2.5,
+      "potential_score": 45.81,
+      "in_confluence100": true,
+      "is_large_or_mega": false,
+      "eligible_for_pool": true,
+      "weight_coverage": 1.0,
+      "pool_priority": 45.81,
+      "high_caution": false,
+      "never_deepdived": false,
+      "days_since_deepdive": 25,
+      "in_cooldown": true,
+      "deepdive_status": "not_in_pool",
+      "deepdive_pass": 1,
+      "deepdive_date": "2026-09-08",
+      "pre_deepdive_conviction": "Low-Medium",
+      "post_deepdive_conviction": "Low-Medium",
+      "history": [
+        {
+          "pass": 1,
+          "date": "2026-09-08",
+          "pre": "Low-Medium",
+          "post": "Low-Medium",
+          "summary": "Deep read: keeps 10x via four_box valuation=yes exception (below-book, ~6.3x P/E); conviction held Low-Medium on decelerating PAT, softer asset quality, no community diligence; realistic re-rating math ~2-4x not 10x"
         }
       ],
       "in_active_pool": false,
@@ -10048,9 +10096,9 @@
       "master_score": 23.03,
       "four_box_score": 2.0,
       "potential_score": 36.52,
-      "in_confluence100": false,
+      "in_confluence100": true,
       "is_large_or_mega": false,
-      "eligible_for_pool": false,
+      "eligible_for_pool": true,
       "weight_coverage": 0.25,
       "pool_priority": 44.02,
       "high_caution": false,
@@ -16703,9 +16751,9 @@
       "master_score": 24.41,
       "four_box_score": 2.0,
       "potential_score": 37.2,
-      "in_confluence100": true,
+      "in_confluence100": false,
       "is_large_or_mega": false,
-      "eligible_for_pool": true,
+      "eligible_for_pool": false,
       "weight_coverage": 1.0,
       "pool_priority": 37.2,
       "high_caution": false,
@@ -19633,9 +19681,9 @@
       "master_score": 15.88,
       "four_box_score": 2.0,
       "potential_score": 32.94,
-      "in_confluence100": true,
+      "in_confluence100": false,
       "is_large_or_mega": false,
-      "eligible_for_pool": true,
+      "eligible_for_pool": false,
       "weight_coverage": 0.85,
       "pool_priority": 34.44,
       "high_caution": false,
@@ -21399,9 +21447,9 @@
       "master_score": 15.98,
       "four_box_score": 2.0,
       "potential_score": 32.99,
-      "in_confluence100": true,
+      "in_confluence100": false,
       "is_large_or_mega": false,
-      "eligible_for_pool": true,
+      "eligible_for_pool": false,
       "weight_coverage": 1.0,
       "pool_priority": 32.99,
       "high_caution": false,

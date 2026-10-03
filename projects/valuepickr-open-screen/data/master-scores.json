@@ -2,8 +2,8 @@
   "method": "Composite of conviction_score/quality_score/expectation_gap_score/consistency_score/asymmetry_score, weighted 0.25/0.25/0.20/0.15/0.15 and renormalized over whichever are present. Formula + investor research in MASTER_SCORE_METHODOLOGY.md.",
   "scored_count": 1000,
   "not_assessed_count": 0,
-  "consistency_score_coverage": 200,
-  "asymmetry_score_coverage": 277,
+  "consistency_score_coverage": 201,
+  "asymmetry_score_coverage": 279,
   "ranked": [
     {
       "slug": "p-e-analytics",
@@ -342,6 +342,34 @@
       }
     },
     {
+      "slug": "bondada-engineer",
+      "name": "Bondada Engineer",
+      "master_score": 54.49,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 7,
+        "years_cleared": 6,
+        "note": "FY20-FY26 screener (id 543971). Both revenue growth >=10% AND ROCE >=15% in the same FY: FY21, FY22, FY23, FY24, FY25, FY26 (ROCE 19-39%, growth 11-116%). Missed only FY20 (rev +2%). ROCE stepped up to ~39% from FY24 as the solar+telecom EPC ramp scaled."
+      },
+      "score_breakdown": {
+        "conviction_score": 24.0,
+        "quality_score": 73.0,
+        "expectation_gap_score": 51.06,
+        "consistency_score": 86,
+        "asymmetry_score": 47.53,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "vinati-organics",
       "name": "Vinati Organics Ltd",
       "master_score": 54.47,
@@ -593,34 +621,6 @@
       }
     },
     {
-      "slug": "kmc-speciality-hospital",
-      "name": "KMC Speciality hospital",
-      "master_score": 52.53,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 11,
-        "years_cleared": 10,
-        "note": "FY16-FY26 (screener): ROCE >=15% in every year (17-35%); revenue growth >=10% in 10 of 11 (only FY21 +7% during COVID). Both metrics cleared 10 of 11 -- a rare clean multi-year hospital compounding record; FY25 and FY26 both ~+31%."
-      },
-      "score_breakdown": {
-        "conviction_score": 57.0,
-        "quality_score": 78.0,
-        "expectation_gap_score": 3.93,
-        "consistency_score": 91,
-        "asymmetry_score": 28.96,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "punjab-chemicals-crop-protection-ltd",
       "name": "Punjab Chemicals & Crop Protection Ltd",
       "master_score": 52.21,
@@ -805,6 +805,34 @@
         "expectation_gap_score": 37.01,
         "consistency_score": 83,
         "asymmetry_score": 38.5,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "kmc-speciality-hospital",
+      "name": "KMC Speciality hospital",
+      "master_score": 50.03,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 11,
+        "years_cleared": 10,
+        "note": "FY16-FY26 (screener): ROCE >=15% in every year (17-35%); revenue growth >=10% in 10 of 11 (only FY21 +7% during COVID). Both metrics cleared 10 of 11 -- a rare clean multi-year hospital compounding record; FY25 and FY26 both ~+31%."
+      },
+      "score_breakdown": {
+        "conviction_score": 47.0,
+        "quality_score": 78.0,
+        "expectation_gap_score": 3.93,
+        "consistency_score": 91,
+        "asymmetry_score": 28.96,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -2224,26 +2252,6 @@
       }
     },
     {
-      "slug": "bondada-engineer",
-      "name": "Bondada Engineer",
-      "master_score": 39.0,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 39.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "rm-drip-and-springs",
       "name": "Rm Drip And Springs",
       "master_score": 39.0,
@@ -2649,6 +2657,34 @@
       }
     },
     {
+      "slug": "shaily-engineering",
+      "name": "Shaily Engineering Plastics Ltd",
+      "master_score": 37.36,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 1,
+        "note": "Of FY23-FY25 (both metrics verifiable), only FY25 (+22.2%/29%) cleared. FY23 (+6.9%/14%) and FY24 (+6.1%/20%) missed - FY23-24 revenue growth was ~6%. The GLP-1 device ramp lifted FY25-26 growth to 22-26%; FY26 ROCE not yet disclosed."
+      },
+      "score_breakdown": {
+        "conviction_score": 43.45,
+        "quality_score": 73.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 33,
+        "asymmetry_score": 22.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "capri-global-capital",
       "name": "Capri Global Capital Ltd",
       "master_score": 36.93,
@@ -2695,34 +2731,6 @@
         "expectation_gap_score": 0,
         "consistency_score": 67,
         "asymmetry_score": 25.0,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "maharashtra-seamless",
-      "name": "Maharashtra seamless-a value plus cyclical play",
-      "master_score": 36.81,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 0,
-        "note": "Of the years with both metrics verifiable in the captured table (FY24-26), none cleared: revenue fell -5.5%, -2.5% and -11.3% despite ROCE of 23%, 17% and 14%. The earlier up-cycle (FY22-23 revenue +36-83%) pre-dates the ROCE data captured here - a cyclical, not a consistent compounder. The Q1 FY27 order-book acceleration (+31% QoQ) is a genuine recent-quarter positive but is too early in FY27 to count as a fiscal-year data point in this mechanism."
-      },
-      "score_breakdown": {
-        "conviction_score": 28.42,
-        "quality_score": 39.0,
-        "expectation_gap_score": 55.09,
-        "consistency_score": 0,
-        "asymmetry_score": 59.55,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -2947,6 +2955,34 @@
         "expectation_gap_score": 4.2,
         "consistency_score": 0,
         "asymmetry_score": 47.1,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "maharashtra-seamless",
+      "name": "Maharashtra seamless-a value plus cyclical play",
+      "master_score": 35.56,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 0,
+        "note": "Of the years with both metrics verifiable in the captured table (FY24-26), none cleared: revenue fell -5.5%, -2.5% and -11.3% despite ROCE of 23%, 17% and 14%. The earlier up-cycle (FY22-23 revenue +36-83%) pre-dates the ROCE data captured here - a cyclical, not a consistent compounder. The Q1 FY27 order-book acceleration (+31% QoQ) is a genuine recent-quarter positive but is too early in FY27 to count as a fiscal-year data point in this mechanism."
+      },
+      "score_breakdown": {
+        "conviction_score": 23.42,
+        "quality_score": 39.0,
+        "expectation_gap_score": 55.09,
+        "consistency_score": 0,
+        "asymmetry_score": 59.55,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -3187,34 +3223,6 @@
         "expectation_gap_score": 44.59,
         "consistency_score": 0,
         "asymmetry_score": 22.3,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "shaily-engineering",
-      "name": "Shaily Engineering Plastics Ltd",
-      "master_score": 33.86,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 1,
-        "note": "Of FY23-FY25 (both metrics verifiable), only FY25 (+22.2%/29%) cleared. FY23 (+6.9%/14%) and FY24 (+6.1%/20%) missed - FY23-24 revenue growth was ~6%. The GLP-1 device ramp lifted FY25-26 growth to 22-26%; FY26 ROCE not yet disclosed."
-      },
-      "score_breakdown": {
-        "conviction_score": 29.45,
-        "quality_score": 73.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 33,
-        "asymmetry_score": 22.0,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -3913,33 +3921,6 @@
       }
     },
     {
-      "slug": "wise-travel-india-wti-cabs",
-      "name": "Wise Travel India Ltd (WTICabs)",
-      "master_score": 31.02,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 2,
-        "years_cleared": 1,
-        "note": "FY25: ROCE ~14.94%, narrowly missing the 15% bar despite plausible revenue growth - fails on the ROCE leg. FY26: revenue growth +51% and ROCE ~16% both clear. Company listed 2024, so only 2 fiscal years are verifiable from the sources reviewed this pass; a longer track record isn't available yet."
-      },
-      "score_breakdown": {
-        "conviction_score": 38.46,
-        "quality_score": 42.0,
-        "expectation_gap_score": 15.92,
-        "consistency_score": null,
-        "asymmetry_score": 20.46,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
       "slug": "kp-energy",
       "name": "KP Energy Ltd",
       "master_score": 31.0,
@@ -4486,6 +4467,33 @@
           "expectation_gap_score"
         ],
         "weight_coverage": 0.45
+      }
+    },
+    {
+      "slug": "wise-travel-india-wti-cabs",
+      "name": "Wise Travel India Ltd (WTICabs)",
+      "master_score": 28.37,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 2,
+        "years_cleared": 1,
+        "note": "FY25: ROCE ~14.94%, narrowly missing the 15% bar despite plausible revenue growth - fails on the ROCE leg. FY26: revenue growth +51% and ROCE ~16% both clear. Company listed 2024, so only 2 fiscal years are verifiable from the sources reviewed this pass; a longer track record isn't available yet."
+      },
+      "score_breakdown": {
+        "conviction_score": 29.46,
+        "quality_score": 42.0,
+        "expectation_gap_score": 15.92,
+        "consistency_score": null,
+        "asymmetry_score": 20.46,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
       }
     },
     {
@@ -7928,6 +7936,26 @@
       }
     },
     {
+      "slug": "oriana-power-ltd",
+      "name": "Oriana Power Ltd",
+      "master_score": 17.98,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 17.98,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
       "slug": "medplus-health-service-second-largest-pharmacy-retailer",
       "name": "Medplus Health Service second largest pharmacy retailer",
       "master_score": 17.65,
@@ -10922,66 +10950,6 @@
       }
     },
     {
-      "slug": "sahana-systems",
-      "name": "Sahana Systems",
-      "master_score": 16.0,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 16.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "oriana-power-ltd",
-      "name": "Oriana Power Ltd",
-      "master_score": 16.0,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 16.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "cospower-engineering",
-      "name": "Cospower Engineering",
-      "master_score": 16.0,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 16.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "oswal-pumps",
       "name": "Oswal Pumps",
       "master_score": 16.0,
@@ -11803,6 +11771,29 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "nisus-finance",
+      "name": "Nisus Finance",
+      "master_score": 14.37,
+      "red_flag_tier": "none",
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": 9.0,
+        "expectation_gap_score": 36.22,
+        "consistency_score": null,
+        "asymmetry_score": 18.11,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
       }
     },
     {
@@ -18225,6 +18216,56 @@
       }
     },
     {
+      "slug": "sahana-systems",
+      "name": "Sahana Systems",
+      "master_score": 8.0,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 16.0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "cospower-engineering",
+      "name": "Cospower Engineering",
+      "master_score": 8.0,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 16.0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
       "slug": "sg-finserve",
       "name": "SG Finserve Ltd",
       "master_score": 7.91,
@@ -22125,17 +22166,22 @@
       "red_flag_tier": "caution",
       "conviction": "Low",
       "thesis_fit": "neither",
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -22165,17 +22211,22 @@
       "red_flag_tier": "caution",
       "conviction": "Low",
       "thesis_fit": "neither",
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -22185,17 +22236,22 @@
       "red_flag_tier": "scale",
       "conviction": "Low",
       "thesis_fit": "neither",
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -22205,37 +22261,22 @@
       "red_flag_tier": "high",
       "conviction": "AVOID",
       "thesis_fit": "neither",
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "nisus-finance",
-      "name": "Nisus Finance",
-      "master_score": 0,
-      "red_flag_tier": "none",
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -22265,17 +22306,22 @@
       "red_flag_tier": "scale",
       "conviction": "Low",
       "thesis_fit": "neither",
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -22285,17 +22331,22 @@
       "red_flag_tier": null,
       "conviction": null,
       "thesis_fit": "neither",
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -22305,17 +22356,22 @@
       "red_flag_tier": null,
       "conviction": null,
       "thesis_fit": "neither",
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -22325,17 +22381,22 @@
       "red_flag_tier": null,
       "conviction": null,
       "thesis_fit": "neither",
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
         "conviction_score": 0,
-        "quality_score": null,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {

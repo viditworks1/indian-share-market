@@ -8651,3 +8651,28 @@ Resolution required before research can proceed.
 - **Market cap tier**: Confirmed Mid-cap, no tier change (Rs 8.5k Cr in mid-cap range)
 - **Context**: 5.8% pullback in ~3-4 weeks since pass 1 (Sep 28 deep-dive). Radiology (NHL) divestment approved by Board (Sep 21, Rs 141.4 cr + property sale), subject to shareholder approval (postal ballot underway). Trading window closed Oct 1-2 (Q2 FY26 results pending, unusual timing — may indicate issue with prior period results). P/E compression (52x → 47x) is modest but reflects market's pause before radiology-deal completion
 - **Next catalyst**: Shareholder approval of NHL divestment; Q2 FY26 results release (timing uncertain given trading window); clarity on deal proceeds deployment (likely used to reduce parent Docon debt further)
+
+## Bondada Engineer — deep-dive pass 1 [2026-10-03]
+- Q2 FY27 results (Jun quarter, just announced) show ordered growth: Rs 692 Cr revenue, Rs 54 Cr PAT, 11% OPM — consistent with guidance and prior Q1 run-rate
+- Sep 2026 order awards (Rs 146.90 Cr + Rs 41 Cr LOI) validate robust order-intake momentum; cumulative 1.7 GWp solar commissioned to date shows execution pipeline working
+- Working capital improved to 29 days (from 138 days a year ago) — strong operational signal on cash-conversion efficiency during rapid growth
+- 0% promoter pledge maintained as of latest disclosure (Jun 2026) — addresses governance-adjacent concern flagged in prior exploratory pass
+- Stock price compression (Rs 289 → Rs 270, P/E 15x → 13.8x) makes valuation slightly more attractive, but EPC margin guidance flat at 11-12% keeps multiple-expansion ceiling real
+- Conviction Low-Medium → Low-Medium. Growth thesis confirmed but re-rating limited by sector dynamics; keep as 'unconfirmed 10x' with explicit EPC-multiple-ceiling caveat
+
+
+## Maharashtra seamless-a value plus cyclical play — technicals refresh [2026-10-03]
+- Price Rs 699; P/E 12.7x remains stable from Oct 2 close; no material change in valuation or market-cap tier
+
+## Wise Travel India Ltd (WTICabs) — technicals refresh [2026-10-03]
+- Price Rs 95; P/E 7.88x remains stable; no new data to suggest tier or conviction change
+
+## Shaily Engineering Plastics Ltd — technicals refresh [2026-10-03]
+- Price Rs 3009; P/E 77.8x remains high but unchanged from Oct 2 close; no tier shift, conviction/thesis unchanged
+
+## Jeena Sikho Lifecare — technicals refresh [2026-10-03]
+- Price Rs 481; P/E 25.3x remains stable; no material change in technicals or valuation
+
+## KMC Speciality hospital — technicals refresh [2026-10-03]
+- Market data incomplete but tier/conviction unchanged; technicals refresh completed with existing data
+
