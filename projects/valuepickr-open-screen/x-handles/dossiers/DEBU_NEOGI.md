@@ -16,7 +16,7 @@
       "conviction": "very-high",
       "quote": "Very good play for long term on quick commerce and e commerce... Discl: I am heavily invested in this company",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "agree",
       "since_call_pct": null
     },
     {
@@ -27,7 +27,7 @@
       "conviction": "very-high",
       "quote": "Advantage Parag Milk. Discl: Heavily invested in Parag, please do your own due diligence",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -38,7 +38,7 @@
       "conviction": "high",
       "quote": "one man (HBL promoter) spends on R&D... someone who wants to own a slice of a business then HBL is almost a perfect choice",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -49,7 +49,7 @@
       "conviction": "medium",
       "quote": "high-risk, high-reward emerging hospitality bet, not a conviction core holding [lease-model risk, aggressive expansion, SME liquidity, modest ROE]",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "agree",
       "since_call_pct": null
     }
   ],

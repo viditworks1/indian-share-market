@@ -16,7 +16,7 @@
       "conviction": "high",
       "quote": "TD Power at Rs. 1000/-, you beauty. Patience with a high quality business is the name of the game.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     }
   ],

@@ -16,7 +16,7 @@
       "conviction": "high",
       "quote": "Trishakti Industries- UC today. Breaking out of the 170 range will be key... Fully in the ride for this one",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -27,7 +27,7 @@
       "conviction": "high",
       "quote": "The business has completely changed, and its a massive transformation at that (re: Rategain competitive moat vs rivals 1/10th-1/5th size)",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "unverified",
       "since_call_pct": null
     },
     {
@@ -38,7 +38,7 @@
       "conviction": "medium",
       "quote": "Hidden capabilities from Rategain call. The best is coming very soon.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "unverified",
       "since_call_pct": null
     }
   ],

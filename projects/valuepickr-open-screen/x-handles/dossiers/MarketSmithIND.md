@@ -8,15 +8,87 @@
   "discloses_names": true,
   "disclaimer_pattern": "heavy",
   "calls": [
-    {"stock": "Shaily Engineering Plastics", "slug": "shaily-engineering", "date": "2026-09-10", "direction": "bull", "conviction": "medium", "quote": "beneath that label, a very different business is emerging—one positioned behind the devices powering a global healthcare megatrend. The opportunity is getting bigger", "new_to_screen": false, "our_verdict": null, "since_call_pct": null},
-    {"stock": "Action Construction Equipment", "slug": "action-construction-equipment", "date": "2026-09-09", "direction": "bear", "conviction": "medium", "quote": "one ownership trend that refuses to follow the optimism...Is the stock telling the same story?", "new_to_screen": false, "our_verdict": null, "since_call_pct": null},
-    {"stock": "Manorama Industries", "slug": "manorama-industries-creating-wealth-from-waste", "date": "2026-08-17", "direction": "bull", "conviction": "medium", "quote": "a much bigger transformation is unfolding—from a deeply rooted sourcing moat to an increasingly global manufacturing footprint. The opportunity is compelling", "new_to_screen": false, "our_verdict": null, "since_call_pct": null},
-    {"stock": "Nuvama Wealth Management", "slug": "nuvama-wealth-management", "date": "2026-07-26", "direction": "bull", "conviction": "medium", "quote": "Is Nuvama Wealth more than just a brokerage? four-engine business model, recurring revenue, and upcoming catalysts could reshape its growth story", "new_to_screen": false, "our_verdict": null, "since_call_pct": null},
-    {"stock": "Bajaj Finance", "slug": "bajaj-finance", "date": "2026-08-08", "direction": "bull", "conviction": "medium", "quote": "Bajaj Finance, Chola & Shriram combine 15-24% AUM growth, strong profitability and visible asset quality", "new_to_screen": true, "our_verdict": null, "since_call_pct": null},
-    {"stock": "Cholamandalam Investment and Finance", "slug": "cholamandalam", "date": "2026-08-08", "direction": "bull", "conviction": "medium", "quote": "second-order winners of the US private-credit redemption cascade", "new_to_screen": true, "our_verdict": null, "since_call_pct": null},
-    {"stock": "Shriram Finance", "slug": "shriram-finance", "date": "2026-08-08", "direction": "bull", "conviction": "medium", "quote": "second-order winners of the US private-credit redemption cascade", "new_to_screen": true, "our_verdict": null, "since_call_pct": null}
+    {
+      "stock": "Shaily Engineering Plastics",
+      "slug": "shaily-engineering",
+      "date": "2026-09-10",
+      "direction": "bull",
+      "conviction": "medium",
+      "quote": "beneath that label, a very different business is emerging\u2014one positioned behind the devices powering a global healthcare megatrend. The opportunity is getting bigger",
+      "new_to_screen": false,
+      "our_verdict": "disagree",
+      "since_call_pct": null
+    },
+    {
+      "stock": "Action Construction Equipment",
+      "slug": "action-construction-equipment",
+      "date": "2026-09-09",
+      "direction": "bear",
+      "conviction": "medium",
+      "quote": "one ownership trend that refuses to follow the optimism...Is the stock telling the same story?",
+      "new_to_screen": false,
+      "our_verdict": "mixed",
+      "since_call_pct": null
+    },
+    {
+      "stock": "Manorama Industries",
+      "slug": "manorama-industries-creating-wealth-from-waste",
+      "date": "2026-08-17",
+      "direction": "bull",
+      "conviction": "medium",
+      "quote": "a much bigger transformation is unfolding\u2014from a deeply rooted sourcing moat to an increasingly global manufacturing footprint. The opportunity is compelling",
+      "new_to_screen": false,
+      "our_verdict": "mixed",
+      "since_call_pct": null
+    },
+    {
+      "stock": "Nuvama Wealth Management",
+      "slug": "nuvama-wealth-management",
+      "date": "2026-07-26",
+      "direction": "bull",
+      "conviction": "medium",
+      "quote": "Is Nuvama Wealth more than just a brokerage? four-engine business model, recurring revenue, and upcoming catalysts could reshape its growth story",
+      "new_to_screen": false,
+      "our_verdict": "mixed",
+      "since_call_pct": null
+    },
+    {
+      "stock": "Bajaj Finance",
+      "slug": "bajaj-finance",
+      "date": "2026-08-08",
+      "direction": "bull",
+      "conviction": "medium",
+      "quote": "Bajaj Finance, Chola & Shriram combine 15-24% AUM growth, strong profitability and visible asset quality",
+      "new_to_screen": true,
+      "our_verdict": "disagree",
+      "since_call_pct": null
+    },
+    {
+      "stock": "Cholamandalam Investment and Finance",
+      "slug": "cholamandalam",
+      "date": "2026-08-08",
+      "direction": "bull",
+      "conviction": "medium",
+      "quote": "second-order winners of the US private-credit redemption cascade",
+      "new_to_screen": true,
+      "our_verdict": "mixed",
+      "since_call_pct": null
+    },
+    {
+      "stock": "Shriram Finance",
+      "slug": "shriram-finance",
+      "date": "2026-08-08",
+      "direction": "bull",
+      "conviction": "medium",
+      "quote": "second-order winners of the US private-credit redemption cascade",
+      "new_to_screen": true,
+      "our_verdict": "mixed",
+      "since_call_pct": null
+    }
   ],
-  "watch_only_names": ["GMM Pfaudler (balanced teaser: \"bull case compelling—but...add complexity\", no clear stance)"]
+  "watch_only_names": [
+    "GMM Pfaudler (balanced teaser: \"bull case compelling\u2014but...add complexity\", no clear stance)"
+  ]
 }
 ```
 

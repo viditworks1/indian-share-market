@@ -126,7 +126,7 @@
       "conviction": "high",
       "quote": "Asia's largest manufacturer of Natural Caffeine, going for a massive 3x capacity expansion to become a fully integrated player.",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -137,7 +137,7 @@
       "conviction": "high",
       "quote": "Designer heritage jewellery B2B supplier to HSJ, WHP, Vaibhav etc. FY23 to 9MFY26: revenue ~5x, PAT ~20x, ROE ~55%; ~10.5 PE.",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -148,7 +148,7 @@
       "conviction": "high",
       "quote": "Fast-growing D2C women's ethnic-wear brand at lower valuations with immediate growth triggers. IPO <9x annualised FY26, ~40% ROE, ~24% EBITDA margin.",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -159,7 +159,7 @@
       "conviction": "medium",
       "quote": "MD: LEO services ramp-up remains a pivotal catalyst; Nelco well-poised to offer these as soon as regulatory approvals are in place. Satcom inflection.",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -170,7 +170,7 @@
       "conviction": "medium",
       "quote": "Madhu Kela in via SISCOL share-swap. Targeting Rs 10,000cr revenue by FY29-30, current order book Rs 8,000cr, plus a defence arm.",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -181,7 +181,7 @@
       "conviction": "medium",
       "quote": "SME Stars highlight: preferred engineering partner for critical energy infrastructure; 4x capacity expansion; empanelled with ADNOC and EIL; diversifying into Railway and Defence.",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -192,7 +192,7 @@
       "conviction": "medium",
       "quote": "SME Stars highlight: conservative revenue targets FY27 Rs 200cr to FY29 Rs 300cr; targeting 25% EBITDA margin funded by 4x capex.",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     },
     {
@@ -203,7 +203,7 @@
       "conviction": "medium",
       "quote": "SME Stars highlight: targeting 30%+ revenue growth past Rs 1,000cr, EBITDA ~12-14%; building a proprietary Railway Intelligence Platform.",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -214,7 +214,7 @@
       "conviction": "medium",
       "quote": "SME Stars highlight: guiding for 60-70% growth in FY27; order book close to Rs 600cr; building AI Infrastructure as a Service.",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -225,7 +225,7 @@
       "conviction": "medium",
       "quote": "SME Stars highlight: expanded from 43 stores (Mar-25) to ~111 (Apr-26); targeting 2x expansion beyond 200+ outlets in FY27.",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -236,7 +236,7 @@
       "conviction": "medium",
       "quote": "The Precision Engineer behind Missiles, Drones and Semiconductors. Business deep dive on Substack is live.",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -247,7 +247,7 @@
       "conviction": "medium",
       "quote": "Evolving from Indian iron and steel player into a diversified global mining enterprise with exposure to future-facing commodities (Cobalt, Copper, Gold - Jonnagiri).",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     },
     {
@@ -258,7 +258,7 @@
       "conviction": "medium",
       "quote": "Highest-ever revenue Rs 115.89cr, expanded to 102+ operational hotels / 4,660+ keys; revenue grew 45%; operates across all five hospitality models.",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -269,7 +269,7 @@
       "conviction": "medium",
       "quote": "Forays into Optical Fibre Cables laying and installation; consistently scaled tower sites.",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -280,7 +280,7 @@
       "conviction": "medium",
       "quote": "Acquires controlling stake in premium beauty brand Aflairza; higher pricing power and better margins can create long-term value via Recode's distribution and product development.",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "agree",
       "since_call_pct": null
     },
     {
@@ -291,7 +291,7 @@
       "conviction": "medium",
       "quote": "Is Automated Parking the Next Big Urban Infrastructure Opportunity? As cities congest and land gets expensive, automated parking is emerging as a fast-growing solution. (IPO)",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -302,7 +302,7 @@
       "conviction": "medium",
       "quote": "Warned about the company (and the group) when the stock made an all-time high and was everybody's favourite multibagger. Since then down more than 95%.",
       "new_to_screen": true,
-      "our_verdict": null,
+      "our_verdict": "unverified",
       "since_call_pct": null
     },
     {
@@ -313,7 +313,7 @@
       "conviction": "medium",
       "quote": "SME Stars highlight: targeting 50% YoY revenue growth; 2x capacity expansion; rapid scaling in high-margin rental operations.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -324,7 +324,7 @@
       "conviction": "medium",
       "quote": "SME Stars highlight: 4x capacity expansion; order book Rs 300cr with Rs 200cr new orders expected; acquired D2C Ricardo and specialist Dongyang.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "agree",
       "since_call_pct": null
     },
     {
@@ -335,7 +335,7 @@
       "conviction": "medium",
       "quote": "SME Stars highlight: transitioning from assembly-led to fully backward-integrated manufacturing; STQC approval a demand driver. Also cited at 42 PE vs Creative Newtech 18.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "unverified",
       "since_call_pct": null
     },
     {
@@ -346,7 +346,7 @@
       "conviction": "medium",
       "quote": "SME Stars highlight: expanding technology-driven electrical and automation solutions; to execute orders worth 2x of FY26 revenue over the next 9 months.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "agree",
       "since_call_pct": null
     },
     {
@@ -357,7 +357,7 @@
       "conviction": "medium",
       "quote": "SME Stars highlight: FY27 revenue target Rs 210cr (~45% YoY), PAT Rs 24-25cr; entered FY27 with Rs 159cr assured recurring revenue.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -368,7 +368,7 @@
       "conviction": "high",
       "quote": "Building a scalable EV platform beyond premium scooters. If execution stays strong, Ather could evolve from a niche premium player into a scaled EV technology company.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     },
     {
@@ -379,7 +379,7 @@
       "conviction": "high",
       "quote": "Transforming from a regional military shipbuilder into a globally integrated naval and commercial manufacturing powerhouse (Project 75I, Brazil maintenance, Zvezda MoU).",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -390,7 +390,7 @@
       "conviction": "medium",
       "quote": "Backbone of EV Boom in India. From wiring harnesses to EV components, Dhoot has built a strong position behind India's fast-growing two-wheeler ecosystem. (IPO)",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -401,7 +401,7 @@
       "conviction": "medium",
       "quote": "Transforming from a commodity sugar/ethanol business to a premium branded alcohol business; demerger in process; expects 50-70% revenue jump from expanded capacity.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "agree",
       "since_call_pct": null
     },
     {
@@ -412,7 +412,7 @@
       "conviction": "high",
       "quote": "Growth not impacted by auto volumes; consumer business outperformed 2W/4W volumes for eight quarters. Revenue model more resilient than commonly perceived.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     },
     {
@@ -423,7 +423,7 @@
       "conviction": "medium",
       "quote": "With a potential M&A deal, management's answer on surviving Reliance/Adani/Waaree entry is surprisingly confident; a strong strategic partner could unlock scale faster.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "agree",
       "since_call_pct": null
     },
     {
@@ -434,7 +434,7 @@
       "conviction": "high",
       "quote": "Unit economics look interesting: ~Rs 3-4 lakh/bed capex, break-even ~35% occupancy, payback <6 months. Insurance re-rate from Rs 4,650 to ~Rs 8,800-9,200/bed/day.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -445,7 +445,7 @@
       "conviction": "high",
       "quote": "Not just participating in the solar upcycle - structurally positioned to remain a front-runner. Deeper backward-integration CAPEX barrier + ALMM favour integrated players.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     },
     {
@@ -456,7 +456,7 @@
       "conviction": "medium",
       "quote": "Electrode to Electrification: graphite-electrode business to demerge into a separate listco; existing company absorbs Bhilwara Energy and becomes HEG Greentech.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "disagree",
       "since_call_pct": null
     },
     {
@@ -467,7 +467,7 @@
       "conviction": "high",
       "quote": "A Trader (Sorry Manufacturer) of hearing aids and LED display; products mostly sourced from China. Half of the FY25 balance sheet reclassified; negative-to-positive ops cash questioned.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     },
     {
@@ -478,7 +478,7 @@
       "conviction": "medium",
       "quote": "Disclosure lapses on insolvency initiation - Regulation 30 SEBI LODR requires informing exchanges within 24 hrs of IBC filing. Company says legacy issue, remains solvent.",
       "new_to_screen": false,
-      "our_verdict": null,
+      "our_verdict": "mixed",
       "since_call_pct": null
     }
   ],

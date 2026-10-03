@@ -15,7 +15,9 @@
       "direction": "bull",
       "conviction": "very-high",
       "quote": "GHCL Textile at new ATH! Still trading below book value... Disclosure: Invested from 70 levels (CMP: 143)",
-      "new_to_screen": false, "our_verdict": null, "since_call_pct": null
+      "new_to_screen": false,
+      "our_verdict": "disagree",
+      "since_call_pct": null
     },
     {
       "stock": "Sheela Foam",
@@ -24,7 +26,9 @@
       "direction": "bull",
       "conviction": "high",
       "quote": "Study Sheela Foam: Market leader having a turnaround. Kurlon integration complete. Debt down from 1500 Cr to 900 Cr. ATH Sales & Ebitda. First ever dividend announced.",
-      "new_to_screen": true, "our_verdict": null, "since_call_pct": null
+      "new_to_screen": true,
+      "our_verdict": "disagree",
+      "since_call_pct": null
     },
     {
       "stock": "Route Mobile",
@@ -33,7 +37,9 @@
       "direction": "bull",
       "conviction": "high",
       "quote": "Study Route Mobile: Cash ~1400 Cr, debt free... generating 600 Cr annual cashflows is available for just 2100 Cr. Proximus paid ~1700/share",
-      "new_to_screen": true, "our_verdict": null, "since_call_pct": null
+      "new_to_screen": true,
+      "our_verdict": "disagree",
+      "since_call_pct": null
     },
     {
       "stock": "S Chand & Co",
@@ -42,7 +48,9 @@
       "direction": "bull",
       "conviction": "high",
       "quote": "Study Schand: Entire business that does 100 Cr avg cashflow available for around 400 Cr. AI Content Licencing growing at 60%. May soon do buyback.",
-      "new_to_screen": true, "our_verdict": null, "since_call_pct": null
+      "new_to_screen": true,
+      "our_verdict": "disagree",
+      "since_call_pct": null
     },
     {
       "stock": "Archit Nuwood Industries",
@@ -51,7 +59,9 @@
       "direction": "bull",
       "conviction": "very-high",
       "quote": "Holding Archit from 40-45 levels.",
-      "new_to_screen": true, "our_verdict": null, "since_call_pct": null
+      "new_to_screen": true,
+      "our_verdict": "disagree",
+      "since_call_pct": null
     },
     {
       "stock": "Vijay Solvex",
@@ -60,7 +70,9 @@
       "direction": "bull",
       "conviction": "very-high",
       "quote": "Averaged Vijay Solvex at 350-400 levels.",
-      "new_to_screen": true, "our_verdict": null, "since_call_pct": null
+      "new_to_screen": true,
+      "our_verdict": "disagree",
+      "since_call_pct": null
     },
     {
       "stock": "Omax Autos",
@@ -69,7 +81,9 @@
       "direction": "bull",
       "conviction": "very-high",
       "quote": "Omax Autos update: ~50% revenue increase YoY, debt reduced further, Share of Revenue from Railways >42% now. Disc: Holding from 90 levels.",
-      "new_to_screen": true, "our_verdict": null, "since_call_pct": null
+      "new_to_screen": true,
+      "our_verdict": "disagree",
+      "since_call_pct": null
     }
   ],
   "watch_only_names": []

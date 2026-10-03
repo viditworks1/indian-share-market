@@ -26,3 +26,13 @@ Dated block per run. Fills per-call `our_verdict` / `since_call_pct` in the doss
 - Promotion candidates: none (scoreboard has no state promotions). Drop candidates (~45, all first-cycle): many with 0 resolved calls in this run; none archived per 2-consecutive-cycle rule.
 - Notes: many drop? flags have 0 calls resolved this cycle because their dossiers weren't reached (60-call cap + oldest-first ordering). Do not archive until call-resolution backlog narrows and the drop flag persists across 2 runs. Next batch should handle ~70 calls from ChintanParikh10 et al.
 
+
+---
+## 2026-10-03
+- Dossiers processed: 8 (@BeatTheStreet10, @13gaurdevesh, @ChintanParikh10, @DEBU_NEOGI, @DesaiAmeet, @Disciplined_Inv...; 97 calls scanned, 60 cap reached). Calls resolved this run: 107 (agree-strong 0, agree 10, mixed 31, disagree 59, red-flag 2, unverified 5).
+- Carried over: ~450 calls remaining in ~95 dossiers (oldest: PRATIKBULANI555, ParthaAwe, Prashanth_Krish, RupakRoyC, SanaSecurities, StocksResearch, SureshKBN, ... — next run).
+- Catch-up seeds: none (no unregistered bull/very-high/high call in this batch).
+- Price checks (2/3 used): Pine Labs ~-16% since 2026-09-11 call (202→169); Tempsens left null (IPO not yet listed at Sep 9 call date). One slot reserved for rotation.
+- Scoreboard top 5: @StocksAndStoics 74.5, @AnirbanManna10 68.6, @BeatTheStreet10 61.0, @ankitbahuguna84 49.1, @niveshaay 43.2.
+- Promotion candidates: none. Drop candidates: none tracked this cycle (persistent drop? flags require 2 consecutive runs).
+- Notes: incremental progress on backlog; no new-to-screen seeds this batch; price checks limited to 2 to conserve budget.

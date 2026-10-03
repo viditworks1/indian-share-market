@@ -63,7 +63,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -109,7 +109,7 @@
         "originality": 0,
         "volume": 1
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -176,7 +176,7 @@
         "volume": 0,
         "refuses_names_cap": 45
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -201,7 +201,7 @@
         "volume": 0,
         "refuses_names_cap": 45
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -288,7 +288,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -355,7 +355,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -379,7 +379,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -466,7 +466,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -490,7 +490,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -514,7 +514,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -664,7 +664,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -835,7 +835,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -1112,7 +1112,7 @@
         "originality": 0,
         "volume": 10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "hold"
     },
     {
@@ -1138,7 +1138,7 @@
         "volume": 2,
         "refuses_names_cap": 45
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "hold"
     },
     {
@@ -1157,12 +1157,13 @@
       "n_conviction_calls": 1,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": 40.0,
+      "x_handle_score": 41.0,
       "score_components": {
+        "corroboration": 0.0,
         "originality": 0,
-        "volume": 0
+        "volume": 1
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -1187,7 +1188,7 @@
         "originality": 0,
         "volume": 3
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "hold"
     },
     {
@@ -1233,7 +1234,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -1259,7 +1260,7 @@
         "volume": 3,
         "refuses_names_cap": 45
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "hold"
     },
     {
@@ -1285,7 +1286,7 @@
         "since_call": 15.0,
         "volume": 10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "hold"
     },
     {
@@ -1311,7 +1312,7 @@
         "since_call": -0.5,
         "volume": 10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "hold"
     },
     {
@@ -1330,13 +1331,14 @@
       "n_conviction_calls": 24,
       "n_watch_names": 17,
       "n_new_seeded": 20,
-      "x_handle_score": 62.0,
+      "x_handle_score": 74.5,
       "score_components": {
         "corroboration": 0.0,
         "originality": 12,
+        "since_call": 12.5,
         "volume": 10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "hold"
     },
     {
@@ -1383,7 +1385,7 @@
         "volume": 1,
         "refuses_names_cap": 45
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -1409,7 +1411,7 @@
         "cadence": -10,
         "refuses_names_cap": 45
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -1433,7 +1435,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -1478,7 +1480,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -1502,7 +1504,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -1527,7 +1529,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -1546,13 +1548,14 @@
       "n_conviction_calls": 23,
       "n_watch_names": 4,
       "n_new_seeded": 13,
-      "x_handle_score": 35.0,
+      "x_handle_score": 31.2,
       "score_components": {
+        "corroboration": -13.8,
         "originality": 0,
-        "volume": 0,
+        "volume": 10,
         "disclaimer": -5
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -1634,13 +1637,14 @@
       "n_conviction_calls": 4,
       "n_watch_names": 0,
       "n_new_seeded": 0,
-      "x_handle_score": 40.0,
+      "x_handle_score": 41.9,
       "score_components": {
+        "corroboration": -2.1,
         "originality": 0,
-        "volume": 0
+        "volume": 4
       },
-      "last_scored_date": "2026-09-26",
-      "promotion_state": "drop-candidate"
+      "last_scored_date": "2026-10-03",
+      "promotion_state": "hold"
     },
     {
       "handle": "AmitabhJha3",
@@ -1742,12 +1746,13 @@
       "n_conviction_calls": 3,
       "n_watch_names": 0,
       "n_new_seeded": 1,
-      "x_handle_score": 40.0,
+      "x_handle_score": 37.4,
       "score_components": {
+        "corroboration": -5.6,
         "originality": 0,
-        "volume": 0
+        "volume": 3
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -1876,7 +1881,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -1900,7 +1905,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -1925,7 +1930,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2013,7 +2018,7 @@
         "originality": 0,
         "volume": 4
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "hold"
     },
     {
@@ -2037,7 +2042,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2062,7 +2067,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2081,13 +2086,14 @@
       "n_conviction_calls": 19,
       "n_watch_names": 3,
       "n_new_seeded": 17,
-      "x_handle_score": 40.0,
+      "x_handle_score": 38.6,
       "score_components": {
+        "corroboration": -11.4,
         "originality": 0,
-        "volume": 0
+        "volume": 10
       },
-      "last_scored_date": "2026-09-26",
-      "promotion_state": "drop-candidate"
+      "last_scored_date": "2026-10-03",
+      "promotion_state": "hold"
     },
     {
       "handle": "jitenkparmar",
@@ -2110,7 +2116,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2134,7 +2140,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2242,7 +2248,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2267,7 +2273,7 @@
         "originality": 0,
         "volume": 2
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "hold"
     },
     {
@@ -2355,7 +2361,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2463,7 +2469,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2550,7 +2556,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2574,7 +2580,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2640,7 +2646,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2664,7 +2670,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2689,7 +2695,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2713,7 +2719,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2738,7 +2744,7 @@
         "originality": 0,
         "volume": 2
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "hold"
     },
     {
@@ -2763,7 +2769,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2892,7 +2898,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2916,7 +2922,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -2982,7 +2988,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3090,7 +3096,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3115,7 +3121,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3181,7 +3187,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3221,12 +3227,13 @@
       "n_conviction_calls": 7,
       "n_watch_names": 0,
       "n_new_seeded": 6,
-      "x_handle_score": 40.0,
+      "x_handle_score": 30.3,
       "score_components": {
+        "corroboration": -16.7,
         "originality": 0,
-        "volume": 0
+        "volume": 7
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3313,7 +3320,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3359,7 +3366,7 @@
         "originality": 0,
         "volume": 2
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "hold"
     },
     {
@@ -3425,7 +3432,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3470,7 +3477,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3515,7 +3522,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3602,7 +3609,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3648,7 +3655,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3673,7 +3680,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3698,7 +3705,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3723,7 +3730,7 @@
         "volume": 0,
         "disclaimer": -5
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3769,7 +3776,7 @@
         "originality": 0,
         "volume": 1
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3793,7 +3800,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3818,7 +3825,7 @@
         "originality": 0,
         "volume": 1
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3842,7 +3849,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3867,7 +3874,7 @@
         "originality": 0,
         "volume": 2
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "hold"
     },
     {
@@ -3891,7 +3898,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3916,7 +3923,7 @@
         "originality": 0,
         "volume": 1
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3940,7 +3947,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3965,7 +3972,7 @@
         "volume": 0,
         "disclaimer": -5
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -3990,7 +3997,7 @@
         "volume": 0,
         "refuses_names_cap": 45
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4014,7 +4021,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4039,7 +4046,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4085,7 +4092,7 @@
         "originality": 0,
         "volume": 2
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "hold"
     },
     {
@@ -4172,7 +4179,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4196,7 +4203,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4241,7 +4248,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4265,7 +4272,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4332,7 +4339,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4440,7 +4447,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4466,7 +4473,7 @@
         "volume": 2,
         "disclaimer": -5
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "hold"
     },
     {
@@ -4553,7 +4560,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4578,7 +4585,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4603,7 +4610,7 @@
         "originality": 0,
         "volume": 1
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4627,7 +4634,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4651,7 +4658,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -4696,7 +4703,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -5665,7 +5672,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -5689,7 +5696,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -5735,7 +5742,7 @@
         "volume": 0,
         "disclaimer": -5
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -5754,13 +5761,13 @@
       "n_conviction_calls": 43,
       "n_watch_names": 12,
       "n_new_seeded": 27,
-      "x_handle_score": 65.8,
+      "x_handle_score": 61.0,
       "score_components": {
-        "corroboration": 3.8,
-        "originality": 12,
+        "corroboration": -5.0,
+        "originality": 16,
         "volume": 10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "hold"
     },
     {
@@ -5931,7 +5938,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -5950,14 +5957,15 @@
       "n_conviction_calls": 7,
       "n_watch_names": 1,
       "n_new_seeded": 3,
-      "x_handle_score": 35.0,
+      "x_handle_score": 37.2,
       "score_components": {
+        "corroboration": -4.8,
         "originality": 0,
-        "volume": 0,
+        "volume": 7,
         "disclaimer": -5
       },
-      "last_scored_date": "2026-09-26",
-      "promotion_state": "drop-candidate"
+      "last_scored_date": "2026-10-03",
+      "promotion_state": "hold"
     },
     {
       "handle": "thenamanchandak",
@@ -5981,7 +5989,7 @@
         "volume": 0,
         "cadence": -10
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -6068,7 +6076,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
@@ -6113,7 +6121,7 @@
         "originality": 0,
         "volume": 0
       },
-      "last_scored_date": "2026-09-26",
+      "last_scored_date": "2026-10-03",
       "promotion_state": "drop-candidate"
     },
     {
