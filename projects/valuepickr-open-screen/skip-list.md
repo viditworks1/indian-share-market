@@ -401,7 +401,7 @@ Generated: 2026-10-03
 | Taurian MPS Ltd, Crushing opportunities? | 2026-09-26 | 2026-10-26 | Low-Medium |
 | TCI Express | 2026-09-26 | 2026-10-26 | Medium |
 | Frontier Springs | 2026-09-28 | 2026-10-28 | Medium |
-| Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing | 2026-09-28 | 2026-10-28 | Medium |
+| Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing | 2026-09-28 | 2026-10-28 | Low |
 | Venus Remedies | 2026-09-28 | 2026-10-28 | Medium-High |
 | Sambhv Steel Tubes | 2026-09-28 | 2026-10-28 | Low |
 | Macpower CNC Machines: Manufacturing a Strong Growth? | 2026-09-28 | 2026-10-28 | Low |

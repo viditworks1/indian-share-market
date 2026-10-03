@@ -1052,8 +1052,8 @@
       "deepdive_status": "pending",
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-19",
-      "pre_deepdive_conviction": "Low-Medium",
-      "post_deepdive_conviction": "Low-Medium",
+      "pre_deepdive_conviction": "Medium-High",
+      "post_deepdive_conviction": "Medium-High",
       "history": [
         {
           "pass": 1,
@@ -1083,6 +1083,14 @@
           "date": "2026-10-03",
           "pre": "Low-Medium",
           "post": "Low-Medium",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
+          "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Medium-High",
+          "post": "Medium-High",
           "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
           "mode": "technicals_only"
         }
@@ -1410,6 +1418,14 @@
           "post": "Low",
           "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
           "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low",
+          "post": "Low",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
+          "mode": "technicals_only"
         }
       ],
       "in_active_pool": true,
@@ -1511,6 +1527,14 @@
           "pre": "Low-Medium",
           "post": "Low-Medium",
           "summary": "price Rs 3009; P/E 77.8x high but unchanged, no tier shift",
+          "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low-Medium",
+          "post": "Low-Medium",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
           "mode": "technicals_only"
         },
         {
@@ -2146,6 +2170,14 @@
           "post": "Low",
           "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
           "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low",
+          "post": "Low",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
+          "mode": "technicals_only"
         }
       ],
       "in_active_pool": true,
@@ -2309,8 +2341,8 @@
       "deepdive_status": "pending",
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-03",
-      "pre_deepdive_conviction": "Medium-High",
-      "post_deepdive_conviction": "Medium-High",
+      "pre_deepdive_conviction": "Low",
+      "post_deepdive_conviction": "Low",
       "history": [
         {
           "pass": 1,
@@ -2340,6 +2372,14 @@
           "date": "2026-10-03",
           "pre": "Medium-High",
           "post": "Medium-High",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
+          "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low",
+          "post": "Low",
           "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
           "mode": "technicals_only"
         }
@@ -2435,6 +2475,14 @@
           "pre": "Medium",
           "post": "Medium",
           "summary": "Technicals-only pass: price 92.79 (52W 64.4-117.1), P/E 16.0x; conviction locked",
+          "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Medium",
+          "post": "Medium",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
           "mode": "technicals_only"
         }
       ],
@@ -2685,8 +2733,8 @@
       "deepdive_status": "pending",
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-05",
-      "pre_deepdive_conviction": "Low-Medium",
-      "post_deepdive_conviction": "Low-Medium",
+      "pre_deepdive_conviction": "Low",
+      "post_deepdive_conviction": "Low",
       "history": [
         {
           "pass": 1,
@@ -2701,6 +2749,14 @@
           "pre": "Low-Medium",
           "post": "Low-Medium",
           "summary": "Technicals refresh: market repricing upward; structural feedstock risk unresolved",
+          "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low",
+          "post": "Low",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
           "mode": "technicals_only"
         }
       ],
@@ -2822,8 +2878,8 @@
       "deepdive_status": "pending",
       "deepdive_pass": 1,
       "deepdive_date": "2026-08-29",
-      "pre_deepdive_conviction": "High",
-      "post_deepdive_conviction": "Medium-High",
+      "pre_deepdive_conviction": "Low",
+      "post_deepdive_conviction": "Low",
       "history": [
         {
           "pass": 1,
@@ -2831,6 +2887,14 @@
           "pre": "High",
           "post": "Medium-High",
           "summary": "FY26 growth stalled to ~8%, wagon plant delayed to H2FY27, stock at ~41x P/E; conviction High->Medium-High"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low",
+          "post": "Low",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
+          "mode": "technicals_only"
         }
       ],
       "in_active_pool": true,
@@ -3097,6 +3161,14 @@
           "post": "Medium",
           "summary": "Technicals refresh: price recovery to Rs 1,644; P/E reset room at 14.5x vs sector; order book intact; conviction locked",
           "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Medium",
+          "post": "Medium",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
+          "mode": "technicals_only"
         }
       ],
       "in_active_pool": true,
@@ -3174,8 +3246,8 @@
       "deepdive_status": "pending",
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-04",
-      "pre_deepdive_conviction": "Medium",
-      "post_deepdive_conviction": "Medium",
+      "pre_deepdive_conviction": "Low",
+      "post_deepdive_conviction": "Low",
       "history": [
         {
           "pass": 1,
@@ -3190,6 +3262,14 @@
           "pre": "Medium",
           "post": "Medium",
           "summary": "Technicals-only touch: market repricing downward (13W -14.3%, RS vs Nifty -11.3%) narrows valuation multiple from 61x to 48x; conviction unchanged but margin of safety improved",
+          "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low",
+          "post": "Low",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
           "mode": "technicals_only"
         }
       ],
@@ -4171,8 +4251,8 @@
       "deepdive_status": "pending",
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-08",
-      "pre_deepdive_conviction": "Medium",
-      "post_deepdive_conviction": "Medium",
+      "pre_deepdive_conviction": "Low",
+      "post_deepdive_conviction": "Low",
       "history": [
         {
           "pass": 1,
@@ -4187,6 +4267,14 @@
           "pre": "Medium",
           "post": "Medium",
           "summary": "Technicals refresh: price +1.8% to Rs 168, new 52W high; valuation flat.",
+          "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low",
+          "post": "Low",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
           "mode": "technicals_only"
         }
       ],
@@ -4279,6 +4367,14 @@
           "pre": "Medium",
           "post": "Medium",
           "summary": "Technicals-only: strong momentum confirmed, price action ~Rs 1,150 near 52W highs, valuation refreshed",
+          "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Medium",
+          "post": "Medium",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
           "mode": "technicals_only"
         }
       ],
@@ -4374,6 +4470,14 @@
           "post": "Medium",
           "summary": "Technicals refresh: price INR 1,764.40, P/E 15.82, conviction locked",
           "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Medium",
+          "post": "Medium",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
+          "mode": "technicals_only"
         }
       ],
       "in_active_pool": true,
@@ -4425,6 +4529,14 @@
           "post": "Low",
           "summary": "Technicals refresh: price +3% since Sept dive, conviction locked",
           "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low",
+          "post": "Low",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
+          "mode": "technicals_only"
         }
       ],
       "in_active_pool": true,
@@ -4459,7 +4571,7 @@
       "deepdive_status": "pending",
       "deepdive_pass": 1,
       "deepdive_date": "2026-08-30",
-      "pre_deepdive_conviction": "Medium-High",
+      "pre_deepdive_conviction": "Medium",
       "post_deepdive_conviction": "Medium",
       "history": [
         {
@@ -4475,6 +4587,14 @@
           "pre": "Medium-High",
           "post": "Medium",
           "summary": "Technicals-only refresh: price/P/E updated, no conviction change",
+          "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Medium",
+          "post": "Medium",
+          "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
           "mode": "technicals_only"
         }
       ],

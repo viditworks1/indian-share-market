@@ -1236,51 +1236,6 @@
     }
   },
   {
-    "slug": "bansal-roofing-products-ltd",
-    "name": "Bansal Roofing Products Ltd",
-    "conviction_score": 53.25,
-    "own_conviction": 53.25,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 67.0,
-    "market_cap_tier": "Micro-cap (~Rs 200 Cr)",
-    "red_flag_tier": null,
-    "source": "legacy-108-screen",
-    "score_breakdown": {
-      "own_conviction": 53.25,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": 4.25,
-      "management_component": 10.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "initiated"
-      }
-    }
-  },
-  {
     "slug": "capri-global-capital",
     "name": "Capri Global Capital Ltd",
     "conviction_score": 53.25,
@@ -2889,51 +2844,6 @@
     }
   },
   {
-    "slug": "sika-interplant-systems",
-    "name": "Sika Interplant Systems Ltd",
-    "conviction_score": 45.92,
-    "own_conviction": 45.75,
-    "trusted_lift": 0.17,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 77.0,
-    "market_cap_tier": "Small-cap (~Rs 1,730 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 45.75,
-      "trusted_lift": 0.17,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": 6.75,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.17,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.17,
-        "pos_raw": 0.17,
-        "pos_capped": 0.17,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "unclear",
-        "shareholder_returns": null
-      }
-    }
-  },
-  {
     "slug": "privi-speciality-chemicals-ltd",
     "name": "Privi Speciality Chemicals Ltd",
     "conviction_score": 45.62,
@@ -2975,51 +2885,6 @@
         "capital_allocation_track_record": "disciplined",
         "rpt_trend": "flat",
         "shareholder_returns": "initiated"
-      }
-    }
-  },
-  {
-    "slug": "frontier-springs",
-    "name": "Frontier Springs",
-    "conviction_score": 45.25,
-    "own_conviction": 45.25,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 75.0,
-    "market_cap_tier": "Micro/Small-cap (~Rs 1,673 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 45.25,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": 6.25,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "unclear",
-        "shareholder_returns": null
       }
     }
   },
@@ -3618,96 +3483,6 @@
     }
   },
   {
-    "slug": "kmc-speciality-hospital",
-    "name": "KMC Speciality hospital",
-    "conviction_score": 43.0,
-    "own_conviction": 43.0,
-    "trusted_lift": 0.0,
-    "conviction": "Medium-High",
-    "thesis_fit": "neither",
-    "quality_score": 78.0,
-    "market_cap_tier": "small-cap",
-    "red_flag_tier": null,
-    "source": "web-discovery",
-    "score_breakdown": {
-      "own_conviction": 43.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 35,
-      "thesis_bonus": 0,
-      "quality_lift": 7.0,
-      "management_component": 1.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "flat",
-        "shareholder_returns": null
-      }
-    }
-  },
-  {
-    "slug": "arman-financial-services",
-    "name": "Arman Financial Services Ltd",
-    "conviction_score": 43.0,
-    "own_conviction": 43.0,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 34.0,
-    "market_cap_tier": "Small-cap (~Rs 1,860.80 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 43.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": -4.0,
-      "management_component": 8.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "clean",
-        "shareholder_returns": "erratic"
-      }
-    }
-  },
-  {
     "slug": "suprajit-engineering-ltd",
     "name": "Suprajit Engineering Ltd",
     "conviction_score": 42.51,
@@ -4113,51 +3888,6 @@
     }
   },
   {
-    "slug": "kalyani-cast",
-    "name": "Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing",
-    "conviction_score": 40.63,
-    "own_conviction": 37.25,
-    "trusted_lift": 3.38,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 43.0,
-    "market_cap_tier": "Micro-cap (~Rs 739 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 37.25,
-      "trusted_lift": 3.38,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": -1.75,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 3.38,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 3.38,
-        "pos_raw": 3.38,
-        "pos_capped": 3.38,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "cautious",
-        "guidance_credibility": "low-to-moderate - wagon-facility timelines have slipped (H2 FY26 -> H2 FY27); container trial train reaching terminal is a positive, but capex execution history is unproven at this scale",
-        "capital_allocation_track_record": "mixed - prior growth (FY24/25 revenue CAGR 40%+) was funded largely from organic cash, but the Phase 1 capex funding via shareholder dilution suggests either poor cash planning or aggressive growth targets. Promoter holds 68% (stable), MD ~27.5% direct.",
-        "rpt_trend": "not flagged",
-        "shareholder_returns": "not yet (in heavy-capex phase); shareholder dilution ongoing via warrants"
-      }
-    }
-  },
-  {
     "slug": "gng-electronics",
     "name": "GNG Electronics Ltd",
     "conviction_score": 40.46,
@@ -4332,51 +4062,6 @@
     }
   },
   {
-    "slug": "sky-gold-ltd",
-    "name": "Sky Gold Ltd",
-    "conviction_score": 39.96,
-    "own_conviction": 39.75,
-    "trusted_lift": 0.21,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 53.0,
-    "market_cap_tier": "Small/Mid-cap (~Rs 12,114 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 39.75,
-      "trusted_lift": 0.21,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": 0.75,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.21,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.21,
-        "pos_raw": 0.21,
-        "pos_capped": 0.21,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "neutral",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
-      }
-    }
-  },
-  {
     "slug": "rnit-ai-solutions-ltd",
     "name": "RNIT AI Solutions Ltd",
     "conviction_score": 39.5,
@@ -4463,51 +4148,6 @@
         "capital_allocation_track_record": "neutral",
         "rpt_trend": "unclear",
         "shareholder_returns": "erratic"
-      }
-    }
-  },
-  {
-    "slug": "jayaswal-neco",
-    "name": "Jayaswal Neco- Integrated Steel Player",
-    "conviction_score": 39.23,
-    "own_conviction": 37.25,
-    "trusted_lift": 1.98,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 43.0,
-    "market_cap_tier": "Small/Mid-cap (~Rs 9,000 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 37.25,
-      "trusted_lift": 1.98,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": -1.75,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 1.98,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 1.98,
-        "pos_raw": 1.98,
-        "pos_capped": 1.98,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "neutral",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
       }
     }
   },
@@ -4856,51 +4496,6 @@
         "capital_allocation_track_record": null,
         "rpt_trend": "unclear",
         "shareholder_returns": null
-      }
-    }
-  },
-  {
-    "slug": "kernex-tcas-led-multi-year-growth-story",
-    "name": "Kernex: TCAS led multi year growth story",
-    "conviction_score": 37.05,
-    "own_conviction": 36.5,
-    "trusted_lift": 0.55,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 40.0,
-    "market_cap_tier": "Small-cap (~Rs 2,914 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 36.5,
-      "trusted_lift": 0.55,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": -2.5,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.55,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.55,
-        "pos_raw": 3.3,
-        "pos_capped": 3.3,
-        "neg_raw": 2.75,
-        "neg_capped": 2.75,
-        "n_positive_signals": 1,
-        "n_exit_signals": 1,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "no-track-record",
-        "capital_allocation_track_record": "unclear",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
       }
     }
   },
@@ -6117,51 +5712,6 @@
     }
   },
   {
-    "slug": "alufluoride",
-    "name": "Alufluoride Limited-conversion of waste into wealth",
-    "conviction_score": 32.58,
-    "own_conviction": 31.75,
-    "trusted_lift": 0.83,
-    "conviction": "Low-Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 37.0,
-    "market_cap_tier": "Micro-cap (~Rs 496 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 31.75,
-      "trusted_lift": 0.83,
-      "base_anchor": 16,
-      "thesis_bonus": 14,
-      "quality_lift": -3.25,
-      "management_component": 5.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.83,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.83,
-        "pos_raw": 0.83,
-        "pos_capped": 0.83,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "consistent"
-      }
-    }
-  },
-  {
     "slug": "modern-insulators-ltd-a-porcelain-insulator-opportunity-insulating-the-power-cycle-while-riding-india-s-transmission-boom",
     "name": "Modern Insulators Ltd: A Porcelain Insulator Opportunity Insulating the Power Cycle while Riding India\u2019s Transmission Boom",
     "conviction_score": 32.53,
@@ -6681,6 +6231,51 @@
       },
       "distinct_trusted_users": 0,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "frontier-springs",
+    "name": "Frontier Springs",
+    "conviction_score": 31.25,
+    "own_conviction": 31.25,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 75.0,
+    "market_cap_tier": "small-cap",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 31.25,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 6.25,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "unclear",
+        "shareholder_returns": null
+      }
     }
   },
   {
@@ -7785,6 +7380,51 @@
     }
   },
   {
+    "slug": "arman-financial-services",
+    "name": "Arman Financial Services Ltd",
+    "conviction_score": 29.0,
+    "own_conviction": 29.0,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 34.0,
+    "market_cap_tier": "small-cap",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 29.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": -4.0,
+      "management_component": 8.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "positive",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "clean",
+        "shareholder_returns": "erratic"
+      }
+    }
+  },
+  {
     "slug": "earkart",
     "name": "Earkart Ltd",
     "conviction_score": 29.0,
@@ -8085,6 +7725,51 @@
       },
       "distinct_trusted_users": 1,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "maharashtra-seamless",
+    "name": "Maharashtra seamless-a value plus cyclical play",
+    "conviction_score": 28.42,
+    "own_conviction": 28.25,
+    "trusted_lift": 0.17,
+    "conviction": "Medium-High",
+    "thesis_fit": "neither",
+    "quality_score": 39.0,
+    "market_cap_tier": "small-cap",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 28.25,
+      "trusted_lift": 0.17,
+      "base_anchor": 35,
+      "thesis_bonus": 0,
+      "quality_lift": -2.75,
+      "management_component": -4.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.17,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.17,
+        "pos_raw": 0.17,
+        "pos_capped": 0.17,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "concern",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "consistent"
+      }
     }
   },
   {
@@ -9192,6 +8877,51 @@
     }
   },
   {
+    "slug": "sky-gold-ltd",
+    "name": "Sky Gold Ltd",
+    "conviction_score": 25.96,
+    "own_conviction": 25.75,
+    "trusted_lift": 0.21,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 53.0,
+    "market_cap_tier": "small-cap",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 25.75,
+      "trusted_lift": 0.21,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 0.75,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.21,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.21,
+        "pos_raw": 0.21,
+        "pos_capped": 0.21,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
+      }
+    }
+  },
+  {
     "slug": "ather-energy-pioneering-india-s-ev-revolution",
     "name": "Ather Energy: Pioneering India's EV Revolution",
     "conviction_score": 25.93,
@@ -9474,6 +9204,51 @@
       },
       "distinct_trusted_users": 1,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "jayaswal-neco",
+    "name": "Jayaswal Neco- Integrated Steel Player",
+    "conviction_score": 25.23,
+    "own_conviction": 23.25,
+    "trusted_lift": 1.98,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 43.0,
+    "market_cap_tier": "small-cap",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 23.25,
+      "trusted_lift": 1.98,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": -1.75,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 1.98,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 1.98,
+        "pos_raw": 1.98,
+        "pos_capped": 1.98,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
+      }
     }
   },
   {
@@ -13077,6 +12852,51 @@
     }
   },
   {
+    "slug": "kernex-tcas-led-multi-year-growth-story",
+    "name": "Kernex: TCAS led multi year growth story",
+    "conviction_score": 23.05,
+    "own_conviction": 22.5,
+    "trusted_lift": 0.55,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 40.0,
+    "market_cap_tier": "small-cap",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 22.5,
+      "trusted_lift": 0.55,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": -2.5,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.55,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.55,
+        "pos_raw": 3.3,
+        "pos_capped": 3.3,
+        "neg_raw": 2.75,
+        "neg_capped": 2.75,
+        "n_positive_signals": 1,
+        "n_exit_signals": 1,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "no-track-record",
+        "capital_allocation_track_record": "unclear",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
+      }
+    }
+  },
+  {
     "slug": "moil",
     "name": "MOIL Ltd",
     "conviction_score": 23.03,
@@ -13236,6 +13056,51 @@
       },
       "distinct_trusted_users": 2,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "bansal-roofing-products-ltd",
+    "name": "Bansal Roofing Products Ltd",
+    "conviction_score": 22.25,
+    "own_conviction": 22.25,
+    "trusted_lift": 0.0,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 67.0,
+    "market_cap_tier": "small-cap",
+    "red_flag_tier": null,
+    "source": "legacy-108-screen",
+    "score_breakdown": {
+      "own_conviction": 22.25,
+      "trusted_lift": 0.0,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 4.25,
+      "management_component": 10.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "positive",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "initiated"
+      }
     }
   },
   {
@@ -16623,6 +16488,51 @@
       },
       "distinct_trusted_users": 0,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "kmc-speciality-hospital",
+    "name": "KMC Speciality hospital",
+    "conviction_score": 16.0,
+    "own_conviction": 16.0,
+    "trusted_lift": 0.0,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 78.0,
+    "market_cap_tier": "small-cap",
+    "red_flag_tier": null,
+    "source": "web-discovery",
+    "score_breakdown": {
+      "own_conviction": 16.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 7.0,
+      "management_component": 1.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "flat",
+        "shareholder_returns": null
+      }
     }
   },
   {
@@ -21651,6 +21561,51 @@
     }
   },
   {
+    "slug": "sika-interplant-systems",
+    "name": "Sika Interplant Systems Ltd",
+    "conviction_score": 14.92,
+    "own_conviction": 14.75,
+    "trusted_lift": 0.17,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 77.0,
+    "market_cap_tier": "small-cap",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 14.75,
+      "trusted_lift": 0.17,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 6.75,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.17,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.17,
+        "pos_raw": 0.17,
+        "pos_capped": 0.17,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "unclear",
+        "shareholder_returns": null
+      }
+    }
+  },
+  {
     "slug": "bhadora-industries",
     "name": "Bhadora Industries Ltd",
     "conviction_score": 14.75,
@@ -22041,51 +21996,6 @@
       },
       "distinct_trusted_users": 2,
       "management_quality": null
-    }
-  },
-  {
-    "slug": "kamat-hotels",
-    "name": "Kamat Hotels (India) Ltd- A Possible Turnaround Story!",
-    "conviction_score": 12.92,
-    "own_conviction": 12.75,
-    "trusted_lift": 0.17,
-    "conviction": "Low",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 49.0,
-    "market_cap_tier": "Small-cap (~Rs 700 Cr)",
-    "red_flag_tier": null,
-    "source": "web-discovery",
-    "score_breakdown": {
-      "own_conviction": 12.75,
-      "trusted_lift": 0.17,
-      "base_anchor": 8,
-      "thesis_bonus": 14,
-      "quality_lift": -0.25,
-      "management_component": -9.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.17,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.17,
-        "pos_raw": 0.17,
-        "pos_capped": 0.17,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "concern",
-        "guidance_credibility": "over-promises",
-        "capital_allocation_track_record": "neutral",
-        "rpt_trend": "flat",
-        "shareholder_returns": "none"
-      }
     }
   },
   {
@@ -23619,6 +23529,51 @@
     }
   },
   {
+    "slug": "alufluoride",
+    "name": "Alufluoride Limited-conversion of waste into wealth",
+    "conviction_score": 10.58,
+    "own_conviction": 9.75,
+    "trusted_lift": 0.83,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 37.0,
+    "market_cap_tier": "small-cap",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 9.75,
+      "trusted_lift": 0.83,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": -3.25,
+      "management_component": 5.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.83,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.83,
+        "pos_raw": 0.83,
+        "pos_capped": 0.83,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "consistent"
+      }
+    }
+  },
+  {
     "slug": "devson-catalyst-ltd",
     "name": "Devson Catalyst Ltd",
     "conviction_score": 10.5,
@@ -24645,6 +24600,51 @@
     }
   },
   {
+    "slug": "kalyani-cast",
+    "name": "Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing",
+    "conviction_score": 9.63,
+    "own_conviction": 6.25,
+    "trusted_lift": 3.38,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 43.0,
+    "market_cap_tier": "small-cap",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 6.25,
+      "trusted_lift": 3.38,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": -1.75,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 3.38,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 3.38,
+        "pos_raw": 3.38,
+        "pos_capped": 3.38,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "cautious",
+        "guidance_credibility": "low-to-moderate - wagon-facility timelines have slipped (H2 FY26 -> H2 FY27); container trial train reaching terminal is a positive, but capex execution history is unproven at this scale",
+        "capital_allocation_track_record": "mixed - prior growth (FY24/25 revenue CAGR 40%+) was funded largely from organic cash, but the Phase 1 capex funding via shareholder dilution suggests either poor cash planning or aggressive growth targets. Promoter holds 68% (stable), MD ~27.5% direct.",
+        "rpt_trend": "not flagged",
+        "shareholder_returns": "not yet (in heavy-capex phase); shareholder dilution ongoing via warrants"
+      }
+    }
+  },
+  {
     "slug": "shriram-pistons-rings",
     "name": "Shriram Pistons & Rings Ltd",
     "conviction_score": 9.49,
@@ -24681,51 +24681,6 @@
       },
       "distinct_trusted_users": 1,
       "management_quality": null
-    }
-  },
-  {
-    "slug": "maharashtra-seamless",
-    "name": "Maharashtra seamless-a value plus cyclical play",
-    "conviction_score": 9.42,
-    "own_conviction": 9.25,
-    "trusted_lift": 0.17,
-    "conviction": "Low-Medium",
-    "thesis_fit": "neither",
-    "quality_score": 39.0,
-    "market_cap_tier": "small-cap",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 9.25,
-      "trusted_lift": 0.17,
-      "base_anchor": 16,
-      "thesis_bonus": 0,
-      "quality_lift": -2.75,
-      "management_component": -4.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.17,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.17,
-        "pos_raw": 0.17,
-        "pos_capped": 0.17,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "concern",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "neutral",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "consistent"
-      }
     }
   },
   {
@@ -35892,6 +35847,51 @@
       },
       "distinct_trusted_users": 1,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "kamat-hotels",
+    "name": "Kamat Hotels (India) Ltd- A Possible Turnaround Story!",
+    "conviction_score": 0,
+    "own_conviction": -1.25,
+    "trusted_lift": 0.17,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": 49.0,
+    "market_cap_tier": "small-cap",
+    "red_flag_tier": null,
+    "source": "web-discovery",
+    "score_breakdown": {
+      "own_conviction": -1.25,
+      "trusted_lift": 0.17,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": -0.25,
+      "management_component": -9.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.17,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.17,
+        "pos_raw": 0.17,
+        "pos_capped": 0.17,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "concern",
+        "guidance_credibility": "over-promises",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "flat",
+        "shareholder_returns": "none"
+      }
     }
   },
   {
