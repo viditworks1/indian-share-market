@@ -31,12 +31,13 @@ import importlib.util
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import build_confluence100 as c100
 
-# Import the daily-series fetching infrastructure from tactical_1m_screen
+# Import the daily-series fetching infrastructure from paper-trading refresh
 PAPER_TRADING_DIR = os.path.join(c100.ROOT, "projects", "paper-trading")
 spec = importlib.util.spec_from_file_location(
     "refresh", os.path.join(PAPER_TRADING_DIR, "scripts/refresh.py")
 )
-rf = spec.loader.load_module(spec)
+rf = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(rf)
 
 DATA_DIR = c100.DATA_DIR
 MIN_HOLDINGS = 3
