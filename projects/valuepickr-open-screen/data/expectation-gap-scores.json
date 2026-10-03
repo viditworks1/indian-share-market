@@ -1,7 +1,7 @@
 {
-  "date_compiled": "2026-10-02",
+  "date_compiled": "2026-10-03",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
-  "scored_count": 318,
+  "scored_count": 319,
   "not_assessed_count": 681,
   "ranked": [
     {
@@ -5789,9 +5789,9 @@
       "slug": "thyrocare-debt-free-asset-light-healthcare-play",
       "name": "Thyrocare : Debt free Asset Light Healthcare Play",
       "expectation_gap_score": 4.32,
-      "conviction_score": 51.0,
+      "conviction_score": 65.0,
       "conviction": "Medium-High",
-      "thesis_fit": "neither",
+      "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
       "market_cap_tier": "Mid-cap (~Rs 8,493 Cr)",
       "gap_direction": "priced-in",
@@ -7725,7 +7725,7 @@
       "expectation_gap_score": 3.54,
       "conviction_score": 49.5,
       "conviction": "High",
-      "thesis_fit": "High-risk/high-return",
+      "thesis_fit": "50x-upside-but-high-risk",
       "red_flag_tier": null,
       "market_cap_tier": "Micro-cap (~Rs 1,245 Cr)",
       "gap_direction": "priced-in",
@@ -8585,6 +8585,41 @@
       "catalyst_window_months": null,
       "catalyst_window_start": "2026-10-02",
       "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "high-caution",
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.05,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.292
+      }
+    },
+    {
+      "slug": "lelavoir-ltd",
+      "name": "Lelavoir Ltd",
+      "expectation_gap_score": 1.46,
+      "conviction_score": 0,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "red_flag_tier": "HIGH CAUTION",
+      "market_cap_tier": "Nano-cap (~Rs 24.6 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": null,
+      "gap_magnitude_pct": null,
+      "evidence_quality": null,
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": null,
+      "catalyst_status_effective": null,
       "catalyst_is_dated": false,
       "risk_open_spof_count": 0,
       "risk_open_spofs": [],
@@ -12895,28 +12930,28 @@
       "name": "Sahana Systems",
       "conviction_score": 16.0,
       "conviction": "Low-Medium",
-      "thesis_fit": "medium-term-10-15pct-ish"
+      "thesis_fit": "neither"
     },
     {
       "slug": "oriana-power-ltd",
       "name": "Oriana Power Ltd",
       "conviction_score": 16.0,
       "conviction": "Low-Medium",
-      "thesis_fit": "medium-term-10-15pct-ish"
+      "thesis_fit": "neither"
     },
     {
       "slug": "cospower-engineering",
       "name": "Cospower Engineering",
       "conviction_score": 16.0,
       "conviction": "Low-Medium",
-      "thesis_fit": "medium-term-10-15pct-ish"
+      "thesis_fit": "neither"
     },
     {
       "slug": "oswal-pumps",
       "name": "Oswal Pumps",
       "conviction_score": 16.0,
       "conviction": "Low-Medium",
-      "thesis_fit": "medium-term-10-15pct-ish"
+      "thesis_fit": "neither"
     },
     {
       "slug": "international-gemmological-institute-india-ltd",
@@ -15821,7 +15856,7 @@
       "name": "Gp Eco Solutions",
       "conviction_score": 0,
       "conviction": "Low",
-      "thesis_fit": "unproven"
+      "thesis_fit": "neither"
     },
     {
       "slug": "dhanwel-hybrid",
@@ -15835,7 +15870,7 @@
       "name": "Avana Electrosystems",
       "conviction_score": 0,
       "conviction": "Low",
-      "thesis_fit": "unproven"
+      "thesis_fit": "neither"
     },
     {
       "slug": "solar-industries",
@@ -15856,7 +15891,7 @@
       "name": "Nisus Finance",
       "conviction_score": 0,
       "conviction": "Low-Medium",
-      "thesis_fit": "medium-term-10-15pct-ish"
+      "thesis_fit": "neither"
     },
     {
       "slug": "cash-ur-drive",
@@ -15877,28 +15912,28 @@
       "name": "Fascinate Textiles",
       "conviction_score": 0,
       "conviction": null,
-      "thesis_fit": "medium"
+      "thesis_fit": "neither"
     },
     {
       "slug": "genxai-analytics",
       "name": "GenXAI Analytics",
       "conviction_score": 0,
       "conviction": null,
-      "thesis_fit": "watchlist"
+      "thesis_fit": "neither"
     },
     {
       "slug": "australian-prem",
       "name": "Australian Prem",
       "conviction_score": 0,
       "conviction": null,
-      "thesis_fit": "medium"
+      "thesis_fit": "neither"
     },
     {
       "slug": "bse",
       "name": "BSE",
       "conviction_score": 0,
       "conviction": null,
-      "thesis_fit": "watchlist"
+      "thesis_fit": "neither"
     }
   ],
   "catalyst_calendar": [
@@ -16109,7 +16144,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 4.32,
-      "conviction_score": 51.0
+      "conviction_score": 65.0
     },
     {
       "slug": "kwality-pharmaceuticals",

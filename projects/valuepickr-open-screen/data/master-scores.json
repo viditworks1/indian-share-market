@@ -1,9 +1,9 @@
 {
   "method": "Composite of conviction_score/quality_score/expectation_gap_score/consistency_score/asymmetry_score, weighted 0.25/0.25/0.20/0.15/0.15 and renormalized over whichever are present. Formula + investor research in MASTER_SCORE_METHODOLOGY.md.",
-  "scored_count": 999,
+  "scored_count": 1000,
   "not_assessed_count": 0,
   "consistency_score_coverage": 200,
-  "asymmetry_score_coverage": 276,
+  "asymmetry_score_coverage": 277,
   "ranked": [
     {
       "slug": "p-e-analytics",
@@ -79,6 +79,34 @@
         "expectation_gap_score": 49.88,
         "consistency_score": 50,
         "asymmetry_score": 63.94,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "thyrocare-debt-free-asset-light-healthcare-play",
+      "name": "Thyrocare : Debt free Asset Light Healthcare Play",
+      "master_score": 58.89,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 11,
+        "years_cleared": 8,
+        "note": "FY16-FY26 (screener consolidated): ROCE >=15% in every year (17-42%; dip to 17-18% FY22-23 around the Reliance-era acquisition, back to 35%+). Revenue growth >=10% in 8 of 11 (missed FY20 +8%, FY23 -11% on the COVID base, FY24 +9%). Both cleared 8 of 11 years; FY25 and FY26 both ~+20%."
+      },
+      "score_breakdown": {
+        "conviction_score": 65.0,
+        "quality_score": 95.0,
+        "expectation_gap_score": 4.32,
+        "consistency_score": 73,
+        "asymmetry_score": 47.16,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -247,34 +275,6 @@
         "expectation_gap_score": 3.82,
         "consistency_score": 20,
         "asymmetry_score": 51.91,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "thyrocare-debt-free-asset-light-healthcare-play",
-      "name": "Thyrocare : Debt free Asset Light Healthcare Play",
-      "master_score": 55.39,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 11,
-        "years_cleared": 8,
-        "note": "FY16-FY26 (screener consolidated): ROCE >=15% in every year (17-42%; dip to 17-18% FY22-23 around the Reliance-era acquisition, back to 35%+). Revenue growth >=10% in 8 of 11 (missed FY20 +8%, FY23 -11% on the COVID base, FY24 +9%). Both cleared 8 of 11 years; FY25 and FY26 both ~+20%."
-      },
-      "score_breakdown": {
-        "conviction_score": 51.0,
-        "quality_score": 95.0,
-        "expectation_gap_score": 4.32,
-        "consistency_score": 73,
-        "asymmetry_score": 47.16,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -1045,7 +1045,7 @@
       "master_score": 47.15,
       "red_flag_tier": null,
       "conviction": "High",
-      "thesis_fit": "High-risk/high-return",
+      "thesis_fit": "50x-upside-but-high-risk",
       "track_record": {
         "years_checked": 9,
         "years_cleared": 6,
@@ -10927,7 +10927,7 @@
       "master_score": 16.0,
       "red_flag_tier": null,
       "conviction": "Low-Medium",
-      "thesis_fit": "medium-term-10-15pct-ish",
+      "thesis_fit": "neither",
       "track_record": null,
       "score_breakdown": {
         "conviction_score": 16.0,
@@ -10947,7 +10947,7 @@
       "master_score": 16.0,
       "red_flag_tier": null,
       "conviction": "Low-Medium",
-      "thesis_fit": "medium-term-10-15pct-ish",
+      "thesis_fit": "neither",
       "track_record": null,
       "score_breakdown": {
         "conviction_score": 16.0,
@@ -10967,7 +10967,7 @@
       "master_score": 16.0,
       "red_flag_tier": null,
       "conviction": "Low-Medium",
-      "thesis_fit": "medium-term-10-15pct-ish",
+      "thesis_fit": "neither",
       "track_record": null,
       "score_breakdown": {
         "conviction_score": 16.0,
@@ -10987,7 +10987,7 @@
       "master_score": 16.0,
       "red_flag_tier": null,
       "conviction": "Low-Medium",
-      "thesis_fit": "medium-term-10-15pct-ish",
+      "thesis_fit": "neither",
       "track_record": null,
       "score_breakdown": {
         "conviction_score": 16.0,
@@ -19211,6 +19211,41 @@
       }
     },
     {
+      "slug": "lelavoir-ltd",
+      "name": "Lelavoir Ltd",
+      "master_score": 1.94,
+      "red_flag_tier": "HIGH CAUTION",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "revenue_5yr_cagr_pct": 42.65,
+        "net_profit_5yr_cagr_pct": 39.71,
+        "revenue_consistency": "INCONSISTENT: 4-10x jumps suggest business line transition or accounting restatement. Growth not proven",
+        "net_margin_consistency": "DETERIORATING: Margins collapsed 41% (FY25) \u2192 25% (FY26) \u2192 5.6% (Q1 FY27)",
+        "major_turning_points": [
+          "2020: Rebrand to Le Lavoir; laundry services launch",
+          "Oct 2025: Convertible warrant raise Rs 83.79 Cr (dilution)",
+          "Aug 28 2026: MD Sachin Kapse resignation",
+          "Sept 29 2026: AGM rejects 2 independent directors",
+          "Oct 1 2026: Bengaluru facility launch"
+        ]
+      },
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": 5.0,
+        "expectation_gap_score": 1.46,
+        "consistency_score": null,
+        "asymmetry_score": 0.73,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
       "slug": "bharat-bijlee",
       "name": "Bharat bijlee Ltd",
       "master_score": 1.75,
@@ -22089,7 +22124,7 @@
       "master_score": 0,
       "red_flag_tier": "caution",
       "conviction": "Low",
-      "thesis_fit": "unproven",
+      "thesis_fit": "neither",
       "track_record": null,
       "score_breakdown": {
         "conviction_score": 0,
@@ -22129,7 +22164,7 @@
       "master_score": 0,
       "red_flag_tier": "caution",
       "conviction": "Low",
-      "thesis_fit": "unproven",
+      "thesis_fit": "neither",
       "track_record": null,
       "score_breakdown": {
         "conviction_score": 0,
@@ -22189,7 +22224,7 @@
       "master_score": 0,
       "red_flag_tier": "none",
       "conviction": "Low-Medium",
-      "thesis_fit": "medium-term-10-15pct-ish",
+      "thesis_fit": "neither",
       "track_record": null,
       "score_breakdown": {
         "conviction_score": 0,
@@ -22249,7 +22284,7 @@
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
-      "thesis_fit": "medium",
+      "thesis_fit": "neither",
       "track_record": null,
       "score_breakdown": {
         "conviction_score": 0,
@@ -22269,7 +22304,7 @@
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
-      "thesis_fit": "watchlist",
+      "thesis_fit": "neither",
       "track_record": null,
       "score_breakdown": {
         "conviction_score": 0,
@@ -22289,7 +22324,7 @@
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
-      "thesis_fit": "medium",
+      "thesis_fit": "neither",
       "track_record": null,
       "score_breakdown": {
         "conviction_score": 0,
@@ -22309,7 +22344,7 @@
       "master_score": 0,
       "red_flag_tier": null,
       "conviction": null,
-      "thesis_fit": "watchlist",
+      "thesis_fit": "neither",
       "track_record": null,
       "score_breakdown": {
         "conviction_score": 0,
