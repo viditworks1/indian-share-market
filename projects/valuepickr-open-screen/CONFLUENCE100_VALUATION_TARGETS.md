@@ -1,6 +1,6 @@
 # Confluence-100 Valuation Targets
 
-*Regenerated 28 Sep 2026 from `rows_overall` (the single canonical top-100-by-fundamentals ranking) — NOT from the top-level `rows` field, which is a union of `rows_overall` and `rows_thesis` (a separate thesis-eligibility ranking) deduped by slug but keeping whichever list's rank number it saw first. Two different stocks can share the same `rows[].rank` value under two different numbering systems; `rows_overall` and `rows_thesis` each have their own clean, unambiguous 1-100 ranks. This file is still a point-in-time snapshot — Confluence-100 rebuilds regularly (see `FINAL_PORTFOLIO_RECOMMENDATION.md` Section 3A for how much a single day's rebuild can move things).*
+*From `rows_overall` (canonical 1-100 fundamentals rank) — NOT the `rows` union field. Point-in-time snapshot; Confluence-100 rebuilds weekly.*
 
 | Rank | Stock | Symbol | Master | Conviction | P/E | Upside | 12m Target | Status |
 |---|---|---|---:|---:|---|---|---|---|

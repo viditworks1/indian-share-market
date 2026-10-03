@@ -17,7 +17,7 @@
   "_status_enum": {
     "active": "tailwind live; read on cadence, seed/verify proxies normally",
     "dormant": "read decelerating 2 runs running (decel_streak >= decelerating_runs_to_dormant), OR manually parked; no proxy seeding, active_themes.json priority -> 3, re-read only monthly (coverage_cadence_days bumped to 30). Auto-reactivates if a monthly read comes back accelerating.",
-    "harvested": "proxy already researched at Medium-High+ AND held in docs/FINAL_PORTFOLIO_RECOMMENDATION.md AND tailwind only steady (not accelerating); the trade is on, nothing to add. Monthly read only. Reverts to active if tailwind re-accelerates."
+    "harvested": "proxy already researched at Medium-High+ AND held in live-recommendation AND tailwind only steady (not accelerating); the trade is on, nothing to add. Monthly read only. Reverts to active if tailwind re-accelerates."
   },
   "_proxy_action_state_enum": {
     "none": "no Indian proxy identified yet",

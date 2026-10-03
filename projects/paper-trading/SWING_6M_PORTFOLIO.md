@@ -18,7 +18,7 @@ worked example is specifically the inaugural cohort's construction.
 ## 1. Purpose — and how this differs from the frozen weekly cohorts
 
 The existing `paper-trading/` journal runs **frozen weekly cohorts** off
-`docs/FINAL_PORTFOLIO_RECOMMENDATION.md`: entered, priced at the prior Friday close, and
+Confluence-100 (live-recommendation/portfolio.json): entered, priced at the prior Friday close, and
 then never touched. Those are built on a **2–3 year** conviction / expectation-gap thesis.
 When we scenario-modelled their 1-year returns, the base case only matched the small-cap
 index — because most holdings were entered already 20–44 % extended above their 30-week EMA,
@@ -321,7 +321,7 @@ columns collapse to the same value — treat "6m %" as "since ~start of window".
   existing per-holding flags. First live read at today's run: benchmark +5.31% above its own
   30W EMA (close 18,339.90 vs EMA 17,415.22 as of the week of 2026-09-06) — flag does not fire.
   Same rule also added to `portfolio-rs1l-revision`'s SKILL.md (Step 3.5) and
-  `FINAL_PORTFOLIO_RECOMMENDATION.md` (Section 8H) for the fundamentals-driven book.
+  Confluence-100 allocation for the fundamentals-driven book.
 - **2026-09-28 — data-gap audit: 3 missed weekday MTM snapshots found (2026-09-15,
   2026-09-16, 2026-09-23), no stop-loss consequence.** `daily_history.json` has zero entries
   for these three dates despite `paper-trading-weekly` being scheduled every weekday —

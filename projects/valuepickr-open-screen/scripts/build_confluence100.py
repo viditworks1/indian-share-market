@@ -534,45 +534,16 @@ def momentum_str(t):
 
 
 def current_holdings():
-    """Names in the live Rs 1L allocation, for the HOLD badge. Falls back to an
-    empty set on any read/parse failure rather than erroring the whole build.
-
-    2026-09-22: the allocation's source of truth moved to
-    data/confluence100_allocation.json (build_confluence100_allocation.py, run
-    right after this script by vpscreen-rerank) — Confluence-100 now drives the
-    portfolio instead of merely cross-referencing it. Falls back to the legacy
-    portfolio/FINAL_PORTFOLIO_RECOMMENDATION.md doc (written by the
-    portfolio-rs1l-revision job, which is being retired) only until the new
-    allocation file exists for the first time."""
+    """Names in the live Confluence-100 allocation (confluence100_allocation.json),
+    for the HOLD badge. Returns an empty set on any read/parse failure rather than
+    erroring the whole build. As of 2026-10-03, the sole source of truth for the
+    live portfolio."""
     alloc_path = os.path.join(DATA_DIR, "confluence100_allocation.json")
     try:
         alloc = load_json(alloc_path)
         return {h["name"] for h in alloc.get("holdings", [])}
     except (OSError, json.JSONDecodeError, KeyError):
-        pass
-
-    path = os.path.join(ROOT, "portfolio", "FINAL_PORTFOLIO_RECOMMENDATION.md")
-    try:
-        text = open(path).read()
-    except OSError:
         return set()
-    m = re.search(r"## 3\. Final Rs 1,00,000 allocation(.*?)\n---", text, re.S)
-    if not m:
-        return set()
-    names = set()
-    for line in m.group(1).splitlines():
-        if not line.strip().startswith("|"):
-            continue
-        cells = [c.strip() for c in line.strip().strip("|").split("|")]
-        if not cells:
-            continue
-        first = cells[0].replace("*", "").strip()
-        if not first or first.lower().startswith(("stock", "---", "cash buffer", "total")):
-            continue
-        if first.startswith("~~"):  # exited, struck through
-            continue
-        names.add(clean_name(first))
-    return names
 
 
 def investable_now(x):

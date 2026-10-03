@@ -2,7 +2,7 @@
 
 *Research archive covering 100 deep-researched stocks from the ValuePickr open-screen universe, generated 28 Sep 2026*
 
-> **Data-snapshot notice (added 28 Sep 2026, later same day):** This report's coverage/quality metrics (Sections 1-7) describe the research archive itself and remain accurate. But its rank/score citations (Sections 8-9) were pulled from a Confluence-100 snapshot that a routine scheduled rebuild reshuffled within hours — Venus Remedies alone moved from rank 2/conviction 91.4 to rank 40/conviction 38.9 between two rebuilds the same day. Confluence-100 rebuilds on its own weekly cadence, so any rank/score citation here should be treated as a point-in-time snapshot, not a live reference — re-pull from `data/confluence100.json` before acting on it. Section 9 below has been corrected against the settled post-rebuild state as of this notice; Section 8's specific rank citations have not been individually re-verified and should be read with the same caveat. See `FINAL_PORTFOLIO_RECOMMENDATION.md` Section 3A for the fuller writeup of what changed and why.
+> **Data-snapshot notice:** This report's coverage/quality metrics (Sections 1-7) describe the research archive itself and remain accurate. But its rank/score citations (Sections 8-9) are point-in-time snapshots. Confluence-100 rebuilds weekly; re-pull from `data/confluence100.json` before acting on specific rank/score claims.
 
 ---
 
@@ -19,11 +19,11 @@
 |--------|-------|-----------|
 | Fully investable (coverage ≥ 85%) | 84 | 84% |
 | 10x-potential thesis eligible | 54 | 54% |
-| Rs 1L portfolio holdings found in this universe | 6 of 11 | 6% |
+| Live-recommendation holdings (Confluence-100-sourced) | 5 | 5% |
 | Above 30W EMA (technical strength) | 86 | 86% |
 | High-conviction (≥75 score) | 8 | 8% |
 
-*Correction: the original count of 10 counted `confluence100.json`'s own `in_current_portfolio` flag, which tracks a different, separate mechanical allocation (`confluence100_allocation.json`, feeding `paper-trading/live-recommendation/`) — not this document's actual 11-holding Rs 1L portfolio. Matched against the real holdings list (Section 3 of `FINAL_PORTFOLIO_RECOMMENDATION.md`), only 6 of 11 holdings exist in the Confluence-100 universe at all; the other 5 come from the separate original-108-screen research stream.*
+*Note: This refers to the `in_current_portfolio` flag in Confluence-100, which powers the live-recommendation tracker. See `paper-trading/live-recommendation/portfolio.json` for current allocation.*
 
 ### Quality Baseline
 
@@ -230,7 +230,6 @@ Small and mid-cap dominate, reflecting ValuePickr's discovery strength in under-
 
 ## 9. Recommendations for Portfolio Decisions
 
-*Corrected 28 Sep 2026 against the settled post-rebuild `confluence100.json`. "Holding" below means an actual position in `FINAL_PORTFOLIO_RECOMMENDATION.md`'s 11-stock Rs 1L portfolio — not the same thing as this ranking's own `in_current_portfolio` flag, which tracks a separate mechanical allocation (see that document's Section 3A for why).*
 
 ### Top 5 by Master Score (Current Ranking)
 

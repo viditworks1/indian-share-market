@@ -1,5 +1,5 @@
 {
-  "_readme": "LIVE recommendation tracker. SEPARATE from paper-trading/cohorts.json (frozen weekly cohorts) and swing-6m/cohorts.json (actively-managed swing cohorts). This single book always mirrors the CURRENT allocation in portfolio/FINAL_PORTFOLIO_RECOMMENDATION.md Section 3, auto-rebalancing at live prices whenever that table's holdings or weights change by more than a rounding amount. Script-owned -- do not hand-edit holdings/cash; edit the recommendation doc instead, this script picks it up on the next run.",
+  "_readme": "LIVE recommendation tracker. SEPARATE from paper-trading/cohorts.json (frozen weekly cohorts) and swing-6m/cohorts.json (actively-managed swing cohorts). This single book always mirrors the CURRENT Confluence-100 allocation, auto-rebalancing at live prices. Script-owned (rebuild.py) -- do not hand-edit holdings/cash; edit Confluence-100 instead.",
   "inception_date": "2026-09-11",
   "inception_capital": 100000,
   "version": 6,
