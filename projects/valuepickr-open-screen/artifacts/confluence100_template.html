@@ -208,6 +208,7 @@ td.num{text-align:right; font-family:"IBM Plex Mono",monospace; font-variant-num
   padding:20px 22px 8px; margin-bottom:26px; box-shadow:var(--shadow);
 }
 .top10.tactical6m{border-color:var(--brass);}
+.top10.tactical1m{border-color:var(--risk);}
 .t6-regime{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--ink-soft); margin:0 0 14px;}
 .t6-regime .flag{color:var(--risk); font-weight:600;}
 .top10-head{display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:8px; margin-bottom:4px;}
@@ -296,6 +297,11 @@ footer a{color:var(--accent);}
     </details>
   </div>
 
+  <div class="viewtoggle" id="tactical-viewtoggle" style="margin-bottom:16px; display:none;">
+    <button data-tactical-view="6m" class="active">6-Month<span class="sub">technical</span></button>
+    <button data-tactical-view="1m">1-Month<span class="sub">momentum</span></button>
+  </div>
+
   <div class="top10 tactical6m">
     <div class="top10-head">
       <h2>6-Month Tactical — technical only</h2>
@@ -305,6 +311,17 @@ footer a{color:var(--accent);}
     <div id="t6-regime" class="t6-regime"></div>
     <div class="top10-grid" id="t6-grid"></div>
     <div id="t6-empty" class="t10-empty" style="display:none;">Fewer than 5 names currently clear the above-EMA gate — not built this run.</div>
+  </div>
+
+  <div class="top10 tactical1m" style="display:none;">
+    <div class="top10-head">
+      <h2>1-Month Tactical — short-term momentum only</h2>
+      <span class="n" id="t1-count"></span>
+    </div>
+    <p class="top10-dek">A third perspective optimized for 1-month horizons: <b>hard-filters to stocks that are currently in confirmed uptrends</b> (price above both 30D and 10D EMAs, both EMAs rising) and <b>scores purely on short-term momentum and technical posture</b> — 5D/10D/20D returns, distance from 52-week high. Captures early momentum before it stales, with tighter stops to match the shorter horizon. <b>Fully stateless — recomputed from scratch every run</b>. Only built if ≥3 names pass the hard uptrend filter.</p>
+    <div id="t1-regime" class="t1-regime"></div>
+    <div class="top10-grid" id="t1-grid"></div>
+    <div id="t1-empty" class="t10-empty" style="display:none;">Fewer than 3 names currently pass the hard uptrend filters (price > both 30D & 10D EMAs, both rising) — not built this run.</div>
   </div>
 
   <details class="method">
@@ -363,6 +380,7 @@ footer a{color:var(--accent);}
 <script id="top10-data" type="application/json">__TOP10_JSON__</script>
 <script id="nearmiss-data" type="application/json">__NEARMISS_JSON__</script>
 <script id="tactical6m-data" type="application/json">__TACTICAL6M_JSON__</script>
+<script id="tactical1m-data" type="application/json">__TACTICAL1M_JSON__</script>
 <script id="stats-data" type="application/json">__STATS_JSON__</script>
 <script>
 const DATA_OVERALL = JSON.parse(document.getElementById('rows-overall-data').textContent);
@@ -370,6 +388,7 @@ const DATA_THESIS  = JSON.parse(document.getElementById('rows-thesis-data').text
 const TOP10 = JSON.parse(document.getElementById('top10-data').textContent);
 const NEARMISS = JSON.parse(document.getElementById('nearmiss-data').textContent);
 const TACTICAL6M = JSON.parse(document.getElementById('tactical6m-data').textContent);
+const TACTICAL1M = JSON.parse(document.getElementById('tactical1m-data').textContent);
 const STATS = JSON.parse(document.getElementById('stats-data').textContent);
 let view = 'overall';
 let ROWS = DATA_OVERALL;
@@ -449,6 +468,41 @@ function renderTactical6m(){
         ${r.thesis_eligible?'':'<span class="badge-nonthesis">non-thesis</span>'}
       </div>
     </div>`).join('') + `<div class="t10-card" style="justify-content:center;align-items:center;color:var(--muted);font-size:12.5px;">cash<br><b style="font-size:20px;color:var(--ink)">${TACTICAL6M.cash_pct}%</b><br>floor ${TACTICAL6M.cash_floor_pct}%</div>`;
+  grid.querySelectorAll('.t10-card[data-slug]').forEach(card=>{
+    card.addEventListener('click', ()=>{
+      const slug = card.dataset.slug;
+      document.querySelector('#search').value='';
+      query=''; filter='all';
+      document.querySelectorAll('.chip').forEach(x=>x.classList.toggle('active', x.dataset.filter==='all'));
+      apply();
+      const idx = ROWS.findIndex(r=>r.slug===slug);
+      if(idx>=0){
+        const tr = document.querySelectorAll('#tbody tr:not(.detail-row)')[idx];
+        if(tr){ tr.scrollIntoView({behavior:'smooth', block:'center'}); tr.click(); }
+      }
+    });
+  });
+}
+
+function renderTactical1m(){
+  const grid = document.getElementById('t1-grid');
+  const empty = document.getElementById('t1-empty');
+  const regimeEl = document.getElementById('t1-regime');
+  document.getElementById('t1-count').textContent = TACTICAL1M.insufficient
+    ? 'insufficient' : `${TACTICAL1M.holdings.length} names`;
+  if(TACTICAL1M.insufficient || !TACTICAL1M.holdings || !TACTICAL1M.holdings.length){ grid.innerHTML=''; empty.style.display='block'; return; }
+  empty.style.display='none';
+  grid.innerHTML = TACTICAL1M.holdings.map(r=>`<div class="t10-card" data-slug="${r.slug}">
+      <div class="t10-top">
+        <span class="t10-rank">${r.weight_pct}% wt</span>
+        <span class="conf-pill ${confClass(r.tactical_1m_score)}">${r.tactical_1m_score}</span>
+      </div>
+      <div class="t10-name">${r.name}</div>
+      <div class="t10-tag">5D ${fmt(r.r5_pct,1)}% / 10D ${fmt(r.r10_pct,1)}% / 20D ${fmt(r.r20_pct,1)}% &middot; ext ${fmt(r.ext_10d_pct,1)}% vs 10D</div>
+      <div class="t10-meta">
+        <span style="font-size:11px; color:var(--muted);">1m horizon, hard uptrend filter</span>
+      </div>
+    </div>`).join('') + `<div class="t10-card" style="justify-content:center;align-items:center;color:var(--muted);font-size:12.5px;">cash<br><b style="font-size:20px;color:var(--ink)">${TACTICAL1M.cash_pct}%</b></div>`;
   grid.querySelectorAll('.t10-card[data-slug]').forEach(card=>{
     card.addEventListener('click', ()=>{
       const slug = card.dataset.slug;
@@ -586,6 +640,32 @@ document.querySelectorAll('#viewtoggle button').forEach(b=>{
     apply();
   });
 });
+// Tactical view toggle (6-month vs 1-month)
+let tactical_view = '6m';
+document.querySelectorAll('#tactical-viewtoggle button').forEach(b=>{
+  b.addEventListener('click', ()=>{
+    if(tactical_view === b.dataset.tacticalView) return;
+    document.querySelectorAll('#tactical-viewtoggle button').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');
+    tactical_view = b.dataset.tacticalView;
+    document.querySelector('.top10.tactical6m').style.display = tactical_view==='6m' ? '' : 'none';
+    document.querySelector('.top10.tactical1m').style.display = tactical_view==='1m' ? '' : 'none';
+    if(tactical_view==='1m' && TACTICAL1M.holdings && TACTICAL1M.holdings.length > 0) {
+      renderTactical1m();
+    }
+  });
+});
+
+// Show tactical toggle if at least one has data
+if((TACTICAL6M && TACTICAL6M.holdings && TACTICAL6M.holdings.length > 0) ||
+   (TACTICAL1M && TACTICAL1M.holdings && TACTICAL1M.holdings.length > 0)) {
+  document.getElementById('tactical-viewtoggle').style.display = '';
+  // Default: show 6m if available, otherwise 1m
+  if(!TACTICAL6M || !TACTICAL6M.holdings || TACTICAL6M.holdings.length === 0) {
+    document.getElementById('tactical-viewtoggle').querySelector('[data-tactical-view="1m"]').click();
+  }
+}
+
 document.getElementById('search').addEventListener('input', e=>{
   query = e.target.value.trim().toLowerCase();
   apply();
@@ -625,6 +705,7 @@ function renderStats(){
 renderStats();
 renderTop10();
 renderTactical6m();
+renderTactical1m();
 apply();
 
 /* Print / Save as PDF. Artifacts render inside a sandboxed iframe that often blocks

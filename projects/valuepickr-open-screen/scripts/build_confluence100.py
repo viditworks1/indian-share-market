@@ -791,6 +791,14 @@ def main():
         "asof_date": datetime.datetime.now().strftime("%-d %b %Y"),
     }
 
+    # Load 1-month tactical data if available (separate build process)
+    tactical1m_path = os.path.join(DATA_DIR, "confluence100_tactical1m.json")
+    try:
+        with open(tactical1m_path) as f:
+            tactical1m = json.load(f)
+    except (OSError, json.JSONDecodeError):
+        tactical1m = {"holdings": [], "cash_pct": None, "insufficient": True}
+
     template_path = os.path.join(ARTIFACTS_DIR, "confluence100_template.html")
     html = open(template_path).read()
     html = html.replace("__ROWS_OVERALL_JSON__", json.dumps(rows_overall, ensure_ascii=False))
@@ -798,6 +806,7 @@ def main():
     html = html.replace("__TOP10_JSON__", json.dumps(top10_investable, ensure_ascii=False))
     html = html.replace("__NEARMISS_JSON__", json.dumps(near_miss_investable, ensure_ascii=False))
     html = html.replace("__TACTICAL6M_JSON__", json.dumps(tactical6m, ensure_ascii=False))
+    html = html.replace("__TACTICAL1M_JSON__", json.dumps(tactical1m, ensure_ascii=False))
     html = html.replace("__STATS_JSON__", json.dumps(stats, ensure_ascii=False))
     html = html.replace("__ASOF_DATE__", stats["asof_date"])
 
