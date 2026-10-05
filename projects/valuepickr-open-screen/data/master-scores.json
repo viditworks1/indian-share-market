@@ -2,8 +2,8 @@
   "method": "Composite of conviction_score/quality_score/expectation_gap_score/consistency_score/asymmetry_score, weighted 0.25/0.25/0.20/0.15/0.15 and renormalized over whichever are present. Formula + investor research in MASTER_SCORE_METHODOLOGY.md.",
   "scored_count": 1005,
   "not_assessed_count": 0,
-  "consistency_score_coverage": 203,
-  "asymmetry_score_coverage": 281,
+  "consistency_score_coverage": 205,
+  "asymmetry_score_coverage": 282,
   "ranked": [
     {
       "slug": "p-e-analytics",
@@ -4895,6 +4895,34 @@
       }
     },
     {
+      "slug": "ghcl-textiles",
+      "name": "GHCL Textiles Ltd",
+      "master_score": 27.03,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 2,
+        "note": "GHCL Textiles demerged from GHCL Ltd Dec 2020, listed March 2023. Post-listing history: FY24 (first full year) Rs 1,060 cr revenue; FY25 Rs 1,168 cr (+10%); FY26 Rs 1,345 cr (+14%). Capital deployment: Rs 1,000 cr expansion plan anchored since ~2023, 675 cr deployed. Management commitments on Q4 FY26 call (April 2026) are recent and specific (2,000 cr / 15-18% EBITDA by FY29-30). Limited pre-IPO operating history to audit, but post-listing execution on capacity ramp is credible. No major misses or revised guidance observed. Risk: only ~3.5 years of public company track record; limited macro cycle testing (primarily benefited from 2024-25 textile tailwinds)."
+      },
+      "score_breakdown": {
+        "conviction_score": 34.0,
+        "quality_score": 16.0,
+        "expectation_gap_score": 5.38,
+        "consistency_score": 67,
+        "asymmetry_score": 22.69,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "kotak-bank",
       "name": "Kotak Bank",
       "master_score": 26.97,
@@ -7849,6 +7877,34 @@
       }
     },
     {
+      "slug": "everest-kanto-cylinders",
+      "name": "Everest Kanto Cylinders Ltd.",
+      "master_score": 18.3,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 3,
+        "note": "FY21-FY25 review completed. ROCE sustained 15-26% throughout cycle = durable moat. No accounting scandals post-2018 investigation. Execution on international expansion (US turnaround, Egypt greenfield planning, UAE maintained) credible. FY23-24 cyclical trough survived, FY25 recovery achieved. Verdict: Credible operator with proven ability to navigate cycles, but working capital and capex execution are key monitoring points."
+      },
+      "score_breakdown": {
+        "conviction_score": 34.0,
+        "quality_score": 0,
+        "expectation_gap_score": 2.92,
+        "consistency_score": 60,
+        "asymmetry_score": 1.46,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "edelweiss-financial-services-ias2026",
       "name": "Edelweiss Financial Services",
       "master_score": 18.23,
@@ -7874,33 +7930,6 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "ghcl-textiles",
-      "name": "GHCL Textiles Ltd",
-      "master_score": 18.23,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 12.0,
-        "quality_score": 34.0,
-        "expectation_gap_score": 3.63,
-        "consistency_score": null,
-        "asymmetry_score": 21.82,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
       }
     },
     {
@@ -12205,31 +12234,6 @@
     {
       "slug": "oval-projects",
       "name": "Oval Projects Engineering Ltd",
-      "master_score": 12.5,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
-      }
-    },
-    {
-      "slug": "everest-kanto-cylinders",
-      "name": "Everest Kanto Cylinders Ltd.",
       "master_score": 12.5,
       "red_flag_tier": null,
       "conviction": "Low-Medium",

@@ -6017,6 +6017,32 @@
       }
     },
     {
+      "slug": "ghcl-textiles",
+      "name": "GHCL Textiles Ltd",
+      "quality_score": 16.0,
+      "conviction_score": 34.0,
+      "red_flag_tier": null,
+      "roce_pct": 6,
+      "roce_trend": "improving (+1% YoY recent)",
+      "net_debt_to_ebitda": 0.76,
+      "interest_coverage": null,
+      "fcf_conversion_pct": "negative in FY26 (capex cycle) but OCF 162 cr (up from 58 cr FY25) is strong",
+      "margin_trend": "expanding (EBITDA margin 11% FY26 Q4 11.7%, trending to 14-15% as product mix shifts)",
+      "capex_efficiency": "value-accretive pending (new spindles/knitting machines will mature; PM Mitra is strategic land play with PLI scheme upside not yet captured)",
+      "assessment": "improving",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 16,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 16,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "kotak-bank",
       "name": "Kotak Bank",
       "quality_score": 16.0,
@@ -7314,6 +7340,34 @@
       }
     },
     {
+      "slug": "everest-kanto-cylinders",
+      "name": "Everest Kanto Cylinders Ltd.",
+      "quality_score": 0,
+      "conviction_score": 34.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "salzer-electronics",
       "name": "Salzer Electronics",
       "quality_score": 9.0,
@@ -7628,34 +7682,6 @@
     {
       "slug": "oval-projects",
       "name": "Oval Projects Engineering Ltd",
-      "quality_score": 0,
-      "conviction_score": 25.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "everest-kanto-cylinders",
-      "name": "Everest Kanto Cylinders Ltd.",
       "quality_score": 0,
       "conviction_score": 25.0,
       "red_flag_tier": null,
@@ -8413,35 +8439,6 @@
         "margin_component": 15,
         "capex_component": 0,
         "raw": 45,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "ghcl-textiles",
-      "name": "GHCL Textiles Ltd",
-      "quality_score": 34.0,
-      "conviction_score": 12.0,
-      "red_flag_tier": null,
-      "roce_pct": 6,
-      "roce_trend": "stable",
-      "net_debt_to_ebitda": 0.8,
-      "interest_coverage": null,
-      "fcf_conversion_pct": -17,
-      "margin_trend": "expanding",
-      "capex_efficiency": "value-destructive",
-      "assessment": "concern",
-      "flags": [
-        "weak-fcf",
-        "value-destructive-capex"
-      ],
-      "score_breakdown": {
-        "roce_component": 3,
-        "debt_component": 16,
-        "debt_component_source": "net_debt_to_ebitda",
-        "fcf_component": 0,
-        "margin_component": 15,
-        "capex_component": 0,
-        "raw": 34,
         "red_flag_multiplier": 1.0
       }
     },

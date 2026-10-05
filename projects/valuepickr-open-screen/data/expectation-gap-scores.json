@@ -1,8 +1,8 @@
 {
   "date_compiled": "2026-10-05",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
-  "scored_count": 323,
-  "not_assessed_count": 682,
+  "scored_count": 324,
+  "not_assessed_count": 681,
   "ranked": [
     {
       "slug": "vaibhav-global-vertically-integrated-value-e",
@@ -5535,6 +5535,40 @@
       }
     },
     {
+      "slug": "ghcl-textiles",
+      "name": "GHCL Textiles Ltd",
+      "expectation_gap_score": 5.38,
+      "conviction_score": 34.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 1,148 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "fabric-mix rerating pending",
+      "gap_magnitude_pct": 15,
+      "evidence_quality": "moderate",
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": "2026-10-05",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.537
+      }
+    },
+    {
       "slug": "ebgng",
       "name": "EBGNG",
       "expectation_gap_score": 5.38,
@@ -7276,40 +7310,6 @@
       }
     },
     {
-      "slug": "ghcl-textiles",
-      "name": "GHCL Textiles Ltd",
-      "expectation_gap_score": 3.63,
-      "conviction_score": 12.0,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "red_flag_tier": null,
-      "market_cap_tier": "Small/Mid-cap (~Rs 1,148 Cr)",
-      "gap_direction": "priced-in",
-      "gap_type": "mixed",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "weak",
-      "catalyst_event": null,
-      "catalyst_window_months": null,
-      "catalyst_window_start": "2026-09-26",
-      "catalyst_status_effective": null,
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 0,
-      "risk_open_spofs": [],
-      "flags": [
-        "priced-in",
-        "no-catalyst"
-      ],
-      "score_breakdown": {
-        "gap_points": 4.0,
-        "gap_frac": 0.1,
-        "evidence_q": 0.25,
-        "catalyst_q": 0.15,
-        "timing_q": 0.4,
-        "risk_q": 1.0,
-        "quality": 0.363
-      }
-    },
-    {
       "slug": "susan-electricals-india",
       "name": "Susan Electricals India Ltd",
       "expectation_gap_score": 3.63,
@@ -8473,6 +8473,40 @@
       "catalyst_window_months": null,
       "catalyst_window_start": null,
       "catalyst_status_effective": null,
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 0,
+      "risk_open_spofs": [],
+      "flags": [
+        "priced-in",
+        "no-catalyst"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.05,
+        "catalyst_q": 0.15,
+        "timing_q": 0.4,
+        "risk_q": 1.0,
+        "quality": 0.292
+      }
+    },
+    {
+      "slug": "everest-kanto-cylinders",
+      "name": "Everest Kanto Cylinders Ltd.",
+      "expectation_gap_score": 2.92,
+      "conviction_score": 34.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (Rs 1,100-1,200 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": null,
+      "gap_magnitude_pct": null,
+      "evidence_quality": null,
+      "catalyst_event": null,
+      "catalyst_window_months": null,
+      "catalyst_window_start": null,
+      "catalyst_status_effective": "pending",
       "catalyst_is_dated": false,
       "risk_open_spof_count": 0,
       "risk_open_spofs": [],
@@ -11922,13 +11956,6 @@
       "conviction_score": 25.0,
       "conviction": "Medium",
       "thesis_fit": "neither"
-    },
-    {
-      "slug": "everest-kanto-cylinders",
-      "name": "Everest Kanto Cylinders Ltd.",
-      "conviction_score": 25.0,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years"
     },
     {
       "slug": "brigade-hotel-ventures",

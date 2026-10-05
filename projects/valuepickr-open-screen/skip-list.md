@@ -314,7 +314,7 @@ Generated: 2026-10-05
 | Aditya Birla Fashion and Retail Ltd | 2026-09-26 | 2026-10-26 | Low |
 | IRM Energy | 2026-09-26 | 2026-10-26 | Medium-High |
 | NAGARJUNA AGRICHEM -- lottery ticket | 2026-09-26 | 2026-10-26 | Medium-High |
-| Everest Kanto Cylinders Ltd. | 2026-09-26 | 2026-10-26 | Low-Medium |
+| Everest Kanto Cylinders Ltd. | 2026-09-26 | 2026-10-26 | Medium |
 | Tamboli Capital: Its a Casting Company! | 2026-09-26 | 2026-10-26 | Low |
 | Salzer Electronics | 2026-09-26 | 2026-10-26 | Medium |
 | Brigade Hotel Ventures Ltd | 2026-09-26 | 2026-10-26 | Low-Medium |

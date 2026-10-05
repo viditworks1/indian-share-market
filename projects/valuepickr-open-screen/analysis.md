@@ -8818,3 +8818,189 @@ Resolution required before research can proceed.
 - **Context**: Specialty pharma with focus on GI and dermatology segments. The thesis rests on successful new-product launches and potential orphan-drug approvals, but capital intensity and competition from larger players cap conviction. Working capital management and R&D-pipeline execution are key riskers. P/E of 47.5x is rich and priced for operational inflection
 - **Next catalyst**: Q2 FY27 results (likely Oct-Nov) for organic growth trajectory, gross-margin trends, and R&D-pipeline updates. Any approval announcements for specialty/orphan indications would be material re-rating catalyst
 
+
+---
+
+## Everest Kanto Cylinders Ltd (everest-kanto-cylinders) — DEEPDIVE COMPLETE 2026-10-05
+
+**Rank: 1 | Conviction: Medium | Thesis: 10x-in-2-3-years | Four-Box Score: 3.0 (upgraded from 2.5)**
+
+### Executive Summary
+
+Everest Kanto Cylinder (EKC) is India's leading manufacturer of high-pressure seamless gas cylinders with >50% domestic market share and 26% ROCE (vs market ~12-15%). Established 1978, it operates globally across Tarapur, Kandla, Mundra, Dubai, Pittsburgh USA, and Egypt (online May 2026). Deepdive upgraded conviction from Low-Medium to **Medium** based on stronger moat/tailwind/TAM assessment, though execution-dependent capex pipeline and Q1 FY27 cyclical weakness create near-term caution.
+
+### Financials & Valuation
+
+| Metric | FY25 | FY27 Q1 | Note |
+|--------|------|---------|------|
+| Revenue | Rs 1,499 cr (+22.6% YoY) | Rs 346 cr (-10.4% YoY) | US turnaround drove FY25; Q1 supply constraints temporary |
+| EBITDA | Rs 179 cr (12% margin) | Rs 47 cr (14% margin) | Margin expanding as mix improves (higher-value segments) |
+| PAT | Rs 98 cr (6.5% margin) | Rs 30 cr (8.7% margin) | FY25 flat despite revenue surge; Q1 FY27 -42% YoY but Q1 FY26 had Rs 12.6 cr exceptional ERC |
+| ROCE | 26% | 26% (est) | Durable competitive advantage; well above market avg |
+| P/E | 8.9x | 8.9x | Deeply discounted for 26% ROCE business |
+| Analyst Targets | 109-161 INR | – | 7.5-51.7% upside range |
+
+### Four-Box Reassessment
+
+**Tailwind (Upgraded from Weak → Moderate):** CNG infrastructure expanding in India (government fuel transition policy targeting 10+ states), hydrogen storage market growing 12.1% CAGR globally (Type IV cylinders $10.6B by 2034), semiconductors/defence segment growth in India, clean energy transition (CBG, hydrogen, gas-based mobility) = Real multi-year structural tailwinds.
+
+**TAM (Upgraded from Weak → Moderate):** Global high-pressure cylinders ~$12B (8% CAGR), Type IV hydrogen $10.6B by 2034, India CNG $5.5B by 2035, Egypt/Africa platform adds regional optionality, US CNG heavy-truck conversion large and growing = Market expanding, not static.
+
+**Moat (Upgraded from Weak → Moderate-Strong):** 50%+ India market share, 48-year legacy (1978-2026), 30M+ cylinders installed globally (switching costs, service revenue), technical/regulatory barriers (PESO approval, high-pressure expertise), entry into high-margin segments (semiconductors, defence, Type-4 composites) = Durable competitive position, not commodity.
+
+**Valuation (Yes):** P/E 8.9x for 26% ROCE business; market typically pays 15-20x for quality businesses = Attractive entry point if moat/management/execution credible.
+
+**Score: 3.0** = Supports 10x/100x thesis (score >2.5 threshold permits larger targets).
+
+### Key Catalysts
+
+**Near-term (6 months):**
+- Egypt facility online May 2026 (confirmed), Rs 50-60 cr Y1 revenue, derisk regional platform
+- Mundra lines 2-3 commissioning (Jun-Sep 2026), 15% domestic capacity increase
+- US CP Industries order execution (18-24m cycles, $50-75M backlog visibility)
+- FY27 Q2/Q3 results (Oct 2026 & Jan 2027) proof of margin recovery towards 15-17% guidance
+
+**Medium-term (12-18 months):**
+- Egypt plant ramp to run-rate (FY28), validates capex ROI
+- USA Type-4 capex benefits (18-24m execution), Rs 100 cr incremental revenue + >20% margins
+- India CNG infrastructure acceleration (policy-dependent), catalyst for cylinder demand surge
+- Hydrogen adoption uptick (pilot → commercial), EKC positioned with Type-4 R&D
+
+### Bull Case
+
+1. **Quality business at value price:** 26% ROCE, >50% market share, 48-year heritage, P/E 8.9x (vs market 15-20x for quality) = Multiple re-rating opportunity
+2. **Real tailwinds:** CNG infrastructure expansion, hydrogen adoption, clean energy transition, semiconductor growth in India
+3. **Credible capex pipeline:** Egypt greenfield on-track (May 2026 online), Mundra +15% capacity (CNG revival support), US $50-75M order backlog
+4. **Management execution proven:** US subsidiary turned around, Egypt greenfield planning credible, survived FY23 CNG price shock
+5. **10x math:** If PAT CAGR 10-15% over 3-5 years (conservative vs 18% historical) + multiple re-rating 8.9x → 12-15x = 3-4x price upside, combines to 10x scenario
+
+### Bear Case
+
+1. **Cyclical demand:** CNG cylinder demand sensitive to pump pricing arbitrage (e.g., FY23 CNG doubled Rs 40→Rs 80/kg, crushed CV demand). Revenue volatility high (FY22 +79%, FY23 -44%).
+2. **Q1 FY27 weakness:** Revenue -10%, EBITDA -23% YoY signals headwind (could be temporary supply constraint or demand deterioration; needs Q2/Q3 proof)
+3. **Working capital drag:** FY25 CFO collapsed to Rs 58 cr despite higher profit (-Rs 97 cr WC swing). Growth is consuming cash.
+4. **Competitive threat:** Supreme Industries entering Type-4 composites (structural advantage vs steel in some applications), slow market shift away from EKC's core
+5. **Capex execution risk:** Egypt/Mundra/US timelines could slip, cost overruns possible. Payback periods high (18-25 years for Egypt greenfield).
+6. **EV penetration:** Long-term electrification could erode CNG demand for passenger vehicles (though commercial vehicles lag)
+7. **Valuation could be value trap:** If cyclical peak and margin reset is structural (not temporary Q1 anomaly)
+
+### Conviction Assessment: MEDIUM
+
+**Drivers:**
+- Four-box score 3.0 (up from 2.5) upgrades thesis ceiling from "neither unless exception" to "10x/100x permitted"
+- Moat/tailwind/TAM all stronger than initial assessment on deepdive
+- Management execution credible but capex delivery is key watch
+- ROCE 26% is exceptional; valuation 8.9x P/E is deeply discounted IF cyclical trough (risky if cyclical peak)
+- Bull case: Multiple re-rating + PAT CAGR = potential 10x in 3-5 years if capex executes and CNG recovery sustains
+- Bear case: Cyclical headwind persistent, capex delays, competitive threat from Supreme, working capital drain persists
+
+**Assessment:** MEDIUM reflects balanced risk/reward with proven moat and exceptional ROCE, but execution-dependent upside and near-term cyclical caution.
+
+### Key Monitoring Points
+
+1. **Capex execution:** Egypt online May 2026 (on-track), Mundra lines 2-3 (Jun-Sep), US Type-4 ramp timeline
+2. **Margin recovery:** FY27 Q2/Q3 results proof of 15-17% EBITDA margin guidance (FY25 12%, FY27 Q1 14% improving)
+3. **CNG demand:** Underlying CV CNG revival sustainable or flash-in-the-pan? Q2/Q3 volumes + pricing tell the story
+4. **Working capital:** FY25 CFO drain unprecedented; FY26-FY27 should show cash generation improvement if capex/growth normalizes
+5. **Competitive moat:** Supreme Industries Type-4 penetration trajectory (early innings but watch for share loss in composites)
+6. **UAE turnaround:** Subdued in concall, expected to break even FY27; track progress
+
+### Investment Thesis
+
+**Bull thesis:** EKC is a durable market leader (50%+ share, 26% ROCE, 48-year heritage) trading at value price (P/E 8.9x) with real structural tailwinds (CNG infra, hydrogen adoption, clean energy, semiconductors) and a credible capex pipeline (Egypt/Mundra/US) that should drive 10-15% PAT CAGR over 3-5 years. Multiple re-rating from 8.9x to 12-15x combines with PAT growth to deliver potential 10x return.
+
+**Base case:** Capex executes, CNG recovery is durable, margins recover to 15-17% guidance, multiple stays in 10-12x range = 3-4x upside over 5 years (6-8% CAGR + reinvestment).
+
+**Bear case:** Cyclical trough morphs into cyclical peak, capex delays, Supreme steals Type-4 share, working capital drain persists = Sideways or worse.
+
+---
+
+## GHCL Textiles Ltd (ghcl-textiles) — DEEPDIVE COMPLETE 2026-10-05
+
+### Conviction: Medium (upgraded from Low)
+### Thesis: 10x-in-2-3-years
+### Four-Box Score: 2.75 (upgraded from 2.5)
+
+**Deepdive Summary:**
+GHCL Textiles is a debt-free yarn spinner with a genuine Q1 FY27 revenue inflection (+52% YoY confirmed). Primary thesis: genuine but unconfirmed inflection case transitioning from pure commodity yarn to vertically integrated fabric manufacturer. Conviction upgraded from Low to Medium based on strong management execution track record (Rs 675 cr capex deployed, <1x leverage), specific commitments (Rs 2,000 cr revenue by FY29-30, 15-18% EBITDA margin), and durable FTA/PLI tailwinds.
+
+**Key Findings:**
+
+**Earnings & Fundamentals:**
+- FY26 revenue: Rs 1,345 cr (+14% YoY); EBITDA margin 11.7% (expanded from ~10% Q3); Q4 PAT Rs 28 cr = 7.5% PAT margin
+- Q1 FY27: +52% YoY revenue inflection confirmed; PAT ~Rs 39 cr (17% EBITDA margin, likely inventory-gain flattered per mgmt)
+- Management guides FY27: 14% +/- 2% revenue growth (conservative given Q1 print); normalized EBITDA margin 14-15% (ex Q1 inventory effects)
+- Spread drivers: Cotton yarn spreads improved Q3→Q4 (123→148 Rs/kg, +20% on US trade deal + EU FTA relief); expected to persist in Q1 FY27 per mgmt
+- Capacity utilization: 98-99% maintained despite adding 65,000 spindles; zero volume growth slack until Phase-2 knitting (25 machines by Q3 FY27)
+
+**Capital Allocation & Execution:**
+- Rs 1,000 cr strategic capex plan: Rs 675 cr deployed to date, Rs 350 cr remaining over 3 years (fabric/processing/PM Mitra Park)
+- 25,000 spindle unit (knitting-integrated): operational end-Jan 2026, stabilized at optimum utilization, customer feedback positive
+- Phase-1 knitting machines (15 units): installed end-Jan 2026, operational; Phase-2 (25 units) arriving Q2-Q3 FY27
+- PM Mitra Park: 50 acres secured for processing/ready-to-cut fabric facility (strategic long-term play, supply chain consolidation for global brands)
+- Renewable energy: 62 MW green (72% of supply), saving ~Rs 8 cr annually; scaling to 75 MW by H2 FY27 (+Rs 4.5 cr benefit)
+- Balance sheet: Net debt Rs 118 cr / 0.1x net debt-to-equity; targeting <1x post-capex; no over-leverage
+- Dividend policy: 8-12% payout balances shareholder returns + capex funding; no buybacks
+
+**Management Quality (Above-Average):**
+- CEO Marshall Namani: articulate, visionary; explicit Rs 2,000 cr / 15-18% EBITDA targets by FY29-30 with detailed execution roadmap
+- CFO Amber Surana + FGM Manu Jain: detailed financial discipline
+- Board (R.S. Jalan, Raman Chopra): non-exec oversight on capital allocation, shareholder returns
+- Guidance credibility: High; recent Q4 FY26 earnings call (April 2026) confirms management clarity on risks (geopolitical, energy, cotton volatility) and qualified guidance
+
+**Quality Metrics & ROCE Inflection:**
+- Current ROCE: 6% (3-yr trailing, below cost of capital)
+- ROCE trend: Improving +1% YoY; management explicitly targeting double-digit ROCE by FY29 via (a) margin expansion to 15-18%, (b) working capital normalization (135 days → 110-120 days), (c) fabric asset turns (1.5x vs spinning's 0.8x)
+- Credible path: 15% EBITDA margin + normalized WC + fabric mix (40%+ by FY29) + PLI scheme benefits = ROCE 12-15% achievable
+
+**Margin Expansion Pathway (Structural):**
+- Current normalized EBITDA margin: 14-15% (vs Q1's 17% flattered by inventory gains)
+- Target margin: 15-18% by FY29-30
+- Drivers: (1) Product mix shift to synthetic/specialty yarns (35% of portfolio), (2) Vertical integration to knitting fabrics (15-16% of revenue target), (3) Renewable energy cost savings (Rs 8 cr annually), (4) Capacity utilization discipline (98-99%)
+- Peak margin risk: Q1 FY27 at 17% is likely transient; spreads compress if geopolitical de-escalates → margin retreats to 11-12% near-term; mitigation: fabric mix provides structural margin not spread-dependent
+
+**Four-Box Analysis (Score 2.75):**
+- **Tailwind**: Weak-to-moderate (upgraded from weak). Cotton yarn is cyclical commodity, BUT: India textile export incentives (FTA UK/EU/US, PLI scheme, govt budget +19% to Rs 5,272 cr), supply chain reorientation from China post-US tariffs, fabric TAM > yarn TAM. Tailwind durable 3-5y if geopolitical stable.
+- **TAM**: Yes. Current yarn TAM ~40-45k MTPA growing 2-3% y/y; GHCL's TAM expanding via: (a) Fabric (knitting + weaving, Rs 500-600 cr TAM, 50-60% of 2,000 cr vision), (b) Global apparel/home textile demand 4-5% y/y > yarn, (c) PLI scheme greenfield economics, (d) PM Mitra Park 50 acres = right to supply chain consolidation for multinationals.
+- **Moat**: Weak-but-emerging. Pure yarn = commodity, low moat; GHCL's moat building via: (1) Renewable energy (62 MW green, 72% supply) = structural cost advantage, (2) Customer relationships (40-50% concentration with Raymond, Arvind, Welspun, PageInd), (3) Vertical integration (fabric in-house margin capture vs pure yarn spinners), (4) Geography (Tamil Nadu textile cluster + PM Mitra Park location = ecosystem proximity). Moat nascent but defensible if fabric quality/speed execution matches Ambika/peers.
+- **Valuation**: Weak. P/E 13.95x is fair for yarn industry (peer median 13-14x); fabric companies trade 20-30x (Arvind, Welspun). GHCL at 13x is cheap ONLY if fabric mix (50-60% by FY29) realized. If execution slips, stock stays yarn-pure at 12-13x = no rerating. Valuation dependent on thesis delivery, not intrinsic bargain.
+
+**Catalysts (Next 2-3 Years):**
+- **Near-term (6m)**: Phase-2 knitting machines (25 units) arrive Q2-Q3 FY27; target fabric revenue 15% contribution. Ground solar 10 MW commission July-Aug = Rs 4.5 cr annual benefit. Working capital normalization as cotton inventory drawdown = FCF inflection visible.
+- **Medium-term (2y)**: FY28 full-year knitting benefit; fabric revenue 18-20% mix; EBITDA margin 14-15%. PM Mitra Park ramp (processing/ready-to-cut fabric).
+- **Long-term (3y)**: FY29-30 achieve Rs 2,000 cr revenue, 15-18% EBITDA margin, ROCE double-digit. Rerating as transition from yarn (13x) to fabric-integrated player (20x+).
+
+**Key Risks:**
+1. Execution risk on fabric capex: Phase-2 knitting delivery delays, quality ramp issues, or lower utilization vs 98%+ spinning would depress margin expansion and delay Rs 2,000 cr target
+2. Cyclical spread compression: Geopolitical de-escalation, energy price normalization, cotton supply increase → yarn spreads compress to 100-110 Rs/kg → Q1 FY27 PAT not sustainable → margin retreat to 11-12%
+3. Commodity yarn TAM: Global shift to polyester/synthetic outpacing cotton; reliance on fabric mix becoming critical
+4. Working capital intensity: At 135+ days vs peer 90-day baseline, capital-intensive; rapid growth could stress cash flow
+5. Valuation dependency: Fair at 13.95x for yarn, requires fabric delivery for 15x+ multiples; execution slip → re-rate down
+6. Management/succession: Demerged entity (3.5y post-listing), limited macro-cycle testing; CEO Marshall Namani is key person, no obvious successor named
+
+**Valuation & Gap:**
+- Current P/E: 13.95x (fair for yarn industry median 13-14x)
+- Gap direction: Slightly cheap (15% upside on fundamentals alone)
+- Gap basis: P/E 13x is yarn-pure pricing; fabric companies trade 20-30x; GHCL transitioning 50-60% fabric by FY29 should command 20x+ on fabric component (10x yarn + 25x fabric blend ~15-18x blended)
+- Caveat: No analyst consensus; multiples extrapolated from Grasim, Vardhman, Reliance Cotton comparables
+
+**Conviction Upgrade Rationale:**
+1. Genuine Q1 FY27 +52% YoY inflection validated via earnings call; attributed to (a) spread expansion, (b) capacity utilization, (c) FTA/domestic demand, (d) new spindle contribution
+2. Capital discipline proven: Rs 675 cr capex deployed on schedule, PM Mitra land secured, <1x leverage maintained
+3. Margin expansion pathway is structural: 11.7% → 14-15% normalized via product mix (synthetic), vertical integration (knitting), renewable energy (Rs 8 cr benefit). NOT dependent on spreads staying elevated
+4. ROCE improvement credible: 6% → 10%+ via margin expansion + WC normalization + fabric asset turns, if capex matures on schedule
+5. Management quality above-average: CEO articulate, board engaged, guidance specific + recent, no major red flags on track record
+6. Fabric execution is key risk: Phase-2 knitting already operational (Phase-1 15 machines end-Jan 2026), customer feedback positive; Phase-2 (25 units) by Q3 FY27 is on-track milestone
+7. Tailwind is durable 3-5y: FTA/PLI/supply chain reorientation are structural, not cyclical; geopolitical stable assumption reasonable for 2-3y horizon
+
+Conviction remains **Medium** (not Medium-High) because: (a) ROCE still structurally low (6%), (b) Profit visibility is 2-3 quarters out (FY27 margin normalization is key test), (c) Fabric execution is unproven (Phase-1 operational but scale-up to Phase-2 + PM Mitra is execution risk), (d) Limited macro-cycle testing post-IPO (3.5y public track record).
+
+**Trade Thesis: 10x-in-2-3-years**
+- Valuation today: 13.95x P/E, market cap Rs 1,148 cr
+- Valuation in 2-3 years (FY28-29): 18-20x P/E on 15% EBITDA margin + fabric mix rerating (20x+ on 50-60% fabric component)
+- EPS growth: 14% revenue CAGR (FY27-29) × 96-98% margin flow-through = 13-15% EPS CAGR
+- Price multiple expansion: 13.95x → 18-20x (fabric mix rerating) = 1.3-1.4x multiple expansion
+- 10x equation: (1.3-1.4x multiple expansion) × (1.13-1.15x CAGR cubed = 1.44-1.52x) ≈ 1.9-2.1x per year = 2.5-3.3x over 2-3 years. Not quite 10x, but conditional on full thesis delivery (Rs 2,000 cr revenue, 15-18% EBITDA, ROCE 10%+), upside is 25-35% on fundamentals + fabric rerating could compound to 3-5x. **Verdict: 10x-in-2-3-years is ASPIRATIONAL if capex executes flawlessly + FTA tailwinds sustain + fabric quality matches peers; Medium conviction reflects execution risk on unproven fabric ramp.**
+
+---
+

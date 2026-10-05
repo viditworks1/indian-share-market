@@ -5691,6 +5691,51 @@
     }
   },
   {
+    "slug": "ghcl-textiles",
+    "name": "GHCL Textiles Ltd",
+    "conviction_score": 34.0,
+    "own_conviction": 34.0,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 16.0,
+    "market_cap_tier": "Small/Mid-cap (~Rs 1,148 Cr)",
+    "red_flag_tier": null,
+    "source": "external-lead",
+    "score_breakdown": {
+      "own_conviction": 34.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 14,
+      "quality_lift": -5.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "above-average",
+        "guidance_credibility": "High: Explicit Rs 2,000 cr revenue / 15-18% EBITDA / FY29-30 targets stated on earnings call with detailed build (40 machines, fabric mix %, PM Mitra ramp). Management qualified guides (14% +/- 2% for FY27) and flagged risks (geopolitical, energy, cotton volatility). No history of missed/revised guidance (post-listing execution strong).",
+        "capital_allocation_track_record": "Strong execution on capacity ramp while maintaining 98%+ utilization; new 75,000 spindles stabilized within quarters. Knitting machines Phase-1 (15 machines) operational end-Jan 2026, customer feedback positive. Cotton pre-procurement (Q4) was tactical risk-taking for margin; managed working capital trade-off.",
+        "rpt_trend": "ROCE 6% (trailing 3y avg) is below cost of capital but ROCE has improved 1% YoY (recent data point). Management explicitly targeting double-digit ROCE by optimizing margins (fabric mix) + working capital (normalizing from 135 days to 110-120 days). Credible path: 15% EBITDA margin + normalized WC days + fabric asset turns (1.5x vs 0.8x spinning) = ROCE 12-15% by FY29.",
+        "shareholder_returns": "Conservative payout (8%) prioritizes capex-funded growth; aligned with 3-year capex pipeline. No buybacks, no special dividends. Once Rs 2,000 cr + fabric capex stabilizes (post-FY29), expect dividend to increase to 15-20% payout as capex reduces."
+      }
+    }
+  },
+  {
     "slug": "kernex-microsystems",
     "name": "Kernex Microsystems",
     "conviction_score": 34.0,
@@ -5727,6 +5772,51 @@
       },
       "distinct_trusted_users": 0,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "everest-kanto-cylinders",
+    "name": "Everest Kanto Cylinders Ltd.",
+    "conviction_score": 34.0,
+    "own_conviction": 34.0,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 0,
+    "market_cap_tier": "Small-cap (Rs 1,100-1,200 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 34.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 14,
+      "quality_lift": -5.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "MEDIUM-HIGH - 48-year track record and strong capex execution (Egypt online on time), but recent working capital management and Q1 weakness need monitoring. Credible but not exceptional.",
+        "guidance_credibility": null,
+        "capital_allocation_track_record": null,
+        "rpt_trend": null,
+        "shareholder_returns": null
+      }
     }
   },
   {
@@ -12233,45 +12323,6 @@
       "base_anchor": 25,
       "thesis_bonus": 0,
       "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": null
-    }
-  },
-  {
-    "slug": "everest-kanto-cylinders",
-    "name": "Everest Kanto Cylinders Ltd.",
-    "conviction_score": 25.0,
-    "own_conviction": 25.0,
-    "trusted_lift": 0.0,
-    "conviction": "Low-Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 0,
-    "market_cap_tier": null,
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 25.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 16,
-      "thesis_bonus": 14,
-      "quality_lift": -5.0,
       "management_component": 0.0,
       "red_flag_penalty": 0,
       "red_flag_forced_zero": false,
@@ -21969,51 +22020,6 @@
       },
       "distinct_trusted_users": 3,
       "management_quality": null
-    }
-  },
-  {
-    "slug": "ghcl-textiles",
-    "name": "GHCL Textiles Ltd",
-    "conviction_score": 12.0,
-    "own_conviction": 12.0,
-    "trusted_lift": 0.0,
-    "conviction": "Low",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 34.0,
-    "market_cap_tier": "Small/Mid-cap (~Rs 1,148 Cr)",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 12.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 8,
-      "thesis_bonus": 14,
-      "quality_lift": -4.0,
-      "management_component": -6.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "concern",
-        "guidance_credibility": "unclear",
-        "capital_allocation_track_record": "unclear",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "unclear"
-      }
     }
   },
   {
