@@ -168,51 +168,6 @@
     }
   },
   {
-    "slug": "force-motors",
-    "name": "Force Motors Ltd",
-    "conviction_score": 64.7,
-    "own_conviction": 59.75,
-    "trusted_lift": 4.95,
-    "conviction": "High",
-    "thesis_fit": "neither",
-    "quality_score": 69.0,
-    "market_cap_tier": "Mid-large cap (~Rs 23,043 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 59.75,
-      "trusted_lift": 4.95,
-      "base_anchor": 45,
-      "thesis_bonus": 0,
-      "quality_lift": 4.75,
-      "management_component": 10.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 4.95,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 4.95,
-        "pos_raw": 4.95,
-        "pos_capped": 4.95,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "no-track-record",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "flat",
-        "shareholder_returns": "unclear"
-      }
-    }
-  },
-  {
     "slug": "vivid-electromech",
     "name": "Vivid Electromech Ltd",
     "conviction_score": 62.51,
@@ -1644,6 +1599,45 @@
         "rpt_trend": "unclear",
         "shareholder_returns": "consistent"
       }
+    }
+  },
+  {
+    "slug": "force-motors",
+    "name": "Force Motors Ltd",
+    "conviction_score": 51.81,
+    "own_conviction": 49.75,
+    "trusted_lift": 2.06,
+    "conviction": "High",
+    "thesis_fit": "neither",
+    "quality_score": 69.0,
+    "market_cap_tier": "Mid-large cap (~Rs 23,043 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 49.75,
+      "trusted_lift": 2.06,
+      "base_anchor": 45,
+      "thesis_bonus": 0,
+      "quality_lift": 4.75,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 2.06,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 2.06,
+        "pos_raw": 2.06,
+        "pos_capped": 2.06,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "fallback-scalar"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": null
     }
   },
   {
@@ -12798,45 +12792,6 @@
     }
   },
   {
-    "slug": "emerald-finance",
-    "name": "Emerald Finance",
-    "conviction_score": 24.69,
-    "own_conviction": 20.25,
-    "trusted_lift": 4.44,
-    "conviction": "Low",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 43.0,
-    "market_cap_tier": "Micro-cap (~Rs 175-180 Cr)",
-    "red_flag_tier": null,
-    "source": "web-discovery",
-    "score_breakdown": {
-      "own_conviction": 20.25,
-      "trusted_lift": 4.44,
-      "base_anchor": 8,
-      "thesis_bonus": 14,
-      "quality_lift": -1.75,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 4.44,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 4.44,
-        "pos_raw": 4.44,
-        "pos_capped": 4.44,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 4,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 4,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 4,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "gravita-india-success-story",
     "name": "Gravita India success story",
     "conviction_score": 24.5,
@@ -14003,6 +13958,45 @@
         "source": "ledger"
       },
       "distinct_trusted_users": 2,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "emerald-finance",
+    "name": "Emerald Finance",
+    "conviction_score": 20.25,
+    "own_conviction": 20.25,
+    "trusted_lift": 0.0,
+    "conviction": "Low",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 43.0,
+    "market_cap_tier": "Micro-cap (~Rs 175-180 Cr)",
+    "red_flag_tier": null,
+    "source": "web-discovery",
+    "score_breakdown": {
+      "own_conviction": 20.25,
+      "trusted_lift": 0.0,
+      "base_anchor": 8,
+      "thesis_bonus": 14,
+      "quality_lift": -1.75,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
       "management_quality": null
     }
   },
@@ -15665,9 +15659,9 @@
   {
     "slug": "shalimar-paints",
     "name": "Shalimar Paints Ltd. -- Worth a Serious Look -- Significant Rerating Triggers Inplace",
-    "conviction_score": 17.17,
+    "conviction_score": 17.0,
     "own_conviction": 17.0,
-    "trusted_lift": 0.17,
+    "trusted_lift": 0.0,
     "conviction": "Low",
     "thesis_fit": "10x-in-2-3-years",
     "quality_score": 7.0,
@@ -15676,28 +15670,28 @@
     "source": null,
     "score_breakdown": {
       "own_conviction": 17.0,
-      "trusted_lift": 0.17,
+      "trusted_lift": 0.0,
       "base_anchor": 8,
       "thesis_bonus": 14,
       "quality_lift": -5.0,
       "management_component": 0.0,
       "red_flag_penalty": 0,
       "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.17,
+      "trusted_signal_component": 0.0,
       "trusted_lift_neg_floor_applied": false,
       "trusted_signal_detail": {
-        "value": 0.17,
-        "pos_raw": 0.17,
-        "pos_capped": 0.17,
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
         "neg_raw": 0.0,
         "neg_capped": 0.0,
-        "n_positive_signals": 1,
+        "n_positive_signals": 0,
         "n_exit_signals": 0,
         "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
+        "distinct_trusted_users": 0,
+        "source": "none"
       },
-      "distinct_trusted_users": 1,
+      "distinct_trusted_users": 0,
       "management_quality": null
     }
   },
@@ -38576,13 +38570,7 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "neutral-to-weak: capital allocation is sound but not ambitious; management is operationally seasoned but lacks strategic pivot track record. Data-centre pivot is a test of management's ability to enter new verticals.",
-        "guidance_credibility": "No forward guidance provided in prospectus or Q1 meet. Management is cautious on disclosure (typical for new listings). Credibility will be tested in Q1 FY27 results.",
-        "capital_allocation_track_record": "40+ years of profitability on modest revenue base (~3% annual growth) suggests capital is deployed into incremental O&M contracts, not transformational expansion. No M&A or bolt-on history disclosed.",
-        "rpt_trend": "No material related-party transactions disclosed in FY26 prospectus. Promoter transactions are arm's-length (no self-dealing detected).",
-        "shareholder_returns": "None (0% dividend); all earnings retained. Promoters own 68%, so liquidity is low for public float. No buyback signaling."
-      }
+      "management_quality": null
     }
   },
   {

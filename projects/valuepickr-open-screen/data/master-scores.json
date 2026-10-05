@@ -2,8 +2,8 @@
   "method": "Composite of conviction_score/quality_score/expectation_gap_score/consistency_score/asymmetry_score, weighted 0.25/0.25/0.20/0.15/0.15 and renormalized over whichever are present. Formula + investor research in MASTER_SCORE_METHODOLOGY.md.",
   "scored_count": 1011,
   "not_assessed_count": 0,
-  "consistency_score_coverage": 207,
-  "asymmetry_score_coverage": 284,
+  "consistency_score_coverage": 202,
+  "asymmetry_score_coverage": 279,
   "ranked": [
     {
       "slug": "p-e-analytics",
@@ -370,34 +370,6 @@
       }
     },
     {
-      "slug": "force-motors",
-      "name": "Force Motors Ltd",
-      "master_score": 54.49,
-      "red_flag_tier": null,
-      "conviction": "High",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 4,
-        "years_cleared": 3,
-        "note": "FY23 rev +55%/ROCE 5% fails (post-COVID low-base recovery year, ROCE<15%); FY24 rev +39%/ROCE 24%, FY25 rev +15.4%/ROCE 30%, FY26 rev +12.2%/ROCE 36% all clear the >=10% growth + >=15% ROCE bar -- 3 of 4 checkable years pass."
-      },
-      "score_breakdown": {
-        "conviction_score": 64.7,
-        "quality_score": 69.0,
-        "expectation_gap_score": 22.06,
-        "consistency_score": 75,
-        "asymmetry_score": 36.03,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "vinati-organics",
       "name": "Vinati Organics Ltd",
       "master_score": 54.47,
@@ -674,6 +646,26 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "force-motors",
+      "name": "Force Motors Ltd",
+      "master_score": 51.81,
+      "red_flag_tier": null,
+      "conviction": "High",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 51.81,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
       }
     },
     {
@@ -5113,34 +5105,6 @@
       }
     },
     {
-      "slug": "gv-electricals",
-      "name": "GV Electricals Ltd",
-      "master_score": 26.28,
-      "red_flag_tier": "HIGH CAUTION",
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 3,
-        "note": "FY24-26 shows consistent profitability, rising margins, and order-book cover. Working-capital stress is new (FY26 only). No blow-up or missed guidance, but also no track record of navigating cash-flow pressure or new-market entry (data-centre). IPO is first capital-raise in 40 years, so financial disclosure rigor is new."
-      },
-      "score_breakdown": {
-        "conviction_score": 0,
-        "quality_score": 31.5,
-        "expectation_gap_score": 1.46,
-        "consistency_score": 100,
-        "asymmetry_score": 20.73,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "sml-isuzu",
       "name": "SML Isuzu Ltd",
       "master_score": 26.24,
@@ -6835,34 +6799,6 @@
       }
     },
     {
-      "slug": "emerald-finance",
-      "name": "Emerald Finance",
-      "master_score": 24.41,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 1,
-        "note": "NBFC -- profitability leg on ROE. Per screener.in, only FY26 (+41% revenue / ROE 16%, ROCE 21%) clears both bars. FY22-FY24 ROE was ~9%; FY25 (+69% revenue) ROE 14% just missed. The EWA-driven profitability step-up is one year old; revenue has risen 12 straight quarters but ROE only crossed 15% in FY26. No GNPA/NNPA/ECL disclosure is a governance gap."
-      },
-      "score_breakdown": {
-        "conviction_score": 24.69,
-        "quality_score": 43.0,
-        "expectation_gap_score": 16.31,
-        "consistency_score": 20,
-        "asymmetry_score": 8.15,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "navin-fluorine-international",
       "name": "Navin Fluorine International Ltd",
       "master_score": 24.25,
@@ -7486,34 +7422,6 @@
       }
     },
     {
-      "slug": "rapicut-carbides",
-      "name": "Rapicut Carbides Ltd.",
-      "master_score": 20.95,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 9,
-        "years_cleared": 1,
-        "note": "Screener FY18-FY26: rev growth >=10% AND ROCE >=15% both cleared in only 1 of 9 (FY19 10%/15%). A decade of sub-scale, mostly negative-ROCE results (FY20-25 ROCE -6% to 4%); FY26 sales +129% but ROCE still only 11%. Tiny tungsten-carbide tools maker."
-      },
-      "score_breakdown": {
-        "conviction_score": 5.25,
-        "quality_score": 39.0,
-        "expectation_gap_score": 16.31,
-        "consistency_score": 11,
-        "asymmetry_score": 33.16,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "v2-retail",
       "name": "V2 Retail",
       "master_score": 20.87,
@@ -7658,6 +7566,26 @@
           "expectation_gap_score"
         ],
         "weight_coverage": 0.45
+      }
+    },
+    {
+      "slug": "emerald-finance",
+      "name": "Emerald Finance",
+      "master_score": 20.25,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 20.25,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
       }
     },
     {
@@ -8196,6 +8124,26 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "shalimar-paints",
+      "name": "Shalimar Paints Ltd. -- Worth a Serious Look -- Significant Rerating Triggers Inplace",
+      "master_score": 17.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 17.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
       }
     },
     {
@@ -18672,34 +18620,6 @@
       }
     },
     {
-      "slug": "shalimar-paints",
-      "name": "Shalimar Paints Ltd. -- Worth a Serious Look -- Significant Rerating Triggers Inplace",
-      "master_score": 6.04,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 0,
-        "note": "FY22-FY26: operating margin negative every year (-10% to -4%), ROCE negative, sales flat-to-declining. 0 of 5 years cleared the rev-growth>=10% + ROCE>=15% double. Old company (est. 1902), not a young-listco omit - this is a genuine zero."
-      },
-      "score_breakdown": {
-        "conviction_score": 17.17,
-        "quality_score": 7.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 0,
-        "asymmetry_score": 0,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "chatha-foods",
       "name": "Chatha Foods",
       "master_score": 5.7,
@@ -19024,6 +18944,26 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "rapicut-carbides",
+      "name": "Rapicut Carbides Ltd.",
+      "master_score": 5.25,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 5.25,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
       }
     },
     {
@@ -21550,6 +21490,26 @@
       "track_record": null,
       "score_breakdown": {
         "conviction_score": 0.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "gv-electricals",
+      "name": "GV Electricals Ltd",
+      "master_score": 0,
+      "red_flag_tier": "HIGH CAUTION",
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
         "quality_score": null,
         "expectation_gap_score": null,
         "consistency_score": null,

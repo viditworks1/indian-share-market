@@ -135,7 +135,6 @@ _(none)_
 | Bhadora Industries Ltd | 2027-03-20 | ~6M | pending | 0 | A Q2/Q3 FY27 result showing whether the +226% Q1 FY27 net-sales jump is volume-backed and whether debtor days/operating cash flow normalise from the FY26 blo... |
 | Bharat bijlee Ltd | 2027-03-20 | ~6M | pending | 0 | H2 FY27 margin print showing whether copper/CRGO cost pass-through plus Phase 2 capacity flow through to a PAT recovery |
 | Molbio Diagnostics | 2027-03-21 | ~6M | pending | 32.83 | FY27 full-year print confirming the 24-25% EBITDA margin band holds + first revenue contribution from the new R&D facility / US-Europe expansion |
-| Force Motors Ltd | 2027-03-21 | ~6M | pending | 22.06 | Q3/Q4 FY27 print showing defence LSV deliveries + Urbania institutional orders translating into volume, and margin holding the ~18% Q2 FY27 exit run-rate |
 | KPI Green Energy Ltd | 2027-03-21 | ~6M | pending | 17.27 | Q2/Q3 FY27 results showing whether PAT growth reconnects with revenue/EBITDA growth (resolving the temporary-vs-structural question) plus visible progress to... |
 | Vadilal Industries | 2027-03-21 | ~6M | pending | 12.52 | Disclosure and early execution of VIL's replacement domestic distribution model post-VEL, plus confirmation (or reversal) of the Q1 FY27 margin step-up in Q2... |
 | Kaveri seeds company limited -- kscl | 2027-03-21 | ~6M | pending | 5.85 | Q2/Q3 FY27 prints (and Rabi-season sowing data) showing whether the Q1 FY27 monsoon-driven miss is a one-off or a multi-quarter drag |
