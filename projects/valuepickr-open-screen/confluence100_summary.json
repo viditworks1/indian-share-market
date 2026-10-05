@@ -1,79 +1,66 @@
 {
-  "project": "Confluence-100 Deepdive Research",
-  "completion_date": "2026-09-28",
-  "last_corrected": "2026-09-28 (post-rebuild reshuffle + echo-chamber conviction fix)",
-  "total_stocks": 100,
-  "note": "master_score/conviction_score/expectation_gap_score rebuild weekly and shift materially between runs; this file is a point-in-time snapshot, re-derive from confluence100.json rather than trusting an old copy",
-  "top_10_by_master_score": [
+  "project": "Confluence-100 Deepdive Research (Quality-Gated)",
+  "completion_date": "2026-10-05",
+  "quality_gates_applied": "2026-10-05",
+  "gates_description": "Catalyst OR (ROCE>=15% AND Track>=3y); 4-Box>=2.5; Conviction>=Low-Medium",
+  "total_stocks": 8,
+  "note": "Rebuilt with quality gates. Only 8 stocks pass strict criteria. Was 100.",
+  "top_8_by_master_score": [
     {
-      "rank": 9,
-      "name": "P.E. Analytics",
-      "master_score": 69.5,
-      "conviction_score": 61.05,
-      "thesis": "10x-in-2-3-years"
-    },
-    {
-      "rank": 37,
+      "rank": 1,
       "name": "Vaibhav Global",
       "master_score": 65.4,
       "conviction_score": 47.0,
-      "thesis": "neither"
-    },
-    {
-      "rank": 1,
-      "name": "Thyrocare",
-      "master_score": 61.1,
-      "conviction_score": 73.75,
-      "thesis": "10x-in-2-3-years"
-    },
-    {
-      "rank": 49,
-      "name": "DDev Plastiks Industries",
-      "master_score": 60.1,
-      "conviction_score": 53.18,
-      "thesis": "10x-in-2-3-years"
+      "thesis": "Turnaround/resilience play"
     },
     {
       "rank": 2,
-      "name": "Valiant Communications",
+      "name": "Thyrocare",
+      "master_score": 61.1,
+      "conviction_score": null,
+      "thesis": "10x-in-2-3-years"
+    },
+    {
+      "rank": 3,
+      "name": "Valiant Communications Limited",
       "master_score": 57.8,
       "conviction_score": 54.09,
       "thesis": "10x-in-2-3-years"
     },
     {
-      "rank": 3,
-      "name": "SJS Enterprises",
+      "rank": 4,
+      "name": "SJS Enterprises Ltd",
       "master_score": 56.3,
       "conviction_score": 56.71,
       "thesis": "10x-in-2-3-years"
     },
     {
-      "rank": 38,
-      "name": "Lohia Corp",
+      "rank": 5,
+      "name": "Lohia Corp Ltd",
       "master_score": 53.4,
       "conviction_score": 54.0,
       "thesis": "neither"
     },
     {
-      "rank": 4,
-      "name": "Ajanta Pharma",
+      "rank": 6,
+      "name": "Ajanta Pharma Ltd",
       "master_score": 53.2,
-      "conviction_score": 59.21,
+      "conviction_score": null,
       "thesis": "neither"
     },
     {
       "rank": 7,
-      "name": "Marksans Pharma",
+      "name": "Marksans Pharma Ltd",
       "master_score": 52.7,
       "conviction_score": 52.75,
       "thesis": "neither"
     },
     {
       "rank": 8,
-      "name": "Acutaas Chemicals",
+      "name": "Acutaas Chemicals Ltd (Erst. Ami Organics Ltd)",
       "master_score": 52.7,
-      "conviction_score": 67.22,
-      "thesis": "10x-in-2-3-years"
+      "conviction_score": null,
+      "thesis": "neither"
     }
   ]
 }
