@@ -18910,26 +18910,6 @@
       }
     },
     {
-      "slug": "aesl-oilmax-services",
-      "name": "aesl-oilmax-services",
-      "master_score": 4.5,
-      "red_flag_tier": null,
-      "conviction": null,
-      "thesis_fit": null,
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 4.5,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "mv-electrosystems-ltd",
       "name": "MV Electrosystems Ltd",
       "master_score": 4.25,
@@ -19149,6 +19129,31 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "aesl-oilmax-services",
+      "name": "aesl-oilmax-services",
+      "master_score": 2.25,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 4.5,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
       }
     },
     {

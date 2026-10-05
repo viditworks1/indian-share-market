@@ -1,8 +1,8 @@
 {
-  "date_compiled": "2026-10-03",
+  "date_compiled": "2026-10-05",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
   "scored_count": 321,
-  "not_assessed_count": 679,
+  "not_assessed_count": 680,
   "ranked": [
     {
       "slug": "vaibhav-global-vertically-integrated-value-e",
@@ -410,7 +410,7 @@
       "slug": "jayaswal-neco",
       "name": "Jayaswal Neco- Integrated Steel Player",
       "expectation_gap_score": 47.39,
-      "conviction_score": 25.23,
+      "conviction_score": 24.08,
       "conviction": "Medium",
       "thesis_fit": "neither",
       "red_flag_tier": null,
@@ -929,7 +929,7 @@
       "slug": "vivid-electromech",
       "name": "Vivid Electromech Ltd",
       "expectation_gap_score": 35.66,
-      "conviction_score": 61.26,
+      "conviction_score": 62.51,
       "conviction": "Medium-High",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
@@ -13077,13 +13077,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "central-depository-services",
-      "name": "Central Depository Services (India) Ltd (CDSL)",
-      "conviction_score": 11.3,
-      "conviction": "Low",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "v",
       "name": "V-guard",
       "conviction_score": 11.21,
@@ -13231,13 +13224,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "all-e-technologies-making-businesses-ready-for-ai",
-      "name": "All E Technologies, making businesses ready for AI",
-      "conviction_score": 10.49,
-      "conviction": "Low",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "vasa-denticity-ltd",
       "name": "Vasa Denticity Ltd",
       "conviction_score": 10.48,
@@ -13268,6 +13254,13 @@
     {
       "slug": "shadowfax-valuation-model",
       "name": "ShadowFax Valuation Model",
+      "conviction_score": 9.98,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "central-depository-services",
+      "name": "Central Depository Services (India) Ltd (CDSL)",
       "conviction_score": 9.98,
       "conviction": "Low",
       "thesis_fit": "neither"
@@ -13403,6 +13396,13 @@
       "name": "Shriram Pistons & Rings Ltd",
       "conviction_score": 9.49,
       "conviction": null,
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "all-e-technologies-making-businesses-ready-for-ai",
+      "name": "All E Technologies, making businesses ready for AI",
+      "conviction_score": 9.34,
+      "conviction": "Low",
       "thesis_fit": "neither"
     },
     {
@@ -14911,6 +14911,13 @@
       "thesis_fit": "100x-in-10-years"
     },
     {
+      "slug": "aesl-oilmax-services",
+      "name": "aesl-oilmax-services",
+      "conviction_score": 4.5,
+      "conviction": null,
+      "thesis_fit": null
+    },
+    {
       "slug": "connplex-cinema",
       "name": "CONNPLEX CINEMA",
       "conviction_score": 3.0,
@@ -16230,7 +16237,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 35.66,
-      "conviction_score": 61.26
+      "conviction_score": 62.51
     },
     {
       "slug": "vaibhav-global-vertically-integrated-value-e",
@@ -17484,7 +17491,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 47.39,
-      "conviction_score": 25.23
+      "conviction_score": 24.08
     },
     {
       "slug": "ultramarine-pigments-ltd",

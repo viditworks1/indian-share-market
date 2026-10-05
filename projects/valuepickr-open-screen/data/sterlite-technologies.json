@@ -1,6 +1,6 @@
 {
   "name": "Sterlite Technologies Ltd (STLTECH)",
-  "tagline": "Only Indian optical-preform maker riding the AI-data-centre fibre boom \u2014 genuine turnaround and record orders, but a cyclical, Agarwal-group vehicle that has already ~doubled",
+  "tagline": "Only Indian optical-preform maker riding the AI-data-centre fibre boom; earnings inflecting off near-zero base, but a cyclical turnaround with Agarwal-group governance risk and early competitive response",
   "business_overview": "Vertically integrated optical fibre + optical fibre cable (OFC) maker and network-integration player; India's lowest-cost OF/OFC producer via backward integration into preform (glass), the scarce upstream node. ~8% global ex-China OFC share (FY26). Part of the Vedanta / Anil Agarwal group.",
   "fundamentals_table": [
     [
@@ -105,5 +105,161 @@
     "score": 2.0,
     "note": "tam weak (Rs 36,700 Cr mid-cap, 10x needs ~Rs 3.6 lakh Cr); moat weak (HFCL/Finolex closing the preform gap in ~2 yrs); valuation no (~2x in 3 months, bulls expect a 5-10x terminal multiple). Growth un-ignorable but the vehicle is a cyclical Agarwal-group turnaround -> no exception, 'neither'."
   },
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-10-05",
+    "sources_reviewed": [
+      "FY24/25/26 annual reports — balance-sheet recovery, capex history, dividend/capital-raise timeline",
+      "Q1 FY27 results (Jun '26) + concall — order intake Rs 13,100 Cr (1.7x FY26 book), margin inflection to 21.7%, capex guidance",
+      "Sep 3 2026 board announcement — Rs 3,000 Cr capex approval for preform/fiber capacity expansion",
+      "Industry intel — optical fiber pricing dynamics (3x spike in 3-4 mo), HFCL/Finolex preform entry timelines, Corning/YOFC global comparables"
+    ],
+    "annual_report_findings": [
+      "Company emerged from 7-year debt-crush cycle (peak debt ~Rs 1,200 Cr in FY22, now net cash Rs 483 Cr post-QIP)",
+      "Revenue -23% CAGR 3yr (FY23-26) due to cyclical downturn; FY26 stabilization at Rs 2,625 Cr (+11.8% YoY), but EBITDA margin collapsed to 12.65% from historic 20%+",
+      "Operating leverage structure intact: margin drivers (capacity, mix) are now re-levering as demand inflects; no structural cost issue found"
+    ],
+    "quarterly_trend": [
+      "Q1 FY27 (Jun '26): Revenue Rs 978 Cr (+87% YoY, record for the quarter), Op. margin 21.74%, Net profit Rs 125 Cr (vs Rs 2 Cr annual FY26)",
+      "Prior 4 quarters: Revenue flat ~Rs 600 Cr range; Q1 represents clean inflection point, not a spike-then-revert",
+      "Order book: Rs 13,100 Cr added in single quarter (1.7x the entire FY26 order book of Rs 7,700 Cr); order-conversion metrics show delivery beginning immediately (cash flow operating Rs 145 Cr FY26, up 81% YoY)"
+    ],
+    "recent_announcements": [
+      "Sep 3 2026: Board approved Rs 3,000 Cr capex (majority preform/fiber manufacturing) — largest single capex commitment in company history, credible on back of order intake",
+      "Q1 Q1P: Order intake momentum holds; pricing remains firm (no buyer pushback in concall; repeat order flow from existing customers)",
+      "Competitive note: HFCL announced preform backward-integration trial by end-CY26, commercial run FY28; Finolex on similar timeline (2yr lag vs STL)"
+    ],
+    "key_new_facts": [
+      "Q1 FY27 is a genuine inflection (not a 1-Q spike): YoY growth 87% off a 'near-zero growth' base, but absolute order intake 1.7x prior year's full book shows demand intensity",
+      "Preform shortage is real: capacity-constrained globally (Corning, YOFC, STL are only 3 major nodes); STL is only qualified Indian source for AI-DC-grade fiber",
+      "Cyclical price spike partially temporary: helium shortage (7-12mo fix) + preform scarcity (2-3yr to resolve) are transient; bulls themselves expect 5-10x terminal multiple (40x is not priced in)"
+    ],
+    "open_questions": [
+      "Q1-Q2 order intake sustainability: is Rs 13,100 Cr run-rate repeatable, or was Q1 'pent-up'? (Q2 results not yet available; next concall likely Nov 2026)",
+      "Capex execution risk: Rs 3,000 Cr plan has 2-3yr horizon; will mgmt deliver on time/budget given Agarwal-group's historical execution concerns?",
+      "HFCL/Finolex competitive timeline: is 2yr really the lag, or will preform entry accelerate? Would cut STL's pricing power severely if earlier"
+    ],
+    "conviction_update": "Medium -> Medium. Business momentum and order intake are real; balance sheet de-risked. However, cyclical nature of fiber pricing (AI surge can fade, helium shortage resolves, preform capacity adds), governance/capex-execution risk (Agarwal group track record), and already-elevated valuation cap conviction. No upgrade warranted until Q2-Q3 FY27 order/margin data confirm sustainability. No downgrade either; fundamentals support a Medium floor."
+  },
+  "commitments": [
+    {
+      "area": "capacity",
+      "text": "Rs 3,000 Cr capex for preform + optical-fiber manufacturing",
+      "specifics": "Board-approved Sep 3 2026; majority preform (glass), balance OFC; execution starts Q3/Q4 FY27",
+      "timeline_bucket": "FY27",
+      "quality_stage": "action",
+      "source": "Board announcement Sep 3, 2026",
+      "dependency": "supply-chain logistics for capex equipment (helium purifiers, furnaces); land/utility approvals",
+      "single_point_of_failure": "project-cost overruns or delay (Agarwal-group execution track record is mixed)",
+      "thesis_critical": true
+    },
+    {
+      "area": "capacity",
+      "text": "FY29 revenue guidance Rs 20,000 Cr, EBITDA margin 27%",
+      "specifics": "Implies ~8x revenue from FY26; EBITDA ~Rs 5,400 Cr; PAT growth 50%+ CAGR",
+      "timeline_bucket": "FY28",
+      "quality_stage": "expectation",
+      "source": "Q1 FY27 concall (May/Jul 2026)",
+      "dependency": "demand sustains; preform capacity ramps on schedule; no new competitor entry; fiber prices remain elevated",
+      "single_point_of_failure": "cyclical price mean-reversion; HFCL/Finolex successful preform entry; order-intake slowdown",
+      "thesis_critical": true
+    },
+    {
+      "area": "orders",
+      "text": "AI datacentre fiber-optic network upgrades (domestic + international)",
+      "specifics": "Hyperscaler capex plans (Meta, Google, Microsoft global expansion); Indian telecom 5G/fiber buildout",
+      "timeline_bucket": "FY27",
+      "quality_stage": "commercial",
+      "source": "Q1 FY27 concall; industry commentary (Karnik Substack, various analyst notes)",
+      "dependency": "hyperscaler budgets remain firm; India infra spend cycle continues",
+      "single_point_of_failure": "recession halts capex spending",
+      "thesis_critical": true
+    }
+  ],
+  "earnings_chain": {
+    "chain": [
+      "AI datacenter global capex + India 5G/telecom fiber buildout",
+      "Preform capacity constraint forces pricing (supply-side scarcity)",
+      "Order intake inflection (Rs 13,100 Cr Q1)",
+      "Revenue ramp via order conversion + capacity additions",
+      "Operating leverage: margin expands from 5.8% to 20-25% band",
+      "EBITDA + PAT growth"
+    ],
+    "bottleneck_link": "Preform manufacturing capacity — currently capacity-limited globally; STL adding capex but 2-3yr lag before competitors (HFCL/Finolex) close the gap",
+    "operating_leverage": "yes — mgmt guided EBITDA margin 27% FY29 vs 12.65% FY26; revenue growth 8x over 3 years implies significant fixed-cost absorption + mix improvement (higher-margin AI-grade fiber)",
+    "evidenced_links": [
+      "AI DC demand (commercial shipments, stated capex budgets from hyperscalers)",
+      "Preform scarcity driving pricing (3x fiber-price spike in 3-4 months, only supply-side squeeze could cause this)",
+      "Order book 1.7x annual prior year (demonstrates demand intensity)"
+    ],
+    "assumed_links": [
+      "Fiber prices remain elevated through FY27-28 (helium shortage + preform scarcity resolve slower than bulls expect)",
+      "Capex executes on schedule; HFCL/Finolex entry delayed past FY28",
+      "Operating leverage materializes as mgmt guides (margin 27%+ requires mix + operational discipline)"
+    ]
+  },
+  "market_expectation": {
+    "as_of": "2026-10-05",
+    "price": null,
+    "current_pe": null,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "~35-40% EPS CAGR FY26-29 needed to support 30-35x if that's current multiple; bulls expect 5-10x terminal (suggesting they see 15-20x as fair)",
+    "our_fy27_estimate": "Revenue Rs 3,200-3,500 Cr (conservative vs mgmt's bullish ramp); EBITDA margin 18-20% (vs current 12.65%, but well below mgmt's 27% guidance); net profit Rs 250-300 Cr (vs Rs 2 Cr FY26)",
+    "our_fy28_estimate": "Revenue Rs 5,000-6,000 Cr; EBITDA margin 22-24% (if capex delivers, pricing holds, but below mgmt 27%); net profit Rs 600-700 Cr",
+    "gap_direction": "over-optimistic",
+    "gap_type": "duration",
+    "gap_magnitude_pct": -20,
+    "gap_basis": "Mgmt FY29 guidance assumes helium shortage + preform scarcity persist through FY29 and no material competitive entry from HFCL/Finolex. Realistic downside: scarcity eases by FY28, HFCL enters with pricing power, margin peaks in FY27-28 then plateaus. Our FY28 estimate 22-24% margin vs mgmt's path to 27% reflects this duration risk.",
+    "evidence_quality": "moderate",
+    "data_caveat": "No broker consensus available; implied path based on reverse-P/E from current price (not obtained), FY26/27 operating margins from filings, mgmt's own FY29 guidance, and industry intelligence on fiber-price cycles + competitive timelines"
+  },
+  "catalyst": {
+    "event": "Order intake sustains >Rs 1,000 Cr/quarter through FY27-28; capex milestones on schedule (Q1 FY28 preform ramp visible)",
+    "expected_window_months": 6,
+    "window_start": "2026-10-05",
+    "evidence_quality": "med",
+    "is_dated": true,
+    "status": "pending"
+  },
+  "earnings_quality": {
+    "margin_driver": "cyclical",
+    "drivers": [
+      "Preform supply constraint driving fiber pricing (temporary, 2-3yr horizon)",
+      "Capacity ramp post-capex (structural, but dependent on execution)",
+      "Mix shift to higher-margin AI-grade fiber (structural)"
+    ],
+    "peak_margin_risk": true,
+    "normalised_note": "Current Q1 margin 21.74% is well above a through-cycle 10-12% expectation. Driven by 3x fiber-price spike (helium shortage + preform scarcity). A defensible through-cycle margin post-capex is likely 15-18%, not 27%. Peak-margin risk is HIGH: pricing mean-revert risk is the principal downside scenario."
+  },
+  "growth_trajectory": {
+    "yoy_trend": "accelerating",
+    "last_quarters_note": "FY26 full year flat-to-down (after multi-year decline); Q1 FY27 +87% YoY (off a 'near-zero-growth' base FY26 recovery). Acceleration is real, but off an inflection point, not a multi-year trend.",
+    "reverse_pe_note": "30x trailing P/E (if that's current) needs ~35-40% EPS CAGR FY26-29 at a 22x exit; bulls expect terminal multiple 5-10x (suggesting they price in mean-reversion risk). Recent momentum can sustain 18-24x if order flow & pricing prove durable; 30x+ embedded a very optimistic 2-3yr window."
+  },
+  "management_quality": {
+    "capital_allocation": "FY26 reinvested at 6.7% ROCE (very low). FY27-28 capex is a directional bet on AI/fiber demand (capital going to expansion, not buyback/dividend). Agarwal group's broader capital-allocation record (Vedanta, HZL, Cairn) is mixed: some value creation, but also serial dilution and sub-scale acquisitions.",
+    "capital_allocation_track_record": "neutral",
+    "rpt_trend": "flat",
+    "guidance_credibility": "mixed",
+    "shareholder_returns": "none",
+    "capability_ladder_note": "Backward integration into preform (highest-margin, most-constrained node) is a smart move; execution will determine if STL can sustain a moat vs HFCL/Finolex. No explicit 'moving up the value chain' language, but the capex decision implies this intent.",
+    "assessment": "neutral"
+  },
+  "quality_metrics": {
+    "roce_pct": 6.7,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": -0.6,
+    "interest_coverage": null,
+    "fcf_conversion_pct": -35,
+    "margin_trend": "expanding",
+    "capex_efficiency": "unclear",
+    "assessment": "concern"
+  },
+  "track_record": {
+    "years_checked": 3,
+    "years_cleared": 0,
+    "note": "FY24/FY25/FY26: None of the last 3 years met BOTH revenue growth ≥10% AND ROCE ≥15%. FY24 had ROCE 4.5% (below 15%), negative growth. FY25 ROCE negative. FY26 ROCE 6.7% (below 15%), revenue +11.8% (cleared growth). FY23 (now 3y ago) had ROCE 26.5% and revenue +30% — cleared; but that was a peak before the multi-year decline. Track record shows a distressed turnaround, not a consistent Cash-Can compounder. Consistency score should be low unless recent inflection sustained 2-3y."
+  }
 }

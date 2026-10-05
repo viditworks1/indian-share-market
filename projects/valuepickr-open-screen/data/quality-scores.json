@@ -1,6 +1,6 @@
 {
   "method": "the user's stated screening framework (2026-09-04): growth + margins + ROCE + debt + capex + free cash flow + competitive advantage + management quality. This score covers the four legs (ROCE, debt, FCF, capex) that had no numeric home before. Formula in this script's docstring and scripts/QUALITY_SCORE_METHODOLOGY.md.",
-  "scored_count": 355,
+  "scored_count": 356,
   "not_assessed_count": 645,
   "ranked": [
     {
@@ -1577,7 +1577,7 @@
       "slug": "vivid-electromech",
       "name": "Vivid Electromech Ltd",
       "quality_score": 64.0,
-      "conviction_score": 61.26,
+      "conviction_score": 62.51,
       "red_flag_tier": null,
       "roce_pct": 55,
       "roce_trend": "declining",
@@ -3750,7 +3750,7 @@
       "slug": "jayaswal-neco",
       "name": "Jayaswal Neco- Integrated Steel Player",
       "quality_score": 43.0,
-      "conviction_score": 25.23,
+      "conviction_score": 24.08,
       "red_flag_tier": null,
       "roce_pct": 15,
       "roce_trend": "improving",
@@ -8817,6 +8817,34 @@
       }
     },
     {
+      "slug": "aesl-oilmax-services",
+      "name": "aesl-oilmax-services",
+      "quality_score": 0,
+      "conviction_score": 4.5,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "connplex-cinema",
       "name": "CONNPLEX CINEMA",
       "quality_score": 0,
@@ -11450,12 +11478,6 @@
       "red_flag_tier": null
     },
     {
-      "slug": "central-depository-services",
-      "name": "Central Depository Services (India) Ltd (CDSL)",
-      "conviction_score": 11.3,
-      "red_flag_tier": null
-    },
-    {
       "slug": "v",
       "name": "V-guard",
       "conviction_score": 11.21,
@@ -11522,12 +11544,6 @@
       "red_flag_tier": null
     },
     {
-      "slug": "all-e-technologies-making-businesses-ready-for-ai",
-      "name": "All E Technologies, making businesses ready for AI",
-      "conviction_score": 10.49,
-      "red_flag_tier": null
-    },
-    {
       "slug": "vasa-denticity-ltd",
       "name": "Vasa Denticity Ltd",
       "conviction_score": 10.48,
@@ -11554,6 +11570,12 @@
     {
       "slug": "shadowfax-valuation-model",
       "name": "ShadowFax Valuation Model",
+      "conviction_score": 9.98,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "central-depository-services",
+      "name": "Central Depository Services (India) Ltd (CDSL)",
       "conviction_score": 9.98,
       "red_flag_tier": null
     },
@@ -11669,6 +11691,12 @@
       "slug": "shriram-pistons-rings",
       "name": "Shriram Pistons & Rings Ltd",
       "conviction_score": 9.49,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "all-e-technologies-making-businesses-ready-for-ai",
+      "name": "All E Technologies, making businesses ready for AI",
+      "conviction_score": 9.34,
       "red_flag_tier": null
     },
     {

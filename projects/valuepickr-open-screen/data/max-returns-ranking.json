@@ -1,6 +1,6 @@
 {
   "date_compiled": "2026-10-05",
-  "total_researched": 1000,
+  "total_researched": 1001,
   "intro": "This is a SECOND, criteria-free ranking of every researched stock - it does NOT apply the main screen's 10x-in-2-3-years / 100x-in-10-years thesis-fit gate. It exists as a hedge in case that return-magnitude bar is too strict and is excluding genuinely good opportunities (e.g. a high-quality large-cap with a real catalyst that just can't mathematically 10x). Ranked purely by conviction - the same fundamentals/technicals/community assessment used everywhere else in this project, just without the extreme-return filter. Cross-check against docs/00_SCREEN_RANKING.docx (the thesis-gated view) before acting - a stock ranked highly here but absent there is exactly the case this document is meant to catch.",
   "ranked": [
     {
@@ -6253,6 +6253,13 @@
       "thesis_fit": "neither",
       "market_cap_tier": "",
       "reason": "Stock exchange: exceptional quality (60% ROCE, 46% ROE, 68% EBITDA, zero debt). Revenue/profit up 61%/79% TTM. P/E 43.88 expensive for mega-cap (128k Cr). Better hold than new buy."
+    },
+    {
+      "name": "aesl-oilmax-services",
+      "conviction": "Unrated",
+      "thesis_fit": null,
+      "market_cap_tier": "",
+      "reason": ""
     }
   ],
   "flagged_intro": "Red-flagged (AVOID/HIGH CAUTION/EXCLUDE) stocks are kept separate even in this criteria-free view - a solvency or regulatory red flag isn't a return-potential debate, it's a capital-loss risk.",
