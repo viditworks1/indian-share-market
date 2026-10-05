@@ -1507,6 +1507,34 @@
       }
     },
     {
+      "slug": "frontier-springs",
+      "name": "Frontier Springs",
+      "master_score": 43.86,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 9,
+        "years_cleared": 6,
+        "note": "Screener FY18-FY26: rev growth >=10% AND ROCE >=15% both cleared in 6 of 9 (FY18 26%/17%, FY19 41%/26%, FY20 21%/35%, FY24 26%/21%, FY25 71%/42%, FY26 39%/51%). FY21 (-23%, COVID) and FY22 (+9%) missed on growth, FY23 on ROCE (14%). Railways-spring demand inflected hard FY25-26."
+      },
+      "score_breakdown": {
+        "conviction_score": 45.25,
+        "quality_score": 75.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 67,
+        "asymmetry_score": 25.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "mayur-uniquoters",
       "name": "Mayur Uniquoters Ltd",
       "master_score": 43.7,
@@ -1967,34 +1995,6 @@
         "expectation_gap_score": 22.9,
         "consistency_score": 100,
         "asymmetry_score": 16.45,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "frontier-springs",
-      "name": "Frontier Springs",
-      "master_score": 40.36,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 9,
-        "years_cleared": 6,
-        "note": "Screener FY18-FY26: rev growth >=10% AND ROCE >=15% both cleared in 6 of 9 (FY18 26%/17%, FY19 41%/26%, FY20 21%/35%, FY24 26%/21%, FY25 71%/42%, FY26 39%/51%). FY21 (-23%, COVID) and FY22 (+9%) missed on growth, FY23 on ROCE (14%). Railways-spring demand inflected hard FY25-26."
-      },
-      "score_breakdown": {
-        "conviction_score": 31.25,
-        "quality_score": 75.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 67,
-        "asymmetry_score": 25.0,
         "components_used": [
           "asymmetry_score",
           "consistency_score",

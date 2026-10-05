@@ -2201,7 +2201,7 @@
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Small-cap",
+      "market_cap_tier": "Small-cap (~Rs 771 Cr)",
       "gap_direction": "partially-priced",
       "gap_type": "margin",
       "gap_magnitude_pct": null,
@@ -5051,7 +5051,7 @@
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap (~Rs 6,415 Cr)",
+      "market_cap_tier": "Mid-cap (~Rs 6,925 Cr)",
       "gap_direction": "priced-in",
       "gap_type": "duration",
       "gap_magnitude_pct": null,
@@ -9065,6 +9065,41 @@
       }
     },
     {
+      "slug": "frontier-springs",
+      "name": "Frontier Springs",
+      "expectation_gap_score": 0,
+      "conviction_score": 45.25,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Micro/Small-cap (~Rs 1,505 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "volume",
+      "gap_magnitude_pct": -20,
+      "evidence_quality": "weak",
+      "catalyst_event": "Q2/Q3 FY27 results showing whether railway dispatch pace re-accelerates toward the Rs 500 Cr guidance, plus FIBA on-train trial completion and a first commercial order",
+      "catalyst_window_months": 9,
+      "catalyst_window_start": "2026-08-30",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "railway order inflow / execution pace"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.25,
+        "catalyst_q": 0.21,
+        "timing_q": 0.75,
+        "risk_q": 0.8,
+        "quality": 0.42
+      }
+    },
+    {
       "slug": "hdfc-asset-management-company",
       "name": "HDFC Asset Management Company",
       "expectation_gap_score": 0,
@@ -9426,41 +9461,6 @@
         "timing_q": 1.0,
         "risk_q": 0.2,
         "quality": 0.609
-      }
-    },
-    {
-      "slug": "frontier-springs",
-      "name": "Frontier Springs",
-      "expectation_gap_score": 0,
-      "conviction_score": 31.25,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "small-cap",
-      "gap_direction": "over-optimistic",
-      "gap_type": "volume",
-      "gap_magnitude_pct": -20,
-      "evidence_quality": "weak",
-      "catalyst_event": "Q2/Q3 FY27 results showing whether railway dispatch pace re-accelerates toward the Rs 500 Cr guidance, plus FIBA on-train trial completion and a first commercial order",
-      "catalyst_window_months": 9,
-      "catalyst_window_start": "2026-08-30",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 1,
-      "risk_open_spofs": [
-        "railway order inflow / execution pace"
-      ],
-      "flags": [
-        "no-edge"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.25,
-        "catalyst_q": 0.21,
-        "timing_q": 0.75,
-        "risk_q": 0.8,
-        "quality": 0.42
       }
     },
     {
@@ -17379,7 +17379,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 0,
-      "conviction_score": 31.25
+      "conviction_score": 45.25
     },
     {
       "slug": "raymond-realty",
