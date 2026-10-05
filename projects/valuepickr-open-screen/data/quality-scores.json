@@ -1,7 +1,7 @@
 {
   "method": "the user's stated screening framework (2026-09-04): growth + margins + ROCE + debt + capex + free cash flow + competitive advantage + management quality. This score covers the four legs (ROCE, debt, FCF, capex) that had no numeric home before. Formula in this script's docstring and scripts/QUALITY_SCORE_METHODOLOGY.md.",
-  "scored_count": 358,
-  "not_assessed_count": 647,
+  "scored_count": 362,
+  "not_assessed_count": 643,
   "ranked": [
     {
       "slug": "venus-remedies",
@@ -8358,6 +8358,34 @@
       }
     },
     {
+      "slug": "fiem-industries-auto-ancillary-player",
+      "name": "FIEM industries : auto ancillary player",
+      "quality_score": 0,
+      "conviction_score": 16.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "orchid-pharma-ltd",
       "name": "Orchid Pharma Ltd",
       "quality_score": 4.0,
@@ -8782,6 +8810,90 @@
         "margin_component": 0,
         "capex_component": 0,
         "raw": 9,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "shree-hari-chemicals",
+      "name": "Shree Hari Chemicals",
+      "quality_score": 0,
+      "conviction_score": 8.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "active-clothing-co",
+      "name": "Active Clothing Co Ltd",
+      "quality_score": 0,
+      "conviction_score": 8.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "bodal-chemical",
+      "name": "Bodal Chemical Ltd",
+      "quality_score": 0,
+      "conviction_score": 8.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
         "red_flag_multiplier": 1.0
       }
     },
@@ -11448,12 +11560,6 @@
       "red_flag_tier": null
     },
     {
-      "slug": "fiem-industries-auto-ancillary-player",
-      "name": "FIEM industries : auto ancillary player",
-      "conviction_score": 16.0,
-      "red_flag_tier": null
-    },
-    {
       "slug": "international-gemmological-institute-india-ltd",
       "name": "International Gemmological Institute (India) Ltd",
       "conviction_score": 15.65,
@@ -13022,24 +13128,6 @@
     {
       "slug": "epack-durable",
       "name": "Epack Durable Ltd",
-      "conviction_score": 8.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "shree-hari-chemicals",
-      "name": "Shree Hari Chemicals",
-      "conviction_score": 8.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "active-clothing-co",
-      "name": "Active Clothing Co Ltd",
-      "conviction_score": 8.0,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "bodal-chemical",
-      "name": "Bodal Chemical Ltd",
       "conviction_score": 8.0,
       "red_flag_tier": null
     },

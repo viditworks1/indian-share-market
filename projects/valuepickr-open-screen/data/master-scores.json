@@ -10958,26 +10958,6 @@
       }
     },
     {
-      "slug": "fiem-industries-auto-ancillary-player",
-      "name": "FIEM industries : auto ancillary player",
-      "master_score": 16.0,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 16.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "electronics-mart-india",
       "name": "Electronics Mart India Limited- EMIL",
       "master_score": 15.98,
@@ -18252,63 +18232,28 @@
       }
     },
     {
-      "slug": "shree-hari-chemicals",
-      "name": "Shree Hari Chemicals",
+      "slug": "fiem-industries-auto-ancillary-player",
+      "name": "FIEM industries : auto ancillary player",
       "master_score": 8.0,
       "red_flag_tier": null,
-      "conviction": "Low",
+      "conviction": "Low-Medium",
       "thesis_fit": "neither",
-      "track_record": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
       "score_breakdown": {
-        "conviction_score": 8.0,
-        "quality_score": null,
+        "conviction_score": 16.0,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,
         "components_used": [
-          "conviction_score"
+          "conviction_score",
+          "quality_score"
         ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "active-clothing-co",
-      "name": "Active Clothing Co Ltd",
-      "master_score": 8.0,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 8.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
-      "slug": "bodal-chemical",
-      "name": "Bodal Chemical Ltd",
-      "master_score": 8.0,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 8.0,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
+        "weight_coverage": 0.5
       }
     },
     {
@@ -19044,6 +18989,81 @@
       "score_breakdown": {
         "conviction_score": 3.0,
         "quality_score": 5.0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "shree-hari-chemicals",
+      "name": "Shree Hari Chemicals",
+      "master_score": 4.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "active-clothing-co",
+      "name": "Active Clothing Co Ltd",
+      "master_score": 4.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "bodal-chemical",
+      "name": "Bodal Chemical Ltd",
+      "master_score": 4.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": 0,
         "expectation_gap_score": null,
         "consistency_score": null,
         "asymmetry_score": null,

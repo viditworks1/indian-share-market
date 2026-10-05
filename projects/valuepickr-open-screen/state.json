@@ -3144,8 +3144,8 @@
       "last_reply_count_analyzed": 107,
       "status": "researched",
       "conviction": "Low-Medium",
-      "market_cap_tier": "Small/Mid-cap",
-      "notes_short": "Guidance-raise inflection real and tracking, but FY26 cash conversion collapsed (CFO Rs17cr vs PAT Rs67cr) and oncology mix slipped vs its own guide.",
+      "market_cap_tier": "Small/Mid-cap (~Rs 6,600 Cr)",
+      "notes_short": "Price Rs 3,620->3,564 (-1.5%), P/E ~44-47x; CFO/PAT deterioration caps conviction",
       "last_forum_activity": "2026-09-03",
       "reply_count": 72,
       "flagged_material": false,
@@ -13963,7 +13963,7 @@
       "status": "researched",
       "conviction": "Medium-High",
       "market_cap_tier": "Mid-cap (~Rs 6,930 Cr)",
-      "notes_short": "GCM turnaround delivered clean (EBIT 5.8->12.6%) + SED compounding, but consol PAT +9% only on EBITDA +57.5% (Rs 993cr debt), ROE ~13%, 37x full; 10x math implausible at Rs 7000cr mcap",
+      "notes_short": "Price Rs 481->481, P/E ~19x; GCM margin recovery on track",
       "last_forum_activity": null,
       "reply_count": null,
       "flagged_material": false,
@@ -15480,8 +15480,8 @@
       "last_reply_count_analyzed": 11,
       "status": "researched",
       "conviction": "Low",
-      "market_cap_tier": "small-cap",
-      "notes_short": "Technicals-only touch in cooldown. Conviction held at Low.",
+      "market_cap_tier": "Small-cap (~Rs 600 Cr)",
+      "notes_short": "Price Rs 166->168 (+1.2%), 52W high; valuation flat ~18x",
       "last_forum_activity": null,
       "reply_count": 0,
       "flagged_material": false,
@@ -16961,11 +16961,11 @@
       "x_first_seen_date": "2026-08-30",
       "first_seen_date": "2026-08-30",
       "topic_id": 1090,
-      "notes_short": "Technicals refresh: price Rs 684, P/E 62.7x (up from 53x); conviction locked",
+      "notes_short": "Price Rs 671->665, P/E stable ~52x",
       "conviction": "Medium",
       "red_flag_tier": null,
       "thesis_fit": "neither",
-      "market_cap_tier": "Small/Mid-cap (~Rs 7,269 Cr)",
+      "market_cap_tier": "Small/Mid-cap (~Rs 7,100 Cr)",
       "last_analyzed_date": "2026-09-28",
       "last_reply_count_analyzed": 78,
       "last_post_number_analyzed": 78,
@@ -17750,7 +17750,7 @@
       "status": "researched",
       "conviction": "Low",
       "market_cap_tier": "Small-cap (~Rs 3,050 Cr)",
-      "notes_short": "Q2 CY26 confirmed order book bigger than recorded (consolidated ~Rs 4,500 Cr, ~1.5x mcap) but margins still absent - 2 straight quarters of 80%+ revenue growth with net loss / ~1% EBITDA; ~110x P/E; margin recovery guided to H2 CY26",
+      "notes_short": "Price Rs 7,989->7,980, P/E ~110x, margin inflection still unproven",
       "last_forum_activity": "2026-08-31",
       "reply_count": 12,
       "flagged_material": false,
@@ -26202,10 +26202,10 @@
       "x_first_seen_date": "2026-09-13",
       "first_seen_date": "2026-09-13",
       "topic_id": 56774,
-      "notes_short": "Growth re-accelerated but valuation now ~239x P/E; WC 255d; rising RPTs",
+      "notes_short": "Price Rs 1,819->1,843 (+1.3%), P/E 127x->239x (TTM shift); richly valued",
       "conviction": "Medium",
       "thesis_fit": "neither",
-      "market_cap_tier": "Mid-cap (~Rs 8,353 Cr, screener.in Oct 2026)",
+      "market_cap_tier": "Mid-cap (~Rs 8,353 Cr)",
       "last_analyzed_date": "2026-09-28",
       "red_flag_tier": null,
       "revisit_after_30d": false,
@@ -29177,7 +29177,8 @@
       "conviction_score": 16.0,
       "own_conviction_score": 16.0,
       "trusted_lift": 0.0,
-      "master_score": 16.0
+      "master_score": 8.0,
+      "quality_score": 0
     },
     "shree-hari-chemicals": {
       "name": "Shree Hari Chemicals",
@@ -29201,7 +29202,8 @@
       "conviction_score": 8.0,
       "own_conviction_score": 8.0,
       "trusted_lift": 0.0,
-      "master_score": 8.0
+      "master_score": 4.0,
+      "quality_score": 0
     },
     "active-clothing-co": {
       "name": "Active Clothing Co Ltd",
@@ -29225,7 +29227,8 @@
       "conviction_score": 8.0,
       "own_conviction_score": 8.0,
       "trusted_lift": 0.0,
-      "master_score": 8.0
+      "master_score": 4.0,
+      "quality_score": 0
     },
     "bodal-chemical": {
       "name": "Bodal Chemical Ltd",
@@ -29249,7 +29252,8 @@
       "conviction_score": 8.0,
       "own_conviction_score": 8.0,
       "trusted_lift": 0.0,
-      "master_score": 8.0
+      "master_score": 4.0,
+      "quality_score": 0
     }
   },
   "oval-projects": {

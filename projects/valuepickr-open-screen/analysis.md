@@ -8704,3 +8704,57 @@ Resolution required before research can proceed.
 ## KMC Speciality Hospital — technicals refresh [2026-10-05]
 - Price Rs 171.95 (Oct 5), market cap Rs 2,550 Cr (confirmed micro-cap); conviction unchanged Medium
 
+## Bliss GVS Pharma Ltd — technicals refresh [2026-10-05]
+
+### 2026-10-05 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Rs 665 (from Rs 671, -6 pts or -0.9%), P/E stable ~52x; market cap Rs 7,089 Cr (from ~7,100 Cr, -0.2%)
+- **No change**: Conviction remains Medium; thesis_fit remains neither (governance-overhang resolution now underway, but market has already priced both the Anupam Rasayan change-of-control and the Q1 FY27 margin step-up at 2x the acquirer's entry price)
+- **Market cap tier**: Confirmed Small/Mid-cap, no tier change (Rs 7.1k Cr)
+- **Context**: Flat price action (-0.9%) over the ~4 weeks since the technicals refresh of Oct 2. Open-offer completion timeline remains the critical watch; Q1 FY27 EBITDA margin of 26.75% sits well above the ~19% FY26 full-year, but margin sustainability is unconfirmed (Africa tender-pricing cyclicality is a live risk). First USFDA approval + regulated-market GMP capacity give higher-margin growth optionality, but unproven to date
+- **Next catalyst**: Open-offer completion + Q2 FY27 results (likely Nov-Dec) to confirm whether the Q1 margin step-up is structural or a one-off favourable quarter; any update on US/EU regulated-market launches
+
+## John Cockerill India — technicals refresh [2026-10-05]
+
+### 2026-10-05 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Rs 7,980 (from Rs 7,989, -9 pts or -0.1%), P/E stable ~110x; market cap Rs 3,050 Cr (from ~3,050 Cr, flat)
+- **No change**: Conviction remains Low; thesis_fit remains 10x-in-2-3-years but unconfirmed (order-book inflection real, margin inflection still elusive after two consecutive 80%+ growth quarters with no profit acceleration)
+- **Market cap tier**: Confirmed Small-cap, no tier change (Rs 3.05k Cr)
+- **Context**: Virtually flat price action (flat to -0.1%) over ~4 weeks confirms the market's settled valuation view at ~110x P/E. Order-book inflection is real and larger than recorded (consolidated book ~Rs 4,500 Cr), but the margin problem remains unresolved and is now the sole determinant of conviction upside. New CFO appointment (24-Aug-2026) and promoter commitment (raised guidance from 70.4% to 72%+ via CPS) are governance-adjacent positives, but the Belgium parent's retention of green-hydrogen/electrolyser + defence businesses remains a structural overhang
+- **Next catalyst**: Q2 CY26 results (likely Nov-Dec) — the third consecutive quarter will clarify whether the margin inflection is finally materialising or remains stuck on the structural capacity/economics issue
+
+## Bansal Roofing Products Ltd — technicals refresh [2026-10-05]
+
+### 2026-10-05 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Rs 168 (from Rs 166, +2 pts or +1.2%), reached new 52W high; P/E ~18x stable; market cap Rs 625 Cr (from ~600 Cr, +4.2%)
+- **No change**: Conviction remains Low; thesis_fit remains neither (FY26 long-promised capacity ramp finally delivered +60% revenue / +90% PAT, debt-free at ~34% ROCE, but commodity-cycle economics and re-rated multiple cap conviction at Medium)
+- **Market cap tier**: Confirmed Small-cap, no tier change (Rs 625 Cr)
+- **Context**: Modest +1.2% uptick to new 52-week high (Rs 168) over ~2 weeks reflects market's stable view on the execution track record. The ramp is confirmed and real; new solar-structure optionality adds diversification upside. But the weak PEB pricing power and the cyclical-commodity nature of the core business remain binding constraints on conviction. Valuation at ~18x remains reasonable but offers no margin of safety for the unconfirmed solar ramp or potential competitive margin pressure
+- **Next catalyst**: Q2/Q3 FY27 results (likely Nov-Dec/Jan-Feb) to confirm sustained volume growth and pricing stability; any disclosure on the new solar-structure line's early traction
+
+## Suprajit Engineering Ltd — technicals refresh [2026-10-05]
+
+### 2026-10-05 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Rs 481 (from Rs 481, flat), P/E ~19x stable; market cap Rs 6,930 Cr (unchanged)
+- **No change**: Conviction remains Medium-High; thesis_fit remains neither (GCM restructuring clean, operating leverage confirmed in Q1 FY27 +840bps EBITDA margin, but thesis_fit 10x->neither due to valuation 'no' on four-box and size/return-magnitude constraints)
+- **Market cap tier**: Confirmed Mid-cap, no tier change (Rs 6.9k Cr)
+- **Context**: Flat price action (unchanged) over ~4 weeks since the technicals refresh of Oct 2. Q1 FY27 revenue +24% / PAT +9% profile remains the same — growth decelerating but operational leverage confirmed. GCM integration is on track. Stock near 52-week high (Rs 559), already re-rated post-pass-1. Order book visibility and execution on the margins expansion (EBITDA margin recovery post-GCM) remain the watch
+- **Next catalyst**: Q2 FY27 results (likely Nov-Dec) to test whether Q1's +840bps margin expansion was sustainable or a seasonal phenom; any update on GCM integration and cost-absorption timeline
+
+## Raghav Productivity Solutions — technicals refresh [2026-10-05]
+
+### 2026-10-05 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Rs 1,843 (from Rs 1,819, +24 pts or +1.3%), P/E rerated 127x -> 239x on TTM shift; market cap Rs 8,353 Cr (unchanged)
+- **No change**: Conviction remains Medium; thesis_fit remains neither (growth re-accelerated via TRL Krosaki JV but valuation extremely stretched — scenario analysis shows even 40%-revenue CAGR bull case at 30x exit implies price well below CMP)
+- **Market cap tier**: Confirmed Mid-cap, no tier change (Rs 8.35k Cr)
+- **Context**: Modest +1.3% uptick (Rs 1,819 -> 1,843) over ~3 weeks reflects stable market view despite extreme valuation. Working-capital cycle elongated to ~255 days (Mar 2026) remains a live cash-flow risk. New ~Rs 100cr TRL Krosaki JV for 350,000 MTPA plant in Odisha is execution-unproven for RPEL (first multi-location/JV move). Rising related-party transactions and history of preferential equity issuances at discount are governance cautions
+- **Next catalyst**: Q2 FY27 results (likely Nov-Dec) for evidence on organic capacity (89% utilisation) + JV ramp dynamics; working-capital trend (critical for cash-conversion quality); any update on related-party transactions or equity issuances
+
+## Kwality Pharmaceuticals — technicals refresh [2026-10-05]
+
+### 2026-10-05 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Rs 3,564 (from Rs 3,620, -56 pts or -1.5%), P/E ~44-47x stable; market cap Rs 6,600 Cr (from ~6,700 Cr, -1.5%)
+- **No change**: Conviction remains Low-Medium; thesis_fit remains 10x-in-2-3-years but unconfirmed (guidance raised twice, Q1 FY27 tracking it, but FY26 CFO/PAT fell to ~25-32% and debtor days ~205 days; ~8x one-year re-rate means inflection substantially priced)
+- **Market cap tier**: Confirmed Small/Mid-cap, no tier change (Rs 6.6k Cr)
+- **Context**: Mild 1.5% pullback over ~1 week reflects market's acknowledgment that the fundamental inflection is real but already priced. Guidance raised twice by management, Q1 FY27 delivery solid, but hard FY26 numbers exposed cash-conversion deterioration (CFO/PAT ~25-32%, debtor days ~200+). Promoter-linked JV quietly on hold (a new caution). Conviction cap remains cash-conversion quality and FY27 guidance accuracy — both higher-execution-risk items now after the strong near-term re-rating
+- **Next catalyst**: Q2 FY27 results (likely Nov-Dec) to confirm guidance trajectory + cash-conversion trend (debtor days, CFO/PAT); any announcement on the on-hold JV or oncology mix recovery (dragged FY26)
+
