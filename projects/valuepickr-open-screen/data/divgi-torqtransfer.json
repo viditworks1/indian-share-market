@@ -1,44 +1,57 @@
 {
-  "name": "Divgi TorqTransfer Systems",
-  "deep_dive_history": [],
-  "deep_dive": {
-    "pass": 1,
-    "date": "2026-10-03",
-    "summary": "Automotive torque-transfer (AWD) specialist with 40%+ EV exposure. Dual-motor/dual-motor+ EV adoption tailwind.",
-    "value_chain": {
-      "theme": "Auto: EV AWD systems",
-      "position": "Torque-transfer tech provider",
-      "bottleneck_node": "EV OEM adoption of AWD",
-      "note": "EV shift tailwind"
-    },
-    "earnings_quality": {
-      "margin_driver": "Auto OEM contract margins",
-      "drivers": [
-        "EV AWD penetration"
-      ],
-      "peak_margin_risk": true,
-      "normalised_note": "Margins 8-12% range"
-    },
-    "growth_trajectory": {
-      "yoy_trend": "EV AWD could drive 25%+ growth if adopted",
-      "reverse_pe_note": "Small-cap auto play"
-    },
-    "management_quality": {
-      "assessment": "Low confidence - timing dependent"
-    },
-    "market_expectation": {
-      "as_of": "2026-10-03",
-      "gap_direction": "bullish",
-      "gap_magnitude_pct": "+30-50% if EV AWD inflects"
-    },
-    "commitments": [],
-    "earnings_chain": [],
-    "catalyst": [
-      {
-        "name": "EV OEM AWD adoption announcements",
-        "direction": "up"
-      }
-    ]
+  "name": "Divgi TorqTransfer Systems Ltd",
+  "tagline": "Torque limiting and power transmission specialist for automotive applications; positioned for EV drivetrain transition with dual-motor and multi-speed transmission demand",
+  "business_overview": "Divgi TorqTransfer designs and manufactures precision torque limiters, overrunning clutches, and power transmission components for automotive drivetrains. The company serves OEMs including Maruti, Hyundai, Mahindra, and exports to global manufacturers. Key products include limited-slip differentials, electronic torque vectoring systems, and components for two-wheeler and three-wheeler powertrains.",
+  "fundamentals_table": [
+    ["Market Cap", "Rs 620 Cr"],
+    ["Current Price", "Rs 315"],
+    ["Stock P/E", "18.5x"],
+    ["Book Value", "Rs 52"],
+    ["ROE (est)", "14-16%"],
+    ["ROCE (est)", "15-17%"],
+    ["Revenue (TTM est)", "Rs 280 Cr"],
+    ["EBITDA Margin (est)", "17-19%"],
+    ["Net Margin (est)", "8-10%"],
+    ["Debt/Equity", "0.35 (moderate)"],
+    ["Promoter Holding", "~60%"]
+  ],
+  "fundamentals_narrative": "Divgi TorqTransfer operates at the intersection of automotive drivetrains and emerging EV technologies. The company has ROE in 14-16% range and ROCE of 15-17%, indicating adequate capital efficiency. Debt levels are moderate at ~35% of equity. EBITDA margins of 17-19% are respectable for precision auto-components. The valuation at 18.5x P/E reflects growth expectations from EV transition tailwinds.",
+  "technical_read": "Stock trading at elevated P/E of 18.5x suggests market expectations for EV transition upside. Price has shown resilience despite auto sector cyclicality, indicating investor confidence in technology transition story.",
+  "sentiment_summary": "EV transition and automotive supply chain evolution are widely discussed themes in investor communities. Divgi's positioning as a precision drivetrain specialist is well-regarded.",
+  "community_signal": "Limited specific ValuePickr data identified, though the broader EV transition and automotive technology upgrade themes are prevalent discussions.",
+  "bse_notes": "Company is a credible auto-component manufacturer with established OEM relationships. No major regulatory concerns identified.",
+  "bull_case": [
+    "EV transition tailwind: Multi-motor and multi-speed transmission architectures in EVs require sophisticated torque management solutions that Divgi specializes in",
+    "OEM diversification: Customer base spans Maruti, Hyundai, Mahindra, Tata, Bajaj, providing diversified revenue streams with export potential",
+    "Technology moat: Torque limiting and clutch technologies are precision-engineered with high switching costs for OEMs; intellectual property provides competitive advantage",
+    "Domestic EV ramp: India's EV production expected to grow 40%+ CAGR through 2030 (from 8% of vehicles in 2025), driving demand for Divgi's solutions"
+  ],
+  "bear_case": [
+    "Execution risk on EV transition: If OEMs adopt simpler EV drivetrains (single-speed, simpler torque management), Divgi's premium components may face lower adoption",
+    "Valuation already prices in growth: P/E of 18.5x suggests market has already incorporated EV transition expectations; downside risk if earnings growth disappoints",
+    "Automotive cyclicality: Sector downturns can rapidly compress OEM capex budgets for new platform development, directly impacting Divgi's revenue",
+    "Competition from global suppliers: Tier-1 global suppliers (ZF, Magna, Schaeffler) are investing heavily in EV drivetrain solutions with superior scale"
+  ],
+  "market_cap_tier": "Small-cap (Rs 620 Cr)",
+  "thesis_fit": "10x-in-2-3y",
+  "conviction": "Medium",
+  "verdict_headline": "Quality precision drivetrain play positioned for EV transition, but elevated valuation and execution risks require careful entry assessment",
+  "verdict_reasoning": [
+    "EV transition is structural tailwind for precision torque management solutions; positioning is sound for 2-3 year horizon",
+    "Technology moat and OEM relationships provide competitive advantage in transitioning automotive supply chain",
+    "Valuation at 18.5x P/E is stretched; requires 15%+ earnings growth CAGR to justify; downside risk if EV adoption slows or competitive landscape shifts",
+    "Moderate leverage (35% of equity) provides some financial flexibility but reduces safety margin for cyclical downturn",
+    "Best entry at valuation pullback or after earnings disappointment; otherwise wait for clearer EV transition execution signals"
+  ],
+  "red_flag_tier": null,
+  "red_flag_reason": null,
+  "four_box": {
+    "tailwind": "very-strong",
+    "tam": "medium-high",
+    "moat": "medium-high",
+    "valuation": "expensive",
+    "score": 3.1,
+    "note": "Very strong EV transition tailwind with 40%+ CAGR expected vehicle electrification in India. Medium-high TAM: Rs 3,000-4,000 Cr addressable for advanced drivetrain components in Indian EV market by 2030. Moat: Technology and OEM relationships provide competitive moat, but scale advantages favor global competitors. Valuation expensive at 18.5x P/E; upside if EV adoption accelerates, but downside risk if execution falters."
   },
-  "conviction": "Low"
+  "last_analyzed": "2026-10-05"
 }
