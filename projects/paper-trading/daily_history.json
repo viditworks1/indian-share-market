@@ -9677,6 +9677,59 @@
     },
     {
       "date": "2026-10-05",
+      "week_id": "2026-W41",
+      "series": "concentrated",
+      "days_live": 2,
+      "current_value": 101588.05,
+      "return_pct": 1.59,
+      "day_change_value": null,
+      "day_change_pct": null,
+      "cash": 8943.85,
+      "holdings": [
+        {
+          "name": "Venus Remedies",
+          "price": 1778.0,
+          "as_of": "2026-10-05",
+          "value": 23114.0,
+          "return_pct": -1.04,
+          "stale": false
+        },
+        {
+          "name": "Aeroflex Industries",
+          "price": 544.35,
+          "as_of": "2026-10-05",
+          "value": 20685.3,
+          "return_pct": 4.41,
+          "stale": false
+        },
+        {
+          "name": "Yash Highvoltage",
+          "price": 1155.6,
+          "as_of": "2026-10-05",
+          "value": 20800.8,
+          "return_pct": 4.51,
+          "stale": false
+        },
+        {
+          "name": "Macpower CNC Machines",
+          "price": 2160.5,
+          "as_of": "2026-10-05",
+          "value": 15123.5,
+          "return_pct": 0.73,
+          "stale": false
+        },
+        {
+          "name": "Bansal Roofing Products",
+          "price": 167.8,
+          "as_of": "2026-10-05",
+          "value": 12920.6,
+          "return_pct": -0.39,
+          "stale": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
       "week_id": "2026-W35-inaugural",
       "series": "standard",
       "days_live": 45,
@@ -10128,6 +10181,67 @@
           "as_of": "2026-10-05",
           "value": 8521.25,
           "return_pct": 5.91,
+          "stale": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "week_id": "2026-W41",
+      "series": "standard",
+      "days_live": 2,
+      "current_value": 100316.25,
+      "return_pct": 0.32,
+      "day_change_value": null,
+      "day_change_pct": null,
+      "cash": 18226.65,
+      "holdings": [
+        {
+          "name": "Thyrocare",
+          "price": 542.05,
+          "as_of": "2026-10-05",
+          "value": 14093.3,
+          "return_pct": 1.58,
+          "stale": false
+        },
+        {
+          "name": "Venus Remedies",
+          "price": 1778.0,
+          "as_of": "2026-10-05",
+          "value": 16002.0,
+          "return_pct": -1.04,
+          "stale": false
+        },
+        {
+          "name": "Dynamic Cables",
+          "price": 434.85,
+          "as_of": "2026-10-05",
+          "value": 14350.05,
+          "return_pct": 1.6,
+          "stale": false
+        },
+        {
+          "name": "Ajanta Pharma",
+          "price": 3486.0,
+          "as_of": "2026-10-05",
+          "value": 10458.0,
+          "return_pct": -2.65,
+          "stale": false
+        },
+        {
+          "name": "Aeroflex Industries",
+          "price": 544.35,
+          "as_of": "2026-10-05",
+          "value": 14697.45,
+          "return_pct": 4.41,
+          "stale": false
+        },
+        {
+          "name": "Acutaas Chemicals",
+          "price": 3122.2,
+          "as_of": "2026-10-05",
+          "value": 12488.8,
+          "return_pct": -2.32,
           "stale": false
         }
       ]

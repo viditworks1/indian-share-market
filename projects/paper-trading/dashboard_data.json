@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05 19:49",
+  "generated_at": "2026-10-05 19:55",
   "as_of_date": "2026-10-05",
   "capital": 100000,
   "composite_weights": {
@@ -1266,19 +1266,227 @@
           "contribution_pct": 0.05
         }
       ]
+    },
+    {
+      "week_id": "2026-W41",
+      "series": "standard",
+      "decided_date": "2026-10-05",
+      "entry_price_date": "2026-10-03",
+      "days_live": 2,
+      "invested": 81773.35,
+      "cash": 18226.65,
+      "current_value": 100316.25,
+      "return_pct": 0.32,
+      "day_change_value": null,
+      "day_change_pct": null,
+      "prev_snapshot_date": null,
+      "holdings": [
+        {
+          "name": "Thyrocare",
+          "symbol": "THYROCARE.NS",
+          "weight_pct": 14.308943089430894,
+          "conviction_score": null,
+          "entry_price": 533.6,
+          "shares": 26,
+          "invested": 13873.6,
+          "price": 542.05,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "value": 14093.3,
+          "return_pct": 1.58,
+          "day_change_pct": null,
+          "contribution_pct": 0.22
+        },
+        {
+          "name": "Venus Remedies",
+          "symbol": "VENUSREM.NS",
+          "weight_pct": 16.455284552845526,
+          "conviction_score": null,
+          "entry_price": 1796.7,
+          "shares": 9,
+          "invested": 16170.3,
+          "price": 1778.0,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "value": 16002.0,
+          "return_pct": -1.04,
+          "day_change_pct": null,
+          "contribution_pct": -0.17
+        },
+        {
+          "name": "Dynamic Cables",
+          "symbol": "DYCL.NS",
+          "weight_pct": 14.308943089430894,
+          "conviction_score": null,
+          "entry_price": 428.0,
+          "shares": 33,
+          "invested": 14124.0,
+          "price": 434.85,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "value": 14350.05,
+          "return_pct": 1.6,
+          "day_change_pct": null,
+          "contribution_pct": 0.23
+        },
+        {
+          "name": "Ajanta Pharma",
+          "symbol": "AJANTPHARM.NS",
+          "weight_pct": 14.308943089430894,
+          "conviction_score": null,
+          "entry_price": 3581.0,
+          "shares": 3,
+          "invested": 10743.0,
+          "price": 3486.0,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "value": 10458.0,
+          "return_pct": -2.65,
+          "day_change_pct": null,
+          "contribution_pct": -0.29
+        },
+        {
+          "name": "Aeroflex Industries",
+          "symbol": "AEROFLEX.NS",
+          "weight_pct": 14.308943089430894,
+          "conviction_score": null,
+          "entry_price": 521.35,
+          "shares": 27,
+          "invested": 14076.45,
+          "price": 544.35,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "value": 14697.45,
+          "return_pct": 4.41,
+          "day_change_pct": null,
+          "contribution_pct": 0.62
+        },
+        {
+          "name": "Acutaas Chemicals",
+          "symbol": "ACUTAAS.NS",
+          "weight_pct": 14.308943089430894,
+          "conviction_score": null,
+          "entry_price": 3196.5,
+          "shares": 4,
+          "invested": 12786.0,
+          "price": 3122.2,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "value": 12488.8,
+          "return_pct": -2.32,
+          "day_change_pct": null,
+          "contribution_pct": -0.3
+        }
+      ]
+    },
+    {
+      "week_id": "2026-W41",
+      "series": "concentrated",
+      "decided_date": "2026-10-05",
+      "entry_price_date": "2026-10-03",
+      "days_live": 2,
+      "invested": 91056.15,
+      "cash": 8943.85,
+      "current_value": 101588.05,
+      "return_pct": 1.59,
+      "day_change_value": null,
+      "day_change_pct": null,
+      "prev_snapshot_date": null,
+      "holdings": [
+        {
+          "name": "Venus Remedies",
+          "symbol": "VENUSREM.NS",
+          "weight_pct": 25,
+          "conviction_score": null,
+          "entry_price": 1796.7,
+          "shares": 13,
+          "invested": 23357.1,
+          "price": 1778.0,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "value": 23114.0,
+          "return_pct": -1.04,
+          "day_change_pct": null,
+          "contribution_pct": -0.24
+        },
+        {
+          "name": "Aeroflex Industries",
+          "symbol": "AEROFLEX.NS",
+          "weight_pct": 20,
+          "conviction_score": null,
+          "entry_price": 521.35,
+          "shares": 38,
+          "invested": 19811.3,
+          "price": 544.35,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "value": 20685.3,
+          "return_pct": 4.41,
+          "day_change_pct": null,
+          "contribution_pct": 0.87
+        },
+        {
+          "name": "Yash Highvoltage",
+          "symbol": "YASHHV.BO",
+          "weight_pct": 20,
+          "conviction_score": null,
+          "entry_price": 1105.75,
+          "shares": 18,
+          "invested": 19903.5,
+          "price": 1155.6,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "value": 20800.8,
+          "return_pct": 4.51,
+          "day_change_pct": null,
+          "contribution_pct": 0.9
+        },
+        {
+          "name": "Macpower CNC Machines",
+          "symbol": "MACPOWER.NS",
+          "weight_pct": 17,
+          "conviction_score": null,
+          "entry_price": 2144.8,
+          "shares": 7,
+          "invested": 15013.6,
+          "price": 2160.5,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "value": 15123.5,
+          "return_pct": 0.73,
+          "day_change_pct": null,
+          "contribution_pct": 0.11
+        },
+        {
+          "name": "Bansal Roofing Products",
+          "symbol": "BRPL.BO",
+          "weight_pct": 13,
+          "conviction_score": null,
+          "entry_price": 168.45,
+          "shares": 77,
+          "invested": 12970.65,
+          "price": 167.8,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "value": 12920.6,
+          "return_pct": -0.39,
+          "day_change_pct": null,
+          "contribution_pct": -0.05
+        }
+      ]
     }
   ],
   "series_summary": {
     "standard": {
-      "count": 5,
-      "avg_return_pct": 3.97
+      "count": 6,
+      "avg_return_pct": 3.36
     },
     "concentrated": {
-      "count": 4,
-      "avg_return_pct": 3.82
+      "count": 5,
+      "avg_return_pct": 3.37
     }
   },
-  "age_matched_note": "~1wk old: standard +0.58% vs concentrated +4.22%; ~2wk old: standard -0.02% vs concentrated +3.87%; ~4wk old: standard +3.22% vs concentrated +5.15%; ~5wk old: standard +6.36% vs concentrated +2.04%",
+  "age_matched_note": "~0wk old: standard +0.32% vs concentrated +1.59%; ~1wk old: standard +0.58% vs concentrated +4.22%; ~2wk old: standard -0.02% vs concentrated +3.87%; ~4wk old: standard +3.22% vs concentrated +5.15%; ~5wk old: standard +6.36% vs concentrated +2.04%",
   "value_timeseries": {
     "2026-W36 / concentrated": [
       {
@@ -2160,6 +2368,34 @@
         "indexed": 100.578,
         "value": 100578.2,
         "return_pct": 0.58
+      }
+    ],
+    "2026-W41 / concentrated": [
+      {
+        "date": "2026-10-03",
+        "indexed": 100.0,
+        "value": 100000,
+        "return_pct": 0.0
+      },
+      {
+        "date": "2026-10-05",
+        "indexed": 101.588,
+        "value": 101588.05,
+        "return_pct": 1.59
+      }
+    ],
+    "2026-W41 / standard": [
+      {
+        "date": "2026-10-03",
+        "indexed": 100.0,
+        "value": 100000,
+        "return_pct": 0.0
+      },
+      {
+        "date": "2026-10-05",
+        "indexed": 100.316,
+        "value": 100316.25,
+        "return_pct": 0.32
       }
     ]
   },
@@ -3729,75 +3965,310 @@
         "hard_stop_pct": -16,
         "review_dates": []
       }
+    },
+    {
+      "week_id": "2026-W41",
+      "decided_date": "2026-10-05",
+      "start_date": "2026-10-03",
+      "horizon_end_date": "2027-04-05",
+      "days_to_horizon": 182,
+      "as_of": "2026-10-05",
+      "port_value": 100482.64,
+      "port_return_pct": 0.48,
+      "day_change_pct": null,
+      "invested_value": 96047.69,
+      "cash": 4434.95,
+      "benchmark": {
+        "label": "Nifty Smallcap 250",
+        "symbol": "NIFTYSMLCAP250.NS",
+        "start": 17589.05,
+        "now": 17655.35,
+        "return_pct": 0.38,
+        "as_of": "2026-10-05"
+      },
+      "alpha_pct": 0.1,
+      "flags": [
+        "EXTENDED (+50% vs 30W EMA)",
+        "LEADER (+32pp vs benchmark/13wk)",
+        "LEADER (+44pp vs benchmark/13wk)",
+        "LEADER (+46pp vs benchmark/13wk)",
+        "LEADER (+53pp vs benchmark/13wk)",
+        "LEADER (+55pp vs benchmark/13wk)",
+        "LEADER (+59pp vs benchmark/13wk)"
+      ],
+      "holdings": [
+        {
+          "name": "Sambhv Steel Tubes",
+          "symbol": "SAMBHV.NS",
+          "weight_pct": 16,
+          "entry_price": 161.45,
+          "price": 164.66,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "shares": 99,
+          "invested": 15983.55,
+          "value": 16301.34,
+          "return_pct": 1.99,
+          "day_change_pct": 1.99,
+          "hard_stop": 135.62,
+          "dist_to_stop_pct": 21.4,
+          "ext_vs_30w_ema_pct": 31.5,
+          "ema_slope_pct": 11.2,
+          "rel_strength_pct": 46.0,
+          "catalyst": "Q2-Q4 FY27 trajectory, 2 consec Q accelerating quality growth",
+          "flags": [
+            "LEADER (+46pp vs benchmark/13wk)"
+          ]
+        },
+        {
+          "name": "Neetu Yoshi",
+          "symbol": "NEETUYOSHI.BO",
+          "weight_pct": 16,
+          "entry_price": 238.85,
+          "price": 231.15,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "shares": 66,
+          "invested": 15764.1,
+          "value": 15255.9,
+          "return_pct": -3.22,
+          "day_change_pct": -3.22,
+          "hard_stop": 200.63,
+          "dist_to_stop_pct": 15.2,
+          "ext_vs_30w_ema_pct": 50.1,
+          "ema_slope_pct": 23.7,
+          "rel_strength_pct": 59.4,
+          "catalyst": "Capacity doubling completion Sep 2026, H1FY27 ramp",
+          "flags": [
+            "EXTENDED (+50% vs 30W EMA)",
+            "LEADER (+59pp vs benchmark/13wk)"
+          ]
+        },
+        {
+          "name": "Electronics Mart India",
+          "symbol": "EMIL.NS",
+          "weight_pct": 15,
+          "entry_price": 204.05,
+          "price": 205.1,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "shares": 73,
+          "invested": 14895.65,
+          "value": 14972.3,
+          "return_pct": 0.51,
+          "day_change_pct": 0.51,
+          "hard_stop": 171.4,
+          "dist_to_stop_pct": 19.7,
+          "ext_vs_30w_ema_pct": 36.2,
+          "ema_slope_pct": 23.7,
+          "rel_strength_pct": 55.4,
+          "catalyst": "Q1FY27 PAT +458% blockbuster, seasonal peak Dec-quarter",
+          "flags": [
+            "LEADER (+55pp vs benchmark/13wk)"
+          ]
+        },
+        {
+          "name": "Macpower CNC Machines",
+          "symbol": "MACPOWER.NS",
+          "weight_pct": 15,
+          "entry_price": 2144.8,
+          "price": 2160.5,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "shares": 6,
+          "invested": 12868.8,
+          "value": 12963.0,
+          "return_pct": 0.73,
+          "day_change_pct": 0.73,
+          "hard_stop": 1801.63,
+          "dist_to_stop_pct": 19.9,
+          "ext_vs_30w_ema_pct": 43.7,
+          "ema_slope_pct": 29.7,
+          "rel_strength_pct": 53.2,
+          "catalyst": "4 straight Q inflection, Q1FY27 rev +56%, ramping through FY27",
+          "flags": [
+            "LEADER (+53pp vs benchmark/13wk)"
+          ]
+        },
+        {
+          "name": "Aimtron Electronics",
+          "symbol": "AIMTRON.NS",
+          "weight_pct": 14,
+          "entry_price": 1898.85,
+          "price": 1898.85,
+          "as_of": "2026-10-01",
+          "stale": true,
+          "shares": 7,
+          "invested": 13291.95,
+          "value": 13291.95,
+          "return_pct": -0.0,
+          "day_change_pct": -2.64,
+          "hard_stop": 1595.03,
+          "dist_to_stop_pct": 19.0,
+          "ext_vs_30w_ema_pct": 37.4,
+          "ema_slope_pct": 22.6,
+          "rel_strength_pct": 44.2,
+          "catalyst": "FY26 rev ~2x verified beat, PAT +77%, ramping H1/H2 FY27",
+          "flags": [
+            "LEADER (+44pp vs benchmark/13wk)"
+          ]
+        },
+        {
+          "name": "Yash Highvoltage",
+          "symbol": "YASHHV.BO",
+          "weight_pct": 14,
+          "entry_price": 1105.75,
+          "price": 1155.6,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "shares": 12,
+          "invested": 13269.0,
+          "value": 13867.2,
+          "return_pct": 4.51,
+          "day_change_pct": 4.51,
+          "hard_stop": 928.83,
+          "dist_to_stop_pct": 24.4,
+          "ext_vs_30w_ema_pct": 33.0,
+          "ema_slope_pct": 17.7,
+          "rel_strength_pct": 31.7,
+          "catalyst": "Vadodara commissioning H1FY27, RIP from Oct",
+          "flags": [
+            "LEADER (+32pp vs benchmark/13wk)"
+          ]
+        },
+        {
+          "name": "Apcotex Industries",
+          "symbol": "APCOTEXIND.NS",
+          "weight_pct": 10,
+          "entry_price": 593.25,
+          "price": 587.25,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "shares": 16,
+          "invested": 9492.0,
+          "value": 9396.0,
+          "return_pct": -1.01,
+          "day_change_pct": -1.01,
+          "hard_stop": 498.33,
+          "dist_to_stop_pct": 17.8,
+          "ext_vs_30w_ema_pct": 11.8,
+          "ema_slope_pct": 11.7,
+          "rel_strength_pct": 17.3,
+          "catalyst": "Record Q1FY27 rev +40% PAT +311%, specialty chem acceleration",
+          "flags": []
+        }
+      ],
+      "value_history": [
+        {
+          "date": "2026-10-03",
+          "indexed": 100.0,
+          "value": 100000,
+          "return_pct": 0.0,
+          "benchmark_return_pct": 0.0
+        },
+        {
+          "date": "2026-10-05",
+          "indexed": 100.483,
+          "value": 100482.64,
+          "return_pct": 0.48,
+          "benchmark_return_pct": 0.38
+        }
+      ],
+      "market_regime": {
+        "label": "Nifty Smallcap 250",
+        "symbol": "NIFTYSMLCAP250.NS",
+        "available": true,
+        "ext_pct": 0.4,
+        "ema": 17520.56,
+        "as_of": "2026-09-27",
+        "downtrend": false
+      },
+      "rules": {
+        "hard_stop_pct": -16,
+        "review_dates": []
+      }
     }
   ],
   "live_recommendation": {
     "inception_date": "2026-09-11",
-    "version": 7,
-    "source_revision": "Confluence-100 allocation (3 Oct 2026, cash 25.0%)",
+    "version": 8,
+    "source_revision": "Confluence-100 allocation (5 Oct 2026, cash 12.0%)",
     "as_of": "2026-10-05",
     "nav": 102528.32,
     "return_pct": 2.53,
     "day_change_pct": -1.09,
-    "invested_value": 74088.85,
-    "cash": 28439.47,
+    "invested_value": 85777.65,
+    "cash": 16750.67,
     "holdings": [
       {
         "name": "Venus Remedies",
         "symbol": "VENUSREM.NS",
-        "weight_pct": 14.024390243902438,
+        "weight_pct": 16.455284552845526,
         "entry_price": 1778.0,
-        "shares": 8,
-        "invested": 14224.0,
+        "shares": 9,
+        "invested": 16002.0,
         "price": 1778.0,
         "as_of": "2026-10-05",
         "stale": false,
-        "value": 14224.0,
+        "value": 16002.0,
         "return_pct": 0.0
       },
       {
         "name": "Thyrocare",
         "symbol": "THYROCARE.NS",
-        "weight_pct": 12.195121951219512,
+        "weight_pct": 14.308943089430894,
         "entry_price": 542.05,
-        "shares": 23,
-        "invested": 12467.15,
+        "shares": 27,
+        "invested": 14635.35,
         "price": 542.05,
         "as_of": "2026-10-05",
         "stale": false,
-        "value": 12467.15,
+        "value": 14635.35,
+        "return_pct": -0.0
+      },
+      {
+        "name": "Dynamic Cables",
+        "symbol": "DYNAMIC.NS",
+        "weight_pct": 14.308943089430894,
+        "entry_price": 129.95,
+        "shares": 112,
+        "invested": 14554.4,
+        "price": 129.95,
+        "as_of": "2026-10-01",
+        "stale": true,
+        "value": 14554.4,
         "return_pct": -0.0
       },
       {
         "name": "Ajanta Pharma",
         "symbol": "AJANTPHARM.NS",
-        "weight_pct": 12.195121951219512,
+        "weight_pct": 14.308943089430894,
         "entry_price": 3486.0,
-        "shares": 3,
-        "invested": 10458.0,
+        "shares": 4,
+        "invested": 13944.0,
         "price": 3486.0,
         "as_of": "2026-10-05",
         "stale": false,
-        "value": 10458.0,
+        "value": 13944.0,
         "return_pct": 0.0
       },
       {
-        "name": "Dynamic Cables",
-        "symbol": "DYNAMIC.NS",
-        "weight_pct": 12.195121951219512,
-        "entry_price": 129.95,
-        "shares": 96,
-        "invested": 12475.2,
-        "price": 129.95,
-        "as_of": "2026-10-01",
-        "stale": true,
-        "value": 12475.2,
+        "name": "Aeroflex Industries",
+        "symbol": "AEROFLEX.NS",
+        "weight_pct": 14.308943089430894,
+        "entry_price": 544.35,
+        "shares": 26,
+        "invested": 14153.1,
+        "price": 544.35,
+        "as_of": "2026-10-05",
+        "stale": false,
+        "value": 14153.1,
         "return_pct": -0.0
       },
       {
         "name": "Acutaas Chemicals",
         "symbol": "ACUTAAS.NS",
-        "weight_pct": 12.195121951219512,
+        "weight_pct": 14.308943089430894,
         "entry_price": 3122.2,
         "shares": 4,
         "invested": 12488.8,
@@ -3805,19 +4276,6 @@
         "as_of": "2026-10-05",
         "stale": false,
         "value": 12488.8,
-        "return_pct": -0.0
-      },
-      {
-        "name": "Aeroflex Industries",
-        "symbol": "AEROFLEX.NS",
-        "weight_pct": 12.195121951219512,
-        "entry_price": 544.35,
-        "shares": 22,
-        "invested": 11975.7,
-        "price": 544.35,
-        "as_of": "2026-10-05",
-        "stale": false,
-        "value": 11975.7,
         "return_pct": -0.0
       }
     ],
@@ -3874,6 +4332,12 @@
         "date": "2026-10-05",
         "version": 7,
         "reason": "added Thyrocare; reweighted Acutaas Chemicals, Aeroflex Industries, Ajanta Pharma, Dynamic Cables, Venus Remedies",
+        "nav": 102528.32
+      },
+      {
+        "date": "2026-10-05",
+        "version": 8,
+        "reason": "reweighted Acutaas Chemicals, Aeroflex Industries, Ajanta Pharma, Dynamic Cables, Thyrocare, Venus Remedies",
         "nav": 102528.32
       }
     ],

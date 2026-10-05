@@ -6,7 +6,7 @@ This is a **forward-testing** journal, not a backtest. Every Monday a brand-new,
 - **standard** — mirrors the recommendation's current allocation as-is (~10 diversified positions).
 - **concentrated** — top-5 of the candidate universe by a **2-factor composite** (`master_score` 75% + technical 25%, technical itself weekly EMA 60% / monthly EMA 40%), sized 25/20/20/17/13. `master_score` (valuepickr-open-screen, built from studying real high-return investors' documented methods) is itself a renormalized blend of conviction + quality + expectation-gap + consistency + asymmetry — see `valuepickr-open-screen/scripts/MASTER_SCORE_METHODOLOGY.md`. Before 2026-09-05 this was a 4-factor composite (conviction 30% + gap 30% + fundamental screen-tier 25% + weekly technical 15%); before 2026-09-01 it ranked on conviction score alone. Conviction/gap/fundamental-tier are still shown per-name for context, just no longer weighted separately into the composite (they'd double-count against `master_score`).
 
-**Last updated:** 2026-10-05 (generated 2026-10-05 19:49). Daily history: 23 day(s) recorded.
+**Last updated:** 2026-10-05 (generated 2026-10-05 19:55). Daily history: 23 day(s) recorded.
 
 ---
 
@@ -23,11 +23,13 @@ This is a **forward-testing** journal, not a backtest. Every Monday a brand-new,
 | 2026-W39 | concentrated | 2026-09-21 | 2026-09-18 | 17 | 103,873.05 | +0.30% | **+3.87%** |
 | 2026-W40 | standard | 2026-09-28 | 2026-09-25 | 10 | 100,578.20 | -0.06% | **+0.58%** |
 | 2026-W40 | concentrated | 2026-09-28 | 2026-09-25 | 10 | 104,217.00 | +2.09% | **+4.22%** |
+| 2026-W41 | standard | 2026-10-05 | 2026-10-03 | 2 | 100,316.25 | — | **+0.32%** |
+| 2026-W41 | concentrated | 2026-10-05 | 2026-10-03 | 2 | 101,588.05 | — | **+1.59%** |
 
-*Concentrated series: 4 cohort(s), average return **+3.82%**.*
-*Standard series: 5 cohort(s), average return **+3.97%**.*
+*Concentrated series: 5 cohort(s), average return **+3.37%**.*
+*Standard series: 6 cohort(s), average return **+3.36%**.*
 
-**Age-matched:** ~1wk old: standard +0.58% vs concentrated +4.22%; ~2wk old: standard -0.02% vs concentrated +3.87%; ~4wk old: standard +3.22% vs concentrated +5.15%; ~5wk old: standard +6.36% vs concentrated +2.04%.
+**Age-matched:** ~0wk old: standard +0.32% vs concentrated +1.59%; ~1wk old: standard +0.58% vs concentrated +4.22%; ~2wk old: standard -0.02% vs concentrated +3.87%; ~4wk old: standard +3.22% vs concentrated +5.15%; ~5wk old: standard +6.36% vs concentrated +2.04%.
 
 ---
 
@@ -229,6 +231,37 @@ Decided 2026-09-28, entry-priced off 2026-09-25 close. 10 days live. Invested Rs
 | Bansal Roofing Products | 13 | 167.10 | 77 | 12,866.70 | 167.80 | 2026-10-05 | -1.90% | +0.42% | +0.05 |
 | **Cash** | | | | 8,940.60 | | | | — | 0.00 |
 | **Total** | | | | **100,000.00** | | | +2.09% | **+4.22%** | +4.22 |
+
+
+## Cohort: 2026-W41 (standard)
+
+Decided 2026-10-05, entry-priced off 2026-10-03 close. 2 days live. Invested Rs 81,773.35 / cash Rs 18,226.65.
+
+| Holding | Wt % | Entry | Shares | Invested | Price | As of | 1-Day | Return % | Contrib pp |
+|---|---:|---:|---:|---:|---:|---|---:|---:|---:|
+| Aeroflex Industries | 14.308943089430894 | 521.35 | 27 | 14,076.45 | 544.35 | 2026-10-05 | — | +4.41% | +0.62 |
+| Dynamic Cables | 14.308943089430894 | 428.00 | 33 | 14,124.00 | 434.85 | 2026-10-05 | — | +1.60% | +0.23 |
+| Thyrocare | 14.308943089430894 | 533.60 | 26 | 13,873.60 | 542.05 | 2026-10-05 | — | +1.58% | +0.22 |
+| Venus Remedies | 16.455284552845526 | 1,796.70 | 9 | 16,170.30 | 1,778.00 | 2026-10-05 | — | -1.04% | -0.17 |
+| Ajanta Pharma | 14.308943089430894 | 3,581.00 | 3 | 10,743.00 | 3,486.00 | 2026-10-05 | — | -2.65% | -0.29 |
+| Acutaas Chemicals | 14.308943089430894 | 3,196.50 | 4 | 12,786.00 | 3,122.20 | 2026-10-05 | — | -2.32% | -0.30 |
+| **Cash** | | | | 18,226.65 | | | | — | 0.00 |
+| **Total** | | | | **100,000.00** | | | — | **+0.32%** | +0.32 |
+
+
+## Cohort: 2026-W41 (concentrated)
+
+Decided 2026-10-05, entry-priced off 2026-10-03 close. 2 days live. Invested Rs 91,056.15 / cash Rs 8,943.85.
+
+| Holding | Wt % | Entry | Shares | Invested | Price | As of | 1-Day | Return % | Contrib pp |
+|---|---:|---:|---:|---:|---:|---|---:|---:|---:|
+| Yash Highvoltage | 20 | 1,105.75 | 18 | 19,903.50 | 1,155.60 | 2026-10-05 | — | +4.51% | +0.90 |
+| Aeroflex Industries | 20 | 521.35 | 38 | 19,811.30 | 544.35 | 2026-10-05 | — | +4.41% | +0.87 |
+| Macpower CNC Machines | 17 | 2,144.80 | 7 | 15,013.60 | 2,160.50 | 2026-10-05 | — | +0.73% | +0.11 |
+| Bansal Roofing Products | 13 | 168.45 | 77 | 12,970.65 | 167.80 | 2026-10-05 | — | -0.39% | -0.05 |
+| Venus Remedies | 25 | 1,796.70 | 13 | 23,357.10 | 1,778.00 | 2026-10-05 | — | -1.04% | -0.24 |
+| **Cash** | | | | 8,943.85 | | | | — | 0.00 |
+| **Total** | | | | **100,000.00** | | | — | **+1.59%** | +1.59 |
 
 
 ---

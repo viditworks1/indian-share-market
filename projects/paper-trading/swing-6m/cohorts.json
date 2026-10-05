@@ -435,6 +435,131 @@
       ],
       "invested": 98215.73,
       "cash": 1784.27
+    },
+    {
+      "week_id": "2026-W41",
+      "series": "swing",
+      "decided_date": "2026-10-05",
+      "entry_price_date": "2026-10-03",
+      "horizon_end_date": "2027-04-05",
+      "capital": 100000,
+      "benchmark": "Nifty Smallcap 250 (primary tracked; Nifty Microcap 250 TRI / BSE Smallcap TRI as originally specified in SWING_6M_PORTFOLIO.md but not reliably fetchable)",
+      "rules": {
+        "composite": "0.35*earnings_revision + 0.25*price_momentum_6m + 0.25*dated_catalyst_within_6m + 0.15*quality_floor",
+        "hard_stop_pct": -16,
+        "thesis_break_exit": "guidance cut, quarterly miss vs the tracked catalyst, or close below the rising 30W EMA for two consecutive weekly closes -> exit next session",
+        "trim_rule": "on catalyst realisation, if no new 20-day high within ~3 weeks of the event, cut the position by half",
+        "review_cadence_monthly": [],
+        "cash_band_pct": [
+          5,
+          10
+        ],
+        "single_name_cap_pct": 16,
+        "sme_or_thin_liquidity_cap_pct": 10,
+        "theme_cap_pct": 25
+      },
+      "source": "Hand-curated from swing_screen.py's momentum+catalyst scores (W41 2026-10-05). Top 7 candidates selected preferring dated catalysts within 6m horizon, avoiding vertical chases (>42% above 30W EMA as of entry), respecting single_name_cap 16% and theme_cap 25%.",
+      "holdings": [
+        {
+          "name": "Sambhv Steel Tubes",
+          "symbol": "SAMBHV.NS",
+          "bucket": "earnings-inflection",
+          "weight_pct": 16,
+          "entry_price": 161.45,
+          "shares": 99,
+          "invested": 15983.55,
+          "hard_stop": 135.62,
+          "swing_score": 78.0,
+          "ext_vs_30w_ema_pct": 0,
+          "catalyst": "Q2-Q4 FY27 trajectory, 2 consec Q accelerating quality growth",
+          "thesis": "momentum + dated catalyst"
+        },
+        {
+          "name": "Neetu Yoshi",
+          "symbol": "NEETUYOSHI.BO",
+          "bucket": "catalyst",
+          "weight_pct": 16,
+          "entry_price": 238.85,
+          "shares": 66,
+          "invested": 15764.1,
+          "hard_stop": 200.63,
+          "swing_score": 76.2,
+          "ext_vs_30w_ema_pct": 0,
+          "catalyst": "Capacity doubling completion Sep 2026, H1FY27 ramp",
+          "thesis": "momentum + dated catalyst"
+        },
+        {
+          "name": "Electronics Mart India",
+          "symbol": "EMIL.NS",
+          "bucket": "earnings-inflection",
+          "weight_pct": 15,
+          "entry_price": 204.05,
+          "shares": 73,
+          "invested": 14895.650000000001,
+          "hard_stop": 171.4,
+          "swing_score": 76.1,
+          "ext_vs_30w_ema_pct": 0,
+          "catalyst": "Q1FY27 PAT +458% blockbuster, seasonal peak Dec-quarter",
+          "thesis": "momentum + dated catalyst"
+        },
+        {
+          "name": "Macpower CNC Machines",
+          "symbol": "MACPOWER.NS",
+          "bucket": "earnings-inflection",
+          "weight_pct": 15,
+          "entry_price": 2144.8,
+          "shares": 6,
+          "invested": 12868.800000000001,
+          "hard_stop": 1801.63,
+          "swing_score": 73.7,
+          "ext_vs_30w_ema_pct": 0,
+          "catalyst": "4 straight Q inflection, Q1FY27 rev +56%, ramping through FY27",
+          "thesis": "momentum + dated catalyst"
+        },
+        {
+          "name": "Aimtron Electronics",
+          "symbol": "AIMTRON.NS",
+          "bucket": "earnings-inflection",
+          "weight_pct": 14,
+          "entry_price": 1898.85,
+          "shares": 7,
+          "invested": 13291.949999999999,
+          "hard_stop": 1595.03,
+          "swing_score": 71.0,
+          "ext_vs_30w_ema_pct": 0,
+          "catalyst": "FY26 rev ~2x verified beat, PAT +77%, ramping H1/H2 FY27",
+          "thesis": "momentum + dated catalyst"
+        },
+        {
+          "name": "Yash Highvoltage",
+          "symbol": "YASHHV.BO",
+          "bucket": "catalyst",
+          "weight_pct": 14,
+          "entry_price": 1105.75,
+          "shares": 12,
+          "invested": 13269.0,
+          "hard_stop": 928.83,
+          "swing_score": 63.7,
+          "ext_vs_30w_ema_pct": 0,
+          "catalyst": "Vadodara commissioning H1FY27, RIP from Oct",
+          "thesis": "momentum + dated catalyst"
+        },
+        {
+          "name": "Apcotex Industries",
+          "symbol": "APCOTEXIND.NS",
+          "bucket": "earnings-inflection",
+          "weight_pct": 10,
+          "entry_price": 593.25,
+          "shares": 16,
+          "invested": 9492.0,
+          "hard_stop": 498.33,
+          "swing_score": 43.5,
+          "ext_vs_30w_ema_pct": 0,
+          "catalyst": "Record Q1FY27 rev +40% PAT +311%, specialty chem acceleration",
+          "thesis": "momentum + dated catalyst"
+        }
+      ],
+      "cash": 4434.95
     }
   ]
 }

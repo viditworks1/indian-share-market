@@ -679,6 +679,141 @@
       ],
       "invested": 91059.4,
       "cash": 8940.6
+    },
+    {
+      "week_id": "2026-W41",
+      "series": "standard",
+      "decided_date": "2026-10-05",
+      "entry_price_date": "2026-10-03",
+      "capital": 100000,
+      "source": "Confluence-100 allocation (5 Oct 2026, Nifty Smallcap 250, market_regime cash 12.0%)",
+      "holdings": [
+        {
+          "name": "Thyrocare",
+          "symbol": "THYROCARE.NS",
+          "weight_pct": 14.308943089430894,
+          "entry_price": 533.6,
+          "shares": 26,
+          "invested": 13873.6
+        },
+        {
+          "name": "Venus Remedies",
+          "symbol": "VENUSREM.NS",
+          "weight_pct": 16.455284552845526,
+          "entry_price": 1796.7,
+          "shares": 9,
+          "invested": 16170.300000000001
+        },
+        {
+          "name": "Dynamic Cables",
+          "symbol": "DYCL.NS",
+          "weight_pct": 14.308943089430894,
+          "entry_price": 428.0,
+          "shares": 33,
+          "invested": 14124.0
+        },
+        {
+          "name": "Ajanta Pharma",
+          "symbol": "AJANTPHARM.NS",
+          "weight_pct": 14.308943089430894,
+          "entry_price": 3581.0,
+          "shares": 3,
+          "invested": 10743.0
+        },
+        {
+          "name": "Aeroflex Industries",
+          "symbol": "AEROFLEX.NS",
+          "weight_pct": 14.308943089430894,
+          "entry_price": 521.35,
+          "shares": 27,
+          "invested": 14076.45
+        },
+        {
+          "name": "Acutaas Chemicals",
+          "symbol": "ACUTAAS.NS",
+          "weight_pct": 14.308943089430894,
+          "entry_price": 3196.5,
+          "shares": 4,
+          "invested": 12786.0
+        }
+      ],
+      "cash": 18226.65
+    },
+    {
+      "week_id": "2026-W41",
+      "series": "concentrated",
+      "decided_date": "2026-10-05",
+      "entry_price_date": "2026-10-03",
+      "capital": 100000,
+      "source": "dashboard_data.json concentrated_next ranking: Venus Remedies: master 55.9 + tech 81.9 \u2192 composite 62.4; Aeroflex Industries: master 51.4 + tech 83.2 \u2192 composite 59.3; Yash Highvoltage: master 50.5 + tech 75.6 \u2192 composite 56.8; Macpower CNC Machines: master 48.4 + tech 65.1 \u2192 composite 52.6; Bansal Roofing Products: master 38.8 + tech 86.3 \u2192 composite 50.7",
+      "holdings": [
+        {
+          "name": "Venus Remedies",
+          "symbol": "VENUSREM.NS",
+          "weight_pct": 25,
+          "entry_price": 1796.7,
+          "shares": 13,
+          "invested": 23357.100000000002,
+          "composite_score": 62.4,
+          "master": 55.9,
+          "technical": 81.9,
+          "conviction": 81.4,
+          "gap": 3.8
+        },
+        {
+          "name": "Aeroflex Industries",
+          "symbol": "AEROFLEX.NS",
+          "weight_pct": 20,
+          "entry_price": 521.35,
+          "shares": 38,
+          "invested": 19811.3,
+          "composite_score": 59.34,
+          "master": 51.4,
+          "technical": 83.2,
+          "conviction": 74.6,
+          "gap": 5.5
+        },
+        {
+          "name": "Yash Highvoltage",
+          "symbol": "YASHHV.BO",
+          "weight_pct": 20,
+          "entry_price": 1105.75,
+          "shares": 18,
+          "invested": 19903.5,
+          "composite_score": 56.77,
+          "master": 50.5,
+          "technical": 75.6,
+          "conviction": 49.4,
+          "gap": 37.0
+        },
+        {
+          "name": "Macpower CNC Machines",
+          "symbol": "MACPOWER.NS",
+          "weight_pct": 17,
+          "entry_price": 2144.8,
+          "shares": 7,
+          "invested": 15013.600000000002,
+          "composite_score": 52.57,
+          "master": 48.4,
+          "technical": 65.1,
+          "conviction": 43.8,
+          "gap": 3.5
+        },
+        {
+          "name": "Bansal Roofing Products",
+          "symbol": "BRPL.BO",
+          "weight_pct": 13,
+          "entry_price": 168.45,
+          "shares": 77,
+          "invested": 12970.65,
+          "composite_score": 50.66,
+          "master": 38.8,
+          "technical": 86.3,
+          "conviction": 22.2,
+          "gap": 5.9
+        }
+      ],
+      "cash": 8943.85
     }
   ]
 }

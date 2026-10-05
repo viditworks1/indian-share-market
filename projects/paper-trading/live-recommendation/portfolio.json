@@ -2,60 +2,60 @@
   "_readme": "LIVE recommendation tracker. SEPARATE from paper-trading/cohorts.json (frozen weekly cohorts) and swing-6m/cohorts.json (actively-managed swing cohorts). This single book always mirrors the CURRENT Confluence-100 allocation, auto-rebalancing at live prices. Script-owned (rebuild.py) -- do not hand-edit holdings/cash; edit Confluence-100 instead.",
   "inception_date": "2026-09-11",
   "inception_capital": 100000,
-  "version": 7,
+  "version": 8,
   "effective_date": "2026-10-05",
-  "source_revision": "Confluence-100 allocation (3 Oct 2026, cash 25.0%)",
+  "source_revision": "Confluence-100 allocation (5 Oct 2026, cash 12.0%)",
   "holdings": [
     {
       "name": "Venus Remedies",
       "symbol": "VENUSREM.NS",
-      "weight_pct": 14.024390243902438,
+      "weight_pct": 16.455284552845526,
       "entry_price": 1778.0,
-      "shares": 8,
-      "invested": 14224.0
+      "shares": 9,
+      "invested": 16002.0
     },
     {
       "name": "Thyrocare",
       "symbol": "THYROCARE.NS",
-      "weight_pct": 12.195121951219512,
+      "weight_pct": 14.308943089430894,
       "entry_price": 542.05,
-      "shares": 23,
-      "invested": 12467.15
-    },
-    {
-      "name": "Ajanta Pharma",
-      "symbol": "AJANTPHARM.NS",
-      "weight_pct": 12.195121951219512,
-      "entry_price": 3486.0,
-      "shares": 3,
-      "invested": 10458.0
+      "shares": 27,
+      "invested": 14635.35
     },
     {
       "name": "Dynamic Cables",
       "symbol": "DYNAMIC.NS",
-      "weight_pct": 12.195121951219512,
+      "weight_pct": 14.308943089430894,
       "entry_price": 129.95,
-      "shares": 96,
-      "invested": 12475.2
+      "shares": 112,
+      "invested": 14554.4
     },
     {
-      "name": "Acutaas Chemicals",
-      "symbol": "ACUTAAS.NS",
-      "weight_pct": 12.195121951219512,
-      "entry_price": 3122.2,
+      "name": "Ajanta Pharma",
+      "symbol": "AJANTPHARM.NS",
+      "weight_pct": 14.308943089430894,
+      "entry_price": 3486.0,
       "shares": 4,
-      "invested": 12488.8
+      "invested": 13944.0
     },
     {
       "name": "Aeroflex Industries",
       "symbol": "AEROFLEX.NS",
-      "weight_pct": 12.195121951219512,
+      "weight_pct": 14.308943089430894,
       "entry_price": 544.35,
-      "shares": 22,
-      "invested": 11975.7
+      "shares": 26,
+      "invested": 14153.1
+    },
+    {
+      "name": "Acutaas Chemicals",
+      "symbol": "ACUTAAS.NS",
+      "weight_pct": 14.308943089430894,
+      "entry_price": 3122.2,
+      "shares": 4,
+      "invested": 12488.8
     }
   ],
-  "cash": 28439.47,
+  "cash": 16750.67,
   "rebalance_log": [
     {
       "date": "2026-09-11",
@@ -109,6 +109,12 @@
       "date": "2026-10-05",
       "version": 7,
       "reason": "added Thyrocare; reweighted Acutaas Chemicals, Aeroflex Industries, Ajanta Pharma, Dynamic Cables, Venus Remedies",
+      "nav": 102528.32
+    },
+    {
+      "date": "2026-10-05",
+      "version": 8,
+      "reason": "reweighted Acutaas Chemicals, Aeroflex Industries, Ajanta Pharma, Dynamic Cables, Thyrocare, Venus Remedies",
       "nav": 102528.32
     }
   ]

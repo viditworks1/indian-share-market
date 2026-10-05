@@ -15,8 +15,9 @@ A NEW frozen Rs 1,00,000 swing cohort is decided every Monday (momentum + dated-
 | 2026-W36-inaugural | 2026-09-03 | 2026-09-03 | 2027-03-03 | 112,282.55 | -1.46% | **+12.28%** | EXTENDED (+50% vs 30W EMA), EXTENDED (+58% vs 30W EMA), LEADER (+32pp vs benchmark/13wk), LEADER (+34pp vs benchmark/13wk), LEADER (+55pp vs benchmark/13wk), LEADER (+58pp vs benchmark/13wk), LEADER (+59pp vs benchmark/13wk), LEADER (+71pp vs benchmark/13wk) |
 | 2026-W39 | 2026-09-21 | 2026-09-18 | 2027-03-21 | 106,440.71 | -0.60% | **+6.44%** | EXTENDED (+58% vs 30W EMA), LEADER (+32pp vs benchmark/13wk), LEADER (+34pp vs benchmark/13wk), LEADER (+44pp vs benchmark/13wk), LEADER (+46pp vs benchmark/13wk), LEADER (+53pp vs benchmark/13wk), LEADER (+55pp vs benchmark/13wk), LEADER (+71pp vs benchmark/13wk) |
 | 2026-W40 | 2026-09-28 | 2026-09-25 | 2027-03-27 | 98,776.02 | -3.19% | **-1.22%** | EXTENDED (+50% vs 30W EMA), EXTENDED (+58% vs 30W EMA), LEADER (+34pp vs benchmark/13wk), LEADER (+44pp vs benchmark/13wk), LEADER (+46pp vs benchmark/13wk), LEADER (+55pp vs benchmark/13wk), LEADER (+59pp vs benchmark/13wk), LEADER (+71pp vs benchmark/13wk) |
+| 2026-W41 | 2026-10-05 | 2026-10-03 | 2027-04-05 | 100,482.64 |  | **+0.48%** | EXTENDED (+50% vs 30W EMA), LEADER (+32pp vs benchmark/13wk), LEADER (+44pp vs benchmark/13wk), LEADER (+46pp vs benchmark/13wk), LEADER (+53pp vs benchmark/13wk), LEADER (+55pp vs benchmark/13wk), LEADER (+59pp vs benchmark/13wk) |
 
-*Swing series: 3 cohort(s), average return **+5.83%**.*
+*Swing series: 4 cohort(s), average return **+4.50%**.*
 
 ---
 
@@ -78,6 +79,25 @@ Benchmark: Nifty Smallcap 250 (NIFTYSMLCAP250.NS) -2.77% since entry -- **alpha 
 
 **Rule flags active:** EXTENDED (+50% vs 30W EMA), EXTENDED (+58% vs 30W EMA), LEADER (+34pp vs benchmark/13wk), LEADER (+44pp vs benchmark/13wk), LEADER (+46pp vs benchmark/13wk), LEADER (+55pp vs benchmark/13wk), LEADER (+59pp vs benchmark/13wk), LEADER (+71pp vs benchmark/13wk) -- act at the monthly review or ad hoc.
 
+## Cohort: 2026-W41
+
+Decided 2026-10-05, entry-priced off 2026-10-03 close, horizon ends 2027-04-05 (182d left). Invested Rs 96,047.69 / cash Rs 4,434.95.
+
+Benchmark: Nifty Smallcap 250 (NIFTYSMLCAP250.NS) +0.38% since entry -- **alpha +0.10 pp**.
+
+| Holding | Wt% | Entry | Price | Return | 1-Day | Value | Dist to stop | vs 30W EMA | 30W Slope | RS/13wk | Flags |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Yash Highvoltage | 14 | 1105.75 | 1155.60 | +4.51% | +4.51% | 13,867 | +24.4% | 33.0 | +17.7% | +31.7pp | LEADER (+32pp vs benchmark/13wk) |
+| Sambhv Steel Tubes | 16 | 161.45 | 164.66 | +1.99% | +1.99% | 16,301 | +21.4% | 31.5 | +11.2% | +46.0pp | LEADER (+46pp vs benchmark/13wk) |
+| Macpower CNC Machines | 15 | 2144.80 | 2160.50 | +0.73% | +0.73% | 12,963 | +19.9% | 43.7 | +29.7% | +53.2pp | LEADER (+53pp vs benchmark/13wk) |
+| Electronics Mart India | 15 | 204.05 | 205.10 | +0.51% | +0.51% | 14,972 | +19.7% | 36.2 | +23.7% | +55.4pp | LEADER (+55pp vs benchmark/13wk) |
+| Aimtron Electronics * | 14 | 1898.85 | 1898.85 | -0.00% | -2.64% | 13,292 | +19.0% | 37.4 | +22.6% | +44.2pp | LEADER (+44pp vs benchmark/13wk) |
+| Apcotex Industries | 10 | 593.25 | 587.25 | -1.01% | -1.01% | 9,396 | +17.8% | 11.8 | +11.7% | +17.3pp | - |
+| Neetu Yoshi | 16 | 238.85 | 231.15 | -3.22% | -3.22% | 15,256 | +15.2% | 50.1 | +23.7% | +59.4pp | EXTENDED (+50% vs 30W EMA), LEADER (+59pp vs benchmark/13wk) |
+| **Total** | | | | **+0.48%** | | **96,048** + 4,435 cash | | | | | |
+
+**Rule flags active:** EXTENDED (+50% vs 30W EMA), LEADER (+32pp vs benchmark/13wk), LEADER (+44pp vs benchmark/13wk), LEADER (+46pp vs benchmark/13wk), LEADER (+53pp vs benchmark/13wk), LEADER (+55pp vs benchmark/13wk), LEADER (+59pp vs benchmark/13wk) -- act at the monthly review or ad hoc.
+
 ---
 
 ## Value history (all cohorts)
@@ -119,3 +139,4 @@ Benchmark: Nifty Smallcap 250 (NIFTYSMLCAP250.NS) -2.77% since entry -- **alpha 
 | 2026-10-05 | 2026-W36-inaugural | 112,283 | +12.28% | -1.46% | -4.28% | 16.56 pp | EXTENDED (+50% vs 30W EMA), EXTENDED (+58% vs 30W EMA), LEADER (+32pp vs benchmark/13wk), LEADER (+34pp vs benchmark/13wk), LEADER (+55pp vs benchmark/13wk), LEADER (+58pp vs benchmark/13wk), LEADER (+59pp vs benchmark/13wk), LEADER (+71pp vs benchmark/13wk) |
 | 2026-10-05 | 2026-W39 | 106,441 | +6.44% | -0.60% | -3.46% | 9.9 pp | EXTENDED (+58% vs 30W EMA), LEADER (+32pp vs benchmark/13wk), LEADER (+34pp vs benchmark/13wk), LEADER (+44pp vs benchmark/13wk), LEADER (+46pp vs benchmark/13wk), LEADER (+53pp vs benchmark/13wk), LEADER (+55pp vs benchmark/13wk), LEADER (+71pp vs benchmark/13wk) |
 | 2026-10-05 | 2026-W40 | 98,776 | -1.22% | -3.19% | -2.77% | 1.55 pp | EXTENDED (+50% vs 30W EMA), EXTENDED (+58% vs 30W EMA), LEADER (+34pp vs benchmark/13wk), LEADER (+44pp vs benchmark/13wk), LEADER (+46pp vs benchmark/13wk), LEADER (+55pp vs benchmark/13wk), LEADER (+59pp vs benchmark/13wk), LEADER (+71pp vs benchmark/13wk) |
+| 2026-10-05 | 2026-W41 | 100,483 | +0.48% |  | 0.38% | 0.1 pp | EXTENDED (+50% vs 30W EMA), LEADER (+32pp vs benchmark/13wk), LEADER (+44pp vs benchmark/13wk), LEADER (+46pp vs benchmark/13wk), LEADER (+53pp vs benchmark/13wk), LEADER (+55pp vs benchmark/13wk), LEADER (+59pp vs benchmark/13wk) |
