@@ -788,6 +788,34 @@
       }
     },
     {
+      "slug": "kmc-speciality-hospital",
+      "name": "KMC Speciality hospital",
+      "master_score": 50.03,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 11,
+        "years_cleared": 10,
+        "note": "FY16-FY26 (screener): ROCE >=15% in every year (17-35%); revenue growth >=10% in 10 of 11 (only FY21 +7% during COVID). Both metrics cleared 10 of 11 -- a rare clean multi-year hospital compounding record; FY25 and FY26 both ~+31%."
+      },
+      "score_breakdown": {
+        "conviction_score": 47.0,
+        "quality_score": 78.0,
+        "expectation_gap_score": 3.93,
+        "consistency_score": 91,
+        "asymmetry_score": 28.96,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "ksh-international-ltd",
       "name": "KSH International Ltd",
       "master_score": 49.24,
@@ -973,6 +1001,34 @@
         "expectation_gap_score": 5.78,
         "consistency_score": 20,
         "asymmetry_score": 47.89,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "moil",
+      "name": "MOIL Ltd",
+      "master_score": 47.84,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 0,
+        "note": "FY26: Revenue growth 4.67% (below 10%), ROCE 14% (below 15%). FY25: Revenue flat, ROCE weak. FY24: Revenue growth barely positive. No consistent Coffee-Can performance in last 3 years. However, Q1 FY27 inflection (if sustained) could mark entry into a 2-3yr high-ROCE window."
+      },
+      "score_breakdown": {
+        "conviction_score": 43.28,
+        "quality_score": 79.0,
+        "expectation_gap_score": 35.52,
+        "consistency_score": 0,
+        "asymmetry_score": 67.76,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -1423,34 +1479,6 @@
       }
     },
     {
-      "slug": "moil",
-      "name": "MOIL Ltd",
-      "master_score": 44.03,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 0,
-        "note": "FY26: Revenue growth 4.67% (below 10%), ROCE 14% (below 15%). FY25: Revenue flat, ROCE weak. FY24: Revenue growth barely positive. No consistent Coffee-Can performance in last 3 years. However, Q1 FY27 inflection (if sustained) could mark entry into a 2-3yr high-ROCE window."
-      },
-      "score_breakdown": {
-        "conviction_score": 28.03,
-        "quality_score": 79.0,
-        "expectation_gap_score": 35.52,
-        "consistency_score": 0,
-        "asymmetry_score": 67.76,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "ultramarine-pigments-ltd",
       "name": "Ultramarine & Pigments Ltd",
       "master_score": 43.88,
@@ -1664,34 +1692,6 @@
         "expectation_gap_score": 3.63,
         "consistency_score": 67,
         "asymmetry_score": 28.82,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "kmc-speciality-hospital",
-      "name": "KMC Speciality hospital",
-      "master_score": 42.28,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 11,
-        "years_cleared": 10,
-        "note": "FY16-FY26 (screener): ROCE >=15% in every year (17-35%); revenue growth >=10% in 10 of 11 (only FY21 +7% during COVID). Both metrics cleared 10 of 11 -- a rare clean multi-year hospital compounding record; FY25 and FY26 both ~+31%."
-      },
-      "score_breakdown": {
-        "conviction_score": 16.0,
-        "quality_score": 78.0,
-        "expectation_gap_score": 3.93,
-        "consistency_score": 91,
-        "asymmetry_score": 28.96,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -2112,6 +2112,34 @@
       }
     },
     {
+      "slug": "shaily-engineering",
+      "name": "Shaily Engineering Plastics Ltd",
+      "master_score": 39.61,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 1,
+        "note": "Of FY23-FY25 (both metrics verifiable), only FY25 (+22.2%/29%) cleared. FY23 (+6.9%/14%) and FY24 (+6.1%/20%) missed - FY23-24 revenue growth was ~6%. The GLP-1 device ramp lifted FY25-26 growth to 22-26%; FY26 ROCE not yet disclosed."
+      },
+      "score_breakdown": {
+        "conviction_score": 52.45,
+        "quality_score": 73.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 33,
+        "asymmetry_score": 22.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "bliss-gvs-pharma",
       "name": "Bliss GVS Pharma Ltd",
       "master_score": 39.54,
@@ -2213,6 +2241,34 @@
         "expectation_gap_score": 7.0,
         "consistency_score": 67,
         "asymmetry_score": 18.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "jayaswal-neco",
+      "name": "Jayaswal Neco- Integrated Steel Player",
+      "master_score": 39.0,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 1,
+        "note": "FY24-FY26 verifiable from current filings. FY24: loss. FY25: PAT Rs 113 Cr, ROCE well below 15%. FY26: revenue +19% and ROCE ~15% as PAT jumped to Rs 463 Cr \u2014 the only year clearing both the >=10% revenue-growth and >=15% ROCE bars. Multi-year record is depressed by the 2018 NCLT reference and 2022 restructuring; the investable window is the FY26-onward turnaround, not the history."
+      },
+      "score_breakdown": {
+        "conviction_score": 38.08,
+        "quality_score": 43.0,
+        "expectation_gap_score": 47.39,
+        "consistency_score": 33,
+        "asymmetry_score": 28.7,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -2966,34 +3022,6 @@
       }
     },
     {
-      "slug": "jayaswal-neco",
-      "name": "Jayaswal Neco- Integrated Steel Player",
-      "master_score": 35.5,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 1,
-        "note": "FY24-FY26 verifiable from current filings. FY24: loss. FY25: PAT Rs 113 Cr, ROCE well below 15%. FY26: revenue +19% and ROCE ~15% as PAT jumped to Rs 463 Cr \u2014 the only year clearing both the >=10% revenue-growth and >=15% ROCE bars. Multi-year record is depressed by the 2018 NCLT reference and 2022 restructuring; the investable window is the FY26-onward turnaround, not the history."
-      },
-      "score_breakdown": {
-        "conviction_score": 24.08,
-        "quality_score": 43.0,
-        "expectation_gap_score": 47.39,
-        "consistency_score": 33,
-        "asymmetry_score": 28.7,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "stylam-decent-fundamentals-with-cheap-valuation",
       "name": "Stylam Industries Ltd",
       "master_score": 35.18,
@@ -3195,34 +3223,6 @@
         "expectation_gap_score": 44.59,
         "consistency_score": 0,
         "asymmetry_score": 22.3,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "shaily-engineering",
-      "name": "Shaily Engineering Plastics Ltd",
-      "master_score": 33.86,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 1,
-        "note": "Of FY23-FY25 (both metrics verifiable), only FY25 (+22.2%/29%) cleared. FY23 (+6.9%/14%) and FY24 (+6.1%/20%) missed - FY23-24 revenue growth was ~6%. The GLP-1 device ramp lifted FY25-26 growth to 22-26%; FY26 ROCE not yet disclosed."
-      },
-      "score_breakdown": {
-        "conviction_score": 29.45,
-        "quality_score": 73.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 33,
-        "asymmetry_score": 22.0,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -7283,34 +7283,6 @@
       }
     },
     {
-      "slug": "sterlite-technologies",
-      "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
-      "master_score": 21.55,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 0,
-        "note": "FY24/FY25/FY26: None of the last 3 years met BOTH revenue growth \u226510% AND ROCE \u226515%. FY24 had ROCE 4.5% (below 15%), negative growth. FY25 ROCE negative. FY26 ROCE 6.7% (below 15%), revenue +11.8% (cleared growth). FY23 (now 3y ago) had ROCE 26.5% and revenue +30% \u2014 cleared; but that was a peak before the multi-year decline. Track record shows a distressed turnaround, not a consistent Cash-Can compounder. Consistency score should be low unless recent inflection sustained 2-3y."
-      },
-      "score_breakdown": {
-        "conviction_score": 29.21,
-        "quality_score": 42.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 0,
-        "asymmetry_score": 25.0,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "motherson",
       "name": "Samvardhana Motherson International",
       "master_score": 21.54,
@@ -7359,6 +7331,34 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
+      }
+    },
+    {
+      "slug": "sterlite-technologies",
+      "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
+      "master_score": 21.05,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 0,
+        "note": "FY24/FY25/FY26: None of the last 3 years met BOTH revenue growth \u226510% AND ROCE \u226515%. FY24 had ROCE 4.5% (below 15%), negative growth. FY25 ROCE negative. FY26 ROCE 6.7% (below 15%), revenue +11.8% (cleared growth). FY23 (now 3y ago) had ROCE 26.5% and revenue +30% \u2014 cleared; but that was a peak before the multi-year decline. Track record shows a distressed turnaround, not a consistent Cash-Can compounder. Consistency score should be low unless recent inflection sustained 2-3y."
+      },
+      "score_breakdown": {
+        "conviction_score": 27.21,
+        "quality_score": 42.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 0,
+        "asymmetry_score": 25.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
       }
     },
     {

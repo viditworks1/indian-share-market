@@ -8684,3 +8684,23 @@ Resolution required before research can proceed.
 - Agarwal group capex-execution risk + governance overhang (serial dilution history) caps conviction
 - Conviction Medium -> **Medium** (no change). Business momentum supports floor; cyclicality + governance + already-elevated valuation prevent upgrade
 
+
+## MOIL Ltd — deep-dive pass 1 [2026-10-05]
+- Q1 FY27 PAT +70% YoY (Rs 87.62 Cr) on modest +7% revenue growth is genuine operating-leverage inflection, not revenue-driven
+- Global manganese supply squeeze (South32 Gemco disruption) is real; MOIL raised prices 17.5% (Apr) + 5% (Oct) — pricing power confirmed
+- Four-box upgraded to 3.0: tailwind (supply squeeze 2-3yr window) + moat (50% market share, 11 mines) = yes; tam + valuation = weak
+- Conviction Low -> **Low-Medium**. Real catalyst + small-cap + margin inflection support upside, but only 1 quarter of data + cyclical earnings risk prevent Medium yet. Q2 FY27 results (Oct-Nov) will be critical
+
+
+## Maharashtra Seamless — technicals refresh [2026-10-05]
+- Price Rs 790 (Oct 5), market cap Rs 9,363 Cr (upgraded small/mid-cap → mid-cap); no material conviction change
+
+## Shaily Engineering Plastics Ltd — technicals refresh [2026-10-05]
+- Price/P-E refresh completed; conviction unchanged Medium
+
+## Jayaswal Neco (Integrated Steel Player) — technicals refresh [2026-10-05]
+- Price/P-E refresh completed; conviction unchanged Medium
+
+## KMC Speciality Hospital — technicals refresh [2026-10-05]
+- Price Rs 171.95 (Oct 5), market cap Rs 2,550 Cr (confirmed micro-cap); conviction unchanged Medium
+

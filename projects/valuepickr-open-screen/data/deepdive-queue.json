@@ -79,12 +79,20 @@
       "never_deepdived": true,
       "days_since_deepdive": null,
       "in_cooldown": false,
-      "deepdive_status": "pending",
-      "deepdive_pass": 0,
-      "deepdive_date": null,
-      "pre_deepdive_conviction": null,
-      "post_deepdive_conviction": null,
-      "history": [],
+      "deepdive_status": "done",
+      "deepdive_pass": 1,
+      "deepdive_date": "2026-10-05",
+      "pre_deepdive_conviction": "Low",
+      "post_deepdive_conviction": "Low-Medium",
+      "history": [
+        {
+          "pass": 1,
+          "date": "2026-10-05",
+          "pre": "Low",
+          "post": "Low-Medium",
+          "summary": "Q1 PAT +70% YoY on operating leverage (not revenue noise). Global manganese squeeze real, domestic pricing power confirmed. Four-box upgraded (tailwind+moat yes); thesis 10x supported. But only 1 quarter of data + cyclical risk = conviction Low->Low-Medium, not Medium yet"
+        }
+      ],
       "in_active_pool": true,
       "rerun_tier": 0,
       "dive_mode": "full"
@@ -1085,6 +1093,14 @@
           "post": "Medium-High",
           "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
           "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-05",
+          "pre": "Medium-High",
+          "post": "Medium-High",
+          "summary": "Price Oct 5: Rs 790 (up from earlier ~Rs 700), market cap Rs 9,363 Cr (up from ~Rs 8,000 Cr) — tier moved small/mid->mid-cap. No conviction change.",
+          "mode": "technicals_only"
         }
       ],
       "in_active_pool": true,
@@ -1420,8 +1436,8 @@
       "deepdive_status": "pending",
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-12",
-      "pre_deepdive_conviction": "Low-Medium",
-      "post_deepdive_conviction": "Low-Medium",
+      "pre_deepdive_conviction": "Medium",
+      "post_deepdive_conviction": "Medium",
       "history": [
         {
           "pass": 1,
@@ -1460,6 +1476,14 @@
           "pre": "Low-Medium",
           "post": "Low-Medium",
           "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
+          "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-05",
+          "pre": "Medium",
+          "post": "Medium",
+          "summary": "Technicals refresh; conviction unchanged",
           "mode": "technicals_only"
         }
       ],
@@ -2509,6 +2533,14 @@
           "post": "Medium",
           "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
           "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-05",
+          "pre": "Medium",
+          "post": "Medium",
+          "summary": "Technicals refresh; conviction unchanged",
+          "mode": "technicals_only"
         }
       ],
       "in_active_pool": true,
@@ -3145,8 +3177,8 @@
       "deepdive_status": "pending",
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-03",
-      "pre_deepdive_conviction": "Low",
-      "post_deepdive_conviction": "Low",
+      "pre_deepdive_conviction": "Medium",
+      "post_deepdive_conviction": "Medium",
       "history": [
         {
           "pass": 1,
@@ -3185,6 +3217,14 @@
           "pre": "Low",
           "post": "Low",
           "summary": "Technicals-only refresh: price/valuation updated. Conviction unchanged.",
+          "mode": "technicals_only"
+        },
+        {
+          "pass": 1,
+          "date": "2026-10-05",
+          "pre": "Medium",
+          "post": "Medium",
+          "summary": "Price Oct 5: Rs 171.95, market cap Rs 2,550 Cr (as of Sep 27); conviction unchanged",
           "mode": "technicals_only"
         }
       ],

@@ -1461,6 +1461,51 @@
     }
   },
   {
+    "slug": "shaily-engineering",
+    "name": "Shaily Engineering Plastics Ltd",
+    "conviction_score": 52.45,
+    "own_conviction": 49.75,
+    "trusted_lift": 2.7,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 73.0,
+    "market_cap_tier": "Small-cap",
+    "red_flag_tier": null,
+    "source": "trusted-x",
+    "score_breakdown": {
+      "own_conviction": 49.75,
+      "trusted_lift": 2.7,
+      "base_anchor": 25,
+      "thesis_bonus": 14,
+      "quality_lift": 5.75,
+      "management_component": 5.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 2.7,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 2.7,
+        "pos_raw": 2.7,
+        "pos_capped": 2.7,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "disciplined",
+        "rpt_trend": "flat",
+        "shareholder_returns": "initiated"
+      }
+    }
+  },
+  {
     "slug": "hitachi-energy",
     "name": "Hitachi Energy India Ltd",
     "conviction_score": 52.06,
@@ -2709,6 +2754,51 @@
     }
   },
   {
+    "slug": "kmc-speciality-hospital",
+    "name": "KMC Speciality hospital",
+    "conviction_score": 47.0,
+    "own_conviction": 47.0,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 78.0,
+    "market_cap_tier": "Micro-cap (~Rs 2,550 Cr)",
+    "red_flag_tier": null,
+    "source": "web-discovery",
+    "score_breakdown": {
+      "own_conviction": 47.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 14,
+      "quality_lift": 7.0,
+      "management_component": 1.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "flat",
+        "shareholder_returns": null
+      }
+    }
+  },
+  {
     "slug": "vaibhav-global-vertically-integrated-value-e",
     "name": "Vaibhav Global ~ Vertically integrated value e-tailer of Jewellery and Lifestyle Products",
     "conviction_score": 47.0,
@@ -3479,6 +3569,51 @@
         "capital_allocation_track_record": "disciplined",
         "rpt_trend": "clean",
         "shareholder_returns": "initiated"
+      }
+    }
+  },
+  {
+    "slug": "moil",
+    "name": "MOIL Ltd",
+    "conviction_score": 43.28,
+    "own_conviction": 42.25,
+    "trusted_lift": 1.03,
+    "conviction": "Low-Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 79.0,
+    "market_cap_tier": "Small-cap (~Rs 5,145 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 42.25,
+      "trusted_lift": 1.03,
+      "base_anchor": 16,
+      "thesis_bonus": 14,
+      "quality_lift": 7.25,
+      "management_component": 5.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 1.03,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 1.03,
+        "pos_raw": 1.03,
+        "pos_capped": 1.03,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "fallback-scalar"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "reliable",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "flat",
+        "shareholder_returns": "consistent"
       }
     }
   },
@@ -4362,6 +4497,51 @@
       },
       "distinct_trusted_users": 3,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "jayaswal-neco",
+    "name": "Jayaswal Neco- Integrated Steel Player",
+    "conviction_score": 38.08,
+    "own_conviction": 37.25,
+    "trusted_lift": 0.83,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 43.0,
+    "market_cap_tier": "Small-cap",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 37.25,
+      "trusted_lift": 0.83,
+      "base_anchor": 25,
+      "thesis_bonus": 14,
+      "quality_lift": -1.75,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.83,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.83,
+        "pos_raw": 0.83,
+        "pos_capped": 0.83,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
+      }
     }
   },
   {
@@ -7167,51 +7347,6 @@
     }
   },
   {
-    "slug": "shaily-engineering",
-    "name": "Shaily Engineering Plastics Ltd",
-    "conviction_score": 29.45,
-    "own_conviction": 26.75,
-    "trusted_lift": 2.7,
-    "conviction": "Low-Medium",
-    "thesis_fit": "neither",
-    "quality_score": 73.0,
-    "market_cap_tier": "small-cap",
-    "red_flag_tier": null,
-    "source": "trusted-x",
-    "score_breakdown": {
-      "own_conviction": 26.75,
-      "trusted_lift": 2.7,
-      "base_anchor": 16,
-      "thesis_bonus": 0,
-      "quality_lift": 5.75,
-      "management_component": 5.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 2.7,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 2.7,
-        "pos_raw": 2.7,
-        "pos_capped": 2.7,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "flat",
-        "shareholder_returns": "initiated"
-      }
-    }
-  },
-  {
     "slug": "piccadily-agro-industries",
     "name": "Piccadily Agro Industries Ltd",
     "conviction_score": 29.41,
@@ -7343,51 +7478,6 @@
         "capital_allocation_track_record": "unclear",
         "rpt_trend": "rising",
         "shareholder_returns": "initiated"
-      }
-    }
-  },
-  {
-    "slug": "sterlite-technologies",
-    "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
-    "conviction_score": 29.21,
-    "own_conviction": 26.0,
-    "trusted_lift": 3.21,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Mid-cap (~Rs 36,700 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 26.0,
-      "trusted_lift": 3.21,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 1.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 3.21,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 3.21,
-        "pos_raw": 3.21,
-        "pos_capped": 3.21,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 2,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "neutral",
-        "rpt_trend": "flat",
-        "shareholder_returns": "none"
       }
     }
   },
@@ -7832,7 +7922,7 @@
     "conviction": "Medium-High",
     "thesis_fit": "neither",
     "quality_score": 39.0,
-    "market_cap_tier": "small-cap",
+    "market_cap_tier": "Mid-cap (~Rs 9,363 Cr)",
     "red_flag_tier": null,
     "source": null,
     "score_breakdown": {
@@ -7949,51 +8039,6 @@
         "capital_allocation_track_record": null,
         "rpt_trend": "flat",
         "shareholder_returns": null
-      }
-    }
-  },
-  {
-    "slug": "moil",
-    "name": "MOIL Ltd",
-    "conviction_score": 28.03,
-    "own_conviction": 27.0,
-    "trusted_lift": 1.03,
-    "conviction": "Low",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": null,
-    "market_cap_tier": "Small-cap (~Rs 5,145 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 27.0,
-      "trusted_lift": 1.03,
-      "base_anchor": 8,
-      "thesis_bonus": 14,
-      "quality_lift": 0.0,
-      "management_component": 5.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 1.03,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 1.03,
-        "pos_raw": 1.03,
-        "pos_capped": 1.03,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "fallback-scalar"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "reliable",
-        "capital_allocation_track_record": "neutral",
-        "rpt_trend": "flat",
-        "shareholder_returns": "consistent"
       }
     }
   },
@@ -8286,6 +8331,51 @@
       },
       "distinct_trusted_users": 0,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "sterlite-technologies",
+    "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
+    "conviction_score": 27.21,
+    "own_conviction": 24.0,
+    "trusted_lift": 3.21,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 42.0,
+    "market_cap_tier": "Mid-cap (~Rs 36,700 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 24.0,
+      "trusted_lift": 3.21,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": -2.0,
+      "management_component": 1.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 3.21,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 3.21,
+        "pos_raw": 3.21,
+        "pos_capped": 3.21,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 2,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "flat",
+        "shareholder_returns": "none"
+      }
     }
   },
   {
@@ -12600,51 +12690,6 @@
     }
   },
   {
-    "slug": "jayaswal-neco",
-    "name": "Jayaswal Neco- Integrated Steel Player",
-    "conviction_score": 24.08,
-    "own_conviction": 23.25,
-    "trusted_lift": 0.83,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": 43.0,
-    "market_cap_tier": "small-cap",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 23.25,
-      "trusted_lift": 0.83,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": -1.75,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.83,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.83,
-        "pos_raw": 0.83,
-        "pos_capped": 0.83,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "neutral",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
-      }
-    }
-  },
-  {
     "slug": "shilpa-medicare-ias2026",
     "name": "Shilpa Medicare",
     "conviction_score": 23.89,
@@ -16422,51 +16467,6 @@
       },
       "distinct_trusted_users": 0,
       "management_quality": null
-    }
-  },
-  {
-    "slug": "kmc-speciality-hospital",
-    "name": "KMC Speciality hospital",
-    "conviction_score": 16.0,
-    "own_conviction": 16.0,
-    "trusted_lift": 0.0,
-    "conviction": "Low",
-    "thesis_fit": "neither",
-    "quality_score": 78.0,
-    "market_cap_tier": "small-cap",
-    "red_flag_tier": null,
-    "source": "web-discovery",
-    "score_breakdown": {
-      "own_conviction": 16.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 8,
-      "thesis_bonus": 0,
-      "quality_lift": 7.0,
-      "management_component": 1.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "flat",
-        "shareholder_returns": null
-      }
     }
   },
   {
@@ -24865,7 +24865,7 @@
     "trusted_lift": 0.0,
     "conviction": "Medium",
     "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 21.0,
+    "quality_score": 10.5,
     "market_cap_tier": "Small-cap (~Rs 1,519 Cr)",
     "red_flag_tier": "HIGH_CAUTION",
     "source": null,

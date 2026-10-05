@@ -148,7 +148,7 @@
       "conviction": "Medium-High",
       "thesis_fit": "neither",
       "red_flag_tier": null,
-      "market_cap_tier": "small-cap",
+      "market_cap_tier": "Mid-cap (~Rs 9,363 Cr)",
       "gap_direction": "underestimated",
       "gap_type": "volume",
       "gap_magnitude_pct": null,
@@ -410,11 +410,11 @@
       "slug": "jayaswal-neco",
       "name": "Jayaswal Neco- Integrated Steel Player",
       "expectation_gap_score": 47.39,
-      "conviction_score": 24.08,
+      "conviction_score": 38.08,
       "conviction": "Medium",
-      "thesis_fit": "neither",
+      "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "small-cap",
+      "market_cap_tier": "Small-cap",
       "gap_direction": "underestimated",
       "gap_type": "margin",
       "gap_magnitude_pct": 25,
@@ -964,8 +964,8 @@
       "slug": "moil",
       "name": "MOIL Ltd",
       "expectation_gap_score": 35.52,
-      "conviction_score": 28.03,
-      "conviction": "Low",
+      "conviction_score": 43.28,
+      "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
       "market_cap_tier": "Small-cap (~Rs 5,145 Cr)",
@@ -6180,11 +6180,11 @@
       "slug": "kmc-speciality-hospital",
       "name": "KMC Speciality hospital",
       "expectation_gap_score": 3.93,
-      "conviction_score": 16.0,
-      "conviction": "Low",
-      "thesis_fit": "neither",
+      "conviction_score": 47.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
       "red_flag_tier": null,
-      "market_cap_tier": "small-cap",
+      "market_cap_tier": "Micro-cap (~Rs 2,550 Cr)",
       "gap_direction": "priced-in",
       "gap_type": null,
       "gap_magnitude_pct": null,
@@ -9029,6 +9029,42 @@
       }
     },
     {
+      "slug": "shaily-engineering",
+      "name": "Shaily Engineering Plastics Ltd",
+      "expectation_gap_score": 0,
+      "conviction_score": 52.45,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap",
+      "gap_direction": "over-optimistic",
+      "gap_type": "volume",
+      "gap_magnitude_pct": null,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2/Q3 FY27 prints testing whether the Q1FY27 deceleration (+14%) was a one-off cost/timing issue (management's claim) or a genuine growth-rate reset, plus whether gross margin actually normalises by Q3FY27 as guided",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-09-12",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "23-24 partners must convert to volume, not just signed relationships",
+        "single new facility/geography"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.39,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.639
+      }
+    },
+    {
       "slug": "hdfc-asset-management-company",
       "name": "HDFC Asset Management Company",
       "expectation_gap_score": 0,
@@ -9497,42 +9533,6 @@
       }
     },
     {
-      "slug": "shaily-engineering",
-      "name": "Shaily Engineering Plastics Ltd",
-      "expectation_gap_score": 0,
-      "conviction_score": 29.45,
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "small-cap",
-      "gap_direction": "over-optimistic",
-      "gap_type": "volume",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "moderate",
-      "catalyst_event": "Q2/Q3 FY27 prints testing whether the Q1FY27 deceleration (+14%) was a one-off cost/timing issue (management's claim) or a genuine growth-rate reset, plus whether gross margin actually normalises by Q3FY27 as guided",
-      "catalyst_window_months": 6,
-      "catalyst_window_start": "2026-09-12",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": false,
-      "risk_open_spof_count": 2,
-      "risk_open_spofs": [
-        "23-24 partners must convert to volume, not just signed relationships",
-        "single new facility/geography"
-      ],
-      "flags": [
-        "no-edge"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.75,
-        "catalyst_q": 0.39,
-        "timing_q": 1.0,
-        "risk_q": 0.4,
-        "quality": 0.639
-      }
-    },
-    {
       "slug": "piccadily-agro-industries",
       "name": "Piccadily Agro Industries Ltd",
       "expectation_gap_score": 0,
@@ -9605,43 +9605,6 @@
       }
     },
     {
-      "slug": "sterlite-technologies",
-      "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
-      "expectation_gap_score": 0,
-      "conviction_score": 29.21,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap (~Rs 36,700 Cr)",
-      "gap_direction": "over-optimistic",
-      "gap_type": "duration",
-      "gap_magnitude_pct": -20,
-      "evidence_quality": "moderate",
-      "catalyst_event": "Order intake sustains >Rs 1,000 Cr/quarter through FY27-28; capex milestones on schedule (Q1 FY28 preform ramp visible)",
-      "catalyst_window_months": 6,
-      "catalyst_window_start": "2026-10-05",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": true,
-      "risk_open_spof_count": 3,
-      "risk_open_spofs": [
-        "cyclical price mean-reversion; hfcl/finolex successful preform entry; order-intake slowdown",
-        "project-cost overruns or delay (agarwal-group execution track record is mixed)",
-        "recession halts capex spending"
-      ],
-      "flags": [
-        "no-edge"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 0.75,
-        "catalyst_q": 0.65,
-        "timing_q": 1.0,
-        "risk_q": 0.2,
-        "quality": 0.688
-      }
-    },
-    {
       "slug": "sansera-engineering",
       "name": "Sansera Engineering Ltd",
       "expectation_gap_score": 0,
@@ -9673,6 +9636,43 @@
         "timing_q": 0.4,
         "risk_q": 1.0,
         "quality": 0.363
+      }
+    },
+    {
+      "slug": "sterlite-technologies",
+      "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
+      "expectation_gap_score": 0,
+      "conviction_score": 27.21,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 36,700 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "duration",
+      "gap_magnitude_pct": -20,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Order intake sustains >Rs 1,000 Cr/quarter through FY27-28; capex milestones on schedule (Q1 FY28 preform ramp visible)",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-10-05",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "cyclical price mean-reversion; hfcl/finolex successful preform entry; order-intake slowdown",
+        "project-cost overruns or delay (agarwal-group execution track record is mixed)",
+        "recession halts capex spending"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.65,
+        "timing_q": 1.0,
+        "risk_q": 0.2,
+        "quality": 0.688
       }
     },
     {
@@ -16169,7 +16169,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 35.52,
-      "conviction_score": 28.03
+      "conviction_score": 43.28
     },
     {
       "slug": "alufluoride",
@@ -16785,7 +16785,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 0,
-      "conviction_score": 29.45
+      "conviction_score": 52.45
     },
     {
       "slug": "carysil",
@@ -17335,7 +17335,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 0,
-      "conviction_score": 29.21
+      "conviction_score": 27.21
     },
     {
       "slug": "supreme-transformer",
@@ -17599,7 +17599,7 @@
       "is_dated": false,
       "status_effective": "pending",
       "expectation_gap_score": 47.39,
-      "conviction_score": 24.08
+      "conviction_score": 38.08
     },
     {
       "slug": "ultramarine-pigments-ltd",
@@ -18501,7 +18501,7 @@
       "is_dated": true,
       "status_effective": "pending",
       "expectation_gap_score": 3.93,
-      "conviction_score": 16.0
+      "conviction_score": 47.0
     },
     {
       "slug": "hdfc-asset-management-company",
