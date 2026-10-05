@@ -314,6 +314,34 @@
       }
     },
     {
+      "slug": "vimta-labs",
+      "name": "Vimta Labs",
+      "master_score": 55.86,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 5,
+        "note": "FY20-FY24: Revenue growth >=10% cleared 3/5 years (failed 2020, 2024); ROCE >=15% cleared 4/5 years (only failed FY24 at 18%, which is still solid). Track record is solid; recent slowdown in revenue growth is likely cyclical (pharma R&D timing) or temporary (biologics capex absorption)."
+      },
+      "score_breakdown": {
+        "conviction_score": 54.75,
+        "quality_score": 73.0,
+        "expectation_gap_score": 5.17,
+        "consistency_score": 100,
+        "asymmetry_score": 52.59,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "vivid-electromech",
       "name": "Vivid Electromech Ltd",
       "master_score": 55.68,
@@ -415,34 +443,6 @@
         "expectation_gap_score": 43.65,
         "consistency_score": 73,
         "asymmetry_score": 41.83,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "vimta-labs",
-      "name": "Vimta Labs",
-      "master_score": 54.42,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 5,
-        "note": "FY20-FY24: Revenue growth >=10% cleared 3/5 years (failed 2020, 2024); ROCE >=15% cleared 4/5 years (only failed FY24 at 18%, which is still solid). Track record is solid; recent slowdown in revenue growth is likely cyclical (pharma R&D timing) or temporary (biologics capex absorption)."
-      },
-      "score_breakdown": {
-        "conviction_score": 49.0,
-        "quality_score": 73.0,
-        "expectation_gap_score": 5.17,
-        "consistency_score": 100,
-        "asymmetry_score": 52.59,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -790,7 +790,7 @@
     {
       "slug": "kmc-speciality-hospital",
       "name": "KMC Speciality hospital",
-      "master_score": 50.03,
+      "master_score": 49.8,
       "red_flag_tier": null,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
@@ -802,9 +802,9 @@
       "score_breakdown": {
         "conviction_score": 47.0,
         "quality_score": 78.0,
-        "expectation_gap_score": 3.93,
+        "expectation_gap_score": 3.1,
         "consistency_score": 91,
-        "asymmetry_score": 28.96,
+        "asymmetry_score": 28.55,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -1451,6 +1451,34 @@
       }
     },
     {
+      "slug": "emmvee-photovoltaic-power",
+      "name": "Emmvee Photovoltaic Power",
+      "master_score": 44.03,
+      "red_flag_tier": null,
+      "conviction": "High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 7,
+        "years_cleared": 5,
+        "note": "FY20-FY26: Revenue growth >=10% cleared 5/7 years (failed FY20, FY21 due to COVID; strong since FY23). ROCE >=15% cleared 2/7 years (FY22, FY25, FY26 were strong; FY20-21, FY23-24 were weak due to scaling/capacity phase). Track record shows strong execution on revenue scaling; profitability improved sharply in FY25-26 after capex cycle matured."
+      },
+      "score_breakdown": {
+        "conviction_score": 60.5,
+        "quality_score": 56.0,
+        "expectation_gap_score": 4.58,
+        "consistency_score": 71,
+        "asymmetry_score": 22.29,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "ultramarine-pigments-ltd",
       "name": "Ultramarine & Pigments Ltd",
       "master_score": 43.88,
@@ -1524,34 +1552,6 @@
         "expectation_gap_score": 3.28,
         "consistency_score": 50,
         "asymmetry_score": 33.64,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "emmvee-photovoltaic-power",
-      "name": "Emmvee Photovoltaic Power",
-      "master_score": 43.66,
-      "red_flag_tier": null,
-      "conviction": "High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 7,
-        "years_cleared": 5,
-        "note": "FY20-FY26: Revenue growth >=10% cleared 5/7 years (failed FY20, FY21 due to COVID; strong since FY23). ROCE >=15% cleared 2/7 years (FY22, FY25, FY26 were strong; FY20-21, FY23-24 were weak due to scaling/capacity phase). Track record shows strong execution on revenue scaling; profitability improved sharply in FY25-26 after capex cycle matured."
-      },
-      "score_breakdown": {
-        "conviction_score": 59.0,
-        "quality_score": 56.0,
-        "expectation_gap_score": 4.58,
-        "consistency_score": 71,
-        "asymmetry_score": 22.29,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -2033,34 +2033,6 @@
       }
     },
     {
-      "slug": "aeroflex-industries",
-      "name": "Aeroflex Industries",
-      "master_score": 40.15,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 7,
-        "years_cleared": 6,
-        "note": "FY20-FY26: revenue growth >=10% cleared 7/7 years; ROCE >=15% cleared 5/7 years (FY20, FY21 borderline). FY25-26 ROCE decline (22% \u2192 19%) is new trend not yet confirmed as structural."
-      },
-      "score_breakdown": {
-        "conviction_score": 49.0,
-        "quality_score": 45.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 86,
-        "asymmetry_score": 25.0,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "dr-agarwal-s-eye-hospital",
       "name": "Dr Agarwal's Eye Hospital Ltd (DAEHL)",
       "master_score": 40.14,
@@ -2112,6 +2084,62 @@
       }
     },
     {
+      "slug": "indegene",
+      "name": "Indegene",
+      "master_score": 39.86,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 7,
+        "years_cleared": 4,
+        "note": "FY20-FY26: Revenue growth >=10% cleared 7/7 years (strong delivery). But profit track record is weak: FY20 loss, FY21-FY26 growth, but recent quarters show stall. ROCE >=15% cleared only in FY24-FY26 (previously much higher but declining)."
+      },
+      "score_breakdown": {
+        "conviction_score": 40.25,
+        "quality_score": 55.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 57,
+        "asymmetry_score": 50.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "aeroflex-industries",
+      "name": "Aeroflex Industries",
+      "master_score": 39.84,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 7,
+        "years_cleared": 6,
+        "note": "FY20-FY26: revenue growth >=10% cleared 7/7 years; ROCE >=15% cleared 5/7 years (FY20, FY21 borderline). FY25-26 ROCE decline (22% \u2192 19%) is new trend not yet confirmed as structural."
+      },
+      "score_breakdown": {
+        "conviction_score": 47.75,
+        "quality_score": 45.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 86,
+        "asymmetry_score": 25.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "tube-investments-ltd-diversified-engineering-company",
       "name": "Tube Investments Ltd ~ Diversified Engineering Company",
       "master_score": 39.73,
@@ -2157,34 +2185,6 @@
         "expectation_gap_score": 0,
         "consistency_score": 33,
         "asymmetry_score": 22.0,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "indegene",
-      "name": "Indegene",
-      "master_score": 39.55,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 7,
-        "years_cleared": 4,
-        "note": "FY20-FY26: Revenue growth >=10% cleared 7/7 years (strong delivery). But profit track record is weak: FY20 loss, FY21-FY26 growth, but recent quarters show stall. ROCE >=15% cleared only in FY24-FY26 (previously much higher but declining)."
-      },
-      "score_breakdown": {
-        "conviction_score": 39.0,
-        "quality_score": 55.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 57,
-        "asymmetry_score": 50.0,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -3282,34 +3282,6 @@
       }
     },
     {
-      "slug": "tamilnad-mercantile-bank",
-      "name": "Tamilnad Mercantile Bank Ltd (TMB Ltd)",
-      "master_score": 34.01,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 0,
-        "note": "FY22-FY26 checked (revenue growth >=10% AND ROE >=15%, using ROE as the bank-sector equivalent of ROCE): FY22 ROE 17% but revenue +6.2% (fails growth); FY23 ROE 17% but revenue +6.4% (fails growth); FY24 revenue +18.8% but ROE 14% (fails ROE); FY25 revenue +9.1% and ROE 14% (fails both, narrowly); FY26 revenue +10.0% (passes, narrowly) but ROE 14% (fails). 0 of 5 years cleared both simultaneously \u2014 revenue growth and ROE moved in offsetting cycles. FY26-27's acceleration (Q1 FY27 PAT +35% YoY, ROE 15.93%, GNPA at a decade low) is the first sign of both metrics moving together \u2014 a potential inflection, not yet a proven multi-year trend."
-      },
-      "score_breakdown": {
-        "conviction_score": 45.0,
-        "quality_score": 42.0,
-        "expectation_gap_score": 44.59,
-        "consistency_score": 0,
-        "asymmetry_score": 22.3,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "recode-studios",
       "name": "Recode Studios Ltd",
       "master_score": 33.72,
@@ -3689,6 +3661,34 @@
         "expectation_gap_score": 0,
         "consistency_score": 67,
         "asymmetry_score": 25.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "tamilnad-mercantile-bank",
+      "name": "Tamilnad Mercantile Bank Ltd (TMB Ltd)",
+      "master_score": 31.39,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 0,
+        "note": "FY22-FY26 checked (revenue growth >=10% AND ROE >=15%, using ROE as the bank-sector equivalent of ROCE): FY22 ROE 17% but revenue +6.2% (fails growth); FY23 ROE 17% but revenue +6.4% (fails growth); FY24 revenue +18.8% but ROE 14% (fails ROE); FY25 revenue +9.1% and ROE 14% (fails both, narrowly); FY26 revenue +10.0% (passes, narrowly) but ROE 14% (fails). 0 of 5 years cleared both simultaneously \u2014 revenue growth and ROE moved in offsetting cycles. FY26-27's acceleration (Q1 FY27 PAT +35% YoY, ROE 15.93%, GNPA at a decade low) is the first sign of both metrics moving together \u2014 a potential inflection, not yet a proven multi-year trend."
+      },
+      "score_breakdown": {
+        "conviction_score": 45.0,
+        "quality_score": 42.0,
+        "expectation_gap_score": 35.04,
+        "consistency_score": 0,
+        "asymmetry_score": 17.52,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -11832,33 +11832,6 @@
       }
     },
     {
-      "slug": "gokaldas-exports",
-      "name": "Gokaldas exports -- cup and handle/rising channel",
-      "master_score": 14.65,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 44.0,
-        "quality_score": 0,
-        "expectation_gap_score": 5.28,
-        "consistency_score": null,
-        "asymmetry_score": 2.64,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
       "slug": "mitsu-chem-plast",
       "name": "Mitsu Chem Plast Ltd",
       "master_score": 14.4,
@@ -11935,6 +11908,33 @@
           "quality_score"
         ],
         "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "gokaldas-exports",
+      "name": "Gokaldas exports -- cup and handle/rising channel",
+      "master_score": 14.18,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 44.0,
+        "quality_score": 0,
+        "expectation_gap_score": 3.83,
+        "consistency_score": null,
+        "asymmetry_score": 1.92,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
       }
     },
     {
@@ -13952,33 +13952,6 @@
       }
     },
     {
-      "slug": "gandhar-oil-refinery",
-      "name": "Gandhar Oil Refinery Limited",
-      "master_score": 9.06,
-      "red_flag_tier": null,
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 25.0,
-        "quality_score": 0,
-        "expectation_gap_score": 5.28,
-        "consistency_score": null,
-        "asymmetry_score": 2.64,
-        "components_used": [
-          "asymmetry_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.85
-      }
-    },
-    {
       "slug": "hindustan-zinc-galvanize-capital-of-investors",
       "name": "Hindustan Zinc Ltd",
       "master_score": 9.03,
@@ -14160,6 +14133,33 @@
       }
     },
     {
+      "slug": "gandhar-oil-refinery",
+      "name": "Gandhar Oil Refinery Limited",
+      "master_score": 8.59,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 25.0,
+        "quality_score": 0,
+        "expectation_gap_score": 3.83,
+        "consistency_score": null,
+        "asymmetry_score": 1.92,
+        "components_used": [
+          "asymmetry_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.85
+      }
+    },
+    {
       "slug": "nisus",
       "name": "Nisus",
       "master_score": 8.51,
@@ -14210,7 +14210,7 @@
     {
       "slug": "agi-greenpac",
       "name": "AGI Greenpac- on the cusp of growth?",
-      "master_score": 8.43,
+      "master_score": 8.49,
       "red_flag_tier": null,
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
@@ -14222,9 +14222,9 @@
       "score_breakdown": {
         "conviction_score": 25.0,
         "quality_score": 0,
-        "expectation_gap_score": 3.33,
+        "expectation_gap_score": 3.53,
         "consistency_score": null,
-        "asymmetry_score": 1.67,
+        "asymmetry_score": 1.76,
         "components_used": [
           "asymmetry_score",
           "conviction_score",

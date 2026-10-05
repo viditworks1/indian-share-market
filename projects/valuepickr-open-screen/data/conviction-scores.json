@@ -438,6 +438,51 @@
     }
   },
   {
+    "slug": "emmvee-photovoltaic-power",
+    "name": "Emmvee Photovoltaic Power",
+    "conviction_score": 60.5,
+    "own_conviction": 60.5,
+    "trusted_lift": 0.0,
+    "conviction": "High",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 56.0,
+    "market_cap_tier": "Mid-cap (~Rs 21,179 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 60.5,
+      "trusted_lift": 0.0,
+      "base_anchor": 45,
+      "thesis_bonus": 14,
+      "quality_lift": 1.5,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "Positive; management has demonstrated capital discipline and execution capability",
+        "guidance_credibility": "Mixed; Q1 FY27 beat suggests execution on track, but full-year FY27 guidance not independently verified",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "Stable; no related-party concerns found",
+        "shareholder_returns": null
+      }
+    }
+  },
+  {
     "slug": "matrimony-com",
     "name": "Matrimony.com Ltd",
     "conviction_score": 60.25,
@@ -609,51 +654,6 @@
       },
       "distinct_trusted_users": 2,
       "management_quality": null
-    }
-  },
-  {
-    "slug": "emmvee-photovoltaic-power",
-    "name": "Emmvee Photovoltaic Power",
-    "conviction_score": 59.0,
-    "own_conviction": 59.0,
-    "trusted_lift": 0.0,
-    "conviction": "High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": null,
-    "market_cap_tier": "Mid-cap (~Rs 21,179 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 59.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 45,
-      "thesis_bonus": 14,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "Positive; management has demonstrated capital discipline and execution capability",
-        "guidance_credibility": "Mixed; Q1 FY27 beat suggests execution on track, but full-year FY27 guidance not independently verified",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "Stable; no related-party concerns found",
-        "shareholder_returns": null
-      }
     }
   },
   {
@@ -1058,6 +1058,51 @@
         "capital_allocation_track_record": "disciplined",
         "rpt_trend": "unclear",
         "shareholder_returns": "none"
+      }
+    }
+  },
+  {
+    "slug": "vimta-labs",
+    "name": "Vimta Labs",
+    "conviction_score": 54.75,
+    "own_conviction": 54.75,
+    "trusted_lift": 0.0,
+    "conviction": "Medium-High",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 73.0,
+    "market_cap_tier": "Small-cap (~Rs 2,559 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 54.75,
+      "trusted_lift": 0.0,
+      "base_anchor": 35,
+      "thesis_bonus": 14,
+      "quality_lift": 5.75,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "Neutral-to-positive; growth strategy clear and capex deployment visible",
+        "guidance_credibility": "Mixed; biologics ramp is on track per operational updates, but formal FY27 guidance not independently verified",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "Stable",
+        "shareholder_returns": null
       }
     }
   },
@@ -2445,51 +2490,6 @@
     }
   },
   {
-    "slug": "aeroflex-industries",
-    "name": "Aeroflex Industries",
-    "conviction_score": 49.0,
-    "own_conviction": 49.0,
-    "trusted_lift": 0.0,
-    "conviction": "Medium-High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": null,
-    "market_cap_tier": "Small/Mid-cap (~Rs 7,174 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 49.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 35,
-      "thesis_bonus": 14,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "Neutral-to-cautious",
-        "guidance_credibility": "Mixed; Q1 FY27 beat impressive but FY27 guidance not verified",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "Stable",
-        "shareholder_returns": null
-      }
-    }
-  },
-  {
     "slug": "gufic-biosciences",
     "name": "Gufic BioSciences Ltd",
     "conviction_score": 49.0,
@@ -2531,51 +2531,6 @@
         "capital_allocation_track_record": "disciplined",
         "rpt_trend": "unclear",
         "shareholder_returns": "unclear"
-      }
-    }
-  },
-  {
-    "slug": "vimta-labs",
-    "name": "Vimta Labs",
-    "conviction_score": 49.0,
-    "own_conviction": 49.0,
-    "trusted_lift": 0.0,
-    "conviction": "Medium-High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": null,
-    "market_cap_tier": "Small-cap (~Rs 2,559 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 49.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 35,
-      "thesis_bonus": 14,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "Neutral-to-positive; growth strategy clear and capex deployment visible",
-        "guidance_credibility": "Mixed; biologics ramp is on track per operational updates, but formal FY27 guidance not independently verified",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "Stable",
-        "shareholder_returns": null
       }
     }
   },
@@ -2711,6 +2666,51 @@
         "capital_allocation_track_record": "neutral",
         "rpt_trend": "flat",
         "shareholder_returns": "consistent"
+      }
+    }
+  },
+  {
+    "slug": "aeroflex-industries",
+    "name": "Aeroflex Industries",
+    "conviction_score": 47.75,
+    "own_conviction": 47.75,
+    "trusted_lift": 0.0,
+    "conviction": "Medium-High",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 45.0,
+    "market_cap_tier": "Small/Mid-cap (~Rs 7,174 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 47.75,
+      "trusted_lift": 0.0,
+      "base_anchor": 35,
+      "thesis_bonus": 14,
+      "quality_lift": -1.25,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "Neutral-to-cautious",
+        "guidance_credibility": "Mixed; Q1 FY27 beat impressive but FY27 guidance not verified",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "Stable",
+        "shareholder_returns": null
       }
     }
   },
@@ -4164,6 +4164,51 @@
     }
   },
   {
+    "slug": "indegene",
+    "name": "Indegene",
+    "conviction_score": 40.25,
+    "own_conviction": 40.25,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 55.0,
+    "market_cap_tier": "Mid-cap (~Rs 14,300 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 40.25,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 14,
+      "quality_lift": 1.25,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "Neutral-to-cautious; growth execution proven, but profitability management is questioned",
+        "guidance_credibility": "Mixed; Q1 FY27 profit stall was not pre-guided; management commentary on profit recovery expected in Q2 concall",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "Stable; no related-party concerns found",
+        "shareholder_returns": null
+      }
+    }
+  },
+  {
     "slug": "samhi-hotels",
     "name": "Samhi Hotels",
     "conviction_score": 40.08,
@@ -4419,51 +4464,6 @@
       },
       "distinct_trusted_users": 0,
       "management_quality": null
-    }
-  },
-  {
-    "slug": "indegene",
-    "name": "Indegene",
-    "conviction_score": 39.0,
-    "own_conviction": 39.0,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": null,
-    "market_cap_tier": "Mid-cap (~Rs 14,300 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 39.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "Neutral-to-cautious; growth execution proven, but profitability management is questioned",
-        "guidance_credibility": "Mixed; Q1 FY27 profit stall was not pre-guided; management commentary on profit recovery expected in Q2 concall",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "Stable; no related-party concerns found",
-        "shareholder_returns": null
-      }
     }
   },
   {

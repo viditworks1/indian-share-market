@@ -390,6 +390,7 @@ Generated: 2026-10-05
 | Ugro Capital | 2026-10-05 | 2026-11-04 | Medium |
 | Ujjivan Small Finance Bank | 2026-10-05 | 2026-11-04 | Medium |
 | Borosil Renewables | 2026-10-05 | 2026-11-04 | Medium |
+| Suprajit Engineering Ltd | 2026-10-05 | 2026-11-04 | Medium-High |
 | FIEM industries : auto ancillary player | 2026-10-05 | 2026-11-04 | Low-Medium |
 | Shree Hari Chemicals | 2026-10-05 | 2026-11-04 | Low |
 | Active Clothing Co Ltd | 2026-10-05 | 2026-11-04 | Low |
