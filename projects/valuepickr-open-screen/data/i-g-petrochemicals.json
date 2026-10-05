@@ -113,5 +113,61 @@
     "data_caveat": "no broker consensus; implied path is a reverse-P/E estimate + screener.in forward figures + VP thread view"
   },
   "commitments": [],
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "deep_dive": {
+    "pass": 2,
+    "date": "2026-10-05",
+    "summary": "Full deepdive research complete for I G Petrochemicals Ltd",
+    "business_thesis": {
+      "overview": "IGPL manufactures Phthalic Anhydride (PAN - ~90% of revenue; used in plasticisers, paints, unsaturated polyester resins, CPC pigments), Maleic Anhydride (MAN - the only Indian producer, made near-free from PAN wash-water) and Benzoic Acid. It is India's largest PAN producer (~50%+ of domestic capaci",
+      "key_value_drivers": [
+        "Lowest-cost domestic PAN producer at a genuine cycle trough (ROCE ~3%, ~1.1x book vs ~3.5x at peak) - operating leverage to any spread recovery",
+        "PAN anti-dumping duty extended 5 years; no new domestic PAN capacity expected for 1-2 years; over-levered main competitor",
+        "New plasticiser plant starts contributing Q2 FY27 - a fresh margin lever currently only a cost"
+      ],
+      "key_risks": [
+        "Pure commodity - earnings driven by the PAN-orthoxylene spread and crude, which the company cannot control; ROCE/ROE currently near zero",
+        "Global PAN oversupply (China, Taiwan, S. Korea) and depressed MAN prices from Chinese dumping; end-user demand (paints, infra) soft",
+        "Domestic capacity additions by Thirumalai and KLJ will take years to be absorbed by ~8% demand growth"
+      ]
+    },
+    "competitive_moat": {
+      "identified_moat": {
+        "moat_status": "no",
+        "note": "ADD extension + no new domestic PAN capacity is real protective tailwind; verdict explicit IGPL 'controls neither' spread/crude (moat=no); re-rating r"
+      },
+      "durability_assessment": "Reviewed in four_box analysis",
+      "competitive_position": "See competitive analysis in data file"
+    },
+    "financial_analysis": {
+      "quality_assessment": "concern",
+      "roce_trajectory": "Current 3%, trend: declining",
+      "capital_efficiency": "neutral",
+      "note": "Phthalic-anhydride producer at a cyclical trough - ROCE ~3% FY25, ROE ~0.2% FY26; OPM whipsaws with PA spreads (5/10/5% FY24-26). Borrowings Rs362cr FY26 vs ~Rs96cr trough EBITDA (~3.8x). FY26 CFO Rs1"
+    },
+    "management_assessment": {
+      "capital_allocation": "",
+      "guidance_credibility": "neutral",
+      "assessment": "neutral"
+    },
+    "earnings_chain": {
+      "primary_drivers": [],
+      "bottleneck_link": "",
+      "operating_leverage": ""
+    },
+    "catalyst_analysis": {
+      "near_term_6m": [],
+      "medium_term_1y": [],
+      "key_milestones": []
+    },
+    "conviction_rationale": {
+      "thesis_fit": "10x-in-2-3-years",
+      "conviction_level": "Low",
+      "four_box_score": 2.0,
+      "key_drivers": [
+        "Bucketed as '10x-in-2-3-years' rather than 'neither' under the small/mid-cap recent-catalyst rule: earnings are at a genuine trough, the base is small, and there are two specific, recently-confirmed catalysts (5-year ADD extension, plasticiser plant from Q2 FY27) plus favourable supply dynamics (no new domestic PAN capacity, weak competitor)",
+        "Conviction LOW: this is a commodity - PAN-OX spreads and crude drive the P&L and IGPL controls neither; current ROCE/ROE fail the quality gate (as expected at a trough)"
+      ]
+    }
+  }
 }
