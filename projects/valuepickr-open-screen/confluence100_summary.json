@@ -1,16 +1,17 @@
 {
-  "project": "Confluence-100 Quality-Gated Rankings (Rebuilt)",
+  "project": "Confluence-100 Quality-Gated Rankings (CORRECTED)",
   "completion_date": "2026-10-05",
   "quality_gates_applied": "2026-10-05",
   "gates_description": "Catalyst (dated \u226412m) OR (ROCE\u226515% AND Track\u22653y); 4-Box\u22652.5; Conviction\u226545",
   "total_stocks": 49,
   "total_universe": 947,
-  "note": "Rebuilt with 947 stocks scored. 49 pass quality gates.",
+  "note": "CORRECTED: Fixed master_score formula (4-box was 10x overweighted). 49 stocks pass quality gates.",
+  "formula_note": "master_score = (conviction \u00d7 0.35) + (quality \u00d7 0.25) + (exp_gap \u00d7 0.20) + (4box_norm \u00d7 0.20)",
   "top_100_by_master_score": [
     {
       "rank": 1,
       "name": "Emmvee Photovoltaic Power Limited",
-      "master_score": 92.0,
+      "master_score": 64.5,
       "conviction_score": 75.0,
       "quality_score": 83.0,
       "thesis": "10x-in-2-3-years"
@@ -18,7 +19,7 @@
     {
       "rank": 2,
       "name": "Macpower CNC Machines: Manufacturing a Strong Growth?",
-      "master_score": 88.2,
+      "master_score": 63.2,
       "conviction_score": 75.0,
       "quality_score": 88.0,
       "thesis": "10x-in-2-3-years"
@@ -26,311 +27,311 @@
     {
       "rank": 3,
       "name": "Raymond Realty Ltd",
-      "master_score": 87.2,
+      "master_score": 59.8,
       "conviction_score": 65.0,
       "quality_score": 78.0,
       "thesis": "10x-in-2-3-years"
     },
     {
       "rank": 4,
-      "name": "Univastu India Ltd",
-      "master_score": 83.0,
-      "conviction_score": 55.0,
-      "quality_score": 75.0,
-      "thesis": "10x-in-2-3-years"
-    },
-    {
-      "rank": 5,
-      "name": "Vimta Labs Limited",
-      "master_score": 82.2,
-      "conviction_score": 65.0,
-      "quality_score": 78.0,
-      "thesis": "10x-in-2-3-years"
-    },
-    {
-      "rank": 6,
-      "name": "Valiant Communications Limited",
-      "master_score": 81.2,
-      "conviction_score": 55.0,
-      "quality_score": 88.0,
-      "thesis": "10x-in-2-3-years"
-    },
-    {
-      "rank": 7,
       "name": "Garden Reach Shipbuilders & Engineers Ltd (GRSE)",
-      "master_score": 80.8,
+      "master_score": 58.2,
       "conviction_score": 75.0,
       "quality_score": 78.0,
       "thesis": "neither"
     },
     {
-      "rank": 8,
+      "rank": 5,
       "name": "Acutaas Chemicals Ltd (Erst. Ami Organics Ltd)",
-      "master_score": 79.8,
+      "master_score": 57.2,
       "conviction_score": 65.0,
       "quality_score": 88.0,
       "thesis": "neither"
+    },
+    {
+      "rank": 6,
+      "name": "Vimta Labs Limited",
+      "master_score": 57.2,
+      "conviction_score": 65.0,
+      "quality_score": 78.0,
+      "thesis": "10x-in-2-3-years"
+    },
+    {
+      "rank": 7,
+      "name": "Valiant Communications Limited",
+      "master_score": 56.2,
+      "conviction_score": 55.0,
+      "quality_score": 88.0,
+      "thesis": "10x-in-2-3-years"
+    },
+    {
+      "rank": 8,
+      "name": "Univastu India Ltd",
+      "master_score": 55.5,
+      "conviction_score": 55.0,
+      "quality_score": 75.0,
+      "thesis": "10x-in-2-3-years"
     },
     {
       "rank": 9,
-      "name": "Skipper",
-      "master_score": 79.0,
+      "name": "Aeroflex Industries Limited",
+      "master_score": 54.8,
       "conviction_score": 65.0,
-      "quality_score": 65.0,
-      "thesis": "neither"
+      "quality_score": 78.0,
+      "thesis": "10x-in-2-3-years"
     },
     {
       "rank": 10,
-      "name": "Matrimony.com Ltd",
-      "master_score": 78.8,
-      "conviction_score": 55.0,
-      "quality_score": 78.0,
-      "thesis": "10x-in-2-3-years"
-    },
-    {
-      "rank": 11,
-      "name": "RNIT AI Solutions Ltd",
-      "master_score": 78.8,
-      "conviction_score": 55.0,
-      "quality_score": 78.0,
-      "thesis": "10x-in-2-3-years"
-    },
-    {
-      "rank": 12,
-      "name": "Vimta Labs Ltd",
-      "master_score": 78.0,
-      "conviction_score": 55.0,
-      "quality_score": 75.0,
-      "thesis": "neither"
-    },
-    {
-      "rank": 13,
-      "name": "Aditya Vision Ltd",
-      "master_score": 77.8,
-      "conviction_score": 65.0,
-      "quality_score": 60.0,
-      "thesis": "neither"
-    },
-    {
-      "rank": 14,
-      "name": "Prevest Denpro Ltd",
-      "master_score": 77.8,
-      "conviction_score": 45.0,
-      "quality_score": 88.0,
-      "thesis": "10x-in-2-3-years"
-    },
-    {
-      "rank": 15,
-      "name": "EPL Ltd",
-      "master_score": 77.5,
-      "conviction_score": 55.0,
-      "quality_score": 73.0,
-      "thesis": "neither"
-    },
-    {
-      "rank": 16,
-      "name": "Aeroflex Industries Limited",
-      "master_score": 77.2,
-      "conviction_score": 65.0,
-      "quality_score": 78.0,
-      "thesis": "10x-in-2-3-years"
-    },
-    {
-      "rank": 17,
-      "name": "3B Blackbio DX Ltd",
-      "master_score": 77.2,
-      "conviction_score": 55.0,
-      "quality_score": 72.0,
-      "thesis": "100x-in-10-years"
-    },
-    {
-      "rank": 18,
       "name": "Yash Highvoltage Ltd",
-      "master_score": 76.5,
+      "master_score": 54.0,
       "conviction_score": 65.0,
       "quality_score": 75.0,
       "thesis": "10x-in-2-3-years \u2014 small market cap plus a genuinely corroborated structural demand catalyst and real growth keep the classification, but ~75x earnings and weak cash conversion make a literal near-term 10x a stretch; treat as a multi-year rather than 2-3-year multibagger case"
     },
     {
-      "rank": 19,
+      "rank": 11,
+      "name": "Skipper",
+      "master_score": 54.0,
+      "conviction_score": 65.0,
+      "quality_score": 65.0,
+      "thesis": "neither"
+    },
+    {
+      "rank": 12,
+      "name": "Matrimony.com Ltd",
+      "master_score": 53.8,
+      "conviction_score": 55.0,
+      "quality_score": 78.0,
+      "thesis": "10x-in-2-3-years"
+    },
+    {
+      "rank": 13,
+      "name": "RNIT AI Solutions Ltd",
+      "master_score": 53.8,
+      "conviction_score": 55.0,
+      "quality_score": 78.0,
+      "thesis": "10x-in-2-3-years"
+    },
+    {
+      "rank": 14,
       "name": "Marksans Pharma Ltd",
-      "master_score": 76.0,
+      "master_score": 53.5,
       "conviction_score": 65.0,
       "quality_score": 73.0,
       "thesis": "neither"
     },
     {
-      "rank": 20,
-      "name": "HDFC Asset Management Company",
-      "master_score": 75.2,
-      "conviction_score": 65.0,
-      "quality_score": 50.0,
+      "rank": 15,
+      "name": "Vimta Labs Ltd",
+      "master_score": 53.0,
+      "conviction_score": 55.0,
+      "quality_score": 75.0,
       "thesis": "neither"
+    },
+    {
+      "rank": 16,
+      "name": "Aditya Vision Ltd",
+      "master_score": 52.8,
+      "conviction_score": 65.0,
+      "quality_score": 60.0,
+      "thesis": "neither"
+    },
+    {
+      "rank": 17,
+      "name": "Prevest Denpro Ltd",
+      "master_score": 52.8,
+      "conviction_score": 45.0,
+      "quality_score": 88.0,
+      "thesis": "10x-in-2-3-years"
+    },
+    {
+      "rank": 18,
+      "name": "EPL Ltd",
+      "master_score": 52.5,
+      "conviction_score": 55.0,
+      "quality_score": 73.0,
+      "thesis": "neither"
+    },
+    {
+      "rank": 19,
+      "name": "KMC Speciality Hospitals (India) Ltd",
+      "master_score": 52.5,
+      "conviction_score": 55.0,
+      "quality_score": 83.0,
+      "thesis": "10x-in-2-3-years"
+    },
+    {
+      "rank": 20,
+      "name": "Punjab Chemicals & Crop Protection Ltd",
+      "master_score": 52.5,
+      "conviction_score": 55.0,
+      "quality_score": 83.0,
+      "thesis": "10x-in-2-3-years"
     },
     {
       "rank": 21,
-      "name": "Vadilal Industries Ltd",
-      "master_score": 75.2,
-      "conviction_score": 45.0,
-      "quality_score": 78.0,
-      "thesis": "neither"
+      "name": "3B Blackbio DX Ltd",
+      "master_score": 52.2,
+      "conviction_score": 55.0,
+      "quality_score": 72.0,
+      "thesis": "100x-in-10-years"
     },
     {
       "rank": 22,
-      "name": "KMC Speciality Hospitals (India) Ltd",
-      "master_score": 75.0,
-      "conviction_score": 55.0,
-      "quality_score": 83.0,
-      "thesis": "10x-in-2-3-years"
-    },
-    {
-      "rank": 23,
-      "name": "Punjab Chemicals & Crop Protection Ltd",
-      "master_score": 75.0,
-      "conviction_score": 55.0,
-      "quality_score": 83.0,
-      "thesis": "10x-in-2-3-years"
-    },
-    {
-      "rank": 24,
-      "name": "Tube Investments of India Ltd (TII)",
-      "master_score": 74.8,
-      "conviction_score": 55.0,
-      "quality_score": 62.0,
-      "thesis": "neither"
-    },
-    {
-      "rank": 25,
       "name": "Tamilnad Mercantile Bank",
-      "master_score": 73.5,
+      "master_score": 51.0,
       "conviction_score": 65.0,
       "quality_score": 63.0,
       "thesis": "neither"
     },
     {
-      "rank": 26,
+      "rank": 23,
       "name": "Privi Speciality Chemicals Ltd",
-      "master_score": 73.0,
+      "master_score": 50.5,
       "conviction_score": 55.0,
       "quality_score": 75.0,
       "thesis": "neither"
     },
     {
-      "rank": 27,
+      "rank": 24,
+      "name": "HDFC Asset Management Company",
+      "master_score": 50.2,
+      "conviction_score": 65.0,
+      "quality_score": 50.0,
+      "thesis": "neither"
+    },
+    {
+      "rank": 25,
+      "name": "Vadilal Industries Ltd",
+      "master_score": 50.2,
+      "conviction_score": 45.0,
+      "quality_score": 78.0,
+      "thesis": "neither"
+    },
+    {
+      "rank": 26,
       "name": "Marine Electricals (India) Ltd",
-      "master_score": 72.5,
+      "master_score": 50.0,
       "conviction_score": 55.0,
       "quality_score": 73.0,
       "thesis": "10x-in-2-3-years"
     },
     {
-      "rank": 28,
-      "name": "Universal Cables Ltd",
-      "master_score": 72.5,
+      "rank": 27,
+      "name": "Tube Investments of India Ltd (TII)",
+      "master_score": 49.8,
       "conviction_score": 55.0,
-      "quality_score": 53.0,
+      "quality_score": 62.0,
       "thesis": "neither"
     },
     {
-      "rank": 29,
+      "rank": 28,
       "name": "SJS Enterprises Ltd",
-      "master_score": 71.5,
+      "master_score": 49.0,
       "conviction_score": 45.0,
       "quality_score": 83.0,
       "thesis": "10x-in-2-3-years"
     },
     {
-      "rank": 30,
-      "name": "Nisus Finance Services Co Ltd",
-      "master_score": 71.2,
-      "conviction_score": 45.0,
-      "quality_score": 62.0,
-      "thesis": "neither"
-    },
-    {
-      "rank": 31,
+      "rank": 29,
       "name": "Borosil Renewables Ltd",
-      "master_score": 71.2,
+      "master_score": 48.8,
       "conviction_score": 55.0,
       "quality_score": 68.0,
       "thesis": "10x-in-2-3-years"
     },
     {
-      "rank": 32,
+      "rank": 30,
       "name": "Supreme Power Equipment Ltd",
-      "master_score": 71.0,
+      "master_score": 48.5,
       "conviction_score": 55.0,
       "quality_score": 67.0,
       "thesis": "neither"
     },
     {
-      "rank": 33,
+      "rank": 31,
       "name": "OBSC Perfection Ltd",
-      "master_score": 70.5,
+      "master_score": 48.0,
       "conviction_score": 55.0,
       "quality_score": 65.0,
       "thesis": "10x-in-2-3-years"
     },
     {
-      "rank": 34,
+      "rank": 32,
       "name": "Gandhar Oil Refinery",
-      "master_score": 70.2,
+      "master_score": 47.8,
       "conviction_score": 65.0,
       "quality_score": 50.0,
       "thesis": "10x-in-2-3-years"
     },
     {
-      "rank": 35,
+      "rank": 33,
+      "name": "Universal Cables Ltd",
+      "master_score": 47.5,
+      "conviction_score": 55.0,
+      "quality_score": 53.0,
+      "thesis": "neither"
+    },
+    {
+      "rank": 34,
       "name": "Indegene Ltd",
-      "master_score": 69.8,
+      "master_score": 47.2,
       "conviction_score": 55.0,
       "quality_score": 62.0,
       "thesis": "neither"
     },
     {
-      "rank": 36,
+      "rank": 35,
       "name": "Alpex Solar Ltd",
-      "master_score": 69.8,
+      "master_score": 47.2,
       "conviction_score": 55.0,
       "quality_score": 62.0,
       "thesis": "10x-in-2-3-years"
     },
     {
-      "rank": 37,
+      "rank": 36,
       "name": "Pix Transmissions Ltd",
-      "master_score": 69.5,
+      "master_score": 47.0,
       "conviction_score": 45.0,
       "quality_score": 75.0,
       "thesis": "neither"
     },
     {
-      "rank": 38,
-      "name": "Ratnaveer Precision Engineering Ltd",
-      "master_score": 69.5,
-      "conviction_score": 45.0,
-      "quality_score": 55.0,
-      "thesis": "10x-in-2-3-years"
-    },
-    {
-      "rank": 39,
+      "rank": 37,
       "name": "GNG Electronics Ltd (EBGNG)",
-      "master_score": 69.0,
+      "master_score": 46.5,
       "conviction_score": 45.0,
       "quality_score": 73.0,
       "thesis": "neither"
     },
     {
-      "rank": 40,
+      "rank": 38,
+      "name": "Nisus Finance Services Co Ltd",
+      "master_score": 46.2,
+      "conviction_score": 45.0,
+      "quality_score": 62.0,
+      "thesis": "neither"
+    },
+    {
+      "rank": 39,
       "name": "Sudeep Pharma Ltd",
-      "master_score": 68.8,
+      "master_score": 46.2,
       "conviction_score": 45.0,
       "quality_score": 72.0,
       "thesis": "neither"
     },
     {
+      "rank": 40,
+      "name": "Ratnaveer Precision Engineering Ltd",
+      "master_score": 44.5,
+      "conviction_score": 45.0,
+      "quality_score": 55.0,
+      "thesis": "10x-in-2-3-years"
+    },
+    {
       "rank": 41,
       "name": "Lactose India",
-      "master_score": 66.8,
+      "master_score": 44.2,
       "conviction_score": 55.0,
       "quality_score": 50.0,
       "thesis": "neither"
@@ -338,7 +339,7 @@
     {
       "rank": 42,
       "name": "Gokaldas exports -- cup and handle/rising channel",
-      "master_score": 66.8,
+      "master_score": 44.2,
       "conviction_score": 55.0,
       "quality_score": 50.0,
       "thesis": "neither"
@@ -346,7 +347,7 @@
     {
       "rank": 43,
       "name": "Ind-Swift Laboratories Ltd (INDSWFTLAB)",
-      "master_score": 66.8,
+      "master_score": 44.2,
       "conviction_score": 55.0,
       "quality_score": 50.0,
       "thesis": "neither"
@@ -354,7 +355,7 @@
     {
       "rank": 44,
       "name": "AGI Greenpac",
-      "master_score": 66.8,
+      "master_score": 44.2,
       "conviction_score": 55.0,
       "quality_score": 50.0,
       "thesis": "10x-in-2-3-years"
@@ -362,42 +363,42 @@
     {
       "rank": 45,
       "name": "Styrenix Performance Materials Ltd (formerly INEOS Styrolution India)",
-      "master_score": 65.8,
+      "master_score": 43.2,
       "conviction_score": 45.0,
       "quality_score": 60.0,
       "thesis": "neither"
     },
     {
       "rank": 46,
-      "name": "Rossell Techsys Ltd",
-      "master_score": 65.8,
+      "name": "Gujarat Themis Biosyn Ltd",
+      "master_score": 43.2,
       "conviction_score": 45.0,
-      "quality_score": 40.0,
+      "quality_score": 60.0,
       "thesis": "neither"
     },
     {
       "rank": 47,
-      "name": "Gujarat Themis Biosyn Ltd",
-      "master_score": 65.8,
+      "name": "Capacit'e Infraprojects Ltd",
+      "master_score": 43.2,
       "conviction_score": 45.0,
       "quality_score": 60.0,
-      "thesis": "neither"
+      "thesis": "10x-in-2-3-years"
     },
     {
       "rank": 48,
-      "name": "Capacit'e Infraprojects Ltd",
-      "master_score": 65.8,
+      "name": "Cosmic CRF Ltd",
+      "master_score": 42.0,
       "conviction_score": 45.0,
-      "quality_score": 60.0,
+      "quality_score": 55.0,
       "thesis": "10x-in-2-3-years"
     },
     {
       "rank": 49,
-      "name": "Cosmic CRF Ltd",
-      "master_score": 64.5,
+      "name": "Rossell Techsys Ltd",
+      "master_score": 40.8,
       "conviction_score": 45.0,
-      "quality_score": 55.0,
-      "thesis": "10x-in-2-3-years"
+      "quality_score": 40.0,
+      "thesis": "neither"
     }
   ]
 }
