@@ -9938,15 +9938,15 @@
   ],
   "not_assessed": [
     {
-      "slug": "force-motors",
-      "name": "Force Motors Ltd",
-      "conviction_score": 51.81,
-      "red_flag_tier": null
-    },
-    {
       "slug": "nesco-ltd",
       "name": "Nesco Ltd",
       "conviction_score": 47.43,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "force-motors",
+      "name": "Force Motors Ltd",
+      "conviction_score": 47.06,
       "red_flag_tier": null
     },
     {
@@ -10580,6 +10580,18 @@
       "red_flag_tier": null
     },
     {
+      "slug": "shalimar-paints",
+      "name": "Shalimar Paints Ltd. -- Worth a Serious Look -- Significant Rerating Triggers Inplace",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "emerald-finance",
+      "name": "Emerald Finance",
+      "conviction_score": 22.0,
+      "red_flag_tier": null
+    },
+    {
       "slug": "repco-home-finance-ias2026",
       "name": "Repco Home Finance",
       "conviction_score": 22.0,
@@ -10595,12 +10607,6 @@
       "slug": "jnk-india-ltd",
       "name": "JNK India ltd",
       "conviction_score": 20.79,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "emerald-finance",
-      "name": "Emerald Finance",
-      "conviction_score": 20.25,
       "red_flag_tier": null
     },
     {
@@ -10679,12 +10685,6 @@
       "slug": "eldeco-housing-ltd",
       "name": "Eldeco Housing Ltd",
       "conviction_score": 17.19,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "shalimar-paints",
-      "name": "Shalimar Paints Ltd. -- Worth a Serious Look -- Significant Rerating Triggers Inplace",
-      "conviction_score": 17.0,
       "red_flag_tier": null
     },
     {
@@ -11972,6 +11972,12 @@
       "red_flag_tier": null
     },
     {
+      "slug": "rapicut-carbides",
+      "name": "Rapicut Carbides Ltd.",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
       "slug": "affordable-robotic-automation",
       "name": "Affordable Robotic & Automation (ARAL)",
       "conviction_score": 8.0,
@@ -13103,12 +13109,6 @@
       "slug": "welspun-corp",
       "name": "Welspun Corp",
       "conviction_score": 6.22,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "rapicut-carbides",
-      "name": "Rapicut Carbides Ltd.",
-      "conviction_score": 5.25,
       "red_flag_tier": null
     },
     {

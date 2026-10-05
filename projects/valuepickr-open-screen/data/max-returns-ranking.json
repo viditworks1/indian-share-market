@@ -1,6 +1,6 @@
 {
   "date_compiled": "2026-10-05",
-  "total_researched": 1001,
+  "total_researched": 1011,
   "intro": "This is a SECOND, criteria-free ranking of every researched stock - it does NOT apply the main screen's 10x-in-2-3-years / 100x-in-10-years thesis-fit gate. It exists as a hedge in case that return-magnitude bar is too strict and is excluding genuinely good opportunities (e.g. a high-quality large-cap with a real catalyst that just can't mathematically 10x). Ranked purely by conviction - the same fundamentals/technicals/community assessment used everywhere else in this project, just without the extreme-return filter. Cross-check against docs/00_SCREEN_RANKING.docx (the thesis-gated view) before acting - a stock ranked highly here but absent there is exactly the case this document is meant to catch.",
   "ranked": [
     {
@@ -46,6 +46,13 @@
       "reason": "~80% share India hyperscale DC gensets; PG +50% YoY, DC ~40% of PG rev; ROE ~29%, debt-free. Global proxy for Bloom/CAT behind-the-meter power, accelerating. At ~Rs 1.4 lakh cr => 'neither' on size. BESS substitution = structural long-run risk, partly hedged."
     },
     {
+      "name": "Emmvee Photovoltaic Power",
+      "conviction": "High",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Mid-cap (~Rs 21,179 Cr)",
+      "reason": "India's #2 integrated solar PV cell+module maker; exceptional fundamentals (ROCE 44.6%, ROE 50.7%) and growth (+84% revenue, +141% profit TTM) but high working capital and leverage warrant caution on near-term scaling"
+    },
+    {
       "name": "National Stock Exchange Of India Ltd (NSE): The Exchange at the Heart of India\u2019s Financialisation",
       "conviction": "High",
       "thesis_fit": "neither",
@@ -74,11 +81,11 @@
       "reason": "FY26 confirmed: rev +18%, PAT +127%, CFO>=EBITDA 2yrs, receivables down, zero pledge, still ~19x P/E; ~Rs 23 Cr one-offs, promoter only ~42%"
     },
     {
-      "name": "Aeroflex Industries Ltd",
+      "name": "Aeroflex Industries",
       "conviction": "Medium-High",
       "thesis_fit": "10x-in-2-3-years",
       "market_cap_tier": "Small/Mid-cap (~Rs 7,174 Cr)",
-      "reason": "Q1FY27 confirms skid ramp (23% of rev, +72% revenue, 23% EBITDA margin); real ~19% ROCE (prior 1.09% was a data error); debt-free; but ~107x P/E caps upside."
+      "reason": "Metallic flexible flow solutions (stainless steel hoses) with exceptional recent growth (+36% TTM revenue, +42% profit) but high ROCE decline and aggressive capex spending signal caution"
     },
     {
       "name": "Raymond Realty Ltd",
@@ -91,8 +98,8 @@
       "name": "Maharashtra seamless-a value plus cyclical play",
       "conviction": "Medium-High",
       "thesis_fit": "neither",
-      "market_cap_tier": "small-cap",
-      "reason": "Technicals-only touch in cooldown. Conviction held at Medium-High."
+      "market_cap_tier": "Mid-cap (~Rs 9,363 Cr)",
+      "reason": "Technicals 2026-10-05; conviction unchanged"
     },
     {
       "name": "TD Power Systems",
@@ -330,7 +337,7 @@
       "conviction": "Medium-High",
       "thesis_fit": "neither",
       "market_cap_tier": "Mid-cap (~Rs 6,930 Cr)",
-      "reason": "GCM turnaround delivered clean (EBIT 5.8->12.6%) + SED compounding, but consol PAT +9% only on EBITDA +57.5% (Rs 993cr debt), ROE ~13%, 37x full; 10x math implausible at Rs 7000cr mcap"
+      "reason": "Price Rs 481->481, P/E ~19x; GCM margin recovery on track"
     },
     {
       "name": "Nesco Ltd",
@@ -352,13 +359,6 @@
       "thesis_fit": "10x-in-2-3-years",
       "market_cap_tier": "Micro-cap (~Rs 361 Cr)",
       "reason": "FY24 margin jump (3%->26.5% PAT margin) repeated FY25/26; debtor days improved 146->65d"
-    },
-    {
-      "name": "Emmvee Photovoltaic Power Ltd",
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Mid-cap",
-      "reason": "Real growth + executed deleveraging (ICRA upgrade) confirmed; even Jefferies' bull case models margin normalisation. four_box unchanged at 2.5."
     },
     {
       "name": "Capri Global Capital Ltd",
@@ -494,6 +494,20 @@
       "reason": ""
     },
     {
+      "name": "Vimta Labs",
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Small-cap (~Rs 2,559 Cr)",
+      "reason": "CRO/CRAO with biologics CRADS ramp-up and FSSAI national lab PPP contracts; modest growth (8% revenue, +34% profit TTM) but niche moat and operational leverage expanding"
+    },
+    {
+      "name": "Vikram Solar Ltd",
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years IF margins recover",
+      "market_cap_tier": "Small/Mid-cap (~Rs 5,593 Cr)",
+      "reason": "Strong ROCE 31%, revenue growth 32% CAGR, but Q2 margin collapse signals price pressure; await Q3 recovery"
+    },
+    {
       "name": "Genus Power",
       "conviction": "Medium",
       "thesis_fit": "neither",
@@ -503,9 +517,9 @@
     {
       "name": "Frontier Springs",
       "conviction": "Medium",
-      "thesis_fit": "neither",
-      "market_cap_tier": "small-cap",
-      "reason": "Technicals-only touch in cooldown. Conviction held at Medium."
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Micro/Small-cap (~Rs 1,505 Cr)",
+      "reason": "Tech refresh - conviction unchanged"
     },
     {
       "name": "Himadri Speciality Chemical Ltd (HSCL)",
@@ -634,6 +648,13 @@
       "reason": "Quality read confirmed (ROCE ~19%, debt-free, no pledge) but growth genuinely lumpy/monsoon-dependent (Coffee-Can 2/4); working capital worsened 151->275 days."
     },
     {
+      "name": "KMC Speciality hospital",
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Micro-cap (~Rs 2,550 Cr)",
+      "reason": "Technicals 2026-10-05; conviction unchanged"
+    },
+    {
       "name": "Gufic BioSciences Ltd",
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
@@ -687,7 +708,7 @@
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "market_cap_tier": "Small/Mid-cap (~Rs 3,400 Cr)",
-      "reason": "Real operating turnaround but ~3.2x group net debt/EBITDA, FY26 PAT ~2.4x deferred-tax-flattered, 0% promoter, live Rs 750 Cr dilution overhang"
+      "reason": "Technicals 2026-09-04; conviction unchanged"
     },
     {
       "name": "Gravita India success story",
@@ -730,13 +751,6 @@
       "thesis_fit": "10x-in-2-3-years",
       "market_cap_tier": "Small-cap (~Rs 1,078 Cr)",
       "reason": "Operating-leverage inflection now confirmed two straight quarters (Q4 FY26 + Q1 FY27 PAT +127% YoY, EBITDA margin 11%->20%), Q2 guided triple-digit again; EV ex-cash ~Rs500cr on ~Rs80cr+ FY27 PAT; promoter buying, 3rd buyback done. 10x stil"
-    },
-    {
-      "name": "Ugro Capital",
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap (~Rs 1,519 Cr)",
-      "reason": "Trading at ~0.53x book after MFI-contagion selloff - a beaten-down turnaround setup, not a structurally weak business. Small-cap (~Rs 1,519 Cr) keeps 10x plausible if the sector stress genuinely reverses."
     },
     {
       "name": "Venus Pipes & Tubes Ltd",
@@ -988,7 +1002,7 @@
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
       "market_cap_tier": "Small-mid-cap (~Rs 7,352 Cr)",
-      "reason": "Data file already carried a complete pass-1 deep_dive dated 2026-09-08; verified consistent, regenerated docx, no re-research needed."
+      "reason": "Tech refresh - conviction unchanged"
     },
     {
       "name": "Balu Forge | Forging Ahead with Defense and Aerospace Ambitions Amid Capital Efficiency Concerns |",
@@ -1267,8 +1281,8 @@
       "name": "Senores Pharma- Hidden in plain sight",
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Mid-cap (~Rs 6,415 Cr)",
-      "reason": "P/E compressed 54.8x\u219247.5x; price Rs 1,417 after Sep dip; conviction locked"
+      "market_cap_tier": "Mid-cap (~Rs 6,925 Cr)",
+      "reason": "Tech refresh - conviction unchanged"
     },
     {
       "name": "Inox India, a story worth looking?",
@@ -1330,8 +1344,8 @@
       "name": "Bliss GVS Pharma Ltd",
       "conviction": "Medium",
       "thesis_fit": "neither",
-      "market_cap_tier": "Small/Mid-cap (~Rs 7,269 Cr)",
-      "reason": "Technicals refresh: price Rs 684, P/E 62.7x (up from 53x); conviction locked"
+      "market_cap_tier": "Small/Mid-cap (~Rs 7,100 Cr)",
+      "reason": "Price Rs 671->665, P/E stable ~52x"
     },
     {
       "name": "Nephrocare Health Services Ltd",
@@ -1429,7 +1443,7 @@
       "conviction": "Medium",
       "thesis_fit": "neither",
       "market_cap_tier": "Mid-cap (~Rs 36,700 Cr)",
-      "reason": "AI-DC optical-fibre turnaround; Q1FY27 rev +87%, order intake 1.7x FY26 book, net-cash post QIP; but cyclical (fibre px +3x partly helium), Agarwal-group overhang, ~2x in 3mo; four_box 2.0; neither/Medium"
+      "reason": "Cyclical inflection + governance risk"
     },
     {
       "name": "KEI Industries Ltd",
@@ -1495,11 +1509,18 @@
       "reason": "Inflection confirmed 4+ quarters (FY26 rev +24%/PAT +77%, Q1 FY27 rev +54% YoY) but EBITDA margin ~7.6%, net debt up, no concalls, +83% in 6mo"
     },
     {
+      "name": "GHCL Textiles Ltd",
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Small/Mid-cap (~Rs 1,148 Cr)",
+      "reason": "Genuine Q1 FY27 +52% inflection; capital discipline (Rs 675 cr deployed, <1x leverage); margin expansion structural (14-15% normalized); FTA/PLI tailwinds durable; management clear on Rs 2,000 cr / 15-18% EBITDA by FY29-30"
+    },
+    {
       "name": "Jayaswal Neco- Integrated Steel Player",
       "conviction": "Medium",
-      "thesis_fit": "neither",
-      "market_cap_tier": "small-cap",
-      "reason": "Technicals-only touch in cooldown. Conviction held at Medium."
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Small-cap",
+      "reason": "technicals refresh only"
     },
     {
       "name": "Aries Agro Ltd",
@@ -1521,6 +1542,13 @@
       "thesis_fit": "neither",
       "market_cap_tier": "Large-cap (~Rs 1,69,610 Cr)",
       "reason": "Data file already carried a complete pass-1 deep_dive + all guidance/lens blocks dated 2026-09-08 (prior agent-16 run); verified, added the missing value_chain block, regenerated docx"
+    },
+    {
+      "name": "Shaily Engineering Plastics Ltd",
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Small-cap",
+      "reason": "Technicals 2026-10-05; conviction unchanged"
     },
     {
       "name": "IIFL Finance",
@@ -1625,7 +1653,7 @@
       "conviction": "Medium",
       "thesis_fit": "neither",
       "market_cap_tier": "Micro-cap (~Rs 890 Cr)",
-      "reason": "Filings confirm exceptional ROCE but also thin ~2% margins, negative FY26 FCF, promoter RPT acquisition; neither held via override"
+      "reason": "Technicals 2026-09-19; conviction unchanged"
     },
     {
       "name": "Lumax Industries",
@@ -1827,8 +1855,8 @@
       "name": "Raghav Productivity Solutions",
       "conviction": "Medium",
       "thesis_fit": "neither",
-      "market_cap_tier": "Mid-cap (~Rs 8,353 Cr, screener.in Oct 2026)",
-      "reason": "Growth re-accelerated but valuation now ~239x P/E; WC 255d; rising RPTs"
+      "market_cap_tier": "Mid-cap (~Rs 8,353 Cr)",
+      "reason": "Price Rs 1,819->1,843 (+1.3%), P/E 127x->239x (TTM shift); richly valued"
     },
     {
       "name": "State Bank of India",
@@ -1878,6 +1906,13 @@
       "thesis_fit": "neither",
       "market_cap_tier": "Large-cap (~Rs 49,942 Cr)",
       "reason": "Named inflection found (Unichem synergy realization guided FY27); large-cap size rules out 10x."
+    },
+    {
+      "name": "Everest Kanto Cylinders Ltd.",
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Small-cap (Rs 1,100-1,200 Cr)",
+      "reason": "ROCE 26%, P/E 8.9x, >50% market share; Egypt/Mundra/US capex credible but Q1 weakness + WC drag warrants caution"
     },
     {
       "name": "Salzer Electronics",
@@ -1943,6 +1978,20 @@
       "reason": "Agriculture | Drip Irrigation | Mid-cap | Tailwind: Good | Key: Agro-tech tailwind, margin structure key"
     },
     {
+      "name": "Indegene",
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Mid-cap (~Rs 14,300 Cr)",
+      "reason": "AI-enabled pharma tech to top-20 biopharma; revenue growth not converting to profit (+30% revenue but -4% profit TTM); ROCE declining (37% \u2192 19%)"
+    },
+    {
+      "name": "Sudeep Pharma Ltd",
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years IF margins durable",
+      "market_cap_tier": "Mid-cap (~Rs 13,218 Cr, recent IPO)",
+      "reason": "Exceptional 26% net margin & 22.7% ROE, but P/E 72.4x is stretched; WC deteriorating (receivable days +30% vs peers)"
+    },
+    {
       "name": "Indian Energy Exchange Ltd (IEX)",
       "conviction": "Low-Medium",
       "thesis_fit": "neither",
@@ -1967,8 +2016,8 @@
       "name": "South West Pinnacle Exploration",
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap",
-      "reason": "Order book Rs 761 Cr all-time high, but 60% concentrated in 2 contracts; FCF negative; down 17% in 2 weeks."
+      "market_cap_tier": "Small-cap (~Rs 771 Cr)",
+      "reason": "Tech refresh - conviction unchanged"
     },
     {
       "name": "SJS Enterprises Ltd",
@@ -2052,14 +2101,14 @@
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
       "market_cap_tier": "Small-cap (~Rs 2,501 Cr)",
-      "reason": "Data file already carried a complete pass-1 deep_dive dated 2026-09-08; verified all blocks present, regenerated docx only."
+      "reason": "Tech refresh - conviction unchanged"
     },
     {
       "name": "Kwality Pharmaceuticals",
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small/Mid-cap",
-      "reason": "Guidance-raise inflection real and tracking, but FY26 cash conversion collapsed (CFO Rs17cr vs PAT Rs67cr) and oncology mix slipped vs its own guide."
+      "market_cap_tier": "Small/Mid-cap (~Rs 6,600 Cr)",
+      "reason": "Price Rs 3,620->3,564 (-1.5%), P/E ~44-47x; CFO/PAT deterioration caps conviction"
     },
     {
       "name": "Kiri Industries: Loan reduction and demand surge",
@@ -2412,6 +2461,13 @@
       "reason": "Q1 FY27's 91% PAT jump is mostly non-operating gains, not a core recovery; reinforces Q4 FY26 core weakness already flagged."
     },
     {
+      "name": "MOIL Ltd",
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Small-cap (~Rs 5,145 Cr)",
+      "reason": "Real Q1 margin inflection, supply squeeze catalyst"
+    },
+    {
       "name": "Repco Home Finance",
       "conviction": "Low-Medium",
       "thesis_fit": "neither",
@@ -2430,7 +2486,7 @@
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
       "market_cap_tier": "Small-cap (~Rs 551 Cr)",
-      "reason": "Cheap NBFC below book (P/B ~0.89x, P/E ~6.3x), ROE ~15%, AUM +15-21%. But PAT growth decelerated FY26 +19% -> Q1 FY27 +3.8%, GNPA rose 0.46%->1.1% over FY26, SME retail weak, book tilting wholesale, dormant thread"
+      "reason": "Tech refresh - conviction unchanged"
     },
     {
       "name": "Gujarat Themis Biosyn Ltd",
@@ -2795,13 +2851,6 @@
       "thesis_fit": "neither",
       "market_cap_tier": "Mid/Large-cap (~Rs 16,234 Cr)",
       "reason": "Aerospace segment genuinely strong (33% EBITDA margin, priority-1 theme fit) but consolidated net loss (consumer segment drag); four_box 2.5, valuation no -> neither. No VP thread. Revisit if thread opens or consumer turnaround shows."
-    },
-    {
-      "name": "Shaily Engineering Plastics Ltd",
-      "conviction": "Low-Medium",
-      "thesis_fit": "neither",
-      "market_cap_tier": "small-cap",
-      "reason": "Technicals-only touch in cooldown. Conviction held at Low-Medium."
     },
     {
       "name": "Pitti Engineering Ltd",
@@ -3448,13 +3497,6 @@
       "reason": "Confirmed thematic basket (5 cos, 2 biz models); sector tailwind real (VGF tranche-2 Rs5,400cr) but not one investable entity; 4/5 proxies already have own entries"
     },
     {
-      "name": "Everest Kanto Cylinders Ltd.",
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "",
-      "reason": ""
-    },
-    {
       "name": "Brigade Hotel Ventures Ltd",
       "conviction": "Low-Medium",
       "thesis_fit": "10x-in-2-3-years",
@@ -3537,6 +3579,13 @@
       "thesis_fit": "neither",
       "market_cap_tier": "Mid-cap",
       "reason": "Industrial Equipment | Pumps Mfg | Mid-cap | Tailwind: Moderate | Key: Industrial equipment, check end-markets + export"
+    },
+    {
+      "name": "FIEM industries : auto ancillary player",
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "market_cap_tier": "",
+      "reason": "Auto-ancillary, structural chart recovery, insider buying. Theme: priority-2 (auto-ancillaries on gaining strength). First-time read: moderate conviction on business momentum, but valuation/growth profile warrants closer follow-up."
     },
     {
       "name": "Smartlink --- Cash for free",
@@ -3715,13 +3764,6 @@
     },
     {
       "name": "Kamat Hotels (India) Ltd- A Possible Turnaround Story!",
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "market_cap_tier": "small-cap",
-      "reason": "Technicals-only touch in cooldown. Conviction held at Low."
-    },
-    {
-      "name": "KMC Speciality hospital",
       "conviction": "Low",
       "thesis_fit": "neither",
       "market_cap_tier": "small-cap",
@@ -4568,13 +4610,6 @@
       "reason": "Best-in-class low-cost operator; real Q1FY27 rebound after a weak Q4FY26, but newly taking on debt for a Rs 30,000 Cr capex plan."
     },
     {
-      "name": "MOIL Ltd",
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap (~Rs 5,145 Cr)",
-      "reason": "Real Q1FY27 profit inflection (PAT +70% YoY) on a global manganese supply squeeze, small-cap size, but unconfirmed by the community yet."
-    },
-    {
       "name": "Orchid Pharma Ltd",
       "conviction": "Low",
       "thesis_fit": "10x-in-2-3-years",
@@ -4655,8 +4690,8 @@
       "name": "Bansal Roofing Products Ltd",
       "conviction": "Low",
       "thesis_fit": "neither",
-      "market_cap_tier": "small-cap",
-      "reason": "Technicals-only touch in cooldown. Conviction held at Low."
+      "market_cap_tier": "Small-cap (~Rs 600 Cr)",
+      "reason": "Price Rs 166->168 (+1.2%), 52W high; valuation flat ~18x"
     },
     {
       "name": "GPT Healthcare Ltd",
@@ -4971,7 +5006,7 @@
       "conviction": "Low",
       "thesis_fit": "10x-in-2-3-years",
       "market_cap_tier": "Small-cap (~Rs 3,050 Cr)",
-      "reason": "Q2 CY26 confirmed order book bigger than recorded (consolidated ~Rs 4,500 Cr, ~1.5x mcap) but margins still absent - 2 straight quarters of 80%+ revenue growth with net loss / ~1% EBITDA; ~110x P/E; margin recovery guided to H2 CY26"
+      "reason": "Price Rs 7,989->7,980, P/E ~110x, margin inflection still unproven"
     },
     {
       "name": "Sathlokhar Synergys E&C Global Ltd",
@@ -5140,13 +5175,6 @@
       "thesis_fit": "neither",
       "market_cap_tier": "small-cap",
       "reason": "Technicals-only touch in cooldown. Conviction held at Low."
-    },
-    {
-      "name": "GHCL Textiles Ltd",
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small/Mid-cap (~Rs 1,148 Cr)",
-      "reason": "Weak trailing ROCE (2.3%) but genuine Q1FY27 +52% YoY revenue; ~98% utilisation caps volume durability; no VP thread found, web-only pass, conviction Low (unconfirmed)."
     },
     {
       "name": "Sportking India Ltd",
@@ -5805,6 +5833,34 @@
       "thesis_fit": "neither",
       "market_cap_tier": "Small-cap (~Rs 1,713-2,069 Cr)",
       "reason": "Room-AC ODM/OEM manufacturer. Weak profitability: ROCE 4.54%, ROE 0.33%, net loss Rs 7.82 Cr TTM, low interest coverage. Revenue CAGR 20.81% trails industry 22.31% (losing share). Zero VP forum engagement (brand-new thread, 0 replies) - no community signal. No catalyst to offset weak returns."
+    },
+    {
+      "name": "Shree Hari Chemicals",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "market_cap_tier": "",
+      "reason": "Discovery first-time read deferred due to scope. Tag for next batch."
+    },
+    {
+      "name": "Active Clothing Co Ltd",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "market_cap_tier": "",
+      "reason": "Discovery first-time read deferred due to scope. Tag for next batch."
+    },
+    {
+      "name": "Bodal Chemical Ltd",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "market_cap_tier": "",
+      "reason": "Discovery first-time read deferred due to scope. Tag for next batch."
+    },
+    {
+      "name": "Oval Projects Engineering Ltd",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Small/Emerging (~Rs 100-300 Cr est., unlisted)",
+      "reason": "Strong PSU backlog (ONGC/IOCL), 25yr track record, but unlisted with zero financial transparency; suitable only for PE/VC"
     },
     {
       "name": "Reliance Industries Ltd: Is the 'Reliance\" on 'Jio' Justified?",
@@ -7039,6 +7095,22 @@
       "market_cap_tier": "Small-cap (~Rs 992 Cr)",
       "reason": "Subsidiary fraud finding + FIR against Directors/KMPs (2025) + cancelled flagship LPG JV + JNPT lease shock, culminating in a 2026-09-29 slump-sale of the CORE tank/terminal business the thesis was built on. HIGH CAUTION, thesis discontinued.",
       "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "name": "TruAlt Bioenergy Ltd",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "market_cap_tier": "Small-cap (~Rs 3,810 Cr, recent IPO)",
+      "reason": "Green-fuel tailwind real, but ROCE 10.4% weak, Q2 loss -Rs 38 Cr amid growth, 36.8% promoter pledging signals stress",
+      "red_flag_tier": "HIGH CAUTION"
+    },
+    {
+      "name": "Ugro Capital",
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Small-cap (~Rs 1,519 Cr)",
+      "reason": "Trading at ~0.53x book after MFI-contagion selloff - a beaten-down turnaround setup, not a structurally weak business. Small-cap (~Rs 1,519 Cr) keeps 10x plausible if the sector stress genuinely reverses.",
+      "red_flag_tier": "HIGH_CAUTION"
     },
     {
       "name": "Gp Eco Solutions",

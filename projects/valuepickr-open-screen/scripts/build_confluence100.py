@@ -247,6 +247,9 @@ def build_universe():
 def blend_fundamental(x):
     cov = x["sb"]["weight_coverage"]
     fb = x.get("four_box_score")
+    # Handle case where fb is a string or dict (defensive)
+    if isinstance(fb, (str, dict)):
+        fb = None
     fb_pct = (fb / 5 * 100) if fb is not None else x["master_score"]
     w_master = 0.4 + 0.6 * cov
     return round(w_master * x["master_score"] + (1 - w_master) * fb_pct, 2)

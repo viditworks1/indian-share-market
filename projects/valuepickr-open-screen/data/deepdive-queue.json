@@ -9,7 +9,7 @@
     "COOLDOWN_DAYS": 60
   },
   "note": "Active-pool queue for the deepdive-top100 task. The task rebuilds this at Step 0 of EVERY run, then takes the first 3 'pending' entries by `rank` (all pending entries are pool members — non-pool entries are marked 'not_in_pool' and never selected). Pool eligibility (2026-09-16) is a HARD gate: must be a current Confluence-100 member AND not large/mega-cap, or the stock is never in the pool regardless of score (`eligible_for_pool` on every queue entry records this). Among eligible stocks, pool = top up to 100 by pool_priority (four_box + master_score, boosted for low score-coverage), recomputed fresh each run — membership can shift as Confluence-100 changes week to week or a name crosses the large-cap line. Unlike the pre-2026-09-16 design, the pool can genuinely run BELOW 100 (bounded by how many small/mid-cap Confluence-100 members exist) — that is expected, not a bug. Once every pool entry is 'done' for `current_pass`, it rolls to N+1 and all pool entries reset to 'pending' — rotation then resumes ordered by rerun_tier (never-dived, then already-dived-above-floor, then already-dived-below-floor 'no need to rerun', then high_caution, then in_cooldown — a pool member deep-dived under 60 days ago, always absolute last and marked `dive_mode:'technicals_only'`, never a candidate for a fresh full dive) with pool_priority as the ranking key within each tier. Non-pool entries are dormant (status 'not_in_pool') but keep their own data_file mapping (other scripts, e.g. resolve_data_file.py, depend on the FULL universe being listed here, not just the pool) and their full deepdive history/pass/date, so they pick up right where they left off if they re-enter the pool later. Do not hand-edit.",
-  "current_pass": 3,
+  "current_pass": 2,
   "queue": [
     {
       "rank": 1,
@@ -4662,6 +4662,49 @@
     },
     {
       "rank": 101,
+      "state_key": "force-motors",
+      "name": "Force Motors Ltd",
+      "ranking_title": "Force Motors Ltd",
+      "data_file": "data/force-motors.json",
+      "docx_file": "docs/Force Motors.docx",
+      "docx_is_existing": true,
+      "clean_name": "Force Motors Ltd",
+      "market_cap_tier": "Mid-large cap (~Rs 23,043 Cr)",
+      "ranking_conviction": "High",
+      "ranking_thesis_fit": "neither",
+      "conviction_score": 47.06,
+      "master_score": 47.06,
+      "four_box_score": 3.2,
+      "potential_score": 63.53,
+      "in_confluence100": true,
+      "is_large_or_mega": true,
+      "eligible_for_pool": false,
+      "weight_coverage": 0.25,
+      "pool_priority": 71.03,
+      "high_caution": false,
+      "never_deepdived": false,
+      "days_since_deepdive": 16,
+      "in_cooldown": true,
+      "deepdive_status": "not_in_pool",
+      "deepdive_pass": 1,
+      "deepdive_date": "2026-09-19",
+      "pre_deepdive_conviction": "Medium-High",
+      "post_deepdive_conviction": "High",
+      "history": [
+        {
+          "pass": 1,
+          "date": "2026-09-19",
+          "pre": "Medium-High",
+          "post": "High",
+          "summary": "Resolved a stale community complaint with hard filings: FY26 was a record year (PAT +51%, ROCE 36% up from -3% FY22); two genuine moats (BMW/Mercedes engine, >70% van share); four_box upgraded to 3.0 but analyst_override keeps thesis neither on size math."
+        }
+      ],
+      "in_active_pool": false,
+      "rerun_tier": null,
+      "dive_mode": null
+    },
+    {
+      "rank": 102,
       "state_key": "engineers-india",
       "name": "Engineers India (EIL)",
       "ranking_title": "Engineers India (EIL)",
@@ -4704,7 +4747,7 @@
       "dive_mode": null
     },
     {
-      "rank": 102,
+      "rank": 103,
       "state_key": "harshdeep-hortico",
       "name": "Harshdeep Hortico Ltd (SME)",
       "ranking_title": "Harshdeep Hortico Ltd (SME)",
@@ -4740,49 +4783,6 @@
           "pre": "Medium",
           "post": "Medium",
           "summary": "FY26 confirms growth+cheap multiple but operating cash flow negative before capex; conviction holds Medium"
-        }
-      ],
-      "in_active_pool": false,
-      "rerun_tier": null,
-      "dive_mode": null
-    },
-    {
-      "rank": 103,
-      "state_key": "force-motors",
-      "name": "Force Motors Ltd",
-      "ranking_title": "Force Motors Ltd",
-      "data_file": "data/force-motors.json",
-      "docx_file": "docs/Force Motors.docx",
-      "docx_is_existing": true,
-      "clean_name": "Force Motors Ltd",
-      "market_cap_tier": "Mid-large cap (~Rs 23,043 Cr)",
-      "ranking_conviction": "High",
-      "ranking_thesis_fit": "neither",
-      "conviction_score": 64.7,
-      "master_score": 54.49,
-      "four_box_score": 3.2,
-      "potential_score": 67.25,
-      "in_confluence100": true,
-      "is_large_or_mega": true,
-      "eligible_for_pool": false,
-      "weight_coverage": 1.0,
-      "pool_priority": 67.25,
-      "high_caution": false,
-      "never_deepdived": false,
-      "days_since_deepdive": 16,
-      "in_cooldown": true,
-      "deepdive_status": "not_in_pool",
-      "deepdive_pass": 1,
-      "deepdive_date": "2026-09-19",
-      "pre_deepdive_conviction": "Medium-High",
-      "post_deepdive_conviction": "High",
-      "history": [
-        {
-          "pass": 1,
-          "date": "2026-09-19",
-          "pre": "Medium-High",
-          "post": "High",
-          "summary": "Resolved a stale community complaint with hard filings: FY26 was a record year (PAT +51%, ROCE 36% up from -3% FY22); two genuine moats (BMW/Mercedes engine, >70% van share); four_box upgraded to 3.0 but analyst_override keeps thesis neither on size math."
         }
       ],
       "in_active_pool": false,
@@ -5275,43 +5275,35 @@
     },
     {
       "rank": 116,
-      "state_key": "gv-electricals",
-      "name": "GV Electricals Ltd",
-      "ranking_title": null,
-      "data_file": "data/gv-electricals.json",
-      "docx_file": "docs/GV Electricals.docx",
+      "state_key": "emerald-finance",
+      "name": "Emerald Finance",
+      "ranking_title": "Emerald Finance",
+      "data_file": "data/emerald-finance.json",
+      "docx_file": "docs/Emerald Finance.docx",
       "docx_is_existing": true,
-      "clean_name": "GV Electricals Ltd",
-      "market_cap_tier": "Micro-cap (~Rs 156 Cr)",
+      "clean_name": "Emerald Finance",
+      "market_cap_tier": "Micro-cap (~Rs 175-180 Cr)",
       "ranking_conviction": "Low",
       "ranking_thesis_fit": "10x-in-2-3-years",
-      "conviction_score": 0.0,
-      "master_score": 26.28,
-      "four_box_score": 3.6,
-      "potential_score": 58.14,
+      "conviction_score": 22.0,
+      "master_score": 22.0,
+      "four_box_score": 3.2,
+      "potential_score": 51.0,
       "in_confluence100": false,
       "is_large_or_mega": false,
       "eligible_for_pool": false,
-      "weight_coverage": 1.0,
-      "pool_priority": 58.14,
-      "high_caution": true,
-      "never_deepdived": false,
-      "days_since_deepdive": 3,
-      "in_cooldown": true,
+      "weight_coverage": 0.25,
+      "pool_priority": 58.5,
+      "high_caution": false,
+      "never_deepdived": true,
+      "days_since_deepdive": null,
+      "in_cooldown": false,
       "deepdive_status": "not_in_pool",
-      "deepdive_pass": 1,
-      "deepdive_date": "2026-10-02",
-      "pre_deepdive_conviction": "Low-Medium",
-      "post_deepdive_conviction": "Low",
-      "history": [
-        {
-          "pass": 1,
-          "date": "2026-10-02",
-          "pre": "Low-Medium",
-          "post": "Low",
-          "summary": "Margin inflection real (EBITDA +485bps), but WC deterioration, DISCOM concentration, unproven data-centre cap conviction at Low"
-        }
-      ],
+      "deepdive_pass": 0,
+      "deepdive_date": null,
+      "pre_deepdive_conviction": null,
+      "post_deepdive_conviction": null,
+      "history": [],
       "in_active_pool": false,
       "rerun_tier": null,
       "dive_mode": null
@@ -6089,6 +6081,41 @@
     },
     {
       "rank": 134,
+      "state_key": "shalimar-paints",
+      "name": "Shalimar Paints Ltd. -- Worth a Serious Look -- Significant Rerating Triggers In",
+      "ranking_title": "Shalimar Paints Ltd. -- Worth a Serious Look -- Significant Rerating Triggers Inplace",
+      "data_file": "data/shalimar-paints.json",
+      "docx_file": "docs/Shalimar Paints.docx",
+      "docx_is_existing": true,
+      "clean_name": "Shalimar Paints Ltd. -- Worth a Serious Look -- Significant Rerating Triggers In",
+      "market_cap_tier": "Small-cap (~Rs 686 Cr)",
+      "ranking_conviction": "Low",
+      "ranking_thesis_fit": "10x-in-2-3-years",
+      "conviction_score": 22.0,
+      "master_score": 22.0,
+      "four_box_score": 2.8,
+      "potential_score": 46.0,
+      "in_confluence100": false,
+      "is_large_or_mega": false,
+      "eligible_for_pool": false,
+      "weight_coverage": 0.25,
+      "pool_priority": 53.5,
+      "high_caution": false,
+      "never_deepdived": true,
+      "days_since_deepdive": null,
+      "in_cooldown": false,
+      "deepdive_status": "not_in_pool",
+      "deepdive_pass": 0,
+      "deepdive_date": null,
+      "pre_deepdive_conviction": null,
+      "post_deepdive_conviction": null,
+      "history": [],
+      "in_active_pool": false,
+      "rerun_tier": null,
+      "dive_mode": null
+    },
+    {
+      "rank": 135,
       "state_key": "deepa-jewellers",
       "name": "Deepa Jewellers",
       "ranking_title": "Deepa Jewellers",
@@ -6131,7 +6158,7 @@
       "dive_mode": null
     },
     {
-      "rank": 135,
+      "rank": 136,
       "state_key": "kp-energy",
       "name": "KP Energy Ltd",
       "ranking_title": "KP Energy Ltd",
@@ -6174,7 +6201,7 @@
       "dive_mode": null
     },
     {
-      "rank": 136,
+      "rank": 137,
       "state_key": "molbio",
       "name": "Molbio Diagnostics",
       "ranking_title": "Molbio Diagnostics",
@@ -6217,7 +6244,7 @@
       "dive_mode": null
     },
     {
-      "rank": 137,
+      "rank": 138,
       "state_key": "chamunda-electricals",
       "name": "Chamunda Electricals Ltd",
       "ranking_title": "Chamunda Electricals Ltd",
@@ -6260,7 +6287,50 @@
       "dive_mode": null
     },
     {
-      "rank": 138,
+      "rank": 139,
+      "state_key": "rapicut-carbides",
+      "name": "Rapicut Carbides Ltd.",
+      "ranking_title": "Rapicut Carbides Ltd.",
+      "data_file": "data/rapicut-carbides.json",
+      "docx_file": "docs/Rapicut Carbides Ltd.docx",
+      "docx_is_existing": true,
+      "clean_name": "Rapicut Carbides Ltd.",
+      "market_cap_tier": "small-cap",
+      "ranking_conviction": "Low",
+      "ranking_thesis_fit": "neither",
+      "conviction_score": 8.0,
+      "master_score": 8.0,
+      "four_box_score": 3.3,
+      "potential_score": 45.25,
+      "in_confluence100": false,
+      "is_large_or_mega": false,
+      "eligible_for_pool": false,
+      "weight_coverage": 0.25,
+      "pool_priority": 52.75,
+      "high_caution": false,
+      "never_deepdived": false,
+      "days_since_deepdive": 2,
+      "in_cooldown": true,
+      "deepdive_status": "not_in_pool",
+      "deepdive_pass": 1,
+      "deepdive_date": "2026-10-03",
+      "pre_deepdive_conviction": "Low",
+      "post_deepdive_conviction": "Low",
+      "history": [
+        {
+          "pass": 1,
+          "date": "2026-10-03",
+          "pre": "Low",
+          "post": "Low",
+          "summary": "Rank 97. Micro-cap carbide tool maker, cyclical industrial exposure."
+        }
+      ],
+      "in_active_pool": false,
+      "rerun_tier": null,
+      "dive_mode": null
+    },
+    {
+      "rank": 140,
       "state_key": "see-the-bright-sun-aditya-vision",
       "name": "See the bright Sun",
       "ranking_title": "See the bright Sun: Aditya Vision",
@@ -6303,7 +6373,7 @@
       "dive_mode": null
     },
     {
-      "rank": 139,
+      "rank": 141,
       "state_key": "alufluoride",
       "name": "Alufluoride Limited-conversion of waste into wealth",
       "ranking_title": "Alufluoride Limited-conversion of waste into wealth",
@@ -6362,42 +6432,50 @@
       "dive_mode": null
     },
     {
-      "rank": 140,
-      "state_key": "emerald-finance",
-      "name": "Emerald Finance",
-      "ranking_title": "Emerald Finance",
-      "data_file": "data/emerald-finance.json",
-      "docx_file": "docs/Emerald Finance.docx",
+      "rank": 142,
+      "state_key": "gv-electricals",
+      "name": "GV Electricals Ltd",
+      "ranking_title": null,
+      "data_file": "data/gv-electricals.json",
+      "docx_file": "docs/GV Electricals.docx",
       "docx_is_existing": true,
-      "clean_name": "Emerald Finance",
-      "market_cap_tier": "Micro-cap (~Rs 175-180 Cr)",
+      "clean_name": "GV Electricals Ltd",
+      "market_cap_tier": "Micro-cap (~Rs 156 Cr)",
       "ranking_conviction": "Low",
       "ranking_thesis_fit": "10x-in-2-3-years",
-      "conviction_score": 24.69,
-      "master_score": 24.41,
-      "four_box_score": 3.2,
-      "potential_score": 52.2,
+      "conviction_score": 0.0,
+      "master_score": 0.0,
+      "four_box_score": 3.6,
+      "potential_score": 45.0,
       "in_confluence100": false,
       "is_large_or_mega": false,
       "eligible_for_pool": false,
-      "weight_coverage": 1.0,
-      "pool_priority": 52.2,
-      "high_caution": false,
-      "never_deepdived": true,
-      "days_since_deepdive": null,
-      "in_cooldown": false,
+      "weight_coverage": 0.25,
+      "pool_priority": 52.5,
+      "high_caution": true,
+      "never_deepdived": false,
+      "days_since_deepdive": 3,
+      "in_cooldown": true,
       "deepdive_status": "not_in_pool",
-      "deepdive_pass": 0,
-      "deepdive_date": null,
-      "pre_deepdive_conviction": null,
-      "post_deepdive_conviction": null,
-      "history": [],
+      "deepdive_pass": 1,
+      "deepdive_date": "2026-10-02",
+      "pre_deepdive_conviction": "Low-Medium",
+      "post_deepdive_conviction": "Low",
+      "history": [
+        {
+          "pass": 1,
+          "date": "2026-10-02",
+          "pre": "Low-Medium",
+          "post": "Low",
+          "summary": "Margin inflection real (EBITDA +485bps), but WC deterioration, DISCOM concentration, unproven data-centre cap conviction at Low"
+        }
+      ],
       "in_active_pool": false,
       "rerun_tier": null,
       "dive_mode": null
     },
     {
-      "rank": 141,
+      "rank": 143,
       "state_key": "concord-control-systems",
       "name": "Concord Control Systems",
       "ranking_title": "Concord Control Systems",
@@ -6440,7 +6518,7 @@
       "dive_mode": null
     },
     {
-      "rank": 142,
+      "rank": 144,
       "state_key": "kernex-tcas-led-multi-year-growth-story",
       "name": "Kernex",
       "ranking_title": "Kernex: TCAS led multi year growth story",
@@ -6499,7 +6577,7 @@
       "dive_mode": null
     },
     {
-      "rank": 143,
+      "rank": 145,
       "state_key": "universal-cables",
       "name": "Universal Cables",
       "ranking_title": "Universal Cables",
@@ -6542,50 +6620,7 @@
       "dive_mode": null
     },
     {
-      "rank": 144,
-      "state_key": "rapicut-carbides",
-      "name": "Rapicut Carbides Ltd.",
-      "ranking_title": "Rapicut Carbides Ltd.",
-      "data_file": "data/rapicut-carbides.json",
-      "docx_file": "docs/Rapicut Carbides Ltd.docx",
-      "docx_is_existing": true,
-      "clean_name": "Rapicut Carbides Ltd.",
-      "market_cap_tier": "small-cap",
-      "ranking_conviction": "Low",
-      "ranking_thesis_fit": "neither",
-      "conviction_score": 5.25,
-      "master_score": 20.95,
-      "four_box_score": 3.3,
-      "potential_score": 51.73,
-      "in_confluence100": false,
-      "is_large_or_mega": false,
-      "eligible_for_pool": false,
-      "weight_coverage": 1.0,
-      "pool_priority": 51.73,
-      "high_caution": false,
-      "never_deepdived": false,
-      "days_since_deepdive": 2,
-      "in_cooldown": true,
-      "deepdive_status": "not_in_pool",
-      "deepdive_pass": 1,
-      "deepdive_date": "2026-10-03",
-      "pre_deepdive_conviction": "Low",
-      "post_deepdive_conviction": "Low",
-      "history": [
-        {
-          "pass": 1,
-          "date": "2026-10-03",
-          "pre": "Low",
-          "post": "Low",
-          "summary": "Rank 97. Micro-cap carbide tool maker, cyclical industrial exposure."
-        }
-      ],
-      "in_active_pool": false,
-      "rerun_tier": null,
-      "dive_mode": null
-    },
-    {
-      "rank": 145,
+      "rank": 146,
       "state_key": "icici-lombard",
       "name": "ICICI Lombard",
       "ranking_title": "ICICI Lombard",
@@ -6628,7 +6663,7 @@
       "dive_mode": null
     },
     {
-      "rank": 146,
+      "rank": 147,
       "state_key": "amara-raja-energy-mobility-limited-powering-ahead",
       "name": "Amara Raja Energy & Mobility Ltd",
       "ranking_title": "Amara Raja Energy & Mobility Ltd",
@@ -6663,7 +6698,7 @@
       "dive_mode": null
     },
     {
-      "rank": 147,
+      "rank": 148,
       "state_key": "garuda-cons",
       "name": "Garuda Cons",
       "ranking_title": "Garuda Cons",
@@ -6698,7 +6733,7 @@
       "dive_mode": null
     },
     {
-      "rank": 148,
+      "rank": 149,
       "state_key": "samhi-hotels",
       "name": "Samhi Hotels",
       "ranking_title": "Samhi Hotels",
@@ -6749,7 +6784,7 @@
       "dive_mode": null
     },
     {
-      "rank": 149,
+      "rank": 150,
       "state_key": "escorts-kubota",
       "name": "Escorts Kubota Ltd",
       "ranking_title": "Escorts Kubota Ltd",
@@ -6784,7 +6819,7 @@
       "dive_mode": null
     },
     {
-      "rank": 150,
+      "rank": 151,
       "state_key": "flysbs",
       "name": "Flysbs",
       "ranking_title": "Flysbs",
@@ -6819,7 +6854,7 @@
       "dive_mode": null
     },
     {
-      "rank": 151,
+      "rank": 152,
       "state_key": "indian-metals-ferro-alloys",
       "name": "Indian Metals & Ferro Alloys (IMFA)",
       "ranking_title": "Indian Metals & Ferro Alloys (IMFA)",
@@ -6854,7 +6889,7 @@
       "dive_mode": null
     },
     {
-      "rank": 152,
+      "rank": 153,
       "state_key": "nestle-india",
       "name": "Nestle India",
       "ranking_title": "Nestle India",
@@ -6889,7 +6924,7 @@
       "dive_mode": null
     },
     {
-      "rank": 153,
+      "rank": 154,
       "state_key": "powerica",
       "name": "Powerica Ltd",
       "ranking_title": "Powerica Ltd",
@@ -6924,7 +6959,7 @@
       "dive_mode": null
     },
     {
-      "rank": 154,
+      "rank": 155,
       "state_key": "sbi-funds-management",
       "name": "SBI Funds Management",
       "ranking_title": "SBI Funds Management",
@@ -6959,7 +6994,7 @@
       "dive_mode": null
     },
     {
-      "rank": 155,
+      "rank": 156,
       "state_key": "shankesh",
       "name": "Shankesh Jewellers",
       "ranking_title": "Shankesh Jewellers",
@@ -6994,7 +7029,7 @@
       "dive_mode": null
     },
     {
-      "rank": 156,
+      "rank": 157,
       "state_key": "shilchar-technologies",
       "name": "Shilchar Technologies",
       "ranking_title": "Shilchar Technologies",
@@ -7029,7 +7064,7 @@
       "dive_mode": null
     },
     {
-      "rank": 157,
+      "rank": 158,
       "state_key": "enviro-infra-engineers",
       "name": "Enviro Infra Engineers Limited",
       "ranking_title": "Enviro Infra Engineers Limited",
@@ -7072,7 +7107,7 @@
       "dive_mode": null
     },
     {
-      "rank": 158,
+      "rank": 159,
       "state_key": "wonderla-holidays",
       "name": "Wonderla Holidays",
       "ranking_title": "Wonderla Holidays",
@@ -7115,7 +7150,7 @@
       "dive_mode": null
     },
     {
-      "rank": 159,
+      "rank": 160,
       "state_key": "crompton-greaves-consumer-product-brand-revival",
       "name": "Crompton Greaves Consumer Product",
       "ranking_title": "Crompton Greaves Consumer Product: Brand Revival",
@@ -7150,7 +7185,7 @@
       "dive_mode": null
     },
     {
-      "rank": 160,
+      "rank": 161,
       "state_key": "airfloa-rail-technology",
       "name": "Airfloa Rail Technology",
       "ranking_title": "Airfloa Rail Technology",
@@ -7193,7 +7228,7 @@
       "dive_mode": null
     },
     {
-      "rank": 161,
+      "rank": 162,
       "state_key": "cff-fluid-control",
       "name": "CFF Fluid Control Ltd",
       "ranking_title": "CFF Fluid Control Ltd",
@@ -7236,7 +7271,7 @@
       "dive_mode": null
     },
     {
-      "rank": 162,
+      "rank": 163,
       "state_key": "kpi-green-energy",
       "name": "KPI Green Energy Ltd",
       "ranking_title": "KPI Green Energy Ltd",
@@ -7279,7 +7314,7 @@
       "dive_mode": null
     },
     {
-      "rank": 163,
+      "rank": 164,
       "state_key": "influx-health",
       "name": "Influx Health",
       "ranking_title": "Influx Health",
@@ -7314,7 +7349,7 @@
       "dive_mode": null
     },
     {
-      "rank": 164,
+      "rank": 165,
       "state_key": "l-t-elevators-can-they-lift-investors",
       "name": "L. T. Elevators",
       "ranking_title": "L. T. Elevators: Can they lift investors",
@@ -7357,7 +7392,7 @@
       "dive_mode": null
     },
     {
-      "rank": 165,
+      "rank": 166,
       "state_key": "sudeep-pharma-ltd",
       "name": "Sudeep Pharma Ltd",
       "ranking_title": "Sudeep Pharma Ltd",
@@ -7405,7 +7440,7 @@
       "dive_mode": null
     },
     {
-      "rank": 166,
+      "rank": 167,
       "state_key": "kalyani-cast",
       "name": "Kalyani Cast-Tech Ltd",
       "ranking_title": "Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing",
@@ -7456,7 +7491,7 @@
       "dive_mode": null
     },
     {
-      "rank": 167,
+      "rank": 168,
       "state_key": "zaggle-a-platform-to-address-pain-points-for-enterprises",
       "name": "Zaggle_A platform to address pain points for enterprises",
       "ranking_title": "Zaggle_A platform to address pain points for enterprises",
@@ -7499,7 +7534,7 @@
       "dive_mode": null
     },
     {
-      "rank": 168,
+      "rank": 169,
       "state_key": "pennar-industries",
       "name": "Pennar Industries Limited",
       "ranking_title": "Pennar Industries Limited",
@@ -7542,7 +7577,7 @@
       "dive_mode": null
     },
     {
-      "rank": 169,
+      "rank": 170,
       "state_key": "sika-interplant-systems",
       "name": "Sika Interplant Systems Ltd",
       "ranking_title": "Sika Interplant Systems Ltd",
@@ -7601,7 +7636,7 @@
       "dive_mode": null
     },
     {
-      "rank": 170,
+      "rank": 171,
       "state_key": "senco-gold-upcoming-gold-story",
       "name": "Senco Gold",
       "ranking_title": "Senco Gold: Upcoming gold story!",
@@ -7644,7 +7679,7 @@
       "dive_mode": null
     },
     {
-      "rank": 171,
+      "rank": 172,
       "state_key": "repco-home-finance-ias2026",
       "name": "Repco Home Finance",
       "ranking_title": "Repco Home Finance",
@@ -7679,7 +7714,7 @@
       "dive_mode": null
     },
     {
-      "rank": 172,
+      "rank": 173,
       "state_key": "capri-global-capital",
       "name": "Capri Global Capital Ltd",
       "ranking_title": "Capri Global Capital Ltd",
@@ -7722,7 +7757,7 @@
       "dive_mode": null
     },
     {
-      "rank": 173,
+      "rank": 174,
       "state_key": "supreme-transformer",
       "name": "Supreme (transformer maker)",
       "ranking_title": "Supreme (transformer maker)",
@@ -7765,7 +7800,7 @@
       "dive_mode": null
     },
     {
-      "rank": 174,
+      "rank": 175,
       "state_key": "garuda-construction",
       "name": "Garuda Construction",
       "ranking_title": null,
@@ -7808,7 +7843,7 @@
       "dive_mode": null
     },
     {
-      "rank": 175,
+      "rank": 176,
       "state_key": "laxmi-dental",
       "name": "Laxmi Dental Ltd",
       "ranking_title": "Laxmi Dental Ltd",
@@ -7843,7 +7878,7 @@
       "dive_mode": null
     },
     {
-      "rank": 176,
+      "rank": 177,
       "state_key": "tata-motors-commercial-vehicles",
       "name": "Tata Motors Commercial Vehicles (TMCV)",
       "ranking_title": "Tata Motors Commercial Vehicles (TMCV)",
@@ -7878,7 +7913,7 @@
       "dive_mode": null
     },
     {
-      "rank": 177,
+      "rank": 178,
       "state_key": "natco-pharma-focusing-on-complex-products",
       "name": "Natco Pharma",
       "ranking_title": "Natco Pharma: Focusing On Complex Products",
@@ -7913,7 +7948,7 @@
       "dive_mode": null
     },
     {
-      "rank": 178,
+      "rank": 179,
       "state_key": "sbcl",
       "name": "SBCL",
       "ranking_title": "SBCL",
@@ -7948,7 +7983,7 @@
       "dive_mode": null
     },
     {
-      "rank": 179,
+      "rank": 180,
       "state_key": "inventurus-knowledge-solutions",
       "name": "Inventurus Knowledge Solutions",
       "ranking_title": "Inventurus Knowledge Solutions",
@@ -7983,7 +8018,7 @@
       "dive_mode": null
     },
     {
-      "rank": 180,
+      "rank": 181,
       "state_key": "td-power-systems",
       "name": "TD Power Systems",
       "ranking_title": "TD Power Systems",
@@ -8026,7 +8061,7 @@
       "dive_mode": null
     },
     {
-      "rank": 181,
+      "rank": 182,
       "state_key": "proventus-agrocom",
       "name": "Proventus Agrocom",
       "ranking_title": null,
@@ -8069,7 +8104,7 @@
       "dive_mode": null
     },
     {
-      "rank": 182,
+      "rank": 183,
       "state_key": "vadilal-industries",
       "name": "Vadilal Industries",
       "ranking_title": null,
@@ -8112,7 +8147,7 @@
       "dive_mode": null
     },
     {
-      "rank": 183,
+      "rank": 184,
       "state_key": "solex-energy",
       "name": "Solex Energy Ltd",
       "ranking_title": "Solex Energy Ltd",
@@ -8155,7 +8190,7 @@
       "dive_mode": null
     },
     {
-      "rank": 184,
+      "rank": 185,
       "state_key": "rappid-valves",
       "name": "Rappid Valves",
       "ranking_title": null,
@@ -8198,7 +8233,7 @@
       "dive_mode": null
     },
     {
-      "rank": 185,
+      "rank": 186,
       "state_key": "asarfi-hospital-limited-sme-ipo",
       "name": "Asarfi Hospital Limited SME IPO (Asarfi Hospital IPO)",
       "ranking_title": "Asarfi Hospital Limited SME IPO (Asarfi Hospital IPO)",
@@ -8233,7 +8268,7 @@
       "dive_mode": null
     },
     {
-      "rank": 186,
+      "rank": 187,
       "state_key": "gravita-india-success-story",
       "name": "Gravita India success story",
       "ranking_title": "Gravita India success story",
@@ -8268,7 +8303,7 @@
       "dive_mode": null
     },
     {
-      "rank": 187,
+      "rank": 188,
       "state_key": "ebgng",
       "name": "EBGNG",
       "ranking_title": "EBGNG",
@@ -8311,7 +8346,7 @@
       "dive_mode": null
     },
     {
-      "rank": 188,
+      "rank": 189,
       "state_key": "lloyds-metal-energy",
       "name": "Lloyds Metal & Energy Ltd",
       "ranking_title": "Lloyds Metal & Energy Ltd",
@@ -8346,7 +8381,7 @@
       "dive_mode": null
     },
     {
-      "rank": 189,
+      "rank": 190,
       "state_key": "racl-geartech",
       "name": "RACL Geartech",
       "ranking_title": "RACL Geartech",
@@ -8381,7 +8416,7 @@
       "dive_mode": null
     },
     {
-      "rank": 190,
+      "rank": 191,
       "state_key": "megatherm-induction",
       "name": "Megatherm Induction Ltd",
       "ranking_title": "Megatherm Induction Ltd",
@@ -8416,7 +8451,7 @@
       "dive_mode": null
     },
     {
-      "rank": 191,
+      "rank": 192,
       "state_key": "borosil-renewables",
       "name": "Borosil Renewables",
       "ranking_title": "Borosil Renewables",
@@ -8467,7 +8502,7 @@
       "dive_mode": null
     },
     {
-      "rank": 192,
+      "rank": 193,
       "state_key": "control-print",
       "name": "Control Print",
       "ranking_title": "Control Print",
@@ -8510,7 +8545,7 @@
       "dive_mode": null
     },
     {
-      "rank": 193,
+      "rank": 194,
       "state_key": "aequs",
       "name": "Aequs",
       "ranking_title": "Aequs",
@@ -8545,7 +8580,7 @@
       "dive_mode": null
     },
     {
-      "rank": 194,
+      "rank": 195,
       "state_key": "coal-india",
       "name": "Coal India",
       "ranking_title": "Coal India",
@@ -8580,7 +8615,7 @@
       "dive_mode": null
     },
     {
-      "rank": 195,
+      "rank": 196,
       "state_key": "greenlam-industries",
       "name": "Greenlam Industries Ltd",
       "ranking_title": "Greenlam Industries Ltd",
@@ -8615,7 +8650,7 @@
       "dive_mode": null
     },
     {
-      "rank": 196,
+      "rank": 197,
       "state_key": "inox-green-energy-services",
       "name": "Inox Green Energy",
       "ranking_title": "Inox Green Energy",
@@ -8650,7 +8685,7 @@
       "dive_mode": null
     },
     {
-      "rank": 197,
+      "rank": 198,
       "state_key": "jupiter-wagons",
       "name": "Jupiter Wagons Ltd (previously CEBBCO)",
       "ranking_title": "Jupiter Wagons Ltd (previously CEBBCO)",
@@ -8685,7 +8720,7 @@
       "dive_mode": null
     },
     {
-      "rank": 198,
+      "rank": 199,
       "state_key": "kaka-industries",
       "name": "Kaka Industries Ltd",
       "ranking_title": "Kaka Industries Ltd",
@@ -8720,7 +8755,7 @@
       "dive_mode": null
     },
     {
-      "rank": 199,
+      "rank": 200,
       "state_key": "ongc",
       "name": "Oil & Natural Gas Corporation Ltd (ONGC)",
       "ranking_title": "Oil & Natural Gas Corporation Ltd (ONGC)",
@@ -8755,7 +8790,7 @@
       "dive_mode": null
     },
     {
-      "rank": 200,
+      "rank": 201,
       "state_key": "oil-india",
       "name": "Oil India Ltd",
       "ranking_title": "Oil India Ltd",
@@ -8790,7 +8825,7 @@
       "dive_mode": null
     },
     {
-      "rank": 201,
+      "rank": 202,
       "state_key": "pace-digitek",
       "name": "Pace Digitek Ltd",
       "ranking_title": "Pace Digitek Ltd",
@@ -8825,7 +8860,7 @@
       "dive_mode": null
     },
     {
-      "rank": 202,
+      "rank": 203,
       "state_key": "premier-explosives",
       "name": "Premier Explosives Ltd",
       "ranking_title": "Premier Explosives Ltd",
@@ -8860,7 +8895,7 @@
       "dive_mode": null
     },
     {
-      "rank": 203,
+      "rank": 204,
       "state_key": "prostarm",
       "name": "Prostarm Info Systems",
       "ranking_title": "Prostarm Info Systems",
@@ -8895,7 +8930,7 @@
       "dive_mode": null
     },
     {
-      "rank": 204,
+      "rank": 205,
       "state_key": "selan-exploration",
       "name": "Selan Exploration",
       "ranking_title": "Selan Exploration",
@@ -8930,7 +8965,7 @@
       "dive_mode": null
     },
     {
-      "rank": 205,
+      "rank": 206,
       "state_key": "sp-apparels",
       "name": "SP Apparels",
       "ranking_title": "SP Apparels",
@@ -8965,7 +9000,7 @@
       "dive_mode": null
     },
     {
-      "rank": 206,
+      "rank": 207,
       "state_key": "sunteck-realty",
       "name": "Sunteck Realty",
       "ranking_title": "Sunteck Realty",
@@ -9000,7 +9035,7 @@
       "dive_mode": null
     },
     {
-      "rank": 207,
+      "rank": 208,
       "state_key": "tata-elxsi",
       "name": "Tata Elxsi",
       "ranking_title": "Tata Elxsi",
@@ -9035,7 +9070,7 @@
       "dive_mode": null
     },
     {
-      "rank": 208,
+      "rank": 209,
       "state_key": "trishakti-industries",
       "name": "Trishakti Industries",
       "ranking_title": "Trishakti Industries",
@@ -9070,7 +9105,7 @@
       "dive_mode": null
     },
     {
-      "rank": 209,
+      "rank": 210,
       "state_key": "vst-tillers-and-tractors-limited",
       "name": "VST Tillers and Tractors limited",
       "ranking_title": "VST Tillers and Tractors limited",
@@ -9105,7 +9140,7 @@
       "dive_mode": null
     },
     {
-      "rank": 210,
+      "rank": 211,
       "state_key": "ixigo-le-travenues-technology",
       "name": "Le Travenues Technology Ltd (ixigo)",
       "ranking_title": "Le Travenues Technology Ltd (ixigo)",
@@ -9140,7 +9175,7 @@
       "dive_mode": null
     },
     {
-      "rank": 211,
+      "rank": 212,
       "state_key": "eureka-forbes-a-high-margin-consumer-durable-company",
       "name": "Eureka Forbes Ltd",
       "ranking_title": "Eureka Forbes Ltd",
@@ -9183,7 +9218,7 @@
       "dive_mode": null
     },
     {
-      "rank": 212,
+      "rank": 213,
       "state_key": "nephrocare-health",
       "name": "Nephrocare Health Services Ltd",
       "ranking_title": "Nephrocare Health Services Ltd",
@@ -9218,7 +9253,7 @@
       "dive_mode": null
     },
     {
-      "rank": 213,
+      "rank": 214,
       "state_key": "poly-medicure",
       "name": "Poly Medicure Ltd",
       "ranking_title": "Poly Medicure Ltd",
@@ -9253,7 +9288,7 @@
       "dive_mode": null
     },
     {
-      "rank": 214,
+      "rank": 215,
       "state_key": "nisus-finance",
       "name": "Nisus Finance",
       "ranking_title": null,
@@ -9288,7 +9323,7 @@
       "dive_mode": null
     },
     {
-      "rank": 215,
+      "rank": 216,
       "state_key": "sacheerome",
       "name": "Sacheerome Ltd",
       "ranking_title": "Sacheerome Ltd",
@@ -9331,7 +9366,7 @@
       "dive_mode": null
     },
     {
-      "rank": 216,
+      "rank": 217,
       "state_key": "gayatri-rubber-and-chemicals",
       "name": "Gayatri Rubber and Chemicals",
       "ranking_title": "Gayatri Rubber and Chemicals",
@@ -9374,7 +9409,7 @@
       "dive_mode": null
     },
     {
-      "rank": 217,
+      "rank": 218,
       "state_key": "modison-ltd",
       "name": "Modison Ltd",
       "ranking_title": "Modison Ltd",
@@ -9417,7 +9452,7 @@
       "dive_mode": null
     },
     {
-      "rank": 218,
+      "rank": 219,
       "state_key": "sanghvi-movers",
       "name": "Sanghvi Movers",
       "ranking_title": "Sanghvi Movers",
@@ -9452,7 +9487,7 @@
       "dive_mode": null
     },
     {
-      "rank": 219,
+      "rank": 220,
       "state_key": "transrail-lighting",
       "name": "Transrail Lighting Ltd",
       "ranking_title": "Transrail Lighting Ltd",
@@ -9495,7 +9530,7 @@
       "dive_mode": null
     },
     {
-      "rank": 220,
+      "rank": 221,
       "state_key": "home-first-finance",
       "name": "Home First Finance Company India Ltd",
       "ranking_title": "Home First Finance Company India Ltd",
@@ -9530,7 +9565,7 @@
       "dive_mode": null
     },
     {
-      "rank": 221,
+      "rank": 222,
       "state_key": "salzer-electronics",
       "name": "Salzer Electronics",
       "ranking_title": "Salzer Electronics",
@@ -9573,7 +9608,7 @@
       "dive_mode": null
     },
     {
-      "rank": 222,
+      "rank": 223,
       "state_key": "hdfc-asset-management-company",
       "name": "HDFC Asset Management Company",
       "ranking_title": "HDFC Asset Management Company",
@@ -9608,7 +9643,7 @@
       "dive_mode": null
     },
     {
-      "rank": 223,
+      "rank": 224,
       "state_key": "kiri-industries-loan-reduction-and-demand-surge",
       "name": "Kiri Industries",
       "ranking_title": "Kiri Industries: Loan reduction and demand surge",
@@ -9643,7 +9678,7 @@
       "dive_mode": null
     },
     {
-      "rank": 224,
+      "rank": 225,
       "state_key": "globus-spirits",
       "name": "Globus Spirits",
       "ranking_title": "Globus Spirits",
@@ -9678,7 +9713,7 @@
       "dive_mode": null
     },
     {
-      "rank": 225,
+      "rank": 226,
       "state_key": "kamat-hotels",
       "name": "Kamat Hotels (India) Ltd- A Possible Turnaround Story!",
       "ranking_title": "Kamat Hotels (India) Ltd- A Possible Turnaround Story!",
@@ -9737,7 +9772,7 @@
       "dive_mode": null
     },
     {
-      "rank": 226,
+      "rank": 227,
       "state_key": "sky-gold-ltd",
       "name": "Sky Gold Ltd",
       "ranking_title": "Sky Gold Ltd",
@@ -9796,7 +9831,7 @@
       "dive_mode": null
     },
     {
-      "rank": 227,
+      "rank": 228,
       "state_key": "arman-financial-services",
       "name": "Arman Financial Services Ltd",
       "ranking_title": "Arman Financial Services Ltd",
@@ -9855,7 +9890,7 @@
       "dive_mode": null
     },
     {
-      "rank": 228,
+      "rank": 229,
       "state_key": "india-shelter-finance-ltd-a-gem-player-in-the-affordable-housing-sector",
       "name": "India Shelter Finance Ltd",
       "ranking_title": "India Shelter Finance Ltd: A Gem player in the affordable housing sector",
@@ -9898,7 +9933,7 @@
       "dive_mode": null
     },
     {
-      "rank": 229,
+      "rank": 230,
       "state_key": "action-construction-equipment",
       "name": "Action Construction Equipment (ACE)",
       "ranking_title": "Action Construction Equipment (ACE)",
@@ -9933,7 +9968,7 @@
       "dive_mode": null
     },
     {
-      "rank": 230,
+      "rank": 231,
       "state_key": "balu-forge",
       "name": "Balu Forge | Forging Ahead with Defense and Aerospace Ambitions Amid Capital Eff",
       "ranking_title": "Balu Forge | Forging Ahead with Defense and Aerospace Ambitions Amid Capital Efficiency Concerns |",
@@ -9968,7 +10003,7 @@
       "dive_mode": null
     },
     {
-      "rank": 231,
+      "rank": 232,
       "state_key": "cholamandalam",
       "name": "Cholamandalam Investment and Finance",
       "ranking_title": "Cholamandalam Investment and Finance",
@@ -10003,7 +10038,7 @@
       "dive_mode": null
     },
     {
-      "rank": 232,
+      "rank": 233,
       "state_key": "cyient-dlm",
       "name": "Cyient DLM",
       "ranking_title": "Cyient DLM",
@@ -10038,7 +10073,7 @@
       "dive_mode": null
     },
     {
-      "rank": 233,
+      "rank": 234,
       "state_key": "dee-development-engineers",
       "name": "Dee Development Engineers",
       "ranking_title": "Dee Development Engineers",
@@ -10073,7 +10108,7 @@
       "dive_mode": null
     },
     {
-      "rank": 234,
+      "rank": 235,
       "state_key": "eicher-motors",
       "name": "Eicher Motors (VECV heavy trucks)",
       "ranking_title": "Eicher Motors (VECV heavy trucks)",
@@ -10108,7 +10143,7 @@
       "dive_mode": null
     },
     {
-      "rank": 235,
+      "rank": 236,
       "state_key": "godawari-power-ispat",
       "name": "Godawari Power & Ispat Ltd (GPIL)",
       "ranking_title": "Godawari Power & Ispat Ltd (GPIL)",
@@ -10143,7 +10178,7 @@
       "dive_mode": null
     },
     {
-      "rank": 236,
+      "rank": 237,
       "state_key": "grt-jewellers",
       "name": "GRT Jewellers (re TBZ acquisition)",
       "ranking_title": "GRT Jewellers (re TBZ acquisition)",
@@ -10178,7 +10213,7 @@
       "dive_mode": null
     },
     {
-      "rank": 237,
+      "rank": 238,
       "state_key": "kingfa",
       "name": "Kingfa Science and Technology",
       "ranking_title": "Kingfa Science and Technology",
@@ -10213,7 +10248,7 @@
       "dive_mode": null
     },
     {
-      "rank": 238,
+      "rank": 239,
       "state_key": "mgl",
       "name": "Mahanagar Gas (MGL)",
       "ranking_title": "Mahanagar Gas (MGL)",
@@ -10248,7 +10283,7 @@
       "dive_mode": null
     },
     {
-      "rank": 239,
+      "rank": 240,
       "state_key": "ptc-industries",
       "name": "PTC Industries Ltd",
       "ranking_title": "PTC Industries Ltd",
@@ -10283,7 +10318,7 @@
       "dive_mode": null
     },
     {
-      "rank": 240,
+      "rank": 241,
       "state_key": "sedemac-mechatronics",
       "name": "Sedemac Mechatronics Ltd",
       "ranking_title": "Sedemac Mechatronics Ltd",
@@ -10318,7 +10353,7 @@
       "dive_mode": null
     },
     {
-      "rank": 241,
+      "rank": 242,
       "state_key": "shriram-finance",
       "name": "Shriram Finance",
       "ranking_title": "Shriram Finance",
@@ -10353,7 +10388,7 @@
       "dive_mode": null
     },
     {
-      "rank": 242,
+      "rank": 243,
       "state_key": "state-bank-of-india",
       "name": "State Bank of India",
       "ranking_title": "State Bank of India",
@@ -10388,7 +10423,7 @@
       "dive_mode": null
     },
     {
-      "rank": 243,
+      "rank": 244,
       "state_key": "tata-motors-passenger-vehicles",
       "name": "Tata Motors Passenger Vehicles",
       "ranking_title": "Tata Motors Passenger Vehicles",
@@ -10423,7 +10458,7 @@
       "dive_mode": null
     },
     {
-      "rank": 244,
+      "rank": 245,
       "state_key": "thangmayil-jewellers-ltd",
       "name": "Thangmayil jewellers ltd",
       "ranking_title": "Thangmayil jewellers ltd",
@@ -10458,7 +10493,7 @@
       "dive_mode": null
     },
     {
-      "rank": 245,
+      "rank": 246,
       "state_key": "the-anup-engineering",
       "name": "The Anup Engineering Ltd",
       "ranking_title": "The Anup Engineering Ltd",
@@ -10493,7 +10528,7 @@
       "dive_mode": null
     },
     {
-      "rank": 246,
+      "rank": 247,
       "state_key": "titan-company",
       "name": "Titan",
       "ranking_title": "Titan",
@@ -10528,7 +10563,7 @@
       "dive_mode": null
     },
     {
-      "rank": 247,
+      "rank": 248,
       "state_key": "triveni-turbines",
       "name": "Triveni Turbines Ltd",
       "ranking_title": "Triveni Turbines Ltd",
@@ -10563,7 +10598,7 @@
       "dive_mode": null
     },
     {
-      "rank": 248,
+      "rank": 249,
       "state_key": "jyoti-cnc-automation",
       "name": "Jyoti CNC Automation Ltd",
       "ranking_title": null,
@@ -10598,7 +10633,7 @@
       "dive_mode": null
     },
     {
-      "rank": 249,
+      "rank": 250,
       "state_key": "omnitech",
       "name": "Omnitech",
       "ranking_title": "Omnitech",
@@ -10641,7 +10676,7 @@
       "dive_mode": null
     },
     {
-      "rank": 250,
+      "rank": 251,
       "state_key": "sarda-energy-minerals",
       "name": "Sarda Energy & Minerals Ltd (SEML)",
       "ranking_title": "Sarda Energy & Minerals Ltd (SEML)",
@@ -10676,7 +10711,7 @@
       "dive_mode": null
     },
     {
-      "rank": 251,
+      "rank": 252,
       "state_key": "navin-fluorine-international",
       "name": "Navin Fluorine International Ltd",
       "ranking_title": "Navin Fluorine International Ltd",
@@ -10711,7 +10746,7 @@
       "dive_mode": null
     },
     {
-      "rank": 252,
+      "rank": 253,
       "state_key": "beacon-trusteeship",
       "name": "Beacon Trusteeship",
       "ranking_title": null,
@@ -10754,7 +10789,7 @@
       "dive_mode": null
     },
     {
-      "rank": 253,
+      "rank": 254,
       "state_key": "archit-nuwood-industries",
       "name": "Archit Nuwood Industries",
       "ranking_title": "Archit Nuwood Industries",
@@ -10797,7 +10832,7 @@
       "dive_mode": null
     },
     {
-      "rank": 254,
+      "rank": 255,
       "state_key": "gpt-healthcare-ltd",
       "name": "GPT Healthcare Ltd",
       "ranking_title": "GPT Healthcare Ltd",
@@ -10832,7 +10867,7 @@
       "dive_mode": null
     },
     {
-      "rank": 255,
+      "rank": 256,
       "state_key": "ceinsys-tech",
       "name": "Ceinsys Tech-Engineering, Geospatial & IT solutions Company",
       "ranking_title": "Ceinsys Tech-Engineering, Geospatial & IT solutions Company",
@@ -10867,7 +10902,7 @@
       "dive_mode": null
     },
     {
-      "rank": 256,
+      "rank": 257,
       "state_key": "cyient",
       "name": "Cyient Ltd",
       "ranking_title": "Cyient Ltd",
@@ -10902,7 +10937,7 @@
       "dive_mode": null
     },
     {
-      "rank": 257,
+      "rank": 258,
       "state_key": "syrma-sgs-an-export-substitution-opportunity-in-ems-sector",
       "name": "Syrma SGS an Export Substitution opportunity in EMS sector",
       "ranking_title": "Syrma SGS an Export Substitution opportunity in EMS sector",
@@ -10937,7 +10972,7 @@
       "dive_mode": null
     },
     {
-      "rank": 258,
+      "rank": 259,
       "state_key": "yash-pakka",
       "name": "Yash Pakka",
       "ranking_title": null,
@@ -10972,7 +11007,7 @@
       "dive_mode": null
     },
     {
-      "rank": 259,
+      "rank": 260,
       "state_key": "sansera-engineering",
       "name": "Sansera Engineering Ltd",
       "ranking_title": "Sansera Engineering Ltd",
@@ -11007,7 +11042,7 @@
       "dive_mode": null
     },
     {
-      "rank": 260,
+      "rank": 261,
       "state_key": "canara-robeco-amc-the-quiet-operating-leverage-story-hiding-in-plain-sight",
       "name": "Canara Robeco AMC",
       "ranking_title": "Canara Robeco AMC: The Quiet Operating Leverage Story Hiding in Plain Sight",
@@ -11042,7 +11077,7 @@
       "dive_mode": null
     },
     {
-      "rank": 261,
+      "rank": 262,
       "state_key": "computer-age-management-services",
       "name": "Computer Age Management Services Ltd (CAMS)",
       "ranking_title": "Computer Age Management Services Ltd (CAMS)",
@@ -11077,7 +11112,7 @@
       "dive_mode": null
     },
     {
-      "rank": 262,
+      "rank": 263,
       "state_key": "nsdl",
       "name": "NSDL (National Securities Depository Ltd)",
       "ranking_title": "NSDL (National Securities Depository Ltd)",
@@ -11112,7 +11147,7 @@
       "dive_mode": null
     },
     {
-      "rank": 263,
+      "rank": 264,
       "state_key": "pngs-gargi-fashion-jewellery",
       "name": "PNGS Gargi Fashion Jewellery Ltd",
       "ranking_title": "PNGS Gargi Fashion Jewellery Ltd",
@@ -11147,7 +11182,7 @@
       "dive_mode": null
     },
     {
-      "rank": 264,
+      "rank": 265,
       "state_key": "solarium-green-energy",
       "name": "Solarium Green Energy Ltd",
       "ranking_title": "Solarium Green Energy Ltd",
@@ -11182,7 +11217,7 @@
       "dive_mode": null
     },
     {
-      "rank": 265,
+      "rank": 266,
       "state_key": "krm-ayurveda",
       "name": "KRM Ayurveda Ltd",
       "ranking_title": "KRM Ayurveda Ltd",
@@ -11225,7 +11260,7 @@
       "dive_mode": null
     },
     {
-      "rank": 266,
+      "rank": 267,
       "state_key": "data-patterns",
       "name": "Data Patterns (India) Limited",
       "ranking_title": "Data Patterns (India) Limited",
@@ -11268,7 +11303,7 @@
       "dive_mode": null
     },
     {
-      "rank": 267,
+      "rank": 268,
       "state_key": "indo-techtrans",
       "name": "Indo Techtrans",
       "ranking_title": "Indo Techtrans",
@@ -11303,7 +11338,7 @@
       "dive_mode": null
     },
     {
-      "rank": 268,
+      "rank": 269,
       "state_key": "aimtron-electronics",
       "name": "Aimtron Electronics Ltd (EMS China+1 Global Play)",
       "ranking_title": "Aimtron Electronics Ltd (EMS China+1 Global Play)",
@@ -11346,7 +11381,7 @@
       "dive_mode": null
     },
     {
-      "rank": 269,
+      "rank": 270,
       "state_key": "ramco-system",
       "name": "Ramco system",
       "ranking_title": "Ramco system",
@@ -11389,7 +11424,7 @@
       "dive_mode": null
     },
     {
-      "rank": 270,
+      "rank": 271,
       "state_key": "nisus",
       "name": "Nisus",
       "ranking_title": null,
@@ -11432,7 +11467,7 @@
       "dive_mode": null
     },
     {
-      "rank": 271,
+      "rank": 272,
       "state_key": "tgv-sraac-erstwhile-sree-rayalseema-alkali",
       "name": "TGV SRAAC erstwhile Sree Rayalseema Alkali",
       "ranking_title": "TGV SRAAC erstwhile Sree Rayalseema Alkali",
@@ -11475,7 +11510,7 @@
       "dive_mode": null
     },
     {
-      "rank": 272,
+      "rank": 273,
       "state_key": "aarti-pharmalabs",
       "name": "Aarti Pharmalabs Ltd",
       "ranking_title": "Aarti Pharmalabs Ltd",
@@ -11518,7 +11553,7 @@
       "dive_mode": null
     },
     {
-      "rank": 273,
+      "rank": 274,
       "state_key": "srf",
       "name": "SRF Limited",
       "ranking_title": "SRF Limited",
@@ -11553,7 +11588,7 @@
       "dive_mode": null
     },
     {
-      "rank": 274,
+      "rank": 275,
       "state_key": "innovassynth-investments-limited",
       "name": "Innovassynth investments limited",
       "ranking_title": "Innovassynth investments limited",
@@ -11588,7 +11623,7 @@
       "dive_mode": null
     },
     {
-      "rank": 275,
+      "rank": 276,
       "state_key": "hcc",
       "name": "HCC",
       "ranking_title": "HCC",
@@ -11623,7 +11658,7 @@
       "dive_mode": null
     },
     {
-      "rank": 276,
+      "rank": 277,
       "state_key": "ajc-jewel-manufacturers",
       "name": "AJC Jewel Manufacturers Ltd",
       "ranking_title": "AJC Jewel Manufacturers Ltd",
@@ -11658,7 +11693,7 @@
       "dive_mode": null
     },
     {
-      "rank": 277,
+      "rank": 278,
       "state_key": "highness-microelectronics-ltd-a-smile",
       "name": "Highness Microelectronics Ltd",
       "ranking_title": "Highness Microelectronics Ltd: a SMILE-type opportunity in electronics manufacturing?",
@@ -11693,7 +11728,7 @@
       "dive_mode": null
     },
     {
-      "rank": 278,
+      "rank": 279,
       "state_key": "ind-swift-laboratories",
       "name": "Ind-Swift Laboratories (INDSWFTLAB)",
       "ranking_title": "Ind-Swift Laboratories (INDSWFTLAB)",
@@ -11728,7 +11763,7 @@
       "dive_mode": null
     },
     {
-      "rank": 279,
+      "rank": 280,
       "state_key": "kfin-technologies",
       "name": "KFin Technologies Ltd",
       "ranking_title": "KFin Technologies Ltd",
@@ -11763,7 +11798,7 @@
       "dive_mode": null
     },
     {
-      "rank": 280,
+      "rank": 281,
       "state_key": "shiprocket",
       "name": "Shiprocket",
       "ranking_title": "Shiprocket",
@@ -11798,7 +11833,7 @@
       "dive_mode": null
     },
     {
-      "rank": 281,
+      "rank": 282,
       "state_key": "tpl-plastech-ltd",
       "name": "TPL Plastech Ltd",
       "ranking_title": "TPL Plastech Ltd",
@@ -11833,7 +11868,7 @@
       "dive_mode": null
     },
     {
-      "rank": 282,
+      "rank": 283,
       "state_key": "styrenix-performance-materials",
       "name": "Styrenix Performance Materials",
       "ranking_title": "Styrenix Performance Materials",
@@ -11876,7 +11911,7 @@
       "dive_mode": null
     },
     {
-      "rank": 283,
+      "rank": 284,
       "state_key": "hdfc-bank",
       "name": "HDFC Bank Ltd",
       "ranking_title": "HDFC Bank Ltd",
@@ -11911,7 +11946,7 @@
       "dive_mode": null
     },
     {
-      "rank": 284,
+      "rank": 285,
       "state_key": "kirloskar-pneumatic",
       "name": "Kirloskar Pneumatic Co Ltd (KPCL)",
       "ranking_title": "Kirloskar Pneumatic Co Ltd (KPCL)",
@@ -11946,7 +11981,7 @@
       "dive_mode": null
     },
     {
-      "rank": 285,
+      "rank": 286,
       "state_key": "kilburn-engineering",
       "name": "Kilburn Engineering Ltd",
       "ranking_title": "Kilburn Engineering Ltd",
@@ -11981,7 +12016,7 @@
       "dive_mode": null
     },
     {
-      "rank": 286,
+      "rank": 287,
       "state_key": "ethos-ltd",
       "name": "Ethos Ltd",
       "ranking_title": "Ethos Ltd",
@@ -12024,7 +12059,7 @@
       "dive_mode": null
     },
     {
-      "rank": 287,
+      "rank": 288,
       "state_key": "borana-weaves",
       "name": "Borana Weaves",
       "ranking_title": "Borana Weaves",
@@ -12059,7 +12094,7 @@
       "dive_mode": null
     },
     {
-      "rank": 288,
+      "rank": 289,
       "state_key": "power-grid",
       "name": "Power Grid",
       "ranking_title": "Power Grid",
@@ -12094,7 +12129,7 @@
       "dive_mode": null
     },
     {
-      "rank": 289,
+      "rank": 290,
       "state_key": "aurionpro-solutions",
       "name": "Aurionpro Solutions Ltd",
       "ranking_title": "Aurionpro Solutions Ltd",
@@ -12129,7 +12164,7 @@
       "dive_mode": null
     },
     {
-      "rank": 290,
+      "rank": 291,
       "state_key": "millworks-technologies",
       "name": "Millworks Technologies Ltd",
       "ranking_title": "Millworks Technologies Ltd",
@@ -12164,7 +12199,7 @@
       "dive_mode": null
     },
     {
-      "rank": 291,
+      "rank": 292,
       "state_key": "sona-blw-precision-forgings",
       "name": "Sona BLW Precision Forgings Ltd",
       "ranking_title": "Sona BLW Precision Forgings Ltd",
@@ -12199,7 +12234,7 @@
       "dive_mode": null
     },
     {
-      "rank": 292,
+      "rank": 293,
       "state_key": "ion-exchange-india-limited",
       "name": "Ion Exchange (India) Ltd",
       "ranking_title": "Ion Exchange (India) Ltd",
@@ -12234,7 +12269,7 @@
       "dive_mode": null
     },
     {
-      "rank": 293,
+      "rank": 294,
       "state_key": "unihealth-hospitals-ltd",
       "name": "Unihealth Hospitals Ltd",
       "ranking_title": "Unihealth Hospitals Ltd",
@@ -12269,7 +12304,7 @@
       "dive_mode": null
     },
     {
-      "rank": 294,
+      "rank": 295,
       "state_key": "manorama-industries-creating-wealth-from-waste",
       "name": "Manorama Industries",
       "ranking_title": "Manorama Industries: Creating Wealth from Waste",
@@ -12312,7 +12347,7 @@
       "dive_mode": null
     },
     {
-      "rank": 295,
+      "rank": 296,
       "state_key": "inox-india-a-story-worth-looking",
       "name": "Inox India, a story worth looking?",
       "ranking_title": "Inox India, a story worth looking?",
@@ -12355,7 +12390,7 @@
       "dive_mode": null
     },
     {
-      "rank": 296,
+      "rank": 297,
       "state_key": "latent-view-analytics-ltd",
       "name": "Latent View Analytics Ltd",
       "ranking_title": "Latent View Analytics Ltd",
@@ -12390,7 +12425,7 @@
       "dive_mode": null
     },
     {
-      "rank": 297,
+      "rank": 298,
       "state_key": "medplus-health-service-second-largest-pharmacy-retailer",
       "name": "Medplus Health Service second largest pharmacy retailer",
       "ranking_title": "Medplus Health Service second largest pharmacy retailer",
@@ -12425,7 +12460,7 @@
       "dive_mode": null
     },
     {
-      "rank": 298,
+      "rank": 299,
       "state_key": "bajaj-healthcare",
       "name": "Bajaj Healthcare",
       "ranking_title": "Bajaj Healthcare",
@@ -12460,7 +12495,7 @@
       "dive_mode": null
     },
     {
-      "rank": 299,
+      "rank": 300,
       "state_key": "beta-drugs",
       "name": "Beta Drugs Limited",
       "ranking_title": "Beta Drugs Limited",
@@ -12495,7 +12530,7 @@
       "dive_mode": null
     },
     {
-      "rank": 300,
+      "rank": 301,
       "state_key": "embassy-reit",
       "name": "Embassy REIT",
       "ranking_title": "Embassy REIT",
@@ -12530,7 +12565,7 @@
       "dive_mode": null
     },
     {
-      "rank": 301,
+      "rank": 302,
       "state_key": "ipca-labs",
       "name": "IPCA Labs",
       "ranking_title": "IPCA Labs",
@@ -12565,7 +12600,7 @@
       "dive_mode": null
     },
     {
-      "rank": 302,
+      "rank": 303,
       "state_key": "muthoot-microfin-limited-is-it-next-jp-morgan",
       "name": "Muthoot Microfin Limited is it next JP Morgan?",
       "ranking_title": "Muthoot Microfin Limited is it next JP Morgan?",
@@ -12608,7 +12643,7 @@
       "dive_mode": null
     },
     {
-      "rank": 303,
+      "rank": 304,
       "state_key": "v2-retail",
       "name": "V2 Retail",
       "ranking_title": "V2 Retail",
@@ -12651,7 +12686,7 @@
       "dive_mode": null
     },
     {
-      "rank": 304,
+      "rank": 305,
       "state_key": "krishna-defence-allied-industries",
       "name": "Krishna Defence & Allied Industries Ltd",
       "ranking_title": "Krishna Defence & Allied Industries Ltd",
@@ -12694,7 +12729,7 @@
       "dive_mode": null
     },
     {
-      "rank": 305,
+      "rank": 306,
       "state_key": "inox-wind",
       "name": "INOX Wind",
       "ranking_title": "INOX Wind",
@@ -12729,7 +12764,7 @@
       "dive_mode": null
     },
     {
-      "rank": 306,
+      "rank": 307,
       "state_key": "apcotex-industries-monopoly-in-synthetic-rubber",
       "name": "Apcotex Industries Ltd",
       "ranking_title": "Apcotex Industries Ltd",
@@ -12772,7 +12807,7 @@
       "dive_mode": null
     },
     {
-      "rank": 307,
+      "rank": 308,
       "state_key": "golkunda-diamonds",
       "name": "Golkunda Diamond",
       "ranking_title": null,
@@ -12815,7 +12850,7 @@
       "dive_mode": null
     },
     {
-      "rank": 308,
+      "rank": 309,
       "state_key": "cera-sanitaryware-ltd",
       "name": "Cera Sanitaryware Ltd",
       "ranking_title": "Cera Sanitaryware Ltd",
@@ -12850,7 +12885,7 @@
       "dive_mode": null
     },
     {
-      "rank": 309,
+      "rank": 310,
       "state_key": "glen-industries-ltd",
       "name": "Glen Industries Ltd",
       "ranking_title": "Glen Industries Ltd",
@@ -12885,7 +12920,7 @@
       "dive_mode": null
     },
     {
-      "rank": 310,
+      "rank": 311,
       "state_key": "knowledge-marine",
       "name": "Knowledge Marine",
       "ranking_title": "Knowledge Marine",
@@ -12928,7 +12963,7 @@
       "dive_mode": null
     },
     {
-      "rank": 311,
+      "rank": 312,
       "state_key": "devson-catalyst-ltd",
       "name": "Devson Catalyst Ltd",
       "ranking_title": "Devson Catalyst Ltd",
@@ -12971,7 +13006,7 @@
       "dive_mode": null
     },
     {
-      "rank": 312,
+      "rank": 313,
       "state_key": "astra-micro-huge-growth-ahead-in-offset-space",
       "name": "Astra Micro Huge Growth Ahead in Offset Space",
       "ranking_title": "Astra Micro Huge Growth Ahead in Offset Space",
@@ -13006,7 +13041,7 @@
       "dive_mode": null
     },
     {
-      "rank": 313,
+      "rank": 314,
       "state_key": "quality-power-electrical-equipments",
       "name": "Quality Power Electrical Equipments Ltd (QPOWER)",
       "ranking_title": "Quality Power Electrical Equipments Ltd (QPOWER)",
@@ -13041,7 +13076,7 @@
       "dive_mode": null
     },
     {
-      "rank": 314,
+      "rank": 315,
       "state_key": "andhra-sugar",
       "name": "Andhra Sugar- A sweet chemical story",
       "ranking_title": "Andhra Sugar- A sweet chemical story",
@@ -13076,7 +13111,7 @@
       "dive_mode": null
     },
     {
-      "rank": 315,
+      "rank": 316,
       "state_key": "asian-energy-services",
       "name": "Asian Energy Services",
       "ranking_title": "Asian Energy Services",
@@ -13111,7 +13146,7 @@
       "dive_mode": null
     },
     {
-      "rank": 316,
+      "rank": 317,
       "state_key": "bank-of-india",
       "name": "Bank of India",
       "ranking_title": "Bank of India",
@@ -13146,7 +13181,7 @@
       "dive_mode": null
     },
     {
-      "rank": 317,
+      "rank": 318,
       "state_key": "beezaasan-explotech",
       "name": "Beezaasan Explotech",
       "ranking_title": "Beezaasan Explotech",
@@ -13181,7 +13216,7 @@
       "dive_mode": null
     },
     {
-      "rank": 318,
+      "rank": 319,
       "state_key": "cords-cable-industries",
       "name": "Cords Cable",
       "ranking_title": "Cords Cable",
@@ -13216,7 +13251,7 @@
       "dive_mode": null
     },
     {
-      "rank": 319,
+      "rank": 320,
       "state_key": "crisil",
       "name": "Crisil",
       "ranking_title": "Crisil",
@@ -13251,7 +13286,7 @@
       "dive_mode": null
     },
     {
-      "rank": 320,
+      "rank": 321,
       "state_key": "danlaw-technologies",
       "name": "Danlaw Technologies India Ltd",
       "ranking_title": "Danlaw Technologies India Ltd",
@@ -13286,7 +13321,7 @@
       "dive_mode": null
     },
     {
-      "rank": 321,
+      "rank": 322,
       "state_key": "datamatics-global",
       "name": "Datamatics global",
       "ranking_title": "Datamatics global",
@@ -13321,7 +13356,7 @@
       "dive_mode": null
     },
     {
-      "rank": 322,
+      "rank": 323,
       "state_key": "dhanuka-agritech",
       "name": "Dhanuka Agritech Ltd",
       "ranking_title": "Dhanuka Agritech Ltd",
@@ -13356,7 +13391,7 @@
       "dive_mode": null
     },
     {
-      "rank": 323,
+      "rank": 324,
       "state_key": "epigral",
       "name": "Epigral Ltd",
       "ranking_title": "Epigral Ltd",
@@ -13391,7 +13426,7 @@
       "dive_mode": null
     },
     {
-      "rank": 324,
+      "rank": 325,
       "state_key": "exato-technologies",
       "name": "Exato Technologies Ltd",
       "ranking_title": "Exato Technologies Ltd",
@@ -13426,7 +13461,7 @@
       "dive_mode": null
     },
     {
-      "rank": 325,
+      "rank": 326,
       "state_key": "exide-industries",
       "name": "Exide Industries Ltd",
       "ranking_title": "Exide Industries Ltd",
@@ -13461,7 +13496,7 @@
       "dive_mode": null
     },
     {
-      "rank": 326,
+      "rank": 327,
       "state_key": "ge-shipping",
       "name": "GE Shipping",
       "ranking_title": "GE Shipping",
@@ -13496,7 +13531,7 @@
       "dive_mode": null
     },
     {
-      "rank": 327,
+      "rank": 328,
       "state_key": "hariom-pipe-industries",
       "name": "HariOm Pipes",
       "ranking_title": "HariOm Pipes",
@@ -13531,7 +13566,7 @@
       "dive_mode": null
     },
     {
-      "rank": 328,
+      "rank": 329,
       "state_key": "hcp-plastene",
       "name": "HCP Plastene",
       "ranking_title": "HCP Plastene",
@@ -13566,7 +13601,7 @@
       "dive_mode": null
     },
     {
-      "rank": 329,
+      "rank": 330,
       "state_key": "igl",
       "name": "Indraprastha Gas (IGL)",
       "ranking_title": "Indraprastha Gas (IGL)",
@@ -13601,7 +13636,7 @@
       "dive_mode": null
     },
     {
-      "rank": 330,
+      "rank": 331,
       "state_key": "info-edge",
       "name": "Info Edge (Naukri)",
       "ranking_title": "Info Edge (Naukri)",
@@ -13636,7 +13671,7 @@
       "dive_mode": null
     },
     {
-      "rank": 331,
+      "rank": 332,
       "state_key": "iol-chemicals",
       "name": "IOL Chemicals",
       "ranking_title": "IOL Chemicals",
@@ -13671,7 +13706,7 @@
       "dive_mode": null
     },
     {
-      "rank": 332,
+      "rank": 333,
       "state_key": "laserpower",
       "name": "Laser Power & Infra",
       "ranking_title": "Laser Power & Infra",
@@ -13706,7 +13741,7 @@
       "dive_mode": null
     },
     {
-      "rank": 333,
+      "rank": 334,
       "state_key": "lumino-industries",
       "name": "Lumino Industries",
       "ranking_title": "Lumino Industries",
@@ -13741,7 +13776,7 @@
       "dive_mode": null
     },
     {
-      "rank": 334,
+      "rank": 335,
       "state_key": "midwest",
       "name": "Midwest Ltd",
       "ranking_title": "Midwest Ltd",
@@ -13776,7 +13811,7 @@
       "dive_mode": null
     },
     {
-      "rank": 335,
+      "rank": 336,
       "state_key": "ntpc",
       "name": "NTPC",
       "ranking_title": "NTPC",
@@ -13811,7 +13846,7 @@
       "dive_mode": null
     },
     {
-      "rank": 336,
+      "rank": 337,
       "state_key": "poonawala-fincorp",
       "name": "Poonawala Fincorp",
       "ranking_title": "Poonawala Fincorp",
@@ -13846,7 +13881,7 @@
       "dive_mode": null
     },
     {
-      "rank": 337,
+      "rank": 338,
       "state_key": "purple-united-sales",
       "name": "Purple United Sales Ltd",
       "ranking_title": "Purple United Sales Ltd",
@@ -13881,7 +13916,7 @@
       "dive_mode": null
     },
     {
-      "rank": 338,
+      "rank": 339,
       "state_key": "pvr-inox",
       "name": "PVR INOX",
       "ranking_title": "PVR INOX",
@@ -13916,7 +13951,7 @@
       "dive_mode": null
     },
     {
-      "rank": 339,
+      "rank": 340,
       "state_key": "raymond",
       "name": "Raymond",
       "ranking_title": "Raymond",
@@ -13951,7 +13986,7 @@
       "dive_mode": null
     },
     {
-      "rank": 340,
+      "rank": 341,
       "state_key": "satia-industries",
       "name": "Satia Industries",
       "ranking_title": "Satia Industries",
@@ -13986,7 +14021,7 @@
       "dive_mode": null
     },
     {
-      "rank": 341,
+      "rank": 342,
       "state_key": "shipping-corporation-of-india",
       "name": "Shipping Corporation of India",
       "ranking_title": "Shipping Corporation of India",
@@ -14021,7 +14056,7 @@
       "dive_mode": null
     },
     {
-      "rank": 342,
+      "rank": 343,
       "state_key": "shivalik-rasayan",
       "name": "Shivalik Rasayan (SRL)",
       "ranking_title": "Shivalik Rasayan (SRL)",
@@ -14056,7 +14091,7 @@
       "dive_mode": null
     },
     {
-      "rank": 343,
+      "rank": 344,
       "state_key": "silicon-rental-solutions",
       "name": "Silicon Rental Solutions Ltd",
       "ranking_title": "Silicon Rental Solutions Ltd",
@@ -14091,7 +14126,7 @@
       "dive_mode": null
     },
     {
-      "rank": 344,
+      "rank": 345,
       "state_key": "sotefin-bharat",
       "name": "Sotefin Bharat Ltd",
       "ranking_title": "Sotefin Bharat Ltd",
@@ -14126,7 +14161,7 @@
       "dive_mode": null
     },
     {
-      "rank": 345,
+      "rank": 346,
       "state_key": "suba-hotels",
       "name": "Suba Hotels Ltd",
       "ranking_title": "Suba Hotels Ltd",
@@ -14161,7 +14196,7 @@
       "dive_mode": null
     },
     {
-      "rank": 346,
+      "rank": 347,
       "state_key": "tac-infosec",
       "name": "TAC Infosec",
       "ranking_title": "TAC Infosec",
@@ -14196,7 +14231,7 @@
       "dive_mode": null
     },
     {
-      "rank": 347,
+      "rank": 348,
       "state_key": "techera-engineering",
       "name": "Techera Engineering",
       "ranking_title": "Techera Engineering",
@@ -14231,7 +14266,7 @@
       "dive_mode": null
     },
     {
-      "rank": 348,
+      "rank": 349,
       "state_key": "transformer-rectifier-india",
       "name": "Transformer & Rectifier India Limited",
       "ranking_title": "Transformer & Rectifier India Limited",
@@ -14266,7 +14301,7 @@
       "dive_mode": null
     },
     {
-      "rank": 349,
+      "rank": 350,
       "state_key": "trent-ltd",
       "name": "Trent",
       "ranking_title": "Trent",
@@ -14301,7 +14336,7 @@
       "dive_mode": null
     },
     {
-      "rank": 350,
+      "rank": 351,
       "state_key": "united-drilling-tools",
       "name": "United Drilling Tools Ltd",
       "ranking_title": "United Drilling Tools Ltd",
@@ -14336,7 +14371,7 @@
       "dive_mode": null
     },
     {
-      "rank": 351,
+      "rank": 352,
       "state_key": "valor-estates",
       "name": "Valor Estates (ex-DB Realty)",
       "ranking_title": "Valor Estates (ex-DB Realty)",
@@ -14371,7 +14406,7 @@
       "dive_mode": null
     },
     {
-      "rank": 352,
+      "rank": 353,
       "state_key": "vinyas-innovative-technologies",
       "name": "Vinyas Innovative Technologies Ltd",
       "ranking_title": "Vinyas Innovative Technologies Ltd",
@@ -14406,7 +14441,7 @@
       "dive_mode": null
     },
     {
-      "rank": 353,
+      "rank": 354,
       "state_key": "edelweiss-financial-services-ias2026",
       "name": "Edelweiss Financial Services",
       "ranking_title": "Edelweiss Financial Services",
@@ -14441,7 +14476,7 @@
       "dive_mode": null
     },
     {
-      "rank": 354,
+      "rank": 355,
       "state_key": "divgi-torqtransfer-systems",
       "name": "Divgi TorqTransfer Systems Ltd",
       "ranking_title": "Divgi TorqTransfer Systems Ltd",
@@ -14484,7 +14519,7 @@
       "dive_mode": null
     },
     {
-      "rank": 355,
+      "rank": 356,
       "state_key": "sonu-infratech",
       "name": "Sonu Infratech Ltd",
       "ranking_title": "Sonu Infratech Ltd",
@@ -14519,7 +14554,7 @@
       "dive_mode": null
     },
     {
-      "rank": 356,
+      "rank": 357,
       "state_key": "mtar-technologies",
       "name": "MTAR Technologies Ltd",
       "ranking_title": "MTAR Technologies Ltd",
@@ -14562,7 +14597,7 @@
       "dive_mode": null
     },
     {
-      "rank": 357,
+      "rank": 358,
       "state_key": "susan-electricals-india",
       "name": "Susan Electricals India Ltd",
       "ranking_title": "Susan Electricals India Ltd",
@@ -14597,7 +14632,7 @@
       "dive_mode": null
     },
     {
-      "rank": 358,
+      "rank": 359,
       "state_key": "grand-continent-hotels",
       "name": "Grand Continent Hotels",
       "ranking_title": "Grand Continent Hotels",
@@ -14640,7 +14675,7 @@
       "dive_mode": null
     },
     {
-      "rank": 359,
+      "rank": 360,
       "state_key": "rpg-life-sciences",
       "name": "RPG Life Sciences Ltd",
       "ranking_title": "RPG Life Sciences Ltd",
@@ -14675,7 +14710,7 @@
       "dive_mode": null
     },
     {
-      "rank": 360,
+      "rank": 361,
       "state_key": "trualt-bioenergy-ltd",
       "name": "TruAlt Bioenergy Ltd",
       "ranking_title": null,
@@ -14710,7 +14745,7 @@
       "dive_mode": null
     },
     {
-      "rank": 361,
+      "rank": 362,
       "state_key": "surya-roshni-ltd",
       "name": "Surya roshni ltd",
       "ranking_title": "Surya roshni ltd",
@@ -14745,7 +14780,7 @@
       "dive_mode": null
     },
     {
-      "rank": 362,
+      "rank": 363,
       "state_key": "gokaldas-exports",
       "name": "Gokaldas exports -- cup and handle/rising channel",
       "ranking_title": "Gokaldas exports -- cup and handle/rising channel",
@@ -14780,7 +14815,7 @@
       "dive_mode": null
     },
     {
-      "rank": 363,
+      "rank": 364,
       "state_key": "avanti-feeds",
       "name": "Avanti Feeds Ltd",
       "ranking_title": "Avanti Feeds Ltd",
@@ -14815,7 +14850,7 @@
       "dive_mode": null
     },
     {
-      "rank": 364,
+      "rank": 365,
       "state_key": "sandhar-technologies-ltd",
       "name": "Sandhar Technologies Ltd",
       "ranking_title": "Sandhar Technologies Ltd",
@@ -14850,7 +14885,7 @@
       "dive_mode": null
     },
     {
-      "rank": 365,
+      "rank": 366,
       "state_key": "indiamart-intermesh",
       "name": "Indiamart Intermesh",
       "ranking_title": "Indiamart Intermesh",
@@ -14885,7 +14920,7 @@
       "dive_mode": null
     },
     {
-      "rank": 366,
+      "rank": 367,
       "state_key": "jtekt-india-driving-precision-powering-india-s-mobility-future",
       "name": "JTEKT India",
       "ranking_title": "JTEKT India: Driving Precision, Powering India’s Mobility Future",
@@ -14920,7 +14955,7 @@
       "dive_mode": null
     },
     {
-      "rank": 367,
+      "rank": 368,
       "state_key": "policybazaar",
       "name": "Policybazaar",
       "ranking_title": "Policybazaar",
@@ -14955,7 +14990,7 @@
       "dive_mode": null
     },
     {
-      "rank": 368,
+      "rank": 369,
       "state_key": "bhadora-industries",
       "name": "Bhadora Industries Ltd",
       "ranking_title": "Bhadora Industries Ltd",
@@ -14998,7 +15033,7 @@
       "dive_mode": null
     },
     {
-      "rank": 369,
+      "rank": 370,
       "state_key": "indotech",
       "name": "Indotech",
       "ranking_title": null,
@@ -15041,7 +15076,7 @@
       "dive_mode": null
     },
     {
-      "rank": 370,
+      "rank": 371,
       "state_key": "ajanta-pharma",
       "name": "Ajanta Pharma Ltd",
       "ranking_title": "Ajanta Pharma Ltd",
@@ -15084,7 +15119,7 @@
       "dive_mode": null
     },
     {
-      "rank": 371,
+      "rank": 372,
       "state_key": "trent",
       "name": "Trent -- A value unlocking story from the house of TATA",
       "ranking_title": "Trent -- A value unlocking story from the house of TATA",
@@ -15119,7 +15154,7 @@
       "dive_mode": null
     },
     {
-      "rank": 372,
+      "rank": 373,
       "state_key": "esds-software",
       "name": "ESDS Software Solution Ltd",
       "ranking_title": "ESDS Software Solution Ltd",
@@ -15162,7 +15197,7 @@
       "dive_mode": null
     },
     {
-      "rank": 373,
+      "rank": 374,
       "state_key": "rossell-techsys",
       "name": "Rossell Techsys",
       "ranking_title": "Rossell Techsys",
@@ -15205,7 +15240,7 @@
       "dive_mode": null
     },
     {
-      "rank": 374,
+      "rank": 375,
       "state_key": "bess-solar-hybrid-phs",
       "name": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is",
       "ranking_title": "BESS~Solar~ Hybrid~PHS- Why RTC & FDRE Projects faces an existential crisis ? Is Solar with BESS going to be the future for Discom?",
@@ -15248,7 +15283,7 @@
       "dive_mode": null
     },
     {
-      "rank": 375,
+      "rank": 376,
       "state_key": "sakar-healthcare",
       "name": "Sakar Healthcare",
       "ranking_title": "Sakar Healthcare",
@@ -15283,7 +15318,7 @@
       "dive_mode": null
     },
     {
-      "rank": 376,
+      "rank": 377,
       "state_key": "taal-enterprise",
       "name": "TAAL Enterprise",
       "ranking_title": "TAAL Enterprise",
@@ -15318,7 +15353,7 @@
       "dive_mode": null
     },
     {
-      "rank": 377,
+      "rank": 378,
       "state_key": "venus-pipes-tubes",
       "name": "Venus Pipes & Tubes Ltd",
       "ranking_title": "Venus Pipes & Tubes Ltd",
@@ -15353,7 +15388,7 @@
       "dive_mode": null
     },
     {
-      "rank": 378,
+      "rank": 379,
       "state_key": "heritage-foods-ltd",
       "name": "Heritage Foods Ltd",
       "ranking_title": "Heritage Foods Ltd",
@@ -15388,7 +15423,7 @@
       "dive_mode": null
     },
     {
-      "rank": 379,
+      "rank": 380,
       "state_key": "tips-industries",
       "name": "Tips Industries Limited",
       "ranking_title": "Tips Industries Limited",
@@ -15423,7 +15458,7 @@
       "dive_mode": null
     },
     {
-      "rank": 380,
+      "rank": 381,
       "state_key": "axiscades-engineering",
       "name": "Axiscades Engineering",
       "ranking_title": "Axiscades Engineering",
@@ -15466,7 +15501,7 @@
       "dive_mode": null
     },
     {
-      "rank": 381,
+      "rank": 382,
       "state_key": "ajax-engineering",
       "name": "Ajax Engineering Ltd",
       "ranking_title": "Ajax Engineering Ltd",
@@ -15501,7 +15536,7 @@
       "dive_mode": null
     },
     {
-      "rank": 382,
+      "rank": 383,
       "state_key": "apar-industries",
       "name": "APAR Industries",
       "ranking_title": "APAR Industries",
@@ -15536,7 +15571,7 @@
       "dive_mode": null
     },
     {
-      "rank": 383,
+      "rank": 384,
       "state_key": "artemis-medicare-services",
       "name": "Artemis Medicare Services Ltd",
       "ranking_title": "Artemis Medicare Services Ltd",
@@ -15571,7 +15606,7 @@
       "dive_mode": null
     },
     {
-      "rank": 384,
+      "rank": 385,
       "state_key": "bhel",
       "name": "Bharat Heavy Electricals Ltd (BHEL)",
       "ranking_title": "Bharat Heavy Electricals Ltd (BHEL)",
@@ -15606,7 +15641,7 @@
       "dive_mode": null
     },
     {
-      "rank": 385,
+      "rank": 386,
       "state_key": "coforge",
       "name": "Coforge",
       "ranking_title": "Coforge",
@@ -15641,7 +15676,7 @@
       "dive_mode": null
     },
     {
-      "rank": 386,
+      "rank": 387,
       "state_key": "elantas-beck-india",
       "name": "Elantas Beck India Ltd",
       "ranking_title": "Elantas Beck India Ltd",
@@ -15676,7 +15711,7 @@
       "dive_mode": null
     },
     {
-      "rank": 387,
+      "rank": 388,
       "state_key": "firstsource-solutions",
       "name": "Firstsource Solutions Ltd",
       "ranking_title": "Firstsource Solutions Ltd",
@@ -15711,7 +15746,7 @@
       "dive_mode": null
     },
     {
-      "rank": 388,
+      "rank": 389,
       "state_key": "gabriel-india",
       "name": "Gabriel India Ltd",
       "ranking_title": "Gabriel India Ltd",
@@ -15746,7 +15781,7 @@
       "dive_mode": null
     },
     {
-      "rank": 389,
+      "rank": 390,
       "state_key": "genus-power",
       "name": "Genus Power",
       "ranking_title": "Genus Power",
@@ -15781,7 +15816,7 @@
       "dive_mode": null
     },
     {
-      "rank": 390,
+      "rank": 391,
       "state_key": "goldiam-international-a-rare-shareholder-friendly-and-debt-free-jewelry-company",
       "name": "Goldiam International",
       "ranking_title": "Goldiam International : A rare shareholder friendly and debt free Jewelry company",
@@ -15816,7 +15851,7 @@
       "dive_mode": null
     },
     {
-      "rank": 391,
+      "rank": 392,
       "state_key": "kama-holdings",
       "name": "Kama Holdings Limited",
       "ranking_title": "Kama Holdings Limited",
@@ -15851,7 +15886,7 @@
       "dive_mode": null
     },
     {
-      "rank": 392,
+      "rank": 393,
       "state_key": "kei-industries",
       "name": "KEI Industries Ltd",
       "ranking_title": "KEI Industries Ltd",
@@ -15886,7 +15921,7 @@
       "dive_mode": null
     },
     {
-      "rank": 393,
+      "rank": 394,
       "state_key": "kirloskar-oil-engines",
       "name": "Kirloskar Oil Engines Ltd (KOEL)",
       "ranking_title": "Kirloskar Oil Engines Ltd (KOEL)",
@@ -15921,7 +15956,7 @@
       "dive_mode": null
     },
     {
-      "rank": 394,
+      "rank": 395,
       "state_key": "kody-technolabs",
       "name": "Kody Technolabs",
       "ranking_title": "Kody Technolabs",
@@ -15956,7 +15991,7 @@
       "dive_mode": null
     },
     {
-      "rank": 395,
+      "rank": 396,
       "state_key": "kpit-technologies",
       "name": "KPIT Technologies Ltd",
       "ranking_title": "KPIT Technologies Ltd",
@@ -15991,7 +16026,7 @@
       "dive_mode": null
     },
     {
-      "rank": 396,
+      "rank": 397,
       "state_key": "ksolves-india",
       "name": "Ksolves India Ltd",
       "ranking_title": "Ksolves India Ltd",
@@ -16026,7 +16061,7 @@
       "dive_mode": null
     },
     {
-      "rank": 397,
+      "rank": 398,
       "state_key": "manappuram-finance",
       "name": "Manappuram Finance",
       "ranking_title": "Manappuram Finance",
@@ -16061,7 +16096,7 @@
       "dive_mode": null
     },
     {
-      "rank": 398,
+      "rank": 399,
       "state_key": "fsn-e-commerce-nykaa",
       "name": "Nykaa",
       "ranking_title": "Nykaa",
@@ -16096,7 +16131,7 @@
       "dive_mode": null
     },
     {
-      "rank": 399,
+      "rank": 400,
       "state_key": "rain-industries",
       "name": "Rain Industries",
       "ranking_title": "Rain Industries",
@@ -16131,7 +16166,7 @@
       "dive_mode": null
     },
     {
-      "rank": 400,
+      "rank": 401,
       "state_key": "savita-oil-technologies-ltd-undervalued-midcap-in-a-competitive-space",
       "name": "Savita Oil Technologies Ltd",
       "ranking_title": "Savita Oil Technologies Ltd: Undervalued midcap in a competitive space?",
@@ -16166,7 +16201,7 @@
       "dive_mode": null
     },
     {
-      "rank": 401,
+      "rank": 402,
       "state_key": "travel-food-services",
       "name": "Travel Food Services Ltd",
       "ranking_title": "Travel Food Services Ltd",
@@ -16201,7 +16236,7 @@
       "dive_mode": null
     },
     {
-      "rank": 402,
+      "rank": 403,
       "state_key": "venky-india",
       "name": "Venky India",
       "ranking_title": "Venky India",
@@ -16236,7 +16271,7 @@
       "dive_mode": null
     },
     {
-      "rank": 403,
+      "rank": 404,
       "state_key": "jubilant-ingrevia",
       "name": "Jubilant Ingrevia",
       "ranking_title": "Jubilant Ingrevia",
@@ -16271,7 +16306,7 @@
       "dive_mode": null
     },
     {
-      "rank": 404,
+      "rank": 405,
       "state_key": "lactose-india",
       "name": "Lactose India",
       "ranking_title": null,
@@ -16314,7 +16349,7 @@
       "dive_mode": null
     },
     {
-      "rank": 405,
+      "rank": 406,
       "state_key": "windlas-biotech",
       "name": "Windlas Biotech Ltd",
       "ranking_title": "Windlas Biotech Ltd",
@@ -16349,7 +16384,7 @@
       "dive_mode": null
     },
     {
-      "rank": 406,
+      "rank": 407,
       "state_key": "cosmic-crf-limited",
       "name": "COSMIC CRF LIMITED",
       "ranking_title": "COSMIC CRF LIMITED",
@@ -16392,7 +16427,7 @@
       "dive_mode": null
     },
     {
-      "rank": 407,
+      "rank": 408,
       "state_key": "indegene",
       "name": "Indegene",
       "ranking_title": null,
@@ -16427,7 +16462,7 @@
       "dive_mode": null
     },
     {
-      "rank": 408,
+      "rank": 409,
       "state_key": "piccadily-agro-industries",
       "name": "Piccadily Agro Industries Ltd",
       "ranking_title": "Piccadily Agro Industries Ltd",
@@ -16470,7 +16505,7 @@
       "dive_mode": null
     },
     {
-      "rank": 409,
+      "rank": 410,
       "state_key": "music-broadcast",
       "name": "Music Broadcast Limited (Radio City)",
       "ranking_title": "Music Broadcast Limited (Radio City)",
@@ -16505,7 +16540,7 @@
       "dive_mode": null
     },
     {
-      "rank": 410,
+      "rank": 411,
       "state_key": "parag-milk-foods",
       "name": "Parag Milk Foods",
       "ranking_title": "Parag Milk Foods",
@@ -16540,7 +16575,7 @@
       "dive_mode": null
     },
     {
-      "rank": 411,
+      "rank": 412,
       "state_key": "finolex-cables",
       "name": "Finolex Cables",
       "ranking_title": "Finolex Cables",
@@ -16575,7 +16610,7 @@
       "dive_mode": null
     },
     {
-      "rank": 412,
+      "rank": 413,
       "state_key": "taurian-mps-ltd-crushing-opportunities",
       "name": "Taurian MPS Ltd, Crushing opportunities?",
       "ranking_title": null,
@@ -16618,7 +16653,7 @@
       "dive_mode": null
     },
     {
-      "rank": 413,
+      "rank": 414,
       "state_key": "ather-energy-pioneering-india-s-ev-revolution",
       "name": "Ather Energy",
       "ranking_title": "Ather Energy: Pioneering India's EV Revolution",
@@ -16653,7 +16688,7 @@
       "dive_mode": null
     },
     {
-      "rank": 414,
+      "rank": 415,
       "state_key": "kovai-medical-center-and-hospital",
       "name": "Kovai Medical Center and Hospital",
       "ranking_title": "Kovai Medical Center and Hospital",
@@ -16688,7 +16723,7 @@
       "dive_mode": null
     },
     {
-      "rank": 415,
+      "rank": 416,
       "state_key": "avalon-technologies",
       "name": "Avalon Technologies Ltd",
       "ranking_title": "Avalon Technologies Ltd",
@@ -16731,7 +16766,7 @@
       "dive_mode": null
     },
     {
-      "rank": 416,
+      "rank": 417,
       "state_key": "garware-hi-tech-films-ltd",
       "name": "Garware Hi-Tech Films Ltd",
       "ranking_title": "Garware Hi-Tech Films Ltd",
@@ -16769,41 +16804,6 @@
           "summary": "Q1FY27 record 30.3% margin (one-off tariff refund aided); mgmt guides FY27 margin down to 25%; valuation rich; conviction eased to Medium, thesis to neither"
         }
       ],
-      "in_active_pool": false,
-      "rerun_tier": null,
-      "dive_mode": null
-    },
-    {
-      "rank": 417,
-      "state_key": "shalimar-paints",
-      "name": "Shalimar Paints Ltd. -- Worth a Serious Look -- Significant Rerating Triggers In",
-      "ranking_title": "Shalimar Paints Ltd. -- Worth a Serious Look -- Significant Rerating Triggers Inplace",
-      "data_file": "data/shalimar-paints.json",
-      "docx_file": "docs/Shalimar Paints.docx",
-      "docx_is_existing": true,
-      "clean_name": "Shalimar Paints Ltd. -- Worth a Serious Look -- Significant Rerating Triggers In",
-      "market_cap_tier": "Small-cap (~Rs 686 Cr)",
-      "ranking_conviction": "Low",
-      "ranking_thesis_fit": "10x-in-2-3-years",
-      "conviction_score": 17.17,
-      "master_score": 6.04,
-      "four_box_score": 2.8,
-      "potential_score": 38.02,
-      "in_confluence100": false,
-      "is_large_or_mega": false,
-      "eligible_for_pool": false,
-      "weight_coverage": 1.0,
-      "pool_priority": 38.02,
-      "high_caution": false,
-      "never_deepdived": true,
-      "days_since_deepdive": null,
-      "in_cooldown": false,
-      "deepdive_status": "not_in_pool",
-      "deepdive_pass": 0,
-      "deepdive_date": null,
-      "pre_deepdive_conviction": null,
-      "post_deepdive_conviction": null,
-      "history": [],
       "in_active_pool": false,
       "rerun_tier": null,
       "dive_mode": null
