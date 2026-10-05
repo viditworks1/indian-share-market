@@ -9123,3 +9123,109 @@ Conviction remains **Medium** (not Medium-High) because: (a) ROCE still structur
 - **Context**: File data Sep 26, Oct 1 update shows mild 3.6% pullback over 5 days. All-time-high order book (Rs 761 Cr, all rigs deployed, 10+ subcontracted rigs to meet demand). Operating leverage real once rigs depreciate: each additional rig becomes incremental margin. Private-client mix improving (77:23 private:government) should speed cash collection. Concerns: capex/cash flagged as 'really tight' by community (Aug 2026); Chandragupta (trusted user) raised unresolved accounting question (coal-trading business exit, Other Operating Expense jump); trailing ROE 11.2% modest, FCF negative on fleet capex
 - **Next catalyst**: Q2 FY27 results (likely Oct-Nov) to assess order-intake sustainability, rig-deployment/utilization trends, FCF/capex funding clarity; resolution of accounting questions (Other Operating Expense, coal business exit explanation)
 
+
+## Marksans Pharma (Rank 5) — pass 2 technical refresh [2026-10-05]
+
+### 2026-10-05 (rank 5, mode: technicals_only)
+- **Pass 2 Update**: Conviction Medium-High; thesis_fit neither; four_box score 2.5
+- **Summary**: Net-cash pharma exporter with 2 straight quarters of real EBITDA-margin expansion (17.9%->25.3%) and concrete Europe M&A (QliniQ, ABCnow); four_box capped at 2.5 by mature/commoditized TAM+moat. Conviction Medium-High maintained on filing-confirmed margin/M&A execution; Europe leg now in concrete stage with closed QliniQ acquisition and agreed ABCnow deal.
+- **Next catalyst**: Q2/Q3 FY27 earnings to confirm whether 25% EBITDA margin sustains; Europe M&A integration progress (QliniQ/ABCnow); Goa Unit 2 utilization ramp toward full capacity
+
+
+## Dhabriya Polywood Ltd (Rank 11) — pass 2 technical refresh [2026-10-05]
+
+### 2026-10-05 (rank 11, mode: technicals_only)
+- **Pass 2 Update**: Conviction Medium; thesis_fit neither; four_box score 2.5
+- **Summary**: PAT compounding far faster than revenue (+67% FY26, +35% Q1 FY27 on ~10-12% topline growth); genuine second growth leg (Aluminium Windows & Facade, Rs56Cr+ backlog) with first named orders won; but debt rose to fund capex (Rs53Cr->Rs76Cr in last year, reversal of prior deleveraging). Conviction Medium maintained on demonstrated operating-leverage & margin expansion (EBITDA +317bps YoY in Q1); market appears to underprice PAT trajectory on reverse-16x P/E.
+- **Context**: Order book at all-time high (Rs200Cr+); facade backlog Rs56Cr+ guided to deliver Rs40-50Cr FY27 revenue. Aluminum facade division executed first named order (Godrej Properties Rs4.78Cr) plus two other aluminium-doors/windows orders (Rs10.63Cr, Rs15.17Cr). ROCE stepped up from 19% (FY24) to 26% (FY26).
+- **Next catalyst**: FY27 order-book conversion pace (historically slowed by site deferrals); Aluminium Windows & Facade delivery against Rs40-50Cr FY27 guidance; PVC resin price stability (cyclical input cost risk); capex execution on Rs100Cr programme (Jaipur upgrade + facade capacity)
+
+
+## Astra Microwave Products Ltd (Rank 13) — pass 2 technical refresh [2026-10-05]
+
+### 2026-10-05 (rank 13, mode: technicals_only)
+- **Pass 2 Update**: Conviction Medium; thesis_fit neither; four_box score 2.5
+- **Summary**: Defense/space RF-microwave subsystems maker with record ~Rs 4,300 Cr consolidated order book (incl. Rs 2,205 Cr HAL Uttam Radar subsystems order) and 46% 5-year profit CAGR; genuine, policy-backed Atmanirbhar Bharat defense-indigenisation tailwind; but already priced for perfection (~84x trailing P/E, ~12x P/B after ~51% 1-year run-up). Conviction Medium unchanged; four_box 2.5 defaults to neither as valuation already reflects visible order-book conversion.
+- **Context**: ROCE improved from trough ~3% (FY19) to 20% (FY26), OPM expanded 12% (FY22) to 29% (FY26). Promoter holding unusually low at ~6.54%, no pledge disclosed. Planned demerger of space/meteorology/hydrology business adds execution complexity; core defense business remains anchored by long-term PSU order visibility.
+- **Next catalyst**: Q2 FY27 results (likely Oct-Nov) to show space segment contribution breakdown; new defense order announcements or contract extensions; ISRO/commercial satellite customer production milestones; space segment inflection demonstration
+
+## Oval Projects Engineering Ltd
+
+### 2026-10-05 (fresh discovery)
+- **Fundamentals**: Unlisted EPC contractor, 25+ yr track record, 58 ongoing projects (ONGC/IOCL/GAIL), North-East regional + national expansion. Estimated backlog Rs 200-500 Cr, annual revenue ~Rs 50-150 Cr (est). Profitability unknown (unlisted).
+- **Technicals**: N/A (unlisted company)
+- **Red flag tier**: none (strong PSU backlog, credible founder), but financial opacity is material risk for pre-IPO evaluation
+- **Community signal**: Not on ValuePickr. MD Goutam Debnath visible in SmallCap Spotlight interview; execution credibility evident but no quantified growth guidance
+- **Thesis fit**: neither — insufficient financial transparency; only attractive for PE/VC due diligence + post-IPO public-market wait
+- **Source**: website, SmallCap Spotlight interview
+
+## Sudeep Pharma Ltd
+
+### 2026-10-05 (fresh discovery)
+- **Fundamentals**: mcap Rs 13,218 Cr (recent IPO), revenue Rs 676 Cr TTM (+23.5% YoY), net profit Rs 183.6 Cr (+20% YoY), net margin 26% (exceptional), ROE 22.7%, ROCE 28.5%, P/E 72.4x, D/E 0.04 (near debt-free). Receivable days 115 (vs peer avg 88), inventory days 96; working capital deteriorating.
+- **Technicals**: IPO-stage premium valuation (72.4x P/E); limited public history. Book value growth 80% YoY (IPO dilution).
+- **Red flag tier**: none (balance sheet solid, margins real), but IPO premium valuation and working-capital deterioration warrant caution
+- **Community signal**: Not on ValuePickr (too recent). Market pricing in strong growth but lacks external corroboration.
+- **Thesis fit**: 10x-in-2-3-years IF margin durability proven & WC managed; else neither — wait for Q1-Q2 post-IPO results before conviction
+- **Source**: ValueResearchOnline peer comparison
+
+## TruAlt Bioenergy Ltd
+
+### 2026-10-05 (fresh discovery)
+- **Fundamentals**: mcap Rs 3,810 Cr (IPO Sep 2025, recent listing), revenue Rs 2,050 Cr TTM (+31% 3Y CAGR), profit Rs 159 Cr (+39% 3Y CAGR), but ROE 8.4%, ROCE 10.4% (weak), P/E 24.4x, D/E 0.43, working capital days jumped 63 (from -31 YoY). Promoter pledging 36.8% (red flag). Ethanol 2,000 KLPD capacity (3.6% market share).
+- **Technicals**: Stock down 16% YTD (Rs 530 Oct 2025 -> Rs 444 Oct 2026). Q2 FY26 saw net loss -Rs 38 Cr despite +106% revenue (severe margin deterioration).
+- **Red flag tier**: HIGH CAUTION — weak ROCE (10.4%), quarterly volatility, working-capital spike, promoter pledging all suggest balance-sheet stress & execution risk
+- **Community signal**: Not on ValuePickr. Market consensus: green-fuel tailwind (ethanol mandate, CBG potential) real, but operational execution inconsistent; GAIL JV partnership is a strength.
+- **Thesis fit**: neither — ROCE well below cost of capital; only revisit if ROCE structurally improves to 14-15% in FY27 and WC stabilizes
+- **Source**: Screener consolidated financials
+
+## Vikram Solar Ltd
+
+### 2026-10-05 (fresh discovery)
+- **Fundamentals**: mcap Rs 5,593 Cr, revenue Rs 5,232 Cr TTM (+33% TTM, +32% 3Y), profit Rs 357 Cr (+44% TTM, +65% 5Y), ROE 21.4%, ROCE 30.6%, P/E 15.5x, D/E 0.11 (improved post Mar-2026 equity raise). Debtor days 92 (improved), WC days 37 (improved). But Q2 FY26 saw severe margin collapse (net profit Rs 20 Cr on Rs 1,563 Cr sales = 1.3%, vs Mar-2026's 16%).
+- **Technicals**: Stock down 53% YTD (Rs 355 Oct 2025 -> Rs 154 Oct 2026). Price action suggests market loss of confidence; recent 400 MW module supply + 1 GW cell supply deals signal order book strength but didn't prevent Q2 miss.
+- **Red flag tier**: none (balance sheet improved, ROCE strong), but Q2 margin collapse is material execution concern
+- **Community signal**: Not on ValuePickr (discovery from solar sector tailwind). Market: concerned over module price deflation (global 5-10% YoY), capex intensity, execution risk.
+- **Thesis fit**: 10x-in-2-3-years IF margins recover & capex converts to profitable capacity; else neither — await Q3 FY27 recovery signals before conviction
+- **Source**: Screener consolidated financials, BSE announcements
+
+## Aeroflex Industries
+
+### 2026-10-05
+- Fundamentals: Market cap Rs 7,199 Cr, ROCE 18.9% (declining from 36% FY22), ROE 14.1%; revenue FY26 Rs 442 Cr (+16% YoY), profit Rs 56 Cr (+20% YoY); debt-free with Rs 120 Cr FY26 capex (27% of revenue)
+- Technicals: Stock at Rs 544 (+190% in 1 year from Rs 158 low); P/E ~107x (extreme vs peer 25x); 52W range Rs 158-584
+- Red flag tier: CAUTION — ROCE collapse from 36% (FY22) to 19% (FY26) despite capex indicates poor capital productivity; FCF negative (-Rs 5 Cr FY26) despite positive PAT; Q1 FY27 +72% revenue (+162% profit) likely seasonal peak, not sustainable run-rate
+- Community signal: No ValuePickr thread found (web discovery only); stock momentum driven by Q1 FY27 beat but valuation outpaced fundamentals
+- Thesis fit: 10x-in-2-3-years — niche monopoly in domestic SS hose market with secular tailwinds (industrial expansion, data center cooling) intact, but capex cycle execution risk and valuation stretched
+- 4-box score: 2.5/4 (tailwind yes, TAM yes, moat yes, valuation no)
+
+## Indegene
+
+### 2026-10-05
+- Fundamentals: Market cap Rs 14,299 Cr, ROCE 18.8% (declining from 37% FY20), ROE 14.4%; revenue FY26 Rs 3,510 Cr (+36% YoY), profit Rs 401 Cr (+20% YoY); TTM profit flat (-4% YoY) despite revenue +30%; debtor days extended to 102 (from 91 in FY24)
+- Technicals: Stock at Rs 594 (+2% in 1 year, underperformer vs market); P/E 34.4x on weak profit growth
+- Red flag tier: CAUTION — Profit growth stalled (Q1 FY27 +0.17% despite revenue +39.7%); margin compression structural not cyclical; ROCE declining 37% → 19%; debtor days extended = customer quality concern
+- Community signal: Limited ValuePickr discussion; pharma tech niche; Q1 FY27 profit stall suggests market repricing downward
+- Thesis fit: 10x-in-2-3-years — top-20 pharma customer base and AI platform are genuine, but services commoditization is real headwind; profit growth has completely stalled despite revenue acceleration
+- 4-box score: 1.5/4 (tailwind yes, TAM yes, moat unclear, valuation no)
+
+## Vimta Labs
+
+### 2026-10-05
+- Fundamentals: Market cap Rs 2,559 Cr, ROCE 17.6%, ROE 13.5%; revenue FY24 Rs 318 Cr (TTM Rs 329 Cr +8% YoY), profit FY24 Rs 41 Cr (TTM Rs 61 Cr +34% YoY); debt-free with Rs 75 Cr CWIP (biologics CRADS capex)
+- Technicals: Stock at Rs 572 (-21% YTD from Rs 775 peak); P/E 42.1x but justified IF biologics ramp confirmed; 52W range Rs 376-775 (volatile)
+- Red flag tier: none (execution risk on biologics ramp is key, not a red flag yet) — CRO moat intact, FSSAI contract de-risks downside, capex deployment visible
+- Community signal: ValuePickr thread exists but not independently reviewed; stock underperformance (-21% YTD) vs fundamentals suggests momentum exit, deep value opportunity if execution confirmed
+- Thesis fit: 10x-in-2-3-years — niche CRO moat with high barriers; biologics CRADS ramp into 50%+ margin segment; FSSAI 25-year PPP contract de-risks downside
+- 4-box score: 3.0/4 (tailwind yes, TAM yes, moat yes, valuation neutral)
+
+## Emmvee Photovoltaic Power
+
+### 2026-10-05
+- Fundamentals: Market cap Rs 21,179 Cr, ROCE 44.6%, ROE 50.7%; revenue FY26 Rs 5,050 Cr (+116% YoY), profit Rs 1,082 Cr (+272% YoY); TTM revenue Rs 5,578 Cr (+84%), profit Rs 1,274 Cr (+141%); net debt Rs 360 Cr (down from Rs 1,698 Cr FY25, aggressive de-leverage)
+- Technicals: Stock at Rs 306 (mid-52W range Rs 172-372); P/E 16.6x attractive for growth profile; recent weakness from Rs 372 (Aug) suggests profit-taking or working capital concerns
+- Red flag tier: CAUTION — Working capital deterioration (CCC 159 days from 136 FY25, inventory 225 days from 197); FCF negative (-Rs 440 Cr FY26 adjusted) despite PAT Rs 1,082 Cr; capex scale-up consuming cash; watch closely for normalization by end-FY27
+- Community signal: Solar manufacturing is high-conviction theme in India growth; Emmvee is 2nd pure-play integrated cell+module maker; market enthusiasm evident (up 102% from lows) but recent pullback on execution risk
+- Thesis fit: 10x-in-2-3-years — India solar 500 GW target by 2030 is genuine decadal tailwind; 44.6% ROCE and 50.7% ROE are exceptional; de-leverage story credible if order book holds
+- 4-box score: 3.5/4 (tailwind yes, TAM yes, moat yes, valuation yes)
+
