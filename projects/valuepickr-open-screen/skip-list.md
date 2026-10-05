@@ -387,3 +387,12 @@ Generated: 2026-10-05
 | Gayatri Rubbers | 2026-10-02 | 2026-11-01 | AVOID |
 | Nisus Finance | 2026-10-02 | 2026-11-01 | Low-Medium |
 | Prudent Corp | 2026-10-02 | 2026-11-01 | Low |
+| Wonderla Holidays | 2026-10-05 | 2026-11-04 | Medium |
+| Kaveri seeds company limited -- kscl | 2026-10-05 | 2026-11-04 | Medium |
+| Ugro Capital | 2026-10-05 | 2026-11-04 | Medium |
+| Ujjivan Small Finance Bank | 2026-10-05 | 2026-11-04 | Medium |
+| Borosil Renewables | 2026-10-05 | 2026-11-04 | Medium |
+| FIEM industries : auto ancillary player | 2026-10-05 | 2026-11-04 | Low-Medium |
+| Shree Hari Chemicals | 2026-10-05 | 2026-11-04 | Low |
+| Active Clothing Co Ltd | 2026-10-05 | 2026-11-04 | Low |
+| Bodal Chemical Ltd | 2026-10-05 | 2026-11-04 | Low |

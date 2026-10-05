@@ -36,12 +36,20 @@
       "never_deepdived": true,
       "days_since_deepdive": null,
       "in_cooldown": false,
-      "deepdive_status": "pending",
-      "deepdive_pass": 0,
-      "deepdive_date": null,
-      "pre_deepdive_conviction": null,
-      "post_deepdive_conviction": null,
-      "history": [],
+      "deepdive_status": "done",
+      "deepdive_pass": 1,
+      "deepdive_date": "2026-10-05",
+      "pre_deepdive_conviction": "Medium",
+      "post_deepdive_conviction": "Medium",
+      "history": [
+        {
+          "pass": 1,
+          "date": "2026-10-05",
+          "pre": "Medium",
+          "post": "Medium",
+          "summary": "Q1 FY27 business momentum real; cyclicality + competition + governance cap conviction at Medium"
+        }
+      ],
       "in_active_pool": true,
       "rerun_tier": 0,
       "dive_mode": "full"

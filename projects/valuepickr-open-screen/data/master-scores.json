@@ -1,9 +1,9 @@
 {
   "method": "Composite of conviction_score/quality_score/expectation_gap_score/consistency_score/asymmetry_score, weighted 0.25/0.25/0.20/0.15/0.15 and renormalized over whichever are present. Formula + investor research in MASTER_SCORE_METHODOLOGY.md.",
-  "scored_count": 1001,
+  "scored_count": 1005,
   "not_assessed_count": 0,
-  "consistency_score_coverage": 201,
-  "asymmetry_score_coverage": 279,
+  "consistency_score_coverage": 203,
+  "asymmetry_score_coverage": 281,
   "ranked": [
     {
       "slug": "p-e-analytics",
@@ -1412,6 +1412,34 @@
         "expectation_gap_score": 25.65,
         "consistency_score": 57,
         "asymmetry_score": 27.32,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "moil",
+      "name": "MOIL Ltd",
+      "master_score": 44.03,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 0,
+        "note": "FY26: Revenue growth 4.67% (below 10%), ROCE 14% (below 15%). FY25: Revenue flat, ROCE weak. FY24: Revenue growth barely positive. No consistent Coffee-Can performance in last 3 years. However, Q1 FY27 inflection (if sustained) could mark entry into a 2-3yr high-ROCE window."
+      },
+      "score_breakdown": {
+        "conviction_score": 28.03,
+        "quality_score": 79.0,
+        "expectation_gap_score": 35.52,
+        "consistency_score": 0,
+        "asymmetry_score": 67.76,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -4435,26 +4463,6 @@
       }
     },
     {
-      "slug": "sterlite-technologies",
-      "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
-      "master_score": 28.21,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 28.21,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "sky-gold-ltd",
       "name": "Sky Gold Ltd",
       "master_score": 28.19,
@@ -6963,26 +6971,6 @@
       }
     },
     {
-      "slug": "moil",
-      "name": "MOIL Ltd",
-      "master_score": 23.03,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 23.03,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "airfloa-rail-technology",
       "name": "Airfloa Rail Technology",
       "master_score": 22.75,
@@ -7284,6 +7272,34 @@
         "expectation_gap_score": 5.89,
         "consistency_score": 0,
         "asymmetry_score": 27.95,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "sterlite-technologies",
+      "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
+      "master_score": 21.55,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 0,
+        "note": "FY24/FY25/FY26: None of the last 3 years met BOTH revenue growth \u226510% AND ROCE \u226515%. FY24 had ROCE 4.5% (below 15%), negative growth. FY25 ROCE negative. FY26 ROCE 6.7% (below 15%), revenue +11.8% (cleared growth). FY23 (now 3y ago) had ROCE 26.5% and revenue +30% \u2014 cleared; but that was a peak before the multi-year decline. Track record shows a distressed turnaround, not a consistent Cash-Can compounder. Consistency score should be low unless recent inflection sustained 2-3y."
+      },
+      "score_breakdown": {
+        "conviction_score": 29.21,
+        "quality_score": 42.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 0,
+        "asymmetry_score": 25.0,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -7822,34 +7838,6 @@
         "expectation_gap_score": 3.85,
         "consistency_score": 40,
         "asymmetry_score": 6.92,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "ugro-capital",
-      "name": "Ugro Capital",
-      "master_score": 18.23,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 5,
-        "years_cleared": 0,
-        "note": "NBFC -- profitability leg assessed on ROE. Per screener.in, revenue grew >20% every year FY22-FY26 (FY23 +119%, FY26 +24%) as AUM scaled, but ROE was only 2-10% (FY26 ~5-7%), never near the 15% bar. Zero years cleared both tests; the book is still sub-scale and operating-leverage-dependent. Asset quality (GNPA ~2.2%) is stable; CAR adequate."
-      },
-      "score_breakdown": {
-        "conviction_score": 34.0,
-        "quality_score": 21.0,
-        "expectation_gap_score": 16.31,
-        "consistency_score": 0,
-        "asymmetry_score": 8.15,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -10970,6 +10958,26 @@
       }
     },
     {
+      "slug": "fiem-industries-auto-ancillary-player",
+      "name": "FIEM industries : auto ancillary player",
+      "master_score": 16.0,
+      "red_flag_tier": null,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 16.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
       "slug": "electronics-mart-india",
       "name": "Electronics Mart India Limited- EMIL",
       "master_score": 15.98,
@@ -13813,6 +13821,34 @@
           "conviction_score"
         ],
         "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "ugro-capital",
+      "name": "Ugro Capital",
+      "master_score": 9.36,
+      "red_flag_tier": "HIGH_CAUTION",
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 0,
+        "note": "NBFC -- profitability leg assessed on ROE. Per screener.in, revenue grew >20% every year FY22-FY26 (FY23 +119%, FY26 +24%) as AUM scaled, but ROE was only 2-10% (FY26 ~5-7%), never near the 15% bar. Zero years cleared both tests; the book is still sub-scale and operating-leverage-dependent. Asset quality (GNPA ~2.2%) is stable; CAR adequate."
+      },
+      "score_breakdown": {
+        "conviction_score": 9.0,
+        "quality_score": 10.5,
+        "expectation_gap_score": 16.31,
+        "consistency_score": 0,
+        "asymmetry_score": 8.15,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
       }
     },
     {
@@ -18216,6 +18252,66 @@
       }
     },
     {
+      "slug": "shree-hari-chemicals",
+      "name": "Shree Hari Chemicals",
+      "master_score": 8.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "active-clothing-co",
+      "name": "Active Clothing Co Ltd",
+      "master_score": 8.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "bodal-chemical",
+      "name": "Bodal Chemical Ltd",
+      "master_score": 8.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
       "slug": "sg-finserve",
       "name": "SG Finserve Ltd",
       "master_score": 7.91,
@@ -19129,31 +19225,6 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
-      }
-    },
-    {
-      "slug": "aesl-oilmax-services",
-      "name": "aesl-oilmax-services",
-      "master_score": 2.25,
-      "red_flag_tier": null,
-      "conviction": null,
-      "thesis_fit": null,
-      "track_record": {
-        "years_checked": 0,
-        "years_cleared": 0,
-        "note": "Pending data collection"
-      },
-      "score_breakdown": {
-        "conviction_score": 4.5,
-        "quality_score": 0,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score",
-          "quality_score"
-        ],
-        "weight_coverage": 0.5
       }
     },
     {
@@ -22442,6 +22513,31 @@
           "conviction_score"
         ],
         "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "aesl-oilmax-services",
+      "name": "aesl-oilmax-services",
+      "master_score": 0,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": {
+        "years_checked": 0,
+        "years_cleared": 0,
+        "note": "Pending data collection"
+      },
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": 0,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score",
+          "quality_score"
+        ],
+        "weight_coverage": 0.5
       }
     }
   ],

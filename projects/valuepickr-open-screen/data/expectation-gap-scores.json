@@ -1,8 +1,8 @@
 {
   "date_compiled": "2026-10-05",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
-  "scored_count": 321,
-  "not_assessed_count": 680,
+  "scored_count": 323,
+  "not_assessed_count": 682,
   "ranked": [
     {
       "slug": "vaibhav-global-vertically-integrated-value-e",
@@ -958,6 +958,41 @@
         "timing_q": 1.0,
         "risk_q": 0.2,
         "quality": 0.792
+      }
+    },
+    {
+      "slug": "moil",
+      "name": "MOIL Ltd",
+      "expectation_gap_score": 35.52,
+      "conviction_score": 28.03,
+      "conviction": "Low",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 5,145 Cr)",
+      "gap_direction": "partially-priced",
+      "gap_type": "duration",
+      "gap_magnitude_pct": 10,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Q2 FY27 results (Oct-Nov 2026): confirm if PAT margin holds at 23%+ or reverts to 18-19%",
+      "catalyst_window_months": 2,
+      "catalyst_window_start": "2026-10-05",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "india's real-estate/construction cooldown"
+      ],
+      "flags": [
+        "peak-margin-risk"
+      ],
+      "score_breakdown": {
+        "gap_points": 23.0,
+        "gap_frac": 0.575,
+        "evidence_q": 0.75,
+        "catalyst_q": 1.0,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.882
       }
     },
     {
@@ -3311,10 +3346,10 @@
       "slug": "ugro-capital",
       "name": "Ugro Capital",
       "expectation_gap_score": 16.31,
-      "conviction_score": 34.0,
+      "conviction_score": 9.0,
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
-      "red_flag_tier": null,
+      "red_flag_tier": "HIGH_CAUTION",
       "market_cap_tier": "Small-cap (~Rs 1,519 Cr)",
       "gap_direction": "partially-priced",
       "gap_type": "margin",
@@ -9570,6 +9605,43 @@
       }
     },
     {
+      "slug": "sterlite-technologies",
+      "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
+      "expectation_gap_score": 0,
+      "conviction_score": 29.21,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 36,700 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "duration",
+      "gap_magnitude_pct": -20,
+      "evidence_quality": "moderate",
+      "catalyst_event": "Order intake sustains >Rs 1,000 Cr/quarter through FY27-28; capex milestones on schedule (Q1 FY28 preform ramp visible)",
+      "catalyst_window_months": 6,
+      "catalyst_window_start": "2026-10-05",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": true,
+      "risk_open_spof_count": 3,
+      "risk_open_spofs": [
+        "cyclical price mean-reversion; hfcl/finolex successful preform entry; order-intake slowdown",
+        "project-cost overruns or delay (agarwal-group execution track record is mixed)",
+        "recession halts capex spending"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.75,
+        "catalyst_q": 0.65,
+        "timing_q": 1.0,
+        "risk_q": 0.2,
+        "quality": 0.688
+      }
+    },
+    {
       "slug": "sansera-engineering",
       "name": "Sansera Engineering Ltd",
       "expectation_gap_score": 0,
@@ -11334,13 +11406,6 @@
       "thesis_fit": "neither"
     },
     {
-      "slug": "sterlite-technologies",
-      "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
-      "conviction_score": 28.21,
-      "conviction": "Medium",
-      "thesis_fit": "neither"
-    },
-    {
       "slug": "rpg-life-sciences",
       "name": "RPG Life Sciences Ltd",
       "conviction_score": 27.7,
@@ -11899,13 +11964,6 @@
       "conviction_score": 23.4,
       "conviction": "Medium",
       "thesis_fit": "neither"
-    },
-    {
-      "slug": "moil",
-      "name": "MOIL Ltd",
-      "conviction_score": 23.03,
-      "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years"
     },
     {
       "slug": "pngs-gargi-fashion-jewellery",
@@ -12995,6 +13053,13 @@
     {
       "slug": "oswal-pumps",
       "name": "Oswal Pumps",
+      "conviction_score": 16.0,
+      "conviction": "Low-Medium",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "fiem-industries-auto-ancillary-player",
+      "name": "FIEM industries : auto ancillary player",
       "conviction_score": 16.0,
       "conviction": "Low-Medium",
       "thesis_fit": "neither"
@@ -14869,6 +14934,27 @@
       "thesis_fit": "neither"
     },
     {
+      "slug": "shree-hari-chemicals",
+      "name": "Shree Hari Chemicals",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "active-clothing-co",
+      "name": "Active Clothing Co Ltd",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
+      "slug": "bodal-chemical",
+      "name": "Bodal Chemical Ltd",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
       "slug": "abs-marine-services",
       "name": "ABS Marine Services Ltd",
       "conviction_score": 7.48,
@@ -14909,13 +14995,6 @@
       "conviction_score": 6.0,
       "conviction": "Low-Medium",
       "thesis_fit": "100x-in-10-years"
-    },
-    {
-      "slug": "aesl-oilmax-services",
-      "name": "aesl-oilmax-services",
-      "conviction_score": 4.5,
-      "conviction": null,
-      "thesis_fit": null
     },
     {
       "slug": "connplex-cinema",
@@ -15994,6 +16073,13 @@
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": "neither"
+    },
+    {
+      "slug": "aesl-oilmax-services",
+      "name": "aesl-oilmax-services",
+      "conviction_score": 0,
+      "conviction": null,
+      "thesis_fit": null
     }
   ],
   "catalyst_calendar": [
@@ -16073,6 +16159,17 @@
       "status_effective": "pending",
       "expectation_gap_score": 20.02,
       "conviction_score": 28.79
+    },
+    {
+      "slug": "moil",
+      "name": "MOIL Ltd",
+      "event": "Q2 FY27 results (Oct-Nov 2026): confirm if PAT margin holds at 23%+ or reverts to 18-19%",
+      "target_date": "2026-12-05",
+      "window_months": 2,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 35.52,
+      "conviction_score": 28.03
     },
     {
       "slug": "alufluoride",
@@ -17228,6 +17325,17 @@
       "status_effective": "pending",
       "expectation_gap_score": 0,
       "conviction_score": 53.0
+    },
+    {
+      "slug": "sterlite-technologies",
+      "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
+      "event": "Order intake sustains >Rs 1,000 Cr/quarter through FY27-28; capex milestones on schedule (Q1 FY28 preform ramp visible)",
+      "target_date": "2027-04-06",
+      "window_months": 6,
+      "is_dated": true,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 29.21
     },
     {
       "slug": "supreme-transformer",

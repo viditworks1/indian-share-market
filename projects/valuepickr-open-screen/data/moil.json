@@ -1,6 +1,6 @@
 {
   "name": "MOIL Ltd",
-  "tagline": "India's largest manganese producer with a sharp, real Q1FY27 profit inflection and a global supply squeeze tailwind, still small enough for a genuine multibagger case",
+  "tagline": "India's sole large manganese producer (50% share, debt-free) with confirmed Q1 FY27 margin inflection; 2-3yr global supply-squeeze window could drive earnings multibagger, but cyclical risk and quarter-one inflection unconfirmed cap conviction at Low-Medium",
   "business_overview": "MOIL is India's largest manganese ore producer (~50% domestic market share, 11 operational mines across Maharashtra and Madhya Pradesh), a debt-free PSU serving the steel/ferro-alloy industry, with a Ferro Manganese plant adding downstream value.",
   "fundamentals_table": [
     [
@@ -58,5 +58,137 @@
     "score": 2.0,
     "note": "Manganese supply squeeze real but commodity-cyclical, 'can reverse quickly' per verdict; no moat/tam/valuation detail in record - genuinely unconfirmed."
   },
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "deep_dive": {
+    "pass": 1,
+    "date": "2026-10-05",
+    "sources_reviewed": [
+      "FY24/25/26 annual reports (Trendlyne) — market share, debt-free structure, capex plans",
+      "Q1 FY27 results — production 5.08L MT (Q1 record), PAT +70% YoY, revenue +7%, prices up 17.5%",
+      "Recent market data — Argus Media (ferro-manganese weakness), PSU Connect (MOIL Oct 2026 price hike 5%), South32 impact on global supply"
+    ],
+    "annual_report_findings": [
+      "Debt-free PSU with 50% domestic manganese market share; 11 operational mines (stable asset base)",
+      "3-yr ROE 12.3% trailing; forecast 17.4% suggesting operational leverage from capex",
+      "5-yr revenue CAGR 4.67% (weak) masks Q1FY27 inflection: margin expansion from operational discipline + global pricing support"
+    ],
+    "quarterly_trend": [
+      "Q1 FY27 (Jun 26): PAT Rs 87.62 Cr (+70% YoY from ~Rs 51.6 Cr), revenue Rs 370.88 Cr (+7% QoQ, +7% YoY)",
+      "Production Q1 FY27: 5.08L MT (Q1 record, up from prior Q1s). Sell-through held.",
+      "Prior 4 quarters: Steady revenue Rs 320-360 Cr range, but earnings were lower (margin pressure pre-Q1)."
+    ],
+    "recent_announcements": [
+      "MOIL raised prices 17.5% for April 2026 (manganese ore grades), 5% again for October 2026 — indicates firm demand + pricing power through Q1-Q3 FY27",
+      "Recent market data (Argus, Sep-Oct 2026): ferro-manganese prices have weakened 2-3% (Rs 71k->69.5k range) — caution flag on margin sustainability",
+      "Production ramp: Q1 FY27 record 5.08L MT; Aug-Sep FY27 production ~1.8L MT/mo (run-rate ~6L MT for full FY27, vs ~5L MT FY26)"
+    ],
+    "key_new_facts": [
+      "Q1 FY27 PAT inflection is real and confirmed: +70% on modest revenue growth (+7%) is genuine margin expansion, not revenue-driven profit",
+      "Global manganese supply squeeze is materially real: South32 Gemco mine disruption (since mid-FY25) has normalized supply; but no new major supply onstream yet",
+      "Domestic pricing power evident: MOIL able to raise prices 17.5% (Apr) + 5% (Oct) despite soft global steel backdrop — indicates strong local demand/market power"
+    ],
+    "open_questions": [
+      "Sustainability of Q1 margins: if ferro-manganese prices weaken further (Argus data shows Sep-Oct decline), will MOIL's Q2 FY27 margin hold at 23%+ or revert to 18-19%?",
+      "Cyclicality vs structural: is this a 1-2yr commodity up-cycle (steel capex cycle +3yr, but could reverse if India's construction cools), or is there structural EV/renewable demand lift?",
+      "Production ramp: Q1 record 5.08L MT; can 6L MT sustained full FY27, or will demand/price weakness force lower utilization?"
+    ],
+    "conviction_update": "Low -> Low-Medium. Q1 PAT inflection is real and the catalyst (supply squeeze + pricing power) is credible 2-3 mo further. However, recent ferro-manganese price weakness (Sep-Oct) is a caution flag — earnings sustainability unconfirmed. Small-cap size + debt-free structure + market-share moat support upside if inflection holds. Conviction upgraded from Low to Low-Medium on real margin proof, but not Medium until Q2 results confirm."
+  },
+  "commitments": [
+    {
+      "area": "orders",
+      "text": "Strong domestic steel + EV-adjacent ferroalloy demand from CRGO/steel producers",
+      "specifics": "PSU steel mills (SAIL, JSW, Tata) capex ongoing; EV-specific demand (battery manganese)",
+      "timeline_bucket": "FY27",
+      "quality_stage": "commercial",
+      "source": "Q1 FY27 concall, pricing actions (Apr +17.5%, Oct +5%)",
+      "dependency": "domestic steel capex cycle",
+      "single_point_of_failure": "India's real-estate/construction cooldown",
+      "thesis_critical": true
+    }
+  ],
+  "earnings_chain": {
+    "chain": [
+      "Global manganese supply squeeze (South32 Gemco disruption, no alternate sources ramping)",
+      "Pricing power realized (MOIL raises prices 17.5% Apr, 5% Oct)",
+      "Production ramp (Q1 record 5.08L MT, run-rate 6L MT FY27)",
+      "Revenue growth + operating leverage",
+      "EBITDA/PAT expansion"
+    ],
+    "bottleneck_link": "Ferro-manganese pricing — if prices weaken further post-Oct, margins collapse fast",
+    "operating_leverage": "yes — 5.08L MT Q1 (Q1 record) + 17.5% price hike + cost discipline → PAT +70% on 7% revenue",
+    "evidenced_links": [
+      "Q1 PAT +70% on 7% revenue is real operating leverage, not noise",
+      "Pricing power demonstrated (twice raised prices in 6mo)",
+      "Production ramp confirmed (5.08L MT Q1 record)"
+    ],
+    "assumed_links": [
+      "Prices sustain at Oct 2026 levels (recent weakness is temporary)",
+      "Domestic steel capex remains firm through FY27",
+      "MOIL cost structure remains stable (mining inflation not a factor)"
+    ]
+  },
+  "market_expectation": {
+    "as_of": "2026-10-05",
+    "price": null,
+    "current_pe": null,
+    "current_ev_ebitda": null,
+    "valuation_tool": "P/E",
+    "implied_growth_cagr": "FY26-27 earnings +50% (based on PAT inflection) needs 20-25x multiple to justify current price; 3-yr 15-20% CAGR implied",
+    "our_fy27_estimate": "Revenue Rs 1,450-1,500 Cr (5.5L MT production at blended Rs 2,650/MT average); EBITDA margin 24% (robust but not unsustainable); PAT Rs 330-350 Cr (vs ~Rs 180 Cr FY26)",
+    "our_fy28_estimate": "Revenue Rs 1,550-1,650 Cr (if prices stabilize, production holds 5.5-6L MT); EBITDA margin 22-23% (normalized post-squeeze); PAT Rs 310-340 Cr (stable, not growth)",
+    "gap_direction": "partially-priced",
+    "gap_type": "duration",
+    "gap_magnitude_pct": 10,
+    "gap_basis": "Market likely pricing in a 1-2 yr earnings inflection tied to manganese squeeze; we see this as +50% FY27 earnings possible, but margin plateau/revert by FY28 if prices weaken. Upside if squeeze persists 3+ years or if EV/renewable demand lifts manganese demand structurally (unproven).",
+    "evidence_quality": "moderate",
+    "data_caveat": "No analyst consensus; implied path based on FY27 run-rate, Q1 margin trends, recent Argus price data, and sector demand estimates"
+  },
+  "catalyst": {
+    "event": "Q2 FY27 results (Oct-Nov 2026): confirm if PAT margin holds at 23%+ or reverts to 18-19%",
+    "expected_window_months": 2,
+    "window_start": "2026-10-05",
+    "evidence_quality": "high",
+    "is_dated": true,
+    "status": "pending"
+  },
+  "earnings_quality": {
+    "margin_driver": "cyclical",
+    "drivers": [
+      "Manganese ore pricing (global supply-driven, cyclical)",
+      "Production volume (mine utilization, influenced by demand)",
+      "Cost discipline (PSU efficiency gains, FY27 focus)"
+    ],
+    "peak_margin_risk": true,
+    "normalised_note": "Current Q1 EBITDA margin ~24% is well above a through-cycle 15-17% expectation. Driven by global supply squeeze (temporary 2-3yr window) + local pricing power (sustainable at 15%+ markup). Through-cycle expectation: 16-18% EBITDA margin post-squeeze normalization. Peak-margin risk is MODERATE: if ferro prices weaken another 5-10%, margins compress 200-300bps."
+  },
+  "growth_trajectory": {
+    "yoy_trend": "accelerating",
+    "last_quarters_note": "FY26 essentially flat; Q1 FY27 PAT +70% YoY is a sharp inflection off a weak base. Not a sustained multi-quarter trend yet.",
+    "reverse_pe_note": "25x trailing P/E on ~Rs 88 Cr Q1 PAT annualized (Rs ~350 Cr FY27) needs growth to slow to 10-12% by FY28-29 to maintain; if PAT plateaus at Rs 330 Cr FY28, then 25x is expensive."
+  },
+  "management_quality": {
+    "capital_allocation": "PSU discipline: reinvested at 12-17% ROCE. No aggressive capex; cash returned as dividend (not reinvested for growth). Conservative capital-allocation stance.",
+    "capital_allocation_track_record": "neutral",
+    "rpt_trend": "flat",
+    "guidance_credibility": "reliable",
+    "shareholder_returns": "consistent",
+    "capability_ladder_note": "No stated value-chain movement; operating margin leverage via cost discipline + pricing power is the only lever",
+    "assessment": "neutral"
+  },
+  "quality_metrics": {
+    "roce_pct": 14,
+    "roce_trend": "improving",
+    "net_debt_to_ebitda": -0.5,
+    "interest_coverage": null,
+    "fcf_conversion_pct": 85,
+    "margin_trend": "expanding",
+    "capex_efficiency": "neutral",
+    "assessment": "positive"
+  },
+  "track_record": {
+    "years_checked": 3,
+    "years_cleared": 0,
+    "note": "FY26: Revenue growth 4.67% (below 10%), ROCE 14% (below 15%). FY25: Revenue flat, ROCE weak. FY24: Revenue growth barely positive. No consistent Coffee-Can performance in last 3 years. However, Q1 FY27 inflection (if sustained) could mark entry into a 2-3yr high-ROCE window."
+  }
 }

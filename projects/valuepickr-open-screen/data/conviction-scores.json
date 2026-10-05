@@ -5427,45 +5427,6 @@
     }
   },
   {
-    "slug": "ugro-capital",
-    "name": "Ugro Capital",
-    "conviction_score": 34.0,
-    "own_conviction": 34.0,
-    "trusted_lift": 0.0,
-    "conviction": "Medium",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 21.0,
-    "market_cap_tier": "Small-cap (~Rs 1,519 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 34.0,
-      "trusted_lift": 0.0,
-      "base_anchor": 25,
-      "thesis_bonus": 14,
-      "quality_lift": -5.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "music-broadcast",
     "name": "Music Broadcast Limited (Radio City)",
     "conviction_score": 34.0,
@@ -7386,6 +7347,51 @@
     }
   },
   {
+    "slug": "sterlite-technologies",
+    "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
+    "conviction_score": 29.21,
+    "own_conviction": 26.0,
+    "trusted_lift": 3.21,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Mid-cap (~Rs 36,700 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 26.0,
+      "trusted_lift": 3.21,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 1.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 3.21,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 3.21,
+        "pos_raw": 3.21,
+        "pos_capped": 3.21,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 2,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "flat",
+        "shareholder_returns": "none"
+      }
+    }
+  },
+  {
     "slug": "cera-sanitaryware-ltd",
     "name": "Cera Sanitaryware Ltd",
     "conviction_score": 29.12,
@@ -7902,45 +7908,6 @@
     }
   },
   {
-    "slug": "sterlite-technologies",
-    "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
-    "conviction_score": 28.21,
-    "own_conviction": 25.0,
-    "trusted_lift": 3.21,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Mid-cap (~Rs 36,700 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 25.0,
-      "trusted_lift": 3.21,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 3.21,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 3.21,
-        "pos_raw": 3.21,
-        "pos_capped": 3.21,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 2,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "modison-ltd",
     "name": "Modison Ltd",
     "conviction_score": 28.06,
@@ -7982,6 +7949,51 @@
         "capital_allocation_track_record": null,
         "rpt_trend": "flat",
         "shareholder_returns": null
+      }
+    }
+  },
+  {
+    "slug": "moil",
+    "name": "MOIL Ltd",
+    "conviction_score": 28.03,
+    "own_conviction": 27.0,
+    "trusted_lift": 1.03,
+    "conviction": "Low",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": null,
+    "market_cap_tier": "Small-cap (~Rs 5,145 Cr)",
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 27.0,
+      "trusted_lift": 1.03,
+      "base_anchor": 8,
+      "thesis_bonus": 14,
+      "quality_lift": 0.0,
+      "management_component": 5.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 1.03,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 1.03,
+        "pos_raw": 1.03,
+        "pos_capped": 1.03,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "fallback-scalar"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "reliable",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "flat",
+        "shareholder_returns": "consistent"
       }
     }
   },
@@ -12894,45 +12906,6 @@
         "rpt_trend": "unclear",
         "shareholder_returns": "none"
       }
-    }
-  },
-  {
-    "slug": "moil",
-    "name": "MOIL Ltd",
-    "conviction_score": 23.03,
-    "own_conviction": 22.0,
-    "trusted_lift": 1.03,
-    "conviction": "Low",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": null,
-    "market_cap_tier": "Small-cap (~Rs 5,145 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 22.0,
-      "trusted_lift": 1.03,
-      "base_anchor": 8,
-      "thesis_bonus": 14,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 1.03,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 1.03,
-        "pos_raw": 1.03,
-        "pos_capped": 1.03,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "fallback-scalar"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": null
     }
   },
   {
@@ -21219,6 +21192,45 @@
     }
   },
   {
+    "slug": "fiem-industries-auto-ancillary-player",
+    "name": "FIEM industries : auto ancillary player",
+    "conviction_score": 16.0,
+    "own_conviction": 16.0,
+    "trusted_lift": 0.0,
+    "conviction": "Low-Medium",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": null,
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 16.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 16,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": null
+    }
+  },
+  {
     "slug": "john-cockerill-india-a-case-study-on-decarbonisation-of-steel",
     "name": "John Cockerill India: A Case Study on Decarbonisation of Steel",
     "conviction_score": 15.68,
@@ -24842,6 +24854,45 @@
         "source": "fallback-scalar"
       },
       "distinct_trusted_users": 1,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "ugro-capital",
+    "name": "Ugro Capital",
+    "conviction_score": 9.0,
+    "own_conviction": 9.0,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 21.0,
+    "market_cap_tier": "Small-cap (~Rs 1,519 Cr)",
+    "red_flag_tier": "HIGH_CAUTION",
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 9.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 14,
+      "quality_lift": -5.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 25,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
       "management_quality": null
     }
   },
@@ -33066,6 +33117,123 @@
     }
   },
   {
+    "slug": "shree-hari-chemicals",
+    "name": "Shree Hari Chemicals",
+    "conviction_score": 8.0,
+    "own_conviction": 8.0,
+    "trusted_lift": 0.0,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": null,
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 8.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "active-clothing-co",
+    "name": "Active Clothing Co Ltd",
+    "conviction_score": 8.0,
+    "own_conviction": 8.0,
+    "trusted_lift": 0.0,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": null,
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 8.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "bodal-chemical",
+    "name": "Bodal Chemical Ltd",
+    "conviction_score": 8.0,
+    "own_conviction": 8.0,
+    "trusted_lift": 0.0,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": null,
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 8.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": null
+    }
+  },
+  {
     "slug": "abs-marine-services",
     "name": "ABS Marine Services Ltd",
     "conviction_score": 7.48,
@@ -33506,45 +33674,6 @@
         "value": 2.06,
         "pos_raw": 2.06,
         "pos_capped": 2.06,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "fallback-scalar"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": null
-    }
-  },
-  {
-    "slug": "aesl-oilmax-services",
-    "name": null,
-    "conviction_score": 4.5,
-    "own_conviction": 0.0,
-    "trusted_lift": 4.5,
-    "conviction": null,
-    "thesis_fit": null,
-    "quality_score": null,
-    "market_cap_tier": null,
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 0.0,
-      "trusted_lift": 4.5,
-      "base_anchor": 0,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 4.5,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 4.5,
-        "pos_raw": 4.5,
-        "pos_capped": 4.5,
         "neg_raw": 0.0,
         "neg_capped": 0.0,
         "n_positive_signals": 1,
@@ -40679,6 +40808,45 @@
         "source": "none"
       },
       "distinct_trusted_users": 0,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "aesl-oilmax-services",
+    "name": null,
+    "conviction_score": 0,
+    "own_conviction": -5.0,
+    "trusted_lift": 4.5,
+    "conviction": null,
+    "thesis_fit": null,
+    "quality_score": 0,
+    "market_cap_tier": null,
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": -5.0,
+      "trusted_lift": 4.5,
+      "base_anchor": 0,
+      "thesis_bonus": 0,
+      "quality_lift": -5.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 4.5,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 4.5,
+        "pos_raw": 4.5,
+        "pos_capped": 4.5,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "fallback-scalar"
+      },
+      "distinct_trusted_users": 1,
       "management_quality": null
     }
   }

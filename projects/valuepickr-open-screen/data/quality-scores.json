@@ -1,7 +1,7 @@
 {
   "method": "the user's stated screening framework (2026-09-04): growth + margins + ROCE + debt + capex + free cash flow + competitive advantage + management quality. This score covers the four legs (ROCE, debt, FCF, capex) that had no numeric home before. Formula in this script's docstring and scripts/QUALITY_SCORE_METHODOLOGY.md.",
-  "scored_count": 356,
-  "not_assessed_count": 645,
+  "scored_count": 358,
+  "not_assessed_count": 647,
   "ranked": [
     {
       "slug": "venus-remedies",
@@ -467,6 +467,32 @@
         "fcf_component": 14,
         "margin_component": 9,
         "capex_component": 15,
+        "raw": 79,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "moil",
+      "name": "MOIL Ltd",
+      "quality_score": 79.0,
+      "conviction_score": 28.03,
+      "red_flag_tier": null,
+      "roce_pct": 14,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.5,
+      "interest_coverage": null,
+      "fcf_conversion_pct": 85,
+      "margin_trend": "expanding",
+      "capex_efficiency": "neutral",
+      "assessment": "positive",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 12,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 25,
+        "margin_component": 15,
+        "capex_component": 7,
         "raw": 79,
         "red_flag_multiplier": 1.0
       }
@@ -3799,6 +3825,34 @@
       }
     },
     {
+      "slug": "sterlite-technologies",
+      "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
+      "quality_score": 42.0,
+      "conviction_score": 29.21,
+      "red_flag_tier": null,
+      "roce_pct": 6.7,
+      "roce_trend": "improving",
+      "net_debt_to_ebitda": -0.6,
+      "interest_coverage": null,
+      "fcf_conversion_pct": -35,
+      "margin_trend": "expanding",
+      "capex_efficiency": "unclear",
+      "assessment": "concern",
+      "flags": [
+        "weak-fcf"
+      ],
+      "score_breakdown": {
+        "roce_component": 7,
+        "debt_component": 20,
+        "debt_component_source": "net_debt_to_ebitda",
+        "fcf_component": 0,
+        "margin_component": 15,
+        "capex_component": 0,
+        "raw": 42,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "rbz-jewellers",
       "name": "RBZ Jewellers Ltd",
       "quality_score": 42.0,
@@ -5712,32 +5766,6 @@
       }
     },
     {
-      "slug": "ugro-capital",
-      "name": "Ugro Capital",
-      "quality_score": 21.0,
-      "conviction_score": 34.0,
-      "red_flag_tier": null,
-      "roce_pct": 12.9,
-      "roce_trend": "declining",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "stable",
-      "capex_efficiency": "neutral",
-      "assessment": "concern",
-      "flags": [],
-      "score_breakdown": {
-        "roce_component": 5,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 9,
-        "capex_component": 7,
-        "raw": 21,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
       "slug": "electronics-mart-india",
       "name": "Electronics Mart India Limited- EMIL",
       "quality_score": 21.0,
@@ -6295,6 +6323,32 @@
         "margin_component": 15,
         "capex_component": 7,
         "raw": 22,
+        "red_flag_multiplier": 0.5
+      }
+    },
+    {
+      "slug": "ugro-capital",
+      "name": "Ugro Capital",
+      "quality_score": 10.5,
+      "conviction_score": 9.0,
+      "red_flag_tier": "HIGH_CAUTION",
+      "roce_pct": 12.9,
+      "roce_trend": "declining",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "stable",
+      "capex_efficiency": "neutral",
+      "assessment": "concern",
+      "flags": [],
+      "score_breakdown": {
+        "roce_component": 5,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 9,
+        "capex_component": 7,
+        "raw": 21,
         "red_flag_multiplier": 0.5
       }
     },
@@ -8817,34 +8871,6 @@
       }
     },
     {
-      "slug": "aesl-oilmax-services",
-      "name": "aesl-oilmax-services",
-      "quality_score": 0,
-      "conviction_score": 4.5,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
       "slug": "connplex-cinema",
       "name": "CONNPLEX CINEMA",
       "quality_score": 0,
@@ -9854,6 +9880,34 @@
         "raw": 0,
         "red_flag_multiplier": 1.0
       }
+    },
+    {
+      "slug": "aesl-oilmax-services",
+      "name": "aesl-oilmax-services",
+      "quality_score": 0,
+      "conviction_score": 0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
     }
   ],
   "not_assessed": [
@@ -9969,12 +10023,6 @@
       "slug": "ixigo-le-travenues-technology",
       "name": "Le Travenues Technology Ltd (ixigo)",
       "conviction_score": 28.3,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "sterlite-technologies",
-      "name": "Sterlite Technologies Ltd (STLTECH) | Digital India play",
-      "conviction_score": 28.21,
       "red_flag_tier": null
     },
     {
@@ -10479,12 +10527,6 @@
       "slug": "timex-group",
       "name": "Timex Group (TGIL)",
       "conviction_score": 23.12,
-      "red_flag_tier": null
-    },
-    {
-      "slug": "moil",
-      "name": "MOIL Ltd",
-      "conviction_score": 23.03,
       "red_flag_tier": null
     },
     {
@@ -11402,6 +11444,12 @@
     {
       "slug": "oswal-pumps",
       "name": "Oswal Pumps",
+      "conviction_score": 16.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "fiem-industries-auto-ancillary-player",
+      "name": "FIEM industries : auto ancillary player",
       "conviction_score": 16.0,
       "red_flag_tier": null
     },
@@ -12974,6 +13022,24 @@
     {
       "slug": "epack-durable",
       "name": "Epack Durable Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "shree-hari-chemicals",
+      "name": "Shree Hari Chemicals",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "active-clothing-co",
+      "name": "Active Clothing Co Ltd",
+      "conviction_score": 8.0,
+      "red_flag_tier": null
+    },
+    {
+      "slug": "bodal-chemical",
+      "name": "Bodal Chemical Ltd",
       "conviction_score": 8.0,
       "red_flag_tier": null
     },

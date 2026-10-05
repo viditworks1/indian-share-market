@@ -42,6 +42,7 @@ _(none)_
 | L. T. Elevators: Can they lift investors | 2026-12-01 | ~3M | pending | 24.41 | H1 FY27 result (~Nov 2026) showing the growth run-rate WITH operating cash flow tracking profit; plus DYPC close (by ~30 Sep 2026) and West Bengal commission... |
 | Grand Continent Hotels | 2026-12-03 | ~3M | pending | 24.84 | Q2 / H1 FY27 results - first P&L showing whether blended EBITDA margin recovers off the ~9-14% trough as the 8-10% rate hikes and GST-mitigation structuring ... |
 | Fredun Pharmaceuticals | 2026-12-03 | ~3M | pending | 20.02 | Q2 FY27 print (guided similar to Q1) - specifically whether EBITDA margin resumes climbing off ~14% and OCF keeps improving |
+| MOIL Ltd | 2026-12-05 | ~2M | pending | 35.52 | Q2 FY27 results (Oct-Nov 2026): confirm if PAT margin holds at 23%+ or reverts to 18-19% |
 | Alufluoride Limited-conversion of waste into wealth | 2026-12-05 | ~3M | pending | 15.81 | Q2 FY27 results confirming whether Coromandel FSA supply has actually normalised and production/revenue recovers, versus a second consecutive weak quarter |
 | Jasch Industries Ltd | 2026-12-07 | ~3M | pending | 47.96 | Q2 FY27 result (~Nov 2026) showing the Hyundai/Kia volume ramp resuming sequentially after the flat Q1 FY27, and EBITDA margin above ~8% |
 | Harshdeep Hortico Ltd (SME) | 2026-12-07 | ~3M | pending | 42.66 | H1 FY27 print (~Nov 2026) showing operating cash flow turning positive and revenue growth holding at 20%+ after the H2 FY26 slowdown |
@@ -147,6 +148,7 @@ _(none)_
 | Unimech Aerospace and Manufacturing Ltd | 2027-04-02 | ~7M | pending | 0 | First nuclear-order execution prints in H2FY27 + full-quarter Hobel contribution from Q2 + QIP completion / MPS sell-down clearing the overhang |
 | Dynamic Cables | 2027-04-03 | ~7M | pending | 4.6 | Greenfield trial production Sep 2026 -> commercial Q4 FY27 (revenue from Q4 FY27, 80-85% utilisation by end-FY28); quarterly prints sustaining ~30% growth vs... |
 | MTAR Technologies Ltd | 2027-04-03 | ~7M | pending | 0 | Fuel-cell Phase 2 capacity live (Oct 2026) then Phase 3 (Mar 2027); H2 FY27 nuclear execution ramp; Q2/Q3 FY27 prints confirming the +80% FY27 path |
+| Sterlite Technologies Ltd (STLTECH) | Digital India play | 2027-04-06 | ~6M | pending | 0 | Order intake sustains >Rs 1,000 Cr/quarter through FY27-28; capex milestones on schedule (Q1 FY28 preform ramp visible) |
 | Supreme (transformer maker) | 2027-04-19 | ~7M | pending | 26.1 | Kanpur facility utilisation reaching the guided 30-50% band by Q4 FY27, alongside a quarter where PAT growth catches up to revenue growth (confirming the ove... |
 | Stylam Industries Ltd | 2027-05-31 | ~9M | pending | 33.35 | Panchkula plant commercial start (Sep 2026) plus Q2/Q3 FY27 prints showing new-capacity revenue, sustained ~20% margins, and the domestic segment swinging to... |
 | Timex Group (TGIL) | 2027-05-31 | ~9M | pending | 4.06 | H2 FY27 prints showing whether revenue growth re-accelerates toward 40% or settles near 30%, plus confirmation the promoter sell-down is genuinely over (no f... |

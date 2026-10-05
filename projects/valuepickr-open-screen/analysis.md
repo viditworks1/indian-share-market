@@ -8676,3 +8676,11 @@ Resolution required before research can proceed.
 ## KMC Speciality hospital — technicals refresh [2026-10-03]
 - Market data incomplete but tier/conviction unchanged; technicals refresh completed with existing data
 
+
+## Sterlite Technologies Ltd (STLTECH) — deep-dive pass 1 [2026-10-05]
+- Q1 FY27 inflection real: Revenue +87% YoY (Rs 978 Cr, record), operating margin 21.74%, order intake 1.7x entire FY26 book (Rs 13,100 Cr)
+- Balance sheet de-risked (net cash Rs 483 Cr post-QIP); Rs 3,000 Cr capex approved Sep 3 for preform + fiber capacity
+- **BUT:** Cyclical drivers dominant (helium shortage ~1yr fix, preform scarcity 2-3yr to resolve via HFCL/Finolex); bulls themselves expect 5-10x terminal multiple, not 30x+
+- Agarwal group capex-execution risk + governance overhang (serial dilution history) caps conviction
+- Conviction Medium -> **Medium** (no change). Business momentum supports floor; cyclicality + governance + already-elevated valuation prevent upgrade
+
