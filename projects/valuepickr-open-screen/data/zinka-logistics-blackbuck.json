@@ -93,9 +93,9 @@
     "note": "Core tolling/telematics (24% GTV growth vs ~15% industry) + SuperLoads digital-freight-brokerage (~50% QoQ sequential growth, 4->14 cities on schedule) is a real dual structural tailwind and supports tam; a real regulatory dependency (FASTag-vs-GNSS policy transition, still unresolved) and unproven SuperLoads unit economics at scale keep moat weak; P/E ~65-67x / P/B ~7.8x is still rich for a business one year into sustained profitability, and margin is compressing not expanding -- valuation no. Continued promoter selling (27.70%->25.05% over 4 quarters) is a separate caution."
   },
   "market_expectation": {
-    "as_of": "2026-09-18",
-    "price": 620,
-    "current_pe": 66,
+    "as_of": "2026-10-01",
+    "price": 606,
+    "current_pe": 64.34,
     "current_ev_ebitda": null,
     "valuation_tool": "P/E",
     "implied_growth_cagr": "~65-67x trailing (EPS ~Rs8.85 FY26) implies the market needs ~35-40%+ EPS CAGR FY26-28 at a ~45-55x exit -- it is pricing continued SuperLoads scale-up and an eventual margin re-inflection off a base where margin is currently compressing, not expanding",
@@ -346,5 +346,11 @@
     ],
     "conviction_update": "Low-Medium -> Medium. FY26 was BlackBuck's first full profitable year (revenue +53%, adjusted EBITDA +84%, PAT Rs160Cr) and SuperLoads is scaling faster than guided (50% sequential growth, 14 cities, halfway to its load-volume target) -- real, evidenced progress on the core optionality thesis, and valuation has de-rated from ~84x to ~65-67x P/E as earnings caught up. Against this: EBITDA margin has actually compressed YoY (29%->24.9%) on SuperLoads mix dilution rather than expanding as previously assumed, promoter holding keeps falling (27.70%->25.05% over four quarters plus a Nov-2025 founder block deal), a new ~Rs22Cr tax dispute surfaced, and the FASTag-vs-GNSS regulatory transition remains unresolved. Four-box score stays at 2.5, which caps conviction at Medium per the quickref's decision table; thesis_fit stays '10x-in-2-3-years' via the mid-cap live-inflection exception (SuperLoads acceleration), with an unconfirmed caveat retained."
   },
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "technicals_update": {
+    "date": "2026-10-01",
+    "price": 606,
+    "pe": 64.34,
+    "market_cap_cr": 11046.52
+  }
 }

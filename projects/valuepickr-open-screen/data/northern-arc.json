@@ -196,9 +196,9 @@
     ]
   },
   "market_expectation": {
-    "as_of": "2026-09-04",
-    "price": 300,
-    "current_pe": 11.0,
+    "as_of": "2026-10-01",
+    "price": 289,
+    "current_pe": 10.63,
     "current_ev_ebitda": null,
     "valuation_tool": "P/B",
     "implied_growth_cagr": "At ~1.24x book / ~11x earnings the market implies mid-teens book-value CAGR with ROE stuck around 11-12%. A re-rating toward ~1.8-2x book requires ROE sustained at 15%+, i.e. roughly 20-25% EPS CAGR FY26-28 against a ~16-18x fair exit multiple.",
@@ -278,5 +278,11 @@
     "assessment": "concern",
     "note": "NBFC adaptation: leverage / interest-coverage / FCF not meaningful (null). roce_pct shows FY26 ROE 11% as the profitability proxy; ROE 15% FY24 -> 11% FY25 -> 11% FY26 as MFI-sector stress lifted credit costs and compressed spreads. Well-capitalised (CAR ~20%+ after the Sep-2024 IPO), diversified across direct lending + fund/placement book. Sub-cost-of-equity returns despite the strong balance sheet -> concern."
   },
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "technicals_update": {
+    "date": "2026-10-01",
+    "price": 289,
+    "pe": 10.63,
+    "market_cap_cr": 4671.48
+  }
 }

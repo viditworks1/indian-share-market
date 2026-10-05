@@ -329,5 +329,11 @@
     "note": "EPS/implied-price legs left null (per-share figures not sourced this pass). closest_to 'bull' reflects that the CURRENT ~85x price already needs a bull-case growth/multiple combination to be fair - consistent with gap_direction 'over-optimistic': the price is closest to the bull scenario, meaning base/bear scenarios both imply meaningful downside from CMP."
   },
   "conviction": "Low-Medium",
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "technicals_update": {
+    "date": "2026-10-05",
+    "price_inr": 3013.0,
+    "pe_ratio": 77.9,
+    "market_cap_cr": 13849
+  }
 }
