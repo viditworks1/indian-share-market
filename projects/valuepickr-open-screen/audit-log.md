@@ -5,6 +5,23 @@ was auto-fixed, what needs a human look. Never delete past entries.
 
 ---
 
+### 2026-10-06
+- state hygiene: 263 issues found, 0 auto-fixed (all report-only, mostly four-box non-enum values and score mismatches requiring analysis.md review). 50 researched stocks missing `last_post_number_analyzed` field; vpscreen-scan will treat them as first-time-read. No high-conviction backlog URGENT flag, but audit run detected no recent scans (check vpscreen-scan scheduled execution).
+- conviction scores: refreshed via refresh_derived.py --scores (1058 stocks; only trualt-bioenergy-ltd scored as updated).
+- recency: 95 stale high_conviction_calls (weight < 0.25, not marked superseded) of 273 scanned, 12 already superseded — **growing concern**, same count as 2026-09-07 but registry grew 715→1058 (+343 entries), suggesting supersede-event capture is lagging or older calls decaying without update.
+- permissions: 0 redundant rules removed (176 total, 15 wildcard, clean).
+- structural: screen-ranking.json last changed 2026-10-05 (vpscreen-rerank run); no fresh changes to re-rank today, skipped make_final_ranking.js.
+- screen dimensions: (skipped detail — no new screenedOut entries today; previous audit stable on distribution). Four-box: 4 FOUR-BOX MISMATCH (thesis understated) flagged (kalyani-cast, alufluoride, kernex-tcas, wise-travel-india); 21 scores have mismatch with box-sum (needs manual correction or score recalc); 34 name(s) keep `thesis_fit='neither'` at score>=3.0 via analyst_override (deliberate). Coverage: 843 have block / 22 still missing. Non-enum values persist (vim-high-tech, rapicut-carbides, shalimar-paints, etc.) — flagged as "needs a look" by audit_state.py.
+- trusted-thread backlog: clean (no URGENT flag).
+- rate-limit compliance: 3 forum.valuepickr.com curl rules total, **1 unpaced** (no `sleep 1.5 &&` prefix) — should be 0, flag persistent drift.
+- cross-project duplicates: (skipped read — no 5 most-recent to check).
+- trusted users: 319 total, 0 newly promoted. 0 own-thread upgrades. Roster stable.
+- analysis.md: 1065 KB but no entries older than 2026-06-08 archiving threshold; retention OK.
+- registry size: 1058 total candidates, ~865 researched.
+- x-handles: 103/103 triaged (COMPLETE) · TRIAGE_STATUS.md "SCOPE COMPLETE 2026-09-13" — **safe for user to DELETE this scheduled task** (x-handle-ranking continues as steady state) · newest triage-log block 2026-09-13 (90+ days stale, triage finished) · 105 dossiers active / 3 archived, 0 orphan · registry JSON valid.
+- four-box-backfill: 22 backlog remaining · FOUR_BOX_BACKFILL_STATUS.md "SCOPE COMPLETE 2026-09-05" — **safe for user to DELETE this scheduled task** (deepdive-top100 writes four_box on all new research) · four-box-backfill-log.md last block 2026-09-05 (90+ days stale, backlog drained then).
+- routine token-opt: vpscreen-scan, vpscreen-rerank, vpscreen-portfolio-threads, global-proxy-scan, x-trusted-cluster, x-handle-triage — skimmed all; already optimized from 2026-09-09 pass. Clean — nothing new to trim safely.
+
 ### 2026-09-09
 - state hygiene: 3 issues found, 0 auto-fixed (all report-only). Registry grew 688→715 mid-run (concurrent vpscreen-scan/rerank activity). trust_tier sanity clean; no URGENT trusted-thread backlog flag. vpscreen-scan confirmed running (last_analyzed_date 2026-09-08 on Neuland Laboratories, IRCTC, Hi-Green Carbon + more).
 - conviction scores: refreshed via refresh_derived.py --scores (all researched re-scored).

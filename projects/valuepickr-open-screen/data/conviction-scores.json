@@ -41,9 +41,9 @@
   {
     "slug": "acutaas-chemicals",
     "name": "Acutaas Chemicals Ltd (Erst. Ami Organics Ltd)",
-    "conviction_score": 68.47,
+    "conviction_score": 67.36,
     "own_conviction": 55.25,
-    "trusted_lift": 13.22,
+    "trusted_lift": 12.11,
     "conviction": "Medium-High",
     "thesis_fit": "10x-in-2-3-years",
     "quality_score": 75.0,
@@ -52,19 +52,19 @@
     "source": "trusted-thread",
     "score_breakdown": {
       "own_conviction": 55.25,
-      "trusted_lift": 13.22,
+      "trusted_lift": 12.11,
       "base_anchor": 35,
       "thesis_bonus": 14,
       "quality_lift": 6.25,
       "management_component": 0.0,
       "red_flag_penalty": 0,
       "red_flag_forced_zero": false,
-      "trusted_signal_component": 13.22,
+      "trusted_signal_component": 12.11,
       "trusted_lift_neg_floor_applied": false,
       "trusted_signal_detail": {
-        "value": 13.22,
-        "pos_raw": 13.22,
-        "pos_capped": 13.22,
+        "value": 12.11,
+        "pos_raw": 12.11,
+        "pos_capped": 12.11,
         "neg_raw": 0.0,
         "neg_capped": 0.0,
         "n_positive_signals": 3,
@@ -253,51 +253,6 @@
         "guidance_credibility": "reliable",
         "capital_allocation_track_record": null,
         "rpt_trend": "flat",
-        "shareholder_returns": null
-      }
-    }
-  },
-  {
-    "slug": "p-e-analytics",
-    "name": "P.E. Analytics Ltd (PROPEQUITY)",
-    "conviction_score": 61.05,
-    "own_conviction": 57.75,
-    "trusted_lift": 3.3,
-    "conviction": "Medium-High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 85.0,
-    "market_cap_tier": "Micro-cap (~Rs 200 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 57.75,
-      "trusted_lift": 3.3,
-      "base_anchor": 35,
-      "thesis_bonus": 14,
-      "quality_lift": 8.75,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 3.3,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 3.3,
-        "pos_raw": 3.3,
-        "pos_capped": 3.3,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "unclear",
         "shareholder_returns": null
       }
     }
@@ -569,6 +524,51 @@
         "capital_allocation_track_record": "disciplined",
         "rpt_trend": "flat",
         "shareholder_returns": "unclear"
+      }
+    }
+  },
+  {
+    "slug": "p-e-analytics",
+    "name": "P.E. Analytics Ltd (PROPEQUITY)",
+    "conviction_score": 59.73,
+    "own_conviction": 57.75,
+    "trusted_lift": 1.98,
+    "conviction": "Medium-High",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 85.0,
+    "market_cap_tier": "Micro-cap (~Rs 200 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 57.75,
+      "trusted_lift": 1.98,
+      "base_anchor": 35,
+      "thesis_bonus": 14,
+      "quality_lift": 8.75,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 1.98,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 1.98,
+        "pos_raw": 1.98,
+        "pos_capped": 1.98,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "unclear",
+        "shareholder_returns": null
       }
     }
   },
