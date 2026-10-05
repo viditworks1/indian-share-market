@@ -2,78 +2,10 @@
 
 Stocks analyzed recently enough that their thread should NOT be re-opened by the scan job yet, regardless of new forum activity. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-10-03
+Generated: 2026-10-05
 
 | Stock | Last analyzed | Eligible again on | Conviction |
 |---|---|---|---|
-| Sunteck Realty | 2026-09-04 | 2026-10-04 | Low-Medium |
-| Steelcast Ltd | 2026-09-04 | 2026-10-04 | Medium-High |
-| PTC Industries Ltd | 2026-09-04 | 2026-10-04 | Medium |
-| KSE Limited --- Interesting Business | 2026-09-04 | 2026-10-04 | Low-Medium |
-| Premco Global --- Narrow Fabric (A critical component for inner wear) | 2026-09-04 | 2026-10-04 | Low |
-| Bhageria Industries | 2026-09-04 | 2026-10-04 | Low |
-| SKF India | 2026-09-04 | 2026-10-04 | Low-Medium |
-| Shriram AMC | 2026-09-04 | 2026-10-04 | Low |
-| Satkartar Life: D2C Ayurveda Pivoting to Specialized Asset-Light Hospitals | 2026-09-04 | 2026-10-04 | Low |
-| United Drilling Tools Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
-| Chennai Petroleum Corporation Ltd (CPCL) | 2026-09-04 | 2026-10-04 | Low |
-| Mahanagar Gas Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
-| Satia Industries | 2026-09-04 | 2026-10-04 | Low-Medium |
-| Earkart Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
-| Sastasundar Ventures Ltd | 2026-09-04 | 2026-10-04 | Low |
-| Bharat Heavy Electricals Ltd (BHEL) | 2026-09-04 | 2026-10-04 | Medium |
-| Raymond | 2026-09-04 | 2026-10-04 | Low-Medium |
-| Sterlite Technologies Ltd (STLTECH) | Digital India play | 2026-09-04 | 2026-10-04 | Medium |
-| KEI Industries Ltd | 2026-09-04 | 2026-10-04 | Medium |
-| Poly Medicure Ltd | 2026-09-04 | 2026-10-04 | Medium |
-| Msafe Equipments Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
-| SG Finserve Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
-| Tata Capital Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
-| Workmates Core2Cloud Solution Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
-| Shree Pushkar Chemicals Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
-| GNG Electronics Ltd | 2026-09-04 | 2026-10-04 | Medium |
-| Premier Polyfilm Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
-| Bhagwati Autocast Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
-| Dhabriya Polywood Ltd | 2026-09-04 | 2026-10-04 | Medium |
-| S P Apparels Ltd | 2026-09-04 | 2026-10-04 | Low |
-| Himatsingka Seide Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
-| EPL Ltd | 2026-09-04 | 2026-10-04 | Medium |
-| Keltech Energies Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
-| Silicon Rental Solutions Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
-| Home First Finance Company India Ltd | 2026-09-04 | 2026-10-04 | Medium |
-| Capri Global Capital Ltd | 2026-09-04 | 2026-10-04 | Medium-High |
-| Angel One Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
-| RBZ Jewellers Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
-| ESDS Software Solution Ltd | 2026-09-04 | 2026-10-04 | Low-Medium |
-| Jubilant Agri and Consumer Products Ltd (JACPL) — A Hidden Gem from the Jubilant Group? | 2026-09-05 | 2026-10-05 | Medium |
-| CFF Fluid Control Ltd | 2026-09-05 | 2026-10-05 | Medium |
-| Megatherm Induction Ltd | 2026-09-05 | 2026-10-05 | Low-Medium |
-| Danlaw Technologies India Ltd | 2026-09-05 | 2026-10-05 | Low-Medium |
-| Prizor Viztech Ltd | 2026-09-05 | 2026-10-05 | AVOID |
-| Pace Digitek Ltd | 2026-09-05 | 2026-10-05 | Low-Medium |
-| Solex Energy Ltd | 2026-09-05 | 2026-10-05 | Low |
-| Osel Devices Ltd | 2026-09-05 | 2026-10-05 | Low-Medium |
-| AJC Jewel Manufacturers Ltd | 2026-09-05 | 2026-10-05 | Low |
-| Mayur Uniquoters Ltd | 2026-09-05 | 2026-10-05 | Medium |
-| Jasch Industries Ltd | 2026-09-05 | 2026-10-05 | Medium |
-| Wise Travel India Ltd (WTICabs) | 2026-09-05 | 2026-10-05 | Low |
-| Nitin Spinners Ltd | 2026-09-05 | 2026-10-05 | Low-Medium |
-| GHCL Textiles Ltd | 2026-09-05 | 2026-10-05 | Low |
-| Sportking India Ltd | 2026-09-05 | 2026-10-05 | Low |
-| Vardhman Textiles Ltd | 2026-09-05 | 2026-10-05 | Low-Medium |
-| Nahar Spinning Mills Ltd | 2026-09-05 | 2026-10-05 | Low |
-| DCM Nouvelle Ltd | 2026-09-05 | 2026-10-05 | Low |
-| Shiva Mills Ltd | 2026-09-05 | 2026-10-05 | Low |
-| Kimbal Ltd | 2026-09-05 | 2026-10-05 | Low |
-| Jayaswal Neco- Integrated Steel Player | 2026-09-05 | 2026-10-05 | Medium |
-| Aries Agro Ltd | 2026-09-05 | 2026-10-05 | Medium |
-| Tube Investments Ltd ~ Diversified Engineering Company | 2026-09-05 | 2026-10-05 | Medium |
-| Shivalik Rasayan (SRL) | 2026-09-05 | 2026-10-05 | Low-Medium |
-| Samvardhana Motherson International | 2026-09-05 | 2026-10-05 | Medium |
-| Jyoti CNC Automation Ltd | 2026-09-05 | 2026-10-05 | Low-Medium |
-| Metropolitan Stock Exchange of India Ltd (MSEI) | 2026-09-05 | 2026-10-05 | Low |
-| Aequs | 2026-09-05 | 2026-10-05 | Low-Medium |
-| Purple Style Labs | 2026-09-05 | 2026-10-05 | Low |
 | Asian oilfields | 2026-09-07 | 2026-10-07 | Low-Medium |
 | Pitti Engineering Ltd | 2026-09-07 | 2026-10-07 | Low-Medium |
 | Beezaasan Explotech | 2026-09-07 | 2026-10-07 | Low-Medium |

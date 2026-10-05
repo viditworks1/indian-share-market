@@ -2,7 +2,7 @@
 
 Stocks worth actively re-checking once their cooldown lapses, even if the forum goes quiet on them - not just passively waiting for new posts. Regenerated mechanically from `state.json` - do not hand-edit.
 
-Generated: 2026-10-03
+Generated: 2026-10-05
 
 ## Due now
 
@@ -10,7 +10,6 @@ Generated: 2026-10-03
 |---|---|---|
 | Influx HealthTech ( SME ) B2B CDMO For nutraceuticals, cosmetics, ayurvedic products, veterinary feed supplements | 2026-08-22 | Medium-High |
 | Raymond Realty Ltd | 2026-08-25 | Medium-High |
-| KMC Speciality hospital | 2026-08-27 | Low |
 | Vivid Electromech Ltd | 2026-08-29 | Medium-High |
 | P.E. Analytics Ltd (PROPEQUITY) | 2026-08-30 | Medium-High |
 | Dynamic Cables | 2026-08-30 | Medium-High |

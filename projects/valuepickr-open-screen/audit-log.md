@@ -473,3 +473,24 @@ active_themes.json: as_of -> 2026-09-09, 29 -> 31 themes (construction-equipment
 - x-handles: 103/103 triaged · **SCOPE COMPLETE (2026-09-13) — x-handle-triage safe for deletion; x-handle-ranking continues steady-state.**
 - four-box-backfill: 21 backlog · **SCOPE COMPLETE (2026-09-05) — four-box-backfill safe for deletion; deepdive-top100 continues.**
 - routine token-opt: all 12 stock routines reviewed. Result: **clean — nothing safe to cut** (prior 2026-09-09 pass removed redundancy; remaining prose is operational).
+
+### 2026-10-05
+- state hygiene: 232 issues found, 0 auto-fixed. Registry 1046 total (1047→1046, net −1 from 2026-10-02). 21 researched stocks still missing `last_post_number_analyzed` (unchanged from 10-02). 7 unrecognized status/thesis_fit values reported (3 'screenedOut' enums in state, 1 '50x-upside-but-high-risk' thesis_fit; needs human review — likely 10-02 scan/rerank activity not caught). trust_tier sanity clean. No methodology_note overgrowth. 5 MIS-SCREEN (past-performance bias) flagged (ADF Food, Cords Cable, Goldiam International, Sandhar Technologies, West Coast Paper Mills) — all screening on weak long-term while showing strong recent fundamentals, thesis_fit, no governance red; recommendation: move to Tier C "unconfirmed, watch" per the schema (action deferred to user review).
+- conviction scores: refreshed via refresh_derived.py --scores (refreshed 955 researched stocks, net −60 since 10-02 due to registry net loss).
+- recency: 95 stale high-conviction calls (weight < 0.25, not superseded) of 273 — stable vs 09-28.
+- permissions: 176 total, 15 wildcard, 0 redundant — clean.
+- rate-limit compliance: 3 forum curl rules in local settings, all paced (`sleep` prefix present) — clean.
+- screen dimensions: primary_screen_reason distribution — size=159, long_term_fundamentals=157, thesis=126, governance=58, no_thread=42, recent_fundamentals=41, valuation=35, technicals=35. 0 unclassified (screenedOut now 653 with full dimension blocks, backlog cleared since 10-02). 0 MIS-SCREEN reported by dimension check (the 5 past-performance flagged are listed above as free-text, not dimension-gated). Massive progress: unclassified dropped 293→0 (vpscreen-rerank tuning between 10-02 and 10-05 caught up).
+- four-box: 5 mismatches flagged as "thesis understated" (kalyani-cast, alufluoride, kernex-tcas-led, wise-travel-india, jayaswal-neco; all score-flagged on null four_box, not a real mismatch). 2 malformed score blocks (hbl-engineering-booting, kernex-microsystems, score=None vs sum=2.0). 22 missing blocks. Coverage: 833 have block / 22 missing (−1 net from 10-02, all new research getting blocks). 36 analyst_override (kept 'neither' deliberately).
+- trusted-thread backlog: clean.
+- cross-project duplicates: 5 spot-checks (most-recent research) vs legacy-108-screen — all clean.
+- trusted users: 319 total roster, 0 promoted this run, 0 thread upgrades. own_thread_topic_id coverage steady.
+- registry size: 1046 total (955 researched, 30 candidate, 38 excluded, 14 not-a-stock, 7 avoid, 3 screenedOut).
+- analysis.md: 1006 KB, no archival (oldest entry ~2026-06-07, 120-day threshold ~2026-05-04).
+- regen_lists.py: skip-list 381, revisit-list 6 due now / 1 scheduled, x-cluster-watch-list 0 pending / 17 researched, conviction-followthrough 0 flagged.
+- max-returns-ranking: 893 ranked, 107 flagged-separately of 1000 total researched.
+- final-ranking: screenedOut=653, tierA=12, tierB=59, tierC=71, highCaution=67, avoid=15, exclude=22 (−1 net since 10-02).
+- x-handles: 103/103 triaged · **SCOPE COMPLETE (2026-09-13)** · registry summary: 65 X, 48 A1, 100 B, 55 A2, 8 cluster, 22 CC buckets · orphans clean, triage-log not stale.
+- four-box-backfill: 22 remaining backlog · **SCOPE COMPLETE (2026-09-05)** · deepdive-top100 continues, no stall detected.
+- routine token-opt: all 12 stock routines skimmed (deepdive-top100 110L, vpscreen-scan 119L, vpscreen-rerank 208L, vpscreen-portfolio-threads 122L, x-trusted-cluster 153L, x-handle-triage 157L, x-handle-ranking 66L, global-proxy-scan 198L, portfolio-rs1l-revision 99L, paper-trading-weekly 202L). Result: **clean — nothing safe to cut** (2026-09-09 already trimmed; remaining prose essential). Noted: deepdive-top100 `description` stale (says "3x/day" but runs Saturdays only) — flagged for user attention, not corrected autonomously (frontmatter out of scope for Step 8.7).
+- git_sync: ready to commit audit results.

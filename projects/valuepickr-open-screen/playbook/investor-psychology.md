@@ -230,3 +230,7 @@ screen scores them. He frames the boundary as dynamic — "Try to stay within it
 centers/Power for now) but keep expanding it (Oil & Gas)" — i.e. the exclusion list is
 deliberately revised, not permanent, but expansion is a conscious project (he built the O&G
 understanding over months) rather than opportunistic drift into whatever is running.
+
+**Avoid timing/regret cycles** — phreakv6, #336 (2026-09-09, topic 180929):  
+"Certain long-cycle themes (GLP-1, Power Infra, AI/DC) shouldn't be rushed to exit. Shaily/Onesource thesis remains bullish, but early exit was mistake. Time-machine lens: My Sai/MTAR/Aeroflex allocation from February would have outperformed all my changes since then (value-add negative with taxes included). When playing to be among the best, this outcome keeps happening—but as long as you're performing well overall, it shouldn't be a concern."
+

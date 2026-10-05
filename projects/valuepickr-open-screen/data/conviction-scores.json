@@ -297,6 +297,51 @@
     }
   },
   {
+    "slug": "vivid-electromech",
+    "name": "Vivid Electromech Ltd",
+    "conviction_score": 62.51,
+    "own_conviction": 52.5,
+    "trusted_lift": 10.01,
+    "conviction": "Medium-High",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": 64.0,
+    "market_cap_tier": "Small-cap / SME (~Rs 1,400 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 52.5,
+      "trusted_lift": 10.01,
+      "base_anchor": 35,
+      "thesis_bonus": 14,
+      "quality_lift": 3.5,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 10.01,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 10.01,
+        "pos_raw": 10.01,
+        "pos_capped": 10.01,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 2,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "no-track-record",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "unclear",
+        "shareholder_returns": null
+      }
+    }
+  },
+  {
     "slug": "raymond-realty",
     "name": "Raymond Realty Ltd",
     "conviction_score": 61.79,
@@ -337,51 +382,6 @@
         "guidance_credibility": "reliable",
         "capital_allocation_track_record": null,
         "rpt_trend": "flat",
-        "shareholder_returns": null
-      }
-    }
-  },
-  {
-    "slug": "vivid-electromech",
-    "name": "Vivid Electromech Ltd",
-    "conviction_score": 61.26,
-    "own_conviction": 52.5,
-    "trusted_lift": 8.76,
-    "conviction": "Medium-High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 64.0,
-    "market_cap_tier": "Small-cap / SME (~Rs 1,400 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 52.5,
-      "trusted_lift": 8.76,
-      "base_anchor": 35,
-      "thesis_bonus": 14,
-      "quality_lift": 3.5,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 8.76,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 8.76,
-        "pos_raw": 8.76,
-        "pos_capped": 8.76,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 2,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "no-track-record",
-        "capital_allocation_track_record": null,
-        "rpt_trend": "unclear",
         "shareholder_returns": null
       }
     }
@@ -9207,51 +9207,6 @@
     }
   },
   {
-    "slug": "jayaswal-neco",
-    "name": "Jayaswal Neco- Integrated Steel Player",
-    "conviction_score": 25.23,
-    "own_conviction": 23.25,
-    "trusted_lift": 1.98,
-    "conviction": "Medium",
-    "thesis_fit": "neither",
-    "quality_score": 43.0,
-    "market_cap_tier": "small-cap",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 23.25,
-      "trusted_lift": 1.98,
-      "base_anchor": 25,
-      "thesis_bonus": 0,
-      "quality_lift": -1.75,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 1.98,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 1.98,
-        "pos_raw": 1.98,
-        "pos_capped": 1.98,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": {
-        "assessment": "neutral",
-        "guidance_credibility": "mixed",
-        "capital_allocation_track_record": "neutral",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
-      }
-    }
-  },
-  {
     "slug": "aarti-pharmalabs",
     "name": "Aarti Pharmalabs Ltd",
     "conviction_score": 25.21,
@@ -12630,6 +12585,51 @@
       },
       "distinct_trusted_users": 1,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "jayaswal-neco",
+    "name": "Jayaswal Neco- Integrated Steel Player",
+    "conviction_score": 24.08,
+    "own_conviction": 23.25,
+    "trusted_lift": 0.83,
+    "conviction": "Medium",
+    "thesis_fit": "neither",
+    "quality_score": 43.0,
+    "market_cap_tier": "small-cap",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 23.25,
+      "trusted_lift": 0.83,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": -1.75,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.83,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.83,
+        "pos_raw": 0.83,
+        "pos_capped": 0.83,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": {
+        "assessment": "neutral",
+        "guidance_credibility": "mixed",
+        "capital_allocation_track_record": "neutral",
+        "rpt_trend": "unclear",
+        "shareholder_returns": "none"
+      }
     }
   },
   {
@@ -22452,45 +22452,6 @@
     }
   },
   {
-    "slug": "central-depository-services",
-    "name": "Central Depository Services (India) Ltd (CDSL)",
-    "conviction_score": 11.3,
-    "own_conviction": 8.0,
-    "trusted_lift": 3.3,
-    "conviction": "Low",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Large-cap (~Rs 28,100 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 8.0,
-      "trusted_lift": 3.3,
-      "base_anchor": 8,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 3.3,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 3.3,
-        "pos_raw": 3.3,
-        "pos_capped": 3.3,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 1,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 1,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 1,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "izmo",
     "name": "IZMO- bet on new technologies in Auto retail & defence",
     "conviction_score": 11.25,
@@ -23580,45 +23541,6 @@
     }
   },
   {
-    "slug": "all-e-technologies-making-businesses-ready-for-ai",
-    "name": "All E Technologies, making businesses ready for AI",
-    "conviction_score": 10.49,
-    "own_conviction": 8.0,
-    "trusted_lift": 2.49,
-    "conviction": "Low",
-    "thesis_fit": "neither",
-    "quality_score": null,
-    "market_cap_tier": "Micro-cap (~Rs 271-400 Cr)",
-    "red_flag_tier": null,
-    "source": null,
-    "score_breakdown": {
-      "own_conviction": 8.0,
-      "trusted_lift": 2.49,
-      "base_anchor": 8,
-      "thesis_bonus": 0,
-      "quality_lift": 0.0,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 2.49,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 2.49,
-        "pos_raw": 2.49,
-        "pos_capped": 2.49,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 2,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "vasa-denticity-ltd",
     "name": "Vasa Denticity Ltd",
     "conviction_score": 10.48,
@@ -23831,6 +23753,45 @@
     "market_cap_tier": "Large-cap (~Rs 14,450 Cr)",
     "red_flag_tier": null,
     "source": "web-discovery",
+    "score_breakdown": {
+      "own_conviction": 8.0,
+      "trusted_lift": 1.98,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 1.98,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 1.98,
+        "pos_raw": 1.98,
+        "pos_capped": 1.98,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "central-depository-services",
+    "name": "Central Depository Services (India) Ltd (CDSL)",
+    "conviction_score": 9.98,
+    "own_conviction": 8.0,
+    "trusted_lift": 1.98,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Large-cap (~Rs 28,100 Cr)",
+    "red_flag_tier": null,
+    "source": null,
     "score_breakdown": {
       "own_conviction": 8.0,
       "trusted_lift": 1.98,
@@ -24641,6 +24602,45 @@
         "source": "ledger"
       },
       "distinct_trusted_users": 1,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "all-e-technologies-making-businesses-ready-for-ai",
+    "name": "All E Technologies, making businesses ready for AI",
+    "conviction_score": 9.34,
+    "own_conviction": 8.0,
+    "trusted_lift": 1.34,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Micro-cap (~Rs 271-400 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 8.0,
+      "trusted_lift": 1.34,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 1.34,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 1.34,
+        "pos_raw": 1.34,
+        "pos_capped": 1.34,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 2,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 2,
+        "source": "ledger"
+      },
+      "distinct_trusted_users": 2,
       "management_quality": null
     }
   },
@@ -33506,6 +33506,45 @@
         "value": 2.06,
         "pos_raw": 2.06,
         "pos_capped": 2.06,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 1,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 1,
+        "source": "fallback-scalar"
+      },
+      "distinct_trusted_users": 1,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "aesl-oilmax-services",
+    "name": null,
+    "conviction_score": 4.5,
+    "own_conviction": 0.0,
+    "trusted_lift": 4.5,
+    "conviction": null,
+    "thesis_fit": null,
+    "quality_score": null,
+    "market_cap_tier": null,
+    "red_flag_tier": null,
+    "source": "trusted-thread",
+    "score_breakdown": {
+      "own_conviction": 0.0,
+      "trusted_lift": 4.5,
+      "base_anchor": 0,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 4.5,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 4.5,
+        "pos_raw": 4.5,
+        "pos_capped": 4.5,
         "neg_raw": 0.0,
         "neg_capped": 0.0,
         "n_positive_signals": 1,

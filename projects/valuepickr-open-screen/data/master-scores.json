@@ -1,6 +1,6 @@
 {
   "method": "Composite of conviction_score/quality_score/expectation_gap_score/consistency_score/asymmetry_score, weighted 0.25/0.25/0.20/0.15/0.15 and renormalized over whichever are present. Formula + investor research in MASTER_SCORE_METHODOLOGY.md.",
-  "scored_count": 1000,
+  "scored_count": 1001,
   "not_assessed_count": 0,
   "consistency_score_coverage": 201,
   "asymmetry_score_coverage": 279,
@@ -316,7 +316,7 @@
     {
       "slug": "vivid-electromech",
       "name": "Vivid Electromech Ltd",
-      "master_score": 55.37,
+      "master_score": 55.68,
       "red_flag_tier": null,
       "conviction": "Medium-High",
       "thesis_fit": "10x-in-2-3-years",
@@ -326,7 +326,7 @@
         "note": "screener.in FY23-FY26: FY24 (+51% rev, ROCE 77%), FY25 (+74% rev, ROCE 59%), FY26 (+29% rev, ROCE ~55%) all clear both hurdles; FY23 fails (0% sales growth). All three clean years are post-turnaround -- OPM stepped 3% -> 9% -> 18% -> 23% -- so the record is short and reflects the recent data-centre/PDU mix shift, not long-run compounding. FY22 ROCE not published (profit ~0), excluded."
       },
       "score_breakdown": {
-        "conviction_score": 61.26,
+        "conviction_score": 62.51,
         "quality_score": 64.0,
         "expectation_gap_score": 35.66,
         "consistency_score": 75,
@@ -2882,34 +2882,6 @@
       }
     },
     {
-      "slug": "jayaswal-neco",
-      "name": "Jayaswal Neco- Integrated Steel Player",
-      "master_score": 35.79,
-      "red_flag_tier": null,
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "track_record": {
-        "years_checked": 3,
-        "years_cleared": 1,
-        "note": "FY24-FY26 verifiable from current filings. FY24: loss. FY25: PAT Rs 113 Cr, ROCE well below 15%. FY26: revenue +19% and ROCE ~15% as PAT jumped to Rs 463 Cr \u2014 the only year clearing both the >=10% revenue-growth and >=15% ROCE bars. Multi-year record is depressed by the 2018 NCLT reference and 2022 restructuring; the investable window is the FY26-onward turnaround, not the history."
-      },
-      "score_breakdown": {
-        "conviction_score": 25.23,
-        "quality_score": 43.0,
-        "expectation_gap_score": 47.39,
-        "consistency_score": 33,
-        "asymmetry_score": 28.7,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
       "slug": "asm-technologies",
       "name": "ASM Technologies",
       "master_score": 35.67,
@@ -2955,6 +2927,34 @@
         "expectation_gap_score": 4.2,
         "consistency_score": 0,
         "asymmetry_score": 47.1,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "jayaswal-neco",
+      "name": "Jayaswal Neco- Integrated Steel Player",
+      "master_score": 35.5,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "neither",
+      "track_record": {
+        "years_checked": 3,
+        "years_cleared": 1,
+        "note": "FY24-FY26 verifiable from current filings. FY24: loss. FY25: PAT Rs 113 Cr, ROCE well below 15%. FY26: revenue +19% and ROCE ~15% as PAT jumped to Rs 463 Cr \u2014 the only year clearing both the >=10% revenue-growth and >=15% ROCE bars. Multi-year record is depressed by the 2018 NCLT reference and 2022 restructuring; the investable window is the FY26-onward turnaround, not the history."
+      },
+      "score_breakdown": {
+        "conviction_score": 24.08,
+        "quality_score": 43.0,
+        "expectation_gap_score": 47.39,
+        "consistency_score": 33,
+        "asymmetry_score": 28.7,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -12535,26 +12535,6 @@
       }
     },
     {
-      "slug": "central-depository-services",
-      "name": "Central Depository Services (India) Ltd (CDSL)",
-      "master_score": 11.3,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 11.3,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "v",
       "name": "V-guard",
       "master_score": 11.21,
@@ -12996,26 +12976,6 @@
       }
     },
     {
-      "slug": "all-e-technologies-making-businesses-ready-for-ai",
-      "name": "All E Technologies, making businesses ready for AI",
-      "master_score": 10.49,
-      "red_flag_tier": null,
-      "conviction": "Low",
-      "thesis_fit": "neither",
-      "track_record": null,
-      "score_breakdown": {
-        "conviction_score": 10.49,
-        "quality_score": null,
-        "expectation_gap_score": null,
-        "consistency_score": null,
-        "asymmetry_score": null,
-        "components_used": [
-          "conviction_score"
-        ],
-        "weight_coverage": 0.25
-      }
-    },
-    {
       "slug": "vasa-denticity-ltd",
       "name": "Vasa Denticity Ltd",
       "master_score": 10.48,
@@ -13433,6 +13393,26 @@
       }
     },
     {
+      "slug": "central-depository-services",
+      "name": "Central Depository Services (India) Ltd (CDSL)",
+      "master_score": 9.98,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 9.98,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
       "slug": "computer-age-management-services",
       "name": "Computer Age Management Services Ltd (CAMS)",
       "master_score": 9.98,
@@ -13825,6 +13805,26 @@
       "track_record": null,
       "score_breakdown": {
         "conviction_score": 9.49,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "all-e-technologies-making-businesses-ready-for-ai",
+      "name": "All E Technologies, making businesses ready for AI",
+      "master_score": 9.34,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 9.34,
         "quality_score": null,
         "expectation_gap_score": null,
         "consistency_score": null,
@@ -18907,6 +18907,26 @@
           "quality_score"
         ],
         "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "aesl-oilmax-services",
+      "name": "aesl-oilmax-services",
+      "master_score": 4.5,
+      "red_flag_tier": null,
+      "conviction": null,
+      "thesis_fit": null,
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 4.5,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
       }
     },
     {

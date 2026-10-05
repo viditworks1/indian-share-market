@@ -1,5 +1,5 @@
 {
-  "date_compiled": "2026-10-03",
+  "date_compiled": "2026-10-05",
   "total_researched": 1000,
   "intro": "This is a SECOND, criteria-free ranking of every researched stock - it does NOT apply the main screen's 10x-in-2-3-years / 100x-in-10-years thesis-fit gate. It exists as a hedge in case that return-magnitude bar is too strict and is excluding genuinely good opportunities (e.g. a high-quality large-cap with a real catalyst that just can't mathematically 10x). Ranked purely by conviction - the same fundamentals/technicals/community assessment used everywhere else in this project, just without the extreme-return filter. Cross-check against docs/00_SCREEN_RANKING.docx (the thesis-gated view) before acting - a stock ranked highly here but absent there is exactly the case this document is meant to catch.",
   "ranked": [
@@ -91,8 +91,8 @@
       "name": "Maharashtra seamless-a value plus cyclical play",
       "conviction": "Medium-High",
       "thesis_fit": "neither",
-      "market_cap_tier": "Mid-cap (~Rs 9,363 Cr)",
-      "reason": "technicals refresh only"
+      "market_cap_tier": "small-cap",
+      "reason": "Technicals-only touch in cooldown. Conviction held at Medium-High."
     },
     {
       "name": "TD Power Systems",
@@ -121,13 +121,6 @@
       "thesis_fit": "neither",
       "market_cap_tier": "Mid-cap (~Rs 12,000 Cr)",
       "reason": "FY26 CFO inflected +Rs 259cr (FCF Rs 206cr, debtor days 15); Rs 500cr QIP pre-funds capex; but re-rated to 45x P/E, guidance withdrawn, promoter-entity RPT still RBI-pending"
-    },
-    {
-      "name": "KMC Speciality hospital",
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small/Mid-cap (~Rs 2,800 Cr)",
-      "reason": "Technicals refresh: price Rs 172, P/E 50x, 52W range 128-179"
     },
     {
       "name": "Northern Arc",
@@ -322,8 +315,8 @@
       "name": "Acutaas Chemicals Ltd (Erst. Ami Organics Ltd)",
       "conviction": "Medium-High",
       "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Large-cap (~Rs 25,900 Cr)",
-      "reason": "Re-verif: Q4FY26 PAT +114%, OPM ~28->42% verified; three-engine execution excellent. thesis_fit neither on ~Rs 26k Cr / ~73x, but battery+semiconductor verticals flagged as structural inflection for max-returns ranking. Medium held."
+      "market_cap_tier": "large-cap",
+      "reason": "Acutaas Chemicals Ltd (Erst. Ami Organics Ltd): Pass 1 deep dive. Rank 9. CDMO + specialty chems: three-engine growth (pharma CDMO, electronics, a..."
     },
     {
       "name": "Stylam Industries Ltd",
@@ -510,16 +503,9 @@
     {
       "name": "Frontier Springs",
       "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Micro/Small-cap (~Rs 1,673 Cr)",
-      "reason": "Technicals refresh: price Rs 1,416, P/E 28.6x (from 25.7x), conviction locked"
-    },
-    {
-      "name": "Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing",
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Micro-cap (~Rs 739 Cr)",
-      "reason": "FY26 revenue +8% only, wagon plant slipped to H2FY27, 2nd warrant dilution, stock re-rated to ~41x P/E; balance sheet still clean"
+      "thesis_fit": "neither",
+      "market_cap_tier": "small-cap",
+      "reason": "Technicals-only touch in cooldown. Conviction held at Medium."
     },
     {
       "name": "Himadri Speciality Chemical Ltd (HSCL)",
@@ -594,9 +580,9 @@
     {
       "name": "Kernex: TCAS led multi year growth story",
       "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap (~Rs 2,914 Cr)",
-      "reason": "Price Rs 1,644 (14.5x P/E); 52W range Rs 850-2,586; order book Rs 3,487cr; debtor days 268"
+      "thesis_fit": "neither",
+      "market_cap_tier": "small-cap",
+      "reason": "Technicals-only touch in cooldown. Conviction held at Medium."
     },
     {
       "name": "Rain Industries",
@@ -709,13 +695,6 @@
       "thesis_fit": "neither",
       "market_cap_tier": "Mid-cap (~Rs 13,446 Cr)",
       "reason": "High-quality recycling compounder (22.56% ROE, net cash) but steady ~20% growth doesn't clear the 10x/100x bar; recent margin pressure in plastic/copper segments"
-    },
-    {
-      "name": "Sika Interplant Systems Ltd",
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap (~Rs 1,730 Cr)",
-      "reason": "Technical refresh 2026-10-02: price down 14.3% in 13W to ~Rs 865, valuation improved to 48x P/E from 61x"
     },
     {
       "name": "Modern Insulators Ltd: A Porcelain Insulator Opportunity Insulating the Power Cycle while Riding India\u2019s Transmission Boom",
@@ -1021,9 +1000,9 @@
     {
       "name": "Arman Financial Services Ltd",
       "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap (~Rs 1,860.80 Cr)",
-      "reason": "Price refresh Oct 1: INR 1,764.40, P/E 15.82 (TTM), 52W 1,301-2,159"
+      "thesis_fit": "neither",
+      "market_cap_tier": "small-cap",
+      "reason": "Technicals-only touch in cooldown. Conviction held at Medium."
     },
     {
       "name": "Le Travenues Technology Ltd (ixigo)",
@@ -1119,9 +1098,9 @@
     {
       "name": "Sky Gold Ltd",
       "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small/Mid-cap (~Rs 12,114 Cr)",
-      "reason": "26W momentum +133%, 13W +41.7%, trading 29% above 30W EMA; P/E ~35x on FY27 guidance"
+      "thesis_fit": "neither",
+      "market_cap_tier": "small-cap",
+      "reason": "Technicals-only touch in cooldown. Conviction held at Medium."
     },
     {
       "name": "Wockhardt Ltd",
@@ -1257,13 +1236,6 @@
       "reason": "Real SOTP value-unlock via EAAA IPO/private placement (valuing that unit near the entire hold-co mcap), tempered by a governance complaint re insider-favoring placement terms and weak trailing growth"
     },
     {
-      "name": "Jeena Sikho Lifecare",
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Mid-cap (~Rs 6,235 Cr)",
-      "reason": "Price/P-E/52-week range refresh"
-    },
-    {
       "name": "Technocraft Industries",
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
@@ -1313,13 +1285,6 @@
       "reason": "Excellent quality, strong Q1FY27 and rising Vida EV share, but already too large (~Rs 1.14 lakh Cr) for a 10x/100x thesis."
     },
     {
-      "name": "Bansal Roofing Products Ltd",
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Micro-cap (~Rs 200 Cr)",
-      "reason": "Price Rs 168 (52W high), P/E 18.2x stable. Conviction locked."
-    },
-    {
       "name": "RNIT AI Solutions Ltd",
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
@@ -1355,13 +1320,6 @@
       "reason": "29% ROE solar leader but Rs 76k Cr already prices the growth; sector overcapacity cliff from ~FY28 + US ~123% anti-dumping duty + unresolved Nov-2025 IT search"
     },
     {
-      "name": "Sudeep Pharma Ltd",
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "market_cap_tier": "Mid-cap (~Rs 13,096 Cr)",
-      "reason": "High-quality specialty mineral-excipient maker: ROCE ~35%, ROE ~28%, 27% net margin, ~31% growth, net cash. But ~70x earnings/~19x sales and ~Rs 13,000 Cr => 'neither' on size+valuation; quality name for max-returns watchlist. Battery-materials optionality early. X tip (@unseenvalue) informational. Web-only."
-    },
-    {
       "name": "OBSC Perfection Ltd",
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
@@ -1395,13 +1353,6 @@
       "thesis_fit": "neither",
       "market_cap_tier": "Large-cap (~Rs 30,900 Cr)",
       "reason": "Inflection into high-HP/DC gensets (192 MW HyperNext order, OptiPrime, HHP +235% YoY); standalone debt-free ROCE ~19%. But ~Rs 30,900 Cr => 'neither' on size (noted for max-returns as sharper of 2 DC proxies). Arka Fincap NBFC arm drags consol ROCE/FCF; ~49x ATH; @ishmohit1 cautious. Global proxy Bloom/CAT, accelerating."
-    },
-    {
-      "name": "Dr Agarwal's Eye Hospital Ltd (DAEHL)",
-      "conviction": "Medium",
-      "thesis_fit": "neither",
-      "market_cap_tier": "Small/Mid-cap (~Rs 2,400 Cr)",
-      "reason": "High-quality regional eye-care operator (ROCE ~42%, ROE ~36%) but merging into parent DAHL at fixed 2:23 swap -- outcome pinned to parent, merger pending SEBI/NCLT; no multibagger math"
     },
     {
       "name": "Artemis Medicare Services Ltd",
@@ -1544,18 +1495,11 @@
       "reason": "Inflection confirmed 4+ quarters (FY26 rev +24%/PAT +77%, Q1 FY27 rev +54% YoY) but EBITDA margin ~7.6%, net debt up, no concalls, +83% in 6mo"
     },
     {
-      "name": "Wise Travel India Ltd (WTICabs)",
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap (~Rs 226 Cr)",
-      "reason": "technicals refresh only"
-    },
-    {
       "name": "Jayaswal Neco- Integrated Steel Player",
       "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small/Mid-cap (~Rs 9,000 Cr)",
-      "reason": "Price/P-E technicals refresh; deleveraging story intact"
+      "thesis_fit": "neither",
+      "market_cap_tier": "small-cap",
+      "reason": "Technicals-only touch in cooldown. Conviction held at Medium."
     },
     {
       "name": "Aries Agro Ltd",
@@ -1743,8 +1687,8 @@
       "name": "Astra Microwave",
       "conviction": "Medium",
       "thesis_fit": "neither",
-      "market_cap_tier": "Mid-to-large-cap (~Rs 15,956 Cr)",
-      "reason": "Strong order book/growth but four_box 2.5, ~84x P/E already prices in most of it."
+      "market_cap_tier": "large-cap",
+      "reason": "Astra Microwave: Pass 1 deep dive."
     },
     {
       "name": "Rossell India / Rossell Techsys",
@@ -1992,13 +1936,6 @@
       "reason": "Debt-free, disciplined cyclical shipping compounder trading near book value (~30% of mcap in net cash) - genuine large-cap deep-value/NAV hold per community's own framing, not a multiplier thesis. 2026-09-28 fleet expansion at cycle-high prices is a mild discipline flag to watch."
     },
     {
-      "name": "Bondada Engineer",
-      "conviction": "Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Mid-cap",
-      "reason": "EPC | Telecom+Solar EPC | Mid-cap | Tailwind: Good | Key: Large order backlog, execution track record key"
-    },
-    {
       "name": "Rm Drip And Springs",
       "conviction": "Medium",
       "thesis_fit": "10x-in-2-3-years",
@@ -2074,13 +2011,6 @@
       "thesis_fit": "neither",
       "market_cap_tier": "small-cap",
       "reason": "FY26 CFO negative Rs 40 Cr vs Rs 46 Cr PAT; WC days 256, FCF -Rs 87 Cr; 72x P/E post 136% run. Growth real (Q1 FY27 +94%) but not cash-backed. Thesis 10x->neither."
-    },
-    {
-      "name": "Alufluoride Limited-conversion of waste into wealth",
-      "conviction": "Low-Medium",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Micro-cap (~Rs 496 Cr)",
-      "reason": "Price Rs634 (+27% from Sep 5), P/E 20.1; feedstock recovery unconfirmed"
     },
     {
       "name": "Apollo Micro Systems Limited",
@@ -2517,6 +2447,20 @@
       "reason": "Parachute-fabric monopoly; Q1 FY27 inflection now real (rev +102% YoY, EBITDA margin 22%->31%); but 100% OFS IPO, lumpy tender revenue (-21% QoQ), mgmt refuses to guide or disclose order book."
     },
     {
+      "name": "Sudeep Pharma Ltd",
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "small-cap",
+      "reason": "Sudeep Pharma Ltd: Pass 1 deep dive. Rank 79. Pharma CDMO + generic APIs, capacity ramp underway. CDMO order book gro..."
+    },
+    {
+      "name": "Dr Agarwal's Eye Hospital Ltd (DAEHL)",
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "small-cap",
+      "reason": "Dr Agarwal's Eye Hospital Ltd (DAEHL): Pass 1 deep dive. Rank 54. Regional eye hospital chain, 37+ centers, debt-free, strong ROCE. Medic..."
+    },
+    {
       "name": "Sasken Technologies Ltd",
       "conviction": "Low-Medium",
       "thesis_fit": "neither",
@@ -2856,8 +2800,8 @@
       "name": "Shaily Engineering Plastics Ltd",
       "conviction": "Low-Medium",
       "thesis_fit": "neither",
-      "market_cap_tier": "Mid-cap (~Rs 13,840 Cr)",
-      "reason": "technicals refresh only"
+      "market_cap_tier": "small-cap",
+      "reason": "Technicals-only touch in cooldown. Conviction held at Low-Medium."
     },
     {
       "name": "Pitti Engineering Ltd",
@@ -3574,6 +3518,13 @@
       "reason": "Power | Power Gen/Dist | Mid-cap | Tailwind: Moderate | Key: Power sector cyclical, capex-heavy, check order book"
     },
     {
+      "name": "Bondada Engineer",
+      "conviction": "Low-Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "market_cap_tier": "Mid-cap",
+      "reason": "Q2 confirms execution; Sep orders validate intake; margin flat, caps re-rating"
+    },
+    {
       "name": "Cospower Engineering",
       "conviction": "Low-Medium",
       "thesis_fit": "neither",
@@ -3593,6 +3544,13 @@
       "thesis_fit": "neither",
       "market_cap_tier": "Micro-cap (~Rs 225 Cr)",
       "reason": "Weak ROE/ROCE, filtered out preliminary stage"
+    },
+    {
+      "name": "Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "market_cap_tier": "small-cap",
+      "reason": "Technicals-only touch in cooldown. Conviction held at Low."
     },
     {
       "name": "Urban Company",
@@ -3658,6 +3616,13 @@
       "reason": "Cheap on paper but industry-wide ethanol overcapacity confirmed live by a same-day compressed-realization order; FMCG segment declining -4% YoY. Looks like a value trap."
     },
     {
+      "name": "Alufluoride Limited-conversion of waste into wealth",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "market_cap_tier": "small-cap",
+      "reason": "Technicals-only touch in cooldown. Conviction held at Low."
+    },
+    {
       "name": "SG Mart- Can it successfully create a marketplace?",
       "conviction": "Low",
       "thesis_fit": "neither",
@@ -3681,9 +3646,9 @@
     {
       "name": "Rapicut Carbides Ltd.",
       "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Micro-cap (~Rs 134 Cr)",
-      "reason": "Tungsten export-quota supercycle (China 2025 cuts) driving carbide tool prices +300% YoY per peer concall -- unconfirmed in Rapicut's own numbers yet"
+      "thesis_fit": "neither",
+      "market_cap_tier": "small-cap",
+      "reason": "Rapicut Carbides Ltd.: Pass 1 deep dive."
     },
     {
       "name": "Affordable Robotic & Automation (ARAL)",
@@ -3751,9 +3716,16 @@
     {
       "name": "Kamat Hotels (India) Ltd- A Possible Turnaround Story!",
       "conviction": "Low",
-      "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap (~Rs 700 Cr)",
-      "reason": "Price Rs 237, P/E 16.3, 52-week Rs 140-338"
+      "thesis_fit": "neither",
+      "market_cap_tier": "small-cap",
+      "reason": "Technicals-only touch in cooldown. Conviction held at Low."
+    },
+    {
+      "name": "KMC Speciality hospital",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "market_cap_tier": "small-cap",
+      "reason": "Technicals-only touch in cooldown. Conviction held at Low."
     },
     {
       "name": "MSTC Ltd.: Growth through to E-Commerce",
@@ -3915,6 +3887,13 @@
       "thesis_fit": "neither",
       "market_cap_tier": "Mid/Large-cap (~Rs 9,800-11,200 Cr)",
       "reason": "Weak ROE (4.5%), stock at multi-year lows, no catalyst found - filtered at preliminary stage"
+    },
+    {
+      "name": "Sika Interplant Systems Ltd",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "market_cap_tier": "small-cap",
+      "reason": "Technicals-only touch in cooldown. Conviction held at Low."
     },
     {
       "name": "Larsen & Toubro Ltd",
@@ -4487,8 +4466,8 @@
       "name": "Eldeco Housing Ltd",
       "conviction": "Low",
       "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap (~Rs 841 Cr)",
-      "reason": "Weak trailing ROCE/ROE but real FY26 launch-driven inflection tracked consistently by harsh.beria93 since 2022; H2FY26 margin recovery guided, unconfirmed"
+      "market_cap_tier": "small-cap",
+      "reason": "Tier-0 never-dived. Pass 1: Q1 FY27 results confirm inflection (revenue +62.7% YoY Rs 50.3 Cr, PAT +382% YoY Rs 15.1 Cr at 30% margin, collections +68.2%). Trusted tracker harsh.beria93 corroborates presales velocity in undersupplied Lucknow market. P/E compressed 36x\u219220.9x as earnings caught up. Normalized margin expected 18-22% post-launch phase; Q1 30% is high-visibility outlier. Presales runway 18-24mo from 7 lakh sq.ft on books. Risk: regional concentration, small-cap liquidity, unresolved 2020-era RPT watch. Conviction Low-unconfirmed pending H1 FY27 confirmation and new launch announcements."
     },
     {
       "name": "Sharda Cropchem Ltd",
@@ -4610,6 +4589,13 @@
       "reason": "Battery-electrolyte/Morita-JV optionality thesis repeatedly undermined by Dahej/Pakhajan capacity delays and heavy customer-concentration risk on a struggling Ola Electric giga-factory"
     },
     {
+      "name": "Jeena Sikho Lifecare",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "market_cap_tier": "small-cap",
+      "reason": "Technicals-only touch in cooldown. Conviction held at Low."
+    },
+    {
       "name": "GMM Pfaudler",
       "conviction": "Low",
       "thesis_fit": "neither",
@@ -4664,6 +4650,13 @@
       "thesis_fit": "neither",
       "market_cap_tier": "Small-cap (~Rs 2,310 Cr)",
       "reason": "FY25 revenue/EBITDA/PAT all -5%; ONDC catalyst stalled (~7mn/mo); lost PAN 2.0 bid threatening ~50% of revenue; every engaged trusted user neutral-to-negative"
+    },
+    {
+      "name": "Bansal Roofing Products Ltd",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "market_cap_tier": "small-cap",
+      "reason": "Technicals-only touch in cooldown. Conviction held at Low."
     },
     {
       "name": "GPT Healthcare Ltd",
@@ -4879,8 +4872,8 @@
       "name": "Divgi TorqTransfer Systems Ltd",
       "conviction": "Low",
       "thesis_fit": "10x-in-2-3-years",
-      "market_cap_tier": "Small-cap (~Rs 3,594 Cr)",
-      "reason": "EV-transmission leader, FY26 rev +56% off small base, Indonesia 4WD export win (>50% recurring) as catalyst. But ROCE ~10%/ROE ~8% below cost of capital, ~10x sales, no VP thread. X tip (@LearningEleven) informational only, no floor. Web-only read."
+      "market_cap_tier": "small-cap",
+      "reason": "Divgi TorqTransfer Systems Ltd: Pass 1 deep dive. Rank 89. Auto torque-transfer (AWD) tech for EVs, 40%+ EV exposure. Dual-motor a..."
     },
     {
       "name": "HCC",
@@ -5140,6 +5133,13 @@
       "thesis_fit": "neither",
       "market_cap_tier": "Micro-cap",
       "reason": "Rs 94 Cr Kerala B2B gold jeweller, ROE ~31%, near 52w lows, but D/E 2.24 (gold-inventory leverage) + zero community scrutiny. No VP thread. four_box 2.5, exception declined given leverage risk."
+    },
+    {
+      "name": "Wise Travel India Ltd (WTICabs)",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "market_cap_tier": "small-cap",
+      "reason": "Technicals-only touch in cooldown. Conviction held at Low."
     },
     {
       "name": "GHCL Textiles Ltd",

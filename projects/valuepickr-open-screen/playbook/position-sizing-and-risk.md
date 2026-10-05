@@ -242,3 +242,7 @@ already-compounded gains matters more than squeezing out more upside). He pairs 
 into better-performing existing ones, calling allocation quality "equally important as stock
 selection" — and "pyramiding" (adding to positions on confirming triggers like good results)
 as the mechanism for increasing allocation to winners rather than starting oversized.
+
+**Diversification at wrong time = negative alpha** — phreakv6, #345 (2026-09-12, topic 180929):  
+"With only 3-4 core stocks through June/July, monkey brain tried to diversify. Outcome so far: worse. Trimming concentration is OK (avoid over-allocation), but don't develop pessimism on the whole business (brain does tricky things to reconcile decisions), which would block rebuilds if valuation gets cheap. Trims are about rebalancing, not conviction loss."
+

@@ -10,7 +10,7 @@
     "last_ranking_date": "2026-10-03",
     "discovery_theme_index": 3,
     "discovery_mode": "web-news-first",
-    "last_updated": "2026-10-03",
+    "last_updated": "2026-10-05",
     "last_ranking_timestamp": "2026-10-03T09:12:46Z",
     "last_confluence100_refresh": "2026-10-03"
   },
@@ -1060,7 +1060,18 @@
       "master_score": 51.36,
       "consistency_score": 83,
       "own_conviction_score": 52.25,
-      "trusted_lift": 22.37
+      "trusted_lift": 22.37,
+      "trusted_signals": [
+        {
+          "date": "2026-09-09",
+          "username": "phreakv6",
+          "thread": 180929,
+          "note": "test",
+          "strength": "very-high",
+          "signal_type": "conviction",
+          "superseded": false
+        }
+      ]
     },
     "bombay-stock-exchange-bet-on-financialization": {
       "name": "Bombay Stock Exchange (BSE Ltd): Bet on Financialization?",
@@ -2095,7 +2106,19 @@
       "consistency_score": 36,
       "asymmetry_score": 30.68,
       "own_conviction_score": 43.75,
-      "trusted_lift": 12.52
+      "trusted_lift": 12.52,
+      "trusted_conviction_floor_active": true,
+      "trusted_signals": [
+        {
+          "date": "2026-09-12",
+          "username": "phreakv6",
+          "thread": 180929,
+          "note": "Reduced 20%, still very-big position, long-cycle bullish",
+          "strength": "very-high",
+          "signal_type": "trim",
+          "superseded": false
+        }
+      ]
     },
     "rain-industries": {
       "name": "Rain Industries",
@@ -2207,10 +2230,10 @@
       "thesis_fit": "neither",
       "last_post_number_analyzed": 96,
       "revisit_after_30d": false,
-      "conviction_score": 10.49,
-      "master_score": 10.49,
+      "conviction_score": 9.34,
+      "master_score": 9.34,
       "own_conviction_score": 8.0,
-      "trusted_lift": 2.49
+      "trusted_lift": 1.34
     },
     "genesys-international": {
       "name": "Genesys International",
@@ -3485,7 +3508,7 @@
       "red_flag_tier": null,
       "thesis_fit": "neither",
       "last_post_number_analyzed": 47,
-      "revisit_after_30d": true,
+      "revisit_after_30d": false,
       "source": "web-discovery",
       "source_detail": "discover.py web-news-first discovery (ValuePickr forum categories 11/14/17), 2026-08-27 run",
       "conviction_score": 16.0,
@@ -5893,22 +5916,33 @@
       "thesis_fit": "10x-in-2-3-years",
       "last_post_number_analyzed": 13,
       "revisit_after_30d": true,
-      "conviction_score": 61.26,
-      "trusted_conviction_strength": "high",
+      "conviction_score": 62.51,
+      "trusted_conviction_strength": "very-high",
       "trusted_conviction_source_user": "phreakv6",
       "trusted_conviction_floor_active": true,
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-02",
       "expectation_gap_score": 35.66,
-      "master_score": 55.37,
+      "master_score": 55.68,
       "guidance_backfill_date": "2026-09-09",
       "guidance_backfill_result": "done",
       "quality_score": 64.0,
       "consistency_score": 75,
       "asymmetry_score": 37.83,
       "own_conviction_score": 52.5,
-      "trusted_lift": 8.76,
-      "is_sme_emerge": true
+      "trusted_lift": 10.01,
+      "is_sme_emerge": true,
+      "trusted_signals": [
+        {
+          "date": "2026-09-12",
+          "username": "phreakv6",
+          "thread": 180929,
+          "note": "Increased allocation explicitly, Indian DC play preference",
+          "strength": "very-high",
+          "signal_type": "conviction",
+          "superseded": false
+        }
+      ]
     },
     "rashi-peripherals": {
       "name": "Rashi Peripherals Ltd (RPTECH)",
@@ -7134,10 +7168,10 @@
       "thesis_fit": "neither",
       "last_post_number_analyzed": 448,
       "revisit_after_30d": false,
-      "conviction_score": 11.3,
-      "master_score": 11.3,
+      "conviction_score": 9.98,
+      "master_score": 9.98,
       "own_conviction_score": 8.0,
-      "trusted_lift": 3.3
+      "trusted_lift": 1.98
     },
     "zen-technologies": {
       "name": "Zen technologies",
@@ -8583,7 +8617,18 @@
       "consistency_score": 25,
       "asymmetry_score": 14.5,
       "own_conviction_score": 35.75,
-      "trusted_lift": 17.25
+      "trusted_lift": 17.25,
+      "trusted_signals": [
+        {
+          "date": "2026-09-12",
+          "username": "phreakv6",
+          "thread": 180929,
+          "note": "Reduced 20%, policy headwind US, NOT pessimistic on business",
+          "strength": "very-high",
+          "signal_type": "trim",
+          "superseded": false
+        }
+      ]
     },
     "greaves-cotton": {
       "name": "Greaves Cotton",
@@ -10970,7 +11015,19 @@
       "reply_count": 12,
       "flagged_material": false,
       "excerpt": "",
-      "highest_post_number": 43
+      "highest_post_number": 43,
+      "trusted_conviction_floor_active": true,
+      "trusted_signals": [
+        {
+          "date": "2026-09-12",
+          "username": "phreakv6",
+          "thread": 180929,
+          "note": "One-of-a-kind business, 100x PE justified, still very-big allocation",
+          "strength": "very-high",
+          "signal_type": "conviction",
+          "superseded": false
+        }
+      ]
     },
     "yash-highvoltage": {
       "name": "Yash Highvoltage Ltd",
@@ -20232,8 +20289,8 @@
       "thesis_fit": "neither",
       "last_post_number_analyzed": 8,
       "revisit_after_30d": false,
-      "conviction_score": 25.23,
-      "master_score": 35.79,
+      "conviction_score": 24.08,
+      "master_score": 35.5,
       "red_flag_tier": null,
       "deepdive_pass": 1,
       "deepdive_date": "2026-09-08",
@@ -20242,7 +20299,7 @@
       "consistency_score": 33,
       "asymmetry_score": 28.7,
       "own_conviction_score": 23.25,
-      "trusted_lift": 1.98
+      "trusted_lift": 0.83
     },
     "aries-agro": {
       "name": "Aries Agro Ltd",
@@ -29054,6 +29111,30 @@
       "own_conviction_score": 0.0,
       "trusted_lift": 0.0,
       "master_score": 0
+    },
+    "aesl-oilmax-services": {
+      "status": "researched",
+      "source": "trusted-thread",
+      "source_detail": "Phreakv6 mention in forum discussion",
+      "trusted_conviction_strength": "high",
+      "trusted_conviction_source_user": "phreakv6",
+      "trusted_conviction_floor_active": true,
+      "first_seen_date": "2026-10-05",
+      "trusted_signals": [
+        {
+          "date": "2026-09-09",
+          "username": "phreakv6",
+          "thread": 180929,
+          "note": "Owned; Oilmax merger reserved for order (weeks away), Oil&Gas recovery sector",
+          "strength": "high",
+          "signal_type": "conviction",
+          "superseded": false
+        }
+      ],
+      "conviction_score": 4.5,
+      "own_conviction_score": 0.0,
+      "trusted_lift": 4.5,
+      "master_score": 4.5
     }
   },
   "oval-projects": {
