@@ -10,7 +10,7 @@
     "Capex pipeline credible: Egypt online May 2026, Mundra +15% capacity, US Type-4 expansion $50-75M order backlog",
     "Valuation deeply discounted: P/E 8.9x for 26% ROCE business (market pays 15-20x for quality), 51% upside to analyst target (161 INR)",
     "Near-term risk: Q1 FY27 showed cyclical headwind (revenue -10%, EBITDA -23%), working capital drain during growth phase, execution on capex timelines",
-    "Bull case: If Egypt/Mundra/US execute, margins recover to 15-17% guidance, CNG infrastructure accelerates, multiple re-rates to 12-15x = 3-4x price × 3-5 year 10-15% PAT CAGR = potential 10x in 3-5 years",
+    "Bull case: If Egypt/Mundra/US execute, margins recover to 15-17% guidance, CNG infrastructure accelerates, multiple re-rates to 12-15x = 3-4x price \u00d7 3-5 year 10-15% PAT CAGR = potential 10x in 3-5 years",
     "Bear case: CNG demand remains cyclical (petrol/diesel price gap closure), competitive threat (Supreme Industries Type-4), capex delays/cost overruns, working capital drag persists"
   ],
   "business_overview": "EKC is India's largest manufacturer of high-pressure seamless gas cylinders (>50% market share, 30M+ in service globally). Founded 1978, established technical/regulatory moats. Core: CNG cylinders for automotive, industrial gas storage (O2, N2, Ar, He), medical applications. Expanding: semiconductors, defence, hydrogen Type-4. Global footprint: 6 plants (Tarapur, Kandla, Mundra greenfield, Dubai, Pittsburgh USA, Egypt online May 2026). FY25: Rs 1,499 cr revenue (+22.6% YoY), Rs 179 cr EBITDA (12%), Rs 98 cr PAT. ROCE 26%, P/E 8.9x. Analyst targets 109-161 INR (7.5-51.7% upside). Capex pipeline: Mundra +15% capacity, Egypt regional hub, US Type-4 expansion ($50-75M backlog). FY27 guidance: 15-20% growth, 15-17% EBITDA margin.",
@@ -240,22 +240,19 @@
     "assessment": "MEDIUM-HIGH - 48-year track record and strong capex execution (Egypt online on time), but recent working capital management and Q1 weakness need monitoring. Credible but not exceptional."
   },
   "quality_metrics": {
-    "roce_pct": 26.0,
-    "roce_trend": "Strong; 26% ROCE (FY24-FY25 derived from embedded analyses) is well above India average ~12-15%. Historical range: 15-26% depending on cycle.",
-    "net_debt_to_ebitda": 1.5,
-    "net_debt_to_ebitda_trend": "Rising due to capex borrowing (Egypt Rs 150 cr, Mundra Rs 100-120 cr), but manageable. Expected to normalize post capex completion (FY27-FY28).",
-    "interest_coverage": 4.5,
-    "interest_coverage_notes": "Healthy; interest expense only Rs 17-28 cr vs EBITDA Rs 179+ cr. Leverage headroom.",
-    "fcf_conversion_pct": 32.0,
-    "fcf_conversion_notes": "FY25 CFO Rs 58 cr / PAT Rs 98 cr = 59% conversion. FY24 CFO Rs 226 cr / PAT Rs 98 cr = 230% (inflated). 3-year average suggests 60-70% normalized FCF conversion post working capital normalization.",
-    "margin_trend": "EBITDA margin: FY21 17%, FY23 low 12%, FY25 12%, FY27 Q1 14%, guidance 15-17%. Trend is recovery but not fully regained FY21 peak. Net margin depressed by IND AS 116 lease accounting.",
-    "capex_efficiency": "New capex (Mundra, Egypt, US) targeting high ROI: Egypt first-yr Rs 50-60 cr revenue at likely 12-14% EBITDA margin = Rs 6-8 cr EBITDA on Rs 150 cr capex = payback 18-25 years (high for greenfield, offset by long-term capacity value and regional optionality). US capex USD 5.5 mn (Rs 45 cr) expected to drive Rs 100 cr incremental revenue by FY28 = Rs 20+ cr EBITDA = 2-3 year payback (excellent).",
-    "assessment": "HIGH QUALITY - 26% ROCE, strong margins (recovering to 15-17% target), solid interest coverage, capex projects sensible but execution-dependent. Working capital management is the watch point."
+    "roce_pct": null,
+    "roce_trend": "unknown",
+    "net_debt_to_ebitda": null,
+    "interest_coverage": null,
+    "fcf_conversion_pct": null,
+    "margin_trend": "unknown",
+    "capex_efficiency": "unknown",
+    "assessment": "unverified"
   },
   "track_record": {
     "years_checked": 5,
     "years_cleared": 3,
-    "note": "FY21-FY25 review: FY22 exceptional year (FY22 exceptional ERC gain masked true operational EBITDA), FY23-24 cyclical trough (CNG price shock), FY25 recovery. ROCE sustained at 15-26% range throughout, suggesting durable competitive position. No accounting scandals post-2018 allegations investigation. Execution on international expansion (US turnaround, Egypt greenfield, UAE maintained) shows operational competence despite cyclical headwinds. Verdict: Credible operator with proven ability to navigate cycles."
+    "note": "FY21-FY25 review completed. ROCE sustained 15-26% throughout cycle = durable moat. No accounting scandals post-2018 investigation. Execution on international expansion (US turnaround, Egypt greenfield planning, UAE maintained) credible. FY23-24 cyclical trough survived, FY25 recovery achieved. Verdict: Credible operator with proven ability to navigate cycles, but working capital and capex execution are key monitoring points."
   },
   "four_box": {
     "tailwind": "moderate",
@@ -290,23 +287,10 @@
     "internal_sources": 1,
     "confidence_level": "High (official NSE/BSE results, mgmt concall, peer research, market data)"
   },
-  "conviction_score": "Medium",
+  "conviction_score": 25.0,
   "conviction_rationale": "Four-box score 3.0 (up from 2.5) supports 10x/100x thesis. Moat/tailwind/TAM upgraded from weak to moderate/moderate-strong on deepdive. Management execution proven (Egypt online track record, US turnaround, Mundra ramp), but Q1 FY27 weakness and working capital drain warrant caution. ROCE 26% is exceptional; valuation 8.9x P/E is deeply discounted. Bull case: Multiple re-rating (8.9x -> 12-15x) + PAT CAGR 10-15% + capex payoff = 10x in 3-5 years. Bear case: Cyclical trough overblown, CNG demand weak, capex delays, WC drain persists. MEDIUM reflects balanced risk/reward with proven moat but execution-dependent upside.",
   "thesis_fit_label": "10x-in-3-5-years",
-  "track_record": {
-    "years_checked": 5,
-    "years_cleared": 3,
-    "note": "FY21-FY25 review completed. ROCE sustained 15-26% throughout cycle = durable moat. No accounting scandals post-2018 investigation. Execution on international expansion (US turnaround, Egypt greenfield planning, UAE maintained) credible. FY23-24 cyclical trough survived, FY25 recovery achieved. Verdict: Credible operator with proven ability to navigate cycles, but working capital and capex execution are key monitoring points."
-  },
-  "quality_metrics": {
-    "roce_pct": null,
-    "roce_trend": "unknown",
-    "net_debt_to_ebitda": null,
-    "interest_coverage": null,
-    "fcf_conversion_pct": null,
-    "margin_trend": "unknown",
-    "capex_efficiency": "unknown",
-    "assessment": "unverified"
-  },
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "quality_score": 50.0,
+  "master_score": 50.0
 }

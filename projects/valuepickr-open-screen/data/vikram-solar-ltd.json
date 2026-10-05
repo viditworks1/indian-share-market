@@ -3,20 +3,62 @@
   "tagline": "Solar module manufacturer riding India's 10-year renewable energy tailwind; strong growth, improving quality metrics, but working-capital heavy and stock down 53% YTD",
   "business_overview": "Vikram Solar manufactures advanced solar PV modules (monocrystalline, bifacial, HJT, N-type; 395-735W range) and provides EPC and O&M services. Incorporated in 2005, operates one of India's oldest and largest solar cell/module manufacturing facilities. Positioned as a China+1 alternative for solar infrastructure buildout.",
   "fundamentals_table": [
-    ["Market Cap", "Rs 5,593 Cr (~small-cap trending mid-cap)"],
-    ["52-week range", "Rs 152 - Rs 355"],
-    ["Current Price (01-Oct-2026)", "Rs 154"],
-    ["ROE (Last Year)", "21.4%"],
-    ["ROCE (Last Year)", "30.6%"],
-    ["Revenue (TTM)", "Rs 5,232 Cr"],
-    ["Profit (TTM)", "Rs 357 Cr"],
-    ["P/E (TTM)", "15.5x"],
-    ["Debt/Equity", "~0.11 (low, post-equity-raise in Mar-2026)"],
-    ["Net Profit Growth (5-yr CAGR)", "65%"],
-    ["Sales Growth (3-yr CAGR)", "32%"],
-    ["Promoter holding", "~63%"],
-    ["Debtor Days", "92 days (improved from 132 historically)"],
-    ["Working Capital Days", "37 days (improved from 48 in Mar-2025)"]
+    [
+      "Market Cap",
+      "Rs 5,593 Cr (~small-cap trending mid-cap)"
+    ],
+    [
+      "52-week range",
+      "Rs 152 - Rs 355"
+    ],
+    [
+      "Current Price (01-Oct-2026)",
+      "Rs 154"
+    ],
+    [
+      "ROE (Last Year)",
+      "21.4%"
+    ],
+    [
+      "ROCE (Last Year)",
+      "30.6%"
+    ],
+    [
+      "Revenue (TTM)",
+      "Rs 5,232 Cr"
+    ],
+    [
+      "Profit (TTM)",
+      "Rs 357 Cr"
+    ],
+    [
+      "P/E (TTM)",
+      "15.5x"
+    ],
+    [
+      "Debt/Equity",
+      "~0.11 (low, post-equity-raise in Mar-2026)"
+    ],
+    [
+      "Net Profit Growth (5-yr CAGR)",
+      "65%"
+    ],
+    [
+      "Sales Growth (3-yr CAGR)",
+      "32%"
+    ],
+    [
+      "Promoter holding",
+      "~63%"
+    ],
+    [
+      "Debtor Days",
+      "92 days (improved from 132 historically)"
+    ],
+    [
+      "Working Capital Days",
+      "37 days (improved from 48 in Mar-2025)"
+    ]
   ],
   "fundamentals_narrative": "Revenue growth strong (32% 3Y CAGR, 33% TTM) with profit growth even stronger (65% 5Y CAGR, 44% TTM), reflecting both volume scaling and margin expansion as capacity utilization improves. ROE 21.4% and ROCE 30.6% are excellent for a manufacturer in a growth phase. Debt/Equity fell sharply to ~0.11 in Mar-2026 post-equity raise (issuance of Rs 362 Cr equity capital), reducing interest burden. Working capital and debtor days have both improved markedly, suggesting operational efficiency gains. However, recent quarterly deterioration (Q2 FY26: net profit Rs 20 Cr vs Rs 110 Cr in Mar-2026) signals cyclical/project-mix pressure or module price weakness in Sep-Oct 2026 quarter.",
   "technical_read": "Stock has crashed 53% in 1 year (Rs 355 high in Oct 2025 to Rs 154 Oct 2026), far outpacing the Nifty decline. Recent quarters show volatile earnings (Q2 FY26 PAT only Rs 20 Cr on Rs 1,563 Cr sales, 1.3% margin, vs Mar-2026's 16% margin). Stock is near 52-week lows; technical bounce possible but needs earnings recovery to sustain.",
@@ -31,7 +73,7 @@
     "Promoters committed (63% holding) and management has execution track record since 2005 IPO in 2015 via DRHP"
   ],
   "bear_case": [
-    "Q2 FY26 earnings collapse (net profit Rs 20 Cr vs Rs 110 Cr in Mar-2026) suggests severe margin compression or project-mix issue — solar module prices globally deflating 5-10% YoY, squeezing OEMs",
+    "Q2 FY26 earnings collapse (net profit Rs 20 Cr vs Rs 110 Cr in Mar-2026) suggests severe margin compression or project-mix issue \u2014 solar module prices globally deflating 5-10% YoY, squeezing OEMs",
     "Stock down 53% YTD signals market skepticism on profitability sustainability; recent wins don't prevent Q2 miss",
     "Module manufacturing capex heavy; equipment cost inflation (polysilicon cell equipment) remains a risk to margin expansion",
     "Execution risk on capacity ramp (10 GW target ambitious given Q2 stumble); any production delays could extend recovery timeline",
@@ -39,7 +81,7 @@
   ],
   "market_cap_tier": "Small/Mid-cap (~Rs 5,593 Cr, 3-year downtrend from highs)",
   "thesis_fit": "10x-in-2-3-years IF margins recover and capex converts to profitable capacity; otherwise neither",
-  "verdict_headline": "Solar module manufacturer with real TAM and improving balance sheet but facing near-term margin pressure — await Q3 FY27 recovery signals before conviction",
+  "verdict_headline": "Solar module manufacturer with real TAM and improving balance sheet but facing near-term margin pressure \u2014 await Q3 FY27 recovery signals before conviction",
   "verdict_reasoning": [
     "Fundamentals are compelling (ROCE 31%, ROE 21%, debt-free post equity raise, 32% revenue CAGR) for a 10x story IF the company can defend module margins amid global deflation",
     "Q2 margin collapse is a serious red flag that execution/pricing power is weaker than the 2020-2025 build phase suggested",
@@ -59,5 +101,8 @@
   "pass": 1,
   "date": "2026-10-05",
   "status": "researched-not-dived",
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "conviction_score": 25.0,
+  "quality_score": 50.0,
+  "master_score": 61.2
 }

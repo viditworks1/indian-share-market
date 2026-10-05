@@ -67,7 +67,7 @@
   },
   "market_expectation": {
     "as_of": "2026-10-01",
-    "price": 181.70,
+    "price": 181.7,
     "current_pe": 14.8,
     "current_ev_ebitda": 7.6,
     "valuation_tool": "P/E",
@@ -129,5 +129,8 @@
     ],
     "conviction_update": "Low-Medium (no prior explicit field set) \u2192 Low-Medium. Order book strength and operating-leverage mechanism are real, but concentration (60% in 2 contracts), negative FCF despite profit surge, and recent 17% price pullback on cash-tightness realization all support a cautious stance. Close monitoring of next 1-2 quarters' cash flow needed."
   },
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "conviction_score": 25.0,
+  "quality_score": 73.0,
+  "master_score": 62.0
 }

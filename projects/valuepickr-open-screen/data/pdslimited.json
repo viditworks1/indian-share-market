@@ -69,7 +69,6 @@
   ],
   "red_flag_tier": null,
   "red_flag_reason": null,
-  "trusted_signals": [],
   "four_box": {
     "tailwind": "no",
     "tam": "weak",
@@ -81,7 +80,7 @@
   "track_record": {
     "years_checked": 5,
     "years_cleared": 2,
-    "note": "FY22-FY26 screener check (revenue growth >=10% AND ROCE >=15% in same year): FY22 (rev -38% YoY from FY21, ROCE 38% -- rev failed); FY23 (rev +299% from FY22, ROCE 43% ✓); FY24 (rev +35% from FY23, ROCE 31% ✓); FY25 (rev -28% from FY24, ROCE 15% -- rev failed); FY26 (rev -43% from FY25, ROCE 5% -- both failed). Total: 2 of 5 cleared. Last 2 years (FY25, FY26) both failed quality gates."
+    "note": "FY22-FY26 screener check (revenue growth >=10% AND ROCE >=15% in same year): FY22 (rev -38% YoY from FY21, ROCE 38% -- rev failed); FY23 (rev +299% from FY22, ROCE 43% \u2713); FY24 (rev +35% from FY23, ROCE 31% \u2713); FY25 (rev -28% from FY24, ROCE 15% -- rev failed); FY26 (rev -43% from FY25, ROCE 5% -- both failed). Total: 2 of 5 cleared. Last 2 years (FY25, FY26) both failed quality gates."
   },
   "quality_metrics": {
     "roce_pct": 4.71,
@@ -160,5 +159,7 @@
     "Mid-cap Size**: Even a 10x from here (to Rs 35,000 Cr) is not a realistic multipler-based outcome; this is too large to be a 10x/100x thesis.",
     "Score rationale: 22 reflects LOW conviction (0-30 range). Stock is not avoided (not -50 red-flag conviction) because it is debt-free and dividend-paying, with a non-zero chance of portfolio-driven upside if investment returns remain strong. But the operational business is genuinely deteriorating, making this a hold-and-monitor at best, not a conviction buy. Any fresh capital would be better deployed in a compounder with positive ROCE and growing revenue."
   ],
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "quality_score": 42.0,
+  "master_score": 38.2
 }

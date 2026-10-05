@@ -12,22 +12,70 @@
   ],
   "business_overview": "Enviro Infra Engineers (EIEL), promoted by the Jain family (founded 1991 by late Rajinder Kumar Jain; listed Dec 2024) is a Delhi-based water and wastewater infrastructure EPC and Hybrid Annuity Model (HAM) contractor executing projects under Jal Jeevan Mission, AMRUT and Namami Gange. FY26 marked its diversification into renewable energy/BESS EPC via the Suyog Urja acquisition, now ~44% of the order book.",
   "fundamentals_table": [
-    ["Market Cap (Rs cr)", "~3,233"],
-    ["CMP (Rs)", "184"],
-    ["P/E (trailing)", "17.6x"],
-    ["Book Value (Rs/share)", "70.2"],
-    ["ROCE", "~20% FY25/26, declining from 59% FY22, 47% FY23, 32% FY24"],
-    ["ROE", "17% (3yr avg ~24%)"],
-    ["Revenue FY26 (Rs cr)", "1,145.6 (+7.5% YoY)"],
-    ["EBITDA Margin FY26", "24.2% (Q4 FY26 fell to 18.70% from 25.31% YoY)"],
-    ["PAT FY26 (Rs cr)", "188.4 (+6.4% YoY)"],
-    ["Q1 FY27 Revenue (Rs cr)", "359.2 (+49% YoY)"],
-    ["Q1 FY27 PAT (Rs cr)", "45.21 (+6.5% YoY)"],
-    ["Order Book (Rs cr)", "6,813.6 (+242% YoY; ~6.4x FY26 revenue; water ~3,694 + renewables/BESS ~3,027)"],
-    ["Net Working Capital Days", "137-166 (FY26, up from 24 FY24)"],
-    ["Borrowings (Rs cr)", "422 (FY26, up 80% from Rs234cr FY24)"],
-    ["Promoter Holding", "70.19% (Jun 2026), no disclosed pledge"],
-    ["Dividend", "None paid in any year despite consistent profits"]
+    [
+      "Market Cap (Rs cr)",
+      "~3,233"
+    ],
+    [
+      "CMP (Rs)",
+      "184"
+    ],
+    [
+      "P/E (trailing)",
+      "17.6x"
+    ],
+    [
+      "Book Value (Rs/share)",
+      "70.2"
+    ],
+    [
+      "ROCE",
+      "~20% FY25/26, declining from 59% FY22, 47% FY23, 32% FY24"
+    ],
+    [
+      "ROE",
+      "17% (3yr avg ~24%)"
+    ],
+    [
+      "Revenue FY26 (Rs cr)",
+      "1,145.6 (+7.5% YoY)"
+    ],
+    [
+      "EBITDA Margin FY26",
+      "24.2% (Q4 FY26 fell to 18.70% from 25.31% YoY)"
+    ],
+    [
+      "PAT FY26 (Rs cr)",
+      "188.4 (+6.4% YoY)"
+    ],
+    [
+      "Q1 FY27 Revenue (Rs cr)",
+      "359.2 (+49% YoY)"
+    ],
+    [
+      "Q1 FY27 PAT (Rs cr)",
+      "45.21 (+6.5% YoY)"
+    ],
+    [
+      "Order Book (Rs cr)",
+      "6,813.6 (+242% YoY; ~6.4x FY26 revenue; water ~3,694 + renewables/BESS ~3,027)"
+    ],
+    [
+      "Net Working Capital Days",
+      "137-166 (FY26, up from 24 FY24)"
+    ],
+    [
+      "Borrowings (Rs cr)",
+      "422 (FY26, up 80% from Rs234cr FY24)"
+    ],
+    [
+      "Promoter Holding",
+      "70.19% (Jun 2026), no disclosed pledge"
+    ],
+    [
+      "Dividend",
+      "None paid in any year despite consistent profits"
+    ]
   ],
   "fundamentals_narrative": "Top-line momentum is real: revenue grew from Rs224cr (FY22) to Rs1,146cr (FY26), a 56% CAGR, with Q1 FY27 reaccelerating to +49% YoY on a surging order book (+242% YoY to Rs6,814cr, ~6.4x FY26 revenue, 24-36mo visibility) spanning water/wastewater EPC+HAM and a new renewables/BESS leg. But capital efficiency has deteriorated sharply as the balance sheet has grown post-IPO: ROCE fell from 59% (FY22) to ~20% (FY25/26), and Q4 FY26 EBITDA margin cratered to 18.70% from 25.31% YoY on higher execution costs and lower-margin IPP work, triggering an exchange query on the results (response pending). The working-capital cycle stretched from 24 days (FY24) to 137-166 days (FY26) as unbilled revenue (195 days) built up against delayed AMRUT state fund releases, pushing operating cash flow negative for two straight years (-Rs59cr FY25, -Rs63cr FY26) despite consistently reported profits, and borrowings rose 80% to Rs422cr to bridge the gap. Management guides FY27 revenue of Rs2,000cr at a 19-20% blended EBITDA margin (water 21-22%, renewables/BESS 15-18%) and working-capital normalization toward ~90 days once fund releases resume -- both unconfirmed. No dividend has ever been paid despite the profit track record.",
   "technical_read": null,
@@ -95,17 +143,71 @@
     "conviction_update": "Medium -> Low-Medium. Order-book strength (Rs6,814cr, +242% YoY) and a genuine structural water-infra + new BESS tailwind are real, but the deep dive surfaced a sharply declining ROCE (59%->~20% since FY22), two years of negative operating cash flow, an 80% jump in borrowings, a stretched 137-166 day working-capital cycle, zero dividends despite consistent profits, and a pending exchange query on Q4 FY26 results -- collectively a meaningful earnings-quality downgrade from the light-pass view."
   },
   "commitments": [
-    { "area": "new_business", "text": "Entered BESS EPC via NTPC and Tata Power orders", "specifics": "4 NTPC orders Rs1,070cr (Mar 2026) + Tata Power Rs189.99cr (Sep 2026)", "timeline_bucket": "FY28", "quality_stage": "commercial", "source": "BSE announcements Mar/Sep 2026", "dependency": "execution capability in a new BESS segment", "single_point_of_failure": "", "thesis_critical": true },
-    { "area": "margin", "text": "FY27 blended EBITDA margin guidance of 19-20%", "specifics": "water 21-22%, renewables/BESS 15-18%", "timeline_bucket": "FY27", "quality_stage": "expectation", "source": "Q1 FY27 concall", "dependency": "cost control + CRGO/commodity input prices", "single_point_of_failure": "", "thesis_critical": true },
-    { "area": "growth", "text": "FY27 consolidated revenue guidance of Rs2,000cr", "specifics": "+~75% vs FY26 Rs1,146cr", "timeline_bucket": "FY27", "quality_stage": "expectation", "source": "Q1 FY27 concall", "dependency": "order execution pace + government fund releases", "single_point_of_failure": "government fund-release timing", "thesis_critical": true },
-    { "area": "balance_sheet", "text": "Working-capital days to normalize toward ~90", "specifics": "from 137-166 days in FY26", "timeline_bucket": "12M", "quality_stage": "expectation", "source": "FY26 annual report commentary (via multibagg.ai)", "dependency": "AMRUT/state government fund disbursement resuming", "single_point_of_failure": "government fund-release cycle, outside company's control", "thesis_critical": true }
+    {
+      "area": "new_business",
+      "text": "Entered BESS EPC via NTPC and Tata Power orders",
+      "specifics": "4 NTPC orders Rs1,070cr (Mar 2026) + Tata Power Rs189.99cr (Sep 2026)",
+      "timeline_bucket": "FY28",
+      "quality_stage": "commercial",
+      "source": "BSE announcements Mar/Sep 2026",
+      "dependency": "execution capability in a new BESS segment",
+      "single_point_of_failure": "",
+      "thesis_critical": true
+    },
+    {
+      "area": "margin",
+      "text": "FY27 blended EBITDA margin guidance of 19-20%",
+      "specifics": "water 21-22%, renewables/BESS 15-18%",
+      "timeline_bucket": "FY27",
+      "quality_stage": "expectation",
+      "source": "Q1 FY27 concall",
+      "dependency": "cost control + CRGO/commodity input prices",
+      "single_point_of_failure": "",
+      "thesis_critical": true
+    },
+    {
+      "area": "growth",
+      "text": "FY27 consolidated revenue guidance of Rs2,000cr",
+      "specifics": "+~75% vs FY26 Rs1,146cr",
+      "timeline_bucket": "FY27",
+      "quality_stage": "expectation",
+      "source": "Q1 FY27 concall",
+      "dependency": "order execution pace + government fund releases",
+      "single_point_of_failure": "government fund-release timing",
+      "thesis_critical": true
+    },
+    {
+      "area": "balance_sheet",
+      "text": "Working-capital days to normalize toward ~90",
+      "specifics": "from 137-166 days in FY26",
+      "timeline_bucket": "12M",
+      "quality_stage": "expectation",
+      "source": "FY26 annual report commentary (via multibagg.ai)",
+      "dependency": "AMRUT/state government fund disbursement resuming",
+      "single_point_of_failure": "government fund-release cycle, outside company's control",
+      "thesis_critical": true
+    }
   ],
   "earnings_chain": {
-    "chain": ["order book execution (water + renewables/BESS)", "government fund-release timing", "unbilled revenue -> billed revenue conversion", "EBITDA margin (mix: water 21-22% vs renewables 15-18%)", "PAT", "operating cash flow / FCF"],
+    "chain": [
+      "order book execution (water + renewables/BESS)",
+      "government fund-release timing",
+      "unbilled revenue -> billed revenue conversion",
+      "EBITDA margin (mix: water 21-22% vs renewables 15-18%)",
+      "PAT",
+      "operating cash flow / FCF"
+    ],
     "bottleneck_link": "government fund-release timing (drives both revenue recognition and cash conversion)",
     "operating_leverage": "unclear -- revenue growing fast via order execution but EBITDA margin has compressed (Q4 FY26 18.70% vs 25.31% YoY), so scale has not yet translated into margin expansion",
-    "evidenced_links": ["order book execution (orders won, contracts signed)", "revenue growth"],
-    "assumed_links": ["margin normalization to the 19-22% guided range", "working-capital normalization to ~90 days", "PAT growth re-accelerating"]
+    "evidenced_links": [
+      "order book execution (orders won, contracts signed)",
+      "revenue growth"
+    ],
+    "assumed_links": [
+      "margin normalization to the 19-22% guided range",
+      "working-capital normalization to ~90 days",
+      "PAT growth re-accelerating"
+    ]
   },
   "market_expectation": {
     "as_of": "2026-10-01",
@@ -136,7 +238,12 @@
     "position": "EPC + HAM contractor/developer -- designs, builds and (under HAM) operates treatment plants; now also a BESS/solar/wind EPC player via Suyog Urja",
     "bottleneck_node": "government fund-release cycle + competitive-bid execution capacity",
     "supply_side_status": "adding",
-    "adjacent_peers": ["VA Tech Wabag", "Triveni Engineering (water treatment)", "EMS Ltd", "Ion Exchange"],
+    "adjacent_peers": [
+      "VA Tech Wabag",
+      "Triveni Engineering (water treatment)",
+      "EMS Ltd",
+      "Ion Exchange"
+    ],
     "note": "Multiple players are chasing an expanding but still government-funding-dependent order pipeline; limited pricing power because wins are tender-based, not negotiated -- capital-cycle read is 'adding', a late-cycle risk if fund-release delays persist across the sector."
   },
   "earnings_quality": {
@@ -193,7 +300,11 @@
     "pledge_pct_trend": "stable",
     "fii_dii_pct": 1.37,
     "fii_dii_pct_trend": "falling",
-    "quarters_checked": ["Q3 FY25 (Dec 2024)", "Q4 FY25 (Mar 2025)", "Q1 FY27 (Jun 2026)"],
+    "quarters_checked": [
+      "Q3 FY25 (Dec 2024)",
+      "Q4 FY25 (Mar 2025)",
+      "Q1 FY27 (Jun 2026)"
+    ],
     "concurrent_red_flag": false,
     "note": "Promoter holding stable-to-rising (70.02%->70.19%) with no disclosed pledge -- not the promoter-exit pattern. But FII+DII combined fell sharply from ~6.6% to ~1.4% over the same window; institutional selling alongside rising leverage and working-capital stress is worth watching even though it doesn't trip the formal concurrent-red-flag test."
   },
@@ -207,16 +318,55 @@
     "note": "Net working-capital cycle stretched from 24 days (FY24) to 137-166 days (FY26, sources vary slightly) driven by unbilled revenue (195 days) from delayed AMRUT fund releases; inventory/receivable/payable day-count breakdown not cleanly disclosed in sources reviewed. Water-EPC peers (e.g. VA Tech Wabag) typically run tighter cycles, so this reads worse than sector."
   },
   "sector_kpis": [
-    { "metric": "Order book / TTM revenue", "value": "~6.4x (Rs6,814cr / Rs1,146cr FY26 revenue)", "trend": "improving", "note": "up sharply from ~2x a year earlier (242% YoY order-book growth)" },
-    { "metric": "Order book composition", "value": "Water/wastewater ~Rs3,694cr + Renewables/BESS ~Rs3,027cr (Q1 FY27)", "trend": "improving", "note": "first BESS orders won Mar 2026 (NTPC, Rs1,070cr)" },
-    { "metric": "Unbilled revenue days", "value": "195 days (FY26)", "trend": "declining", "note": "day-count rising is the key driver of working-capital stress; linked to AMRUT fund-release delays -- a negative trend despite the 'declining' label describing deteriorating cash conversion" }
+    {
+      "metric": "Order book / TTM revenue",
+      "value": "~6.4x (Rs6,814cr / Rs1,146cr FY26 revenue)",
+      "trend": "improving",
+      "note": "up sharply from ~2x a year earlier (242% YoY order-book growth)"
+    },
+    {
+      "metric": "Order book composition",
+      "value": "Water/wastewater ~Rs3,694cr + Renewables/BESS ~Rs3,027cr (Q1 FY27)",
+      "trend": "improving",
+      "note": "first BESS orders won Mar 2026 (NTPC, Rs1,070cr)"
+    },
+    {
+      "metric": "Unbilled revenue days",
+      "value": "195 days (FY26)",
+      "trend": "declining",
+      "note": "day-count rising is the key driver of working-capital stress; linked to AMRUT fund-release delays -- a negative trend despite the 'declining' label describing deteriorating cash conversion"
+    }
   ],
   "scenario_analysis": {
-    "bull": { "revenue_cagr_fy26_28_pct": 35, "fy28_margin_pct": 21.0, "fy28_eps": 14.2, "exit_multiple": 22, "implied_price": 313, "pct_vs_cmp": 70 },
-    "base": { "revenue_cagr_fy26_28_pct": 25, "fy28_margin_pct": 19.0, "fy28_eps": 10.2, "exit_multiple": 18, "implied_price": 184, "pct_vs_cmp": 0 },
-    "bear": { "revenue_cagr_fy26_28_pct": 12, "fy28_margin_pct": 16.0, "fy28_eps": 5.7, "exit_multiple": 14, "implied_price": 80, "pct_vs_cmp": -56 },
+    "bull": {
+      "revenue_cagr_fy26_28_pct": 35,
+      "fy28_margin_pct": 21.0,
+      "fy28_eps": 14.2,
+      "exit_multiple": 22,
+      "implied_price": 313,
+      "pct_vs_cmp": 70
+    },
+    "base": {
+      "revenue_cagr_fy26_28_pct": 25,
+      "fy28_margin_pct": 19.0,
+      "fy28_eps": 10.2,
+      "exit_multiple": 18,
+      "implied_price": 184,
+      "pct_vs_cmp": 0
+    },
+    "bear": {
+      "revenue_cagr_fy26_28_pct": 12,
+      "fy28_margin_pct": 16.0,
+      "fy28_eps": 5.7,
+      "exit_multiple": 14,
+      "implied_price": 80,
+      "pct_vs_cmp": -56
+    },
     "closest_to": "base",
     "note": "Base case (FY26-28 revenue CAGR ~25%, margin normalizing to ~19% per FY27 guidance) lands almost exactly at CMP, consistent with gap_direction 'priced-in'. Bull needs margin to hold near FY25 levels (21%+) while renewables scales; bear assumes working-capital stress forces a growth slowdown and margin stays depressed near 16%."
   },
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "conviction_score": 25.0,
+  "quality_score": 57.0,
+  "master_score": 63.0
 }

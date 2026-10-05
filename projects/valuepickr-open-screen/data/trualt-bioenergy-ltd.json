@@ -3,22 +3,70 @@
   "tagline": "India's largest ethanol producer (2,000 KLPD capacity), riding green-fuel mandates and biotech diversification; strong growth but working-capital heavy, leveraged balance sheet, and execution risk on CBG/renewable portfolio",
   "business_overview": "TruAlt Bioenergy (formerly Trualt Energy Limited, incorporated 2021) is one of India's largest biofuel producers and India's largest ethanol manufacturer. As of FY25, 2,000 KLPD installed capacity (1,800 KLPD operational), 3.6% market share. Diversifying into compressed biogas (CBG), renewable energy, and dual-feed ethanol. GAIL JV partnership announced for CBG. IPO in Sep-2025; listed Aug-Sep 2026 (recent).",
   "fundamentals_table": [
-    ["Market Cap", "Rs 3,810 Cr"],
-    ["Current Price", "Rs 444"],
-    ["52-week range", "Rs 310 - Rs 542"],
-    ["ROE (Last Year)", "8.38%"],
-    ["ROCE (Last Year)", "10.44%"],
-    ["Revenue (TTM)", "Rs 2,050 Cr"],
-    ["Profit (TTM)", "Rs 159 Cr"],
-    ["P/E (TTM)", "24.4x"],
-    ["P/B (TTM)", "2.51x"],
-    ["Net Profit Growth (3-yr CAGR)", "39%"],
-    ["Sales Growth (3-yr CAGR)", "31%"],
-    ["Debt/Equity", "~0.43 (moderate leverage)"],
-    ["Promoter holding", "70.55%"],
-    ["Promoter Pledging", "36.8% of holding pledged (risk signal)"],
-    ["Working Capital Days", "63 days (up from -31 days in Mar-2025; deteriorating)"],
-    ["Inventory Days", "173 days (Mar-2026; highly volatile, suggests supply shocks or strategic stockpiling)"]
+    [
+      "Market Cap",
+      "Rs 3,810 Cr"
+    ],
+    [
+      "Current Price",
+      "Rs 444"
+    ],
+    [
+      "52-week range",
+      "Rs 310 - Rs 542"
+    ],
+    [
+      "ROE (Last Year)",
+      "8.38%"
+    ],
+    [
+      "ROCE (Last Year)",
+      "10.44%"
+    ],
+    [
+      "Revenue (TTM)",
+      "Rs 2,050 Cr"
+    ],
+    [
+      "Profit (TTM)",
+      "Rs 159 Cr"
+    ],
+    [
+      "P/E (TTM)",
+      "24.4x"
+    ],
+    [
+      "P/B (TTM)",
+      "2.51x"
+    ],
+    [
+      "Net Profit Growth (3-yr CAGR)",
+      "39%"
+    ],
+    [
+      "Sales Growth (3-yr CAGR)",
+      "31%"
+    ],
+    [
+      "Debt/Equity",
+      "~0.43 (moderate leverage)"
+    ],
+    [
+      "Promoter holding",
+      "70.55%"
+    ],
+    [
+      "Promoter Pledging",
+      "36.8% of holding pledged (risk signal)"
+    ],
+    [
+      "Working Capital Days",
+      "63 days (up from -31 days in Mar-2025; deteriorating)"
+    ],
+    [
+      "Inventory Days",
+      "173 days (Mar-2026; highly volatile, suggests supply shocks or strategic stockpiling)"
+    ]
   ],
   "fundamentals_narrative": "TruAlt is a scaled ethanol producer (2,000 KLPD, 3.6% of national capacity) with 31% revenue CAGR (3-yr) and 39% profit CAGR, reflecting both volume scaling and margin expansion. However, ROE (8.38%) and ROCE (10.44%) are weak for a capital-intensive business and do not justify current valuation or leverage. Recent years show earnings volatility: TTM profit Rs 159 Cr on Rs 2,050 Cr sales (7.7% margin), but quarterly data shows swings (Q2 FY26 net loss -Rs 38 Cr, recovered Q1 FY26 to +Rs 69 Cr). Working capital position deteriorated sharply (from -31 days in Mar-2025 to +63 days in Mar-2026), indicating rising inventory/receivable buildup. Debt/Equity of 0.43 is moderate but combined with weak ROCE (10.4%) creates refinancing risk. Promoter pledging of 36.8% is a caution signal on founder confidence amid leveraged balance sheet.",
   "technical_read": "Stock has fallen 16% in 1 year (from ~Rs 530 in Oct 2025 to Rs 444 Oct 2026). Recent quarter (Q2 FY26) saw sharp PAT loss (-Rs 38 Cr), despite revenue (Q2 FY26 Rs 627 Cr, +106% YoY), indicating project profitability or input-cost shocks. P/E of 24.4x on weak ROCE (10.4%) suggests market is pricing in future operational improvement or margin recovery that has not yet materialized.",
@@ -41,8 +89,8 @@
     "Ethanol prices are highly commodity-linked (crude correlation 0.85+); margin expansion is hostage to oil cycle, not sustainable operational improvement"
   ],
   "market_cap_tier": "Small-cap (Rs 3,810 Cr; IPO-stage so capital structure still unsettled)",
-  "thesis_fit": "neither — weak ROCE and volatile earnings disqualify; only if CBG partnership unlocks operational leverage in FY27-28",
-  "verdict_headline": "Renewable-energy tailwind is real, but operational execution is inconsistent and leverage is uncomfortably high — pass until ROCE proves >15% and working capital stabilizes",
+  "thesis_fit": "neither \u2014 weak ROCE and volatile earnings disqualify; only if CBG partnership unlocks operational leverage in FY27-28",
+  "verdict_headline": "Renewable-energy tailwind is real, but operational execution is inconsistent and leverage is uncomfortably high \u2014 pass until ROCE proves >15% and working capital stabilizes",
   "verdict_reasoning": [
     "ROCE 10.4% is the key red flag: a capital-intensive business in biofuels/ethanol should target 18%+ ROCE to justify leverage; current 10.4% destroys value",
     "Q2 FY26 loss amid 106% revenue growth is a serious execution concern; management explanations (if any) should clarify causality (project mix, input costs, hedging loss)",
@@ -63,5 +111,8 @@
   "pass": 1,
   "date": "2026-10-05",
   "status": "researched-not-dived",
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "conviction_score": 25.0,
+  "quality_score": 50.0,
+  "master_score": 57.2
 }
