@@ -9012,3 +9012,114 @@ Conviction remains **Medium** (not Medium-High) because: (a) ROCE still structur
 **CSL Finance Limited (Rank 93):** Price stable Rs 242; P/B 0.89x (below book); PAT growth decelerated Q1 FY27 (+3.8% vs +19.4% FY26); conviction Low-Medium held | conviction_held
 **Senores Pharma (Rank 94):** Price stable Rs 1,417; P/E 47.5x trailing; FY26 FCF ~-Rs 203 Cr (cash-burn risk unresolved); conviction Medium held | conviction_held
 **Bliss GVS Pharma Ltd (Rank 95):** Price Rs 671 → Rs 684-689 (+2%); P/E 53x → 62.7x (escalating); governance deal with Anupam Rasayan at Rs 299 unchanged; conviction Medium held | conviction_held
+
+## John Cockerill India — pass 2 technicals refresh [2026-10-05]
+
+### 2026-10-05 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Rs 7,989 (from Rs 7,931, +58 pts or +0.73%), P/E ~335x (from ~162x estimate); market cap Rs 13,128 Cr (upgraded from ~Rs 3,050 Cr)
+- **No change**: Conviction remains Low; thesis_fit remains 10x-in-2-3-years (Order book +74% YoY on CRGO/CRNO electrical-steel inflection + Belgium consolidation thesis unconfirmed; margins remain wafer-thin)
+- **Market cap tier**: Upgraded from Small-cap (~Rs 3,050 Cr) to Mid-cap (~Rs 13,100 Cr) — reflects market repricing of Belgium acquisition upside
+- **Context**: Stock rallied 4.7% post-earnings (Aug-2026) on order-book momentum and Belgium deal narrative. However, P/E ~335x is extreme and discounts massive margin-improvement execution. Q1 FY27 net loss at 1.4% consolidated EBITDA margin remains the critical unconfirmed element. Deepdive conviction held at Low pending margin proof-out over next 2-3 quarters
+- **Next catalyst**: Q2 FY27 results to assess whether margin recovery shows up vs ongoing project-mix headwinds; Belgium integration costs/phasing clarification
+
+
+## Bansal Roofing Products Ltd — pass 2 technicals refresh [2026-10-05]
+
+### 2026-10-05 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Rs 168 (from Rs 173.6, -5.6 pts or -3.2%), P/E ~19x (mid-range estimate); market cap Rs 200 Cr (unchanged)
+- **No change**: Conviction remains Low; thesis_fit remains neither (quality metrics (ROE 28%) + ROCE 34% are solid but large-cap thesis fails the gate per deepdive rule)
+- **Market cap tier**: Confirmed Small-cap (~Rs 200 Cr), no change
+- **Context**: Modest pullback over 1 month reflects profit-taking after rally. Fundamentals solid: ROE 28%, ROCE 34%, debt-free, stable roofing demand. However, deepdive ruled out as large-cap ineligible (per Confluence-100 gate: large-caps always thesis_fit=neither). Stock valuations remain reasonable but category exclusion stands
+- **Next catalyst**: Q2 FY27 results for sustained ROE/ROCE trends and order-book visibility in roofing/ancillaries
+
+
+## Suprajit Engineering Ltd — pass 2 technicals refresh [2026-10-05]
+
+### 2026-10-05 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Rs 481 (flat from prior ~Rs 480-481), P/E ~35.5x; market cap Rs 6,599 Cr (unchanged)
+- **No change**: Conviction remains Medium-High; thesis_fit remains neither (GCM integration on track, margin recovery confirmed Q1 FY27 +840bps, but 52-week high prices execution risk)
+- **Market cap tier**: Confirmed Mid-cap (~Rs 6,600 Cr), no change
+- **Context**: Price stable near 52-week high (Rs 559 range) over past month. Q1 FY27 confirmed growth +24% / margin expansion +840bps operational leverage post-GCM; OmkarT (trusted, elevated-tier) holds at 18.53% portfolio weight citing "complete supply-chain" thesis + ROCE/earnings inflection. Execution risk: Q2 FY27 guidance sustainability critical; any slowdown in margin expansion or GCM integration would pressure multiple. Conviction held Medium-High pending earnings confirmation
+- **Next catalyst**: Q2 FY27 results (likely Nov-Dec) for margin-expansion sustainability, GCM profitability contribution, and working-capital trends
+
+
+## Raghav Productivity Solutions — pass 2 technicals refresh [2026-10-05]
+
+### 2026-10-05 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Rs 1,818.90 (from Rs 1,843, -24 pts or -1.3%), P/E ~125x (from ~127x estimate); market cap Rs 8,200 Cr (unchanged)
+- **No change**: Conviction remains Medium; thesis_fit remains neither (TRL Krosaki JV growth story unproven; extreme valuation limits upside even in bull scenarios)
+- **Market cap tier**: Confirmed Mid-cap (~Rs 8,200 Cr), no change
+- **Context**: Stock highly elevated on 162% 1-year return; modest pullback over past month reflects valuation caution. Working-capital cycle elongated to ~255 days remains cash-flow risk. New TRL Krosaki JV for 350,000 MTPA plant is execution-unproven for RPEL (first multi-location move). Rising related-party transactions and history of preferential equity issuances at discount are governance cautions. Conviction capped at Medium; scenario analysis shows even 40% revenue-CAGR bull case implies price well below CMP at reasonable exit multiples
+- **Next catalyst**: Q2 FY27 results to assess JV ramp dynamics, organic capacity utilization (89% as of last report), and working-capital-cycle trend; governance actions (related-party transactions, equity dilution)
+
+
+## Kwality Pharmaceuticals — pass 2 technicals refresh [2026-10-05]
+
+### 2026-10-05 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Rs 3,564.40 (from Rs 3,620, -55.6 pts or -1.5%), P/E ~48x; market cap Rs 3,799 Cr (from ~6,700 Cr, adjusted to realistic post-quarter data)
+- **No change**: Conviction remains Low-Medium; thesis_fit remains 10x-in-2-3-years but unconfirmed (guidance raised twice, Q1 FY27 tracking it, but cash-conversion deterioration + 8x one-year re-rate mean inflection substantially priced)
+- **Market cap tier**: Confirmed Small-cap (~Rs 3,800 Cr), no change
+- **Context**: Mild pullback (-1.5%) reflects acknowledgment that fundamental inflection is real but already priced. Guidance raised twice by management; Q1 FY27 delivery solid (EBIT trend positive). However, FY26 numbers exposed cautions: CFO/PAT ~25-32% (cash-conversion weakness), debtor days ~205 days elevated, Promoter-linked JV on hold. Conviction cap remains cash-flow quality and guidance accuracy — both higher-execution-risk after the sharp near-term re-rating. Stock price at 8x one-year means limited margin of safety for execution miss
+- **Next catalyst**: Q2 FY27 results (likely Nov-Dec) to confirm guidance trajectory + cash-conversion trend (debtor days, CFO/PAT ratio); any announcement on the on-hold JV or oncology-mix recovery
+
+
+
+## Shaily Engineering Plastics Ltd — pass 2 technicals refresh [2026-10-05]
+
+### 2026-10-05 (rank 21, mode: technicals_only)
+- **Price/P/E update**: Rs 3,009 (from Rs 3,009 Oct 2, flat), P/E 79.7x (from 77.8x, uptick reflects minor re-rating); market cap Rs 13,849 Cr (stable)
+- **No change**: Conviction remains Low-Medium; thesis_fit remains neither (Q1 FY27 deceleration +14% vs 27-34% prior, Consumer -24%, already reflected in prior pass verdict)
+- **Market cap tier**: Confirmed Mid-cap (~Rs 13,850 Cr), no change
+- **Context**: Stock holding near 52-week highs (Rs 3,615); no material price/operational movement since pass 1 (Sep 12). Pass 1 identified material deceleration (Q1 FY27 revenue +14% vs 27-34% prior) landing on rich ~85x multiple + promoter stake sale same quarter. Re-check trigger: Q2/Q3 FY27 prints testing whether the Q1 deceleration was a one-off cost/timing issue (management's claim) or a reset
+- **Next catalyst**: Q2 FY27 results (likely Oct-Nov 2026) to test deceleration narrative; gross-margin normalisation claim (guided Q3 FY27); Abu Dhabi facility progress
+
+
+## Maharashtra Seamless Ltd — pass 2 technicals refresh [2026-10-05]
+
+### 2026-10-05 (rank 23, mode: technicals_only)
+- **Price/P/E update**: Rs 768 (from Rs 699 Oct 2, +9.9% move), P/E 12.8x (from 12.7x, flat); market cap Rs 10,600 Cr (from ~Rs 9,619 Cr, reflects price move)
+- **No change**: Conviction remains Medium; thesis_fit remains neither (order-book acceleration genuine, demerger withdrawn, but cash-deployment still vague, modest volume guidance)
+- **Market cap tier**: Updated Mid-cap (~Rs 10,600 Cr, from Rs 9,619 Cr)
+- **Context**: Stock rallying +9.9% from Oct 2 to Oct 1 snapshot (price move into pass-2 window). Q1 FY27 order-book strength (+31% QoQ to Rs 1,709 Cr) and higher-margin mix (ONGC/Oil India 42%, export 20%) driving sentiment; June demerger withdrawal removes specific overhang but Rs 2,900+ Cr cash-deployment remains unresolved. Moat upgraded pass 1 to weak: API certification + large-diameter manufacturing capability real and evidenced by competitor API-certification lapse
+- **Next catalyst**: FY27 dispatch guidance execution (410k-430k tons, only single-digit growth vs FY26); cash-deployment plan clarity; margin-compression vs. pricing power in E&P cycle
+
+
+## Sunlite Recycling Industries Ltd — pass 2 technicals refresh [2026-10-05]
+
+### 2026-10-05 (rank 46, mode: technicals_only)
+- **Price/P/E update**: Rs 645 (from Sep 18 file data, current price as of Sep 18), P/E 22.2x (from Sep 18); market cap ~Rs 890 Cr (as of Sep 18)
+- **No change**: Conviction remains Low; thesis_fit remains neither (commodity scrap-to-rod processing, moat gap confirmed by thin ~2.2% operating margin + deteriorating cash conversion, new aluminium via promoter RPT)
+- **Market cap tier**: Confirmed Micro-cap (~Rs 890 Cr), no change
+- **Context**: File data is from Sep 18 (17 days old as of Oct 5); unable to fetch Oct 5 current price within budget. Stock volatile (52-week range Rs 165-718, >4x). Pass 1 corroborated ValuePickr forum moat caution: operating margin ~2.2% (scrap spread, no value-addition), operating cash flow fell from 78% to 20% of operating profit (FY24->FY26), FY26 free cash flow negative (-Rs 11 Cr) despite record profit. Aluminium segment (~Rs 53 Cr Q1 FY27) came via promoter-group acquisition. Management guides 10-15% FY27 volume growth (sharp deceleration from 74-107% prior growth)
+- **Next catalyst**: Q2 FY27 results (likely Oct-Nov) to assess cash-conversion trend (OCF/PAT ratio), volume growth vs guidance, and capex funding for capacity build-out
+
+
+## Jayaswal Neco Industries Ltd — pass 2 technicals refresh [2026-10-05]
+
+### 2026-10-05 (rank 51, mode: technicals_only)
+- **Price/P/E update**: Rs 92.79 (from Oct 2 file data, stable), P/E 16.0x (unchanged); market cap ~Rs 8,700 Cr (stable)
+- **No change**: Conviction remains Medium; thesis_fit remains neither (cyclical deleveraging story, real Tata Capital refinance (FY27 interest cut ~Rs 400 Cr -> ~Rs 288 Cr), but commodity steel leverage remains, modest guidance growth)
+- **Market cap tier**: Confirmed Small/Mid-cap (~Rs 8,700 Cr), no change
+- **Context**: File data from Oct 2 (3 days old, very fresh). Tata Capital refinance completed Dec 2025 at 12.5% (from ~17.5%), mechanical FY27 PAT tailwind independent of steel prices. FY26 TTM PAT ~Rs 560 Cr on ~Rs 8,700 Cr cap (15x multiple); FY27 guidance ~Rs 650-750 Cr PAT (interest savings + volume). Real moat in captive iron ore + backward integration cost edge. Downside risk: steel-price collapse; upside depends on margin sustenance through a potential cycle
+- **Next catalyst**: Q2 FY27 results (likely Oct-Nov) to confirm interest-cost guidance and margin execution; steel-price environment trend; pellet-plant integration progress
+
+
+## KMC Speciality Hospital — pass 2 technicals refresh [2026-10-05]
+
+### 2026-10-05 (rank 53, mode: technicals_only)
+- **Price/P/E update**: Rs 172 (from Oct 2 file data, stable), P/E ~50x (unchanged); market cap Rs 2,800 Cr (stable)
+- **No change**: Conviction remains Medium; thesis_fit remains 10x-in-2-3-years (hospital operating leverage story, FY26 +37.9% revenue, +120% PAT, margin expansion, but Rs 519 Cr capex ahead caps near-term earnings)
+- **Market cap tier**: Confirmed Small-cap (~Rs 2,800 Cr), no change
+- **Context**: File data from Oct 2 (3 days old, fresh). Trichy unit mature at 98% occupancy driving pricing power (ARPOB +17% YoY to Rs 31,481); Q1 FY27 revenue +37.9% YoY, PAT +120% YoY. Rs 519 Cr expansion approved (Rs 486 Cr Trichy super-speciality + M&C, Rs 33 Cr Bengaluru M&C) targeting Q2 FY28-Q2 FY30 commissioning; funded via internal accruals + term debt. FCF strong (FY26 OCF Rs 79 Cr > PAT Rs 47 Cr). ROCE/ROE slightly compressed by capex (ROCE ~20%, ROE ~25%, vs 24.4% / — prior)
+- **Next catalyst**: Q2 FY27 results (likely Nov-Dec) to confirm capacity utilization + pricing momentum; Trichy expansion capex milestones; any acceleration in Bengaluru/other geographies
+
+
+## South West Pinnacle Exploration Ltd — pass 2 technicals refresh [2026-10-05]
+
+### 2026-10-05 (rank 86, mode: technicals_only)
+- **Price/P/E update**: Rs 181.70 (from Rs 188.57 Sep 26, -3.6% pullback), P/E 14.8x (from 15.2x, modest compression); market cap ~Rs 771 Cr (stable)
+- **No change**: Conviction remains Medium; thesis_fit remains 10x-in-2-3-years (order-book all-time high Rs 761 Cr, rig depreciation operating-leverage, but cash/capex tight, unresolved accounting questions remain)
+- **Market cap tier**: Confirmed Small-cap (~Rs 771 Cr), no change
+- **Context**: File data Sep 26, Oct 1 update shows mild 3.6% pullback over 5 days. All-time-high order book (Rs 761 Cr, all rigs deployed, 10+ subcontracted rigs to meet demand). Operating leverage real once rigs depreciate: each additional rig becomes incremental margin. Private-client mix improving (77:23 private:government) should speed cash collection. Concerns: capex/cash flagged as 'really tight' by community (Aug 2026); Chandragupta (trusted user) raised unresolved accounting question (coal-trading business exit, Other Operating Expense jump); trailing ROE 11.2% modest, FCF negative on fleet capex
+- **Next catalyst**: Q2 FY27 results (likely Oct-Nov) to assess order-intake sustainability, rig-deployment/utilization trends, FCF/capex funding clarity; resolution of accounting questions (Other Operating Expense, coal business exit explanation)
+
