@@ -2,92 +2,92 @@
   "_readme": "6-MONTH TACTICAL tracker. SEPARATE from paper-trading/cohorts.json (frozen weekly cohorts), swing-6m/cohorts.json (hand-curated, fundamentally-informed swing cohorts), and live-recommendation/ (the fundamentals-led Rs 1L allocation). This single book always mirrors the CURRENT allocation in valuepickr-open-screen/data/confluence100_tactical6m.json -- Confluence-100's purely technical/momentum ranking (no master_score term), auto-rebalancing at live prices whenever that list's holdings or weights change by more than a rounding amount. Script-owned -- do not hand-edit holdings/cash; it picks up the next weekly Confluence-100 rebuild automatically. An empty holdings list (insufficient pool) means all-cash, not an error.",
   "inception_date": "2026-09-22",
   "inception_capital": 100000,
-  "version": 4,
-  "effective_date": "2026-09-29",
-  "source_revision": "Confluence-100 tactical6m (29 Sep 2026, cash 12.0%)",
+  "version": 5,
+  "effective_date": "2026-10-05",
+  "source_revision": "Confluence-100 tactical6m (5 Oct 2026, cash 12.0%)",
   "holdings": [
-    {
-      "name": "Dynamic Cables",
-      "symbol": "DYNAMIC.NS",
-      "weight_pct": 9.01,
-      "entry_price": 139.95,
-      "shares": 63,
-      "invested": 8816.85
-    },
     {
       "name": "Dhabriya Polywood",
       "symbol": "DHABRIYA.BO",
       "weight_pct": 9.01,
-      "entry_price": 479.2,
-      "shares": 18,
-      "invested": 8625.6
+      "entry_price": 455.3,
+      "shares": 19,
+      "invested": 8650.7
     },
     {
-      "name": "Neuland Laboratories",
-      "symbol": "NEULANDLAB.NS",
+      "name": "Kovai Medical Center and Hospital",
+      "symbol": "KOVAI.NS",
       "weight_pct": 9.01,
-      "entry_price": 21375.0,
-      "shares": 0,
-      "invested": 0.0
+      "entry_price": 5963.0,
+      "shares": 1,
+      "invested": 5963.0
     },
     {
-      "name": "Raymond Realty",
-      "symbol": "RAYMONDREL.NS",
+      "name": "Shaily Engineering Plastics",
+      "symbol": "SHAILY.NS",
       "weight_pct": 9.01,
-      "entry_price": 672.55,
-      "shares": 13,
-      "invested": 8743.15
+      "entry_price": 3012.8,
+      "shares": 2,
+      "invested": 6025.6
     },
     {
       "name": "Apcotex Industries",
       "symbol": "APCOTEXIND.NS",
       "weight_pct": 9.01,
-      "entry_price": 595.45,
+      "entry_price": 587.25,
       "shares": 14,
-      "invested": 8336.3
+      "invested": 8221.5
     },
     {
-      "name": "Aeroflex Industries",
-      "symbol": "AEROFLEX.NS",
-      "weight_pct": 8.59,
-      "entry_price": 539.6,
-      "shares": 15,
-      "invested": 8094.0
+      "name": "Wockhardt",
+      "symbol": "WOCKPHARMA.NS",
+      "weight_pct": 9.01,
+      "entry_price": 2063.5,
+      "shares": 4,
+      "invested": 8254.0
     },
     {
-      "name": "KSH International",
-      "symbol": "KSHINTL.NS",
+      "name": "Dynamic Cables",
+      "symbol": "DYNAMIC.NS",
       "weight_pct": 8.59,
-      "entry_price": 1028.4,
-      "shares": 8,
-      "invested": 8227.2
+      "entry_price": 129.95,
+      "shares": 64,
+      "invested": 8316.8
     },
     {
       "name": "Indegene",
       "symbol": "INDGN.NS",
       "weight_pct": 8.59,
-      "entry_price": 605.15,
+      "entry_price": 598.45,
       "shares": 13,
-      "invested": 7866.95
+      "invested": 7779.85
     },
     {
-      "name": "Matrimony.com",
-      "symbol": "MATRIMONY.NS",
+      "name": "Neuland Laboratories",
+      "symbol": "NEULANDLAB.NS",
       "weight_pct": 8.59,
-      "entry_price": 519.25,
-      "shares": 16,
-      "invested": 8308.0
+      "entry_price": 21875.0,
+      "shares": 0,
+      "invested": 0.0
     },
     {
-      "name": "3B Blackbio DX",
-      "symbol": "3BBLACKBIO.BO",
+      "name": "Univastu India",
+      "symbol": "UNIVASTU.NS",
       "weight_pct": 8.59,
-      "entry_price": 1625.1,
-      "shares": 5,
-      "invested": 8125.5
+      "entry_price": 127.77,
+      "shares": 65,
+      "invested": 8305.05
+    },
+    {
+      "name": "Technocraft Industries",
+      "symbol": "TIIL.NS",
+      "weight_pct": 8.59,
+      "entry_price": 2815.3,
+      "shares": 2,
+      "invested": 5630.6
     }
   ],
-  "cash": 23379.49,
+  "cash": 30185.09,
   "rebalance_log": [
     {
       "date": "2026-09-22",
@@ -124,6 +124,12 @@
       "version": 4,
       "reason": "added 3B Blackbio DX, Indegene; dropped Marksans Pharma, Univastu India",
       "nav": 98523.04
+    },
+    {
+      "date": "2026-10-05",
+      "version": 5,
+      "reason": "added Kovai Medical Center and Hospital, Shaily Engineering Plastics, Technocraft Industries, Univastu India, Wockhardt; dropped 3B Blackbio DX, Aeroflex Industries, KSH International, Matrimony.com, Raymond Realty",
+      "nav": 97332.19
     }
   ]
 }

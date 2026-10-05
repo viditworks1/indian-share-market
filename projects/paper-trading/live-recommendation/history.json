@@ -1729,6 +1729,96 @@
           "return_pct": -0.0
         }
       ]
+    },
+    {
+      "date": "2026-10-05",
+      "version": 7,
+      "rebalanced_today": true,
+      "nav": 102528.32,
+      "return_pct": 2.53,
+      "day_change_pct": -1.09,
+      "invested_value": 74088.85,
+      "cash": 28439.47,
+      "holdings": [
+        {
+          "name": "Venus Remedies",
+          "symbol": "VENUSREM.NS",
+          "weight_pct": 14.024390243902438,
+          "entry_price": 1778.0,
+          "shares": 8,
+          "invested": 14224.0,
+          "price": 1778.0,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "value": 14224.0,
+          "return_pct": 0.0
+        },
+        {
+          "name": "Thyrocare",
+          "symbol": "THYROCARE.NS",
+          "weight_pct": 12.195121951219512,
+          "entry_price": 542.05,
+          "shares": 23,
+          "invested": 12467.15,
+          "price": 542.05,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "value": 12467.15,
+          "return_pct": -0.0
+        },
+        {
+          "name": "Ajanta Pharma",
+          "symbol": "AJANTPHARM.NS",
+          "weight_pct": 12.195121951219512,
+          "entry_price": 3486.0,
+          "shares": 3,
+          "invested": 10458.0,
+          "price": 3486.0,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "value": 10458.0,
+          "return_pct": 0.0
+        },
+        {
+          "name": "Dynamic Cables",
+          "symbol": "DYNAMIC.NS",
+          "weight_pct": 12.195121951219512,
+          "entry_price": 129.95,
+          "shares": 96,
+          "invested": 12475.2,
+          "price": 129.95,
+          "as_of": "2026-10-01",
+          "stale": true,
+          "value": 12475.2,
+          "return_pct": -0.0
+        },
+        {
+          "name": "Acutaas Chemicals",
+          "symbol": "ACUTAAS.NS",
+          "weight_pct": 12.195121951219512,
+          "entry_price": 3122.2,
+          "shares": 4,
+          "invested": 12488.8,
+          "price": 3122.2,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "value": 12488.8,
+          "return_pct": -0.0
+        },
+        {
+          "name": "Aeroflex Industries",
+          "symbol": "AEROFLEX.NS",
+          "weight_pct": 12.195121951219512,
+          "entry_price": 544.35,
+          "shares": 22,
+          "invested": 11975.7,
+          "price": 544.35,
+          "as_of": "2026-10-05",
+          "stale": false,
+          "value": 11975.7,
+          "return_pct": -0.0
+        }
+      ]
     }
   ]
 }
