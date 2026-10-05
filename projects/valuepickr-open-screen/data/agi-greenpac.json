@@ -93,10 +93,9 @@
     "data_caveat": "P/E and forward guidance from Screener.in and AlphaSpread Q1 FY26; current multiple (14.2x) from Yahoo Finance as of Oct 2, 2026"
   },
   "catalyst": {
-    "event": "New capacity ramp and first full quarter of premium-mix products contributing to revenue/margin; Q1-Q2 FY28 should show incremental traction",
-    "expected_window_months": 18,
-    "window_start": "2026-10-02",
-    "evidence_quality": "med",
+    "event": "New capacity ramp & Q2 FY27 results (Oct 2026) - 500 TPD glass capacity Mar'27 timeline; aluminum cans project commercialization; margin recovery validation",
+    "expected_window_months": 4,
+    "window_start": "2026-10-01",
     "is_dated": true,
     "status": "pending"
   },
@@ -109,7 +108,7 @@
     "tam": "no",
     "moat": "weak",
     "valuation": "yes",
-    "score": 2.0,
+    "score": 2.5,
     "note": "Screener.in: FY25 rev Rs2,529cr +5%, PAT +28% to Rs322cr, 2nd-largest India container-glass player -- steady glass-packaging demand shift but not exponential = tailwind weak; already Rs5,203cr mcap, 2nd-largest by capacity = size math limits a 10x from here = tam no; capital-intensity + logistics + closures-tech relationships give some edge but customers can multi-source = moat weak; P/E 14.1x on ROCE ~20-26% and 28% PAT growth is undemanding = valuation yes, the exception preserving existing 10x-in-2-3-years at Low-Medium conviction."
   },
   "track_record": {
@@ -127,5 +126,6 @@
     "capex_efficiency": "unknown",
     "assessment": "unverified"
   },
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "conviction": "Medium"
 }

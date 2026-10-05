@@ -5,7 +5,7 @@
     "tam": "weak",
     "moat": "weak",
     "valuation": "weak",
-    "score": 2.5,
+    "score": 3.0,
     "reasoning": "Growth:6, Profitability:8, Moat:3, Sentiment:B10/Be3"
   },
   "conviction_source": "batch2_vpscreen_scan",
@@ -60,7 +60,7 @@
     },
     {
       "area": "margin",
-      "text": "Maintain operating margin at 33-35 bps of AUM despite regulatory changes (TER→BER, 5bps exit load removal)",
+      "text": "Maintain operating margin at 33-35 bps of AUM despite regulatory changes (TER\u2192BER, 5bps exit load removal)",
       "specifics": "Q1 FY27: operating margin 35 bps of AUM (operating profit +10% YoY, PAT +12%). Offset TER/BER accounting change and 5bps exit load removal via commission optimization + cost discipline",
       "timeline_bucket": "FY27+",
       "quality_stage": "operational",
@@ -90,7 +90,7 @@
       "Operating margin: 35 bps of AUM (target 33-35 bps hold via cost discipline)",
       "PAT FY27: likely Rs 32-34 bn (~+10-12% YoY growth, in line with operating profit growth)"
     ],
-    "bottleneck_link": "Regulatory margin pressure (TER→BER) and competitive intensity on distribution economics",
+    "bottleneck_link": "Regulatory margin pressure (TER\u2192BER) and competitive intensity on distribution economics",
     "operating_leverage": "yes -- AUM growth + mix toward higher-yielding equity/alternatives + scale in investor base drive earnings; alternatives still small base (~1.6% of total AUM) but margin-accretive",
     "evidenced_links": [
       "Q1 FY27: QAAUM +13%, revenue +14%, PAT +12%",
@@ -121,11 +121,12 @@
     "data_caveat": "Current P/E from Yahoo Finance Oct 2, 2026. Q1 FY27 earnings annualized; FY27 guidance absent (management avoids forward guidance); alternatives AUM still small but growing; SIP penetration strong but 'jury out' on new cohort durability over extended downturn (management language)."
   },
   "catalyst": {
-    "event": "Q2 FY27 AUM print (SIP flow sustainability post-Sept volatility); alternatives fund closing milestone; SIF product launch traction; FY27 annual report + FY28 outlook call",
-    "expected_window_months": 12,
-    "window_start": "2026-10-02",
-    "evidence_quality": "high",
+    "event": "Q2 FY27 AUM/SIP flow (Oct 2026) - \u20b932,297 Cr Aug SIP all-time high; 11.5% market share validation; equity momentum acceleration",
+    "expected_window_months": 2,
+    "window_start": "2026-10-01",
     "is_dated": true,
     "status": "pending"
-  }
+  },
+  "conviction": "Medium-High",
+  "thesis_fit": "neither"
 }

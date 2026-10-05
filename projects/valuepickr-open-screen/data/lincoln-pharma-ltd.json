@@ -65,6 +65,16 @@
   ],
   "red_flag_tier": "HIGH CAUTION",
   "red_flag_reason": "Repeated, credible community allegations of profit-quality issues (a cited 'history of inflating profits') and rapidly growing related-party/unsecured lending to unrelated parties, serious enough that a trusted community user explicitly declined to invest over it.",
-  "conviction": "Low",
-  "last_post_number_analyzed": 0
+  "conviction": "Low-Medium",
+  "last_post_number_analyzed": 0,
+  "catalyst": {
+    "event": "FY27 Q2/Q3 results (Oct-Nov 2026) - moderate revenue growth trajectory validation; 9% FY26 pace continuation",
+    "expected_window_months": 3,
+    "window_start": "2026-10-01",
+    "is_dated": true,
+    "status": "pending"
+  },
+  "four_box": {
+    "score": 2.0
+  }
 }

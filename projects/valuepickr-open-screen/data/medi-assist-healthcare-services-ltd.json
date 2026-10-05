@@ -50,7 +50,17 @@
   ],
   "red_flag_tier": "HIGH CAUTION",
   "red_flag_reason": "Pre-IPO promoter entity Medimatter (same individuals as current Chairman/CEO) reduced its stake from ~27% to ~4.89% within roughly a year of listing, explicitly flagged by the community as a red flag despite institutional buyers; compounded by independently-noted growth/margin deceleration versus FY24 guidance.",
-  "conviction": "Low",
+  "conviction": "Low-Medium",
   "trusted_signals": [],
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "catalyst": {
+    "event": "FY27 results/revenue projection (Oct-Nov 2026) - Paramount integration completion; group business scaling (+25% YoY)",
+    "expected_window_months": 3,
+    "window_start": "2026-10-01",
+    "is_dated": true,
+    "status": "pending"
+  },
+  "four_box": {
+    "score": 2.0
+  }
 }

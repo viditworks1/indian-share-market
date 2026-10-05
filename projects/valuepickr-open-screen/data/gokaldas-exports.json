@@ -120,11 +120,12 @@
     "data_caveat": "Current P/E from Yahoo Finance Oct 2, 2026. Management guided 15-20% growth but explicitly said 'confident of beating 15%'; AGOA extension not yet formalized (Senate pass only); Africa capacity utilization still 80-85% (upside to $120M if execution tightens)"
   },
   "catalyst": {
-    "event": "Q2 FY27 concall (strong order book visibility, capacity ramp updates); AGOA extension announcement (expected Senate→House→President, likely Q4 2026); BTPL merger close (Q3 target, should show first full-quarter traction Q4)",
-    "expected_window_months": 12,
-    "window_start": "2026-10-02",
-    "evidence_quality": "high",
+    "event": "Q2 FY27 concall (Oct 2026) - order book visibility confirmation; Q3/Q4 bookings validation; US tariff normalization impact",
+    "expected_window_months": 2,
+    "window_start": "2026-10-01",
     "is_dated": true,
     "status": "pending"
-  }
+  },
+  "conviction": "Medium",
+  "thesis_fit": "neither"
 }

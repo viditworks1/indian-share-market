@@ -51,5 +51,16 @@
   ],
   "red_flag_tier": "HIGH CAUTION",
   "red_flag_reason": "A fatal industrial accident at a Sigachi manufacturing facility on 2025-06-30 killed over 40 people; a victim's family has filed a culpable-homicide complaint alleging the company ignored repeated warnings about unsafe, outdated machinery. This is a severe, unresolved legal/regulatory/reputational overhang, compounded by a 2023 auditor-independence controversy.",
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "conviction": "Low",
+  "catalyst": {
+    "event": "Q2 FY27 results (Sep-Oct 2026) - margin deterioration to 6.78% signals operational stress; safety/legal overhang persists",
+    "expected_window_months": 3,
+    "window_start": "2026-10-01",
+    "is_dated": true,
+    "status": "pending"
+  },
+  "four_box": {
+    "score": 1.0
+  }
 }

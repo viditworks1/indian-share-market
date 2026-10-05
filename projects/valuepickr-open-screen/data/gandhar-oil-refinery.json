@@ -71,9 +71,9 @@
     "chain": [
       "Global/Middle East base oil supply disruption (geopolitical)",
       "Agile sourcing: switch to South Korea, domestic suppliers at opportunistic prices",
-      "Margin spread expansion: Rs 8,274 → Rs 28,145/kl (3.4x YoY)",
+      "Margin spread expansion: Rs 8,274 \u2192 Rs 28,145/kl (3.4x YoY)",
       "PHPO +18%, PIO +28% growth on steady volume base",
-      "PAT Rs 26 cr → Rs 206 cr (+688% YoY, highest quarterly profit ever)",
+      "PAT Rs 26 cr \u2192 Rs 206 cr (+688% YoY, highest quarterly profit ever)",
       "Debt-free balance sheet, 100% interim dividend declared"
     ],
     "bottleneck_link": "Geopolitical normalization and margin reversion to historical 5-8% EBITDA range (current 16.2% is peak cycle)",
@@ -96,7 +96,7 @@
     "current_pe": 8.1,
     "current_ev_ebitda": null,
     "valuation_tool": "P/E",
-    "implied_growth_cagr": "8.1x P/E on Q1 FY27 PAT (Rs 206 cr quarterly annualized Rs ~824 cr) implies market is pricing a dramatic margin reversion. Realistic trajectory: Q1 margin (16.2% EBITDA) → Q2 sustained → H2 normalizes to 7-10%",
+    "implied_growth_cagr": "8.1x P/E on Q1 FY27 PAT (Rs 206 cr quarterly annualized Rs ~824 cr) implies market is pricing a dramatic margin reversion. Realistic trajectory: Q1 margin (16.2% EBITDA) \u2192 Q2 sustained \u2192 H2 normalizes to 7-10%",
     "our_fy27_estimate": "FY27 PAT: Rs 350-400 cr (vs Rs 137 cr FY26, +155-190% growth driven by high Q1 + normalized margin path Q2-Q4)",
     "our_fy28_estimate": "FY28 PAT: Rs 280-320 cr (volume +8-10%, margin normalized to 7-9% EBITDA, no geopolitical premium)",
     "gap_direction": "over-pessimistic",
@@ -107,10 +107,9 @@
     "data_caveat": "Current P/E from Yahoo Finance Oct 2, 2026; management cautious on 'sustaining margins' for '1-2 quarters', implying half-year visibility; historical CRISIL industry margin 5-8% used as normalization anchor"
   },
   "catalyst": {
-    "event": "Q2 FY27 concall and margin print; geopolitical developments (Hormuz Strait reopening, peace talks); AGOA extension or South Africa entry announcement",
-    "expected_window_months": 12,
-    "window_start": "2026-10-02",
-    "evidence_quality": "high",
+    "event": "Q2 FY27 margin print (Oct 2026) - sustain Q1 FY27 profit momentum (692% YoY growth to \u20b9206 Cr); refining margin cycle validation",
+    "expected_window_months": 2,
+    "window_start": "2026-10-01",
     "is_dated": true,
     "status": "pending"
   },
@@ -141,5 +140,6 @@
     "capex_efficiency": "unknown",
     "assessment": "unverified"
   },
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "conviction": "Medium-High"
 }
