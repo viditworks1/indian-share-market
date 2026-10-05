@@ -772,5 +772,6 @@
     "old_json": "research/scripts/data/vaxfab-enterprises.json"
   },
   "_readme": "Frozen 2026-08-15 verdicts from the original 108-stock screen, moved out of state.json by migrate_legacy_verdicts.py. Keyed by state.json slug. Read-only reference for vpscreen-scan Step 3.05; re-derive conviction fresh, never copy these.",
-  "last_post_number_analyzed": 0
+  "last_post_number_analyzed": 0,
+  "master_score": 0
 }

@@ -1,7 +1,7 @@
 {
   "generated": "5 Oct 2026",
   "as_of_date": "5 Oct 2026",
-  "source": "confluence100.json top10_investable, conviction ≥58, confidence-proportional weights, 12.5% single-name cap, market-regime-adjusted cash floor (12% this cycle).",
+  "source": "confluence100.json top10_investable, conviction \u226558, confidence-proportional weights, 12.5% single-name cap, market-regime-adjusted cash floor (12% this cycle).",
   "market_regime": {
     "resolved": true,
     "downtrend": false,
@@ -95,7 +95,7 @@
       "is_extended": false,
       "weight_pct": 19.650485436893202,
       "confidence_pct": 61,
-      "conviction_boost": "×1.15 (high conviction 81.4)"
+      "conviction_boost": "\u00d71.15 (high conviction 81.4)"
     },
     {
       "rank": 7,
@@ -153,7 +153,7 @@
       "market_cap_tier": "large-cap",
       "thesis_fit": "neither",
       "thesis_eligible": false,
-      "tagline": "A large-cap branded-generics compounder with primary filings that confirm the quality — FY26 crossed Rs 5,000 Cr revenue / Rs 1,000 Cr PAT and Q1 FY27 accelerat",
+      "tagline": "A large-cap branded-generics compounder with primary filings that confirm the quality \u2014 FY26 crossed Rs 5,000 Cr revenue / Rs 1,000 Cr PAT and Q1 FY27 accelerat",
       "symbol": "AJANTPHARM.NS",
       "technical": "Above 30W-EMA +6.1%",
       "relative_strength": "RS +10.0pp vs Nifty 500 (13w)",
@@ -219,5 +219,6 @@
     }
   ],
   "cash_pct": 12.0,
-  "cash_floor_pct": 12
+  "cash_floor_pct": 12,
+  "master_score": 0
 }
