@@ -1,8 +1,8 @@
 {
   "date_compiled": "2026-10-05",
   "method": "playbook/guidance-and-expectation-gap.md \u00b7 formula in this script's docstring and scripts/GUIDANCE_EXPECTATION_SCHEMA.md",
-  "scored_count": 324,
-  "not_assessed_count": 681,
+  "scored_count": 326,
+  "not_assessed_count": 685,
   "ranked": [
     {
       "slug": "vaibhav-global-vertically-integrated-value-e",
@@ -5260,43 +5260,6 @@
       }
     },
     {
-      "slug": "aeroflex-industries",
-      "name": "Aeroflex Industries Ltd",
-      "expectation_gap_score": 5.48,
-      "conviction_score": 74.62,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "red_flag_tier": null,
-      "market_cap_tier": "Small/Mid-cap (~Rs 7,174 Cr)",
-      "gap_direction": "priced-in",
-      "gap_type": null,
-      "gap_magnitude_pct": null,
-      "evidence_quality": null,
-      "catalyst_event": "15,000-unit skid capacity commissioning (Oct-Nov 2026) + Q3/Q4 FY27 prints showing skid utilisation 60-70% and margin toward 25%",
-      "catalyst_window_months": 6,
-      "catalyst_window_start": "2026-08-30",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": true,
-      "risk_open_spof_count": 3,
-      "risk_open_spofs": [
-        "hyperscaler / vertiv demand",
-        "machine-supplier delivery timing",
-        "single downstream customer concentration"
-      ],
-      "flags": [
-        "priced-in"
-      ],
-      "score_breakdown": {
-        "gap_points": 4.0,
-        "gap_frac": 0.1,
-        "evidence_q": 0.05,
-        "catalyst_q": 1.0,
-        "timing_q": 1.0,
-        "risk_q": 0.2,
-        "quality": 0.548
-      }
-    },
-    {
       "slug": "kalyani-cast",
       "name": "Kalyani Cast-Tech Ltd: Riding the Growth Wave with Ambitious Leap into Wagon & Container Manufacturing",
       "expectation_gap_score": 5.38,
@@ -5779,6 +5742,41 @@
       }
     },
     {
+      "slug": "vimta-labs",
+      "name": "Vimta Labs",
+      "expectation_gap_score": 5.17,
+      "conviction_score": 49.0,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small-cap (~Rs 2,559 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "valuation",
+      "gap_magnitude_pct": 0,
+      "evidence_quality": "medium",
+      "catalyst_event": "Q3 FY27 results (expected Jan 2027) and concall to provide concrete biologics revenue contribution, customer pipeline update, and FY28 margin guidance",
+      "catalyst_window_months": 4,
+      "catalyst_window_start": "2026-10-05",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 1,
+      "risk_open_spofs": [
+        "slower-than-expected customer adoption or regulatory delays"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.05,
+        "catalyst_q": 0.6,
+        "timing_q": 1.0,
+        "risk_q": 0.8,
+        "quality": 0.517
+      }
+    },
+    {
       "slug": "walchandnagar-industries",
       "name": "Walchandnagar Industries | Return of a Golden Era",
       "expectation_gap_score": 5.02,
@@ -5883,6 +5881,42 @@
         "timing_q": 0.75,
         "risk_q": 0.65,
         "quality": 0.46
+      }
+    },
+    {
+      "slug": "emmvee-photovoltaic-power",
+      "name": "Emmvee Photovoltaic Power",
+      "expectation_gap_score": 4.58,
+      "conviction_score": 59.0,
+      "conviction": "High",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 21,179 Cr)",
+      "gap_direction": "priced-in",
+      "gap_type": "valuation",
+      "gap_magnitude_pct": 0,
+      "evidence_quality": "high",
+      "catalyst_event": "H1 FY27 results and concall (expected Nov 2026) to confirm if working capital is normalizing and FCF turning positive; order book visibility for rest of FY27",
+      "catalyst_window_months": 1,
+      "catalyst_window_start": "2026-10-05",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "demand slowdown forcing inventory build-up, customer concentration forcing extended terms",
+        "india solar targets delayed, global competition from chinese imports, policy reversal"
+      ],
+      "flags": [
+        "priced-in"
+      ],
+      "score_breakdown": {
+        "gap_points": 4.0,
+        "gap_frac": 0.1,
+        "evidence_q": 0.05,
+        "catalyst_q": 0.6,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.457
       }
     },
     {
@@ -8848,43 +8882,6 @@
       }
     },
     {
-      "slug": "emmvee-photovoltaic-power",
-      "name": "Emmvee Photovoltaic Power Ltd",
-      "expectation_gap_score": 0,
-      "conviction_score": 63.25,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "red_flag_tier": null,
-      "market_cap_tier": "Mid-cap",
-      "gap_direction": "over-optimistic",
-      "gap_type": "margin",
-      "gap_magnitude_pct": null,
-      "evidence_quality": "strong",
-      "catalyst_event": "6 GW integrated TOPCon module line commissioning (Dec-2026) and first cell-line ramp quarter (Mar-2027), plus any visible module/cell ASP softening as industry-wide capacity comes online",
-      "catalyst_window_months": 15,
-      "catalyst_window_start": "2026-09-18",
-      "catalyst_status_effective": "pending",
-      "catalyst_is_dated": true,
-      "risk_open_spof_count": 3,
-      "risk_open_spofs": [
-        "almm policy staying in force / no faster-than-expected price erosion",
-        "cell-line commissioning (mar-2027) driving full utilisation",
-        "single large buyer concentration on this specific order"
-      ],
-      "flags": [
-        "no-edge"
-      ],
-      "score_breakdown": {
-        "gap_points": 0.0,
-        "gap_frac": 0.0,
-        "evidence_q": 1.0,
-        "catalyst_q": 0.65,
-        "timing_q": 0.45,
-        "risk_q": 0.2,
-        "quality": 0.665
-      }
-    },
-    {
       "slug": "hind-rectifiers",
       "name": "Hind Rectifiers Ltd (HIRECT)",
       "expectation_gap_score": 0,
@@ -9099,6 +9096,42 @@
       }
     },
     {
+      "slug": "aeroflex-industries",
+      "name": "Aeroflex Industries",
+      "expectation_gap_score": 0,
+      "conviction_score": 49.0,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Small/Mid-cap (~Rs 7,174 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "valuation",
+      "gap_magnitude_pct": 150,
+      "evidence_quality": "medium",
+      "catalyst_event": "H1 FY27 results and Q2 concall to confirm if Q1's +72% is sustainable; any guidance for FY27 revenue/ROCE recovery",
+      "catalyst_window_months": 2,
+      "catalyst_window_start": "2026-10-05",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "capex delays pushing returns beyond fy28",
+        "recession, capex delays, commodity deflation"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.05,
+        "catalyst_q": 0.6,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.457
+      }
+    },
+    {
       "slug": "frontier-springs",
       "name": "Frontier Springs",
       "expectation_gap_score": 0,
@@ -9240,6 +9273,42 @@
         "timing_q": 0.75,
         "risk_q": 0.4,
         "quality": 0.589
+      }
+    },
+    {
+      "slug": "indegene",
+      "name": "Indegene",
+      "expectation_gap_score": 0,
+      "conviction_score": 39.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "red_flag_tier": null,
+      "market_cap_tier": "Mid-cap (~Rs 14,300 Cr)",
+      "gap_direction": "over-optimistic",
+      "gap_type": "valuation",
+      "gap_magnitude_pct": 25,
+      "evidence_quality": "medium",
+      "catalyst_event": "Q2 FY27 results and concall (Oct 30, 2026 expected) to clarify if profit margin compression is temporary or structural; management guidance on profit recovery path critical",
+      "catalyst_window_months": 1,
+      "catalyst_window_start": "2026-10-05",
+      "catalyst_status_effective": "pending",
+      "catalyst_is_dated": false,
+      "risk_open_spof_count": 2,
+      "risk_open_spofs": [
+        "continued margin compression or customer concentration loss",
+        "further pricing erosion or wage inflation"
+      ],
+      "flags": [
+        "no-edge"
+      ],
+      "score_breakdown": {
+        "gap_points": 0.0,
+        "gap_frac": 0.0,
+        "evidence_q": 0.05,
+        "catalyst_q": 0.6,
+        "timing_q": 1.0,
+        "risk_q": 0.4,
+        "quality": 0.457
       }
     },
     {
@@ -11363,6 +11432,13 @@
       "thesis_fit": "neither"
     },
     {
+      "slug": "vikram-solar-ltd",
+      "name": "Vikram Solar Ltd",
+      "conviction_score": 35.0,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years IF margins recover"
+    },
+    {
       "slug": "music-broadcast",
       "name": "Music Broadcast Limited (Radio City)",
       "conviction_score": 34.0,
@@ -11977,6 +12053,13 @@
       "conviction_score": 25.0,
       "conviction": "Medium",
       "thesis_fit": "neither"
+    },
+    {
+      "slug": "sudeep-pharma-ltd",
+      "name": "Sudeep Pharma Ltd",
+      "conviction_score": 25.0,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years IF margins durable"
     },
     {
       "slug": "navin-fluorine-international",
@@ -14961,6 +15044,13 @@
       "thesis_fit": "neither"
     },
     {
+      "slug": "oval-projects-engineering-ltd",
+      "name": "Oval Projects Engineering Ltd",
+      "conviction_score": 8.0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
+    },
+    {
       "slug": "abs-marine-services",
       "name": "ABS Marine Services Ltd",
       "conviction_score": 7.48,
@@ -16107,6 +16197,13 @@
       "conviction_score": 0,
       "conviction": null,
       "thesis_fit": null
+    },
+    {
+      "slug": "trualt-bioenergy-ltd",
+      "name": "TruAlt Bioenergy Ltd",
+      "conviction_score": 0,
+      "conviction": "Low",
+      "thesis_fit": "neither"
     }
   ],
   "catalyst_calendar": [
@@ -16142,6 +16239,28 @@
       "status_effective": "pending",
       "expectation_gap_score": 35.41,
       "conviction_score": 40.46
+    },
+    {
+      "slug": "emmvee-photovoltaic-power",
+      "name": "Emmvee Photovoltaic Power",
+      "event": "H1 FY27 results and concall (expected Nov 2026) to confirm if working capital is normalizing and FCF turning positive; order book visibility for rest of FY27",
+      "target_date": "2026-11-04",
+      "window_months": 1,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 4.58,
+      "conviction_score": 59.0
+    },
+    {
+      "slug": "indegene",
+      "name": "Indegene",
+      "event": "Q2 FY27 results and concall (Oct 30, 2026 expected) to clarify if profit margin compression is temporary or structural; management guidance on profit recovery path critical",
+      "target_date": "2026-11-04",
+      "window_months": 1,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 39.0
     },
     {
       "slug": "devson-catalyst-ltd",
@@ -16208,6 +16327,17 @@
       "status_effective": "pending",
       "expectation_gap_score": 15.81,
       "conviction_score": 10.58
+    },
+    {
+      "slug": "aeroflex-industries",
+      "name": "Aeroflex Industries",
+      "event": "H1 FY27 results and Q2 concall to confirm if Q1's +72% is sustainable; any guidance for FY27 revenue/ROCE recovery",
+      "target_date": "2026-12-05",
+      "window_months": 2,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 0,
+      "conviction_score": 49.0
     },
     {
       "slug": "jasch-industries",
@@ -16364,6 +16494,17 @@
       "conviction_score": 62.51
     },
     {
+      "slug": "vimta-labs",
+      "name": "Vimta Labs",
+      "event": "Q3 FY27 results (expected Jan 2027) and concall to provide concrete biologics revenue contribution, customer pipeline update, and FY28 margin guidance",
+      "target_date": "2027-02-04",
+      "window_months": 4,
+      "is_dated": false,
+      "status_effective": "pending",
+      "expectation_gap_score": 5.17,
+      "conviction_score": 49.0
+    },
+    {
       "slug": "vaibhav-global-vertically-integrated-value-e",
       "name": "Vaibhav Global ~ Vertically integrated value e-tailer of Jewellery and Lifestyle Products",
       "event": "H2 FY27 prints (Nov 2026 / Feb 2027) showing EBITDA margin sustaining toward 12%+ and digital mix crossing 50% of B2C",
@@ -16395,17 +16536,6 @@
       "status_effective": "pending",
       "expectation_gap_score": 32.72,
       "conviction_score": 34.42
-    },
-    {
-      "slug": "aeroflex-industries",
-      "name": "Aeroflex Industries Ltd",
-      "event": "15,000-unit skid capacity commissioning (Oct-Nov 2026) + Q3/Q4 FY27 prints showing skid utilisation 60-70% and margin toward 25%",
-      "target_date": "2027-03-01",
-      "window_months": 6,
-      "is_dated": true,
-      "status_effective": "pending",
-      "expectation_gap_score": 5.48,
-      "conviction_score": 74.62
     },
     {
       "slug": "salzer-electronics",
@@ -18551,17 +18681,6 @@
       "status_effective": "pending",
       "expectation_gap_score": 23.34,
       "conviction_score": 32.62
-    },
-    {
-      "slug": "emmvee-photovoltaic-power",
-      "name": "Emmvee Photovoltaic Power Ltd",
-      "event": "6 GW integrated TOPCon module line commissioning (Dec-2026) and first cell-line ramp quarter (Mar-2027), plus any visible module/cell ASP softening as industry-wide capacity comes online",
-      "target_date": "2027-12-19",
-      "window_months": 15,
-      "is_dated": true,
-      "status_effective": "pending",
-      "expectation_gap_score": 0,
-      "conviction_score": 63.25
     },
     {
       "slug": "agi-greenpac",

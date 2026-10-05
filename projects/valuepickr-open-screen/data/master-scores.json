@@ -1,9 +1,9 @@
 {
   "method": "Composite of conviction_score/quality_score/expectation_gap_score/consistency_score/asymmetry_score, weighted 0.25/0.25/0.20/0.15/0.15 and renormalized over whichever are present. Formula + investor research in MASTER_SCORE_METHODOLOGY.md.",
-  "scored_count": 1005,
+  "scored_count": 1011,
   "not_assessed_count": 0,
-  "consistency_score_coverage": 205,
-  "asymmetry_score_coverage": 282,
+  "consistency_score_coverage": 207,
+  "asymmetry_score_coverage": 284,
   "ranked": [
     {
       "slug": "p-e-analytics",
@@ -426,6 +426,34 @@
       }
     },
     {
+      "slug": "vimta-labs",
+      "name": "Vimta Labs",
+      "master_score": 54.42,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 5,
+        "years_cleared": 5,
+        "note": "FY20-FY24: Revenue growth >=10% cleared 3/5 years (failed 2020, 2024); ROCE >=15% cleared 4/5 years (only failed FY24 at 18%, which is still solid). Track record is solid; recent slowdown in revenue growth is likely cyclical (pharma R&D timing) or temporary (biologics capex absorption)."
+      },
+      "score_breakdown": {
+        "conviction_score": 49.0,
+        "quality_score": 73.0,
+        "expectation_gap_score": 5.17,
+        "consistency_score": 100,
+        "asymmetry_score": 52.59,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "prevest-denpro",
       "name": "Prevest Denpro Limited",
       "master_score": 53.52,
@@ -673,34 +701,6 @@
           "quality_score"
         ],
         "weight_coverage": 0.85
-      }
-    },
-    {
-      "slug": "aeroflex-industries",
-      "name": "Aeroflex Industries Ltd",
-      "master_score": 51.36,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 6,
-        "years_cleared": 5,
-        "note": "FY21-FY26 (screener consolidated): revenue growth >=10% in 5 of 6 years (FY21 flat at 0%); ROCE >=15% every year (36% FY21 easing to ~18.9% FY26 as the skid capex builds). Both cleared FY22-FY26 = 5/6; only FY21 missed on the flat-revenue year."
-      },
-      "score_breakdown": {
-        "conviction_score": 74.62,
-        "quality_score": 63.0,
-        "expectation_gap_score": 5.48,
-        "consistency_score": 83,
-        "asymmetry_score": 22.74,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
       }
     },
     {
@@ -1029,34 +1029,6 @@
         "expectation_gap_score": 35.52,
         "consistency_score": 0,
         "asymmetry_score": 67.76,
-        "components_used": [
-          "asymmetry_score",
-          "consistency_score",
-          "conviction_score",
-          "expectation_gap_score",
-          "quality_score"
-        ],
-        "weight_coverage": 1.0
-      }
-    },
-    {
-      "slug": "emmvee-photovoltaic-power",
-      "name": "Emmvee Photovoltaic Power Ltd",
-      "master_score": 47.81,
-      "red_flag_tier": null,
-      "conviction": "Medium-High",
-      "thesis_fit": "10x-in-2-3-years",
-      "track_record": {
-        "years_checked": 4,
-        "years_cleared": 3,
-        "note": "FY24 (+54%/28%), FY25 (+146%/45%) and FY26 (+116%, ROCE well above 15% on a 34% OPM) each cleared both filters; FY23 (+11%/7%) missed on ROCE. The record is a 3-year ALMM List-II policy super-cycle off a Rs 9 Cr FY23 PAT base, not a long history."
-      },
-      "score_breakdown": {
-        "conviction_score": 63.25,
-        "quality_score": 71.0,
-        "expectation_gap_score": 0,
-        "consistency_score": 75,
-        "asymmetry_score": 20.0,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -1563,6 +1535,34 @@
       }
     },
     {
+      "slug": "emmvee-photovoltaic-power",
+      "name": "Emmvee Photovoltaic Power",
+      "master_score": 43.66,
+      "red_flag_tier": null,
+      "conviction": "High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 7,
+        "years_cleared": 5,
+        "note": "FY20-FY26: Revenue growth >=10% cleared 5/7 years (failed FY20, FY21 due to COVID; strong since FY23). ROCE >=15% cleared 2/7 years (FY22, FY25, FY26 were strong; FY20-21, FY23-24 were weak due to scaling/capacity phase). Track record shows strong execution on revenue scaling; profitability improved sharply in FY25-26 after capex cycle matured."
+      },
+      "score_breakdown": {
+        "conviction_score": 59.0,
+        "quality_score": 56.0,
+        "expectation_gap_score": 4.58,
+        "consistency_score": 71,
+        "asymmetry_score": 22.29,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "steelcast",
       "name": "Steelcast Ltd",
       "master_score": 43.52,
@@ -2033,6 +2033,34 @@
       }
     },
     {
+      "slug": "aeroflex-industries",
+      "name": "Aeroflex Industries",
+      "master_score": 40.15,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 7,
+        "years_cleared": 6,
+        "note": "FY20-FY26: revenue growth >=10% cleared 7/7 years; ROCE >=15% cleared 5/7 years (FY20, FY21 borderline). FY25-26 ROCE decline (22% \u2192 19%) is new trend not yet confirmed as structural."
+      },
+      "score_breakdown": {
+        "conviction_score": 49.0,
+        "quality_score": 45.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 86,
+        "asymmetry_score": 25.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
       "slug": "dr-agarwal-s-eye-hospital",
       "name": "Dr Agarwal's Eye Hospital Ltd (DAEHL)",
       "master_score": 40.14,
@@ -2129,6 +2157,34 @@
         "expectation_gap_score": 0,
         "consistency_score": 33,
         "asymmetry_score": 22.0,
+        "components_used": [
+          "asymmetry_score",
+          "consistency_score",
+          "conviction_score",
+          "expectation_gap_score",
+          "quality_score"
+        ],
+        "weight_coverage": 1.0
+      }
+    },
+    {
+      "slug": "indegene",
+      "name": "Indegene",
+      "master_score": 39.55,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years",
+      "track_record": {
+        "years_checked": 7,
+        "years_cleared": 4,
+        "note": "FY20-FY26: Revenue growth >=10% cleared 7/7 years (strong delivery). But profit track record is weak: FY20 loss, FY21-FY26 growth, but recent quarters show stall. ROCE >=15% cleared only in FY24-FY26 (previously much higher but declining)."
+      },
+      "score_breakdown": {
+        "conviction_score": 39.0,
+        "quality_score": 55.0,
+        "expectation_gap_score": 0,
+        "consistency_score": 57,
+        "asymmetry_score": 50.0,
         "components_used": [
           "asymmetry_score",
           "consistency_score",
@@ -3040,6 +3096,26 @@
           "expectation_gap_score"
         ],
         "weight_coverage": 0.45
+      }
+    },
+    {
+      "slug": "vikram-solar-ltd",
+      "name": "Vikram Solar Ltd",
+      "master_score": 35.0,
+      "red_flag_tier": null,
+      "conviction": "Medium-High",
+      "thesis_fit": "10x-in-2-3-years IF margins recover",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 35.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
       }
     },
     {
@@ -6592,6 +6668,26 @@
       "red_flag_tier": null,
       "conviction": "Medium",
       "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 25.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
+      "slug": "sudeep-pharma-ltd",
+      "name": "Sudeep Pharma Ltd",
+      "master_score": 25.0,
+      "red_flag_tier": null,
+      "conviction": "Medium",
+      "thesis_fit": "10x-in-2-3-years IF margins durable",
       "track_record": null,
       "score_breakdown": {
         "conviction_score": 25.0,
@@ -18236,6 +18332,26 @@
       }
     },
     {
+      "slug": "oval-projects-engineering-ltd",
+      "name": "Oval Projects Engineering Ltd",
+      "master_score": 8.0,
+      "red_flag_tier": null,
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 8.0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
+      }
+    },
+    {
       "slug": "sg-finserve",
       "name": "SG Finserve Ltd",
       "master_score": 7.91,
@@ -22562,6 +22678,26 @@
           "quality_score"
         ],
         "weight_coverage": 0.5
+      }
+    },
+    {
+      "slug": "trualt-bioenergy-ltd",
+      "name": "TruAlt Bioenergy Ltd",
+      "master_score": 0,
+      "red_flag_tier": "HIGH CAUTION",
+      "conviction": "Low",
+      "thesis_fit": "neither",
+      "track_record": null,
+      "score_breakdown": {
+        "conviction_score": 0,
+        "quality_score": null,
+        "expectation_gap_score": null,
+        "consistency_score": null,
+        "asymmetry_score": null,
+        "components_used": [
+          "conviction_score"
+        ],
+        "weight_coverage": 0.25
       }
     }
   ],

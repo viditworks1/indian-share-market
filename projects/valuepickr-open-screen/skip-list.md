@@ -337,7 +337,6 @@ Generated: 2026-10-05
 | Venus Remedies | 2026-09-28 | 2026-10-28 | Medium-High |
 | Sambhv Steel Tubes | 2026-09-28 | 2026-10-28 | Low |
 | Macpower CNC Machines: Manufacturing a Strong Growth? | 2026-09-28 | 2026-10-28 | Low |
-| Aeroflex Industries Ltd | 2026-09-28 | 2026-10-28 | Medium-High |
 | 3B Blackbio DX Ltd | 2026-09-28 | 2026-10-28 | High |
 | TD Power Systems | 2026-09-28 | 2026-10-28 | Medium-High |
 | Time Technoplast | 2026-09-28 | 2026-10-28 | Low |
@@ -359,7 +358,6 @@ Generated: 2026-10-05
 | Sudeep Pharma Ltd | 2026-09-28 | 2026-10-28 | Low-Medium |
 | Bliss GVS Pharma Ltd | 2026-09-28 | 2026-10-28 | Medium |
 | Cummins India Ltd | 2026-09-28 | 2026-10-28 | High |
-| Emmvee Photovoltaic Power Ltd | 2026-09-28 | 2026-10-28 | Medium-High |
 | Shaily Engineering Plastics Ltd | 2026-09-28 | 2026-10-28 | Medium |
 | Raghav Productivity Solutions | 2026-09-28 | 2026-10-28 | Medium |
 | Titagarh Rail Systems | 2026-10-01 | 2026-10-31 | Low |

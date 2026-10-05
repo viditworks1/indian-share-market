@@ -39,45 +39,6 @@
     }
   },
   {
-    "slug": "aeroflex-industries",
-    "name": "Aeroflex Industries Ltd",
-    "conviction_score": 74.62,
-    "own_conviction": 52.25,
-    "trusted_lift": 22.37,
-    "conviction": "Medium-High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 63.0,
-    "market_cap_tier": "Small/Mid-cap (~Rs 7,174 Cr)",
-    "red_flag_tier": null,
-    "source": "trusted-thread",
-    "score_breakdown": {
-      "own_conviction": 52.25,
-      "trusted_lift": 22.37,
-      "base_anchor": 35,
-      "thesis_bonus": 14,
-      "quality_lift": 3.25,
-      "management_component": 0.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 22.37,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 22.37,
-        "pos_raw": 22.37,
-        "pos_capped": 22.37,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 3,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 2,
-        "source": "ledger"
-      },
-      "distinct_trusted_users": 2,
-      "management_quality": null
-    }
-  },
-  {
     "slug": "acutaas-chemicals",
     "name": "Acutaas Chemicals Ltd (Erst. Ami Organics Ltd)",
     "conviction_score": 68.47,
@@ -248,51 +209,6 @@
         "capital_allocation_track_record": "disciplined",
         "rpt_trend": "flat",
         "shareholder_returns": "unclear"
-      }
-    }
-  },
-  {
-    "slug": "emmvee-photovoltaic-power",
-    "name": "Emmvee Photovoltaic Power Ltd",
-    "conviction_score": 63.25,
-    "own_conviction": 63.25,
-    "trusted_lift": 0.0,
-    "conviction": "Medium-High",
-    "thesis_fit": "10x-in-2-3-years",
-    "quality_score": 71.0,
-    "market_cap_tier": "Mid-cap",
-    "red_flag_tier": null,
-    "source": "external-lead",
-    "score_breakdown": {
-      "own_conviction": 63.25,
-      "trusted_lift": 0.0,
-      "base_anchor": 35,
-      "thesis_bonus": 14,
-      "quality_lift": 5.25,
-      "management_component": 9.0,
-      "red_flag_penalty": 0,
-      "red_flag_forced_zero": false,
-      "trusted_signal_component": 0.0,
-      "trusted_lift_neg_floor_applied": false,
-      "trusted_signal_detail": {
-        "value": 0.0,
-        "pos_raw": 0,
-        "pos_capped": 0,
-        "neg_raw": 0.0,
-        "neg_capped": 0.0,
-        "n_positive_signals": 0,
-        "n_exit_signals": 0,
-        "n_trim_signals": 0,
-        "distinct_trusted_users": 0,
-        "source": "none"
-      },
-      "distinct_trusted_users": 0,
-      "management_quality": {
-        "assessment": "positive",
-        "guidance_credibility": "no-track-record",
-        "capital_allocation_track_record": "disciplined",
-        "rpt_trend": "unclear",
-        "shareholder_returns": "none"
       }
     }
   },
@@ -693,6 +609,51 @@
       },
       "distinct_trusted_users": 2,
       "management_quality": null
+    }
+  },
+  {
+    "slug": "emmvee-photovoltaic-power",
+    "name": "Emmvee Photovoltaic Power",
+    "conviction_score": 59.0,
+    "own_conviction": 59.0,
+    "trusted_lift": 0.0,
+    "conviction": "High",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": null,
+    "market_cap_tier": "Mid-cap (~Rs 21,179 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 59.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 45,
+      "thesis_bonus": 14,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "Positive; management has demonstrated capital discipline and execution capability",
+        "guidance_credibility": "Mixed; Q1 FY27 beat suggests execution on track, but full-year FY27 guidance not independently verified",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "Stable; no related-party concerns found",
+        "shareholder_returns": null
+      }
     }
   },
   {
@@ -2484,6 +2445,51 @@
     }
   },
   {
+    "slug": "aeroflex-industries",
+    "name": "Aeroflex Industries",
+    "conviction_score": 49.0,
+    "own_conviction": 49.0,
+    "trusted_lift": 0.0,
+    "conviction": "Medium-High",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": null,
+    "market_cap_tier": "Small/Mid-cap (~Rs 7,174 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 49.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 35,
+      "thesis_bonus": 14,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "Neutral-to-cautious",
+        "guidance_credibility": "Mixed; Q1 FY27 beat impressive but FY27 guidance not verified",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "Stable",
+        "shareholder_returns": null
+      }
+    }
+  },
+  {
     "slug": "gufic-biosciences",
     "name": "Gufic BioSciences Ltd",
     "conviction_score": 49.0,
@@ -2525,6 +2531,51 @@
         "capital_allocation_track_record": "disciplined",
         "rpt_trend": "unclear",
         "shareholder_returns": "unclear"
+      }
+    }
+  },
+  {
+    "slug": "vimta-labs",
+    "name": "Vimta Labs",
+    "conviction_score": 49.0,
+    "own_conviction": 49.0,
+    "trusted_lift": 0.0,
+    "conviction": "Medium-High",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": null,
+    "market_cap_tier": "Small-cap (~Rs 2,559 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 49.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 35,
+      "thesis_bonus": 14,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "Neutral-to-positive; growth strategy clear and capex deployment visible",
+        "guidance_credibility": "Mixed; biologics ramp is on track per operational updates, but formal FY27 guidance not independently verified",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "Stable",
+        "shareholder_returns": null
       }
     }
   },
@@ -4371,6 +4422,51 @@
     }
   },
   {
+    "slug": "indegene",
+    "name": "Indegene",
+    "conviction_score": 39.0,
+    "own_conviction": 39.0,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years",
+    "quality_score": null,
+    "market_cap_tier": "Mid-cap (~Rs 14,300 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 39.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 14,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": {
+        "assessment": "Neutral-to-cautious; growth execution proven, but profitability management is questioned",
+        "guidance_credibility": "Mixed; Q1 FY27 profit stall was not pre-guided; management commentary on profit recovery expected in Q2 concall",
+        "capital_allocation_track_record": null,
+        "rpt_trend": "Stable; no related-party concerns found",
+        "shareholder_returns": null
+      }
+    }
+  },
+  {
     "slug": "jasch-industries",
     "name": "Jasch Industries Ltd",
     "conviction_score": 38.98,
@@ -5424,6 +5520,45 @@
         "rpt_trend": "unclear",
         "shareholder_returns": "consistent"
       }
+    }
+  },
+  {
+    "slug": "vikram-solar-ltd",
+    "name": "Vikram Solar Ltd",
+    "conviction_score": 35.0,
+    "own_conviction": 35.0,
+    "trusted_lift": 0.0,
+    "conviction": "Medium-High",
+    "thesis_fit": "10x-in-2-3-years IF margins recover",
+    "quality_score": null,
+    "market_cap_tier": "Small/Mid-cap (~Rs 5,593 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 35.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 35,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": null
     }
   },
   {
@@ -12471,6 +12606,45 @@
     "thesis_fit": "neither",
     "quality_score": null,
     "market_cap_tier": "Large-cap (~Rs 22,286 Cr)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 25.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 25,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "sudeep-pharma-ltd",
+    "name": "Sudeep Pharma Ltd",
+    "conviction_score": 25.0,
+    "own_conviction": 25.0,
+    "trusted_lift": 0.0,
+    "conviction": "Medium",
+    "thesis_fit": "10x-in-2-3-years IF margins durable",
+    "quality_score": null,
+    "market_cap_tier": "Mid-cap (~Rs 13,218 Cr, recent IPO)",
     "red_flag_tier": null,
     "source": null,
     "score_breakdown": {
@@ -33123,6 +33297,45 @@
     }
   },
   {
+    "slug": "oval-projects-engineering-ltd",
+    "name": "Oval Projects Engineering Ltd",
+    "conviction_score": 8.0,
+    "own_conviction": 8.0,
+    "trusted_lift": 0.0,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Small/Emerging (~Rs 100-300 Cr est., unlisted)",
+    "red_flag_tier": null,
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": 8.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 0,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
+      "management_quality": null
+    }
+  },
+  {
     "slug": "abs-marine-services",
     "name": "ABS Marine Services Ltd",
     "conviction_score": 7.48,
@@ -40853,6 +41066,45 @@
         "source": "fallback-scalar"
       },
       "distinct_trusted_users": 1,
+      "management_quality": null
+    }
+  },
+  {
+    "slug": "trualt-bioenergy-ltd",
+    "name": "TruAlt Bioenergy Ltd",
+    "conviction_score": 0,
+    "own_conviction": -17.0,
+    "trusted_lift": 0.0,
+    "conviction": "Low",
+    "thesis_fit": "neither",
+    "quality_score": null,
+    "market_cap_tier": "Small-cap (~Rs 3,810 Cr, recent IPO)",
+    "red_flag_tier": "HIGH CAUTION",
+    "source": null,
+    "score_breakdown": {
+      "own_conviction": -17.0,
+      "trusted_lift": 0.0,
+      "base_anchor": 8,
+      "thesis_bonus": 0,
+      "quality_lift": 0.0,
+      "management_component": 0.0,
+      "red_flag_penalty": 25,
+      "red_flag_forced_zero": false,
+      "trusted_signal_component": 0.0,
+      "trusted_lift_neg_floor_applied": false,
+      "trusted_signal_detail": {
+        "value": 0.0,
+        "pos_raw": 0,
+        "pos_capped": 0,
+        "neg_raw": 0.0,
+        "neg_capped": 0.0,
+        "n_positive_signals": 0,
+        "n_exit_signals": 0,
+        "n_trim_signals": 0,
+        "distinct_trusted_users": 0,
+        "source": "none"
+      },
+      "distinct_trusted_users": 0,
       "management_quality": null
     }
   }
