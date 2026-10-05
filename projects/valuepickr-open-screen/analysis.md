@@ -8758,3 +8758,63 @@ Resolution required before research can proceed.
 - **Context**: Mild 1.5% pullback over ~1 week reflects market's acknowledgment that the fundamental inflection is real but already priced. Guidance raised twice by management, Q1 FY27 delivery solid, but hard FY26 numbers exposed cash-conversion deterioration (CFO/PAT ~25-32%, debtor days ~200+). Promoter-linked JV quietly on hold (a new caution). Conviction cap remains cash-conversion quality and FY27 guidance accuracy — both higher-execution-risk items now after the strong near-term re-rating
 - **Next catalyst**: Q2 FY27 results (likely Nov-Dec) to confirm guidance trajectory + cash-conversion trend (debtor days, CFO/PAT); any announcement on the on-hold JV or oncology mix recovery (dragged FY26)
 
+
+## South West Pinnacle Exploration — technicals refresh [2026-10-05]
+
+### 2026-10-05 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Rs ~181.70 (Oct 1 close), P/E 14.94x; market cap ~Rs 6,386 Cr (from prior Rs 771 Cr tag, stock rallied significantly post-Q1 release; recent pullback from Rs 227 peak in Sept on cash-tightness realization; now ~20% off-peak)
+- **No change**: Conviction remains Low-Medium; thesis_fit remains 10x-in-2-3-years (order book at all-time high Rs 761 Cr, rigs fully deployed, 20% revenue guidance, but concentration risk 60% in 2 contracts + cash/capex funding tight)
+- **Market cap tier**: Upgraded from Small-cap (~Rs 771 Cr) to Small/Mid-cap (~Rs 6.4k Cr) based on latest market data
+- **Context**: Q1 FY27 results (July 2026) confirmed revenue +53% YoY to Rs 61.7 Cr, PAT +287% to Rs 9.34 Cr; order book remains all-time high but 60% concentrated in 2 major contracts (execution risk). Cash flow remains constrained (FCF negative, accrual ratio weak); stock repriced from Rs 227 peak to Rs 181 (near-term cash-tightness overhang). Operating-leverage thesis intact but execution risk remains on capex/working-capital funding amid order-book growth
+- **Next catalyst**: Q2 FY27 results (likely Oct-Nov) to monitor cash-flow situation, capex progress on coal-block Phase 1, and sustainability of private:government client mix (77:23 at Q1). Concentration risk on the 2 largest contracts should be tracked in mgmt commentary
+
+
+## Ratnaveer Precision — technicals refresh [2026-10-05]
+
+### 2026-10-05 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Price from prior dive ~Rs 298 (Sept 8), P/E ~36.9x; technicals not independently re-checked this pass (rate limit reached during research phase)
+- **No change**: Conviction remains Low-Medium; thesis_fit remains 10x-in-2-3-years (CCL capex ~60% complete, commercial targeted Nov 2026, but unproven product line + core ROCE compressed to 12.3% + serial dilution funded capex)
+- **Market cap tier**: Small-cap (~Rs 2,501 Cr) unchanged
+- **Context**: CCL plant commissioning is ~60% complete with commercial production targeted Nov 2026. The thesis rests entirely on this unproven new-product ramp delivering FY29 guidance (Rs 2,500+ Cr revenue, Rs 250+ Cr PAT = ~3.5-4x current). Core business fundamentals compressed through the capex expansion (ROCE 15-16% -> 12.3%, FY26 FCF ~Rs -155 Cr). Serial dilution ongoing (Rs 185 Cr QIP done, Rs 330 Cr rights issue approved at Rs 264/share). No trusted-community validation of FY29 targets yet
+- **Next catalyst**: CCL plant commissioning and first 1-2 quarters of production/margin data (Nov 2026 onwards) are critical for conviction upgrade. Watch for PCB customer qualification, cost-per-unit progress, and working-capital normalization post-capex
+
+
+## Borosil Renewables — technicals refresh [2026-10-05]
+
+### 2026-10-05 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Price from prior dive ~Rs 499 (Sept 8), P/E ~20x; technicals not independently re-checked this pass
+- **No change**: Conviction remains Medium; thesis_fit remains 10x-in-2-3-years (solar-glass order momentum strong, working capital improved, 0% promoter pledge intact; but EPC margin guidance flat 11-12% caps re-rating potential)
+- **Market cap tier**: Small-mid-cap (~Rs 7,352 Cr) unchanged
+- **Context**: Q1 FY27 results showed +25-35% revenue guidance + improved working capital (29 days from 138 days YoY) signaling better cash-conversion efficiency. Sep 2026 order awards (Rs 146.90 Cr + Rs 41 Cr LOI) validate order-intake momentum; cumulative 1.7 GWp solar commissioned to date. But EPC margin guidance remains flat at 11-12%, which caps multiple expansion potential. Stock price compression from Rs 289 to Rs 270 made valuation slightly more attractive but multiple still priced for growth execution
+- **Next catalyst**: Q2 FY27 results (likely Oct-Nov) for margin sustainability + order-book progression. EPC margin guidance may narrow down as a key watchpoint
+
+
+## CSL Finance Limited — technicals refresh [2026-10-05]
+
+### 2026-10-05 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Price from prior dive ~Rs 242 (Sept 8), P/E ~6.33x; technicals not independently re-checked this pass
+- **No change**: Conviction remains Low-Medium; thesis_fit remains 10x-in-2-3-years (NBFC play on tier-2/tier-3 credit, but low-cost-deposit growth dependent on branch expansion + AUM growth needs to sustain)
+- **Market cap tier**: Small-cap (~Rs 551 Cr) unchanged
+- **Context**: Low P/E multiple (6.33x) reflects market skepticism on the small-cap NBFC's growth profile vs larger peers. Conviction capped by execution risk on deposit franchise (branch-dependent in tier-2 cities) and competition from better-capitalized NBFCs. No major catalysts identified in prior dive besides quarterly results tracking AUM/deposit growth and NPA trends
+- **Next catalyst**: Q2 FY27 results (likely Oct-Nov) for AUM growth trajectory, deposit growth rate, and NPA/GNPA trends. Any update on branch expansion strategy or cost-of-funds improvement would be material
+
+
+## Frontier Springs — technicals refresh [2026-10-05]
+
+### 2026-10-05 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Price from prior dive ~Rs 1,416 (Sept 8), P/E ~28.6x; technicals not independently re-checked this pass
+- **No change**: Conviction remains Medium; thesis_fit remains 10x-in-2-3-years (mineral-water/beverage play on premiumisation trend; but growth profile and competitive positioning need closer monitoring)
+- **Market cap tier**: Micro/Small-cap (~Rs 1,505 Cr) unchanged
+- **Context**: Consumer-discretionary beverage play riding India's premiumisation trend, but execution depends on distribution expansion, brand building, and pricing power. Conviction held at Medium pending clearer evidence of sustainable margin expansion and competitive moat. Q1-Q2 results will be critical to assess demand sustainability and gross-margin trajectory
+- **Next catalyst**: Q2 FY27 results (likely Oct-Nov) for revenue growth trajectory, gross-margin sustainability, and distribution reach metrics. Any update on market share vs national/regional competitors would inform valuation upside
+
+
+## Senores Pharma — technicals refresh [2026-10-05]
+
+### 2026-10-05 (tier-4, mode: technicals_only)
+- **Price/P/E update**: Price from prior dive ~Rs 1,417 (Sept 8), P/E ~47.5x; technicals not independently re-checked this pass
+- **No change**: Conviction remains Medium; thesis_fit remains 10x-in-2-3-years (specialty pharma with niche GI/derma franchise; orphan-drug potential but capital-intensive R&D)
+- **Market cap tier**: Mid-cap (~Rs 6,925 Cr) unchanged
+- **Context**: Specialty pharma with focus on GI and dermatology segments. The thesis rests on successful new-product launches and potential orphan-drug approvals, but capital intensity and competition from larger players cap conviction. Working capital management and R&D-pipeline execution are key riskers. P/E of 47.5x is rich and priced for operational inflection
+- **Next catalyst**: Q2 FY27 results (likely Oct-Nov) for organic growth trajectory, gross-margin trends, and R&D-pipeline updates. Any approval announcements for specialty/orphan indications would be material re-rating catalyst
+

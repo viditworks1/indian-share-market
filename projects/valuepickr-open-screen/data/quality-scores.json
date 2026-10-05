@@ -8358,34 +8358,6 @@
       }
     },
     {
-      "slug": "fiem-industries-auto-ancillary-player",
-      "name": "FIEM industries : auto ancillary player",
-      "quality_score": 0,
-      "conviction_score": 16.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
       "slug": "orchid-pharma-ltd",
       "name": "Orchid Pharma Ltd",
       "quality_score": 4.0,
@@ -8785,6 +8757,34 @@
       }
     },
     {
+      "slug": "fiem-industries-auto-ancillary-player",
+      "name": "FIEM industries : auto ancillary player",
+      "quality_score": 0,
+      "conviction_score": 11.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
       "slug": "gmm-pfaudler-ias2026",
       "name": "GMM Pfaudler",
       "quality_score": 9.0,
@@ -8810,90 +8810,6 @@
         "margin_component": 0,
         "capex_component": 0,
         "raw": 9,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "shree-hari-chemicals",
-      "name": "Shree Hari Chemicals",
-      "quality_score": 0,
-      "conviction_score": 8.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "active-clothing-co",
-      "name": "Active Clothing Co Ltd",
-      "quality_score": 0,
-      "conviction_score": 8.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
-        "red_flag_multiplier": 1.0
-      }
-    },
-    {
-      "slug": "bodal-chemical",
-      "name": "Bodal Chemical Ltd",
-      "quality_score": 0,
-      "conviction_score": 8.0,
-      "red_flag_tier": null,
-      "roce_pct": null,
-      "roce_trend": "unknown",
-      "net_debt_to_ebitda": null,
-      "interest_coverage": null,
-      "fcf_conversion_pct": null,
-      "margin_trend": "unknown",
-      "capex_efficiency": "unknown",
-      "assessment": "unverified",
-      "flags": [
-        "no-roce-data"
-      ],
-      "score_breakdown": {
-        "roce_component": 0,
-        "debt_component": 0,
-        "debt_component_source": null,
-        "fcf_component": 0,
-        "margin_component": 0,
-        "capex_component": 0,
-        "raw": 0,
         "red_flag_multiplier": 1.0
       }
     },
@@ -9237,6 +9153,90 @@
     {
       "slug": "saatvik-green",
       "name": "Saatvik green-can the company bloom with the sun",
+      "quality_score": 0,
+      "conviction_score": 3.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "shree-hari-chemicals",
+      "name": "Shree Hari Chemicals",
+      "quality_score": 0,
+      "conviction_score": 3.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "active-clothing-co",
+      "name": "Active Clothing Co Ltd",
+      "quality_score": 0,
+      "conviction_score": 3.0,
+      "red_flag_tier": null,
+      "roce_pct": null,
+      "roce_trend": "unknown",
+      "net_debt_to_ebitda": null,
+      "interest_coverage": null,
+      "fcf_conversion_pct": null,
+      "margin_trend": "unknown",
+      "capex_efficiency": "unknown",
+      "assessment": "unverified",
+      "flags": [
+        "no-roce-data"
+      ],
+      "score_breakdown": {
+        "roce_component": 0,
+        "debt_component": 0,
+        "debt_component_source": null,
+        "fcf_component": 0,
+        "margin_component": 0,
+        "capex_component": 0,
+        "raw": 0,
+        "red_flag_multiplier": 1.0
+      }
+    },
+    {
+      "slug": "bodal-chemical",
+      "name": "Bodal Chemical Ltd",
       "quality_score": 0,
       "conviction_score": 3.0,
       "red_flag_tier": null,
