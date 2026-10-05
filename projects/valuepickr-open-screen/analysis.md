@@ -9004,3 +9004,11 @@ Conviction remains **Medium** (not Medium-High) because: (a) ROCE still structur
 
 ---
 
+
+## Pass 2 Technicals Refresh (2026-10-05)
+
+**Ratnaveer Precision (Rank 90):** Price Rs 298 → Rs 339 (+13.8%); P/E expanded 36.9x → 42.2x; CCL commissioning thesis unchanged; conviction Low-Medium held | conviction_held
+**Frontier Springs (Rank 91):** Price stable Rs 1,416; P/E 28.6x; Q1 FY27 growth-inflection broken (revenue +4% YoY, PAT -18%); conviction Medium held | conviction_held
+**CSL Finance Limited (Rank 93):** Price stable Rs 242; P/B 0.89x (below book); PAT growth decelerated Q1 FY27 (+3.8% vs +19.4% FY26); conviction Low-Medium held | conviction_held
+**Senores Pharma (Rank 94):** Price stable Rs 1,417; P/E 47.5x trailing; FY26 FCF ~-Rs 203 Cr (cash-burn risk unresolved); conviction Medium held | conviction_held
+**Bliss GVS Pharma Ltd (Rank 95):** Price Rs 671 → Rs 684-689 (+2%); P/E 53x → 62.7x (escalating); governance deal with Anupam Rasayan at Rs 299 unchanged; conviction Medium held | conviction_held
